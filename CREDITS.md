@@ -20,3 +20,7 @@ O responsável pelo repositório de destino informou nesta conversa que o autor 
 Este registro documenta a autorização relatada pelo responsável. Não é uma declaração de licença pública do repositório original nem uma concessão de sublicenciamento a terceiros. Não foi criado um arquivo LICENSE atribuindo uma licença não informada. Recomenda-se guardar o comprovante da autorização com os registros do projeto.
 
 Os documentos e questões de terceiros têm proveniência e condições próprias, independentes da autorização de uso do código.
+
+## Identidade visual
+
+A logo tipográfica **Questionador**, em azul escuro com perna do Q verde e contorno branco, foi criada para o Questionador Concursos com geração de imagem a pedido do responsável pelo projeto. O PNG com transparência está em `docs/assets/img/questionador-logo.png` e é servido pelo próprio site, sem serviço externo durante o uso.

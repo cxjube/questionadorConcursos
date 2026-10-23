@@ -1,9 +1,9 @@
 # Como estudar e guardar o progresso
 
 1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. O objetivo disponível é Câmara — Comunicação Social — Divulgação Institucional, com 32 questões de provas anteriores relacionadas.
-2. Marque sua resposta ou **Deixar em branco**. Use **Anterior** e **Próxima** para navegar; **Próxima** é a ação principal. **Limpar marcação** remove uma escolha provisória. Você pode alterar respostas até finalizar.
+2. Marque sua resposta ou **Deixar em branco**. Use **Anterior** e **Próxima** para navegar; **Próxima** é a ação principal. Você pode trocar a alternativa ou selecionar **Deixar em branco** até finalizar.
 3. Ao sair e voltar, use **Continuar questões**. A posição e as marcações são retomadas quando o navegador permitiu o salvamento.
-4. Abra **Revisar sessão** (também é o próximo passo na última questão). Confira a lista, volte às questões que quiser e então use **Finalizar sessão** e confirme. Abrir essa revisão não encerra a tentativa. Questões sem marcação passam a brancos. A correção mostra sua resposta, gabarito definitivo, resultado e links da prova e do gabarito. Explicações indisponíveis são identificadas.
+4. Use **Finalizar sessão** em qualquer questão ou abra **Revisar sessão** para conferir a lista e voltar às questões que quiser (também é o próximo passo na última questão). A confirmação informa quantas questões ficarão em branco e inicia com foco em **Continuar respondendo**. Cancelar ou abrir a revisão não encerra a tentativa. Questões sem marcação passam a brancos. A correção mostra sua resposta, gabarito definitivo, resultado e links da prova e do gabarito. Explicações indisponíveis são identificadas.
 5. Em **Histórico e backup**, consulte sessões ou inicie **Revisar erros**, **Questões inéditas** ou **Revisar brancos**, quando disponíveis. Finalize uma sessão em andamento antes de iniciar outra.
 
 ## Como interpretar os resultados

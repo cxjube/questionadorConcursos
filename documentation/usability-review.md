@@ -1,5 +1,7 @@
 # Revisão de usabilidade — 23/10/2026
 
+> Atualização a pedido do usuário: Limpar marcação foi removido. Finalizar sessão agora também está disponível diretamente em todas as questões, como ação secundária separada de Próxima. O diálogo informa a quantidade em branco, permite cancelar e mantém o foco inicial em Continuar respondendo. O cabeçalho passou a usar uma logo criada para o projeto: Questionador em azul escuro, com perna do Q verde e contorno branco. Os registros abaixo descrevem a revisão anterior; o guia de estudo registra o fluxo vigente.
+
 A revisão responde ao uso real da primeira versão: informações de auditoria, metadados e ações secundárias competiam com a leitura, e Finalizar sessão tinha mais destaque do que Próxima.
 
 ## Decisões aplicadas

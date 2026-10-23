@@ -188,6 +188,16 @@ const StudyUI = (() => {
       view = 'review'; render(); content.focus();
       announce('Revise as marcações antes de finalizar. A sessão continua em andamento.');
     }
+    function requestFinish() {
+      const session = store.state.active;
+      if (!session || busy || store.conflict) return;
+      const answered = session.answers.filter(a => a.value !== null).length;
+      const blanks = session.items.length - answered;
+      element('finish-message').textContent = answered + ' de ' + session.items.length + ' questões com resposta. ' +
+        (blanks ? blanks + (blanks === 1 ? ' ficará em branco. ' : ' ficarão em branco. ') : '') +
+        'Ao confirmar, o gabarito será exibido e você não poderá alterar esta tentativa.';
+      element('finish-dialog').showModal();
+    }
     function sessionInfo(session) {
       const details = disclosure('session-info', 'Sobre esta sessão');
       details.append(node('p', session.objective), node('p', 'Você pode alterar as marcações até finalizar. O gabarito aparece ao final. As sessões são salvas neste navegador quando o armazenamento está disponível.'));
@@ -235,13 +245,7 @@ const StudyUI = (() => {
           label.append(input, node('span', option.text));
           (option.id === null ? tools : options).append(label);
         }
-        // Reserve the same controls before and after a choice so navigation never jumps.
-        const clear = button('Limpar marcação', async () => {
-          if (await commit({...store.state, active: {...session, answers: session.answers.filter(a => a.questionId !== q.id)}})) announce('Marcação removida.');
-          render();
-          content.querySelector('.answer-choices input')?.focus({preventScroll:true});
-        }); clear.className = 'quiet-button'; clear.disabled = Boolean(store.conflict) || !session.answers.some(a => a.questionId === q.id);
-        tools.append(clear); fieldset.append(options, tools); content.append(fieldset);
+        fieldset.append(options, tools); content.append(fieldset);
       } else {
         const result = Study.grade(item, chosen);
         const correction = node('section', undefined, 'correction ' + result);
@@ -273,10 +277,15 @@ const StudyUI = (() => {
       previous.id = 'previous-question'; next.id = 'next-question';
       next.disabled = (completed && last) || Boolean(store.conflict);
       navigation.append(previous, next); content.append(navigation);
-      if (!completed && !last) {
+      if (!completed) {
         const management = node('div', undefined, 'session-management');
-        const review = button('Revisar sessão', showReview); review.className = 'quiet-button'; review.id = 'review-study'; review.disabled = Boolean(store.conflict);
-        management.append(review); content.append(management);
+        const finish = button('Finalizar sessão', requestFinish); finish.id = 'finish-study'; finish.disabled = Boolean(store.conflict);
+        management.append(finish);
+        if (!last) {
+          const review = button('Revisar sessão', showReview); review.className = 'quiet-button'; review.id = 'review-study'; review.disabled = Boolean(store.conflict);
+          management.append(review);
+        }
+        content.append(management);
       }
       const details = disclosure('question-' + q.id, 'Origem e assuntos desta questão', 'support-details question-details');
       details.append(node('h4', 'Prova original'), node('p', item.paper.role), node('small', 'Caderno ' + item.paper.booklet + ' · questão original ' + q.origin.number));
@@ -319,10 +328,7 @@ const StudyUI = (() => {
       finishArea.append(node('p', missing ? missing + (missing === 1 ? ' questão sem marcação será registrada em branco.' : ' questões sem marcação serão registradas em branco.') : 'As marcações serão encerradas e o gabarito será exibido.'));
       const actions = node('div', undefined, 'study-actions');
       actions.append(button('Voltar às questões', () => {view = 'active'; render(); element('current-question-heading')?.focus();}));
-      const finish = button('Finalizar sessão', () => {
-        element('finish-message').textContent = 'Deseja finalizar e conferir o gabarito? ' + (missing ? missing + ' sem marcação: serão registradas em branco.' : 'Você não poderá alterar esta tentativa depois de confirmar.');
-        element('finish-dialog').showModal();
-      }, true); finish.id = 'finish-study'; finish.disabled = Boolean(store.conflict); actions.append(finish); finishArea.append(actions); content.append(finishArea);
+      const finish = button('Finalizar sessão', requestFinish, true); finish.id = 'finish-study'; finish.disabled = Boolean(store.conflict); actions.append(finish); finishArea.append(actions); content.append(finishArea);
     }
     function renderHistory() {
       const backup = disclosure('backup', 'Backup e recuperação', 'support-details backup-tools');
