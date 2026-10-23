@@ -81,7 +81,7 @@
       for (const notice of notices) {
         const item = document.createElement('li');
         const title = document.createElement('strong');
-        title.textContent = notice.title;
+        title.textContent = 'Edital nº ' + notice.number;
         const detail = document.createElement('span');
         const source = data.documents.find(doc => doc.id === notice.documentId);
         detail.textContent = notice.date.split('-').reverse().join('/') + ' · ' +
@@ -89,6 +89,7 @@
         if (source?.status === 'verified' && source.officialUrl?.startsWith('https://')) {
           const link = document.createElement('a');
           link.href = source.officialUrl;
+          link.setAttribute('aria-label', notice.title);
           link.append(title);
           item.append(link, detail);
         } else item.append(title, detail);
@@ -137,7 +138,10 @@
             if (!topic) continue;
             const li = document.createElement('li');
             li.append(node('p', item.number + ' ' + topic.label));
-            li.append(node('small', item.reference));
+            const reference = node('small', item.reference);
+            reference.className = 'program-reference';
+            reference.hidden = !/** @type {HTMLInputElement} */ (element('show-program-references')).checked;
+            li.append(reference);
             const children = tree(topic.id);
             if (children.children.length) li.append(children);
             list.append(li);
@@ -156,13 +160,25 @@
       target.replaceChildren();
       if (!rules.length) target.append(node('p', 'As regras das provas objetivas deste cargo ainda não foram cadastradas.'));
       for (const rule of rules) {
-        target.append(node('p', 'Certo/Errado · ' + rule.durationMinutes + ' minutos para P1 e P2 · mínimo total: ' + rule.minimumTotalScore + ' pontos.'));
-        for (const block of rule.blocks) {
-          target.append(node('h3', block.label));
-          target.append(node('p', block.questionCount + ' itens · acerto: +' + block.correct + ' · erro: ' + block.incorrect + ' · em branco ou dupla marcação: ' + block.blank + ' · mínimo: ' + block.minimumScore + ' pontos.'));
+        const metrics = node('dl', ''); metrics.className = 'metrics rule-overview';
+        for (const [label, value] of [['Formato', 'Certo/Errado'], ['Duração', rule.durationMinutes + ' minutos'], ['Mínimo total', rule.minimumTotalScore + ' pontos']]) {
+          const metric = node('div', ''); metric.append(node('dt', label), node('dd', value)); metrics.append(metric);
         }
+        target.append(metrics);
+        const blocks = node('div', ''); blocks.className = 'rule-blocks';
+        for (const block of rule.blocks) {
+          const card = node('section', ''); card.className = 'rule-card';
+          card.append(node('h3', block.label));
+          const list = node('dl', ''); list.className = 'rule-values';
+          for (const [label, value] of [['Itens', block.questionCount], ['Mínimo', block.minimumScore + ' pontos'], ['Acerto', '+' + block.correct], ['Erro', block.incorrect], ['Branco ou dupla marcação', block.blank]]) {
+            const pair = node('div', ''); pair.append(node('dt', label), node('dd', String(value))); list.append(pair);
+          }
+          card.append(list); blocks.append(card);
+        }
+        target.append(blocks);
         target.append(node('p', 'Na anulação, a pontuação do item é atribuída a todos os candidatos (item 8.12.6.1).'));
-        target.append(node('small', rule.reference));
+        const source = node('details', ''); source.className = 'support-details';
+        source.append(node('summary', 'Referência da regra'), node('p', rule.reference)); target.append(source);
       }
     }
     /** @param {string} contestId @param {string} roleId @returns {void} */
@@ -182,14 +198,17 @@
       }
     }
     const received = data.papers.filter(paper => paper.inventory);
-    element('inventory-summary').textContent = received.length + ' pares de cadernos/blocos e gabaritos · ' + received.reduce((total, paper) => total + (paper.inventory?.itemCount || 0), 0) + ' itens identificados nos arquivos · ' + data.questions.length + ' questões publicadas.';
+    element('inventory-summary').textContent = data.questions.length + ' questões liberadas para estudo. Acervo: ' + received.length + ' pares de provas/gabaritos, com ' + received.reduce((total, paper) => total + (paper.inventory?.itemCount || 0), 0) + ' itens nos arquivos.';
     for (const paper of received) {
       const inventory = paper.inventory;
       if (!inventory) continue;
       const li = document.createElement('li');
-      li.append(node('strong', paper.title));
-      li.append(node('span', 'Aplicação: ' + inventory.applicationDate.split('-').reverse().join('/') + ' · itens ' + inventory.firstItem + '–' + inventory.lastItem + ' · ' + (inventory.questionType === 'multiple_choice' ? 'Múltipla escolha' : 'Certo/Errado') + ' · ' + inventory.annulledItems.length + ' anulações no gabarito.'));
-      li.append(node('span', inventory.externalVerification
+      const details = node('details', '');
+      details.className = 'paper-details';
+      details.append(node('summary', paper.institution + ' · ' + paper.year + ' · ' + inventory.itemCount + ' itens'));
+      details.append(node('p', paper.title));
+      details.append(node('p', 'Aplicação: ' + inventory.applicationDate.split('-').reverse().join('/') + ' · itens ' + inventory.firstItem + '–' + inventory.lastItem + ' · ' + (inventory.questionType === 'multiple_choice' ? 'Múltipla escolha' : 'Certo/Errado') + ' · ' + inventory.annulledItems.length + ' anulações no gabarito.'));
+      details.append(node('p', inventory.externalVerification
         ? 'Caderno e gabarito conferidos por comparação com o download oficial. Somente as questões liberadas integram o estudo.'
         : 'Conferência dos arquivos na fonte oficial ainda pendente.'));
       for (const documentId of [paper.documentId, inventory.answerKeyDocumentId]) {
@@ -200,10 +219,10 @@
           link.textContent = documentId === inventory.answerKeyDocumentId ? 'Gabarito definitivo oficial' : 'Caderno oficial';
           const line = document.createElement('span');
           line.append(link);
-          li.append(line);
+          details.append(line);
         }
       }
-      element('inventory').append(li);
+      li.append(details); element('inventory').append(li);
     }
     /** @returns {void} */
     function changeContest() {
@@ -214,11 +233,16 @@
     }
     contestSelect.addEventListener('change', changeContest);
     roleSelect.addEventListener('change', renderNotices);
+    element('show-program-references').addEventListener('change', () => {
+      const checked = /** @type {HTMLInputElement} */ (element('show-program-references')).checked;
+      for (const reference of document.querySelectorAll('.program-reference')) /** @type {HTMLElement} */ (reference).hidden = !checked;
+    });
     changeContest();
     if (!AppStorage.isAvailable()) {
       element('storage-warning').hidden = false;
     }
   } catch (error) {
+    element('status').classList.remove('sr-only');
     element('status').textContent = 'Não foi possível carregar o catálogo. Recarregue a página ou informe o problema ao responsável.';
     console.error(error);
   }

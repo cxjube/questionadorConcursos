@@ -12,21 +12,21 @@
         if (theme === 'light' || theme === 'dark') document.documentElement.setAttribute('data-theme', theme);
       } catch (_) { /* Blocked storage must not prevent startup. */ }
     </script>
-    <link rel="stylesheet" href="assets/css/styles.css?v=3">
-    <script defer src="assets/js/types.js?v=3"></script>
-    <script defer src="assets/js/storage.js?v=3"></script>
-    <script defer src="assets/js/theme.js?v=3"></script>
-    <script defer src="assets/js/catalog.js?v=3"></script>
-    <script defer src="data/catalog.js?v=3"></script>
-    <script defer src="assets/js/study.js?v=3"></script>
-    <script defer src="assets/js/progress.js?v=3"></script>
-    <script defer src="assets/js/study-ui.js?v=3"></script>
-    <script defer src="assets/js/main.js?v=3"></script>
+    <link rel="stylesheet" href="assets/css/styles.css?v=4">
+    <script defer src="assets/js/types.js?v=4"></script>
+    <script defer src="assets/js/storage.js?v=4"></script>
+    <script defer src="assets/js/theme.js?v=4"></script>
+    <script defer src="assets/js/catalog.js?v=4"></script>
+    <script defer src="data/catalog.js?v=4"></script>
+    <script defer src="assets/js/study.js?v=4"></script>
+    <script defer src="assets/js/progress.js?v=4"></script>
+    <script defer src="assets/js/study-ui.js?v=4"></script>
+    <script defer src="assets/js/main.js?v=4"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Ir para o conteúdo</a>
     <header class="wrapper header">
-      <div><p class="eyebrow">Seu espaço de estudo</p><h1>Questionador Concursos</h1></div>
+      <div><h1>Questionador Concursos</h1></div>
       <div class="themes" role="group" aria-label="Tema da página">
         <button type="button" data-theme-choice="system" aria-pressed="true">Automático</button>
         <button type="button" data-theme-choice="light" aria-pressed="false">Claro</button>
@@ -34,12 +34,12 @@
       </div>
     </header>
     <main id="main" class="wrapper" tabindex="-1">
-      <div class="section-tabs" role="tablist" aria-label="Informações do concurso">
+      <div class="section-tabs" role="tablist" aria-label="Seções do Questionador">
         <button id="questionador-tab" type="button" role="tab" aria-controls="questionador-section" aria-selected="true" tabindex="0">Questionador</button>
-        <button id="program-tab" type="button" role="tab" aria-controls="program-section" aria-selected="false" tabindex="-1">Conteúdo programático</button>
-        <button id="rules-tab" type="button" role="tab" aria-controls="rules-section" aria-selected="false" tabindex="-1">Regras das provas objetivas</button>
-        <button id="consolidation-tab" type="button" role="tab" aria-controls="consolidation-section" aria-selected="false" tabindex="-1">Abertura e retificações</button>
-        <button id="sources-tab" type="button" role="tab" aria-controls="sources-section" aria-selected="false" tabindex="-1">Arquivos de provas recebidos</button>
+        <button id="program-tab" type="button" role="tab" aria-controls="program-section" aria-selected="false" tabindex="-1">Programa</button>
+        <button id="rules-tab" type="button" role="tab" aria-controls="rules-section" aria-selected="false" tabindex="-1">Regras</button>
+        <button id="consolidation-tab" type="button" role="tab" aria-controls="consolidation-section" aria-selected="false" tabindex="-1">Editais</button>
+        <button id="sources-tab" type="button" role="tab" aria-controls="sources-section" aria-selected="false" tabindex="-1">Provas e gabaritos</button>
       </div>
       <div id="progress-warning" class="panel progress-warning" hidden>
         <p id="progress-warning-text"></p>
@@ -50,22 +50,24 @@
         </div>
       </div>
       <section id="questionador-section" class="panel" role="tabpanel" aria-labelledby="questionador-tab" tabindex="0">
+       <p id="study-feedback" class="action-feedback" hidden></p>
        <div id="study-landing">
-        <p class="eyebrow">Seu edital, organizado</p>
         <h2 id="selection-heading">Escolha seu objetivo</h2>
         <div class="fields">
           <div><label for="contest">Concurso</label><select id="contest" aria-describedby="contest-status"><option>Carregando catálogo…</option></select></div>
           <div><label for="role">Cargo e área</label><select id="role"><option>Aguardando seleção</option></select></div>
         </div>
-        <p id="provider"></p><p id="contest-status"></p>
         <p id="study-availability"></p>
         <button id="start-study" type="button" class="primary" disabled>Iniciar questões</button>
+        <details class="support-details"><summary>Sobre este objetivo</summary><p id="provider" class="review-note"></p><p id="contest-status"></p></details>
        </div>
        <div id="study-workspace" hidden>
-        <h2 id="study-title" tabindex="-1">Questões de estudo</h2>
-        <div class="study-actions">
-          <button id="study-objective" type="button">Escolher objetivo</button>
-          <button id="study-history" type="button">Histórico e backup</button>
+        <div class="workspace-header">
+          <h2 id="study-title" tabindex="-1">Questões</h2>
+          <div class="workspace-tools">
+            <button id="study-objective" type="button" class="quiet-button" aria-label="Escolher objetivo">Objetivo</button>
+            <button id="study-history" type="button" class="quiet-button" aria-label="Histórico e backup">Histórico</button>
+          </div>
         </div>
         <div id="study-content" tabindex="-1"></div>
        </div>
@@ -73,28 +75,30 @@
       <section id="program-section" class="panel" role="tabpanel" aria-labelledby="program-tab" tabindex="0" hidden>
         <h2 id="program-heading">Conteúdo programático</h2>
         <p id="program-summary"></p>
-        <p id="program-source-note" class="review-note">Consulte o estado das fontes e as referências de cada item do edital.</p>
+        <label class="reference-toggle"><input id="show-program-references" type="checkbox"> Exibir referências do edital</label>
         <div id="program"></div>
+        <details class="support-details"><summary>Fontes do programa</summary><p id="program-source-note" class="review-note">Consulte o estado das fontes e as referências de cada item do edital.</p></details>
       </section>
       <section id="rules-section" class="panel" role="tabpanel" aria-labelledby="rules-tab" tabindex="0" hidden>
         <h2 id="rules-heading">Regras das provas objetivas</h2>
         <div id="rules"></div>
-        <p id="rules-caution">Atingir os mínimos não garante aprovação: também se aplicam os limites de classificação e as demais regras do edital.</p>
+        <p id="rules-caution" class="review-note">Estes são os critérios da prova oficial. O treino do Questionador não aplica esses mínimos. Atingi-los não garante aprovação: também valem os limites de classificação e as demais regras do edital.</p>
       </section>
       <section id="consolidation-section" class="panel" role="tabpanel" aria-labelledby="consolidation-tab" tabindex="0" hidden>
         <h2 id="consolidation-heading">Abertura e retificações</h2>
-        <p id="consolidation-scope"></p>
         <h3>Documentos de referência</h3>
         <ul id="notices" class="notice-list"></ul>
+        <h3>O que mudou e como funciona</h3>
         <div id="consolidation"></div>
+        <details class="support-details"><summary>Escopo da conferência</summary><p id="consolidation-scope"></p></details>
       </section>
       <section id="sources-section" class="panel" role="tabpanel" aria-labelledby="sources-tab" tabindex="0" hidden>
         <h2 id="sources-heading">Arquivos de provas recebidos</h2>
         <p id="inventory-summary"></p>
         <ul id="inventory" class="notice-list"></ul>
-        <p>A conferência na fonte oficial é indicada em cada par. Ela confirma a identidade dos arquivos, mas não substitui a revisão de enunciados, textos, imagens, gabaritos por item e vínculos com o edital da Câmara.</p>
+        <details class="support-details"><summary>Como os arquivos entram no estudo?</summary><p>Receber um caderno não libera todas as suas questões. A conferência oficial confirma a identidade dos arquivos; cada questão também precisa de revisão de enunciado, contexto, gabarito e vínculo com o edital.</p></details>
       </section>
-      <p id="status" class="status" role="status" aria-live="polite" aria-atomic="true">Carregando catálogo.</p>
+      <p id="status" class="status sr-only" role="status" aria-live="polite" aria-atomic="true">Carregando catálogo.</p>
       <p id="storage-warning" hidden>O navegador bloqueou o armazenamento local. Sua preferência de tema não será lembrada. Exporte seu progresso antes de fechar a página.</p>
       <noscript><p>Ative o JavaScript para selecionar o concurso. Esta aplicação não exige cadastro.</p></noscript>
     </main>
@@ -115,8 +119,8 @@
       </div>
     </dialog>
     <footer class="wrapper footer">
-      <p>Baseado no <a href="https://github.com/mugubr/questionador">Questionador</a>, de Miguel Muniz e Rubens Braz. Adaptado para Questionador Concursos com autorização informada pelo responsável pelo projeto.</p>
-      <p>Sem cadastro. Progresso e preferências salvos somente neste navegador.</p>
+      <p>Baseado no <a href="https://github.com/mugubr/questionador">Questionador</a>, de Miguel Muniz e Rubens Braz.</p>
+      <p>Seu progresso fica neste navegador. Use o backup para transferi-lo.</p>
     </footer>
   </body>
 </html>
