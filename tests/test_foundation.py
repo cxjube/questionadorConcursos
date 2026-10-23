@@ -18,7 +18,7 @@ from tools.validate import ROOT, read_json, validate
 
 
 class FoundationTests(unittest.TestCase):
-    """Validate the empty real catalog and adversarial temporary catalogs."""
+    """Validate the released catalog and adversarial temporary catalogs."""
 
     def setUp(self):
         """Create isolated source files and a complete synthetic relationship graph."""
@@ -29,6 +29,7 @@ class FoundationTests(unittest.TestCase):
         (self.root / 'sources').mkdir()
         self.catalog = read_json(ROOT / 'data/catalog.json')
         self.catalog['documents'] = []
+        self.catalog['contexts'] = []
         self.catalog['consolidations'] = []
         self.catalog['scoringRules'] = []
         for notice in self.catalog['notices']:
@@ -45,8 +46,8 @@ class FoundationTests(unittest.TestCase):
         self.document('test-paper-doc', 'question_paper', 'test-paper')
         self.document('test-key-doc', 'answer_key', 'test-paper')
         self.catalog['papers'] = [{'id': 'test-paper', 'bankId': 'concursos', 'title': 'SYNTHETIC TEST ONLY', 'provider': 'Test fixture', 'institution': 'Test fixture', 'role': 'Test fixture', 'year': 2000, 'booklet': 'test', 'documentId': 'test-paper-doc', 'status': 'verified'}]
-        self.catalog['questions'] = [{'id': 'test-question', 'bankId': 'concursos', 'revision': 1, 'type': 'multiple_choice', 'stem': 'SYNTHETIC VALIDATION FIXTURE — NOT STUDY CONTENT', 'options': [{'id': 'a', 'text': 'Fixture A'}, {'id': 'b', 'text': 'Fixture B'}], 'origin': {'kind': 'official', 'paperId': 'test-paper', 'number': 120, 'locator': 'Test only'}, 'answerKeyId': 'test-key'}]
-        self.catalog['answerKeys'] = [{'id': 'test-key', 'questionId': 'test-question', 'version': 1, 'origin': 'official', 'status': 'confirmed', 'documentId': 'test-key-doc', 'author': None, 'locator': 'Test only', 'result': 'valid', 'value': 'a'}]
+        self.catalog['questions'] = [{'id': 'test-question', 'bankId': 'concursos', 'revision': 1, 'type': 'multiple_choice', 'stem': 'SYNTHETIC VALIDATION FIXTURE — NOT STUDY CONTENT', 'options': [{'id': 'a', 'text': 'Fixture A'}, {'id': 'b', 'text': 'Fixture B'}], 'origin': {'kind': 'official', 'paperId': 'test-paper', 'number': 120, 'locator': 'Test only'}, 'answerKeyId': 'test-key', 'contextIds': [], 'review': {'status': 'released', 'method': 'agent_assisted', 'reviewer': 'Synthetic fixture', 'reviewedAt': '2026-10-23', 'sourceCompared': True, 'contextCompared': True, 'answerKeyCompared': True, 'temporalScope': 'conceptual', 'temporalNote': 'Synthetic test only', 'decisionReference': 'Test only'}}]
+        self.catalog['answerKeys'] = [{'id': 'test-key', 'questionId': 'test-question', 'version': 1, 'origin': 'official', 'stage': 'definitive', 'status': 'confirmed', 'documentId': 'test-key-doc', 'author': None, 'locator': 'Test only', 'result': 'valid', 'value': 'a'}]
         self.catalog['mappings'] = [{'id': 'test-mapping', 'questionId': 'test-question', 'syllabusItemId': 'test-item', 'justification': 'Synthetic fixture', 'status': 'confirmed'}]
 
     def document(self, identifier, kind, paper=None, date=None):
@@ -63,11 +64,11 @@ class FoundationTests(unittest.TestCase):
         else:
             self.assertTrue(any(expected in e for e in errors), errors)
 
-    def test_real_catalog_has_no_questions_and_pending_external_verification(self):
+    def test_released_catalog_has_twenty_source_compared_questions(self):
         """Validate retained source bytes without claiming external authentication."""
         real = read_json(ROOT / 'data/catalog.json')
         self.assertEqual(validate(real), [])
-        self.assertEqual(real['questions'], [])
+        self.assertEqual(len(real['questions']), 20)
         self.assertEqual(len(real['scoringRules']), 1)
         self.assertEqual(len(real['syllabusItems']), 228)
         self.assertEqual(len(real['documents']), 20)
@@ -99,6 +100,33 @@ class FoundationTests(unittest.TestCase):
         """Prevent using a genuine key from another paper."""
         self.catalog['documents'][-1]['paperId'] = 'other-paper'
         self.check('different source paper')
+
+    def test_shared_context_must_belong_to_the_question_paper(self):
+        self.catalog['contexts'] = [{'id': 'test-context', 'revision': 1, 'kind': 'instruction', 'label': 'Synthetic', 'text': 'Synthetic context only', 'sourceDocumentId': self.catalog['notices'][0]['documentId'], 'sourcePage': 1}]
+        self.catalog['questions'][0]['contextIds'] = ['test-context']
+        self.check('different source paper')
+        self.catalog['questions'][0]['contextIds'] = ['missing-context']
+        self.check('unknown contexts')
+
+    def test_release_evidence_and_definitive_key_are_required(self):
+        self.catalog['questions'][0]['review']['sourceCompared'] = False
+        self.check('True was expected')
+        self.catalog['questions'][0]['review']['sourceCompared'] = True
+        self.catalog['answerKeys'][0]['stage'] = 'not_applicable'
+        self.check('definitive key')
+
+    def test_different_contexts_do_not_make_false_content_duplicates(self):
+        context = {'id': 'test-context', 'revision': 1, 'kind': 'passage', 'label': 'Synthetic', 'text': 'Synthetic source passage only', 'sourceDocumentId': 'test-paper-doc', 'sourcePage': 1}
+        self.catalog['contexts'] = [context, {**context, 'id': 'test-context-other', 'text': 'Different synthetic passage only'}]
+        self.catalog['questions'][0]['contextIds'] = ['test-context']
+        question = copy.deepcopy(self.catalog['questions'][0])
+        question.update(id='other-question', contextIds=['test-context-other'], answerKeyId='other-key')
+        question['origin']['number'] = 121
+        self.catalog['questions'].append(question)
+        self.catalog['answerKeys'].append({**self.catalog['answerKeys'][0], 'id': 'other-key', 'questionId': 'other-question'})
+        self.check()
+        self.catalog['contexts'][1]['text'] = context['text']
+        self.check('duplicate question content')
 
     def test_received_document_cannot_back_official_question(self):
         """Require a reviewed source rather than just an uploaded file."""
@@ -205,7 +233,7 @@ class FoundationTests(unittest.TestCase):
     def test_authorial_provenance(self):
         """Accept explicitly authored material without calling its key official."""
         self.catalog['questions'][0]['origin'] = {'kind': 'authorial', 'author': 'Test fixture', 'reference': 'Synthetic test only'}
-        self.catalog['answerKeys'][0].update(origin='authorial', documentId=None, author='Test fixture')
+        self.catalog['answerKeys'][0].update(origin='authorial', stage='not_applicable', documentId=None, author='Test fixture')
         self.check()
 
     def test_explanation_is_independent(self):

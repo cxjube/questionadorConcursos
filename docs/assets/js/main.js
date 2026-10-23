@@ -1,5 +1,5 @@
 // @ts-check
-/** Read-only catalog, syllabus and source review; study sessions remain disabled. */
+/** Catalog consultation and the first study workflow. */
 (() => {
   'use strict';
   /** @param {string} id @returns {HTMLElement} */
@@ -61,6 +61,7 @@
       });
     }
     const data = Catalog.parse(/** @type {any} */ (window).CONCURSOS_CATALOG);
+    const study = StudyUI.mount(data, message => { element('status').textContent = message; });
     const contestSelect = /** @type {HTMLSelectElement} */ (element('contest'));
     const roleSelect = /** @type {HTMLSelectElement} */ (element('role'));
     options(contestSelect, data.contests);
@@ -101,7 +102,8 @@
       renderProgram(roleSelect.value);
       renderRules(roleSelect.value);
       renderConsolidation(contest.id, roleSelect.value);
-      element('status').textContent = 'Seleção: ' + contest.title + '. ' + notices.length + ' editais cadastrados. Banco de questões ainda não publicado.';
+      study.select(roleSelect.value);
+      element('status').textContent = 'Seleção: ' + contest.title + '. ' + notices.length + ' editais cadastrados.';
     }
     /** @param {string} tag @param {string} text @returns {HTMLElement} */
     function node(tag, text) {
@@ -180,7 +182,7 @@
       }
     }
     const received = data.papers.filter(paper => paper.inventory);
-    element('inventory-summary').textContent = received.length + ' pares de cadernos/blocos e gabaritos · ' + received.reduce((total, paper) => total + (paper.inventory?.itemCount || 0), 0) + ' itens identificados nos arquivos · 0 questões publicadas.';
+    element('inventory-summary').textContent = received.length + ' pares de cadernos/blocos e gabaritos · ' + received.reduce((total, paper) => total + (paper.inventory?.itemCount || 0), 0) + ' itens identificados nos arquivos · ' + data.questions.length + ' questões publicadas.';
     for (const paper of received) {
       const inventory = paper.inventory;
       if (!inventory) continue;
@@ -188,7 +190,7 @@
       li.append(node('strong', paper.title));
       li.append(node('span', 'Aplicação: ' + inventory.applicationDate.split('-').reverse().join('/') + ' · itens ' + inventory.firstItem + '–' + inventory.lastItem + ' · ' + (inventory.questionType === 'multiple_choice' ? 'Múltipla escolha' : 'Certo/Errado') + ' · ' + inventory.annulledItems.length + ' anulações no gabarito.'));
       li.append(node('span', inventory.externalVerification
-        ? 'Caderno e gabarito conferidos por comparação com o download oficial. Revisão das questões ainda pendente.'
+        ? 'Caderno e gabarito conferidos por comparação com o download oficial. Somente as questões liberadas integram o estudo.'
         : 'Conferência dos arquivos na fonte oficial ainda pendente.'));
       for (const documentId of [paper.documentId, inventory.answerKeyDocumentId]) {
         const source = data.documents.find(doc => doc.id === documentId);

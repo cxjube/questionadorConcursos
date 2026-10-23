@@ -19,11 +19,12 @@
     "syllabusItems",
     "mappings",
     "scoringRules",
-    "consolidations"
+    "consolidations",
+    "contexts"
   ],
   "properties": {
     "schemaVersion": {
-      "const": 2
+      "const": 3
     },
     "bankId": {
       "const": "concursos"
@@ -110,6 +111,12 @@
       "type": "array",
       "items": {
         "$ref": "consolidation.schema.json"
+      }
+    },
+    "contexts": {
+      "type": "array",
+      "items": {
+        "$ref": "context.schema.json"
       }
     }
   }

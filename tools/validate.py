@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 COLLECTIONS = (
     'contests', 'roles', 'notices', 'disciplines', 'topics', 'documents',
     'papers', 'questions', 'answerKeys', 'explanations', 'syllabusItems',
-    'mappings', 'scoringRules', 'consolidations',
+    'mappings', 'scoringRules', 'consolidations', 'contexts',
 )
 
 
@@ -193,17 +193,28 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
             if any(not inventory['firstItem'] <= n <= inventory['lastItem'] for n in inventory['annulledItems']):
                 fail(paper['id'], 'annulled item outside inventory range')
 
+    for context in catalog['contexts']:
+        verified_document(context['sourceDocumentId'], 'question_paper', context['id'])
+
     origins: set[tuple] = set()
     fingerprints: set[str] = set()
     for question in catalog['questions']:
         where = question['id']
         origin = question['origin']
+        source_contexts = []
+        for context_id in question['contextIds']:
+            context = lookup('contexts', context_id, where)
+            if context:
+                source_contexts.append(context)
+        if question['review']['temporalScope'] == 'historical_excerpt' and not any(c['kind'] == 'passage' for c in source_contexts):
+            fail(where, 'historical excerpt requires its source passage')
         option_ids = [o['id'] for o in question['options']]
         if len(option_ids) != len(set(option_ids)):
             fail(where, 'duplicate option id')
         # Include the response format, but not arbitrary ids or option ordering.
         fingerprint = json.dumps([question['type'], normalized(question['stem']),
-                                  sorted(normalized(o['text']) for o in question['options'])])
+                                  sorted(normalized(o['text']) for o in question['options']),
+                                  [normalized(c['text']) for c in source_contexts]])
         if fingerprint in fingerprints:
             fail(where, 'duplicate question content; reuse its id through mappings')
         fingerprints.add(fingerprint)
@@ -211,6 +222,12 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
             paper = lookup('papers', origin['paperId'], where)
             if paper and paper['status'] != 'verified':
                 fail(where, 'official question requires a verified source paper')
+            if paper:
+                if any(c['sourceDocumentId'] != paper['documentId'] for c in source_contexts):
+                    fail(where, 'shared context belongs to a different source paper')
+                inventory = paper.get('inventory')
+                if inventory and (not inventory['firstItem'] <= origin['number'] <= inventory['lastItem'] or question['type'] != inventory['questionType']):
+                    fail(where, 'question number/type disagrees with source inventory')
             identity = (origin['paperId'], origin['number'])
             if identity in origins:
                 fail(where, 'duplicate source paper/number')
@@ -221,6 +238,10 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
                 fail(where, 'selected answer key belongs to a different question')
             if key['origin'] != origin['kind'] or key['status'] != 'confirmed':
                 fail(where, 'question requires a confirmed answer key matching its origin')
+            if origin['kind'] == 'official' and paper and paper.get('inventory'):
+                annulled = origin['number'] in paper['inventory']['annulledItems']
+                if annulled != (key['result'] == 'annulled'):
+                    fail(where, 'answer result disagrees with official annulment inventory')
 
     key_versions = set()
     for key in catalog['answerKeys']:
@@ -231,6 +252,8 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
             fail(where, 'duplicate answer key version for this question')
         key_versions.add(version)
         if key['origin'] == 'official':
+            if key['stage'] != 'definitive':
+                fail(where, 'official questions require a definitive key')
             document = verified_document(key['documentId'], 'answer_key', where)
             if question and question['origin']['kind'] == 'official' and document:
                 if document['paperId'] != question['origin']['paperId']:
@@ -238,6 +261,8 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
             if key['author'] is not None:
                 fail(where, 'official key author must be null; issuer belongs to its document')
         else:
+            if key['stage'] != 'not_applicable':
+                fail(where, 'authorial key stage must be not_applicable')
             if not key['author'] or key['documentId'] is not None:
                 fail(where, 'authorial key requires an author and no official key document')
         if question and key['origin'] != question['origin']['kind']:

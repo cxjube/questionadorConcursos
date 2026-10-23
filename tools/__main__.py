@@ -44,7 +44,7 @@ def main(argv: list[str] | None = None) -> int:
             matched = sum(row['outcome'] == 'byte_match' for row in source_evidence['documents'])
             print(f'audit-sources: OK ({matched} official downloads matched; {len(source_evidence["documents"]) - matched} PDF identities pending)')
         elif args.command == 'review-batch':
-            print(f'review-batch: OK ({len(batch["items"])} preparation items; not published)')
+            print(f'review-batch: OK ({len(batch["items"])} preparation records validated; workbench excluded from site)')
         else:
             print(f'{args.command}: OK ({len(catalog["questions"])} questions)')
         return 0

@@ -1,0 +1,95 @@
+const {chromium}=require('playwright');
+const assert=require('node:assert/strict');
+const fs=require('node:fs/promises');
+const base=process.env.APP_BASE_URL||'http://127.0.0.1:8000/';
+const key='questionador-concursos.progress.v1';
+(async()=>{
+ const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
+ const errors=[],external=[];
+ function watch(page){page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(!r.url().startsWith(new URL(base).origin+'/')&&!r.url().startsWith('blob:'))external.push(r.url());});}
+ const progress=page=>page.evaluate(key=>JSON.parse(localStorage.getItem(key)).progress,key);
+ const mark=async(page,value)=>{await page.locator('input[value="'+value+'"]').check();await page.waitForFunction(({key,value})=>{const p=JSON.parse(localStorage.getItem(key)).progress;return p.active.answers.some(a=>(value==='blank'?a.value===null:String(a.value)===value));},{key,value});};
+ const download=async(page,button)=>{const event=page.waitForEvent('download');await button.click();const d=await event;return fs.readFile(await d.path(),'utf8');};
+ for(const width of [320,1280]){
+  const context=await browser.newContext({viewport:{width,height:950}}),page=await context.newPage();watch(page);
+  await page.goto(base);await page.locator('#start-study:not([disabled])').waitFor();
+  assert.equal(await page.locator('[role="tab"]').first().innerText(),'Questionador');
+  assert.equal(await page.locator('#study-workspace').isHidden(),true);
+  await page.locator('[data-theme-choice="dark"]').click();
+  await page.locator('#start-study').click();
+  await mark(page,'false');
+  await page.getByRole('button',{name:'Próxima',exact:true}).click();await mark(page,'true');
+  await page.getByRole('button',{name:'Próxima',exact:true}).click();await mark(page,'blank');
+  assert.equal((await progress(page)).history.length,0);
+  await page.reload();await page.locator('#start-study').click();
+  assert.equal(await page.locator('#current-question-heading').innerText(),'Questão 3 de 20');
+  assert.equal(await page.locator('input[value="blank"]').isChecked(),true);
+  for(let i=2;i<16;i++)await page.getByRole('button',{name:'Próxima',exact:true}).click();
+  assert.match(await page.locator('.question-context').innerText(),/Desde 2019/);await mark(page,'a');
+  await page.locator('#study-history').click();
+  const draft=await download(page,page.getByRole('button',{name:'Exportar backup',exact:true}));
+  assert.equal(JSON.parse(draft).progress.active.position,16);
+  await page.getByRole('button',{name:'Retomar sessão em andamento'}).click();
+  await page.getByRole('button',{name:'Próxima',exact:true}).click();
+  assert.match(await page.locator('.question-context').innerText(),/Desde 2019/);await mark(page,'e');
+  await page.locator('#finish-study').click();await page.locator('#confirm-finish').click();await page.locator('.correction').waitFor();
+  let state=await progress(page);assert.equal(state.history.length,1);assert.equal(state.active,null);
+  assert.match(await page.locator('#study-content').innerText(),/3 acertos · 1 erro · 16 em branco/);
+  assert.match(await page.locator('#study-content').innerText(),/75%/);
+  assert.equal(await page.locator('.correction h4').innerText(),'Erro');
+  assert.match(await page.locator('.correction').innerText(),/Explicação ainda não disponível/);
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  const backup=await download(page,page.getByRole('button',{name:'Exportar backup',exact:true}));
+  await page.locator('#study-history').click();
+  const before=await page.evaluate(key=>localStorage.getItem(key),key);
+  await page.locator('#import-backup').setInputFiles({name:'invalid.json',mimeType:'application/json',buffer:Buffer.from('{broken')});
+  await page.waitForFunction(()=>document.querySelector('#import-error').textContent.length>0);
+  assert.equal(await page.evaluate(key=>localStorage.getItem(key),key),before);
+  await page.getByRole('button',{name:'Apagar progresso deste navegador',exact:true}).click();await page.locator('#confirm-clear').click();
+  await page.waitForFunction(key=>JSON.parse(localStorage.getItem(key)).progress.history.length===0,key);
+  assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');
+  await page.locator('#import-backup').setInputFiles({name:'backup.json',mimeType:'application/json',buffer:Buffer.from(backup)});
+  await page.locator('#confirm-import').waitFor();
+  assert.equal((await progress(page)).history.length,0);
+  await page.locator('#confirm-import').click();
+  await page.waitForFunction(key=>JSON.parse(localStorage.getItem(key)).progress.history.length===1,key);
+  await page.getByRole('button',{name:'Revisar erros (1)',exact:true}).click();
+  await page.locator('#current-question-heading').waitFor();assert.equal(await page.locator('#current-question-heading').innerText(),'Questão 1 de 1');
+  await mark(page,'true');await page.locator('#finish-study').click();await page.locator('#confirm-finish').click();await page.locator('.correction.correct').waitFor();
+  await page.locator('#study-history').click();assert.equal(await page.getByRole('button',{name:'Revisar erros (0)',exact:true}).isDisabled(),true);
+  // Restoring an unfinished session also restores its position and all original choices.
+  await page.locator('#import-backup').setInputFiles({name:'draft.json',mimeType:'application/json',buffer:Buffer.from(draft)});await page.locator('#confirm-import').click();
+  await page.getByRole('button',{name:'Retomar sessão em andamento'}).click();
+  assert.equal(await page.locator('#current-question-heading').innerText(),'Questão 17 de 20');assert.equal(await page.locator('input[value="a"]').isChecked(),true);
+  await page.locator('[data-theme-choice="light"]').click();
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  await page.screenshot({path:'/tmp/questionador-functional-'+width+'.png',fullPage:true});
+  // A same-origin second tab must warn and stop edits instead of replacing newer data.
+  const second=await context.newPage();watch(second);await second.goto(base);await second.locator('#start-study').click();
+  await page.locator('input[value="b"]').check();await page.waitForFunction(key=>JSON.parse(localStorage.getItem(key)).progress.active.answers.some(a=>a.value==='b'),key);
+  await second.locator('#reload-progress').waitFor();assert.equal(await second.locator('input[value="a"]').isDisabled(),true);
+  await second.locator('#reload-progress').click();assert.equal(await second.locator('input[value="b"]').isChecked(),true);
+  await context.close();
+ }
+ // A blocked browser remains usable, but never announces persistence.
+ const context=await browser.newContext();const page=await context.newPage();watch(page);
+ await page.addInitScript(()=>Object.defineProperty(window,'localStorage',{get(){throw Error('SYNTHETIC BLOCKED STORAGE TEST');}}));
+ await page.goto(base);await page.locator('#start-study').click();await page.locator('input[value="false"]').check();
+ assert.match(await page.locator('#progress-warning').innerText(),/bloqueou/);
+ await page.locator('#study-history').click();const memory=JSON.parse(await download(page,page.getByRole('button',{name:'Exportar backup',exact:true})));
+ assert.equal(memory.progress.active.answers[0].value,false);
+ await context.close();
+ // Damaged stored bytes remain downloadable until an explicit clear confirmation.
+ const damaged=await browser.newContext(),recovery=await damaged.newPage();watch(recovery);
+ await recovery.addInitScript(key=>{localStorage.setItem(key,'{ SYNTHETIC CORRUPT STORAGE TEST');localStorage.setItem('unrelated-test-key','preserve');},key);
+ await recovery.goto(base);await recovery.locator('#recover-progress').waitFor();
+ assert.equal(await download(recovery,recovery.locator('#recover-progress')),'{ SYNTHETIC CORRUPT STORAGE TEST');
+ await recovery.locator('#start-study').click();await recovery.locator('input[value="false"]').check();
+ assert.equal(await recovery.evaluate(key=>localStorage.getItem(key),key),'{ SYNTHETIC CORRUPT STORAGE TEST');
+ await recovery.locator('#study-history').click();await recovery.getByRole('button',{name:'Apagar progresso deste navegador',exact:true}).click();await recovery.locator('#confirm-clear').click();
+ await recovery.waitForFunction(key=>localStorage.getItem(key).startsWith('{"version":1'),key);
+ assert.equal(await recovery.evaluate(()=>localStorage.getItem('unrelated-test-key')),'preserve');
+ await damaged.close();
+ assert.deepEqual(errors,[]);assert.deepEqual(external,[]);await browser.close();
+ console.log('Study browser passed: C/E, A–E, shared passage, blank, resume, finish, latest-error review, history, backup preview/restore/reject, two-tab conflict, blocked storage, both themes, 320/1280px and no external requests.');
+})().catch(e=>{console.error(e);process.exit(1);});

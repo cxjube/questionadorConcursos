@@ -1,5 +1,8 @@
 # Revisão das diretrizes recebidas — 23/10/2026
 
+> Atualização: o lote foi liberado para o primeiro treino funcional. Consulte a [decisão de liberação](first-batch-release.md) e o [guia de uso e backup](study-guide.md). Os estados de preparação e limitações descritos neste registro se referem à entrega anterior.
+
+
 > Atualização de 23/10/2026: a conferência externa foi concluída para os 20 PDFs. Foram incluídos os editais nº 2, 3 e 4, a ata e a abertura atualizada. Consulte o [estado atual das fontes](source-verification.md) e o [primeiro lote em preparação](first-batch-review.md). As pendências de rede ou autenticação descritas neste registro histórico foram resolvidas.
 
 

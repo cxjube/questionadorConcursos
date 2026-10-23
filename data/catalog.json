@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "bankId": "concursos",
   "contests": [
     {
@@ -1942,8 +1942,969 @@
       }
     }
   ],
-  "questions": [],
-  "answerKeys": [],
+  "questions": [
+    {
+      "id": "038-anm-010-01-q051",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A publicidade não apenas reflete a realidade, mas também contribui para a construção de uma hiper-realidade, na qual os signos e símbolos publicitários substituem a experiência direta do consumidor com os produtos.",
+      "options": [],
+      "contextIds": [
+        "anm-conceitos"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 51,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-010-01-q051-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q053",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A publicidade desempenha um papel crucial na comunicação de marketing, atuando como uma ferramenta de persuasão para influenciar consumidores em diferentes etapas do processo de compra, desde a conscientização sobre o produto até a decisão de compra.",
+      "options": [],
+      "contextIds": [
+        "anm-conceitos"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 53,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-010-01-q053-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q054",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A publicidade é uma atividade semiótica, na qual são utilizados signos e símbolos para a construção de universos significativos que agregam valor emocional e funcional às marcas e produtos.",
+      "options": [],
+      "contextIds": [
+        "anm-conceitos"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 54,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-010-01-q054-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q055",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A função denotativa dos signos publicitários é considerada o aspecto central da comunicação, ao passo que a função conotativa, associada a significados culturais e simbólicos, tem um papel secundário no processo de persuasão.",
+      "options": [],
+      "contextIds": [
+        "anm-conceitos"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 55,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-010-01-q055-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q056",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A administração de propaganda deve focar-se prioritariamente na originalidade e na criatividade das campanhas, os dois aspectos determinantes do sucesso de uma marca; o entendimento do comportamento do consumidor e a segmentação de mercado, embora tenham importância secundária nesse processo, não devem ser negligenciados.",
+      "options": [],
+      "contextIds": [
+        "anm-merchandising"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 56,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-010-01-q056-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q057",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Uma administração de propaganda eficaz deve assegurar que a mensagem publicitária integre todos os elementos do composto de marketing — produto, preço, praça e promoção —, em uma abordagem coesa e uniforme.",
+      "options": [],
+      "contextIds": [
+        "anm-merchandising"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 57,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-010-01-q057-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q058",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Merchandising consiste na prática de disposição de produtos de forma estratégica nas lojas com vistas ao aumento das vendas, sendo dispensável sua exposição nos meios de comunicação.",
+      "options": [],
+      "contextIds": [
+        "anm-merchandising"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 58,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-010-01-q058-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q061",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As campanhas publicitárias em mídias digitais e offline devem ser gerenciadas de forma independente, dadas as peculiaridades de cada um desses tipos de mídia para o alcance da eficácia comunicativa.",
+      "options": [],
+      "contextIds": [
+        "anm-producao"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 61,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-010-01-q061-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q062",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O briefing deve conter informações detalhadas sobre o público-alvo, os objetivos da campanha, a mensagem chave e os principais canais de comunicação a serem utilizados, mas não deve ser considerado um guia estratégico para a equipe envolvida no projeto.",
+      "options": [],
+      "contextIds": [
+        "anm-producao"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 62,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-010-01-q062-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "989-codevasf-010-01-q051",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O planejamento de um anúncio requer a criação de diferentes ideias direcionadas a cada um dos meios de comunicação, ou seja, uma específica para outdoor, outra para rádio, uma outra diferente para revista e outra para televisão, de forma a atingir públicos distintos.",
+      "options": [],
+      "contextIds": [
+        "codevasf-conceitos"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-989-codevasf-010-01",
+        "number": 51,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "989-codevasf-010-01-q051-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "989-codevasf-010-01-q052",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As ferramentas de marketing e o comportamento do consumidor são aspectos importantes a serem considerados na construção de campanhas publicitárias eficientes.",
+      "options": [],
+      "contextIds": [
+        "codevasf-conceitos"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-989-codevasf-010-01",
+        "number": 52,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "989-codevasf-010-01-q052-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "989-codevasf-010-01-q053",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A diferença entre publicidade e propaganda evidencia-se na descrição de seus significados: publicidade é qualidade do que é público; e propaganda é a propagação de princípios e teorias.",
+      "options": [],
+      "contextIds": [
+        "codevasf-conceitos"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-989-codevasf-010-01",
+        "number": 53,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "989-codevasf-010-01-q053-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "989-codevasf-010-01-q054",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Uma publicidade que atinge perfis diferentes do target primário, ou seja, da demanda marginal, atinge o foco da comunicação, o que indica o sucesso da estratégia publicitária.",
+      "options": [],
+      "contextIds": [
+        "codevasf-conceitos"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-989-codevasf-010-01",
+        "number": 54,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "989-codevasf-010-01-q054-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "989-codevasf-010-01-q056",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O outdoor, que é uma mídia extensiva indicada para cliente com orçamento restrito, permite grande impacto visual, baixo custo de produção e elevada capacidade de seletividade de público.",
+      "options": [],
+      "contextIds": [
+        "codevasf-campanha"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-989-codevasf-010-01",
+        "number": 56,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "989-codevasf-010-01-q056-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "989-codevasf-010-01-q058",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Para o planejamento de uma campanha publicitária, é necessário o estabelecimento de uma relação entre o posicionamento da empresa e o pensamento do público em relação ao produto ou à marca.",
+      "options": [],
+      "contextIds": [
+        "codevasf-campanha"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-989-codevasf-010-01",
+        "number": 58,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "989-codevasf-010-01-q058-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "539-alce-016-01-q021",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "A respeito das relações entre os sistemas de mídia e os sistemas políticos, assinale a opção correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Em uma situação ideal, em que o sistema de mídias fosse marcado por grande diversidade de vozes e pontos de vista, a agenda pública teria condições de refletir melhor a diversidade de temáticas e pontos de vista da sociedade, contribuindo, assim, para o fortalecimento da democracia."
+        },
+        {
+          "id": "b",
+          "text": "O acesso à mídia pelos variados atores sociais — elites econômicas, sindicatos ou organizações territoriais — depende do desenvolvimento de estratégias similares de construção de visibilidade e de sensibilização dos jornalistas."
+        },
+        {
+          "id": "c",
+          "text": "Com o surgimento das tecnologias digitais, não é mais possível falar-se em concentração da propriedade dos meios de comunicação, pois a internet e as redes sociais diversificaram o acesso ao espaço público, eliminando os oligopólios nacionais e regionais que dominavam o setor."
+        },
+        {
+          "id": "d",
+          "text": "A mídia pode ser considerada um ator político, pois ela é capaz de adaptar sua agenda à agenda político-governamental."
+        },
+        {
+          "id": "e",
+          "text": "A mídia, como uma arena política, constitui-se em um espaço igualitário de discussão entre os diferentes atores que acedem à agenda midiática."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-539-alce-016-01",
+        "number": 21,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "539-alce-016-01-q021-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "539-alce-016-01-q022",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Considerando-se o conteúdo do texto 13A1-I e tomando como base o conceito de comunicação pública, assinale a opção correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A realização de audiências públicas sobre o uso de canudos plásticos, o incentivo à utilização de canudos biodegradáveis nas instituições públicas do estado do Ceará e o desenvolvimento de uma campanha de conscientização da população nos canais da Assembleia Legislativa do Estado do Ceará são instrumentos de comunicação pública que poderiam ser utilizados na construção de nova mentalidade de consumo desses produtos."
+        },
+        {
+          "id": "b",
+          "text": "Uma campanha de comunicação sobre o uso de canudos plásticos no estado do Ceará deve-se focar exclusivamente no consumidor, com o objetivo de influenciar a mentalidade de consumo desses produtos."
+        },
+        {
+          "id": "c",
+          "text": "A comunicação pública, como tal, deve dar visibilidade aos atos das instituições públicas, evitando relacionar-se com a sociedade civil, para não contaminar os processos decisórios."
+        },
+        {
+          "id": "d",
+          "text": "A atuação da área de comunicação da Assembleia Legislativa do Estado do Ceará, com relação ao consumo de canudos plásticos, deve limitar-se à cobertura do processo de tramitação do projeto de lei mencionado como uma medida de accountability dos atos da entidade."
+        },
+        {
+          "id": "e",
+          "text": "Os meios de comunicação audiovisuais — rádio e TV —, por serem concessões do poder público, devem ter prioridade na veiculação de qualquer ação de comunicação pública, a exemplo do uso de canudos biodegradáveis."
+        }
+      ],
+      "contextIds": [
+        "alce-texto-13a1-i"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-539-alce-016-01",
+        "number": 22,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "539-alce-016-01-q022-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "O texto é parte da prova de 2021 e descreve situação de 2019/2020; não representa afirmação sobre a tramitação de leis em 2026.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "539-alce-016-01-q023",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Considerando-se o texto 13A1-I, no que toca ao papel da comunicação pública e à formação da opinião pública, assinale a opção correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Os resultados das pesquisas de opinião revelam, de forma fidedigna, toda a complexidade do processo de formação da opinião pública."
+        },
+        {
+          "id": "b",
+          "text": "As pesquisas de opinião são consideradas instrumentos de comunicação mercadológica e visam entender melhor o comportamento dos consumidores, razão por que não é recomendável utilizá-las em campanhas de comunicação pública."
+        },
+        {
+          "id": "c",
+          "text": "A comunicação pública tem como objetivo principal persuadir os cidadãos e criar uma opinião pública favorável à implantação de determinadas políticas públicas."
+        },
+        {
+          "id": "d",
+          "text": "Segundo a Teoria da Espiral do Silêncio, a baixa adesão ao uso de canudos biodegradáveis nas cidades brasileiras mostra o silenciamento do tema pela opinião dominante, que tende a reforçar comportamentos já validados pelos grupos sociais."
+        },
+        {
+          "id": "e",
+          "text": "Os debates quanto ao uso de canudos plásticos assomaram-se à agenda pública e passaram a influenciar a agenda político-governamental, com tramitação e aprovação de projetos de lei que proíbem o uso de canudos plásticos em vários municípios brasileiros."
+        }
+      ],
+      "contextIds": [
+        "alce-texto-13a1-i"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-539-alce-016-01",
+        "number": 23,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "539-alce-016-01-q023-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "O texto é parte da prova de 2021 e descreve situação de 2019/2020; não representa afirmação sobre a tramitação de leis em 2026.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "539-alce-016-01-q025",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "No trabalho de comunicação organizacional nas instituições públicas, a complexidade das organizações exige",
+      "options": [
+        {
+          "id": "a",
+          "text": "a criação de um planejamento de comunicação capaz de integrar a ação e a expertise de diferentes áreas da comunicação, inclusive relações públicas, publicidade e jornalismo, marketing e gestão de pessoal."
+        },
+        {
+          "id": "b",
+          "text": "o foco da comunicação organizacional exclusivamente no trabalho de assessoria de imprensa e na gestão das relações entre a instituição e a mídia."
+        },
+        {
+          "id": "c",
+          "text": "a valorização de seus princípios e métodos, que devem ser aplicados independentemente da natureza e da cultura das organizações."
+        },
+        {
+          "id": "d",
+          "text": "a conquista da opinião pública, que se deve manter sempre favorável às atividades político-governamentais."
+        },
+        {
+          "id": "e",
+          "text": "a utilização diária, pelas instituições públicas e privadas, de técnicas de comunicação integrada, assim como a busca de metas similares de conquista e fidelização do consumidor."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-539-alce-016-01",
+        "number": 25,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "539-alce-016-01-q025-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    },
+    {
+      "id": "539-alce-016-01-q026",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "A respeito da gestão da comunicação de crise em instituições públicas, assinale a opção correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Um contexto de crise exige uma estratégia de comunicação unificada, capaz de atingir uma audiência massiva e socialmente indistinta."
+        },
+        {
+          "id": "b",
+          "text": "É fundamental, desde o início do processo de crise, construir uma relação de credibilidade entre os porta-vozes da instituição e os públicos de interesse."
+        },
+        {
+          "id": "c",
+          "text": "A instituição deve evitar admitir publicamente seu erro, sob o risco de manchar sua credibilidade e dar margem a processos judiciais."
+        },
+        {
+          "id": "d",
+          "text": "Em contexto de comunicação de crise, a assessoria de comunicação deve evitar o contato com os meios de comunicação, pois a cobertura jornalística tende a reforçar uma postura de desconfiança em relação às instituições públicas."
+        },
+        {
+          "id": "e",
+          "text": "De forma a evitar o pânico da população, os riscos potenciais do evento devem ser minorados e informados a conta-gotas, à medida que a situação evolui."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-539-alce-016-01",
+        "number": 26,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "539-alce-016-01-q026-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/first-batch-release.md"
+      }
+    }
+  ],
+  "answerKeys": [
+    {
+      "id": "038-anm-010-01-q051-key-v1",
+      "questionId": "038-anm-010-01-q051",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-010-01-q053-key-v1",
+      "questionId": "038-anm-010-01-q053",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-010-01-q054-key-v1",
+      "questionId": "038-anm-010-01-q054",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-010-01-q055-key-v1",
+      "questionId": "038-anm-010-01-q055",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-010-01-q056-key-v1",
+      "questionId": "038-anm-010-01-q056",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-010-01-q057-key-v1",
+      "questionId": "038-anm-010-01-q057",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-010-01-q058-key-v1",
+      "questionId": "038-anm-010-01-q058",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-010-01-q061-key-v1",
+      "questionId": "038-anm-010-01-q061",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-010-01-q062-key-v1",
+      "questionId": "038-anm-010-01-q062",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "989-codevasf-010-01-q051-key-v1",
+      "questionId": "989-codevasf-010-01-q051",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-989-codevasf-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "989-codevasf-010-01-q052-key-v1",
+      "questionId": "989-codevasf-010-01-q052",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-989-codevasf-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "989-codevasf-010-01-q053-key-v1",
+      "questionId": "989-codevasf-010-01-q053",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-989-codevasf-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "989-codevasf-010-01-q054-key-v1",
+      "questionId": "989-codevasf-010-01-q054",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-989-codevasf-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "989-codevasf-010-01-q056-key-v1",
+      "questionId": "989-codevasf-010-01-q056",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-989-codevasf-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "989-codevasf-010-01-q058-key-v1",
+      "questionId": "989-codevasf-010-01-q058",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-989-codevasf-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "539-alce-016-01-q021-key-v1",
+      "questionId": "539-alce-016-01-q021",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-539-alce-016-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "539-alce-016-01-q022-key-v1",
+      "questionId": "539-alce-016-01-q022",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-539-alce-016-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "539-alce-016-01-q023-key-v1",
+      "questionId": "539-alce-016-01-q023",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-539-alce-016-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": "e"
+    },
+    {
+      "id": "539-alce-016-01-q025-key-v1",
+      "questionId": "539-alce-016-01-q025",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-539-alce-016-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "539-alce-016-01-q026-key-v1",
+      "questionId": "539-alce-016-01-q026",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-539-alce-016-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": "b"
+    }
+  ],
   "explanations": [],
   "syllabusItems": [
     {
@@ -4683,7 +5644,162 @@
       "block": "specific"
     }
   ],
-  "mappings": [],
+  "mappings": [
+    {
+      "id": "038-anm-010-01-q051-mapping-1",
+      "questionId": "038-anm-010-01-q051",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-1",
+      "justification": "Avalia a construção simbólica da realidade pela publicidade, dentro das teorias da publicidade.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q053-mapping-1",
+      "questionId": "038-anm-010-01-q053",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-2-7",
+      "justification": "Discute a persuasão publicitária nas etapas do processo de decisão do consumidor.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q054-mapping-1",
+      "questionId": "038-anm-010-01-q054",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-1",
+      "justification": "Avalia a publicidade como atividade semiótica e a agregação simbólica de valor.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q055-mapping-1",
+      "questionId": "038-anm-010-01-q055",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-1",
+      "justification": "Discute denotação e conotação dos signos publicitários e seus papéis na persuasão.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q056-mapping-1",
+      "questionId": "038-anm-010-01-q056",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-2",
+      "justification": "Relaciona decisões de administração publicitária, criatividade, comportamento e segmentação.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q056-mapping-2",
+      "questionId": "038-anm-010-01-q056",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-2-5",
+      "justification": "Relaciona decisões de administração publicitária, criatividade, comportamento e segmentação.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q057-mapping-1",
+      "questionId": "038-anm-010-01-q057",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-2-1",
+      "justification": "Aborda a integração dos quatro elementos do composto de marketing.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q058-mapping-1",
+      "questionId": "038-anm-010-01-q058",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-2-1",
+      "justification": "Avalia o conceito de merchandising e sua relação com exposição de produtos e comunicação.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q061-mapping-1",
+      "questionId": "038-anm-010-01-q061",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-6",
+      "justification": "Avalia a coordenação de campanhas entre mídias digitais e offline.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q062-mapping-1",
+      "questionId": "038-anm-010-01-q062",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-2",
+      "justification": "Discute briefing como instrumento de orientação estratégica da campanha.",
+      "status": "confirmed"
+    },
+    {
+      "id": "989-codevasf-010-01-q051-mapping-1",
+      "questionId": "989-codevasf-010-01-q051",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-3",
+      "justification": "Discute unidade conceitual da criação de anúncios em diferentes meios.",
+      "status": "confirmed"
+    },
+    {
+      "id": "989-codevasf-010-01-q052-mapping-1",
+      "questionId": "989-codevasf-010-01-q052",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-2-7",
+      "justification": "Relaciona ferramentas de marketing e comportamento do consumidor a campanhas.",
+      "status": "confirmed"
+    },
+    {
+      "id": "989-codevasf-010-01-q053-mapping-1",
+      "questionId": "989-codevasf-010-01-q053",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-1",
+      "justification": "Avalia a distinção conceitual entre publicidade e propaganda.",
+      "status": "confirmed"
+    },
+    {
+      "id": "989-codevasf-010-01-q054-mapping-1",
+      "questionId": "989-codevasf-010-01-q054",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-2",
+      "justification": "Discute público-alvo e foco da estratégia publicitária.",
+      "status": "confirmed"
+    },
+    {
+      "id": "989-codevasf-010-01-q056-mapping-1",
+      "questionId": "989-codevasf-010-01-q056",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-5",
+      "justification": "Avalia características do outdoor, custos e seletividade como veículo de mídia.",
+      "status": "confirmed"
+    },
+    {
+      "id": "989-codevasf-010-01-q058-mapping-1",
+      "questionId": "989-codevasf-010-01-q058",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-2",
+      "justification": "Relaciona planejamento de campanha e posicionamento percebido pelo público.",
+      "status": "confirmed"
+    },
+    {
+      "id": "539-alce-016-01-q021-mapping-1",
+      "questionId": "539-alce-016-01-q021",
+      "syllabusItemId": "camara-2026-comunicacao-social-1",
+      "justification": "Avalia a relação teórica entre sistemas de mídia, agenda pública e sistemas políticos.",
+      "status": "confirmed"
+    },
+    {
+      "id": "539-alce-016-01-q022-mapping-1",
+      "questionId": "539-alce-016-01-q022",
+      "syllabusItemId": "camara-2026-comunicacao-social-7-1",
+      "justification": "Aplica o conceito de comunicação pública a ações de uma assembleia legislativa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "539-alce-016-01-q023-mapping-1",
+      "questionId": "539-alce-016-01-q023",
+      "syllabusItemId": "camara-2026-comunicacao-social-7-1",
+      "justification": "Relaciona comunicação pública, opinião pública e formação das agendas pública e governamental.",
+      "status": "confirmed"
+    },
+    {
+      "id": "539-alce-016-01-q023-mapping-2",
+      "questionId": "539-alce-016-01-q023",
+      "syllabusItemId": "camara-2026-comunicacao-social-1-2",
+      "justification": "Relaciona comunicação pública, opinião pública e formação das agendas pública e governamental.",
+      "status": "confirmed"
+    },
+    {
+      "id": "539-alce-016-01-q025-mapping-1",
+      "questionId": "539-alce-016-01-q025",
+      "syllabusItemId": "camara-2026-comunicacao-social-4-2",
+      "justification": "Avalia a integração das áreas de comunicação organizacional em instituições públicas.",
+      "status": "confirmed"
+    },
+    {
+      "id": "539-alce-016-01-q026-mapping-1",
+      "questionId": "539-alce-016-01-q026",
+      "syllabusItemId": "camara-2026-comunicacao-social-3-3",
+      "justification": "Avalia estratégias de gestão da comunicação de crise em instituições públicas.",
+      "status": "confirmed"
+    }
+  ],
   "scoringRules": [
     {
       "id": "camara-2026-cargo-1-objetivas",
@@ -4860,6 +5976,62 @@
           "supersedesDocumentId": "camara-2026-edital-03-documento"
         }
       ]
+    }
+  ],
+  "contexts": [
+    {
+      "id": "anm-conceitos",
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "Julgue os itens a seguir, relativos a conceitos e finalidades da publicidade.",
+      "sourceDocumentId": "source-038-anm-010-01-paper",
+      "sourcePage": 1,
+      "revision": 1
+    },
+    {
+      "id": "anm-merchandising",
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "Em relação ao merchandising, à publicidade legal e à administração de propaganda, julgue os próximos itens.",
+      "sourceDocumentId": "source-038-anm-010-01-paper",
+      "sourcePage": 1,
+      "revision": 1
+    },
+    {
+      "id": "anm-producao",
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "Acerca do design thinking, da divulgação institucional, das produções publicitárias em mídias digitais e offline e do briefing, julgue os seguintes itens.",
+      "sourceDocumentId": "source-038-anm-010-01-paper",
+      "sourcePage": 1,
+      "revision": 1
+    },
+    {
+      "id": "codevasf-conceitos",
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "Em relação aos conceitos e finalidades da publicidade, julgue os itens seguintes.",
+      "sourceDocumentId": "source-989-codevasf-010-01-paper",
+      "sourcePage": 1,
+      "revision": 1
+    },
+    {
+      "id": "codevasf-campanha",
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "No que se refere à campanha publicitária, julgue os próximos itens.",
+      "sourceDocumentId": "source-989-codevasf-010-01-paper",
+      "sourcePage": 1,
+      "revision": 1
+    },
+    {
+      "id": "alce-texto-13a1-i",
+      "kind": "passage",
+      "label": "Texto 13A1-I",
+      "text": "Desde 2019, tramita na Assembleia Legislativa do estado Ceará um projeto de lei para proibir os canudos plásticos em todo o estado. Em Fortaleza, uma lei municipal com tal proibição já está em vigor. Questionado, o secretário de Estado do meio ambiente, assim se manifestou: “Somos favoráveis que a legislação, não só no Ceará, mas também em todo o Brasil, proíba o canudo plástico. Porém, mais importante do que a própria lei, é a sua eficácia. É preciso uma nova mentalidade de consumo. Estamos tentando fazer isso com o Selo Empresa Sustentável, que premia empresas com boas práticas de desenvolvimento sustentável. É uma boa alternativa”. Redação. Alunos da rede pública criam canudo ecológico a partir da cana de açúcar no interior. Diário do Nordeste, 5 jun. 2020. Internet: <https://diariodonordeste.verdesmares.com.br> (com adaptações).",
+      "sourceDocumentId": "source-539-alce-016-01-paper",
+      "sourcePage": 1,
+      "revision": 1
     }
   ]
 }

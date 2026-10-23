@@ -2,13 +2,15 @@
 
 Aplicação estática para estudos de concursos públicos, baseada na arquitetura do [Questionador](https://github.com/mugubr/questionador), de Miguel Muniz e Rubens Braz. Veja [créditos e autorização](CREDITS.md).
 
-**Etapa atual: fontes oficiais conferidas e primeiro lote em preparação.** Há seleção de concurso/cargo, nove disciplinas e 228 tópicos/subtópicos da Câmara, consulta às regras e retificações, temas e validação dos dados. Os editais nº 1 a 6 foram conferidos nas páginas oficiais em 23/10/2026. Ainda não há sessões de resolução habilitadas.
+**Etapa atual: primeiro treino funcional.** A aba **Questionador** é a primeira: escolha concurso/cargo e clique em **Iniciar questões**. Há 20 questões oficiais liberadas, com revisão assistida por agente: 15 Certo/Errado e cinco de múltipla escolha. Veja o [registro de liberação](documentation/first-batch-release.md).
 
-Câmara dos Deputados — Analista Legislativo — Comunicação Social — Divulgação Institucional é o primeiro objetivo. ABDI e CGU permanecem futuros, sem dados não confirmados. Os 20 PDFs retidos têm comparação SHA-256 com downloads oficiais: oito documentos do concurso da Câmara e seis pares de cadernos/gabaritos. O inventário cobre 340 itens, com 12 anulações.
+Você pode navegar, alterar ou limpar marcações e deixar respostas em branco. Ao finalizar, aparecem acertos, erros, brancos, percentual e gabarito definitivo, com links de origem. O treino não aplica pontuação ou mínimos de simulado da Câmara. Explicações ausentes são indicadas explicitamente.
 
-Um [primeiro lote de 20 questões](documentation/first-batch-review.md), com comandos, alternativas, texto compartilhado e gabaritos definitivos, está em `data/workbench/`. A comparação foi assistida por agente; os vínculos temáticos são sugestões. Ele não integra o banco publicado, que continua vazio. PDFs e rascunhos ficam fora do Pages.
+As marcações são salvas automaticamente no navegador. Ao voltar à página, **Continuar questões** retoma a sessão. Dentro do estudo, **Histórico e backup** permite consultar sessões, revisar os últimos erros, estudar questões inéditas, revisar brancos e exportar/importar o progresso. A importação mostra uma prévia e exige confirmação antes de substituir os dados. Use o [guia de estudo e backup](documentation/study-guide.md).
 
-Programa, regras objetivas, abertura/retificações e arquivos recebidos ficam em quatro abas abaixo do título. A seleção de concurso/cargo é comum; as abas aceitam clique, setas, Home e End. O tema escuro usa azul-marinho; o automático acompanha a preferência do sistema.
+As quatro abas de referência preservam nove disciplinas e 228 tópicos/subtópicos, regras, editais nº 1 a 6 e inventário de seis pares de provas/gabaritos. Os 20 PDFs retidos coincidem com fontes oficiais conferidas em 23/10/2026; o inventário cobre 340 itens e 12 anulações. Somente o lote liberado integra o estudo. PDFs e arquivos de trabalho ficam fora do Pages. ABDI e CGU permanecem futuros, sem regras ou conteúdos não confirmados.
+
+As cinco abas aceitam clique, setas, Home e End. O tema escuro usa azul-marinho; o automático acompanha a preferência do sistema.
 
 ## Executar localmente
 
@@ -53,8 +55,8 @@ CREDITS.md                atribuição e autorização informada
 README.md
 pyproject.toml / uv.lock   ferramentas do pipeline
 package.json              comando dos testes JavaScript; sem pacotes
-schemas/                  contratos do catálogo, entidades, auditoria e lote
-data/catalog.json         fonte canônica; banco publicado vazio
+schemas/                  catálogo v3, contextos, entidades, auditoria e lote
+data/catalog.json         fonte canônica; 20 questões, gabaritos e vínculos
 data/workbench/           lote de preparação, fora do build
 data/reviews/             evidência da listagem oficial
 sources/                   editais, cadernos e gabaritos; fora do Pages
@@ -63,7 +65,7 @@ docs/                     único artefato publicado
   .nojekyll
   index.html
   assets/css/styles.css
-  assets/js/              tema, armazenamento, catálogo e inicialização
+  assets/js/              tema, catálogo, sessão, persistência e interface de estudo
   data/catalog.js         catálogo gerado e revisão de conteúdo
 tests/                    testes Python e JavaScript
   browser-smoke.cjs        verificação opcional com navegador
@@ -82,9 +84,9 @@ PRs executam verificações sem publicar. Os caminhos de assets são relativos e
 
 ## Privacidade e separação
 
-Sem cadastro, analytics, CDN ou serviços externos. O tema usa chaves `questionador-concursos.*`, sem ler ou apagar dados PROFNIT. As chaves de sessão e histórico ficam reservadas para a próxima etapa, ainda sem coleta de respostas.
+Sem cadastro, analytics, CDN ou serviços externos. Tema e progresso usam chaves `questionador-concursos.*`, sem ler ou apagar dados PROFNIT. Sessões em andamento e finalizadas são gravadas juntas em `questionador-concursos.progress.v1`. Não há sincronização entre navegadores; o backup transfere o progresso.
 
-Questões compartilhadas serão relacionadas a itens de editais por vínculos, sem cópias da questão. A origem da questão, o gabarito e o comentário editorial são independentes.
+Questões compartilhadas são relacionadas a itens de editais por vínculos, sem cópias da questão. A origem da questão, o gabarito e o comentário editorial são independentes.
 
 ## Verificação opcional no navegador
 
@@ -92,10 +94,11 @@ Com Playwright e Chromium já disponíveis na máquina, sirva `docs/` e execute:
 
 ```sh
 APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-smoke.cjs
+APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-study.cjs
 ```
 
 Essas ferramentas não integram a aplicação nem são dependências obrigatórias do projeto. O teste cobre abas, navegação por teclado, temas, persistência, seletores, estados sem dados e ausência de transbordamento horizontal em 320 e 1280 px. Não substitui uma auditoria completa de acessibilidade.
 
 ## Próxima etapa
 
-Adaptar o contrato de publicação para os contextos compartilhados do lote e implementar resolução C/E e múltipla escolha, com branco, histórico local e backup. A comparação do primeiro lote está concluída, mas sua liberação e os vínculos finais ainda estão pendentes. Não há importação automática, simulados completos, dashboard ou gamificação.
+Filtros por disciplina/assunto e ampliação do banco em lotes conferidos. Depois, treinos personalizados e simulados com regras próprias. Não há importação automática, simulado completo, dashboard avançado ou gamificação nesta entrega.

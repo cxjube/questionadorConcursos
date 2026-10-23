@@ -11,7 +11,9 @@
     "stem",
     "options",
     "origin",
-    "answerKeyId"
+    "answerKeyId",
+    "contextIds",
+    "review"
   ],
   "properties": {
     "id": {
@@ -117,6 +119,72 @@
     "answerKeyId": {
       "type": "string",
       "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "contextIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "method",
+        "reviewer",
+        "reviewedAt",
+        "sourceCompared",
+        "contextCompared",
+        "answerKeyCompared",
+        "temporalScope",
+        "temporalNote",
+        "decisionReference"
+      ],
+      "properties": {
+        "status": {
+          "const": "released"
+        },
+        "method": {
+          "enum": [
+            "agent_assisted",
+            "human"
+          ]
+        },
+        "reviewer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "sourceCompared": {
+          "const": true
+        },
+        "contextCompared": {
+          "const": true
+        },
+        "answerKeyCompared": {
+          "const": true
+        },
+        "temporalScope": {
+          "enum": [
+            "conceptual",
+            "historical_excerpt"
+          ]
+        },
+        "temporalNote": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decisionReference": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
     }
   },
   "allOf": [

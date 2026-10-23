@@ -29,16 +29,16 @@ class ConsolidationTests(unittest.TestCase):
     def test_current_scope_and_totals(self):
         """Keep Cargo 1 scope, future contests and intake totals explicit."""
         self.assertEqual(validate(self.catalog), [])
-        self.assertEqual(self.catalog['schemaVersion'], 2)
+        self.assertEqual(self.catalog['schemaVersion'], 3)
         self.assertEqual(len(self.catalog['disciplines']), 9)
         self.assertEqual(len(self.catalog['topics']), 228)
         self.assertEqual(len(self.catalog['syllabusItems']), 228)
         self.assertEqual(len(self.catalog['papers']), 6)
         self.assertEqual(sum(p['inventory']['itemCount'] for p in self.catalog['papers']), 340)
         self.assertEqual(sum(len(p['inventory']['annulledItems']) for p in self.catalog['papers']), 12)
-        self.assertEqual(self.catalog['questions'], [])
-        self.assertEqual(self.catalog['answerKeys'], [])
-        self.assertEqual(self.catalog['mappings'], [])
+        self.assertEqual(len(self.catalog['questions']), 20)
+        self.assertEqual(len(self.catalog['answerKeys']), 20)
+        self.assertEqual(len(self.catalog['mappings']), 22)
         self.assertTrue(all(c['status'] == 'planned' for c in self.catalog['contests'][1:]))
         self.assertEqual({item['roleId'] for item in self.catalog['syllabusItems']}, {'camara-comunicacao-divulgacao'})
         self.assertEqual({item['noticeId'] for item in self.catalog['syllabusItems']}, {'camara-2026-edital-01'})
@@ -101,6 +101,11 @@ class ConsolidationTests(unittest.TestCase):
         changed = copy.deepcopy(self.catalog)
         changed['papers'][0]['inventory']['answerKeyDocumentId'] = changed['papers'][1]['inventory']['answerKeyDocumentId']
         self.assertTrue(any('different paper' in e for e in validate(changed)))
+
+    def test_official_annulment_cannot_be_published_with_a_valid_answer(self):
+        changed = copy.deepcopy(self.catalog)
+        changed['questions'][0]['origin']['number'] = 52
+        self.assertTrue(any('official annulment inventory' in e for e in validate(changed)))
 
     def test_objective_rules_transcription(self):
         """Keep the approved-copy rules explicit without starting a scoring engine."""

@@ -1,5 +1,8 @@
 # Primeiro lote de questões — preparação
 
+> Atualização: o lote foi liberado para o primeiro treino funcional. Consulte a [decisão de liberação](first-batch-release.md) e o [guia de uso e backup](study-guide.md). Os estados de preparação e limitações descritos neste registro se referem à entrega anterior.
+
+
 **Estado:** 20 itens em `data/workbench/first-batch.json`; nenhum publicado. Comparação assistida por agente, sem declaração de revisão humana. Vínculos ao edital são sugestões com justificativas.
 
 ## Cobertura e critério

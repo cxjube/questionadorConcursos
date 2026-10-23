@@ -2,7 +2,7 @@
 
 ## Diretrizes de produto, arquitetura, banco de questões e experiência de estudo
 
-**Versão:** 1.1 — revisão integrada ao repositório
+**Versão:** 1.2 — revisão integrada ao repositório
 **Data:** 23/10/2026
 **Projeto:** Questionador Concursos
 **Repositório:** https://github.com/cxjube/questionadorConcursos
@@ -14,11 +14,11 @@
 
 Este documento consolida as sugestões fornecidas pelo usuário e os ajustes de revisão. É uma referência de produto e de aceite por etapa, não autorização para implementar todo o roadmap.
 
-Na revisão atual, o repositório tem catálogo, contratos, validação, consolidação de cópias dos editais e inventário dos seis pares de cadernos/gabaritos. O banco publicado contém **zero questões**. Resolução, tentativas, pontuação executável, simulados e backup de progresso ainda não foram implementados.
+O estado implementado em 23/10/2026 inclui o catálogo v3 e o primeiro treino funcional: 20 questões oficiais liberadas, seis contextos compartilhados, gabaritos definitivos independentes, revisão assistida por agente e vínculos revisados. As fontes dos 20 PDFs foram comparadas com downloads oficiais. Há sessão, retomada, correção ao finalizar, histórico local, revisão de erros/brancos/inéditas e backup exportável/importável com confirmação de substituição.
 
-Atualização de 23/10/2026: os 20 PDFs retidos foram comparados com downloads oficiais. Os seis editais da Câmara estão `verified`; programa e regras estão `confirmed`, com escopo e evidências em [source-verification.md](source-verification.md). Há 20 questões em preparação, fora do catálogo publicado, descritas em [first-batch-review.md](first-batch-review.md). Isso não confirma inexistência de atos posteriores nem libera sessões de resolução.
+O treino não executa a pontuação de um concurso. Simulados, painéis de evolução, filtros avançados e ampliação do banco continuam requisitos de etapas futuras. O roadmap abaixo não é uma declaração de implementação integral.
 
-O contrato vigente está em [data-contract.md](data-contract.md). Os campos propostos para etapas futuras, inclusive contexto compartilhado e revisão de publicação, não devem ser descritos como já implementados. A análise das diferenças está em [guideline-review.md](guideline-review.md).
+Consulte o [contrato vigente](data-contract.md), o [registro de liberação](first-batch-release.md) e o [guia de uso](study-guide.md). O arquivo original de preparação permanece fora do Pages como evidência histórica, sem ser interpretado como a decisão atual do catálogo publicado.
 
 # 1. VISÃO DO PRODUTO
 

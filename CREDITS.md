@@ -11,7 +11,7 @@ Referência da adaptação: commit `d72ff3b5bbeea114d60e6a5ebe37a3858866a2ae`.
 - `docs/assets/css/styles.css`: tokens de cores, tipografia, espaçamento e fallback de tema do original; layout mínimo novo para a etapa de fundação.
 - Organização arquitetural: scripts clássicos, dados gerados embutidos, pipeline separado e publicação exclusiva de `docs/`.
 
-Os módulos de sessão, correção, histórico e a interface completa de resolução não foram importados nesta etapa. Não foram importados banco, PDFs, explicações, taxonomia ou gabaritos PROFNIT.
+`study.js` adapta a separação de lógica pura e os critérios de sessão/histórico de `session.js` e `history.js` do commit de referência. Foi refeito para C/E, cinco alternativas, contextos compartilhados, versões de gabarito e finalização idempotente. Não transporta o formato de quatro alternativas nem tratamentos específicos de defeitos do banco original. `progress.js` e `study-ui.js` implementam a persistência atômica e a interface deste projeto. Não foram importados banco, PDFs, explicações, taxonomia ou gabaritos PROFNIT.
 
 ## Autorização informada
 

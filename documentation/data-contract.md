@@ -1,6 +1,6 @@
-# Contrato de dados — versão 2
+# Contrato de dados — versão 3
 
-A fonte canônica é `data/catalog.json`, com `bankId: "concursos"` e `schemaVersion: 2`. O esquema raiz é `schemas/catalog.schema.json`; cada entidade tem seu próprio esquema Draft 2020-12. Campos desconhecidos são rejeitados. IDs são estáveis e não dependem de índices de arrays ou da seleção de concurso.
+A fonte canônica é `data/catalog.json`, com `bankId: "concursos"` e `schemaVersion: 3`. O esquema raiz é `schemas/catalog.schema.json`; cada entidade tem seu próprio esquema Draft 2020-12. Campos desconhecidos são rejeitados. IDs são estáveis e não dependem de índices de arrays ou da seleção de concurso.
 
 ## Entidades e relações
 
@@ -13,6 +13,7 @@ A fonte canônica é `data/catalog.json`, com `bankId: "concursos"` e `schemaVer
 | `topics` | `topic.schema.json` | Tópicos e subtópicos por `parentId`, dentro da mesma disciplina e sem ciclos. |
 | `documents` | `document.schema.json` | Documento retido, emissor, tipo, hash SHA-256, endereço oficial e revisão. |
 | `papers` | `paper.schema.json` | Prova de origem: banca, órgão, cargo, ano, caderno e documento. Não representa o objetivo de estudo. |
+| `contexts` | `context.schema.json` | Comandos/textos compartilhados, fonte, página e revisão. |
 | `questions` | `question.schema.json` | Enunciado, formato, origem, revisão e gabarito selecionado. |
 | `answerKeys` | `answer-key.schema.json` | Gabarito independente, versão, fonte, confirmação, resposta ou anulação. |
 | `explanations` | `explanation.schema.json` | Comentário editorial separado, autor e referências documentais. |
@@ -31,10 +32,10 @@ Uma questão pode ter vários mappings para itens de diferentes editais, sem dup
 - Origem `official`: exige prova identificada, número original e localização no documento.
 - Origem `authorial`: exige autor e referência explícita. Não é apresentada como oficial.
 - A questão seleciona seu gabarito por `answerKeyId`. O gabarito identifica a questão por `questionId`; ambas as referências devem concordar.
-- Questões oficiais exigem gabarito oficial confirmado, apoiado em documento verificado do mesmo caderno/prova. A verificação humana deve conferir o caráter definitivo do documento e eventuais retificações; o programa não autentica a fonte.
+- Questões oficiais exigem gabarito oficial confirmado, apoiado em documento verificado do mesmo caderno/prova. O campo `stage: definitive` é obrigatório para gabarito oficial; a comparação do primeiro lote com os PDFs está registrada como assistida por agente, sem declaração de revisão humana. O programa não autentica sozinho a fonte.
 - `annulled` e `withdrawn` exigem resposta nula. A política de pontuação correspondente pertence ao perfil de edital, não à questão.
 - Explicações não alteram respostas. Cada explicação identifica autor e documentos de referência.
-- Cópias de conteúdo idêntico, inclusive com espaços ou caixa diferentes, são rejeitadas. Repetições legítimas em provas diferentes exigirão uma política explícita de equivalência e proveniência antes de serem incorporadas; não há fusão automática de fontes.
+- Cópias de conteúdo idêntico, inclusive com espaços ou caixa diferentes, são rejeitadas; os textos dos contextos também participam da comparação. Repetições legítimas em provas diferentes exigirão uma política explícita de equivalência e proveniência antes de serem incorporadas; não há fusão automática de fontes.
 
 ## Documentos e estados
 
@@ -65,7 +66,7 @@ uv run python -m tools build --check
 uv run python -m tools check-site
 ```
 
-O contrato passou à versão 2 para representar cópias revisadas e consolidações sem confundi-las com fontes verificadas. O cliente rejeita versões incompatíveis.
+O contrato passou à versão 3 para representar contextos compartilhados, revisão de liberação por questão e etapa do gabarito. A versão 2 já distinguia cópias revisadas e consolidações de fontes verificadas. O cliente rejeita versões incompatíveis.
 
 A estrutura é validada por `jsonschema`; as relações e políticas são verificadas em Python. Todos os esquemas são resolvidos localmente, sem download de referências.
 
@@ -93,8 +94,30 @@ Notícia institucional é corroboração, não substituto de um PDF oficial comp
 
 ## Área de preparação do primeiro lote
 
-`data/workbench/first-batch.json` segue `schemas/review-batch.schema.json`, versão própria 1. Não modifica a versão 2 do catálogo e não é lido pelo build ou navegador. `uv run python -m tools review-batch` verifica origens e gabaritos do mesmo caderno, numeração, anulações, formato, duplicação, contextos e sugestões para itens programáticos confirmados. A CI também compara enunciados, alternativas, contextos e respostas com os PDFs via Poppler.
+`data/workbench/first-batch.json` segue `schemas/review-batch.schema.json`, versão própria 1. Tem versão independente do catálogo e não é lido pelo build ou navegador. `uv run python -m tools review-batch` verifica origens e gabaritos do mesmo caderno, numeração, anulações, formato, duplicação, contextos e sugestões para itens programáticos confirmados. A CI também compara enunciados, alternativas, contextos e respostas com os PDFs via Poppler.
 
 A origem da questão é `paperId` + número + página; a resposta tem documento/página próprios; não há explicações inventadas. Contextos compartilhados possuem fonte, página e referências por ID. `mappingSuggestions` permanece `suggested`, e a revisão declara `agent_assisted` e publicação `pending`. O lote atual abrange apenas itens válidos e sem imagens; não é um contrato genérico de importação nem autorização automática de publicação. A ausência de revisão de direitos é registrada, sem confundir a autorização do código com a origem do material de terceiros.
 
-Para publicar esse conteúdo, a próxima etapa precisa estender o contrato canônico e o renderizador para preservar os contextos. O build atual continua com zero questões; a lista de arquivos públicos impede inclusão acidental de arquivos da área de preparação.
+O catálogo v3 publica uma seleção explicitamente liberada desses itens, preservando os contextos por ID. O arquivo de trabalho conserva seu estado de preparação histórico e não é consumido pelo build. O registro posterior de liberação e revisão dos vínculos está em [first-batch-release.md](first-batch-release.md). A lista de arquivos públicos impede inclusão acidental de arquivos da área de preparação.
+
+## Questões liberadas e contextos
+
+Toda questão publicada declara `contextIds` e `review`. A revisão exige comparação de fonte, texto/comando e gabarito, método (`agent_assisted` ou `human`), responsável, data, referência da decisão e escopo temporal. O único estado publicável é `released`. O método não pode ser interpretado como revisão humana quando declara assistência por agente.
+
+Cada contexto tem ID e revisão estáveis, tipo `instruction`/`passage`, texto, rótulo, documento e página. As referências devem existir e pertencer ao mesmo caderno da questão. Uma questão marcada como trecho histórico precisa incluir seu texto-base. O primeiro lote contém seis contextos, 20 questões, 20 gabaritos definitivos e 22 vínculos revisados. Nenhum item anulado foi liberado neste lote. O resultado do gabarito é confrontado com o inventário de anulações.
+
+Alterações no enunciado/opções/origem ou nos contextos exigem revisão da questão; correções de gabarito exigem nova versão do gabarito. Nunca substituir silenciosamente versões em registros de estudo.
+
+## Sessões, histórico e backup
+
+`study.js` mantém lógica pura; `progress.js` persiste um único envelope em `questionador-concursos.progress.v1`; `study-ui.js` renderiza a interface. Não há coleta remota. O envelope contém token de escrita e progresso versão 1, com `bankId: concursos`, `active` e `history`.
+
+Cada sessão fixa ID, objetivo/cargo/concurso, modo, revisão do catálogo, início/fim, posição, itens e marcações. Os itens são snapshots de questão, gabarito, contextos, prova, vínculos e explicações disponíveis. Esses snapshots preservam o passado; não entram no catálogo de questões. A identidade de uma tentativa é o par sessão/questão, derivável sem duplicação por tópico. A data da tentativa é a finalização da sessão. O treino usa `scoringProfile: null`: há resultados, mas nenhuma pontuação oficial calculada.
+
+Marcação provisória e navegação não criam histórico. A finalização move a sessão para o histórico uma única vez; itens não marcados tornam-se brancos no resultado. Revisão de erros usa o último resultado finalizado da mesma questão/versão/cargo. Branco não é erro; inéditas são questões sem tentativa finalizada compatível. Questões alteradas retornam ao conjunto de inéditas.
+
+O backup JSON contém `format: questionador-concursos-backup`, `version: 1`, `exportedAt` e `progress`. A validação de entrada verifica limites (10 MB, 500 sessões/500 itens por sessão), datas, IDs, duplicações, tipos, posição, gabaritos, contextos e URLs oficiais. Versões conhecidas atuais não podem ser redefinidas por um backup. Registros de versões anteriores são preservados como históricos e sinalizados na interface; nunca adicionam questões ao banco atual. Resultados são recalculados a partir das respostas e dos gabaritos registrados, sem confiar em contadores importados.
+
+A importação validada requer confirmação explícita de substituição. Arquivo inválido não escreve no navegador. Dados locais corrompidos são preservados para download, e o estudo pode continuar em memória. Escritas usam Web Locks quando disponíveis e comparam o token/registro esperado; outra aba provoca aviso e bloqueia novas alterações até recarregar os dados. Sem Web Locks, há comparação do registro antes da escrita, sem promessa de transação entre processos. Falha de quota/bloqueio mantém os dados em memória e oferece exportação, sem declarar salvamento.
+
+O backup não é assinatura de autenticidade nem sincronização automática. Guarde cópias antes de limpar dados do navegador ou substituir o histórico.

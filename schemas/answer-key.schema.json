@@ -13,7 +13,8 @@
     "author",
     "locator",
     "result",
-    "value"
+    "value",
+    "stage"
   ],
   "properties": {
     "id": {
@@ -80,6 +81,12 @@
         "string",
         "boolean",
         "null"
+      ]
+    },
+    "stage": {
+      "enum": [
+        "definitive",
+        "not_applicable"
       ]
     }
   }

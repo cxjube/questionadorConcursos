@@ -22,7 +22,7 @@ class SourceAuditTests(unittest.TestCase):
         self.assertEqual(sum(d['status'] == 'verified' for d in self.catalog['documents']), 20)
         self.assertTrue(all(n['status'] == 'verified' for n in self.catalog['notices']))
         self.assertTrue(all(p['inventory']['externalVerification'] for p in self.catalog['papers']))
-        self.assertEqual(self.catalog['questions'], [])
+        self.assertEqual(len(self.catalog['questions']), 20)
 
     def test_official_hash_must_match(self):
         """Reject changing remote digest without changing the retained document."""

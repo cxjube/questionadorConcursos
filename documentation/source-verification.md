@@ -1,5 +1,8 @@
 # Conferência das fontes oficiais — 23/10/2026
 
+> Atualização: o lote foi liberado para o primeiro treino funcional. Consulte a [decisão de liberação](first-batch-release.md) e o [guia de uso e backup](study-guide.md). Os estados de preparação e limitações descritos neste registro se referem à entrega anterior.
+
+
 Os **20 PDFs retidos** coincidem byte a byte com downloads oficiais, por SHA-256. Foram conferidos os editais nº 1 a 6 da Câmara disponíveis na consulta, a abertura atualizada, a ata do sorteio e os seis pares de cadernos/gabaritos. A conferência da fonte está concluída para esses documentos; não representa garantia sobre atos futuros.
 
 ## Editais e referências da Câmara

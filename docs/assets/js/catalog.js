@@ -6,10 +6,10 @@ const Catalog = (() => {
   function parse(value) {
     if (!value || typeof value !== 'object') throw new Error('Catálogo ausente.');
     const data = /** @type {CatalogData} */ (value);
-    if (data.schemaVersion !== 2 || data.bankId !== 'concursos' || !/^[a-f0-9]{64}$/.test(data.revision)) {
+    if (data.schemaVersion !== 3 || data.bankId !== 'concursos' || !/^[a-f0-9]{64}$/.test(data.revision)) {
       throw new Error('Formato de catálogo incompatível.');
     }
-    for (const key of ['contests', 'roles', 'notices', 'documents', 'questions', 'disciplines', 'topics', 'syllabusItems', 'scoringRules', 'consolidations', 'papers']) {
+    for (const key of ['contests', 'roles', 'notices', 'documents', 'questions', 'disciplines', 'topics', 'syllabusItems', 'scoringRules', 'consolidations', 'papers', 'contexts', 'answerKeys', 'explanations', 'mappings']) {
       if (!Array.isArray(/** @type {any} */ (data)[key])) throw new Error('Catálogo incompleto.');
     }
     for (const contest of data.contests) {
@@ -27,6 +27,16 @@ const Catalog = (() => {
       if (!notice || typeof notice.title !== 'string' || typeof notice.date !== 'string' ||
           !Array.isArray(notice.roleIds) || !data.contests.some(c => c.id === notice.contestId)) {
         throw new Error('Edital inválido no catálogo.');
+      }
+    }
+    for (const question of data.questions) {
+      const key = data.answerKeys.find(k => k.id === question.answerKeyId);
+      if (!question || question.review?.status !== 'released' || !Array.isArray(question.contextIds) ||
+          !Array.isArray(question.options) || !question.origin || question.origin.kind !== 'official' ||
+          !data.papers.some(p => p.id === question.origin.paperId) ||
+          !key || key.status !== 'confirmed' || key.stage !== 'definitive' ||
+          question.contextIds.some(ref => !data.contexts.some(c => c.id === ref))) {
+        throw new Error('Questão ou gabarito incompatível com esta versão.');
       }
     }
     return data;

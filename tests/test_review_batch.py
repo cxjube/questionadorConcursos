@@ -22,9 +22,16 @@ class ReviewBatchTests(unittest.TestCase):
         self.assertEqual(len(self.batch['items']), 20)
         self.assertEqual(sum(i['type'] == 'true_false' for i in self.batch['items']), 15)
         self.assertEqual(len(self.batch['contexts']), 6)
-        self.assertEqual(self.catalog['questions'], [])
+        self.assertEqual(len(self.catalog['questions']), 20)
         for item in self.batch['items']:
-            self.assertNotIn(item['id'], render(self.catalog))
+            self.assertIn(item['id'], render(self.catalog))
+            published = next(q for q in self.catalog['questions'] if q['id'] == item['id'])
+            self.assertEqual(published['stem'], item['stem'])
+            self.assertEqual(published['options'], item['options'])
+            self.assertEqual(published['contextIds'], item['contextIds'])
+            key = next(k for k in self.catalog['answerKeys'] if k['id'] == published['answerKeyId'])
+            self.assertEqual(key['value'], item['answer']['value'])
+            self.assertEqual(key['documentId'], item['answer']['documentId'])
             self.assertEqual(item['review']['publicationDecision'], 'pending')
 
     def test_wrong_key_annulment_and_unverified_paper(self):
