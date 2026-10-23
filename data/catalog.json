@@ -2063,6 +2063,32 @@
       "sha256": "e879b9579a82fa2af092177121453a42136b077645249f5bb0ddd3f27616114e",
       "publicationDate": null,
       "paperId": null
+    },
+    {
+      "id": "reference-priberam-publicidade",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Dicionário Priberam da Língua Portuguesa — publicidade",
+      "issuer": "Priberam",
+      "status": "verified",
+      "officialUrl": "https://dicionario.priberam.org/pt-pt/publicidade",
+      "file": "sources/references/priberam-publicidade.html",
+      "sha256": "68837f381ccada060f22a158eef153104220081b591fa6ea013d9a46e07461ca",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-priberam-propaganda",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Dicionário Priberam da Língua Portuguesa — propaganda",
+      "issuer": "Priberam",
+      "status": "verified",
+      "officialUrl": "https://dicionario.priberam.org/pt-pt/propaganda",
+      "file": "sources/references/priberam-propaganda.html",
+      "sha256": "4f70fec7df87f1158de49f262555fc7b940b372f6a089a12d2f69d176467e1e9",
+      "publicationDate": null,
+      "paperId": null
     }
   ],
   "papers": [
@@ -7444,6 +7470,391 @@
         {
           "documentId": "source-539-alce-016-01-paper",
           "locator": "PDF p. 2, alternativas da questão 25"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q051-comment-v1",
+      "questionId": "038-anm-010-01-q051",
+      "text": "O item adota uma leitura crítica da publicidade: representações, signos e símbolos podem mediar a percepção do consumidor e produzir uma realidade de marca que ocupa o lugar do contato direto com o produto. É nesse sentido de hiper-realidade que o gabarito considera a afirmação correta. Isso não significa que todo anúncio elimine qualquer experiência material de consumo.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 51"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 51"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q053-comment-v1",
+      "questionId": "038-anm-010-01-q053",
+      "text": "A publicidade pode atuar ao longo do processo de compra: torna o produto conhecido, apresenta benefícios, favorece comparação e preferência e estimula a decisão. O item descreve essa função persuasiva da comunicação de marketing, sem restringi-la ao momento final da venda.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 53"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 53"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q054-comment-v1",
+      "questionId": "038-anm-010-01-q054",
+      "text": "A abordagem semiótica examina como signos produzem sentidos. Na publicidade, palavras, imagens, cores e outros recursos podem associar à marca tanto atributos funcionais quanto valores e emoções. O item trata dessa construção de significados, e não apenas da descrição material do produto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 54"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 54"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q055-comment-v1",
+      "questionId": "038-anm-010-01-q055",
+      "text": "Denotação diz respeito ao sentido mais direto; conotação envolve associações culturais e simbólicas. A persuasão publicitária também pode depender fortemente dessas associações. O erro é estabelecer, de forma geral, que a dimensão conotativa ocupa papel secundário diante da denotativa.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 55"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 55"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q056-comment-v1",
+      "questionId": "038-anm-010-01-q056",
+      "text": "Originalidade e criatividade precisam estar orientadas ao problema de comunicação, ao público e à estratégia da marca. Comportamento do consumidor e segmentação não são fatores meramente secundários: ajudam a decidir para quem comunicar e o que será relevante. O item reduz indevidamente os determinantes do planejamento a dois atributos criativos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 56"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 56"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q057-comment-v1",
+      "questionId": "038-anm-010-01-q057",
+      "text": "A mensagem precisa ser coerente com a oferta, o preço, a distribuição e a promoção, para que a promessa comunicada faça sentido no conjunto da estratégia de marketing. Integração dos quatro Ps não significa que cada anúncio tenha de enumerá-los literalmente.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 57"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 57"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q058-comment-v1",
+      "questionId": "038-anm-010-01-q058",
+      "text": "Na acepção de merchandising adotada nesta prova, o conceito não se limita à disposição de produtos na loja: também pode envolver exposição ou inserção de produtos em conteúdos de mídia. O item é incorreto por reduzir essa abrangência e afastar genericamente a exposição nos meios de comunicação. Não se conclui que toda ação no ponto de venda dependa obrigatoriamente de televisão ou de outro veículo.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 58"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 58"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q061-comment-v1",
+      "questionId": "038-anm-010-01-q061",
+      "text": "As linguagens e formatos variam conforme o meio, mas isso não exige campanhas estrategicamente independentes. A coordenação permite coerência de mensagem e complementaridade entre canais digitais e offline. Como exemplo de integração institucional, o Manual do Senado prevê planejamento conjunto e atuação complementar entre áreas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 61"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 61"
+        },
+        {
+          "documentId": "reference-senado-integracao",
+          "locator": "Diretriz Integração — orientação comum e planejamento conjunto"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q062-comment-v1",
+      "questionId": "038-anm-010-01-q062",
+      "text": "O próprio conteúdo descrito — público, objetivos, mensagem e canais — orienta as decisões da equipe. O briefing organiza o problema e os parâmetros para desenvolver a campanha; por isso, negar seu papel de guia estratégico torna a afirmação incorreta.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 62"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 62"
+        }
+      ]
+    },
+    {
+      "id": "989-codevasf-010-01-q051-comment-v1",
+      "questionId": "989-codevasf-010-01-q051",
+      "text": "Uma campanha pode manter uma ideia central e adaptá-la à linguagem de cada meio. Não é obrigatório criar conceitos diferentes e dirigir cada peça a um público distinto apenas porque os veículos mudam. A integração permite coerência com adaptações de formato, duração e recursos expressivos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-989-codevasf-010-01-paper",
+          "locator": "PDF p. 1, item 51"
+        },
+        {
+          "documentId": "source-989-codevasf-010-01-key",
+          "locator": "PDF p. 1, item 51"
+        },
+        {
+          "documentId": "reference-senado-integracao",
+          "locator": "Diretriz Integração — orientação comum e produção em múltiplos formatos, como exemplo institucional"
+        }
+      ]
+    },
+    {
+      "id": "989-codevasf-010-01-q052-comment-v1",
+      "questionId": "989-codevasf-010-01-q052",
+      "text": "As ferramentas de marketing ajudam a escolher objetivos, públicos, posicionamento e ações. Conhecer o comportamento do consumidor orienta a relevância da mensagem e a escolha dos canais. O item afirma que esses aspectos são importantes, sem apresentá-los como garantia isolada de sucesso.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-989-codevasf-010-01-paper",
+          "locator": "PDF p. 1, item 52"
+        },
+        {
+          "documentId": "source-989-codevasf-010-01-key",
+          "locator": "PDF p. 1, item 52"
+        }
+      ]
+    },
+    {
+      "id": "989-codevasf-010-01-q053-comment-v1",
+      "questionId": "989-codevasf-010-01-q053",
+      "text": "A questão apresenta uma distinção lexical: publicidade inclui a qualidade do que é público, e propaganda se relaciona à propagação de ideias ou doutrinas. Os verbetes do Priberam confirmam essas acepções. Isso não esgota os usos profissionais brasileiros dos termos, que podem variar conforme o contexto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-989-codevasf-010-01-paper",
+          "locator": "PDF p. 1, item 53"
+        },
+        {
+          "documentId": "source-989-codevasf-010-01-key",
+          "locator": "PDF p. 1, item 53"
+        },
+        {
+          "documentId": "reference-priberam-publicidade",
+          "locator": "Verbete publicidade, acepção 1"
+        },
+        {
+          "documentId": "reference-priberam-propaganda",
+          "locator": "Verbete propaganda, acepção 1"
+        }
+      ]
+    },
+    {
+      "id": "989-codevasf-010-01-q054-comment-v1",
+      "questionId": "989-codevasf-010-01-q054",
+      "text": "Alcançar pessoas fora do público prioritário não demonstra, por si só, que o foco da comunicação foi atingido. O sucesso precisa ser avaliado em relação ao público e aos objetivos definidos. A exposição incidental pode ocorrer, mas não substitui a verificação do alcance do target primário.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-989-codevasf-010-01-paper",
+          "locator": "PDF p. 1, item 54"
+        },
+        {
+          "documentId": "source-989-codevasf-010-01-key",
+          "locator": "PDF p. 1, item 54"
+        }
+      ]
+    },
+    {
+      "id": "989-codevasf-010-01-q056-comment-v1",
+      "questionId": "989-codevasf-010-01-q056",
+      "text": "Grande impacto visual não equivale a elevada seletividade de público. O outdoor alcança quem circula pela área, embora a localização permita algum recorte geográfico. Custos e adequação ao orçamento dependem da produção e da veiculação. A combinação dessas qualidades como vantagens gerais do meio torna o item incorreto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-989-codevasf-010-01-paper",
+          "locator": "PDF p. 1, item 56"
+        },
+        {
+          "documentId": "source-989-codevasf-010-01-key",
+          "locator": "PDF p. 1, item 56"
+        }
+      ]
+    },
+    {
+      "id": "989-codevasf-010-01-q058-comment-v1",
+      "questionId": "989-codevasf-010-01-q058",
+      "text": "O planejamento precisa relacionar o posicionamento pretendido pela empresa às percepções que o público tem do produto ou da marca. Conhecer essas associações permite orientar a mensagem e identificar diferenças entre a posição desejada e a imagem percebida. Não se presume que ambas coincidam automaticamente.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-989-codevasf-010-01-paper",
+          "locator": "PDF p. 1, item 58"
+        },
+        {
+          "documentId": "source-989-codevasf-010-01-key",
+          "locator": "PDF p. 1, item 58"
+        }
+      ]
+    },
+    {
+      "id": "539-alce-016-01-q021-comment-v1",
+      "questionId": "539-alce-016-01-q021",
+      "text": "A alternativa A descreve uma situação ideal: maior pluralidade de vozes oferece condições para que diferentes temas e perspectivas sejam representados na agenda pública. Isso pode fortalecer a democracia. Não se deve transformar esse ideal em afirmação de igualdade real de acesso, nem concluir que o surgimento da internet eliminou a concentração dos meios. A Constituição também veda monopólio ou oligopólio dos meios de comunicação, sem que essa proibição constitua prova de sua inexistência factual.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-539-alce-016-01-paper",
+          "locator": "PDF p. 1, item 21"
+        },
+        {
+          "documentId": "source-539-alce-016-01-key",
+          "locator": "PDF p. 1, item 21"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 220, § 5º"
+        }
+      ]
+    },
+    {
+      "id": "539-alce-016-01-q023-comment-v1",
+      "questionId": "539-alce-016-01-q023",
+      "text": "A alternativa E relaciona o debate social sobre canudos à tramitação e aprovação de propostas legislativas, conectando agenda pública e agenda político-governamental. O texto de apoio oferece esse contexto. As demais opções fazem generalizações não sustentadas, como equiparar pesquisa de opinião à totalidade da opinião pública ou deduzir espiral do silêncio apenas da baixa adesão. A análise se refere ao cenário histórico reproduzido na prova, sem confirmar a vigência atual dessas leis.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-539-alce-016-01-paper",
+          "locator": "PDF p. 1, item 23"
+        },
+        {
+          "documentId": "source-539-alce-016-01-key",
+          "locator": "PDF p. 1, item 23"
+        }
+      ]
+    },
+    {
+      "id": "539-alce-016-01-q026-comment-v1",
+      "questionId": "539-alce-016-01-q026",
+      "text": "A alternativa B destaca a credibilidade entre porta-vozes e públicos desde o início da crise. Clareza, consistência e resposta às demandas ajudam a sustentar essa relação. Ocultar riscos, evitar a imprensa ou negar erros de forma automática pode comprometer a confiança. Uma estratégia coordenada também precisa considerar as diferenças entre os públicos, em vez de tratá-los como audiência indistinta.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-539-alce-016-01-paper",
+          "locator": "PDF p. 2, item 26"
+        },
+        {
+          "documentId": "source-539-alce-016-01-key",
+          "locator": "PDF p. 1, item 26"
+        },
+        {
+          "documentId": "reference-senado-relacionamento-com-os-publicos",
+          "locator": "Diretriz Relacionamento com os públicos — clareza, respostas às demandas e correção de informações"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-002-01-q062-comment-v1",
+      "questionId": "232funprespexe-002-01-q062",
+      "text": "O item inverte a direção do fluxo. Comunicação descendente vai dos níveis hierárquicos superiores para os inferiores; a comunicação que parte da base e chega à direção é ascendente. A classificação é dada pelo sentido da circulação, não pelo conteúdo da mensagem.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-232funprespexe-002-01-paper",
+          "locator": "PDF p. 1, item 62"
+        },
+        {
+          "documentId": "source-232funprespexe-002-01-key",
+          "locator": "PDF p. 1, item 62"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-002-01-q092-comment-v1",
+      "questionId": "232funprespexe-002-01-q092",
+      "text": "Não há um instrumento informal universalmente mais adequado para toda mensagem corporativa da alta gestão. A escolha depende de alcance, necessidade de registro, uniformidade e conteúdo. No plano da Enap, por exemplo, notícias institucionais também circulam por intranet e listas de correio eletrônico. Conversas e reuniões podem complementar esses canais, mas não justificam a preferência geral afirmada no item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-232funprespexe-002-01-paper",
+          "locator": "PDF p. 2, item 92"
+        },
+        {
+          "documentId": "source-232funprespexe-002-01-key",
+          "locator": "PDF p. 1, item 92"
+        },
+        {
+          "documentId": "reference-enap-comunicacao-2015",
+          "locator": "PDF p. 2, ações de comunicação interna e canais institucionais"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-002-01-q093-comment-v1",
+      "questionId": "232funprespexe-002-01-q093",
+      "text": "Instrumentos formais se vinculam às rotinas e aos registros institucionais, como memorandos e manuais. A comunicação informal decorre das interações cotidianas, como conversas entre colegas ou encontros informais com a chefia. O item apresenta exemplos compatíveis com as duas categorias; informal não significa necessariamente falso ou sem importância.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-232funprespexe-002-01-paper",
+          "locator": "PDF p. 2, item 93"
+        },
+        {
+          "documentId": "source-232funprespexe-002-01-key",
+          "locator": "PDF p. 1, item 93"
         }
       ]
     }

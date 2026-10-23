@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-23T21:17:01.497486+00:00",
-  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23.",
+  "checkedAt": "2026-10-23T21:29:17.102929+00:00",
+  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23. Comment completion: two Priberam entries retain the initial official publisher download bytes; no independent second download is claimed.",
   "documents": [
     {
       "documentId": "camara-2026-edital-01-documento",
@@ -296,6 +296,20 @@
       "outcome": "byte_match",
       "officialUrl": "https://www12.senado.leg.br/manualdecomunicacao/diretrizes/acoes-institucionais",
       "remoteSha256": "e879b9579a82fa2af092177121453a42136b077645249f5bb0ddd3f27616114e"
+    },
+    {
+      "documentId": "reference-priberam-publicidade",
+      "localSha256": "68837f381ccada060f22a158eef153104220081b591fa6ea013d9a46e07461ca",
+      "outcome": "byte_match",
+      "officialUrl": "https://dicionario.priberam.org/pt-pt/publicidade",
+      "remoteSha256": "68837f381ccada060f22a158eef153104220081b591fa6ea013d9a46e07461ca"
+    },
+    {
+      "documentId": "reference-priberam-propaganda",
+      "localSha256": "4f70fec7df87f1158de49f262555fc7b940b372f6a089a12d2f69d176467e1e9",
+      "outcome": "byte_match",
+      "officialUrl": "https://dicionario.priberam.org/pt-pt/propaganda",
+      "remoteSha256": "4f70fec7df87f1158de49f262555fc7b940b372f6a089a12d2f69d176467e1e9"
     }
   ],
   "corroboration": [

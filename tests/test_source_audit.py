@@ -18,8 +18,8 @@ class SourceAuditTests(unittest.TestCase):
     def test_all_retained_sources_have_recorded_official_matches(self):
         """Keep document identity separate from a question bank ready for study."""
         self.assertEqual(audit_sources(self.catalog, self.evidence), [])
-        self.assertEqual(sum(r['outcome'] == 'byte_match' for r in self.evidence['documents']), 42)
-        self.assertEqual(sum(d['status'] == 'verified' for d in self.catalog['documents']), 42)
+        self.assertEqual(sum(r['outcome'] == 'byte_match' for r in self.evidence['documents']), 44)
+        self.assertEqual(sum(d['status'] == 'verified' for d in self.catalog['documents']), 44)
         self.assertTrue(all(n['status'] == 'verified' for n in self.catalog['notices']))
         self.assertTrue(all(p['inventory']['externalVerification'] for p in self.catalog['papers']))
         self.assertEqual(len(self.catalog['questions']), 90)

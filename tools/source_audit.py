@@ -4,7 +4,7 @@ from urllib.parse import urlsplit
 
 from tools.validate import ROOT, structural_errors
 
-OFFICIAL_HOSTS = {'cdn.cebraspe.org.br', 'www.cebraspe.org.br', 'www.camara.leg.br', 'www2.camara.leg.br', 'www.planalto.gov.br', 'conhecimento.fgv.br', 'www12.senado.leg.br', 'repositorio.enap.gov.br', 'cartilha.cert.br', 'developers.google.com', 'support.microsoft.com'}
+OFFICIAL_HOSTS = {'cdn.cebraspe.org.br', 'www.cebraspe.org.br', 'www.camara.leg.br', 'www2.camara.leg.br', 'www.planalto.gov.br', 'conhecimento.fgv.br', 'www12.senado.leg.br', 'repositorio.enap.gov.br', 'cartilha.cert.br', 'developers.google.com', 'support.microsoft.com', 'dicionario.priberam.org'}
 
 
 def audit_sources(catalog: dict, evidence: dict, root: Path = ROOT) -> list[str]:

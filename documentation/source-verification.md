@@ -1,11 +1,11 @@
 # Conferência das fontes oficiais — 23/10/2026
 
-> Atualização: [sétimo lote](seventh-batch-release.md), com 90 questões, 69 comentários e 42 fontes. São 36/42 C/E em P1/P2; permanecem 21 questões sem comentário. Os registros anteriores abaixo preservam o histórico das respectivas entregas.
+> Atualização: [sétimo lote](seventh-batch-release.md), com 90 questões, 90 comentários e 44 fontes. São 36/42 C/E em P1/P2; todas as questões atuais têm comentário. Os registros anteriores abaixo preservam o histórico das respectivas entregas.
 
 > Atualização: o lote foi liberado para o primeiro treino funcional. Consulte a [decisão de liberação](first-batch-release.md) e o [guia de uso e backup](study-guide.md). Os estados de preparação e limitações descritos neste registro se referem à entrega anterior.
 
 
-São **42 fontes retidas: 30 PDFs e 12 HTML**. O sétimo lote acrescenta dois pares oficiais de cadernos/gabaritos definitivos da Câmara de 2014 e oito referências dos próprios publicadores (Enap, Senado, CERT.br, Google e Microsoft). Os seis PDFs adicionais tiveram comparação binária independente; os seis HTML correspondem aos downloads iniciais retidos. As fontes jurídicas do lote anterior foram mantidas, com a revisão de cláusulas limitada às cópias retidas em 23/10/2026. Veja o [relatório do sétimo lote](seventh-batch-release.md) e seus manifestos. Registros de downloads anteriores permanecem como evidência histórica, sem afirmar nova consulta de todos eles. As diferenças em scripts nas reconsultas do Planalto continuam registradas em `data/reviews/legal-reference-rechecks.json`.
+São **44 fontes retidas: 30 PDFs e 14 HTML**. O sétimo lote acrescenta dois pares oficiais de cadernos/gabaritos definitivos da Câmara de 2014 e dez referências dos próprios publicadores (Enap, Senado, CERT.br, Google, Microsoft e Priberam). Os seis PDFs adicionais tiveram comparação binária independente; os oito HTML correspondem aos downloads iniciais retidos. As fontes jurídicas do lote anterior foram mantidas, com a revisão de cláusulas limitada às cópias retidas em 23/10/2026. Veja o [relatório do sétimo lote](seventh-batch-release.md) e seus manifestos. Registros de downloads anteriores permanecem como evidência histórica, sem afirmar nova consulta de todos eles. As diferenças em scripts nas reconsultas do Planalto continuam registradas em `data/reviews/legal-reference-rechecks.json`.
 
 ## Editais e referências da Câmara
 
@@ -47,7 +47,7 @@ Programa, regra objetiva e consolidação passaram para `confirmed`; os seis edi
 
 O novo par `038_ANM_CG1_01` tem [caderno oficial](https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_CG1_01.PDF) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_CG1_01.PDF). A listagem e seus bytes originais estão em `data/reviews/anm-general-source.json` e `anm-official-listing-response.json`.
 
-Os dez pares cobrem 680 números de itens, com 33 anulações. A identidade dos documentos não implica revisão de todos os enunciados. Há 90 questões liberadas e 69 comentários editoriais independentes identificados como assistidos por IA; veja o [sexto lote](sixth-batch-release.md). O arquivo de preparação histórico continua fora do build e do Pages.
+Os dez pares cobrem 680 números de itens, com 33 anulações. A identidade dos documentos não implica revisão de todos os enunciados. Há 90 questões liberadas e 90 comentários editoriais independentes identificados como assistidos por IA; veja o [sexto lote](sixth-batch-release.md). O arquivo de preparação histórico continua fora do build e do Pages.
 
 ## Evidência e reprodução
 

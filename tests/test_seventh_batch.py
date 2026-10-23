@@ -80,10 +80,11 @@ class SeventhBatchTests(unittest.TestCase):
     def test_added_comments_are_independent_referenced_and_pdf_locators_exist(self):
         comments={e['questionId']:e for e in self.c['explanations']}
         self.assertEqual(len(self.manifest['addedComments']),35)
-        self.assertEqual(len(comments),69)
+        self.assertEqual(len(comments),90)
         remaining={q['id'] for q in self.c['questions']}-set(comments)
-        self.assertEqual(len(remaining),21)
-        self.assertEqual(remaining,set(self.manifest['remainingUncommented']))
+        self.assertEqual(len(remaining),0)
+        completion=read_json(ROOT/'data/reviews/seventh-batch-comment-completion.json')
+        self.assertEqual(set(self.manifest['remainingUncommented']),{r['questionId'] for r in completion['addedComments']})
         pages={}
         for qid in self.manifest['addedComments']:
             comment=comments[qid]
@@ -109,3 +110,24 @@ class SeventhBatchTests(unittest.TestCase):
             self.assertEqual(hashlib.sha256((ROOT/doc['file']).read_bytes()).hexdigest(),doc['sha256'])
             if doc['paperId'] and doc['paperId'].startswith('source-camara-2014'):
                 self.assertIn(doc['officialUrl'],raw.decode())
+
+    def test_comment_completion_covers_every_remaining_item_and_confirms_lexical_reference(self):
+        completion=read_json(ROOT/'data/reviews/seventh-batch-comment-completion.json')
+        rows=completion['addedComments']
+        self.assertEqual(len(rows),21)
+        original=set(self.manifest['addedComments'])
+        current={r['questionId'] for r in rows}
+        self.assertFalse(original & current)
+        self.assertEqual(len(original | current),56)
+        comments={e['questionId']:e for e in self.c['explanations']}
+        keys={k['id']:k for k in self.c['answerKeys']}
+        for row in rows:
+            q=self.questions[row['questionId']];comment=comments[q['id']]
+            self.assertEqual(row['answerValue'],keys[q['answerKeyId']]['value'])
+            self.assertEqual(row['references'],comment['references'])
+            self.assertIn('assistido por IA',comment['author'])
+            self.assertTrue(any(r['documentId']==keys[q['answerKeyId']]['documentId'] for r in comment['references']))
+        for word,quote in [('publicidade','Qualidade do que é público.'),('propaganda','Conjunto de actos que têm por fim propagar uma ideia, opinião ou doutrina.')]:
+            doc=self.docs['reference-priberam-'+word]
+            self.assertIn(quote,reference_text((ROOT/doc['file']).read_bytes()))
+            self.assertEqual(doc['officialUrl'],'https://dicionario.priberam.org/pt-pt/'+word)

@@ -1,0 +1,338 @@
+{
+  "id": "seventh-batch-comment-completion",
+  "reviewedAt": "2026-10-23",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/seventh-batch-release.md",
+  "addedComments": [
+    {
+      "questionId": "038-anm-010-01-q051",
+      "answerValue": true,
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 51"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 51"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-010-01-q053",
+      "answerValue": true,
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 53"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 53"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-010-01-q054",
+      "answerValue": true,
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 54"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 54"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-010-01-q055",
+      "answerValue": false,
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 55"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 55"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-010-01-q056",
+      "answerValue": false,
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 56"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 56"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-010-01-q057",
+      "answerValue": true,
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 57"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 57"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-010-01-q058",
+      "answerValue": false,
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 58"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 58"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-010-01-q061",
+      "answerValue": false,
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 61"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 61"
+        },
+        {
+          "documentId": "reference-senado-integracao",
+          "locator": "Diretriz Integração — orientação comum e planejamento conjunto"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-010-01-q062",
+      "answerValue": false,
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, item 62"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 62"
+        }
+      ]
+    },
+    {
+      "questionId": "989-codevasf-010-01-q051",
+      "answerValue": false,
+      "references": [
+        {
+          "documentId": "source-989-codevasf-010-01-paper",
+          "locator": "PDF p. 1, item 51"
+        },
+        {
+          "documentId": "source-989-codevasf-010-01-key",
+          "locator": "PDF p. 1, item 51"
+        },
+        {
+          "documentId": "reference-senado-integracao",
+          "locator": "Diretriz Integração — orientação comum e produção em múltiplos formatos, como exemplo institucional"
+        }
+      ]
+    },
+    {
+      "questionId": "989-codevasf-010-01-q052",
+      "answerValue": true,
+      "references": [
+        {
+          "documentId": "source-989-codevasf-010-01-paper",
+          "locator": "PDF p. 1, item 52"
+        },
+        {
+          "documentId": "source-989-codevasf-010-01-key",
+          "locator": "PDF p. 1, item 52"
+        }
+      ]
+    },
+    {
+      "questionId": "989-codevasf-010-01-q053",
+      "answerValue": true,
+      "references": [
+        {
+          "documentId": "source-989-codevasf-010-01-paper",
+          "locator": "PDF p. 1, item 53"
+        },
+        {
+          "documentId": "source-989-codevasf-010-01-key",
+          "locator": "PDF p. 1, item 53"
+        },
+        {
+          "documentId": "reference-priberam-publicidade",
+          "locator": "Verbete publicidade, acepção 1"
+        },
+        {
+          "documentId": "reference-priberam-propaganda",
+          "locator": "Verbete propaganda, acepção 1"
+        }
+      ]
+    },
+    {
+      "questionId": "989-codevasf-010-01-q054",
+      "answerValue": false,
+      "references": [
+        {
+          "documentId": "source-989-codevasf-010-01-paper",
+          "locator": "PDF p. 1, item 54"
+        },
+        {
+          "documentId": "source-989-codevasf-010-01-key",
+          "locator": "PDF p. 1, item 54"
+        }
+      ]
+    },
+    {
+      "questionId": "989-codevasf-010-01-q056",
+      "answerValue": false,
+      "references": [
+        {
+          "documentId": "source-989-codevasf-010-01-paper",
+          "locator": "PDF p. 1, item 56"
+        },
+        {
+          "documentId": "source-989-codevasf-010-01-key",
+          "locator": "PDF p. 1, item 56"
+        }
+      ]
+    },
+    {
+      "questionId": "989-codevasf-010-01-q058",
+      "answerValue": true,
+      "references": [
+        {
+          "documentId": "source-989-codevasf-010-01-paper",
+          "locator": "PDF p. 1, item 58"
+        },
+        {
+          "documentId": "source-989-codevasf-010-01-key",
+          "locator": "PDF p. 1, item 58"
+        }
+      ]
+    },
+    {
+      "questionId": "539-alce-016-01-q021",
+      "answerValue": "a",
+      "references": [
+        {
+          "documentId": "source-539-alce-016-01-paper",
+          "locator": "PDF p. 1, item 21"
+        },
+        {
+          "documentId": "source-539-alce-016-01-key",
+          "locator": "PDF p. 1, item 21"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 220, § 5º"
+        }
+      ]
+    },
+    {
+      "questionId": "539-alce-016-01-q023",
+      "answerValue": "e",
+      "references": [
+        {
+          "documentId": "source-539-alce-016-01-paper",
+          "locator": "PDF p. 1, item 23"
+        },
+        {
+          "documentId": "source-539-alce-016-01-key",
+          "locator": "PDF p. 1, item 23"
+        }
+      ]
+    },
+    {
+      "questionId": "539-alce-016-01-q026",
+      "answerValue": "b",
+      "references": [
+        {
+          "documentId": "source-539-alce-016-01-paper",
+          "locator": "PDF p. 2, item 26"
+        },
+        {
+          "documentId": "source-539-alce-016-01-key",
+          "locator": "PDF p. 1, item 26"
+        },
+        {
+          "documentId": "reference-senado-relacionamento-com-os-publicos",
+          "locator": "Diretriz Relacionamento com os públicos — clareza, respostas às demandas e correção de informações"
+        }
+      ]
+    },
+    {
+      "questionId": "232funprespexe-002-01-q062",
+      "answerValue": false,
+      "references": [
+        {
+          "documentId": "source-232funprespexe-002-01-paper",
+          "locator": "PDF p. 1, item 62"
+        },
+        {
+          "documentId": "source-232funprespexe-002-01-key",
+          "locator": "PDF p. 1, item 62"
+        }
+      ]
+    },
+    {
+      "questionId": "232funprespexe-002-01-q092",
+      "answerValue": false,
+      "references": [
+        {
+          "documentId": "source-232funprespexe-002-01-paper",
+          "locator": "PDF p. 2, item 92"
+        },
+        {
+          "documentId": "source-232funprespexe-002-01-key",
+          "locator": "PDF p. 1, item 92"
+        },
+        {
+          "documentId": "reference-enap-comunicacao-2015",
+          "locator": "PDF p. 2, ações de comunicação interna e canais institucionais"
+        }
+      ]
+    },
+    {
+      "questionId": "232funprespexe-002-01-q093",
+      "answerValue": true,
+      "references": [
+        {
+          "documentId": "source-232funprespexe-002-01-paper",
+          "locator": "PDF p. 2, item 93"
+        },
+        {
+          "documentId": "source-232funprespexe-002-01-key",
+          "locator": "PDF p. 1, item 93"
+        }
+      ]
+    }
+  ],
+  "newDocuments": [
+    "reference-priberam-publicidade",
+    "reference-priberam-propaganda"
+  ],
+  "scope": "Original didactic analyses checked against the complete item, source command and definitive official response; not the examination board rationale. Lexical distinction additionally checked in Priberam. Institutional examples use the retained Senate/Enap documents and are not generalized as universal rules.",
+  "finalQuestionCount": 90,
+  "finalCommentCount": 90
+}

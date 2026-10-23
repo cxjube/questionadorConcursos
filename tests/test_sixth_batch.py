@@ -86,7 +86,7 @@ class SixthBatchTests(unittest.TestCase):
         links=[m for m in self.c['mappings'] if m['questionId']=='camara-2023-tecnica-tarde-tipo1-q017']
         self.assertEqual(len(links),2)
         self.assertEqual({syllabus[m['syllabusItemId']]['block'] for m in links},{'basic','specific'})
-        self.assertEqual(len(self.c['explanations']),69)
+        self.assertEqual(len(self.c['explanations']),90)
 
     @unittest.skipUnless(shutil.which('pdftotext'),'Poppler required')
     def test_question_numbers_match_bounded_source_columns(self):

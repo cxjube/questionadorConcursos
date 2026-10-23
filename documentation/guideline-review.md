@@ -1,6 +1,6 @@
 # Revisão das diretrizes recebidas — 23/10/2026
 
-> Atualização: [sétimo lote](seventh-batch-release.md), com 90 questões, 69 comentários e 42 fontes. São 36/42 C/E em P1/P2; permanecem 21 questões sem comentário. Os registros anteriores abaixo preservam o histórico das respectivas entregas.
+> Atualização: [sétimo lote](seventh-batch-release.md), com 90 questões, 90 comentários e 44 fontes. São 36/42 C/E em P1/P2; todas as questões atuais têm comentário. Os registros anteriores abaixo preservam o histórico das respectivas entregas.
 
 > Atualização: [sexto lote](sixth-batch-release.md), com 73 questões, nove disciplinas iniciadas, 34 comentários e 30 fontes registradas. As limitações dos registros anteriores permanecem como histórico.
 
