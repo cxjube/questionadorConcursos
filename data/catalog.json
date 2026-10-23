@@ -1907,6 +1907,162 @@
       "sha256": "2449f4024c25e31c20ea9d83885ec06296a3a93217d2f0c22c9e4bdc10c7d5e8",
       "publicationDate": null,
       "paperId": "source-camara-2023-tecnica-tarde-tipo1"
+    },
+    {
+      "id": "source-camara-2014-consultor-cb2-03-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Câmara dos Deputados 2014 — Consultor Legislativo — conhecimentos básicos",
+      "issuer": "CESPE/UnB",
+      "status": "verified",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/area-i/conhecimentos-basicos-p1",
+      "file": "sources/papers/camara-2014-basic.pdf",
+      "sha256": "08f8b15a4e08cbd1546f6318b2dae3cd7d0f8629e40e8d029a9fd38d3f87d4a7",
+      "publicationDate": null,
+      "paperId": "source-camara-2014-consultor-cb2-03"
+    },
+    {
+      "id": "source-camara-2014-consultor-cb2-03-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Câmara dos Deputados 2014 — Consultor Legislativo — conhecimentos básicos — gabarito definitivo",
+      "issuer": "CESPE/UnB",
+      "status": "verified",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/area-i/gabarito-conhecimentos-basicos-p1",
+      "file": "sources/answer-keys/camara-2014-basic-definitivo.pdf",
+      "sha256": "b3e29c271c67e89ad2d318e33657999b438eba4f5131ea491d35cc2c945549e4",
+      "publicationDate": null,
+      "paperId": "source-camara-2014-consultor-cb2-03"
+    },
+    {
+      "id": "source-camara-2014-consultor-area-xix-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Câmara dos Deputados 2014 — Consultor Legislativo — Área XIX",
+      "issuer": "CESPE/UnB",
+      "status": "verified",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/area-xix/prova-objetiva-p2",
+      "file": "sources/papers/camara-2014-xix.pdf",
+      "sha256": "a5441ae000a63929364cf634117ca0e22da4e0cacc8817adfc2731971b304289",
+      "publicationDate": null,
+      "paperId": "source-camara-2014-consultor-area-xix"
+    },
+    {
+      "id": "source-camara-2014-consultor-area-xix-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Câmara dos Deputados 2014 — Consultor Legislativo — Área XIX — gabarito definitivo",
+      "issuer": "CESPE/UnB",
+      "status": "verified",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/area-xix/gabarito-p2",
+      "file": "sources/answer-keys/camara-2014-xix-definitivo.pdf",
+      "sha256": "09402dd9d78b6c874314272c180a52bc1c62994cc24c0ebcebd573fb23b72438",
+      "publicationDate": null,
+      "paperId": "source-camara-2014-consultor-area-xix"
+    },
+    {
+      "id": "reference-enap-comunicacao-2015",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Plano de Comunicação da Enap — maio de 2015",
+      "issuer": "Enap",
+      "status": "verified",
+      "officialUrl": "https://repositorio.enap.gov.br/server/api/core/bitstreams/60e4e75c-3215-4c8f-9650-f48087aca831/content",
+      "file": "sources/references/enap-plano-comunicacao-2015.pdf",
+      "sha256": "9c385c9644c9b8974f0f4fab45ee413c97cd548679356cfc70ee0ed7189501c0",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-certbr-cartilha",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Cartilha de Segurança para Internet — CERT.br",
+      "issuer": "CERT.br / NIC.br",
+      "status": "verified",
+      "officialUrl": "https://cartilha.cert.br/livro/cartilha-seguranca-internet.pdf",
+      "file": "sources/references/certbr-cartilha-seguranca.pdf",
+      "sha256": "49ff9c787b8d81b5c512fd1b81ed84fd7c69ce5b67855fefafb677555b757cab",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-google-ml",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Introdução ao machine learning — O que é ML?",
+      "issuer": "Google for Developers",
+      "status": "verified",
+      "officialUrl": "https://developers.google.com/machine-learning/intro-to-ml/what-is-ml?hl=pt-br",
+      "file": "sources/references/google-machine-learning.html",
+      "sha256": "c6168372401f8ae44a9a660326a26316735c06b2e0bfd5d483f7654e2350b164",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-microsoft-onedrive",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "O que é o OneDrive corporativo ou de estudante?",
+      "issuer": "Microsoft Support",
+      "status": "verified",
+      "officialUrl": "https://support.microsoft.com/pt-br/onedrive/what-is-onedrive-for-work-or-school",
+      "file": "sources/references/microsoft-onedrive.html",
+      "sha256": "768b81b3344a537909384870dc1703dde55742292977752d7ff14a3b07ec913e",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-senado-relacionamento-com-os-publicos",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Manual de Comunicação do Senado — Relacionamento com os públicos",
+      "issuer": "Senado Federal",
+      "status": "verified",
+      "officialUrl": "https://www12.senado.leg.br/manualdecomunicacao/diretrizes/relacionamento-com-os-publicos",
+      "file": "sources/references/senado-relacionamento-com-os-publicos.html",
+      "sha256": "0f696e1ce9becfae1a88a7c781bd5425c9579c9633de62a16804e0b9ef54bad0",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-senado-cobertura-e-divulgacao-institucional-interna",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Manual de Comunicação do Senado — Cobertura e divulgação institucional interna",
+      "issuer": "Senado Federal",
+      "status": "verified",
+      "officialUrl": "https://www12.senado.leg.br/manualdecomunicacao/diretrizes/cobertura-e-divulgacao-institucional-interna",
+      "file": "sources/references/senado-cobertura-e-divulgacao-institucional-interna.html",
+      "sha256": "30d0f6036fd226a1d77e17de7788d705323e8848323669bdc8ca06265ca2e844",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-senado-integracao",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Manual de Comunicação do Senado — Integração",
+      "issuer": "Senado Federal",
+      "status": "verified",
+      "officialUrl": "https://www12.senado.leg.br/manualdecomunicacao/diretrizes/integracao",
+      "file": "sources/references/senado-integracao.html",
+      "sha256": "cac426e48b9a53c6cc8009beabadac773b8abab747d5d99092f20f8dd879e1fb",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-senado-acoes-institucionais",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Manual de Comunicação do Senado — Ações institucionais",
+      "issuer": "Senado Federal",
+      "status": "verified",
+      "officialUrl": "https://www12.senado.leg.br/manualdecomunicacao/diretrizes/acoes-institucionais",
+      "file": "sources/references/senado-acoes-institucionais.html",
+      "sha256": "e879b9579a82fa2af092177121453a42136b077645249f5bb0ddd3f27616114e",
+      "publicationDate": null,
+      "paperId": null
     }
   ],
   "papers": [
@@ -2123,6 +2279,72 @@
         ],
         "answerKeyDocumentId": "source-camara-2023-tecnica-tarde-tipo1-key",
         "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-camara-2014-consultor-cb2-03",
+      "bankId": "concursos",
+      "title": "Câmara dos Deputados 2014 — Consultor Legislativo — conhecimentos básicos",
+      "provider": "CESPE/UnB",
+      "institution": "Câmara dos Deputados",
+      "role": "Consultor Legislativo — conhecimentos básicos",
+      "year": 2014,
+      "booklet": "CAMARA14_CB2_03",
+      "documentId": "source-camara-2014-consultor-cb2-03-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2014-04-13",
+        "block": "basic",
+        "firstItem": 1,
+        "lastItem": 110,
+        "itemCount": 110,
+        "questionType": "true_false",
+        "annulledItems": [
+          4,
+          13,
+          30,
+          49,
+          57,
+          58,
+          60,
+          74,
+          93,
+          107
+        ],
+        "answerKeyDocumentId": "source-camara-2014-consultor-cb2-03-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-camara-2014-consultor-area-xix",
+      "bankId": "concursos",
+      "title": "Câmara dos Deputados 2014 — Consultor Legislativo — Área XIX",
+      "provider": "CESPE/UnB",
+      "institution": "Câmara dos Deputados",
+      "role": "Consultor Legislativo — Área XIX",
+      "year": 2014,
+      "booklet": "CAMARA14_020_39",
+      "documentId": "source-camara-2014-consultor-area-xix-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2014-04-13",
+        "block": "specific",
+        "firstItem": 111,
+        "lastItem": 220,
+        "itemCount": 110,
+        "questionType": "true_false",
+        "annulledItems": [
+          125,
+          132,
+          150,
+          164,
+          194,
+          207
+        ],
+        "answerKeyDocumentId": "source-camara-2014-consultor-area-xix-key",
+        "pairingStatus": "matched_by_filename_and_range",
         "externalVerification": true
       }
     }
@@ -4583,6 +4805,516 @@
         "temporalNote": "Interpretação conceitual do texto da prova de 2023; enunciado e gabarito originais preservados.",
         "decisionReference": "documentation/sixth-batch-release.md"
       }
+    },
+    {
+      "id": "camara-2014-cb2-03-q079",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "É da competência privativa do presidente da República a proposição de lei de diretrizes orçamentárias.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-poderes-presidente"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 79,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q079-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos citados cotejados com as fontes oficiais retidas em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q080",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Compete exclusivamente ao presidente da República a promulgação de leis federais.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-poderes-presidente"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 80,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q080-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos citados cotejados com as fontes oficiais retidas em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q089",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Impõe-se a redação do vencido, conforme a linguagem regimental, para o registro do texto da proposição que tenha sido derrotada em dada comissão.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-processo-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 89,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q089-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos citados cotejados com as fontes oficiais retidas em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q090",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O orador, uma vez na tribuna, pode impedir outro parlamentar de fazer aparte ao seu pronunciamento, se assim o declarar.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-processo-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 90,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q090-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos citados cotejados com as fontes oficiais retidas em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q091",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Proposição legislativa de declaração de guerra tem preferência em relação às demais, ainda que estas estejam sujeitas ao regime de urgência.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-processo-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 91,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q091-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos citados cotejados com as fontes oficiais retidas em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q092",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Matéria constante de proposição legislativa rejeitada pela Câmara dos Deputados não poderá ser objeto de nova apreciação na mesma sessão legislativa.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-processo-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 92,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q092-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos citados cotejados com as fontes oficiais retidas em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q097",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A posse de um deputado federal somente pode ser feita pessoalmente, vedada a posse mediante procuração.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-organizacao-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 97,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q097-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos citados cotejados com as fontes oficiais retidas em 23/10/2026; resposta histórica preservada. Posse pessoal não significa necessariamente presencial: ver comentário sobre videoconferência.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q099",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Em caso de urgência regimental, cabe às comissões permanentes apreciar projeto de lei em caráter conclusivo, dispensada a competência do Plenário.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-organizacao-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 99,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q099-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos citados cotejados com as fontes oficiais retidas em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q100",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Na composição da Mesa da Câmara dos Deputados, deve-se assegurar a representação da minoria, ainda que pela proporcionalidade não lhe caiba lugar nessa composição.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-organizacao-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 100,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q100-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos citados cotejados com as fontes oficiais retidas em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q113",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Segundo Weber, a fonte que legitima a autorização do exercício da coerção física, no Estado moderno, é o seu sistema de regras legais.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-estado-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 113,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q113-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos teóricos avaliados em 2014; enunciado e gabarito originais preservados, sem apresentar exemplos históricos como descrição atual.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q134",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Regime é o conjunto de instituições que regula a luta pelo poder, o exercício do poder e o conjunto dos valores que fomentam tais instituições.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-regimes-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 134,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara-2014-area-xix-q134-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos teóricos avaliados em 2014; enunciado e gabarito originais preservados, sem apresentar exemplos históricos como descrição atual.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q135",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A democracia é o único regime político que assegura o exercício da representação.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-regimes-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 135,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara-2014-area-xix-q135-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos teóricos avaliados em 2014; enunciado e gabarito originais preservados, sem apresentar exemplos históricos como descrição atual.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q138",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Segundo o modelo de democracia majoritária, o poder é concentrado e a relação entre governo e oposição, caracterizada pelo embate e pela competição.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-modelos-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 138,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara-2014-area-xix-q138-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos teóricos avaliados em 2014; enunciado e gabarito originais preservados, sem apresentar exemplos históricos como descrição atual.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q140",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Bicameralismo, voto proporcional e sistemas multipartidários são características associadas ao modelo consensual de democracia.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-modelos-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 140,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara-2014-area-xix-q140-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos teóricos avaliados em 2014; enunciado e gabarito originais preservados, sem apresentar exemplos históricos como descrição atual.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q142",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O voto proporcional tende a produzir sistemas partidários com mais de dois partidos.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-partidos-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 142,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara-2014-area-xix-q142-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos teóricos avaliados em 2014; enunciado e gabarito originais preservados, sem apresentar exemplos históricos como descrição atual.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q143",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A relação entre grupos de parlamentares eleitos e seus comitês eleitorais forma precursores do primeiro tipo de partido a surgir: o partido de quadros.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-partidos-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 143,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara-2014-area-xix-q143-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos teóricos avaliados em 2014; enunciado e gabarito originais preservados, sem apresentar exemplos históricos como descrição atual.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q145",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As eleições e a ampliação progressiva do direito de voto contribuíram para a origem e o desenvolvimento dos partidos políticos na Europa no século XIX.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-partidos-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 145,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara-2014-area-xix-q145-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos teóricos avaliados em 2014; enunciado e gabarito originais preservados, sem apresentar exemplos históricos como descrição atual.",
+        "decisionReference": "documentation/seventh-batch-release.md"
+      }
     }
   ],
   "answerKeys": [
@@ -5534,6 +6266,227 @@
       "locator": "PDF p. 1",
       "result": "valid",
       "value": "b"
+    },
+    {
+      "id": "camara-2014-cb2-03-q079-key-v1",
+      "questionId": "camara-2014-cb2-03-q079",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-cb2-03-q080-key-v1",
+      "questionId": "camara-2014-cb2-03-q080",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-cb2-03-q089-key-v1",
+      "questionId": "camara-2014-cb2-03-q089",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-cb2-03-q090-key-v1",
+      "questionId": "camara-2014-cb2-03-q090",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-cb2-03-q091-key-v1",
+      "questionId": "camara-2014-cb2-03-q091",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-cb2-03-q092-key-v1",
+      "questionId": "camara-2014-cb2-03-q092",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-cb2-03-q097-key-v1",
+      "questionId": "camara-2014-cb2-03-q097",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-cb2-03-q099-key-v1",
+      "questionId": "camara-2014-cb2-03-q099",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-cb2-03-q100-key-v1",
+      "questionId": "camara-2014-cb2-03-q100",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q113-key-v1",
+      "questionId": "camara-2014-area-xix-q113",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q134-key-v1",
+      "questionId": "camara-2014-area-xix-q134",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q135-key-v1",
+      "questionId": "camara-2014-area-xix-q135",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-area-xix-q138-key-v1",
+      "questionId": "camara-2014-area-xix-q138",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q140-key-v1",
+      "questionId": "camara-2014-area-xix-q140",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q142-key-v1",
+      "questionId": "camara-2014-area-xix-q142",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q143-key-v1",
+      "questionId": "camara-2014-area-xix-q143",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q145-key-v1",
+      "questionId": "camara-2014-area-xix-q145",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
     }
   ],
   "explanations": [
@@ -5976,6 +6929,521 @@
         {
           "documentId": "source-232funprespexe-cb1-01-paper",
           "locator": "PDF p. 1, texto O homem e suas certezas, item 12"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q079-comment-v1",
+      "questionId": "camara-2014-cb2-03-q079",
+      "text": "O art. 165, caput e II, da Constituição reserva ao Poder Executivo a iniciativa da lei de diretrizes orçamentárias. Na União, essa iniciativa é exercida pelo Presidente da República. O item trata da apresentação do projeto, não da competência parlamentar para apreciá-lo.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 165, caput e II"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q080-comment-v1",
+      "questionId": "camara-2014-cb2-03-q080",
+      "text": "A competência não é exclusiva do Presidente da República. O art. 66, § 7º, prevê promulgação pelo Presidente do Senado e, se ele também não o fizer no prazo, pelo Vice-Presidente do Senado, nas hipóteses ali indicadas. Não se deve confundir promulgação com sanção.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 66, §§ 3º, 5º e 7º"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q089-comment-v1",
+      "questionId": "camara-2014-cb2-03-q089",
+      "text": "Vencido, nessa expressão regimental, é o resultado que prevaleceu na votação, com as alterações aprovadas. Não é o texto derrotado em comissão. O art. 194 disciplina a redação após o primeiro turno e o art. 195 relaciona a redação final à conformidade com o vencido.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Arts. 194 e 195, caput"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q090-comment-v1",
+      "questionId": "camara-2014-cb2-03-q090",
+      "text": "Pelo art. 176, § 1º, o aparte depende de solicitação e permissão do orador. O § 2º, V, proíbe aparte quando o orador declara, de modo geral, que não o permite. O item corresponde a essa faculdade regimental.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 176, §§ 1º e 2º, V"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q091-comment-v1",
+      "questionId": "camara-2014-cb2-03-q091",
+      "text": "O art. 159, § 2º, coloca declaração de guerra e correlatos em primeiro lugar na ordem de preferência entre projetos urgentes. Assim, a declaração de guerra tem preferência também diante de outras matérias submetidas à urgência.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 159, §§ 1º e 2º, I"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q092-comment-v1",
+      "questionId": "camara-2014-cb2-03-q092",
+      "text": "A proibição não é absoluta. O art. 67 da Constituição permite novo projeto sobre matéria de projeto de lei rejeitado, na mesma sessão legislativa, mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso. O item omite essa exceção.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 67"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q097-comment-v1",
+      "questionId": "camara-2014-cb2-03-q097",
+      "text": "O art. 4º, § 4º, do Regimento veda a posse através de procurador: o compromisso é pessoal. Isso não significa exigir sempre presença física. Os §§ 6º-A e 6º-B, acrescidos em 2022, admitem videoconferência em hipóteses específicas, com o próprio parlamentar prestando o compromisso. Essa atualização não autoriza posse por procuração.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 4º, §§ 4º, 6º-A e 6º-B"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q099-comment-v1",
+      "questionId": "camara-2014-cb2-03-q099",
+      "text": "O art. 24, II, permite apreciação conclusiva pelas comissões, mas contém exceções. A alínea h exclui os projetos em regime de urgência. Logo, a urgência não dispensa o Plenário na situação descrita pelo item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 24, II, h"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q100-comment-v1",
+      "questionId": "camara-2014-cb2-03-q100",
+      "text": "O art. 8º, § 3º, assegura a participação de um membro da Minoria na Mesa mesmo quando a proporcionalidade não lhe reservaria vaga. Trata-se da garantia expressamente reproduzida pelo item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 8º, § 3º"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q113-comment-v1",
+      "questionId": "camara-2014-area-xix-q113",
+      "text": "No recorte de Weber cobrado no item, a legitimidade legal-racional se apoia na validade de regras impessoais e na competência das autoridades instituídas por elas. Por isso, a autorização para exercer a coerção estatal é vinculada ao sistema legal, e não apenas à vontade pessoal do governante.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando e item 113"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 113"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q134-comment-v1",
+      "questionId": "camara-2014-area-xix-q134",
+      "text": "Regime político abrange as instituições e regras de acesso e exercício do poder, junto dos valores que as sustentam. Não se limita aos ocupantes temporários do governo. A definição apresentada no item é compatível com esse sentido e foi considerada correta no gabarito.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 3, comando e item 134"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 134"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q135-comment-v1",
+      "questionId": "camara-2014-area-xix-q135",
+      "text": "Representação e democracia não são conceitos equivalentes. Mecanismos e pretensões de representação também aparecem em regimes não democráticos. Para caracterizar representação democrática, é preciso examinar como os representantes são escolhidos, controlados e responsabilizados; a afirmação de exclusividade torna o item incorreto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 3, comando e item 135"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 135"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q138-comment-v1",
+      "questionId": "camara-2014-area-xix-q138",
+      "text": "O comando distingue o modelo majoritário, voltado à obtenção de maiorias definidas, do consensual, orientado à ampliação do acordo. No modelo majoritário, a concentração decisória e a competição entre governo e oposição correspondem à descrição cobrada. É uma comparação de modelos, não uma regra sobre toda democracia concreta.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 3, comando e item 138"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 138"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q140-comment-v1",
+      "questionId": "camara-2014-area-xix-q140",
+      "text": "Bicameralismo, representação proporcional e multipartidarismo são mecanismos associados à dispersão e ao compartilhamento do poder no modelo consensual. Contrastam com a concentração decisória do modelo majoritário descrito no comando. São características do modelo teórico, sem afirmar que todos os países as combinam da mesma forma.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 3, comando e item 140"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 140"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q142-comment-v1",
+      "questionId": "camara-2014-area-xix-q142",
+      "text": "O item enuncia uma tendência, não uma garantia matemática. A representação proporcional permite que diferentes parcelas do eleitorado obtenham cadeiras, favorecendo a presença de mais partidos em comparação com sistemas que concentram a disputa em um vencedor por distrito. Regras como cláusulas e magnitude dos distritos também influenciam o resultado.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 3, comando e item 142"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 142"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q143-comment-v1",
+      "questionId": "camara-2014-area-xix-q143",
+      "text": "A questão relaciona os partidos de quadros à articulação inicial entre grupos parlamentares e comitês eleitorais. Nesse tipo de formação, a coordenação entre representantes e apoiadores nas eleições precede organizações de filiação massiva. Essa é a relação histórica considerada correta pelo gabarito.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 3, comando e item 143"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 143"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q145-comment-v1",
+      "questionId": "camara-2014-area-xix-q145",
+      "text": "Eleições e expansão do direito de voto ampliaram a necessidade de organizar candidaturas, mobilizar eleitores e coordenar representantes. Esses processos contribuíram para o surgimento e desenvolvimento dos partidos europeus no século XIX. O item afirma contribuição histórica, sem apresentá-la como causa única.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 3, comando e item 145"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 145"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-cb1-01-q001-comment-v1",
+      "questionId": "232funprespexe-cb1-01-q001",
+      "text": "No trecho, o pronome o retoma tratado de psicologia e funciona como objeto direto de reduziu. O pronome lhe não substitui esse objeto direto nessa construção; sua troca prejudicaria a correção gramatical. O complemento introduzido por a é artigos, não o referente do pronome.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-232funprespexe-cb1-01-paper",
+          "locator": "PDF p. 1, texto Amadeu Amaral Júnior, item 1; linhas originais preservadas no contexto"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-cb1-01-q002-comment-v1",
+      "questionId": "232funprespexe-cb1-01-q002",
+      "text": "Em Também aceita trabalho, o sujeito não é repetido, mas pode ser recuperado no anúncio: Amadeu Amaral Júnior. O referente singular justifica aceita na terceira pessoa do singular. A elipse evita repetir o nome e mantém a continuidade do texto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-232funprespexe-cb1-01-paper",
+          "locator": "PDF p. 1, texto Amadeu Amaral Júnior, item 2; linhas originais preservadas no contexto"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-cb1-01-q003-comment-v1",
+      "questionId": "232funprespexe-cb1-01-q003",
+      "text": "Por quê aparece ao final de uma interrogação indireta reduzida a Não sei por quê, com o sentido de não sei por qual motivo. Porquê, precedido de artigo, funciona como substantivo: Não sei o porquê. A substituição proposta preserva a correção gramatical, que é o aspecto perguntado pelo item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-232funprespexe-cb1-01-paper",
+          "locator": "PDF p. 1, texto Amadeu Amaral Júnior, item 3; linhas originais preservadas no contexto"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-cb1-01-q004-comment-v1",
+      "questionId": "232funprespexe-cb1-01-q004",
+      "text": "As vírgulas que isolam em estado de desemprego separam uma expressão intercalada. As seguintes separam elementos da enumeração de coisas aceitas: esmolas, donativos, roupa velha e pão dormido. Como nem todas as vírgulas têm a mesma função, o item é incorreto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-232funprespexe-cb1-01-paper",
+          "locator": "PDF p. 1, texto Amadeu Amaral Júnior, item 4; linhas originais preservadas no contexto"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-cg1-01-q026-comment-v1",
+      "questionId": "038-anm-cg1-01-q026",
+      "text": "Aprendizado de máquina envolve treinar um modelo a partir de dados para reconhecer padrões e produzir previsões ou conteúdo. A definição do curso introdutório do Google descreve precisamente esse processo. Não se confunde com escrever manualmente uma regra para cada possível entrada.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-google-ml",
+          "locator": "Seção O que é Machine Learning? — definição de treinamento de modelo com dados"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-cg1-01-q029-comment-v1",
+      "questionId": "038-anm-cg1-01-q029",
+      "text": "A descrição do item é de phishing: uma fraude usa mensagens ou páginas que imitam instituições confiáveis para obter dados. Spyware é um programa que monitora atividades e envia informações coletadas a terceiros. A Cartilha do CERT.br apresenta esses conceitos em seções distintas; trocar os nomes torna o item incorreto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-certbr-cartilha",
+          "locator": "PDF p. 25, seção 2.3 Phishing; PDF p. 43, seção 4.4 Spyware"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-cg1-01-q030-comment-v1",
+      "questionId": "038-anm-cg1-01-q030",
+      "text": "O OneDrive oferece armazenamento de arquivos na nuvem, acesso a partir de dispositivos e sincronização com o computador. Isso permite acessar e manter cópias atualizadas em equipamentos vinculados à conta, conforme sua configuração e conectividade. A possibilidade descrita no item corresponde às funções documentadas pela Microsoft.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-microsoft-onedrive",
+          "locator": "Seções introdutória e Sincronizar o OneDrive com o computador"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-002-01-q084-comment-v1",
+      "questionId": "232funprespexe-002-01-q084",
+      "text": "O planejamento de comunicação precisa estar alinhado aos objetivos e à identidade da organização; desconsiderá-los compromete sua orientação. Como exemplo institucional, o plano da Enap liga as ações de comunicação ao objetivo da Escola, e o Manual do Senado exige planejamento comum entre áreas. As referências ilustram essa articulação, sem impor suas regras locais a toda organização.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-enap-comunicacao-2015",
+          "locator": "PDF p. 1, objetivo institucional e proposta do plano"
+        },
+        {
+          "documentId": "reference-senado-integracao",
+          "locator": "Diretriz Integração — orientação comum e planejamento conjunto"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-002-01-q085-comment-v1",
+      "questionId": "232funprespexe-002-01-q085",
+      "text": "Conhecimento prévio não substitui diagnóstico e avaliação das necessidades. Detalhá-las permite escolher ações, públicos e recursos de modo verificável. O plano da Enap exemplifica esse processo ao separar públicos e propor, entre outras ações, enquetes para conhecer os interesses dos servidores. É um exemplo de planejamento institucional, não uma norma universal.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-enap-comunicacao-2015",
+          "locator": "PDF p. 1, públicos; PDF p. 2, ações propostas para o público interno"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-002-01-q090-comment-v1",
+      "questionId": "232funprespexe-002-01-q090",
+      "text": "A cooperação entre gestão de pessoas e comunicação reúne conhecimento sobre os colaboradores e técnicas de relacionamento e informação. Pode fortalecer o planejamento da comunicação interna. No exemplo do Senado, a cobertura interna inclui capacitação, direitos e deveres, reconhecimento e integração do corpo funcional.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-senado-cobertura-e-divulgacao-institucional-interna",
+          "locator": "Diretriz Cobertura e divulgação institucional interna — pautas de capacitação, direitos, deveres e integração"
+        },
+        {
+          "documentId": "reference-enap-comunicacao-2015",
+          "locator": "PDF p. 1, execução em parceria com todas as unidades"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-002-01-q091-comment-v1",
+      "questionId": "232funprespexe-002-01-q091",
+      "text": "Produzir boletins e informativos é uma atividade possível, mas não esgota o papel de relações públicas junto à gestão de pessoas. O trabalho também envolve planejamento, integração de áreas, escuta e relacionamento com os colaboradores. O Manual do Senado e o plano da Enap mostram essa amplitude em práticas institucionais concretas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-senado-integracao",
+          "locator": "Diretriz Integração — planejamento conjunto e atuação complementar"
+        },
+        {
+          "documentId": "reference-enap-comunicacao-2015",
+          "locator": "PDF p. 2, ações para o público interno"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-002-01-q096-comment-v1",
+      "questionId": "232funprespexe-002-01-q096",
+      "text": "A escolha dos meios precisa considerar o conteúdo, a forma de apresentação e o tempo de produção e circulação, em função do público e do objetivo. O plano da Enap distribui ações entre intranet, mensagens eletrônicas, reuniões e materiais impressos e organiza o encaminhamento e a priorização dos materiais impressos. Esse exemplo ajuda a entender por que tais aspectos influenciam o planejamento.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-enap-comunicacao-2015",
+          "locator": "PDF p. 2, ações e canais internos; PDF p. 5, fluxo de imprensa e materiais impressos"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-002-01-q097-comment-v1",
+      "questionId": "232funprespexe-002-01-q097",
+      "text": "Igualdade no direito à informação não determina um único meio de divulgação. Públicos, complexidade da mensagem e necessidade de interação podem exigir canais e formatos diferentes. A diretriz do Senado prevê o mesmo conteúdo informativo em formatos e meios diversos e prioriza, no atendimento, a ferramenta escolhida pelo cidadão.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-senado-relacionamento-com-os-publicos",
+          "locator": "Diretriz Relacionamento com os públicos — ferramenta escolhida pelo cidadão e conteúdo em formatos diversos"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-002-01-q098-comment-v1",
+      "questionId": "232funprespexe-002-01-q098",
+      "text": "O foco da comunicação pública é a relação de interesse público entre instituições e sociedade, favorecendo informação, diálogo e cidadania. As diretrizes do Senado oferecem exemplos: manter mecanismos de participação e fortalecer o relacionamento com os públicos. Elas ilustram o conceito, sem reduzir comunicação pública à atuação de um órgão específico.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-senado-relacionamento-com-os-publicos",
+          "locator": "Diretriz Relacionamento com os públicos — mecanismos de interação e participação direta"
+        },
+        {
+          "documentId": "reference-senado-acoes-institucionais",
+          "locator": "Diretriz Ações institucionais — interesse público e diálogo"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-002-01-q099-comment-v1",
+      "questionId": "232funprespexe-002-01-q099",
+      "text": "Informar serviços também dá visibilidade à instituição responsável por prestá-los. O item erra ao excluir esse efeito com sem que isso as torne conhecidas. Na referência do Senado, divulgar atividades e serviços e favorecer a compreensão do papel institucional fazem parte das ações de comunicação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-senado-acoes-institucionais",
+          "locator": "Diretriz Ações institucionais — divulgação de serviços e compreensão do papel da Casa"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-002-01-q100-comment-v1",
+      "questionId": "232funprespexe-002-01-q100",
+      "text": "Conhecer os públicos orienta a definição de mensagens, canais e formas de interação. A referência do Senado exige mecanismos de contato e atenção às demandas, enquanto o plano da Enap identifica públicos internos e externos e organiza ações para eles. Esses exemplos sustentam o planejamento direcionado ao cidadão.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-senado-relacionamento-com-os-publicos",
+          "locator": "Diretriz Relacionamento com os públicos — contato, atendimento e interação"
+        },
+        {
+          "documentId": "reference-enap-comunicacao-2015",
+          "locator": "PDF p. 1, identificação dos públicos; PDF p. 2, ações propostas"
+        }
+      ]
+    },
+    {
+      "id": "539-alce-016-01-q022-comment-v1",
+      "questionId": "539-alce-016-01-q022",
+      "text": "A alternativa A combina audiência pública, iniciativas institucionais e campanha de conscientização, permitindo informar e dialogar sobre um problema coletivo. As demais restringem indevidamente a comunicação ao consumidor, à cobertura da tramitação ou a um tipo de veículo, ou afastam a sociedade civil. A diretriz do Senado é uma referência prática de interação e participação cidadã, sem confirmar a vigência atual da legislação sobre canudos citada no texto histórico.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-senado-relacionamento-com-os-publicos",
+          "locator": "Diretriz Relacionamento com os públicos — interação e participação direta"
+        },
+        {
+          "documentId": "source-539-alce-016-01-paper",
+          "locator": "PDF p. 1, texto 13A1-I e alternativas da questão 22"
+        }
+      ]
+    },
+    {
+      "id": "539-alce-016-01-q025-comment-v1",
+      "questionId": "539-alce-016-01-q025",
+      "text": "A alternativa A reúne planejamento e integração das diferentes competências de comunicação e gestão. As demais limitam o trabalho à imprensa, ignoram o contexto organizacional ou equiparam indevidamente finalidades públicas e comerciais. Como exemplo institucional, a diretriz Integração do Senado prevê planejamento conjunto, atuação complementar e respeito à expertise de cada área.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "reference-senado-integracao",
+          "locator": "Diretriz Integração — mecanismos de planejamento conjunto e expertise das áreas"
+        },
+        {
+          "documentId": "source-539-alce-016-01-paper",
+          "locator": "PDF p. 2, alternativas da questão 25"
         }
       ]
     }
@@ -9250,6 +10718,125 @@
       "syllabusItemId": "camara-2026-ciencia-politica-8",
       "justification": "Institucionalização partidária segundo o critério explicitado no trecho citado.",
       "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q079-mapping-1",
+      "questionId": "camara-2014-cb2-03-q079",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-2",
+      "justification": "Iniciativa da lei de diretrizes orçamentárias.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q080-mapping-1",
+      "questionId": "camara-2014-cb2-03-q080",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-1-3",
+      "justification": "Promulgação de leis e atuação subsidiária do Senado.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q089-mapping-1",
+      "questionId": "camara-2014-cb2-03-q089",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-5-1",
+      "justification": "Significado regimental da redação do vencido.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q090-mapping-1",
+      "questionId": "camara-2014-cb2-03-q090",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-5-1",
+      "justification": "Permissão do orador para apartes.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q091-mapping-1",
+      "questionId": "camara-2014-cb2-03-q091",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-5-1",
+      "justification": "Preferência entre proposições em regime de urgência.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q092-mapping-1",
+      "questionId": "camara-2014-cb2-03-q092",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-1-2",
+      "justification": "Reapresentação de matéria rejeitada na mesma sessão legislativa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q097-mapping-1",
+      "questionId": "camara-2014-cb2-03-q097",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-7-1",
+      "justification": "Caráter pessoal do compromisso de posse e vedação de procurador.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q099-mapping-1",
+      "questionId": "camara-2014-cb2-03-q099",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-1-3",
+      "justification": "Limite da apreciação conclusiva das comissões em urgência.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q100-mapping-1",
+      "questionId": "camara-2014-cb2-03-q100",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-7-1",
+      "justification": "Participação da Minoria na composição da Mesa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q113-mapping-1",
+      "questionId": "camara-2014-area-xix-q113",
+      "syllabusItemId": "camara-2026-ciencia-politica-11",
+      "justification": "Legitimação legal do Estado moderno em Weber.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q134-mapping-1",
+      "questionId": "camara-2014-area-xix-q134",
+      "syllabusItemId": "camara-2026-ciencia-politica-3",
+      "justification": "Definição de regime político por instituições e valores.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q135-mapping-1",
+      "questionId": "camara-2014-area-xix-q135",
+      "syllabusItemId": "camara-2026-ciencia-politica-5",
+      "justification": "Distinção entre representação política e regime democrático.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q138-mapping-1",
+      "questionId": "camara-2014-area-xix-q138",
+      "syllabusItemId": "camara-2026-ciencia-politica-3",
+      "justification": "Concentração do poder no modelo majoritário de democracia.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q140-mapping-1",
+      "questionId": "camara-2014-area-xix-q140",
+      "syllabusItemId": "camara-2026-ciencia-politica-3",
+      "justification": "Distribuição do poder no modelo consensual de democracia.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q142-mapping-1",
+      "questionId": "camara-2014-area-xix-q142",
+      "syllabusItemId": "camara-2026-ciencia-politica-7",
+      "justification": "Relação entre representação proporcional e multipartidarismo.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q143-mapping-1",
+      "questionId": "camara-2014-area-xix-q143",
+      "syllabusItemId": "camara-2026-ciencia-politica-8",
+      "justification": "Origem parlamentar e eleitoral dos partidos de quadros.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q145-mapping-1",
+      "questionId": "camara-2014-area-xix-q145",
+      "syllabusItemId": "camara-2026-ciencia-politica-13",
+      "justification": "Expansão do sufrágio e desenvolvimento histórico dos partidos.",
+      "status": "confirmed"
     }
   ],
   "scoringRules": [
@@ -9896,6 +11483,69 @@
       "text": "O uso da internet pelos atores políticos é uma variável importante das democracias representativas: deputados, atores institucionais, cidadãos e organizações da sociedade civil utilizam diferentes plataformas para influenciar as decisões políticas, em um processo denominado de “Democracia Digital” que fortalece o princípio da transparência. \n\nA respeito das tecnologias de informação e comunicação aplicadas aos processos democráticos, relacione os possíveis efeitos da transparência digital listados a seguir às respectivas descrições. \n\n1. Maior qualificação das ações deliberativas \n\n2. Aumento da confiança no sistema político \n\n3. Favorecimento dos processos de accountability \n\n( ) A circulação online de dados, documentos, estudos, discursos governamentais e análises de procedimentos oferece maiores insumos para a deliberação pública. \n\n( ) O acesso e cruzamento online de informações sobre atividades governamentais disponibilizadas pelos agentes públicos, facilita e barateia a prestação de contas da gestão dos recursos públicos. \n\n( ) A veiculação regular de informações em websites oficiais constitui uma vitrine pública da governança e fortalece a credibilidade e o reconhecimento ao trabalho desenvolvido pelas instituições públicas.",
       "sourceDocumentId": "source-camara-2023-tecnica-tarde-tipo1-paper",
       "sourcePage": 10
+    },
+    {
+      "id": "camara-2014-poderes-presidente",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "Com base nas normas constitucionais relativas aos poderes do presidente da República, julgue os seguintes itens.",
+      "sourceDocumentId": "source-camara-2014-consultor-cb2-03-paper",
+      "sourcePage": 9
+    },
+    {
+      "id": "camara-2014-processo-comando",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "Acerca da disciplina do processo legislativo e do Regimento Interno da Câmara dos Deputados, julgue os próximos itens.",
+      "sourceDocumentId": "source-camara-2014-consultor-cb2-03-paper",
+      "sourcePage": 10
+    },
+    {
+      "id": "camara-2014-organizacao-comando",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "Com relação ao que dispõe o Regimento Interno da Câmara dos Deputados acerca da sua organização e do seu funcionamento, julgue os seguintes itens.",
+      "sourceDocumentId": "source-camara-2014-consultor-cb2-03-paper",
+      "sourcePage": 10
+    },
+    {
+      "id": "camara-2014-estado-comando",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "No que se refere à legitimidade, às dimensões do poder, ao Estado e à sociedade, julgue os itens a seguir.",
+      "sourceDocumentId": "source-camara-2014-consultor-area-xix-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "camara-2014-regimes-comando",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "A respeito dos regimes políticos, julgue os itens a seguir.",
+      "sourceDocumentId": "source-camara-2014-consultor-area-xix-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "camara-2014-modelos-comando",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "majoritária, cujo maior objetivo é a obtenção de maiorias definidas, e a democracia consensual, cujo objetivo é a maior ampliação possível da maioria —, julgue os itens a seguir.",
+      "sourceDocumentId": "source-camara-2014-consultor-area-xix-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "camara-2014-partidos-comando",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "A respeito das relações entre os sistemas eleitorais e os sistemas partidários, julgue os próximos itens.",
+      "sourceDocumentId": "source-camara-2014-consultor-area-xix-paper",
+      "sourcePage": 3
     }
   ]
 }

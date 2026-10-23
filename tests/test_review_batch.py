@@ -22,7 +22,7 @@ class ReviewBatchTests(unittest.TestCase):
         self.assertEqual(len(self.batch['items']), 20)
         self.assertEqual(sum(i['type'] == 'true_false' for i in self.batch['items']), 15)
         self.assertEqual(len(self.batch['contexts']), 6)
-        self.assertEqual(len(self.catalog['questions']), 73)
+        self.assertEqual(len(self.catalog['questions']), 90)
         for item in self.batch['items']:
             self.assertIn(item['id'], render(self.catalog))
             published = next(q for q in self.catalog['questions'] if q['id'] == item['id'])

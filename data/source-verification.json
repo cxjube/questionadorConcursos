@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-23T20:52:08.779602+00:00",
-  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments.",
+  "checkedAt": "2026-10-23T21:17:01.497486+00:00",
+  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23.",
   "documents": [
     {
       "documentId": "camara-2026-edital-01-documento",
@@ -212,6 +212,90 @@
       "outcome": "byte_match",
       "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivos-para-publicacao-edital-3-tarde.pdf",
       "remoteSha256": "2449f4024c25e31c20ea9d83885ec06296a3a93217d2f0c22c9e4bdc10c7d5e8"
+    },
+    {
+      "documentId": "source-camara-2014-consultor-cb2-03-paper",
+      "localSha256": "08f8b15a4e08cbd1546f6318b2dae3cd7d0f8629e40e8d029a9fd38d3f87d4a7",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/area-i/conhecimentos-basicos-p1",
+      "remoteSha256": "08f8b15a4e08cbd1546f6318b2dae3cd7d0f8629e40e8d029a9fd38d3f87d4a7"
+    },
+    {
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "localSha256": "b3e29c271c67e89ad2d318e33657999b438eba4f5131ea491d35cc2c945549e4",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/area-i/gabarito-conhecimentos-basicos-p1",
+      "remoteSha256": "b3e29c271c67e89ad2d318e33657999b438eba4f5131ea491d35cc2c945549e4"
+    },
+    {
+      "documentId": "source-camara-2014-consultor-area-xix-paper",
+      "localSha256": "a5441ae000a63929364cf634117ca0e22da4e0cacc8817adfc2731971b304289",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/area-xix/prova-objetiva-p2",
+      "remoteSha256": "a5441ae000a63929364cf634117ca0e22da4e0cacc8817adfc2731971b304289"
+    },
+    {
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "localSha256": "09402dd9d78b6c874314272c180a52bc1c62994cc24c0ebcebd573fb23b72438",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/area-xix/gabarito-p2",
+      "remoteSha256": "09402dd9d78b6c874314272c180a52bc1c62994cc24c0ebcebd573fb23b72438"
+    },
+    {
+      "documentId": "reference-enap-comunicacao-2015",
+      "localSha256": "9c385c9644c9b8974f0f4fab45ee413c97cd548679356cfc70ee0ed7189501c0",
+      "outcome": "byte_match",
+      "officialUrl": "https://repositorio.enap.gov.br/server/api/core/bitstreams/60e4e75c-3215-4c8f-9650-f48087aca831/content",
+      "remoteSha256": "9c385c9644c9b8974f0f4fab45ee413c97cd548679356cfc70ee0ed7189501c0"
+    },
+    {
+      "documentId": "reference-certbr-cartilha",
+      "localSha256": "49ff9c787b8d81b5c512fd1b81ed84fd7c69ce5b67855fefafb677555b757cab",
+      "outcome": "byte_match",
+      "officialUrl": "https://cartilha.cert.br/livro/cartilha-seguranca-internet.pdf",
+      "remoteSha256": "49ff9c787b8d81b5c512fd1b81ed84fd7c69ce5b67855fefafb677555b757cab"
+    },
+    {
+      "documentId": "reference-google-ml",
+      "localSha256": "c6168372401f8ae44a9a660326a26316735c06b2e0bfd5d483f7654e2350b164",
+      "outcome": "byte_match",
+      "officialUrl": "https://developers.google.com/machine-learning/intro-to-ml/what-is-ml?hl=pt-br",
+      "remoteSha256": "c6168372401f8ae44a9a660326a26316735c06b2e0bfd5d483f7654e2350b164"
+    },
+    {
+      "documentId": "reference-microsoft-onedrive",
+      "localSha256": "768b81b3344a537909384870dc1703dde55742292977752d7ff14a3b07ec913e",
+      "outcome": "byte_match",
+      "officialUrl": "https://support.microsoft.com/pt-br/onedrive/what-is-onedrive-for-work-or-school",
+      "remoteSha256": "768b81b3344a537909384870dc1703dde55742292977752d7ff14a3b07ec913e"
+    },
+    {
+      "documentId": "reference-senado-relacionamento-com-os-publicos",
+      "localSha256": "0f696e1ce9becfae1a88a7c781bd5425c9579c9633de62a16804e0b9ef54bad0",
+      "outcome": "byte_match",
+      "officialUrl": "https://www12.senado.leg.br/manualdecomunicacao/diretrizes/relacionamento-com-os-publicos",
+      "remoteSha256": "0f696e1ce9becfae1a88a7c781bd5425c9579c9633de62a16804e0b9ef54bad0"
+    },
+    {
+      "documentId": "reference-senado-cobertura-e-divulgacao-institucional-interna",
+      "localSha256": "30d0f6036fd226a1d77e17de7788d705323e8848323669bdc8ca06265ca2e844",
+      "outcome": "byte_match",
+      "officialUrl": "https://www12.senado.leg.br/manualdecomunicacao/diretrizes/cobertura-e-divulgacao-institucional-interna",
+      "remoteSha256": "30d0f6036fd226a1d77e17de7788d705323e8848323669bdc8ca06265ca2e844"
+    },
+    {
+      "documentId": "reference-senado-integracao",
+      "localSha256": "cac426e48b9a53c6cc8009beabadac773b8abab747d5d99092f20f8dd879e1fb",
+      "outcome": "byte_match",
+      "officialUrl": "https://www12.senado.leg.br/manualdecomunicacao/diretrizes/integracao",
+      "remoteSha256": "cac426e48b9a53c6cc8009beabadac773b8abab747d5d99092f20f8dd879e1fb"
+    },
+    {
+      "documentId": "reference-senado-acoes-institucionais",
+      "localSha256": "e879b9579a82fa2af092177121453a42136b077645249f5bb0ddd3f27616114e",
+      "outcome": "byte_match",
+      "officialUrl": "https://www12.senado.leg.br/manualdecomunicacao/diretrizes/acoes-institucionais",
+      "remoteSha256": "e879b9579a82fa2af092177121453a42136b077645249f5bb0ddd3f27616114e"
     }
   ],
   "corroboration": [

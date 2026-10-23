@@ -30,7 +30,9 @@ class ReleasedFidelityTests(unittest.TestCase):
                 # boundaries and original numbers of numbered passages are checked by
                 # the independent bbox tests below; keep the full character check here.
                 expected, observed = clean(ctx['text']), clean(page)
-                if 'sourceLines' in ctx:
+                if 'sourceLines' in ctx or ctx['id']=='camara-2014-processo-comando':
+                    # The new justified command loses spaces in -raw; its exact
+                    # bbox word boundaries are checked in test_seventh_batch.
                     expected, observed = re.sub(r'\s+', '', expected), re.sub(r'\s+', '', observed)
                 self.assertIn(expected, observed)
                 if 'sourceCredit' in ctx:
@@ -122,8 +124,8 @@ class ReleasedFidelityTests(unittest.TestCase):
 
     def test_didactic_comments_have_separate_identity_and_source_evidence(self):
         comments = [c for c in self.catalog['explanations'] if c['questionId'].startswith('232funprespexe-cb1-01-')]
-        self.assertEqual(len(comments),12)
-        self.assertEqual({c['questionId'] for c in comments},{f'232funprespexe-cb1-01-q{n:03d}' for n in [5,6,7,8,9,10,11,12,13,14,15,16]})
+        self.assertEqual(len(comments),16)
+        self.assertEqual({c['questionId'] for c in comments},{f'232funprespexe-cb1-01-q{n:03d}' for n in list(range(1,17))})
         questions = {q['id']:q for q in self.catalog['questions']}
         contexts = {c['id']:c for c in self.catalog['contexts']}
         for comment in comments:
@@ -204,7 +206,7 @@ class ReleasedFidelityTests(unittest.TestCase):
             self.assertEqual((key['value'],key['documentId'],key['locator']),(row['answerValue'],row['answerDocumentId'],row['answerLocator']))
             self.assertEqual([m['syllabusItemId'] for m in self.catalog['mappings'] if m['questionId']==q['id']],row['syllabusItemIds'])
             self.assertEqual(q.get('language','pt-BR'),'en' if row['number']<15 else 'pt-BR')
-        comments=[c for c in self.catalog['explanations'] if c['questionId'] in questions]
+        comments=[c for c in self.catalog['explanations'] if c['questionId'] in questions and questions[c['questionId']].get('language')=='en']
         self.assertEqual(len(comments),4)
         for comment in comments:
             self.assertIn('assistido por IA',comment['author'])

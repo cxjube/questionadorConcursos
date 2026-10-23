@@ -1,0 +1,121 @@
+{
+  "id": "seventh-batch-legal-review",
+  "reviewedAt": "2026-10-23",
+  "scope": "Selected clauses in the official Constitution and RICD snapshots retained on 2026-10-23. Review is agent-assisted, not a comprehensive legal opinion or a guarantee about future amendments.",
+  "items": [
+    {
+      "questionId": "camara-2014-cb2-03-q079",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 165, caput e I a III",
+          "activeQuote": "Art. 165. Leis de iniciativa do Poder Executivo estabelecerão: I - o plano plurianual; II - as diretrizes orçamentárias; III - os orçamentos anuais."
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q080",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 66, § 7º",
+          "activeQuote": "§ 7º Se a lei não for promulgada dentro de quarenta e oito horas pelo Presidente da República, nos casos dos § 3º e § 5º, o Presidente do Senado a promulgará, e, se este não o fizer em igual prazo, caberá ao Vice-Presidente do Senado fazê-lo."
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q089",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 194, caput",
+          "activeQuote": "Art. 194. Terminada a votação em primeiro turno, os projetos irão à Comissão de Constituição e Justiça e de Cidadania para redigir o vencido."
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q090",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 176, § 1º",
+          "activeQuote": "O Deputado só poderá apartear o orador se lhe solicitar e obtiver permissão, devendo permanecer de pé ao fazê-lo."
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 176, § 2º, V",
+          "activeQuote": "V - quando o orador declarar, de modo geral, que não o permite;"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q091",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 159, § 2º, I",
+          "activeQuote": "§ 2º Haverá entre os projetos em regime de urgência a seguinte ordem de preferencia: I - declaração de guerra e correlatos;"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q092",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 67",
+          "activeQuote": "Art. 67. A matéria constante de projeto de lei rejeitado somente poderá constituir objeto de novo projeto, na mesma sessão legislativa, mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional."
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q097",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 4º, § 4º",
+          "activeQuote": "o compromissando não poderá apresentar, no ato, declaração oral ou escrita nem ser empossado através de procurador."
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 4º, § 6º-A",
+          "activeQuote": "colher o compromisso de posse por meio de videoconferência durante a sessão preparatória ou no mesmo dia de sua realização"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q099",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 24, II",
+          "activeQuote": "II - discutir e votar projetos de lei, dispensada a competência do Plenário, salvo o disposto no § 2º do art. 132 e excetuados os projetos:"
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 24, II, h",
+          "activeQuote": "h) em regime de urgência;"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q100",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 8º, § 3º",
+          "activeQuote": "§ 3º É assegurada a participação de um membro da Minoria, ainda que pela proporcionalidade não lhe caiba lugar."
+        }
+      ]
+    }
+  ]
+}

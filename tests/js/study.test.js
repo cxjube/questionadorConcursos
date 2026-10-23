@@ -156,7 +156,7 @@ test('custom quantity and draw preserve sources, options and contexts without re
  for(const item of session.items) assert.deepEqual(plain(item),plain(s.Study.snapshot(s.data,s.data.questions.find(q=>q.id===item.question.id),s.role)));
  assert.equal(JSON.stringify(s.data),before);assert.equal(session.scoringProfile,null);
  for(const limit of [0,-1,1.5,'2',6,NaN]) assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{...filters,limit}),/quantidade/);
- assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{disciplineId:'ciencia-politica',type:'true_false'}),/Não há questões/);
+ assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{disciplineId:'ciencia-politica',type:'true_false',year:2025}),/Não há questões/);
 });
 test('filtered errors use finalized outcomes and ignore unfinished choices',()=>{
  const s=setup(), settings={topicId:'comunicacao-social-7',limit:1};let p=s.Study.empty();
@@ -287,7 +287,7 @@ test('custom scoring never changes accuracy, unscored history or official criter
 test('block filters use target syllabus blocks, preserve distinct IDs and validate snapshots',()=>{
  const s=setup(),p=s.Study.empty();
  const basic=s.Study.pool(s.data,s.role,p,'all',{block:'basic'}),specific=s.Study.pool(s.data,s.role,p,'all',{block:'specific'});
- assert.equal(basic.length,35);assert.equal(specific.length,39);
+ assert.equal(basic.length,37);assert.equal(specific.length,54);
  assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',disciplineId:'lingua-inglesa'}).length,0);
  const session=s.Study.create(s.data,s.role,p,'all',{block:'basic',disciplineId:'lingua-inglesa'});
  assert.equal(session.items.length,4);assert.equal(session.selection.block,'basic');
@@ -302,8 +302,8 @@ test('block filters use target syllabus blocks, preserve distinct IDs and valida
  assert.ok(s.Study.validate({...p,active:legacy},s.data));
  const multi=plain(s.data),target=multi.syllabusItems.find(t=>t.block==='specific');
  multi.mappings.push({id:'synthetic-cross-block-link',questionId:basic[0].id,syllabusItemId:target.id,status:'confirmed'});
- assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,40);
- assert.equal(s.Study.pool(multi,s.role,p).length,73);
+ assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,55);
+ assert.equal(s.Study.pool(multi,s.role,p).length,90);
  assert.throws(()=>s.Study.pool(s.data,s.role,p,'all',{block:'invalid'}),/Bloco/);
 });
 test('evolution uses local calendar days, weighted accuracy and finalized role snapshots only',()=>{
@@ -345,8 +345,8 @@ test('sixth batch counts shared topics once and keeps MC separate from CE compos
  const shared='camara-2023-tecnica-tarde-tipo1-q017';
  assert.equal(basic.filter(q=>q.id===shared).length,1);assert.equal(specific.filter(q=>q.id===shared).length,1);
  assert.equal(s.Study.pool(s.data,s.role,p).filter(q=>q.id===shared).length,1);
- assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'}).length,34);
- assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'}).length,27);
+ assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'}).length,36);
+ assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'}).length,42);
  for(const discipline of s.data.disciplines) assert.ok(s.Study.pool(s.data,s.role,p,'all',{disciplineId:discipline.id}).length>0);
 });
 
