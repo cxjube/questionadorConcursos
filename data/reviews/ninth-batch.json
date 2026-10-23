@@ -1,0 +1,689 @@
+{
+  "id": "ninth-batch",
+  "reviewedAt": "2026-10-23",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/ninth-batch-release.md",
+  "items": [
+    {
+      "questionId": "961-anatel-cb1-01-q016",
+      "paperId": "source-961-anatel-cb1-01",
+      "number": 16,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        668,
+        683
+      ],
+      "contextIds": [
+        "anatel-2024-indigenous-passage",
+        "anatel-2024-indigenous-command"
+      ],
+      "answerKeyId": "961-anatel-cb1-01-q016-key-v1",
+      "answerDocumentId": "source-961-anatel-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-1"
+      ],
+      "justification": "Vocabulário e compreensão das relações explícitas e implícitas do texto-base em inglês."
+    },
+    {
+      "questionId": "961-anatel-cb1-01-q017",
+      "paperId": "source-961-anatel-cb1-01",
+      "number": 17,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        694,
+        720
+      ],
+      "contextIds": [
+        "anatel-2024-indigenous-passage",
+        "anatel-2024-indigenous-command"
+      ],
+      "answerKeyId": "961-anatel-cb1-01-q017-key-v1",
+      "answerDocumentId": "source-961-anatel-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-1"
+      ],
+      "justification": "Vocabulário e compreensão das relações explícitas e implícitas do texto-base em inglês."
+    },
+    {
+      "questionId": "961-anatel-cb1-01-q018",
+      "paperId": "source-961-anatel-cb1-01",
+      "number": 18,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        731,
+        757
+      ],
+      "contextIds": [
+        "anatel-2024-indigenous-passage",
+        "anatel-2024-indigenous-command"
+      ],
+      "answerKeyId": "961-anatel-cb1-01-q018-key-v1",
+      "answerDocumentId": "source-961-anatel-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-1"
+      ],
+      "justification": "Vocabulário e compreensão das relações explícitas e implícitas do texto-base em inglês."
+    },
+    {
+      "questionId": "961-anatel-cb1-01-q020",
+      "paperId": "source-961-anatel-cb1-01",
+      "number": 20,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        335,
+        350
+      ],
+      "contextIds": [
+        "anatel-2024-digital-divides-passage",
+        "anatel-2024-digital-divides-command"
+      ],
+      "answerKeyId": "961-anatel-cb1-01-q020-key-v1",
+      "answerDocumentId": "source-961-anatel-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-1"
+      ],
+      "justification": "Vocabulário e compreensão das relações explícitas e implícitas do texto-base em inglês."
+    },
+    {
+      "questionId": "961-anatel-cb1-01-q021",
+      "paperId": "source-961-anatel-cb1-01",
+      "number": 21,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        360,
+        375
+      ],
+      "contextIds": [
+        "anatel-2024-digital-divides-passage",
+        "anatel-2024-digital-divides-command"
+      ],
+      "answerKeyId": "961-anatel-cb1-01-q021-key-v1",
+      "answerDocumentId": "source-961-anatel-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-1"
+      ],
+      "justification": "Vocabulário e compreensão das relações explícitas e implícitas do texto-base em inglês."
+    },
+    {
+      "questionId": "961-anatel-cb1-01-q022",
+      "paperId": "source-961-anatel-cb1-01",
+      "number": 22,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        385,
+        399
+      ],
+      "contextIds": [
+        "anatel-2024-digital-divides-passage",
+        "anatel-2024-digital-divides-command"
+      ],
+      "answerKeyId": "961-anatel-cb1-01-q022-key-v1",
+      "answerDocumentId": "source-961-anatel-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-1"
+      ],
+      "justification": "Vocabulário e compreensão das relações explícitas e implícitas do texto-base em inglês."
+    },
+    {
+      "questionId": "961-anatel-cb1-01-q023",
+      "paperId": "source-961-anatel-cb1-01",
+      "number": 23,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        410,
+        424
+      ],
+      "contextIds": [
+        "anatel-2024-digital-divides-passage",
+        "anatel-2024-digital-divides-command"
+      ],
+      "answerKeyId": "961-anatel-cb1-01-q023-key-v1",
+      "answerDocumentId": "source-961-anatel-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-1"
+      ],
+      "justification": "Vocabulário e compreensão das relações explícitas e implícitas do texto-base em inglês."
+    },
+    {
+      "questionId": "094-pf-cb1-01-q028",
+      "paperId": "source-094-pf-cb1-01",
+      "number": 28,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        76,
+        125
+      ],
+      "contextIds": [
+        "pf-admin-2025-security-command"
+      ],
+      "answerKeyId": "094-pf-cb1-01-q028-key-v1",
+      "answerDocumentId": "source-094-pf-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-4-1"
+      ],
+      "justification": "Mecanismo de segurança da informação diretamente previsto no tópico do edital."
+    },
+    {
+      "questionId": "094-pf-cb1-01-q029",
+      "paperId": "source-094-pf-cb1-01",
+      "number": 29,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        135,
+        173
+      ],
+      "contextIds": [
+        "pf-admin-2025-security-command"
+      ],
+      "answerKeyId": "094-pf-cb1-01-q029-key-v1",
+      "answerDocumentId": "source-094-pf-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-4-2"
+      ],
+      "justification": "Mecanismo de segurança da informação diretamente previsto no tópico do edital."
+    },
+    {
+      "questionId": "094-pf-cb1-01-q032",
+      "paperId": "source-094-pf-cb1-01",
+      "number": 32,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        377,
+        426
+      ],
+      "contextIds": [
+        "pf-admin-2025-security-command"
+      ],
+      "answerKeyId": "094-pf-cb1-01-q032-key-v1",
+      "answerDocumentId": "source-094-pf-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-4-2"
+      ],
+      "justification": "Mecanismo de segurança da informação diretamente previsto no tópico do edital."
+    },
+    {
+      "questionId": "094-pf-cb1-01-q034",
+      "paperId": "source-094-pf-cb1-01",
+      "number": 34,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        497,
+        546
+      ],
+      "contextIds": [
+        "pf-admin-2025-security-command"
+      ],
+      "answerKeyId": "094-pf-cb1-01-q034-key-v1",
+      "answerDocumentId": "source-094-pf-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-4-3"
+      ],
+      "justification": "Mecanismo de segurança da informação diretamente previsto no tópico do edital."
+    },
+    {
+      "questionId": "057-ibama-cb1-01-q017",
+      "paperId": "source-057-ibama-cb1-01",
+      "number": 17,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        329,
+        355
+      ],
+      "contextIds": [
+        "ibama-2025-ai-command"
+      ],
+      "answerKeyId": "057-ibama-cb1-01-q017-key-v1",
+      "answerDocumentId": "source-057-ibama-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-5"
+      ],
+      "justification": "Distinção entre sistemas de IA de finalidade específica e inteligência geral."
+    },
+    {
+      "questionId": "057-ibama-001-01-q064",
+      "paperId": "source-057-ibama-001-01",
+      "number": 64,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        137,
+        176
+      ],
+      "contextIds": [
+        "ibama-2025-contracts-command"
+      ],
+      "answerKeyId": "057-ibama-001-01-q064-key-v1",
+      "answerDocumentId": "source-057-ibama-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-10-2"
+      ],
+      "justification": "Meios alternativos de solução de controvérsias contratuais."
+    },
+    {
+      "questionId": "057-ibama-001-01-q067",
+      "paperId": "source-057-ibama-001-01",
+      "number": 67,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        315,
+        342
+      ],
+      "contextIds": [
+        "ibama-2025-contracts-command"
+      ],
+      "answerKeyId": "057-ibama-001-01-q067-key-v1",
+      "answerDocumentId": "source-057-ibama-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-10-4"
+      ],
+      "justification": "Formalização eletrônica de contratos e aditamentos."
+    },
+    {
+      "questionId": "057-ibama-001-01-q069",
+      "paperId": "source-057-ibama-001-01",
+      "number": 69,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        405,
+        470
+      ],
+      "contextIds": [
+        "ibama-2025-contracts-command"
+      ],
+      "answerKeyId": "057-ibama-001-01-q069-key-v1",
+      "answerDocumentId": "source-057-ibama-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-10-3"
+      ],
+      "justification": "Características e objeto do contrato de eficiência."
+    },
+    {
+      "questionId": "057-ibama-001-01-q070",
+      "paperId": "source-057-ibama-001-01",
+      "number": 70,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        481,
+        533
+      ],
+      "contextIds": [
+        "ibama-2025-contracts-command"
+      ],
+      "answerKeyId": "057-ibama-001-01-q070-key-v1",
+      "answerDocumentId": "source-057-ibama-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-10-1"
+      ],
+      "justification": "Princípios expressos da Lei de Licitações e Contratos."
+    },
+    {
+      "questionId": "057-ibama-001-01-q071",
+      "paperId": "source-057-ibama-001-01",
+      "number": 71,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        590,
+        630
+      ],
+      "contextIds": [
+        "ibama-2025-access-privacy-command"
+      ],
+      "answerKeyId": "057-ibama-001-01-q071-key-v1",
+      "answerDocumentId": "source-057-ibama-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-11"
+      ],
+      "justification": "Vedação de exigir motivação no pedido de acesso à informação."
+    },
+    {
+      "questionId": "057-ibama-001-01-q072",
+      "paperId": "source-057-ibama-001-01",
+      "number": 72,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        641,
+        669
+      ],
+      "contextIds": [
+        "ibama-2025-access-privacy-command"
+      ],
+      "answerKeyId": "057-ibama-001-01-q072-key-v1",
+      "answerDocumentId": "source-057-ibama-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-12"
+      ],
+      "justification": "Distinção entre bases legais de dados pessoais e dados sensíveis."
+    },
+    {
+      "questionId": "038-anm-008-01-q054",
+      "paperId": "source-038-anm-008-01",
+      "number": 54,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        230,
+        258
+      ],
+      "contextIds": [
+        "anm-008-history-theory-command"
+      ],
+      "answerKeyId": "038-anm-008-01-q054-key-v1",
+      "answerDocumentId": "source-038-anm-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-1-1"
+      ],
+      "justification": "Conceito de indústria cultural e Escola de Frankfurt."
+    },
+    {
+      "questionId": "038-anm-008-01-q072",
+      "paperId": "source-038-anm-008-01",
+      "number": 72,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        431,
+        458
+      ],
+      "contextIds": [
+        "anm-008-tv-web-command"
+      ],
+      "answerKeyId": "038-anm-008-01-q072-key-v1",
+      "answerDocumentId": "source-038-anm-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-5-3"
+      ],
+      "justification": "Hipertexto e navegação não linear na produção digital."
+    },
+    {
+      "questionId": "038-anm-012-01-q061",
+      "paperId": "source-038-anm-012-01",
+      "number": 61,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        104,
+        138
+      ],
+      "contextIds": [
+        "anm-012-public-relations-command"
+      ],
+      "answerKeyId": "038-anm-012-01-q061-key-v1",
+      "answerDocumentId": "source-038-anm-012-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-4-6"
+      ],
+      "justification": "Identificação dos públicos e de influências sobre eles."
+    },
+    {
+      "questionId": "038-anm-012-01-q065",
+      "paperId": "source-038-anm-012-01",
+      "number": 65,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        398,
+        432
+      ],
+      "contextIds": [
+        "anm-012-strategy-command"
+      ],
+      "answerKeyId": "038-anm-012-01-q065-key-v1",
+      "answerDocumentId": "source-038-anm-012-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-4-1"
+      ],
+      "justification": "Papel estratégico da comunicação organizacional no relacionamento com públicos."
+    },
+    {
+      "questionId": "038-anm-013-01-q061",
+      "paperId": "source-038-anm-013-01",
+      "number": 61,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        672,
+        700
+      ],
+      "contextIds": [
+        "anm-013-theory-ai-web-command"
+      ],
+      "answerKeyId": "038-anm-013-01-q061-key-v1",
+      "answerDocumentId": "source-038-anm-013-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-10-2"
+      ],
+      "justification": "Arquitetura da informação e facilidade de navegação."
+    },
+    {
+      "questionId": "038-anm-013-01-q063",
+      "paperId": "source-038-anm-013-01",
+      "number": 63,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        750,
+        790
+      ],
+      "contextIds": [
+        "anm-013-theory-ai-web-command"
+      ],
+      "answerKeyId": "038-anm-013-01-q063-key-v1",
+      "answerDocumentId": "source-038-anm-013-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-9-2"
+      ],
+      "justification": "Responsabilidade editorial e verificação no uso de IA generativa."
+    }
+  ],
+  "contexts": [
+    {
+      "contextId": "anatel-2024-indigenous-passage",
+      "paperId": "source-961-anatel-cb1-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        385,
+        622
+      ],
+      "paragraphs": true
+    },
+    {
+      "contextId": "anatel-2024-indigenous-command",
+      "paperId": "source-961-anatel-cb1-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        654,
+        657
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anatel-2024-digital-divides-passage",
+      "paperId": "source-961-anatel-cb1-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        61,
+        290
+      ],
+      "paragraphs": true
+    },
+    {
+      "contextId": "anatel-2024-digital-divides-command",
+      "paperId": "source-961-anatel-cb1-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        322,
+        324
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "pf-admin-2025-security-command",
+      "paperId": "source-094-pf-cb1-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        51,
+        65
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "ibama-2025-ai-command",
+      "paperId": "source-057-ibama-cb1-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        190,
+        216
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "ibama-2025-contracts-command",
+      "paperId": "source-057-ibama-001-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        70,
+        84
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "ibama-2025-access-privacy-command",
+      "paperId": "source-057-ibama-001-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        550,
+        577
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-008-history-theory-command",
+      "paperId": "source-038-anm-008-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        70,
+        97
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-008-tv-web-command",
+      "paperId": "source-038-anm-008-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        356,
+        370
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-012-public-relations-command",
+      "paperId": "source-038-anm-012-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        70,
+        88
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-012-strategy-command",
+      "paperId": "source-038-anm-012-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        364,
+        382
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-013-theory-ai-web-command",
+      "paperId": "source-038-anm-013-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        633,
+        659
+      ],
+      "paragraphs": false
+    }
+  ]
+}

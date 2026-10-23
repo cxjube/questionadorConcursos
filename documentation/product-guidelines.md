@@ -2,7 +2,7 @@
 
 ## Diretrizes de produto, arquitetura, banco de questões e experiência de estudo
 
-**Versão:** 1.9 — revisão integrada ao repositório
+**Versão:** 1.10 — revisão integrada ao repositório
 **Data:** 23/10/2026
 **Projeto:** Questionador Concursos
 **Repositório:** https://github.com/cxjube/questionadorConcursos
@@ -14,9 +14,9 @@
 
 Este documento consolida as sugestões fornecidas pelo usuário e os ajustes de revisão. É uma referência de produto e de aceite por etapa, não autorização para implementar todo o roadmap.
 
-O estado implementado em 23/10/2026 inclui o catálogo v3 e oito lotes liberados: 109 questões oficiais (97 C/E e 12 de múltipla escolha), 38 contextos, 112 vínculos revisados e 109 comentários didáticos com fontes independentes. As nove disciplinas estão iniciadas, sem cobertura integral do edital. Os comentários são assistidos por IA, separados do gabarito definitivo. Há 44 fontes retidas: 30 PDFs e 14 referências HTML; a revisão de vigência se limita às cláusulas citadas, na data registrada. Continuam o treino personalizado, sessão, retomada, correção ao finalizar, histórico e desempenho locais, revisão de erros/brancos/inéditas e backup exportável/importável com confirmação de substituição.
+O estado implementado em 23/10/2026 inclui o catálogo v3 e nove lotes liberados: 133 questões oficiais (121 C/E e 12 de múltipla escolha), 51 contextos, 136 vínculos revisados e 133 comentários didáticos com fontes independentes. As nove disciplinas estão iniciadas, sem cobertura integral do edital. Os comentários são assistidos por IA, separados do gabarito definitivo. Há 62 fontes retidas: 46 PDFs e 16 referências HTML; a revisão de vigência se limita às cláusulas citadas, na data registrada. Continuam o treino personalizado, sessão, retomada, correção ao finalizar, histórico e desempenho locais, revisão de erros/brancos/inéditas e backup exportável/importável com confirmação de substituição.
 
-O treino oferece filtros por bloco P1/P2 e origem/ano/formato, prazo opcional persistente com encerramento automático e pontuação personalizada (+1 por acerto; erro zero ou −1; branco/anulação zero), sem mínimos oficiais. A personalização abre em janela pelo botão à esquerda de Iniciar questões, com Aplicar/Cancelar. O histórico oferece evolução por dias locais em janelas de 7/30 dias ou todo o período. Simulados com regras/composição oficiais, mais comentários referenciados e novos lotes continuam requisitos de etapas futuras. O banco oferece 49 itens temáticos distintos em P1 e 61 em P2, com um compartilhado. No formato C/E são 48 em P1 e 49 em P2, insuficientes para o simulado de 90+90 itens distintos. O roadmap abaixo não é uma declaração de implementação integral.
+O treino oferece filtros por bloco P1/P2 e origem/ano/formato, prazo opcional persistente com encerramento automático e pontuação personalizada (+1 por acerto; erro zero ou −1; branco/anulação zero), sem mínimos oficiais. A personalização abre em janela pelo botão à esquerda de Iniciar questões, com Aplicar/Cancelar. O histórico oferece evolução por dias locais em janelas de 7/30 dias ou todo o período. Simulados com regras/composição oficiais, mais comentários referenciados e novos lotes continuam requisitos de etapas futuras. O banco oferece 67 itens temáticos distintos em P1 e 67 em P2, com um compartilhado. No formato C/E são 66 em P1 e 55 em P2, insuficientes para o simulado de 90+90 itens distintos. O roadmap abaixo não é uma declaração de implementação integral.
 
 Consulte o [contrato vigente](data-contract.md), o [registro de liberação](first-batch-release.md) e o [guia de uso](study-guide.md). O arquivo original de preparação permanece fora do Pages como evidência histórica, sem ser interpretado como a decisão atual do catálogo publicado.
 

@@ -2089,6 +2089,240 @@
       "sha256": "4f70fec7df87f1158de49f262555fc7b940b372f6a089a12d2f69d176467e1e9",
       "publicationDate": null,
       "paperId": null
+    },
+    {
+      "id": "source-038-anm-008-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "ANM 2025 — Cargo 8 — Analista Administrativo — Jornalismo, Relações Públicas ou Comunicação Organizacional — caderno",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_008_01.PDF",
+      "file": "sources/papers/038_ANM_008_01.PDF",
+      "sha256": "3827773733eab82c542444e790cf649f153db3e34ee47acbaabdd36d15d8f53d",
+      "publicationDate": "2025-02-21",
+      "paperId": "source-038-anm-008-01"
+    },
+    {
+      "id": "source-038-anm-008-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "ANM 2025 — Cargo 8 — Analista Administrativo — Jornalismo, Relações Públicas ou Comunicação Organizacional — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_008_01.PDF",
+      "file": "sources/answer-keys/Gab_Definitivo_038_ANM_008_01.PDF",
+      "sha256": "9437db8ae98463dd3d3264f2aff87dffe0135579b8e793d75171684d12c7db9d",
+      "publicationDate": "2025-03-18",
+      "paperId": "source-038-anm-008-01"
+    },
+    {
+      "id": "source-038-anm-012-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "ANM 2025 — Cargo 12 — Analista Administrativo — Relações Públicas ou Comunicação Organizacional — caderno",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_012_01.PDF",
+      "file": "sources/papers/038_ANM_012_01.PDF",
+      "sha256": "04d04d062fe842886f55cfcafdf60c7e4d3fc716bb18b7e12a2c4506ab17deb4",
+      "publicationDate": "2025-02-21",
+      "paperId": "source-038-anm-012-01"
+    },
+    {
+      "id": "source-038-anm-012-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "ANM 2025 — Cargo 12 — Analista Administrativo — Relações Públicas ou Comunicação Organizacional — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_012_01.PDF",
+      "file": "sources/answer-keys/Gab_Definitivo_038_ANM_012_01.PDF",
+      "sha256": "04bf68b4d90a9a16064a7933ee4d08fffd1ca6c706fc50392e1e3f9f0d8a1f96",
+      "publicationDate": "2025-03-18",
+      "paperId": "source-038-anm-012-01"
+    },
+    {
+      "id": "source-038-anm-013-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "ANM 2025 — Cargo 13 — Especialista em Recursos Minerais — Comunicação — caderno",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_013_01.PDF",
+      "file": "sources/papers/038_ANM_013_01.PDF",
+      "sha256": "fad0ff0160950e230ea7def858541ce7cab79eb1b7e35bd1236cb603c0a26068",
+      "publicationDate": "2025-02-21",
+      "paperId": "source-038-anm-013-01"
+    },
+    {
+      "id": "source-038-anm-013-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "ANM 2025 — Cargo 13 — Especialista em Recursos Minerais — Comunicação — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_013_01.PDF",
+      "file": "sources/answer-keys/Gab_Definitivo_038_ANM_013_01.PDF",
+      "sha256": "eec3e29b6bb7a05895c572017c906ae39e36ed3c1dbcf5a7dc7fe14b26ca6310",
+      "publicationDate": "2025-03-18",
+      "paperId": "source-038-anm-013-01"
+    },
+    {
+      "id": "source-959-bcb-cb1-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Banco Central do Brasil 2024 — Conhecimentos básicos para todos os cargos de Analista — caderno",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/BCB_24/arquivos/959_BCB_CB1_01.PDF",
+      "file": "sources/papers/959_BCB_CB1_01.PDF",
+      "sha256": "ba25e4ed70a5a2eb021b3e25cff4138705a8de035dd03d243e8d1f980aa9e01a",
+      "publicationDate": "2024-08-09",
+      "paperId": "source-959-bcb-cb1-01"
+    },
+    {
+      "id": "source-959-bcb-cb1-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Banco Central do Brasil 2024 — Conhecimentos básicos para todos os cargos de Analista — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/BCB_24/arquivos/GAB_DEFINITIVO_959_BCB_CB1_01.PDF",
+      "file": "sources/answer-keys/GAB_DEFINITIVO_959_BCB_CB1_01.PDF",
+      "sha256": "a49786674b8bf9c615748c57940509e2f2f7a7d226271864a15ebcc6218c1141",
+      "publicationDate": "2024-09-03",
+      "paperId": "source-959-bcb-cb1-01"
+    },
+    {
+      "id": "source-057-ibama-cb1-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Ibama 2025 — Conhecimentos básicos — Analista Administrativo — caderno",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/IBAMA_25/arquivos/057_IBAMA_CB1_01.pdf",
+      "file": "sources/papers/057_IBAMA_CB1_01.pdf",
+      "sha256": "7cd6e4b6dbc39656edf76a841697906adc4eb0773960c09e3d83c02cb3587cda",
+      "publicationDate": "2025-04-11",
+      "paperId": "source-057-ibama-cb1-01"
+    },
+    {
+      "id": "source-057-ibama-cb1-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Ibama 2025 — Conhecimentos básicos — Analista Administrativo — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/IBAMA_25/arquivos/Gab_Definitivo_057_IBAMA_CB1_01.PDF",
+      "file": "sources/answer-keys/Gab_Definitivo_057_IBAMA_CB1_01.PDF",
+      "sha256": "d4ea8843df95133c87d2bd4f41f3dd921215377d1019cabe95507a2452bcaa7f",
+      "publicationDate": "2025-05-07",
+      "paperId": "source-057-ibama-cb1-01"
+    },
+    {
+      "id": "source-057-ibama-001-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Ibama 2025 — Cargo 1 — Analista Administrativo — caderno",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/IBAMA_25/arquivos/057_IBAMA_001_01.pdf",
+      "file": "sources/papers/057_IBAMA_001_01.pdf",
+      "sha256": "597a8deb760c0cbb6a8fc25edfc490f2c88a2518d8bb883388184b59838d9849",
+      "publicationDate": "2025-04-11",
+      "paperId": "source-057-ibama-001-01"
+    },
+    {
+      "id": "source-057-ibama-001-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Ibama 2025 — Cargo 1 — Analista Administrativo — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/IBAMA_25/arquivos/Gab_Definitivo_057_IBAMA_001_01.PDF",
+      "file": "sources/answer-keys/Gab_Definitivo_057_IBAMA_001_01.PDF",
+      "sha256": "0461e69fa22a3eaeb9df344685933059bc54c69c8ddb6718143a8b1e865c7e6f",
+      "publicationDate": "2025-05-07",
+      "paperId": "source-057-ibama-001-01"
+    },
+    {
+      "id": "source-961-anatel-cb1-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Anatel 2024 — Conhecimentos básicos para todos os cargos — caderno",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANATEL_24/arquivos/961_ANATEL_CB1_01.PDF",
+      "file": "sources/papers/961_ANATEL_CB1_01.PDF",
+      "sha256": "aaca98177aaf581d47f84d94aff9326528c903d5fc7f6380215a8bd93b083a6b",
+      "publicationDate": "2024-09-20",
+      "paperId": "source-961-anatel-cb1-01"
+    },
+    {
+      "id": "source-961-anatel-cb1-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Anatel 2024 — Conhecimentos básicos para todos os cargos — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANATEL_24/arquivos/GAB_DEFINITIVO_961_ANATEL_CB1_01.PDF",
+      "file": "sources/answer-keys/GAB_DEFINITIVO_961_ANATEL_CB1_01.PDF",
+      "sha256": "c1edf7edfbeaf92cea80a678ed9953135bcea84e1e81d66e79f63de48cff4047",
+      "publicationDate": "2024-10-16",
+      "paperId": "source-961-anatel-cb1-01"
+    },
+    {
+      "id": "source-094-pf-cb1-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Polícia Federal 2025 — Conhecimentos básicos para os cargos de nível superior — área administrativa — caderno",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_CB1_01.pdf",
+      "file": "sources/papers/094_PF_CB1_01.pdf",
+      "sha256": "282659632592cb616425e4f15a6c22a6f86d5d47869893e9b81489d73291ba72",
+      "publicationDate": "2025-07-04",
+      "paperId": "source-094-pf-cb1-01"
+    },
+    {
+      "id": "source-094-pf-cb1-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Polícia Federal 2025 — Conhecimentos básicos para os cargos de nível superior — área administrativa — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/Gab_Definitivo_094_PF_CB1_01.pdf",
+      "file": "sources/answer-keys/Gab_Definitivo_094_PF_CB1_01.pdf",
+      "sha256": "affbca13cf0309a1bf782f46a00292621e512b9e39233ccdb96a1c18a71ba69d",
+      "publicationDate": "2025-08-06",
+      "paperId": "source-094-pf-cb1-01"
+    },
+    {
+      "id": "reference-microsoft-smartscreen",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Microsoft Defender SmartScreen overview",
+      "issuer": "Microsoft",
+      "status": "verified",
+      "officialUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/virus-and-threat-protection/microsoft-defender-smartscreen/",
+      "file": "sources/references/microsoft-smartscreen.html",
+      "sha256": "90a78f97ff895c05b1a467bad1151a977ef7a8c00409a2b8a1a29a088f8ffe72",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-microsoft-pua",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Detect and block potentially unwanted applications",
+      "issuer": "Microsoft",
+      "status": "verified",
+      "officialUrl": "https://learn.microsoft.com/en-us/defender-endpoint/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus",
+      "file": "sources/references/microsoft-pua.html",
+      "sha256": "c2398ba1d648657354bdca32a212ef7c01819f52ed2ae7cf3a8e499055d29de0",
+      "publicationDate": null,
+      "paperId": null
     }
   ],
   "papers": [
@@ -2370,6 +2604,226 @@
           207
         ],
         "answerKeyDocumentId": "source-camara-2014-consultor-area-xix-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-038-anm-008-01",
+      "bankId": "concursos",
+      "title": "ANM 2025 — Cargo 8 — Analista Administrativo — Jornalismo, Relações Públicas ou Comunicação Organizacional",
+      "provider": "Cebraspe",
+      "institution": "ANM",
+      "role": "Cargo 8 — Analista Administrativo — Jornalismo, Relações Públicas ou Comunicação Organizacional",
+      "year": 2025,
+      "booklet": "038_ANM_008_01",
+      "documentId": "source-038-anm-008-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-02-16",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "questionType": "true_false",
+        "annulledItems": [
+          58,
+          115
+        ],
+        "answerKeyDocumentId": "source-038-anm-008-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-038-anm-012-01",
+      "bankId": "concursos",
+      "title": "ANM 2025 — Cargo 12 — Analista Administrativo — Relações Públicas ou Comunicação Organizacional",
+      "provider": "Cebraspe",
+      "institution": "ANM",
+      "role": "Cargo 12 — Analista Administrativo — Relações Públicas ou Comunicação Organizacional",
+      "year": 2025,
+      "booklet": "038_ANM_012_01",
+      "documentId": "source-038-anm-012-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-02-16",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "questionType": "true_false",
+        "annulledItems": [
+          75,
+          111
+        ],
+        "answerKeyDocumentId": "source-038-anm-012-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-038-anm-013-01",
+      "bankId": "concursos",
+      "title": "ANM 2025 — Cargo 13 — Especialista em Recursos Minerais — Comunicação",
+      "provider": "Cebraspe",
+      "institution": "ANM",
+      "role": "Cargo 13 — Especialista em Recursos Minerais — Comunicação",
+      "year": 2025,
+      "booklet": "038_ANM_013_01",
+      "documentId": "source-038-anm-013-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-02-16",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "questionType": "true_false",
+        "annulledItems": [
+          51,
+          60,
+          77,
+          108
+        ],
+        "answerKeyDocumentId": "source-038-anm-013-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-959-bcb-cb1-01",
+      "bankId": "concursos",
+      "title": "Banco Central do Brasil 2024 — Conhecimentos básicos para todos os cargos de Analista",
+      "provider": "Cebraspe",
+      "institution": "Banco Central do Brasil",
+      "role": "Conhecimentos básicos para todos os cargos de Analista",
+      "year": 2024,
+      "booklet": "959_BCB_CB1_01",
+      "documentId": "source-959-bcb-cb1-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2024-08-04",
+        "block": "basic",
+        "firstItem": 1,
+        "lastItem": 50,
+        "itemCount": 50,
+        "questionType": "true_false",
+        "annulledItems": [
+          44
+        ],
+        "answerKeyDocumentId": "source-959-bcb-cb1-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-057-ibama-cb1-01",
+      "bankId": "concursos",
+      "title": "Ibama 2025 — Conhecimentos básicos — Analista Administrativo",
+      "provider": "Cebraspe",
+      "institution": "Ibama",
+      "role": "Conhecimentos básicos — Analista Administrativo",
+      "year": 2025,
+      "booklet": "057_IBAMA_CB1_01",
+      "documentId": "source-057-ibama-cb1-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-04-06",
+        "block": "basic",
+        "firstItem": 1,
+        "lastItem": 50,
+        "itemCount": 50,
+        "questionType": "true_false",
+        "annulledItems": [
+          15,
+          49
+        ],
+        "answerKeyDocumentId": "source-057-ibama-cb1-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-057-ibama-001-01",
+      "bankId": "concursos",
+      "title": "Ibama 2025 — Cargo 1 — Analista Administrativo",
+      "provider": "Cebraspe",
+      "institution": "Ibama",
+      "role": "Cargo 1 — Analista Administrativo",
+      "year": 2025,
+      "booklet": "057_IBAMA_001_01",
+      "documentId": "source-057-ibama-001-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-04-06",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "questionType": "true_false",
+        "annulledItems": [
+          62,
+          83,
+          91,
+          99,
+          116
+        ],
+        "answerKeyDocumentId": "source-057-ibama-001-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-961-anatel-cb1-01",
+      "bankId": "concursos",
+      "title": "Anatel 2024 — Conhecimentos básicos para todos os cargos",
+      "provider": "Cebraspe",
+      "institution": "Anatel",
+      "role": "Conhecimentos básicos para todos os cargos",
+      "year": 2024,
+      "booklet": "961_ANATEL_CB1_01",
+      "documentId": "source-961-anatel-cb1-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2024-09-15",
+        "block": "basic",
+        "firstItem": 1,
+        "lastItem": 50,
+        "itemCount": 50,
+        "questionType": "true_false",
+        "annulledItems": [
+          19,
+          35,
+          39
+        ],
+        "answerKeyDocumentId": "source-961-anatel-cb1-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-094-pf-cb1-01",
+      "bankId": "concursos",
+      "title": "Polícia Federal 2025 — Conhecimentos básicos para os cargos de nível superior — área administrativa",
+      "provider": "Cebraspe",
+      "institution": "Polícia Federal",
+      "role": "Conhecimentos básicos para os cargos de nível superior — área administrativa",
+      "year": 2025,
+      "booklet": "094_PF_CB1_01",
+      "documentId": "source-094-pf-cb1-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-06-29",
+        "block": "basic",
+        "firstItem": 1,
+        "lastItem": 50,
+        "itemCount": 50,
+        "questionType": "true_false",
+        "annulledItems": [
+          37
+        ],
+        "answerKeyDocumentId": "source-094-pf-cb1-01-key",
         "pairingStatus": "matched_by_filename_and_range",
         "externalVerification": true
       }
@@ -5917,6 +6371,740 @@
         "temporalNote": "Modelos e conceitos teóricos avaliados em 2014; enunciado e gabarito originais preservados.",
         "decisionReference": "documentation/eighth-batch-release.md"
       }
+    },
+    {
+      "id": "961-anatel-cb1-01-q016",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "The word “leveraged”, in the last sentence of the text, can be correctly understood as took advantage of.",
+      "options": [],
+      "contextIds": [
+        "anatel-2024-indigenous-passage",
+        "anatel-2024-indigenous-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-961-anatel-cb1-01",
+        "number": 16,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "961-anatel-cb1-01-q016-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Texto e dados apresentados na prova de 2024, preservados como apoio histórico; não representam estatísticas atuais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "961-anatel-cb1-01-q017",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "According to the text, the disappearance of indigenous languages is a worrying fact because they represent almost 43% of the world’s spoken languages.",
+      "options": [],
+      "contextIds": [
+        "anatel-2024-indigenous-passage",
+        "anatel-2024-indigenous-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-961-anatel-cb1-01",
+        "number": 17,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "961-anatel-cb1-01-q017-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Texto e dados apresentados na prova de 2024, preservados como apoio histórico; não representam estatísticas atuais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "961-anatel-cb1-01-q018",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "According to the text, Jxa’h Wejxia Casil is a rural communications network that aims to promote the spread of content in Nasa Yuwe.",
+      "options": [],
+      "contextIds": [
+        "anatel-2024-indigenous-passage",
+        "anatel-2024-indigenous-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-961-anatel-cb1-01",
+        "number": 18,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "961-anatel-cb1-01-q018-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Texto e dados apresentados na prova de 2024, preservados como apoio histórico; não representam estatísticas atuais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "961-anatel-cb1-01-q020",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "The adjective “makeshift”, in the last sentence of the text, is a synonym for obsolete.",
+      "options": [],
+      "contextIds": [
+        "anatel-2024-digital-divides-passage",
+        "anatel-2024-digital-divides-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-961-anatel-cb1-01",
+        "number": 20,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "961-anatel-cb1-01-q020-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Texto e dados apresentados na prova de 2024, preservados como apoio histórico; não representam estatísticas atuais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "961-anatel-cb1-01-q021",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Digital divide can be understood as the lack of long-term stable connection to the Internet.",
+      "options": [],
+      "contextIds": [
+        "anatel-2024-digital-divides-passage",
+        "anatel-2024-digital-divides-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-961-anatel-cb1-01",
+        "number": 21,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "961-anatel-cb1-01-q021-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Texto e dados apresentados na prova de 2024, preservados como apoio histórico; não representam estatísticas atuais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "961-anatel-cb1-01-q022",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "The percentage of actual Internet users in the EU is clouded by the numbers on 5G preparedness.",
+      "options": [],
+      "contextIds": [
+        "anatel-2024-digital-divides-passage",
+        "anatel-2024-digital-divides-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-961-anatel-cb1-01",
+        "number": 22,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "961-anatel-cb1-01-q022-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Texto e dados apresentados na prova de 2024, preservados como apoio histórico; não representam estatísticas atuais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "961-anatel-cb1-01-q023",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Lack of satisfactory Internet access results in exclusion of people from benefits related to digital technology.",
+      "options": [],
+      "contextIds": [
+        "anatel-2024-digital-divides-passage",
+        "anatel-2024-digital-divides-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-961-anatel-cb1-01",
+        "number": 23,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "961-anatel-cb1-01-q023-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Texto e dados apresentados na prova de 2024, preservados como apoio histórico; não representam estatísticas atuais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "094-pf-cb1-01-q028",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No backup incremental, somente os dados modificados desde o último backup são copiados; essa estratégia de backup é mais rápida que a do backup diferencial, na qual são copiados somente os dados recém-adicionados e alterados desde o último backup completo.",
+      "options": [],
+      "contextIds": [
+        "pf-admin-2025-security-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-094-pf-cb1-01",
+        "number": 28,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "094-pf-cb1-01-q028-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceito ou funcionalidade avaliado na prova de 2025; enunciado e gabarito históricos preservados, sem presumir configurações universais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "094-pf-cb1-01-q029",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O firewall é mais eficaz que um antivírus para a proteção contra cavalos de troia e ransomware, pois cada pacote de dados que trafega na rede é analisado pelo firewall, de modo a proteger o computador contra softwares maliciosos.",
+      "options": [],
+      "contextIds": [
+        "pf-admin-2025-security-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-094-pf-cb1-01",
+        "number": 29,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "094-pf-cb1-01-q029-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceito ou funcionalidade avaliado na prova de 2025; enunciado e gabarito históricos preservados, sem presumir configurações universais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "094-pf-cb1-01-q032",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Ainda que aplicativos potencialmente indesejados (PUA) não sejam tecnicamente considerados vírus, o Microsoft Defender Antivirus detecta esses aplicativos e permite que se bloqueie qualquer tentativa de baixá-los, movê-los, executá-los ou instalá-los.",
+      "options": [],
+      "contextIds": [
+        "pf-admin-2025-security-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-094-pf-cb1-01",
+        "number": 32,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "094-pf-cb1-01-q032-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceito ou funcionalidade avaliado na prova de 2025; enunciado e gabarito históricos preservados, sem presumir configurações universais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "094-pf-cb1-01-q034",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O Microsoft Defender SmartScreen permite que, utilizando-se o Microsoft Edge, se navegue em sites na Internet com mais segurança: ele alerta o usuário sobre páginas da web suspeitas e verifica uma lista dinâmica de sites de phishing e software malicioso previamente relatados.",
+      "options": [],
+      "contextIds": [
+        "pf-admin-2025-security-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-094-pf-cb1-01",
+        "number": 34,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "094-pf-cb1-01-q034-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceito ou funcionalidade avaliado na prova de 2025; enunciado e gabarito históricos preservados, sem presumir configurações universais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "057-ibama-cb1-01-q017",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O conceito de inteligência artificial fraca compreende sistemas desenvolvidos para realizar tarefas específicas, por exemplo, reconhecimento de voz.",
+      "options": [],
+      "contextIds": [
+        "ibama-2025-ai-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-057-ibama-cb1-01",
+        "number": 17,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "057-ibama-cb1-01-q017-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceito ou funcionalidade avaliado na prova de 2025; enunciado e gabarito históricos preservados, sem presumir configurações universais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "057-ibama-001-01-q064",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A Lei n.º 14.133/2021 prevê a utilização de meios alternativos de solução de controvérsias, salvo quando se tratar de questões financeiras do contrato, visto que estas representam interesse indisponível.",
+      "options": [],
+      "contextIds": [
+        "ibama-2025-contracts-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-057-ibama-001-01",
+        "number": 64,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "057-ibama-001-01-q064-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Cláusulas ativas citadas cotejadas com as cópias oficiais retidas em 23/10/2026; gabarito histórico preservado.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "057-ibama-001-01-q067",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Em razão do princípio da formalidade adotado pela administração pública, não se admite a forma eletrônica na celebração de contratos e termos aditivos.",
+      "options": [],
+      "contextIds": [
+        "ibama-2025-contracts-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-057-ibama-001-01",
+        "number": 67,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "057-ibama-001-01-q067-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Cláusulas ativas citadas cotejadas com as cópias oficiais retidas em 23/10/2026; gabarito histórico preservado.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "057-ibama-001-01-q069",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O contrato de eficiência tem como objeto a prestação de serviços, podendo ou não incluir a realização de obras, mas sempre sem o fornecimento de bens e com o objetivo de proporcionar economia ao contrato, por meio de uma remuneração ao contratado com base em percentual da economia gerada.",
+      "options": [],
+      "contextIds": [
+        "ibama-2025-contracts-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-057-ibama-001-01",
+        "number": 69,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "057-ibama-001-01-q069-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Cláusulas ativas citadas cotejadas com as cópias oficiais retidas em 23/10/2026; gabarito histórico preservado.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "057-ibama-001-01-q070",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "São princípios expressos na Lei n.º 14.133/2021 a probidade administrativa, a igualdade, o planejamento, a transparência, a segregação de funções, a motivação, a razoabilidade, a proporcionalidade, a economicidade e o desenvolvimento nacional sustentável.",
+      "options": [],
+      "contextIds": [
+        "ibama-2025-contracts-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-057-ibama-001-01",
+        "number": 70,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "057-ibama-001-01-q070-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Cláusulas ativas citadas cotejadas com as cópias oficiais retidas em 23/10/2026; gabarito histórico preservado.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "057-ibama-001-01-q071",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Qualquer interessado poderá requerer acesso a informações aos órgãos públicos, por qualquer meio legítimo, desde que mediante identificação pessoal e especificação da informação requerida e dos motivos do pedido.",
+      "options": [],
+      "contextIds": [
+        "ibama-2025-access-privacy-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-057-ibama-001-01",
+        "number": 71,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "057-ibama-001-01-q071-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Cláusulas ativas citadas cotejadas com as cópias oficiais retidas em 23/10/2026; gabarito histórico preservado.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "057-ibama-001-01-q072",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "É permitido o tratamento de dados pessoais sensíveis, inclusive sem o consentimento do titular, nas hipóteses em que for indispensável para a proteção do crédito.",
+      "options": [],
+      "contextIds": [
+        "ibama-2025-access-privacy-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-057-ibama-001-01",
+        "number": 72,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "057-ibama-001-01-q072-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Cláusulas ativas citadas cotejadas com as cópias oficiais retidas em 23/10/2026; gabarito histórico preservado.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-008-01-q054",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O conceito de indústria cultural foi proposto pela Escola de Frankfurt e diz respeito aos processos de industrialização da cultura produzida em massa.",
+      "options": [],
+      "contextIds": [
+        "anm-008-history-theory-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-008-01",
+        "number": 54,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-008-01-q054-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceito ou funcionalidade avaliado na prova de 2025; enunciado e gabarito históricos preservados, sem presumir configurações universais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-008-01-q072",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A organização e a formatação das informações em hipertexto facilitam a navegação não linear e permitem a interconexão de conteúdos na Web.",
+      "options": [],
+      "contextIds": [
+        "anm-008-tv-web-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-008-01",
+        "number": 72,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-008-01-q072-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceito ou funcionalidade avaliado na prova de 2025; enunciado e gabarito históricos preservados, sem presumir configurações universais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-012-01-q061",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O trabalho de relações públicas exige definição clara acerca dos públicos para os quais se está trabalhando e dos tipos de pressão ou influência que esses públicos sofrem.",
+      "options": [],
+      "contextIds": [
+        "anm-012-public-relations-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-012-01",
+        "number": 61,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-012-01-q061-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceito ou funcionalidade avaliado na prova de 2025; enunciado e gabarito históricos preservados, sem presumir configurações universais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-012-01-q065",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O departamento de comunicação e relações públicas assume grande importância ao viabilizar o relacionamento com o universo dos públicos.",
+      "options": [],
+      "contextIds": [
+        "anm-012-strategy-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-012-01",
+        "number": 65,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-012-01-q065-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceito ou funcionalidade avaliado na prova de 2025; enunciado e gabarito históricos preservados, sem presumir configurações universais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-013-01-q061",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A arquitetura da informação estrutura o conteúdo e a funcionalidade do site, impactando diretamente a navegação e exigindo que o designer compreenda sua organização.",
+      "options": [],
+      "contextIds": [
+        "anm-013-theory-ai-web-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-013-01",
+        "number": 61,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-013-01-q061-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceito ou funcionalidade avaliado na prova de 2025; enunciado e gabarito históricos preservados, sem presumir configurações universais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-013-01-q063",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O uso da IAG facilita e acelera o processo de criação de um farto material jornalístico, a exemplo dos audiovisuais, bem como garante o compromisso com a verdade, elemento fundamental do jornalismo.",
+      "options": [],
+      "contextIds": [
+        "anm-013-theory-ai-web-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-013-01",
+        "number": 63,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-013-01-q063-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceito ou funcionalidade avaliado na prova de 2025; enunciado e gabarito históricos preservados, sem presumir configurações universais.",
+        "decisionReference": "documentation/ninth-batch-release.md"
+      }
     }
   ],
   "answerKeys": [
@@ -7336,6 +8524,318 @@
       "locator": "PDF p. 1",
       "result": "valid",
       "value": true
+    },
+    {
+      "id": "961-anatel-cb1-01-q016-key-v1",
+      "questionId": "961-anatel-cb1-01-q016",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-961-anatel-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "961-anatel-cb1-01-q017-key-v1",
+      "questionId": "961-anatel-cb1-01-q017",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-961-anatel-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "961-anatel-cb1-01-q018-key-v1",
+      "questionId": "961-anatel-cb1-01-q018",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-961-anatel-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "961-anatel-cb1-01-q020-key-v1",
+      "questionId": "961-anatel-cb1-01-q020",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-961-anatel-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "961-anatel-cb1-01-q021-key-v1",
+      "questionId": "961-anatel-cb1-01-q021",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-961-anatel-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "961-anatel-cb1-01-q022-key-v1",
+      "questionId": "961-anatel-cb1-01-q022",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-961-anatel-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "961-anatel-cb1-01-q023-key-v1",
+      "questionId": "961-anatel-cb1-01-q023",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-961-anatel-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "094-pf-cb1-01-q028-key-v1",
+      "questionId": "094-pf-cb1-01-q028",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-094-pf-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "094-pf-cb1-01-q029-key-v1",
+      "questionId": "094-pf-cb1-01-q029",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-094-pf-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "094-pf-cb1-01-q032-key-v1",
+      "questionId": "094-pf-cb1-01-q032",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-094-pf-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "094-pf-cb1-01-q034-key-v1",
+      "questionId": "094-pf-cb1-01-q034",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-094-pf-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "057-ibama-cb1-01-q017-key-v1",
+      "questionId": "057-ibama-cb1-01-q017",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-057-ibama-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "057-ibama-001-01-q064-key-v1",
+      "questionId": "057-ibama-001-01-q064",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-057-ibama-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "057-ibama-001-01-q067-key-v1",
+      "questionId": "057-ibama-001-01-q067",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-057-ibama-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "057-ibama-001-01-q069-key-v1",
+      "questionId": "057-ibama-001-01-q069",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-057-ibama-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "057-ibama-001-01-q070-key-v1",
+      "questionId": "057-ibama-001-01-q070",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-057-ibama-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "057-ibama-001-01-q071-key-v1",
+      "questionId": "057-ibama-001-01-q071",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-057-ibama-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "057-ibama-001-01-q072-key-v1",
+      "questionId": "057-ibama-001-01-q072",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-057-ibama-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-008-01-q054-key-v1",
+      "questionId": "038-anm-008-01-q054",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-008-01-q072-key-v1",
+      "questionId": "038-anm-008-01-q072",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-012-01-q061-key-v1",
+      "questionId": "038-anm-012-01-q061",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-012-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-012-01-q065-key-v1",
+      "questionId": "038-anm-012-01-q065",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-012-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-013-01-q061-key-v1",
+      "questionId": "038-anm-013-01-q061",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-013-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-013-01-q063-key-v1",
+      "questionId": "038-anm-013-01-q063",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-013-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
     }
   ],
   "explanations": [
@@ -9045,6 +10545,454 @@
         {
           "documentId": "source-camara-2014-consultor-area-xix-key",
           "locator": "PDF p. 1, item 137"
+        }
+      ]
+    },
+    {
+      "id": "961-anatel-cb1-01-q016-comment-v1",
+      "questionId": "961-anatel-cb1-01-q016",
+      "text": "No último período, leveraged indica que Juan Pablo aproveitou a ferramenta de comunicação para produzir e difundir materiais em sua língua. Took advantage of conserva esse sentido contextual de aproveitar ou fazer uso de um recurso.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-961-anatel-cb1-01-paper",
+          "locator": "PDF p. 2, texto/comando e item 16"
+        },
+        {
+          "documentId": "source-961-anatel-cb1-01-key",
+          "locator": "PDF p. 1, item 16"
+        }
+      ]
+    },
+    {
+      "id": "961-anatel-cb1-01-q017-comment-v1",
+      "questionId": "961-anatel-cb1-01-q017",
+      "text": "O percentual de pelo menos 43% refere-se às línguas faladas no mundo que estão sendo esquecidas. O texto acrescenta que as línguas indígenas representam parte significativa desse conjunto; não afirma que elas correspondam a quase 43% de todas as línguas do mundo.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-961-anatel-cb1-01-paper",
+          "locator": "PDF p. 2, texto/comando e item 17"
+        },
+        {
+          "documentId": "source-961-anatel-cb1-01-key",
+          "locator": "PDF p. 1, item 17"
+        }
+      ]
+    },
+    {
+      "id": "961-anatel-cb1-01-q018-comment-v1",
+      "questionId": "961-anatel-cb1-01-q018",
+      "text": "A rede foi criada para oferecer acesso à Internet em áreas rurais remotas e disseminar conteúdos na língua materna. O último parágrafo confirma a produção de materiais em Nasa Yuwe, sustentando a finalidade descrita no item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-961-anatel-cb1-01-paper",
+          "locator": "PDF p. 2, texto/comando e item 18"
+        },
+        {
+          "documentId": "source-961-anatel-cb1-01-key",
+          "locator": "PDF p. 1, item 18"
+        }
+      ]
+    },
+    {
+      "id": "961-anatel-cb1-01-q020-comment-v1",
+      "questionId": "961-anatel-cb1-01-q020",
+      "text": "Makeshift qualifica soluções improvisadas ou provisórias usadas diante da falta de acesso. Obsolete significa obsoleto ou ultrapassado: a ideia de improvisação não equivale à de uma tecnologia que ficou superada.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-961-anatel-cb1-01-paper",
+          "locator": "PDF p. 3, texto/comando e item 20"
+        },
+        {
+          "documentId": "source-961-anatel-cb1-01-key",
+          "locator": "PDF p. 1, item 20"
+        }
+      ]
+    },
+    {
+      "id": "961-anatel-cb1-01-q021-comment-v1",
+      "questionId": "961-anatel-cb1-01-q021",
+      "text": "Digital divide abrange desigualdades de acesso, uso e impacto das tecnologias de informação e comunicação. A ausência de uma conexão estável pode integrar o problema, mas não esgota a definição apresentada no segundo parágrafo.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-961-anatel-cb1-01-paper",
+          "locator": "PDF p. 3, texto/comando e item 21"
+        },
+        {
+          "documentId": "source-961-anatel-cb1-01-key",
+          "locator": "PDF p. 1, item 21"
+        }
+      ]
+    },
+    {
+      "id": "961-anatel-cb1-01-q022-comment-v1",
+      "questionId": "961-anatel-cb1-01-q022",
+      "text": "No primeiro parágrafo, o quadro impressionante de cobertura é relativizado por diversos indicadores, incluindo uso efetivo e prontidão para 5G. O texto não afirma que o percentual de usuários efetivos seja obscurecido pelo percentual de prontidão para 5G. O item desloca o alcance da expressão cloud the picture e cria uma relação específica entre dois indicadores. Os percentuais pertencem ao texto da prova de 2024.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-961-anatel-cb1-01-paper",
+          "locator": "PDF p. 3, texto/comando e item 22"
+        },
+        {
+          "documentId": "source-961-anatel-cb1-01-key",
+          "locator": "PDF p. 1, item 22"
+        }
+      ]
+    },
+    {
+      "id": "961-anatel-cb1-01-q023-comment-v1",
+      "questionId": "961-anatel-cb1-01-q023",
+      "text": "O segundo parágrafo afirma que pessoas sem acesso adequado perdem meios de participação e oportunidades da vida cotidiana. Depois, associa a desconexão à perda de benefícios duradouros da inovação e modernização. Isso sustenta a relação entre conectividade insuficiente e exclusão descrita no item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-961-anatel-cb1-01-paper",
+          "locator": "PDF p. 3, texto/comando e item 23"
+        },
+        {
+          "documentId": "source-961-anatel-cb1-01-key",
+          "locator": "PDF p. 1, item 23"
+        }
+      ]
+    },
+    {
+      "id": "094-pf-cb1-01-q028-comment-v1",
+      "questionId": "094-pf-cb1-01-q028",
+      "text": "O backup incremental copia as alterações desde o backup anterior; o diferencial acumula as alterações desde o último backup completo. Na comparação cobrada, o incremental tende a transferir menos dados a cada execução. O tempo real também depende do volume de mudanças e do ambiente; o item não substitui um plano de restauração.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-094-pf-cb1-01-paper",
+          "locator": "PDF p. 3, texto/comando e item 28"
+        },
+        {
+          "documentId": "source-094-pf-cb1-01-key",
+          "locator": "PDF p. 1, item 28"
+        }
+      ]
+    },
+    {
+      "id": "094-pf-cb1-01-q029-comment-v1",
+      "questionId": "094-pf-cb1-01-q029",
+      "text": "Firewall e antivírus têm funções complementares. Filtrar tráfego e conexões não garante identificar ou impedir toda execução de trojans e ransomware. A análise de pacotes, isoladamente, não demonstra a superioridade geral atribuída pelo item. A cartilha do CERT.br apresenta proteção de rede e ferramentas antimalware como camadas de defesa.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-094-pf-cb1-01-paper",
+          "locator": "PDF p. 3, texto/comando e item 29"
+        },
+        {
+          "documentId": "source-094-pf-cb1-01-key",
+          "locator": "PDF p. 1, item 29"
+        },
+        {
+          "documentId": "reference-certbr-cartilha",
+          "locator": "PDF p. 71–73, seções 7.7 e 7.8"
+        }
+      ]
+    },
+    {
+      "id": "094-pf-cb1-01-q032-comment-v1",
+      "questionId": "094-pf-cb1-01-q032",
+      "text": "PUA designa aplicativos potencialmente indesejados, categoria que a Microsoft distingue de vírus. O Defender Antivirus pode detectar e bloquear esses aplicativos quando a proteção correspondente está habilitada. O item afirma a capacidade da ferramenta; não significa que todos os computadores já tenham o bloqueio ativado por padrão.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-094-pf-cb1-01-paper",
+          "locator": "PDF p. 3, texto/comando e item 32"
+        },
+        {
+          "documentId": "source-094-pf-cb1-01-key",
+          "locator": "PDF p. 1, item 32"
+        },
+        {
+          "documentId": "reference-microsoft-pua",
+          "locator": "About potentially unwanted applications (PUA); Configure PUA protection"
+        }
+      ]
+    },
+    {
+      "id": "094-pf-cb1-01-q034-comment-v1",
+      "questionId": "094-pf-cb1-01-q034",
+      "text": "O SmartScreen avalia páginas suspeitas e compara os sites visitados com uma lista dinâmica de páginas de phishing e software malicioso, podendo exibir alertas. A documentação da Microsoft descreve esses mecanismos. Essa proteção reduz riscos e não garante que toda ameaça inédita seja detectada.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-094-pf-cb1-01-paper",
+          "locator": "PDF p. 3, texto/comando e item 34"
+        },
+        {
+          "documentId": "source-094-pf-cb1-01-key",
+          "locator": "PDF p. 1, item 34"
+        },
+        {
+          "documentId": "reference-microsoft-smartscreen",
+          "locator": "Microsoft Defender SmartScreen determines whether a site is potentially malicious"
+        }
+      ]
+    },
+    {
+      "id": "057-ibama-cb1-01-q017-comment-v1",
+      "questionId": "057-ibama-cb1-01-q017",
+      "text": "IA fraca ou estreita é desenvolvida para uma tarefa delimitada, como reconhecer voz. Executar essa tarefa, mesmo com alto desempenho, não significa possuir inteligência geral capaz de realizar indistintamente qualquer atividade humana.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-057-ibama-cb1-01-paper",
+          "locator": "PDF p. 2, texto/comando e item 17"
+        },
+        {
+          "documentId": "source-057-ibama-cb1-01-key",
+          "locator": "PDF p. 1, item 17"
+        }
+      ]
+    },
+    {
+      "id": "057-ibama-001-01-q064-comment-v1",
+      "questionId": "057-ibama-001-01-q064",
+      "text": "O art. 151 admite meios alternativos, incluindo conciliação, mediação e arbitragem. Seu parágrafo único inclui expressamente questões de equilíbrio econômico-financeiro, inadimplemento e indenizações entre os direitos patrimoniais disponíveis. A exclusão geral de questões financeiras feita pelo item contraria a lei.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-057-ibama-001-01-paper",
+          "locator": "PDF p. 1, texto/comando e item 64"
+        },
+        {
+          "documentId": "source-057-ibama-001-01-key",
+          "locator": "PDF p. 1, item 64"
+        },
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 151, parágrafo único"
+        }
+      ]
+    },
+    {
+      "id": "057-ibama-001-01-q067-comment-v1",
+      "questionId": "057-ibama-001-01-q067",
+      "text": "A exigência de forma escrita não impede o meio eletrônico. O art. 91, § 3º, admite expressamente contratos e termos aditivos eletrônicos, desde que atendidas as exigências regulamentares. O item transforma a formalidade em proibição que a própria lei afasta.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-057-ibama-001-01-paper",
+          "locator": "PDF p. 1, texto/comando e item 67"
+        },
+        {
+          "documentId": "source-057-ibama-001-01-key",
+          "locator": "PDF p. 1, item 67"
+        },
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 91, § 3º"
+        }
+      ]
+    },
+    {
+      "id": "057-ibama-001-01-q069-comment-v1",
+      "questionId": "057-ibama-001-01-q069",
+      "text": "O art. 6º, LIII, permite que o contrato de eficiência inclua obras e fornecimento de bens. O erro está em sempre sem o fornecimento de bens. O objetivo legal é reduzir despesas correntes do contratante, com remuneração baseada em percentual da economia gerada.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-057-ibama-001-01-paper",
+          "locator": "PDF p. 1, texto/comando e item 69"
+        },
+        {
+          "documentId": "source-057-ibama-001-01-key",
+          "locator": "PDF p. 1, item 69"
+        },
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 6º, LIII"
+        }
+      ]
+    },
+    {
+      "id": "057-ibama-001-01-q070-comment-v1",
+      "questionId": "057-ibama-001-01-q070",
+      "text": "Os princípios relacionados no item constam expressamente do art. 5º da Lei nº 14.133/2021. A relação do enunciado não precisa esgotar a lista legal para estar correta; ela não afirma que esses sejam os únicos princípios aplicáveis.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-057-ibama-001-01-paper",
+          "locator": "PDF p. 1, texto/comando e item 70"
+        },
+        {
+          "documentId": "source-057-ibama-001-01-key",
+          "locator": "PDF p. 1, item 70"
+        },
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 5º"
+        }
+      ]
+    },
+    {
+      "id": "057-ibama-001-01-q071-comment-v1",
+      "questionId": "057-ibama-001-01-q071",
+      "text": "A identificação do requerente e a especificação da informação são requisitos previstos na LAI. Já a exigência dos motivos do pedido é vedada pelo art. 10, § 3º. O erro do item é acrescentar essa justificativa como requisito para o acesso.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-057-ibama-001-01-paper",
+          "locator": "PDF p. 1, texto/comando e item 71"
+        },
+        {
+          "documentId": "source-057-ibama-001-01-key",
+          "locator": "PDF p. 1, item 71"
+        },
+        {
+          "documentId": "reference-lei-12527-2011",
+          "locator": "Art. 10, § 3º"
+        }
+      ]
+    },
+    {
+      "id": "057-ibama-001-01-q072-comment-v1",
+      "questionId": "057-ibama-001-01-q072",
+      "text": "Proteção do crédito é uma hipótese do art. 7º para tratamento de dados pessoais, mas não aparece como fundamento autônomo na lista específica de dados sensíveis do art. 11. Não se pode transferir automaticamente essa base para dados sensíveis, que seguem requisitos próprios.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-057-ibama-001-01-paper",
+          "locator": "PDF p. 1, texto/comando e item 72"
+        },
+        {
+          "documentId": "source-057-ibama-001-01-key",
+          "locator": "PDF p. 1, item 72"
+        },
+        {
+          "documentId": "reference-lei-13709-2018",
+          "locator": "Art. 7º, X"
+        },
+        {
+          "documentId": "reference-lei-13709-2018",
+          "locator": "Art. 11, caput e incisos I e II"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-008-01-q054-comment-v1",
+      "questionId": "038-anm-008-01-q054",
+      "text": "A Escola de Frankfurt formulou a crítica à produção industrial e padronizada de bens culturais, associada à expressão indústria cultural. O item relaciona corretamente essa corrente à cultura produzida em massa. O conceito é uma categoria crítica, não apenas um nome neutro para qualquer atividade artística.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-008-01-paper",
+          "locator": "PDF p. 1, texto/comando e item 54"
+        },
+        {
+          "documentId": "source-038-anm-008-01-key",
+          "locator": "PDF p. 1, item 54"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-008-01-q072-comment-v1",
+      "questionId": "038-anm-008-01-q072",
+      "text": "O hipertexto articula conteúdos por ligações que permitem diferentes percursos de leitura. Essa interconexão favorece navegação não linear: o usuário pode seguir referências e caminhos, em vez de depender de uma única sequência fixa.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-008-01-paper",
+          "locator": "PDF p. 1, texto/comando e item 72"
+        },
+        {
+          "documentId": "source-038-anm-008-01-key",
+          "locator": "PDF p. 1, item 72"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-012-01-q061-comment-v1",
+      "questionId": "038-anm-012-01-q061",
+      "text": "Definir públicos e compreender suas relações, pressões e influências orienta a atuação de relações públicas. Essa análise ajuda a escolher objetivos, mensagens e canais adequados, em vez de tratar todos os destinatários como um conjunto homogêneo.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-012-01-paper",
+          "locator": "PDF p. 1, texto/comando e item 61"
+        },
+        {
+          "documentId": "source-038-anm-012-01-key",
+          "locator": "PDF p. 1, item 61"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-012-01-q065-comment-v1",
+      "questionId": "038-anm-012-01-q065",
+      "text": "Comunicação e relações públicas viabilizam relações da organização com seus diferentes públicos. Nesse sentido estratégico, o departamento contribui para articular a organização e seu ambiente; sua função não se limita a emitir comunicados ou divulgar produtos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-012-01-paper",
+          "locator": "PDF p. 1, texto/comando e item 65"
+        },
+        {
+          "documentId": "source-038-anm-012-01-key",
+          "locator": "PDF p. 1, item 65"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-013-01-q061-comment-v1",
+      "questionId": "038-anm-013-01-q061",
+      "text": "A arquitetura da informação organiza conteúdo e funcionalidades, ajudando o usuário a localizar informações e percorrer o site. Por isso, o designer precisa compreender essa estrutura: a navegação depende da organização e dos rótulos, além da aparência visual.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-013-01-paper",
+          "locator": "PDF p. 1, texto/comando e item 61"
+        },
+        {
+          "documentId": "source-038-anm-013-01-key",
+          "locator": "PDF p. 1, item 61"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-013-01-q063-comment-v1",
+      "questionId": "038-anm-013-01-q063",
+      "text": "Gerar material com rapidez não garante verdade ou precisão. Conteúdos produzidos com IA generativa precisam de verificação de fatos, fontes e contexto, sob responsabilidade editorial. O erro do item está em afirmar que a ferramenta, por si, garante o compromisso com a verdade.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-013-01-paper",
+          "locator": "PDF p. 1, texto/comando e item 63"
+        },
+        {
+          "documentId": "source-038-anm-013-01-key",
+          "locator": "PDF p. 1, item 63"
         }
       ]
     }
@@ -12571,6 +14519,174 @@
       "syllabusItemId": "camara-2026-ciencia-politica-3",
       "justification": "Independência do banco central no modelo consensual de democracia.",
       "status": "confirmed"
+    },
+    {
+      "id": "961-anatel-cb1-01-q016-mapping-1",
+      "questionId": "961-anatel-cb1-01-q016",
+      "syllabusItemId": "camara-2026-lingua-inglesa-1",
+      "justification": "Vocabulário e compreensão das relações explícitas e implícitas do texto-base em inglês.",
+      "status": "confirmed"
+    },
+    {
+      "id": "961-anatel-cb1-01-q017-mapping-1",
+      "questionId": "961-anatel-cb1-01-q017",
+      "syllabusItemId": "camara-2026-lingua-inglesa-1",
+      "justification": "Vocabulário e compreensão das relações explícitas e implícitas do texto-base em inglês.",
+      "status": "confirmed"
+    },
+    {
+      "id": "961-anatel-cb1-01-q018-mapping-1",
+      "questionId": "961-anatel-cb1-01-q018",
+      "syllabusItemId": "camara-2026-lingua-inglesa-1",
+      "justification": "Vocabulário e compreensão das relações explícitas e implícitas do texto-base em inglês.",
+      "status": "confirmed"
+    },
+    {
+      "id": "961-anatel-cb1-01-q020-mapping-1",
+      "questionId": "961-anatel-cb1-01-q020",
+      "syllabusItemId": "camara-2026-lingua-inglesa-1",
+      "justification": "Vocabulário e compreensão das relações explícitas e implícitas do texto-base em inglês.",
+      "status": "confirmed"
+    },
+    {
+      "id": "961-anatel-cb1-01-q021-mapping-1",
+      "questionId": "961-anatel-cb1-01-q021",
+      "syllabusItemId": "camara-2026-lingua-inglesa-1",
+      "justification": "Vocabulário e compreensão das relações explícitas e implícitas do texto-base em inglês.",
+      "status": "confirmed"
+    },
+    {
+      "id": "961-anatel-cb1-01-q022-mapping-1",
+      "questionId": "961-anatel-cb1-01-q022",
+      "syllabusItemId": "camara-2026-lingua-inglesa-1",
+      "justification": "Vocabulário e compreensão das relações explícitas e implícitas do texto-base em inglês.",
+      "status": "confirmed"
+    },
+    {
+      "id": "961-anatel-cb1-01-q023-mapping-1",
+      "questionId": "961-anatel-cb1-01-q023",
+      "syllabusItemId": "camara-2026-lingua-inglesa-1",
+      "justification": "Vocabulário e compreensão das relações explícitas e implícitas do texto-base em inglês.",
+      "status": "confirmed"
+    },
+    {
+      "id": "094-pf-cb1-01-q028-mapping-1",
+      "questionId": "094-pf-cb1-01-q028",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-4-1",
+      "justification": "Mecanismo de segurança da informação diretamente previsto no tópico do edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "094-pf-cb1-01-q029-mapping-1",
+      "questionId": "094-pf-cb1-01-q029",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-4-2",
+      "justification": "Mecanismo de segurança da informação diretamente previsto no tópico do edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "094-pf-cb1-01-q032-mapping-1",
+      "questionId": "094-pf-cb1-01-q032",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-4-2",
+      "justification": "Mecanismo de segurança da informação diretamente previsto no tópico do edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "094-pf-cb1-01-q034-mapping-1",
+      "questionId": "094-pf-cb1-01-q034",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-4-3",
+      "justification": "Mecanismo de segurança da informação diretamente previsto no tópico do edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "057-ibama-cb1-01-q017-mapping-1",
+      "questionId": "057-ibama-cb1-01-q017",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-5",
+      "justification": "Distinção entre sistemas de IA de finalidade específica e inteligência geral.",
+      "status": "confirmed"
+    },
+    {
+      "id": "057-ibama-001-01-q064-mapping-1",
+      "questionId": "057-ibama-001-01-q064",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-2",
+      "justification": "Meios alternativos de solução de controvérsias contratuais.",
+      "status": "confirmed"
+    },
+    {
+      "id": "057-ibama-001-01-q067-mapping-1",
+      "questionId": "057-ibama-001-01-q067",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-4",
+      "justification": "Formalização eletrônica de contratos e aditamentos.",
+      "status": "confirmed"
+    },
+    {
+      "id": "057-ibama-001-01-q069-mapping-1",
+      "questionId": "057-ibama-001-01-q069",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-3",
+      "justification": "Características e objeto do contrato de eficiência.",
+      "status": "confirmed"
+    },
+    {
+      "id": "057-ibama-001-01-q070-mapping-1",
+      "questionId": "057-ibama-001-01-q070",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-1",
+      "justification": "Princípios expressos da Lei de Licitações e Contratos.",
+      "status": "confirmed"
+    },
+    {
+      "id": "057-ibama-001-01-q071-mapping-1",
+      "questionId": "057-ibama-001-01-q071",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-11",
+      "justification": "Vedação de exigir motivação no pedido de acesso à informação.",
+      "status": "confirmed"
+    },
+    {
+      "id": "057-ibama-001-01-q072-mapping-1",
+      "questionId": "057-ibama-001-01-q072",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-12",
+      "justification": "Distinção entre bases legais de dados pessoais e dados sensíveis.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-008-01-q054-mapping-1",
+      "questionId": "038-anm-008-01-q054",
+      "syllabusItemId": "camara-2026-comunicacao-social-1-1",
+      "justification": "Conceito de indústria cultural e Escola de Frankfurt.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-008-01-q072-mapping-1",
+      "questionId": "038-anm-008-01-q072",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-5-3",
+      "justification": "Hipertexto e navegação não linear na produção digital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-012-01-q061-mapping-1",
+      "questionId": "038-anm-012-01-q061",
+      "syllabusItemId": "camara-2026-comunicacao-social-4-6",
+      "justification": "Identificação dos públicos e de influências sobre eles.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-012-01-q065-mapping-1",
+      "questionId": "038-anm-012-01-q065",
+      "syllabusItemId": "camara-2026-comunicacao-social-4-1",
+      "justification": "Papel estratégico da comunicação organizacional no relacionamento com públicos.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-013-01-q061-mapping-1",
+      "questionId": "038-anm-013-01-q061",
+      "syllabusItemId": "camara-2026-comunicacao-social-10-2",
+      "justification": "Arquitetura da informação e facilidade de navegação.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-013-01-q063-mapping-1",
+      "questionId": "038-anm-013-01-q063",
+      "syllabusItemId": "camara-2026-comunicacao-social-9-2",
+      "justification": "Responsabilidade editorial e verificação no uso de IA generativa.",
+      "status": "confirmed"
     }
   ],
   "scoringRules": [
@@ -13316,6 +15432,129 @@
       "text": "A respeito da teoria política, julgue os itens subsecutivos.",
       "sourceDocumentId": "source-camara-2014-consultor-area-xix-paper",
       "sourcePage": 2
+    },
+    {
+      "id": "anatel-2024-indigenous-passage",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Text CB1A2-I",
+      "text": "Indigenous languages appear to be disappearing at a concerning rate around the world. Current data indicates that at least 43% of the world’s spoken languages are being forgotten, with indigenous languages making a significant part. According to ONIC (National Indigenous Organization of Colombia), there are 65 indigenous languages in the country. Nearly one-third of them are at a critical risk of disappearing — and only three of them, including Nasa Yuwe, are spoken by more than 50,000 people. This is the reality that Juan Pablo Camayo seeks to change.\n\nTwo years ago, in Caldono, Colombia, Juan Pablo and other neighbours started a communications network that enabled them to provide Internet access to remote rural areas and disseminate content in their mother tongue. That’s how Jxa’h Wejxia Casil — “Wind’s Net” in Nasa Yuwe — came to be.\n\nCurrently, Jxa’h Wejxia Casil has about 200 families subscribed to their Internet service and provides a tool that allows communities to preserve the use of their language. With support from other project partners, Juan Pablo leveraged this new communication tool to produce and disseminate original communication materials in Nasa Yuwe.",
+      "sourceDocumentId": "source-961-anatel-cb1-01-paper",
+      "sourcePage": 2,
+      "language": "en",
+      "sourceCredit": "Internet: <https://unsdg.un.org> (adapted)."
+    },
+    {
+      "id": "anatel-2024-indigenous-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "According to the text CB1A2-I, judge the following items.",
+      "sourceDocumentId": "source-961-anatel-cb1-01-paper",
+      "sourcePage": 2,
+      "language": "en"
+    },
+    {
+      "id": "anatel-2024-digital-divides-passage",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Text CB1A2-II",
+      "text": "Internet coverage in the European Union (EU) is impressive, standing at 100%; however, numbers on de facto usage (85%), broadband take-up (78%), users with at least basic digital skills (58%), next-generation access coverage providing at least 30 Mbps (86%) and 5G readiness (21%) cloud the picture.\n\nThe significance of these circumstances does not only lie in the economic implications but also in the severe consequences for the individual and the society. People without adequate Internet access are missing out on means of participation and opportunities that have become part of everyday life. Countless contributions have been published on socioeconomic inequalities relating to access to, use of or impact of ICTs (information and communication technologies), known as the digital divide(s). These divides will only deepen, as disconnected citizens are likely to miss out on long-term benefits of innovation (information society) and modernization.\n\nThe coronavirus pandemic exacerbated the social inequalities related to insufficient connectivity: privileged users experienced dropped calls and disrupted downloads, while disadvantaged users were left with no access at all or with makeshift solutions.",
+      "sourceDocumentId": "source-961-anatel-cb1-01-paper",
+      "sourcePage": 3,
+      "language": "en",
+      "sourceCredit": "Internet: <www.europarl.europa.eu/thinktank> (adapted)."
+    },
+    {
+      "id": "anatel-2024-digital-divides-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Based on the text CB1A2-II, judge the following items.",
+      "sourceDocumentId": "source-961-anatel-cb1-01-paper",
+      "sourcePage": 3,
+      "language": "en"
+    },
+    {
+      "id": "pf-admin-2025-security-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os próximos itens, relativos a ambiente Windows, segurança da informação e redes de computadores.",
+      "sourceDocumentId": "source-094-pf-cb1-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "ibama-2025-ai-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens seguintes, relativos aos programas de navegação web Google Chrome e Microsoft Edge, à inteligência artificial e a malwares.",
+      "sourceDocumentId": "source-057-ibama-cb1-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "ibama-2025-contracts-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Em relação a licitações e contratos administrativos, julgue os itens a seguir.",
+      "sourceDocumentId": "source-057-ibama-001-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "ibama-2025-access-privacy-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens seguintes, com base na Lei de Acesso à Informação e na Lei Geral de Proteção de Dados Pessoais (LGPD).",
+      "sourceDocumentId": "source-057-ibama-001-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "anm-008-history-theory-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Em relação a aspectos históricos e conceituais da comunicação social, bem como à ética e à legislação pertinentes a essa área, julgue os itens a seguir.",
+      "sourceDocumentId": "source-038-anm-008-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "anm-008-tv-web-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "A respeito das características da produção jornalística para a TV e para a Internet, julgue os itens a seguir.",
+      "sourceDocumentId": "source-038-anm-008-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "anm-012-public-relations-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que se refere à atuação dos profissionais de relações públicas, julgue os itens subsequentes.",
+      "sourceDocumentId": "source-038-anm-012-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "anm-012-strategy-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Considerando os princípios de uma organização orientada por um pensamento estratégico, julgue os itens subsecutivos.",
+      "sourceDocumentId": "source-038-anm-012-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "anm-013-theory-ai-web-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os seguintes itens, que versam sobre o campo teórico da comunicação, a produção de conteúdo com inteligência artificial generativa (IAG) e navegação web.",
+      "sourceDocumentId": "source-038-anm-013-01-paper",
+      "sourcePage": 1
     }
   ]
 }

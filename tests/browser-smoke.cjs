@@ -25,8 +25,8 @@ const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8765/questionadorConc
   assert.equal(await page.locator('[role="tab"]').count(), 5);
   assert.equal(await page.locator('[role="tabpanel"]:visible').count(), 1);
   assert.equal(await page.locator('#program-section').isVisible(), true);
-  assert.equal(await page.locator('#inventory li').count(), 10);
-  assert.equal(await page.locator('#inventory a').count(), 20);
+  assert.equal(await page.locator('#inventory li').count(), 18);
+  assert.equal(await page.locator('#inventory a').count(), 36);
   await page.locator('#program summary').first().click();
   assert.equal(await page.locator('#program details').first().getAttribute('open'), '');
   await page.locator('#rules-tab').click();

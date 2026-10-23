@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-23T21:29:17.102929+00:00",
-  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23. Comment completion: two Priberam entries retain the initial official publisher download bytes; no independent second download is claimed.",
+  "checkedAt": "2026-10-23T22:02:08.767572+00:00",
+  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23. Comment completion: two Priberam entries retain the initial official publisher download bytes; no independent second download is claimed. Ninth source discovery: 16 new paper/key PDFs independently re-downloaded with byte equality; two Microsoft Learn HTML references retain initial publisher bytes. Complete source inventory is separate from individually released questions. Existing matches are historical evidence; not every old source was downloaded again.",
   "documents": [
     {
       "documentId": "camara-2026-edital-01-documento",
@@ -310,6 +310,132 @@
       "outcome": "byte_match",
       "officialUrl": "https://dicionario.priberam.org/pt-pt/propaganda",
       "remoteSha256": "4f70fec7df87f1158de49f262555fc7b940b372f6a089a12d2f69d176467e1e9"
+    },
+    {
+      "documentId": "source-038-anm-008-01-paper",
+      "localSha256": "3827773733eab82c542444e790cf649f153db3e34ee47acbaabdd36d15d8f53d",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_008_01.PDF",
+      "remoteSha256": "3827773733eab82c542444e790cf649f153db3e34ee47acbaabdd36d15d8f53d"
+    },
+    {
+      "documentId": "source-038-anm-008-01-key",
+      "localSha256": "9437db8ae98463dd3d3264f2aff87dffe0135579b8e793d75171684d12c7db9d",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_008_01.PDF",
+      "remoteSha256": "9437db8ae98463dd3d3264f2aff87dffe0135579b8e793d75171684d12c7db9d"
+    },
+    {
+      "documentId": "source-038-anm-012-01-paper",
+      "localSha256": "04d04d062fe842886f55cfcafdf60c7e4d3fc716bb18b7e12a2c4506ab17deb4",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_012_01.PDF",
+      "remoteSha256": "04d04d062fe842886f55cfcafdf60c7e4d3fc716bb18b7e12a2c4506ab17deb4"
+    },
+    {
+      "documentId": "source-038-anm-012-01-key",
+      "localSha256": "04bf68b4d90a9a16064a7933ee4d08fffd1ca6c706fc50392e1e3f9f0d8a1f96",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_012_01.PDF",
+      "remoteSha256": "04bf68b4d90a9a16064a7933ee4d08fffd1ca6c706fc50392e1e3f9f0d8a1f96"
+    },
+    {
+      "documentId": "source-038-anm-013-01-paper",
+      "localSha256": "fad0ff0160950e230ea7def858541ce7cab79eb1b7e35bd1236cb603c0a26068",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_013_01.PDF",
+      "remoteSha256": "fad0ff0160950e230ea7def858541ce7cab79eb1b7e35bd1236cb603c0a26068"
+    },
+    {
+      "documentId": "source-038-anm-013-01-key",
+      "localSha256": "eec3e29b6bb7a05895c572017c906ae39e36ed3c1dbcf5a7dc7fe14b26ca6310",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_013_01.PDF",
+      "remoteSha256": "eec3e29b6bb7a05895c572017c906ae39e36ed3c1dbcf5a7dc7fe14b26ca6310"
+    },
+    {
+      "documentId": "source-959-bcb-cb1-01-paper",
+      "localSha256": "ba25e4ed70a5a2eb021b3e25cff4138705a8de035dd03d243e8d1f980aa9e01a",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/BCB_24/arquivos/959_BCB_CB1_01.PDF",
+      "remoteSha256": "ba25e4ed70a5a2eb021b3e25cff4138705a8de035dd03d243e8d1f980aa9e01a"
+    },
+    {
+      "documentId": "source-959-bcb-cb1-01-key",
+      "localSha256": "a49786674b8bf9c615748c57940509e2f2f7a7d226271864a15ebcc6218c1141",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/BCB_24/arquivos/GAB_DEFINITIVO_959_BCB_CB1_01.PDF",
+      "remoteSha256": "a49786674b8bf9c615748c57940509e2f2f7a7d226271864a15ebcc6218c1141"
+    },
+    {
+      "documentId": "source-057-ibama-cb1-01-paper",
+      "localSha256": "7cd6e4b6dbc39656edf76a841697906adc4eb0773960c09e3d83c02cb3587cda",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/IBAMA_25/arquivos/057_IBAMA_CB1_01.pdf",
+      "remoteSha256": "7cd6e4b6dbc39656edf76a841697906adc4eb0773960c09e3d83c02cb3587cda"
+    },
+    {
+      "documentId": "source-057-ibama-cb1-01-key",
+      "localSha256": "d4ea8843df95133c87d2bd4f41f3dd921215377d1019cabe95507a2452bcaa7f",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/IBAMA_25/arquivos/Gab_Definitivo_057_IBAMA_CB1_01.PDF",
+      "remoteSha256": "d4ea8843df95133c87d2bd4f41f3dd921215377d1019cabe95507a2452bcaa7f"
+    },
+    {
+      "documentId": "source-057-ibama-001-01-paper",
+      "localSha256": "597a8deb760c0cbb6a8fc25edfc490f2c88a2518d8bb883388184b59838d9849",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/IBAMA_25/arquivos/057_IBAMA_001_01.pdf",
+      "remoteSha256": "597a8deb760c0cbb6a8fc25edfc490f2c88a2518d8bb883388184b59838d9849"
+    },
+    {
+      "documentId": "source-057-ibama-001-01-key",
+      "localSha256": "0461e69fa22a3eaeb9df344685933059bc54c69c8ddb6718143a8b1e865c7e6f",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/IBAMA_25/arquivos/Gab_Definitivo_057_IBAMA_001_01.PDF",
+      "remoteSha256": "0461e69fa22a3eaeb9df344685933059bc54c69c8ddb6718143a8b1e865c7e6f"
+    },
+    {
+      "documentId": "source-961-anatel-cb1-01-paper",
+      "localSha256": "aaca98177aaf581d47f84d94aff9326528c903d5fc7f6380215a8bd93b083a6b",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANATEL_24/arquivos/961_ANATEL_CB1_01.PDF",
+      "remoteSha256": "aaca98177aaf581d47f84d94aff9326528c903d5fc7f6380215a8bd93b083a6b"
+    },
+    {
+      "documentId": "source-961-anatel-cb1-01-key",
+      "localSha256": "c1edf7edfbeaf92cea80a678ed9953135bcea84e1e81d66e79f63de48cff4047",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANATEL_24/arquivos/GAB_DEFINITIVO_961_ANATEL_CB1_01.PDF",
+      "remoteSha256": "c1edf7edfbeaf92cea80a678ed9953135bcea84e1e81d66e79f63de48cff4047"
+    },
+    {
+      "documentId": "source-094-pf-cb1-01-paper",
+      "localSha256": "282659632592cb616425e4f15a6c22a6f86d5d47869893e9b81489d73291ba72",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_CB1_01.pdf",
+      "remoteSha256": "282659632592cb616425e4f15a6c22a6f86d5d47869893e9b81489d73291ba72"
+    },
+    {
+      "documentId": "source-094-pf-cb1-01-key",
+      "localSha256": "affbca13cf0309a1bf782f46a00292621e512b9e39233ccdb96a1c18a71ba69d",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/Gab_Definitivo_094_PF_CB1_01.pdf",
+      "remoteSha256": "affbca13cf0309a1bf782f46a00292621e512b9e39233ccdb96a1c18a71ba69d"
+    },
+    {
+      "documentId": "reference-microsoft-smartscreen",
+      "localSha256": "90a78f97ff895c05b1a467bad1151a977ef7a8c00409a2b8a1a29a088f8ffe72",
+      "outcome": "byte_match",
+      "officialUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/virus-and-threat-protection/microsoft-defender-smartscreen/",
+      "remoteSha256": "90a78f97ff895c05b1a467bad1151a977ef7a8c00409a2b8a1a29a088f8ffe72"
+    },
+    {
+      "documentId": "reference-microsoft-pua",
+      "localSha256": "c2398ba1d648657354bdca32a212ef7c01819f52ed2ae7cf3a8e499055d29de0",
+      "outcome": "byte_match",
+      "officialUrl": "https://learn.microsoft.com/en-us/defender-endpoint/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus",
+      "remoteSha256": "c2398ba1d648657354bdca32a212ef7c01819f52ed2ae7cf3a8e499055d29de0"
     }
   ],
   "corroboration": [

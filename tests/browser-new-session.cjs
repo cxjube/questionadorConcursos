@@ -56,7 +56,7 @@ const progress = page => page.evaluate(key=>JSON.parse(localStorage.getItem(key)
    await page.locator('#start-study').click();await page.locator('#finish-study').waitFor();
    const second = await progress(page);
    assert.equal(second.history.length,1);assert.notEqual(second.active.id,first.id);
-   assert.equal(second.active.answers.length,0);assert.equal(second.active.items.length,109);
+   assert.equal(second.active.answers.length,0);assert.equal(second.active.items.length,133);
    // Viewing a past result during a new session must not discard the active draft.
    await page.locator('input[value="true"]').check();
    await page.waitForFunction(key=>JSON.parse(localStorage.getItem(key)).progress.active.answers.length===1,key);

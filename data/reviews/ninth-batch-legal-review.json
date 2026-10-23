@@ -1,0 +1,78 @@
+{
+  "id": "ninth-batch-legal-review",
+  "reviewedAt": "2026-10-23",
+  "scope": "Six questions checked against the cited active clauses of official legal snapshots retained on 2026-10-23. No automatic legal update or full-audit claim.",
+  "items": [
+    {
+      "questionId": "057-ibama-001-01-q064",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 151, parágrafo único",
+          "activeQuote": "Parágrafo único. Será aplicado o disposto no caput deste artigo às controvérsias relacionadas a direitos patrimoniais disponíveis, como as questões relacionadas ao restabelecimento do equilíbrio econômico-financeiro do contrato, ao inadimplemento de obrigações contratuais por quaisquer das partes e ao cálculo de indenizações."
+        }
+      ]
+    },
+    {
+      "questionId": "057-ibama-001-01-q067",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 91, § 3º",
+          "activeQuote": "§ 3º Será admitida a forma eletrônica na celebração de contratos e de termos aditivos, atendidas as exigências previstas em regulamento."
+        }
+      ]
+    },
+    {
+      "questionId": "057-ibama-001-01-q069",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 6º, LIII",
+          "activeQuote": "LIII - contrato de eficiência: contrato cujo objeto é a prestação de serviços, que pode incluir a realização de obras e o fornecimento de bens, com o objetivo de proporcionar economia ao contratante, na forma de redução de despesas correntes, remunerado o contratado com base em percentual da economia gerada;"
+        }
+      ]
+    },
+    {
+      "questionId": "057-ibama-001-01-q070",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 5º",
+          "activeQuote": "Art. 5º Na aplicação desta Lei, serão observados os princípios da legalidade, da impessoalidade, da moralidade, da publicidade, da eficiência, do interesse público, da probidade administrativa, da igualdade, do planejamento, da transparência, da eficácia, da segregação de funções, da motivação, da vinculação ao edital, do julgamento objetivo, da segurança jurídica, da razoabilidade, da competitividade, da proporcionalidade, da celeridade, da economicidade e do desenvolvimento nacional sustentável, assim como as disposições do Decreto-Lei nº 4.657, de 4 de setembro de 1942 (Lei de Introdução às Normas do Direito Brasileiro)."
+        }
+      ]
+    },
+    {
+      "questionId": "057-ibama-001-01-q071",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-12527-2011",
+          "locator": "Art. 10, § 3º",
+          "activeQuote": "§ 3º São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público."
+        }
+      ]
+    },
+    {
+      "questionId": "057-ibama-001-01-q072",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-13709-2018",
+          "locator": "Art. 7º, X",
+          "activeQuote": "X - para a proteção do crédito, inclusive quanto ao disposto na legislação pertinente."
+        },
+        {
+          "documentId": "reference-lei-13709-2018",
+          "locator": "Art. 11, caput e incisos I e II",
+          "activeQuote": "Art. 11. O tratamento de dados pessoais sensíveis somente poderá ocorrer nas seguintes hipóteses: I - quando o titular ou seu responsável legal consentir, de forma específica e destacada, para finalidades específicas; II - sem fornecimento de consentimento do titular, nas hipóteses em que for indispensável para:"
+        }
+      ]
+    }
+  ]
+}

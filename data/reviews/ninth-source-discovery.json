@@ -1,0 +1,412 @@
+{
+  "id": "ninth-source-discovery",
+  "checkedAt": "2026-10-23T22:02:08.767572+00:00",
+  "method": "agent_assisted",
+  "scope": "Official listing and exact paper/key identity, definitive stage, application dates, source number ranges and annulments. Relevance is editorial triage, not full per-item eligibility or release.",
+  "listings": [
+    {
+      "event": "anm_24",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/anm_24",
+      "file": "data/reviews/ninth-source-listings/anm_24.json",
+      "sha256": "6f9181e79372949c79d8fcd7810c4ae63f90320beb8d3c0db4f14a71636699dc"
+    },
+    {
+      "event": "bcb_24",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/bcb_24",
+      "file": "data/reviews/ninth-source-listings/bcb_24.json",
+      "sha256": "e1f921c298ce5d713fd39d186c1beb70ec0e9d6b0682ed1d2d884ad4953dea0a"
+    },
+    {
+      "event": "ibama_25",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/ibama_25",
+      "file": "data/reviews/ninth-source-listings/ibama_25.json",
+      "sha256": "57d59ca225db442cfcf6661ead1c89225b2c27f9f5345c30510dd6f2d20fcd48"
+    },
+    {
+      "event": "anatel_24",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/anatel_24",
+      "file": "data/reviews/ninth-source-listings/anatel_24.json",
+      "sha256": "f056bb757ab89e687d08f91229dbdc5886231c164dcc7877ef64f5f282cc75ac"
+    },
+    {
+      "event": "pf_25_adm",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/pf_25_adm",
+      "file": "data/reviews/ninth-source-listings/pf_25_adm.json",
+      "sha256": "5fe47159a7e0ae130cb3d7579851dd1b6979ee150ba7cb8763ddfcc64a5312e7"
+    },
+    {
+      "event": "telebras_21",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/telebras_21",
+      "file": "data/reviews/ninth-source-listings/telebras_21.json",
+      "sha256": "f3d49bff8a438a29a3f114b0f4e7c5216bf3687e6af4dbfdb8b5e07618999018"
+    }
+  ],
+  "pairs": [
+    {
+      "paperId": "source-038-anm-008-01",
+      "event": "anm_24",
+      "booklet": "038_ANM_008_01",
+      "paperFile": "038_ANM_008_01.PDF",
+      "answerFile": "Gab_Definitivo_038_ANM_008_01.PDF",
+      "paperUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_008_01.PDF",
+      "answerUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_008_01.PDF",
+      "applicationDate": "2025-02-16",
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "annulledItems": [
+        58,
+        115
+      ],
+      "paperListing": {
+        "tipoExtensaoArquivo": "_pdf",
+        "dataArquivo": "21/02/2025 19:00",
+        "nomeArquivo": "038_ANM_008_01.PDF",
+        "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 8",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2025-02-21T19:00:00"
+      },
+      "answerListing": {
+        "tipoExtensaoArquivo": "_.PDF",
+        "dataArquivo": "18/03/2025 18:10",
+        "nomeArquivo": "Gab_Definitivo_038_ANM_008_01.PDF",
+        "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – CARGO 8",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2025-03-18T18:10:00"
+      },
+      "sourceIdentity": "independent_second_download_byte_match",
+      "potentialRelevance": [
+        "Comunicação interna e pública",
+        "Teorias da comunicação",
+        "Produção digital"
+      ],
+      "limitation": "Full paper retained. Only individually compared, context-complete, non-annulled questions with confirmed target-syllabus mappings may enter study. Origin block and rules do not define the Câmara target block or scoring."
+    },
+    {
+      "paperId": "source-038-anm-012-01",
+      "event": "anm_24",
+      "booklet": "038_ANM_012_01",
+      "paperFile": "038_ANM_012_01.PDF",
+      "answerFile": "Gab_Definitivo_038_ANM_012_01.PDF",
+      "paperUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_012_01.PDF",
+      "answerUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_012_01.PDF",
+      "applicationDate": "2025-02-16",
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "annulledItems": [
+        75,
+        111
+      ],
+      "paperListing": {
+        "tipoExtensaoArquivo": "_pdf",
+        "dataArquivo": "21/02/2025 19:00",
+        "nomeArquivo": "038_ANM_012_01.PDF",
+        "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 12",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2025-02-21T19:00:00"
+      },
+      "answerListing": {
+        "tipoExtensaoArquivo": "_.PDF",
+        "dataArquivo": "18/03/2025 18:10",
+        "nomeArquivo": "Gab_Definitivo_038_ANM_012_01.PDF",
+        "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – CARGO 12",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2025-03-18T18:10:00"
+      },
+      "sourceIdentity": "independent_second_download_byte_match",
+      "potentialRelevance": [
+        "Relações públicas",
+        "Planejamento de comunicação",
+        "Públicos e imagem institucional"
+      ],
+      "limitation": "Full paper retained. Only individually compared, context-complete, non-annulled questions with confirmed target-syllabus mappings may enter study. Origin block and rules do not define the Câmara target block or scoring."
+    },
+    {
+      "paperId": "source-038-anm-013-01",
+      "event": "anm_24",
+      "booklet": "038_ANM_013_01",
+      "paperFile": "038_ANM_013_01.PDF",
+      "answerFile": "Gab_Definitivo_038_ANM_013_01.PDF",
+      "paperUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_013_01.PDF",
+      "answerUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_013_01.PDF",
+      "applicationDate": "2025-02-16",
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "annulledItems": [
+        51,
+        60,
+        77,
+        108
+      ],
+      "paperListing": {
+        "tipoExtensaoArquivo": "_pdf",
+        "dataArquivo": "21/02/2025 19:00",
+        "nomeArquivo": "038_ANM_013_01.PDF",
+        "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 13",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2025-02-21T19:00:00"
+      },
+      "answerListing": {
+        "tipoExtensaoArquivo": "_.PDF",
+        "dataArquivo": "18/03/2025 18:10",
+        "nomeArquivo": "Gab_Definitivo_038_ANM_013_01.PDF",
+        "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – CARGO 13",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2025-03-18T18:10:00"
+      },
+      "sourceIdentity": "independent_second_download_byte_match",
+      "potentialRelevance": [
+        "Comunicação pública",
+        "IA na comunicação",
+        "Usabilidade e transparência"
+      ],
+      "limitation": "Full paper retained. Only individually compared, context-complete, non-annulled questions with confirmed target-syllabus mappings may enter study. Origin block and rules do not define the Câmara target block or scoring."
+    },
+    {
+      "paperId": "source-959-bcb-cb1-01",
+      "event": "bcb_24",
+      "booklet": "959_BCB_CB1_01",
+      "paperFile": "959_BCB_CB1_01.PDF",
+      "answerFile": "GAB_DEFINITIVO_959_BCB_CB1_01.PDF",
+      "paperUrl": "https://cdn.cebraspe.org.br/concursos/BCB_24/arquivos/959_BCB_CB1_01.PDF",
+      "answerUrl": "https://cdn.cebraspe.org.br/concursos/BCB_24/arquivos/GAB_DEFINITIVO_959_BCB_CB1_01.PDF",
+      "applicationDate": "2024-08-04",
+      "firstItem": 1,
+      "lastItem": 50,
+      "itemCount": 50,
+      "annulledItems": [
+        44
+      ],
+      "paperListing": {
+        "tipoExtensaoArquivo": "_pdf",
+        "dataArquivo": "09/08/2024 19:00",
+        "nomeArquivo": "959_BCB_CB1_01.PDF",
+        "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS BÁSICOS PARA TODOS OS CARGOS",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2024-08-09T19:00:00"
+      },
+      "answerListing": {
+        "tipoExtensaoArquivo": "_pdf",
+        "dataArquivo": "03/09/2024 14:00",
+        "nomeArquivo": "GAB_DEFINITIVO_959_BCB_CB1_01.PDF",
+        "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS BÁSICOS PARA TODOS OS CARGOS",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2024-09-03T14:00:00"
+      },
+      "sourceIdentity": "independent_second_download_byte_match",
+      "potentialRelevance": [
+        "Língua Portuguesa",
+        "Direito Administrativo"
+      ],
+      "limitation": "Full paper retained. Only individually compared, context-complete, non-annulled questions with confirmed target-syllabus mappings may enter study. Origin block and rules do not define the Câmara target block or scoring."
+    },
+    {
+      "paperId": "source-057-ibama-cb1-01",
+      "event": "ibama_25",
+      "booklet": "057_IBAMA_CB1_01",
+      "paperFile": "057_IBAMA_CB1_01.pdf",
+      "answerFile": "Gab_Definitivo_057_IBAMA_CB1_01.PDF",
+      "paperUrl": "https://cdn.cebraspe.org.br/concursos/IBAMA_25/arquivos/057_IBAMA_CB1_01.pdf",
+      "answerUrl": "https://cdn.cebraspe.org.br/concursos/IBAMA_25/arquivos/Gab_Definitivo_057_IBAMA_CB1_01.PDF",
+      "applicationDate": "2025-04-06",
+      "firstItem": 1,
+      "lastItem": 50,
+      "itemCount": 50,
+      "annulledItems": [
+        15,
+        49
+      ],
+      "paperListing": {
+        "tipoExtensaoArquivo": "_.pdf",
+        "dataArquivo": "11/04/2025 19:00",
+        "nomeArquivo": "057_IBAMA_CB1_01.pdf",
+        "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS BÁSICOS PARA O CARGO 1",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2025-04-11T19:00:00"
+      },
+      "answerListing": {
+        "tipoExtensaoArquivo": "_.PDF",
+        "dataArquivo": "07/05/2025 11:10",
+        "nomeArquivo": "Gab_Definitivo_057_IBAMA_CB1_01.PDF",
+        "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS BÁSICOS PARA O CARGO 1",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2025-05-07T11:10:00"
+      },
+      "sourceIdentity": "independent_second_download_byte_match",
+      "potentialRelevance": [
+        "Língua Portuguesa",
+        "Conceitos de IA",
+        "Gestão pública"
+      ],
+      "limitation": "Full paper retained. Only individually compared, context-complete, non-annulled questions with confirmed target-syllabus mappings may enter study. Origin block and rules do not define the Câmara target block or scoring."
+    },
+    {
+      "paperId": "source-057-ibama-001-01",
+      "event": "ibama_25",
+      "booklet": "057_IBAMA_001_01",
+      "paperFile": "057_IBAMA_001_01.pdf",
+      "answerFile": "Gab_Definitivo_057_IBAMA_001_01.PDF",
+      "paperUrl": "https://cdn.cebraspe.org.br/concursos/IBAMA_25/arquivos/057_IBAMA_001_01.pdf",
+      "answerUrl": "https://cdn.cebraspe.org.br/concursos/IBAMA_25/arquivos/Gab_Definitivo_057_IBAMA_001_01.PDF",
+      "applicationDate": "2025-04-06",
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "annulledItems": [
+        62,
+        83,
+        91,
+        99,
+        116
+      ],
+      "paperListing": {
+        "tipoExtensaoArquivo": "_.pdf",
+        "dataArquivo": "11/04/2025 19:00",
+        "nomeArquivo": "057_IBAMA_001_01.pdf",
+        "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS PARA O CARGO 1",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2025-04-11T19:00:00"
+      },
+      "answerListing": {
+        "tipoExtensaoArquivo": "_.PDF",
+        "dataArquivo": "07/05/2025 11:10",
+        "nomeArquivo": "Gab_Definitivo_057_IBAMA_001_01.PDF",
+        "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS PARA O CARGO 1",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2025-05-07T11:10:00"
+      },
+      "sourceIdentity": "independent_second_download_byte_match",
+      "potentialRelevance": [
+        "Licitações e contratos",
+        "LAI e LGPD",
+        "Direito Administrativo"
+      ],
+      "limitation": "Full paper retained. Only individually compared, context-complete, non-annulled questions with confirmed target-syllabus mappings may enter study. Origin block and rules do not define the Câmara target block or scoring."
+    },
+    {
+      "paperId": "source-961-anatel-cb1-01",
+      "event": "anatel_24",
+      "booklet": "961_ANATEL_CB1_01",
+      "paperFile": "961_ANATEL_CB1_01.PDF",
+      "answerFile": "GAB_DEFINITIVO_961_ANATEL_CB1_01.PDF",
+      "paperUrl": "https://cdn.cebraspe.org.br/concursos/ANATEL_24/arquivos/961_ANATEL_CB1_01.PDF",
+      "answerUrl": "https://cdn.cebraspe.org.br/concursos/ANATEL_24/arquivos/GAB_DEFINITIVO_961_ANATEL_CB1_01.PDF",
+      "applicationDate": "2024-09-15",
+      "firstItem": 1,
+      "lastItem": 50,
+      "itemCount": 50,
+      "annulledItems": [
+        19,
+        35,
+        39
+      ],
+      "paperListing": {
+        "tipoExtensaoArquivo": "_pdf",
+        "dataArquivo": "20/09/2024 19:00",
+        "nomeArquivo": "961_ANATEL_CB1_01.PDF",
+        "descricaoArquivo": "PROVA OBJETVA - CONHECIMENTOS BÁSICOS PARA TODOS OS CARGOS",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2024-09-20T19:00:00"
+      },
+      "answerListing": {
+        "tipoExtensaoArquivo": "_pdf",
+        "dataArquivo": "16/10/2024 14:45",
+        "nomeArquivo": "GAB_DEFINITIVO_961_ANATEL_CB1_01.PDF",
+        "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS BÁSICOS PARA TODOS OS CARGOS",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2024-10-16T14:45:00"
+      },
+      "sourceIdentity": "independent_second_download_byte_match",
+      "potentialRelevance": [
+        "Língua Inglesa",
+        "Língua Portuguesa",
+        "Direito Administrativo e Constitucional"
+      ],
+      "limitation": "Full paper retained. Only individually compared, context-complete, non-annulled questions with confirmed target-syllabus mappings may enter study. Origin block and rules do not define the Câmara target block or scoring."
+    },
+    {
+      "paperId": "source-094-pf-cb1-01",
+      "event": "pf_25_adm",
+      "booklet": "094_PF_CB1_01",
+      "paperFile": "094_PF_CB1_01.pdf",
+      "answerFile": "Gab_Definitivo_094_PF_CB1_01.pdf",
+      "paperUrl": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_CB1_01.pdf",
+      "answerUrl": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/Gab_Definitivo_094_PF_CB1_01.pdf",
+      "applicationDate": "2025-06-29",
+      "firstItem": 1,
+      "lastItem": 50,
+      "itemCount": 50,
+      "annulledItems": [
+        37
+      ],
+      "paperListing": {
+        "tipoExtensaoArquivo": "_.pdf",
+        "dataArquivo": "04/07/2025 19:00",
+        "nomeArquivo": "094_PF_CB1_01.pdf",
+        "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS BÁSICOS PARA OS CARGOS DE 1 A 14",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2025-07-04T19:00:00"
+      },
+      "answerListing": {
+        "tipoExtensaoArquivo": "_.pdf",
+        "dataArquivo": "06/08/2025 14:10",
+        "nomeArquivo": "Gab_Definitivo_094_PF_CB1_01.pdf",
+        "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS BÁSICOS PARA OS CARGOS DE 1 A 14",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2025-08-06T14:10:00"
+      },
+      "sourceIdentity": "independent_second_download_byte_match",
+      "potentialRelevance": [
+        "Segurança da informação",
+        "Língua Portuguesa",
+        "Direito Administrativo e Constitucional"
+      ],
+      "limitation": "Full paper retained. Only individually compared, context-complete, non-annulled questions with confirmed target-syllabus mappings may enter study. Origin block and rules do not define the Câmara target block or scoring."
+    }
+  ],
+  "references": [
+    {
+      "documentId": "reference-microsoft-smartscreen",
+      "url": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/virus-and-threat-protection/microsoft-defender-smartscreen/",
+      "sha256": "90a78f97ff895c05b1a467bad1151a977ef7a8c00409a2b8a1a29a088f8ffe72",
+      "scope": "Initial official publisher download; active visible text checked, no second HTML byte equality claimed."
+    },
+    {
+      "documentId": "reference-microsoft-pua",
+      "url": "https://learn.microsoft.com/en-us/defender-endpoint/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus",
+      "sha256": "c2398ba1d648657354bdca32a212ef7c01819f52ed2ae7cf3a8e499055d29de0",
+      "scope": "Initial official publisher download; active visible text checked, no second HTML byte equality claimed."
+    }
+  ],
+  "excluded": [
+    {
+      "event": "telebras_21",
+      "file": "GAB_PRELIMINAR_657_TELEBRAS_002_01.PDF",
+      "url": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_21/arquivos/GAB_PRELIMINAR_657_TELEBRAS_002_01.PDF",
+      "evidenceFile": "data/reviews/ninth-source-listings/telebras-preliminary-key.pdf",
+      "sha256": "13aee61e40768f893a8bdb41e0178b89b2d2dedc6759b98e49fab9295fec2f91",
+      "listingDescription": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS - CARGO 2",
+      "pdfStage": "GABARITOS OFICIAIS PRELIMINARES",
+      "decision": "excluded_preliminary_key",
+      "reason": "Listing describes this key as definitive but the PDF header explicitly says preliminary. No confirmed definitive replacement established in this search."
+    }
+  ]
+}
