@@ -1,6 +1,6 @@
 # Como estudar e guardar o progresso
 
-1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. O objetivo disponível é Câmara — Comunicação Social — Divulgação Institucional, com 133 questões de provas anteriores relacionadas.
+1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. O objetivo disponível é Câmara — Comunicação Social — Divulgação Institucional, com 192 questões de provas anteriores relacionadas.
 2. Marque sua resposta ou **Deixar em branco**. Use **Anterior** e **Próxima** para navegar; **Próxima** é a ação principal. Você pode trocar a alternativa ou selecionar **Deixar em branco** até finalizar.
 3. Ao sair e voltar, use **Continuar questões**. A posição e as marcações são retomadas quando o navegador permitiu o salvamento.
 4. Use **Finalizar sessão** em qualquer questão ou abra **Revisar sessão** para conferir a lista e voltar às questões que quiser (também é o próximo passo na última questão). A confirmação informa quantas questões ficarão em branco e inicia com foco em **Continuar respondendo**. Cancelar ou abrir a revisão não encerra a tentativa. Questões sem marcação passam a brancos. A correção mostra sua resposta, gabarito definitivo, resultado e links da prova e do gabarito. Explicações indisponíveis são identificadas.
@@ -89,3 +89,7 @@ O enunciado, os comandos e os textos de apoio ficam visíveis. **Origem e assunt
 Em Programa, **Exibir referências do edital** mostra as citações por tópico. Em Provas e gabaritos, abra um caderno para consultar dados e baixar os arquivos oficiais. O resultado aparece em indicadores; **Como o resultado é calculado** explica o denominador e os critérios.
 
 Os ícones de monitor, sol e lua no cabeçalho selecionam, respectivamente, o tema automático, claro e escuro. A escolha fica salva no navegador. Os botões têm identificação acessível e dica com o nome do tema.
+
+Para treinar 90 itens de um bloco, abra Personalizar treino, selecione P1 ou P2, formato Certo/Errado e quantidade 90. Há 90 C/E distintos em cada bloco; o treino continua sem os mínimos oficiais. Todas as 192 questões atuais têm comentário. O décimo lote corrige um comando de democracia com versões novas; históricos e backups anteriores preservam seu conteúdo.
+
+No topo da aba Editais, os cartões levam aos portais oficiais de Câmara, Cebraspe (concurso da Câmara), ABDI, CGU e Imprensa Nacional. Consulte-os para novas publicações, retificações e comunicados; os links abrem em outra aba. Os dados futuros de ABDI/CGU continuam pendentes de confirmação.

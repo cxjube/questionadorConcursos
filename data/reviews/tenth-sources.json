@@ -1,0 +1,60 @@
+{
+  "id": "tenth-sources",
+  "checkedAt": "2026-10-23T22:33:22.037965+00:00",
+  "scope": "One new official Cebraspe paper/definitive key pair, three current legal HTML snapshots from Câmara. Source identity is independent from individual eligibility.",
+  "documents": [
+    {
+      "documentId": "source-106-pf-cg1-01-paper",
+      "url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_CG1_01.pdf",
+      "sha256": "25c6783ccbfc3d72fbb0913da58372e344ba45fc6e1ba74250727fa3e56e51f3",
+      "listingEntry": {
+        "tipoExtensaoArquivo": "_.pdf",
+        "dataArquivo": "01/08/2025 19:00",
+        "nomeArquivo": "106_PF_CG1_01.pdf",
+        "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS BÁSICOS – BLOCO II – PARA OS CARGOS 15, 16 E 17",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2025-08-01T19:00:00"
+      },
+      "method": "independent_second_pdf_download_byte_match"
+    },
+    {
+      "documentId": "source-106-pf-cg1-01-key",
+      "url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/A78F5BA07173AF0B8A5E611A1D7AAB166B7BD473E5D7AC2220F0F1B7DDB641E9.pdf",
+      "sha256": "f4f075f7e42dacfa04727f291e2b55c15b50ce1bd51930e7773169cc3b33c783",
+      "listingEntry": {
+        "tipoExtensaoArquivo": "_.pdf",
+        "dataArquivo": "20/08/2025 10:10",
+        "nomeArquivo": "A78F5BA07173AF0B8A5E611A1D7AAB166B7BD473E5D7AC2220F0F1B7DDB641E9.pdf",
+        "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS BÁSICOS – BLOCO II – PARA OS CARGOS 15, 16 E 17",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2025-08-20T10:10:00"
+      },
+      "method": "independent_second_pdf_download_byte_match"
+    },
+    {
+      "documentId": "reference-code-ethics-camara-2001",
+      "url": "https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html",
+      "sha256": "2a6e1344209f4c5d76502a31f0e3c99c2c1fcd3b03577be063e7cf04a7f9b80a",
+      "method": "initial_official_html_download_active_cited_clauses_reviewed"
+    },
+    {
+      "documentId": "reference-lei-8112-1990",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "sha256": "2ceed7c5d4c9ef2b466ccba6e37abf93425285cc71afbe9e8641ceb28b9d44cb",
+      "method": "initial_official_html_download_active_cited_clauses_reviewed"
+    },
+    {
+      "documentId": "reference-codigo-civil-2002",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
+      "sha256": "6ed7c19586b21355e998746a0620cea5c2f3e6a24036d7f3743b7d30330e5d90",
+      "method": "initial_official_html_download_active_cited_clauses_reviewed"
+    }
+  ],
+  "listing": {
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/pf_25",
+    "file": "data/reviews/tenth-pf-official-listing.json",
+    "sha256": "d75f2ec329b31e4750b001518429fdf040007534e117ec61a3eee9e735815a73"
+  }
+}

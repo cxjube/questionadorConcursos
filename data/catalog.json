@@ -2323,6 +2323,71 @@
       "sha256": "c2398ba1d648657354bdca32a212ef7c01819f52ed2ae7cf3a8e499055d29de0",
       "publicationDate": null,
       "paperId": null
+    },
+    {
+      "id": "source-106-pf-cg1-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Polícia Federal 2025 — Conhecimentos básicos — Bloco II — cargos 15, 16 e 17 — caderno",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_CG1_01.pdf",
+      "file": "sources/papers/106_PF_CG1_01.pdf",
+      "sha256": "25c6783ccbfc3d72fbb0913da58372e344ba45fc6e1ba74250727fa3e56e51f3",
+      "publicationDate": "2025-08-01",
+      "paperId": "source-106-pf-cg1-01"
+    },
+    {
+      "id": "source-106-pf-cg1-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Polícia Federal 2025 — Conhecimentos básicos — Bloco II — cargos 15, 16 e 17 — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/A78F5BA07173AF0B8A5E611A1D7AAB166B7BD473E5D7AC2220F0F1B7DDB641E9.pdf",
+      "file": "sources/answer-keys/GAB_DEFINITIVO_106_PF_CG1_01.pdf",
+      "sha256": "f4f075f7e42dacfa04727f291e2b55c15b50ce1bd51930e7773169cc3b33c783",
+      "publicationDate": "2025-08-20",
+      "paperId": "source-106-pf-cg1-01"
+    },
+    {
+      "id": "reference-code-ethics-camara-2001",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Código de Ética e Decoro Parlamentar — Resolução nº 25/2001 — texto atualizado",
+      "issuer": "Câmara dos Deputados",
+      "status": "verified",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html",
+      "file": "sources/references/camara-code-ethics-2001.html",
+      "sha256": "2a6e1344209f4c5d76502a31f0e3c99c2c1fcd3b03577be063e7cf04a7f9b80a",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-lei-8112-1990",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Lei nº 8.112/1990 — texto atualizado",
+      "issuer": "Câmara dos Deputados",
+      "status": "verified",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "file": "sources/references/camara-lei-8112-1990.html",
+      "sha256": "2ceed7c5d4c9ef2b466ccba6e37abf93425285cc71afbe9e8641ceb28b9d44cb",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-codigo-civil-2002",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Código Civil — Lei nº 10.406/2002 — texto atualizado",
+      "issuer": "Câmara dos Deputados",
+      "status": "verified",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
+      "file": "sources/references/camara-codigo-civil-2002.html",
+      "sha256": "6ed7c19586b21355e998746a0620cea5c2f3e6a24036d7f3743b7d30330e5d90",
+      "publicationDate": null,
+      "paperId": null
     }
   ],
   "papers": [
@@ -2824,6 +2889,36 @@
           37
         ],
         "answerKeyDocumentId": "source-094-pf-cb1-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-106-pf-cg1-01",
+      "bankId": "concursos",
+      "title": "Polícia Federal 2025 — Conhecimentos básicos — Bloco II — cargos 15, 16 e 17",
+      "provider": "Cebraspe",
+      "institution": "Polícia Federal",
+      "role": "Conhecimentos básicos — Bloco II — Escrivão, Agente e Papiloscopista Policial Federal (cargos 15, 16 e 17)",
+      "year": 2025,
+      "booklet": "106_PF_CG1_01",
+      "documentId": "source-106-pf-cg1-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-07-27",
+        "block": "basic",
+        "firstItem": 61,
+        "lastItem": 96,
+        "itemCount": 36,
+        "questionType": "true_false",
+        "annulledItems": [
+          62,
+          69,
+          85,
+          91,
+          94
+        ],
+        "answerKeyDocumentId": "source-106-pf-cg1-01-key",
         "pairingStatus": "matched_by_filename_and_range",
         "externalVerification": true
       }
@@ -5649,7 +5744,7 @@
     {
       "id": "camara-2014-area-xix-q138",
       "bankId": "concursos",
-      "revision": 1,
+      "revision": 2,
       "type": "true_false",
       "stem": "Segundo o modelo de democracia majoritária, o poder é concentrado e a relação entre governo e oposição, caracterizada pelo embate e pela competição.",
       "options": [],
@@ -5679,7 +5774,7 @@
     {
       "id": "camara-2014-area-xix-q140",
       "bankId": "concursos",
-      "revision": 1,
+      "revision": 2,
       "type": "true_false",
       "stem": "Bicameralismo, voto proporcional e sistemas multipartidários são características associadas ao modelo consensual de democracia.",
       "options": [],
@@ -6315,7 +6410,7 @@
     {
       "id": "camara-2014-area-xix-q136",
       "bankId": "concursos",
-      "revision": 1,
+      "revision": 2,
       "type": "true_false",
       "stem": "A existência de um tribunal constitucional é característica do modelo de democracia majoritária.",
       "options": [],
@@ -6345,7 +6440,7 @@
     {
       "id": "camara-2014-area-xix-q137",
       "bankId": "concursos",
-      "revision": 1,
+      "revision": 2,
       "type": "true_false",
       "stem": "A independência do banco central de um país está associada ao modelo de democracia consensual.",
       "options": [],
@@ -7104,6 +7199,1788 @@
         "temporalScope": "conceptual",
         "temporalNote": "Conceito ou funcionalidade avaliado na prova de 2025; enunciado e gabarito históricos preservados, sem presumir configurações universais.",
         "decisionReference": "documentation/ninth-batch-release.md"
+      }
+    },
+    {
+      "id": "959-bcb-cb1-01-q001",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Conclui-se da leitura do último parágrafo que, segundo as leis trabalhistas, empregado e contratado são categorias distintas de trabalhadores.",
+      "options": [],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-reading-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-959-bcb-cb1-01",
+        "number": 1,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "959-bcb-cb1-01-q001-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do texto-base histórico da prova; não atualiza as afirmações do autor.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "959-bcb-cb1-01-q002",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Conclui-se da leitura do texto que o modelo de plataformas digitais de trabalho, por sua variada flexibilidade, oferece aos trabalhadores mais vantagens que desvantagens.",
+      "options": [],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-reading-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-959-bcb-cb1-01",
+        "number": 2,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "959-bcb-cb1-01-q002-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do texto-base histórico da prova; não atualiza as afirmações do autor.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "959-bcb-cb1-01-q003",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No quarto período do primeiro parágrafo, o trecho isolado entre travessões expressa a causa da desregulamentação das relações de trabalho.",
+      "options": [],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-reading-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-959-bcb-cb1-01",
+        "number": 3,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "959-bcb-cb1-01-q003-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do texto-base histórico da prova; não atualiza as afirmações do autor.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "959-bcb-cb1-01-q004",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No segundo parágrafo, incentiva-se o uso das plataformas digitais na articulação entre ofertantes e demandantes de trabalho, a partir da valorização de sua eficácia e das facilidades dele decorrentes.",
+      "options": [],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-reading-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-959-bcb-cb1-01",
+        "number": 4,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "959-bcb-cb1-01-q004-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do texto-base histórico da prova; não atualiza as afirmações do autor.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "959-bcb-cb1-01-q005",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No terceiro período do primeiro parágrafo, o emprego do vocábulo “ou” entre os vocábulos “suplementado” e “substituído” indica que são sinônimos no texto.",
+      "options": [],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-reading-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-959-bcb-cb1-01",
+        "number": 5,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "959-bcb-cb1-01-q005-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do texto-base histórico da prova; não atualiza as afirmações do autor.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "959-bcb-cb1-01-q006",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No primeiro período do terceiro parágrafo, a oração introduzida pelo vocábulo “pois” consiste em uma explicação para o que se afirma na oração imediatamente antecedente.",
+      "options": [],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-grammar-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-959-bcb-cb1-01",
+        "number": 6,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "959-bcb-cb1-01-q006-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do texto-base histórico da prova; não atualiza as afirmações do autor.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "094-pf-cb1-01-q043",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Há possibilidade de redistribuição, de ofício, de cargo efetivo ocupado, com vistas ao ajustamento de lotação e força de trabalho às necessidades do serviço.",
+      "options": [],
+      "contextIds": [
+        "pf-admin-2025-agents-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-094-pf-cb1-01",
+        "number": 43,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "094-pf-cb1-01-q043-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "094-pf-cb1-01-q047",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Uma vez que a administração pública somente pode exigir e fazer o que está previsto em lei, os princípios que a regem são também aqueles expressos em lei.",
+      "options": [],
+      "contextIds": [
+        "pf-admin-2025-powers-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-094-pf-cb1-01",
+        "number": 47,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "094-pf-cb1-01-q047-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "094-pf-cb1-01-q048",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O princípio da transparência do setor público veda que um pedido de acesso à informação de órgão público relativa a projeto de pesquisa e desenvolvimento científico ou tecnológico seja negado, ressalvados os projetos de caráter militar.",
+      "options": [],
+      "contextIds": [
+        "pf-admin-2025-access-process-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-094-pf-cb1-01",
+        "number": 48,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "094-pf-cb1-01-q048-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "094-pf-cb1-01-q049",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Os prazos previstos no processo administrativo federal devem ser contados em dias úteis, cabendo ao administrado demonstrar a ocorrência de feriado local que impacte o prazo de recurso a instância superior.",
+      "options": [],
+      "contextIds": [
+        "pf-admin-2025-access-process-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-094-pf-cb1-01",
+        "number": 49,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "094-pf-cb1-01-q049-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "094-pf-cb1-01-q050",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Com base na Lei Geral de Proteção de Dados, considera-se relatório de impacto à proteção de dados pessoais a documentação do controlador que contém a descrição dos processos de tratamento de dados pessoais que podem gerar riscos às liberdades civis e aos direitos fundamentais, bem como medidas, salvaguardas e mecanismos de mitigação de riscos.",
+      "options": [],
+      "contextIds": [
+        "pf-admin-2025-access-process-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-094-pf-cb1-01",
+        "number": 50,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "094-pf-cb1-01-q050-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "959-bcb-cb1-01-q036",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Os bens das autarquias são, invariavelmente, de natureza pública, bem como impenhoráveis e inalienáveis.",
+      "options": [],
+      "contextIds": [
+        "bcb-2024-admin-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-959-bcb-cb1-01",
+        "number": 36,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "959-bcb-cb1-01-q036-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "959-bcb-cb1-01-q037",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A fim de evitar que servidor público submetido a processo administrativo disciplinar (PAD) interfira no curso do referido processo, a lei autoriza o seu afastamento do exercício do cargo até a conclusão do PAD.",
+      "options": [],
+      "contextIds": [
+        "bcb-2024-admin-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-959-bcb-cb1-01",
+        "number": 37,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "959-bcb-cb1-01-q037-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "959-bcb-cb1-01-q038",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Em razão do princípio da indisponibilidade do interesse público, os direitos geridos por administradores públicos são, em regra, inalienáveis e indisponíveis.",
+      "options": [],
+      "contextIds": [
+        "bcb-2024-admin-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-959-bcb-cb1-01",
+        "number": 38,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "959-bcb-cb1-01-q038-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "094-pf-cb1-01-q035",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A vedação constitucional à acumulação de cargos públicos é afastada na hipótese de um dos vínculos estatutários ter sido estabelecido anteriormente à promulgação da CF, ainda que haja incompatibilidade de horários.",
+      "options": [],
+      "contextIds": [
+        "pf-admin-2025-constitution-left-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-094-pf-cb1-01",
+        "number": 35,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "094-pf-cb1-01-q035-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "094-pf-cb1-01-q036",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "É assegurado ao preso o direito à identificação dos responsáveis por sua prisão, exceto quando esta ocorrer no âmbito de operação sigilosa autorizada por autoridade competente.",
+      "options": [],
+      "contextIds": [
+        "pf-admin-2025-constitution-left-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-094-pf-cb1-01",
+        "number": 36,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "094-pf-cb1-01-q036-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "094-pf-cb1-01-q038",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As normas constitucionais de eficácia plena e de eficácia contida têm aplicabilidade imediata, são irrevogáveis e não admitem restrições por normas infraconstitucionais.",
+      "options": [],
+      "contextIds": [
+        "pf-admin-2025-constitution-left-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-094-pf-cb1-01",
+        "number": 38,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "094-pf-cb1-01-q038-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "094-pf-cb1-01-q039",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A CF assegura aos entes federativos autonomia política e administrativa, sendo vedado à União intervir nos estados ou no Distrito Federal, exceto nas hipóteses taxativamente previstas no texto constitucional.",
+      "options": [],
+      "contextIds": [
+        "pf-admin-2025-constitution-left-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-094-pf-cb1-01",
+        "number": 39,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "094-pf-cb1-01-q039-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "094-pf-cb1-01-q040",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O Senado Federal possui competência exclusiva para sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar, exercendo tal controle diretamente, sem necessidade de manifestação da Câmara dos Deputados.",
+      "options": [],
+      "contextIds": [
+        "pf-admin-2025-constitution-right-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-094-pf-cb1-01",
+        "number": 40,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "094-pf-cb1-01-q040-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "094-pf-cb1-01-q041",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Compete privativamente ao presidente da República manter relações com Estados estrangeiros, celebrar tratados internacionais sujeitos a referendo do Congresso Nacional, bem como exercer o comando supremo das Forças Armadas.",
+      "options": [],
+      "contextIds": [
+        "pf-admin-2025-constitution-right-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-094-pf-cb1-01",
+        "number": 41,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "094-pf-cb1-01-q041-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "106-pf-cg1-01-q064",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Firewalls são ferramentas de segurança que monitoram e controlam o tráfego de dados entre redes, podendo bloquear acessos não autorizados, ao passo que os antivírus são projetados para detectar, remover e prevenir a ação de vírus e outras pragas virtuais.",
+      "options": [],
+      "contextIds": [
+        "pf-policial-2025-net-security-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-106-pf-cg1-01",
+        "number": 64,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "106-pf-cg1-01-q064-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "106-pf-cg1-01-q071",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No contexto de banco de dados, dados estruturados são aqueles que não possuem um formato fixo e são armazenados em sistemas como bancos NoSQL, ao passo que dados não estruturados possuem um formato rígido e são armazenados em tabelas relacionais.",
+      "options": [],
+      "contextIds": [
+        "pf-policial-2025-information-data-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-106-pf-cg1-01",
+        "number": 71,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "106-pf-cg1-01-q071-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "106-pf-cg1-01-q080",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Em machine learning supervisionado, o algoritmo aprende, a partir de um conjunto de dados rotulados, a identificar padrões e realizar previsões em novos dados.",
+      "options": [],
+      "contextIds": [
+        "pf-policial-2025-ml-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-106-pf-cg1-01",
+        "number": 80,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "106-pf-cg1-01-q080-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "106-pf-cg1-01-q088",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Detecção heurística é uma técnica de análise do comportamento e da estrutura do código para a identificação de características típicas de vírus, ainda que a assinatura específica não seja conhecida.",
+      "options": [],
+      "contextIds": [
+        "pf-policial-2025-threat-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-106-pf-cg1-01",
+        "number": 88,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "106-pf-cg1-01-q088-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q112",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Muitos debates acerca da capacidade estatal valorizam o grau de autonomia do Estado perante a sociedade civil. Nesse sentido, o conceito de autonomia inserida do Estado pressupõe a capacidade de o Estado infiltrar-se na sociedade, sem, entretanto, construir relações com grupos específicos.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-estado-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 112,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q112-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q114",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "De acordo com Bobbio, no mundo contemporâneo, as ideologias, difundidas a partir de informações, doutrinas e conhecimentos, não contribuem para a dominação política.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-estado-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 114,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q114-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q117",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A política da diferença, ou o multiculturalismo, baseia-se na afirmação das características distintivas dos indivíduos presentes na sociedade, reforçando o argumento da democracia liberal promotora das liberdades cidadãs e da multiplicidade de grupos de interesse.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-democracy-passage",
+        "camara-2014-democracy-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 117,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q117-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do texto-base histórico da prova; não atualiza as afirmações do autor.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q118",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Os diferentes grupos políticos empenhados em sustentar o rótulo democrático moldam seu significado aos interesses que defendem e, dessa forma, promovem sua ressignificação, fornecendo sentidos contraditórios à democracia.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-democracy-passage",
+        "camara-2014-democracy-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 118,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q118-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do texto-base histórico da prova; não atualiza as afirmações do autor.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q119",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Na democracia deliberativa, a ideia de governo do povo é esvaziada na medida em que cabe, sobretudo, aos cidadãos comuns formar o governo de forma deliberativa, mas não dele participar.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-democracy-passage",
+        "camara-2014-democracy-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 119,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q119-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do texto-base histórico da prova; não atualiza as afirmações do autor.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q120",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Em um contexto teórico denominado democracia crítica e plural, Chantal Mouffe desenvolveu a ideia de democracia agonista, criticando os modelos deliberativos.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-democracy-passage",
+        "camara-2014-democracy-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 120,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q120-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do texto-base histórico da prova; não atualiza as afirmações do autor.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q121",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Os mecanismos de democracia direta são traços característicos do modelo consociacional de democracia, desenvolvido por Arend Lijphart.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-democracy-passage",
+        "camara-2014-democracy-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 121,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q121-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do texto-base histórico da prova; não atualiza as afirmações do autor.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q122",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Segundo Robert Dahl, os elementos procedimentais e os substantivos da democracia não podem ser separados, ou seja, o processo eleitoral deve estar conectado a uma cidadania razoavelmente inclusiva.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-democracy-passage",
+        "camara-2014-democracy-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 122,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q122-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do texto-base histórico da prova; não atualiza as afirmações do autor.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q127",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Segundo Pierre Bourdieu, campo político deve ser definido como um microcosmo composto de propriedades, ações, reações e processos totalmente dependentes do macrocosmo social.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-teoria-politica-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 127,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q127-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q129",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O pluralismo pode ser definido como um sistema de representação de interesses em que o Estado é neutro e servidor do eleitorado, apesar de gozar de certa autonomia.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-teoria-politica-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 129,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q129-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q130",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Na atualidade, o pensamento feminista é um importante componente de renovação da teoria política.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-teoria-politica-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 130,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q130-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q133",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A queda do regime comunista no Leste Europeu e dos últimos regimes autoritários na América Latina, na década de noventa do século XX, deu início à terceira onda de democratização mundial, conforme a definição de Samuel Huntington.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-regimes-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 133,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara-2014-area-xix-q133-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q139",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O Reino Unido é exemplo do modelo de democracia consensual.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-modelos-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 139,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara-2014-area-xix-q139-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q141",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O formato e a estrutura dos partidos políticos relacionam-se menos com a sua origem e história e mais com as condições de competição com outros partidos.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-partidos-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 141,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara-2014-area-xix-q141-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q144",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As condições comumente associadas à criação de partidos de massa são a organização de grupos sociais não representados no parlamento, a constituição de comitês eleitorais e a eleição de bancadas.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-partidos-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 144,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara-2014-area-xix-q144-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q151",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Na maioria dos países onde vigora o voto proporcional, adota-se a regra da lista aberta, que confere aos eleitores o poder de definir a ordem de ocupação das cadeiras conquistadas pelo partido.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-electoral-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 151,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "camara-2014-area-xix-q151-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q152",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A disparidade entre o percentual de votos que cada partido obtém e o número de cadeiras por ele alcançadas é uma das principais críticas feitas ao sistema eleitoral majoritário de turno único.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-electoral-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 152,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "camara-2014-area-xix-q152-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q153",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A partir dos anos oitenta do século passado, adotou-se, em número crescente de países, o sistema eleitoral misto, que combina aspectos do sistema majoritário e do proporcional nas eleições para o mesmo cargo.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-electoral-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 153,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "camara-2014-area-xix-q153-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q155",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A expressão presidencialismo de coalizão, na sua formulação original, designa a combinação de presidencialismo, multipartidarismo e federalismo.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-brazil-system-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 155,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "camara-2014-area-xix-q155-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q156",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Os críticos do presidencialismo de coalizão, na forma como vigora no Brasil, apontam a heterogeneidade das coligações governistas e a indisciplina partidária como obstáculos à governabilidade e como fontes de instabilidade política.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-brazil-system-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 156,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "camara-2014-area-xix-q156-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q076",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Às comissões permanentes da Câmara dos Deputados é dado o poder de convocar ministros de Estado, bem como autoridades e cidadãos.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-commissions-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 76,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q076-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q084",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O deputado federal que acusar, em discurso, outro parlamentar da prática de crime contra a administração pública responderá perante o STF pelo crime de difamação.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-parliamentary-status-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 84,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q084-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q085",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Recebida a denúncia contra deputado federal pelo STF, o processo criminal somente terá início após expressa autorização do Plenário da Câmara dos Deputados.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-parliamentary-status-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 85,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q085-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q086",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Incidirá em quebra de decoro o parlamentar que fizer acordo com seu suplente com vistas a lhe viabilizar o exercício do mandato, desde que tal acordo comporte cláusula financeira.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-decorum-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 86,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q086-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q087",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Ocorre quebra de decoro quando o parlamentar desacata servidor da Câmara dos Deputados, mas não quando ele desacata outro deputado federal, em face da imunidade material.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-decorum-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 87,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q087-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q088",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O deputado federal deve respeitar as decisões tomadas legitimamente pelos órgãos da respectiva Casa, ainda que delas discorde, sob pena de incidir em quebra de decoro.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-decorum-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 88,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q088-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q096",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Por se tratar de matéria afeta ao funcionamento interno da instituição, o Código de Ética e Decoro Parlamentar da Câmara dos Deputados deve ser veiculado mediante resolução.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-ethics-cf-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 96,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q096-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q098",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "É vedado ao presidente da Câmara dos Deputados impedir o registro taquigráfico de um pronunciamento parlamentar, ou de um aparte a ele.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-organizacao-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 98,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q098-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q108",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Senador da República tem direito de acesso a sessão que aprecie projeto que determine perda de mandato de deputado federal.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-ethics-provisions-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 108,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q108-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q109",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O corregedor da Câmara dos Deputados tem direito a voz e voto nas sessões do Conselho de Ética e Decoro Parlamentar.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-ethics-provisions-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 109,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q109-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q079",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O diagnóstico em relações públicas deve ser contínuo, mesmo após o início da execução de estratégias, para garantir ajustes e maior alinhamento aos objetivos.",
+      "options": [],
+      "contextIds": [
+        "anm-010-diagnosis-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 79,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-010-01-q079-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q083",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A aferição de resultados em comunicação organizacional deve incluir métricas indiretas, como o aumento do engajamento em canais relacionados à campanha, para oferecer uma análise mais ampla dos impactos estratégicos.",
+      "options": [],
+      "contextIds": [
+        "anm-010-metrics-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 83,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-010-01-q083-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q100",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O modelo CMYK é o mais adequado para a impressão, pois utiliza pigmentos físicos e reproduz as cores com fidelidade no papel, enquanto o modelo RGB é ideal para mídias digitais, que usam a emissão de luz para exibir cores com precisão nas telas.",
+      "options": [],
+      "contextIds": [
+        "anm-010-graphic-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 100,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-010-01-q100-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q101",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Os infográficos, ao combinar texto, gráficos e imagens, têm como principal objetivo simplificar e esclarecer dados complexos, organizando o conteúdo de maneira equilibrada e visualmente atraente.",
+      "options": [],
+      "contextIds": [
+        "anm-010-graphic-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 101,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-010-01-q101-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q102",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No tratamento de imagem, aumentar a resolução de uma imagem sempre melhora sua qualidade, garantindo um resultado superior em qualquer formato, independentemente do meio de impressão ou tela.",
+      "options": [],
+      "contextIds": [
+        "anm-010-graphic-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 102,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-010-01-q102-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
+        "decisionReference": "documentation/tenth-batch-release.md"
       }
     }
   ],
@@ -8832,6 +10709,773 @@
       "stage": "definitive",
       "status": "confirmed",
       "documentId": "source-038-anm-013-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "959-bcb-cb1-01-q001-key-v1",
+      "questionId": "959-bcb-cb1-01-q001",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-959-bcb-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "959-bcb-cb1-01-q002-key-v1",
+      "questionId": "959-bcb-cb1-01-q002",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-959-bcb-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "959-bcb-cb1-01-q003-key-v1",
+      "questionId": "959-bcb-cb1-01-q003",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-959-bcb-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "959-bcb-cb1-01-q004-key-v1",
+      "questionId": "959-bcb-cb1-01-q004",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-959-bcb-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "959-bcb-cb1-01-q005-key-v1",
+      "questionId": "959-bcb-cb1-01-q005",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-959-bcb-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "959-bcb-cb1-01-q006-key-v1",
+      "questionId": "959-bcb-cb1-01-q006",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-959-bcb-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "094-pf-cb1-01-q043-key-v1",
+      "questionId": "094-pf-cb1-01-q043",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-094-pf-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "094-pf-cb1-01-q047-key-v1",
+      "questionId": "094-pf-cb1-01-q047",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-094-pf-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "094-pf-cb1-01-q048-key-v1",
+      "questionId": "094-pf-cb1-01-q048",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-094-pf-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "094-pf-cb1-01-q049-key-v1",
+      "questionId": "094-pf-cb1-01-q049",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-094-pf-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "094-pf-cb1-01-q050-key-v1",
+      "questionId": "094-pf-cb1-01-q050",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-094-pf-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "959-bcb-cb1-01-q036-key-v1",
+      "questionId": "959-bcb-cb1-01-q036",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-959-bcb-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "959-bcb-cb1-01-q037-key-v1",
+      "questionId": "959-bcb-cb1-01-q037",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-959-bcb-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "959-bcb-cb1-01-q038-key-v1",
+      "questionId": "959-bcb-cb1-01-q038",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-959-bcb-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "094-pf-cb1-01-q035-key-v1",
+      "questionId": "094-pf-cb1-01-q035",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-094-pf-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "094-pf-cb1-01-q036-key-v1",
+      "questionId": "094-pf-cb1-01-q036",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-094-pf-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "094-pf-cb1-01-q038-key-v1",
+      "questionId": "094-pf-cb1-01-q038",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-094-pf-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "094-pf-cb1-01-q039-key-v1",
+      "questionId": "094-pf-cb1-01-q039",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-094-pf-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "094-pf-cb1-01-q040-key-v1",
+      "questionId": "094-pf-cb1-01-q040",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-094-pf-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "094-pf-cb1-01-q041-key-v1",
+      "questionId": "094-pf-cb1-01-q041",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-094-pf-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "106-pf-cg1-01-q064-key-v1",
+      "questionId": "106-pf-cg1-01-q064",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-106-pf-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "106-pf-cg1-01-q071-key-v1",
+      "questionId": "106-pf-cg1-01-q071",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-106-pf-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "106-pf-cg1-01-q080-key-v1",
+      "questionId": "106-pf-cg1-01-q080",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-106-pf-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "106-pf-cg1-01-q088-key-v1",
+      "questionId": "106-pf-cg1-01-q088",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-106-pf-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q112-key-v1",
+      "questionId": "camara-2014-area-xix-q112",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-area-xix-q114-key-v1",
+      "questionId": "camara-2014-area-xix-q114",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-area-xix-q117-key-v1",
+      "questionId": "camara-2014-area-xix-q117",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-area-xix-q118-key-v1",
+      "questionId": "camara-2014-area-xix-q118",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q119-key-v1",
+      "questionId": "camara-2014-area-xix-q119",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-area-xix-q120-key-v1",
+      "questionId": "camara-2014-area-xix-q120",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q121-key-v1",
+      "questionId": "camara-2014-area-xix-q121",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-area-xix-q122-key-v1",
+      "questionId": "camara-2014-area-xix-q122",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q127-key-v1",
+      "questionId": "camara-2014-area-xix-q127",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-area-xix-q129-key-v1",
+      "questionId": "camara-2014-area-xix-q129",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q130-key-v1",
+      "questionId": "camara-2014-area-xix-q130",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q133-key-v1",
+      "questionId": "camara-2014-area-xix-q133",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-area-xix-q139-key-v1",
+      "questionId": "camara-2014-area-xix-q139",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-area-xix-q141-key-v1",
+      "questionId": "camara-2014-area-xix-q141",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-area-xix-q144-key-v1",
+      "questionId": "camara-2014-area-xix-q144",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q151-key-v1",
+      "questionId": "camara-2014-area-xix-q151",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-area-xix-q152-key-v1",
+      "questionId": "camara-2014-area-xix-q152",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q153-key-v1",
+      "questionId": "camara-2014-area-xix-q153",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q155-key-v1",
+      "questionId": "camara-2014-area-xix-q155",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q156-key-v1",
+      "questionId": "camara-2014-area-xix-q156",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-cb2-03-q076-key-v1",
+      "questionId": "camara-2014-cb2-03-q076",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-cb2-03-q084-key-v1",
+      "questionId": "camara-2014-cb2-03-q084",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-cb2-03-q085-key-v1",
+      "questionId": "camara-2014-cb2-03-q085",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-cb2-03-q086-key-v1",
+      "questionId": "camara-2014-cb2-03-q086",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-cb2-03-q087-key-v1",
+      "questionId": "camara-2014-cb2-03-q087",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-cb2-03-q088-key-v1",
+      "questionId": "camara-2014-cb2-03-q088",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-cb2-03-q096-key-v1",
+      "questionId": "camara-2014-cb2-03-q096",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-cb2-03-q098-key-v1",
+      "questionId": "camara-2014-cb2-03-q098",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-cb2-03-q108-key-v1",
+      "questionId": "camara-2014-cb2-03-q108",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-cb2-03-q109-key-v1",
+      "questionId": "camara-2014-cb2-03-q109",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-010-01-q079-key-v1",
+      "questionId": "038-anm-010-01-q079",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-010-01-q083-key-v1",
+      "questionId": "038-anm-010-01-q083",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-010-01-q100-key-v1",
+      "questionId": "038-anm-010-01-q100",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-010-01-q101-key-v1",
+      "questionId": "038-anm-010-01-q101",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-010-01-q102-key-v1",
+      "questionId": "038-anm-010-01-q102",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
       "author": null,
       "locator": "PDF p. 1",
       "result": "valid",
@@ -10993,6 +13637,1133 @@
         {
           "documentId": "source-038-anm-013-01-key",
           "locator": "PDF p. 1, item 63"
+        }
+      ]
+    },
+    {
+      "id": "959-bcb-cb1-01-q001-comment-v1",
+      "questionId": "959-bcb-cb1-01-q001",
+      "text": "O último parágrafo apresenta um sistema binário: empregados recebem determinados direitos, enquanto contratados tendem a ter acesso restrito. A distinção é inferida da argumentação do texto, sem afirmar que essa terminologia descreva integralmente a legislação trabalhista brasileira atual.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-959-bcb-cb1-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 1"
+        },
+        {
+          "documentId": "source-959-bcb-cb1-01-key",
+          "locator": "PDF p. 1, item 1"
+        }
+      ]
+    },
+    {
+      "id": "959-bcb-cb1-01-q002-comment-v1",
+      "questionId": "959-bcb-cb1-01-q002",
+      "text": "O texto reconhece vantagens de flexibilidade, mas também vulnerabilidade, distribuição desigual de oportunidades e possíveis custos sociais. Ele não compara esses fatores para concluir que as vantagens sejam maiores que as desvantagens. O item acrescenta essa avaliação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-959-bcb-cb1-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 2"
+        },
+        {
+          "documentId": "source-959-bcb-cb1-01-key",
+          "locator": "PDF p. 1, item 2"
+        }
+      ]
+    },
+    {
+      "id": "959-bcb-cb1-01-q003-comment-v1",
+      "questionId": "959-bcb-cb1-01-q003",
+      "text": "O trecho entre travessões, iniciado por em função do impacto disruptivo, explica a causa da desregulamentação mencionada imediatamente antes. A relação causal está expressa na própria construção, não depende de uma inferência sobre os benefícios das plataformas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-959-bcb-cb1-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 3"
+        },
+        {
+          "documentId": "source-959-bcb-cb1-01-key",
+          "locator": "PDF p. 1, item 3"
+        }
+      ]
+    },
+    {
+      "id": "959-bcb-cb1-01-q004-comment-v1",
+      "questionId": "959-bcb-cb1-01-q004",
+      "text": "O segundo parágrafo descreve como as plataformas facilitam a articulação e a realização de transações. Descrever funcionalidades e eficiência não equivale a incentivar seu uso. A leitura deve ainda considerar as ressalvas do parágrafo seguinte.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-959-bcb-cb1-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 4"
+        },
+        {
+          "documentId": "source-959-bcb-cb1-01-key",
+          "locator": "PDF p. 1, item 4"
+        }
+      ]
+    },
+    {
+      "id": "959-bcb-cb1-01-q005-comment-v1",
+      "questionId": "959-bcb-cb1-01-q005",
+      "text": "Suplementar significa acrescentar ou complementar; substituir significa ocupar o lugar de algo. O conectivo ou apresenta possibilidades distintas para o emprego padrão, sem transformar os dois verbos em sinônimos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-959-bcb-cb1-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 5"
+        },
+        {
+          "documentId": "source-959-bcb-cb1-01-key",
+          "locator": "PDF p. 1, item 5"
+        }
+      ]
+    },
+    {
+      "id": "959-bcb-cb1-01-q006-comment-v1",
+      "questionId": "959-bcb-cb1-01-q006",
+      "text": "A oração introduzida por pois oferece a explicação para a maior vulnerabilidade da força de trabalho: as leis ainda se baseariam no sistema binário descrito. O vínculo explicativo é avaliado no contexto do texto-base.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-959-bcb-cb1-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 6"
+        },
+        {
+          "documentId": "source-959-bcb-cb1-01-key",
+          "locator": "PDF p. 1, item 6"
+        }
+      ]
+    },
+    {
+      "id": "094-pf-cb1-01-q043-comment-v1",
+      "questionId": "094-pf-cb1-01-q043",
+      "text": "A redistribuição desloca o cargo efetivo, ocupado ou vago, para outro órgão ou entidade do mesmo Poder, observadas as condições legais. O art. 37, § 1º, prevê sua realização de ofício para ajustar lotação e força de trabalho às necessidades do serviço. Não se confunde com a remoção do servidor.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-094-pf-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 43"
+        },
+        {
+          "documentId": "source-094-pf-cb1-01-key",
+          "locator": "PDF p. 1, item 43"
+        },
+        {
+          "documentId": "reference-lei-8112-1990",
+          "locator": "Art. 37, § 1º"
+        }
+      ]
+    },
+    {
+      "id": "094-pf-cb1-01-q047-comment-v1",
+      "questionId": "094-pf-cb1-01-q047",
+      "text": "A legalidade não transforma os princípios administrativos em uma lista fechada de enunciados expressos. Há princípios extraídos da interpretação do sistema, além dos expressamente enumerados. O art. 37 da Constituição e o art. 2º da Lei nº 9.784/1999 apresentam referências fundamentais sem sustentar a exclusividade alegada no item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-094-pf-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 47"
+        },
+        {
+          "documentId": "source-094-pf-cb1-01-key",
+          "locator": "PDF p. 1, item 47"
+        },
+        {
+          "documentId": "reference-lei-9784-1999",
+          "locator": "Art. 2º, caput"
+        }
+      ]
+    },
+    {
+      "id": "094-pf-cb1-01-q048-comment-v1",
+      "questionId": "094-pf-cb1-01-q048",
+      "text": "A LAI ressalva informações de pesquisa e desenvolvimento científico ou tecnológico cujo sigilo seja imprescindível à segurança da sociedade e do Estado. A exceção não está limitada a projetos militares. Transparência é a regra, com as hipóteses legais de sigilo; não é autorização para divulgar toda informação indistintamente.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-094-pf-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 48"
+        },
+        {
+          "documentId": "source-094-pf-cb1-01-key",
+          "locator": "PDF p. 1, item 48"
+        },
+        {
+          "documentId": "reference-lei-12527-2011",
+          "locator": "Art. 7º, § 1º"
+        }
+      ]
+    },
+    {
+      "id": "094-pf-cb1-01-q049-comment-v1",
+      "questionId": "094-pf-cb1-01-q049",
+      "text": "O art. 66, § 2º, determina a contagem contínua dos prazos expressos em dias. Se o vencimento cair em dia sem expediente, ou com encerramento antecipado, há prorrogação para o primeiro dia útil seguinte. Essa regra não converte todo o prazo em contagem apenas de dias úteis.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-094-pf-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 49"
+        },
+        {
+          "documentId": "source-094-pf-cb1-01-key",
+          "locator": "PDF p. 1, item 49"
+        },
+        {
+          "documentId": "reference-lei-9784-1999",
+          "locator": "Art. 66, §§ 1º e 2º"
+        }
+      ]
+    },
+    {
+      "id": "094-pf-cb1-01-q050-comment-v1",
+      "questionId": "094-pf-cb1-01-q050",
+      "text": "O item reproduz os elementos da definição do art. 5º, XVII, da LGPD: documentação do controlador sobre processos que podem gerar riscos às liberdades civis e aos direitos fundamentais, incluindo medidas e mecanismos para mitigá-los.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-094-pf-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 50"
+        },
+        {
+          "documentId": "source-094-pf-cb1-01-key",
+          "locator": "PDF p. 1, item 50"
+        },
+        {
+          "documentId": "reference-lei-13709-2018",
+          "locator": "Art. 5º, XVII"
+        }
+      ]
+    },
+    {
+      "id": "959-bcb-cb1-01-q036-comment-v1",
+      "questionId": "959-bcb-cb1-01-q036",
+      "text": "O erro está em atribuir inalienabilidade invariável a todos os bens. O Código Civil distingue bens de uso comum ou especial, inalienáveis enquanto mantiverem essa qualificação, e bens dominicais, que podem ser alienados conforme a lei. O regime público não gera a proibição absoluta afirmada pelo item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-959-bcb-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 36"
+        },
+        {
+          "documentId": "source-959-bcb-cb1-01-key",
+          "locator": "PDF p. 1, item 36"
+        },
+        {
+          "documentId": "reference-codigo-civil-2002",
+          "locator": "Arts. 100 e 101"
+        }
+      ]
+    },
+    {
+      "id": "959-bcb-cb1-01-q037-comment-v1",
+      "questionId": "959-bcb-cb1-01-q037",
+      "text": "O art. 147 permite afastamento cautelar por até 60 dias, prorrogável por igual prazo. Encerrado esse limite, os efeitos cessam mesmo que o processo ainda não tenha terminado. O item erra ao vincular a duração do afastamento, sem esse limite, à conclusão do PAD.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-959-bcb-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 37"
+        },
+        {
+          "documentId": "source-959-bcb-cb1-01-key",
+          "locator": "PDF p. 1, item 37"
+        },
+        {
+          "documentId": "reference-lei-8112-1990",
+          "locator": "Art. 147, caput e parágrafo único"
+        }
+      ]
+    },
+    {
+      "id": "959-bcb-cb1-01-q038-comment-v1",
+      "questionId": "959-bcb-cb1-01-q038",
+      "text": "O administrador gere interesses que pertencem à coletividade e, como regra, não pode renunciar livremente a direitos, poderes e competências públicos. A própria lei pode autorizar disposições específicas. O item deve ser lido nesse sentido de indisponibilidade, não como proibição absoluta de alienar qualquer bem público.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-959-bcb-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 38"
+        },
+        {
+          "documentId": "source-959-bcb-cb1-01-key",
+          "locator": "PDF p. 1, item 38"
+        },
+        {
+          "documentId": "reference-lei-9784-1999",
+          "locator": "Art. 2º, parágrafo único, II"
+        }
+      ]
+    },
+    {
+      "id": "094-pf-cb1-01-q035-comment-v1",
+      "questionId": "094-pf-cb1-01-q035",
+      "text": "A Constituição exige compatibilidade de horários inclusive nas hipóteses em que permite acumulação. O fato de um vínculo ser anterior a 1988 não cria, por si, autorização geral para manter uma acumulação com horários incompatíveis. O erro é essa dispensa ampla, não a existência de exceções constitucionais.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-094-pf-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 35"
+        },
+        {
+          "documentId": "source-094-pf-cb1-01-key",
+          "locator": "PDF p. 1, item 35"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, XVI, caput"
+        }
+      ]
+    },
+    {
+      "id": "094-pf-cb1-01-q036-comment-v1",
+      "questionId": "094-pf-cb1-01-q036",
+      "text": "O art. 5º, LXIV, assegura ao preso a identificação dos responsáveis por sua prisão ou interrogatório policial. A exceção genérica para operação sigilosa, acrescentada pelo item, não consta dessa garantia constitucional.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-094-pf-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 36"
+        },
+        {
+          "documentId": "source-094-pf-cb1-01-key",
+          "locator": "PDF p. 1, item 36"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 5º, LXIV"
+        }
+      ]
+    },
+    {
+      "id": "094-pf-cb1-01-q038-comment-v1",
+      "questionId": "094-pf-cb1-01-q038",
+      "text": "Na classificação doutrinária, normas de eficácia contida têm aplicação imediata, mas admitem restrições nos termos constitucionalmente autorizados. A liberdade profissional do art. 5º, XIII, é um exemplo: permite qualificações estabelecidas em lei. O item erra ao negar indistintamente a possibilidade de restrição e ao caracterizar essas normas como irrevogáveis.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-094-pf-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 38"
+        },
+        {
+          "documentId": "source-094-pf-cb1-01-key",
+          "locator": "PDF p. 1, item 38"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 5º, XIII — exemplo da classificação doutrinária"
+        }
+      ]
+    },
+    {
+      "id": "094-pf-cb1-01-q039-comment-v1",
+      "questionId": "094-pf-cb1-01-q039",
+      "text": "A autonomia federativa é a regra, e a intervenção federal é medida excepcional. O art. 34 enumera as hipóteses em que a União pode intervir nos estados e no Distrito Federal. O item preserva essa relação entre regra e exceções constitucionais.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-094-pf-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 39"
+        },
+        {
+          "documentId": "source-094-pf-cb1-01-key",
+          "locator": "PDF p. 1, item 39"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 34, caput"
+        }
+      ]
+    },
+    {
+      "id": "094-pf-cb1-01-q040-comment-v1",
+      "questionId": "094-pf-cb1-01-q040",
+      "text": "Sustar atos normativos do Executivo que exorbitem o poder regulamentar é competência exclusiva do Congresso Nacional, conforme art. 49, V. O item atribui essa atuação ao Senado isoladamente e dispensa a participação da Câmara, por isso está errado.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-094-pf-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 40"
+        },
+        {
+          "documentId": "source-094-pf-cb1-01-key",
+          "locator": "PDF p. 1, item 40"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 49, caput e V"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 49, V"
+        }
+      ]
+    },
+    {
+      "id": "094-pf-cb1-01-q041-comment-v1",
+      "questionId": "094-pf-cb1-01-q041",
+      "text": "As três atribuições citadas estão no art. 84: relações com Estados estrangeiros, celebração de tratados sujeitos a referendo do Congresso e comando supremo das Forças Armadas. O referendo parlamentar não elimina a competência presidencial para celebrar o tratado.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-094-pf-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 41"
+        },
+        {
+          "documentId": "source-094-pf-cb1-01-key",
+          "locator": "PDF p. 1, item 41"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 84, VII"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 84, VIII"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 84, XIII"
+        }
+      ]
+    },
+    {
+      "id": "106-pf-cg1-01-q064-comment-v1",
+      "questionId": "106-pf-cg1-01-q064",
+      "text": "O firewall controla tráfego e acessos entre redes; o antivírus busca detectar, remover e prevenir pragas virtuais. São mecanismos complementares. A descrição das funções não afirma que qualquer ferramenta isolada consiga impedir toda ameaça.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-106-pf-cg1-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 64"
+        },
+        {
+          "documentId": "source-106-pf-cg1-01-key",
+          "locator": "PDF p. 1, item 64"
+        },
+        {
+          "documentId": "reference-certbr-cartilha",
+          "locator": "PDF p. 71–73, seções 7.7 e 7.8"
+        }
+      ]
+    },
+    {
+      "id": "106-pf-cg1-01-q071-comment-v1",
+      "questionId": "106-pf-cg1-01-q071",
+      "text": "O item inverte as características. Dados estruturados seguem um esquema definido, como tabelas com campos e tipos; dados não estruturados não se organizam necessariamente nesse formato rígido. Um banco NoSQL não implica, por si só, ausência completa de estrutura.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-106-pf-cg1-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 71"
+        },
+        {
+          "documentId": "source-106-pf-cg1-01-key",
+          "locator": "PDF p. 1, item 71"
+        }
+      ]
+    },
+    {
+      "id": "106-pf-cg1-01-q080-comment-v1",
+      "questionId": "106-pf-cg1-01-q080",
+      "text": "No aprendizado supervisionado, exemplos rotulados associam entradas às respostas esperadas. O modelo aprende relações nesses exemplos para realizar previsões em dados novos. Isso não significa memorizar uma resposta para cada entrada futura.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-106-pf-cg1-01-paper",
+          "locator": "PDF p. 2, comando/texto e item 80"
+        },
+        {
+          "documentId": "source-106-pf-cg1-01-key",
+          "locator": "PDF p. 1, item 80"
+        },
+        {
+          "documentId": "reference-google-ml",
+          "locator": "Supervised learning"
+        }
+      ]
+    },
+    {
+      "id": "106-pf-cg1-01-q088-comment-v1",
+      "questionId": "106-pf-cg1-01-q088",
+      "text": "A análise heurística procura características suspeitas no código ou no comportamento, permitindo detectar ameaças sem depender exclusivamente de uma assinatura já conhecida. É uma técnica sujeita a erros e falsos positivos, não uma garantia de detecção universal.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-106-pf-cg1-01-paper",
+          "locator": "PDF p. 2, comando/texto e item 88"
+        },
+        {
+          "documentId": "source-106-pf-cg1-01-key",
+          "locator": "PDF p. 1, item 88"
+        },
+        {
+          "documentId": "reference-certbr-cartilha",
+          "locator": "PDF p. 71–72, seção 7.7"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q112-comment-v1",
+      "questionId": "camara-2014-area-xix-q112",
+      "text": "A autonomia inserida combina capacidade e coerência do aparato estatal com vínculos sociais que permitam obter informações e coordenar ações. Não significa infiltrar-se na sociedade sem construir relações com grupos. O item elimina precisamente a dimensão de inserção.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando/texto e item 112"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 112"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q114-comment-v1",
+      "questionId": "camara-2014-area-xix-q114",
+      "text": "Ideologias podem organizar crenças, justificar relações de poder e contribuir para a dominação política. A negação dessa contribuição não corresponde à abordagem cobrada sobre Bobbio. Reconhecer essa função não implica que toda ideologia se reduza à manipulação ou que não tenha outros usos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando/texto e item 114"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 114"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q117-comment-v1",
+      "questionId": "camara-2014-area-xix-q117",
+      "text": "A política da diferença destaca o reconhecimento de identidades e condições coletivas, questionando a figura abstrata de um cidadão neutro. O item a assimila, sem ressalvas, ao reforço do modelo liberal de liberdades individuais e grupos de interesse. O gabarito considera incorreta essa identificação das perspectivas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando/texto e item 117"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 117"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q118-comment-v1",
+      "questionId": "camara-2014-area-xix-q118",
+      "text": "O rótulo democrático é disputado por grupos que defendem projetos e interesses diferentes. Assim, a concordância em valorizar a democracia não elimina divergências sobre seu significado, suas instituições e seu alcance, tema apresentado pelo fragmento de apoio.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando/texto e item 118"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 118"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q119-comment-v1",
+      "questionId": "camara-2014-area-xix-q119",
+      "text": "A democracia deliberativa valoriza a participação dos cidadãos na formação pública de opiniões e decisões, por meio de discussão e justificação. Restringir o cidadão a formar o governo sem dele participar esvazia essa dimensão e torna o item incorreto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando/texto e item 119"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 119"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q120-comment-v1",
+      "questionId": "camara-2014-area-xix-q120",
+      "text": "Na democracia agonista associada a Chantal Mouffe, o conflito entre projetos é constitutivo da política e deve encontrar expressão democrática entre adversários. Essa abordagem critica a expectativa de um consenso racional capaz de eliminar o antagonismo, presente nas leituras deliberativas que ela contesta.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando/texto e item 120"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 120"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q121-comment-v1",
+      "questionId": "camara-2014-area-xix-q121",
+      "text": "O modelo consociacional enfatiza compartilhamento de poder e acomodação entre grupos, por mecanismos como grandes coalizões, proporcionalidade, autonomia e veto minoritário. Mecanismos de democracia direta não constituem seu traço definidor. O item confunde participação direta com arranjos de consenso entre segmentos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando/texto e item 121"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 121"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q122-comment-v1",
+      "questionId": "camara-2014-area-xix-q122",
+      "text": "Na concepção de Dahl cobrada, competição e eleições precisam estar ligadas a uma cidadania suficientemente inclusiva. Procedimentos eleitorais e condições substantivas da participação não podem ser separados como se a eleição, isoladamente, bastasse para caracterizar a democracia.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando/texto e item 122"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 122"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q127-comment-v1",
+      "questionId": "camara-2014-area-xix-q127",
+      "text": "O campo político em Bourdieu é um microcosmo com regras, posições e disputas próprias, dotado de autonomia relativa. Ele mantém relações com a sociedade mais ampla, mas não é totalmente dependente dela em cada propriedade e processo, como afirma o item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando/texto e item 127"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 127"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q129-comment-v1",
+      "questionId": "camara-2014-area-xix-q129",
+      "text": "Na formulação pluralista cobrada, grupos competem para influenciar o poder, e o Estado é concebido como árbitro relativamente autônomo e responsivo ao eleitorado. A neutralidade faz parte do modelo teórico apresentado; não é uma constatação de que todo Estado real atue sempre de forma neutra.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando/texto e item 129"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 129"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q130-comment-v1",
+      "questionId": "camara-2014-area-xix-q130",
+      "text": "O pensamento feminista renovou debates sobre poder, representação, cidadania e desigualdades, inclusive ao questionar a separação entre público e privado. O item reconhece essa contribuição à teoria política; a referência temporal pertence ao contexto da prova de 2014.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando/texto e item 130"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 130"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q133-comment-v1",
+      "questionId": "camara-2014-area-xix-q133",
+      "text": "A terceira onda de democratização, na periodização de Huntington, tem como marco inicial a transição portuguesa de 1974. A queda de regimes no Leste Europeu e as transições latino-americanas integram o processo, mas não representam o início situado pelo item na década de 1990.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 3, comando/texto e item 133"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 133"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q139-comment-v1",
+      "questionId": "camara-2014-area-xix-q139",
+      "text": "O Reino Unido é o exemplo clássico do modelo majoritário nessa comparação: concentração do poder e competição entre governo e oposição. O item o classifica como consensual, invertendo o exemplo. Trata-se do modelo teórico da prova, sem uma atualização automática de todas as instituições britânicas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 3, comando/texto e item 139"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 139"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q141-comment-v1",
+      "questionId": "camara-2014-area-xix-q141",
+      "text": "A origem e a história dos partidos ajudam a explicar seus vínculos sociais, organização e estrutura, além das condições de competição. O item reduz a importância das primeiras para privilegiar as últimas, contrariando a explicação das formas partidárias cobrada.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 3, comando/texto e item 141"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 141"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q144-comment-v1",
+      "questionId": "camara-2014-area-xix-q144",
+      "text": "Partidos de massa se relacionam à organização política de grupos que inicialmente estavam fora da representação parlamentar. A formação de estruturas de mobilização e participação eleitoral permite que esses grupos busquem eleger representantes. O item descreve esse percurso de construção de representação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 3, comando/texto e item 144"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 144"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q151-comment-v1",
+      "questionId": "camara-2014-area-xix-q151",
+      "text": "A representação proporcional pode utilizar listas abertas ou fechadas. A comparação adotada pela prova não trata a lista aberta, em que o eleitor influencia a ordem dos candidatos, como regra majoritária entre os países de voto proporcional. É preciso distinguir a fórmula de distribuição de cadeiras da forma da lista.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 4, comando/texto e item 151"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 151"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q152-comment-v1",
+      "questionId": "camara-2014-area-xix-q152",
+      "text": "No sistema majoritário de turno único, o vencedor de cada disputa recebe a cadeira mesmo sem reproduzir proporcionalmente a distribuição global dos votos. Por isso, a proporção de cadeiras de um partido pode se distanciar bastante de sua proporção de votos, crítica descrita no item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 4, comando/texto e item 152"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 152"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q153-comment-v1",
+      "questionId": "camara-2014-area-xix-q153",
+      "text": "Sistemas mistos combinam componentes majoritários e proporcionais para compor a representação na mesma eleição. O item descreve a tendência de adoção considerada na prova de 2014. Ele não afirma que todos os sistemas mistos usem a mesma fórmula ou que tenham substituído universalmente os demais.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 4, comando/texto e item 153"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 153"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q155-comment-v1",
+      "questionId": "camara-2014-area-xix-q155",
+      "text": "Na formulação original cobrada, presidencialismo de coalizão relaciona presidencialismo, multipartidarismo e federalismo. Esse arranjo leva à necessidade de articulação política para sustentar maiorias. Não significa que qualquer governo presidencial seja, automaticamente, uma coalizão estável.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 4, comando/texto e item 155"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 155"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q156-comment-v1",
+      "questionId": "camara-2014-area-xix-q156",
+      "text": "O item apresenta críticas ao funcionamento do presidencialismo de coalizão: heterogeneidade das alianças e indisciplina podem dificultar a coordenação e a governabilidade. Descrever esse argumento crítico não equivale a afirmar que toda coalizão seja instável ou que o modelo seja inviável.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 4, comando/texto e item 156"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 156"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q076-comment-v1",
+      "questionId": "camara-2014-cb2-03-q076",
+      "text": "O art. 58, § 2º, distingue convocar ministros de Estado de solicitar depoimento de qualquer autoridade ou cidadão. A comissão permanente não recebe, por essa regra, poder geral de convocação coercitiva de toda autoridade e de qualquer cidadão. O item amplia indevidamente a competência.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-paper",
+          "locator": "PDF p. 9, comando/texto e item 76"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-key",
+          "locator": "PDF p. 1, item 76"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 58, § 2º, III e V"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 58, § 2º, V"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q084-comment-v1",
+      "questionId": "camara-2014-cb2-03-q084",
+      "text": "No exercício parlamentar descrito, incide a inviolabilidade por opiniões, palavras e votos do art. 53. O item não pode presumir responsabilização por difamação apenas pelo discurso parlamentar. Essa garantia funcional não deve ser lida como autorização geral para qualquer conduta privada sem relação com o mandato.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-paper",
+          "locator": "PDF p. 9, comando/texto e item 84"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-key",
+          "locator": "PDF p. 1, item 84"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 53, caput"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q085-comment-v1",
+      "questionId": "camara-2014-cb2-03-q085",
+      "text": "O início da ação penal não depende dessa autorização prévia da Câmara. O art. 53, § 3º, prevê ciência à Casa após o recebimento da denúncia e a possibilidade de sustar o andamento da ação nas condições constitucionais. O item troca essa possibilidade posterior por uma condição prévia obrigatória.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-paper",
+          "locator": "PDF p. 9, comando/texto e item 85"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-key",
+          "locator": "PDF p. 1, item 85"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 53, § 3º"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q086-comment-v1",
+      "questionId": "camara-2014-cb2-03-q086",
+      "text": "O art. 4º, III, do Código de Ética considera incompatível com o decoro o acordo sobre posse de suplente condicionado à contraprestação financeira ou à prática de atos contrários aos deveres éticos ou regimentais. A cláusula financeira descrita no item se enquadra nessa previsão.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-paper",
+          "locator": "PDF p. 9, comando/texto e item 86"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-key",
+          "locator": "PDF p. 1, item 86"
+        },
+        {
+          "documentId": "reference-code-ethics-camara-2001",
+          "locator": "Código, art. 4º, III"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q087-comment-v1",
+      "questionId": "camara-2014-cb2-03-q087",
+      "text": "O Código de Ética prevê ofensas nas dependências da Casa e desacato a outro parlamentar, à Mesa, a comissão ou seus presidentes entre as condutas atentatórias ao decoro. A imunidade material não elimina o dever de decoro nem cria a exceção para ofender outro deputado alegada pelo item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-paper",
+          "locator": "PDF p. 9, comando/texto e item 87"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-key",
+          "locator": "PDF p. 1, item 87"
+        },
+        {
+          "documentId": "reference-code-ethics-camara-2001",
+          "locator": "Código, art. 5º, III"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q088-comment-v1",
+      "questionId": "camara-2014-cb2-03-q088",
+      "text": "Respeitar as decisões legítimas dos órgãos da Casa é dever expresso no art. 3º, IX, do Código de Ética. Discordar permite utilizar os meios regimentais de debate e revisão, mas não afasta esse dever.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-paper",
+          "locator": "PDF p. 9, comando/texto e item 88"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-key",
+          "locator": "PDF p. 1, item 88"
+        },
+        {
+          "documentId": "reference-code-ethics-camara-2001",
+          "locator": "Código, art. 3º, IX"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q096-comment-v1",
+      "questionId": "camara-2014-cb2-03-q096",
+      "text": "A Câmara disciplina seu funcionamento interno por resolução. O Código de Ética foi instituído pela Resolução nº 25/2001 e complementa o Regimento Interno. O item identifica corretamente a espécie normativa utilizada para essa disciplina interna.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-paper",
+          "locator": "PDF p. 10, comando/texto e item 96"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-key",
+          "locator": "PDF p. 1, item 96"
+        },
+        {
+          "documentId": "reference-code-ethics-camara-2001",
+          "locator": "Resolução nº 25/2001, art. 1º"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q098-comment-v1",
+      "questionId": "camara-2014-cb2-03-q098",
+      "text": "O art. 17, I, h, do Regimento atribui ao presidente a determinação do não apanhamento de discurso ou aparte pela taquigrafia. O item afirma uma vedação absoluta que contraria essa competência regimental; seu exercício continua sujeito às regras da Casa.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-paper",
+          "locator": "PDF p. 10, comando/texto e item 98"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-key",
+          "locator": "PDF p. 1, item 98"
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 17, I, h"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q108-comment-v1",
+      "questionId": "camara-2014-cb2-03-q108",
+      "text": "O art. 77 admite deputados e senadores no recinto do Plenário durante as sessões. A apreciação de perda de mandato não gera, por si só, a exclusão de senador prevista como possível dúvida pelo enunciado. Acesso ao recinto não equivale a direito de votar em uma deliberação da Câmara.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-paper",
+          "locator": "PDF p. 10, comando/texto e item 108"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-key",
+          "locator": "PDF p. 1, item 108"
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 77, caput"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q109-comment-v1",
+      "questionId": "camara-2014-cb2-03-q109",
+      "text": "O art. 9º, § 4º, permite ao corregedor participar de todas as fases do processo no Conselho, inclusive das discussões, mas expressamente sem direito a voto. O item está errado ao reunir voz e voto como se fossem a mesma prerrogativa.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-paper",
+          "locator": "PDF p. 10, comando/texto e item 109"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-key",
+          "locator": "PDF p. 1, item 109"
+        },
+        {
+          "documentId": "reference-code-ethics-camara-2001",
+          "locator": "Código, art. 9º, § 4º"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q079-comment-v1",
+      "questionId": "038-anm-010-01-q079",
+      "text": "O diagnóstico acompanha o planejamento e a execução, permitindo identificar mudanças e corrigir estratégias. Não precisa cessar quando a campanha começa. O item relaciona corretamente a avaliação contínua ao alinhamento com os objetivos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 2, comando/texto e item 79"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 79"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q083-comment-v1",
+      "questionId": "038-anm-010-01-q083",
+      "text": "Métricas indiretas, como engajamento em canais relacionados, podem ampliar a avaliação dos impactos. Elas complementam indicadores diretamente ligados aos objetivos; não dispensam interpretar contexto, qualidade e limitações, nem demonstram causalidade automaticamente.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 2, comando/texto e item 83"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 83"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q100-comment-v1",
+      "questionId": "038-anm-010-01-q100",
+      "text": "CMYK se associa à mistura subtrativa de tintas usada na impressão; RGB, à combinação aditiva de luz nas telas. O item distingue esses meios. O resultado de cor também depende de suporte, perfil e calibração: a distinção não garante reprodução perfeita em qualquer equipamento.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 2, comando/texto e item 100"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 100"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q101-comment-v1",
+      "questionId": "038-anm-010-01-q101",
+      "text": "Infográficos articulam linguagem verbal e recursos visuais para organizar e esclarecer informações complexas. Equilíbrio visual e clareza ajudam a compreensão; a simplificação deve preservar os dados e suas relações, sem distorcê-los.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 2, comando/texto e item 101"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 101"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q102-comment-v1",
+      "questionId": "038-anm-010-01-q102",
+      "text": "Aumentar a resolução por interpolação pode criar mais pixels sem recuperar os detalhes que não existiam no original. A qualidade depende da fonte, do tratamento e do uso final. Por isso, sempre e independentemente do meio tornam a afirmação incorreta.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 2, comando/texto e item 102"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 102"
         }
       ]
     }
@@ -14687,6 +18458,419 @@
       "syllabusItemId": "camara-2026-comunicacao-social-9-2",
       "justification": "Responsabilidade editorial e verificação no uso de IA generativa.",
       "status": "confirmed"
+    },
+    {
+      "id": "959-bcb-cb1-01-q001-mapping-1",
+      "questionId": "959-bcb-cb1-01-q001",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-1",
+      "justification": "Compreensão textual e relação lógico-discursiva no texto-base integral.",
+      "status": "confirmed"
+    },
+    {
+      "id": "959-bcb-cb1-01-q002-mapping-1",
+      "questionId": "959-bcb-cb1-01-q002",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-1",
+      "justification": "Compreensão textual e relação lógico-discursiva no texto-base integral.",
+      "status": "confirmed"
+    },
+    {
+      "id": "959-bcb-cb1-01-q003-mapping-1",
+      "questionId": "959-bcb-cb1-01-q003",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-1",
+      "justification": "Compreensão textual e relação lógico-discursiva no texto-base integral.",
+      "status": "confirmed"
+    },
+    {
+      "id": "959-bcb-cb1-01-q004-mapping-1",
+      "questionId": "959-bcb-cb1-01-q004",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-1",
+      "justification": "Compreensão textual e relação lógico-discursiva no texto-base integral.",
+      "status": "confirmed"
+    },
+    {
+      "id": "959-bcb-cb1-01-q005-mapping-1",
+      "questionId": "959-bcb-cb1-01-q005",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-1",
+      "justification": "Compreensão textual e relação lógico-discursiva no texto-base integral.",
+      "status": "confirmed"
+    },
+    {
+      "id": "959-bcb-cb1-01-q006-mapping-1",
+      "questionId": "959-bcb-cb1-01-q006",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-4-1",
+      "justification": "Compreensão textual e relação lógico-discursiva no texto-base integral.",
+      "status": "confirmed"
+    },
+    {
+      "id": "094-pf-cb1-01-q043-mapping-1",
+      "questionId": "094-pf-cb1-01-q043",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-3-4",
+      "justification": "Redistribuição de cargos efetivos de ofício.",
+      "status": "confirmed"
+    },
+    {
+      "id": "094-pf-cb1-01-q047-mapping-1",
+      "questionId": "094-pf-cb1-01-q047",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-1-1",
+      "justification": "Princípios expressos e implícitos da Administração.",
+      "status": "confirmed"
+    },
+    {
+      "id": "094-pf-cb1-01-q048-mapping-1",
+      "questionId": "094-pf-cb1-01-q048",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-11",
+      "justification": "Exceção legal de acesso a projetos de pesquisa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "094-pf-cb1-01-q049-mapping-1",
+      "questionId": "094-pf-cb1-01-q049",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-4-4",
+      "justification": "Contagem contínua dos prazos administrativos federais.",
+      "status": "confirmed"
+    },
+    {
+      "id": "094-pf-cb1-01-q050-mapping-1",
+      "questionId": "094-pf-cb1-01-q050",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-12",
+      "justification": "Conceito de relatório de impacto à proteção de dados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "959-bcb-cb1-01-q036-mapping-1",
+      "questionId": "959-bcb-cb1-01-q036",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-1-2",
+      "justification": "Bens de autarquias e limites à inalienabilidade.",
+      "status": "confirmed"
+    },
+    {
+      "id": "959-bcb-cb1-01-q037-mapping-1",
+      "questionId": "959-bcb-cb1-01-q037",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-4-3",
+      "justification": "Limite do afastamento cautelar em processo disciplinar.",
+      "status": "confirmed"
+    },
+    {
+      "id": "959-bcb-cb1-01-q038-mapping-1",
+      "questionId": "959-bcb-cb1-01-q038",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-1-1",
+      "justification": "Indisponibilidade do interesse público.",
+      "status": "confirmed"
+    },
+    {
+      "id": "094-pf-cb1-01-q035-mapping-1",
+      "questionId": "094-pf-cb1-01-q035",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-2",
+      "justification": "Direitos fundamentais, organização do Estado ou atribuições constitucionais previstas no tópico de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "094-pf-cb1-01-q036-mapping-1",
+      "questionId": "094-pf-cb1-01-q036",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-2",
+      "justification": "Direitos fundamentais, organização do Estado ou atribuições constitucionais previstas no tópico de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "094-pf-cb1-01-q038-mapping-1",
+      "questionId": "094-pf-cb1-01-q038",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-1",
+      "justification": "Direitos fundamentais, organização do Estado ou atribuições constitucionais previstas no tópico de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "094-pf-cb1-01-q039-mapping-1",
+      "questionId": "094-pf-cb1-01-q039",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-3",
+      "justification": "Direitos fundamentais, organização do Estado ou atribuições constitucionais previstas no tópico de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "094-pf-cb1-01-q040-mapping-1",
+      "questionId": "094-pf-cb1-01-q040",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-4",
+      "justification": "Direitos fundamentais, organização do Estado ou atribuições constitucionais previstas no tópico de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "094-pf-cb1-01-q041-mapping-1",
+      "questionId": "094-pf-cb1-01-q041",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-4",
+      "justification": "Direitos fundamentais, organização do Estado ou atribuições constitucionais previstas no tópico de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "106-pf-cg1-01-q064-mapping-1",
+      "questionId": "106-pf-cg1-01-q064",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-4-2",
+      "justification": "Conceito de dados, aprendizado de máquina ou mecanismo de proteção previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "106-pf-cg1-01-q071-mapping-1",
+      "questionId": "106-pf-cg1-01-q071",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-7-1",
+      "justification": "Conceito de dados, aprendizado de máquina ou mecanismo de proteção previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "106-pf-cg1-01-q080-mapping-1",
+      "questionId": "106-pf-cg1-01-q080",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-5-2",
+      "justification": "Conceito de dados, aprendizado de máquina ou mecanismo de proteção previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "106-pf-cg1-01-q088-mapping-1",
+      "questionId": "106-pf-cg1-01-q088",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-4-2",
+      "justification": "Conceito de dados, aprendizado de máquina ou mecanismo de proteção previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q112-mapping-1",
+      "questionId": "camara-2014-area-xix-q112",
+      "syllabusItemId": "camara-2026-ciencia-politica-11",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q114-mapping-1",
+      "questionId": "camara-2014-area-xix-q114",
+      "syllabusItemId": "camara-2026-ciencia-politica-2",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q117-mapping-1",
+      "questionId": "camara-2014-area-xix-q117",
+      "syllabusItemId": "camara-2026-ciencia-politica-2",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q118-mapping-1",
+      "questionId": "camara-2014-area-xix-q118",
+      "syllabusItemId": "camara-2026-ciencia-politica-3",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q119-mapping-1",
+      "questionId": "camara-2014-area-xix-q119",
+      "syllabusItemId": "camara-2026-ciencia-politica-2",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q120-mapping-1",
+      "questionId": "camara-2014-area-xix-q120",
+      "syllabusItemId": "camara-2026-ciencia-politica-2",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q121-mapping-1",
+      "questionId": "camara-2014-area-xix-q121",
+      "syllabusItemId": "camara-2026-ciencia-politica-3",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q122-mapping-1",
+      "questionId": "camara-2014-area-xix-q122",
+      "syllabusItemId": "camara-2026-ciencia-politica-3",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q127-mapping-1",
+      "questionId": "camara-2014-area-xix-q127",
+      "syllabusItemId": "camara-2026-ciencia-politica-2",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q129-mapping-1",
+      "questionId": "camara-2014-area-xix-q129",
+      "syllabusItemId": "camara-2026-ciencia-politica-2",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q130-mapping-1",
+      "questionId": "camara-2014-area-xix-q130",
+      "syllabusItemId": "camara-2026-ciencia-politica-2",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q133-mapping-1",
+      "questionId": "camara-2014-area-xix-q133",
+      "syllabusItemId": "camara-2026-ciencia-politica-3",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q139-mapping-1",
+      "questionId": "camara-2014-area-xix-q139",
+      "syllabusItemId": "camara-2026-ciencia-politica-3",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q141-mapping-1",
+      "questionId": "camara-2014-area-xix-q141",
+      "syllabusItemId": "camara-2026-ciencia-politica-8",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q144-mapping-1",
+      "questionId": "camara-2014-area-xix-q144",
+      "syllabusItemId": "camara-2026-ciencia-politica-8",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q151-mapping-1",
+      "questionId": "camara-2014-area-xix-q151",
+      "syllabusItemId": "camara-2026-ciencia-politica-7",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q152-mapping-1",
+      "questionId": "camara-2014-area-xix-q152",
+      "syllabusItemId": "camara-2026-ciencia-politica-7",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q153-mapping-1",
+      "questionId": "camara-2014-area-xix-q153",
+      "syllabusItemId": "camara-2026-ciencia-politica-7",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q155-mapping-1",
+      "questionId": "camara-2014-area-xix-q155",
+      "syllabusItemId": "camara-2026-ciencia-politica-9",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q156-mapping-1",
+      "questionId": "camara-2014-area-xix-q156",
+      "syllabusItemId": "camara-2026-ciencia-politica-9",
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q076-mapping-1",
+      "questionId": "camara-2014-cb2-03-q076",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-1-3",
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q084-mapping-1",
+      "questionId": "camara-2014-cb2-03-q084",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-5-1",
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q085-mapping-1",
+      "questionId": "camara-2014-cb2-03-q085",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-5-1",
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q086-mapping-1",
+      "questionId": "camara-2014-cb2-03-q086",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-7",
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q087-mapping-1",
+      "questionId": "camara-2014-cb2-03-q087",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-7",
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q088-mapping-1",
+      "questionId": "camara-2014-cb2-03-q088",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-7",
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q096-mapping-1",
+      "questionId": "camara-2014-cb2-03-q096",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-7",
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q098-mapping-1",
+      "questionId": "camara-2014-cb2-03-q098",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-5-1",
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q108-mapping-1",
+      "questionId": "camara-2014-cb2-03-q108",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-5-1",
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q109-mapping-1",
+      "questionId": "camara-2014-cb2-03-q109",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-7",
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q079-mapping-1",
+      "questionId": "038-anm-010-01-q079",
+      "syllabusItemId": "camara-2026-comunicacao-social-4-3",
+      "justification": "Planejamento, indicadores de comunicação ou fundamentos da produção gráfica previstos no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q083-mapping-1",
+      "questionId": "038-anm-010-01-q083",
+      "syllabusItemId": "camara-2026-comunicacao-social-4-7",
+      "justification": "Planejamento, indicadores de comunicação ou fundamentos da produção gráfica previstos no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q100-mapping-1",
+      "questionId": "038-anm-010-01-q100",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-5-2",
+      "justification": "Planejamento, indicadores de comunicação ou fundamentos da produção gráfica previstos no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q101-mapping-1",
+      "questionId": "038-anm-010-01-q101",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-5-5",
+      "justification": "Planejamento, indicadores de comunicação ou fundamentos da produção gráfica previstos no edital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q102-mapping-1",
+      "questionId": "038-anm-010-01-q102",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-5-1",
+      "justification": "Planejamento, indicadores de comunicação ou fundamentos da produção gráfica previstos no edital.",
+      "status": "confirmed"
     }
   ],
   "scoringRules": [
@@ -15381,10 +19565,10 @@
     },
     {
       "id": "camara-2014-modelos-comando",
-      "revision": 1,
+      "revision": 2,
       "kind": "instruction",
       "label": "Comando compartilhado",
-      "text": "majoritária, cujo maior objetivo é a obtenção de maiorias definidas, e a democracia consensual, cujo objetivo é a maior ampliação possível da maioria —, julgue os itens a seguir.",
+      "text": "Considerando dois grandes modelos de democracia — a democracia majoritária, cujo maior objetivo é a obtenção de maiorias definidas, e a democracia consensual, cujo objetivo é a maior ampliação possível da maioria —, julgue os itens a seguir.",
       "sourceDocumentId": "source-camara-2014-consultor-area-xix-paper",
       "sourcePage": 3
     },
@@ -15555,6 +19739,233 @@
       "text": "Julgue os seguintes itens, que versam sobre o campo teórico da comunicação, a produção de conteúdo com inteligência artificial generativa (IAG) e navegação web.",
       "sourceDocumentId": "source-038-anm-013-01-paper",
       "sourcePage": 1
+    },
+    {
+      "id": "bcb-2024-platforms-passage",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Texto CB1A1-I",
+      "text": "A emergência de uma grande variedade de plataformas digitais, desde o final da década de 1990, provocou uma mudança econômica radical e uma reorganização de mercados e arranjos de trabalho. A economia de plataforma não está apenas mudando a forma como o trabalho é realizado e remunerado. Os mercados de trabalho também estão se transformando drasticamente, levando a uma situação em que o “emprego padrão” é cada vez mais suplementado ou substituído por trabalho temporário “fora do padrão”, mediado por plataformas. Em um contexto de crescente instabilidade macroeconômica, de desregulamentação das relações de trabalho — em função do impacto disruptivo de tecnologias digitais na intermediação dessas relações —, verifica-se a emergência de novas formas de emprego “fora do padrão”, que reforçam diversos tipos de “flexibilidade” — temporal, espacial, gerencial e funcional, entre outras. Grande parte dessas novas formas de emprego está vinculada à mediação de plataformas digitais, que conectam ofertantes e demandantes de trabalho.\n\nAs plataformas digitais facilitam a articulação entre ofertantes e demandantes de trabalho que, de outra forma, poderiam ter dificuldades para interagir entre si, tornando a realização de transações mais eficiente do que seria possível em relacionamentos bilaterais entre as partes, fornecendo infraestrutura e regras para sua realização. No âmbito dessas plataformas, a correspondência (matching) entre ofertantes e demandantes de trabalho pode ser feita de forma eficaz, por exemplo, por meio de algoritmos que diminuem a quantidade de tempo utilizado para encontrar trabalhadores adequados para tarefas específicas, além de oferecer a base para o controle e gerenciamento dessas tarefas.\n\nNo entanto, a força de trabalho torna-se mais vulnerável, pois as leis trabalhistas ainda se baseiam em um antigo sistema “binário”, segundo o qual quem é empregado recebe direitos — por exemplo, aviso de demissão ou férias pagas —, mas para quem é contratado o acesso a esses direitos tende a ser restringido. Assim, se o modelo de plataformas de trabalho com a interveniência de uma gestão algorítmica oferece vantagens no que se refere à flexibilidade sobre formas convencionais de organização e gestão do trabalho, esse mesmo modelo suscita questões relevantes como a distribuição desigual de oportunidades, benefícios e riscos entre os agentes envolvidos, bem como os possíveis custos sociais advindos de uma eventual precarização das relações de trabalho.",
+      "sourceDocumentId": "source-959-bcb-cb1-01-paper",
+      "sourcePage": 1,
+      "sourceCredit": "Herbert P. S. de Oliveira e Jorge N. de P. Britto. Gerenciamento e disciplina algorítmica: uma análise focalizada em plataformas de emprego de elevada qualificação. Economia e Sociedade, Campinas, v. 32, n.º 3 (79), 2023 (com adaptações)."
+    },
+    {
+      "id": "bcb-2024-reading-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Acerca dos sentidos veiculados no texto CB1A1-I, julgue os itens a seguir.",
+      "sourceDocumentId": "source-959-bcb-cb1-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "bcb-2024-grammar-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os próximos itens, relativos a aspectos linguísticos do texto CB1A1-I.",
+      "sourceDocumentId": "source-959-bcb-cb1-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "bcb-2024-admin-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Considerando os princípios básicos da administração pública, das autarquias e do regime disciplinar aplicável aos servidores públicos civis federais (Lei n.º 8.112/1990), julgue os itens que se seguem.",
+      "sourceDocumentId": "source-959-bcb-cb1-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "pf-admin-2025-constitution-left-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens seguintes com base na Constituição Federal de 1988 (CF) e na jurisprudência dos tribunais superiores.",
+      "sourceDocumentId": "source-094-pf-cb1-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "pf-admin-2025-constitution-right-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Com base nas disposições da CF e no entendimento do STF, julgue os itens que se seguem.",
+      "sourceDocumentId": "source-094-pf-cb1-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "pf-admin-2025-agents-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Acerca de organização administrativa e agentes públicos, julgue os itens a seguir.",
+      "sourceDocumentId": "source-094-pf-cb1-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "pf-admin-2025-powers-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os seguintes itens, relativos a poderes administrativos, regime jurídico-administrativo e controle da administração pública.",
+      "sourceDocumentId": "source-094-pf-cb1-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "pf-admin-2025-access-process-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Em relação a acesso à informação, proteção de dados e processo administrativo federal, julgue os itens que se seguem.",
+      "sourceDocumentId": "source-094-pf-cb1-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "pf-policial-2025-net-security-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens a seguir, em relação a redes de computadores e conceitos de proteção e segurança.",
+      "sourceDocumentId": "source-106-pf-cg1-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "pf-policial-2025-information-data-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens subsequentes, relativos à teoria da informação e a banco de dados.",
+      "sourceDocumentId": "source-106-pf-cg1-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "pf-policial-2025-ml-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Acerca de machine learning, do sistema operacional Linux, do protocolo DNS e dos modelos de serviço em nuvem, julgue os itens subsequentes.",
+      "sourceDocumentId": "source-106-pf-cg1-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "pf-policial-2025-threat-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Em relação a ameaças digitais e técnicas de segurança, julgue os itens a seguir.",
+      "sourceDocumentId": "source-106-pf-cg1-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "camara-2014-commissions-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "A respeito dos poderes das comissões do Congresso Nacional, julgue os itens subsequentes.",
+      "sourceDocumentId": "source-camara-2014-consultor-cb2-03-paper",
+      "sourcePage": 9
+    },
+    {
+      "id": "camara-2014-parliamentary-status-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Com base no estatuto jurídico dos congressistas e nas normas constitucionais e regimentais pertinentes a esse tema, julgue os itens a seguir. Nesse sentido, considere que a sigla STF, sempre que empregada refere-se ao Supremo Tribunal Federal.",
+      "sourceDocumentId": "source-camara-2014-consultor-cb2-03-paper",
+      "sourcePage": 9
+    },
+    {
+      "id": "camara-2014-decorum-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "De acordo com as normas relacionadas ao decoro parlamentar exigido dos deputados federais, julgue os itens seguintes.",
+      "sourceDocumentId": "source-camara-2014-consultor-cb2-03-paper",
+      "sourcePage": 9
+    },
+    {
+      "id": "camara-2014-ethics-cf-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Considerando o disposto na CF e no Código de Ética acerca de ética parlamentar e considerando sua interpretação jurisprudencial, julgue os itens subsequentes. 94",
+      "sourceDocumentId": "source-camara-2014-consultor-cb2-03-paper",
+      "sourcePage": 10
+    },
+    {
+      "id": "camara-2014-ethics-provisions-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "A respeito das disposições constitucionais e regimentais pertinentes à ética e ao decoro parlamentar, no âmbito da Câmara dos Deputados, julgue os itens a seguir.",
+      "sourceDocumentId": "source-camara-2014-consultor-cb2-03-paper",
+      "sourcePage": 10
+    },
+    {
+      "id": "camara-2014-democracy-passage",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Texto de apoio — teoria democrática",
+      "text": "David Beetham afirma que o conceito de democracia é incontestável: é uma forma de tomada de decisões públicas que concede ao povo o controle social. Resta, prossegue ele, a indefinição quanto às teorias da democracia, que discutem “quanto de democracia é desejável ou praticável, e como ela pode ser realizada em uma forma institucional sustentável”.",
+      "sourceDocumentId": "source-camara-2014-consultor-area-xix-paper",
+      "sourcePage": 2,
+      "sourceCredit": "Luis Felipe Miguel. Teoria democrática atual: esboço de mapeamento. BIB: Revista Brasileira de Informação Bibliográfica em Ciências Sociais. São Paulo, n.º 59, 1.º sem. 2005, p. 5 (com adaptações)."
+    },
+    {
+      "id": "camara-2014-democracy-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Tendo o fragmento de texto acima como referência, julgue os itens de 117 a 122, acerca da teoria democrática.",
+      "sourceDocumentId": "source-camara-2014-consultor-area-xix-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "camara-2014-electoral-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Acerca dos sistemas eleitorais, julgue os itens seguintes.",
+      "sourceDocumentId": "source-camara-2014-consultor-area-xix-paper",
+      "sourcePage": 4
+    },
+    {
+      "id": "camara-2014-brazil-system-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Em relação ao sistema político brasileiro, julgue os itens subsequentes.",
+      "sourceDocumentId": "source-camara-2014-consultor-area-xix-paper",
+      "sourcePage": 4
+    },
+    {
+      "id": "anm-010-diagnosis-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que diz respeito ao planejamento e ao diagnóstico em relações públicas e à seleção de público-alvo, julgue os itens a seguir.",
+      "sourceDocumentId": "source-038-anm-010-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "anm-010-metrics-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Em relação à gestão estratégica da comunicação organizacional, julgue os itens subsequentes.",
+      "sourceDocumentId": "source-038-anm-010-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "anm-010-graphic-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que diz respeito ao tratamento de imagem, ao infográfico, ao projeto gráfico impresso e digital, aos formatos de arquivos, às cores, à fotografia, à ilustração e à tipologia na produção editorial, julgue os itens a seguir.",
+      "sourceDocumentId": "source-038-anm-010-01-paper",
+      "sourcePage": 2
     }
   ]
 }

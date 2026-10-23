@@ -1,0 +1,1640 @@
+{
+  "id": "tenth-batch",
+  "reviewedAt": "2026-10-23",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/tenth-batch-release.md",
+  "items": [
+    {
+      "questionId": "959-bcb-cb1-01-q001",
+      "paperId": "source-959-bcb-cb1-01",
+      "number": 1,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        244.4487,
+        279.8487
+      ],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-reading-command"
+      ],
+      "answerKeyId": "959-bcb-cb1-01-q001-key-v1",
+      "answerDocumentId": "source-959-bcb-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-1"
+      ],
+      "justification": "Compreensão textual e relação lógico-discursiva no texto-base integral."
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q002",
+      "paperId": "source-959-bcb-cb1-01",
+      "number": 2,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        279.8487,
+        315.3687
+      ],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-reading-command"
+      ],
+      "answerKeyId": "959-bcb-cb1-01-q002-key-v1",
+      "answerDocumentId": "source-959-bcb-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-1"
+      ],
+      "justification": "Compreensão textual e relação lógico-discursiva no texto-base integral."
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q003",
+      "paperId": "source-959-bcb-cb1-01",
+      "number": 3,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        315.3687,
+        350.7687
+      ],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-reading-command"
+      ],
+      "answerKeyId": "959-bcb-cb1-01-q003-key-v1",
+      "answerDocumentId": "source-959-bcb-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-1"
+      ],
+      "justification": "Compreensão textual e relação lógico-discursiva no texto-base integral."
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q004",
+      "paperId": "source-959-bcb-cb1-01",
+      "number": 4,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        350.7687,
+        397.4487
+      ],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-reading-command"
+      ],
+      "answerKeyId": "959-bcb-cb1-01-q004-key-v1",
+      "answerDocumentId": "source-959-bcb-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-1"
+      ],
+      "justification": "Compreensão textual e relação lógico-discursiva no texto-base integral."
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q005",
+      "paperId": "source-959-bcb-cb1-01",
+      "number": 5,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        397.4487,
+        437.57688
+      ],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-reading-command"
+      ],
+      "answerKeyId": "959-bcb-cb1-01-q005-key-v1",
+      "answerDocumentId": "source-959-bcb-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-1"
+      ],
+      "justification": "Compreensão textual e relação lógico-discursiva no texto-base integral."
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q006",
+      "paperId": "source-959-bcb-cb1-01",
+      "number": 6,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        463.8087,
+        510.4887
+      ],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-grammar-command"
+      ],
+      "answerKeyId": "959-bcb-cb1-01-q006-key-v1",
+      "answerDocumentId": "source-959-bcb-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-4-1"
+      ],
+      "justification": "Compreensão textual e relação lógico-discursiva no texto-base integral."
+    },
+    {
+      "questionId": "094-pf-cb1-01-q043",
+      "paperId": "source-094-pf-cb1-01",
+      "number": 43,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        227.4567,
+        260.4567
+      ],
+      "contextIds": [
+        "pf-admin-2025-agents-command"
+      ],
+      "answerKeyId": "094-pf-cb1-01-q043-key-v1",
+      "answerDocumentId": "source-094-pf-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-3-4"
+      ],
+      "justification": "Redistribuição de cargos efetivos de ofício."
+    },
+    {
+      "questionId": "094-pf-cb1-01-q047",
+      "paperId": "source-094-pf-cb1-01",
+      "number": 47,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        385.8567,
+        422.456712
+      ],
+      "contextIds": [
+        "pf-admin-2025-powers-command"
+      ],
+      "answerKeyId": "094-pf-cb1-01-q047-key-v1",
+      "answerDocumentId": "source-094-pf-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-1-1"
+      ],
+      "justification": "Princípios expressos e implícitos da Administração."
+    },
+    {
+      "questionId": "094-pf-cb1-01-q048",
+      "paperId": "source-094-pf-cb1-01",
+      "number": 48,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        445.1367,
+        488.4567
+      ],
+      "contextIds": [
+        "pf-admin-2025-access-process-command"
+      ],
+      "answerKeyId": "094-pf-cb1-01-q048-key-v1",
+      "answerDocumentId": "source-094-pf-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-11"
+      ],
+      "justification": "Exceção legal de acesso a projetos de pesquisa."
+    },
+    {
+      "questionId": "094-pf-cb1-01-q049",
+      "paperId": "source-094-pf-cb1-01",
+      "number": 49,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        488.4567,
+        531.8967
+      ],
+      "contextIds": [
+        "pf-admin-2025-access-process-command"
+      ],
+      "answerKeyId": "094-pf-cb1-01-q049-key-v1",
+      "answerDocumentId": "source-094-pf-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-4-4"
+      ],
+      "justification": "Contagem contínua dos prazos administrativos federais."
+    },
+    {
+      "questionId": "094-pf-cb1-01-q050",
+      "paperId": "source-094-pf-cb1-01",
+      "number": 50,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        531.8967,
+        596.695464
+      ],
+      "contextIds": [
+        "pf-admin-2025-access-process-command"
+      ],
+      "answerKeyId": "094-pf-cb1-01-q050-key-v1",
+      "answerDocumentId": "source-094-pf-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-12"
+      ],
+      "justification": "Conceito de relatório de impacto à proteção de dados."
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q036",
+      "paperId": "source-959-bcb-cb1-01",
+      "number": 36,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        332.5767,
+        358.2567
+      ],
+      "contextIds": [
+        "bcb-2024-admin-command"
+      ],
+      "answerKeyId": "959-bcb-cb1-01-q036-key-v1",
+      "answerDocumentId": "source-959-bcb-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-1-2"
+      ],
+      "justification": "Bens de autarquias e limites à inalienabilidade."
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q037",
+      "paperId": "source-959-bcb-cb1-01",
+      "number": 37,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        358.2567,
+        407.6967
+      ],
+      "contextIds": [
+        "bcb-2024-admin-command"
+      ],
+      "answerKeyId": "959-bcb-cb1-01-q037-key-v1",
+      "answerDocumentId": "source-959-bcb-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-4-3"
+      ],
+      "justification": "Limite do afastamento cautelar em processo disciplinar."
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q038",
+      "paperId": "source-959-bcb-cb1-01",
+      "number": 38,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        407.6967,
+        450.897204
+      ],
+      "contextIds": [
+        "bcb-2024-admin-command"
+      ],
+      "answerKeyId": "959-bcb-cb1-01-q038-key-v1",
+      "answerDocumentId": "source-959-bcb-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-1-1"
+      ],
+      "justification": "Indisponibilidade do interesse público."
+    },
+    {
+      "questionId": "094-pf-cb1-01-q035",
+      "paperId": "source-094-pf-cb1-01",
+      "number": 35,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        583.4967,
+        631.4967
+      ],
+      "contextIds": [
+        "pf-admin-2025-constitution-left-command"
+      ],
+      "answerKeyId": "094-pf-cb1-01-q035-key-v1",
+      "answerDocumentId": "source-094-pf-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-2"
+      ],
+      "justification": "Direitos fundamentais, organização do Estado ou atribuições constitucionais previstas no tópico de destino."
+    },
+    {
+      "questionId": "094-pf-cb1-01-q036",
+      "paperId": "source-094-pf-cb1-01",
+      "number": 36,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        631.4967,
+        667.9767
+      ],
+      "contextIds": [
+        "pf-admin-2025-constitution-left-command"
+      ],
+      "answerKeyId": "094-pf-cb1-01-q036-key-v1",
+      "answerDocumentId": "source-094-pf-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-2"
+      ],
+      "justification": "Direitos fundamentais, organização do Estado ou atribuições constitucionais previstas no tópico de destino."
+    },
+    {
+      "questionId": "094-pf-cb1-01-q038",
+      "paperId": "source-094-pf-cb1-01",
+      "number": 38,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        715.9767,
+        752.4567
+      ],
+      "contextIds": [
+        "pf-admin-2025-constitution-left-command"
+      ],
+      "answerKeyId": "094-pf-cb1-01-q038-key-v1",
+      "answerDocumentId": "source-094-pf-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-1"
+      ],
+      "justification": "Direitos fundamentais, organização do Estado ou atribuições constitucionais previstas no tópico de destino."
+    },
+    {
+      "questionId": "094-pf-cb1-01-q039",
+      "paperId": "source-094-pf-cb1-01",
+      "number": 39,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        752.4567,
+        795
+      ],
+      "contextIds": [
+        "pf-admin-2025-constitution-left-command"
+      ],
+      "answerKeyId": "094-pf-cb1-01-q039-key-v1",
+      "answerDocumentId": "source-094-pf-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-3"
+      ],
+      "justification": "Direitos fundamentais, organização do Estado ou atribuições constitucionais previstas no tópico de destino."
+    },
+    {
+      "questionId": "094-pf-cb1-01-q040",
+      "paperId": "source-094-pf-cb1-01",
+      "number": 40,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        71.0967,
+        114.4167
+      ],
+      "contextIds": [
+        "pf-admin-2025-constitution-right-command"
+      ],
+      "answerKeyId": "094-pf-cb1-01-q040-key-v1",
+      "answerDocumentId": "source-094-pf-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-4"
+      ],
+      "justification": "Direitos fundamentais, organização do Estado ou atribuições constitucionais previstas no tópico de destino."
+    },
+    {
+      "questionId": "094-pf-cb1-01-q041",
+      "paperId": "source-094-pf-cb1-01",
+      "number": 41,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        114.4167,
+        157.8567
+      ],
+      "contextIds": [
+        "pf-admin-2025-constitution-right-command"
+      ],
+      "answerKeyId": "094-pf-cb1-01-q041-key-v1",
+      "answerDocumentId": "source-094-pf-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-4"
+      ],
+      "justification": "Direitos fundamentais, organização do Estado ou atribuições constitucionais previstas no tópico de destino."
+    },
+    {
+      "questionId": "106-pf-cg1-01-q064",
+      "paperId": "source-106-pf-cg1-01",
+      "number": 64,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        379.0887,
+        445.0167
+      ],
+      "contextIds": [
+        "pf-policial-2025-net-security-command"
+      ],
+      "answerKeyId": "106-pf-cg1-01-q064-key-v1",
+      "answerDocumentId": "source-106-pf-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-4-2"
+      ],
+      "justification": "Conceito de dados, aprendizado de máquina ou mecanismo de proteção previsto no edital."
+    },
+    {
+      "questionId": "106-pf-cg1-01-q071",
+      "paperId": "source-106-pf-cg1-01",
+      "number": 71,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        300.9687,
+        368.6487
+      ],
+      "contextIds": [
+        "pf-policial-2025-information-data-command"
+      ],
+      "answerKeyId": "106-pf-cg1-01-q071-key-v1",
+      "answerDocumentId": "source-106-pf-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-7-1"
+      ],
+      "justification": "Conceito de dados, aprendizado de máquina ou mecanismo de proteção previsto no edital."
+    },
+    {
+      "questionId": "106-pf-cg1-01-q080",
+      "paperId": "source-106-pf-cg1-01",
+      "number": 80,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        147.3687,
+        188.8887
+      ],
+      "contextIds": [
+        "pf-policial-2025-ml-command"
+      ],
+      "answerKeyId": "106-pf-cg1-01-q080-key-v1",
+      "answerDocumentId": "source-106-pf-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-5-2"
+      ],
+      "justification": "Conceito de dados, aprendizado de máquina ou mecanismo de proteção previsto no edital."
+    },
+    {
+      "questionId": "106-pf-cg1-01-q088",
+      "paperId": "source-106-pf-cg1-01",
+      "number": 88,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        612.3687,
+        675.656868
+      ],
+      "contextIds": [
+        "pf-policial-2025-threat-command"
+      ],
+      "answerKeyId": "106-pf-cg1-01-q088-key-v1",
+      "answerDocumentId": "source-106-pf-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-4-2"
+      ],
+      "justification": "Conceito de dados, aprendizado de máquina ou mecanismo de proteção previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q112",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 112,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        189.3187,
+        254.17860000000002
+      ],
+      "contextIds": [
+        "camara-2014-estado-comando"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q112-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-11"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q114",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 114,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        294.5586,
+        334.9387
+      ],
+      "contextIds": [
+        "camara-2014-estado-comando"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q114-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-2"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q117",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 117,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        586.2786,
+        651.1387
+      ],
+      "contextIds": [
+        "camara-2014-democracy-passage",
+        "camara-2014-democracy-command"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q117-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-2"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q118",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 118,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        651.1387,
+        703.7587
+      ],
+      "contextIds": [
+        "camara-2014-democracy-passage",
+        "camara-2014-democracy-command"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q118-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-3"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q119",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 119,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        703.7587,
+        756.3787
+      ],
+      "contextIds": [
+        "camara-2014-democracy-passage",
+        "camara-2014-democracy-command"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q119-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-2"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q120",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 120,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        756.3787,
+        795
+      ],
+      "contextIds": [
+        "camara-2014-democracy-passage",
+        "camara-2014-democracy-command"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q120-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-2"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q121",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 121,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        117.1387,
+        157.8787
+      ],
+      "contextIds": [
+        "camara-2014-democracy-passage",
+        "camara-2014-democracy-command"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q121-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-3"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q122",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 122,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        157.8787,
+        214
+      ],
+      "contextIds": [
+        "camara-2014-democracy-passage",
+        "camara-2014-democracy-command"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q122-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-3"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q127",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 127,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        621.2587,
+        674.3587
+      ],
+      "contextIds": [
+        "camara-2014-teoria-politica-comando"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q127-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-2"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q129",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 129,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        727.4587,
+        768.1987
+      ],
+      "contextIds": [
+        "camara-2014-teoria-politica-comando"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q129-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-2"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q130",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 130,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        768.1987,
+        795
+      ],
+      "contextIds": [
+        "camara-2014-teoria-politica-comando"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q130-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-2"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q133",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 133,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        259.9987,
+        343.5787
+      ],
+      "contextIds": [
+        "camara-2014-regimes-comando"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q133-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-3"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q139",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 139,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        697.2786,
+        741.9787
+      ],
+      "contextIds": [
+        "camara-2014-modelos-comando"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q139-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-3"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q141",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 141,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        92.7787,
+        149.3587
+      ],
+      "contextIds": [
+        "camara-2014-partidos-comando"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q141-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-8"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q144",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 144,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        245.3587,
+        319.0987
+      ],
+      "contextIds": [
+        "camara-2014-partidos-comando"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q144-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-8"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q151",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 151,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        116.0587,
+        175.6387
+      ],
+      "contextIds": [
+        "camara-2014-electoral-command"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q151-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-7"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q152",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 152,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        175.6387,
+        235.2187
+      ],
+      "contextIds": [
+        "camara-2014-electoral-command"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q152-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-7"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q153",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 153,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        235.2187,
+        297.348628
+      ],
+      "contextIds": [
+        "camara-2014-electoral-command"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q153-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-7"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q155",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 155,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        406.1587,
+        451.8787
+      ],
+      "contextIds": [
+        "camara-2014-brazil-system-command"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q155-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-9"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q156",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 156,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        451.8787,
+        514.008628
+      ],
+      "contextIds": [
+        "camara-2014-brazil-system-command"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q156-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-9"
+      ],
+      "justification": "Conceito ou modelo de teoria política, regimes, partidos, sistemas eleitorais ou organização política brasileira previsto no edital."
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q076",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "number": 76,
+      "sourcePage": 9,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        496.0987,
+        555.2587
+      ],
+      "contextIds": [
+        "camara-2014-commissions-command"
+      ],
+      "answerKeyId": "camara-2014-cb2-03-q076-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-cb2-03-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-1-3"
+      ],
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino."
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q084",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "number": 84,
+      "sourcePage": 9,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        399.8587,
+        466.1587
+      ],
+      "contextIds": [
+        "camara-2014-parliamentary-status-command"
+      ],
+      "answerKeyId": "camara-2014-cb2-03-q084-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-cb2-03-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-5-1"
+      ],
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino."
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q085",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "number": 85,
+      "sourcePage": 9,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        466.1587,
+        535.00864
+      ],
+      "contextIds": [
+        "camara-2014-parliamentary-status-command"
+      ],
+      "answerKeyId": "camara-2014-cb2-03-q085-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-cb2-03-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-5-1"
+      ],
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino."
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q086",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "number": 86,
+      "sourcePage": 9,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        586.6387,
+        652.9387
+      ],
+      "contextIds": [
+        "camara-2014-decorum-command"
+      ],
+      "answerKeyId": "camara-2014-cb2-03-q086-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-cb2-03-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-7"
+      ],
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino."
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q087",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "number": 87,
+      "sourcePage": 9,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        652.9387,
+        739.3386
+      ],
+      "contextIds": [
+        "camara-2014-decorum-command"
+      ],
+      "answerKeyId": "camara-2014-cb2-03-q087-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-cb2-03-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-7"
+      ],
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino."
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q088",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "number": 88,
+      "sourcePage": 9,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        739.3386,
+        795
+      ],
+      "contextIds": [
+        "camara-2014-decorum-command"
+      ],
+      "answerKeyId": "camara-2014-cb2-03-q088-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-cb2-03-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-7"
+      ],
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino."
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q096",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "number": 96,
+      "sourcePage": 10,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        503.4186,
+        557.026752
+      ],
+      "contextIds": [
+        "camara-2014-ethics-cf-command"
+      ],
+      "answerKeyId": "camara-2014-cb2-03-q096-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-cb2-03-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-7"
+      ],
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino."
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q098",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "number": 98,
+      "sourcePage": 10,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        647.6587,
+        698.7187
+      ],
+      "contextIds": [
+        "camara-2014-organizacao-comando"
+      ],
+      "answerKeyId": "camara-2014-cb2-03-q098-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-cb2-03-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-5-1"
+      ],
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino."
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q108",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "number": 108,
+      "sourcePage": 10,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        621.4387,
+        690.4987
+      ],
+      "contextIds": [
+        "camara-2014-ethics-provisions-command"
+      ],
+      "answerKeyId": "camara-2014-cb2-03-q108-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-cb2-03-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-5-1"
+      ],
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino."
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q109",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "number": 109,
+      "sourcePage": 10,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        690.4987,
+        738.6187
+      ],
+      "contextIds": [
+        "camara-2014-ethics-provisions-command"
+      ],
+      "answerKeyId": "camara-2014-cb2-03-q109-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-cb2-03-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-7"
+      ],
+      "justification": "Competência, organização e funcionamento regimental ou Código de Ética diretamente previsto no edital de destino."
+    },
+    {
+      "questionId": "038-anm-010-01-q079",
+      "paperId": "source-038-anm-010-01",
+      "number": 79,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        330.6567,
+        366.4167
+      ],
+      "contextIds": [
+        "anm-010-diagnosis-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q079-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-4-3"
+      ],
+      "justification": "Planejamento, indicadores de comunicação ou fundamentos da produção gráfica previstos no edital."
+    },
+    {
+      "questionId": "038-anm-010-01-q083",
+      "paperId": "source-038-anm-010-01",
+      "number": 83,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        494.0967,
+        541.2567
+      ],
+      "contextIds": [
+        "anm-010-metrics-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q083-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-4-7"
+      ],
+      "justification": "Planejamento, indicadores de comunicação ou fundamentos da produção gráfica previstos no edital."
+    },
+    {
+      "questionId": "038-anm-010-01-q100",
+      "paperId": "source-038-anm-010-01",
+      "number": 100,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        612.2967,
+        670.1367
+      ],
+      "contextIds": [
+        "anm-010-graphic-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q100-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-5-2"
+      ],
+      "justification": "Planejamento, indicadores de comunicação ou fundamentos da produção gráfica previstos no edital."
+    },
+    {
+      "questionId": "038-anm-010-01-q101",
+      "paperId": "source-038-anm-010-01",
+      "number": 101,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        670.1367,
+        716.8167
+      ],
+      "contextIds": [
+        "anm-010-graphic-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q101-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-5-5"
+      ],
+      "justification": "Planejamento, indicadores de comunicação ou fundamentos da produção gráfica previstos no edital."
+    },
+    {
+      "questionId": "038-anm-010-01-q102",
+      "paperId": "source-038-anm-010-01",
+      "number": 102,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        716.8167,
+        763.4967
+      ],
+      "contextIds": [
+        "anm-010-graphic-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q102-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-5-1"
+      ],
+      "justification": "Planejamento, indicadores de comunicação ou fundamentos da produção gráfica previstos no edital."
+    }
+  ],
+  "contexts": [
+    {
+      "contextId": "bcb-2024-platforms-passage",
+      "paperId": "source-959-bcb-cb1-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        263,
+        767
+      ],
+      "paragraphs": true
+    },
+    {
+      "contextId": "bcb-2024-reading-command",
+      "paperId": "source-959-bcb-cb1-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        220,
+        233
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "bcb-2024-grammar-command",
+      "paperId": "source-959-bcb-cb1-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        439,
+        452
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "bcb-2024-admin-command",
+      "paperId": "source-959-bcb-cb1-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        284,
+        324
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "pf-admin-2025-constitution-left-command",
+      "paperId": "source-094-pf-cb1-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        560,
+        575
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "pf-admin-2025-constitution-right-command",
+      "paperId": "source-094-pf-cb1-01",
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        50,
+        65
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "pf-admin-2025-agents-command",
+      "paperId": "source-094-pf-cb1-01",
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        206,
+        223
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "pf-admin-2025-powers-command",
+      "paperId": "source-094-pf-cb1-01",
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        299,
+        318
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "pf-admin-2025-access-process-command",
+      "paperId": "source-094-pf-cb1-01",
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        424,
+        440
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "pf-policial-2025-net-security-command",
+      "paperId": "source-106-pf-cg1-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        351,
+        367
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "pf-policial-2025-information-data-command",
+      "paperId": "source-106-pf-cg1-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        71,
+        90
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "pf-policial-2025-ml-command",
+      "paperId": "source-106-pf-cg1-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        51,
+        92
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "pf-policial-2025-threat-command",
+      "paperId": "source-106-pf-cg1-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        446,
+        466
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "camara-2014-commissions-command",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "sourcePage": 9,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        452,
+        477
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "camara-2014-parliamentary-status-command",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "sourcePage": 9,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        50,
+        121
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "camara-2014-decorum-command",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "sourcePage": 9,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        537,
+        569
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "camara-2014-ethics-cf-command",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "sourcePage": 10,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        332,
+        388
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "camara-2014-ethics-provisions-command",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "sourcePage": 10,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        410,
+        465
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "camara-2014-democracy-passage",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        444,
+        508
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "camara-2014-democracy-command",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        556,
+        571
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "camara-2014-electoral-command",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        50,
+        53
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "camara-2014-brazil-system-command",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        299,
+        322
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-010-diagnosis-command",
+      "paperId": "source-038-anm-010-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        295,
+        321
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-010-metrics-command",
+      "paperId": "source-038-anm-010-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        470,
+        484
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-010-graphic-command",
+      "paperId": "source-038-anm-010-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        473,
+        510
+      ],
+      "paragraphs": false
+    }
+  ],
+  "contextCorrections": [
+    {
+      "contextId": "camara-2014-modelos-comando",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        456,
+        518
+      ],
+      "paragraphs": false,
+      "previousRevision": 1,
+      "previousText": "majoritária, cujo maior objetivo é a obtenção de maiorias definidas, e a democracia consensual, cujo objetivo é a maior ampliação possível da maioria —, julgue os itens a seguir.",
+      "revision": 2,
+      "text": "Considerando dois grandes modelos de democracia — a democracia majoritária, cujo maior objetivo é a obtenção de maiorias definidas, e a democracia consensual, cujo objetivo é a maior ampliação possível da maioria —, julgue os itens a seguir."
+    }
+  ],
+  "extractionNote": "C0 controls emitted by Poppler for unselected BCB statistical formulas are removed only for XML parsing. Formula/graph items are not imported. Selected words are independently compared with the original PDF.",
+  "questionRevisions": [
+    {
+      "questionId": "camara-2014-area-xix-q138",
+      "previousRevision": 1,
+      "revision": 2,
+      "reason": "Complete the shared original instruction at context revision 2; stem, key and mappings unchanged."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q140",
+      "previousRevision": 1,
+      "revision": 2,
+      "reason": "Complete the shared original instruction at context revision 2; stem, key and mappings unchanged."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q136",
+      "previousRevision": 1,
+      "revision": 2,
+      "reason": "Complete the shared original instruction at context revision 2; stem, key and mappings unchanged."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q137",
+      "previousRevision": 1,
+      "revision": 2,
+      "reason": "Complete the shared original instruction at context revision 2; stem, key and mappings unchanged."
+    }
+  ]
+}

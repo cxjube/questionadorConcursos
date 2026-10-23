@@ -11,7 +11,8 @@ const progressKey='questionador-concursos.progress.v1';
    await page.goto(base);await page.locator('#start-study:not([disabled])').waitFor();
    await page.locator('#customize-study').click();
    await page.locator('#study-discipline').selectOption('ciencia-politica');await page.locator('#study-type').selectOption('true_false');
-   assert.match(await page.locator('#study-filter-status').innerText(),/15 de 15/);
+   assert.match(await page.locator('#study-filter-status').innerText(),/35 de 35/);
+   await page.locator('#study-quantity').fill('15');
    await page.locator('#apply-study-options').click();await page.locator('#start-study').click();
    for(const [i,value] of [true,true,false,true,true,true,true,true,true,false,true,true,false,false,true].entries()) {
     await page.locator('input[value="'+value+'"]').check();

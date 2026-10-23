@@ -1,6 +1,6 @@
 # Registro dos documentos recebidos
 
-> Atualização: [nono lote](ninth-batch-release.md), com 133 questões, 133 comentários e 62 fontes. São 66/55 C/E em P1/P2; todas as questões atuais têm comentário. Os registros anteriores abaixo preservam o histórico das respectivas entregas.
+> Atualização: [décimo lote](tenth-batch-release.md), com 192 questões, 192 comentários e 67 fontes. São 90/90 C/E distintos em P1/P2; todas as questões atuais têm comentário. Os registros anteriores abaixo preservam o histórico das respectivas entregas.
 
 > Atualização: [personalização e evolução por período](customization-evolution-release.md); [quinto lote e novo par oficial da ANM](fifth-batch-release.md). São 55 questões, 12 comentários e 22 PDFs registrados. Os estados descritos abaixo correspondem às entregas indicadas.
 

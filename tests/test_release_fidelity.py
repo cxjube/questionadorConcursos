@@ -30,7 +30,7 @@ class ReleasedFidelityTests(unittest.TestCase):
                 # boundaries and original numbers of numbered passages are checked by
                 # the independent bbox tests below; keep the full character check here.
                 expected, observed = clean(ctx['text']), clean(page)
-                if 'sourceLines' in ctx or ctx['id']=='camara-2014-processo-comando':
+                if 'sourceLines' in ctx or ctx['id'] in {'camara-2014-processo-comando', 'camara-2014-modelos-comando'}:
                     # The new justified command loses spaces in -raw; its exact
                     # bbox word boundaries are checked in test_seventh_batch.
                     expected, observed = re.sub(r'\s+', '', expected), re.sub(r'\s+', '', observed)
@@ -44,10 +44,10 @@ class ReleasedFidelityTests(unittest.TestCase):
                 pages = self.pages[self.papers[q['origin']['paperId']]['documentId']]
                 page = clean(pages[int(locator.group(1)) - 1])
                 expected = clean(q['stem'])
-                if q['id'] == 'camara-2014-area-xix-q116':
-                    # -raw joins "legitimidade do poder" in this justified line.
-                    # Exact word boundaries are independently checked by the
-                    # bounded column comparison in test_eighth_batch.
+                if q['id'] in {'camara-2014-area-xix-q116', 'camara-2014-area-xix-q117', 'camara-2014-cb2-03-q088', 'camara-2014-cb2-03-q098'}:
+                    # -raw drops inter-word spaces in these justified lines.
+                    # Exact words and original markers are independently checked
+                    # by bounded comparisons in test_eighth_batch/test_tenth_batch.
                     expected, page = re.sub(r'\s+', '', expected), re.sub(r'\s+', '', page)
                 self.assertIn(expected, page)
                 for option in q['options']:

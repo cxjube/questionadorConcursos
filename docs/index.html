@@ -12,12 +12,12 @@
         if (theme === 'light' || theme === 'dark') document.documentElement.setAttribute('data-theme', theme);
       } catch (_) { /* Blocked storage must not prevent startup. */ }
     </script>
-    <link rel="stylesheet" href="assets/css/styles.css?v=13">
+    <link rel="stylesheet" href="assets/css/styles.css?v=14">
     <script defer src="assets/js/types.js?v=4"></script>
     <script defer src="assets/js/storage.js?v=4"></script>
     <script defer src="assets/js/theme.js?v=4"></script>
     <script defer src="assets/js/catalog.js?v=4"></script>
-    <script defer src="data/catalog.js?v=16"></script>
+    <script defer src="data/catalog.js?v=17"></script>
     <script defer src="assets/js/study.js?v=15"></script>
     <script defer src="assets/js/progress.js?v=4"></script>
     <script defer src="assets/js/study-ui.js?v=15"></script>
@@ -97,10 +97,23 @@
         <p id="rules-caution" class="review-note">Estes são os critérios da prova oficial. O treino do Questionador não aplica esses mínimos. Atingi-los não garante aprovação: também valem os limites de classificação e as demais regras do edital.</p>
       </section>
       <section id="consolidation-section" class="panel" role="tabpanel" aria-labelledby="consolidation-tab" tabindex="0" hidden>
-        <h2 id="consolidation-heading">Abertura e retificações</h2>
-        <h3>Documentos de referência</h3>
+        <h2 id="consolidation-heading">Editais</h2>
+        <nav class="notice-watch" aria-labelledby="notice-watch-heading">
+          <h3 id="notice-watch-heading">Onde acompanhar novas publicações</h3>
+          <p>Consulte os sites oficiais para acompanhar editais, retificações e comunicados. Os links abrem em outra aba.</p>
+          <ul id="official-watch-links" class="watch-links">
+            <li><a href="https://www2.camara.leg.br/transparencia/recursos-humanos/concursos" target="_blank" rel="noopener noreferrer"><strong>Câmara — concursos</strong><span>Novos concursos e informações gerais da Câmara dos Deputados.</span></a></li>
+            <li><a href="https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades" target="_blank" rel="noopener noreferrer"><strong>Câmara — Analista Legislativo</strong><span>Editais e comunicados do concurso acompanhado neste objetivo.</span></a></li>
+            <li><a href="https://www.cebraspe.org.br/concursos/CD_26_ANALISTA" target="_blank" rel="noopener noreferrer"><strong>Cebraspe — concurso da Câmara</strong><span>Publicações da banca, locais de prova, resultados e gabaritos.</span></a></li>
+            <li><a href="https://www.abdi.com.br/transparencia/processo-seletivo/" target="_blank" rel="noopener noreferrer"><strong>ABDI — processos seletivos</strong><span>Aberturas e documentos de seleção de pessoal da agência.</span></a></li>
+            <li><a href="https://www.gov.br/cgu/pt-br/acesso-a-informacao/concursos" target="_blank" rel="noopener noreferrer"><strong>CGU — concursos</strong><span>Informações oficiais sobre concursos e processos seletivos.</span></a></li>
+            <li><a href="https://www.gov.br/imprensanacional/pt-br" target="_blank" rel="noopener noreferrer"><strong>Diário Oficial da União</strong><span>Portal da Imprensa Nacional para consultar publicações oficiais.</span></a></li>
+          </ul>
+        </nav>
+        <h3>Abertura e retificações</h3>
+        <h4>Documentos de referência</h4>
         <ul id="notices" class="notice-list"></ul>
-        <h3>O que mudou e como funciona</h3>
+        <h4>O que mudou e como funciona</h4>
         <div id="consolidation"></div>
         <details class="support-details"><summary>Escopo da conferência</summary><p id="consolidation-scope"></p></details>
       </section>

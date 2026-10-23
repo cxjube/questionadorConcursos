@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-23T22:33:22.037965+00:00",
+  "scope": "Official navigation links for manual monitoring, not evidence that a future contest has been announced. HTTP success was observed on the listed pages; no recurring checks or automatic alerts.",
+  "links": [
+    {
+      "title": "Câmara — concursos",
+      "url": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos",
+      "observedHttpStatus": 200
+    },
+    {
+      "title": "Câmara — Analista Legislativo",
+      "url": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades",
+      "observedHttpStatus": 200
+    },
+    {
+      "title": "Cebraspe — concurso da Câmara",
+      "url": "https://www.cebraspe.org.br/concursos/CD_26_ANALISTA",
+      "observedHttpStatus": 200
+    },
+    {
+      "title": "ABDI — processos seletivos",
+      "url": "https://www.abdi.com.br/transparencia/processo-seletivo/",
+      "observedHttpStatus": 200
+    },
+    {
+      "title": "CGU — concursos",
+      "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/concursos",
+      "observedHttpStatus": 200
+    },
+    {
+      "title": "Diário Oficial da União — Imprensa Nacional",
+      "url": "https://www.gov.br/imprensanacional/pt-br",
+      "observedHttpStatus": 200
+    }
+  ]
+}

@@ -25,8 +25,8 @@ const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8765/questionadorConc
   assert.equal(await page.locator('[role="tab"]').count(), 5);
   assert.equal(await page.locator('[role="tabpanel"]:visible').count(), 1);
   assert.equal(await page.locator('#program-section').isVisible(), true);
-  assert.equal(await page.locator('#inventory li').count(), 18);
-  assert.equal(await page.locator('#inventory a').count(), 36);
+  assert.equal(await page.locator('#inventory li').count(), 19);
+  assert.equal(await page.locator('#inventory a').count(), 38);
   await page.locator('#program summary').first().click();
   assert.equal(await page.locator('#program details').first().getAttribute('open'), '');
   await page.locator('#rules-tab').click();
@@ -34,6 +34,17 @@ const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8765/questionadorConc
   assert.match(await page.locator('#rules').innerText(), /300 minutos/);
   assert.match(await page.locator('#rules').innerText(), /Mínimo total[\s\S]*54 pontos/);
   await page.locator('#consolidation-tab').click();
+  const watch=page.locator('#official-watch-links a');
+  assert.equal(await watch.count(),6);
+  assert.deepEqual(await watch.evaluateAll(links=>links.map(a=>new URL(a.href).hostname)),['www2.camara.leg.br','www2.camara.leg.br','www.cebraspe.org.br','www.abdi.com.br','www.gov.br','www.gov.br']);
+  assert.equal(await watch.evaluateAll(links=>links.every(a=>a.target==='_blank'&&a.relList.contains('noopener'))),true);
+  assert.equal(await page.locator('#official-watch-links').evaluate(el=>Boolean(el.compareDocumentPosition(document.getElementById('notices'))&Node.DOCUMENT_POSITION_FOLLOWING)),true);
+  for(const theme of ['light','dark']) {
+   await page.evaluate(t=>{document.documentElement.dataset.theme=t;document.documentElement.style.fontSize='200%';},theme);
+   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  }
+  await page.evaluate(()=>document.documentElement.style.fontSize='');
+  await watch.first().focus();assert.equal(await watch.first().evaluate(el=>el===document.activeElement),true);
   assert.equal(await page.locator('#notices').isVisible(), true);
   await page.getByText('Escopo da conferência',{exact:true}).click();
   assert.match(await page.locator('#consolidation-scope').innerText(), /fontes oficiais|páginas oficiais/i);

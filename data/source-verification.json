@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-23T22:02:08.767572+00:00",
-  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23. Comment completion: two Priberam entries retain the initial official publisher download bytes; no independent second download is claimed. Ninth source discovery: 16 new paper/key PDFs independently re-downloaded with byte equality; two Microsoft Learn HTML references retain initial publisher bytes. Complete source inventory is separate from individually released questions. Existing matches are historical evidence; not every old source was downloaded again.",
+  "checkedAt": "2026-10-23T22:33:22.037965+00:00",
+  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23. Comment completion: two Priberam entries retain the initial official publisher download bytes; no independent second download is claimed. Ninth source discovery: 16 new paper/key PDFs independently re-downloaded with byte equality; two Microsoft Learn HTML references retain initial publisher bytes. Complete source inventory is separate from individually released questions. Existing matches are historical evidence; not every old source was downloaded again. Tenth batch: one PF 2025 Bloco II pair independently re-downloaded with identical bytes; three Câmara current legal HTML references retain initial official download bytes. Compatibility is limited to cited active clauses as of 2026-10-23. Other prior sources were not all downloaded again.",
   "documents": [
     {
       "documentId": "camara-2026-edital-01-documento",
@@ -436,6 +436,41 @@
       "outcome": "byte_match",
       "officialUrl": "https://learn.microsoft.com/en-us/defender-endpoint/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus",
       "remoteSha256": "c2398ba1d648657354bdca32a212ef7c01819f52ed2ae7cf3a8e499055d29de0"
+    },
+    {
+      "documentId": "source-106-pf-cg1-01-paper",
+      "localSha256": "25c6783ccbfc3d72fbb0913da58372e344ba45fc6e1ba74250727fa3e56e51f3",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_CG1_01.pdf",
+      "remoteSha256": "25c6783ccbfc3d72fbb0913da58372e344ba45fc6e1ba74250727fa3e56e51f3"
+    },
+    {
+      "documentId": "source-106-pf-cg1-01-key",
+      "localSha256": "f4f075f7e42dacfa04727f291e2b55c15b50ce1bd51930e7773169cc3b33c783",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/A78F5BA07173AF0B8A5E611A1D7AAB166B7BD473E5D7AC2220F0F1B7DDB641E9.pdf",
+      "remoteSha256": "f4f075f7e42dacfa04727f291e2b55c15b50ce1bd51930e7773169cc3b33c783"
+    },
+    {
+      "documentId": "reference-code-ethics-camara-2001",
+      "localSha256": "2a6e1344209f4c5d76502a31f0e3c99c2c1fcd3b03577be063e7cf04a7f9b80a",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html",
+      "remoteSha256": "2a6e1344209f4c5d76502a31f0e3c99c2c1fcd3b03577be063e7cf04a7f9b80a"
+    },
+    {
+      "documentId": "reference-lei-8112-1990",
+      "localSha256": "2ceed7c5d4c9ef2b466ccba6e37abf93425285cc71afbe9e8641ceb28b9d44cb",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "remoteSha256": "2ceed7c5d4c9ef2b466ccba6e37abf93425285cc71afbe9e8641ceb28b9d44cb"
+    },
+    {
+      "documentId": "reference-codigo-civil-2002",
+      "localSha256": "6ed7c19586b21355e998746a0620cea5c2f3e6a24036d7f3743b7d30330e5d90",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
+      "remoteSha256": "6ed7c19586b21355e998746a0620cea5c2f3e6a24036d7f3743b7d30330e5d90"
     }
   ],
   "corroboration": [
