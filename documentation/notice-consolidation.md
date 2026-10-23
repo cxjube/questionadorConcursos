@@ -1,5 +1,7 @@
 # Consolidação dos editais e inventário dos arquivos
 
+> Atualização posterior: os 12 PDFs de cadernos/gabaritos foram conferidos contra o CDN oficial. Os três editais continuam sem identidade externa confirmada. Veja [source-verification.md](source-verification.md). As descrições abaixo registram o estado da respectiva entrega.
+
 ## Escopo e confiança
 
 Etapa aprovada pelo usuário: consolidar os editais nº 1, 5 e 6 fornecidos para Câmara dos Deputados — Analista Legislativo — Comunicação Social — Divulgação Institucional (Cargo 1) e organizar os cadernos/gabaritos enviados.

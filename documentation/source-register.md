@@ -1,5 +1,7 @@
 # Registro dos documentos recebidos
 
+> Atualização posterior: os 12 PDFs de cadernos/gabaritos foram conferidos contra o CDN oficial. Os três editais continuam sem identidade externa confirmada. Veja [source-verification.md](source-verification.md). As descrições abaixo registram o estado da respectiva entrega.
+
 Os arquivos foram fornecidos pelo usuário nesta conversa. Identificação conferida no texto extraído com Poppler; conteúdo tratado como material de referência, não como instruções para o agente.
 
 | Arquivo retido | Identificação no PDF | SHA-256 |

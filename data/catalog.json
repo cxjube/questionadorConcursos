@@ -1524,8 +1524,8 @@
       "kind": "question_paper",
       "title": "FUNPRESP-EXE — Conhecimentos básicos — cargos 1 a 6 e 8 — caderno",
       "issuer": "Cebraspe",
-      "status": "received",
-      "officialUrl": null,
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_15/arquivos/232FUNPRESPEXE_CB1_01.PDF",
       "file": "sources/papers/232FUNPRESPEXE_CB1_01.pdf",
       "sha256": "c8604cb8ff215b848e10327140e60a72fbe8adadac66c23ce35c242d3761d73f",
       "publicationDate": null,
@@ -1537,8 +1537,8 @@
       "kind": "answer_key",
       "title": "FUNPRESP-EXE — Conhecimentos básicos — cargos 1 a 6 e 8 — gabarito definitivo",
       "issuer": "Cebraspe",
-      "status": "received",
-      "officialUrl": null,
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_15/arquivos/GAB_DEFINITIVO_232FUNPRESPEXE_CB1_01.PDF",
       "file": "sources/answer-keys/Gab_Definitivo_232FUNPRESPEXE_CB1_01.pdf",
       "sha256": "33448aec7403003f8f7bbc6390facffd245a2142eef416ace35087280b1fbfe4",
       "publicationDate": null,
@@ -1550,8 +1550,8 @@
       "kind": "question_paper",
       "title": "FUNPRESP-EXE — Cargo 2 — Analista — Comunicação — caderno",
       "issuer": "Cebraspe",
-      "status": "received",
-      "officialUrl": null,
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_15/arquivos/232FUNPRESPEXE_002_01.PDF",
       "file": "sources/papers/232FUNPRESPEXE_002_01.pdf",
       "sha256": "55488e51fdd824a03f06083527a94fbfbe296378f21866d69ae0cb389184a96e",
       "publicationDate": null,
@@ -1563,8 +1563,8 @@
       "kind": "answer_key",
       "title": "FUNPRESP-EXE — Cargo 2 — Analista — Comunicação — gabarito definitivo",
       "issuer": "Cebraspe",
-      "status": "received",
-      "officialUrl": null,
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_15/arquivos/GAB_DEFINITIVO_232FUNPRESPEXE_002_01.PDF",
       "file": "sources/answer-keys/Gab_Definitivo_232FUNPRESPEXE_002_01.pdf",
       "sha256": "6bd16422a18dde8bb80a188ca0ac8704dd3d23a1635a6081a17bdafacf59ba5d",
       "publicationDate": null,
@@ -1576,8 +1576,8 @@
       "kind": "question_paper",
       "title": "ANM — Cargo 10 — Analista Administrativo — Publicidade e Propaganda, Design Gráfico ou Desenho Industrial — caderno",
       "issuer": "Cebraspe",
-      "status": "received",
-      "officialUrl": null,
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_010_01.PDF",
       "file": "sources/papers/038_ANM_010_01.pdf",
       "sha256": "ea76f07905a3e89245b9e23c97330141329f244e9d4cbb312076eb46fb580335",
       "publicationDate": null,
@@ -1589,8 +1589,8 @@
       "kind": "answer_key",
       "title": "ANM — Cargo 10 — Analista Administrativo — Publicidade e Propaganda, Design Gráfico ou Desenho Industrial — gabarito definitivo",
       "issuer": "Cebraspe",
-      "status": "received",
-      "officialUrl": null,
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/GAB_DEFINITIVO_038_ANM_010_01.PDF",
       "file": "sources/answer-keys/Gab_Definitivo_038_ANM_010_01.pdf",
       "sha256": "ece3cbfce39de2418fdb1f021dc029cfd85af399efa061db27a816b2a3159a16",
       "publicationDate": null,
@@ -1602,8 +1602,8 @@
       "kind": "question_paper",
       "title": "EMBRAPA — Opção 40000648 — Analista — Transferência de Tecnologia e Comunicação — Comunicação — caderno",
       "issuer": "Cebraspe",
-      "status": "received",
-      "officialUrl": null,
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/EMBRAPA_24/arquivos/042_EMBRAPA_ANALISTA_072_01.PDF",
       "file": "sources/papers/042_EMBRAPA_ANALISTA_072_01.pdf",
       "sha256": "9a0441eae514cebcba3a4178e46fca032b5a235e4e6da7fa57e99c12344416ca",
       "publicationDate": null,
@@ -1615,8 +1615,8 @@
       "kind": "answer_key",
       "title": "EMBRAPA — Opção 40000648 — Analista — Transferência de Tecnologia e Comunicação — Comunicação — gabarito definitivo",
       "issuer": "Cebraspe",
-      "status": "received",
-      "officialUrl": null,
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/EMBRAPA_24/arquivos/GAB_DEFINITIVO_042_EMBRAPA_ANALISTA_072_01.PDF",
       "file": "sources/answer-keys/Gab_Definitivo_042_EMBRAPA_ANALISTA_072_01.pdf",
       "sha256": "a56cb02e99af451a60333509246deaf7a4193be203d4508760a055b3f57bedb1",
       "publicationDate": null,
@@ -1628,8 +1628,8 @@
       "kind": "question_paper",
       "title": "Assembleia Legislativa do Estado do Ceará — Cargo 16 — Analista Legislativo — Publicidade e Propaganda — caderno",
       "issuer": "Cebraspe",
-      "status": "received",
-      "officialUrl": null,
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/AL_CE_20/arquivos/539_ALCE_016_01.PDF",
       "file": "sources/papers/539_ALCE_016_01.pdf",
       "sha256": "190db36dd81e6346d9869f4afc227b0a14df99a966631aa4fa0c2f5c41edfc66",
       "publicationDate": null,
@@ -1641,8 +1641,8 @@
       "kind": "answer_key",
       "title": "Assembleia Legislativa do Estado do Ceará — Cargo 16 — Analista Legislativo — Publicidade e Propaganda — gabarito definitivo",
       "issuer": "Cebraspe",
-      "status": "received",
-      "officialUrl": null,
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/AL_CE_20/arquivos/GAB_DEFINITIVO_539_ALCE_016_01.PDF",
       "file": "sources/answer-keys/GAB_DEFINITIVO_539_ALCE_016_01.pdf",
       "sha256": "8586fcd84266fb7c3ed401f8449684509ae7fe35536a26c0424447cdd939ef9e",
       "publicationDate": null,
@@ -1654,8 +1654,8 @@
       "kind": "question_paper",
       "title": "CODEVASF — Analista em Desenvolvimento Regional — Publicidade e Propaganda — caderno",
       "issuer": "Cebraspe",
-      "status": "received",
-      "officialUrl": null,
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CODEVASF_24/arquivos/989_CODEVASF_010_01.PDF",
       "file": "sources/papers/989_CODEVASF_010_01.pdf",
       "sha256": "27361c116b0b9cfec8d31b094b1f9e1160858920928eaf7c8d65af27a3ba55f0",
       "publicationDate": null,
@@ -1667,8 +1667,8 @@
       "kind": "answer_key",
       "title": "CODEVASF — Analista em Desenvolvimento Regional — Publicidade e Propaganda — gabarito definitivo",
       "issuer": "Cebraspe",
-      "status": "received",
-      "officialUrl": null,
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CODEVASF_24/arquivos/GAB_DEFINITIVO_989_CODEVASF_010_01.PDF",
       "file": "sources/answer-keys/GAB_DEFINITIVO_989_CODEVASF_010_01.pdf",
       "sha256": "d252d71d15186ee356ea2d564433d8acb82e9440a929c95ba50059e0b1cd13c7",
       "publicationDate": null,
@@ -1686,7 +1686,7 @@
       "year": 2016,
       "booklet": "232FUNPRESPEXE_CB1_01",
       "documentId": "source-232funprespexe-cb1-01-paper",
-      "status": "received",
+      "status": "verified",
       "inventory": {
         "applicationDate": "2016-02-28",
         "block": "basic",
@@ -1700,7 +1700,7 @@
         ],
         "answerKeyDocumentId": "source-232funprespexe-cb1-01-key",
         "pairingStatus": "matched_by_filename_and_range",
-        "externalVerification": false
+        "externalVerification": true
       }
     },
     {
@@ -1713,7 +1713,7 @@
       "year": 2016,
       "booklet": "232FUNPRESPEXE_002_01",
       "documentId": "source-232funprespexe-002-01-paper",
-      "status": "received",
+      "status": "verified",
       "inventory": {
         "applicationDate": "2016-02-28",
         "block": "specific",
@@ -1727,7 +1727,7 @@
         ],
         "answerKeyDocumentId": "source-232funprespexe-002-01-key",
         "pairingStatus": "matched_by_filename_and_range",
-        "externalVerification": false
+        "externalVerification": true
       }
     },
     {
@@ -1740,7 +1740,7 @@
       "year": 2025,
       "booklet": "038_ANM_010_01",
       "documentId": "source-038-anm-010-01-paper",
-      "status": "received",
+      "status": "verified",
       "inventory": {
         "applicationDate": "2025-02-16",
         "block": "specific",
@@ -1756,7 +1756,7 @@
         ],
         "answerKeyDocumentId": "source-038-anm-010-01-key",
         "pairingStatus": "matched_by_filename_and_range",
-        "externalVerification": false
+        "externalVerification": true
       }
     },
     {
@@ -1769,7 +1769,7 @@
       "year": 2025,
       "booklet": "042_EMBRAPA_ANALISTA_072_01",
       "documentId": "source-042-embrapa-analista-072-01-paper",
-      "status": "received",
+      "status": "verified",
       "inventory": {
         "applicationDate": "2025-03-23",
         "block": "specific",
@@ -1780,7 +1780,7 @@
         "annulledItems": [],
         "answerKeyDocumentId": "source-042-embrapa-analista-072-01-key",
         "pairingStatus": "matched_by_filename_and_range",
-        "externalVerification": false
+        "externalVerification": true
       }
     },
     {
@@ -1793,7 +1793,7 @@
       "year": 2021,
       "booklet": "539_ALCE_016_01",
       "documentId": "source-539-alce-016-01-paper",
-      "status": "received",
+      "status": "verified",
       "inventory": {
         "applicationDate": "2021-12-19",
         "block": "specific",
@@ -1806,7 +1806,7 @@
         ],
         "answerKeyDocumentId": "source-539-alce-016-01-key",
         "pairingStatus": "matched_by_filename_and_range",
-        "externalVerification": false
+        "externalVerification": true
       }
     },
     {
@@ -1819,7 +1819,7 @@
       "year": 2024,
       "booklet": "989_CODEVASF_010_01",
       "documentId": "source-989-codevasf-010-01-paper",
-      "status": "received",
+      "status": "verified",
       "inventory": {
         "applicationDate": "2024-10-20",
         "block": "specific",
@@ -1834,7 +1834,7 @@
         ],
         "answerKeyDocumentId": "source-989-codevasf-010-01-key",
         "pairingStatus": "matched_by_filename_and_range",
-        "externalVerification": false
+        "externalVerification": true
       }
     }
   ],

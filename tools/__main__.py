@@ -4,13 +4,14 @@ import sys
 
 from tools.build import render, write_artifact
 from tools.site import check_site
+from tools.source_audit import audit_sources
 from tools.validate import ROOT, read_json, validate
 
 
 def main(argv: list[str] | None = None) -> int:
     """Run the selected operation and preserve validation failures as nonzero exits."""
     parser = argparse.ArgumentParser(description='Questionador Concursos data pipeline')
-    parser.add_argument('command', choices=['validate', 'build', 'check-site'])
+    parser.add_argument('command', choices=['validate', 'build', 'check-site', 'audit-sources'])
     parser.add_argument('--check', action='store_true', help='compare generated artifact without writing')
     args = parser.parse_args(argv)
     if args.check and args.command != 'build':
@@ -18,6 +19,9 @@ def main(argv: list[str] | None = None) -> int:
     try:
         catalog = read_json(ROOT / 'data/catalog.json')
         errors = validate(catalog)
+        if not errors and args.command == 'audit-sources':
+            source_evidence = read_json(ROOT / 'data/source-verification.json')
+            errors.extend(audit_sources(catalog, source_evidence))
         if not errors and args.command == 'check-site':
             errors.extend(check_site(ROOT))
         if not errors and args.command in {'build', 'check-site'}:
@@ -32,7 +36,11 @@ def main(argv: list[str] | None = None) -> int:
             for error in errors:
                 print(f'ERROR: {error}', file=sys.stderr)
             return 1
-        print(f'{args.command}: OK ({len(catalog["questions"])} questions)')
+        if args.command == 'audit-sources':
+            matched = sum(row['outcome'] == 'byte_match' for row in source_evidence['documents'])
+            print(f'audit-sources: OK ({matched} official downloads matched; {len(source_evidence["documents"]) - matched} PDF identities pending)')
+        else:
+            print(f'{args.command}: OK ({len(catalog["questions"])} questions)')
         return 0
     except (OSError, ValueError) as error:
         print(f'ERROR: {error}', file=sys.stderr)

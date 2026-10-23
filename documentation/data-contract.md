@@ -42,7 +42,7 @@ Os PDFs ficam em `sources/`, fora do artefato de Pages. Cada registro declara ca
 
 `received` significa arquivo recebido e identificado. `verified` exige revisão da fonte, registro de URL HTTPS oficial e hash correspondente. O validador confere metadados e integridade, mas não estabelece sozinho a autenticidade de um documento ou a correção de sua classificação.
 
-Os três editais estão em `reviewed_copy`: foram revisados para o escopo desta etapa, sem autenticação externa. Os itens programáticos e as regras estão `documented`, com referências às cópias, em vez de `confirmed`. Os 12 PDFs de cadernos/gabaritos permanecem `received`; seu inventário não os promove a fontes verificadas.
+Os três editais estão em `reviewed_copy`: foram revisados para o escopo desta etapa, sem autenticação externa. Os itens programáticos e as regras estão `documented`, com referências às cópias, em vez de `confirmed`. Os 12 PDFs de cadernos/gabaritos estão `verified`, com URLs oficiais e comparação SHA-256 registrada em `data/source-verification.json`. Essa conferência de identidade não publica questões nem confirma os vínculos temáticos.
 
 Um edital só pode sustentar itens programáticos ou regras `confirmed` quando estiver `verified`. Itens e regras `documented` admitem `reviewed_copy`, mas devem ser exibidos com essa ressalva. Mappings confirmados não podem apontar para itens apenas documentados. Questões oficiais continuam exigindo prova verificada e gabarito oficial confirmado, sem exceção para os arquivos inventariados. Retificações preservam o original por `amendsNoticeId`; isso não aplica automaticamente suas alterações.
 
@@ -79,8 +79,14 @@ Os testes usam apenas fixtures sintéticas temporárias e claramente identificad
 
 ## Inventário de cadernos
 
-`papers.status: received` é permitido para organizar material recebido. O campo opcional `inventory` registra data de aplicação (não o ano do edital), bloco, intervalo e contagem, formato, anulações e documento do gabarito. A identificação por nome/intervalo não autentica a fonte. Não há respostas por questão importadas nessa estrutura.
+`papers.status: received` é permitido para organizar material recebido. O campo opcional `inventory` registra data de aplicação (não o ano do edital), bloco, intervalo e contagem, formato, anulações e documento do gabarito. A identificação por nome/intervalo não autentica a fonte. Quando `externalVerification` é verdadeiro, os dois documentos do par devem estar verificados; a evidência atual registra seus downloads oficiais e hashes. Não há respostas por questão importadas nessa estrutura.
 
 O validador impede que uma questão oficial use uma prova apenas recebida. Também rejeita intervalo/contagem incompatíveis, anulações fora do intervalo e gabarito ligado a outra prova.
 
 Os itens documentados possuem número original, documento, página e bloco. O validador verifica numeração duplicada e coerência entre números e hierarquia dos tópicos.
+
+## Evidências de identidade das fontes
+
+`data/source-verification.json` é um registro de auditoria separado, validado por `schemas/source-verification.schema.json`. `audit-sources` verifica cobertura de todos os documentos, unicidade, hashes, URLs oficiais e estados. A CI executa essa verificação offline. Ela preserva a evidência da conferência registrada e não declara ter repetido downloads nem pesquisado alterações posteriores.
+
+Notícia institucional é corroboração, não substituto de um PDF oficial comparado. Registros pendentes não podem sustentar documentos `verified`.

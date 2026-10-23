@@ -18,6 +18,8 @@ const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8765/questionadorConc
   assert.equal(await page.locator('#program details').count(), 9);
   assert.equal(await page.locator('#program li').count(), 228);
   assert.equal(await page.locator('#inventory li').count(), 6);
+  assert.equal(await page.locator('#inventory a').count(), 12);
+  assert.match(await page.locator('#inventory').innerText(), /comparação com o download oficial/);
   await page.locator('#program summary').first().click();
   assert.equal(await page.locator('#program details').first().getAttribute('open'), '');
   assert.match(await page.locator('#rules').innerText(), /300 minutos/);

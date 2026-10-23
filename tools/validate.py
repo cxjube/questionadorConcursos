@@ -45,7 +45,7 @@ def normalized(value: str) -> str:
     return ' '.join(unicodedata.normalize('NFKC', value).casefold().split())
 
 
-def structural_errors(catalog: Any, schema_dir: Path) -> list[str]:
+def structural_errors(catalog: Any, schema_dir: Path, schema_name: str = 'catalog.schema.json') -> list[str]:
     """Validate the catalog with local Draft 2020-12 schemas without network access."""
     resources = []
     for path in sorted(schema_dir.glob('*.schema.json')):
@@ -54,7 +54,7 @@ def structural_errors(catalog: Any, schema_dir: Path) -> list[str]:
         resources.append((path.resolve().as_uri(), Resource.from_contents(schema)))
     registry = Registry().with_resources(resources)
     validator = Draft202012Validator(
-        {'$ref': (schema_dir / 'catalog.schema.json').resolve().as_uri()},
+        {'$ref': (schema_dir / schema_name).resolve().as_uri()},
         registry=registry, format_checker=FormatChecker(),
     )
     return [f'{"/".join(map(str, error.absolute_path)) or "catalog"}: {error.message}'
@@ -181,6 +181,11 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
             key_document = lookup('documents', inventory['answerKeyDocumentId'], paper['id'])
             if key_document and (key_document['kind'] != 'answer_key' or key_document['paperId'] != paper['id']):
                 fail(paper['id'], 'inventory answer key belongs to a different paper')
+            if inventory['externalVerification'] and (
+                paper['status'] != 'verified' or not key_document or
+                key_document['status'] != 'verified' or not document or document['status'] != 'verified'
+            ):
+                fail(paper['id'], 'external inventory verification requires both official documents verified')
             if inventory['lastItem'] - inventory['firstItem'] + 1 != inventory['itemCount']:
                 fail(paper['id'], 'inventory range and item count disagree')
             if paper['year'] != int(inventory['applicationDate'][:4]):

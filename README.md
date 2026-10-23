@@ -4,7 +4,7 @@ Aplicação estática para estudos de concursos públicos, baseada na arquitetur
 
 **Etapa atual: consolidação documental.** Há seleção de concurso/cargo, programa da Câmara com nove disciplinas e 228 tópicos/subtópicos, consulta às regras objetivas e aos trechos retificados, temas e contrato de dados validado. A consolidação se limita às cópias fornecidas dos editais 1, 5 e 6; a fonte oficial externa ainda não foi conferida. Não há questões ou sessões de estudo habilitadas.
 
-Câmara dos Deputados — Analista Legislativo — Comunicação Social — Divulgação Institucional é o primeiro objetivo. ABDI e CGU são entradas futuras sem editais ou regras inventados. Os três editais foram revisados para o escopo cadastrado. Outros 12 PDFs de cadernos e gabaritos foram inventariados em seis pares, cobrindo 340 itens com 12 anulações. Estes não são questões importadas e não têm vinculação temática confirmada. Todos os PDFs ficam fora do site publicado.
+Câmara dos Deputados — Analista Legislativo — Comunicação Social — Divulgação Institucional é o primeiro objetivo. ABDI e CGU são entradas futuras sem editais ou regras inventados. Os três editais foram revisados para o escopo cadastrado. Outros 12 PDFs de cadernos e gabaritos foram inventariados em seis pares, cobrindo 340 itens com 12 anulações. Os 12 arquivos já foram comparados com downloads do domínio oficial da Cebraspe: todos coincidem por SHA-256. Isso não os transforma em questões importadas nem em vínculos temáticos confirmados. Todos os PDFs ficam fora do site publicado.
 
 ## Executar localmente
 
@@ -25,6 +25,7 @@ Requisitos de manutenção: Python 3.12+, uv e Node 22+. Para testar a fidelidad
 ```sh
 uv sync --locked
 uv run python -m tools validate
+uv run python -m tools audit-sources
 uv run python -m tools build
 uv run python -m tools build --check
 uv run python -m tools check-site
@@ -33,6 +34,8 @@ npm test
 ```
 
 Não é necessário `npm install`: não há pacotes Node nem dependências de navegador. A dependência Python `jsonschema` e suas dependências transitivas são usadas somente no pipeline, com versões e hashes em `uv.lock`. Ela implementa o padrão JSON Schema Draft 2020-12, evitando um interpretador parcial próprio e divergência entre esquemas e validação.
+
+`audit-sources` verifica a coerência das evidências registradas, sem fazer novos downloads ou atestar a ausência de retificações posteriores.
 
 `build` valida antes de gerar o catálogo; `--check` compara sem escrever. Edite a fonte canônica `data/catalog.json`, nunca `docs/data/catalog.js`.
 
@@ -62,7 +65,7 @@ documentation/            contrato, fontes e entrega da etapa
 
 As [diretrizes de produto revisadas](documentation/product-guidelines.md) orientam as próximas etapas. A [revisão das sugestões recebidas](documentation/guideline-review.md) distingue capacidades existentes e requisitos futuros.
 
-Veja o [relatório desta etapa](documentation/notice-consolidation.md), o [contrato de dados](documentation/data-contract.md) e o [registro de fontes](documentation/source-register.md).
+Veja a [conferência das fontes oficiais](documentation/source-verification.md), o [relatório desta etapa](documentation/notice-consolidation.md), o [contrato de dados](documentation/data-contract.md) e o [registro de fontes](documentation/source-register.md).
 
 ## GitHub Pages
 

@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-23T03:38:00.835284+00:00",
+  "scope": "Document identity only; not question completeness, thematic suitability or absence of later notices.",
+  "documents": [
+    {
+      "documentId": "camara-2026-edital-01-documento",
+      "localSha256": "065cb0eb179e91107dd2edb1d92f0d0a86c0feb359fedd6e0b44329fc4b096e3",
+      "outcome": "pending_pdf_identity",
+      "officialUrl": null,
+      "remoteSha256": null
+    },
+    {
+      "documentId": "camara-2026-edital-05-documento",
+      "localSha256": "1685ed892c8ae00c57cfca14b6c91cd5227b801df7f2a574f0f1d7286c810c87",
+      "outcome": "pending_pdf_identity",
+      "officialUrl": null,
+      "remoteSha256": null
+    },
+    {
+      "documentId": "camara-2026-edital-06-documento",
+      "localSha256": "0bdab0b074444077a3b3c38a9f492f119537e7437bf4d28f10b5e042a1764122",
+      "outcome": "pending_pdf_identity",
+      "officialUrl": null,
+      "remoteSha256": null
+    },
+    {
+      "documentId": "source-232funprespexe-cb1-01-paper",
+      "localSha256": "c8604cb8ff215b848e10327140e60a72fbe8adadac66c23ce35c242d3761d73f",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_15/arquivos/232FUNPRESPEXE_CB1_01.PDF",
+      "remoteSha256": "c8604cb8ff215b848e10327140e60a72fbe8adadac66c23ce35c242d3761d73f"
+    },
+    {
+      "documentId": "source-232funprespexe-cb1-01-key",
+      "localSha256": "33448aec7403003f8f7bbc6390facffd245a2142eef416ace35087280b1fbfe4",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_15/arquivos/GAB_DEFINITIVO_232FUNPRESPEXE_CB1_01.PDF",
+      "remoteSha256": "33448aec7403003f8f7bbc6390facffd245a2142eef416ace35087280b1fbfe4"
+    },
+    {
+      "documentId": "source-232funprespexe-002-01-paper",
+      "localSha256": "55488e51fdd824a03f06083527a94fbfbe296378f21866d69ae0cb389184a96e",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_15/arquivos/232FUNPRESPEXE_002_01.PDF",
+      "remoteSha256": "55488e51fdd824a03f06083527a94fbfbe296378f21866d69ae0cb389184a96e"
+    },
+    {
+      "documentId": "source-232funprespexe-002-01-key",
+      "localSha256": "6bd16422a18dde8bb80a188ca0ac8704dd3d23a1635a6081a17bdafacf59ba5d",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_15/arquivos/GAB_DEFINITIVO_232FUNPRESPEXE_002_01.PDF",
+      "remoteSha256": "6bd16422a18dde8bb80a188ca0ac8704dd3d23a1635a6081a17bdafacf59ba5d"
+    },
+    {
+      "documentId": "source-038-anm-010-01-paper",
+      "localSha256": "ea76f07905a3e89245b9e23c97330141329f244e9d4cbb312076eb46fb580335",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_010_01.PDF",
+      "remoteSha256": "ea76f07905a3e89245b9e23c97330141329f244e9d4cbb312076eb46fb580335"
+    },
+    {
+      "documentId": "source-038-anm-010-01-key",
+      "localSha256": "ece3cbfce39de2418fdb1f021dc029cfd85af399efa061db27a816b2a3159a16",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/GAB_DEFINITIVO_038_ANM_010_01.PDF",
+      "remoteSha256": "ece3cbfce39de2418fdb1f021dc029cfd85af399efa061db27a816b2a3159a16"
+    },
+    {
+      "documentId": "source-042-embrapa-analista-072-01-paper",
+      "localSha256": "9a0441eae514cebcba3a4178e46fca032b5a235e4e6da7fa57e99c12344416ca",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/EMBRAPA_24/arquivos/042_EMBRAPA_ANALISTA_072_01.PDF",
+      "remoteSha256": "9a0441eae514cebcba3a4178e46fca032b5a235e4e6da7fa57e99c12344416ca"
+    },
+    {
+      "documentId": "source-042-embrapa-analista-072-01-key",
+      "localSha256": "a56cb02e99af451a60333509246deaf7a4193be203d4508760a055b3f57bedb1",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/EMBRAPA_24/arquivos/GAB_DEFINITIVO_042_EMBRAPA_ANALISTA_072_01.PDF",
+      "remoteSha256": "a56cb02e99af451a60333509246deaf7a4193be203d4508760a055b3f57bedb1"
+    },
+    {
+      "documentId": "source-539-alce-016-01-paper",
+      "localSha256": "190db36dd81e6346d9869f4afc227b0a14df99a966631aa4fa0c2f5c41edfc66",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/AL_CE_20/arquivos/539_ALCE_016_01.PDF",
+      "remoteSha256": "190db36dd81e6346d9869f4afc227b0a14df99a966631aa4fa0c2f5c41edfc66"
+    },
+    {
+      "documentId": "source-539-alce-016-01-key",
+      "localSha256": "8586fcd84266fb7c3ed401f8449684509ae7fe35536a26c0424447cdd939ef9e",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/AL_CE_20/arquivos/GAB_DEFINITIVO_539_ALCE_016_01.PDF",
+      "remoteSha256": "8586fcd84266fb7c3ed401f8449684509ae7fe35536a26c0424447cdd939ef9e"
+    },
+    {
+      "documentId": "source-989-codevasf-010-01-paper",
+      "localSha256": "27361c116b0b9cfec8d31b094b1f9e1160858920928eaf7c8d65af27a3ba55f0",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CODEVASF_24/arquivos/989_CODEVASF_010_01.PDF",
+      "remoteSha256": "27361c116b0b9cfec8d31b094b1f9e1160858920928eaf7c8d65af27a3ba55f0"
+    },
+    {
+      "documentId": "source-989-codevasf-010-01-key",
+      "localSha256": "d252d71d15186ee356ea2d564433d8acb82e9440a929c95ba50059e0b1cd13c7",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CODEVASF_24/arquivos/GAB_DEFINITIVO_989_CODEVASF_010_01.PDF",
+      "remoteSha256": "d252d71d15186ee356ea2d564433d8acb82e9440a929c95ba50059e0b1cd13c7"
+    }
+  ],
+  "corroboration": [
+    {
+      "url": "https://www.camara.leg.br/noticias/1308132-CAMARA-DIVULGA-EDITAL-DE-NOVO-CONCURSO-PARA-ANALISTA-LEGISLATIVO",
+      "publisher": "Agência Câmara",
+      "title": "Câmara divulga edital de novo concurso para Analista Legislativo",
+      "observedFacts": [
+        "Notícia publicada em 02/10/2026.",
+        "Inscrições de 15 de outubro a 17 de novembro.",
+        "Provas objetivas e discursivas previstas para 17 de janeiro de 2027."
+      ],
+      "limitation": "Corrobora informações gerais; não autentica os três PDFs fornecidos nem certifica inexistência de retificações posteriores."
+    }
+  ],
+  "pendingEndpoints": [
+    {
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/cd_26_analista",
+      "observation": "O hostname da API descoberto no JavaScript oficial retornou bloqueio de conexão 403; a listagem de documentos não foi obtida."
+    },
+    {
+      "url": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades",
+      "observation": "Link obtido na notícia oficial da Câmara; requisição retornou HTTP 403."
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Revisão das diretrizes recebidas — 23/10/2026
 
+> Atualização posterior: os 12 PDFs de cadernos/gabaritos foram conferidos contra o CDN oficial. Os três editais continuam sem identidade externa confirmada. Veja [source-verification.md](source-verification.md). As descrições abaixo registram o estado da respectiva entrega.
+
 O usuário forneceu o documento “QUESTIONADOR CONCURSOS — Diretrizes de produto, arquitetura, banco de questões e experiência de estudo”, versão 1.0, e autorizou melhorias nas sugestões. A versão revisada está em [product-guidelines.md](product-guidelines.md), versão 1.1.
 
 Esta entrega altera documentação e orientação de manutenção. Não importa questões, não altera esquemas nem dados canônicos, não habilita modos de estudo e não amplia a etapa de implementação aprovada.

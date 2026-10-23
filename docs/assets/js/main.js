@@ -152,6 +152,20 @@
       const li = document.createElement('li');
       li.append(node('strong', paper.title));
       li.append(node('span', 'Aplicação: ' + inventory.applicationDate.split('-').reverse().join('/') + ' · itens ' + inventory.firstItem + '–' + inventory.lastItem + ' · ' + (inventory.questionType === 'multiple_choice' ? 'Múltipla escolha' : 'Certo/Errado') + ' · ' + inventory.annulledItems.length + ' anulações no gabarito.'));
+      li.append(node('span', inventory.externalVerification
+        ? 'Caderno e gabarito conferidos por comparação com o download oficial. Revisão das questões ainda pendente.'
+        : 'Conferência dos arquivos na fonte oficial ainda pendente.'));
+      for (const documentId of [paper.documentId, inventory.answerKeyDocumentId]) {
+        const source = data.documents.find(doc => doc.id === documentId);
+        if (source?.status === 'verified' && source.officialUrl?.startsWith('https://')) {
+          const link = document.createElement('a');
+          link.href = source.officialUrl;
+          link.textContent = documentId === inventory.answerKeyDocumentId ? 'Gabarito definitivo oficial' : 'Caderno oficial';
+          const line = document.createElement('span');
+          line.append(link);
+          li.append(line);
+        }
+      }
       element('inventory').append(li);
     }
     /** @returns {void} */

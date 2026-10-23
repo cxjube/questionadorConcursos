@@ -67,4 +67,5 @@ test('syllabus and scoring selectors keep future contests empty', () => {
   assert.equal(Catalog.syllabusFor(data, 'abdi-futuro').length, 0);
   assert.equal(data.questions.length, 0);
   assert.equal(data.papers.length, 6);
+  assert.ok(data.papers.every(paper => paper.inventory.externalVerification));
 });
