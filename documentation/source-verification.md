@@ -3,7 +3,7 @@
 > Atualização: o lote foi liberado para o primeiro treino funcional. Consulte a [decisão de liberação](first-batch-release.md) e o [guia de uso e backup](study-guide.md). Os estados de preparação e limitações descritos neste registro se referem à entrega anterior.
 
 
-Os **22 PDFs retidos** coincidem byte a byte com downloads oficiais, por SHA-256. Foram conferidos os editais nº 1 a 6 da Câmara disponíveis na consulta, a abertura atualizada, a ata do sorteio e os sete pares de cadernos/gabaritos. O par geral da ANM foi localizado e baixado nesta extensão; as comparações dos 20 documentos anteriores permanecem como evidência registrada, sem afirmar novo download de todos eles. A conferência da fonte está concluída para esses documentos; não representa garantia sobre atos futuros.
+São **30 fontes retidas: 24 PDFs e seis referências legais em HTML**. Os downloads oficiais iniciais correspondem aos arquivos retidos por SHA-256. O sexto lote acrescenta o par FGV Câmara 2023 — Técnica Legislativa — tarde/tipo 1 e os textos da Constituição, Lei nº 9.784/1999, Lei nº 14.133/2021, LAI, LGPD e RICD. O par FGV e o RICD tiveram nova comparação binária independente. Nos cinco HTML do Planalto, as novas respostas diferem nos scripts embutidos, mantendo o texto ativo visível idêntico; hashes, bytes das duas capturas e método estão em `data/reviews/legal-reference-rechecks.json`. Registros de downloads anteriores permanecem como evidência histórica, sem afirmar nova consulta de todos eles. A conferência não garante atos futuros nem valida automaticamente todas as questões de uma prova.
 
 ## Editais e referências da Câmara
 
@@ -45,11 +45,11 @@ Programa, regra objetiva e consolidação passaram para `confirmed`; os seis edi
 
 O novo par `038_ANM_CG1_01` tem [caderno oficial](https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_CG1_01.PDF) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_CG1_01.PDF). A listagem e seus bytes originais estão em `data/reviews/anm-general-source.json` e `anm-official-listing-response.json`.
 
-Os sete pares cobrem 390 itens, com 16 anulações. A identidade dos documentos não implica revisão de todos os enunciados. Há 55 questões liberadas e 12 comentários editoriais independentes identificados como assistidos por IA; veja o [quinto lote](fifth-batch-release.md). O arquivo de preparação histórico continua fora do build e do Pages.
+Os oito pares cobrem 460 itens, com 17 anulações. A identidade dos documentos não implica revisão de todos os enunciados. Há 73 questões liberadas e 34 comentários editoriais independentes identificados como assistidos por IA; veja o [sexto lote](sixth-batch-release.md). O arquivo de preparação histórico continua fora do build e do Pages.
 
 ## Evidência e reprodução
 
-Os hashes, URLs e instante da observação estão em [source-verification.json](../data/source-verification.json). Os PDFs ficam em `sources/`, fora do site publicado. Os endpoints antes bloqueados responderam nesta sessão; não há pendência de rede para esta conferência.
+Os hashes, URLs e instante da observação estão em [source-verification.json](../data/source-verification.json). Os PDFs e as referências legais HTML ficam em `sources/`, fora do site publicado. As respostas oficiais utilizadas estão identificadas por URL e hash; reconsultas podem encontrar indisponibilidade temporária ou scripts diferentes.
 
 ```sh
 uv run python -m tools validate
@@ -65,10 +65,14 @@ A auditoria é offline: verifica cobertura, hashes, estados e domínios registra
 
 ## Próxima etapa
 
-Adaptar o contrato canônico para os contextos do lote e implementar a primeira sessão de resolução, com histórico local e backup. Ainda não há sessões, motor de pontuação, simulados ou dashboard.
+Ampliar tópicos e comentários em lotes revisados, priorizando itens C/E das disciplinas específicas ainda com pouca cobertura. A sessão funcional, histórico e pontuação personalizada já existem; a composição de simulados oficiais continua pendente.
 
-## Validação desta entrega
+## Validação histórica da conferência inicial
 
 53 testes Python e seis testes JavaScript passaram, sem testes ignorados. Passaram também a auditoria dos 20 documentos, a validação do lote, a comparação do catálogo gerado e a lista de arquivos publicáveis. O Chromium verificou 320/1280 px, temas, persistência, teclado, seletores, seis links oficiais dos editais, programa e regras, sem requisições externas automáticas. Foram verificados tanto o subdiretório de projeto quanto a inicialização estática descrita no README.
 
 A execução remota de Actions e a implantação devem ser verificadas separadamente; esses resultados são locais.
+
+## Fontes acrescentadas no sexto lote
+
+A listagem [FGV Câmara — edital 3](https://conhecimento.fgv.br/concursos/cdeputados23/3), seus bytes e os dois links selecionados estão em `data/reviews/fgv-camara-2023-source.json`. A diferença entre manhã e tarde e a seleção do tipo 1 são verificadas pelos testes. As seis URLs jurídicas, hashes e trechos ativos estão no catálogo e em `data/reviews/sixth-batch-legal-review.json`. A auditoria offline cobre as 30 identidades; a revisão do conteúdo continua distinta da revisão de fonte.

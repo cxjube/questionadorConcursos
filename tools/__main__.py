@@ -42,7 +42,7 @@ def main(argv: list[str] | None = None) -> int:
             return 1
         if args.command == 'audit-sources':
             matched = sum(row['outcome'] == 'byte_match' for row in source_evidence['documents'])
-            print(f'audit-sources: OK ({matched} official downloads matched; {len(source_evidence["documents"]) - matched} PDF identities pending)')
+            print(f'audit-sources: OK ({matched} official downloads matched; {len(source_evidence["documents"]) - matched} document identities pending)')
         elif args.command == 'review-batch':
             print(f'review-batch: OK ({len(batch["items"])} preparation records validated; workbench excluded from site)')
         else:

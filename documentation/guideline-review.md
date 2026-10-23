@@ -1,5 +1,7 @@
 # Revisão das diretrizes recebidas — 23/10/2026
 
+> Atualização: [sexto lote](sixth-batch-release.md), com 73 questões, nove disciplinas iniciadas, 34 comentários e 30 fontes registradas. As limitações dos registros anteriores permanecem como histórico.
+
 > Atualização: [personalização e evolução por período](customization-evolution-release.md); [quinto lote e novo par oficial da ANM](fifth-batch-release.md). São 55 questões, 12 comentários e 22 PDFs registrados. Os estados descritos abaixo correspondem às entregas indicadas.
 
 

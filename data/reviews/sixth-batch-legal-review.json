@@ -1,0 +1,181 @@
+{
+  "id": "sixth-batch-legal-review",
+  "reviewedAt": "2026-10-23",
+  "method": "agent_assisted",
+  "scope": "Compatibility of the selected questions with the active wording of cited official clauses retained on this date; not a comprehensive legal opinion or a guarantee about future amendments.",
+  "items": [
+    {
+      "questionId": "038-anm-cg1-01-q018",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 5º, LXXIII",
+          "activeQuote": "qualquer cidadão é parte legítima para propor ação popular que vise a anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural, ficando o autor, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência;"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-cg1-01-q019",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, § 4º",
+          "activeQuote": "Os atos de improbidade administrativa importarão a suspensão dos direitos políticos, a perda da função pública, a indisponibilidade dos bens e o ressarcimento ao erário, na forma e gradação previstas em lei, sem prejuízo da ação penal cabível."
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-cg1-01-q020",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, XII",
+          "activeQuote": "XII - os vencimentos dos cargos do Poder Legislativo e do Poder Judiciário não poderão ser superiores aos pagos pelo Poder Executivo;"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-cg1-01-q021",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-9784-1999",
+          "locator": "Art. 55",
+          "activeQuote": "Em decisão na qual se evidencie não acarretarem lesão ao interesse público nem prejuízo a terceiros, os atos que apresentarem defeitos sanáveis poderão ser convalidados pela própria Administração."
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-cg1-01-q022",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-9784-1999",
+          "locator": "Art. 2º, parágrafo único, II",
+          "activeQuote": "II - atendimento a fins de interesse geral, vedada a renúncia total ou parcial de poderes ou competências, salvo autorização em lei;"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-cg1-01-q024",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 74, caput e I",
+          "activeQuote": "Art. 74. É inexigível a licitação quando inviável a competição, em especial nos casos de: I - aquisição de materiais, de equipamentos ou de gêneros ou contratação de serviços que só possam ser fornecidos por produtor, empresa ou representante comercial exclusivos;"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-cg1-01-q034",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-13709-2018",
+          "locator": "Art. 4º, caput e III",
+          "activeQuote": "III - realizado para fins exclusivos de: a) segurança pública; b) defesa nacional; c) segurança do Estado; ou d) atividades de investigação e repressão de infrações penais;"
+        },
+        {
+          "documentId": "reference-lei-13709-2018",
+          "locator": "Art. 4º, caput",
+          "activeQuote": "Art. 4º Esta Lei não se aplica ao tratamento de dados pessoais:"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-cg1-01-q035",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-12527-2011",
+          "locator": "Art. 10, §§ 1º e 3º",
+          "activeQuote": "§ 1º Para o acesso a informações de interesse público, a identificação do requerente não pode conter exigências que inviabilizem a solicitação."
+        },
+        {
+          "documentId": "reference-lei-12527-2011",
+          "locator": "Art. 10, § 3º",
+          "activeQuote": "§ 3º São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público."
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q003",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 111, § 3º",
+          "activeQuote": "Nenhum projeto poderá conter 2 (duas) ou mais matérias diversas."
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 137, § 2º",
+          "activeQuote": "poderá o Autor da proposição recorrer ao Plenário, no prazo de cinco sessões da publicação do despacho"
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 137, § 1º, II, c",
+          "activeQuote": "a Presidência devolverá ao Autor qualquer proposição que: I - não estiver devidamente formalizada e em termos; II - versar sobre matéria: a) alheia à competência da Câmara; b) evidentemente inconstitucional; c) anti-regimental."
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q015",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 102, § 3º",
+          "activeQuote": "ou, quando expressamente permitido, de Líder ou Líderes, representando estes últimos exclusivamente o número de Deputados de sua legenda partidária ou parlamentar, na data da apresentação da proposição."
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q017",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 91, caput",
+          "activeQuote": "A sessão plenária da Câmara será transformada em Comissão Geral, sob a direção de seu Presidente, para:"
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 91, III",
+          "activeQuote": "III - comparecimento de Ministro de Estado."
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q018",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 109, III",
+          "activeQuote": "III - de resolução a regular, com eficácia de lei ordinária, matérias da competência privativa da Câmara dos Deputados, de caráter político, processual, legislativo ou administrativo"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q019",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 113, I",
+          "activeQuote": "sugere a outro Poder a adoção de providência, a realização de ato administrativo ou de gestão, ou o envio de projeto sobre a matéria de sua iniciativa exclusiva;"
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 113, § 1º",
+          "activeQuote": "Na hipótese do inciso I, a indicação será objeto de requerimento escrito, despachado pelo Presidente e publicado no Diário da Câmara dos Deputados."
+        }
+      ]
+    }
+  ]
+}

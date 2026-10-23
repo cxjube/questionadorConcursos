@@ -1,0 +1,15 @@
+{
+  "listingUrl": "https://conhecimento.fgv.br/concursos/cdeputados23/3",
+  "retainedListing": "data/reviews/fgv-camara-2023-listing.html",
+  "listingSha256": "e68b842cbdfb442ca93e57916c1163a292992da67b50f90af5bdb798cf227e01",
+  "paperId": "source-camara-2023-tecnica-tarde-tipo1",
+  "role": "Analista Legislativo - Técnica Legislativa",
+  "session": "TARDE",
+  "type": 1,
+  "applicationDate": "2023-12-10",
+  "selectedUrls": [
+    "https://conhecimento.fgv.br/sites/default/files/concursos/cns301-analista-legislativo-tecnica-legislativacns301-tipo-1_0.pdf",
+    "https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivos-para-publicacao-edital-3-tarde.pdf"
+  ],
+  "evidence": "Official listing links, rendered booklet cover/footer and definitive key header identify role, afternoon session and type 1. The _0.pdf booklet has 70 items; the unsuffixed morning booklet has 60 and is not used. Definitive key contains four types: only the exact type-1 table is used. Item 14 is annulled and excluded."
+}

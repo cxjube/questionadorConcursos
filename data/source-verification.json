@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-23T20:16:39.301047+00:00",
-  "scope": "Recorded official PDF matches; the ANM CG1 pair was downloaded and independently re-downloaded for this extension. Older matches remain retained evidence, not fresh downloads. Notice review scope remains the acts listed on 23 October 2026; no claim about future amendments.",
+  "checkedAt": "2026-10-23T20:52:08.779602+00:00",
+  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments.",
   "documents": [
     {
       "documentId": "camara-2026-edital-01-documento",
@@ -156,6 +156,62 @@
       "outcome": "byte_match",
       "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_CG1_01.PDF",
       "remoteSha256": "509c0196725bee12055d699b2584632c65bab621c39a88f6035eee75a90ab338"
+    },
+    {
+      "documentId": "reference-constitution-1988",
+      "localSha256": "bfcf4ff3177fedb13db963a2a05109d7520c01dff8257e83007a9e50ba51841e",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "remoteSha256": "bfcf4ff3177fedb13db963a2a05109d7520c01dff8257e83007a9e50ba51841e"
+    },
+    {
+      "documentId": "reference-lei-9784-1999",
+      "localSha256": "0252507e0e6394f79d4f4cf68fe3677af2176f9d252c711e738824d163e0f152",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+      "remoteSha256": "0252507e0e6394f79d4f4cf68fe3677af2176f9d252c711e738824d163e0f152"
+    },
+    {
+      "documentId": "reference-lei-14133-2021",
+      "localSha256": "e2e59f1cd0b413a6ea6c26ffb2cc9cbccbe108fcfd41b4b6394f4157c33f0de8",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+      "remoteSha256": "e2e59f1cd0b413a6ea6c26ffb2cc9cbccbe108fcfd41b4b6394f4157c33f0de8"
+    },
+    {
+      "documentId": "reference-lei-13709-2018",
+      "localSha256": "feebdbb3988cbe9e29b1c034b4721e9ae4337095ba9e617a58ca3057bc5f22ce",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "remoteSha256": "feebdbb3988cbe9e29b1c034b4721e9ae4337095ba9e617a58ca3057bc5f22ce"
+    },
+    {
+      "documentId": "reference-lei-12527-2011",
+      "localSha256": "1d2e5473cac63e692323d21815340f8bd30cb6897cacafa59da8b8b94f72f33c",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+      "remoteSha256": "1d2e5473cac63e692323d21815340f8bd30cb6897cacafa59da8b8b94f72f33c"
+    },
+    {
+      "documentId": "reference-ricd-res17-1989",
+      "localSha256": "e95d7b34dd5fdfeae4892cc4e3893c56eb9f1c28cb418af22639a8c7846639d9",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+      "remoteSha256": "e95d7b34dd5fdfeae4892cc4e3893c56eb9f1c28cb418af22639a8c7846639d9"
+    },
+    {
+      "documentId": "source-camara-2023-tecnica-tarde-tipo1-paper",
+      "localSha256": "f3caf136e6dd117ce077883d33527eafdf3628ce8f9e4839966f04d664db43fc",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns301-analista-legislativo-tecnica-legislativacns301-tipo-1_0.pdf",
+      "remoteSha256": "f3caf136e6dd117ce077883d33527eafdf3628ce8f9e4839966f04d664db43fc"
+    },
+    {
+      "documentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+      "localSha256": "2449f4024c25e31c20ea9d83885ec06296a3a93217d2f0c22c9e4bdc10c7d5e8",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivos-para-publicacao-edital-3-tarde.pdf",
+      "remoteSha256": "2449f4024c25e31c20ea9d83885ec06296a3a93217d2f0c22c9e4bdc10c7d5e8"
     }
   ],
   "corroboration": [

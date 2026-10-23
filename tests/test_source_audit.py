@@ -15,14 +15,14 @@ class SourceAuditTests(unittest.TestCase):
         self.catalog = read_json(ROOT / 'data/catalog.json')
         self.evidence = read_json(ROOT / 'data/source-verification.json')
 
-    def test_all_twenty_two_sources_verified_without_publishing_questions(self):
+    def test_all_retained_sources_have_recorded_official_matches(self):
         """Keep document identity separate from a question bank ready for study."""
         self.assertEqual(audit_sources(self.catalog, self.evidence), [])
-        self.assertEqual(sum(r['outcome'] == 'byte_match' for r in self.evidence['documents']), 22)
-        self.assertEqual(sum(d['status'] == 'verified' for d in self.catalog['documents']), 22)
+        self.assertEqual(sum(r['outcome'] == 'byte_match' for r in self.evidence['documents']), 30)
+        self.assertEqual(sum(d['status'] == 'verified' for d in self.catalog['documents']), 30)
         self.assertTrue(all(n['status'] == 'verified' for n in self.catalog['notices']))
         self.assertTrue(all(p['inventory']['externalVerification'] for p in self.catalog['papers']))
-        self.assertEqual(len(self.catalog['questions']), 55)
+        self.assertEqual(len(self.catalog['questions']), 73)
 
     def test_official_hash_must_match(self):
         """Reject changing remote digest without changing the retained document."""
@@ -41,7 +41,7 @@ class SourceAuditTests(unittest.TestCase):
         """Reject using general news corroboration as PDF authentication."""
         self.evidence['documents'][0].update(outcome='pending_pdf_identity', officialUrl=None, remoteSha256=None)
         self.catalog['documents'][0]['status'] = 'verified'
-        self.assertTrue(any('pending PDF identity' in e for e in audit_sources(self.catalog, self.evidence)))
+        self.assertTrue(any('pending document identity' in e for e in audit_sources(self.catalog, self.evidence)))
 
     def test_duplicate_and_missing_evidence(self):
         """Require one explicit record for each retained source document."""

@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-10-23T20:53:56.779833+00:00",
+  "method": "Independent HTTP-200 re-download from each exact official URL. Raw bytes differ in embedded script content; active visible legal text (excluding scripts/styles/struck-out text) is identical. Originals and rechecks retained separately; do not claim second raw-byte equality. Initial retries returned 503/timeouts before the successful rechecks.",
+  "documents": [
+    {
+      "documentId": "reference-constitution-1988",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "retainedSha256": "bfcf4ff3177fedb13db963a2a05109d7520c01dff8257e83007a9e50ba51841e",
+      "recheckFile": "data/reviews/legal-rechecks/cf.html",
+      "recheckSha256": "cde533b29b4fe629912c4ac7d7e45fe791ad63890bd1e88cb307bae0758db716",
+      "activeTextSha256": "250de26aae29c0cb8557735f0c4dcc619bf9740c361b5f5cdb9350f61687b875",
+      "activeTextEqual": true
+    },
+    {
+      "documentId": "reference-lei-9784-1999",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+      "retainedSha256": "0252507e0e6394f79d4f4cf68fe3677af2176f9d252c711e738824d163e0f152",
+      "recheckFile": "data/reviews/legal-rechecks/9784.html",
+      "recheckSha256": "931c8d33337a2135fb6c111c605acbccdadc1e55216468c08e8011a84437a6fc",
+      "activeTextSha256": "3f78353755f4ac4da0c456c5ec10fdf7f36e33d91725975ee9e5857e07cc690e",
+      "activeTextEqual": true
+    },
+    {
+      "documentId": "reference-lei-14133-2021",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+      "retainedSha256": "e2e59f1cd0b413a6ea6c26ffb2cc9cbccbe108fcfd41b4b6394f4157c33f0de8",
+      "recheckFile": "data/reviews/legal-rechecks/14133.html",
+      "recheckSha256": "40237a6ce6fdf3edb1938d298094a66668bd6377a12e20ec2cadf7bed31b2bdf",
+      "activeTextSha256": "2b40cebd364651aad81a6f4952ae9841d4e04a3f9c106d34c1e6392a76b8377e",
+      "activeTextEqual": true
+    },
+    {
+      "documentId": "reference-lei-13709-2018",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "retainedSha256": "feebdbb3988cbe9e29b1c034b4721e9ae4337095ba9e617a58ca3057bc5f22ce",
+      "recheckFile": "data/reviews/legal-rechecks/lgpd.html",
+      "recheckSha256": "af643c3e0c33b15a8a2d982b2d9b6867bba19bcd9f037e467522af33540728f6",
+      "activeTextSha256": "c3086586270e8c83a3b2a148dc6e2db228d5b686f86e02e038187a987219a7ee",
+      "activeTextEqual": true
+    },
+    {
+      "documentId": "reference-lei-12527-2011",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+      "retainedSha256": "1d2e5473cac63e692323d21815340f8bd30cb6897cacafa59da8b8b94f72f33c",
+      "recheckFile": "data/reviews/legal-rechecks/lai.html",
+      "recheckSha256": "3172e44002a8ecfa2bf7af9643698587cfe1f9ee5662e9cd221511fb597aba77",
+      "activeTextSha256": "ee36be3a1628394aba558c961b98780cac78d22c7aa0c5aef1fdfd7f031d374b",
+      "activeTextEqual": true
+    }
+  ]
+}

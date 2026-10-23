@@ -6,6 +6,7 @@ import xml.etree.ElementTree as ET
 import subprocess
 
 from tools.validate import ROOT, read_json
+from tools.answer_tables import answer_table
 from test_consolidation import clean, pdf_text
 
 
@@ -47,15 +48,8 @@ class ReleasedFidelityTests(unittest.TestCase):
     def test_all_published_answers_match_definitive_tables(self):
         tables = {}
         for doc_id in {k['documentId'] for k in self.catalog['answerKeys']}:
-            lines = pdf_text(ROOT / self.docs[doc_id]['file']).splitlines()
-            table = {}
-            for index, line in enumerate(lines):
-                if re.match(r'\s*(?:Item|Questão)\s+\d', line):
-                    numbers = [int(n) for n in re.findall(r'\b\d+\b', line) if int(n)]
-                    values = re.findall(r'\b[A-EX]\b', lines[index + 1].replace('Gabarito', ''))
-                    self.assertEqual(len(numbers), len(values))
-                    table.update(zip(numbers, values))
-            tables[doc_id] = table
+            paper = self.papers[self.docs[doc_id]['paperId']]
+            tables[doc_id] = answer_table(pdf_text(ROOT / self.docs[doc_id]['file']), paper['booklet'])
         questions = {q['id']: q for q in self.catalog['questions']}
         for key in self.catalog['answerKeys']:
             with self.subTest(key=key['id']):
@@ -128,8 +122,8 @@ class ReleasedFidelityTests(unittest.TestCase):
 
     def test_didactic_comments_have_separate_identity_and_source_evidence(self):
         comments = [c for c in self.catalog['explanations'] if c['questionId'].startswith('232funprespexe-cb1-01-')]
-        self.assertEqual(len(comments),8)
-        self.assertEqual({c['questionId'] for c in comments},{f'232funprespexe-cb1-01-q{n:03d}' for n in [5,6,7,8,13,14,15,16]})
+        self.assertEqual(len(comments),12)
+        self.assertEqual({c['questionId'] for c in comments},{f'232funprespexe-cb1-01-q{n:03d}' for n in [5,6,7,8,9,10,11,12,13,14,15,16]})
         questions = {q['id']:q for q in self.catalog['questions']}
         contexts = {c['id']:c for c in self.catalog['contexts']}
         for comment in comments:

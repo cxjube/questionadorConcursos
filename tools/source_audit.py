@@ -4,7 +4,7 @@ from urllib.parse import urlsplit
 
 from tools.validate import ROOT, structural_errors
 
-OFFICIAL_HOSTS = {'cdn.cebraspe.org.br', 'www.cebraspe.org.br', 'www.camara.leg.br', 'www2.camara.leg.br'}
+OFFICIAL_HOSTS = {'cdn.cebraspe.org.br', 'www.cebraspe.org.br', 'www.camara.leg.br', 'www2.camara.leg.br', 'www.planalto.gov.br', 'conhecimento.fgv.br'}
 
 
 def audit_sources(catalog: dict, evidence: dict, root: Path = ROOT) -> list[str]:
@@ -35,7 +35,7 @@ def audit_sources(catalog: dict, evidence: dict, root: Path = ROOT) -> list[str]
                 errors.append(f'{identifier}: catalog status or official URL disagrees with download evidence')
         else:
             if doc['status'] == 'verified' or row['remoteSha256'] is not None or row['officialUrl'] is not None:
-                errors.append(f'{identifier}: pending PDF identity cannot be presented as verified')
+                errors.append(f'{identifier}: pending document identity cannot be presented as verified')
     if seen != set(documents):
         errors.append('source verification records must cover all retained documents')
     return errors

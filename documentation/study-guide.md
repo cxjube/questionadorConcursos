@@ -1,6 +1,6 @@
 # Como estudar e guardar o progresso
 
-1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. O objetivo disponível é Câmara — Comunicação Social — Divulgação Institucional, com 55 questões de provas anteriores relacionadas.
+1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. O objetivo disponível é Câmara — Comunicação Social — Divulgação Institucional, com 73 questões de provas anteriores relacionadas.
 2. Marque sua resposta ou **Deixar em branco**. Use **Anterior** e **Próxima** para navegar; **Próxima** é a ação principal. Você pode trocar a alternativa ou selecionar **Deixar em branco** até finalizar.
 3. Ao sair e voltar, use **Continuar questões**. A posição e as marcações são retomadas quando o navegador permitiu o salvamento.
 4. Use **Finalizar sessão** em qualquer questão ou abra **Revisar sessão** para conferir a lista e voltar às questões que quiser (também é o próximo passo na última questão). A confirmação informa quantas questões ficarão em branco e inicia com foco em **Continuar respondendo**. Cancelar ou abrir a revisão não encerra a tentativa. Questões sem marcação passam a brancos. A correção mostra sua resposta, gabarito definitivo, resultado e links da prova e do gabarito. Explicações indisponíveis são identificadas.
@@ -20,7 +20,7 @@ A taxa de acerto é acertos ÷ (acertos + erros). Brancos e anulações são sep
 
 A revisão de erros considera o último resultado finalizado da questão e do cargo na versão correspondente. Se você errou e depois acertou, ela sai desse conjunto. Branco não é erro. Inéditas são questões que ainda não participaram de uma sessão finalizada compatível, inclusive após mudança de versão. Apenas visitar ou marcar uma questão em sessão aberta não cria uma tentativa.
 
-As questões mantêm a identificação de suas provas de origem. Os vínculos com o edital da Câmara indicam compatibilidade temática; as questões não foram retiradas de uma prova da Câmara. O lote não cobre todo o edital.
+As questões mantêm a identificação de suas provas de origem. Os vínculos com o edital da Câmara indicam compatibilidade temática; há itens da Câmara de 2023 (outro cargo e banca FGV) e de outras instituições. O lote não cobre todo o edital.
 
 ## Desempenho por disciplina e assunto
 
@@ -34,7 +34,7 @@ Abra **Ver assuntos registrados** dentro de uma disciplina para ver os vínculos
 
 O texto de apoio dos dezesseis itens de Língua Portuguesa mantém os números das linhas da prova original. A quebra visual no celular não muda esses números. A referência bibliográfica permanece ao final do texto.
 
-Após finalizar, oito desses itens mostram **Comentário didático**, com autoria assistida por IA e referência à página/linhas que sustentam a interpretação. O gabarito continua identificado separadamente como oficial definitivo. Os comentários não são justificativas emitidas pela banca. Nas questões sem comentário confiável revisado, a aplicação informa sua indisponibilidade. Sessões e backups preservam a versão do comentário usada naquela tentativa. O quinto lote acrescenta quatro comentários de Inglês com referências aos parágrafos do texto-base de 2025. O idioma dos textos/enunciados é identificado para leitores de tela; as instruções de navegação continuam em português.
+Após finalizar, doze desses itens mostram **Comentário didático**, com autoria assistida por IA e referência à página/linhas que sustentam a interpretação. O gabarito continua identificado separadamente como oficial definitivo. Os comentários não são justificativas emitidas pela banca. Nas questões sem comentário confiável revisado, a aplicação informa sua indisponibilidade. Sessões e backups preservam a versão do comentário usada naquela tentativa. O quinto lote acrescenta quatro comentários de Inglês com referências aos parágrafos do texto-base de 2025. O sexto lote acrescenta 18 questões comentadas, nas quatro disciplinas que estavam vazias e em Português; o total chega a 34 comentários. As referências jurídicas apontam os dispositivos consultados. Textos sem indicação de linhas originais mantêm seus parágrafos e créditos. Comentários novos aparecem em novas sessões; os resultados antigos preservam a versão utilizada. O idioma dos textos/enunciados é identificado para leitores de tela; as instruções de navegação continuam em português.
 
 ## Personalizar o treino
 

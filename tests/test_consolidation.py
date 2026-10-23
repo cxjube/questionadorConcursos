@@ -7,6 +7,7 @@ import unittest
 from pathlib import Path
 
 from tools.validate import ROOT, read_json, validate
+from tools.answer_tables import answer_table
 
 
 def clean(text: str) -> str:
@@ -33,12 +34,12 @@ class ConsolidationTests(unittest.TestCase):
         self.assertEqual(len(self.catalog['disciplines']), 9)
         self.assertEqual(len(self.catalog['topics']), 228)
         self.assertEqual(len(self.catalog['syllabusItems']), 228)
-        self.assertEqual(len(self.catalog['papers']), 7)
-        self.assertEqual(sum(p['inventory']['itemCount'] for p in self.catalog['papers']), 390)
-        self.assertEqual(sum(len(p['inventory']['annulledItems']) for p in self.catalog['papers']), 16)
-        self.assertEqual(len(self.catalog['questions']), 55)
-        self.assertEqual(len(self.catalog['answerKeys']), 55)
-        self.assertEqual(len(self.catalog['mappings']), 57)
+        self.assertEqual(len(self.catalog['papers']), 8)
+        self.assertEqual(sum(p['inventory']['itemCount'] for p in self.catalog['papers']), 460)
+        self.assertEqual(sum(len(p['inventory']['annulledItems']) for p in self.catalog['papers']), 17)
+        self.assertEqual(len(self.catalog['questions']), 73)
+        self.assertEqual(len(self.catalog['answerKeys']), 73)
+        self.assertEqual(len(self.catalog['mappings']), 76)
         self.assertTrue(all(c['status'] == 'planned' for c in self.catalog['contests'][1:]))
         self.assertEqual({item['roleId'] for item in self.catalog['syllabusItems']}, {'camara-comunicacao-divulgacao'})
         self.assertEqual({item['noticeId'] for item in self.catalog['syllabusItems']}, {'camara-2026-edital-01'})
@@ -157,15 +158,8 @@ class ConsolidationTests(unittest.TestCase):
                 self.assertTrue(expected <= observed)
                 text = pdf_text(ROOT / docs[info['answerKeyDocumentId']]['file'])
                 self.assertIn(paper['booklet'], text)
-                self.assertIn('GABARITOS OFICIAIS DEFINITIVOS', text)
-                key = {}
-                lines = text.splitlines()
-                for i, line in enumerate(lines):
-                    if re.match(r'\s*(?:Item|Questão)\s+\d', line):
-                        numbers = [int(n) for n in re.findall(r'\b\d+\b', line) if int(n)]
-                        values = re.findall(r'\b[A-EX]\b', lines[i + 1].replace('Gabarito', ''))
-                        self.assertEqual(len(numbers), len(values))
-                        key.update(zip(numbers, values))
+                self.assertRegex(text, r'GABARITOS (?:OFICIAIS )?DEFINITIVOS')
+                key = answer_table(text, paper['booklet'])
                 self.assertEqual(set(key), expected)
                 allowed = set('CEX') if info['questionType'] == 'true_false' else set('ABCDEX')
                 self.assertTrue(set(key.values()) <= allowed)

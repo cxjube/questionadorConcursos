@@ -1,0 +1,309 @@
+{
+  "id": "sixth-batch",
+  "reviewedAt": "2026-10-23",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/sixth-batch-release.md",
+  "items": [
+    {
+      "questionId": "038-anm-cg1-01-q005",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 5,
+      "sourcePage": 1,
+      "contextIds": [
+        "anm-cg1-orwell",
+        "anm-cg1-portuguese-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q005-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-6-1"
+      ],
+      "justification": "Significação contextual de vocábulo no texto CG1A1."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q008",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 8,
+      "sourcePage": 1,
+      "contextIds": [
+        "anm-cg1-orwell",
+        "anm-cg1-portuguese-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q008-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-5-7"
+      ],
+      "justification": "Emprego do sinal indicativo de crase diante de substantivo masculino."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q010",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 10,
+      "sourcePage": 1,
+      "contextIds": [
+        "anm-cg1-orwell",
+        "anm-cg1-portuguese-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q010-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-6-3"
+      ],
+      "justification": "Reorganização sintática por retirada de expressão de realce."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q018",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 18,
+      "sourcePage": 2,
+      "contextIds": [
+        "anm-cg1-constitutional-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q018-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-2"
+      ],
+      "justification": "Legitimidade e proteção processual na ação popular."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q019",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 19,
+      "sourcePage": 2,
+      "contextIds": [
+        "anm-cg1-constitutional-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q019-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-4"
+      ],
+      "justification": "Sanções constitucionais dos atos de improbidade administrativa."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q020",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 20,
+      "sourcePage": 2,
+      "contextIds": [
+        "anm-cg1-constitutional-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q020-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-4"
+      ],
+      "justification": "Limite constitucional dos vencimentos entre Poderes."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q021",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 21,
+      "sourcePage": 2,
+      "contextIds": [
+        "anm-cg1-administrative-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q021-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-2-1"
+      ],
+      "justification": "Limites da convalidação de atos com defeitos sanáveis."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q022",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 22,
+      "sourcePage": 2,
+      "contextIds": [
+        "anm-cg1-administrative-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q022-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-4-4"
+      ],
+      "justification": "Critérios expressos do Processo Administrativo Federal."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q024",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 24,
+      "sourcePage": 2,
+      "contextIds": [
+        "anm-cg1-contract-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q024-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-10-1"
+      ],
+      "justification": "Distinção entre dispensa e inexigibilidade na contratação direta."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q034",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 34,
+      "sourcePage": 3,
+      "contextIds": [
+        "anm-cg1-information-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q034-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-12"
+      ],
+      "justification": "Hipóteses de não aplicação da LGPD por finalidade exclusiva."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q035",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 35,
+      "sourcePage": 3,
+      "contextIds": [
+        "anm-cg1-information-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q035-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-11"
+      ],
+      "justification": "Garantias do requerente no pedido de acesso à informação."
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q003",
+      "paperId": "source-camara-2023-tecnica-tarde-tipo1",
+      "number": 3,
+      "sourcePage": 3,
+      "contextIds": [],
+      "answerKeyId": "camara-2023-tecnica-tarde-tipo1-q003-key-v1",
+      "answerDocumentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": "c",
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-5-1"
+      ],
+      "justification": "Regularidade regimental de proposição com matérias diversas."
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q015",
+      "paperId": "source-camara-2023-tecnica-tarde-tipo1",
+      "number": 15,
+      "sourcePage": 6,
+      "contextIds": [],
+      "answerKeyId": "camara-2023-tecnica-tarde-tipo1-q015-key-v1",
+      "answerDocumentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": "d",
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-2-6"
+      ],
+      "justification": "Quórum para iniciativa coletiva e representação por líderes."
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q017",
+      "paperId": "source-camara-2023-tecnica-tarde-tipo1",
+      "number": 17,
+      "sourcePage": 6,
+      "contextIds": [],
+      "answerKeyId": "camara-2023-tecnica-tarde-tipo1-q017-key-v1",
+      "answerDocumentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": "a",
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-5-1",
+        "camara-2026-direito-constitucional-regimento-7-2"
+      ],
+      "justification": "Comissão Geral no comparecimento de Ministro de Estado; tema comum às sessões da Câmara e ao Regimento."
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q018",
+      "paperId": "source-camara-2023-tecnica-tarde-tipo1",
+      "number": 18,
+      "sourcePage": 6,
+      "contextIds": [],
+      "answerKeyId": "camara-2023-tecnica-tarde-tipo1-q018-key-v1",
+      "answerDocumentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": "d",
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-2-3"
+      ],
+      "justification": "Forma de proposição para matéria privativa da Câmara."
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q019",
+      "paperId": "source-camara-2023-tecnica-tarde-tipo1",
+      "number": 19,
+      "sourcePage": 6,
+      "contextIds": [],
+      "answerKeyId": "camara-2023-tecnica-tarde-tipo1-q019-key-v1",
+      "answerDocumentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": "e",
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-2-5"
+      ],
+      "justification": "Indicação para sugerir projeto de iniciativa de outro Poder."
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q034",
+      "paperId": "source-camara-2023-tecnica-tarde-tipo1",
+      "number": 34,
+      "sourcePage": 10,
+      "contextIds": [
+        "camara-2023-digital-democracy"
+      ],
+      "answerKeyId": "camara-2023-tecnica-tarde-tipo1-q034-key-v1",
+      "answerDocumentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": "a",
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-5"
+      ],
+      "justification": "Transparência digital, deliberação, confiança e prestação de contas na democracia representativa."
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q035",
+      "paperId": "source-camara-2023-tecnica-tarde-tipo1",
+      "number": 35,
+      "sourcePage": 10,
+      "contextIds": [
+        "camara-2023-party-institutionalization"
+      ],
+      "answerKeyId": "camara-2023-tecnica-tarde-tipo1-q035-key-v1",
+      "answerDocumentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": "b",
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-8"
+      ],
+      "justification": "Institucionalização partidária segundo o critério explicitado no trecho citado."
+    }
+  ]
+}
