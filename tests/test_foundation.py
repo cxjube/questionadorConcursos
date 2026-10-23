@@ -259,7 +259,13 @@ class FoundationTests(unittest.TestCase):
         """Accept per-block scores without assuming a specific concurso formula."""
         rule = {'id': 'test-rule', 'noticeId': self.catalog['notices'][0]['id'], 'roleId': self.catalog['roles'][0]['id'], 'status': 'confirmed', 'documentId': self.catalog['notices'][0]['documentId'], 'reference': 'Synthetic test only', 'durationMinutes': 45, 'minimumTotalScore': None, 'blocks': [{'id': 'block-a', 'label': 'Fixture block', 'questionType': 'true_false', 'questionCount': 10, 'correct': 2, 'incorrect': -1, 'blank': 0, 'annulledPolicy': 'exclude', 'annulledPoints': None, 'minimumScore': None}]}
         self.catalog['scoringRules'] = [rule]
+        rule['version'] = 1
         self.check()
+        del rule['version']
+        self.check('version')
+        rule['version'] = 0
+        self.check('version')
+        rule['version'] = 1
         rule['blocks'][0]['annulledPolicy'] = 'fixed'
         self.check('annulledPoints')
         rule['blocks'][0]['annulledPoints'] = 2

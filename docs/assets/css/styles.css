@@ -441,13 +441,27 @@ button { overflow-wrap: anywhere; }
 
 .metrics #training-score { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: var(--space-xs); align-items: center; justify-content: space-between; }
 .metrics #training-score dd { margin: 0; }
+.exam-block-navigation { display: flex; flex-wrap: wrap; gap: var(--space-2xs); margin-block: var(--space-sm); }
+.exam-block-navigation button { flex: 1 1 14rem; font-size: var(--text-sm); }
+.exam-current-block { color: var(--text-soft); font-size: var(--text-sm); }
+.exam-score-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: var(--space-xs); }
+.exam-score-card { min-width: 0; padding: var(--space-sm); border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface-sunken); }
+.exam-score-card h4 { margin-top: 0; }
+.exam-score-card dl { margin: 0; }
+.exam-score-card dl > div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--space-2xs); margin-block: var(--space-2xs); }
+.exam-score-card dt { color: var(--text-soft); }
+.exam-score-card dd { margin: 0; font-weight: 700; }
+.exam-minimum, .exam-outcome { font-weight: 700; }
+.exam-minimum { border-top: 1px solid var(--border); padding-top: var(--space-xs); }
+.exam-question-map { grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr)); }
+dialog.exam-dialog { width: min(36rem, calc(100% - 2rem)); max-width: min(36rem, calc(100% - 2rem)); padding: var(--space-sm); overflow-wrap: anywhere; }
 
 .customization-dialog { max-width: min(48rem, calc(100% - 2rem)); width: min(48rem, calc(100% - 2rem)); max-height: calc(100dvh - 2rem); overflow-y: auto; }
 .customization-dialog h2 { margin-top: 0; }
 .customization-actions { justify-content: flex-end; margin-top: var(--space-md); }
 #study-selection-summary { margin-block: var(--space-xs); }
 @media (max-width: 34rem) {
-  .landing-actions > #customize-study, .landing-actions > #start-study { flex: 1 1 10rem; }
+  .landing-actions > #customize-study, .landing-actions > #start-study, .landing-actions > #prepare-exam { flex: 1 1 10rem; }
   .customization-actions > button { flex: 1 1 10rem; }
 }
 

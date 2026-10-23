@@ -4,7 +4,9 @@ const Study = (() => {
   'use strict';
   const VERSION = 1;
   const MAX_BYTES = 10 * 1024 * 1024;
-  const MODES = ['all', 'errors', 'unanswered', 'blank'];
+  const MODES = ['all', 'errors', 'unanswered', 'blank', 'exam'];
+  // These are target syllabus blocks, never the blocks printed in a source booklet.
+  const EXAM_BLOCKS = {p1:'basic', p2:'specific'};
   const clone = value => JSON.parse(JSON.stringify(value));
   const own = (object, key) => Object.prototype.hasOwnProperty.call(object, key);
   const id = () => globalThis.crypto.randomUUID();
@@ -109,7 +111,7 @@ const Study = (() => {
       paperId, paperLabel: paper ? paper.institution + ' · ' + paper.year + ' · ' + paper.booklet : null, year, type};
   }
   function pool(data, roleId, progress, mode = 'all', filters = {}) {
-    if (!MODES.includes(mode)) throw Error('Modo de estudo inválido.');
+    if (!MODES.includes(mode) || mode === 'exam') throw Error('Modo de estudo inválido.');
     const selected = selection(data, roleId, filters), branch = topicBranch(data, selected.topicId);
     const syllabus = new Set(data.syllabusItems.filter(s => {
       const topic = data.topics.find(t => t.id === s.topicId);
@@ -148,22 +150,61 @@ const Study = (() => {
         id: e.id, text: e.text, author: e.author, references: e.references.map(ref => ({ ...ref, officialUrl: data.documents.find(d => d.id === ref.documentId).officialUrl }))
       })) });
   }
+  function supportedExamRule(rule) {
+    return rule && rule.status === 'confirmed' && Number.isInteger(rule.version) && rule.version > 0 &&
+      Number.isInteger(rule.durationMinutes) && rule.durationMinutes > 0 && rule.durationMinutes <= 1440 &&
+      Number.isFinite(rule.minimumTotalScore) && Array.isArray(rule.blocks) && rule.blocks.length === 2 &&
+      rule.blocks.every((block,index) => block && block.id === ['p1','p2'][index] && block.questionType === 'true_false' &&
+        Number.isInteger(block.questionCount) && block.questionCount > 0 && block.questionCount <= 250 &&
+        block.correct === 1 && block.incorrect === -1 && block.blank === 0 && block.doubleMarked === 0 &&
+        block.annulledPolicy === 'credit' && block.annulledPoints === null && Number.isFinite(block.minimumScore));
+  }
+  function randomized(values, random = Math.random) {
+    const result = [...values];
+    for (let index = result.length - 1; index > 0; index--) {
+      const target = Math.floor(random() * (index + 1));
+      [result[index],result[target]] = [result[target],result[index]];
+    }
+    return result;
+  }
+  function examAvailability(data, roleId) {
+    const rule = data.scoringRules.find(r => r.roleId === roleId && supportedExamRule(r));
+    if (!rule) return {ready:false, reason:'Este objetivo ainda não tem um perfil de simulado confirmado e compatível.', rule:null, blocks:[], distinct:0};
+    const blocks = rule.blocks.map(block => ({...block, questions:pool(data,roleId,empty(),'all',{block:EXAM_BLOCKS[block.id],type:'true_false'})
+      .filter(q => {const key = data.answerKeys.find(k => k.id === q.answerKeyId); return q.origin.kind === 'official' && key?.result === 'valid' && key.origin === 'official' && key.status === 'confirmed' && key.stage === 'definitive';})}));
+    const distinct = new Set(blocks.flatMap(b=>b.questions.map(q=>q.id))).size;
+    const ready = blocks.every(b=>b.questions.length >= b.questionCount) && distinct >= blocks.reduce((n,b)=>n+b.questionCount,0);
+    return {ready, rule, blocks, distinct, reason:ready ? '' : 'Banco insuficiente para os dois blocos sem repetição. Continue usando o treino personalizado.'};
+  }
+  function createExam(data, roleId, progress, settings = {}) {
+    if (Object.keys(settings).some(k=>!['now','id','random'].includes(k))) throw Error('O simulado usa composição, prazo e pontuação fixados pelo edital.');
+    const availability = examAvailability(data,roleId);
+    if (!availability.ready) throw Error(availability.reason);
+    const {rule,blocks} = availability;
+    const ids = blocks.map(b=>new Set(b.questions.map(q=>q.id)));
+    // Allocate exclusive items first. Shared items fill the remaining capacities;
+    // this avoids a greedy draw exhausting the other block's only eligible items.
+    const shared = randomized(blocks[0].questions.filter(q=>ids[1].has(q.id)),settings.random);
+    const allocated = blocks.map((b,index)=>randomized(b.questions.filter(q=>!ids[1-index].has(q.id)),settings.random).slice(0,b.questionCount));
+    for (let index = 0; index < blocks.length; index++) allocated[index].push(...shared.splice(0,blocks[index].questionCount-allocated[index].length));
+    const session = create(data,roleId,progress,'all',{...settings,limit:1});
+    const document = data.documents.find(d=>d.id===rule.documentId);
+    return {...session, mode:'exam',
+      timer:{durationSeconds:rule.durationMinutes*60,deadlineAt:new Date(Date.parse(session.startedAt)+rule.durationMinutes*60000).toISOString()},
+      scoringProfile:{version:1,kind:'official_rules',rule:clone(rule),officialUrl:document.officialUrl},
+      selection:{...selection(data,roleId,{type:'true_false'}),limit:rule.blocks.reduce((n,b)=>n+b.questionCount,0),shuffle:true},
+      items:allocated.flatMap((questions,index)=>randomized(questions,settings.random).map(q=>({...snapshot(data,q,roleId),examBlockId:blocks[index].id})))};
+  }
   function create(data, roleId, progress, mode = 'all', settings = {}) {
     if (progress.active) throw Error('Finalize a sessão atual antes de iniciar outra.');
     if (progress.history.length >= 500) throw Error('O limite de 500 sessões foi atingido. Exporte o histórico antes de apagá-lo para iniciar um novo ciclo.');
+    if (mode === 'exam') return createExam(data,roleId,progress,settings);
     const role = data.roles.find(r => r.id === roleId);
     let questions = pool(data, roleId, progress, mode, settings);
     if (!role || !questions.length) throw Error('Não há questões disponíveis para esta seleção.');
     const limit = settings.limit ?? null;
     if (limit !== null && (!Number.isInteger(limit) || limit < 1 || limit > questions.length || limit > 500)) throw Error('Escolha uma quantidade entre 1 e ' + Math.min(500, questions.length) + '.');
-    if (settings.shuffle) {
-      questions = [...questions];
-      const random = settings.random || Math.random;
-      for (let index = questions.length - 1; index > 0; index--) {
-        const target = Math.floor(random() * (index + 1));
-        [questions[index], questions[target]] = [questions[target], questions[index]];
-      }
-    }
+    if (settings.shuffle) questions = randomized(questions,settings.random || Math.random);
     if (limit !== null) questions = questions.slice(0, limit);
     if (questions.length > 500) throw Error('A seleção excede o limite de 500 questões por sessão.');
     const startedAt = settings.now || now();
@@ -185,6 +226,18 @@ const Study = (() => {
   function expired(session, timestamp = now()) { return Boolean(session.timer) && remaining(session, timestamp) === 0; }
   function score(session) {
     if (!session.scoringProfile) return null;
+    if (session.scoringProfile.kind === 'official_rules') {
+      const rule = session.scoringProfile.rule;
+      const blocks = rule.blocks.map(block => {
+        const items = session.items.filter(item=>item.examBlockId===block.id);
+        const counts = totals({...session,items});
+        const points = counts.correct*block.correct + counts.incorrect*block.incorrect + counts.blank*block.blank;
+        return {id:block.id,label:block.label,...counts,points,maximum:items.length*block.correct,minimum:block.minimumScore,met:points>=block.minimumScore};
+      });
+      const points = blocks.reduce((n,b)=>n+b.points,0), maximum = blocks.reduce((n,b)=>n+b.maximum,0);
+      return {points,maximum,blocks,minimum:rule.minimumTotalScore,totalMet:points>=rule.minimumTotalScore,
+        meetsMinimums:points>=rule.minimumTotalScore && blocks.every(b=>b.met)};
+    }
     const counts = totals(session), profile = session.scoringProfile;
     return {points:['correct','incorrect','blank','annulled'].reduce((sum,key) => sum + counts[key] * profile[key],0), maximum:session.items.filter(item=>item.key.result === 'valid').length * profile.correct};
   }
@@ -243,11 +296,26 @@ const Study = (() => {
     if (progress.active !== null && progress.history.length >= 500) fail();
     const sessionIds = new Set();
     for (const session of [...progress.history, ...(progress.active === null ? [] : [progress.active])]) {
+      const profile = session?.scoringProfile;
+      const exam = profile?.kind === 'official_rules';
+      const custom = record(profile) && profile.version === 1 && profile.kind === 'custom' && Object.keys(profile).every(k=>['version','kind','correct','incorrect','blank','annulled'].includes(k)) && profile.correct === 1 && [0,-1].includes(profile.incorrect) && profile.blank === 0 && profile.annulled === 0;
+      if (exam) {
+        const rule = profile.rule, current = data?.scoringRules.find(r=>r.id===rule?.id);
+        if (profile.version !== 1 || Object.keys(profile).some(k=>!['version','kind','rule','officialUrl'].includes(k)) || !url(profile.officialUrl) ||
+            !supportedExamRule(rule) || !['id','noticeId','roleId','documentId'].every(k=>identifier(rule[k])) || !text(rule.reference) || rule.roleId !== session.roleId ||
+            Object.keys(rule).some(k=>!['id','version','noticeId','roleId','documentId','status','reference','durationMinutes','minimumTotalScore','blocks'].includes(k)) ||
+            rule.blocks.some(b=>!text(b.label) || Object.keys(b).some(k=>!['id','label','questionType','questionCount','correct','incorrect','blank','doubleMarked','annulledPolicy','annulledPoints','minimumScore'].includes(k))) ||
+            data && (!current || current.roleId !== session.roleId || data.roles.find(r=>r.id===session.roleId)?.contestId !== session.contestId || rule.version > current.version ||
+              rule.version === current.version && (!sameContent(rule,current) || profile.officialUrl !== data.documents.find(d=>d.id===rule.documentId)?.officialUrl)) ||
+            session.mode !== 'exam' || !record(session.timer) || session.timer.durationSeconds !== rule.durationMinutes*60 ||
+            session.items?.length !== rule.blocks.reduce((n,b)=>n+b.questionCount,0) ||
+            !record(session.selection) || session.selection.block !== null || session.selection.disciplineId !== null || session.selection.topicId !== null || session.selection.paperId !== null || session.selection.year !== null || session.selection.type !== 'true_false' || session.selection.shuffle !== true || session.selection.limit !== session.items.length) fail();
+      } else if (session?.mode === 'exam') fail();
       if (!record(session) || !identifier(session.id) || sessionIds.has(session.id) || !identifier(session.contestId) || !identifier(session.roleId) || !text(session.objective) ||
           !/^[a-f0-9]{64}$/.test(session.catalogRevision) || !MODES.includes(session.mode) || !date(session.startedAt) ||
           !(session.finishedAt === null || date(session.finishedAt) && session.finishedAt >= session.startedAt) ||
           !array(session.items, 500) || !session.items.length || !array(session.answers, 500) ||
-          !(session.scoringProfile === null || record(session.scoringProfile) && session.scoringProfile.version === 1 && session.scoringProfile.kind === 'custom' && Object.keys(session.scoringProfile).every(k=>['version','kind','correct','incorrect','blank','annulled'].includes(k)) && session.scoringProfile.correct === 1 && [0,-1].includes(session.scoringProfile.incorrect) && session.scoringProfile.blank === 0 && session.scoringProfile.annulled === 0) ||
+          !(profile === null || custom || exam) ||
           !Number.isInteger(session.position) || session.position < 0 || session.position >= session.items.length) fail();
       if (own(session,'timer') && session.timer !== null) {
         const timer = session.timer;
@@ -273,6 +341,15 @@ const Study = (() => {
       for (const item of session.items) {
         if (!record(item) || !record(item.question) || !record(item.key) || !record(item.paper) || !array(item.contexts, 20) || !array(item.mappings, 100) || !item.mappings.length || !array(item.explanations, 20)) fail();
         const q = item.question, key = item.key, paper = item.paper;
+        if (exam) {
+          const block = profile.rule.blocks[questions.size < profile.rule.blocks[0].questionCount ? 0 : 1];
+          if (item.examBlockId !== block.id || q.type !== block.questionType || key.result !== 'valid' ||
+              !item.mappings.some(m=>m?.block===EXAM_BLOCKS[block.id])) fail();
+          if (data && session.catalogRevision === data.revision) {
+            const current = data.questions.find(row=>row.id===q.id);
+            if (!current || !sameContent(item.mappings,snapshot(data,current,session.roleId).mappings)) fail();
+          }
+        } else if (own(item,'examBlockId')) fail();
         if (own(q,'language') && !['pt-BR','en'].includes(q.language)) fail();
         if (!identifier(q.id) || questions.has(q.id) || q.bankId !== 'concursos' || !Number.isInteger(q.revision) || q.revision < 1 || !text(q.stem) ||
             !['true_false', 'multiple_choice'].includes(q.type) || !array(q.options, 10) || !array(q.contextIds, 20) || !record(q.origin) || q.origin.kind !== 'official' ||
@@ -334,6 +411,6 @@ const Study = (() => {
     if (!parsed || parsed.format !== 'questionador-concursos-backup' || parsed.version !== VERSION) throw Error('Este arquivo não é um backup compatível do Questionador Concursos.');
     return validate(parsed.progress, data);
   }
-  return { VERSION, MAX_BYTES, empty, grade, choiceOf, totals, performance, evolution, latest, topicBranch, pool, snapshot, create, remaining, expired, score, choose, move, finish, matches, validate, exportBackup, importBackup };
+  return { VERSION, MAX_BYTES, empty, grade, choiceOf, totals, performance, evolution, latest, topicBranch, pool, snapshot, examAvailability, create, remaining, expired, score, choose, move, finish, matches, validate, exportBackup, importBackup };
 })();
 Object.assign(globalThis, { Study });

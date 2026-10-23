@@ -6,9 +6,19 @@
 4. Use **Finalizar sessão** em qualquer questão ou abra **Revisar sessão** para conferir a lista e voltar às questões que quiser (também é o próximo passo na última questão). A confirmação informa quantas questões ficarão em branco e inicia com foco em **Continuar respondendo**. Cancelar ou abrir a revisão não encerra a tentativa. Questões sem marcação passam a brancos. A correção mostra sua resposta, gabarito definitivo, resultado e links da prova e do gabarito. Explicações indisponíveis são identificadas.
 5. Em **Histórico e backup**, consulte sessões ou inicie **Revisar erros**, **Questões inéditas** ou **Revisar brancos**, quando disponíveis. Finalize uma sessão em andamento antes de iniciar outra.
 
+## Fazer o simulado completo
+
+Na escolha do objetivo, clique em **Simulado 180 questões**. Leia a composição e confirme em **Iniciar simulado**: são 90 C/E de conhecimentos básicos e 90 de específicos, sem repetição, com cinco horas para os dois blocos. Cancelar a preparação não cria sessão nem inicia o tempo. Os filtros do treino personalizado não são aplicados.
+
+O cronômetro continua ao sair da página. Use **Continuar simulado** ao voltar. Os atalhos **P1 — Conhecimentos básicos** e **P2 — Conhecimentos específicos** levam ao início de cada bloco; Anterior/Próxima também atravessam a divisão. **Revisar sessão** organiza as marcações por bloco, sem revelar correções. Resultados anteriores ficam ocultos na interface até finalizar. Backup continua disponível.
+
+O resultado calcula acerto +1, erro −1 e branco 0. Mostra nota e mínimo de cada bloco (P1: 18; P2: 27) e do total (54), verificados independentemente. Atingir apenas os mínimos dos dois blocos não assegura o mínimo total. Satisfazer os três não garante aprovação: classificação, discursiva e demais condições não são avaliadas. A sessão guarda a versão das regras usadas; alterações futuras não reescrevem notas anteriores.
+
+São questões anteriores relacionadas ao programa, sem garantia de cobertura, distribuição ou dificuldade iguais às da prova. Como o banco possui exatamente 180 C/E elegíveis, novos simulados usam as mesmas questões em outra ordem. Os 12 itens de múltipla escolha ficam disponíveis no treino personalizado. Para variar os simulados, a base precisa crescer.
+
 ## Preparar uma nova sessão
 
-No resultado, o grupo **Próximo treino** fica logo abaixo dos indicadores. **Nova sessão** retorna à seleção do concurso/cargo e limpa bloco, disciplina, assunto, origem, ano, formato, quantidade, sorteio, tempo e pontuação. O resultado anterior permanece no histórico. Você pode configurar o próximo treino com calma: outra sessão só começa ao clicar em **Iniciar questões**.
+No resultado, o grupo **Próximo treino** fica logo abaixo dos indicadores. **Nova sessão** retorna à seleção do concurso/cargo e limpa bloco, disciplina, assunto, origem, ano, formato, quantidade, sorteio, tempo e pontuação. O resultado anterior permanece no histórico. Você pode configurar o próximo treino com calma: outra sessão só começa ao clicar em **Iniciar questões** ou confirmar **Iniciar simulado**.
 
 **Revisar erros** fica no mesmo grupo quando houver questões compatíveis com erro no último resultado finalizado para o objetivo. Sem erros, uma mensagem substitui o botão. A navegação Anterior/Próxima dentro da correção serve apenas para consultar as questões dessa tentativa.
 
@@ -16,7 +26,7 @@ Se você abrir um resultado antigo enquanto responde a outro treino, **Nova sess
 
 ## Como interpretar os resultados
 
-A taxa de acerto é acertos ÷ (acertos + erros). Brancos e anulações são separados. Uma sessão inteiramente em branco não recebe um percentual artificial de 0%. A pontuação é opcional: +1 por acerto, erro zero ou −1, branco/anulação zero. Ela não altera a taxa de acerto, não aplica mínimos oficiais nem indica aprovação. Sessões antigas sem pontuação permanecem assim.
+A taxa de acerto é acertos ÷ (acertos + erros). Brancos e anulações são separados. Uma sessão inteiramente em branco não recebe um percentual artificial de 0%. No treino personalizado, a pontuação é opcional: +1 por acerto, erro zero ou −1, branco/anulação zero. Ela não altera a taxa de acerto, não aplica mínimos oficiais nem indica aprovação. Sessões antigas sem pontuação permanecem assim.
 
 A revisão de erros considera o último resultado finalizado da questão e do cargo na versão correspondente. Se você errou e depois acertou, ela sai desse conjunto. Branco não é erro. Inéditas são questões que ainda não participaram de uma sessão finalizada compatível, inclusive após mudança de versão. Apenas visitar ou marcar uma questão em sessão aberta não cria uma tentativa.
 

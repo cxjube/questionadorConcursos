@@ -109,8 +109,9 @@ class ConsolidationTests(unittest.TestCase):
         self.assertTrue(any('official annulment inventory' in e for e in validate(changed)))
 
     def test_objective_rules_transcription(self):
-        """Keep the approved-copy rules explicit without starting a scoring engine."""
+        """Keep the sourced objective rules and their version explicit."""
         rule = self.catalog['scoringRules'][0]
+        self.assertEqual(rule['version'], 1)
         self.assertEqual(rule['status'], 'confirmed')
         self.assertEqual(rule['durationMinutes'], 300)
         self.assertEqual(rule['minimumTotalScore'], 54)

@@ -39,6 +39,7 @@ const StudyUI = (() => {
     const workspace = element('study-workspace');
     const content = element('study-content');
     const start = element('start-study');
+    const examDialog = element('exam-dialog'), prepareExam = element('prepare-exam');
     const block = element('study-block');
     const discipline = element('study-discipline');
     const topic = element('study-topic');
@@ -54,6 +55,25 @@ const StudyUI = (() => {
       optionsBefore = Object.fromEntries(Object.entries(optionControls).map(([key,control])=>[key,control.type === 'checkbox' ? control.checked : control.value]));
       optionsDialog.returnValue = ''; optionsDialog.showModal(); block.focus({preventScroll:true});
       optionsDialog.scrollTop = 0; optionsDialog.querySelector('.customization-body').scrollTop = 0;
+    });
+    prepareExam.addEventListener('click',()=>{
+      if (store.state.active || store.conflict || busy) return;
+      const available = Study.examAvailability(data,selectedRole);
+      if (!available.ready) { reportError(available.reason); return; }
+      const rule = available.rule, details = element('exam-description-details');
+      element('exam-title').textContent = 'Simulado de ' + rule.blocks.reduce((n,b)=>n+b.questionCount,0) + ' questões';
+      details.replaceChildren(node('p', data.contests.find(c=>c.id===data.roles.find(r=>r.id===selectedRole).contestId).title));
+      const list = node('ul');
+      for (const b of rule.blocks) list.append(node('li',b.label + ': ' + b.questionCount + ' C/E · mínimo ' + b.minimumScore + ' pontos.'));
+      list.append(node('li','Mínimo total: ' + rule.minimumTotalScore + ' pontos.'),node('li','Duração: ' + rule.durationMinutes + ' minutos. O tempo começa ao iniciar e continua fora da página.'),node('li','Acerto +1 · erro −1 · branco 0. Gabaritos e comentários aparecem ao finalizar.'));
+      details.append(list,node('p','Os filtros do treino personalizado não se aplicam ao simulado.', 'review-note'));
+      element('exam-bank-note').textContent = available.distinct === rule.blocks.reduce((n,b)=>n+b.questionCount,0) ? 'Com a reserva atual, novos simulados reutilizam as mesmas questões em outra ordem.' : 'O sorteio usa apenas questões elegíveis de cada bloco, sem repetição dentro do simulado.';
+      examDialog.showModal();
+      examDialog.querySelector('.customization-body').scrollTop = 0;
+    });
+    element('start-exam').addEventListener('click',async()=>{
+      if (busy || store.conflict || store.state.active) return;
+      examDialog.close(); await begin('exam');
     });
     function closeOptions(apply = false) {
       const previous = optionsBefore;
@@ -134,6 +154,7 @@ const StudyUI = (() => {
         store.conflict = true;
         store.error = 'Outra aba alterou o histórico. Exporte seus dados desta página e carregue a versão mais recente antes de continuar.';
         if (optionsDialog.open) closeOptions();
+        if (examDialog.open) examDialog.close();
         refreshStart(); warning(); render(); announce(store.error);
       }
     });
@@ -197,12 +218,17 @@ const StudyUI = (() => {
       const settings = trainingSettings();
       const count = Study.pool(data, selectedRole, store.state, 'all', settings).length;
       const resume = Boolean(store.state.active);
+      const exam = Study.examAvailability(data,selectedRole);
+      prepareExam.disabled = resume || !exam.ready || Boolean(store.conflict);
+      prepareExam.textContent = exam.rule ? 'Simulado ' + exam.rule.blocks.reduce((n,b)=>n+b.questionCount,0) + ' questões' : 'Simulado indisponível';
+      element('exam-availability').hidden = resume || exam.ready;
+      element('exam-availability').textContent = exam.reason;
       quantity.max = String(Math.min(500, count));
       const invalidQuantity = quantity.validity.badInput || settings.limit !== null && (!Number.isInteger(settings.limit) || settings.limit < 1 || settings.limit > Math.min(500, count));
       const invalidTime = minutes.validity.badInput || settings.durationMinutes !== null && (!Number.isInteger(settings.durationMinutes) || settings.durationMinutes < 1 || settings.durationMinutes > 1440);
       const invalid = invalidQuantity || invalidTime;
       quantity.setAttribute('aria-invalid', String(invalidQuantity)); minutes.setAttribute('aria-invalid',String(invalidTime));
-      start.textContent = resume ? 'Continuar questões' : 'Iniciar questões';
+      start.textContent = resume ? store.state.active.mode === 'exam' ? 'Continuar simulado' : 'Continuar questões' : 'Iniciar questões';
       element('landing-history').hidden = !store.state.history.length && !resume;
       start.disabled = (!resume && (!count || invalid)) || Boolean(store.conflict);
       element('study-filters').disabled = resume || !total;
@@ -287,26 +313,50 @@ const StudyUI = (() => {
       element('finish-message').textContent = answered + ' de ' + session.items.length + ' questões com resposta. ' +
         (blanks ? blanks + (blanks === 1 ? ' ficará em branco. ' : ' ficarão em branco. ') : '') +
         (preparing ? 'Ao confirmar, esta tentativa será encerrada e você voltará à escolha do objetivo. O resultado ficará no histórico.' : 'Ao confirmar, o gabarito será exibido e você não poderá alterar esta tentativa.');
-      element('finish-title').textContent = preparing ? 'Encerrar e preparar nova sessão?' : 'Finalizar sessão?';
+      element('finish-title').textContent = preparing ? 'Encerrar e preparar nova sessão?' : session.mode === 'exam' ? 'Finalizar simulado?' : 'Finalizar sessão?';
       element('confirm-finish').textContent = preparing ? 'Salvar e escolher objetivo' : 'Finalizar e conferir';
       element('finish-dialog').showModal();
     }
     function sessionInfo(session) {
       const details = disclosure('session-info', 'Sobre esta sessão');
       details.append(node('p', session.objective), node('p', 'Você pode alterar as marcações até finalizar. O gabarito aparece ao final. As sessões são salvas neste navegador quando o armazenamento está disponível.'));
-      if (session.selection) details.append(node('p', [session.selection.block === 'basic' ? 'P1 — Conhecimentos básicos' : session.selection.block === 'specific' ? 'P2 — Conhecimentos específicos' : 'Todos os blocos', session.selection.disciplineLabel || 'Todas as disciplinas', session.selection.topicLabel || 'Todos os assuntos', session.selection.paperLabel || 'Todas as provas', session.selection.year || 'Todos os anos', session.selection.type === 'true_false' ? 'Certo ou Errado' : session.selection.type === 'multiple_choice' ? 'Múltipla escolha' : 'Todos os formatos', session.items.length + ' questões', session.selection.shuffle ? 'Seleção e ordem sorteadas' : 'Ordem do banco'].join(' · ')));
+      if (session.selection && session.mode !== 'exam') details.append(node('p', [session.selection.block === 'basic' ? 'P1 — Conhecimentos básicos' : session.selection.block === 'specific' ? 'P2 — Conhecimentos específicos' : 'Todos os blocos', session.selection.disciplineLabel || 'Todas as disciplinas', session.selection.topicLabel || 'Todos os assuntos', session.selection.paperLabel || 'Todas as provas', session.selection.year || 'Todos os anos', session.selection.type === 'true_false' ? 'Certo ou Errado' : session.selection.type === 'multiple_choice' ? 'Múltipla escolha' : 'Todos os formatos', session.items.length + ' questões', session.selection.shuffle ? 'Seleção e ordem sorteadas' : 'Ordem do banco'].join(' · ')));
       if (session.timer) details.append(node('p','Tempo limite: ' + session.timer.durationSeconds/60 + ' minutos. O tempo continua fora da página.'));
-      if (session.scoringProfile) details.append(node('p','Pontuação de treino: acerto +1; erro ' + session.scoringProfile.incorrect + '; branco e anulação 0. Sem critérios eliminatórios oficiais.'));
+      if (session.mode === 'exam') {
+        const profile = session.scoringProfile;
+        details.append(node('p','Simulado com regras do edital, perfil versão ' + profile.rule.version + '. Acerto +1; erro −1; branco 0. Apenas itens válidos, com gabarito definitivo.'),
+          sourceLink('Fonte das regras — ' + profile.rule.reference,profile.officialUrl),node('p','A composição não garante cobertura, distribuição ou dificuldade iguais às da prova. Os mínimos não garantem aprovação.','review-note'));
+      } else if (session.scoringProfile) details.append(node('p','Pontuação de treino: acerto +1; erro ' + session.scoringProfile.incorrect + '; branco e anulação 0. Sem critérios eliminatórios oficiais.'));
       if (!Study.matches(data, session)) details.append(node('p', 'Esta sessão preserva uma versão anterior do banco e seus gabaritos.', 'review-note'));
       return details;
     }
     function questionView(session, position, completed) {
       const item = session.items[position], q = item.question;
       const chosen = Study.choiceOf(session, q.id);
+      if (session.mode === 'exam') {
+        const navigation = node('div',undefined,'exam-block-navigation'); navigation.setAttribute('role','group'); navigation.setAttribute('aria-label','Blocos do simulado');
+        for (const block of session.scoringProfile.rule.blocks) {
+          const target = session.items.findIndex(i=>i.examBlockId===block.id);
+          const action = button(block.label,async()=>{
+            if (completed) {reviewPosition.set(session.id,target); render();}
+            else {
+              if (!store.state.active || Study.expired(store.state.active)) {await tick(); return;}
+              if (await commit({...store.state,active:Study.move(store.state.active,target)})) render();
+            }
+            element('current-question-heading')?.focus();
+          });
+          action.dataset.examBlock = block.id; action.setAttribute('aria-pressed',String(item.examBlockId===block.id)); action.disabled = Boolean(store.conflict); navigation.append(action);
+        }
+        content.append(navigation);
+      }
       const heading = node('div', undefined, 'question-heading');
       const title = node('h3', 'Questão ' + (position + 1) + ' de ' + session.items.length);
       title.tabIndex = -1; title.id = 'current-question-heading';
       heading.append(title, node('p', 'Prova de origem: ' + item.paper.provider + ' · ' + item.paper.institution + ' · ' + item.paper.year, 'question-meta'));
+      if (session.mode === 'exam') {
+        const block = session.scoringProfile.rule.blocks.find(b=>b.id===item.examBlockId);
+        heading.append(node('p',block.label + ' · questão ' + session.items.slice(0,position+1).filter(i=>i.examBlockId===block.id).length + ' de ' + block.questionCount,'exam-current-block'));
+      }
       content.append(heading);
       for (const context of item.contexts) {
         if (context.kind === 'instruction') {const instruction = node('p',context.text,'question-instruction'); instruction.lang = context.language || 'pt-BR'; content.append(instruction);}
@@ -407,7 +457,8 @@ const StudyUI = (() => {
       details.append(node('h4', 'Assuntos do seu edital'));
       const list = node('ul'); for (const subject of subjects) list.append(node('li', subject)); details.append(list);
       const sources = node('p', undefined, 'source-links');
-      sources.append(sourceLink('Caderno oficial — ' + q.origin.locator, item.paper.officialUrl), document.createTextNode(' · '), sourceLink('Gabarito definitivo — ' + item.key.locator, item.key.officialUrl));
+      sources.append(sourceLink('Caderno oficial — ' + q.origin.locator, item.paper.officialUrl));
+      if (completed || session.mode !== 'exam') sources.append(document.createTextNode(' · '), sourceLink('Gabarito definitivo — ' + item.key.locator, item.key.officialUrl));
       details.append(sources); content.append(details);
     }
     function resultMetrics(session) {
@@ -417,10 +468,31 @@ const StudyUI = (() => {
         const metric = node('div'); metric.append(node('dt', label), node('dd', String(value))); metrics.append(metric);
       }
       const score = Study.score(session);
-      if (score) {const metric = node('div'); metric.id = 'training-score'; metric.append(node('dt','Pontuação de treino'),node('dd',score.points + ' / ' + score.maximum)); metrics.append(metric);}
+      if (score && session.mode !== 'exam') {const metric = node('div'); metric.id = 'training-score'; metric.append(node('dt','Pontuação de treino'),node('dd',score.points + ' / ' + score.maximum)); metrics.append(metric);}
       if (totals.annulled) metrics.append(node('div', undefined, 'annulled-metric'));
       if (totals.annulled) metrics.lastChild.append(node('dt', 'Anuladas/retiradas'), node('dd', String(totals.annulled)));
       return metrics;
+    }
+    function examResults(session) {
+      const score = Study.score(session), counts = Study.totals(session);
+      const section = node('section',undefined,'exam-results'); section.id = 'exam-results';
+      section.append(node('h3','Resultado do simulado'),node('p',score.meetsMinimums ? 'Você atingiu os três mínimos objetivos neste simulado.' : 'Você não atingiu todos os mínimos objetivos neste simulado.','exam-outcome'));
+      const cards = node('div',undefined,'exam-score-cards');
+      for (const block of [...score.blocks,{id:'total',label:'Nota total',...counts,points:score.points,maximum:score.maximum,minimum:score.minimum,met:score.totalMet}]) {
+        const card = node('section',undefined,'exam-score-card'); card.dataset.resultBlock = block.id;
+        card.append(node('h4',block.label));
+        const values = node('dl');
+        for (const [label,value] of [['Nota líquida',block.points + ' / ' + block.maximum],['Mínimo',block.minimum + ' pontos']]) {
+          const pair = node('div');pair.append(node('dt',label),node('dd',String(value)));values.append(pair);
+        }
+        card.append(values,node('p',block.met ? 'Mínimo atingido' : 'Mínimo não atingido',block.met ? 'exam-minimum met' : 'exam-minimum unmet'),
+          node('p',amount(block.correct,'acerto','acertos') + ' · ' + amount(block.incorrect,'erro','erros') + ' · ' + block.blank + ' em branco','review-note'));
+        cards.append(card);
+      }
+      const elapsed = Math.min(session.timer.durationSeconds,Math.max(0,Math.floor((Date.parse(session.finishedAt)-Date.parse(session.startedAt))/1000)));
+      section.append(cards,node('p','Tempo utilizado: ' + clockText(elapsed) + ' · Acertos entre respostas válidas: ' + (counts.rate === null ? 'sem respostas.' : counts.rate + '%.')),
+        node('p','Atingir os mínimos não garante aprovação. Classificação, discursiva e demais critérios do concurso não são avaliados aqui.','review-note'));
+      return section;
     }
     function resultActions(session) {
       const section = node('section', undefined, 'result-next-steps');
@@ -521,6 +593,13 @@ const StudyUI = (() => {
       content.append(node('h3', 'Confira suas marcações'), node('p', marked + ' com resposta · ' + blank + ' em branco · ' + missing + ' sem marcação.', 'review-summary'));
       content.append(node('p', 'Selecione uma questão para voltar e alterar a resposta. O gabarito continua oculto.', 'review-note'));
       const list = node('ol', undefined, 'question-map');
+      const examGroups = new Map();
+      if (session.mode === 'exam') for (const block of session.scoringProfile.rule.blocks) {
+        const details = disclosure('exam-map-' + block.id,block.label,'support-details exam-question-group');
+        details.open = disclosureState.has('exam-map-' + block.id) ? details.open : session.items[session.position].examBlockId === block.id;
+        const questions = node('ol',undefined,'question-map exam-question-map'); questions.setAttribute('aria-label',block.label);
+        details.append(questions); examGroups.set(block.id,{details,questions});
+      }
       session.items.forEach((item, index) => {
         const answer = session.answers.find(a => a.questionId === item.question.id);
         const label = !answer ? 'Sem marcação' : answer.value === null ? 'Em branco' : 'Marcada: ' + answerLabel(item, answer.value);
@@ -528,14 +607,16 @@ const StudyUI = (() => {
           if (Study.expired(session)) { await tick(); return; }
           if (await commit({...store.state, active: Study.move(session, index)})) { view = 'active'; render(); element('current-question-heading')?.focus(); }
         }); action.className = answer && answer.value !== null ? 'review-marked' : 'review-pending'; action.disabled = Boolean(store.conflict);
-        const row = node('li'); row.append(action); list.append(row);
+        if (session.mode === 'exam') {action.setAttribute('aria-label',action.textContent); action.textContent = (index+1) + ' · ' + label;}
+        const row = node('li'); row.append(action); (examGroups.get(item.examBlockId)?.questions || list).append(row);
       });
-      content.append(list);
+      if (session.mode !== 'exam') content.append(list);
       const finishArea = node('section', undefined, 'finish-area');
       finishArea.append(node('p', missing ? missing + (missing === 1 ? ' questão sem marcação será registrada em branco.' : ' questões sem marcação serão registradas em branco.') : 'As marcações serão encerradas e o gabarito será exibido.'));
       const actions = node('div', undefined, 'study-actions');
       actions.append(button('Voltar às questões', () => {view = 'active'; render(); element('current-question-heading')?.focus();}));
       const finish = button('Finalizar sessão', requestFinish, true); finish.id = 'finish-study'; finish.disabled = Boolean(store.conflict); actions.append(finish); finishArea.append(actions); content.append(finishArea);
+      for (const {details} of examGroups.values()) content.append(details);
     }
     function renderHistory() {
       const backup = disclosure('backup', 'Backup e recuperação', 'support-details backup-tools');
@@ -573,6 +654,10 @@ const StudyUI = (() => {
           }
         }); confirm.id = 'confirm-import'; preview.append(confirm, button('Cancelar importação', () => { importCandidate = null; render(); })); backup.append(preview);
       }
+      if (store.state.active?.mode === 'exam') {
+        content.append(node('p','O simulado está em andamento. Os resultados anteriores ficam ocultos até finalizar. Você pode guardar um backup ou retomar as questões.','review-note'),backup);
+        return;
+      }
       const reviewActions = node('div', undefined, 'study-actions');
       let hasPrimary = Boolean(store.state.active);
       for (const [mode, label] of [['errors','Revisar erros'], ['unanswered','Questões inéditas'], ['blank','Revisar brancos']]) {
@@ -589,7 +674,9 @@ const StudyUI = (() => {
       const list = node('ul', undefined, 'session-list');
       for (const session of [...store.state.history].sort((a,b) => b.finishedAt.localeCompare(a.finishedAt))) {
         const li = node('li');
-        li.append(node('strong', date(session.finishedAt)), node('p', data.contests.find(c => c.id === session.contestId)?.title || session.objective, 'review-note'), node('p', summary(session)), button('Rever respostas', () => {viewedSession = session.id; view = 'results'; render(); content.focus();})); list.append(li);
+        li.append(node('strong', date(session.finishedAt)), node('p', (session.mode === 'exam' ? 'Simulado · ' : 'Treino · ') + (data.contests.find(c => c.id === session.contestId)?.title || session.objective), 'review-note'), node('p', summary(session)));
+        if (session.mode === 'exam') {const score = Study.score(session); li.append(node('p','Nota líquida: ' + score.points + '/' + score.maximum + ' · ' + (score.meetsMinimums ? 'Três mínimos atingidos' : 'Mínimos não atingidos')));}
+        li.append(button('Rever respostas', () => {viewedSession = session.id; view = 'results'; render(); content.focus();})); list.append(li);
       }
       content.append(list, backup);
       const danger = disclosure('delete-progress', 'Apagar dados locais');
@@ -607,18 +694,18 @@ const StudyUI = (() => {
         const clock = node('p','Tempo restante · ' + clockText(Study.remaining(active)),'training-clock');
         clock.id='study-timer'; clock.setAttribute('role','timer'); clock.setAttribute('aria-live','off'); content.append(clock);
       }
-      element('study-title').textContent = view === 'history' ? 'Histórico' : view === 'results' ? 'Resultado' : view === 'review' ? 'Revisar sessão' : 'Treino';
+      element('study-title').textContent = view === 'history' ? 'Histórico' : view === 'results' ? 'Resultado' : view === 'review' ? 'Revisar sessão' : active?.mode === 'exam' ? 'Simulado' : 'Treino';
       if (view === 'history') { renderHistory(); return; }
       if (view === 'review') { renderReview(); return; }
       const session = view === 'results' ? store.state.history.find(s => s.id === viewedSession) : store.state.active;
       if (!session) { view = 'history'; renderHistory(); return; }
       const objective = data.contests.find(c => c.id === session.contestId)?.title || 'Objetivo salvo nesta sessão';
-      content.append(node('p', 'Treino para ' + objective, 'study-kicker'));
+      content.append(node('p', (session.mode === 'exam' ? 'Simulado para ' : 'Treino para ') + objective, 'study-kicker'));
       if (session.finishedAt) {
         if (session.finishReason === 'time_limit') content.append(node('p','Tempo encerrado. Questões sem resposta foram registradas em branco.','review-note'));
-        content.append(resultMetrics(session));
+        content.append(session.mode === 'exam' ? examResults(session) : resultMetrics(session));
         const explanation = disclosure('score-help', 'Como o resultado é calculado');
-        explanation.append(node('p', summary(session)), node('p', session.scoringProfile ? 'Pontuação de treino: acerto +1; erro ' + session.scoringProfile.incorrect + '; branco e anulação 0. Não é uma nota oficial nem aplica os mínimos da Câmara. A taxa de acerto considera apenas acertos e erros.' : 'Este treino não tem pontuação de concurso. A taxa usa acertos e erros; brancos e anulações ficam separados. Sem respostas válidas, não há percentual.'));
+        explanation.append(node('p', summary(session)), node('p', session.mode === 'exam' ? 'Nota por bloco = acertos − erros. Brancos valem zero. A nota total soma os dois blocos; os mínimos de cada bloco e do total são verificados independentemente conforme o perfil salvo nesta sessão. A taxa de acerto considera apenas acertos e erros. Esta é uma seleção de treino com regras do edital, não uma reprodução histórica da prova.' : session.scoringProfile ? 'Pontuação de treino: acerto +1; erro ' + session.scoringProfile.incorrect + '; branco e anulação 0. Não é uma nota oficial nem aplica os mínimos da Câmara. A taxa de acerto considera apenas acertos e erros.' : 'Este treino não tem pontuação de concurso. A taxa usa acertos e erros; brancos e anulações ficam separados. Sem respostas válidas, não há percentual.'));
         content.append(resultActions(session), performanceView([session], session.roleId, 'session-' + session.id), explanation);
       } else {
         const progress = node('div', undefined, 'session-progress');

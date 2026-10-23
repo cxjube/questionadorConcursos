@@ -51,11 +51,11 @@ ABDI e CGU permanecem `planned`, sem cargos específicos, editais ou regras cada
 
 ## Pontuação
 
-Cada perfil identifica edital, cargo, documento e localização da regra. Blocos declaram tipo, quantidade de questões, valores de acerto, erro e branco, além de mínimos opcionais. Os valores são obrigatórios e explícitos; não há fórmula padrão inferida da banca.
+Cada perfil identifica edital, cargo, documento e localização da regra, com `version` inteiro positivo obrigatório. Uma alteração das regras exige incremento da versão; o catálogo guarda a versão ativa de cada perfil. Blocos declaram tipo, quantidade de questões, valores de acerto, erro e branco, além de mínimos opcionais. Os valores são obrigatórios e explícitos; não há fórmula padrão inferida da banca.
 
-Anulações têm política `exclude`, `credit` ou `fixed`. Somente `fixed` recebe `annulledPoints`. Duração e mínimo total podem ser nulos quando não aplicáveis ou ainda não representados. Há um perfil `confirmed` para as objetivas do Cargo 1 da Câmara, transcrito do Edital nº 1 e cotejado com a abertura atualizada oficial. Ele ainda não executa pontuação.
+Anulações têm política `exclude`, `credit` ou `fixed`. Somente `fixed` recebe `annulledPoints`. Duração e mínimo total podem ser nulos quando não aplicáveis ou ainda não representados. Há um perfil `confirmed` para as objetivas do Cargo 1 da Câmara, transcrito do Edital nº 1 e cotejado com a abertura atualizada oficial. O modo de simulado utiliza esse perfil confirmado, preservado integralmente no snapshot da sessão.
 
-O contrato prevê perfis objetivos por bloco. Não executa cálculo, distribuição de questões, eliminação ou simulado. Regras mais complexas deverão ser modeladas e testadas com os documentos antes da implementação do motor.
+O motor atual executa apenas perfis confirmados compatíveis com P1/P2, C/E, +1/−1/0 e duração/mínimos explícitos. A avaliação dos mínimos é uma comparação de treino, sem declarar eliminação/aprovação real. Outros formatos de perfil exigem implementação e testes próprios; não se infere fórmula pela banca.
 
 ## Pipeline e publicação
 
@@ -141,6 +141,18 @@ O progresso e o backup continuam na versão 1, com campos opcionais para aceitar
 `timer` ausente ou null indica ausência de limite. Quando presente, contém `durationSeconds` (60 a 86400, múltiplo de 60) e `deadlineAt` (UTC ISO, exatamente início + duração). A retomada não recalcula o prazo. A função pura de marcação recusa respostas no prazo ou depois dele. A interface encerra ao esgotar, inclusive ao voltar à página ou restaurar um backup vencido. `finishReason` identifica `manual` ou `time_limit`; o segundo registra `finishedAt` igual ao prazo, sem adiar o fim para a hora de reabertura. A finalização é idempotente. O relógio é local ao dispositivo.
 
 `scoringProfile` continua null para todo treino antigo/sem pontuação. A opção personalizada guarda `{version:1, kind:'custom', correct:1, incorrect:0|-1, blank:0, annulled:0}`. Os dois perfis são escolhas de estudo, independentes de `scoringRules` do catálogo. Não incorporam mínimos, pesos por bloco ou classificação. A pontuação é recalculada dos gabaritos e respostas do snapshot; números de resultado importados não são usados. A taxa e os agregados históricos não mudam de definição. Perfis personalizados inválidos são rejeitados na restauração.
+
+## Simulado com perfil do edital
+
+`mode: 'exam'` é separado dos quatro modos de treino. Sua criação não aceita filtros, quantidade, prazo ou pontuação personalizados. `Study.examAvailability` cruza apenas questões oficiais liberadas com gabarito oficial definitivo confirmado e válido, formato C/E e vínculos confirmados ao cargo/bloco de destino. Exige capacidade em cada bloco e na união de IDs. Itens exclusivos são alocados primeiro; compartilhados preenchem as capacidades restantes sem repetição. Dentro de cada bloco há sorteio de ordem, com alternativas, contextos e origens intactos. A posição de P1 vem antes de P2.
+
+O perfil da sessão é `{version:1, kind:'official_rules', rule:<cópia integral de scoringRules>, officialUrl:<fonte>}`. `rule.version` identifica a revisão dos critérios do edital; a versão externa identifica o formato do snapshot. Cada item recebe `examBlockId: 'p1'|'p2'`, distinto do bloco da prova de origem. Os vínculos continuam completos para os agregados de desempenho, mas a pontuação usa somente a alocação única do simulado.
+
+O prazo é obrigatório e igual à duração do perfil; a seleção salva fixa formato C/E, quantidade total, sorteio e filtros nulos. O cálculo retorna nota e máximo por bloco/total, mínimo e estado independente de cada critério. Os três precisam ser satisfeitos; não se infere aprovação ou classificação. Somente questões válidas entram no simulado; itens anulados/retirados não são sorteados nem recebem resposta inventada. A política canônica de anulação continua registrada para a prova oficial, sem alegar reprodução histórica com itens anulados.
+
+Ao restaurar, o validador confere perfil, prazo, quantidade e ordem/alocação dos blocos, formato, unicidade e vínculos compatíveis. IDs de perfil desconhecidos e versões futuras são rejeitados. Na versão atual, as regras e URL devem coincidir com o catálogo; versões anteriores conhecidas são preservadas como snapshots históricos, sem aplicar regras novas. Se a revisão do catálogo coincide, os vínculos também são comparados com os canônicos. Resultados são sempre derivados; contadores ou notas anexados ao backup não são aceitos como cálculo.
+
+Backups v1 e treinos antigos continuam compatíveis. Histórico de simulado guarda os mesmos snapshots de conteúdo, com o perfil próprio; notas oficiais não são atribuídas a treinos anteriores. Na interface, correções e resultados anteriores ficam ocultos durante o simulado. Isso evita exposição casual; os arquivos estáticos e backups contêm os gabaritos, portanto não há isolamento de segurança ou fiscalização de prova.
 
 ## Idioma, bloco e evolução por período
 

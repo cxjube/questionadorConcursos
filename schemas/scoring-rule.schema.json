@@ -5,6 +5,7 @@
   "additionalProperties": false,
   "required": [
     "id",
+    "version",
     "noticeId",
     "roleId",
     "status",
@@ -15,6 +16,7 @@
     "blocks"
   ],
   "properties": {
+    "version": {"type": "integer", "minimum": 1},
     "id": {
       "type": "string",
       "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"

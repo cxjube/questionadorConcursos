@@ -12,15 +12,15 @@
         if (theme === 'light' || theme === 'dark') document.documentElement.setAttribute('data-theme', theme);
       } catch (_) { /* Blocked storage must not prevent startup. */ }
     </script>
-    <link rel="stylesheet" href="assets/css/styles.css?v=14">
+    <link rel="stylesheet" href="assets/css/styles.css?v=15">
     <script defer src="assets/js/types.js?v=4"></script>
     <script defer src="assets/js/storage.js?v=4"></script>
     <script defer src="assets/js/theme.js?v=4"></script>
     <script defer src="assets/js/catalog.js?v=4"></script>
-    <script defer src="data/catalog.js?v=17"></script>
-    <script defer src="assets/js/study.js?v=15"></script>
+    <script defer src="data/catalog.js?v=18"></script>
+    <script defer src="assets/js/study.js?v=16"></script>
     <script defer src="assets/js/progress.js?v=4"></script>
-    <script defer src="assets/js/study-ui.js?v=15"></script>
+    <script defer src="assets/js/study-ui.js?v=16"></script>
     <script defer src="assets/js/main.js?v=4"></script>
   </head>
   <body>
@@ -68,9 +68,11 @@
         <div class="landing-actions">
           <button id="customize-study" type="button" aria-haspopup="dialog" aria-controls="study-options">Personalizar treino</button>
           <button id="start-study" type="button" class="primary" disabled>Iniciar questões</button>
+          <button id="prepare-exam" type="button" aria-haspopup="dialog" aria-controls="exam-dialog" aria-describedby="exam-availability" disabled>Preparar simulado</button>
           <button id="landing-history" type="button" class="quiet-button" hidden>Histórico e desempenho</button>
         </div>
         <p id="study-selection-summary" class="review-note" hidden></p>
+        <p id="exam-availability" class="review-note" hidden></p>
         <details class="support-details"><summary>Sobre este objetivo</summary><p id="provider" class="review-note"></p><p id="contest-status"></p></details>
        </div>
        <div id="study-workspace" hidden>
@@ -94,7 +96,7 @@
       <section id="rules-section" class="panel" role="tabpanel" aria-labelledby="rules-tab" tabindex="0" hidden>
         <h2 id="rules-heading">Regras das provas objetivas</h2>
         <div id="rules"></div>
-        <p id="rules-caution" class="review-note">Estes são os critérios da prova oficial. O treino do Questionador não aplica esses mínimos. Atingi-los não garante aprovação: também valem os limites de classificação e as demais regras do edital.</p>
+        <p id="rules-caution" class="review-note">Estes são os critérios da prova oficial. O simulado completo verifica os mínimos; o treino personalizado não os aplica. Atingi-los não garante aprovação: também valem os limites de classificação e as demais regras do edital.</p>
       </section>
       <section id="consolidation-section" class="panel" role="tabpanel" aria-labelledby="consolidation-tab" tabindex="0" hidden>
         <h2 id="consolidation-heading">Editais</h2>
@@ -161,6 +163,19 @@
       </div>
     </dialog>
 
+    <dialog id="exam-dialog" class="customization-dialog exam-dialog" aria-labelledby="exam-title" aria-describedby="exam-description">
+      <div class="customization-header"><h2 id="exam-title">Simulado de 180 questões</h2></div>
+      <div class="customization-body">
+      <p id="exam-description">Questões de provas anteriores, com quantidade, prazo e critérios de pontuação do edital selecionado.</p>
+      <div id="exam-description-details"></div>
+      <p class="review-note">O banco não cobre todo o programa nem garante distribuição ou dificuldade iguais às da prova.</p>
+      <p id="exam-bank-note" class="review-note"></p>
+      </div>
+      <div class="study-actions customization-actions">
+        <button type="button" data-close-dialog autofocus>Voltar ao treino</button>
+        <button id="start-exam" type="button" class="primary">Iniciar simulado</button>
+      </div>
+    </dialog>
     <dialog id="finish-dialog" aria-labelledby="finish-title" aria-describedby="finish-message">
       <h2 id="finish-title">Finalizar sessão?</h2>
       <p id="finish-message"></p>
