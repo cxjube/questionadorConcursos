@@ -1,6 +1,6 @@
 # Como estudar e guardar o progresso
 
-1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. Neste lançamento, o objetivo disponível é Câmara — Comunicação Social — Divulgação Institucional, com 20 questões de provas anteriores relacionadas.
+1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. O objetivo disponível é Câmara — Comunicação Social — Divulgação Institucional, com 32 questões de provas anteriores relacionadas.
 2. Marque sua resposta ou **Deixar em branco**. Use **Anterior** e **Próxima** para navegar; **Próxima** é a ação principal. **Limpar marcação** remove uma escolha provisória. Você pode alterar respostas até finalizar.
 3. Ao sair e voltar, use **Continuar questões**. A posição e as marcações são retomadas quando o navegador permitiu o salvamento.
 4. Abra **Revisar sessão** (também é o próximo passo na última questão). Confira a lista, volte às questões que quiser e então use **Finalizar sessão** e confirme. Abrir essa revisão não encerra a tentativa. Questões sem marcação passam a brancos. A correção mostra sua resposta, gabarito definitivo, resultado e links da prova e do gabarito. Explicações indisponíveis são identificadas.
@@ -13,6 +13,16 @@ A taxa de acerto é acertos ÷ (acertos + erros). Brancos e anulações são sep
 A revisão de erros considera o último resultado finalizado da questão e do cargo na versão correspondente. Se você errou e depois acertou, ela sai desse conjunto. Branco não é erro. Inéditas são questões que ainda não participaram de uma sessão finalizada compatível, inclusive após mudança de versão. Apenas visitar ou marcar uma questão em sessão aberta não cria uma tentativa.
 
 As questões mantêm a identificação de suas provas de origem. Os vínculos com o edital da Câmara indicam compatibilidade temática; as questões não foram retiradas de uma prova da Câmara. O lote não cobre todo o edital.
+
+## Personalizar o treino
+
+Antes de iniciar, abra **Personalizar treino**. Escolha uma disciplina e, se desejar, um assunto: o recorte inclui seus subtópicos. Os números nas opções indicam questões distintas, sem multiplicar uma questão por seus vínculos. Disciplinas sem itens ficam desabilitadas; assuntos sem itens não aparecem na seleção. Consulte Programa para ver o edital completo.
+
+Preencha **Quantidade de questões** ou deixe vazio para usar todas as disponíveis. Um pedido maior que a oferta bloqueia o início e informa o limite, sem repetir questões. Marque **Sortear questões e ordem** para variar a seleção; sem essa opção, usa-se a ordem do banco. O sorteio nunca altera alternativas, comandos ou textos de apoio. **Limpar filtros** retorna à seleção completa.
+
+Ao iniciar, as questões e sua ordem ficam salvas. Retomar mantém a mesma sessão, mesmo que você consulte outro objetivo. Os filtros ficam bloqueados enquanto houver sessão em andamento. A seleção original aparece em **Sobre esta sessão** e acompanha o backup; backups anteriores sem esses metadados continuam compatíveis.
+
+Os atalhos de revisão de erros, brancos e inéditas usam o objetivo e o histórico, sem herdar os filtros do treino. Treino personalizado continua sem cronômetro ou pontuação oficial de concurso.
 
 ## Exportar e restaurar
 

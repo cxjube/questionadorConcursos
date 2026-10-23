@@ -2641,6 +2641,366 @@
         "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
         "decisionReference": "documentation/first-batch-release.md"
       }
+    },
+    {
+      "id": "232funprespexe-002-01-q062",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O fluxo de comunicação descendente leva as informações da base da organização para o comando hierárquico.",
+      "options": [],
+      "contextIds": [
+        "funpresp-fluxos"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-002-01",
+        "number": 62,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "232funprespexe-002-01-q062-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/second-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-002-01-q084",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O planejamento de comunicação organizacional desconsidera as definições de missão, visão e valores voltados à comunicação.",
+      "options": [],
+      "contextIds": [
+        "funpresp-planejamento"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-002-01",
+        "number": 84,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "232funprespexe-002-01-q084-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/second-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-002-01-q085",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Deve-se evitar o detalhamento da avaliação das necessidades de comunicação durante a elaboração do planejamento de comunicação organizacional, especialmente no caso de tais necessidades serem de conhecimento prévio da organização.",
+      "options": [],
+      "contextIds": [
+        "funpresp-planejamento"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-002-01",
+        "number": 85,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "232funprespexe-002-01-q085-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/second-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-002-01-q090",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O inter-relacionamento entre áreas de recursos humanos e relações públicas em uma organização potencializa a comunicação interna desta e fortalece seu planejamento estratégico.",
+      "options": [],
+      "contextIds": [
+        "funpresp-rh"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-002-01",
+        "number": 90,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "232funprespexe-002-01-q090-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/second-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-002-01-q091",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A principal função do profissional de relações públicas na área de recursos humanos consiste em preparar informativos, boletins e outros tipos de comunicação interna.",
+      "options": [],
+      "contextIds": [
+        "funpresp-rh"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-002-01",
+        "number": 91,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "232funprespexe-002-01-q091-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/second-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-002-01-q092",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Conversas informais e reuniões grupais são os instrumentos de comunicação interna mais adequados para que a alta gestão transmita mensagens corporativas a seus colaboradores.",
+      "options": [],
+      "contextIds": [
+        "funpresp-instrumentos"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-002-01",
+        "number": 92,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "232funprespexe-002-01-q092-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/second-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-002-01-q093",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Os instrumentos de comunicação interna podem ser formais, como relatórios administrativos, memorandos, manuais de políticas e procedimentos, ou informais, como conversas com colegas e reuniões informais com o superior.",
+      "options": [],
+      "contextIds": [
+        "funpresp-instrumentos"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-002-01",
+        "number": 93,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "232funprespexe-002-01-q093-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/second-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-002-01-q096",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Na decisão sobre os meios de comunicação interna a serem utilizados por uma organização, o conteúdo da mensagem, a forma como ela será entregue e seu público-alvo devem ser considerados.",
+      "options": [],
+      "contextIds": [
+        "funpresp-instrumentos"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-002-01",
+        "number": 96,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "232funprespexe-002-01-q096-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/second-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-002-01-q097",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A premissa de que todos os cidadãos têm direito de acesso à mesma informação garante que todas as informações, simples ou complexas, sejam divulgadas por meios de comunicação massiva.",
+      "options": [],
+      "contextIds": [
+        "funpresp-publica"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-002-01",
+        "number": 97,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "232funprespexe-002-01-q097-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/second-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-002-01-q098",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A comunicação pública é um processo comunicativo que se estabelece entre o Estado, o governo e a sociedade, com o objetivo de promover a construção da cidadania.",
+      "options": [],
+      "contextIds": [
+        "funpresp-publica"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-002-01",
+        "number": 98,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "232funprespexe-002-01-q098-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/second-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-002-01-q099",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Cabe à comunicação pública informar o público a respeito da prestação de serviços das instituições públicas, sem que isso as torne conhecidas.",
+      "options": [],
+      "contextIds": [
+        "funpresp-publica"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-002-01",
+        "number": 99,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "232funprespexe-002-01-q099-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/second-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-002-01-q100",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Uma instituição, ao utilizar a comunicação pública em ações voltadas ao interesse público, deve buscar conhecer as características, expectativas e necessidades dos cidadãos, bem como planejar e definir os instrumentos adequados para executar tais ações.",
+      "options": [],
+      "contextIds": [
+        "funpresp-publica"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-002-01",
+        "number": 100,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "232funprespexe-002-01-q100-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual, sem atualização silenciosa do enunciado ou do gabarito histórico.",
+        "decisionReference": "documentation/second-batch-release.md"
+      }
     }
   ],
   "answerKeys": [
@@ -2903,6 +3263,162 @@
       "locator": "PDF p. 1",
       "result": "valid",
       "value": "b"
+    },
+    {
+      "id": "232funprespexe-002-01-q062-key-v1",
+      "questionId": "232funprespexe-002-01-q062",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "232funprespexe-002-01-q084-key-v1",
+      "questionId": "232funprespexe-002-01-q084",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "232funprespexe-002-01-q085-key-v1",
+      "questionId": "232funprespexe-002-01-q085",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "232funprespexe-002-01-q090-key-v1",
+      "questionId": "232funprespexe-002-01-q090",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "232funprespexe-002-01-q091-key-v1",
+      "questionId": "232funprespexe-002-01-q091",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "232funprespexe-002-01-q092-key-v1",
+      "questionId": "232funprespexe-002-01-q092",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "232funprespexe-002-01-q093-key-v1",
+      "questionId": "232funprespexe-002-01-q093",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "232funprespexe-002-01-q096-key-v1",
+      "questionId": "232funprespexe-002-01-q096",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "232funprespexe-002-01-q097-key-v1",
+      "questionId": "232funprespexe-002-01-q097",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "232funprespexe-002-01-q098-key-v1",
+      "questionId": "232funprespexe-002-01-q098",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "232funprespexe-002-01-q099-key-v1",
+      "questionId": "232funprespexe-002-01-q099",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "232funprespexe-002-01-q100-key-v1",
+      "questionId": "232funprespexe-002-01-q100",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
     }
   ],
   "explanations": [],
@@ -5798,6 +6314,90 @@
       "syllabusItemId": "camara-2026-comunicacao-social-3-3",
       "justification": "Avalia estratégias de gestão da comunicação de crise em instituições públicas.",
       "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-002-01-q062-mapping-1",
+      "questionId": "232funprespexe-002-01-q062",
+      "syllabusItemId": "camara-2026-comunicacao-social-4-4",
+      "justification": "Avalia o sentido do fluxo descendente na comunicação organizacional.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-002-01-q084-mapping-1",
+      "questionId": "232funprespexe-002-01-q084",
+      "syllabusItemId": "camara-2026-comunicacao-social-4-3",
+      "justification": "Avalia a relação entre planejamento estratégico de comunicação e missão, visão e valores.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-002-01-q085-mapping-1",
+      "questionId": "232funprespexe-002-01-q085",
+      "syllabusItemId": "camara-2026-comunicacao-social-4-3",
+      "justification": "Avalia o diagnóstico de necessidades no planejamento de comunicação organizacional.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-002-01-q090-mapping-1",
+      "questionId": "232funprespexe-002-01-q090",
+      "syllabusItemId": "camara-2026-comunicacao-social-2-1",
+      "justification": "Avalia a função da comunicação interna na integração entre recursos humanos e relações públicas.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-002-01-q091-mapping-1",
+      "questionId": "232funprespexe-002-01-q091",
+      "syllabusItemId": "camara-2026-comunicacao-social-2-1",
+      "justification": "Avalia a delimitação das funções de relações públicas na comunicação interna.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-002-01-q092-mapping-1",
+      "questionId": "232funprespexe-002-01-q092",
+      "syllabusItemId": "camara-2026-comunicacao-social-2-2",
+      "justification": "Avalia a adequação de instrumentos e canais de comunicação interna à alta gestão.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-002-01-q093-mapping-1",
+      "questionId": "232funprespexe-002-01-q093",
+      "syllabusItemId": "camara-2026-comunicacao-social-2-2",
+      "justification": "Distingue instrumentos formais e informais da comunicação interna.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-002-01-q096-mapping-1",
+      "questionId": "232funprespexe-002-01-q096",
+      "syllabusItemId": "camara-2026-comunicacao-social-2-2",
+      "justification": "Avalia critérios de escolha dos meios e canais de comunicação interna.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-002-01-q097-mapping-1",
+      "questionId": "232funprespexe-002-01-q097",
+      "syllabusItemId": "camara-2026-comunicacao-social-7-1",
+      "justification": "Avalia a relação entre acesso à informação e adequação dos meios na comunicação pública.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-002-01-q098-mapping-1",
+      "questionId": "232funprespexe-002-01-q098",
+      "syllabusItemId": "camara-2026-comunicacao-social-7-1",
+      "justification": "Avalia o conceito de comunicação pública e sua finalidade de construção da cidadania.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-002-01-q099-mapping-1",
+      "questionId": "232funprespexe-002-01-q099",
+      "syllabusItemId": "camara-2026-comunicacao-social-7-1",
+      "justification": "Avalia a finalidade informativa da comunicação pública sobre os serviços das instituições.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-002-01-q100-mapping-1",
+      "questionId": "232funprespexe-002-01-q100",
+      "syllabusItemId": "camara-2026-comunicacao-social-7-1",
+      "justification": "Avalia o planejamento da comunicação pública a partir das necessidades dos cidadãos.",
+      "status": "confirmed"
     }
   ],
   "scoringRules": [
@@ -6031,6 +6631,51 @@
       "text": "Desde 2019, tramita na Assembleia Legislativa do estado Ceará um projeto de lei para proibir os canudos plásticos em todo o estado. Em Fortaleza, uma lei municipal com tal proibição já está em vigor. Questionado, o secretário de Estado do meio ambiente, assim se manifestou: “Somos favoráveis que a legislação, não só no Ceará, mas também em todo o Brasil, proíba o canudo plástico. Porém, mais importante do que a própria lei, é a sua eficácia. É preciso uma nova mentalidade de consumo. Estamos tentando fazer isso com o Selo Empresa Sustentável, que premia empresas com boas práticas de desenvolvimento sustentável. É uma boa alternativa”. Redação. Alunos da rede pública criam canudo ecológico a partir da cana de açúcar no interior. Diário do Nordeste, 5 jun. 2020. Internet: <https://diariodonordeste.verdesmares.com.br> (com adaptações).",
       "sourceDocumentId": "source-539-alce-016-01-paper",
       "sourcePage": 1,
+      "revision": 1
+    },
+    {
+      "id": "funpresp-fluxos",
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "Julgue os próximos itens, relativos às estratégias e técnicas de comunicação organizacional.",
+      "sourceDocumentId": "source-232funprespexe-002-01-paper",
+      "sourcePage": 1,
+      "revision": 1
+    },
+    {
+      "id": "funpresp-planejamento",
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "Julgue os itens que se seguem, relativos a planejamento de comunicação organizacional.",
+      "sourceDocumentId": "source-232funprespexe-002-01-paper",
+      "sourcePage": 2,
+      "revision": 1
+    },
+    {
+      "id": "funpresp-rh",
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "No que se refere a relações públicas e recursos humanos, julgue os seguintes itens.",
+      "sourceDocumentId": "source-232funprespexe-002-01-paper",
+      "sourcePage": 2,
+      "revision": 1
+    },
+    {
+      "id": "funpresp-instrumentos",
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "Acerca dos instrumentos de comunicação interna e de comunicação digital, julgue os itens seguintes.",
+      "sourceDocumentId": "source-232funprespexe-002-01-paper",
+      "sourcePage": 2,
+      "revision": 1
+    },
+    {
+      "id": "funpresp-publica",
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "Acerca da comunicação pública, julgue os itens a seguir.",
+      "sourceDocumentId": "source-232funprespexe-002-01-paper",
+      "sourcePage": 2,
       "revision": 1
     }
   ]

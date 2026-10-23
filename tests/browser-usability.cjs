@@ -9,6 +9,7 @@ const key = 'questionador-concursos.progress.v1';
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto(base);await page.locator('#start-study:not([disabled])').waitFor();
   await page.locator('#start-study').click();
+  const total = await page.evaluate(key=>JSON.parse(localStorage.getItem(key)).progress.active.items.length,key);
   const startState = await page.evaluate(key=>localStorage.getItem(key),key);
   assert.equal(await page.locator('#next-question').innerText(),'Próxima');
   assert.equal(await page.locator('#next-question').evaluate(el=>el.classList.contains('primary')),true);
@@ -28,7 +29,7 @@ const key = 'questionador-concursos.progress.v1';
   await page.waitForFunction(key=>JSON.parse(localStorage.getItem(key)).progress.active.position===1,key);
   const beforeReview = await page.evaluate(key=>localStorage.getItem(key),key);
   await page.locator('#review-study').click();
-  assert.equal(await page.locator('.question-map button').count(),20);
+  assert.equal(await page.locator('.question-map button').count(),total);
   assert.equal(await page.locator('.correction').count(),0);
   assert.equal(await page.evaluate(key=>localStorage.getItem(key),key),beforeReview);
   await page.locator('.question-map button').first().click();
@@ -39,9 +40,9 @@ const key = 'questionador-concursos.progress.v1';
   assert.equal(await page.evaluate(key=>JSON.parse(localStorage.getItem(key)).progress.history.length,key),0);
   await page.getByRole('button',{name:'Voltar às questões',exact:true}).click();
   // Reaching the last question opens review; it cannot finalize a session.
-  for(let i=0;i<19;i++) {
+  for(let i=0;i<total-1;i++) {
    await page.locator('#next-question').click();
-   await page.waitForFunction(position=>document.getElementById('current-question-heading')?.textContent==='Questão '+position+' de 20',i+2);
+   await page.waitForFunction(({position,total})=>document.getElementById('current-question-heading')?.textContent==='Questão '+position+' de '+total,{position:i+2,total});
   }
   assert.equal(await page.locator('#next-question').innerText(),'Revisar sessão');
   assert.equal(await page.locator('#finish-study').count(),0);

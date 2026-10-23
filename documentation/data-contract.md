@@ -104,7 +104,13 @@ O catálogo v3 publica uma seleção explicitamente liberada desses itens, prese
 
 Toda questão publicada declara `contextIds` e `review`. A revisão exige comparação de fonte, texto/comando e gabarito, método (`agent_assisted` ou `human`), responsável, data, referência da decisão e escopo temporal. O único estado publicável é `released`. O método não pode ser interpretado como revisão humana quando declara assistência por agente.
 
-Cada contexto tem ID e revisão estáveis, tipo `instruction`/`passage`, texto, rótulo, documento e página. As referências devem existir e pertencer ao mesmo caderno da questão. Uma questão marcada como trecho histórico precisa incluir seu texto-base. O primeiro lote contém seis contextos, 20 questões, 20 gabaritos definitivos e 22 vínculos revisados. Nenhum item anulado foi liberado neste lote. O resultado do gabarito é confrontado com o inventário de anulações.
+Cada contexto tem ID e revisão estáveis, tipo `instruction`/`passage`, texto, rótulo, documento e página. As referências devem existir e pertencer ao mesmo caderno da questão. Uma questão marcada como trecho histórico precisa incluir seu texto-base. Os dois lotes liberados contêm 11 contextos, 32 questões, 32 gabaritos definitivos e 34 vínculos revisados. Nenhum item anulado foi liberado nesses lotes. O resultado do gabarito é confrontado com o inventário de anulações.
+
+## Seleção da sessão e compatibilidade do progresso
+
+O catálogo canônico continua na versão 3. O progresso/backup continua na versão 1 e aceita, opcionalmente, `session.selection`: `disciplineId`, `disciplineLabel`, `topicId`, `topicLabel` (string ou null), `limit` (inteiro igual à quantidade de itens ou null para todas) e `shuffle` (booleano). IDs e rótulos devem estar preenchidos em pares. Sessões antigas sem esse objeto continuam válidas.
+
+Esses metadados descrevem o recorte no início da sessão; os snapshots são a fonte de suas questões, ordem, contextos e gabaritos. Retomar não consulta filtros para substituir a seleção. Mudanças posteriores na taxonomia não renomeiam nem descartam o registro histórico. Filtros do treino exigem disciplina/tópico do edital e cargo selecionados, incluindo descendentes do tópico e apenas vínculos confirmados. O sorteio não altera alternativas nem a sequência interna de um contexto.
 
 Alterações no enunciado/opções/origem ou nos contextos exigem revisão da questão; correções de gabarito exigem nova versão do gabarito. Nunca substituir silenciosamente versões em registros de estudo.
 

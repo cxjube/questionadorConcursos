@@ -33,9 +33,29 @@ const Study = (() => {
     }
     return result;
   }
-  function pool(data, roleId, progress, mode = 'all') {
+  function topicBranch(data, topicId) {
+    const branch = new Set(topicId ? [topicId] : []);
+    for (let size = -1; size !== branch.size;) {
+      size = branch.size;
+      for (const topic of data.topics) if (branch.has(topic.parentId)) branch.add(topic.id);
+    }
+    return branch;
+  }
+  function selection(data, roleId, filters = {}) {
+    const disciplineId = filters.disciplineId || null, topicId = filters.topicId || null;
+    const syllabus = data.syllabusItems.filter(s => s.roleId === roleId && s.status === 'confirmed');
+    const topic = topicId && data.topics.find(t => t.id === topicId && syllabus.some(s => s.topicId === t.id));
+    const discipline = disciplineId && data.disciplines.find(d => d.id === disciplineId && syllabus.some(s => data.topics.find(t => t.id === s.topicId)?.disciplineId === d.id));
+    if (disciplineId && !discipline || topicId && (!topic || disciplineId && topic.disciplineId !== disciplineId)) throw Error('Disciplina ou assunto inválido para este objetivo.');
+    return {disciplineId, topicId, disciplineLabel: discipline?.label || null, topicLabel: topic?.label || null};
+  }
+  function pool(data, roleId, progress, mode = 'all', filters = {}) {
     if (!MODES.includes(mode)) throw Error('Modo de estudo inválido.');
-    const syllabus = new Set(data.syllabusItems.filter(s => s.roleId === roleId && s.status === 'confirmed').map(s => s.id));
+    const selected = selection(data, roleId, filters), branch = topicBranch(data, selected.topicId);
+    const syllabus = new Set(data.syllabusItems.filter(s => {
+      const topic = data.topics.find(t => t.id === s.topicId);
+      return s.roleId === roleId && s.status === 'confirmed' && (!selected.disciplineId || topic?.disciplineId === selected.disciplineId) && (!selected.topicId || branch.has(s.topicId));
+    }).map(s => s.id));
     const eligible = new Set(data.mappings.filter(m => m.status === 'confirmed' && syllabus.has(m.syllabusItemId)).map(m => m.questionId));
     const history = latest(progress, roleId);
     return data.questions.filter(q => {
@@ -53,8 +73,8 @@ const Study = (() => {
     const keyDoc = data.documents.find(d => d.id === key.documentId);
     const paper = data.papers.find(p => p.id === question.origin.paperId);
     const paperDoc = data.documents.find(d => d.id === paper.documentId);
-    const syllabus = data.syllabusItems.filter(s => s.roleId === roleId);
-    const mappings = data.mappings.filter(m => m.questionId === question.id && syllabus.some(s => s.id === m.syllabusItemId)).map(m => {
+    const syllabus = data.syllabusItems.filter(s => s.roleId === roleId && s.status === 'confirmed');
+    const mappings = data.mappings.filter(m => m.status === 'confirmed' && m.questionId === question.id && syllabus.some(s => s.id === m.syllabusItemId)).map(m => {
       const s = syllabus.find(s => s.id === m.syllabusItemId);
       const topic = data.topics.find(t => t.id === s.topicId);
       return { id: m.id, syllabusItemId: s.id, noticeId: s.noticeId, roleId, topicId: topic.id,
@@ -71,13 +91,25 @@ const Study = (() => {
     if (progress.active) throw Error('Finalize a sessão atual antes de iniciar outra.');
     if (progress.history.length >= 500) throw Error('O limite de 500 sessões foi atingido. Exporte o histórico antes de apagá-lo para iniciar um novo ciclo.');
     const role = data.roles.find(r => r.id === roleId);
-    const questions = pool(data, roleId, progress, mode);
+    let questions = pool(data, roleId, progress, mode, settings);
     if (!role || !questions.length) throw Error('Não há questões disponíveis para esta seleção.');
+    const limit = settings.limit ?? null;
+    if (limit !== null && (!Number.isInteger(limit) || limit < 1 || limit > questions.length || limit > 500)) throw Error('Escolha uma quantidade entre 1 e ' + Math.min(500, questions.length) + '.');
+    if (settings.shuffle) {
+      questions = [...questions];
+      const random = settings.random || Math.random;
+      for (let index = questions.length - 1; index > 0; index--) {
+        const target = Math.floor(random() * (index + 1));
+        [questions[index], questions[target]] = [questions[target], questions[index]];
+      }
+    }
+    if (limit !== null) questions = questions.slice(0, limit);
     if (questions.length > 500) throw Error('A seleção excede o limite de 500 questões por sessão.');
     return { id: settings.id || id(), catalogRevision: data.revision, contestId: role.contestId, roleId,
       objective: data.contests.find(c => c.id === role.contestId).title + ' — ' + role.title,
       mode, startedAt: settings.now || now(), finishedAt: null, position: 0,
-      scoringProfile: null, items: questions.map(q => snapshot(data, q, roleId)), answers: [] };
+      scoringProfile: null, selection: {...selection(data, roleId, settings), limit, shuffle: Boolean(settings.shuffle)},
+      items: questions.map(q => snapshot(data, q, roleId)), answers: [] };
   }
   function choose(session, value) {
     if (session.finishedAt) return session;
@@ -137,6 +169,14 @@ const Study = (() => {
           !array(session.items, 500) || !session.items.length || !array(session.answers, 500) || session.scoringProfile !== null ||
           !Number.isInteger(session.position) || session.position < 0 || session.position >= session.items.length) fail();
       sessionIds.add(session.id);
+      // Selection metadata is optional so backups made before personalized practice remain compatible.
+      if (own(session, 'selection')) {
+        const selected = session.selection;
+        if (!record(selected) || !['disciplineId','topicId'].every(k => selected[k] === null || identifier(selected[k])) ||
+            !['disciplineLabel','topicLabel'].every(k => selected[k] === null || text(selected[k])) ||
+            Boolean(selected.disciplineId) !== Boolean(selected.disciplineLabel) || Boolean(selected.topicId) !== Boolean(selected.topicLabel) ||
+            typeof selected.shuffle !== 'boolean' || !(selected.limit === null || Number.isInteger(selected.limit) && selected.limit === session.items.length)) fail();
+      }
       if ((session === progress.active) !== (session.finishedAt === null)) fail();
       const questions = new Map();
       for (const item of session.items) {
@@ -194,6 +234,6 @@ const Study = (() => {
     if (!parsed || parsed.format !== 'questionador-concursos-backup' || parsed.version !== VERSION) throw Error('Este arquivo não é um backup compatível do Questionador Concursos.');
     return validate(parsed.progress, data);
   }
-  return { VERSION, MAX_BYTES, empty, grade, choiceOf, totals, latest, pool, snapshot, create, choose, move, finish, matches, validate, exportBackup, importBackup };
+  return { VERSION, MAX_BYTES, empty, grade, choiceOf, totals, latest, topicBranch, pool, snapshot, create, choose, move, finish, matches, validate, exportBackup, importBackup };
 })();
 Object.assign(globalThis, { Study });

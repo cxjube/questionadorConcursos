@@ -2,7 +2,7 @@
 
 Aplicação estática para estudos de concursos públicos, baseada na arquitetura do [Questionador](https://github.com/mugubr/questionador), de Miguel Muniz e Rubens Braz. Veja [créditos e autorização](CREDITS.md).
 
-**Etapa atual: primeiro treino funcional.** A aba **Questionador** é a primeira: escolha concurso/cargo e clique em **Iniciar questões**. Há 20 questões oficiais liberadas, com revisão assistida por agente: 15 Certo/Errado e cinco de múltipla escolha. Veja o [registro de liberação](documentation/first-batch-release.md).
+**Etapa atual: treino personalizado e segundo lote.** A aba **Questionador** é a primeira: escolha concurso/cargo e clique em **Iniciar questões**. Em **Personalizar treino**, filtre disciplina/assunto, escolha a quantidade e ative o sorteio se desejar. Há 32 questões oficiais liberadas, com revisão assistida por agente: 27 Certo/Errado e cinco de múltipla escolha. Veja os registros do [primeiro](documentation/first-batch-release.md) e do [segundo lote](documentation/second-batch-release.md).
 
 Você pode navegar, alterar ou limpar marcações e deixar respostas em branco. Em **Revisar sessão**, confira as marcações antes de finalizar. O resultado apresenta acertos, erros, brancos, percentual e gabarito definitivo, com links de origem. O treino não aplica pontuação ou mínimos de simulado da Câmara. Explicações ausentes são indicadas explicitamente.
 
@@ -56,9 +56,9 @@ README.md
 pyproject.toml / uv.lock   ferramentas do pipeline
 package.json              comando dos testes JavaScript; sem pacotes
 schemas/                  catálogo v3, contextos, entidades, auditoria e lote
-data/catalog.json         fonte canônica; 20 questões, gabaritos e vínculos
+data/catalog.json         fonte canônica; 32 questões, gabaritos e vínculos
 data/workbench/           lote de preparação, fora do build
-data/reviews/             evidência da listagem oficial
+data/reviews/             evidência da listagem oficial e revisão do segundo lote
 sources/                   editais, cadernos e gabaritos; fora do Pages
 tools/                    validação, auditoria, review-batch e build
 docs/                     único artefato publicado
@@ -96,10 +96,11 @@ Com Playwright e Chromium já disponíveis na máquina, sirva `docs/` e execute:
 APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-smoke.cjs
 APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-study.cjs
 APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-usability.cjs
+APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-filters.cjs
 ```
 
 Essas ferramentas não integram a aplicação nem são dependências obrigatórias do projeto. O teste cobre abas, navegação por teclado, temas, persistência, seletores, estados sem dados e ausência de transbordamento horizontal em 320 e 1280 px. Não substitui uma auditoria completa de acessibilidade.
 
 ## Próxima etapa
 
-Filtros por disciplina/assunto e ampliação do banco em lotes conferidos. Depois, treinos personalizados e simulados com regras próprias. Não há importação automática, simulado completo, dashboard avançado ou gamificação nesta entrega.
+Priorizar questões dos conhecimentos básicos e assuntos ainda sem itens, em novos lotes conferidos. Depois, explicações com referências independentes, desempenho por disciplina/assunto e simulados com regras próprias. Não há importação automática, simulado completo, dashboard avançado ou gamificação nesta entrega. O treino atual não atribui pontuação de concurso.

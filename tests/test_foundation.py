@@ -64,11 +64,11 @@ class FoundationTests(unittest.TestCase):
         else:
             self.assertTrue(any(expected in e for e in errors), errors)
 
-    def test_released_catalog_has_twenty_source_compared_questions(self):
+    def test_released_catalog_has_reviewed_source_compared_questions(self):
         """Validate retained source bytes without claiming external authentication."""
         real = read_json(ROOT / 'data/catalog.json')
         self.assertEqual(validate(real), [])
-        self.assertEqual(len(real['questions']), 20)
+        self.assertEqual(len(real['questions']), 32)
         self.assertEqual(len(real['scoringRules']), 1)
         self.assertEqual(len(real['syllabusItems']), 228)
         self.assertEqual(len(real['documents']), 20)

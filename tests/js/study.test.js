@@ -23,8 +23,8 @@ function active(s, mode='all', id='test-session') {
 const finishedAt='2026-10-23T12:10:00.000Z';
 test('draw uses reviewed role mappings once per question and preserves contexts',()=>{
  const s=setup();const p=active(s);
- assert.equal(p.active.items.length,20);
- assert.equal(new Set(p.active.items.map(i=>i.question.id)).size,20);
+ assert.equal(p.active.items.length,s.data.questions.length);
+ assert.equal(new Set(p.active.items.map(i=>i.question.id)).size,s.data.questions.length);
  assert.equal(s.Study.pool(s.data,'abdi-futuro',p).length,0);
  const shared=p.active.items.filter(i=>i.question.origin.number===22||i.question.origin.number===23);
  assert.equal(shared.length,2);assert.equal(shared[0].contexts[0].id,shared[1].contexts[0].id);
@@ -50,14 +50,14 @@ test('navigation and changed drafts never create attempts; finalization is idemp
  assert.equal(p.history.length,0);assert.equal(p.active.answers.length,1);
  p=s.Study.finish(p,finishedAt);
  assert.equal(p.history.length,1);assert.equal(p.active,null);
- assert.equal(s.Study.totals(p.history[0]).correct,1);assert.equal(s.Study.totals(p.history[0]).blank,19);
+ assert.equal(s.Study.totals(p.history[0]).correct,1);assert.equal(s.Study.totals(p.history[0]).blank,s.data.questions.length-1);
  assert.equal(s.Study.totals(p.history[0]).rate,100);
  assert.deepEqual(plain(s.Study.finish(p,finishedAt)),plain(p));
  assert.deepEqual(plain(s.Study.finish({...p,active:{...p.history[0],finishedAt:null}},finishedAt)),plain(p));
 });
 test('zero valid responses has no artificial zero-percent score or official profile',()=>{
  const s=setup();const p=s.Study.finish(active(s),finishedAt);const result=s.Study.totals(p.history[0]);
- assert.equal(result.rate,null);assert.equal(result.blank,20);assert.equal(p.history[0].scoringProfile,null);
+ assert.equal(result.rate,null);assert.equal(result.blank,s.data.questions.length);assert.equal(p.history[0].scoringProfile,null);
 });
 test('new sessions never exceed the history limit accepted by restore',()=>{
  const s=setup();const progress=s.Study.empty();progress.history=Array(500).fill({});
@@ -66,7 +66,7 @@ test('new sessions never exceed the history limit accepted by restore',()=>{
 test('review errors uses latest finalized outcome and does not treat blanks as errors',()=>{
  const s=setup();let p=active(s);p.active=s.Study.choose(p.active,false);p=s.Study.finish(p,finishedAt);
  assert.equal(s.Study.pool(s.data,s.role,p,'errors').length,1);
- assert.equal(s.Study.pool(s.data,s.role,p,'blank').length,19);
+ assert.equal(s.Study.pool(s.data,s.role,p,'blank').length,s.data.questions.length-1);
  assert.equal(s.Study.pool(s.data,s.role,p,'unanswered').length,0);
  p.active=s.Study.create(s.data,s.role,p,'errors',{id:'review-session',now:'2026-10-23T12:11:00.000Z'});
  p.active=s.Study.choose(p.active,true);p=s.Study.finish(p,'2026-10-23T12:12:00.000Z');
@@ -119,7 +119,7 @@ test('another tab cannot silently replace a newer record; unsaved draft remains 
 test('blocked/quota storage keeps study usable in memory without claiming a save',async()=>{
  const blocked=setup({getItem(){throw Error('blocked');},setItem(){throw Error('blocked');}});
  const b=blocked.Progress.open(blocked.data);assert.equal(b.readOnly,true);
- assert.equal(await blocked.Progress.save(b,active(blocked)),false);assert.equal(b.state.active.items.length,20);
+ assert.equal(await blocked.Progress.save(b,active(blocked)),false);assert.equal(b.state.active.items.length,blocked.data.questions.length);
  const quota=setup({getItem(){return null;},setItem(){throw Error('quota');}});const q=quota.Progress.open(quota.data);
  assert.equal(await quota.Progress.save(q,active(quota)),false);assert.match(q.error,/Não foi possível salvar/);
  assert.ok(quota.Study.exportBackup(q.state));
@@ -129,4 +129,53 @@ test('corrupt original bytes are retained and never overwritten implicitly',asyn
  const store=s.Progress.open(s.data);assert.equal(store.readOnly,true);assert.equal(store.raw,raw);
  await s.Progress.save(store,active(s));assert.equal(raw,'{ invalid original');
  assert.match(store.error,/preservado/);
+});
+
+test('subject filters include descendants, respect the role and count canonical questions once',()=>{
+ const s=setup(), progress=s.Study.empty();
+ const parent=s.Study.pool(s.data,s.role,progress,'all',{disciplineId:'comunicacao-social',topicId:'comunicacao-social-7'});
+ const child=s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-7-1'});
+ assert.equal(parent.length,6);assert.deepEqual(plain(parent),plain(child));
+ const mapped=s.data.mappings.find(m=>m.questionId===parent[0].id);
+ s.data.mappings.push({...mapped,id:'synthetic-duplicate-mapping-for-test-only'});
+ assert.equal(s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-7'}).length,6);
+ assert.equal(s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-2'}).length,5);
+ for(const filters of [{disciplineId:'missing-test-only'},{topicId:'missing-test-only'},{disciplineId:'lingua-portuguesa',topicId:'comunicacao-social-7'}]) {
+  assert.throws(()=>s.Study.pool(s.data,s.role,progress,'all',filters),/inválido/);
+ }
+ assert.equal(s.Study.pool(s.data,'abdi-futuro',progress).length,0);
+ assert.throws(()=>s.Study.pool(s.data,'abdi-futuro',progress,'all',{topicId:'comunicacao-social-7'}),/inválido/);
+});
+test('custom quantity and draw preserve sources, options and contexts without repetition',()=>{
+ const s=setup(), progress=s.Study.empty(), before=JSON.stringify(s.data);
+ const filters={disciplineId:'comunicacao-social',topicId:'comunicacao-social-2'};
+ const pool=s.Study.pool(s.data,s.role,progress,'all',filters);
+ const session=s.Study.create(s.data,s.role,progress,'all',{...filters,limit:2,shuffle:true,random:()=>0});
+ assert.equal(session.items.length,2);assert.equal(new Set(session.items.map(i=>i.question.id)).size,2);
+ assert.deepEqual(plain(session.items.map(i=>i.question.id)),plain(pool.slice(1,3).map(q=>q.id)));
+ for(const item of session.items) assert.deepEqual(plain(item),plain(s.Study.snapshot(s.data,s.data.questions.find(q=>q.id===item.question.id),s.role)));
+ assert.equal(JSON.stringify(s.data),before);assert.equal(session.scoringProfile,null);
+ for(const limit of [0,-1,1.5,'2',6,NaN]) assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{...filters,limit}),/quantidade/);
+ assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{disciplineId:'lingua-portuguesa'}),/Não há questões/);
+});
+test('filtered errors use finalized outcomes and ignore unfinished choices',()=>{
+ const s=setup(), settings={topicId:'comunicacao-social-7',limit:1};let p=s.Study.empty();
+ p.active=s.Study.create(s.data,s.role,p,'all',settings);
+ const item=p.active.items[0];
+ const wrong=item.question.type==='true_false' ? !item.key.value : item.question.options.find(o=>o.id!==item.key.value).id;
+ p.active=s.Study.choose(p.active,wrong);
+ assert.equal(s.Study.pool(s.data,s.role,p,'errors',settings).length,0);
+ p=s.Study.finish(p);
+ assert.equal(s.Study.pool(s.data,s.role,p,'errors',settings).length,1);
+ assert.equal(s.Study.pool(s.data,s.role,p,'errors',{topicId:'comunicacao-social-2'}).length,0);
+});
+test('custom and legacy backups resume the exact selection even after taxonomy changes',()=>{
+ const s=setup();const p={...s.Study.empty(),active:s.Study.create(s.data,s.role,s.Study.empty(),'all',{disciplineId:'comunicacao-social',topicId:'comunicacao-social-2',limit:2,shuffle:true,random:()=>0})};
+ const raw=s.Study.exportBackup(p);s.data.topics.find(t=>t.id==='comunicacao-social-2').label='SYNTHETIC RENAME TEST ONLY';
+ const restored=s.Study.importBackup(raw,s.data);assert.deepEqual(plain(restored),plain(p));
+ const legacy=plain(p);delete legacy.active.selection;
+ assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(legacy),s.data)),legacy);
+ for(const mutate of [p=>p.active.selection.limit=3,p=>p.active.selection.shuffle='yes',p=>p.active.selection.topicLabel=null]) {
+  const broken=plain(p);mutate(broken);assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(broken),s.data));
+ }
 });

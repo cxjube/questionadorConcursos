@@ -2,7 +2,7 @@
 
 ## Diretrizes de produto, arquitetura, banco de questões e experiência de estudo
 
-**Versão:** 1.2 — revisão integrada ao repositório
+**Versão:** 1.3 — revisão integrada ao repositório
 **Data:** 23/10/2026
 **Projeto:** Questionador Concursos
 **Repositório:** https://github.com/cxjube/questionadorConcursos
@@ -14,9 +14,9 @@
 
 Este documento consolida as sugestões fornecidas pelo usuário e os ajustes de revisão. É uma referência de produto e de aceite por etapa, não autorização para implementar todo o roadmap.
 
-O estado implementado em 23/10/2026 inclui o catálogo v3 e o primeiro treino funcional: 20 questões oficiais liberadas, seis contextos compartilhados, gabaritos definitivos independentes, revisão assistida por agente e vínculos revisados. As fontes dos 20 PDFs foram comparadas com downloads oficiais. Há sessão, retomada, correção ao finalizar, histórico local, revisão de erros/brancos/inéditas e backup exportável/importável com confirmação de substituição.
+O estado implementado em 23/10/2026 inclui o catálogo v3 e dois lotes liberados: 32 questões oficiais, 11 contextos compartilhados, gabaritos definitivos independentes, revisão assistida por agente e 34 vínculos revisados. As fontes dos 20 PDFs foram comparadas com downloads oficiais. Há treino personalizado por disciplina/assunto com subtópicos, quantidade e sorteio opcional, sessão, retomada, correção ao finalizar, histórico local, revisão de erros/brancos/inéditas e backup exportável/importável com confirmação de substituição.
 
-O treino não executa a pontuação de um concurso. Simulados, painéis de evolução, filtros avançados e ampliação do banco continuam requisitos de etapas futuras. O roadmap abaixo não é uma declaração de implementação integral.
+O treino não executa a pontuação de um concurso. Simulados, painéis de evolução, filtros adicionais (bloco, origem, ano e formato), explicações referenciadas e novos lotes continuam requisitos de etapas futuras. O roadmap abaixo não é uma declaração de implementação integral.
 
 Consulte o [contrato vigente](data-contract.md), o [registro de liberação](first-batch-release.md) e o [guia de uso](study-guide.md). O arquivo original de preparação permanece fora do Pages como evidência histórica, sem ser interpretado como a decisão atual do catálogo publicado.
 

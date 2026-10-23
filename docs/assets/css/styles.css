@@ -213,6 +213,14 @@ select { width: 100%; min-width: 0; }
 .select-control { position: relative; }
 .select-control select { appearance: none; padding-inline-end: 3rem; text-overflow: ellipsis; }
 .select-control::after { content: ''; position: absolute; inset-inline-end: var(--space-sm); top: 50%; width: 0.5rem; height: 0.5rem; border-inline-end: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: translateY(-75%) rotate(45deg); pointer-events: none; }
+.training-options { border: 0; padding: 0; margin: 0; min-width: 0; }
+.training-fields { display: grid; gap: var(--space-sm); margin-block: var(--space-xs) var(--space-sm); }
+.training-fields > div { min-width: 0; }
+.training-fields input { font: inherit; color: var(--text); background: var(--surface-raised); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); min-height: var(--target); padding: var(--space-2xs) var(--space-xs); width: 100%; }
+.training-fields input::placeholder { color: var(--text-soft); }
+.training-options:disabled { opacity: 0.65; }
+#study-options { margin-bottom: var(--space-sm); }
+@media (min-width: 48rem) { .training-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (forced-colors: active) {
   .select-control select { appearance: auto; }
   .select-control::after { display: none; }

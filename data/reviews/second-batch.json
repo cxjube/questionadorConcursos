@@ -1,0 +1,213 @@
+{
+  "id": "second-batch",
+  "reviewedAt": "2026-10-23",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/second-batch-release.md",
+  "items": [
+    {
+      "questionId": "232funprespexe-002-01-q062",
+      "paperId": "source-232funprespexe-002-01",
+      "number": 62,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-fluxos"
+      ],
+      "answerKeyId": "232funprespexe-002-01-q062-key-v1",
+      "answerDocumentId": "source-232funprespexe-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-4-4"
+      ],
+      "justification": "Avalia o sentido do fluxo descendente na comunicação organizacional."
+    },
+    {
+      "questionId": "232funprespexe-002-01-q084",
+      "paperId": "source-232funprespexe-002-01",
+      "number": 84,
+      "sourcePage": 2,
+      "contextIds": [
+        "funpresp-planejamento"
+      ],
+      "answerKeyId": "232funprespexe-002-01-q084-key-v1",
+      "answerDocumentId": "source-232funprespexe-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-4-3"
+      ],
+      "justification": "Avalia a relação entre planejamento estratégico de comunicação e missão, visão e valores."
+    },
+    {
+      "questionId": "232funprespexe-002-01-q085",
+      "paperId": "source-232funprespexe-002-01",
+      "number": 85,
+      "sourcePage": 2,
+      "contextIds": [
+        "funpresp-planejamento"
+      ],
+      "answerKeyId": "232funprespexe-002-01-q085-key-v1",
+      "answerDocumentId": "source-232funprespexe-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-4-3"
+      ],
+      "justification": "Avalia o diagnóstico de necessidades no planejamento de comunicação organizacional."
+    },
+    {
+      "questionId": "232funprespexe-002-01-q090",
+      "paperId": "source-232funprespexe-002-01",
+      "number": 90,
+      "sourcePage": 2,
+      "contextIds": [
+        "funpresp-rh"
+      ],
+      "answerKeyId": "232funprespexe-002-01-q090-key-v1",
+      "answerDocumentId": "source-232funprespexe-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-2-1"
+      ],
+      "justification": "Avalia a função da comunicação interna na integração entre recursos humanos e relações públicas."
+    },
+    {
+      "questionId": "232funprespexe-002-01-q091",
+      "paperId": "source-232funprespexe-002-01",
+      "number": 91,
+      "sourcePage": 2,
+      "contextIds": [
+        "funpresp-rh"
+      ],
+      "answerKeyId": "232funprespexe-002-01-q091-key-v1",
+      "answerDocumentId": "source-232funprespexe-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-2-1"
+      ],
+      "justification": "Avalia a delimitação das funções de relações públicas na comunicação interna."
+    },
+    {
+      "questionId": "232funprespexe-002-01-q092",
+      "paperId": "source-232funprespexe-002-01",
+      "number": 92,
+      "sourcePage": 2,
+      "contextIds": [
+        "funpresp-instrumentos"
+      ],
+      "answerKeyId": "232funprespexe-002-01-q092-key-v1",
+      "answerDocumentId": "source-232funprespexe-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-2-2"
+      ],
+      "justification": "Avalia a adequação de instrumentos e canais de comunicação interna à alta gestão."
+    },
+    {
+      "questionId": "232funprespexe-002-01-q093",
+      "paperId": "source-232funprespexe-002-01",
+      "number": 93,
+      "sourcePage": 2,
+      "contextIds": [
+        "funpresp-instrumentos"
+      ],
+      "answerKeyId": "232funprespexe-002-01-q093-key-v1",
+      "answerDocumentId": "source-232funprespexe-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-2-2"
+      ],
+      "justification": "Distingue instrumentos formais e informais da comunicação interna."
+    },
+    {
+      "questionId": "232funprespexe-002-01-q096",
+      "paperId": "source-232funprespexe-002-01",
+      "number": 96,
+      "sourcePage": 2,
+      "contextIds": [
+        "funpresp-instrumentos"
+      ],
+      "answerKeyId": "232funprespexe-002-01-q096-key-v1",
+      "answerDocumentId": "source-232funprespexe-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-2-2"
+      ],
+      "justification": "Avalia critérios de escolha dos meios e canais de comunicação interna."
+    },
+    {
+      "questionId": "232funprespexe-002-01-q097",
+      "paperId": "source-232funprespexe-002-01",
+      "number": 97,
+      "sourcePage": 2,
+      "contextIds": [
+        "funpresp-publica"
+      ],
+      "answerKeyId": "232funprespexe-002-01-q097-key-v1",
+      "answerDocumentId": "source-232funprespexe-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-7-1"
+      ],
+      "justification": "Avalia a relação entre acesso à informação e adequação dos meios na comunicação pública."
+    },
+    {
+      "questionId": "232funprespexe-002-01-q098",
+      "paperId": "source-232funprespexe-002-01",
+      "number": 98,
+      "sourcePage": 2,
+      "contextIds": [
+        "funpresp-publica"
+      ],
+      "answerKeyId": "232funprespexe-002-01-q098-key-v1",
+      "answerDocumentId": "source-232funprespexe-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-7-1"
+      ],
+      "justification": "Avalia o conceito de comunicação pública e sua finalidade de construção da cidadania."
+    },
+    {
+      "questionId": "232funprespexe-002-01-q099",
+      "paperId": "source-232funprespexe-002-01",
+      "number": 99,
+      "sourcePage": 2,
+      "contextIds": [
+        "funpresp-publica"
+      ],
+      "answerKeyId": "232funprespexe-002-01-q099-key-v1",
+      "answerDocumentId": "source-232funprespexe-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-7-1"
+      ],
+      "justification": "Avalia a finalidade informativa da comunicação pública sobre os serviços das instituições."
+    },
+    {
+      "questionId": "232funprespexe-002-01-q100",
+      "paperId": "source-232funprespexe-002-01",
+      "number": 100,
+      "sourcePage": 2,
+      "contextIds": [
+        "funpresp-publica"
+      ],
+      "answerKeyId": "232funprespexe-002-01-q100-key-v1",
+      "answerDocumentId": "source-232funprespexe-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-7-1"
+      ],
+      "justification": "Avalia o planejamento da comunicação pública a partir das necessidades dos cidadãos."
+    }
+  ]
+}

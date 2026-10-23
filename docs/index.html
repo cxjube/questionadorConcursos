@@ -12,15 +12,15 @@
         if (theme === 'light' || theme === 'dark') document.documentElement.setAttribute('data-theme', theme);
       } catch (_) { /* Blocked storage must not prevent startup. */ }
     </script>
-    <link rel="stylesheet" href="assets/css/styles.css?v=5">
+    <link rel="stylesheet" href="assets/css/styles.css?v=6">
     <script defer src="assets/js/types.js?v=4"></script>
     <script defer src="assets/js/storage.js?v=4"></script>
     <script defer src="assets/js/theme.js?v=4"></script>
     <script defer src="assets/js/catalog.js?v=4"></script>
-    <script defer src="data/catalog.js?v=4"></script>
-    <script defer src="assets/js/study.js?v=4"></script>
+    <script defer src="data/catalog.js?v=6"></script>
+    <script defer src="assets/js/study.js?v=6"></script>
     <script defer src="assets/js/progress.js?v=4"></script>
-    <script defer src="assets/js/study-ui.js?v=4"></script>
+    <script defer src="assets/js/study-ui.js?v=6"></script>
     <script defer src="assets/js/main.js?v=4"></script>
   </head>
   <body>
@@ -58,6 +58,22 @@
           <div><label for="role">Cargo e área</label><div class="select-control"><select id="role"><option>Aguardando seleção</option></select></div></div>
         </div>
         <p id="study-availability"></p>
+        <details id="study-options" class="support-details">
+          <summary>Personalizar treino</summary>
+          <fieldset id="study-filters" class="training-options">
+            <legend class="sr-only">Seleção de questões</legend>
+            <div class="training-fields">
+              <div><label for="study-discipline">Disciplina</label><div class="select-control"><select id="study-discipline"></select></div></div>
+              <div><label for="study-topic">Assunto e subtópicos</label><div class="select-control"><select id="study-topic" aria-describedby="study-filter-note"></select></div></div>
+              <div><label for="study-quantity">Quantidade de questões</label><input id="study-quantity" type="number" min="1" step="1" inputmode="numeric" placeholder="Todas as disponíveis" aria-describedby="study-filter-status"></div>
+            </div>
+            <label class="reference-toggle"><input id="study-shuffle" type="checkbox"> Sortear questões e ordem</label>
+            <p id="study-filter-note" class="review-note">Um assunto inclui seus subtópicos. O sorteio não altera o texto nem a ordem das alternativas.</p>
+            <p id="study-filter-status" role="status"></p>
+            <button id="reset-study-filters" type="button" class="quiet-button">Limpar filtros</button>
+          </fieldset>
+        </details>
+        <p id="study-resume-note" class="review-note" hidden></p>
         <button id="start-study" type="button" class="primary" disabled>Iniciar questões</button>
         <details class="support-details"><summary>Sobre este objetivo</summary><p id="provider" class="review-note"></p><p id="contest-status"></p></details>
        </div>
