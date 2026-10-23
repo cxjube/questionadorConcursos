@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-23T04:06:30.592316+00:00",
-  "scope": "Official PDF identity and notice review against acts listed on 23 October 2026; not a review of individual question completeness or eligibility and not a claim about future amendments.",
+  "checkedAt": "2026-10-23T20:16:39.301047+00:00",
+  "scope": "Recorded official PDF matches; the ANM CG1 pair was downloaded and independently re-downloaded for this extension. Older matches remain retained evidence, not fresh downloads. Notice review scope remains the acts listed on 23 October 2026; no claim about future amendments.",
   "documents": [
     {
       "documentId": "camara-2026-edital-01-documento",
@@ -142,6 +142,20 @@
       "outcome": "byte_match",
       "officialUrl": "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/3997D83E84019AD83E6039836490D4F0CF955180AC5F620B78436717E578A32A.pdf",
       "remoteSha256": "ef6b4cd7d748189bc23584e33a67a3f12c1202fd2771ba632a9c9cb5401f7fcb"
+    },
+    {
+      "documentId": "source-038-anm-cg1-01-paper",
+      "localSha256": "a86426b880166b6dd99bcfd5b80cbb36f68b2eef431f94e5770682f714e08b87",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_CG1_01.PDF",
+      "remoteSha256": "a86426b880166b6dd99bcfd5b80cbb36f68b2eef431f94e5770682f714e08b87"
+    },
+    {
+      "documentId": "source-038-anm-cg1-01-key",
+      "localSha256": "509c0196725bee12055d699b2584632c65bab621c39a88f6035eee75a90ab338",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_CG1_01.PDF",
+      "remoteSha256": "509c0196725bee12055d699b2584632c65bab621c39a88f6035eee75a90ab338"
     }
   ],
   "corroboration": [

@@ -10,10 +10,10 @@ const progress = page => page.evaluate(key=>JSON.parse(localStorage.getItem(key)
    const page = await browser.newPage({viewport:{width,height:1050}});
    const errors=[];page.on('pageerror',e=>errors.push(e.message));
    await page.goto(base);await page.locator('#start-study:not([disabled])').waitFor();
-   await page.locator('#study-options summary').click();
+   await page.locator('#customize-study').click();
    await page.locator('#study-discipline').selectOption('comunicacao-social');
    await page.locator('#study-topic').selectOption('comunicacao-social-2');
-   await page.locator('#study-quantity').fill('2');await page.locator('#study-shuffle').check();
+   await page.locator('#study-quantity').fill('2');await page.locator('#study-shuffle').check();await page.locator('#apply-study-options').click();
    await page.locator('#start-study').click();await page.locator('#finish-study').waitFor();
    for (const theme of ['light','dark']) {
     await page.locator('[data-theme-choice="'+theme+'"]').click();
@@ -56,7 +56,7 @@ const progress = page => page.evaluate(key=>JSON.parse(localStorage.getItem(key)
    await page.locator('#start-study').click();await page.locator('#finish-study').waitFor();
    const second = await progress(page);
    assert.equal(second.history.length,1);assert.notEqual(second.active.id,first.id);
-   assert.equal(second.active.answers.length,0);assert.equal(second.active.items.length,48);
+   assert.equal(second.active.answers.length,0);assert.equal(second.active.items.length,55);
    // Viewing a past result during a new session must not discard the active draft.
    await page.locator('input[value="true"]').check();
    await page.waitForFunction(key=>JSON.parse(localStorage.getItem(key)).progress.active.answers.length===1,key);

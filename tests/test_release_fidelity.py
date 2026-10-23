@@ -127,7 +127,7 @@ class ReleasedFidelityTests(unittest.TestCase):
                 self.assertEqual([m['syllabusItemId'] for m in self.catalog['mappings'] if m['questionId']==q['id']],row['syllabusItemIds'])
 
     def test_didactic_comments_have_separate_identity_and_source_evidence(self):
-        comments = self.catalog['explanations']
+        comments = [c for c in self.catalog['explanations'] if c['questionId'].startswith('232funprespexe-cb1-01-')]
         self.assertEqual(len(comments),8)
         self.assertEqual({c['questionId'] for c in comments},{f'232funprespexe-cb1-01-q{n:03d}' for n in [5,6,7,8,13,14,15,16]})
         questions = {q['id']:q for q in self.catalog['questions']}
@@ -174,3 +174,45 @@ class ReleasedFidelityTests(unittest.TestCase):
             self.assertEqual([m['syllabusItemId'] for m in self.catalog['mappings'] if m['questionId']==q['id']],row['syllabusItemIds'])
             self.assertIn(f"{row['number']} {q['stem']}",page)
             self.assertLess(page.index(command),page.index(q['stem']))
+
+    def test_fifth_batch_new_official_pair_english_text_and_reviewed_links(self):
+        manifest = read_json(ROOT / 'data/reviews/fifth-batch.json')
+        questions = {q['id']:q for q in self.catalog['questions'] if q['review']['decisionReference']==manifest['decisionReference']}
+        self.assertEqual(len(questions),7)
+        self.assertEqual(set(questions),{r['questionId'] for r in manifest['items']})
+        keys = {k['id']:k for k in self.catalog['answerKeys']}
+        paper = self.papers['source-038-anm-cg1-01']
+        self.assertEqual(paper['inventory']['annulledItems'],[15,28,31,41])
+        self.assertTrue(all(q['origin']['number'] not in paper['inventory']['annulledItems'] for q in questions.values()))
+        ctx = next(c for c in self.catalog['contexts'] if c['id']=='anm-cg1-quantum')
+        self.assertEqual(ctx['language'],'en')
+        xml = subprocess.run(['pdftotext','-bbox-layout','-f','2','-l','2',str(ROOT / self.docs[paper['documentId']]['file']),'-'],check=True,capture_output=True,text=True).stdout
+        ns={'x':'http://www.w3.org/1999/xhtml'}
+        lines=[]
+        for line in ET.fromstring(xml).findall('.//x:line',ns):
+            x,y=float(line.attrib['xMin']),float(line.attrib['yMin'])
+            if x<300 and 47<y<302:
+                lines.append((y,x,' '.join(w.text or '' for w in line.findall('x:word',ns))))
+        paragraphs=[]
+        for y,x,text in sorted(lines):
+            if x>50: paragraphs.append([])
+            self.assertTrue(paragraphs)
+            paragraphs[-1].append(text)
+        self.assertEqual(len(paragraphs),4)
+        self.assertEqual(ctx['text'],'\n\n'.join(' '.join(p) for p in paragraphs))
+        self.assertIn('a real test of steel',ctx['text'])
+        for row in manifest['items']:
+            q=questions[row['questionId']]
+            self.assertEqual(q['origin'],{'kind':'official','paperId':row['paperId'],'number':row['number'],'locator':'PDF p. 2'})
+            self.assertEqual(q['contextIds'],row['contextIds'])
+            self.assertEqual(q['answerKeyId'],row['answerKeyId'])
+            key=keys[q['answerKeyId']]
+            self.assertEqual((key['value'],key['documentId'],key['locator']),(row['answerValue'],row['answerDocumentId'],row['answerLocator']))
+            self.assertEqual([m['syllabusItemId'] for m in self.catalog['mappings'] if m['questionId']==q['id']],row['syllabusItemIds'])
+            self.assertEqual(q.get('language','pt-BR'),'en' if row['number']<15 else 'pt-BR')
+        comments=[c for c in self.catalog['explanations'] if c['questionId'] in questions]
+        self.assertEqual(len(comments),4)
+        for comment in comments:
+            self.assertIn('assistido por IA',comment['author'])
+            self.assertEqual(comment['references'][0]['documentId'],paper['documentId'])
+            for quote in re.findall('“([^”]+)”',comment['text']):self.assertIn(clean(quote),clean(ctx['text']))

@@ -53,6 +53,32 @@ const Study = (() => {
     const sorted = rows => [...rows.values()].map(finishRow).sort((a,b) => a.label.localeCompare(b.label,'pt-BR',{numeric:true}));
     return {...finishRow(total), sessions:seen.size, disciplines:sorted(disciplines), topics:sorted(topics)};
   }
+  function evolution(sessions, roleId, settings = {}) {
+    const days = settings.days === undefined ? 30 : settings.days;
+    const timestamp = settings.now || now();
+    const timeZone = settings.timeZone || Intl.DateTimeFormat().resolvedOptions().timeZone;
+    if (![7,30,null].includes(days) || !Number.isFinite(Date.parse(timestamp))) throw Error('Período inválido.');
+    const calendar = new Intl.DateTimeFormat('en-CA',{timeZone,year:'numeric',month:'2-digit',day:'2-digit'});
+    const dayOf = value => {
+      const parts = Object.fromEntries(calendar.formatToParts(new Date(value)).map(p=>[p.type,p.value]));
+      return parts.year + '-' + parts.month + '-' + parts.day;
+    };
+    const to = dayOf(timestamp);
+    const cutoff = new Date(to + 'T00:00:00.000Z');
+    if (days !== null) cutoff.setUTCDate(cutoff.getUTCDate() - days + 1);
+    const from = days === null ? null : cutoff.toISOString().slice(0,10);
+    const groups = new Map(), seen = new Set(), included = [];
+    for (const session of [...sessions].sort((a,b)=>(a.finishedAt || '').localeCompare(b.finishedAt || '') || a.id.localeCompare(b.id))) {
+      if (!session.finishedAt || session.roleId !== roleId || seen.has(session.id) || Date.parse(session.finishedAt) > Date.parse(timestamp)) continue;
+      const date = dayOf(session.finishedAt);
+      if (from && date < from) continue;
+      seen.add(session.id); included.push(session);
+      if (!groups.has(date)) groups.set(date,[]);
+      groups.get(date).push(session);
+    }
+    return {days,from,to,timeZone,totals:performance(included,roleId),
+      rows:[...groups].sort(([a],[b])=>a.localeCompare(b)).map(([date,group])=>({date,...performance(group,roleId)}))};
+  }
   function latest(progress, roleId) {
     const result = new Map();
     for (const session of [...progress.history].sort((a, b) => a.finishedAt.localeCompare(b.finishedAt) || a.id.localeCompare(b.id))) {
@@ -70,7 +96,8 @@ const Study = (() => {
     return branch;
   }
   function selection(data, roleId, filters = {}) {
-    const disciplineId = filters.disciplineId || null, topicId = filters.topicId || null;
+    const disciplineId = filters.disciplineId || null, topicId = filters.topicId || null, block = filters.block || null;
+    if (block && !['basic','specific'].includes(block)) throw Error('Bloco inválido.');
     const syllabus = data.syllabusItems.filter(s => s.roleId === roleId && s.status === 'confirmed');
     const topic = topicId && data.topics.find(t => t.id === topicId && syllabus.some(s => s.topicId === t.id));
     const discipline = disciplineId && data.disciplines.find(d => d.id === disciplineId && syllabus.some(s => data.topics.find(t => t.id === s.topicId)?.disciplineId === d.id));
@@ -78,7 +105,7 @@ const Study = (() => {
     const paperId = filters.paperId || null, year = filters.year ?? null, type = filters.type || null;
     const paper = paperId && data.papers.find(p => p.id === paperId);
     if (paperId && !paper || year !== null && (!Number.isInteger(year) || year < 1900 || year > 2100) || type && !['true_false','multiple_choice'].includes(type)) throw Error('Origem, ano ou formato inválido.');
-    return {disciplineId, topicId, disciplineLabel: discipline?.label || null, topicLabel: topic?.label || null,
+    return {block, disciplineId, topicId, disciplineLabel: discipline?.label || null, topicLabel: topic?.label || null,
       paperId, paperLabel: paper ? paper.institution + ' · ' + paper.year + ' · ' + paper.booklet : null, year, type};
   }
   function pool(data, roleId, progress, mode = 'all', filters = {}) {
@@ -86,7 +113,7 @@ const Study = (() => {
     const selected = selection(data, roleId, filters), branch = topicBranch(data, selected.topicId);
     const syllabus = new Set(data.syllabusItems.filter(s => {
       const topic = data.topics.find(t => t.id === s.topicId);
-      return s.roleId === roleId && s.status === 'confirmed' && (!selected.disciplineId || topic?.disciplineId === selected.disciplineId) && (!selected.topicId || branch.has(s.topicId));
+      return s.roleId === roleId && s.status === 'confirmed' && (!selected.block || s.block === selected.block) && (!selected.disciplineId || topic?.disciplineId === selected.disciplineId) && (!selected.topicId || branch.has(s.topicId));
     }).map(s => s.id));
     const eligible = new Set(data.mappings.filter(m => m.status === 'confirmed' && syllabus.has(m.syllabusItemId)).map(m => m.questionId));
     const history = latest(progress, roleId);
@@ -112,7 +139,7 @@ const Study = (() => {
       const s = syllabus.find(s => s.id === m.syllabusItemId);
       const topic = data.topics.find(t => t.id === s.topicId);
       return { id: m.id, syllabusItemId: s.id, noticeId: s.noticeId, roleId, topicId: topic.id,
-        disciplineId: topic.disciplineId, topicLabel: topic.label, number: s.number,
+        block:s.block, disciplineId: topic.disciplineId, topicLabel: topic.label, number: s.number,
         disciplineLabel: data.disciplines.find(d => d.id === topic.disciplineId).label };
     });
     return clone({ question, key: { ...key, officialUrl: keyDoc.officialUrl }, paper: { ...paper, officialUrl: paperDoc.officialUrl },
@@ -193,7 +220,7 @@ const Study = (() => {
   }
   function content(item) {
     const q = item.question;
-    return { id: q.id, revision: q.revision, type: q.type, stem: q.stem, options: q.options, origin: q.origin,
+    return { id: q.id, revision: q.revision, type: q.type, language:q.language || 'pt-BR', stem: q.stem, options: q.options, origin: q.origin,
       contexts: item.contexts, key: { id: item.key.id, version: item.key.version, value: item.key.value, result: item.key.result } };
   }
   function matches(data, session) {
@@ -232,6 +259,7 @@ const Study = (() => {
       if (own(session, 'selection')) {
         const selected = session.selection;
         if (!record(selected)) fail();
+        if (own(selected,'block') && ![null,'basic','specific'].includes(selected.block)) fail();
         if (own(selected,'paperId') && (!(selected.paperId === null || identifier(selected.paperId)) || !(selected.paperLabel === null || text(selected.paperLabel)) || Boolean(selected.paperId) !== Boolean(selected.paperLabel))) fail();
         if (own(selected,'year') && !(selected.year === null || Number.isInteger(selected.year) && selected.year >= 1900 && selected.year <= 2100)) fail();
         if (own(selected,'type') && ![null,'true_false','multiple_choice'].includes(selected.type)) fail();
@@ -245,6 +273,7 @@ const Study = (() => {
       for (const item of session.items) {
         if (!record(item) || !record(item.question) || !record(item.key) || !record(item.paper) || !array(item.contexts, 20) || !array(item.mappings, 100) || !item.mappings.length || !array(item.explanations, 20)) fail();
         const q = item.question, key = item.key, paper = item.paper;
+        if (own(q,'language') && !['pt-BR','en'].includes(q.language)) fail();
         if (!identifier(q.id) || questions.has(q.id) || q.bankId !== 'concursos' || !Number.isInteger(q.revision) || q.revision < 1 || !text(q.stem) ||
             !['true_false', 'multiple_choice'].includes(q.type) || !array(q.options, 10) || !array(q.contextIds, 20) || !record(q.origin) || q.origin.kind !== 'official' ||
             !identifier(q.origin.paperId) || !Number.isInteger(q.origin.number) || q.origin.number < 1 || !text(q.origin.locator) ||
@@ -259,6 +288,7 @@ const Study = (() => {
         if (key.result === 'valid' ? (q.type === 'true_false' ? typeof key.value !== 'boolean' : !options.has(key.value)) : key.value !== null) fail();
         const contexts = new Set();
         for (const ctx of item.contexts) {
+          if (!record(ctx) || own(ctx,'language') && !['pt-BR','en'].includes(ctx.language)) fail();
           if (!record(ctx) || !identifier(ctx.id) || contexts.has(ctx.id) || !text(ctx.text) || !text(ctx.label) || !['instruction', 'passage'].includes(ctx.kind) || !identifier(ctx.sourceDocumentId) || !Number.isInteger(ctx.sourcePage) || ctx.sourcePage < 1 || !Number.isInteger(ctx.revision) || ctx.revision < 1) fail();
           if (own(ctx, 'sourceCredit') && (ctx.kind !== 'passage' || !text(ctx.sourceCredit))) fail();
           if (own(ctx, 'sourceLines')) {
@@ -268,6 +298,7 @@ const Study = (() => {
         }
         if (contexts.size !== q.contextIds.length || q.contextIds.some(ref => !contexts.has(ref))) fail();
         for (const m of item.mappings) {
+          if (!record(m) || own(m,'block') && !['basic','specific'].includes(m.block)) fail();
           if (!record(m) || m.roleId !== session.roleId || !['id','syllabusItemId','noticeId','roleId','topicId','disciplineId'].every(k => identifier(m[k])) || !text(m.topicLabel) || !text(m.disciplineLabel) || !text(m.number)) fail();
         }
         for (const explanation of item.explanations) {
@@ -282,6 +313,7 @@ const Study = (() => {
         }
         questions.set(q.id, q);
       }
+      if (session.selection?.block && !session.items.every(item=>item.mappings.some(m=>m.block===session.selection.block))) fail();
       const answers = new Set();
       for (const answer of session.answers) {
         if (!record(answer) || !questions.has(answer.questionId) || answers.has(answer.questionId)) fail();
@@ -302,6 +334,6 @@ const Study = (() => {
     if (!parsed || parsed.format !== 'questionador-concursos-backup' || parsed.version !== VERSION) throw Error('Este arquivo não é um backup compatível do Questionador Concursos.');
     return validate(parsed.progress, data);
   }
-  return { VERSION, MAX_BYTES, empty, grade, choiceOf, totals, performance, latest, topicBranch, pool, snapshot, create, remaining, expired, score, choose, move, finish, matches, validate, exportBackup, importBackup };
+  return { VERSION, MAX_BYTES, empty, grade, choiceOf, totals, performance, evolution, latest, topicBranch, pool, snapshot, create, remaining, expired, score, choose, move, finish, matches, validate, exportBackup, importBackup };
 })();
 Object.assign(globalThis, { Study });

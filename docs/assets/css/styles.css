@@ -219,7 +219,7 @@ select { width: 100%; min-width: 0; }
 .training-fields input { font: inherit; color: var(--text); background: var(--surface-raised); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); min-height: var(--target); padding: var(--space-2xs) var(--space-xs); width: 100%; }
 .training-fields input::placeholder { color: var(--text-soft); }
 .training-options:disabled { opacity: 0.65; }
-#study-options { margin-bottom: var(--space-sm); }
+
 @media (min-width: 48rem) { .training-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (forced-colors: active) {
   .select-control select { appearance: auto; }
@@ -429,3 +429,23 @@ button { overflow-wrap: anywhere; }
 
 .metrics #training-score { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: var(--space-xs); align-items: center; justify-content: space-between; }
 .metrics #training-score dd { margin: 0; }
+
+.customization-dialog { max-width: min(48rem, calc(100% - 2rem)); width: min(48rem, calc(100% - 2rem)); max-height: calc(100dvh - 2rem); overflow-y: auto; }
+.customization-dialog h2 { margin-top: 0; }
+.customization-actions { justify-content: flex-end; margin-top: var(--space-md); }
+#study-selection-summary { margin-block: var(--space-xs); }
+@media (max-width: 34rem) {
+  .landing-actions > #customize-study, .landing-actions > #start-study { flex: 1 1 10rem; }
+  .customization-actions > button { flex: 1 1 10rem; }
+}
+
+.evolution-filter { max-width: 22rem; margin-block: var(--space-sm); }
+.evolution-days { list-style: none; padding: 0; display: grid; gap: var(--space-sm); }
+.evolution-days > li { border: 1px solid var(--border); border-radius: var(--radius-sm); padding: var(--space-sm); }
+.evolution-day-heading { display: flex; justify-content: space-between; flex-wrap: wrap; gap: var(--space-xs); }
+.evolution-days meter { width: 100%; height: 0.75rem; margin-block-start: var(--space-xs); }
+
+.customization-dialog[open] { display: flex; flex-direction: column; }
+.customization-header, .customization-actions { flex: 0 0 auto; }
+.customization-body { min-height: 0; overflow-y: auto; padding: 0.25rem; margin-inline: -0.25rem; }
+.customization-actions { padding-top: var(--space-xs); border-top: 1px solid var(--border); }

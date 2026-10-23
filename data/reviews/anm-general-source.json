@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-23T20:16:39.301047+00:00",
+  "sourceUrl": "https://apis.cebraspe.org.br/cebraspe/eventos/anm_24",
+  "responseFile": "data/reviews/anm-official-listing-response.json",
+  "responseSha256": "6f9181e79372949c79d8fcd7810c4ae63f90320beb8d3c0db4f14a71636699dc",
+  "selectedFiles": [
+    "038_ANM_CG1_01.PDF",
+    "Gab_Definitivo_038_ANM_CG1_01.PDF"
+  ],
+  "scope": "Official listing, paper/key identity, definitive stage, Cargo 10 coverage, application date and source inventory. Individual releases are documented separately in fifth-batch.json."
+}

@@ -156,7 +156,7 @@ test('custom quantity and draw preserve sources, options and contexts without re
  for(const item of session.items) assert.deepEqual(plain(item),plain(s.Study.snapshot(s.data,s.data.questions.find(q=>q.id===item.question.id),s.role)));
  assert.equal(JSON.stringify(s.data),before);assert.equal(session.scoringProfile,null);
  for(const limit of [0,-1,1.5,'2',6,NaN]) assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{...filters,limit}),/quantidade/);
- assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{disciplineId:'lingua-inglesa'}),/Não há questões/);
+ assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{disciplineId:'ciencia-politica'}),/Não há questões/);
 });
 test('filtered errors use finalized outcomes and ignore unfinished choices',()=>{
  const s=setup(), settings={topicId:'comunicacao-social-7',limit:1};let p=s.Study.empty();
@@ -282,4 +282,59 @@ test('custom scoring never changes accuracy, unscored history or official criter
  const legacy={...s.Study.empty(),active:unscored};delete legacy.active.timer;delete legacy.active.selection;
  assert.deepEqual(plain(s.Study.validate(legacy,s.data)),plain(legacy));
  assert.equal(s.Study.finish({...s.Study.empty(),active:make('none')}).history[0].scoringProfile,null);
+});
+
+test('block filters use target syllabus blocks, preserve distinct IDs and validate snapshots',()=>{
+ const s=setup(),p=s.Study.empty();
+ const basic=s.Study.pool(s.data,s.role,p,'all',{block:'basic'}),specific=s.Study.pool(s.data,s.role,p,'all',{block:'specific'});
+ assert.equal(basic.length,23);assert.equal(specific.length,32);
+ assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',disciplineId:'lingua-inglesa'}).length,0);
+ const session=s.Study.create(s.data,s.role,p,'all',{block:'basic',disciplineId:'lingua-inglesa'});
+ assert.equal(session.items.length,4);assert.equal(session.selection.block,'basic');
+ assert.equal(session.items[0].question.language,'en');assert.equal(session.items[0].contexts[0].language,'en');
+ assert.ok(session.items.every(i=>i.mappings.some(m=>m.block==='basic')));
+ const restored=s.Study.importBackup(s.Study.exportBackup({...p,active:session}),s.data);assert.deepEqual(plain(restored.active),plain(session));
+ for(const mutate of [p=>p.active.selection.block='specific',p=>p.active.items[0].question.language='invalid',p=>p.active.items[0].contexts[0].language='invalid']) {
+  const broken=plain({...p,active:session});mutate(broken);assert.throws(()=>s.Study.validate(broken,s.data));
+ }
+ const legacy=s.Study.create(s.data,s.role,p,'all',{limit:1});delete legacy.selection.block;
+ legacy.items.forEach(i=>i.mappings.forEach(m=>delete m.block));
+ assert.ok(s.Study.validate({...p,active:legacy},s.data));
+ const multi=plain(s.data),target=multi.syllabusItems.find(t=>t.block==='specific');
+ multi.mappings.push({id:'synthetic-cross-block-link',questionId:basic[0].id,syllabusItemId:target.id,status:'confirmed'});
+ assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,33);
+ assert.equal(s.Study.pool(multi,s.role,p).length,55);
+ assert.throws(()=>s.Study.pool(s.data,s.role,p,'all',{block:'invalid'}),/Bloco/);
+});
+test('evolution uses local calendar days, weighted accuracy and finalized role snapshots only',()=>{
+ const s=setup();const make=(id,date,answers)=>{
+  let session=s.Study.create(s.data,s.role,s.Study.empty(),'all',{id,now:date,limit:answers.length});
+  answers.forEach((answer,index)=>{session=s.Study.move(session,index);if(answer!==null)session=s.Study.choose(session,answer?session.items[index].key.value:!session.items[index].key.value);});
+  return s.Study.finish({...s.Study.empty(),active:session},date).history[0];
+ };
+ // 01:30 UTC is still the previous calendar day in São Paulo.
+ const a=make('day-one','2026-10-22T01:30:00.000Z',[true]);
+ const b=make('day-two','2026-10-22T15:00:00.000Z',[true,false,false]);
+ const blank=make('blank-day','2026-10-23T10:00:00.000Z',[null]);
+ const other={...a,id:'other-role',roleId:'abdi-futuro'},draft={...a,id:'draft',finishedAt:null};
+ const history=[a,b,blank,other,draft,a];const before=JSON.stringify(history);
+ const result=s.Study.evolution(history,s.role,{days:7,now:'2026-10-23T12:00:00.000Z',timeZone:'America/Sao_Paulo'});
+ assert.equal(result.from,'2026-10-17');assert.equal(result.to,'2026-10-23');assert.equal(result.totals.sessions,3);
+ assert.equal(result.totals.questions,3);assert.equal(result.totals.attempts,5);assert.equal(result.totals.rate,50);
+ assert.deepEqual(plain(result.rows.map(r=>[r.date,r.rate])),[['2026-10-21',100],['2026-10-22',33],['2026-10-23',null]]);
+ assert.equal(result.rows.length,3);assert.equal(JSON.stringify(history),before);
+ s.data.mappings=[];s.data.questions=[];
+ assert.equal(s.Study.evolution(history,s.role,{days:null,now:'2026-10-23T12:00:00.000Z',timeZone:'UTC'}).totals.rate,50);
+});
+test('evolution includes calendar window boundaries across DST and leap day without inventing zero-study days',()=>{
+ const s=setup();const source=s.Study.create(s.data,s.role,s.Study.empty(),'all',{limit:1});
+ const finish=(id,date)=>({...plain(source),id,startedAt:date,finishedAt:date});
+ const history=[finish('outside','2026-03-02T04:59:59.999Z'),finish('boundary','2026-03-02T05:00:00.000Z'),finish('inside','2026-03-08T06:30:00.000Z'),finish('future','2026-03-09T00:00:00.000Z')];
+ const report=s.Study.evolution(history,s.role,{days:7,now:'2026-03-08T12:00:00.000Z',timeZone:'America/New_York'});
+ assert.equal(report.from,'2026-03-02');assert.equal(report.totals.sessions,2);assert.equal(report.rows.length,2);
+ assert.equal(report.totals.rate,null);
+ const leap=s.Study.evolution([finish('leap','2024-02-29T12:00:00.000Z')],s.role,{days:7,now:'2024-03-06T12:00:00.000Z',timeZone:'UTC'});
+ assert.equal(leap.from,'2024-02-29');assert.equal(leap.totals.sessions,1);
+ assert.equal(s.Study.evolution([],s.role,{days:30,now:'2026-10-23T12:00:00.000Z'}).totals.sessions,0);
+ for(const settings of [{days:0},{days:'7'},{now:'invalid'},{timeZone:'invalid/zone'}])assert.throws(()=>s.Study.evolution([],s.role,settings));
 });

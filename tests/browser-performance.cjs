@@ -15,10 +15,10 @@ const mark = async (page,value) => {
    const errors=[];page.on('pageerror',e=>errors.push(e.message));
    await page.goto(base);await page.locator('#start-study:not([disabled])').waitFor();
    assert.equal(await page.locator('#landing-history').isHidden(),true);
-   await page.locator('#study-options summary').click();
+   await page.locator('#customize-study').click();
    await page.locator('#study-discipline').selectOption('lingua-portuguesa');
    await page.locator('#study-topic').selectOption('lingua-portuguesa-1');
-   await page.locator('#study-quantity').fill('2');await page.locator('#start-study').click();
+   await page.locator('#study-quantity').fill('2');await page.locator('#apply-study-options').click();await page.locator('#start-study').click();
    await page.locator('.source-lines').waitFor();
    assert.equal(await page.locator('.source-lines li').count(),26);
    assert.equal(await page.locator('.source-lines li').nth(14).getAttribute('value'),'15');

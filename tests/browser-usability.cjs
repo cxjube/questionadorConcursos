@@ -79,7 +79,7 @@ const key = 'questionador-concursos.progress.v1';
   assert.deepEqual(errors,[]);await page.close();
   const direct = await browser.newPage({viewport:{width,height:950}});
   await direct.goto(base);await direct.locator('#start-study:not([disabled])').waitFor();
-  await direct.locator('#study-options summary').click();await direct.locator('#study-quantity').fill('2');
+  await direct.locator('#customize-study').click();await direct.locator('#study-quantity').fill('2');await direct.locator('#apply-study-options').click();
   await direct.locator('#start-study').click();await direct.locator('input[value="false"]').check();
   await direct.waitForFunction(key=>JSON.parse(localStorage.getItem(key)).progress.active.answers.length===1,key);
   const pending=await direct.evaluate(key=>localStorage.getItem(key),key);

@@ -1,5 +1,8 @@
 # Registro dos documentos recebidos
 
+> Atualização: [personalização e evolução por período](customization-evolution-release.md); [quinto lote e novo par oficial da ANM](fifth-batch-release.md). São 55 questões, 12 comentários e 22 PDFs registrados. Os estados descritos abaixo correspondem às entregas indicadas.
+
+
 > Atualização de 23/10/2026: a conferência externa foi concluída para os 20 PDFs. Foram incluídos os editais nº 2, 3 e 4, a ata e a abertura atualizada. Consulte o [estado atual das fontes](source-verification.md) e o [primeiro lote em preparação](first-batch-review.md). As pendências de rede ou autenticação descritas neste registro histórico foram resolvidas.
 
 

@@ -3,7 +3,7 @@
 > Atualização: o lote foi liberado para o primeiro treino funcional. Consulte a [decisão de liberação](first-batch-release.md) e o [guia de uso e backup](study-guide.md). Os estados de preparação e limitações descritos neste registro se referem à entrega anterior.
 
 
-Os **20 PDFs retidos** coincidem byte a byte com downloads oficiais, por SHA-256. Foram conferidos os editais nº 1 a 6 da Câmara disponíveis na consulta, a abertura atualizada, a ata do sorteio e os seis pares de cadernos/gabaritos. A conferência da fonte está concluída para esses documentos; não representa garantia sobre atos futuros.
+Os **22 PDFs retidos** coincidem byte a byte com downloads oficiais, por SHA-256. Foram conferidos os editais nº 1 a 6 da Câmara disponíveis na consulta, a abertura atualizada, a ata do sorteio e os sete pares de cadernos/gabaritos. O par geral da ANM foi localizado e baixado nesta extensão; as comparações dos 20 documentos anteriores permanecem como evidência registrada, sem afirmar novo download de todos eles. A conferência da fonte está concluída para esses documentos; não representa garantia sobre atos futuros.
 
 ## Editais e referências da Câmara
 
@@ -43,7 +43,9 @@ Programa, regra objetiva e consolidação passaram para `confirmed`; os seis edi
 | `539_ALCE_016_01` | [PDF oficial](https://cdn.cebraspe.org.br/concursos/AL_CE_20/arquivos/539_ALCE_016_01.PDF) | [Gabarito definitivo](https://cdn.cebraspe.org.br/concursos/AL_CE_20/arquivos/GAB_DEFINITIVO_539_ALCE_016_01.PDF) | Ambos idênticos aos anexos |
 | `989_CODEVASF_010_01` | [PDF oficial](https://cdn.cebraspe.org.br/concursos/CODEVASF_24/arquivos/989_CODEVASF_010_01.PDF) | [Gabarito definitivo](https://cdn.cebraspe.org.br/concursos/CODEVASF_24/arquivos/GAB_DEFINITIVO_989_CODEVASF_010_01.PDF) | Ambos idênticos aos anexos |
 
-Os seis pares cobrem 340 itens, com 12 anulações. A identidade dos documentos não implica revisão de todos os enunciados. O [primeiro lote de 20 questões](first-batch-review.md) fica em preparação, fora do catálogo e do Pages. Não foram criados comentários ou respostas autorais.
+O novo par `038_ANM_CG1_01` tem [caderno oficial](https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_CG1_01.PDF) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_CG1_01.PDF). A listagem e seus bytes originais estão em `data/reviews/anm-general-source.json` e `anm-official-listing-response.json`.
+
+Os sete pares cobrem 390 itens, com 16 anulações. A identidade dos documentos não implica revisão de todos os enunciados. Há 55 questões liberadas e 12 comentários editoriais independentes identificados como assistidos por IA; veja o [quinto lote](fifth-batch-release.md). O arquivo de preparação histórico continua fora do build e do Pages.
 
 ## Evidência e reprodução
 

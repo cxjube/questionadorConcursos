@@ -1777,6 +1777,32 @@
       "sha256": "ef6b4cd7d748189bc23584e33a67a3f12c1202fd2771ba632a9c9cb5401f7fcb",
       "publicationDate": "2026-10-08",
       "paperId": null
+    },
+    {
+      "id": "source-038-anm-cg1-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "ANM — Conhecimentos gerais — cargos 1 a 4, 6 a 10 e 12 — caderno",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_CG1_01.PDF",
+      "file": "sources/papers/038_ANM_CG1_01.PDF",
+      "sha256": "a86426b880166b6dd99bcfd5b80cbb36f68b2eef431f94e5770682f714e08b87",
+      "publicationDate": "2025-02-21",
+      "paperId": "source-038-anm-cg1-01"
+    },
+    {
+      "id": "source-038-anm-cg1-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "ANM — Conhecimentos gerais — cargos 1 a 4, 6 a 10 e 12 — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_CG1_01.PDF",
+      "file": "sources/answer-keys/Gab_Definitivo_038_ANM_CG1_01.PDF",
+      "sha256": "509c0196725bee12055d699b2584632c65bab621c39a88f6035eee75a90ab338",
+      "publicationDate": "2025-03-18",
+      "paperId": "source-038-anm-cg1-01"
     }
   ],
   "papers": [
@@ -1937,6 +1963,35 @@
           108
         ],
         "answerKeyDocumentId": "source-989-codevasf-010-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-038-anm-cg1-01",
+      "bankId": "concursos",
+      "title": "ANM — Conhecimentos gerais — cargos 1 a 4, 6 a 10 e 12",
+      "provider": "Cebraspe",
+      "institution": "ANM",
+      "role": "Conhecimentos gerais — cargos 1 a 4, 6 a 10 e 12",
+      "year": 2025,
+      "booklet": "038_ANM_CG1_01",
+      "documentId": "source-038-anm-cg1-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-02-16",
+        "block": "basic",
+        "firstItem": 1,
+        "lastItem": 50,
+        "itemCount": 50,
+        "questionType": "true_false",
+        "annulledItems": [
+          15,
+          28,
+          31,
+          41
+        ],
+        "answerKeyDocumentId": "source-038-anm-cg1-01-key",
         "pairingStatus": "matched_by_filename_and_range",
         "externalVerification": true
       }
@@ -3497,6 +3552,227 @@
         "temporalNote": "Análise linguística e interpretação do texto literário Um amigo em talas adaptado no caderno de 2016; texto e gabarito histórico preservados.",
         "decisionReference": "documentation/fourth-batch-release.md"
       }
+    },
+    {
+      "id": "038-anm-cg1-01-q011",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "In the first paragraph, the idiomatic expression “a real test of steel” conveys the idea of a major challenge ahead.",
+      "options": [],
+      "contextIds": [
+        "anm-cg1-quantum",
+        "anm-cg1-english-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-cg1-01",
+        "number": 11,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-cg1-01-q011-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Texto de 2025 preservado para compreensão de inglês; as previsões do texto não descrevem necessariamente o estado atual da tecnologia.",
+        "decisionReference": "documentation/fifth-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "038-anm-cg1-01-q012",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Perfecting the physics of quantum computing is the primary challenge for this new kind of computer.",
+      "options": [],
+      "contextIds": [
+        "anm-cg1-quantum",
+        "anm-cg1-english-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-cg1-01",
+        "number": 12,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-cg1-01-q012-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Texto de 2025 preservado para compreensão de inglês; as previsões do texto não descrevem necessariamente o estado atual da tecnologia.",
+        "decisionReference": "documentation/fifth-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "038-anm-cg1-01-q013",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "The main goal of quantum computing is improving classical computing power to solve problems faster.",
+      "options": [],
+      "contextIds": [
+        "anm-cg1-quantum",
+        "anm-cg1-english-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-cg1-01",
+        "number": 13,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-cg1-01-q013-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Texto de 2025 preservado para compreensão de inglês; as previsões do texto não descrevem necessariamente o estado atual da tecnologia.",
+        "decisionReference": "documentation/fifth-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "038-anm-cg1-01-q014",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "The success of quantum computing companies will depend on the ability of their team of scientists to deal with daily complaints from final users.",
+      "options": [],
+      "contextIds": [
+        "anm-cg1-quantum",
+        "anm-cg1-english-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-cg1-01",
+        "number": 14,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-cg1-01-q014-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Texto de 2025 preservado para compreensão de inglês; as previsões do texto não descrevem necessariamente o estado atual da tecnologia.",
+        "decisionReference": "documentation/fifth-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "038-anm-cg1-01-q026",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Aprendizado de máquina (machine learning) é o processo de treinar um modelo para identificar padrões e fazer previsões ou gerar novos conteúdos com base nas informações processadas.",
+      "options": [],
+      "contextIds": [
+        "anm-cg1-it-defaults",
+        "anm-cg1-it-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-cg1-01",
+        "number": 26,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-cg1-01-q026-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceito de tecnologia da informação avaliado em 2025; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/fifth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-cg1-01-q029",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Spyware é um golpe em que criminosos se passam por organizações confiáveis para obter informações sensíveis, como senhas e dados bancários, por meio de e-mails ou sites falsos.",
+      "options": [],
+      "contextIds": [
+        "anm-cg1-it-defaults",
+        "anm-cg1-it-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-cg1-01",
+        "number": 29,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-cg1-01-q029-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceito de tecnologia da informação avaliado em 2025; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/fifth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-cg1-01-q030",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Ao utilizar o OneDrive, os arquivos são armazenados em nuvem, o que permite acesso remoto e sincronização entre dispositivos, como computadores, tablets e celulares.",
+      "options": [],
+      "contextIds": [
+        "anm-cg1-it-defaults",
+        "anm-cg1-it-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-cg1-01",
+        "number": 30,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-cg1-01-q030-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceito de tecnologia da informação avaliado em 2025; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/fifth-batch-release.md"
+      }
     }
   ],
   "answerKeys": [
@@ -4123,6 +4399,97 @@
       "locator": "PDF p. 1",
       "result": "valid",
       "value": true
+    },
+    {
+      "id": "038-anm-cg1-01-q011-key-v1",
+      "questionId": "038-anm-cg1-01-q011",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-cg1-01-q012-key-v1",
+      "questionId": "038-anm-cg1-01-q012",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-cg1-01-q013-key-v1",
+      "questionId": "038-anm-cg1-01-q013",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-cg1-01-q014-key-v1",
+      "questionId": "038-anm-cg1-01-q014",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-cg1-01-q026-key-v1",
+      "questionId": "038-anm-cg1-01-q026",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-cg1-01-q029-key-v1",
+      "questionId": "038-anm-cg1-01-q029",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-cg1-01-q030-key-v1",
+      "questionId": "038-anm-cg1-01-q030",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
     }
   ],
   "explanations": [
@@ -4227,6 +4594,58 @@
         {
           "documentId": "source-232funprespexe-cb1-01-paper",
           "locator": "PDF p. 1, texto Um amigo em talas, linhas 4–14"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-cg1-01-q011-comment-v1",
+      "questionId": "038-anm-cg1-01-q011",
+      "text": "No primeiro parágrafo, a expressão “a real test of steel” aparece após a previsão de uso dos computadores quânticos fora dos laboratórios. O segundo parágrafo desenvolve esse desafio: eles precisam funcionar também em condições desfavoráveis. A leitura da expressão como um grande desafio é compatível com esse contexto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-cg1-01-paper",
+          "locator": "PDF p. 2, texto em inglês, parágrafos 1–2"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-cg1-01-q012-comment-v1",
+      "questionId": "038-anm-cg1-01-q012",
+      "text": "O terceiro parágrafo afirma que a parte quântica se tornou a mais fácil e contrapõe o desafio de física a um desafio de engenharia: “it’s no longer a physics challenge — it’s an engineering one.” O item inverte esse contraste ao apresentar o aperfeiçoamento da física como desafio principal.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-cg1-01-paper",
+          "locator": "PDF p. 2, texto em inglês, parágrafo 3"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-cg1-01-q013-comment-v1",
+      "questionId": "038-anm-cg1-01-q013",
+      "text": "O último parágrafo descreve problemas que não poderiam ser resolvidos em computadores clássicos. O texto não reduz a finalidade da computação quântica a melhorar a potência dos computadores clássicos para resolver problemas mais rapidamente, como afirma o item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-cg1-01-paper",
+          "locator": "PDF p. 2, texto em inglês, parágrafo 4"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-cg1-01-q014-comment-v1",
+      "questionId": "038-anm-cg1-01-q014",
+      "text": "O segundo parágrafo relaciona o sucesso das empresas à preparação dos computadores para funcionar no mundo real, inclusive em seus piores dias. O texto não condiciona esse sucesso à capacidade dos cientistas de atender reclamações diárias de usuários finais. Essa informação foi acrescentada pelo item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-cg1-01-paper",
+          "locator": "PDF p. 2, texto em inglês, parágrafo 2"
         }
       ]
     }
@@ -7319,6 +7738,55 @@
       "syllabusItemId": "camara-2026-lingua-portuguesa-2",
       "justification": "Avalia a combinação de tipos textuais no segundo parágrafo.",
       "status": "confirmed"
+    },
+    {
+      "id": "038-anm-cg1-01-q011-mapping-1",
+      "questionId": "038-anm-cg1-01-q011",
+      "syllabusItemId": "camara-2026-lingua-inglesa-1",
+      "justification": "Interpretação de expressão idiomática no primeiro parágrafo do texto em inglês.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-cg1-01-q012-mapping-1",
+      "questionId": "038-anm-cg1-01-q012",
+      "syllabusItemId": "camara-2026-lingua-inglesa-1",
+      "justification": "Identificação da ideia central e do contraste entre física e engenharia no texto em inglês.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-cg1-01-q013-mapping-1",
+      "questionId": "038-anm-cg1-01-q013",
+      "syllabusItemId": "camara-2026-lingua-inglesa-1",
+      "justification": "Compreensão das relações entre computação quântica e clássica descritas no texto em inglês.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-cg1-01-q014-mapping-1",
+      "questionId": "038-anm-cg1-01-q014",
+      "syllabusItemId": "camara-2026-lingua-inglesa-1",
+      "justification": "Distinção entre informação textual e extrapolação sobre o sucesso das empresas.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-cg1-01-q026-mapping-1",
+      "questionId": "038-anm-cg1-01-q026",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-5",
+      "justification": "Conceito geral de aprendizado de máquina no campo da inteligência artificial.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-cg1-01-q029-mapping-1",
+      "questionId": "038-anm-cg1-01-q029",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-4-3",
+      "justification": "Distinção entre ameaças digitais, incluindo phishing, e a nomenclatura empregada no item.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-cg1-01-q030-mapping-1",
+      "questionId": "038-anm-cg1-01-q030",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-1",
+      "justification": "Uso do OneDrive para armazenamento em nuvem e sincronização de arquivos.",
+      "status": "confirmed"
     }
   ],
   "scoringRules": [
@@ -7852,6 +8320,45 @@
       "text": "Com relação às ideias e aos aspectos linguísticos do texto Um amigo em talas, julgue os itens que se seguem.",
       "sourceDocumentId": "source-232funprespexe-cb1-01-paper",
       "sourcePage": 1
+    },
+    {
+      "id": "anm-cg1-quantum",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Texto de apoio em inglês",
+      "language": "en",
+      "text": "For the first time, 2025 will see quantum computers leave labs and research institutions and actually deploy into the networks and data centers of real-world customers. For quantum computing companies, this will be a real test of steel.\n\nIt’s one thing to have a groundbreaking, powerful quantum computer that only works on its very best day — when the lab conditions are perfect and when the team of PhDs operating it are at the top of their game. But the reality is that quantum computers need to work on their worst days too — in the real world, in real organizations. The quantum computing companies that land on top will be the ones that have built for this challenge since day one.\n\nPeople tend to hear the words “quantum computing” and jump straight to science fiction or the multiverse. And while it seems daunting, we’ve actually reached a point where the “quantum” part of quantum computing is the easiest bit — it’s the “computing” that is inherently complex. For those on the front lines of building powerful quantum computers, this means it’s no longer a physics challenge — it’s an engineering one.\n\nCompanies won’t need to know the ins and outs of quantum computers in order to leverage its unprecedented power — they’ll simply benefit from its ability to solve the problems that could never be solved on classical computers.",
+      "sourceCredit": "Internet: <thequantuminsider.com> (adapted).",
+      "sourceDocumentId": "source-038-anm-cg1-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "anm-cg1-english-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "language": "en",
+      "text": "Regarding the text, judge the following items.",
+      "sourceDocumentId": "source-038-anm-cg1-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "anm-cg1-it-defaults",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Condições gerais do caderno para informática",
+      "text": "Nos itens que avaliarem conhecimentos de informática e(ou) tecnologia da informação, a menos que seja explicitamente informado o contrário, considere que todos os programas mencionados estão em configuração-padrão e que não há restrições de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados.",
+      "sourceDocumentId": "source-038-anm-cg1-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "anm-cg1-it-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "Julgue os itens a seguir, referentes ao Microsoft Office 365, a redes de computadores, à segurança da informação e à inteligência artificial.",
+      "sourceDocumentId": "source-038-anm-cg1-01-paper",
+      "sourcePage": 2
     }
   ]
 }

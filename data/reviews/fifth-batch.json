@@ -1,0 +1,135 @@
+{
+  "id": "fifth-batch",
+  "reviewedAt": "2026-10-23",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/fifth-batch-release.md",
+  "items": [
+    {
+      "questionId": "038-anm-cg1-01-q011",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 11,
+      "sourcePage": 2,
+      "contextIds": [
+        "anm-cg1-quantum",
+        "anm-cg1-english-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q011-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-1"
+      ],
+      "justification": "Interpretação de expressão idiomática no primeiro parágrafo do texto em inglês."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q012",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 12,
+      "sourcePage": 2,
+      "contextIds": [
+        "anm-cg1-quantum",
+        "anm-cg1-english-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q012-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-1"
+      ],
+      "justification": "Identificação da ideia central e do contraste entre física e engenharia no texto em inglês."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q013",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 13,
+      "sourcePage": 2,
+      "contextIds": [
+        "anm-cg1-quantum",
+        "anm-cg1-english-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q013-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-1"
+      ],
+      "justification": "Compreensão das relações entre computação quântica e clássica descritas no texto em inglês."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q014",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 14,
+      "sourcePage": 2,
+      "contextIds": [
+        "anm-cg1-quantum",
+        "anm-cg1-english-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q014-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-1"
+      ],
+      "justification": "Distinção entre informação textual e extrapolação sobre o sucesso das empresas."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q026",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 26,
+      "sourcePage": 2,
+      "contextIds": [
+        "anm-cg1-it-defaults",
+        "anm-cg1-it-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q026-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-5"
+      ],
+      "justification": "Conceito geral de aprendizado de máquina no campo da inteligência artificial."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q029",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 29,
+      "sourcePage": 2,
+      "contextIds": [
+        "anm-cg1-it-defaults",
+        "anm-cg1-it-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q029-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-4-3"
+      ],
+      "justification": "Distinção entre ameaças digitais, incluindo phishing, e a nomenclatura empregada no item."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q030",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 30,
+      "sourcePage": 2,
+      "contextIds": [
+        "anm-cg1-it-defaults",
+        "anm-cg1-it-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q030-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-1"
+      ],
+      "justification": "Uso do OneDrive para armazenamento em nuvem e sincronização de arquivos."
+    }
+  ]
+}

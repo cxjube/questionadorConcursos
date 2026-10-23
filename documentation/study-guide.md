@@ -1,6 +1,6 @@
 # Como estudar e guardar o progresso
 
-1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. O objetivo disponível é Câmara — Comunicação Social — Divulgação Institucional, com 48 questões de provas anteriores relacionadas.
+1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. O objetivo disponível é Câmara — Comunicação Social — Divulgação Institucional, com 55 questões de provas anteriores relacionadas.
 2. Marque sua resposta ou **Deixar em branco**. Use **Anterior** e **Próxima** para navegar; **Próxima** é a ação principal. Você pode trocar a alternativa ou selecionar **Deixar em branco** até finalizar.
 3. Ao sair e voltar, use **Continuar questões**. A posição e as marcações são retomadas quando o navegador permitiu o salvamento.
 4. Use **Finalizar sessão** em qualquer questão ou abra **Revisar sessão** para conferir a lista e voltar às questões que quiser (também é o próximo passo na última questão). A confirmação informa quantas questões ficarão em branco e inicia com foco em **Continuar respondendo**. Cancelar ou abrir a revisão não encerra a tentativa. Questões sem marcação passam a brancos. A correção mostra sua resposta, gabarito definitivo, resultado e links da prova e do gabarito. Explicações indisponíveis são identificadas.
@@ -8,7 +8,7 @@
 
 ## Preparar uma nova sessão
 
-No resultado, o grupo **Próximo treino** fica logo abaixo dos indicadores. **Nova sessão** retorna à seleção do concurso/cargo e limpa disciplina, assunto, origem, ano, formato, quantidade, sorteio, tempo e pontuação. O resultado anterior permanece no histórico. Você pode configurar o próximo treino com calma: outra sessão só começa ao clicar em **Iniciar questões**.
+No resultado, o grupo **Próximo treino** fica logo abaixo dos indicadores. **Nova sessão** retorna à seleção do concurso/cargo e limpa bloco, disciplina, assunto, origem, ano, formato, quantidade, sorteio, tempo e pontuação. O resultado anterior permanece no histórico. Você pode configurar o próximo treino com calma: outra sessão só começa ao clicar em **Iniciar questões**.
 
 **Revisar erros** fica no mesmo grupo quando houver questões compatíveis com erro no último resultado finalizado para o objetivo. Sem erros, uma mensagem substitui o botão. A navegação Anterior/Próxima dentro da correção serve apenas para consultar as questões dessa tentativa.
 
@@ -34,11 +34,11 @@ Abra **Ver assuntos registrados** dentro de uma disciplina para ver os vínculos
 
 O texto de apoio dos dezesseis itens de Língua Portuguesa mantém os números das linhas da prova original. A quebra visual no celular não muda esses números. A referência bibliográfica permanece ao final do texto.
 
-Após finalizar, oito desses itens mostram **Comentário didático**, com autoria assistida por IA e referência à página/linhas que sustentam a interpretação. O gabarito continua identificado separadamente como oficial definitivo. Os comentários não são justificativas emitidas pela banca. Nas questões sem comentário confiável revisado, a aplicação informa sua indisponibilidade. Sessões e backups preservam a versão do comentário usada naquela tentativa.
+Após finalizar, oito desses itens mostram **Comentário didático**, com autoria assistida por IA e referência à página/linhas que sustentam a interpretação. O gabarito continua identificado separadamente como oficial definitivo. Os comentários não são justificativas emitidas pela banca. Nas questões sem comentário confiável revisado, a aplicação informa sua indisponibilidade. Sessões e backups preservam a versão do comentário usada naquela tentativa. O quinto lote acrescenta quatro comentários de Inglês com referências aos parágrafos do texto-base de 2025. O idioma dos textos/enunciados é identificado para leitores de tela; as instruções de navegação continuam em português.
 
 ## Personalizar o treino
 
-Antes de iniciar, abra **Personalizar treino**. Escolha uma disciplina e, se desejar, um assunto: o recorte inclui seus subtópicos. Os números nas opções indicam questões distintas, sem multiplicar uma questão por seus vínculos. Disciplinas sem itens ficam desabilitadas; assuntos sem itens não aparecem na seleção. Consulte Programa para ver o edital completo.
+Antes de iniciar, clique em **Personalizar treino**, à esquerda de **Iniciar questões**. A janela mantém **Cancelar** e **Aplicar personalização** acessíveis enquanto os filtros rolam. Aplicar conserva as escolhas; Cancelar ou Escape restaura a configuração anterior. Nenhuma sessão começa nessa janela. Escolha o bloco P1/P2 do edital de destino, uma disciplina e, se desejar, um assunto: o recorte inclui seus subtópicos. Os números nas opções indicam questões distintas, sem multiplicar uma questão por seus vínculos. Disciplinas sem itens ficam desabilitadas; assuntos sem itens não aparecem na seleção. Consulte Programa para ver o edital completo.
 
 Os filtros **Prova de origem**, **Ano de aplicação** e **Formato** podem ser combinados com disciplina/assunto. A origem é a prova onde a questão foi aplicada, não o concurso para o qual você estuda. Uma combinação sem itens bloqueia o início; altere os filtros ou use **Limpar filtros**. As contagens nas disciplinas/assuntos representam a oferta do banco para aquele recorte; o status abaixo mostra a interseção de todos os filtros.
 
@@ -47,6 +47,12 @@ Preencha **Quantidade de questões** ou deixe vazio para usar todas as disponív
 Ao iniciar, as questões e sua ordem ficam salvas. Retomar mantém a mesma sessão, mesmo que você consulte outro objetivo. Os filtros ficam bloqueados enquanto houver sessão em andamento. A seleção original aparece em **Sobre esta sessão** e acompanha o backup; backups anteriores sem esses metadados continuam compatíveis.
 
 Os atalhos de revisão de erros, brancos e inéditas usam o objetivo e o histórico, sem herdar os filtros do treino. A revisão por esses atalhos começa sem tempo limite e sem pontuação; essas configurações são escolhidas ao preparar um treino personalizado. Nenhum treino aplica notas mínimas oficiais.
+
+## Evolução por período
+
+Em **Histórico e desempenho**, abra **Evolução por período** e escolha **Últimos 7 dias**, **Últimos 30 dias** ou **Todo o período**. A janela inclui hoje e usa o fuso do navegador. Cada dia mostra taxa de acerto, acertos/erros/brancos, sessões, questões distintas e tentativas. Sem respostas válidas, não se cria uma taxa artificial; dias sem estudo não aparecem como 0%.
+
+O resumo do período calcula acertos ÷ (acertos + erros) somando tentativas; não faz média dos percentuais diários. Uma questão repetida em dois dias aparece em ambos, mas só conta uma vez no total de questões distintas do período. As seleções podem ter dificuldades diferentes; o gráfico descreve os treinos realizados, sem estimar aprovação ou domínio do edital. Só entram sessões finalizadas do cargo selecionado; enquanto houver sessão em andamento, finalize para consultar a evolução. Não há comparação de notas entre perfis de pontuação diferentes.
 
 ## Tempo e pontuação opcionais
 

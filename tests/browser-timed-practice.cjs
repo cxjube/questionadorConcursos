@@ -11,7 +11,7 @@ const progress = page => page.evaluate(key=>JSON.parse(localStorage.getItem(key)
    const errors=[];page.on('pageerror',e=>errors.push(e.message));
    await page.clock.install({time:new Date('2026-10-23T12:00:00.000Z')});
    await page.goto(base);await page.locator('#start-study:not([disabled])').waitFor();
-   await page.locator('#study-options summary').click();
+   await page.locator('#customize-study').click();
    await page.locator('#study-paper').selectOption('source-232funprespexe-cb1-01');
    await page.locator('#study-year').selectOption('2025');
    assert.equal(await page.locator('#start-study').isDisabled(),true);
@@ -23,14 +23,19 @@ const progress = page => page.evaluate(key=>JSON.parse(localStorage.getItem(key)
    await page.locator('#study-quantity').fill('3');
    await page.locator('#study-minutes').fill('0');assert.equal(await page.locator('#start-study').isDisabled(),true);
    await page.locator('#study-minutes').fill('1');await page.locator('#study-scoring').selectOption('net');
+   await page.locator('#apply-study-options').click();
    for(const theme of ['light','dark']) {
     await page.locator('[data-theme-choice="'+theme+'"]').click();
+    await page.locator('#customize-study').click();
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
     await page.screenshot({path:'/tmp/timed-options-'+width+'-'+theme+'.png',fullPage:true});
+    await page.locator('#apply-study-options').click();
    }
+   await page.locator('#customize-study').click();
    await page.evaluate(()=>document.documentElement.style.fontSize='200%');
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
    await page.evaluate(()=>document.documentElement.style.fontSize='');
+   await page.locator('#apply-study-options').click();
    await page.locator('#start-study').click();await page.locator('#finish-study').waitFor();
    const session=(await progress(page)).active;
    assert.equal(session.items.length,3);assert.equal(session.selection.year,2016);
@@ -55,10 +60,10 @@ const progress = page => page.evaluate(key=>JSON.parse(localStorage.getItem(key)
     await page.locator('#study-content .metrics').screenshot({path:'/tmp/timed-results-'+width+'-'+theme+'.png'});
    }
    await page.clock.fastForward(30000);assert.equal((await progress(page)).history.length,1);
-   await page.locator('#new-session').click();await page.locator('#study-options summary').click();
+   await page.locator('#new-session').click();await page.locator('#customize-study').click();
    assert.equal(await page.locator('#study-minutes').inputValue(),'');assert.equal(await page.locator('#study-scoring').inputValue(),'none');
    assert.equal(await page.locator('#study-paper').inputValue(),'');assert.equal(await page.locator('#study-year').inputValue(),'');assert.equal(await page.locator('#study-type').inputValue(),'');
-   await page.locator('#study-quantity').fill('1');await page.locator('#study-minutes').fill('1');
+   await page.locator('#study-quantity').fill('1');await page.locator('#study-minutes').fill('1');await page.locator('#apply-study-options').click();
    await page.locator('#start-study').click();await page.locator('#finish-study').waitFor();
    const second=(await progress(page)).active;
    // Closed-page time is wall time, not interval ticks. Reopen beyond the deadline.

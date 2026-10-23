@@ -33,17 +33,44 @@ const StudyUI = (() => {
     let importCandidate = null;
     let backupOpen = false;
     let finishDestination = 'results';
+    let evolutionDays = 30;
     const disclosureState = new Map();
     const landing = element('study-landing');
     const workspace = element('study-workspace');
     const content = element('study-content');
     const start = element('start-study');
+    const block = element('study-block');
     const discipline = element('study-discipline');
     const topic = element('study-topic');
     const quantity = element('study-quantity');
     const shuffle = element('study-shuffle');
     const paper = element('study-paper'), year = element('study-year'), format = element('study-type');
     const minutes = element('study-minutes'), scoring = element('study-scoring');
+    const optionsDialog = element('study-options'), customize = element('customize-study');
+    const optionControls = {block,discipline,topic,quantity,shuffle,paper,year,format,minutes,scoring};
+    let optionsBefore = null;
+    customize.addEventListener('click',()=>{
+      if (store.state.active || store.conflict || busy) return;
+      optionsBefore = Object.fromEntries(Object.entries(optionControls).map(([key,control])=>[key,control.type === 'checkbox' ? control.checked : control.value]));
+      optionsDialog.returnValue = ''; optionsDialog.showModal(); block.focus({preventScroll:true});
+      optionsDialog.scrollTop = 0; optionsDialog.querySelector('.customization-body').scrollTop = 0;
+    });
+    function closeOptions(apply = false) {
+      const previous = optionsBefore;
+      optionsBefore = null;
+      if (previous && !apply) {
+        for (const [key,control] of Object.entries(optionControls)) {
+          if (control.type === 'checkbox') control.checked = previous[key];
+          else control.value = previous[key];
+        }
+        refreshFilters(); discipline.value = previous.discipline; refreshFilters(); topic.value = previous.topic; refreshStart();
+      }
+      optionsDialog.close(apply ? 'apply' : 'cancel');
+    }
+    optionsDialog.addEventListener('cancel',event=>{event.preventDefault(); closeOptions();});
+    element('apply-study-options').addEventListener('click',()=>{
+      if (!element('apply-study-options').disabled) closeOptions(true);
+    });
     const clockText = seconds => [Math.floor(seconds/3600), Math.floor(seconds%3600/60), seconds%60].map(n=>String(n).padStart(2,'0')).join(':');
     async function tick() {
       const session = store.state.active;
@@ -60,7 +87,7 @@ const StudyUI = (() => {
       }
     }
     function resetSettings() {
-      quantity.value = ''; shuffle.checked = false; paper.value = ''; year.value = ''; format.value = ''; minutes.value = ''; scoring.value = 'none';
+      quantity.value = ''; shuffle.checked = false; block.value = ''; paper.value = ''; year.value = ''; format.value = ''; minutes.value = ''; scoring.value = 'none';
     }
     const notice = element('progress-warning');
     const noticeText = element('progress-warning-text');
@@ -106,7 +133,8 @@ const StudyUI = (() => {
       if ((event.key === Progress.KEY || event.key === null) && event.newValue !== store.baseline) {
         store.conflict = true;
         store.error = 'Outra aba alterou o histórico. Exporte seus dados desta página e carregue a versão mais recente antes de continuar.';
-        warning(); render(); announce(store.error);
+        if (optionsDialog.open) closeOptions();
+        refreshStart(); warning(); render(); announce(store.error);
       }
     });
     async function commit(next) {
@@ -124,7 +152,7 @@ const StudyUI = (() => {
       }
     }
     function trainingSettings() {
-      return {disciplineId: discipline.value || null, topicId: topic.value || null,
+      return {block:block.value || null, disciplineId: discipline.value || null, topicId: topic.value || null,
         limit: quantity.value === '' ? null : quantity.valueAsNumber, shuffle: shuffle.checked,
         paperId:paper.value || null, year:year.value ? Number(year.value) : null, type:format.value || null,
         durationMinutes:minutes.value === '' ? null : minutes.valueAsNumber, scoringMode:scoring.value};
@@ -146,10 +174,10 @@ const StudyUI = (() => {
       if ([...paper.options].some(o=>o.value===previousPaper)) paper.value=previousPaper;
       if ([...year.options].some(o=>o.value===previousYear)) year.value=previousYear;
       addOption(discipline, '', 'Todas as disciplinas');
-      const syllabus = data.syllabusItems.filter(s => s.roleId === selectedRole && s.status === 'confirmed');
+      const syllabus = data.syllabusItems.filter(s => s.roleId === selectedRole && s.status === 'confirmed' && (!block.value || s.block === block.value));
       for (const row of data.disciplines) {
         if (!syllabus.some(s => data.topics.find(t => t.id === s.topicId)?.disciplineId === row.id)) continue;
-        const count = Study.pool(data, selectedRole, store.state, 'all', {disciplineId: row.id}).length;
+        const count = Study.pool(data, selectedRole, store.state, 'all', {block:block.value || null,disciplineId: row.id}).length;
         addOption(discipline, row.id, row.label + ' (' + count + ')', !count);
       }
       if ([...discipline.options].some(o => o.value === previousDiscipline && !o.disabled)) discipline.value = previousDiscipline;
@@ -158,7 +186,7 @@ const StudyUI = (() => {
       if (discipline.value) for (const item of syllabus) {
         const row = data.topics.find(t => t.id === item.topicId);
         if (row.disciplineId !== discipline.value) continue;
-        const count = Study.pool(data, selectedRole, store.state, 'all', {disciplineId: discipline.value, topicId: row.id}).length;
+        const count = Study.pool(data, selectedRole, store.state, 'all', {block:block.value || null,disciplineId: discipline.value, topicId: row.id}).length;
         if (count) addOption(topic, row.id, item.number + ' ' + row.label + ' (' + count + ')');
       }
       if ([...topic.options].some(o => o.value === previousTopic)) topic.value = previousTopic;
@@ -178,10 +206,14 @@ const StudyUI = (() => {
       element('landing-history').hidden = !store.state.history.length && !resume;
       start.disabled = (!resume && (!count || invalid)) || Boolean(store.conflict);
       element('study-filters').disabled = resume || !total;
+      customize.disabled = resume || !total || Boolean(store.conflict);
+      element('apply-study-options').disabled = resume || !count || invalid || Boolean(store.conflict);
       element('study-availability').textContent = total ? total + ' questões disponíveis neste objetivo.' : 'Ainda não há questões publicadas para este objetivo.';
       element('study-filter-status').textContent = invalidTime ? 'Escolha um tempo inteiro entre 1 e 1440 minutos.' : invalidQuantity ? 'Escolha uma quantidade entre 1 e ' + Math.min(500, count) + '.' : count ? (settings.limit || count) + ' de ' + count + ' questões disponíveis para esta seleção.' : 'Nenhuma questão disponível para esta seleção.';
-      const customized = settings.disciplineId || settings.topicId || settings.limit !== null || settings.shuffle || settings.paperId || settings.year || settings.type || settings.durationMinutes !== null || settings.scoringMode !== 'none';
-      element('study-options').querySelector('summary').textContent = 'Personalizar treino' + (customized && !invalid && count ? ' · ' + (settings.limit || count) + ' questões' : '');
+      const customized = settings.block || settings.disciplineId || settings.topicId || settings.limit !== null || settings.shuffle || settings.paperId || settings.year || settings.type || settings.durationMinutes !== null || settings.scoringMode !== 'none';
+      const selectedSummary = element('study-selection-summary');
+      selectedSummary.hidden = !customized || resume;
+      selectedSummary.textContent = 'Treino personalizado · ' + amount(settings.limit || count,'questão','questões') + (settings.durationMinutes ? ' · ' + settings.durationMinutes + ' min' : '') + (settings.scoringMode !== 'none' ? ' · com pontuação de treino' : '');
       const note = element('study-resume-note'); note.hidden = !resume;
       if (resume) note.textContent = 'Sessão em andamento: ' + store.state.active.objective + '. Continue e finalize antes de criar outro treino. Os filtros não alteram essa sessão.';
     }
@@ -209,7 +241,7 @@ const StudyUI = (() => {
         viewedSession = null; importCandidate = null; view = 'active';
         selectedRole = element('role').value;
         resetSettings();
-        refreshFilters(true); element('study-options').open = false;
+        refreshFilters(true); if (optionsDialog.open) closeOptions(true);
         content.replaceChildren();
         element('study-feedback').hidden = true;
       }
@@ -222,6 +254,7 @@ const StudyUI = (() => {
       showSelection(true);
       announce('Escolha o objetivo e personalize seu próximo treino. A sessão anterior continua no histórico.');
     }
+    block.addEventListener('change',()=>{discipline.value=''; topic.value=''; refreshFilters();});
     discipline.addEventListener('change', () => { topic.value = ''; refreshFilters(); });
     topic.addEventListener('change', refreshStart);
     quantity.addEventListener('input', refreshStart);
@@ -261,7 +294,7 @@ const StudyUI = (() => {
     function sessionInfo(session) {
       const details = disclosure('session-info', 'Sobre esta sessão');
       details.append(node('p', session.objective), node('p', 'Você pode alterar as marcações até finalizar. O gabarito aparece ao final. As sessões são salvas neste navegador quando o armazenamento está disponível.'));
-      if (session.selection) details.append(node('p', [session.selection.disciplineLabel || 'Todas as disciplinas', session.selection.topicLabel || 'Todos os assuntos', session.selection.paperLabel || 'Todas as provas', session.selection.year || 'Todos os anos', session.selection.type === 'true_false' ? 'Certo ou Errado' : session.selection.type === 'multiple_choice' ? 'Múltipla escolha' : 'Todos os formatos', session.items.length + ' questões', session.selection.shuffle ? 'Seleção e ordem sorteadas' : 'Ordem do banco'].join(' · ')));
+      if (session.selection) details.append(node('p', [session.selection.block === 'basic' ? 'P1 — Conhecimentos básicos' : session.selection.block === 'specific' ? 'P2 — Conhecimentos específicos' : 'Todos os blocos', session.selection.disciplineLabel || 'Todas as disciplinas', session.selection.topicLabel || 'Todos os assuntos', session.selection.paperLabel || 'Todas as provas', session.selection.year || 'Todos os anos', session.selection.type === 'true_false' ? 'Certo ou Errado' : session.selection.type === 'multiple_choice' ? 'Múltipla escolha' : 'Todos os formatos', session.items.length + ' questões', session.selection.shuffle ? 'Seleção e ordem sorteadas' : 'Ordem do banco'].join(' · ')));
       if (session.timer) details.append(node('p','Tempo limite: ' + session.timer.durationSeconds/60 + ' minutos. O tempo continua fora da página.'));
       if (session.scoringProfile) details.append(node('p','Pontuação de treino: acerto +1; erro ' + session.scoringProfile.incorrect + '; branco e anulação 0. Sem critérios eliminatórios oficiais.'));
       if (!Study.matches(data, session)) details.append(node('p', 'Esta sessão preserva uma versão anterior do banco e seus gabaritos.', 'review-note'));
@@ -276,10 +309,10 @@ const StudyUI = (() => {
       heading.append(title, node('p', 'Prova de origem: ' + item.paper.provider + ' · ' + item.paper.institution + ' · ' + item.paper.year, 'question-meta'));
       content.append(heading);
       for (const context of item.contexts) {
-        if (context.kind === 'instruction') content.append(node('p', context.text, 'question-instruction'));
+        if (context.kind === 'instruction') {const instruction = node('p',context.text,'question-instruction'); instruction.lang = context.language || 'pt-BR'; content.append(instruction);}
         else {
-          const section = node('section', undefined, 'question-context');
-          section.append(node('h4', context.label));
+          const section = node('section', undefined, 'question-context'); section.lang = context.language || 'pt-BR';
+          const label = node('h4',context.label); label.lang = 'pt-BR'; section.append(label);
           if (context.sourceLines) {
             section.append(node('p', 'Os números indicam as linhas do caderno original.', 'review-note passage-line-note'));
             const lines = node('ol', undefined, 'source-lines'); lines.setAttribute('aria-label', 'Linhas do texto original');
@@ -291,7 +324,7 @@ const StudyUI = (() => {
         }
       }
       if (q.review.temporalScope === 'historical_excerpt') content.append(node('p', q.review.temporalNote, 'review-note historical-note'));
-      content.append(node('p', q.stem, 'question-stem'));
+      const stem = node('p',q.stem,'question-stem'); stem.lang = q.language || 'pt-BR'; content.append(stem);
       const choices = q.type === 'true_false' ? [{id: true, text: 'Certo'}, {id: false, text: 'Errado'}] : q.options.map(o => ({id: o.id, text: o.id.toUpperCase() + '. ' + o.text}));
       if (!completed) {
         const fieldset = node('fieldset', undefined, 'answer-choices'); fieldset.append(node('legend', 'Sua resposta'));
@@ -437,6 +470,48 @@ const StudyUI = (() => {
       details.append(list, help);
       return details;
     }
+    function evolutionView(roleId) {
+      const details = disclosure('evolution','Evolução por período','support-details evolution-details');
+      if (store.state.active) {details.append(node('p','Finalize a sessão em andamento para consultar a evolução.')); return details;}
+      const label = node('label','Período'); label.htmlFor = 'evolution-period';
+      const wrapper = node('div',undefined,'select-control');
+      const select = node('select'); select.id = 'evolution-period'; select.setAttribute('aria-controls','evolution-report');
+      for (const [value,text] of [['7','Últimos 7 dias'],['30','Últimos 30 dias'],['all','Todo o período']]) addOption(select,value,text);
+      select.value = evolutionDays === null ? 'all' : String(evolutionDays);
+      wrapper.append(select);
+      const field = node('div',undefined,'evolution-filter'); field.append(label,wrapper);
+      const report = node('div'); report.id = 'evolution-report';
+      function update() {
+        report.replaceChildren();
+        const result = Study.evolution(store.state.history,roleId,{days:evolutionDays});
+        const total = result.totals;
+        const status = node('p',undefined,'review-note'); status.id = 'evolution-summary'; status.setAttribute('role','status');
+        status.textContent = total.sessions ? amount(total.sessions,'sessão finalizada','sessões finalizadas') + ' · ' + amount(total.questions,'questão distinta','questões distintas') + ' · ' + amount(total.attempts,'tentativa','tentativas') + ' · ' + (total.rate === null ? 'Sem respostas válidas' : total.rate + '% de acerto') + '.' : 'Nenhuma sessão finalizada neste período para o objetivo selecionado.';
+        report.append(status);
+        if (result.rows.length) {
+          const list = node('ol',undefined,'evolution-days'); list.setAttribute('aria-label','Resultados por dia');
+          for (const row of result.rows) {
+            const item = node('li');
+            const heading = node('div',undefined,'evolution-day-heading');
+            const date = node('time',row.date.split('-').reverse().join('/')); date.dateTime = row.date;
+            heading.append(date,node('strong',row.rate === null ? 'Sem respostas válidas' : row.rate + '% de acerto'));
+            item.append(heading);
+            if (row.rate !== null) {
+              const meter = document.createElement('meter'); meter.min = 0; meter.max = 100; meter.value = row.rate;
+              meter.setAttribute('aria-label','Taxa de acerto em ' + date.textContent); meter.textContent = row.rate + '%'; item.append(meter);
+            }
+            item.append(node('p',amount(row.correct,'acerto','acertos') + ' · ' + amount(row.incorrect,'erro','erros') + ' · ' + amount(row.blank,'branco','brancos') + (row.annulled ? ' · ' + row.annulled + ' anuladas/retiradas' : ''),'review-note'),
+              node('small',amount(row.questions,'questão distinta','questões distintas') + ' · ' + amount(row.attempts,'tentativa','tentativas') + ' · ' + amount(row.sessions,'sessão','sessões')));
+            list.append(item);
+          }
+          report.append(list);
+        }
+        report.append(node('p','Taxa = acertos ÷ (acertos + erros), calculada pelas tentativas do período. Brancos e anulações ficam separados. A mesma questão estudada em dias diferentes aparece em cada dia; não some as contagens diárias de questões distintas. Dias sem estudo não recebem 0%.','review-note'),
+          node('small','Datas de finalização conforme o fuso deste navegador: ' + result.timeZone + '. A janela inclui o dia de hoje. A comparação reúne os treinos do objetivo; as seleções podem ter dificuldades diferentes.'));
+      }
+      select.addEventListener('change',()=>{evolutionDays = select.value === 'all' ? null : Number(select.value); update();});
+      update(); details.append(field,report); return details;
+    }
     function renderReview() {
       const session = store.state.active;
       if (!session) { view = 'history'; renderHistory(); return; }
@@ -508,7 +583,7 @@ const StudyUI = (() => {
       }
       content.append(node('h3', 'Continuar estudando'), reviewActions);
       if (store.state.active) content.append(node('p', 'Finalize ou retome a sessão em andamento antes de iniciar outra.', 'review-note'));
-      content.append(performanceView(store.state.history, selectedRole, 'history'));
+      content.append(performanceView(store.state.history, selectedRole, 'history'),evolutionView(selectedRole));
       content.append(node('h3', 'Sessões finalizadas (' + store.state.history.length + ')'));
       if (!store.state.history.length) content.append(node('p', 'Você ainda não finalizou nenhuma sessão.'));
       const list = node('ul', undefined, 'session-list');
@@ -580,7 +655,7 @@ const StudyUI = (() => {
         announce(store.error ? 'Progresso removido apenas desta página. Não foi possível alterar o armazenamento.' : 'Progresso apagado. A preferência de tema foi preservada.');
       }
     });
-    for (const dialog of document.querySelectorAll('dialog')) dialog.querySelector('[data-close-dialog]').addEventListener('click', () => dialog.close());
+    for (const dialog of document.querySelectorAll('dialog')) dialog.querySelector('[data-close-dialog]').addEventListener('click', () => dialog === optionsDialog ? closeOptions() : dialog.close());
     warning();
     window.setInterval(tick,1000);
     window.addEventListener('pageshow',tick);

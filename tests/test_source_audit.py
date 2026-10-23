@@ -15,14 +15,14 @@ class SourceAuditTests(unittest.TestCase):
         self.catalog = read_json(ROOT / 'data/catalog.json')
         self.evidence = read_json(ROOT / 'data/source-verification.json')
 
-    def test_all_twenty_sources_verified_without_publishing_questions(self):
+    def test_all_twenty_two_sources_verified_without_publishing_questions(self):
         """Keep document identity separate from a question bank ready for study."""
         self.assertEqual(audit_sources(self.catalog, self.evidence), [])
-        self.assertEqual(sum(r['outcome'] == 'byte_match' for r in self.evidence['documents']), 20)
-        self.assertEqual(sum(d['status'] == 'verified' for d in self.catalog['documents']), 20)
+        self.assertEqual(sum(r['outcome'] == 'byte_match' for r in self.evidence['documents']), 22)
+        self.assertEqual(sum(d['status'] == 'verified' for d in self.catalog['documents']), 22)
         self.assertTrue(all(n['status'] == 'verified' for n in self.catalog['notices']))
         self.assertTrue(all(p['inventory']['externalVerification'] for p in self.catalog['papers']))
-        self.assertEqual(len(self.catalog['questions']), 48)
+        self.assertEqual(len(self.catalog['questions']), 55)
 
     def test_official_hash_must_match(self):
         """Reject changing remote digest without changing the retained document."""
@@ -63,3 +63,22 @@ class SourceAuditTests(unittest.TestCase):
         key_id = self.catalog['papers'][0]['inventory']['answerKeyDocumentId']
         next(d for d in self.catalog['documents'] if d['id'] == key_id)['status'] = 'received'
         self.assertTrue(any('both official documents verified' in e for e in validate(self.catalog)))
+
+    def test_anm_general_pair_is_listed_with_definitive_key_and_correct_role_scope(self):
+        record = read_json(ROOT / 'data/reviews/anm-general-source.json')
+        raw = (ROOT / record['responseFile']).read_bytes()
+        self.assertEqual(hashlib.sha256(raw).hexdigest(),record['responseSha256'])
+        response = read_json(ROOT / record['responseFile'])
+        entries = []
+        def collect(value):
+            if isinstance(value,dict):
+                if value.get('nomeArquivo') in record['selectedFiles']: entries.append(value)
+                for item in value.values(): collect(item)
+            elif isinstance(value,list):
+                for item in value: collect(item)
+        collect(response)
+        self.assertEqual({e['nomeArquivo'] for e in entries},set(record['selectedFiles']))
+        key=next(e for e in entries if e['nomeArquivo'].startswith('Gab_'))
+        self.assertIn('DEFINITIVO',key['descricaoArquivo'])
+        self.assertIn('6 A 10',key['descricaoArquivo'])
+        self.assertTrue(any('038_ANM_CG1_01.PDF' in d['officialUrl'] for d in self.catalog['documents']))

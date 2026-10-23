@@ -1,5 +1,8 @@
 # Revisão de usabilidade — 23/10/2026
 
+> Atualização: [personalização e evolução por período](customization-evolution-release.md); [quinto lote e novo par oficial da ANM](fifth-batch-release.md). São 55 questões, 12 comentários e 22 PDFs registrados. Os estados descritos abaixo correspondem às entregas indicadas.
+
+
 > Atualização da distribuição das ações: Anterior/Próxima agora ficam agrupadas; Revisar/Finalizar formam o grupo secundário da mesma barra, com duas linhas no celular. No resultado, Nova sessão e Revisar erros ficam em Próximo treino, logo após os indicadores. A navegação das correções é secundária. Sem erros, uma mensagem substitui o botão desabilitado. Nova sessão retorna ao objetivo e limpa os filtros, preservando o histórico e aguardando o início explícito. Se houver outra tentativa em andamento, a confirmação a encerra antes da volta à seleção. A comparação de respostas usa rótulos e valores alinhados. O teste `browser-new-session.cjs` cobre esse fluxo em 320/1280 px, claro/escuro e texto a 200%.
 
 > Atualização a pedido do usuário: Limpar marcação foi removido. Finalizar sessão agora também está disponível diretamente em todas as questões, como ação secundária separada de Próxima. O diálogo informa a quantidade em branco, permite cancelar e mantém o foco inicial em Continuar respondendo. O cabeçalho passou a usar uma logo criada para o projeto: Questionador em azul escuro, com perna do Q verde e contorno branco. Os registros abaixo descrevem a revisão anterior; o guia de estudo registra o fluxo vigente.
