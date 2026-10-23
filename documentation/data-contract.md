@@ -42,7 +42,7 @@ Os PDFs ficam em `sources/`, fora do artefato de Pages. Cada registro declara ca
 
 `received` significa arquivo recebido e identificado. `verified` exige revisão da fonte, registro de URL HTTPS oficial e hash correspondente. O validador confere metadados e integridade, mas não estabelece sozinho a autenticidade de um documento ou a correção de sua classificação.
 
-Os três editais estão em `reviewed_copy`: foram revisados para o escopo desta etapa, sem autenticação externa. Os itens programáticos e as regras estão `documented`, com referências às cópias, em vez de `confirmed`. Os 12 PDFs de cadernos/gabaritos estão `verified`, com URLs oficiais e comparação SHA-256 registrada em `data/source-verification.json`. Essa conferência de identidade não publica questões nem confirma os vínculos temáticos.
+Os 20 PDFs estão `verified`, com URLs oficiais e comparação SHA-256 registrada em `data/source-verification.json`. Os editais nº 1 a 6 foram conferidos em 23/10/2026; os itens programáticos, as regras e a consolidação do Cargo 1 estão `confirmed`, com referências preservadas. Essa conferência não publica questões nem confirma vínculos temáticos. `consolidations.status` deve concordar com `externalVerification`; a confirmação exige todos os editais revisados verificados.
 
 Um edital só pode sustentar itens programáticos ou regras `confirmed` quando estiver `verified`. Itens e regras `documented` admitem `reviewed_copy`, mas devem ser exibidos com essa ressalva. Mappings confirmados não podem apontar para itens apenas documentados. Questões oficiais continuam exigindo prova verificada e gabarito oficial confirmado, sem exceção para os arquivos inventariados. Retificações preservam o original por `amendsNoticeId`; isso não aplica automaticamente suas alterações.
 
@@ -52,7 +52,7 @@ ABDI e CGU permanecem `planned`, sem cargos específicos, editais ou regras cada
 
 Cada perfil identifica edital, cargo, documento e localização da regra. Blocos declaram tipo, quantidade de questões, valores de acerto, erro e branco, além de mínimos opcionais. Os valores são obrigatórios e explícitos; não há fórmula padrão inferida da banca.
 
-Anulações têm política `exclude`, `credit` ou `fixed`. Somente `fixed` recebe `annulledPoints`. Duração e mínimo total podem ser nulos quando não aplicáveis ou ainda não representados. Há um perfil `documented` para as objetivas do Cargo 1 da Câmara, transcrito do Edital nº 1. Ele não executa pontuação e não está externamente confirmado.
+Anulações têm política `exclude`, `credit` ou `fixed`. Somente `fixed` recebe `annulledPoints`. Duração e mínimo total podem ser nulos quando não aplicáveis ou ainda não representados. Há um perfil `confirmed` para as objetivas do Cargo 1 da Câmara, transcrito do Edital nº 1 e cotejado com a abertura atualizada oficial. Ele ainda não executa pontuação.
 
 O contrato prevê perfis objetivos por bloco. Não executa cálculo, distribuição de questões, eliminação ou simulado. Regras mais complexas deverão ser modeladas e testadas com os documentos antes da implementação do motor.
 
@@ -75,7 +75,7 @@ O build valida antes de escrever, usa substituição do arquivo final e gera byt
 
 A defesa contra PROFNIT existe no namespace, na estrutura, na detecção de marcadores legados e na lista de arquivos publicáveis. Não substitui a revisão humana de proveniência: texto arbitrário sem identificação não permite determinar sua origem por algoritmo.
 
-Os testes usam apenas fixtures sintéticas temporárias e claramente identificadas, nunca incorporadas ao catálogo ou ao site.
+Os cenários adversariais usam fixtures sintéticas temporárias e claramente identificadas, nunca incorporadas ao catálogo ou ao site. Os testes de fidelidade documental também leem o catálogo real, o lote em preparação e os PDFs retidos.
 
 ## Inventário de cadernos
 
@@ -90,3 +90,11 @@ Os itens documentados possuem número original, documento, página e bloco. O va
 `data/source-verification.json` é um registro de auditoria separado, validado por `schemas/source-verification.schema.json`. `audit-sources` verifica cobertura de todos os documentos, unicidade, hashes, URLs oficiais e estados. A CI executa essa verificação offline. Ela preserva a evidência da conferência registrada e não declara ter repetido downloads nem pesquisado alterações posteriores.
 
 Notícia institucional é corroboração, não substituto de um PDF oficial comparado. Registros pendentes não podem sustentar documentos `verified`.
+
+## Área de preparação do primeiro lote
+
+`data/workbench/first-batch.json` segue `schemas/review-batch.schema.json`, versão própria 1. Não modifica a versão 2 do catálogo e não é lido pelo build ou navegador. `uv run python -m tools review-batch` verifica origens e gabaritos do mesmo caderno, numeração, anulações, formato, duplicação, contextos e sugestões para itens programáticos confirmados. A CI também compara enunciados, alternativas, contextos e respostas com os PDFs via Poppler.
+
+A origem da questão é `paperId` + número + página; a resposta tem documento/página próprios; não há explicações inventadas. Contextos compartilhados possuem fonte, página e referências por ID. `mappingSuggestions` permanece `suggested`, e a revisão declara `agent_assisted` e publicação `pending`. O lote atual abrange apenas itens válidos e sem imagens; não é um contrato genérico de importação nem autorização automática de publicação. A ausência de revisão de direitos é registrada, sem confundir a autorização do código com a origem do material de terceiros.
+
+Para publicar esse conteúdo, a próxima etapa precisa estender o contrato canônico e o renderizador para preservar os contextos. O build atual continua com zero questões; a lista de arquivos públicos impede inclusão acidental de arquivos da área de preparação.

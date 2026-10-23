@@ -40,7 +40,10 @@
       "uniqueItems": true
     },
     "status": {
-      "const": "documented"
+      "enum": [
+        "documented",
+        "confirmed"
+      ]
     },
     "scopeNote": {
       "type": "string",
@@ -48,7 +51,7 @@
       "pattern": "\\S"
     },
     "externalVerification": {
-      "const": false
+      "type": "boolean"
     },
     "entries": {
       "type": "array",

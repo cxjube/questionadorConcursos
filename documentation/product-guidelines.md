@@ -16,7 +16,7 @@ Este documento consolida as sugestões fornecidas pelo usuário e os ajustes de 
 
 Na revisão atual, o repositório tem catálogo, contratos, validação, consolidação de cópias dos editais e inventário dos seis pares de cadernos/gabaritos. O banco publicado contém **zero questões**. Resolução, tentativas, pontuação executável, simulados e backup de progresso ainda não foram implementados.
 
-As cópias dos três editais estão `reviewed_copy`; seus itens e regras estão `documented`. Os cadernos e gabaritos permanecem `received`. Não houve autenticação externa das fontes; o bloqueio de rede está documentado em [notice-consolidation.md](notice-consolidation.md). A data de prova, os programas e as regras abaixo refletem os PDFs fornecidos, não confirmação de que inexistem atos posteriores.
+Atualização de 23/10/2026: os 20 PDFs retidos foram comparados com downloads oficiais. Os seis editais da Câmara estão `verified`; programa e regras estão `confirmed`, com escopo e evidências em [source-verification.md](source-verification.md). Há 20 questões em preparação, fora do catálogo publicado, descritas em [first-batch-review.md](first-batch-review.md). Isso não confirma inexistência de atos posteriores nem libera sessões de resolução.
 
 O contrato vigente está em [data-contract.md](data-contract.md). Os campos propostos para etapas futuras, inclusive contexto compartilhado e revisão de publicação, não devem ser descritos como já implementados. A análise das diferenças está em [guideline-review.md](guideline-review.md).
 

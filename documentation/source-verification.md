@@ -1,21 +1,35 @@
-# Conferência das fontes oficiais — primeira etapa
+# Conferência das fontes oficiais — 23/10/2026
 
-## Resultado
+Os **20 PDFs retidos** coincidem byte a byte com downloads oficiais, por SHA-256. Foram conferidos os editais nº 1 a 6 da Câmara disponíveis na consulta, a abertura atualizada, a ata do sorteio e os seis pares de cadernos/gabaritos. A conferência da fonte está concluída para esses documentos; não representa garantia sobre atos futuros.
 
-Foram baixados do domínio oficial da Cebraspe os seis cadernos e os seis gabaritos definitivos enviados pelo usuário. Os 12 downloads têm bytes idênticos aos anexos, por comparação SHA-256. Não foi feita nova extração/publicação de questões.
+## Editais e referências da Câmara
 
-A Agência Câmara confirma em notícia de 02/10/2026 a divulgação do novo edital, o período de inscrições e a data prevista de 17/01/2027. Isso é corroboração das informações gerais, não autenticação dos três PDFs dos editais nem garantia de que não existam atos posteriores.
+| Documento | Fonte oficial | Situação |
+| --- | --- | --- |
+| Edital nº 1 — Câmara dos Deputados — Analista Legislativo | [PDF](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades) | SHA-256 coincidente |
+| Edital nº 5 — Câmara dos Deputados — Analista Legislativo | [PDF](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-n-5-cd-analista-especialidades-de-15-de-outubro-de-2026) | SHA-256 coincidente |
+| Edital nº 6 — Câmara dos Deputados — Analista Legislativo | [PDF](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-n-6-cd-especialidades-de-21-de-outubro-de-2026) | SHA-256 coincidente |
+| Edital nº 2 — Sorteio público destinado à distribuição de vagas reservadas | [PDF](https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/B4CC8387742A0FCD9975D7DC2F3D752A3E6FB75E362960AF0664C8C799209D33.pdf) | SHA-256 coincidente |
+| Edital nº 3 — Resultado provisório no sorteio das vagas reservadas | [PDF](https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/133EDBEE591578369AA5117750F230D729D489E329F51213760D28D5EF367A0D.pdf) | SHA-256 coincidente |
+| Edital nº 4 — Resultado final no sorteio das vagas reservadas | [PDF](https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/787E713B1C1573FD3B8D4C17D9145E440429F317ADFFC8A07D92594D961D3830.pdf) | SHA-256 coincidente |
+| Edital nº 1 — versão atualizada conforme retificações, publicada pela Cebraspe | [PDF](https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/D0A680C4506DD7153722F50B4F05038D9C80FE7BAD36D52A5E65DA395F75A94B.pdf) | SHA-256 coincidente |
+| Ata do sorteio público de vagas reservadas | [PDF](https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/3997D83E84019AD83E6039836490D4F0CF955180AC5F620B78436717E578A32A.pdf) | SHA-256 coincidente |
 
-## Etapas seguintes
+Os três PDFs enviados (editais nº 1, 5 e 6) coincidem com as cópias da página oficial da Câmara. Seus bytes originais foram preservados. A cópia original da abertura no CDN da Cebraspe tem bytes diferentes, com pequena diferença tipográfica na identificação de P2; ela não substituiu silenciosamente o anexo retido. A versão atualizada da abertura foi mantida como documento independente.
 
-1. Concluir a identificação dos PDFs dos editais e verificar atos posteriores quando os endpoints pendentes estiverem acessíveis.
-2. Revisar um pequeno lote de questões completas, com comandos, textos/imagens, gabarito e vínculos temáticos.
-3. Adaptar os contratos necessários ao lote e implementar resolução C/E e múltipla escolha, branco, histórico e backup.
-4. Implementar simulados por perfil e, depois, evolução e cobertura do edital.
+A [listagem oficial da banca](https://apis.cebraspe.org.br/cebraspe/eventos/cd_26_analista) foi retida em `data/reviews/camara-official-listing.json`, junto dos bytes originais da resposta e seu hash. A [página específica da Câmara](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades) fornece os links dos anexos comparados. Não foi necessário autenticar com token ou conta.
 
-Esta entrega inicia e avança a primeira etapa. Não autoriza nem implementa as demais.
+## Resultado da consolidação
 
-## Downloads confirmados
+- Programa do Cargo 1: nove disciplinas e 228 itens/subitens; cotejado com a abertura atualizada oficial. Os testes comparam todos os rótulos às páginas originais e ao texto atualizado.
+- Objetivas: preservados P1/P2, 90 itens por bloco, 300 minutos, +1/−1/0 e mínimos 18/27/54. O cotejo com a versão atualizada não identificou mudança nesses valores. A classificação retificada continua registrada separadamente.
+- Editais nº 2, 3 e 4 e ata: procedimento e resultados do sorteio de vagas. O nº 4 confirma a destinação de vaga quilombola ao Cargo 1. Não alteram seu programa nem a pontuação objetiva.
+- Editais nº 5 e 6: preservadas as retificações de requisitos, vagas e classificação, com citações e páginas.
+- As datas dos atos são as do cabeçalho de cada PDF. A data de publicação da listagem da API não substitui a data do ato (há divergências nos registros dos editais nº 3 e 4).
+
+Programa, regra objetiva e consolidação passaram para `confirmed`; os seis editais e as fontes estão `verified`. Isso indica o resultado da revisão documental registrada, sem atribuir revisão humana ao trabalho assistido por agente.
+
+## Cadernos e gabaritos
 
 | Caderno | Fonte do caderno | Fonte do gabarito | Resultado |
 | --- | --- | --- | --- |
@@ -26,50 +40,30 @@ Esta entrega inicia e avança a primeira etapa. Não autoriza nem implementa as 
 | `539_ALCE_016_01` | [PDF oficial](https://cdn.cebraspe.org.br/concursos/AL_CE_20/arquivos/539_ALCE_016_01.PDF) | [Gabarito definitivo](https://cdn.cebraspe.org.br/concursos/AL_CE_20/arquivos/GAB_DEFINITIVO_539_ALCE_016_01.PDF) | Ambos idênticos aos anexos |
 | `989_CODEVASF_010_01` | [PDF oficial](https://cdn.cebraspe.org.br/concursos/CODEVASF_24/arquivos/989_CODEVASF_010_01.PDF) | [Gabarito definitivo](https://cdn.cebraspe.org.br/concursos/CODEVASF_24/arquivos/GAB_DEFINITIVO_989_CODEVASF_010_01.PDF) | Ambos idênticos aos anexos |
 
-Os hashes individuais e o instante da conferência constam de [source-verification.json](../data/source-verification.json). Como os bytes são idênticos, os arquivos retidos foram preservados, sem duplicação ou substituição. Foram mantidos os testes que cotejam os intervalos e as anulações; a conferência de origem não equivale à revisão visual dos 340 itens.
+Os seis pares cobrem 340 itens, com 12 anulações. A identidade dos documentos não implica revisão de todos os enunciados. O [primeiro lote de 20 questões](first-batch-review.md) fica em preparação, fora do catálogo e do Pages. Não foram criados comentários ou respostas autorais.
 
-Os seis pares passaram para identidade de fonte verificada. O banco segue com **zero questões**. Nenhum item foi marcado como revisado ou elegível para estudo em decorrência apenas do hash.
+## Evidência e reprodução
 
-## Editais da Câmara: pendência delimitada
-
-| Documento | Estado | Pendência |
-| --- | --- | --- |
-| Edital nº 1, 02/10/2026 | Cópia revisada | Obter o PDF por referência oficial e comparar sua identidade |
-| Edital nº 5, 15/10/2026 | Cópia revisada | Obter o PDF por referência oficial e comparar sua identidade |
-| Edital nº 6, 21/10/2026 | Cópia revisada | Obter o PDF por referência oficial e comparar sua identidade |
-
-Notícia acessada: [Agência Câmara — Câmara divulga edital de novo concurso para Analista Legislativo](https://www.camara.leg.br/noticias/1308132-CAMARA-DIVULGA-EDITAL-DE-NOVO-CONCURSO-PARA-ANALISTA-LEGISLATIVO). O texto aponta a página específica do concurso na Câmara e o portal da Cebraspe.
-
-A página da banca respondeu normalmente, mas usa `apis.cebraspe.org.br` para carregar a listagem de documentos, conforme o JavaScript servido pelo próprio site. A conexão ao hostname da API foi bloqueada com 403. O [link específico da Câmara](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades), obtido na notícia oficial, também retornou 403.
-
-Essas respostas não demonstram que o concurso ou os documentos não existam. Nenhuma URL de PDF de edital foi inventada ou cadastrada como fonte verificada.
-
-## Conectividade necessária
-
-O rascunho de rede preserva as liberações anteriores e acrescenta os dois hosts descobertos nas páginas oficiais: `apis.cebraspe.org.br` e `www2.camara.leg.br`. Para aplicar, revisar e salvar as configurações e publicar o ambiente. Salvar o rascunho não aplica a mudança ao processo atual.
-
-Não são necessários tokens, credenciais pessoais ou mudanças nas dependências da aplicação. Estes acessos servem somente para pesquisa e conferência no ambiente de desenvolvimento.
-
-## Verificação reproduzível
+Os hashes, URLs e instante da observação estão em [source-verification.json](../data/source-verification.json). Os PDFs ficam em `sources/`, fora do site publicado. Os endpoints antes bloqueados responderam nesta sessão; não há pendência de rede para esta conferência.
 
 ```sh
 uv run python -m tools validate
 uv run python -m tools audit-sources
-uv run python -m tools build --check
-uv run python -m tools check-site
+uv run python -m tools review-batch
 uv run python -m unittest discover -s tests -v
 npm test
+uv run python -m tools build --check
+uv run python -m tools check-site
 ```
 
-O comando de auditoria é offline: verifica consistência dos registros, a correspondência de hashes e estados e os domínios oficiais registrados. Não presume uma nova consulta à internet a cada execução. A identidade local dos PDFs continua sendo conferida pelo validador do catálogo.
+A auditoria é offline: verifica cobertura, hashes, estados e domínios registrados. Ela não baixa novamente as fontes nem pesquisa alterações posteriores. Para repetir a consulta externa, baixe as URLs registradas com TLS e compare os hashes. Divergência exige revisão; não troque fontes ou gabaritos silenciosamente.
 
-Para repetir a conferência externa, baixar os PDFs das URLs registradas com TLS e verificação habilitados, comparar o SHA-256 com os arquivos retidos e registrar uma nova observação. Divergência de bytes exige revisão, não substituição silenciosa de hashes ou gabaritos.
+## Próxima etapa
 
-## Resultados locais desta entrega
+Adaptar o contrato canônico para os contextos do lote e implementar a primeira sessão de resolução, com histórico local e backup. Ainda não há sessões, motor de pontuação, simulados ou dashboard.
 
-- 43 testes Python passaram, sem testes ignorados.
-- Seis testes JavaScript passaram.
-- Auditoria offline: 12 downloads oficiais coincidentes e três identidades de PDFs pendentes.
-- Catálogo gerado e conjunto de arquivos publicáveis conferidos.
-- Chromium: links das 12 fontes, inventário, programa, regras, temas, seletores e teclado em 320/1280 px, sem requisições externas automáticas da aplicação.
-- A execução remota do workflow e o resultado da publicação não foram confirmados neste ambiente.
+## Validação desta entrega
+
+53 testes Python e seis testes JavaScript passaram, sem testes ignorados. Passaram também a auditoria dos 20 documentos, a validação do lote, a comparação do catálogo gerado e a lista de arquivos publicáveis. O Chromium verificou 320/1280 px, temas, persistência, teclado, seletores, seis links oficiais dos editais, programa e regras, sem requisições externas automáticas. Foram verificados tanto o subdiretório de projeto quanto a inicialização estática descrita no README.
+
+A execução remota de Actions e a implantação devem ser verificadas separadamente; esses resultados são locais.

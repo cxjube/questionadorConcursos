@@ -45,7 +45,7 @@ test('the published catalog selects the confirmed target and keeps future roles 
   assert.equal(Catalog.rolesFor(data, 'camara-2026').length, 1);
   assert.equal(Catalog.rolesFor(data, 'abdi-futuro').length, 0);
   assert.equal(Catalog.rolesFor(data, 'cgu-futuro').length, 0);
-  assert.equal(Catalog.noticesFor(data, 'camara-2026', data.roles[0].id).length, 3);
+  assert.equal(Catalog.noticesFor(data, 'camara-2026', data.roles[0].id).length, 6);
 });
 test('browser guard rejects old or incomplete catalogs', () => {
   const { Catalog, window } = context(storage());

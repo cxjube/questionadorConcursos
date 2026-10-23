@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-23T03:38:00.835284+00:00",
-  "scope": "Document identity only; not question completeness, thematic suitability or absence of later notices.",
+  "checkedAt": "2026-10-23T04:06:30.592316+00:00",
+  "scope": "Official PDF identity and notice review against acts listed on 23 October 2026; not a review of individual question completeness or eligibility and not a claim about future amendments.",
   "documents": [
     {
       "documentId": "camara-2026-edital-01-documento",
       "localSha256": "065cb0eb179e91107dd2edb1d92f0d0a86c0feb359fedd6e0b44329fc4b096e3",
-      "outcome": "pending_pdf_identity",
-      "officialUrl": null,
-      "remoteSha256": null
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades",
+      "remoteSha256": "065cb0eb179e91107dd2edb1d92f0d0a86c0feb359fedd6e0b44329fc4b096e3"
     },
     {
       "documentId": "camara-2026-edital-05-documento",
       "localSha256": "1685ed892c8ae00c57cfca14b6c91cd5227b801df7f2a574f0f1d7286c810c87",
-      "outcome": "pending_pdf_identity",
-      "officialUrl": null,
-      "remoteSha256": null
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-n-5-cd-analista-especialidades-de-15-de-outubro-de-2026",
+      "remoteSha256": "1685ed892c8ae00c57cfca14b6c91cd5227b801df7f2a574f0f1d7286c810c87"
     },
     {
       "documentId": "camara-2026-edital-06-documento",
       "localSha256": "0bdab0b074444077a3b3c38a9f492f119537e7437bf4d28f10b5e042a1764122",
-      "outcome": "pending_pdf_identity",
-      "officialUrl": null,
-      "remoteSha256": null
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-n-6-cd-especialidades-de-21-de-outubro-de-2026",
+      "remoteSha256": "0bdab0b074444077a3b3c38a9f492f119537e7437bf4d28f10b5e042a1764122"
     },
     {
       "documentId": "source-232funprespexe-cb1-01-paper",
@@ -107,6 +107,41 @@
       "outcome": "byte_match",
       "officialUrl": "https://cdn.cebraspe.org.br/concursos/CODEVASF_24/arquivos/GAB_DEFINITIVO_989_CODEVASF_010_01.PDF",
       "remoteSha256": "d252d71d15186ee356ea2d564433d8acb82e9440a929c95ba50059e0b1cd13c7"
+    },
+    {
+      "documentId": "camara-2026-edital-02-documento",
+      "localSha256": "e36a0d3056dbd4023c0b265faf7ea1dcc11378053dd71df7df57b143134a9c18",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/B4CC8387742A0FCD9975D7DC2F3D752A3E6FB75E362960AF0664C8C799209D33.pdf",
+      "remoteSha256": "e36a0d3056dbd4023c0b265faf7ea1dcc11378053dd71df7df57b143134a9c18"
+    },
+    {
+      "documentId": "camara-2026-edital-03-documento",
+      "localSha256": "ab19d4030d7bdc37c52848f28328c1919ee8d27cc1d82302c134c6f4deee2b8f",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/133EDBEE591578369AA5117750F230D729D489E329F51213760D28D5EF367A0D.pdf",
+      "remoteSha256": "ab19d4030d7bdc37c52848f28328c1919ee8d27cc1d82302c134c6f4deee2b8f"
+    },
+    {
+      "documentId": "camara-2026-edital-04-documento",
+      "localSha256": "6f62c229b72613cd87e3e546e2c8aeca4ddaf10f60707b02ddba0cc9187ac4ee",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/787E713B1C1573FD3B8D4C17D9145E440429F317ADFFC8A07D92594D961D3830.pdf",
+      "remoteSha256": "6f62c229b72613cd87e3e546e2c8aeca4ddaf10f60707b02ddba0cc9187ac4ee"
+    },
+    {
+      "documentId": "camara-2026-abertura-atualizada-documento",
+      "localSha256": "07c9951012a976479692a87c08026b8fdd1648d84b7cd5858508dc27f4adc274",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/D0A680C4506DD7153722F50B4F05038D9C80FE7BAD36D52A5E65DA395F75A94B.pdf",
+      "remoteSha256": "07c9951012a976479692a87c08026b8fdd1648d84b7cd5858508dc27f4adc274"
+    },
+    {
+      "documentId": "camara-2026-ata-sorteio-documento",
+      "localSha256": "ef6b4cd7d748189bc23584e33a67a3f12c1202fd2771ba632a9c9cb5401f7fcb",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/3997D83E84019AD83E6039836490D4F0CF955180AC5F620B78436717E578A32A.pdf",
+      "remoteSha256": "ef6b4cd7d748189bc23584e33a67a3f12c1202fd2771ba632a9c9cb5401f7fcb"
     }
   ],
   "corroboration": [
@@ -122,14 +157,5 @@
       "limitation": "Corrobora informações gerais; não autentica os três PDFs fornecidos nem certifica inexistência de retificações posteriores."
     }
   ],
-  "pendingEndpoints": [
-    {
-      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/cd_26_analista",
-      "observation": "O hostname da API descoberto no JavaScript oficial retornou bloqueio de conexão 403; a listagem de documentos não foi obtida."
-    },
-    {
-      "url": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades",
-      "observation": "Link obtido na notícia oficial da Câmara; requisição retornou HTTP 403."
-    }
-  ]
+  "pendingEndpoints": []
 }

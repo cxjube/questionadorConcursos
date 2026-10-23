@@ -70,7 +70,7 @@ class FoundationTests(unittest.TestCase):
         self.assertEqual(real['questions'], [])
         self.assertEqual(len(real['scoringRules']), 1)
         self.assertEqual(len(real['syllabusItems']), 228)
-        self.assertEqual(len(real['documents']), 15)
+        self.assertEqual(len(real['documents']), 20)
         self.assertTrue(all(d['status'] in {'received', 'reviewed_copy', 'verified'} for d in real['documents']))
 
     def test_complete_fixture_and_large_question_number(self):

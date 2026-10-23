@@ -1,0 +1,282 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Unpublished agent-assisted preparation batch",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "id",
+    "preparedAt",
+    "scope",
+    "contexts",
+    "items"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "preparedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "contexts": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "kind",
+          "label",
+          "text",
+          "sourceDocumentId",
+          "sourcePage"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "kind": {
+            "enum": [
+              "instruction",
+              "passage"
+            ]
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "sourceDocumentId": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "sourcePage": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "paperId",
+          "number",
+          "sourcePage",
+          "type",
+          "stem",
+          "options",
+          "contextIds",
+          "answer",
+          "mappingSuggestions",
+          "review"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "paperId": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "sourcePage": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "type": {
+            "enum": [
+              "true_false",
+              "multiple_choice"
+            ]
+          },
+          "stem": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "options": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "text"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                },
+                "text": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                }
+              }
+            }
+          },
+          "contextIds": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+            },
+            "uniqueItems": true
+          },
+          "answer": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "documentId",
+              "sourcePage",
+              "stage",
+              "result",
+              "value"
+            ],
+            "properties": {
+              "documentId": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "sourcePage": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "stage": {
+                "const": "definitive"
+              },
+              "result": {
+                "const": "valid"
+              },
+              "value": {
+                "oneOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "string",
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                  }
+                ]
+              }
+            }
+          },
+          "mappingSuggestions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "syllabusItemId",
+                "status",
+                "justification"
+              ],
+              "properties": {
+                "syllabusItemId": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                },
+                "status": {
+                  "const": "suggested"
+                },
+                "justification": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                }
+              }
+            },
+            "uniqueItems": true
+          },
+          "review": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "mode",
+              "contentCompared",
+              "contextCompared",
+              "answerKeyCompared",
+              "publicationDecision",
+              "temporalScope",
+              "temporalNote",
+              "blockers",
+              "rightsReview"
+            ],
+            "properties": {
+              "mode": {
+                "const": "agent_assisted"
+              },
+              "contentCompared": {
+                "type": "boolean"
+              },
+              "contextCompared": {
+                "type": "boolean"
+              },
+              "answerKeyCompared": {
+                "type": "boolean"
+              },
+              "publicationDecision": {
+                "const": "pending"
+              },
+              "temporalScope": {
+                "enum": [
+                  "conceptual",
+                  "historical_excerpt"
+                ]
+              },
+              "temporalNote": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "blockers": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "uniqueItems": true
+              },
+              "rightsReview": {
+                "const": "not_assessed"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

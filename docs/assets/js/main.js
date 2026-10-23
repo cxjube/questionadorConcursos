@@ -47,7 +47,9 @@
       element('provider').textContent = contest.provider ? 'Banca: ' + contest.provider : 'Banca a confirmar.';
       element('contest-status').textContent = contest.status === 'planned'
         ? 'Concurso futuro. Cargo, edital e regras ainda não cadastrados.'
-        : 'Programa e regras organizados conforme os PDFs fornecidos. Conferência externa da fonte oficial pendente.';
+        : contest.status === 'verified'
+          ? 'Programa e regras com fontes oficiais conferidas. Consulte as referências e acompanhe eventuais atualizações.'
+          : 'Programa e regras organizados conforme os PDFs fornecidos. Conferência externa da fonte oficial pendente.';
       const list = element('notices');
       list.replaceChildren();
       const notices = Catalog.noticesFor(data, contest.id, roleSelect.value);
@@ -59,7 +61,12 @@
         const source = data.documents.find(doc => doc.id === notice.documentId);
         detail.textContent = notice.date.split('-').reverse().join('/') + ' · ' +
           (source?.status === 'reviewed_copy' ? 'Cópia revisada; fonte oficial externa pendente.' : source?.status === 'verified' ? 'Fonte oficial conferida.' : 'Arquivo recebido; revisão pendente.');
-        item.append(title, detail);
+        if (source?.status === 'verified' && source.officialUrl?.startsWith('https://')) {
+          const link = document.createElement('a');
+          link.href = source.officialUrl;
+          link.append(title);
+          item.append(link, detail);
+        } else item.append(title, detail);
         list.append(item);
       }
       if (!notices.length) {
@@ -86,6 +93,9 @@
       target.replaceChildren();
       const topicIndex = new Map(data.topics.map(topic => [topic.id, topic]));
       const groups = data.disciplines.filter(discipline => items.some(item => topicIndex.get(item.topicId)?.disciplineId === discipline.id));
+      element('program-source-note').textContent = items.length && items.every(item => item.status === 'confirmed')
+        ? 'Transcrição com numeração e páginas das fontes oficiais conferidas. Acompanhe os atos posteriores do concurso.'
+        : 'Transcrição das cópias fornecidas. A conferência externa da fonte oficial está pendente.';
       element('program-summary').textContent = groups.length + ' disciplinas · ' + items.length + ' tópicos e subtópicos. Abra uma disciplina para consultar.';
       for (const discipline of groups) {
         const selected = items.filter(item => topicIndex.get(item.topicId)?.disciplineId === discipline.id);

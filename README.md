@@ -2,9 +2,11 @@
 
 Aplicação estática para estudos de concursos públicos, baseada na arquitetura do [Questionador](https://github.com/mugubr/questionador), de Miguel Muniz e Rubens Braz. Veja [créditos e autorização](CREDITS.md).
 
-**Etapa atual: consolidação documental.** Há seleção de concurso/cargo, programa da Câmara com nove disciplinas e 228 tópicos/subtópicos, consulta às regras objetivas e aos trechos retificados, temas e contrato de dados validado. A consolidação se limita às cópias fornecidas dos editais 1, 5 e 6; a fonte oficial externa ainda não foi conferida. Não há questões ou sessões de estudo habilitadas.
+**Etapa atual: fontes oficiais conferidas e primeiro lote em preparação.** Há seleção de concurso/cargo, nove disciplinas e 228 tópicos/subtópicos da Câmara, consulta às regras e retificações, temas e validação dos dados. Os editais nº 1 a 6 foram conferidos nas páginas oficiais em 23/10/2026. Ainda não há sessões de resolução habilitadas.
 
-Câmara dos Deputados — Analista Legislativo — Comunicação Social — Divulgação Institucional é o primeiro objetivo. ABDI e CGU são entradas futuras sem editais ou regras inventados. Os três editais foram revisados para o escopo cadastrado. Outros 12 PDFs de cadernos e gabaritos foram inventariados em seis pares, cobrindo 340 itens com 12 anulações. Os 12 arquivos já foram comparados com downloads do domínio oficial da Cebraspe: todos coincidem por SHA-256. Isso não os transforma em questões importadas nem em vínculos temáticos confirmados. Todos os PDFs ficam fora do site publicado.
+Câmara dos Deputados — Analista Legislativo — Comunicação Social — Divulgação Institucional é o primeiro objetivo. ABDI e CGU permanecem futuros, sem dados não confirmados. Os 20 PDFs retidos têm comparação SHA-256 com downloads oficiais: oito documentos do concurso da Câmara e seis pares de cadernos/gabaritos. O inventário cobre 340 itens, com 12 anulações.
+
+Um [primeiro lote de 20 questões](documentation/first-batch-review.md), com comandos, alternativas, texto compartilhado e gabaritos definitivos, está em `data/workbench/`. A comparação foi assistida por agente; os vínculos temáticos são sugestões. Ele não integra o banco publicado, que continua vazio. PDFs e rascunhos ficam fora do Pages.
 
 ## Executar localmente
 
@@ -26,6 +28,7 @@ Requisitos de manutenção: Python 3.12+, uv e Node 22+. Para testar a fidelidad
 uv sync --locked
 uv run python -m tools validate
 uv run python -m tools audit-sources
+uv run python -m tools review-batch
 uv run python -m tools build
 uv run python -m tools build --check
 uv run python -m tools check-site
@@ -48,10 +51,12 @@ CREDITS.md                atribuição e autorização informada
 README.md
 pyproject.toml / uv.lock   ferramentas do pipeline
 package.json              comando dos testes JavaScript; sem pacotes
-schemas/                  esquema raiz e 14 esquemas de entidades
-data/catalog.json         fonte canônica; banco de questões vazio
+schemas/                  contratos do catálogo, entidades, auditoria e lote
+data/catalog.json         fonte canônica; banco publicado vazio
+data/workbench/           lote de preparação, fora do build
+data/reviews/             evidência da listagem oficial
 sources/                   editais, cadernos e gabaritos; fora do Pages
-tools/                    validate, build e check-site
+tools/                    validação, auditoria, review-batch e build
 docs/                     único artefato publicado
   .nojekyll
   index.html
@@ -71,7 +76,7 @@ Veja a [conferência das fontes oficiais](documentation/source-verification.md),
 
 Nas configurações de Pages do repositório, selecione **GitHub Actions** como origem. O workflow valida o catálogo, executa testes, verifica o artefato e publica exclusivamente `docs/` em pushes para `main` ou execução manual nessa branch. A publicação manual passa pelas mesmas verificações.
 
-PRs executam verificações sem publicar. Os caminhos de assets são relativos e suportam o subdiretório do projeto. O workflow foi preparado, mas não executado no GitHub nesta etapa; não houve push nem publicação.
+PRs executam verificações sem publicar. Os caminhos de assets são relativos e suportam o subdiretório do projeto. A versão pública está em https://cxjube.github.io/questionadorConcursos/. Cada atualização depende de push em `main` e conclusão do workflow; alterações locais não aparecem instantaneamente.
 
 ## Privacidade e separação
 
@@ -91,4 +96,4 @@ Essas ferramentas não integram a aplicação nem são dependências obrigatóri
 
 ## Próxima etapa
 
-Conferir as fontes oficiais externas e, após aprovação para a próxima etapa, revisar e preparar um primeiro lote de questões, incluindo seus textos e comandos compartilhados, gabaritos e vínculos temáticos. Só depois adaptar o motor de estudo. Não existem importação automática de questões, simulados completos, dashboard ou gamificação nesta entrega.
+Adaptar o contrato de publicação para os contextos compartilhados do lote e implementar resolução C/E e múltipla escolha, com branco, histórico local e backup. A comparação do primeiro lote está concluída, mas sua liberação e os vínculos finais ainda estão pendentes. Não há importação automática, simulados completos, dashboard ou gamificação.

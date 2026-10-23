@@ -1,5 +1,6 @@
 """Validate recorded source identity evidence, independently of question review."""
 import copy
+import hashlib
 import unittest
 
 from tools.source_audit import audit_sources
@@ -14,12 +15,12 @@ class SourceAuditTests(unittest.TestCase):
         self.catalog = read_json(ROOT / 'data/catalog.json')
         self.evidence = read_json(ROOT / 'data/source-verification.json')
 
-    def test_twelve_downloads_verified_three_notices_pending(self):
+    def test_all_twenty_sources_verified_without_publishing_questions(self):
         """Keep document identity separate from a question bank ready for study."""
         self.assertEqual(audit_sources(self.catalog, self.evidence), [])
-        self.assertEqual(sum(r['outcome'] == 'byte_match' for r in self.evidence['documents']), 12)
-        self.assertEqual(sum(d['status'] == 'verified' for d in self.catalog['documents']), 12)
-        self.assertTrue(all(n['status'] == 'reviewed_copy' for n in self.catalog['notices']))
+        self.assertEqual(sum(r['outcome'] == 'byte_match' for r in self.evidence['documents']), 20)
+        self.assertEqual(sum(d['status'] == 'verified' for d in self.catalog['documents']), 20)
+        self.assertTrue(all(n['status'] == 'verified' for n in self.catalog['notices']))
         self.assertTrue(all(p['inventory']['externalVerification'] for p in self.catalog['papers']))
         self.assertEqual(self.catalog['questions'], [])
 
@@ -29,8 +30,16 @@ class SourceAuditTests(unittest.TestCase):
         row['remoteSha256'] = '0' * 64
         self.assertTrue(any('SHA-256 mismatch' in e for e in audit_sources(self.catalog, self.evidence)))
 
+    def test_listing_response_bytes_are_retained(self):
+        """The listing snapshot remains tied to the original API response bytes."""
+        record = read_json(ROOT / 'data/reviews/camara-official-listing.json')
+        response_file = ROOT / record['responseFile']
+        self.assertEqual(hashlib.sha256(response_file.read_bytes()).hexdigest(), record['responseSha256'])
+        self.assertEqual(read_json(response_file), record['response'])
+
     def test_pending_record_cannot_support_verified_notice(self):
         """Reject using general news corroboration as PDF authentication."""
+        self.evidence['documents'][0].update(outcome='pending_pdf_identity', officialUrl=None, remoteSha256=None)
         self.catalog['documents'][0]['status'] = 'verified'
         self.assertTrue(any('pending PDF identity' in e for e in audit_sources(self.catalog, self.evidence)))
 

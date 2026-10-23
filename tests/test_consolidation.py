@@ -44,16 +44,17 @@ class ConsolidationTests(unittest.TestCase):
         self.assertEqual({item['noticeId'] for item in self.catalog['syllabusItems']}, {'camara-2026-edital-01'})
 
     def test_reviewed_copy_is_not_a_verified_source(self):
-        """Reject silently promoting notices, rules or items without source verification."""
-        for collection, status in [('notices', 'verified'), ('syllabusItems', 'confirmed'), ('scoringRules', 'confirmed')]:
-            with self.subTest(collection=collection):
-                changed = copy.deepcopy(self.catalog)
-                changed[collection][0]['status'] = status
-                self.assertTrue(validate(changed))
+        """Reject downgrading a source while retaining confirmed consumers."""
+        changed = copy.deepcopy(self.catalog)
+        changed['documents'][0]['status'] = 'reviewed_copy'
+        self.assertTrue(validate(changed))
+        changed['notices'][0]['status'] = 'reviewed_copy'
+        self.assertTrue(any('verified notice' in e or 'notice verified' in e for e in validate(changed)))
 
     def test_documented_items_cannot_back_confirmed_mappings(self):
         """Keep tentative syllabus intake separate from confirmed question relevance."""
         changed = copy.deepcopy(self.catalog)
+        changed['syllabusItems'][0]['status'] = 'documented'
         changed['mappings'] = [{'id': 'synthetic-test-only', 'questionId': 'missing-test-question', 'syllabusItemId': changed['syllabusItems'][0]['id'], 'justification': 'Test only', 'status': 'confirmed'}]
         self.assertTrue(any('confirmed syllabus' in e for e in validate(changed)))
 
@@ -65,6 +66,32 @@ class ConsolidationTests(unittest.TestCase):
         changed = copy.deepcopy(self.catalog)
         changed['consolidations'][0]['contestId'] = 'abdi-futuro'
         self.assertTrue(any('different contest' in e for e in validate(changed)))
+
+    def test_confirmed_consolidation_requires_verified_notices(self):
+        """A positive audit flag cannot survive downgrading any of the reviewed acts."""
+        consolidation = self.catalog['consolidations'][0]
+        self.assertTrue(consolidation['externalVerification'])
+        self.assertEqual(consolidation['status'], 'confirmed')
+        self.assertEqual([n['number'] for n in self.catalog['notices']], ['1', '2', '3', '4', '5', '6'])
+        changed = copy.deepcopy(self.catalog)
+        changed['consolidations'][0]['externalVerification'] = False
+        self.assertTrue(any('verification' in e for e in validate(changed)))
+        changed = copy.deepcopy(self.catalog)
+        changed['notices'][1]['status'] = 'reviewed_copy'
+        self.assertTrue(any('consolidation' in e for e in validate(changed)))
+
+    @unittest.skipUnless(shutil.which('pdftotext'), 'Poppler required for PDF source fidelity checks')
+    def test_current_opening_preserves_cargo_1_program(self):
+        """Cotejo of all 228 source labels with the officially updated opening."""
+        doc = next(d for d in self.catalog['documents'] if d['id'] == 'camara-2026-abertura-atualizada-documento')
+        updated = clean(pdf_text(ROOT / doc['file']))
+        start = updated.index('14.2.4 CONHECIMENTOS ESPECÍFICOS')
+        cargo_1 = updated[start:updated.index('CARGO 2:', start)]
+        topics = {t['id']: t for t in self.catalog['topics']}
+        for item in self.catalog['syllabusItems']:
+            with self.subTest(item=item['id']):
+                label = topics[item['topicId']]['label']
+                self.assertIn(label, cargo_1 if item['block'] == 'specific' else updated[:start])
 
     def test_inventory_range_and_key_identity(self):
         """Reject intake counts and key sources that do not match their paper."""
@@ -78,7 +105,7 @@ class ConsolidationTests(unittest.TestCase):
     def test_objective_rules_transcription(self):
         """Keep the approved-copy rules explicit without starting a scoring engine."""
         rule = self.catalog['scoringRules'][0]
-        self.assertEqual(rule['status'], 'documented')
+        self.assertEqual(rule['status'], 'confirmed')
         self.assertEqual(rule['durationMinutes'], 300)
         self.assertEqual(rule['minimumTotalScore'], 54)
         self.assertEqual([b['questionCount'] for b in rule['blocks']], [90, 90])

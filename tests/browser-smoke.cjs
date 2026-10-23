@@ -11,10 +11,13 @@ const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8765/questionadorConc
  for (const width of [320, 1280]) {
   await page.setViewportSize({width, height: 900});
   await page.goto(base);
-  await page.waitForFunction(() => document.getElementById('notices').children.length === 3);
+  await page.waitForFunction(() => document.getElementById('notices').children.length === 6);
   assert.equal(await page.locator('#contest option').count(), 3);
   assert.equal(await page.locator('#role option').count(), 1);
-  assert.equal(await page.locator('#notices li').count(), 3);
+  assert.equal(await page.locator('#notices li').count(), 6);
+  assert.equal(await page.locator('#notices a[href^="https://"]').count(), 6);
+  assert.match(await page.locator('#contest-status').innerText(), /fontes oficiais conferidas/);
+  assert.match(await page.locator('#program-source-note').innerText(), /fontes oficiais conferidas/);
   assert.equal(await page.locator('#program details').count(), 9);
   assert.equal(await page.locator('#program li').count(), 228);
   assert.equal(await page.locator('#inventory li').count(), 6);
@@ -24,7 +27,7 @@ const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8765/questionadorConc
   assert.equal(await page.locator('#program details').first().getAttribute('open'), '');
   assert.match(await page.locator('#rules').innerText(), /300 minutos/);
   assert.match(await page.locator('#rules').innerText(), /mínimo total: 54/);
-  assert.match(await page.locator('#consolidation-scope').innerText(), /fonte oficial externa ainda não conferida/i);
+  assert.match(await page.locator('#consolidation-scope').innerText(), /fontes oficiais|páginas oficiais/i);
 
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
   for (const theme of ['dark', 'light']) {
@@ -41,7 +44,7 @@ const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8765/questionadorConc
   await page.selectOption('#contest', 'cgu-futuro');
   assert.equal(await page.locator('#role').isDisabled(), true);
   await page.selectOption('#contest', 'camara-2026');
-  assert.equal(await page.locator('#notices li').count(), 3);
+  assert.equal(await page.locator('#notices li').count(), 6);
   await page.reload();
   assert.equal(await page.locator('html').getAttribute('data-theme'), 'light');
   await page.keyboard.press('Tab');

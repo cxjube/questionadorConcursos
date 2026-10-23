@@ -341,6 +341,8 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
                 fail(where, 'annulledPoints is required only for fixed policy')
     for consolidation in catalog['consolidations']:
         where = consolidation['id']
+        if (consolidation['status'] == 'confirmed') != consolidation['externalVerification']:
+            fail(where, 'consolidation confirmation must agree with external verification')
         contest = lookup('contests', consolidation['contestId'], where)
         role = lookup('roles', consolidation['roleId'], where)
         base = lookup('notices', consolidation['baseNoticeId'], where)
@@ -360,6 +362,8 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
                     consolidation['roleId'] not in notice['roleIds'] or
                     notice['status'] not in {'reviewed_copy', 'verified'}):
                     fail(where, 'consolidation requires reviewed notices of its own contest and role')
+                if consolidation['status'] == 'confirmed' and notice['status'] != 'verified':
+                    fail(where, 'confirmed consolidation requires every notice verified')
         entry_ids = set()
         for entry in consolidation['entries']:
             if entry['id'] in entry_ids:
