@@ -45,7 +45,8 @@
     "status": {
       "enum": [
         "received",
-        "verified"
+        "verified",
+        "reviewed_copy"
       ]
     },
     "officialUrl": {

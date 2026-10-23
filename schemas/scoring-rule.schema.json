@@ -29,7 +29,8 @@
     },
     "status": {
       "enum": [
-        "confirmed"
+        "confirmed",
+        "documented"
       ]
     },
     "documentId": {
@@ -134,6 +135,9 @@
                 "type": "null"
               }
             ]
+          },
+          "doubleMarked": {
+            "type": "number"
           }
         }
       },

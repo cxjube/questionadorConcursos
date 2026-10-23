@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 COLLECTIONS = (
     'contests', 'roles', 'notices', 'disciplines', 'topics', 'documents',
     'papers', 'questions', 'answerKeys', 'explanations', 'syllabusItems',
-    'mappings', 'scoringRules',
+    'mappings', 'scoringRules', 'consolidations',
 )
 
 
@@ -133,6 +133,10 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
                 fail(where, 'notice document kind/date mismatch')
         if notice['status'] == 'verified':
             verified_document(notice['documentId'], 'notice', where)
+        if notice['status'] == 'reviewed_copy':
+            doc = lookup('documents', notice['documentId'], where)
+            if doc and doc['status'] not in {'reviewed_copy', 'verified'}:
+                fail(where, 'reviewed notice requires a reviewed document copy')
         if notice['amendsNoticeId']:
             parent = lookup('notices', notice['amendsNoticeId'], where)
             if parent and (parent['contestId'] != notice['contestId'] or parent['date'] > notice['date']):
@@ -167,9 +171,22 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
             node = parent
 
     for paper in catalog['papers']:
-        document = verified_document(paper['documentId'], 'question_paper', paper['id'])
-        if document and document['paperId'] != paper['id']:
+        document = (verified_document(paper['documentId'], 'question_paper', paper['id'])
+                    if paper['status'] == 'verified'
+                    else lookup('documents', paper['documentId'], paper['id']))
+        if document and (document['paperId'] != paper['id'] or document['kind'] != 'question_paper'):
             fail(paper['id'], 'question paper document belongs to a different paper')
+        inventory = paper.get('inventory')
+        if inventory:
+            key_document = lookup('documents', inventory['answerKeyDocumentId'], paper['id'])
+            if key_document and (key_document['kind'] != 'answer_key' or key_document['paperId'] != paper['id']):
+                fail(paper['id'], 'inventory answer key belongs to a different paper')
+            if inventory['lastItem'] - inventory['firstItem'] + 1 != inventory['itemCount']:
+                fail(paper['id'], 'inventory range and item count disagree')
+            if paper['year'] != int(inventory['applicationDate'][:4]):
+                fail(paper['id'], 'paper year must identify application year, not notice year')
+            if any(not inventory['firstItem'] <= n <= inventory['lastItem'] for n in inventory['annulledItems']):
+                fail(paper['id'], 'annulled item outside inventory range')
 
     origins: set[tuple] = set()
     fingerprints: set[str] = set()
@@ -186,7 +203,9 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
             fail(where, 'duplicate question content; reuse its id through mappings')
         fingerprints.add(fingerprint)
         if origin['kind'] == 'official':
-            lookup('papers', origin['paperId'], where)
+            paper = lookup('papers', origin['paperId'], where)
+            if paper and paper['status'] != 'verified':
+                fail(where, 'official question requires a verified source paper')
             identity = (origin['paperId'], origin['number'])
             if identity in origins:
                 fail(where, 'duplicate source paper/number')
@@ -235,13 +254,41 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
             verified_document(reference['documentId'], None, explanation['id'])
 
     syllabus_pairs = set()
+    syllabus_numbers = set()
     for item in catalog['syllabusItems']:
         where = item['id']
         notice = lookup('notices', item['noticeId'], where)
         role = lookup('roles', item['roleId'], where)
         lookup('topics', item['topicId'], where)
-        if notice and (notice['status'] != 'verified' or item['roleId'] not in notice['roleIds']):
+        required_statuses = {'verified'} if item['status'] == 'confirmed' else {'reviewed_copy', 'verified'}
+        if notice and (notice['status'] not in required_statuses or item['roleId'] not in notice['roleIds']):
             fail(where, 'syllabus requires verified notice and a listed role')
+        if item['status'] == 'documented' and not all(k in item for k in ('number', 'sourcePage', 'documentId', 'block')):
+            fail(where, 'documented syllabus requires numbering, page, document and block')
+        if 'documentId' in item:
+            doc = lookup('documents', item['documentId'], where)
+            if notice and item['documentId'] != notice['documentId']:
+                fail(where, 'syllabus source must match its notice document')
+            if doc and (doc['kind'] != 'notice' or doc['status'] not in {'reviewed_copy', 'verified'}):
+                fail(where, 'syllabus source requires a reviewed notice copy')
+        if 'number' in item:
+            topic = indexes['topics'].get(item['topicId'])
+            if topic:
+                number_scope = (item['noticeId'], item['roleId'], topic['disciplineId'], item.get('block'), item['number'])
+                if number_scope in syllabus_numbers:
+                    fail(where, 'duplicate syllabus number in this discipline and notice')
+                syllabus_numbers.add(number_scope)
+                expected_parent = item['number'].rsplit('.', 1)[0] if '.' in item['number'] else None
+                if (expected_parent is None) != (topic['parentId'] is None):
+                    fail(where, 'syllabus numbering does not match topic hierarchy')
+                if expected_parent and not any(
+                    parent['topicId'] == topic['parentId'] and
+                    parent['noticeId'] == item['noticeId'] and
+                    parent['roleId'] == item['roleId'] and
+                    parent.get('number') == expected_parent
+                    for parent in catalog['syllabusItems']
+                ):
+                    fail(where, 'syllabus parent numbering is missing or inconsistent')
         if notice and role and role['contestId'] != notice['contestId']:
             fail(where, 'syllabus role belongs to a different contest')
         identity = (item['noticeId'], item['roleId'], item['topicId'])
@@ -252,7 +299,9 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
     pairs = set()
     for mapping in catalog['mappings']:
         lookup('questions', mapping['questionId'], mapping['id'])
-        lookup('syllabusItems', mapping['syllabusItemId'], mapping['id'])
+        item = lookup('syllabusItems', mapping['syllabusItemId'], mapping['id'])
+        if item and item['status'] != 'confirmed':
+            fail(mapping['id'], 'confirmed mapping requires a confirmed syllabus item')
         pair = (mapping['questionId'], mapping['syllabusItemId'])
         if pair in pairs:
             fail(mapping['id'], 'duplicate question/syllabus mapping')
@@ -263,9 +312,14 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
         where = rule['id']
         notice = lookup('notices', rule['noticeId'], where)
         role = lookup('roles', rule['roleId'], where)
-        doc = verified_document(rule['documentId'], 'notice', where)
-        if notice and (notice['status'] != 'verified' or rule['roleId'] not in notice['roleIds']):
+        doc = (verified_document(rule['documentId'], 'notice', where)
+               if rule['status'] == 'confirmed'
+               else lookup('documents', rule['documentId'], where))
+        required_statuses = {'verified'} if rule['status'] == 'confirmed' else {'reviewed_copy', 'verified'}
+        if notice and (notice['status'] not in required_statuses or rule['roleId'] not in notice['roleIds']):
             fail(where, 'scoring requires verified notice and a listed role')
+        if doc and (doc['kind'] != 'notice' or doc['status'] not in {'reviewed_copy', 'verified'}):
+            fail(where, 'documented scoring requires a reviewed notice copy')
         if notice and doc and notice['documentId'] != doc['id']:
             fail(where, 'scoring source must be the stated notice document')
         if notice and role and role['contestId'] != notice['contestId']:
@@ -280,4 +334,34 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
         for block in rule['blocks']:
             if (block['annulledPolicy'] == 'fixed') != (block['annulledPoints'] is not None):
                 fail(where, 'annulledPoints is required only for fixed policy')
+    for consolidation in catalog['consolidations']:
+        where = consolidation['id']
+        contest = lookup('contests', consolidation['contestId'], where)
+        role = lookup('roles', consolidation['roleId'], where)
+        base = lookup('notices', consolidation['baseNoticeId'], where)
+        reviewed = set(consolidation['reviewedNoticeIds'])
+        if consolidation['baseNoticeId'] not in reviewed:
+            fail(where, 'consolidation must include its base notice')
+        if contest and role and role['contestId'] != contest['id']:
+            fail(where, 'consolidation role belongs to a different contest')
+        if base and base['amendsNoticeId'] is not None:
+            fail(where, 'consolidation base must be an opening notice')
+        docs = set()
+        for notice_id in reviewed:
+            notice = lookup('notices', notice_id, where)
+            if notice:
+                docs.add(notice['documentId'])
+                if (notice['contestId'] != consolidation['contestId'] or
+                    consolidation['roleId'] not in notice['roleIds'] or
+                    notice['status'] not in {'reviewed_copy', 'verified'}):
+                    fail(where, 'consolidation requires reviewed notices of its own contest and role')
+        entry_ids = set()
+        for entry in consolidation['entries']:
+            if entry['id'] in entry_ids:
+                fail(where, 'duplicate consolidation entry id')
+            entry_ids.add(entry['id'])
+            if entry['documentId'] not in docs:
+                fail(where, 'consolidation entry cites a document outside its reviewed notices')
+            if entry['supersedesDocumentId'] and entry['supersedesDocumentId'] not in docs:
+                fail(where, 'superseded document is outside reviewed notices')
     return errors

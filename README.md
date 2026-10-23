@@ -2,9 +2,9 @@
 
 Aplicação estática para estudos de concursos públicos, baseada na arquitetura do [Questionador](https://github.com/mugubr/questionador), de Miguel Muniz e Rubens Braz. Veja [créditos e autorização](CREDITS.md).
 
-**Etapa atual: fundação.** Há seleção de concurso/cargo, referência aos três editais recebidos da Câmara, temas e contrato de dados validado. O banco está vazio: não há questões, conteúdo programático consolidado, pontuação ou sessões de estudo habilitadas.
+**Etapa atual: consolidação documental.** Há seleção de concurso/cargo, programa da Câmara com nove disciplinas e 228 tópicos/subtópicos, consulta às regras objetivas e aos trechos retificados, temas e contrato de dados validado. A consolidação se limita às cópias fornecidas dos editais 1, 5 e 6; a fonte oficial externa ainda não foi conferida. Não há questões ou sessões de estudo habilitadas.
 
-Câmara dos Deputados — Analista Legislativo — Comunicação Social — Divulgação Institucional é o primeiro objetivo. ABDI e CGU são entradas futuras sem editais ou regras inventados. Os PDFs fornecidos estão recebidos e pendentes de revisão, fora do site publicado.
+Câmara dos Deputados — Analista Legislativo — Comunicação Social — Divulgação Institucional é o primeiro objetivo. ABDI e CGU são entradas futuras sem editais ou regras inventados. Os três editais foram revisados para o escopo cadastrado. Outros 12 PDFs de cadernos e gabaritos foram inventariados em seis pares, cobrindo 340 itens com 12 anulações. Estes não são questões importadas e não têm vinculação temática confirmada. Todos os PDFs ficam fora do site publicado.
 
 ## Executar localmente
 
@@ -20,7 +20,7 @@ A abertura direta de `docs/index.html` mantém scripts clássicos e dados embuti
 
 ## Preparar e validar os dados
 
-Requisitos de manutenção: Python 3.12+, uv e Node 22+.
+Requisitos de manutenção: Python 3.12+, uv e Node 22+. Para testar a fidelidade ao texto dos PDFs, instale Poppler (`pdftotext`; pacote `poppler-utils` em Debian/Ubuntu). A CI instala esse utilitário; os testes específicos ficam explicitamente ignorados quando ele não está disponível.
 
 ```sh
 uv sync --locked
@@ -45,9 +45,9 @@ CREDITS.md                atribuição e autorização informada
 README.md
 pyproject.toml / uv.lock   ferramentas do pipeline
 package.json              comando dos testes JavaScript; sem pacotes
-schemas/                  esquema raiz e 13 esquemas de entidades
+schemas/                  esquema raiz e 14 esquemas de entidades
 data/catalog.json         fonte canônica; banco de questões vazio
-sources/notices/           três PDFs fornecidos; fora do Pages
+sources/                   editais, cadernos e gabaritos; fora do Pages
 tools/                    validate, build e check-site
 docs/                     único artefato publicado
   .nojekyll
@@ -60,7 +60,7 @@ tests/                    testes Python e JavaScript
 documentation/            contrato, fontes e entrega da etapa
 ```
 
-Veja o [contrato de dados](documentation/data-contract.md) e o [registro de fontes](documentation/source-register.md).
+Veja o [relatório desta etapa](documentation/notice-consolidation.md), o [contrato de dados](documentation/data-contract.md) e o [registro de fontes](documentation/source-register.md).
 
 ## GitHub Pages
 
@@ -86,4 +86,4 @@ Essas ferramentas não integram a aplicação nem são dependências obrigatóri
 
 ## Próxima etapa
 
-Após aprovação: conferir a fonte oficial dos editais recebidos, consolidar abertura e retificações e cadastrar disciplinas/tópicos do cargo. Só depois preparar o lote inicial de questões e adaptar o motor de estudo. Não existem importação automática, simulados completos, dashboard ou gamificação nesta entrega.
+Conferir as fontes oficiais externas e, após aprovação para a próxima etapa, revisar e preparar um primeiro lote de questões, incluindo seus textos e comandos compartilhados, gabaritos e vínculos temáticos. Só depois adaptar o motor de estudo. Não existem importação automática de questões, simulados completos, dashboard ou gamificação nesta entrega.

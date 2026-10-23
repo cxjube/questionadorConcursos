@@ -48,7 +48,8 @@
     "status": {
       "enum": [
         "pending_review",
-        "verified"
+        "verified",
+        "reviewed_copy"
       ]
     },
     "documentId": {

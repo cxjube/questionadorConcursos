@@ -6,15 +6,15 @@ const Catalog = (() => {
   function parse(value) {
     if (!value || typeof value !== 'object') throw new Error('Catálogo ausente.');
     const data = /** @type {CatalogData} */ (value);
-    if (data.schemaVersion !== 1 || data.bankId !== 'concursos' || !/^[a-f0-9]{64}$/.test(data.revision)) {
+    if (data.schemaVersion !== 2 || data.bankId !== 'concursos' || !/^[a-f0-9]{64}$/.test(data.revision)) {
       throw new Error('Formato de catálogo incompatível.');
     }
-    for (const key of ['contests', 'roles', 'notices', 'documents', 'questions']) {
+    for (const key of ['contests', 'roles', 'notices', 'documents', 'questions', 'disciplines', 'topics', 'syllabusItems', 'scoringRules', 'consolidations', 'papers']) {
       if (!Array.isArray(/** @type {any} */ (data)[key])) throw new Error('Catálogo incompleto.');
     }
     for (const contest of data.contests) {
       if (!contest || typeof contest.id !== 'string' || typeof contest.title !== 'string' ||
-          !['planned', 'pending_review', 'verified'].includes(contest.status)) {
+          !['planned', 'pending_review', 'reviewed_copy', 'verified'].includes(contest.status)) {
         throw new Error('Concurso inválido no catálogo.');
       }
     }
@@ -39,6 +39,14 @@ const Catalog = (() => {
   function noticesFor(data, contestId, roleId) {
     return data.notices.filter(notice => notice.contestId === contestId && notice.roleIds.includes(roleId));
   }
-  return { parse, rolesFor, noticesFor };
+  /** @param {CatalogData} data @param {string} roleId @returns {SyllabusItem[]} */
+  function syllabusFor(data, roleId) {
+    return data.syllabusItems.filter(item => item.roleId === roleId);
+  }
+  /** @param {CatalogData} data @param {string} roleId @returns {ScoringRule[]} */
+  function rulesFor(data, roleId) {
+    return data.scoringRules.filter(rule => rule.roleId === roleId);
+  }
+  return { parse, rolesFor, noticesFor, syllabusFor, rulesFor };
 })();
 Object.assign(globalThis, { Catalog });

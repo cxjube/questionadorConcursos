@@ -10,6 +10,6 @@ Os arquivos foram fornecidos pelo usuário nesta conversa. Identificação confe
 
 O edital de abertura identifica Cebraspe como executor no item 1.1 e o cargo pretendido no item 2.1. Os editais 5 e 6 indicam alterações no edital 1.
 
-Não houve consolidação de conteúdo programático, requisitos, vagas ou regras de pontuação. Nenhuma URL oficial foi presumida. Os documentos permanecem recebidos, não autenticados externamente nem promovidos a fontes verificadas.
+Nesta etapa, programa, requisitos aplicáveis, regras das objetivas e trechos retificados foram organizados a partir das cópias. Nenhuma URL de PDF oficial foi presumida. Os documentos estão em reviewed_copy, sem autenticação externa nem promoção a verified. Veja notice-consolidation.md para o inventário dos outros 12 PDFs.
 
 Os arquivos ficam fora de `docs/`, portanto não integram o artefato do Pages. Em um repositório público, arquivos de `sources/` continuam acessíveis pelo próprio GitHub.

@@ -59,8 +59,73 @@
     },
     "status": {
       "enum": [
-        "verified"
+        "verified",
+        "received"
       ]
+    },
+    "inventory": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "applicationDate",
+        "block",
+        "firstItem",
+        "lastItem",
+        "itemCount",
+        "questionType",
+        "annulledItems",
+        "answerKeyDocumentId",
+        "pairingStatus",
+        "externalVerification"
+      ],
+      "properties": {
+        "applicationDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "block": {
+          "enum": [
+            "basic",
+            "specific"
+          ]
+        },
+        "firstItem": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "lastItem": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "itemCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "questionType": {
+          "enum": [
+            "multiple_choice",
+            "true_false"
+          ]
+        },
+        "annulledItems": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "uniqueItems": true
+        },
+        "answerKeyDocumentId": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "pairingStatus": {
+          "const": "matched_by_filename_and_range"
+        },
+        "externalVerification": {
+          "const": false
+        }
+      }
     }
   }
 }

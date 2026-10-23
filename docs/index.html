@@ -32,9 +32,9 @@
     </header>
     <main id="main" class="wrapper" tabindex="-1">
       <section class="panel" aria-labelledby="selection-heading">
-        <p class="eyebrow">Fundação do projeto</p>
+        <p class="eyebrow">Seu edital, organizado</p>
         <h2 id="selection-heading">Escolha seu objetivo</h2>
-        <p>O catálogo está sendo preparado com base nos documentos de cada concurso.</p>
+        <p>Consulte o programa e as regras transcritos dos documentos fornecidos para cada concurso.</p>
         <div class="fields">
           <div><label for="contest">Concurso</label><select id="contest" aria-describedby="contest-status"><option>Carregando catálogo…</option></select></div>
           <div><label for="role">Cargo e área</label><select id="role"><option>Aguardando seleção</option></select></div>
@@ -43,10 +43,32 @@
         <h3>Documentos de referência</h3>
         <ul id="notices" class="notice-list"></ul>
       </section>
+      <section id="program-section" class="panel" aria-labelledby="program-heading" hidden>
+        <h2 id="program-heading">Conteúdo programático</h2>
+        <p id="program-summary"></p>
+        <p class="review-note">Transcrição das cópias fornecidas. A conferência externa da fonte oficial está pendente. A numeração e as páginas permitem conferir cada item no edital.</p>
+        <div id="program"></div>
+      </section>
+      <section id="rules-section" class="panel" aria-labelledby="rules-heading" hidden>
+        <h2 id="rules-heading">Regras das provas objetivas</h2>
+        <div id="rules"></div>
+        <p>Atingir os mínimos não garante aprovação: também se aplicam os limites de classificação e as demais regras do edital.</p>
+      </section>
+      <section id="consolidation-section" class="panel" aria-labelledby="consolidation-heading" hidden>
+        <h2 id="consolidation-heading">Abertura e retificações</h2>
+        <p id="consolidation-scope"></p>
+        <div id="consolidation"></div>
+      </section>
+      <section class="panel" aria-labelledby="sources-heading">
+        <h2 id="sources-heading">Arquivos de provas recebidos</h2>
+        <p id="inventory-summary"></p>
+        <ul id="inventory" class="notice-list"></ul>
+        <p>Os pares foram conferidos pelos nomes dos arquivos, identificação e intervalo de itens. Isso não comprova autenticidade externa nem compatibilidade de todas as questões com o edital da Câmara.</p>
+      </section>
       <section class="panel" aria-labelledby="bank-heading">
         <h2 id="bank-heading">Banco de questões em preparação</h2>
         <p>Nenhuma questão foi publicada. O estudo será habilitado após a revisão das fontes, das questões e dos gabaritos.</p>
-        <p>Não há conteúdo programático ou regras de pontuação preenchidos por suposição.</p>
+        <p>Os arquivos de provas recebidos estão em revisão e ainda não integram o banco de estudo.</p>
       </section>
       <p id="status" class="status" role="status" aria-live="polite" aria-atomic="true">Carregando catálogo.</p>
       <p id="storage-warning" hidden>O navegador bloqueou o armazenamento local. Sua preferência de tema não será lembrada.</p>

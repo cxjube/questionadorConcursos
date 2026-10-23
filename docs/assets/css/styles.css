@@ -221,3 +221,13 @@ button[aria-pressed='true'] { background: var(--text); color: var(--on-ink); }
 @media (min-width: 48rem) { .fields { grid-template-columns: 1fr 2fr; } }
 @media (max-width: 34rem) { .panel { padding: var(--space-sm); } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; } }
+
+/* Read-only notice consultation, with native accessible disclosures. */
+details { border-top: 1px solid var(--border); padding-block: var(--space-sm); }
+summary { cursor: pointer; min-height: var(--target); font-weight: 600; overflow-wrap: anywhere; padding-block: var(--space-2xs); }
+#program ul { padding-left: var(--space-md); }
+#program li { margin-bottom: var(--space-sm); overflow-wrap: anywhere; }
+#program li p { margin-bottom: var(--space-3xs); }
+small { display: block; color: var(--text-soft); overflow-wrap: anywhere; }
+blockquote { margin-inline: 0; padding-left: var(--space-sm); border-left: 3px solid var(--border-strong); overflow-wrap: anywhere; }
+.review-note { color: var(--text-soft); }

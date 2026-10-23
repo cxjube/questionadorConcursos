@@ -29,6 +29,8 @@ class FoundationTests(unittest.TestCase):
         (self.root / 'sources').mkdir()
         self.catalog = read_json(ROOT / 'data/catalog.json')
         self.catalog['documents'] = []
+        self.catalog['consolidations'] = []
+        self.catalog['scoringRules'] = []
         for notice in self.catalog['notices']:
             notice['status'] = 'verified'
             doc_id = notice['documentId']
@@ -61,15 +63,15 @@ class FoundationTests(unittest.TestCase):
         else:
             self.assertTrue(any(expected in e for e in errors), errors)
 
-    def test_real_catalog_is_empty_and_pending(self):
-        """Validate supplied source bytes without claiming reviewed study content."""
+    def test_real_catalog_has_no_questions_and_pending_external_verification(self):
+        """Validate retained source bytes without claiming external authentication."""
         real = read_json(ROOT / 'data/catalog.json')
         self.assertEqual(validate(real), [])
         self.assertEqual(real['questions'], [])
-        self.assertEqual(real['scoringRules'], [])
-        self.assertEqual(real['syllabusItems'], [])
-        self.assertEqual(len(real['documents']), 3)
-        self.assertTrue(all(d['status'] == 'received' for d in real['documents']))
+        self.assertEqual(len(real['scoringRules']), 1)
+        self.assertEqual(len(real['syllabusItems']), 228)
+        self.assertEqual(len(real['documents']), 15)
+        self.assertTrue(all(d['status'] in {'received', 'reviewed_copy'} for d in real['documents']))
 
     def test_complete_fixture_and_large_question_number(self):
         """Accept the full graph and numbering above 99."""

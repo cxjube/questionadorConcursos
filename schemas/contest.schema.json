@@ -23,7 +23,8 @@
       "enum": [
         "planned",
         "pending_review",
-        "verified"
+        "verified",
+        "reviewed_copy"
       ]
     },
     "provider": {

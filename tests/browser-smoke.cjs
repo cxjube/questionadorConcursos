@@ -15,6 +15,15 @@ const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8765/questionadorConc
   assert.equal(await page.locator('#contest option').count(), 3);
   assert.equal(await page.locator('#role option').count(), 1);
   assert.equal(await page.locator('#notices li').count(), 3);
+  assert.equal(await page.locator('#program details').count(), 9);
+  assert.equal(await page.locator('#program li').count(), 228);
+  assert.equal(await page.locator('#inventory li').count(), 6);
+  await page.locator('#program summary').first().click();
+  assert.equal(await page.locator('#program details').first().getAttribute('open'), '');
+  assert.match(await page.locator('#rules').innerText(), /300 minutos/);
+  assert.match(await page.locator('#rules').innerText(), /mínimo total: 54/);
+  assert.match(await page.locator('#consolidation-scope').innerText(), /fonte oficial externa ainda não conferida/i);
+
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
   for (const theme of ['dark', 'light']) {
    await page.locator(`[data-theme-choice="${theme}"]`).click();
@@ -24,6 +33,9 @@ const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8765/questionadorConc
   await page.selectOption('#contest', 'abdi-futuro');
   assert.equal(await page.locator('#role').isDisabled(), true);
   assert.match(await page.locator('#contest-status').innerText(), /futuro/);
+  assert.equal(await page.locator('#program-section').isHidden(), true);
+  assert.equal(await page.locator('#rules-section').isHidden(), true);
+  assert.equal(await page.locator('#consolidation-section').isHidden(), true);
   await page.selectOption('#contest', 'cgu-futuro');
   assert.equal(await page.locator('#role').isDisabled(), true);
   await page.selectOption('#contest', 'camara-2026');
@@ -36,5 +48,5 @@ const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8765/questionadorConc
  assert.deepEqual(errors, []);
  assert.deepEqual(external, []);
  await browser.close();
- console.log('Browser smoke passed: 320/1280px, light/dark, selection, persisted theme, keyboard skip link, project subpath and zero external runtime requests.');
+ console.log('Browser smoke passed: 320/1280px, light/dark, selection, persisted theme, keyboard skip link, source notices, 228 syllabus items, rules, inventory, project subpath and zero external runtime requests.');
 })().catch(error => { console.error(error); process.exit(1); });

@@ -1,11 +1,11 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "bankId": "concursos",
   "contests": [
     {
       "id": "camara-2026",
       "title": "Câmara dos Deputados",
-      "status": "pending_review",
+      "status": "reviewed_copy",
       "provider": "Cebraspe"
     },
     {
@@ -26,7 +26,7 @@
       "id": "camara-comunicacao-divulgacao",
       "contestId": "camara-2026",
       "title": "Analista Legislativo — Comunicação Social — Divulgação Institucional",
-      "status": "pending_review"
+      "status": "reviewed_copy"
     }
   ],
   "notices": [
@@ -39,7 +39,7 @@
       "number": "1",
       "title": "Edital nº 1 — Câmara dos Deputados — Analista Legislativo",
       "date": "2026-10-02",
-      "status": "pending_review",
+      "status": "reviewed_copy",
       "documentId": "camara-2026-edital-01-documento",
       "amendsNoticeId": null
     },
@@ -52,7 +52,7 @@
       "number": "5",
       "title": "Edital nº 5 — Câmara dos Deputados — Analista Legislativo",
       "date": "2026-10-15",
-      "status": "pending_review",
+      "status": "reviewed_copy",
       "documentId": "camara-2026-edital-05-documento",
       "amendsNoticeId": "camara-2026-edital-01"
     },
@@ -65,13 +65,1419 @@
       "number": "6",
       "title": "Edital nº 6 — Câmara dos Deputados — Analista Legislativo",
       "date": "2026-10-21",
-      "status": "pending_review",
+      "status": "reviewed_copy",
       "documentId": "camara-2026-edital-06-documento",
       "amendsNoticeId": "camara-2026-edital-01"
     }
   ],
-  "disciplines": [],
-  "topics": [],
+  "disciplines": [
+    {
+      "id": "lingua-portuguesa",
+      "label": "Língua Portuguesa"
+    },
+    {
+      "id": "lingua-inglesa",
+      "label": "Língua Inglesa"
+    },
+    {
+      "id": "direito-administrativo-administracao-publica",
+      "label": "Noções de Direito Administrativo e Administração Pública"
+    },
+    {
+      "id": "direito-constitucional-regimento",
+      "label": "Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados"
+    },
+    {
+      "id": "tecnologia-informacao-dados",
+      "label": "Tecnologia da Informação e Dados"
+    },
+    {
+      "id": "comunicacao-social",
+      "label": "Comunicação Social"
+    },
+    {
+      "id": "divulgacao-institucional",
+      "label": "Divulgação Institucional"
+    },
+    {
+      "id": "processo-legislativo-regimento",
+      "label": "Processo Legislativo e Regimento Interno"
+    },
+    {
+      "id": "ciencia-politica",
+      "label": "Ciência Política"
+    }
+  ],
+  "topics": [
+    {
+      "id": "lingua-portuguesa-1",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": null,
+      "label": "Compreensão e interpretação de textos de gêneros variados."
+    },
+    {
+      "id": "lingua-portuguesa-2",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": null,
+      "label": "Reconhecimento de tipos e gêneros textuais."
+    },
+    {
+      "id": "lingua-portuguesa-3",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": null,
+      "label": "Domínio da ortografia."
+    },
+    {
+      "id": "lingua-portuguesa-4",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": null,
+      "label": "Domínio dos mecanismos de coesão textual."
+    },
+    {
+      "id": "lingua-portuguesa-4-1",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "lingua-portuguesa-4",
+      "label": "Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual."
+    },
+    {
+      "id": "lingua-portuguesa-4-2",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "lingua-portuguesa-4",
+      "label": "Emprego de tempos e modos verbais."
+    },
+    {
+      "id": "lingua-portuguesa-5",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": null,
+      "label": "Domínio da estrutura morfossintática do período."
+    },
+    {
+      "id": "lingua-portuguesa-5-1",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "lingua-portuguesa-5",
+      "label": "Emprego das classes de palavras."
+    },
+    {
+      "id": "lingua-portuguesa-5-2",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "lingua-portuguesa-5",
+      "label": "Relações de coordenação entre orações e entre termos da oração."
+    },
+    {
+      "id": "lingua-portuguesa-5-3",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "lingua-portuguesa-5",
+      "label": "Relações de subordinação entre orações e entre termos da oração."
+    },
+    {
+      "id": "lingua-portuguesa-5-4",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "lingua-portuguesa-5",
+      "label": "Emprego dos sinais de pontuação."
+    },
+    {
+      "id": "lingua-portuguesa-5-5",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "lingua-portuguesa-5",
+      "label": "Concordância verbal e nominal."
+    },
+    {
+      "id": "lingua-portuguesa-5-6",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "lingua-portuguesa-5",
+      "label": "Regência verbal e nominal."
+    },
+    {
+      "id": "lingua-portuguesa-5-7",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "lingua-portuguesa-5",
+      "label": "Emprego do sinal indicativo de crase."
+    },
+    {
+      "id": "lingua-portuguesa-5-8",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "lingua-portuguesa-5",
+      "label": "Colocação dos pronomes átonos."
+    },
+    {
+      "id": "lingua-portuguesa-6",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": null,
+      "label": "Reescrita de frases e parágrafos do texto."
+    },
+    {
+      "id": "lingua-portuguesa-6-1",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "lingua-portuguesa-6",
+      "label": "Significação das palavras."
+    },
+    {
+      "id": "lingua-portuguesa-6-2",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "lingua-portuguesa-6",
+      "label": "Substituição de palavras ou de trechos de texto."
+    },
+    {
+      "id": "lingua-portuguesa-6-3",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "lingua-portuguesa-6",
+      "label": "Reorganização da estrutura de orações e de períodos do texto."
+    },
+    {
+      "id": "lingua-portuguesa-6-4",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "lingua-portuguesa-6",
+      "label": "Reescrita de textos de diferentes gêneros e níveis de formalidade."
+    },
+    {
+      "id": "lingua-inglesa-1",
+      "disciplineId": "lingua-inglesa",
+      "parentId": null,
+      "label": "Compreensão de textos variados: domínio do vocabulário e da estrutura da língua, ideias principais e secundárias, explícitas e implícitas, relações intratextuais e intertextuais."
+    },
+    {
+      "id": "lingua-inglesa-2",
+      "disciplineId": "lingua-inglesa",
+      "parentId": null,
+      "label": "Itens gramaticais relevantes para compreensão de conteúdos semânticos."
+    },
+    {
+      "id": "lingua-inglesa-3",
+      "disciplineId": "lingua-inglesa",
+      "parentId": null,
+      "label": "Conhecimento e uso das formas contemporâneas da linguagem inglesa."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-1",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": null,
+      "label": "Estado, governo e Administração Pública: conceito, elementos, poderes e organização do Estado."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-1-1",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-1",
+      "label": "Princípios constitucionais e doutrinários da Administração Pública."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-1-2",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-1",
+      "label": "Organização administrativa: administração direta e indireta; centralização, descentralização, concentração e desconcentração."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-2",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": null,
+      "label": "Ato administrativo."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-2-1",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-2",
+      "label": "Conceito, requisitos, atributos, classificação e espécies, extinção, nulidades e revogação."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-2-2",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-2",
+      "label": "Parecer: responsabilidade do emissor do parecer."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-3",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": null,
+      "label": "Agentes públicos."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-3-1",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-3",
+      "label": "Disposições constitucionais aplicáveis."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-3-2",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-3",
+      "label": "Cargo, emprego e função pública."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-3-3",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-3",
+      "label": "Requisição."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-3-4",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-3",
+      "label": "Regime jurídico dos servidores públicos federais (Lei 8.112/1990 e suas alterações)."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-4",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": null,
+      "label": "Direito administrativo disciplinar."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-4-1",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-4",
+      "label": "Fontes e princípios."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-4-2",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-4",
+      "label": "Ilícito de direito administrativo disciplinar."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-4-3",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-4",
+      "label": "Procedimentos disciplinares da administração pública."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-4-4",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-4",
+      "label": "Processo Administrativo Federal (Lei nº 9.784/1999 e suas alterações)."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-5",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": null,
+      "label": "Poderes administrativos."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-5-1",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-5",
+      "label": "Discricionário, hierárquico, disciplinar, regulamentar e de polícia."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-5-2",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-5",
+      "label": "Uso e abuso do poder."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-6",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": null,
+      "label": "Responsabilidade civil do Estado."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-6-1",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-6",
+      "label": "Responsabilidade civil do Estado no direito brasileiro."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-6-2",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-6",
+      "label": "Responsabilidade por ato comissivo do Estado."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-6-3",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-6",
+      "label": "Responsabilidade por omissão do Estado."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-6-4",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-6",
+      "label": "Requisitos para a demonstração da responsabilidade do Estado."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-6-5",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-6",
+      "label": "Causas excludentes e atenuantes da responsabilidade do Estado."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-7",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": null,
+      "label": "Improbidade Administrativa (Lei nº 8.429/1992 e suas alterações)."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-8",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": null,
+      "label": "Evolução dos modelos de gestão pública: patrimonialismo, administração burocrática e nova gestão pública (New Public Management)."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-8-1",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-8",
+      "label": "Nova Governança Pública (New Public Governance): conceito, fundamentos e evolução."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-8-2",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-8",
+      "label": "Ação pública em redes de cooperação, articulação interinstitucional e parcerias com o setor privado e terceiro setor."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-8-3",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-8",
+      "label": "Coprodução do bem público, participação cidadã e transparência ativa."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-8-4",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-8",
+      "label": "Valor Público, cadeia de valor público."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-9",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": null,
+      "label": "Governança na Administração Pública."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-9-1",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-9",
+      "label": "Governança pública: conceito, distinção entre governança e governabilidade e alinhamento estratégico."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-9-2",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-9",
+      "label": "Mecanismos de governança: liderança, estratégia e controle."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-9-3",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-9",
+      "label": "Conceito de valor público: geração de valor para a sociedade, entrega de resultados, sustentabilidade e avaliação de impactos de políticas públicas."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-9-4",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-9",
+      "label": "Decreto Federal nº 9.203/2017 e suas alterações (política de governança da administração pública federal direta, autárquica e fundacional)."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-10",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": null,
+      "label": "Noções de Licitações e Contratos (Lei nº 14.133/2021 e suas alterações)."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-10-1",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-10",
+      "label": "Licitação Pública: conceito, princípios, finalidade do procedimento licitatório, modalidades, dispensa e inexigibilidade de licitação."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-10-2",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-10",
+      "label": "Contratos administrativos."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-10-3",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-10",
+      "label": "Características do contrato administrativo."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-10-4",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-10",
+      "label": "Formalização, gestão e fiscalização do contrato."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-10-5",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-10",
+      "label": "Planejamento e fiscalização contratual."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-10-6",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-10",
+      "label": "Papel do fiscalizador do contrato."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-10-7",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": "direito-administrativo-administracao-publica-10",
+      "label": "Estudo Técnico Preliminar e Termo de Referência."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-11",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": null,
+      "label": "Lei de Acesso à Informação (Lei nº 12.527/2011 e suas alterações)."
+    },
+    {
+      "id": "direito-administrativo-administracao-publica-12",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "parentId": null,
+      "label": "Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 e suas alterações)."
+    },
+    {
+      "id": "direito-constitucional-regimento-1",
+      "disciplineId": "direito-constitucional-regimento",
+      "parentId": null,
+      "label": "Constituição Federal de 1988: conceito, contexto histórico, características, estrutura do texto."
+    },
+    {
+      "id": "direito-constitucional-regimento-2",
+      "disciplineId": "direito-constitucional-regimento",
+      "parentId": null,
+      "label": "Princípios fundamentais. Direitos e garantias fundamentais: direitos e deveres individuais e coletivos, direitos sociais, nacionalidade, direitos políticos e partidos políticos."
+    },
+    {
+      "id": "direito-constitucional-regimento-3",
+      "disciplineId": "direito-constitucional-regimento",
+      "parentId": null,
+      "label": "Organização do Estado: organização político-administrativa, União, estados, municípios, Distrito Federal e territórios. Intervenção Federal."
+    },
+    {
+      "id": "direito-constitucional-regimento-4",
+      "disciplineId": "direito-constitucional-regimento",
+      "parentId": null,
+      "label": "Administração pública: disposições gerais, servidores públicos civis e militares."
+    },
+    {
+      "id": "direito-constitucional-regimento-5",
+      "disciplineId": "direito-constitucional-regimento",
+      "parentId": null,
+      "label": "Poder Legislativo: o Congresso Nacional e suas Casas (atribuições, competências, reuniões e comissões)."
+    },
+    {
+      "id": "direito-constitucional-regimento-6",
+      "disciplineId": "direito-constitucional-regimento",
+      "parentId": null,
+      "label": "Regime jurídico-constitucional dos parlamentares."
+    },
+    {
+      "id": "direito-constitucional-regimento-7",
+      "disciplineId": "direito-constitucional-regimento",
+      "parentId": null,
+      "label": "Regimento Interno da Câmara dos Deputados"
+    },
+    {
+      "id": "direito-constitucional-regimento-7-1",
+      "disciplineId": "direito-constitucional-regimento",
+      "parentId": "direito-constitucional-regimento-7",
+      "label": "Disposições preliminares e Órgãos da Câmara (arts. 1º a 24 e suas alterações)."
+    },
+    {
+      "id": "direito-constitucional-regimento-7-2",
+      "disciplineId": "direito-constitucional-regimento",
+      "parentId": "direito-constitucional-regimento-7",
+      "label": "Sessões da Câmara (arts. 65 a 94 e suas alterações)."
+    },
+    {
+      "id": "direito-constitucional-regimento-7-3",
+      "disciplineId": "direito-constitucional-regimento",
+      "parentId": "direito-constitucional-regimento-7",
+      "label": "Deputados (arts. 226 a 251 e suas alterações)."
+    },
+    {
+      "id": "direito-constitucional-regimento-7-4",
+      "disciplineId": "direito-constitucional-regimento",
+      "parentId": "direito-constitucional-regimento-7",
+      "label": "Administração e economia interna (arts. 262 a 273 e suas alterações)."
+    },
+    {
+      "id": "direito-constitucional-regimento-8",
+      "disciplineId": "direito-constitucional-regimento",
+      "parentId": null,
+      "label": "Regimento Comum do Congresso Nacional."
+    },
+    {
+      "id": "direito-constitucional-regimento-8-1",
+      "disciplineId": "direito-constitucional-regimento",
+      "parentId": "direito-constitucional-regimento-8",
+      "label": "Título I."
+    },
+    {
+      "id": "direito-constitucional-regimento-8-2",
+      "disciplineId": "direito-constitucional-regimento",
+      "parentId": "direito-constitucional-regimento-8",
+      "label": "Título IV, Capítulo II e Capítulo III (até art. 103)."
+    },
+    {
+      "id": "tecnologia-informacao-dados-1",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": null,
+      "label": "MSOffice 365 (Word, Excel, PowerPoint e OneDrive)."
+    },
+    {
+      "id": "tecnologia-informacao-dados-2",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": null,
+      "label": "Redes de computadores."
+    },
+    {
+      "id": "tecnologia-informacao-dados-2-1",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": "tecnologia-informacao-dados-2",
+      "label": "Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet."
+    },
+    {
+      "id": "tecnologia-informacao-dados-3",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": null,
+      "label": "Ferramentas de comunicação e colaboração: correio eletrônico (webmail, cliente de e-mail), aplicativos de comunicação (Microsoft Teams, Google Meet)."
+    },
+    {
+      "id": "tecnologia-informacao-dados-4",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": null,
+      "label": "Conceitos gerais de segurança e governança digital."
+    },
+    {
+      "id": "tecnologia-informacao-dados-4-1",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": "tecnologia-informacao-dados-4",
+      "label": "Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais."
+    },
+    {
+      "id": "tecnologia-informacao-dados-4-2",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": "tecnologia-informacao-dados-4",
+      "label": "Programas de proteção (antivírus, firewall, antispyware)."
+    },
+    {
+      "id": "tecnologia-informacao-dados-4-3",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": "tecnologia-informacao-dados-4",
+      "label": "Ameaças digitais (phishing, pharming)."
+    },
+    {
+      "id": "tecnologia-informacao-dados-5",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": null,
+      "label": "Conceitos básicos de inteligência artificial."
+    },
+    {
+      "id": "tecnologia-informacao-dados-5-1",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": "tecnologia-informacao-dados-5",
+      "label": "Engenharia de prompts."
+    },
+    {
+      "id": "tecnologia-informacao-dados-5-2",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": "tecnologia-informacao-dados-5",
+      "label": "Aprendizado supervisionado, não supervisionado e por reforço."
+    },
+    {
+      "id": "tecnologia-informacao-dados-5-3",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": "tecnologia-informacao-dados-5",
+      "label": "IA generativa: conceitos, exemplos e casos de uso."
+    },
+    {
+      "id": "tecnologia-informacao-dados-6",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": null,
+      "label": "Ética e responsabilidade digital no serviço público."
+    },
+    {
+      "id": "tecnologia-informacao-dados-7",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": null,
+      "label": "Dados."
+    },
+    {
+      "id": "tecnologia-informacao-dados-7-1",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": "tecnologia-informacao-dados-7",
+      "label": "Conceitos, atributos, métricas, transformação de dados."
+    },
+    {
+      "id": "tecnologia-informacao-dados-8",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": null,
+      "label": "Visualização de dados."
+    },
+    {
+      "id": "tecnologia-informacao-dados-8-1",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": "tecnologia-informacao-dados-8",
+      "label": "Princípios de visualização de dados."
+    },
+    {
+      "id": "tecnologia-informacao-dados-8-2",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": "tecnologia-informacao-dados-8",
+      "label": "Tipos de gráficos (histograma, linha, barra, dispersão, box plot)."
+    },
+    {
+      "id": "tecnologia-informacao-dados-8-3",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": "tecnologia-informacao-dados-8",
+      "label": "Ferramentas de visualização de dados (Power BI, Tableau e Data Studio)."
+    },
+    {
+      "id": "tecnologia-informacao-dados-8-4",
+      "disciplineId": "tecnologia-informacao-dados",
+      "parentId": "tecnologia-informacao-dados-8",
+      "label": "Storytelling para visualização de dados."
+    },
+    {
+      "id": "comunicacao-social-1",
+      "disciplineId": "comunicacao-social",
+      "parentId": null,
+      "label": "Teorias da Comunicação."
+    },
+    {
+      "id": "comunicacao-social-1-1",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-1",
+      "label": "Escolas, paradigmas, correntes, modelos, principais pensadores."
+    },
+    {
+      "id": "comunicacao-social-1-2",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-1",
+      "label": "Comunicação e opinião pública."
+    },
+    {
+      "id": "comunicacao-social-1-3",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-1",
+      "label": "Midiatização e plataformização."
+    },
+    {
+      "id": "comunicacao-social-1-4",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-1",
+      "label": "Desinformação e integridade da informação."
+    },
+    {
+      "id": "comunicacao-social-2",
+      "disciplineId": "comunicacao-social",
+      "parentId": null,
+      "label": "Comunicação interna."
+    },
+    {
+      "id": "comunicacao-social-2-1",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-2",
+      "label": "Conceito, funções e objetivos da comunicação interna."
+    },
+    {
+      "id": "comunicacao-social-2-2",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-2",
+      "label": "Ferramentas e canais de comunicação interna (intranet, veículos impressos/digitais, jornais murais, newsletters, eventos)."
+    },
+    {
+      "id": "comunicacao-social-2-3",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-2",
+      "label": "Endomarketing: conceitos e estratégias de engajamento."
+    },
+    {
+      "id": "comunicacao-social-2-4",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-2",
+      "label": "Comunicação e cultura organizacional."
+    },
+    {
+      "id": "comunicacao-social-2-5",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-2",
+      "label": "Gestão do clima organizacional por meio da comunicação."
+    },
+    {
+      "id": "comunicacao-social-3",
+      "disciplineId": "comunicacao-social",
+      "parentId": null,
+      "label": "Comunicação institucional."
+    },
+    {
+      "id": "comunicacao-social-3-1",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-3",
+      "label": "Conceito e objetivos da comunicação institucional."
+    },
+    {
+      "id": "comunicacao-social-3-2",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-3",
+      "label": "Gestão da imagem, identidade e reputação corporativa/institucional."
+    },
+    {
+      "id": "comunicacao-social-3-3",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-3",
+      "label": "Gerenciamento de crises."
+    },
+    {
+      "id": "comunicacao-social-3-4",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-3",
+      "label": "Técnicas e ferramentas de gerenciamento de crises."
+    },
+    {
+      "id": "comunicacao-social-4",
+      "disciplineId": "comunicacao-social",
+      "parentId": null,
+      "label": "Comunicação organizacional."
+    },
+    {
+      "id": "comunicacao-social-4-1",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-4",
+      "label": "Conceito, objetivos e dimensões da comunicação organizacional."
+    },
+    {
+      "id": "comunicacao-social-4-2",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-4",
+      "label": "O composto da comunicação integrada (comunicação institucional, mercadológica, interna e administrativa)."
+    },
+    {
+      "id": "comunicacao-social-4-3",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-4",
+      "label": "Planejamento estratégico de comunicação."
+    },
+    {
+      "id": "comunicacao-social-4-4",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-4",
+      "label": "Fluxos comunicativos (descendentes, ascendentes, horizontais e transversais)."
+    },
+    {
+      "id": "comunicacao-social-4-5",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-4",
+      "label": "Comunicação formal e informal nas organizações."
+    },
+    {
+      "id": "comunicacao-social-4-6",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-4",
+      "label": "Definição de públicos-alvo: pesquisa, segmentação, canais de interação."
+    },
+    {
+      "id": "comunicacao-social-4-7",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-4",
+      "label": "Definição de indicadores de resultados em comunicação."
+    },
+    {
+      "id": "comunicacao-social-4-8",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-4",
+      "label": "Plano de comunicação."
+    },
+    {
+      "id": "comunicacao-social-4-9",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-4",
+      "label": "Gestão de projetos de comunicação."
+    },
+    {
+      "id": "comunicacao-social-5",
+      "disciplineId": "comunicacao-social",
+      "parentId": null,
+      "label": "Redes sociais digitais oficiais."
+    },
+    {
+      "id": "comunicacao-social-5-1",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-5",
+      "label": "Planejamento e produção de conteúdo."
+    },
+    {
+      "id": "comunicacao-social-5-2",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-5",
+      "label": "Postagens e colaborações."
+    },
+    {
+      "id": "comunicacao-social-5-3",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-5",
+      "label": "Características das principais plataformas de mídias sociais: diferenças de públicos, linguagem, formatos (4:5, 3:4, 9:16) e conteúdos (cards, carrossel, vídeos, stories, lives)."
+    },
+    {
+      "id": "comunicacao-social-5-4",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-5",
+      "label": "Elementos fundamentais de publicações em redes sociais: capa, legenda, marcação, palavras-chave, call to action."
+    },
+    {
+      "id": "comunicacao-social-6",
+      "disciplineId": "comunicacao-social",
+      "parentId": null,
+      "label": "Transparência pública."
+    },
+    {
+      "id": "comunicacao-social-7",
+      "disciplineId": "comunicacao-social",
+      "parentId": null,
+      "label": "Comunicação Pública."
+    },
+    {
+      "id": "comunicacao-social-7-1",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-7",
+      "label": "Conceitos, fundamentos e especificidades da comunicação pública."
+    },
+    {
+      "id": "comunicacao-social-7-2",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-7",
+      "label": "Comunicação pública versus comunicação governamental e comunicação político-partidária."
+    },
+    {
+      "id": "comunicacao-social-8",
+      "disciplineId": "comunicacao-social",
+      "parentId": null,
+      "label": "Políticas de comunicação."
+    },
+    {
+      "id": "comunicacao-social-8-1",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-8",
+      "label": "Política de comunicação da Câmara dos Deputados (Ato da Mesa nº 218/2025)."
+    },
+    {
+      "id": "comunicacao-social-8-2",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-8",
+      "label": "Manual de comunicação da Câmara dos Deputados."
+    },
+    {
+      "id": "comunicacao-social-9",
+      "disciplineId": "comunicacao-social",
+      "parentId": null,
+      "label": "Inteligência artificial na comunicação."
+    },
+    {
+      "id": "comunicacao-social-9-1",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-9",
+      "label": "Aplicações da IA na comunicação."
+    },
+    {
+      "id": "comunicacao-social-9-2",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-9",
+      "label": "Ética no uso de IA na comunicação."
+    },
+    {
+      "id": "comunicacao-social-10",
+      "disciplineId": "comunicacao-social",
+      "parentId": null,
+      "label": "Linguagem simples e usabilidade."
+    },
+    {
+      "id": "comunicacao-social-10-1",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-10",
+      "label": "Manual de linguagem simples da Câmara dos Deputados."
+    },
+    {
+      "id": "comunicacao-social-10-2",
+      "disciplineId": "comunicacao-social",
+      "parentId": "comunicacao-social-10",
+      "label": "Conceito e técnicas de usabilidade."
+    },
+    {
+      "id": "comunicacao-social-11",
+      "disciplineId": "comunicacao-social",
+      "parentId": null,
+      "label": "Princípios constitucionais da administração pública aplicados à comunicação (Art. 37, § 1º da CF/88 e suas alterações)."
+    },
+    {
+      "id": "divulgacao-institucional-1",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": null,
+      "label": "Publicidade."
+    },
+    {
+      "id": "divulgacao-institucional-1-1",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-1",
+      "label": "Teorias da Publicidade."
+    },
+    {
+      "id": "divulgacao-institucional-1-2",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-1",
+      "label": "Planejamento publicitário: briefing, diagnóstico, definição de objetivos, definição de público-alvo, estratégia de comunicação, plano de mídia, cronograma de execução, definição de indicadores e avaliação."
+    },
+    {
+      "id": "divulgacao-institucional-1-3",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-1",
+      "label": "Criação publicitária."
+    },
+    {
+      "id": "divulgacao-institucional-1-4",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-1",
+      "label": "Atendimento."
+    },
+    {
+      "id": "divulgacao-institucional-1-5",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-1",
+      "label": "Mídia: características dos diferentes tipos de veículos e plataformas de comunicação, plano de mídia, monitoramento e análise de dados."
+    },
+    {
+      "id": "divulgacao-institucional-1-6",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-1",
+      "label": "Produção de campanhas publicitárias."
+    },
+    {
+      "id": "divulgacao-institucional-1-7",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-1",
+      "label": "Produção e redação de peças publicitárias para diversas mídias."
+    },
+    {
+      "id": "divulgacao-institucional-2",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": null,
+      "label": "Marketing."
+    },
+    {
+      "id": "divulgacao-institucional-2-1",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-2",
+      "label": "Conceitos de marketing."
+    },
+    {
+      "id": "divulgacao-institucional-2-2",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-2",
+      "label": "Planejamento de marketing."
+    },
+    {
+      "id": "divulgacao-institucional-2-3",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-2",
+      "label": "Marketing institucional."
+    },
+    {
+      "id": "divulgacao-institucional-2-4",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-2",
+      "label": "Endomarketing."
+    },
+    {
+      "id": "divulgacao-institucional-2-5",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-2",
+      "label": "Segmentação."
+    },
+    {
+      "id": "divulgacao-institucional-2-6",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-2",
+      "label": "Marketing digital."
+    },
+    {
+      "id": "divulgacao-institucional-2-7",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-2",
+      "label": "Comportamento do consumidor."
+    },
+    {
+      "id": "divulgacao-institucional-3",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": null,
+      "label": "Pesquisa Aplicada à Comunicação."
+    },
+    {
+      "id": "divulgacao-institucional-3-1",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-3",
+      "label": "Pesquisas qualitativas e quantitativas."
+    },
+    {
+      "id": "divulgacao-institucional-3-2",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-3",
+      "label": "Pesquisa de mercado."
+    },
+    {
+      "id": "divulgacao-institucional-3-3",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-3",
+      "label": "Pesquisa de opinião pública."
+    },
+    {
+      "id": "divulgacao-institucional-3-4",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-3",
+      "label": "Pesquisa de imagem."
+    },
+    {
+      "id": "divulgacao-institucional-3-5",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-3",
+      "label": "Pesquisa de mídia."
+    },
+    {
+      "id": "divulgacao-institucional-3-6",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-3",
+      "label": "Métricas de avaliação na publicidade digital."
+    },
+    {
+      "id": "divulgacao-institucional-4",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": null,
+      "label": "Marca e Branding."
+    },
+    {
+      "id": "divulgacao-institucional-4-1",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-4",
+      "label": "Conceito de marca."
+    },
+    {
+      "id": "divulgacao-institucional-4-2",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-4",
+      "label": "Branding."
+    },
+    {
+      "id": "divulgacao-institucional-4-3",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-4",
+      "label": "Gerenciamento de marca."
+    },
+    {
+      "id": "divulgacao-institucional-5",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": null,
+      "label": "Design e Produção."
+    },
+    {
+      "id": "divulgacao-institucional-5-1",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-5",
+      "label": "Design gráfico."
+    },
+    {
+      "id": "divulgacao-institucional-5-2",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-5",
+      "label": "Produção gráfica."
+    },
+    {
+      "id": "divulgacao-institucional-5-3",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-5",
+      "label": "Produção digital."
+    },
+    {
+      "id": "divulgacao-institucional-5-4",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-5",
+      "label": "Produção para rádio, televisão e redes sociais."
+    },
+    {
+      "id": "divulgacao-institucional-5-5",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-5",
+      "label": "Criação e produção de projetos gráficos."
+    },
+    {
+      "id": "divulgacao-institucional-5-6",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-5",
+      "label": "Criação e produção de projetos audiovisuais."
+    },
+    {
+      "id": "divulgacao-institucional-5-7",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-5",
+      "label": "Criação e produção de publicações: definição de objetivos, público-alvo, linha editorial, identidade, estratégia de distribuição, indicadores e avaliação."
+    },
+    {
+      "id": "divulgacao-institucional-6",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": null,
+      "label": "Ética na comunicação."
+    },
+    {
+      "id": "divulgacao-institucional-7",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": null,
+      "label": "Gestão de equipes em publicidade."
+    },
+    {
+      "id": "divulgacao-institucional-8",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": null,
+      "label": "Legislação profissional de publicidade."
+    },
+    {
+      "id": "divulgacao-institucional-8-1",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-8",
+      "label": "Ética publicitária – código brasileiro de autoregulamentação publicitária."
+    },
+    {
+      "id": "divulgacao-institucional-8-2",
+      "disciplineId": "divulgacao-institucional",
+      "parentId": "divulgacao-institucional-8",
+      "label": "Normas gerais para contratação de serviços de publicidade (Lei nº 12.232/2010 e suas alterações)."
+    },
+    {
+      "id": "processo-legislativo-regimento-1",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": null,
+      "label": "Procedimento Legislativo."
+    },
+    {
+      "id": "processo-legislativo-regimento-1-1",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-1",
+      "label": "Tipos de procedimento, ordinário, abreviado, sumário, sumaríssimo, especial e concentrado."
+    },
+    {
+      "id": "processo-legislativo-regimento-1-2",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-1",
+      "label": "Etapas e noções básicas."
+    },
+    {
+      "id": "processo-legislativo-regimento-1-3",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-1",
+      "label": "Comissões, pareceres, deliberação, votação, sanção e veto."
+    },
+    {
+      "id": "processo-legislativo-regimento-2",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": null,
+      "label": "Matérias Legislativas."
+    },
+    {
+      "id": "processo-legislativo-regimento-2-1",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-2",
+      "label": "Projeto de lei ordinária, complementar e delegada."
+    },
+    {
+      "id": "processo-legislativo-regimento-2-2",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-2",
+      "label": "Medida provisória."
+    },
+    {
+      "id": "processo-legislativo-regimento-2-3",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-2",
+      "label": "Projeto de decreto legislativo e projeto de resolução."
+    },
+    {
+      "id": "processo-legislativo-regimento-2-4",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-2",
+      "label": "Proposta de Emenda à Constituição (PEC)."
+    },
+    {
+      "id": "processo-legislativo-regimento-2-5",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-2",
+      "label": "Indicações, pareceres, requerimentos e vetos."
+    },
+    {
+      "id": "processo-legislativo-regimento-2-6",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-2",
+      "label": "Iniciativa Legislativa: Presidência da República, Congresso Nacional, tribunais e cidadãos."
+    },
+    {
+      "id": "processo-legislativo-regimento-3",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": null,
+      "label": "Fiscalização Contábil, Financeira e Orçamentária."
+    },
+    {
+      "id": "processo-legislativo-regimento-4",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": null,
+      "label": "Processo Legislativo Orçamentário."
+    },
+    {
+      "id": "processo-legislativo-regimento-4-1",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-4",
+      "label": "Plano Plurianual (PPA)."
+    },
+    {
+      "id": "processo-legislativo-regimento-4-2",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-4",
+      "label": "Lei de Diretrizes Orçamentárias (LDO)."
+    },
+    {
+      "id": "processo-legislativo-regimento-4-3",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-4",
+      "label": "Lei Orçamentária Anual (LOA)."
+    },
+    {
+      "id": "processo-legislativo-regimento-4-4",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-4",
+      "label": "As interfaces entre LDO, LOA, Lei nº 4.320/1964 e suas alterações e Lei Complementar nº 101/2000 e suas alterações (Lei de Responsabilidade Fiscal)."
+    },
+    {
+      "id": "processo-legislativo-regimento-4-5",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-4",
+      "label": "Elaboração e aprovação das leis de matéria orçamentária."
+    },
+    {
+      "id": "processo-legislativo-regimento-4-6",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-4",
+      "label": "Proposta orçamentária e sua integração com PPA e LDO."
+    },
+    {
+      "id": "processo-legislativo-regimento-4-7",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-4",
+      "label": "Execução financeira e créditos."
+    },
+    {
+      "id": "processo-legislativo-regimento-5",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": null,
+      "label": "Regimento Interno da Câmara dos Deputados."
+    },
+    {
+      "id": "processo-legislativo-regimento-5-1",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-5",
+      "label": "Resolução nº 17/1989 – CD e suas alterações."
+    },
+    {
+      "id": "processo-legislativo-regimento-6",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": null,
+      "label": "Regimento Comum do Congresso Nacional."
+    },
+    {
+      "id": "processo-legislativo-regimento-6-1",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-6",
+      "label": "Resolução nº 1/1970 – CN e suas alterações."
+    },
+    {
+      "id": "processo-legislativo-regimento-6-2",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-6",
+      "label": "Resolução nº 3/1990 – CN."
+    },
+    {
+      "id": "processo-legislativo-regimento-6-3",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": "processo-legislativo-regimento-6",
+      "label": "Resolução nº 1/2002 – CN."
+    },
+    {
+      "id": "processo-legislativo-regimento-7",
+      "disciplineId": "processo-legislativo-regimento",
+      "parentId": null,
+      "label": "Código de Ética e Decoro Parlamentar da Câmara dos Deputados."
+    },
+    {
+      "id": "ciencia-politica-1",
+      "disciplineId": "ciencia-politica",
+      "parentId": null,
+      "label": "Ciência Política."
+    },
+    {
+      "id": "ciencia-politica-2",
+      "disciplineId": "ciencia-politica",
+      "parentId": null,
+      "label": "Teoria política."
+    },
+    {
+      "id": "ciencia-politica-3",
+      "disciplineId": "ciencia-politica",
+      "parentId": null,
+      "label": "Regimes políticos."
+    },
+    {
+      "id": "ciencia-politica-4",
+      "disciplineId": "ciencia-politica",
+      "parentId": null,
+      "label": "Sistemas e formas de governo."
+    },
+    {
+      "id": "ciencia-politica-5",
+      "disciplineId": "ciencia-politica",
+      "parentId": null,
+      "label": "Representação política."
+    },
+    {
+      "id": "ciencia-politica-6",
+      "disciplineId": "ciencia-politica",
+      "parentId": null,
+      "label": "Poderes e relações entre poderes: Executivo, Legislativo e Judiciário."
+    },
+    {
+      "id": "ciencia-politica-7",
+      "disciplineId": "ciencia-politica",
+      "parentId": null,
+      "label": "Sistemas eleitorais."
+    },
+    {
+      "id": "ciencia-politica-8",
+      "disciplineId": "ciencia-politica",
+      "parentId": null,
+      "label": "Teoria dos partidos políticos."
+    },
+    {
+      "id": "ciencia-politica-9",
+      "disciplineId": "ciencia-politica",
+      "parentId": null,
+      "label": "Organização política brasileira."
+    },
+    {
+      "id": "ciencia-politica-10",
+      "disciplineId": "ciencia-politica",
+      "parentId": null,
+      "label": "Política internacional contemporânea."
+    },
+    {
+      "id": "ciencia-politica-11",
+      "disciplineId": "ciencia-politica",
+      "parentId": null,
+      "label": "Teoria do Estado e formação dos Estados nacionais."
+    },
+    {
+      "id": "ciencia-politica-12",
+      "disciplineId": "ciencia-politica",
+      "parentId": null,
+      "label": "Formação do Estado brasileiro."
+    },
+    {
+      "id": "ciencia-politica-13",
+      "disciplineId": "ciencia-politica",
+      "parentId": null,
+      "label": "História do voto e dos partidos no Brasil."
+    }
+  ],
   "documents": [
     {
       "id": "camara-2026-edital-01-documento",
@@ -79,7 +1485,7 @@
       "kind": "notice",
       "title": "Edital nº 1 — Câmara dos Deputados — Analista Legislativo",
       "issuer": "Câmara dos Deputados",
-      "status": "received",
+      "status": "reviewed_copy",
       "officialUrl": null,
       "file": "sources/notices/camara-2026-edital-01.pdf",
       "sha256": "065cb0eb179e91107dd2edb1d92f0d0a86c0feb359fedd6e0b44329fc4b096e3",
@@ -92,7 +1498,7 @@
       "kind": "notice",
       "title": "Edital nº 5 — Câmara dos Deputados — Analista Legislativo",
       "issuer": "Câmara dos Deputados",
-      "status": "received",
+      "status": "reviewed_copy",
       "officialUrl": null,
       "file": "sources/notices/camara-2026-edital-05.pdf",
       "sha256": "1685ed892c8ae00c57cfca14b6c91cd5227b801df7f2a574f0f1d7286c810c87",
@@ -105,19 +1511,3239 @@
       "kind": "notice",
       "title": "Edital nº 6 — Câmara dos Deputados — Analista Legislativo",
       "issuer": "Câmara dos Deputados",
-      "status": "received",
+      "status": "reviewed_copy",
       "officialUrl": null,
       "file": "sources/notices/camara-2026-edital-06.pdf",
       "sha256": "0bdab0b074444077a3b3c38a9f492f119537e7437bf4d28f10b5e042a1764122",
       "publicationDate": "2026-10-21",
       "paperId": null
+    },
+    {
+      "id": "source-232funprespexe-cb1-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "FUNPRESP-EXE — Conhecimentos básicos — cargos 1 a 6 e 8 — caderno",
+      "issuer": "Cebraspe",
+      "status": "received",
+      "officialUrl": null,
+      "file": "sources/papers/232FUNPRESPEXE_CB1_01.pdf",
+      "sha256": "c8604cb8ff215b848e10327140e60a72fbe8adadac66c23ce35c242d3761d73f",
+      "publicationDate": null,
+      "paperId": "source-232funprespexe-cb1-01"
+    },
+    {
+      "id": "source-232funprespexe-cb1-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "FUNPRESP-EXE — Conhecimentos básicos — cargos 1 a 6 e 8 — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "received",
+      "officialUrl": null,
+      "file": "sources/answer-keys/Gab_Definitivo_232FUNPRESPEXE_CB1_01.pdf",
+      "sha256": "33448aec7403003f8f7bbc6390facffd245a2142eef416ace35087280b1fbfe4",
+      "publicationDate": null,
+      "paperId": "source-232funprespexe-cb1-01"
+    },
+    {
+      "id": "source-232funprespexe-002-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "FUNPRESP-EXE — Cargo 2 — Analista — Comunicação — caderno",
+      "issuer": "Cebraspe",
+      "status": "received",
+      "officialUrl": null,
+      "file": "sources/papers/232FUNPRESPEXE_002_01.pdf",
+      "sha256": "55488e51fdd824a03f06083527a94fbfbe296378f21866d69ae0cb389184a96e",
+      "publicationDate": null,
+      "paperId": "source-232funprespexe-002-01"
+    },
+    {
+      "id": "source-232funprespexe-002-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "FUNPRESP-EXE — Cargo 2 — Analista — Comunicação — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "received",
+      "officialUrl": null,
+      "file": "sources/answer-keys/Gab_Definitivo_232FUNPRESPEXE_002_01.pdf",
+      "sha256": "6bd16422a18dde8bb80a188ca0ac8704dd3d23a1635a6081a17bdafacf59ba5d",
+      "publicationDate": null,
+      "paperId": "source-232funprespexe-002-01"
+    },
+    {
+      "id": "source-038-anm-010-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "ANM — Cargo 10 — Analista Administrativo — Publicidade e Propaganda, Design Gráfico ou Desenho Industrial — caderno",
+      "issuer": "Cebraspe",
+      "status": "received",
+      "officialUrl": null,
+      "file": "sources/papers/038_ANM_010_01.pdf",
+      "sha256": "ea76f07905a3e89245b9e23c97330141329f244e9d4cbb312076eb46fb580335",
+      "publicationDate": null,
+      "paperId": "source-038-anm-010-01"
+    },
+    {
+      "id": "source-038-anm-010-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "ANM — Cargo 10 — Analista Administrativo — Publicidade e Propaganda, Design Gráfico ou Desenho Industrial — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "received",
+      "officialUrl": null,
+      "file": "sources/answer-keys/Gab_Definitivo_038_ANM_010_01.pdf",
+      "sha256": "ece3cbfce39de2418fdb1f021dc029cfd85af399efa061db27a816b2a3159a16",
+      "publicationDate": null,
+      "paperId": "source-038-anm-010-01"
+    },
+    {
+      "id": "source-042-embrapa-analista-072-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "EMBRAPA — Opção 40000648 — Analista — Transferência de Tecnologia e Comunicação — Comunicação — caderno",
+      "issuer": "Cebraspe",
+      "status": "received",
+      "officialUrl": null,
+      "file": "sources/papers/042_EMBRAPA_ANALISTA_072_01.pdf",
+      "sha256": "9a0441eae514cebcba3a4178e46fca032b5a235e4e6da7fa57e99c12344416ca",
+      "publicationDate": null,
+      "paperId": "source-042-embrapa-analista-072-01"
+    },
+    {
+      "id": "source-042-embrapa-analista-072-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "EMBRAPA — Opção 40000648 — Analista — Transferência de Tecnologia e Comunicação — Comunicação — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "received",
+      "officialUrl": null,
+      "file": "sources/answer-keys/Gab_Definitivo_042_EMBRAPA_ANALISTA_072_01.pdf",
+      "sha256": "a56cb02e99af451a60333509246deaf7a4193be203d4508760a055b3f57bedb1",
+      "publicationDate": null,
+      "paperId": "source-042-embrapa-analista-072-01"
+    },
+    {
+      "id": "source-539-alce-016-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Assembleia Legislativa do Estado do Ceará — Cargo 16 — Analista Legislativo — Publicidade e Propaganda — caderno",
+      "issuer": "Cebraspe",
+      "status": "received",
+      "officialUrl": null,
+      "file": "sources/papers/539_ALCE_016_01.pdf",
+      "sha256": "190db36dd81e6346d9869f4afc227b0a14df99a966631aa4fa0c2f5c41edfc66",
+      "publicationDate": null,
+      "paperId": "source-539-alce-016-01"
+    },
+    {
+      "id": "source-539-alce-016-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Assembleia Legislativa do Estado do Ceará — Cargo 16 — Analista Legislativo — Publicidade e Propaganda — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "received",
+      "officialUrl": null,
+      "file": "sources/answer-keys/GAB_DEFINITIVO_539_ALCE_016_01.pdf",
+      "sha256": "8586fcd84266fb7c3ed401f8449684509ae7fe35536a26c0424447cdd939ef9e",
+      "publicationDate": null,
+      "paperId": "source-539-alce-016-01"
+    },
+    {
+      "id": "source-989-codevasf-010-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "CODEVASF — Analista em Desenvolvimento Regional — Publicidade e Propaganda — caderno",
+      "issuer": "Cebraspe",
+      "status": "received",
+      "officialUrl": null,
+      "file": "sources/papers/989_CODEVASF_010_01.pdf",
+      "sha256": "27361c116b0b9cfec8d31b094b1f9e1160858920928eaf7c8d65af27a3ba55f0",
+      "publicationDate": null,
+      "paperId": "source-989-codevasf-010-01"
+    },
+    {
+      "id": "source-989-codevasf-010-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "CODEVASF — Analista em Desenvolvimento Regional — Publicidade e Propaganda — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "received",
+      "officialUrl": null,
+      "file": "sources/answer-keys/GAB_DEFINITIVO_989_CODEVASF_010_01.pdf",
+      "sha256": "d252d71d15186ee356ea2d564433d8acb82e9440a929c95ba50059e0b1cd13c7",
+      "publicationDate": null,
+      "paperId": "source-989-codevasf-010-01"
     }
   ],
-  "papers": [],
+  "papers": [
+    {
+      "id": "source-232funprespexe-cb1-01",
+      "bankId": "concursos",
+      "title": "FUNPRESP-EXE — Conhecimentos básicos — cargos 1 a 6 e 8",
+      "provider": "Cebraspe",
+      "institution": "FUNPRESP-EXE",
+      "role": "Conhecimentos básicos — cargos 1 a 6 e 8",
+      "year": 2016,
+      "booklet": "232FUNPRESPEXE_CB1_01",
+      "documentId": "source-232funprespexe-cb1-01-paper",
+      "status": "received",
+      "inventory": {
+        "applicationDate": "2016-02-28",
+        "block": "basic",
+        "firstItem": 1,
+        "lastItem": 50,
+        "itemCount": 50,
+        "questionType": "true_false",
+        "annulledItems": [
+          34,
+          38
+        ],
+        "answerKeyDocumentId": "source-232funprespexe-cb1-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": false
+      }
+    },
+    {
+      "id": "source-232funprespexe-002-01",
+      "bankId": "concursos",
+      "title": "FUNPRESP-EXE — Cargo 2 — Analista — Comunicação",
+      "provider": "Cebraspe",
+      "institution": "FUNPRESP-EXE",
+      "role": "Cargo 2 — Analista — Comunicação",
+      "year": 2016,
+      "booklet": "232FUNPRESPEXE_002_01",
+      "documentId": "source-232funprespexe-002-01-paper",
+      "status": "received",
+      "inventory": {
+        "applicationDate": "2016-02-28",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "questionType": "true_false",
+        "annulledItems": [
+          69,
+          86
+        ],
+        "answerKeyDocumentId": "source-232funprespexe-002-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": false
+      }
+    },
+    {
+      "id": "source-038-anm-010-01",
+      "bankId": "concursos",
+      "title": "ANM — Cargo 10 — Analista Administrativo — Publicidade e Propaganda, Design Gráfico ou Desenho Industrial",
+      "provider": "Cebraspe",
+      "institution": "ANM",
+      "role": "Cargo 10 — Analista Administrativo — Publicidade e Propaganda, Design Gráfico ou Desenho Industrial",
+      "year": 2025,
+      "booklet": "038_ANM_010_01",
+      "documentId": "source-038-anm-010-01-paper",
+      "status": "received",
+      "inventory": {
+        "applicationDate": "2025-02-16",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "questionType": "true_false",
+        "annulledItems": [
+          52,
+          99,
+          111,
+          115
+        ],
+        "answerKeyDocumentId": "source-038-anm-010-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": false
+      }
+    },
+    {
+      "id": "source-042-embrapa-analista-072-01",
+      "bankId": "concursos",
+      "title": "EMBRAPA — Opção 40000648 — Analista — Transferência de Tecnologia e Comunicação — Comunicação",
+      "provider": "Cebraspe",
+      "institution": "EMBRAPA",
+      "role": "Opção 40000648 — Analista — Transferência de Tecnologia e Comunicação — Comunicação",
+      "year": 2025,
+      "booklet": "042_EMBRAPA_ANALISTA_072_01",
+      "documentId": "source-042-embrapa-analista-072-01-paper",
+      "status": "received",
+      "inventory": {
+        "applicationDate": "2025-03-23",
+        "block": "specific",
+        "firstItem": 71,
+        "lastItem": 100,
+        "itemCount": 30,
+        "questionType": "true_false",
+        "annulledItems": [],
+        "answerKeyDocumentId": "source-042-embrapa-analista-072-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": false
+      }
+    },
+    {
+      "id": "source-539-alce-016-01",
+      "bankId": "concursos",
+      "title": "Assembleia Legislativa do Estado do Ceará — Cargo 16 — Analista Legislativo — Publicidade e Propaganda",
+      "provider": "Cebraspe",
+      "institution": "Assembleia Legislativa do Estado do Ceará",
+      "role": "Cargo 16 — Analista Legislativo — Publicidade e Propaganda",
+      "year": 2021,
+      "booklet": "539_ALCE_016_01",
+      "documentId": "source-539-alce-016-01-paper",
+      "status": "received",
+      "inventory": {
+        "applicationDate": "2021-12-19",
+        "block": "specific",
+        "firstItem": 21,
+        "lastItem": 70,
+        "itemCount": 50,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          57
+        ],
+        "answerKeyDocumentId": "source-539-alce-016-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": false
+      }
+    },
+    {
+      "id": "source-989-codevasf-010-01",
+      "bankId": "concursos",
+      "title": "CODEVASF — Analista em Desenvolvimento Regional — Publicidade e Propaganda",
+      "provider": "Cebraspe",
+      "institution": "CODEVASF",
+      "role": "Analista em Desenvolvimento Regional — Publicidade e Propaganda",
+      "year": 2024,
+      "booklet": "989_CODEVASF_010_01",
+      "documentId": "source-989-codevasf-010-01-paper",
+      "status": "received",
+      "inventory": {
+        "applicationDate": "2024-10-20",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "questionType": "true_false",
+        "annulledItems": [
+          73,
+          84,
+          108
+        ],
+        "answerKeyDocumentId": "source-989-codevasf-010-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": false
+      }
+    }
+  ],
   "questions": [],
   "answerKeys": [],
   "explanations": [],
-  "syllabusItems": [],
+  "syllabusItems": [
+    {
+      "id": "camara-2026-lingua-portuguesa-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 1; PDF p. 50.",
+      "status": "documented",
+      "number": "1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 50,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 2; PDF p. 50.",
+      "status": "documented",
+      "number": "2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 50,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 3; PDF p. 50.",
+      "status": "documented",
+      "number": "3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 50,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-4",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 4; PDF p. 50.",
+      "status": "documented",
+      "number": "4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 50,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-4-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-4-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 4.1; PDF p. 50.",
+      "status": "documented",
+      "number": "4.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 50,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-4-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-4-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 4.2; PDF p. 50.",
+      "status": "documented",
+      "number": "4.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 50,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-5",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 5; PDF p. 50.",
+      "status": "documented",
+      "number": "5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 50,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-5-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 5.1; PDF p. 51.",
+      "status": "documented",
+      "number": "5.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-5-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 5.2; PDF p. 51.",
+      "status": "documented",
+      "number": "5.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-5-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 5.3; PDF p. 51.",
+      "status": "documented",
+      "number": "5.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-5-4",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 5.4; PDF p. 51.",
+      "status": "documented",
+      "number": "5.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-5-5",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 5.5; PDF p. 51.",
+      "status": "documented",
+      "number": "5.5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-5-6",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 5.6; PDF p. 51.",
+      "status": "documented",
+      "number": "5.6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5-7",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-5-7",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 5.7; PDF p. 51.",
+      "status": "documented",
+      "number": "5.7",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5-8",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-5-8",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 5.8; PDF p. 51.",
+      "status": "documented",
+      "number": "5.8",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-6",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 6; PDF p. 51.",
+      "status": "documented",
+      "number": "6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-6-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-6-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 6.1; PDF p. 51.",
+      "status": "documented",
+      "number": "6.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-6-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-6-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 6.2; PDF p. 51.",
+      "status": "documented",
+      "number": "6.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-6-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-6-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 6.3; PDF p. 51.",
+      "status": "documented",
+      "number": "6.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-6-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-portuguesa-6-4",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Portuguesa, item 6.4; PDF p. 51.",
+      "status": "documented",
+      "number": "6.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-inglesa-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-inglesa-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Inglesa, item 1; PDF p. 51.",
+      "status": "documented",
+      "number": "1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-inglesa-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-inglesa-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Inglesa, item 2; PDF p. 51.",
+      "status": "documented",
+      "number": "2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-lingua-inglesa-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "lingua-inglesa-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Língua Inglesa, item 3; PDF p. 51.",
+      "status": "documented",
+      "number": "3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 1; PDF p. 51.",
+      "status": "documented",
+      "number": "1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-1-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-1-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 1.1; PDF p. 51.",
+      "status": "documented",
+      "number": "1.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-1-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-1-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 1.2; PDF p. 51.",
+      "status": "documented",
+      "number": "1.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 2; PDF p. 51.",
+      "status": "documented",
+      "number": "2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-2-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-2-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 2.1; PDF p. 51.",
+      "status": "documented",
+      "number": "2.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-2-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-2-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 2.2; PDF p. 51.",
+      "status": "documented",
+      "number": "2.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 3; PDF p. 51.",
+      "status": "documented",
+      "number": "3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-3-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-3-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 3.1; PDF p. 51.",
+      "status": "documented",
+      "number": "3.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-3-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-3-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 3.2; PDF p. 51.",
+      "status": "documented",
+      "number": "3.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-3-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-3-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 3.3; PDF p. 51.",
+      "status": "documented",
+      "number": "3.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-3-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-3-4",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 3.4; PDF p. 51.",
+      "status": "documented",
+      "number": "3.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-4",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 4; PDF p. 51.",
+      "status": "documented",
+      "number": "4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-4-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-4-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 4.1; PDF p. 51.",
+      "status": "documented",
+      "number": "4.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-4-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-4-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 4.2; PDF p. 51.",
+      "status": "documented",
+      "number": "4.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-4-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-4-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 4.3; PDF p. 51.",
+      "status": "documented",
+      "number": "4.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-4-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-4-4",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 4.4; PDF p. 51.",
+      "status": "documented",
+      "number": "4.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-5",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 5; PDF p. 51.",
+      "status": "documented",
+      "number": "5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-5-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-5-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 5.1; PDF p. 51.",
+      "status": "documented",
+      "number": "5.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-5-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-5-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 5.2; PDF p. 51.",
+      "status": "documented",
+      "number": "5.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-6",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 6; PDF p. 51.",
+      "status": "documented",
+      "number": "6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-6-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-6-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 6.1; PDF p. 51.",
+      "status": "documented",
+      "number": "6.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-6-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-6-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 6.2; PDF p. 51.",
+      "status": "documented",
+      "number": "6.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-6-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-6-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 6.3; PDF p. 51.",
+      "status": "documented",
+      "number": "6.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-6-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-6-4",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 6.4; PDF p. 51.",
+      "status": "documented",
+      "number": "6.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-6-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-6-5",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 6.5; PDF p. 51.",
+      "status": "documented",
+      "number": "6.5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-7",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-7",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 7; PDF p. 51.",
+      "status": "documented",
+      "number": "7",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-8",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-8",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 8; PDF p. 51.",
+      "status": "documented",
+      "number": "8",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-8-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-8-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 8.1; PDF p. 51.",
+      "status": "documented",
+      "number": "8.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-8-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-8-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 8.2; PDF p. 51.",
+      "status": "documented",
+      "number": "8.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-8-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-8-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 8.3; PDF p. 51.",
+      "status": "documented",
+      "number": "8.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-8-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-8-4",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 8.4; PDF p. 51.",
+      "status": "documented",
+      "number": "8.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-9",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-9",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 9; PDF p. 51.",
+      "status": "documented",
+      "number": "9",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-9-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-9-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 9.1; PDF p. 51.",
+      "status": "documented",
+      "number": "9.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-9-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-9-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 9.2; PDF p. 51.",
+      "status": "documented",
+      "number": "9.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-9-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-9-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 9.3; PDF p. 51.",
+      "status": "documented",
+      "number": "9.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-9-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-9-4",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 9.4; PDF p. 51.",
+      "status": "documented",
+      "number": "9.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-10",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-10",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 10; PDF p. 51.",
+      "status": "documented",
+      "number": "10",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-10-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-10-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 10.1; PDF p. 51.",
+      "status": "documented",
+      "number": "10.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-10-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-10-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 10.2; PDF p. 51.",
+      "status": "documented",
+      "number": "10.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-10-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-10-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 10.3; PDF p. 51.",
+      "status": "documented",
+      "number": "10.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-10-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-10-4",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 10.4; PDF p. 51.",
+      "status": "documented",
+      "number": "10.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-10-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-10-5",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 10.5; PDF p. 51.",
+      "status": "documented",
+      "number": "10.5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-10-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-10-6",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 10.6; PDF p. 51.",
+      "status": "documented",
+      "number": "10.6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-10-7",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-10-7",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 10.7; PDF p. 51.",
+      "status": "documented",
+      "number": "10.7",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-11",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-11",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 11; PDF p. 51.",
+      "status": "documented",
+      "number": "11",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-12",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-administrativo-administracao-publica-12",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Administrativo e Administração Pública, item 12; PDF p. 51.",
+      "status": "documented",
+      "number": "12",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-constitucional-regimento-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados, item 1; PDF p. 51.",
+      "status": "documented",
+      "number": "1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-constitucional-regimento-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados, item 2; PDF p. 51.",
+      "status": "documented",
+      "number": "2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 51,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-constitucional-regimento-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados, item 3; PDF p. 52.",
+      "status": "documented",
+      "number": "3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-constitucional-regimento-4",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados, item 4; PDF p. 52.",
+      "status": "documented",
+      "number": "4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-constitucional-regimento-5",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados, item 5; PDF p. 52.",
+      "status": "documented",
+      "number": "5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-constitucional-regimento-6",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados, item 6; PDF p. 52.",
+      "status": "documented",
+      "number": "6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-7",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-constitucional-regimento-7",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados, item 7; PDF p. 52.",
+      "status": "documented",
+      "number": "7",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-7-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-constitucional-regimento-7-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados, item 7.1; PDF p. 52.",
+      "status": "documented",
+      "number": "7.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-7-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-constitucional-regimento-7-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados, item 7.2; PDF p. 52.",
+      "status": "documented",
+      "number": "7.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-7-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-constitucional-regimento-7-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados, item 7.3; PDF p. 52.",
+      "status": "documented",
+      "number": "7.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-7-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-constitucional-regimento-7-4",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados, item 7.4; PDF p. 52.",
+      "status": "documented",
+      "number": "7.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-8",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-constitucional-regimento-8",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados, item 8; PDF p. 52.",
+      "status": "documented",
+      "number": "8",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-8-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-constitucional-regimento-8-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados, item 8.1; PDF p. 52.",
+      "status": "documented",
+      "number": "8.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-8-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "direito-constitucional-regimento-8-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados, item 8.2; PDF p. 52.",
+      "status": "documented",
+      "number": "8.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 1; PDF p. 52.",
+      "status": "documented",
+      "number": "1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 2; PDF p. 52.",
+      "status": "documented",
+      "number": "2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-2-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-2-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 2.1; PDF p. 52.",
+      "status": "documented",
+      "number": "2.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 3; PDF p. 52.",
+      "status": "documented",
+      "number": "3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-4",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 4; PDF p. 52.",
+      "status": "documented",
+      "number": "4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-4-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-4-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 4.1; PDF p. 52.",
+      "status": "documented",
+      "number": "4.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-4-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-4-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 4.2; PDF p. 52.",
+      "status": "documented",
+      "number": "4.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-4-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-4-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 4.3; PDF p. 52.",
+      "status": "documented",
+      "number": "4.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-5",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 5; PDF p. 52.",
+      "status": "documented",
+      "number": "5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-5-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-5-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 5.1; PDF p. 52.",
+      "status": "documented",
+      "number": "5.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-5-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-5-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 5.2; PDF p. 52.",
+      "status": "documented",
+      "number": "5.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-5-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-5-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 5.3; PDF p. 52.",
+      "status": "documented",
+      "number": "5.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-6",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 6; PDF p. 52.",
+      "status": "documented",
+      "number": "6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-7",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-7",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 7; PDF p. 52.",
+      "status": "documented",
+      "number": "7",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-7-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-7-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 7.1; PDF p. 52.",
+      "status": "documented",
+      "number": "7.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-8",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-8",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 8; PDF p. 52.",
+      "status": "documented",
+      "number": "8",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-8-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-8-1",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 8.1; PDF p. 52.",
+      "status": "documented",
+      "number": "8.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-8-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-8-2",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 8.2; PDF p. 52.",
+      "status": "documented",
+      "number": "8.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-8-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-8-3",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 8.3; PDF p. 52.",
+      "status": "documented",
+      "number": "8.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-8-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "tecnologia-informacao-dados-8-4",
+      "reference": "Edital nº 1, item 14.2.3, conhecimentos básicos, Tecnologia da Informação e Dados, item 8.4; PDF p. 52.",
+      "status": "documented",
+      "number": "8.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "basic"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 1; PDF p. 52.",
+      "status": "documented",
+      "number": "1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-1-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-1-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 1.1; PDF p. 52.",
+      "status": "documented",
+      "number": "1.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-1-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-1-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 1.2; PDF p. 52.",
+      "status": "documented",
+      "number": "1.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-1-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-1-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 1.3; PDF p. 52.",
+      "status": "documented",
+      "number": "1.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-1-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-1-4",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 1.4; PDF p. 52.",
+      "status": "documented",
+      "number": "1.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 2; PDF p. 52.",
+      "status": "documented",
+      "number": "2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-2-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-2-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 2.1; PDF p. 52.",
+      "status": "documented",
+      "number": "2.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-2-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-2-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 2.2; PDF p. 52.",
+      "status": "documented",
+      "number": "2.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-2-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-2-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 2.3; PDF p. 52.",
+      "status": "documented",
+      "number": "2.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-2-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-2-4",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 2.4; PDF p. 52.",
+      "status": "documented",
+      "number": "2.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-2-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-2-5",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 2.5; PDF p. 52.",
+      "status": "documented",
+      "number": "2.5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 3; PDF p. 52.",
+      "status": "documented",
+      "number": "3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-3-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-3-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 3.1; PDF p. 52.",
+      "status": "documented",
+      "number": "3.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-3-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-3-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 3.2; PDF p. 52.",
+      "status": "documented",
+      "number": "3.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-3-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-3-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 3.3; PDF p. 52.",
+      "status": "documented",
+      "number": "3.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-3-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-3-4",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 3.4; PDF p. 52.",
+      "status": "documented",
+      "number": "3.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-4",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 4; PDF p. 52.",
+      "status": "documented",
+      "number": "4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-4-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 4.1; PDF p. 52.",
+      "status": "documented",
+      "number": "4.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-4-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 4.2; PDF p. 52.",
+      "status": "documented",
+      "number": "4.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-4-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 4.3; PDF p. 52.",
+      "status": "documented",
+      "number": "4.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-4-4",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 4.4; PDF p. 52.",
+      "status": "documented",
+      "number": "4.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-4-5",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 4.5; PDF p. 52.",
+      "status": "documented",
+      "number": "4.5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-4-6",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 4.6; PDF p. 52.",
+      "status": "documented",
+      "number": "4.6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-7",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-4-7",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 4.7; PDF p. 52.",
+      "status": "documented",
+      "number": "4.7",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-8",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-4-8",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 4.8; PDF p. 52.",
+      "status": "documented",
+      "number": "4.8",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-9",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-4-9",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 4.9; PDF p. 52.",
+      "status": "documented",
+      "number": "4.9",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-5",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 5; PDF p. 52.",
+      "status": "documented",
+      "number": "5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-5-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-5-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 5.1; PDF p. 52.",
+      "status": "documented",
+      "number": "5.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-5-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-5-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 5.2; PDF p. 52.",
+      "status": "documented",
+      "number": "5.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-5-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-5-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 5.3; PDF p. 52.",
+      "status": "documented",
+      "number": "5.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-5-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-5-4",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 5.4; PDF p. 52.",
+      "status": "documented",
+      "number": "5.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-6",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 6; PDF p. 52.",
+      "status": "documented",
+      "number": "6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 52,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-7",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-7",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 7; PDF p. 53.",
+      "status": "documented",
+      "number": "7",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-7-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-7-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 7.1; PDF p. 53.",
+      "status": "documented",
+      "number": "7.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-7-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-7-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 7.2; PDF p. 53.",
+      "status": "documented",
+      "number": "7.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-8",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-8",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 8; PDF p. 53.",
+      "status": "documented",
+      "number": "8",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-8-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-8-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 8.1; PDF p. 53.",
+      "status": "documented",
+      "number": "8.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-8-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-8-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 8.2; PDF p. 53.",
+      "status": "documented",
+      "number": "8.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-9",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-9",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 9; PDF p. 53.",
+      "status": "documented",
+      "number": "9",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-9-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-9-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 9.1; PDF p. 53.",
+      "status": "documented",
+      "number": "9.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-9-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-9-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 9.2; PDF p. 53.",
+      "status": "documented",
+      "number": "9.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-10",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-10",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 10; PDF p. 53.",
+      "status": "documented",
+      "number": "10",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-10-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-10-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 10.1; PDF p. 53.",
+      "status": "documented",
+      "number": "10.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-10-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-10-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 10.2; PDF p. 53.",
+      "status": "documented",
+      "number": "10.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-comunicacao-social-11",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "comunicacao-social-11",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Comunicação Social, item 11; PDF p. 53.",
+      "status": "documented",
+      "number": "11",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 1; PDF p. 53.",
+      "status": "documented",
+      "number": "1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-1-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-1-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 1.1; PDF p. 53.",
+      "status": "documented",
+      "number": "1.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-1-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-1-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 1.2; PDF p. 53.",
+      "status": "documented",
+      "number": "1.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-1-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-1-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 1.3; PDF p. 53.",
+      "status": "documented",
+      "number": "1.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-1-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-1-4",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 1.4; PDF p. 53.",
+      "status": "documented",
+      "number": "1.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-1-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-1-5",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 1.5; PDF p. 53.",
+      "status": "documented",
+      "number": "1.5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-1-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-1-6",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 1.6; PDF p. 53.",
+      "status": "documented",
+      "number": "1.6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-1-7",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-1-7",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 1.7; PDF p. 53.",
+      "status": "documented",
+      "number": "1.7",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 2; PDF p. 53.",
+      "status": "documented",
+      "number": "2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-2-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 2.1; PDF p. 53.",
+      "status": "documented",
+      "number": "2.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-2-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 2.2; PDF p. 53.",
+      "status": "documented",
+      "number": "2.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-2-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 2.3; PDF p. 53.",
+      "status": "documented",
+      "number": "2.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-2-4",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 2.4; PDF p. 53.",
+      "status": "documented",
+      "number": "2.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-2-5",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 2.5; PDF p. 53.",
+      "status": "documented",
+      "number": "2.5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-2-6",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 2.6; PDF p. 53.",
+      "status": "documented",
+      "number": "2.6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-7",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-2-7",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 2.7; PDF p. 53.",
+      "status": "documented",
+      "number": "2.7",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 3; PDF p. 53.",
+      "status": "documented",
+      "number": "3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-3-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 3.1; PDF p. 53.",
+      "status": "documented",
+      "number": "3.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-3-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 3.2; PDF p. 53.",
+      "status": "documented",
+      "number": "3.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-3-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 3.3; PDF p. 53.",
+      "status": "documented",
+      "number": "3.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-3-4",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 3.4; PDF p. 53.",
+      "status": "documented",
+      "number": "3.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-3-5",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 3.5; PDF p. 53.",
+      "status": "documented",
+      "number": "3.5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-3-6",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 3.6; PDF p. 53.",
+      "status": "documented",
+      "number": "3.6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-4",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 4; PDF p. 53.",
+      "status": "documented",
+      "number": "4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-4-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-4-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 4.1; PDF p. 53.",
+      "status": "documented",
+      "number": "4.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-4-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-4-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 4.2; PDF p. 53.",
+      "status": "documented",
+      "number": "4.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-4-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-4-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 4.3; PDF p. 53.",
+      "status": "documented",
+      "number": "4.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-5",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 5; PDF p. 53.",
+      "status": "documented",
+      "number": "5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-5-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 5.1; PDF p. 53.",
+      "status": "documented",
+      "number": "5.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-5-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 5.2; PDF p. 53.",
+      "status": "documented",
+      "number": "5.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-5-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 5.3; PDF p. 53.",
+      "status": "documented",
+      "number": "5.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-5-4",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 5.4; PDF p. 53.",
+      "status": "documented",
+      "number": "5.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-5-5",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 5.5; PDF p. 53.",
+      "status": "documented",
+      "number": "5.5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-5-6",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 5.6; PDF p. 53.",
+      "status": "documented",
+      "number": "5.6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5-7",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-5-7",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 5.7; PDF p. 53.",
+      "status": "documented",
+      "number": "5.7",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-6",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 6; PDF p. 53.",
+      "status": "documented",
+      "number": "6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-7",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-7",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 7; PDF p. 53.",
+      "status": "documented",
+      "number": "7",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-8",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-8",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 8; PDF p. 53.",
+      "status": "documented",
+      "number": "8",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-8-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-8-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 8.1; PDF p. 53.",
+      "status": "documented",
+      "number": "8.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-8-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "divulgacao-institucional-8-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Divulgação Institucional, item 8.2; PDF p. 53.",
+      "status": "documented",
+      "number": "8.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 1; PDF p. 53.",
+      "status": "documented",
+      "number": "1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-1-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-1-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 1.1; PDF p. 53.",
+      "status": "documented",
+      "number": "1.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-1-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-1-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 1.2; PDF p. 53.",
+      "status": "documented",
+      "number": "1.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-1-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-1-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 1.3; PDF p. 53.",
+      "status": "documented",
+      "number": "1.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 2; PDF p. 53.",
+      "status": "documented",
+      "number": "2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-2-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-2-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 2.1; PDF p. 53.",
+      "status": "documented",
+      "number": "2.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-2-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-2-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 2.2; PDF p. 53.",
+      "status": "documented",
+      "number": "2.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-2-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-2-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 2.3; PDF p. 53.",
+      "status": "documented",
+      "number": "2.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-2-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-2-4",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 2.4; PDF p. 53.",
+      "status": "documented",
+      "number": "2.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-2-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-2-5",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 2.5; PDF p. 53.",
+      "status": "documented",
+      "number": "2.5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-2-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-2-6",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 2.6; PDF p. 53.",
+      "status": "documented",
+      "number": "2.6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 3; PDF p. 53.",
+      "status": "documented",
+      "number": "3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-4",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 4; PDF p. 53.",
+      "status": "documented",
+      "number": "4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-4-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-4-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 4.1; PDF p. 53.",
+      "status": "documented",
+      "number": "4.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-4-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-4-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 4.2; PDF p. 53.",
+      "status": "documented",
+      "number": "4.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-4-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-4-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 4.3; PDF p. 53.",
+      "status": "documented",
+      "number": "4.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-4-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-4-4",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 4.4; PDF p. 53.",
+      "status": "documented",
+      "number": "4.4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-4-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-4-5",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 4.5; PDF p. 53.",
+      "status": "documented",
+      "number": "4.5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-4-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-4-6",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 4.6; PDF p. 53.",
+      "status": "documented",
+      "number": "4.6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-4-7",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-4-7",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 4.7; PDF p. 53.",
+      "status": "documented",
+      "number": "4.7",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-5",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 5; PDF p. 53.",
+      "status": "documented",
+      "number": "5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-5-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-5-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 5.1; PDF p. 53.",
+      "status": "documented",
+      "number": "5.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-6",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 6; PDF p. 53.",
+      "status": "documented",
+      "number": "6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-6-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-6-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 6.1; PDF p. 53.",
+      "status": "documented",
+      "number": "6.1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-6-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-6-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 6.2; PDF p. 53.",
+      "status": "documented",
+      "number": "6.2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-6-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-6-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 6.3; PDF p. 53.",
+      "status": "documented",
+      "number": "6.3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-7",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "processo-legislativo-regimento-7",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Processo Legislativo e Regimento Interno, item 7; PDF p. 53.",
+      "status": "documented",
+      "number": "7",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-ciencia-politica-1",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "ciencia-politica-1",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Ciência Política, item 1; PDF p. 53.",
+      "status": "documented",
+      "number": "1",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-ciencia-politica-2",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "ciencia-politica-2",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Ciência Política, item 2; PDF p. 53.",
+      "status": "documented",
+      "number": "2",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-ciencia-politica-3",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "ciencia-politica-3",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Ciência Política, item 3; PDF p. 53.",
+      "status": "documented",
+      "number": "3",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-ciencia-politica-4",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "ciencia-politica-4",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Ciência Política, item 4; PDF p. 53.",
+      "status": "documented",
+      "number": "4",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-ciencia-politica-5",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "ciencia-politica-5",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Ciência Política, item 5; PDF p. 53.",
+      "status": "documented",
+      "number": "5",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-ciencia-politica-6",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "ciencia-politica-6",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Ciência Política, item 6; PDF p. 53.",
+      "status": "documented",
+      "number": "6",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-ciencia-politica-7",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "ciencia-politica-7",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Ciência Política, item 7; PDF p. 53.",
+      "status": "documented",
+      "number": "7",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-ciencia-politica-8",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "ciencia-politica-8",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Ciência Política, item 8; PDF p. 53.",
+      "status": "documented",
+      "number": "8",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-ciencia-politica-9",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "ciencia-politica-9",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Ciência Política, item 9; PDF p. 53.",
+      "status": "documented",
+      "number": "9",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-ciencia-politica-10",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "ciencia-politica-10",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Ciência Política, item 10; PDF p. 53.",
+      "status": "documented",
+      "number": "10",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 53,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-ciencia-politica-11",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "ciencia-politica-11",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Ciência Política, item 11; PDF p. 54.",
+      "status": "documented",
+      "number": "11",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 54,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-ciencia-politica-12",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "ciencia-politica-12",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Ciência Política, item 12; PDF p. 54.",
+      "status": "documented",
+      "number": "12",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 54,
+      "block": "specific"
+    },
+    {
+      "id": "camara-2026-ciencia-politica-13",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "topicId": "ciencia-politica-13",
+      "reference": "Edital nº 1, item 14.2.4, Cargo 1, Ciência Política, item 13; PDF p. 54.",
+      "status": "documented",
+      "number": "13",
+      "documentId": "camara-2026-edital-01-documento",
+      "sourcePage": 54,
+      "block": "specific"
+    }
+  ],
   "mappings": [],
-  "scoringRules": []
+  "scoringRules": [
+    {
+      "id": "camara-2026-cargo-1-objetivas",
+      "noticeId": "camara-2026-edital-01",
+      "roleId": "camara-comunicacao-divulgacao",
+      "status": "documented",
+      "documentId": "camara-2026-edital-01-documento",
+      "reference": "Edital nº 1: itens 7.1 e 7.2; 8.1–8.3; 8.11.2–8.11.6; 8.12.6.1. Regras transcritas das cópias fornecidas; verificação oficial externa pendente.",
+      "durationMinutes": 300,
+      "minimumTotalScore": 54,
+      "blocks": [
+        {
+          "id": "p1",
+          "label": "P1 — Conhecimentos básicos",
+          "questionType": "true_false",
+          "questionCount": 90,
+          "correct": 1,
+          "incorrect": -1,
+          "blank": 0,
+          "doubleMarked": 0,
+          "annulledPolicy": "credit",
+          "annulledPoints": null,
+          "minimumScore": 18
+        },
+        {
+          "id": "p2",
+          "label": "P2 — Conhecimentos específicos",
+          "questionType": "true_false",
+          "questionCount": 90,
+          "correct": 1,
+          "incorrect": -1,
+          "blank": 0,
+          "doubleMarked": 0,
+          "annulledPolicy": "credit",
+          "annulledPoints": null,
+          "minimumScore": 27
+        }
+      ]
+    }
+  ],
+  "consolidations": [
+    {
+      "id": "camara-2026-cargo-1-consolidacao",
+      "contestId": "camara-2026",
+      "roleId": "camara-comunicacao-divulgacao",
+      "baseNoticeId": "camara-2026-edital-01",
+      "reviewedNoticeIds": [
+        "camara-2026-edital-01",
+        "camara-2026-edital-05",
+        "camara-2026-edital-06"
+      ],
+      "status": "documented",
+      "scopeNote": "Consolidação de estudo limitada aos PDFs dos editais nº 1, 5 e 6 fornecidos pelo usuário. Fonte oficial externa ainda não conferida; outros atos não foram pesquisados. Não substitui a leitura dos editais. Os editais 5 e 6 fornecidos não alteram o programa do Cargo 1 nem as regras das provas objetivas.",
+      "externalVerification": false,
+      "entries": [
+        {
+          "id": "requisitos-cargo-1",
+          "section": "2.1",
+          "title": "Requisitos do Cargo 1 retificados pelo Edital nº 5",
+          "text": "2.1 CARGO 1: ANALISTA LEGISLATIVO – ESPECIALIDADE: COMUNICAÇÃO SOCIAL – ÁREA: DIVULGAÇÃO INSTITUCIONAL REQUISITOS: diploma, devidamente registrado, de conclusão de curso de graduação de nível superior em Comunicação Social, com habilitação em Publicidade e Propaganda ou Propaganda e Marketing, fornecido por instituição de ensino superior reconhecida pelo Ministério da Educação (MEC), e registro profissional no Ministério do Trabalho e Emprego (MTE).",
+          "documentId": "camara-2026-edital-05-documento",
+          "sourcePage": 1,
+          "supersedesDocumentId": "camara-2026-edital-01-documento"
+        },
+        {
+          "id": "exame-diplomas",
+          "section": "2.8",
+          "title": "Análise dos diplomas na posse — inclusão pelo Edital nº 5",
+          "text": "2.8 O exame dos diplomas apresentados pelos candidatos, para fins de cumprimento dos requisitos de ingresso no cargo/especialidade/área, será realizado exclusivamente quando da análise dos documentos exigidos para a posse.",
+          "documentId": "camara-2026-edital-05-documento",
+          "sourcePage": 2,
+          "supersedesDocumentId": null
+        },
+        {
+          "id": "vagas-cargo-1",
+          "section": "4.1",
+          "title": "Vagas do Cargo 1 — redação do Edital nº 5",
+          "text": "4.1 As vagas estão originariamente distribuídas conforme o quadro a seguir: Vagas Imediatas Cadastro de reserva Cargo/Especialidade/Área AC PcD PP PI PQ Total AC PcD PP PI PQ Total Cargo 1: Analista Legislativo – Especialidade: Comunicação Social – Área: Divulgação 2 * 1 * 1 4 6 1 2 * * 9 Institucional",
+          "documentId": "camara-2026-edital-05-documento",
+          "sourcePage": 2,
+          "supersedesDocumentId": "camara-2026-edital-01-documento"
+        },
+        {
+          "id": "legenda-vagas",
+          "section": "Legendas:",
+          "title": "Legenda de vagas — retificação pelo Edital nº 6",
+          "text": "Legendas: [...] *Não há vagas. [...]",
+          "documentId": "camara-2026-edital-06-documento",
+          "sourcePage": 1,
+          "supersedesDocumentId": "camara-2026-edital-01-documento"
+        },
+        {
+          "id": "classificacao-final",
+          "section": "11.8",
+          "title": "Limite de classificação e cadastro de reserva — Edital nº 6",
+          "text": "11.8 Ao final do certame, os candidatos não classificados no número máximo de vagas de que trata o subitem 4.1 deste edital, incluindo-se o cadastro de reserva, ainda que tenham atingido as notas mínimas para a aprovação, estarão automaticamente eliminados no concurso público, observadas as regras de desempate na última classificação.",
+          "documentId": "camara-2026-edital-06-documento",
+          "sourcePage": 1,
+          "supersedesDocumentId": "camara-2026-edital-01-documento"
+        },
+        {
+          "id": "estrutura-objetivas",
+          "section": "7.1",
+          "title": "Estrutura e duração das provas",
+          "text": "7.1 O exame de habilidades e conhecimentos compreende a aplicação de provas objetivas e de prova discursiva, de caráter eliminatório e classificatório, conforme o quadro a seguir: PROVA/TIPO ÁREA DE CONHECIMENTO NÚMERO DE ITENS CARÁTER Prova objetiva (P1) Conhecimentos básicos 90 Eliminatório e Prova objetiva (P2) Conhecimentos específicos 90 classificatório Eliminatório e Prova discursiva (P3) – – classificatório 7.2 As provas objetivas terão a duração de 5 horas e serão aplicadas na data provável estabelecida no cronograma constante do Anexo I deste edital, no turno da manhã. 7.3 A prova discursiva terá a duração de 3 horas e será aplicada na data provável estabelecida no cronograma constante do Anexo I deste edital, no turno da tarde.",
+          "documentId": "camara-2026-edital-01-documento",
+          "sourcePage": 34,
+          "supersedesDocumentId": null
+        },
+        {
+          "id": "formato-objetivas",
+          "section": "8.1",
+          "title": "Formato e marcação das provas objetivas",
+          "text": "8.1 As provas objetivas, de caráter eliminatório e classificatório, valerão 180,00 pontos e abrangerão os objetos de avaliação constantes do item 14 deste edital. 8.2 Cada prova objetiva será constituída de itens para julgamento, agrupados por comandos que deverão ser respeitados. O julgamento de cada item será CERTO ou ERRADO, de acordo com o(s) comando(s) a que se refere o item. Haverá, na folha de respostas, para cada item, dois campos de marcação: o campo designado com o código C, que deverá ser preenchido pelo candidato caso julgue o item CERTO, e o campo designado com o código E, que deverá ser preenchido pelo candidato caso julgue o item ERRADO. 8.3 Para que possa obter pontuação no item, o candidato deverá marcar um, e somente um, dos dois campos da folha de respostas.",
+          "documentId": "camara-2026-edital-01-documento",
+          "sourcePage": 35,
+          "supersedesDocumentId": null
+        },
+        {
+          "id": "pontuacao-objetivas",
+          "section": "8.11.2",
+          "title": "Pontuação e mínimos das provas objetivas",
+          "text": "8.11.2 A nota em cada item das provas objetivas, feita com base nas marcações da folha de respostas, será igual a: 1,00 ponto, caso a resposta do candidato esteja em concordância com o gabarito oficial definitivo das provas; 1,00 ponto negativo, caso a resposta do candidato esteja em discordância com o gabarito oficial definitivo das provas; 0,00 ponto, caso não haja marcação ou haja marcação dupla (C e E). 8.11.3 A nota em cada prova objetiva será igual à soma das notas obtidas em todos os itens que a compõem. 8.11.4 A nota final nas provas objetivas (NFPO) será igual à soma das notas obtidas nas provas objetivas P1 e P 2. 8.11.5 Será reprovado nas provas objetivas e eliminado do concurso público o candidato que se enquadrar em pelo menos um dos itens a seguir: a) obtiver nota inferior a 18,00 pontos na prova objetiva de conhecimentos básicos P1; b) obtiver nota inferior a 27,00 pontos na prova objetiva de conhecimentos específicos P2; c) obtiver nota inferior a 54,00 pontos na nota final nas provas objetivas.",
+          "documentId": "camara-2026-edital-01-documento",
+          "sourcePage": 36,
+          "supersedesDocumentId": null
+        },
+        {
+          "id": "corte-classificatorio",
+          "section": "8.11.6",
+          "title": "Classificação por quantitativos — mínimos não bastam para aprovação",
+          "text": "8.11.6 Serão considerados aprovados nas provas objetivas os candidatos não eliminados na forma do subitem 8.11.5 deste edital e mais bem classificados, de acordo com as notas nas provas objetivas e conforme os seguintes quantitativos, respeitados os empates na última posição: Cargo/Especialidade/Área AC PcD PP PI PQ Cargo 1: Analista Legislativo – Comunicação Social 18 18 18 18 18 – Área: Divulgação Institucional Cargo 2: Analista Legislativo – Comunicação Social 44 44 44 44 44 – Área: Jornalismo Cargo 3: Analista Legislativo – Comunicação Social 22 22 22 22 22 – Área: Relações Públicas Cargo 4: Analista Legislativo – Documentação e 22 22 22 22 22 Informação Legislativa – Área: Arquivologia Cargo 5: Analista Legislativo – Documentação e 22 22 22 22 22 Informação Legislativa – Área: Biblioteconomia Cargo 6: Analista Legislativo – Engenheiro – Área: 14 14 14 14 14 Engenharia Civil Cargo 7: Analista Legislativo – Engenheiro – Área: 6 6 6 6 6 Engenharia Elétrica Cargo 8: Analista Legislativo – Engenheiro – Área: 14 14 14 14 14 Engenharia Eletrônica/Telecomunicações Cargo 9: Analista Legislativo – Engenheiro – Área: 6 6 6 6 6 Engenharia Mecânica Cargo 10: Analista Legislativo – Museólogo 8 8 8 8 8 Cargo 11: Analista Legislativo – Registro e Redação 62 62 62 62 62",
+          "documentId": "camara-2026-edital-01-documento",
+          "sourcePage": 37,
+          "supersedesDocumentId": null
+        },
+        {
+          "id": "anulacao-objetivas",
+          "section": "8.12.6.1",
+          "title": "Anulação e alteração de gabarito",
+          "text": "8.12.6.1 Se do exame de recursos resultar a anulação de item integrante de prova, a pontuação correspondente a esse item será atribuída a todos os candidatos, independentemente de terem recorrido. 8.12.6.2 Se houver alteração, por força de impugnações, de gabarito oficial de item integrante de prova, essa alteração valerá para todos os candidatos, independentemente de terem recorrido.",
+          "documentId": "camara-2026-edital-01-documento",
+          "sourcePage": 39,
+          "supersedesDocumentId": null
+        },
+        {
+          "id": "estrutura-discursiva",
+          "section": "9.1",
+          "title": "Prova discursiva do Cargo 1",
+          "text": "9.1 Para os cargos de Analista Legislativo – Especialidade: Comunicação Social (Cargos 1 a 3), Especialidade: Documentação e Informação Legislativa (Cargos 4 e 5), Especialidade: Museólogo (Cargo 10) e Especialidade: Registro e Redação (Cargo 11), a prova discursiva valerá um total de 60,00 pontos e consistirá de: a) duas questões discursivas, relacionadas aos conhecimentos específicos do cargo/especialidade/área, a serem respondidas em até 20 linhas cada, no valor de 15,00 pontos cada, totalizando 30,00 pontos; e b) redação de uma peça técnica, de até 50 linhas, no valor de 30,00 pontos, a respeito de temas relacionados aos conhecimentos específicos do cargo/especialidade/área.",
+          "documentId": "camara-2026-edital-01-documento",
+          "sourcePage": 39,
+          "supersedesDocumentId": null
+        },
+        {
+          "id": "minimo-discursiva",
+          "section": "9.8.5.4",
+          "title": "Mínimo na prova discursiva",
+          "text": "9.8.5.4 Será aprovado na prova discursiva o candidato que obtiver NFPD ≥ 30,00 pontos. 9.8.5.4.1 O candidato que não se enquadrar no subitem 9.8.5.4 deste edital será eliminado e não terá classificação alguma no concurso.",
+          "documentId": "camara-2026-edital-01-documento",
+          "sourcePage": 41,
+          "supersedesDocumentId": null
+        }
+      ]
+    }
+  ]
 }

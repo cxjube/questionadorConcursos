@@ -35,7 +35,26 @@
     },
     "status": {
       "enum": [
-        "confirmed"
+        "confirmed",
+        "documented"
+      ]
+    },
+    "number": {
+      "type": "string",
+      "pattern": "^\\d+(?:\\.\\d+)*$"
+    },
+    "documentId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "sourcePage": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "block": {
+      "enum": [
+        "basic",
+        "specific"
       ]
     }
   }

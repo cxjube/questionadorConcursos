@@ -50,11 +50,21 @@ test('the published catalog selects the confirmed target and keeps future roles 
 test('browser guard rejects old or incomplete catalogs', () => {
   const { Catalog, window } = context(storage());
   assert.throws(() => Catalog.parse({ ...window.CONCURSOS_CATALOG, bankId: 'profnit' }));
-  assert.throws(() => Catalog.parse({ ...window.CONCURSOS_CATALOG, schemaVersion: 2 }));
+  assert.throws(() => Catalog.parse({ ...window.CONCURSOS_CATALOG, schemaVersion: 3 }));
   assert.throws(() => Catalog.parse({ ...window.CONCURSOS_CATALOG, contests: null }));
   assert.throws(() => Catalog.parse({ ...window.CONCURSOS_CATALOG, revision: 'old' }));
 });
 test('pre-paint theme and storage module use the same key', () => {
   const { AppStorage } = context(storage());
   assert.ok(fs.readFileSync(path.join(root, 'docs/index.html'), 'utf8').includes(`'${AppStorage.KEYS.theme}'`));
+});
+
+test('syllabus and scoring selectors keep future contests empty', () => {
+  const { Catalog, window } = context(storage());
+  const data = Catalog.parse(window.CONCURSOS_CATALOG);
+  assert.equal(Catalog.syllabusFor(data, data.roles[0].id).length, 228);
+  assert.equal(Catalog.rulesFor(data, data.roles[0].id).length, 1);
+  assert.equal(Catalog.syllabusFor(data, 'abdi-futuro').length, 0);
+  assert.equal(data.questions.length, 0);
+  assert.equal(data.papers.length, 6);
 });

@@ -1,5 +1,5 @@
 // @ts-check
-/** Minimal foundation interface; no study sessions are enabled at this stage. */
+/** Read-only catalog, syllabus and source review; study sessions remain disabled. */
 (() => {
   'use strict';
   /** @param {string} id @returns {HTMLElement} */
@@ -47,7 +47,7 @@
       element('provider').textContent = contest.provider ? 'Banca: ' + contest.provider : 'Banca a confirmar.';
       element('contest-status').textContent = contest.status === 'planned'
         ? 'Concurso futuro. Cargo, edital e regras ainda não cadastrados.'
-        : 'Documentos recebidos. Conteúdo programático e regras aguardam revisão.';
+        : 'Programa e regras organizados conforme os PDFs fornecidos. Conferência externa da fonte oficial pendente.';
       const list = element('notices');
       list.replaceChildren();
       const notices = Catalog.noticesFor(data, contest.id, roleSelect.value);
@@ -58,7 +58,7 @@
         const detail = document.createElement('span');
         const source = data.documents.find(doc => doc.id === notice.documentId);
         detail.textContent = notice.date.split('-').reverse().join('/') + ' · ' +
-          (source?.status === 'received' ? 'Arquivo recebido; revisão pendente.' : 'Revisão documental pendente.');
+          (source?.status === 'reviewed_copy' ? 'Cópia revisada; fonte oficial externa pendente.' : source?.status === 'verified' ? 'Fonte oficial conferida.' : 'Arquivo recebido; revisão pendente.');
         item.append(title, detail);
         list.append(item);
       }
@@ -67,7 +67,92 @@
         item.textContent = 'Nenhum edital cadastrado para este cargo.';
         list.append(item);
       }
+      renderProgram(roleSelect.value);
+      renderRules(roleSelect.value);
+      renderConsolidation(contest.id, roleSelect.value);
       element('status').textContent = 'Seleção: ' + contest.title + '. ' + notices.length + ' editais cadastrados. Banco de questões ainda não publicado.';
+    }
+    /** @param {string} tag @param {string} text @returns {HTMLElement} */
+    function node(tag, text) {
+      const result = document.createElement(tag);
+      result.textContent = text;
+      return result;
+    }
+    /** @param {string} roleId @returns {void} */
+    function renderProgram(roleId) {
+      const items = Catalog.syllabusFor(data, roleId);
+      element('program-section').hidden = items.length === 0;
+      const target = element('program');
+      target.replaceChildren();
+      const topicIndex = new Map(data.topics.map(topic => [topic.id, topic]));
+      const groups = data.disciplines.filter(discipline => items.some(item => topicIndex.get(item.topicId)?.disciplineId === discipline.id));
+      element('program-summary').textContent = groups.length + ' disciplinas · ' + items.length + ' tópicos e subtópicos. Abra uma disciplina para consultar.';
+      for (const discipline of groups) {
+        const selected = items.filter(item => topicIndex.get(item.topicId)?.disciplineId === discipline.id);
+        const details = document.createElement('details');
+        details.className = 'syllabus-group';
+        details.append(node('summary', discipline.label + ' — ' + (selected[0]?.block === 'basic' ? 'Básicos' : 'Específicos')));
+        /** @param {string | null} parentId @returns {HTMLUListElement} */
+        function tree(parentId) {
+          const list = document.createElement('ul');
+          for (const item of selected.filter(row => topicIndex.get(row.topicId)?.parentId === parentId)) {
+            const topic = topicIndex.get(item.topicId);
+            if (!topic) continue;
+            const li = document.createElement('li');
+            li.append(node('p', item.number + ' ' + topic.label));
+            li.append(node('small', item.reference));
+            const children = tree(topic.id);
+            if (children.children.length) li.append(children);
+            list.append(li);
+          }
+          return list;
+        }
+        details.append(tree(null));
+        target.append(details);
+      }
+    }
+    /** @param {string} roleId @returns {void} */
+    function renderRules(roleId) {
+      const rules = Catalog.rulesFor(data, roleId);
+      element('rules-section').hidden = rules.length === 0;
+      const target = element('rules');
+      target.replaceChildren();
+      for (const rule of rules) {
+        target.append(node('p', 'Certo/Errado · ' + rule.durationMinutes + ' minutos para P1 e P2 · mínimo total: ' + rule.minimumTotalScore + ' pontos.'));
+        for (const block of rule.blocks) {
+          target.append(node('h3', block.label));
+          target.append(node('p', block.questionCount + ' itens · acerto: +' + block.correct + ' · erro: ' + block.incorrect + ' · em branco ou dupla marcação: ' + block.blank + ' · mínimo: ' + block.minimumScore + ' pontos.'));
+        }
+        target.append(node('p', 'Na anulação, a pontuação do item é atribuída a todos os candidatos (item 8.12.6.1).'));
+        target.append(node('small', rule.reference));
+      }
+    }
+    /** @param {string} contestId @param {string} roleId @returns {void} */
+    function renderConsolidation(contestId, roleId) {
+      const review = data.consolidations.find(row => row.contestId === contestId && row.roleId === roleId);
+      element('consolidation-section').hidden = !review;
+      const target = element('consolidation');
+      target.replaceChildren();
+      element('consolidation-scope').textContent = review?.scopeNote || '';
+      if (!review) return;
+      for (const entry of review.entries) {
+        const details = document.createElement('details');
+        details.append(node('summary', entry.title));
+        details.append(node('blockquote', entry.text));
+        const notice = data.notices.find(row => row.documentId === entry.documentId);
+        details.append(node('small', (notice?.title || entry.documentId) + ' · PDF p. ' + entry.sourcePage));
+        target.append(details);
+      }
+    }
+    const received = data.papers.filter(paper => paper.inventory);
+    element('inventory-summary').textContent = received.length + ' pares de cadernos/blocos e gabaritos · ' + received.reduce((total, paper) => total + (paper.inventory?.itemCount || 0), 0) + ' itens identificados nos arquivos · 0 questões publicadas.';
+    for (const paper of received) {
+      const inventory = paper.inventory;
+      if (!inventory) continue;
+      const li = document.createElement('li');
+      li.append(node('strong', paper.title));
+      li.append(node('span', 'Aplicação: ' + inventory.applicationDate.split('-').reverse().join('/') + ' · itens ' + inventory.firstItem + '–' + inventory.lastItem + ' · ' + (inventory.questionType === 'multiple_choice' ? 'Múltipla escolha' : 'Certo/Errado') + ' · ' + inventory.annulledItems.length + ' anulações no gabarito.'));
+      element('inventory').append(li);
     }
     /** @returns {void} */
     function changeContest() {
