@@ -6,6 +6,14 @@
 4. Use **Finalizar sessão** em qualquer questão ou abra **Revisar sessão** para conferir a lista e voltar às questões que quiser (também é o próximo passo na última questão). A confirmação informa quantas questões ficarão em branco e inicia com foco em **Continuar respondendo**. Cancelar ou abrir a revisão não encerra a tentativa. Questões sem marcação passam a brancos. A correção mostra sua resposta, gabarito definitivo, resultado e links da prova e do gabarito. Explicações indisponíveis são identificadas.
 5. Em **Histórico e backup**, consulte sessões ou inicie **Revisar erros**, **Questões inéditas** ou **Revisar brancos**, quando disponíveis. Finalize uma sessão em andamento antes de iniciar outra.
 
+## Preparar uma nova sessão
+
+No resultado, o grupo **Próximo treino** fica logo abaixo dos indicadores. **Nova sessão** retorna à seleção do concurso/cargo e limpa disciplina, assunto, quantidade e sorteio. O resultado anterior permanece no histórico. Você pode configurar o próximo treino com calma: outra sessão só começa ao clicar em **Iniciar questões**.
+
+**Revisar erros** fica no mesmo grupo quando houver questões compatíveis com erro no último resultado finalizado para o objetivo. Sem erros, uma mensagem substitui o botão. A navegação Anterior/Próxima dentro da correção serve apenas para consultar as questões dessa tentativa.
+
+Se você abrir um resultado antigo enquanto responde a outro treino, **Nova sessão** pede confirmação para encerrar o treino em andamento. Cancelar mantém as marcações e a sessão aberta. Confirmar guarda a tentativa no histórico, com as questões restantes em branco, e volta à seleção sem iniciar um treino automaticamente. Se o navegador não puder salvar, o aviso e a exportação de backup continuam disponíveis.
+
 ## Como interpretar os resultados
 
 A taxa de acerto é acertos ÷ (acertos + erros). Brancos e anulações são separados. Uma sessão inteiramente em branco não recebe um percentual artificial de 0%. Não há nota líquida, mínimo oficial ou classificação neste treino.

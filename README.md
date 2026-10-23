@@ -6,6 +6,8 @@ Aplicação estática para estudos de concursos públicos, baseada na arquitetur
 
 Você pode navegar, alterar respostas e deixá-las em branco. **Finalizar sessão** está disponível em todas as questões e exige confirmação, informando quantas ficarão em branco. **Revisar sessão** permite conferir as marcações antes de encerrar. O resultado apresenta acertos, erros, brancos, percentual e gabarito definitivo, com links de origem. O treino não aplica pontuação ou mínimos de simulado da Câmara. Explicações ausentes são indicadas explicitamente.
 
+No resultado, **Nova sessão** fica junto do resumo e retorna à escolha do objetivo, limpando filtros para preparar outro treino. O resultado anterior permanece salvo; outra sessão só é criada ao clicar em **Iniciar questões**. **Revisar erros** aparece ao lado quando houver erros compatíveis para o objetivo.
+
 As marcações são salvas automaticamente no navegador. Ao voltar à página, **Continuar questões** retoma a sessão. Dentro do estudo, **Histórico** permite consultar sessões, revisar os últimos erros, estudar questões inéditas, revisar brancos e exportar/importar o progresso. A seção **Backup e recuperação** concentra exportação e importação. A importação mostra uma prévia e exige confirmação antes de substituir os dados. Use o [guia de estudo e backup](documentation/study-guide.md).
 
 As quatro abas de referência preservam nove disciplinas e 228 tópicos/subtópicos, regras, editais nº 1 a 6 e inventário de seis pares de provas/gabaritos. Os 20 PDFs retidos coincidem com fontes oficiais conferidas em 23/10/2026; o inventário cobre 340 itens e 12 anulações. Somente o lote liberado integra o estudo. PDFs e arquivos de trabalho ficam fora do Pages. ABDI e CGU permanecem futuros, sem regras ou conteúdos não confirmados.
@@ -97,6 +99,7 @@ APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/b
 APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-study.cjs
 APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-usability.cjs
 APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-filters.cjs
+APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-new-session.cjs
 ```
 
 Essas ferramentas não integram a aplicação nem são dependências obrigatórias do projeto. O teste cobre abas, navegação por teclado, temas, persistência, seletores, estados sem dados e ausência de transbordamento horizontal em 320 e 1280 px. Não substitui uma auditoria completa de acessibilidade.

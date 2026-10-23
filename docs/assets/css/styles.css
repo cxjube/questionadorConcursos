@@ -323,11 +323,11 @@ button { overflow-wrap: anywhere; }
 .answer-tools { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--space-2xs); padding-block: var(--space-2xs); }
 .answer-tools .blank-choice { border-color: transparent; margin: 0; padding: var(--space-2xs); align-items: center; font-size: var(--text-sm); }
 .blank-choice input { margin: 0; }
-.question-navigation { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--space-sm); padding-top: var(--space-sm); }
+.question-controls { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-sm); padding-block: var(--space-sm); }
+.question-navigation { display: flex; flex-wrap: wrap; gap: var(--space-2xs); }
 .question-navigation button { min-width: 0; }
-.question-navigation button:first-child { justify-self: start; }
-.question-navigation button:last-child { justify-self: end; min-width: 9rem; }
-.session-management { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--space-sm); padding-block: var(--space-sm); }
+.question-navigation .primary { min-width: 8rem; }
+.session-management { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-xs); }
 .session-management > button { font-size: var(--text-sm); }
 .support-details { margin-top: var(--space-xs); padding-block: var(--space-3xs); font-size: var(--text-sm); }
 .support-details > summary { font-weight: 500; color: var(--text-soft); }
@@ -341,10 +341,18 @@ button { overflow-wrap: anywhere; }
 .metrics dt { font-size: var(--text-xs); color: var(--text-soft); }
 .metrics dd { font-size: var(--text-xl); font-weight: 700; margin: var(--space-3xs) 0 0; line-height: var(--leading-snug); overflow-wrap: anywhere; }
 .correction-comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-sm); }
-.correction-comparison p { margin: 0; }
+.correction-comparison > div { min-width: 0; }
+.correction-comparison dt { font-size: var(--text-xs); color: var(--text-soft); }
+.correction-comparison dd { margin: var(--space-3xs) 0 0; font-weight: 600; }
+.correction > .review-note { font-size: var(--text-sm); }
 .corrected-options { padding-left: var(--space-md); }
 .corrected-options li { margin-block: var(--space-sm); }
-.result-actions { border-top: 1px solid var(--border); padding-top: var(--space-md); }
+.result-next-steps { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-sm) var(--space-md); border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); padding: var(--space-sm); margin-block: var(--space-md); }
+.result-next-copy { flex: 1 1 12rem; min-width: 0; }
+.result-next-copy h3 { font-size: var(--text-base); margin: 0; }
+.result-next-copy p { font-size: var(--text-sm); color: var(--text-soft); margin: var(--space-3xs) 0 0; }
+.result-next-actions { display: flex; flex-wrap: wrap; gap: var(--space-2xs); }
+.result-next-actions button { font-size: var(--text-sm); }
 .review-summary { font-weight: 600; }
 .question-map { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-2xs); }
 .question-map li { min-width: 0; }
@@ -382,9 +390,14 @@ button { overflow-wrap: anywhere; }
   .workspace-header { display: flex; }
   .workspace-tools { gap: var(--space-3xs); }
   .save-status { margin-left: 0; flex-basis: 100%; }
-  .question-navigation { display: flex; flex-wrap: wrap; gap: var(--space-2xs); }
+  .question-controls { display: grid; justify-content: stretch; }
+  .question-navigation { gap: var(--space-2xs); }
   .question-navigation button { flex: 1 1 6rem; width: auto; }
-  .question-navigation button:last-child { min-width: 0; }
+  .question-navigation .primary { min-width: 0; }
+  .session-management { gap: var(--space-2xs); }
+  .session-management button { flex: 1 1 6rem; }
+  .result-next-actions { width: 100%; }
+  .result-next-actions button { flex: 1 1 100%; }
   .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-2xs); }
   .metrics > div { padding: var(--space-xs); }
   .rule-blocks, .question-map, .correction-comparison { grid-template-columns: 1fr; }

@@ -31,6 +31,7 @@ const StudyUI = (() => {
     let viewedSession = null;
     let importCandidate = null;
     let backupOpen = false;
+    let finishDestination = 'results';
     const disclosureState = new Map();
     const landing = element('study-landing');
     const workspace = element('study-workspace');
@@ -168,6 +169,24 @@ const StudyUI = (() => {
       refreshStart();
     }
     start.addEventListener('click', () => begin());
+    function showSelection(reset = false) {
+      if (reset) {
+        viewedSession = null; importCandidate = null; view = 'active';
+        selectedRole = element('role').value;
+        quantity.value = ''; shuffle.checked = false;
+        refreshFilters(true); element('study-options').open = false;
+        content.replaceChildren();
+        element('study-feedback').hidden = true;
+      }
+      workspace.hidden = true; landing.hidden = false; refreshStart(); warning();
+      element('contest').focus();
+    }
+    function prepareNewSession() {
+      if (busy || store.conflict) return;
+      if (store.state.active) { requestFinish('selection'); return; }
+      showSelection(true);
+      announce('Escolha o objetivo e personalize seu próximo treino. A sessão anterior continua no histórico.');
+    }
     discipline.addEventListener('change', () => { topic.value = ''; refreshFilters(); });
     topic.addEventListener('change', refreshStart);
     quantity.addEventListener('input', refreshStart);
@@ -175,9 +194,7 @@ const StudyUI = (() => {
     element('reset-study-filters').addEventListener('click', () => {
       quantity.value = ''; shuffle.checked = false; refreshFilters(true); discipline.focus();
     });
-    element('study-objective').addEventListener('click', () => {
-      workspace.hidden = true; landing.hidden = false; refreshStart(); element('contest').focus();
-    });
+    element('study-objective').addEventListener('click', () => showSelection());
     element('study-history').addEventListener('click', () => { view = 'history'; importCandidate = null; render(); content.focus(); });
     function summary(session) {
       const totals = Study.totals(session);
@@ -188,14 +205,18 @@ const StudyUI = (() => {
       view = 'review'; render(); content.focus();
       announce('Revise as marcações antes de finalizar. A sessão continua em andamento.');
     }
-    function requestFinish() {
+    function requestFinish(destination = 'results') {
       const session = store.state.active;
       if (!session || busy || store.conflict) return;
+      finishDestination = destination === 'selection' ? 'selection' : 'results';
+      const preparing = finishDestination === 'selection';
       const answered = session.answers.filter(a => a.value !== null).length;
       const blanks = session.items.length - answered;
       element('finish-message').textContent = answered + ' de ' + session.items.length + ' questões com resposta. ' +
         (blanks ? blanks + (blanks === 1 ? ' ficará em branco. ' : ' ficarão em branco. ') : '') +
-        'Ao confirmar, o gabarito será exibido e você não poderá alterar esta tentativa.';
+        (preparing ? 'Ao confirmar, esta tentativa será encerrada e você voltará à escolha do objetivo. O resultado ficará no histórico.' : 'Ao confirmar, o gabarito será exibido e você não poderá alterar esta tentativa.');
+      element('finish-title').textContent = preparing ? 'Encerrar e preparar nova sessão?' : 'Finalizar sessão?';
+      element('confirm-finish').textContent = preparing ? 'Salvar e escolher objetivo' : 'Finalizar e conferir';
       element('finish-dialog').showModal();
     }
     function sessionInfo(session) {
@@ -250,8 +271,10 @@ const StudyUI = (() => {
         const result = Study.grade(item, chosen);
         const correction = node('section', undefined, 'correction ' + result);
         correction.append(node('h4', labels[result]));
-        const answers = node('div', undefined, 'correction-comparison');
-        answers.append(node('p', 'Sua resposta: ' + answerLabel(item, chosen)), node('p', 'Gabarito oficial definitivo: ' + (item.key.result === 'valid' ? answerLabel(item, item.key.value) : 'Anulada ou retirada')));
+        const answers = node('dl', undefined, 'correction-comparison');
+        for (const [label, value] of [['Sua resposta', answerLabel(item, chosen)], ['Gabarito oficial definitivo', item.key.result === 'valid' ? answerLabel(item, item.key.value) : 'Anulada ou retirada']]) {
+          const pair = node('div'); pair.append(node('dt', label), node('dd', value)); answers.append(pair);
+        }
         correction.append(answers);
         if (q.type === 'multiple_choice') {
           const list = node('ul', undefined, 'corrected-options');
@@ -273,20 +296,22 @@ const StudyUI = (() => {
       };
       const previous = button('Anterior', () => navigate(position - 1)); previous.disabled = position === 0 || Boolean(store.conflict);
       const last = position === session.items.length - 1;
-      const next = !completed && last ? button('Revisar sessão', showReview, true) : button('Próxima', () => navigate(position + 1), true);
+      const next = !completed && last ? button('Revisar sessão', showReview, true) : button('Próxima', () => navigate(position + 1), !completed);
       previous.id = 'previous-question'; next.id = 'next-question';
       next.disabled = (completed && last) || Boolean(store.conflict);
-      navigation.append(previous, next); content.append(navigation);
+      navigation.setAttribute('role', 'group'); navigation.setAttribute('aria-label', 'Navegar entre questões');
+      navigation.append(previous, next);
+      const controls = node('div', undefined, 'question-controls'); controls.append(navigation);
       if (!completed) {
         const management = node('div', undefined, 'session-management');
-        const finish = button('Finalizar sessão', requestFinish); finish.id = 'finish-study'; finish.disabled = Boolean(store.conflict);
-        management.append(finish);
         if (!last) {
           const review = button('Revisar sessão', showReview); review.className = 'quiet-button'; review.id = 'review-study'; review.disabled = Boolean(store.conflict);
           management.append(review);
         }
-        content.append(management);
+        const finish = button('Finalizar sessão', () => requestFinish()); finish.id = 'finish-study'; finish.disabled = Boolean(store.conflict);
+        management.append(finish); controls.append(management);
       }
+      content.append(controls);
       const details = disclosure('question-' + q.id, 'Origem e assuntos desta questão', 'support-details question-details');
       details.append(node('h4', 'Prova original'), node('p', item.paper.role), node('small', 'Caderno ' + item.paper.booklet + ' · questão original ' + q.origin.number));
       const subjects = [...new Set(item.mappings.map(m => m.disciplineLabel + ' / ' + m.number + ' ' + m.topicLabel))];
@@ -305,6 +330,23 @@ const StudyUI = (() => {
       if (totals.annulled) metrics.append(node('div', undefined, 'annulled-metric'));
       if (totals.annulled) metrics.lastChild.append(node('dt', 'Anuladas/retiradas'), node('dd', String(totals.annulled)));
       return metrics;
+    }
+    function resultActions(session) {
+      const section = node('section', undefined, 'result-next-steps');
+      const description = node('div', undefined, 'result-next-copy');
+      const heading = node('h3', 'Próximo treino'); heading.id = 'next-study-heading';
+      section.setAttribute('aria-labelledby', heading.id);
+      description.append(heading, node('p', 'Escolha outro objetivo ou retome os assuntos que precisa revisar.'));
+      const actions = node('div', undefined, 'result-next-actions');
+      const newSession = button('Nova sessão', prepareNewSession, true); newSession.id = 'new-session'; newSession.disabled = Boolean(store.conflict);
+      actions.append(newSession);
+      const errors = Study.pool(data, session.roleId, store.state, 'errors').length;
+      if (errors) {
+        const review = button('Revisar erros (' + errors + ')', () => {selectedRole = session.roleId; begin('errors');});
+        review.id = 'review-errors'; review.disabled = Boolean(store.state.active) || Boolean(store.conflict); actions.append(review);
+      } else description.append(node('p', 'Nenhum erro para revisar neste objetivo.', 'review-note'));
+      section.append(description, actions);
+      return section;
     }
     function renderReview() {
       const session = store.state.active;
@@ -405,7 +447,7 @@ const StudyUI = (() => {
         content.append(resultMetrics(session));
         const explanation = disclosure('score-help', 'Como o resultado é calculado');
         explanation.append(node('p', summary(session)), node('p', 'Este treino não tem pontuação de concurso. A taxa usa acertos e erros; brancos e anulações ficam separados. Sem respostas válidas, não há percentual.'));
-        content.append(explanation);
+        content.append(resultActions(session), explanation);
       } else {
         const progress = node('div', undefined, 'session-progress');
         const bar = document.createElement('progress'); bar.max = session.items.length; bar.value = session.answers.length; bar.setAttribute('aria-label', 'Questões marcadas');
@@ -414,24 +456,22 @@ const StudyUI = (() => {
       }
       questionView(session, session.finishedAt ? (reviewPosition.get(session.id) || 0) : session.position, Boolean(session.finishedAt));
       if (session.finishedAt) {
-        const actions = node('div', undefined, 'study-actions result-actions');
-        const newSession = button('Nova sessão', () => begin()); newSession.disabled = Boolean(store.state.active) || Boolean(store.conflict);
-        const errors = Study.pool(data, session.roleId, store.state, 'errors').length;
-        const review = button('Revisar erros (' + errors + ')', () => {selectedRole = session.roleId; begin('errors');}); review.disabled = !errors || Boolean(store.state.active) || Boolean(store.conflict);
-        actions.append(newSession, review);
         const backup = disclosure('result-backup', 'Guardar este progresso'); backup.append(button('Exportar backup', exportProgress));
-        content.append(actions, backup);
+        content.append(backup);
       }
       content.append(sessionInfo(session));
     }
     element('confirm-finish').addEventListener('click', async () => {
       if (busy || !store.state.active || store.conflict) return;
       const id = store.state.active.id;
+      const destination = finishDestination;
       let finished;
       try { finished = Study.finish(store.state); } catch (error) { reportError(error.message); return; }
       if (await commit(finished)) {
-        element('finish-dialog').close(); view = 'results'; viewedSession = id; render(); refreshStart();
-        content.focus(); announce(summary(store.state.history.find(s => s.id === id)) + (store.error ? ' Resultado apenas nesta página; exporte um backup.' : ' Resultado salvo neste navegador.'));
+        element('finish-dialog').close();
+        if (destination === 'selection') showSelection(true);
+        else {view = 'results'; viewedSession = id; render(); refreshStart(); content.focus();}
+        announce(summary(store.state.history.find(s => s.id === id)) + (store.error ? ' Resultado apenas nesta página; exporte um backup.' : ' Resultado salvo neste navegador.') + (destination === 'selection' ? ' Escolha o objetivo do próximo treino.' : ''));
       }
     });
     element('confirm-clear').addEventListener('click', async () => {
