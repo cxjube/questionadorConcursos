@@ -1,6 +1,6 @@
 # Conferência das fontes oficiais — 23/10/2026
 
-> Atualização: [sétimo lote](seventh-batch-release.md), com 90 questões, 90 comentários e 44 fontes. São 36/42 C/E em P1/P2; todas as questões atuais têm comentário. Os registros anteriores abaixo preservam o histórico das respectivas entregas.
+> Atualização: [oitavo lote](eighth-batch-release.md), com 109 questões, 109 comentários e 44 fontes. São 48/49 C/E em P1/P2; todas as questões atuais têm comentário. Os registros anteriores abaixo preservam o histórico das respectivas entregas.
 
 > Atualização: o lote foi liberado para o primeiro treino funcional. Consulte a [decisão de liberação](first-batch-release.md) e o [guia de uso e backup](study-guide.md). Os estados de preparação e limitações descritos neste registro se referem à entrega anterior.
 
@@ -47,7 +47,7 @@ Programa, regra objetiva e consolidação passaram para `confirmed`; os seis edi
 
 O novo par `038_ANM_CG1_01` tem [caderno oficial](https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_CG1_01.PDF) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_CG1_01.PDF). A listagem e seus bytes originais estão em `data/reviews/anm-general-source.json` e `anm-official-listing-response.json`.
 
-Os dez pares cobrem 680 números de itens, com 33 anulações. A identidade dos documentos não implica revisão de todos os enunciados. Há 90 questões liberadas e 90 comentários editoriais independentes identificados como assistidos por IA; veja o [sexto lote](sixth-batch-release.md). O arquivo de preparação histórico continua fora do build e do Pages.
+Os dez pares cobrem 680 números de itens, com 33 anulações. A identidade dos documentos não implica revisão de todos os enunciados. Há 109 questões liberadas e 109 comentários editoriais independentes identificados como assistidos por IA; veja o [oitavo lote](eighth-batch-release.md). O arquivo de preparação histórico continua fora do build e do Pages.
 
 ## Evidência e reprodução
 

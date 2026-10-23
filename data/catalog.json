@@ -5341,6 +5341,582 @@
         "temporalNote": "Conceitos e modelos teóricos avaliados em 2014; enunciado e gabarito originais preservados, sem apresentar exemplos históricos como descrição atual.",
         "decisionReference": "documentation/seventh-batch-release.md"
       }
+    },
+    {
+      "id": "038-anm-cg1-01-q001",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O texto contrapõe duas dimensões distintas: a subterrânea, caracterizada pelo trabalho árduo dos mineiros em meio à completa escuridão, e a da superfície, exposta à luz do dia.",
+      "options": [],
+      "contextIds": [
+        "anm-cg1-orwell",
+        "anm-cg1-reading-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-cg1-01",
+        "number": 1,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-cg1-01-q001-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Leitura do texto histórico de Orwell reproduzido na prova de 2025, sem atualizar suas afirmações sobre o uso do carvão.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-cg1-01-q002",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Infere-se do texto que, em geral, as pessoas que não trabalham nas minas estão alienadas, de modo presumivelmente deliberado, do trabalho dos mineiros.",
+      "options": [],
+      "contextIds": [
+        "anm-cg1-orwell",
+        "anm-cg1-reading-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-cg1-01",
+        "number": 2,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-cg1-01-q002-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Leitura do texto histórico de Orwell reproduzido na prova de 2025, sem atualizar suas afirmações sobre o uso do carvão.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-cg1-01-q003",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "De acordo com o texto, o carvão é imprescindível porque as atividades humanas, em sua quase totalidade, dependem do uso desse material, sejam elas banais ou importantes, pacíficas ou perigosas.",
+      "options": [],
+      "contextIds": [
+        "anm-cg1-orwell",
+        "anm-cg1-reading-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-cg1-01",
+        "number": 3,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-cg1-01-q003-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Leitura do texto histórico de Orwell reproduzido na prova de 2025, sem atualizar suas afirmações sobre o uso do carvão.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-cg1-01-q004",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No último período do texto, o termo “como” exprime noção de causa, ao introduzir uma oração que indica a razão pela qual o mundo subterrâneo é tão necessário ao mundo da superfície.",
+      "options": [],
+      "contextIds": [
+        "anm-cg1-orwell",
+        "anm-cg1-portuguese-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-cg1-01",
+        "number": 4,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-cg1-01-q004-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Leitura do texto histórico de Orwell reproduzido na prova de 2025, sem atualizar suas afirmações sobre o uso do carvão.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-cg1-01-q006",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No oitavo período do primeiro parágrafo, o emprego do subjuntivo em “aconteça”, que expressa uma hipótese, decorre do uso de “for”, também flexionado no subjuntivo.",
+      "options": [],
+      "contextIds": [
+        "anm-cg1-orwell",
+        "anm-cg1-portuguese-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-cg1-01",
+        "number": 6,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-cg1-01-q006-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Leitura do texto histórico de Orwell reproduzido na prova de 2025, sem atualizar suas afirmações sobre o uso do carvão.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-cg1-01-q009",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No trecho “É apenas ‘carvão’, algo que eu preciso ter, uma coisa escura que chega misteriosamente, vinda de nenhum lugar em especial” (último período do segundo parágrafo), as vírgulas empregadas separam elementos que exercem a mesma função sintática.",
+      "options": [],
+      "contextIds": [
+        "anm-cg1-orwell",
+        "anm-cg1-portuguese-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-cg1-01",
+        "number": 9,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-cg1-01-q009-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Leitura do texto histórico de Orwell reproduzido na prova de 2025, sem atualizar suas afirmações sobre o uso do carvão.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q071",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A legislação sobre a proteção e defesa da saúde é, conforme a CF, de competência tanto federal como estadual, na forma do que se entende como competência concorrente.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-competencias-uniao"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 71,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q071-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos citados cotejados com a Constituição oficial retida em 23/10/2026; redação e gabarito históricos preservados.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q075",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Consoante a CF, competem exclusivamente ao Congresso Nacional a fiscalização e o controle dos atos do Poder Executivo, cabendo-lhe, inclusive, escolher os ministros do Tribunal de Contas da União.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-competencias-uniao"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 75,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q075-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos citados cotejados com a Constituição oficial retida em 23/10/2026; redação e gabarito históricos preservados.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q078",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O presidente da República pode, mediante decreto, extinguir cargos públicos que estejam vagos.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-poderes-presidente"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 78,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q078-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos citados cotejados com a Constituição oficial retida em 23/10/2026; redação e gabarito históricos preservados.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q101",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A preservação de florestas é da competência administrativa concorrente da União e dos estados.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-direito-economico-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 101,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q101-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos citados cotejados com a Constituição oficial retida em 23/10/2026; redação e gabarito históricos preservados.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q102",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A legislação sobre a prestação de serviços postais é matéria de competência concorrente da União e dos estados, mas a estes é imposto o limite jurisdicional de seu território.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-direito-economico-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 102,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q102-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos citados cotejados com a Constituição oficial retida em 23/10/2026; redação e gabarito históricos preservados.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-cb2-03-q105",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Apesar de se verificar significativa atuação da União, por meio do IPHAN, na preservação do patrimônio histórico nacional, tal atividade é atribuição comum tanto dela quanto dos estados, do Distrito Federal e dos municípios.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-direito-economico-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-cb2-03",
+        "number": 105,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara-2014-cb2-03-q105-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Dispositivos citados cotejados com a Constituição oficial retida em 23/10/2026; redação e gabarito históricos preservados.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q111",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A especialização do Estado moderno, responsável pela diferenciação entre Estado e sociedade, contribuiu para o surgimento do conceito de sociedade civil.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-estado-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 111,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q111-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Modelos e conceitos teóricos avaliados em 2014; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q115",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O conjunto de burocracias e o sistema legal são dimensões diferentes do Estado contemporâneo que não se inter-relacionam, o que propicia a atuação livre do burocrata que atua com desvio de finalidade.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-estado-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 115,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q115-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Modelos e conceitos teóricos avaliados em 2014; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q116",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Todo princípio de legitimidade do poder deve conter elementos descritivos que o tornem digno de confiança, de modo que se produza, em parcela significativa da população, um grau de consenso capaz de assegurar a obediência do cidadão.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-estado-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 116,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q116-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Modelos e conceitos teóricos avaliados em 2014; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q126",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O conceito de estrutura de oportunidade política, que envolve a valorização do contexto político e econômico para a ação coletiva, contribui para a compreensão dos motivos de se estimularem ou não, determinadas mobilizações sociais.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-teoria-politica-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 126,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q126-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Modelos e conceitos teóricos avaliados em 2014; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q128",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A partir de uma abordagem marxista, Antonio Gramsci reforçou o sentido da ação política subordinada às forças materiais e enfatizou a supremacia da estrutura econômica sobre a superestrutura ideológica.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-teoria-politica-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 128,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "camara-2014-area-xix-q128-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Modelos e conceitos teóricos avaliados em 2014; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q136",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A existência de um tribunal constitucional é característica do modelo de democracia majoritária.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-modelos-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 136,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara-2014-area-xix-q136-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Modelos e conceitos teóricos avaliados em 2014; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q137",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A independência do banco central de um país está associada ao modelo de democracia consensual.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-modelos-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 137,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara-2014-area-xix-q137-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Modelos e conceitos teóricos avaliados em 2014; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/eighth-batch-release.md"
+      }
     }
   ],
   "answerKeys": [
@@ -6504,6 +7080,253 @@
     {
       "id": "camara-2014-area-xix-q145-key-v1",
       "questionId": "camara-2014-area-xix-q145",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-cg1-01-q001-key-v1",
+      "questionId": "038-anm-cg1-01-q001",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-cg1-01-q002-key-v1",
+      "questionId": "038-anm-cg1-01-q002",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-cg1-01-q003-key-v1",
+      "questionId": "038-anm-cg1-01-q003",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-cg1-01-q004-key-v1",
+      "questionId": "038-anm-cg1-01-q004",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-cg1-01-q006-key-v1",
+      "questionId": "038-anm-cg1-01-q006",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-cg1-01-q009-key-v1",
+      "questionId": "038-anm-cg1-01-q009",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-cb2-03-q071-key-v1",
+      "questionId": "camara-2014-cb2-03-q071",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-cb2-03-q075-key-v1",
+      "questionId": "camara-2014-cb2-03-q075",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-cb2-03-q078-key-v1",
+      "questionId": "camara-2014-cb2-03-q078",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-cb2-03-q101-key-v1",
+      "questionId": "camara-2014-cb2-03-q101",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-cb2-03-q102-key-v1",
+      "questionId": "camara-2014-cb2-03-q102",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-cb2-03-q105-key-v1",
+      "questionId": "camara-2014-cb2-03-q105",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q111-key-v1",
+      "questionId": "camara-2014-area-xix-q111",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q115-key-v1",
+      "questionId": "camara-2014-area-xix-q115",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-area-xix-q116-key-v1",
+      "questionId": "camara-2014-area-xix-q116",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q126-key-v1",
+      "questionId": "camara-2014-area-xix-q126",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q128-key-v1",
+      "questionId": "camara-2014-area-xix-q128",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-area-xix-q136-key-v1",
+      "questionId": "camara-2014-area-xix-q136",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-area-xix-q137-key-v1",
+      "questionId": "camara-2014-area-xix-q137",
       "version": 1,
       "origin": "official",
       "stage": "definitive",
@@ -7855,6 +8678,373 @@
         {
           "documentId": "source-232funprespexe-002-01-key",
           "locator": "PDF p. 1, item 93"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-cg1-01-q001-comment-v1",
+      "questionId": "038-anm-cg1-01-q001",
+      "text": "A oposição entre o subterrâneo e a superfície aparece no texto, mas o item acrescenta completa escuridão. O último parágrafo afirma que o mundo dos mineiros é iluminado por suas lâmpadas. Esse acréscimo torna a afirmação incorreta; reconhecer uma oposição não autoriza acrescentar uma característica que o texto contraria.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-cg1-01-paper",
+          "locator": "PDF p. 1, comando e item 1"
+        },
+        {
+          "documentId": "source-038-anm-cg1-01-key",
+          "locator": "PDF p. 1, item 1"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-cg1-01-q002-comment-v1",
+      "questionId": "038-anm-cg1-01-q002",
+      "text": "O texto afirma que muitas pessoas provavelmente preferem não ouvir falar do mundo dos mineiros e mostra o próprio narrador raramente relacionando o carvão ao trabalho nas minas. Esses elementos sustentam a inferência de afastamento presumivelmente deliberado. O item não exige que todas as pessoas confessem essa intenção.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-cg1-01-paper",
+          "locator": "PDF p. 1, comando e item 2"
+        },
+        {
+          "documentId": "source-038-anm-cg1-01-key",
+          "locator": "PDF p. 1, item 2"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-cg1-01-q003-comment-v1",
+      "questionId": "038-anm-cg1-01-q003",
+      "text": "O primeiro parágrafo enumera atividades triviais e importantes, da paz e da guerra, relacionadas direta ou indiretamente ao carvão. A resposta considera a argumentação do texto histórico de Orwell, não uma afirmação atual de que toda tecnologia ou atividade humana dependa desse combustível.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-cg1-01-paper",
+          "locator": "PDF p. 1, comando e item 3"
+        },
+        {
+          "documentId": "source-038-anm-cg1-01-key",
+          "locator": "PDF p. 1, item 3"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-cg1-01-q004-comment-v1",
+      "questionId": "038-anm-cg1-01-q004",
+      "text": "O último período compara duas relações de dependência: o mundo da superfície precisa do trabalho subterrâneo como a flor precisa da raiz. Nesse contexto, como introduz comparação, e não a causa indicada pelo item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-cg1-01-paper",
+          "locator": "PDF p. 1, comando e item 4"
+        },
+        {
+          "documentId": "source-038-anm-cg1-01-key",
+          "locator": "PDF p. 1, item 4"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-cg1-01-q006-comment-v1",
+      "questionId": "038-anm-cg1-01-q006",
+      "text": "Aconteça está no subjuntivo em uma construção que apresenta um acontecimento indeterminado: seja lá o que for que aconteça. Não há uma regra de concordância pela qual o simples uso de for no subjuntivo obrigue outro verbo a esse modo. O erro do item está em atribuir a escolha verbal a essa dependência mecânica.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-cg1-01-paper",
+          "locator": "PDF p. 1, comando e item 6"
+        },
+        {
+          "documentId": "source-038-anm-cg1-01-key",
+          "locator": "PDF p. 1, item 6"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-cg1-01-q009-comment-v1",
+      "questionId": "038-anm-cg1-01-q009",
+      "text": "As primeiras vírgulas introduzem reformulações apositivas de carvão, com algo e uma coisa escura. A expressão participial iniciada por vinda acrescenta uma caracterização à coisa descrita. Não se trata de uma série em que todos os segmentos destacados desempenhem a mesma função sintática.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-cg1-01-paper",
+          "locator": "PDF p. 1, comando e item 9"
+        },
+        {
+          "documentId": "source-038-anm-cg1-01-key",
+          "locator": "PDF p. 1, item 9"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q071-comment-v1",
+      "questionId": "camara-2014-cb2-03-q071",
+      "text": "O art. 24, XII, da Constituição inclui proteção e defesa da saúde na competência legislativa concorrente da União, estados e Distrito Federal. A União estabelece normas gerais, sem excluir a competência suplementar dos estados. O item trata de legislação, não da execução administrativa dos serviços.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-paper",
+          "locator": "PDF p. 9, comando e item 71"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-key",
+          "locator": "PDF p. 1, item 71"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 24, caput e XII"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 24, XII"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q075-comment-v1",
+      "questionId": "camara-2014-cb2-03-q075",
+      "text": "A fiscalização e o controle dos atos do Executivo são atribuições do Congresso. Porém, ele escolhe dois terços dos ministros do TCU; um terço é escolhido pelo Presidente da República, com aprovação do Senado, nas condições do art. 73, § 2º. O item atribui genericamente ao Congresso a escolha dos ministros, sem respeitar essa repartição.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-paper",
+          "locator": "PDF p. 9, comando e item 75"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-key",
+          "locator": "PDF p. 1, item 75"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 49, XIII"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 73, § 2º, I"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q078-comment-v1",
+      "questionId": "camara-2014-cb2-03-q078",
+      "text": "O art. 84, VI, b, permite ao Presidente dispor por decreto sobre extinção de funções ou cargos públicos quando vagos. A condição de vacância é essencial: a regra não autoriza usar esse dispositivo para extinguir por decreto cargos ocupados.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-paper",
+          "locator": "PDF p. 9, comando e item 78"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-key",
+          "locator": "PDF p. 1, item 78"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 84, VI, b"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q101-comment-v1",
+      "questionId": "camara-2014-cb2-03-q101",
+      "text": "Preservar as florestas é competência administrativa comum da União, estados, Distrito Federal e municípios, conforme art. 23, VII. O art. 24, VI, trata da legislação concorrente sobre florestas. O item mistura a classificação administrativa com a legislativa.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-paper",
+          "locator": "PDF p. 10, comando e item 101"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-key",
+          "locator": "PDF p. 1, item 101"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 23, VII"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 24, VI"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q102-comment-v1",
+      "questionId": "camara-2014-cb2-03-q102",
+      "text": "O art. 22, V, atribui privativamente à União a legislação sobre serviço postal. Não é uma matéria de competência concorrente simplesmente limitada ao território de cada estado. A possibilidade de lei complementar autorizar estados a legislar sobre questões específicas não transforma a competência em concorrente.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-paper",
+          "locator": "PDF p. 10, comando e item 102"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-key",
+          "locator": "PDF p. 1, item 102"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 22, caput e V"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 22, V"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-cb2-03-q105-comment-v1",
+      "questionId": "camara-2014-cb2-03-q105",
+      "text": "O art. 23, III, atribui conjuntamente aos entes federativos a proteção de documentos, obras e bens de valor histórico, artístico e cultural. A atuação federal por meio do IPHAN não afasta a competência administrativa dos demais entes. O item descreve essa responsabilidade comum.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-paper",
+          "locator": "PDF p. 10, comando e item 105"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-cb2-03-key",
+          "locator": "PDF p. 1, item 105"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 23, caput"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 23, III"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q111-comment-v1",
+      "questionId": "camara-2014-area-xix-q111",
+      "text": "A especialização de estruturas estatais permite distinguir o Estado das relações e organizações da sociedade. Essa diferenciação contribui para formular o conceito de sociedade civil. O item não diz que Estado e sociedade sejam isolados ou que nunca se relacionem.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando e item 111"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 111"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q115-comment-v1",
+      "questionId": "camara-2014-area-xix-q115",
+      "text": "Burocracias e sistema legal se relacionam: regras definem competências, procedimentos e limites de atuação administrativa. A existência de dimensões distintas não implica ausência de vínculos entre elas, nem liberdade para agir com desvio de finalidade. A negação desse relacionamento torna o item incorreto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando e item 115"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 115"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q116-comment-v1",
+      "questionId": "camara-2014-area-xix-q116",
+      "text": "O item relaciona legitimidade à confiança e a um grau de aceitação social capaz de sustentar a obediência. O fundamento não se resume à imposição pela força: envolve crenças e razões pelas quais uma parcela relevante da população reconhece o poder como digno de obediência.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando e item 116"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 116"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q126-comment-v1",
+      "questionId": "camara-2014-area-xix-q126",
+      "text": "A estrutura de oportunidade política considera condições do contexto que favorecem ou dificultam a mobilização: abertura institucional, relações de poder e possibilidades de articulação, por exemplo. Isso ajuda a explicar por que a ação coletiva encontra estímulos ou obstáculos, sem reduzir todo movimento a uma causa única.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando e item 126"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 126"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q128-comment-v1",
+      "questionId": "camara-2014-area-xix-q128",
+      "text": "O pensamento de Gramsci destaca mediações políticas, ideológicas e culturais, especialmente na construção da hegemonia. O item erra ao apresentar a política como simplesmente subordinada às forças materiais e a estrutura econômica como supremacia mecânica sobre a ideologia. Isso não significa que Gramsci descarte a importância das relações econômicas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 2, comando e item 128"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 128"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q136-comment-v1",
+      "questionId": "camara-2014-area-xix-q136",
+      "text": "Um tribunal constitucional introduz limites institucionais às decisões da maioria parlamentar, aproximando-se da dispersão e do compartilhamento de poder do modelo consensual. Por isso, não é apresentado nessa comparação como característica do modelo majoritário de concentração do poder.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 3, comando e item 136"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 136"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q137-comment-v1",
+      "questionId": "camara-2014-area-xix-q137",
+      "text": "Na comparação teórica cobrada, a independência do banco central distribui autoridade para além do comando imediato da maioria governante. Ela se associa, assim, ao modelo consensual de dispersão do poder. O item não está descrevendo a situação atual de um país específico nem avaliando os méritos de uma política monetária.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 3, comando e item 137"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 137"
         }
       ]
     }
@@ -11248,6 +12438,139 @@
       "syllabusItemId": "camara-2026-ciencia-politica-13",
       "justification": "Expansão do sufrágio e desenvolvimento histórico dos partidos.",
       "status": "confirmed"
+    },
+    {
+      "id": "038-anm-cg1-01-q001-mapping-1",
+      "questionId": "038-anm-cg1-01-q001",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-1",
+      "justification": "Identificação de extrapolação na caracterização dos espaços do texto.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-cg1-01-q002-mapping-1",
+      "questionId": "038-anm-cg1-01-q002",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-1",
+      "justification": "Inferência sustentada pela preferência por ignorar o trabalho subterrâneo.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-cg1-01-q003-mapping-1",
+      "questionId": "038-anm-cg1-01-q003",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-1",
+      "justification": "Compreensão da importância do carvão no argumento do texto-base.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-cg1-01-q004-mapping-1",
+      "questionId": "038-anm-cg1-01-q004",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-4-1",
+      "justification": "Valor comparativo do conector no último período.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-cg1-01-q006-mapping-1",
+      "questionId": "038-anm-cg1-01-q006",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-4-2",
+      "justification": "Interpretação do subjuntivo em uma construção de sentido indeterminado.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-cg1-01-q009-mapping-1",
+      "questionId": "038-anm-cg1-01-q009",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-5-4",
+      "justification": "Distinção entre funções dos segmentos destacados por vírgulas.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q071-mapping-1",
+      "questionId": "camara-2014-cb2-03-q071",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-3",
+      "justification": "Competência legislativa concorrente para proteção e defesa da saúde.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q075-mapping-1",
+      "questionId": "camara-2014-cb2-03-q075",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-5",
+      "justification": "Repartição da escolha dos ministros do TCU entre Congresso e Presidência.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q078-mapping-1",
+      "questionId": "camara-2014-cb2-03-q078",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-4",
+      "justification": "Decreto para extinção de cargos públicos vagos.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q101-mapping-1",
+      "questionId": "camara-2014-cb2-03-q101",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-3",
+      "justification": "Distinção entre competência administrativa comum e legislação concorrente ambiental.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q102-mapping-1",
+      "questionId": "camara-2014-cb2-03-q102",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-3",
+      "justification": "Competência da União para legislar sobre serviço postal.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-cb2-03-q105-mapping-1",
+      "questionId": "camara-2014-cb2-03-q105",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-3",
+      "justification": "Competência comum de proteção do patrimônio histórico e cultural.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q111-mapping-1",
+      "questionId": "camara-2014-area-xix-q111",
+      "syllabusItemId": "camara-2026-ciencia-politica-11",
+      "justification": "Diferenciação entre Estado moderno e sociedade civil.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q115-mapping-1",
+      "questionId": "camara-2014-area-xix-q115",
+      "syllabusItemId": "camara-2026-ciencia-politica-11",
+      "justification": "Relação entre burocracia e ordem legal no Estado.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q116-mapping-1",
+      "questionId": "camara-2014-area-xix-q116",
+      "syllabusItemId": "camara-2026-ciencia-politica-2",
+      "justification": "Legitimidade, confiança e consentimento na obediência ao poder.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q126-mapping-1",
+      "questionId": "camara-2014-area-xix-q126",
+      "syllabusItemId": "camara-2026-ciencia-politica-2",
+      "justification": "Estrutura de oportunidade política e contexto da mobilização coletiva.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q128-mapping-1",
+      "questionId": "camara-2014-area-xix-q128",
+      "syllabusItemId": "camara-2026-ciencia-politica-2",
+      "justification": "Gramsci e crítica ao determinismo econômico da ação política.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q136-mapping-1",
+      "questionId": "camara-2014-area-xix-q136",
+      "syllabusItemId": "camara-2026-ciencia-politica-3",
+      "justification": "Controle de constitucionalidade na comparação entre modelos de democracia.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q137-mapping-1",
+      "questionId": "camara-2014-area-xix-q137",
+      "syllabusItemId": "camara-2026-ciencia-politica-3",
+      "justification": "Independência do banco central no modelo consensual de democracia.",
+      "status": "confirmed"
     }
   ],
   "scoringRules": [
@@ -11957,6 +13280,42 @@
       "text": "A respeito das relações entre os sistemas eleitorais e os sistemas partidários, julgue os próximos itens.",
       "sourceDocumentId": "source-camara-2014-consultor-area-xix-paper",
       "sourcePage": 3
+    },
+    {
+      "id": "anm-cg1-reading-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "Em relação às ideias do texto CG1A1, julgue os itens que se seguem.",
+      "sourceDocumentId": "source-038-anm-cg1-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "camara-2014-competencias-uniao",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "Com relação às atribuições da União, julgue os itens que se seguem. Nesse sentido, considere que a sigla CF, sempre que empregada, se refere à Constituição Federal de 1988.",
+      "sourceDocumentId": "source-camara-2014-consultor-cb2-03-paper",
+      "sourcePage": 9
+    },
+    {
+      "id": "camara-2014-direito-economico-comando",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "Julgue os próximos itens, relativos a normas constitucionais sobre direito econômico.",
+      "sourceDocumentId": "source-camara-2014-consultor-cb2-03-paper",
+      "sourcePage": 10
+    },
+    {
+      "id": "camara-2014-teoria-politica-comando",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "A respeito da teoria política, julgue os itens subsecutivos.",
+      "sourceDocumentId": "source-camara-2014-consultor-area-xix-paper",
+      "sourcePage": 2
     }
   ]
 }

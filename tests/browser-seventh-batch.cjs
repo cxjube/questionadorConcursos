@@ -11,9 +11,9 @@ const progressKey='questionador-concursos.progress.v1';
    await page.goto(base);await page.locator('#start-study:not([disabled])').waitFor();
    await page.locator('#customize-study').click();
    await page.locator('#study-discipline').selectOption('ciencia-politica');await page.locator('#study-type').selectOption('true_false');
-   assert.match(await page.locator('#study-filter-status').innerText(),/8 de 8/);
+   assert.match(await page.locator('#study-filter-status').innerText(),/15 de 15/);
    await page.locator('#apply-study-options').click();await page.locator('#start-study').click();
-   for(const [i,value] of [true,true,false,true,true,true,true,true].entries()) {
+   for(const [i,value] of [true,true,false,true,true,true,true,true,true,false,true,true,false,false,true].entries()) {
     await page.locator('input[value="'+value+'"]').check();
     await page.waitForFunction(({key,count})=>JSON.parse(localStorage.getItem(key)).progress.active.answers.length===count,{key:progressKey,count:i+1});
     assert.equal(await page.locator('.correction').count(),0);
@@ -23,13 +23,13 @@ const progressKey='questionador-concursos.progress.v1';
      assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
      await page.evaluate(()=>document.documentElement.style.fontSize='');
     }
-    if(i<7){await page.locator('#next-question').click();await page.locator('#current-question-heading').filter({hasText:'Questão '+(i+2)+' de 8'}).waitFor();}
+    if(i<14){await page.locator('#next-question').click();await page.locator('#current-question-heading').filter({hasText:'Questão '+(i+2)+' de 15'}).waitFor();}
    }
    await page.reload();await page.locator('#start-study').click();
    await page.locator('#finish-study').click();await page.locator('#confirm-finish').click();await page.locator('.correction').waitFor();
    assert.match(await page.locator('.didactic-comment').innerText(),/Weber/);
    const stored=await page.evaluate(key=>{const p=JSON.parse(localStorage.getItem(key)).progress;const h=p.history.at(-1);return {right:h.answers.filter(a=>h.items.find(i=>i.question.id===a.questionId).key.value===a.value).length,comments:h.items.filter(i=>i.explanations.length).length};},progressKey);
-   assert.deepEqual(stored,{right:8,comments:8});
+   assert.deepEqual(stored,{right:15,comments:15});
    await page.locator('#new-session').click();await page.locator('#customize-study').click();
    await page.locator('#study-paper').selectOption('source-camara-2014-consultor-cb2-03');
    await page.locator('#study-discipline').selectOption('direito-constitucional-regimento');
@@ -48,6 +48,6 @@ const progressKey='questionador-concursos.progress.v1';
    await page.evaluate(()=>document.documentElement.style.fontSize='200%');assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
    assert.deepEqual(errors,[]);assert.deepEqual(external,[]);await context.close();
   }
-  console.log('Seventh batch passed: C/E science filter, eight official answers and comments, reload, dated RICD explanation, CERT.br reference, light/dark, 200% text, 320/1280px and no external runtime requests.');
+  console.log('Seventh batch passed: C/E science filter, fifteen official answers and comments, reload, dated RICD explanation, CERT.br reference, light/dark, 200% text, 320/1280px and no external runtime requests.');
  } finally {await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

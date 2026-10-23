@@ -23,7 +23,7 @@ const key='questionador-concursos.progress.v1';
    assert.equal(await page.locator('#study-options').evaluate(el=>el.matches(':modal')),true);
    assert.equal(await page.locator('#study-block').evaluate(el=>el===document.activeElement),true);
    await page.locator('#study-block').selectOption('basic');
-   assert.match(await page.locator('#study-filter-status').innerText(),/37 de 37/);
+   assert.match(await page.locator('#study-filter-status').innerText(),/49 de 49/);
    await page.locator('#study-discipline').selectOption('lingua-inglesa');
    await page.locator('#study-quantity').fill('1');await page.locator('#apply-study-options').click();
    assert.equal(await customize.evaluate(el=>el===document.activeElement),true);

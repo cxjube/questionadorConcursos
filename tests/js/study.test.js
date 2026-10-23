@@ -86,7 +86,7 @@ test('backup round trip preserves drafts and snapshots; invalid input never muta
 });
 test('backup rejects duplicate sessions, bad positions, type mismatches and altered current keys',()=>{
  const s=setup();const original=active(s);
- for(const mutate of [p=>p.active.position=99,p=>p.active.answers=[{questionId:p.active.items[0].question.id,value:'false'}],p=>p.active.items[0].key.value=false,p=>p.history=[{...p.active,finishedAt}]]){
+ for(const mutate of [p=>p.active.position=p.active.items.length,p=>p.active.answers=[{questionId:p.active.items[0].question.id,value:'false'}],p=>p.active.items[0].key.value=false,p=>p.history=[{...p.active,finishedAt}]]){
   const p=plain(original);mutate(p);assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(p),s.data));
  }
  const p=plain(original);p.active.items[0].question.revision=0;
@@ -219,7 +219,7 @@ test('performance ignores drafts, preserves historical results and never turns b
 });
 test('numbered passages and editorial comments survive backup, while damaged line numbering or missing references fail',()=>{
  const s=setup();const p={...s.Study.empty(),active:s.Study.create(s.data,s.role,s.Study.empty(),'all',{disciplineId:'lingua-portuguesa'})};
- assert.equal(p.active.items.length,19);
+ assert.equal(p.active.items.length,25);
  const raw=s.Study.exportBackup(p), original=plain(p);
  const restored=s.Study.importBackup(raw,s.data);assert.deepEqual(plain(restored),original);
  assert.equal(restored.active.items[0].contexts[0].sourceLines.length,26);
@@ -287,7 +287,7 @@ test('custom scoring never changes accuracy, unscored history or official criter
 test('block filters use target syllabus blocks, preserve distinct IDs and validate snapshots',()=>{
  const s=setup(),p=s.Study.empty();
  const basic=s.Study.pool(s.data,s.role,p,'all',{block:'basic'}),specific=s.Study.pool(s.data,s.role,p,'all',{block:'specific'});
- assert.equal(basic.length,37);assert.equal(specific.length,54);
+ assert.equal(basic.length,49);assert.equal(specific.length,61);
  assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',disciplineId:'lingua-inglesa'}).length,0);
  const session=s.Study.create(s.data,s.role,p,'all',{block:'basic',disciplineId:'lingua-inglesa'});
  assert.equal(session.items.length,4);assert.equal(session.selection.block,'basic');
@@ -302,8 +302,8 @@ test('block filters use target syllabus blocks, preserve distinct IDs and valida
  assert.ok(s.Study.validate({...p,active:legacy},s.data));
  const multi=plain(s.data),target=multi.syllabusItems.find(t=>t.block==='specific');
  multi.mappings.push({id:'synthetic-cross-block-link',questionId:basic[0].id,syllabusItemId:target.id,status:'confirmed'});
- assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,55);
- assert.equal(s.Study.pool(multi,s.role,p).length,90);
+ assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,62);
+ assert.equal(s.Study.pool(multi,s.role,p).length,109);
  assert.throws(()=>s.Study.pool(s.data,s.role,p,'all',{block:'invalid'}),/Bloco/);
 });
 test('evolution uses local calendar days, weighted accuracy and finalized role snapshots only',()=>{
@@ -345,8 +345,8 @@ test('sixth batch counts shared topics once and keeps MC separate from CE compos
  const shared='camara-2023-tecnica-tarde-tipo1-q017';
  assert.equal(basic.filter(q=>q.id===shared).length,1);assert.equal(specific.filter(q=>q.id===shared).length,1);
  assert.equal(s.Study.pool(s.data,s.role,p).filter(q=>q.id===shared).length,1);
- assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'}).length,36);
- assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'}).length,42);
+ assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'}).length,48);
+ assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'}).length,49);
  for(const discipline of s.data.disciplines) assert.ok(s.Study.pool(s.data,s.role,p,'all',{disciplineId:discipline.id}).length>0);
 });
 

@@ -1,0 +1,98 @@
+{
+  "id": "eighth-batch-legal-review",
+  "reviewedAt": "2026-10-23",
+  "scope": "Agent-assisted compatibility check against the cited active clauses in official Constitution HTML retained on 2026-10-23; not a new full external notice/legal audit or a guarantee about future amendments.",
+  "items": [
+    {
+      "questionId": "camara-2014-cb2-03-q071",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 24, caput e XII",
+          "activeQuote": "Art. 24. Compete à União, aos Estados e ao Distrito Federal legislar concorrentemente sobre:"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 24, XII",
+          "activeQuote": "XII - previdência social, proteção e defesa da saúde;"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q075",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 49, XIII",
+          "activeQuote": "XIII - escolher dois terços dos membros do Tribunal de Contas da União;"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 73, § 2º, I",
+          "activeQuote": "I - um terço pelo Presidente da República, com aprovação do Senado Federal, sendo dois alternadamente dentre auditores e membros do Ministério Público junto ao Tribunal"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q078",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 84, VI, b",
+          "activeQuote": "b) extinção de funções ou cargos públicos, quando vagos;"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q101",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 23, VII",
+          "activeQuote": "VII - preservar as florestas, a fauna e a flora;"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 24, VI",
+          "activeQuote": "VI - florestas, caça, pesca, fauna, conservação da natureza, defesa do solo e dos recursos naturais, proteção do meio ambiente e controle da poluição;"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q102",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 22, caput e V",
+          "activeQuote": "Art. 22. Compete privativamente à União legislar sobre:"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 22, V",
+          "activeQuote": "V - serviço postal;"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q105",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 23, caput",
+          "activeQuote": "Art. 23. É competência comum da União, dos Estados, do Distrito Federal e dos Municípios:"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 23, III",
+          "activeQuote": "III - proteger os documentos, as obras e outros bens de valor histórico, artístico e cultural, os monumentos, as paisagens naturais notáveis e os sítios arqueológicos;"
+        }
+      ]
+    }
+  ]
+}

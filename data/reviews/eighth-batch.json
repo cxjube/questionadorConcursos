@@ -1,0 +1,433 @@
+{
+  "id": "eighth-batch",
+  "reviewedAt": "2026-10-23",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/eighth-batch-release.md",
+  "items": [
+    {
+      "questionId": "038-anm-cg1-01-q001",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 1,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        729,
+        755
+      ],
+      "contextIds": [
+        "anm-cg1-orwell",
+        "anm-cg1-reading-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q001-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-1"
+      ],
+      "justification": "Identificação de extrapolação na caracterização dos espaços do texto."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q002",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 2,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        765,
+        791
+      ],
+      "contextIds": [
+        "anm-cg1-orwell",
+        "anm-cg1-reading-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q002-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-1"
+      ],
+      "justification": "Inferência sustentada pela preferência por ignorar o trabalho subterrâneo."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q003",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 3,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        208,
+        264
+      ],
+      "contextIds": [
+        "anm-cg1-orwell",
+        "anm-cg1-reading-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q003-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-1"
+      ],
+      "justification": "Compreensão da importância do carvão no argumento do texto-base."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q004",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 4,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        323,
+        379
+      ],
+      "contextIds": [
+        "anm-cg1-orwell",
+        "anm-cg1-portuguese-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q004-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-4-1"
+      ],
+      "justification": "Valor comparativo do conector no último período."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q006",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 6,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        449,
+        488
+      ],
+      "contextIds": [
+        "anm-cg1-orwell",
+        "anm-cg1-portuguese-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q006-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-4-2"
+      ],
+      "justification": "Interpretação do subjuntivo em uma construção de sentido indeterminado."
+    },
+    {
+      "questionId": "038-anm-cg1-01-q009",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 9,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        647,
+        721
+      ],
+      "contextIds": [
+        "anm-cg1-orwell",
+        "anm-cg1-portuguese-command"
+      ],
+      "answerKeyId": "038-anm-cg1-01-q009-key-v1",
+      "answerDocumentId": "source-038-anm-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-5-4"
+      ],
+      "justification": "Distinção entre funções dos segmentos destacados por vírgulas."
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q071",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "number": 71,
+      "sourcePage": 9,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        135,
+        175
+      ],
+      "contextIds": [
+        "camara-2014-competencias-uniao"
+      ],
+      "answerKeyId": "camara-2014-cb2-03-q071-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-cb2-03-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-3"
+      ],
+      "justification": "Competência legislativa concorrente para proteção e defesa da saúde."
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q075",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "number": 75,
+      "sourcePage": 9,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        372,
+        430
+      ],
+      "contextIds": [
+        "camara-2014-competencias-uniao"
+      ],
+      "answerKeyId": "camara-2014-cb2-03-q075-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-cb2-03-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-5"
+      ],
+      "justification": "Repartição da escolha dos ministros do TCU entre Congresso e Presidência."
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q078",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "number": 78,
+      "sourcePage": 9,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        682,
+        705
+      ],
+      "contextIds": [
+        "camara-2014-poderes-presidente"
+      ],
+      "answerKeyId": "camara-2014-cb2-03-q078-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-cb2-03-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-4"
+      ],
+      "justification": "Decreto para extinção de cargos públicos vagos."
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q101",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "number": 101,
+      "sourcePage": 10,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        104,
+        129
+      ],
+      "contextIds": [
+        "camara-2014-direito-economico-comando"
+      ],
+      "answerKeyId": "camara-2014-cb2-03-q101-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-cb2-03-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-3"
+      ],
+      "justification": "Distinção entre competência administrativa comum e legislação concorrente ambiental."
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q102",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "number": 102,
+      "sourcePage": 10,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        152,
+        198
+      ],
+      "contextIds": [
+        "camara-2014-direito-economico-comando"
+      ],
+      "answerKeyId": "camara-2014-cb2-03-q102-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-cb2-03-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-3"
+      ],
+      "justification": "Competência da União para legislar sobre serviço postal."
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q105",
+      "paperId": "source-camara-2014-consultor-cb2-03",
+      "number": 105,
+      "sourcePage": 10,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        318,
+        385
+      ],
+      "contextIds": [
+        "camara-2014-direito-economico-comando"
+      ],
+      "answerKeyId": "camara-2014-cb2-03-q105-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-cb2-03-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-3"
+      ],
+      "justification": "Competência comum de proteção do patrimônio histórico e cultural."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q111",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 111,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        150,
+        179
+      ],
+      "contextIds": [
+        "camara-2014-estado-comando"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q111-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-11"
+      ],
+      "justification": "Diferenciação entre Estado moderno e sociedade civil."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q115",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 115,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        336,
+        378
+      ],
+      "contextIds": [
+        "camara-2014-estado-comando"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q115-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-11"
+      ],
+      "justification": "Relação entre burocracia e ordem legal no Estado."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q116",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 116,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        389,
+        430
+      ],
+      "contextIds": [
+        "camara-2014-estado-comando"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q116-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-2"
+      ],
+      "justification": "Legitimidade, confiança e consentimento na obediência ao poder."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q126",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 126,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        570,
+        611
+      ],
+      "contextIds": [
+        "camara-2014-teoria-politica-comando"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q126-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-2"
+      ],
+      "justification": "Estrutura de oportunidade política e contexto da mobilização coletiva."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q128",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 128,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        676,
+        718
+      ],
+      "contextIds": [
+        "camara-2014-teoria-politica-comando"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q128-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-2"
+      ],
+      "justification": "Gramsci e crítica ao determinismo econômico da ação política."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q136",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 136,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        545,
+        569
+      ],
+      "contextIds": [
+        "camara-2014-modelos-comando"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q136-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-3"
+      ],
+      "justification": "Controle de constitucionalidade na comparação entre modelos de democracia."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q137",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 137,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        590,
+        614
+      ],
+      "contextIds": [
+        "camara-2014-modelos-comando"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q137-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-3"
+      ],
+      "justification": "Independência do banco central no modelo consensual de democracia."
+    }
+  ]
+}
