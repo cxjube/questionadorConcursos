@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "question",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "bankId",
+    "revision",
+    "type",
+    "stem",
+    "options",
+    "origin",
+    "answerKeyId"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "bankId": {
+      "const": "concursos"
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "type": {
+      "enum": [
+        "multiple_choice",
+        "true_false"
+      ]
+    },
+    "stem": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "text"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        }
+      }
+    },
+    "origin": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "paperId",
+            "number",
+            "locator"
+          ],
+          "properties": {
+            "kind": {
+              "const": "official"
+            },
+            "paperId": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+            },
+            "number": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "locator": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "author",
+            "reference"
+          ],
+          "properties": {
+            "kind": {
+              "const": "authorial"
+            },
+            "author": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "reference": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            }
+          }
+        }
+      ]
+    },
+    "answerKeyId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "multiple_choice"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "options": {
+            "minItems": 2,
+            "maxItems": 10
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "true_false"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "options": {
+            "maxItems": 0
+          }
+        }
+      }
+    }
+  ]
+}

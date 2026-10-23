@@ -1,0 +1,8 @@
+{
+  "name": "questionador-concursos",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static application; Node runs tests only, with no dependencies.",
+  "scripts": { "test": "node --test tests/js/*.test.js" },
+  "engines": { "node": ">=22" }
+}

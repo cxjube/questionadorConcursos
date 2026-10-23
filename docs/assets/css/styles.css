@@ -1,0 +1,223 @@
+/* =========================================================================
+   Questionador Concursos — adapted from mugubr/questionador (see CREDITS.md)
+
+   Visual direction: academic editorial. A warm paper sheet floating on a
+   darker page, serif for anything that is read at length, sans for anything
+   that is operated, and color used semantically and never decoratively.
+
+   Three rules hold this file together:
+
+   1. Every color is a token, declared once with both themes side by side.
+   2. Every space and every type size comes from the scales below. A one-off
+      value is a bug, not a shortcut.
+   3. Every contrast pair was measured in both themes against the WCAG 2.2 AA
+      floor (4.5:1 for text, 3:1 for the boundary of an interactive control).
+      Changing a token means re-measuring it.
+   ========================================================================= */
+
+/* ---------- Theme switch -------------------------------------------------
+   `color-scheme` is what light-dark() reads, so the three declarations below
+   are the whole theme switch: no data-theme means "follow the system", and an
+   explicit choice pins it. This also makes the browser paint scrollbars and
+   form controls to match. Every token is then declared ONCE, with both values
+   side by side, instead of a dark palette duplicated across a media query and
+   an attribute selector that have to be hand-synchronized.
+   ------------------------------------------------------------------------ */
+
+:root {
+  color-scheme: light dark;
+}
+:root[data-theme='light'] {
+  color-scheme: light;
+}
+:root[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+:root {
+  /* ---- Surfaces: warm paper, not clinical white. ---- */
+  --surface: light-dark(oklch(97.5% 0.008 85), oklch(21% 0.012 60));
+  --surface-raised: light-dark(oklch(99.5% 0.004 85), oklch(25% 0.014 60));
+  --surface-sunken: light-dark(oklch(94% 0.012 85), oklch(16% 0.01 60));
+
+  --text: light-dark(oklch(23% 0.015 60), oklch(92% 0.01 85));
+  --text-soft: light-dark(oklch(45% 0.012 60), oklch(78% 0.012 85));
+  --text-faint: light-dark(oklch(51% 0.012 60), oklch(68% 0.012 85));
+
+  /* The label that sits on top of an ink-filled control. It has to invert
+     with the theme, because the ink fill itself is dark in light theme and
+     light in dark theme. */
+  --on-ink: light-dark(oklch(98.5% 0.004 85), oklch(17% 0.012 60));
+
+  /* --border is a decorative hairline. Anything that outlines an interactive
+     control uses --border-strong, which clears 3:1 on all three surfaces. */
+  --border: light-dark(oklch(84% 0.012 75), oklch(36% 0.014 60));
+  --border-strong: light-dark(oklch(60% 0.016 75), oklch(56% 0.016 60));
+
+  /* The focus ring owns its own hue so it can never be confused with a
+     provenance badge or with a grading color. */
+  --focus: light-dark(oklch(46% 0.19 262), oklch(80% 0.14 262));
+
+  /* ---- Grading. ---- */
+  --correct: light-dark(oklch(46% 0.14 152), oklch(80% 0.16 152));
+  --correct-surface: light-dark(oklch(94.5% 0.045 152), oklch(29% 0.055 152));
+  --incorrect: light-dark(oklch(49% 0.19 27), oklch(78% 0.15 27));
+  --incorrect-surface: light-dark(oklch(95% 0.038 27), oklch(29% 0.055 27));
+
+  /* ---- Provenance and caution. Every answer in the bank now comes from a
+     published key, so provenance is one calm slate mark rather than an axis;
+     --warn is what is left of the old amber, and it now means "this question
+     is out of the ordinary" — annulled, or repeated by a defective booklet. ---- */
+  --official: light-dark(oklch(41% 0.03 250), oklch(80% 0.026 250));
+  --official-surface: light-dark(oklch(94.5% 0.012 250), oklch(28% 0.018 250));
+  --warn: light-dark(oklch(47% 0.115 68), oklch(83% 0.125 75));
+  --warn-surface: light-dark(oklch(95.5% 0.045 78), oklch(30% 0.05 70));
+
+  /* Shadows carry their color through a token so the palette stays in one
+     place. In dark theme a shadow is nearly invisible, which is why depth is
+     carried by the surface ramp as well. */
+  --shadow-color: light-dark(oklch(30% 0.03 60 / 0.1), oklch(0% 0 0 / 0.45));
+  --shadow-sm: 0 1px 2px var(--shadow-color);
+  --shadow-md: 0 2px 4px var(--shadow-color), 0 8px 24px -12px var(--shadow-color);
+
+  /* The dialog backdrop, dimming the app behind a confirmation prompt. */
+  --backdrop: light-dark(oklch(20% 0.02 60 / 0.35), oklch(0% 0 0 / 0.55));
+
+  /* ---- Type. System stacks only: no webfont, no external request. ---- */
+  --font-serif:
+    'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif;
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
+
+  /* One scale, roughly a minor third, with the two reading sizes fluid. */
+  --text-3xs: 0.6875rem; /* 11px - badges and eyebrow labels. */
+  --text-2xs: 0.75rem; /* 12px - counts, meta. */
+  --text-xs: 0.8125rem; /* 13px - footnotes, references. */
+  --text-sm: 0.875rem; /* 14px - secondary controls. */
+  --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.0625rem);
+  --text-md: clamp(1.0625rem, 1rem + 0.2vw, 1.1875rem);
+  --text-lg: clamp(1.15rem, 1.05rem + 0.4vw, 1.35rem);
+  --text-xl: clamp(1.35rem, 1.1rem + 1vw, 1.9rem);
+  --text-stem: clamp(1.0625rem, 1rem + 0.4vw, 1.25rem);
+  --text-display: clamp(1.5rem, 1.2rem + 1.6vw, 2.375rem);
+  --text-hero: clamp(2.75rem, 2rem + 3.4vw, 4.25rem);
+
+  --leading-tight: 1.15;
+  --leading-snug: 1.35;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.72;
+
+  /* ---- Space. One scale; --gutter is the only fluid member. ---- */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4rem;
+  --gutter: clamp(1rem, 4vw, 2.5rem);
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+
+  --fast: 120ms;
+  --normal: 200ms;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.3, 1);
+
+  --content-width: 54rem;
+
+  /* Two reading measures, and they are deliberately different units.
+
+     --measure-stem is a fixed column, because the stems are rendered
+     `pre-wrap`: `pdftotext -layout` baked the exam's own line breaks into the
+     data, 95% of those source lines are 83 characters or shorter, and 760px
+     is what 83 characters of the largest stem size occupy. A narrower column
+     would wrap a quarter of the lines and leave a two-word orphan under every
+     full one, which reads far worse than a long measure. Being fixed also
+     lines the stem, the options and the correction up on one right edge.
+
+     --measure-prose is in em, because prose the app writes itself carries no
+     line breaks and its measure really is a character count: 32em is about 70
+     characters at whatever size the text happens to be set in. */
+  --measure-stem: 47.5rem;
+  --measure-prose: 32em;
+
+  --target: 44px;
+}
+
+/* Safety net for browsers without light-dark(). A custom property holding an
+   unsupported function still parses, so it wins the cascade and only fails
+   when substituted — which would leave the page with no colors at all rather
+   than falling back. Re-declaring the light palette here is the only way to
+   avoid that. Such a browser gets light theme only, which is readable and
+   correct; the dark palette is deliberately not duplicated. */
+@supports not (color: light-dark(white, black)) {
+  :root {
+    --surface: oklch(97.5% 0.008 85);
+    --surface-raised: oklch(99.5% 0.004 85);
+    --surface-sunken: oklch(94% 0.012 85);
+
+    --text: oklch(23% 0.015 60);
+    --text-soft: oklch(45% 0.012 60);
+    --text-faint: oklch(51% 0.012 60);
+    --on-ink: oklch(98.5% 0.004 85);
+
+    --border: oklch(84% 0.012 75);
+    --border-strong: oklch(60% 0.016 75);
+    --focus: oklch(46% 0.19 262);
+
+    --correct: oklch(46% 0.14 152);
+    --correct-surface: oklch(94.5% 0.045 152);
+    --incorrect: oklch(49% 0.19 27);
+    --incorrect-surface: oklch(95% 0.038 27);
+
+    --official: oklch(41% 0.03 250);
+    --official-surface: oklch(94.5% 0.012 250);
+    --warn: oklch(47% 0.115 68);
+    --warn-surface: oklch(95.5% 0.045 78);
+
+    --shadow-color: oklch(30% 0.03 60 / 0.1);
+    --backdrop: oklch(20% 0.02 60 / 0.35);
+  }
+}
+
+
+/* Foundation layout; theme tokens and type scales above are adapted from Questionador. */
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--surface-sunken); color: var(--text); font-family: var(--font-sans); font-size: var(--text-base); line-height: var(--leading-normal); }
+.wrapper { width: min(var(--content-width), calc(100% - 2 * var(--gutter))); margin-inline: auto; }
+.header { display: flex; flex-wrap: wrap; gap: var(--space-md); justify-content: space-between; align-items: center; padding-block: var(--space-xl) var(--space-lg); }
+h1, h2, h3 { line-height: var(--leading-snug); overflow-wrap: anywhere; }
+h1 { font: bold var(--text-display)/var(--leading-tight) var(--font-serif); margin: 0; }
+h2 { font-size: var(--text-xl); margin-top: 0; }
+h3 { font-size: var(--text-lg); }
+p { overflow-wrap: anywhere; }
+a { color: var(--text); text-underline-offset: 0.2em; }
+.eyebrow { font-size: var(--text-sm); margin: 0 0 var(--space-xs); color: var(--text-soft); }
+.panel { background: var(--surface-raised); border: 1px solid var(--border); border-radius: var(--radius-md); padding: var(--space-lg); margin-bottom: var(--space-md); }
+.fields { display: grid; gap: var(--space-md); margin-block: var(--space-lg); }
+.fields > div { min-width: 0; }
+label { display: block; font-weight: 600; margin-bottom: var(--space-2xs); }
+select, button { font: inherit; color: var(--text); background: var(--surface-raised); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); min-height: var(--target); padding: var(--space-2xs) var(--space-xs); }
+select { width: 100%; min-width: 0; }
+button { cursor: pointer; }
+button[aria-pressed='true'] { background: var(--text); color: var(--on-ink); }
+.themes { display: flex; flex-wrap: wrap; gap: var(--space-2xs); }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+.notice-list { padding-left: var(--space-md); }
+.notice-list li { margin-bottom: var(--space-sm); overflow-wrap: anywhere; }
+.notice-list span { display: block; color: var(--text-soft); }
+.status, .footer { font-size: var(--text-sm); color: var(--text-soft); }
+.footer { padding-block: var(--space-md) var(--space-xl); }
+.skip-link { position: absolute; top: -8rem; left: var(--space-sm); padding: var(--space-sm); background: var(--surface-raised); z-index: 2; }
+.skip-link:focus { top: var(--space-sm); }
+[hidden] { display: none !important; }
+@media (min-width: 48rem) { .fields { grid-template-columns: 1fr 2fr; } }
+@media (max-width: 34rem) { .panel { padding: var(--space-sm); } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; } }

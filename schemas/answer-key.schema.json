@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "answer-key",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "questionId",
+    "version",
+    "origin",
+    "status",
+    "documentId",
+    "author",
+    "locator",
+    "result",
+    "value"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "questionId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "origin": {
+      "enum": [
+        "official",
+        "authorial"
+      ]
+    },
+    "status": {
+      "enum": [
+        "confirmed",
+        "pending"
+      ]
+    },
+    "documentId": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "author": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "locator": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "result": {
+      "enum": [
+        "valid",
+        "annulled",
+        "withdrawn"
+      ]
+    },
+    "value": {
+      "type": [
+        "string",
+        "boolean",
+        "null"
+      ]
+    }
+  }
+}

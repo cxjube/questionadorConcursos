@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "scoring-rule",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "noticeId",
+    "roleId",
+    "status",
+    "documentId",
+    "reference",
+    "durationMinutes",
+    "minimumTotalScore",
+    "blocks"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "noticeId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "roleId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "status": {
+      "enum": [
+        "confirmed"
+      ]
+    },
+    "documentId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "reference": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "durationMinutes": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "minimumTotalScore": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "blocks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "label",
+          "questionType",
+          "questionCount",
+          "correct",
+          "incorrect",
+          "blank",
+          "annulledPolicy",
+          "annulledPoints",
+          "minimumScore"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "questionType": {
+            "enum": [
+              "multiple_choice",
+              "true_false"
+            ]
+          },
+          "questionCount": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "correct": {
+            "type": "number"
+          },
+          "incorrect": {
+            "type": "number"
+          },
+          "blank": {
+            "type": "number"
+          },
+          "annulledPolicy": {
+            "enum": [
+              "exclude",
+              "credit",
+              "fixed"
+            ]
+          },
+          "annulledPoints": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "minimumScore": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      },
+      "minItems": 1
+    }
+  }
+}

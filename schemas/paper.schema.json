@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "paper",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "bankId",
+    "title",
+    "provider",
+    "institution",
+    "role",
+    "year",
+    "booklet",
+    "documentId",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "bankId": {
+      "const": "concursos"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "provider": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "institution": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "role": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2200
+    },
+    "booklet": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "documentId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "status": {
+      "enum": [
+        "verified"
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Questionador Concursos: estudos por concurso e edital, sem cadastro.">
+    <title>Questionador Concursos</title>
+    <script>
+      // Apply the persisted theme before paint; adapted from Questionador.
+      try {
+        const theme = localStorage.getItem('questionador-concursos.theme.v1');
+        if (theme === 'light' || theme === 'dark') document.documentElement.setAttribute('data-theme', theme);
+      } catch (_) { /* Blocked storage must not prevent startup. */ }
+    </script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script defer src="assets/js/types.js"></script>
+    <script defer src="assets/js/storage.js"></script>
+    <script defer src="assets/js/theme.js"></script>
+    <script defer src="assets/js/catalog.js"></script>
+    <script defer src="data/catalog.js"></script>
+    <script defer src="assets/js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Ir para o conteúdo</a>
+    <header class="wrapper header">
+      <div><p class="eyebrow">Seu espaço de estudo</p><h1>Questionador Concursos</h1></div>
+      <div class="themes" role="group" aria-label="Tema da página">
+        <button type="button" data-theme-choice="system" aria-pressed="true">Automático</button>
+        <button type="button" data-theme-choice="light" aria-pressed="false">Claro</button>
+        <button type="button" data-theme-choice="dark" aria-pressed="false">Escuro</button>
+      </div>
+    </header>
+    <main id="main" class="wrapper" tabindex="-1">
+      <section class="panel" aria-labelledby="selection-heading">
+        <p class="eyebrow">Fundação do projeto</p>
+        <h2 id="selection-heading">Escolha seu objetivo</h2>
+        <p>O catálogo está sendo preparado com base nos documentos de cada concurso.</p>
+        <div class="fields">
+          <div><label for="contest">Concurso</label><select id="contest" aria-describedby="contest-status"><option>Carregando catálogo…</option></select></div>
+          <div><label for="role">Cargo e área</label><select id="role"><option>Aguardando seleção</option></select></div>
+        </div>
+        <p id="provider"></p><p id="contest-status"></p>
+        <h3>Documentos de referência</h3>
+        <ul id="notices" class="notice-list"></ul>
+      </section>
+      <section class="panel" aria-labelledby="bank-heading">
+        <h2 id="bank-heading">Banco de questões em preparação</h2>
+        <p>Nenhuma questão foi publicada. O estudo será habilitado após a revisão das fontes, das questões e dos gabaritos.</p>
+        <p>Não há conteúdo programático ou regras de pontuação preenchidos por suposição.</p>
+      </section>
+      <p id="status" class="status" role="status" aria-live="polite" aria-atomic="true">Carregando catálogo.</p>
+      <p id="storage-warning" hidden>O navegador bloqueou o armazenamento local. Sua preferência de tema não será lembrada.</p>
+      <noscript><p>Ative o JavaScript para selecionar o concurso. Esta aplicação não exige cadastro.</p></noscript>
+    </main>
+    <footer class="wrapper footer">
+      <p>Baseado no <a href="https://github.com/mugubr/questionador">Questionador</a>, de Miguel Muniz e Rubens Braz. Adaptado para Questionador Concursos com autorização informada pelo responsável pelo projeto.</p>
+      <p>Sem cadastro. Preferências salvas somente neste navegador.</p>
+    </footer>
+  </body>
+</html>

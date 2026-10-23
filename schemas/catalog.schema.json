@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Questionador Concursos catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "bankId",
+    "contests",
+    "roles",
+    "notices",
+    "disciplines",
+    "topics",
+    "documents",
+    "papers",
+    "questions",
+    "answerKeys",
+    "explanations",
+    "syllabusItems",
+    "mappings",
+    "scoringRules"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "bankId": {
+      "const": "concursos"
+    },
+    "contests": {
+      "type": "array",
+      "items": {
+        "$ref": "contest.schema.json"
+      }
+    },
+    "roles": {
+      "type": "array",
+      "items": {
+        "$ref": "role.schema.json"
+      }
+    },
+    "notices": {
+      "type": "array",
+      "items": {
+        "$ref": "notice.schema.json"
+      }
+    },
+    "disciplines": {
+      "type": "array",
+      "items": {
+        "$ref": "discipline.schema.json"
+      }
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "$ref": "topic.schema.json"
+      }
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "$ref": "document.schema.json"
+      }
+    },
+    "papers": {
+      "type": "array",
+      "items": {
+        "$ref": "paper.schema.json"
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "$ref": "question.schema.json"
+      }
+    },
+    "answerKeys": {
+      "type": "array",
+      "items": {
+        "$ref": "answer-key.schema.json"
+      }
+    },
+    "explanations": {
+      "type": "array",
+      "items": {
+        "$ref": "explanation.schema.json"
+      }
+    },
+    "syllabusItems": {
+      "type": "array",
+      "items": {
+        "$ref": "syllabus-item.schema.json"
+      }
+    },
+    "mappings": {
+      "type": "array",
+      "items": {
+        "$ref": "mapping.schema.json"
+      }
+    },
+    "scoringRules": {
+      "type": "array",
+      "items": {
+        "$ref": "scoring-rule.schema.json"
+      }
+    }
+  }
+}
