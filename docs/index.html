@@ -31,6 +31,12 @@
       </div>
     </header>
     <main id="main" class="wrapper" tabindex="-1">
+      <div class="section-tabs" role="tablist" aria-label="Informações do concurso">
+        <button id="program-tab" type="button" role="tab" aria-controls="program-section" aria-selected="true" tabindex="0">Conteúdo programático</button>
+        <button id="rules-tab" type="button" role="tab" aria-controls="rules-section" aria-selected="false" tabindex="-1">Regras das provas objetivas</button>
+        <button id="consolidation-tab" type="button" role="tab" aria-controls="consolidation-section" aria-selected="false" tabindex="-1">Abertura e retificações</button>
+        <button id="sources-tab" type="button" role="tab" aria-controls="sources-section" aria-selected="false" tabindex="-1">Arquivos de provas recebidos</button>
+      </div>
       <section class="panel" aria-labelledby="selection-heading">
         <p class="eyebrow">Seu edital, organizado</p>
         <h2 id="selection-heading">Escolha seu objetivo</h2>
@@ -40,26 +46,26 @@
           <div><label for="role">Cargo e área</label><select id="role"><option>Aguardando seleção</option></select></div>
         </div>
         <p id="provider"></p><p id="contest-status"></p>
-        <h3>Documentos de referência</h3>
-        <ul id="notices" class="notice-list"></ul>
       </section>
-      <section id="program-section" class="panel" aria-labelledby="program-heading" hidden>
+      <section id="program-section" class="panel" role="tabpanel" aria-labelledby="program-tab" tabindex="0">
         <h2 id="program-heading">Conteúdo programático</h2>
         <p id="program-summary"></p>
         <p id="program-source-note" class="review-note">Consulte o estado das fontes e as referências de cada item do edital.</p>
         <div id="program"></div>
       </section>
-      <section id="rules-section" class="panel" aria-labelledby="rules-heading" hidden>
+      <section id="rules-section" class="panel" role="tabpanel" aria-labelledby="rules-tab" tabindex="0" hidden>
         <h2 id="rules-heading">Regras das provas objetivas</h2>
         <div id="rules"></div>
-        <p>Atingir os mínimos não garante aprovação: também se aplicam os limites de classificação e as demais regras do edital.</p>
+        <p id="rules-caution">Atingir os mínimos não garante aprovação: também se aplicam os limites de classificação e as demais regras do edital.</p>
       </section>
-      <section id="consolidation-section" class="panel" aria-labelledby="consolidation-heading" hidden>
+      <section id="consolidation-section" class="panel" role="tabpanel" aria-labelledby="consolidation-tab" tabindex="0" hidden>
         <h2 id="consolidation-heading">Abertura e retificações</h2>
         <p id="consolidation-scope"></p>
+        <h3>Documentos de referência</h3>
+        <ul id="notices" class="notice-list"></ul>
         <div id="consolidation"></div>
       </section>
-      <section class="panel" aria-labelledby="sources-heading">
+      <section id="sources-section" class="panel" role="tabpanel" aria-labelledby="sources-tab" tabindex="0" hidden>
         <h2 id="sources-heading">Arquivos de provas recebidos</h2>
         <p id="inventory-summary"></p>
         <ul id="inventory" class="notice-list"></ul>

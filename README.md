@@ -8,6 +8,8 @@ Câmara dos Deputados — Analista Legislativo — Comunicação Social — Divu
 
 Um [primeiro lote de 20 questões](documentation/first-batch-review.md), com comandos, alternativas, texto compartilhado e gabaritos definitivos, está em `data/workbench/`. A comparação foi assistida por agente; os vínculos temáticos são sugestões. Ele não integra o banco publicado, que continua vazio. PDFs e rascunhos ficam fora do Pages.
 
+Programa, regras objetivas, abertura/retificações e arquivos recebidos ficam em quatro abas abaixo do título. A seleção de concurso/cargo é comum; as abas aceitam clique, setas, Home e End. O tema escuro usa azul-marinho; o automático acompanha a preferência do sistema.
+
 ## Executar localmente
 
 O site não depende de Python, Node ou instalação de pacotes para seus usuários. Para servir os arquivos durante o desenvolvimento, na raiz do repositório:
@@ -92,7 +94,7 @@ Com Playwright e Chromium já disponíveis na máquina, sirva `docs/` e execute:
 APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-smoke.cjs
 ```
 
-Essas ferramentas não integram a aplicação nem são dependências obrigatórias do projeto. O teste cobre temas, persistência, seletores, atalhos de navegação e ausência de transbordamento horizontal em 320 e 1280 px. Não substitui uma auditoria completa de acessibilidade.
+Essas ferramentas não integram a aplicação nem são dependências obrigatórias do projeto. O teste cobre abas, navegação por teclado, temas, persistência, seletores, estados sem dados e ausência de transbordamento horizontal em 320 e 1280 px. Não substitui uma auditoria completa de acessibilidade.
 
 ## Próxima etapa
 

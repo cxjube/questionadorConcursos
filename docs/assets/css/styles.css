@@ -35,24 +35,26 @@
 }
 
 :root {
-  /* ---- Surfaces: warm paper, not clinical white. ---- */
-  --surface: light-dark(oklch(97.5% 0.008 85), oklch(21% 0.012 60));
-  --surface-raised: light-dark(oklch(99.5% 0.004 85), oklch(25% 0.014 60));
-  --surface-sunken: light-dark(oklch(94% 0.012 85), oklch(16% 0.01 60));
+  /* ---- Surfaces: warm light paper and a dark navy blue ramp. ---- */
+  --surface: light-dark(oklch(97.5% 0.008 85), oklch(21% 0.038 255));
+  --surface-raised: light-dark(oklch(99.5% 0.004 85), oklch(25% 0.04 255));
+  --surface-sunken: light-dark(oklch(94% 0.012 85), oklch(16% 0.035 255));
 
-  --text: light-dark(oklch(23% 0.015 60), oklch(92% 0.01 85));
-  --text-soft: light-dark(oklch(45% 0.012 60), oklch(78% 0.012 85));
-  --text-faint: light-dark(oklch(51% 0.012 60), oklch(68% 0.012 85));
+  --text: light-dark(oklch(23% 0.015 60), oklch(92% 0.016 250));
+  --text-soft: light-dark(oklch(45% 0.012 60), oklch(78% 0.025 250));
+  --text-faint: light-dark(oklch(51% 0.012 60), oklch(68% 0.025 250));
 
   /* The label that sits on top of an ink-filled control. It has to invert
      with the theme, because the ink fill itself is dark in light theme and
      light in dark theme. */
-  --on-ink: light-dark(oklch(98.5% 0.004 85), oklch(17% 0.012 60));
+  --on-ink: light-dark(oklch(98.5% 0.004 85), oklch(17% 0.035 255));
 
   /* --border is a decorative hairline. Anything that outlines an interactive
      control uses --border-strong, which clears 3:1 on all three surfaces. */
-  --border: light-dark(oklch(84% 0.012 75), oklch(36% 0.014 60));
-  --border-strong: light-dark(oklch(60% 0.016 75), oklch(56% 0.016 60));
+  --border: light-dark(oklch(84% 0.012 75), oklch(36% 0.035 255));
+  --border-strong: light-dark(oklch(60% 0.016 75), oklch(60% 0.045 250));
+  --tab-accent: light-dark(oklch(44% 0.14 250), oklch(80% 0.09 250));
+  --tab-selected: light-dark(oklch(95% 0.018 250), oklch(30% 0.055 255));
 
   /* The focus ring owns its own hue so it can never be confused with a
      provenance badge or with a grading color. */
@@ -171,6 +173,8 @@
     --border: oklch(84% 0.012 75);
     --border-strong: oklch(60% 0.016 75);
     --focus: oklch(46% 0.19 262);
+    --tab-accent: oklch(44% 0.14 250);
+    --tab-selected: oklch(95% 0.018 250);
 
     --correct: oklch(46% 0.14 152);
     --correct-surface: oklch(94.5% 0.045 152);
@@ -209,6 +213,10 @@ select { width: 100%; min-width: 0; }
 button { cursor: pointer; }
 button[aria-pressed='true'] { background: var(--text); color: var(--on-ink); }
 .themes { display: flex; flex-wrap: wrap; gap: var(--space-2xs); }
+.section-tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-2xs); margin-bottom: var(--space-md); }
+.section-tabs button { border-radius: var(--radius-sm); font-size: var(--text-sm); line-height: var(--leading-snug); overflow-wrap: anywhere; }
+.section-tabs button:hover { background: var(--surface); }
+.section-tabs button[aria-selected='true'] { background: var(--tab-selected); border-color: var(--tab-accent); color: var(--tab-accent); font-weight: 700; box-shadow: inset 0 -3px var(--tab-accent); }
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .notice-list { padding-left: var(--space-md); }
 .notice-list li { margin-bottom: var(--space-sm); overflow-wrap: anywhere; }
@@ -219,7 +227,7 @@ button[aria-pressed='true'] { background: var(--text); color: var(--on-ink); }
 .skip-link:focus { top: var(--space-sm); }
 [hidden] { display: none !important; }
 @media (min-width: 48rem) { .fields { grid-template-columns: 1fr 2fr; } }
-@media (max-width: 34rem) { .panel { padding: var(--space-sm); } }
+@media (max-width: 34rem) { .panel { padding: var(--space-sm); } .section-tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; } }
 
 /* Read-only notice consultation, with native accessible disclosures. */

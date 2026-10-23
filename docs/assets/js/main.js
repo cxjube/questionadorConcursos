@@ -26,6 +26,30 @@
     }
   }
   try {
+    const tabs = /** @type {NodeListOf<HTMLButtonElement>} */ (document.querySelectorAll('[role="tab"]'));
+    /** @param {HTMLButtonElement} selected @returns {void} */
+    function activateTab(selected) {
+      for (const tab of tabs) {
+        const active = tab === selected;
+        tab.setAttribute('aria-selected', String(active));
+        tab.tabIndex = active ? 0 : -1;
+        element(tab.getAttribute('aria-controls') || '').hidden = !active;
+      }
+    }
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => activateTab(tab));
+      tab.addEventListener('keydown', event => {
+        let next = index;
+        if (event.key === 'ArrowRight') next = (index + 1) % tabs.length;
+        else if (event.key === 'ArrowLeft') next = (index + tabs.length - 1) % tabs.length;
+        else if (event.key === 'Home') next = 0;
+        else if (event.key === 'End') next = tabs.length - 1;
+        else return;
+        event.preventDefault();
+        activateTab(tabs[next]);
+        tabs[next].focus();
+      });
+    });
     setTheme(Theme.read());
     for (const button of document.querySelectorAll('[data-theme-choice]')) {
       button.addEventListener('click', () => {
@@ -88,14 +112,15 @@
     /** @param {string} roleId @returns {void} */
     function renderProgram(roleId) {
       const items = Catalog.syllabusFor(data, roleId);
-      element('program-section').hidden = items.length === 0;
       const target = element('program');
       target.replaceChildren();
       const topicIndex = new Map(data.topics.map(topic => [topic.id, topic]));
       const groups = data.disciplines.filter(discipline => items.some(item => topicIndex.get(item.topicId)?.disciplineId === discipline.id));
-      element('program-source-note').textContent = items.length && items.every(item => item.status === 'confirmed')
-        ? 'Transcrição com numeração e páginas das fontes oficiais conferidas. Acompanhe os atos posteriores do concurso.'
-        : 'Transcrição das cópias fornecidas. A conferência externa da fonte oficial está pendente.';
+      element('program-source-note').textContent = !items.length
+        ? 'O conteúdo programático deste cargo ainda não foi cadastrado.'
+        : items.every(item => item.status === 'confirmed')
+          ? 'Transcrição com numeração e páginas das fontes oficiais conferidas. Acompanhe os atos posteriores do concurso.'
+          : 'Transcrição das cópias fornecidas. A conferência externa da fonte oficial está pendente.';
       element('program-summary').textContent = groups.length + ' disciplinas · ' + items.length + ' tópicos e subtópicos. Abra uma disciplina para consultar.';
       for (const discipline of groups) {
         const selected = items.filter(item => topicIndex.get(item.topicId)?.disciplineId === discipline.id);
@@ -124,9 +149,10 @@
     /** @param {string} roleId @returns {void} */
     function renderRules(roleId) {
       const rules = Catalog.rulesFor(data, roleId);
-      element('rules-section').hidden = rules.length === 0;
+      element('rules-caution').hidden = rules.length === 0;
       const target = element('rules');
       target.replaceChildren();
+      if (!rules.length) target.append(node('p', 'As regras das provas objetivas deste cargo ainda não foram cadastradas.'));
       for (const rule of rules) {
         target.append(node('p', 'Certo/Errado · ' + rule.durationMinutes + ' minutos para P1 e P2 · mínimo total: ' + rule.minimumTotalScore + ' pontos.'));
         for (const block of rule.blocks) {
@@ -140,10 +166,9 @@
     /** @param {string} contestId @param {string} roleId @returns {void} */
     function renderConsolidation(contestId, roleId) {
       const review = data.consolidations.find(row => row.contestId === contestId && row.roleId === roleId);
-      element('consolidation-section').hidden = !review;
       const target = element('consolidation');
       target.replaceChildren();
-      element('consolidation-scope').textContent = review?.scopeNote || '';
+      element('consolidation-scope').textContent = review?.scopeNote || 'A abertura e as retificações ainda não foram cadastradas para este concurso.';
       if (!review) return;
       for (const entry of review.entries) {
         const details = document.createElement('details');
