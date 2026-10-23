@@ -12,15 +12,15 @@
         if (theme === 'light' || theme === 'dark') document.documentElement.setAttribute('data-theme', theme);
       } catch (_) { /* Blocked storage must not prevent startup. */ }
     </script>
-    <link rel="stylesheet" href="assets/css/styles.css?v=8">
+    <link rel="stylesheet" href="assets/css/styles.css?v=9">
     <script defer src="assets/js/types.js?v=4"></script>
     <script defer src="assets/js/storage.js?v=4"></script>
     <script defer src="assets/js/theme.js?v=4"></script>
     <script defer src="assets/js/catalog.js?v=4"></script>
-    <script defer src="data/catalog.js?v=6"></script>
-    <script defer src="assets/js/study.js?v=6"></script>
+    <script defer src="data/catalog.js?v=9"></script>
+    <script defer src="assets/js/study.js?v=9"></script>
     <script defer src="assets/js/progress.js?v=4"></script>
-    <script defer src="assets/js/study-ui.js?v=8"></script>
+    <script defer src="assets/js/study-ui.js?v=9"></script>
     <script defer src="assets/js/main.js?v=4"></script>
   </head>
   <body>
@@ -74,7 +74,10 @@
           </fieldset>
         </details>
         <p id="study-resume-note" class="review-note" hidden></p>
-        <button id="start-study" type="button" class="primary" disabled>Iniciar questões</button>
+        <div class="landing-actions">
+          <button id="start-study" type="button" class="primary" disabled>Iniciar questões</button>
+          <button id="landing-history" type="button" class="quiet-button" hidden>Histórico e desempenho</button>
+        </div>
         <details class="support-details"><summary>Sobre este objetivo</summary><p id="provider" class="review-note"></p><p id="contest-status"></p></details>
        </div>
        <div id="study-workspace" hidden>

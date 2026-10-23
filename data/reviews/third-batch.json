@@ -1,0 +1,153 @@
+{
+  "id": "third-batch",
+  "reviewedAt": "2026-10-23",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/third-batch-release.md",
+  "items": [
+    {
+      "questionId": "232funprespexe-cb1-01-q009",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 9,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-homem-certezas",
+        "funpresp-homem-comando"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q009-key-v1",
+      "answerDocumentId": "source-232funprespexe-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-5-1"
+      ],
+      "justification": "Avalia a função da partícula se em uma construção verbal no contexto do texto-base."
+    },
+    {
+      "questionId": "232funprespexe-cb1-01-q010",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 10,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-homem-certezas",
+        "funpresp-homem-comando"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q010-key-v1",
+      "answerDocumentId": "source-232funprespexe-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-5-5"
+      ],
+      "justification": "Avalia a concordância verbal na substituição de haver por existir."
+    },
+    {
+      "questionId": "232funprespexe-cb1-01-q011",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 11,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-homem-certezas",
+        "funpresp-homem-comando"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q011-key-v1",
+      "answerDocumentId": "source-232funprespexe-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-4-1"
+      ],
+      "justification": "Avalia a relação semântica expressa pelo conector uma vez que."
+    },
+    {
+      "questionId": "232funprespexe-cb1-01-q012",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 12,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-homem-certezas",
+        "funpresp-homem-comando"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q012-key-v1",
+      "answerDocumentId": "source-232funprespexe-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-5-4"
+      ],
+      "justification": "Avalia o efeito semântico das vírgulas em uma oração adjetiva."
+    },
+    {
+      "questionId": "232funprespexe-cb1-01-q013",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 13,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-homem-certezas",
+        "funpresp-homem-comando"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q013-key-v1",
+      "answerDocumentId": "source-232funprespexe-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-1"
+      ],
+      "justification": "Avalia a interpretação da caracterização inicial do personagem e da origem de suas certezas."
+    },
+    {
+      "questionId": "232funprespexe-cb1-01-q014",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 14,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-homem-certezas",
+        "funpresp-homem-comando"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q014-key-v1",
+      "answerDocumentId": "source-232funprespexe-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-1"
+      ],
+      "justification": "Avalia inferência sobre a causa da fama do personagem, distinguindo informação textual de extrapolação."
+    },
+    {
+      "questionId": "232funprespexe-cb1-01-q015",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 15,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-homem-certezas",
+        "funpresp-homem-comando"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q015-key-v1",
+      "answerDocumentId": "source-232funprespexe-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-1"
+      ],
+      "justification": "Avalia a interpretação da progressão temporal e da causalidade na mudança do personagem."
+    },
+    {
+      "questionId": "232funprespexe-cb1-01-q016",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 16,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-homem-certezas",
+        "funpresp-homem-comando"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q016-key-v1",
+      "answerDocumentId": "source-232funprespexe-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-1"
+      ],
+      "justification": "Avalia a interpretação contextual de uma expressão figurada."
+    }
+  ]
+}

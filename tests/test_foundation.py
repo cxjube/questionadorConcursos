@@ -30,6 +30,7 @@ class FoundationTests(unittest.TestCase):
         self.catalog = read_json(ROOT / 'data/catalog.json')
         self.catalog['documents'] = []
         self.catalog['contexts'] = []
+        self.catalog['explanations'] = []
         self.catalog['consolidations'] = []
         self.catalog['scoringRules'] = []
         for notice in self.catalog['notices']:
@@ -68,7 +69,7 @@ class FoundationTests(unittest.TestCase):
         """Validate retained source bytes without claiming external authentication."""
         real = read_json(ROOT / 'data/catalog.json')
         self.assertEqual(validate(real), [])
-        self.assertEqual(len(real['questions']), 32)
+        self.assertEqual(len(real['questions']), 40)
         self.assertEqual(len(real['scoringRules']), 1)
         self.assertEqual(len(real['syllabusItems']), 228)
         self.assertEqual(len(real['documents']), 20)
@@ -107,6 +108,17 @@ class FoundationTests(unittest.TestCase):
         self.check('different source paper')
         self.catalog['questions'][0]['contextIds'] = ['missing-context']
         self.check('unknown contexts')
+
+    def test_numbered_passages_preserve_text_and_consecutive_source_numbers(self):
+        ctx = {'id':'test-lined-context','revision':1,'kind':'passage','label':'SYNTHETIC TEST ONLY','text':'Fixture first line\nFixture second line','sourceDocumentId':'test-paper-doc','sourcePage':1,'sourceLines':[{'number':1,'text':'Fixture first line'},{'number':2,'text':'Fixture second line'}]}
+        self.catalog['contexts']=[ctx];self.catalog['questions'][0]['contextIds']=[ctx['id']]
+        self.check()
+        ctx['sourceLines'][1]['number']=3
+        self.check('consecutive')
+        ctx['sourceLines'][1]['number']=2;ctx['sourceLines'][1]['text']='SYNTHETIC MUTATION'
+        self.check('complete passage text')
+        ctx['kind']='instruction'
+        self.check('passage')
 
     def test_release_evidence_and_definitive_key_are_required(self):
         self.catalog['questions'][0]['review']['sourceCompared'] = False

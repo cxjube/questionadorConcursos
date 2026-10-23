@@ -104,7 +104,13 @@ O catálogo v3 publica uma seleção explicitamente liberada desses itens, prese
 
 Toda questão publicada declara `contextIds` e `review`. A revisão exige comparação de fonte, texto/comando e gabarito, método (`agent_assisted` ou `human`), responsável, data, referência da decisão e escopo temporal. O único estado publicável é `released`. O método não pode ser interpretado como revisão humana quando declara assistência por agente.
 
-Cada contexto tem ID e revisão estáveis, tipo `instruction`/`passage`, texto, rótulo, documento e página. As referências devem existir e pertencer ao mesmo caderno da questão. Uma questão marcada como trecho histórico precisa incluir seu texto-base. Os dois lotes liberados contêm 11 contextos, 32 questões, 32 gabaritos definitivos e 34 vínculos revisados. Nenhum item anulado foi liberado nesses lotes. O resultado do gabarito é confrontado com o inventário de anulações.
+Cada contexto tem ID e revisão estáveis, tipo `instruction`/`passage`, texto, rótulo, documento e página. As referências devem existir e pertencer ao mesmo caderno da questão. Uma questão marcada como trecho histórico precisa incluir seu texto-base. Os três lotes liberados contêm 13 contextos, 40 questões, 40 gabaritos definitivos e 42 vínculos revisados. Nenhum item anulado foi liberado nesses lotes. O resultado do gabarito é confrontado com o inventário de anulações.
+
+Em `passage`, os campos opcionais `sourceLines` (lista de objetos `number`/`text`) e `sourceCredit` preservam linhas e atribuição originais. Os números precisam ser inteiros positivos consecutivos e a junção dos textos por quebra de linha deve ser igual ao campo `text`. A apresentação no navegador nunca recalcula a numeração pela largura da tela. O catálogo continua na versão 3; contextos e backups antigos sem esses campos permanecem válidos.
+
+Há quatro registros independentes de `explanations`, identificados por IDs com versão editorial `-comment-v1`. A fonte citada pode ser o próprio texto-base do caderno; sua função é sustentar um comentário didático, sem substituir o documento do gabarito nem atribuir a explicação à banca. O snapshot guarda texto, autoria, ID e referências exibidas na sessão.
+
+O desempenho é derivado apenas de sessões finalizadas por cargo, com snapshots de gabaritos e vínculos. IDs distintos medem questões diferentes; ocorrências em sessões distintas medem tentativas. Cada ocorrência conta uma vez no total e uma vez por grupo, mesmo com múltiplos mappings para o mesmo grupo. Grupos diferentes podem se sobrepor. Não se alteram classificações históricas nem se gera nota oficial para treino com `scoringProfile: null`.
 
 ## Seleção da sessão e compatibilidade do progresso
 

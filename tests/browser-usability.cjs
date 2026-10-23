@@ -9,6 +9,7 @@ const key = 'questionador-concursos.progress.v1';
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto(base);await page.locator('#start-study:not([disabled])').waitFor();
   await page.locator('#start-study').click();
+  await page.locator('#finish-study').waitFor();
   const total = await page.evaluate(key=>JSON.parse(localStorage.getItem(key)).progress.active.items.length,key);
   const startState = await page.evaluate(key=>localStorage.getItem(key),key);
   assert.equal(await page.locator('#next-question').innerText(),'Próxima');

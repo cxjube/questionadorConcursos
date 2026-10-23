@@ -1,6 +1,6 @@
 # Como estudar e guardar o progresso
 
-1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. O objetivo disponível é Câmara — Comunicação Social — Divulgação Institucional, com 32 questões de provas anteriores relacionadas.
+1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. O objetivo disponível é Câmara — Comunicação Social — Divulgação Institucional, com 40 questões de provas anteriores relacionadas.
 2. Marque sua resposta ou **Deixar em branco**. Use **Anterior** e **Próxima** para navegar; **Próxima** é a ação principal. Você pode trocar a alternativa ou selecionar **Deixar em branco** até finalizar.
 3. Ao sair e voltar, use **Continuar questões**. A posição e as marcações são retomadas quando o navegador permitiu o salvamento.
 4. Use **Finalizar sessão** em qualquer questão ou abra **Revisar sessão** para conferir a lista e voltar às questões que quiser (também é o próximo passo na última questão). A confirmação informa quantas questões ficarão em branco e inicia com foco em **Continuar respondendo**. Cancelar ou abrir a revisão não encerra a tentativa. Questões sem marcação passam a brancos. A correção mostra sua resposta, gabarito definitivo, resultado e links da prova e do gabarito. Explicações indisponíveis são identificadas.
@@ -21,6 +21,20 @@ A taxa de acerto é acertos ÷ (acertos + erros). Brancos e anulações são sep
 A revisão de erros considera o último resultado finalizado da questão e do cargo na versão correspondente. Se você errou e depois acertou, ela sai desse conjunto. Branco não é erro. Inéditas são questões que ainda não participaram de uma sessão finalizada compatível, inclusive após mudança de versão. Apenas visitar ou marcar uma questão em sessão aberta não cria uma tentativa.
 
 As questões mantêm a identificação de suas provas de origem. Os vínculos com o edital da Câmara indicam compatibilidade temática; as questões não foram retiradas de uma prova da Câmara. O lote não cobre todo o edital.
+
+## Desempenho por disciplina e assunto
+
+No resultado, abra **Desempenho por disciplina e assunto** para consultar apenas aquela sessão. Na escolha do objetivo, **Histórico e desempenho** aparece quando há progresso. Dentro do histórico, **Desempenho neste objetivo** reúne as sessões finalizadas do cargo selecionado.
+
+As contagens distinguem questões distintas de tentativas: responder à mesma questão em duas sessões soma duas tentativas e uma questão diferente. Acertos, erros, brancos e anulações ficam separados. A taxa usa o total de acertos e erros, não uma média dos percentuais de sessões. Sem respostas válidas, aparece essa indicação.
+
+Abra **Ver assuntos registrados** dentro de uma disciplina para ver os vínculos diretos salvos nas tentativas. Uma questão pode aparecer em mais de um grupo, por isso não some os subtotais. O histórico preserva o conteúdo e os vínculos utilizados à época, sem reclassificá-los pelo catálogo atual. **Como estes números são calculados** reúne as orientações complementares. Durante uma sessão aberta, finalize para consultar esse detalhamento.
+
+## Textos numerados e comentários
+
+O texto de apoio dos oito itens de Língua Portuguesa mantém os números das linhas da prova original. A quebra visual no celular não muda esses números. A referência bibliográfica permanece ao final do texto.
+
+Após finalizar, quatro desses itens mostram **Comentário didático**, com autoria assistida por IA e referência à página/linhas que sustentam a interpretação. O gabarito continua identificado separadamente como oficial definitivo. Os comentários não são justificativas emitidas pela banca. Nas questões sem comentário confiável revisado, a aplicação informa sua indisponibilidade. Sessões e backups preservam a versão do comentário usada naquela tentativa.
 
 ## Personalizar o treino
 

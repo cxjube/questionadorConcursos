@@ -156,7 +156,7 @@ test('custom quantity and draw preserve sources, options and contexts without re
  for(const item of session.items) assert.deepEqual(plain(item),plain(s.Study.snapshot(s.data,s.data.questions.find(q=>q.id===item.question.id),s.role)));
  assert.equal(JSON.stringify(s.data),before);assert.equal(session.scoringProfile,null);
  for(const limit of [0,-1,1.5,'2',6,NaN]) assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{...filters,limit}),/quantidade/);
- assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{disciplineId:'lingua-portuguesa'}),/Não há questões/);
+ assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{disciplineId:'lingua-inglesa'}),/Não há questões/);
 });
 test('filtered errors use finalized outcomes and ignore unfinished choices',()=>{
  const s=setup(), settings={topicId:'comunicacao-social-7',limit:1};let p=s.Study.empty();
@@ -178,4 +178,56 @@ test('custom and legacy backups resume the exact selection even after taxonomy c
  for(const mutate of [p=>p.active.selection.limit=3,p=>p.active.selection.shuffle='yes',p=>p.active.selection.topicLabel=null]) {
   const broken=plain(p);mutate(broken);assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(broken),s.data));
  }
+});
+
+test('performance counts distinct questions, repeated attempts and each mapping group without duplicating totals',()=>{
+ const s=setup();let p=s.Study.empty();
+ const settings={topicId:'comunicacao-social-7',limit:1,id:'first-metrics',now:'2026-10-23T12:00:00.000Z'};
+ p.active=s.Study.create(s.data,s.role,p,'all',settings);
+ const q=p.active.items[0].question;
+ p.active=s.Study.choose(p.active,q.options.find(o=>o.id!==p.active.items[0].key.value).id);
+ p=s.Study.finish(p,finishedAt);
+ p.active=s.Study.create(s.data,s.role,p,'all',{...settings,id:'second-metrics',now:'2026-10-23T12:11:00.000Z'});
+ p.active=s.Study.choose(p.active,p.active.items[0].key.value);p=s.Study.finish(p,'2026-10-23T12:12:00.000Z');
+ const item=p.history[1].items[0];
+ item.mappings.push({...item.mappings[0],id:'synthetic-duplicate-mapping-only'});
+ item.mappings.push({...item.mappings[0],id:'synthetic-second-topic-only',topicId:'test-second-topic',topicLabel:'SYNTHETIC TEST TOPIC',number:'99'});
+ const before=JSON.stringify(p);
+ const report=s.Study.performance(p.history,s.role);
+ assert.equal(report.sessions,2);assert.equal(report.questions,1);assert.equal(report.attempts,2);
+ assert.equal(report.correct,1);assert.equal(report.incorrect,1);assert.equal(report.rate,50);
+ assert.equal(report.disciplines.length,1);assert.equal(report.disciplines[0].attempts,2);
+ assert.equal(report.topics.length,2);assert.equal(report.topics.find(t=>t.id===item.mappings[0].topicId).attempts,2);
+ assert.equal(report.topics.find(t=>t.id==='test-second-topic').attempts,1);
+ assert.equal(JSON.stringify(p),before);
+ assert.equal(s.Study.performance([...p.history,...p.history],s.role).attempts,2);
+ assert.equal(s.Study.performance(p.history,'abdi-futuro').attempts,0);
+});
+test('performance ignores drafts, preserves historical results and never turns blanks or annulments into accuracy',()=>{
+ const s=setup();let p=active(s);
+ p.active=s.Study.choose(p.active,true);
+ assert.equal(s.Study.performance([p.active],s.role).attempts,0);
+ p=s.Study.finish(p,finishedAt);
+ const history=plain(p.history);history[0].items[0].key.result='annulled';history[0].items[0].key.value=null;
+ const report=s.Study.performance(history,s.role);
+ assert.equal(report.annulled,1);assert.equal(report.blank,s.data.questions.length-1);assert.equal(report.rate,null);
+ const before=s.Study.performance(p.history,s.role);
+ s.data.questions[0].revision+=1;s.data.mappings=[];s.data.disciplines=[];s.data.topics=[];
+ assert.deepEqual(plain(s.Study.performance(p.history,s.role)),plain(before));
+ assert.equal(before.correct,1);assert.equal(before.rate,100);
+ assert.equal(Object.hasOwn(before,'score'),false);
+});
+test('numbered passages and editorial comments survive backup, while damaged line numbering or missing references fail',()=>{
+ const s=setup();const p={...s.Study.empty(),active:s.Study.create(s.data,s.role,s.Study.empty(),'all',{disciplineId:'lingua-portuguesa'})};
+ assert.equal(p.active.items.length,8);
+ const raw=s.Study.exportBackup(p), original=plain(p);
+ const restored=s.Study.importBackup(raw,s.data);assert.deepEqual(plain(restored),original);
+ assert.equal(restored.active.items[0].contexts[0].sourceLines.length,26);
+ const comment=restored.active.items.find(i=>i.question.origin.number===13).explanations[0];
+ assert.match(comment.author,/assistido por IA/);assert.ok(comment.references.length);
+ for(const change of [p=>p.active.items[0].contexts[0].sourceLines[1].number=99,p=>p.active.items[0].contexts[0].sourceLines[0].text='SYNTHETIC DAMAGED LINE',p=>p.active.items.find(i=>i.explanations.length).explanations[0].references=[]]) {
+  const broken=plain(original);change(broken);assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(broken),s.data));
+ }
+ s.data.explanations[0].text='SYNTHETIC EDITORIAL UPDATE';
+ assert.deepEqual(plain(s.Study.importBackup(raw,s.data)),original);
 });

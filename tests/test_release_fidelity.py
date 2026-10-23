@@ -2,6 +2,8 @@
 import re
 import shutil
 import unittest
+import xml.etree.ElementTree as ET
+import subprocess
 
 from tools.validate import ROOT, read_json
 from test_consolidation import clean, pdf_text
@@ -20,7 +22,12 @@ class ReleasedFidelityTests(unittest.TestCase):
     def test_all_published_text_options_and_contexts_match_source_pages(self):
         for ctx in self.catalog['contexts']:
             with self.subTest(context=ctx['id']):
-                self.assertIn(clean(ctx['text']), clean(self.pages[ctx['sourceDocumentId']][ctx['sourcePage'] - 1]))
+                page = self.pages[ctx['sourceDocumentId']][ctx['sourcePage'] - 1]
+                if 'sourceLines' in ctx:
+                    page = re.sub(r'(?m)^\d+\s*$', '', page)
+                self.assertIn(clean(ctx['text']), clean(page))
+                if 'sourceCredit' in ctx:
+                    self.assertIn(clean(ctx['sourceCredit']), clean(page))
         for q in self.catalog['questions']:
             with self.subTest(question=q['id']):
                 locator = re.fullmatch(r'PDF p\. (\d+)', q['origin']['locator'])
@@ -75,3 +82,52 @@ class ReleasedFidelityTests(unittest.TestCase):
                 self.assertIn(f"{row['number']} {q['stem']}", page)
                 for ref in q['contextIds']:
                     self.assertLess(page.index(contexts[ref]['text']), page.index(q['stem']))
+
+    def test_third_batch_lines_commands_keys_and_mappings(self):
+        manifest = read_json(ROOT / 'data/reviews/third-batch.json')
+        released = {q['id']: q for q in self.catalog['questions'] if q['review']['decisionReference'] == manifest['decisionReference']}
+        self.assertEqual(set(released), {row['questionId'] for row in manifest['items']})
+        self.assertEqual(len(released), 8)
+        ctx = next(c for c in self.catalog['contexts'] if c['id'] == 'funpresp-homem-certezas')
+        source = ROOT / self.docs[ctx['sourceDocumentId']]['file']
+        xml = subprocess.run(['pdftotext','-bbox-layout','-f','1','-l','1',str(source),'-'],check=True,capture_output=True,text=True).stdout
+        ns = {'x':'http://www.w3.org/1999/xhtml'}
+        # Original right-column passage: fixed source coordinates, not browser wrapping.
+        lines = []
+        marks = []
+        for line in ET.fromstring(xml).findall('.//x:line',ns):
+            x, y = float(line.attrib['xMin']), float(line.attrib['yMin'])
+            text = ' '.join(w.text or '' for w in line.findall('x:word',ns))
+            if x >= 322 and 191 < y < 484:
+                lines.append((y,text))
+            if 307 < x < 312 and 191 < y < 484 and text.isdigit():
+                marks.append((y,int(text)))
+        lines.sort()
+        self.assertEqual(len(lines),26)
+        self.assertEqual(ctx['sourceLines'],[{'number':i,'text':text} for i,(_,text) in enumerate(lines,1)])
+        for y,number in marks:
+            self.assertLess(abs(lines[number-1][0] - y),3)
+        keys = {k['id']: k for k in self.catalog['answerKeys']}
+        for row in manifest['items']:
+            q = released[row['questionId']]
+            with self.subTest(question=q['id']):
+                self.assertEqual(q['origin']['paperId'],row['paperId'])
+                self.assertEqual(q['origin']['number'],row['number'])
+                self.assertEqual(q['origin']['locator'],'PDF p. 1')
+                self.assertEqual(q['contextIds'],row['contextIds'])
+                self.assertEqual(q['answerKeyId'],row['answerKeyId'])
+                self.assertEqual(keys[q['answerKeyId']]['value'],row['answerValue'])
+                self.assertEqual(keys[q['answerKeyId']]['documentId'],row['answerDocumentId'])
+                self.assertEqual([m['syllabusItemId'] for m in self.catalog['mappings'] if m['questionId']==q['id']],row['syllabusItemIds'])
+
+    def test_didactic_comments_have_separate_identity_and_source_evidence(self):
+        comments = self.catalog['explanations']
+        self.assertEqual(len(comments),4)
+        self.assertEqual({c['questionId'] for c in comments},{f'232funprespexe-cb1-01-q{n:03d}' for n in range(13,17)})
+        text = next(c['text'] for c in self.catalog['contexts'] if c['id']=='funpresp-homem-certezas')
+        for comment in comments:
+            self.assertIn('assistido por IA',comment['author'])
+            self.assertTrue(comment['id'].endswith('-comment-v1'))
+            self.assertEqual(comment['references'][0]['documentId'],'source-232funprespexe-cb1-01-paper')
+            for quote in re.findall('“([^”]+)”',comment['text']):
+                self.assertIn(clean(quote),clean(text))

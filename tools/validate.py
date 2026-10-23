@@ -195,6 +195,12 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
 
     for context in catalog['contexts']:
         verified_document(context['sourceDocumentId'], 'question_paper', context['id'])
+        if 'sourceLines' in context:
+            lines = context['sourceLines']
+            if context['kind'] != 'passage' or any(line['number'] != lines[0]['number'] + index for index, line in enumerate(lines)):
+                fail(context['id'], 'source lines must be consecutive and belong to a passage')
+            if context['text'] != '\n'.join(line['text'] for line in lines):
+                fail(context['id'], 'source lines must preserve the complete passage text')
 
     origins: set[tuple] = set()
     fingerprints: set[str] = set()

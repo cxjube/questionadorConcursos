@@ -25,6 +25,34 @@ const Study = (() => {
     result.rate = answered ? Math.round(100 * result.correct / answered) : null;
     return result;
   }
+  function performance(sessions, roleId) {
+    const makeRow = (id, label) => ({id, label, correct:0, incorrect:0, blank:0, annulled:0, attempts:0, questions:0, rate:null, ids:new Set()});
+    const total = makeRow('total', 'Total');
+    const disciplines = new Map(), topics = new Map(), seen = new Set();
+    const count = (row, item, result) => {row[result]++; row.attempts++; row.ids.add(item.question.id);};
+    for (const session of [...sessions].filter(s => s.finishedAt && s.roleId === roleId).sort((a,b) => a.finishedAt.localeCompare(b.finishedAt) || a.id.localeCompare(b.id))) {
+      if (seen.has(session.id)) continue;
+      seen.add(session.id);
+      for (const item of session.items) {
+        const result = grade(item, choiceOf(session, item.question.id));
+        count(total, item, result);
+        const countedDisciplines = new Set(), countedTopics = new Set();
+        for (const mapping of item.mappings) {
+          if (mapping.roleId !== roleId) continue;
+          if (!disciplines.has(mapping.disciplineId)) disciplines.set(mapping.disciplineId, makeRow(mapping.disciplineId, mapping.disciplineLabel));
+          if (!topics.has(mapping.topicId)) topics.set(mapping.topicId, {...makeRow(mapping.topicId, mapping.number + ' ' + mapping.topicLabel), disciplineId:mapping.disciplineId});
+          const discipline = disciplines.get(mapping.disciplineId), topic = topics.get(mapping.topicId);
+          // Labels come from the latest recorded snapshot, never from today's taxonomy.
+          discipline.label = mapping.disciplineLabel; topic.label = mapping.number + ' ' + mapping.topicLabel;
+          if (!countedDisciplines.has(discipline.id)) {count(discipline, item, result); countedDisciplines.add(discipline.id);}
+          if (!countedTopics.has(topic.id)) {count(topic, item, result); countedTopics.add(topic.id);}
+        }
+      }
+    }
+    const finishRow = ({ids, ...row}) => ({...row, questions:ids.size, rate:row.correct + row.incorrect ? Math.round(100 * row.correct / (row.correct + row.incorrect)) : null});
+    const sorted = rows => [...rows.values()].map(finishRow).sort((a,b) => a.label.localeCompare(b.label,'pt-BR',{numeric:true}));
+    return {...finishRow(total), sessions:seen.size, disciplines:sorted(disciplines), topics:sorted(topics)};
+  }
   function latest(progress, roleId) {
     const result = new Map();
     for (const session of [...progress.history].sort((a, b) => a.finishedAt.localeCompare(b.finishedAt) || a.id.localeCompare(b.id))) {
@@ -196,6 +224,10 @@ const Study = (() => {
         const contexts = new Set();
         for (const ctx of item.contexts) {
           if (!record(ctx) || !identifier(ctx.id) || contexts.has(ctx.id) || !text(ctx.text) || !text(ctx.label) || !['instruction', 'passage'].includes(ctx.kind) || !identifier(ctx.sourceDocumentId) || !Number.isInteger(ctx.sourcePage) || ctx.sourcePage < 1 || !Number.isInteger(ctx.revision) || ctx.revision < 1) fail();
+          if (own(ctx, 'sourceCredit') && (ctx.kind !== 'passage' || !text(ctx.sourceCredit))) fail();
+          if (own(ctx, 'sourceLines')) {
+            if (ctx.kind !== 'passage' || !array(ctx.sourceLines,1000) || !ctx.sourceLines.length || ctx.sourceLines.some((line,index) => !record(line) || !Number.isInteger(line.number) || line.number < 1 || line.number !== ctx.sourceLines[0].number + index || !text(line.text)) || ctx.text !== ctx.sourceLines.map(line=>line.text).join('\n')) fail();
+          }
           contexts.add(ctx.id);
         }
         if (contexts.size !== q.contextIds.length || q.contextIds.some(ref => !contexts.has(ref))) fail();
@@ -203,7 +235,7 @@ const Study = (() => {
           if (!record(m) || m.roleId !== session.roleId || !['id','syllabusItemId','noticeId','roleId','topicId','disciplineId'].every(k => identifier(m[k])) || !text(m.topicLabel) || !text(m.disciplineLabel) || !text(m.number)) fail();
         }
         for (const explanation of item.explanations) {
-          if (!record(explanation) || !identifier(explanation.id) || !text(explanation.text) || !text(explanation.author) || !array(explanation.references, 30)) fail();
+          if (!record(explanation) || !identifier(explanation.id) || !text(explanation.text) || !text(explanation.author) || !array(explanation.references, 30) || !explanation.references.length) fail();
           for (const ref of explanation.references) if (!record(ref) || !text(ref.locator) || !url(ref.officialUrl)) fail();
         }
         if (data) {
@@ -234,6 +266,6 @@ const Study = (() => {
     if (!parsed || parsed.format !== 'questionador-concursos-backup' || parsed.version !== VERSION) throw Error('Este arquivo não é um backup compatível do Questionador Concursos.');
     return validate(parsed.progress, data);
   }
-  return { VERSION, MAX_BYTES, empty, grade, choiceOf, totals, latest, topicBranch, pool, snapshot, create, choose, move, finish, matches, validate, exportBackup, importBackup };
+  return { VERSION, MAX_BYTES, empty, grade, choiceOf, totals, performance, latest, topicBranch, pool, snapshot, create, choose, move, finish, matches, validate, exportBackup, importBackup };
 })();
 Object.assign(globalThis, { Study });

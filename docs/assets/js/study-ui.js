@@ -21,6 +21,7 @@ const StudyUI = (() => {
     return link;
   }
   const date = value => new Date(value).toLocaleString('pt-BR');
+  const amount = (count, singular, plural) => count + ' ' + (count === 1 ? singular : plural);
   const labels = { correct: 'Acerto', incorrect: 'Erro', blank: 'Em branco', annulled: 'Anulada ou retirada' };
   const answerLabel = (item, value) => value === null || value === undefined ? 'Em branco' : item.question.type === 'true_false' ? (value ? 'Certo' : 'Errado') : value.toUpperCase();
   function mount(data, announce) {
@@ -141,6 +142,7 @@ const StudyUI = (() => {
       const invalid = quantity.validity.badInput || settings.limit !== null && (!Number.isInteger(settings.limit) || settings.limit < 1 || settings.limit > Math.min(500, count));
       quantity.setAttribute('aria-invalid', String(invalid));
       start.textContent = resume ? 'Continuar questões' : 'Iniciar questões';
+      element('landing-history').hidden = !store.state.history.length && !resume;
       start.disabled = (!resume && (!count || invalid)) || Boolean(store.conflict);
       element('study-filters').disabled = resume || !total;
       element('study-availability').textContent = total ? total + ' questões disponíveis neste objetivo.' : 'Ainda não há questões publicadas para este objetivo.';
@@ -196,6 +198,7 @@ const StudyUI = (() => {
     });
     element('study-objective').addEventListener('click', () => showSelection());
     element('study-history').addEventListener('click', () => { view = 'history'; importCandidate = null; render(); content.focus(); });
+    element('landing-history').addEventListener('click', () => {view = 'history'; importCandidate = null; openWorkspace();});
     function summary(session) {
       const totals = Study.totals(session);
       return totals.correct + (totals.correct === 1 ? ' acerto · ' : ' acertos · ') + totals.incorrect + (totals.incorrect === 1 ? ' erro · ' : ' erros · ') + totals.blank + ' em branco' +
@@ -238,7 +241,15 @@ const StudyUI = (() => {
         if (context.kind === 'instruction') content.append(node('p', context.text, 'question-instruction'));
         else {
           const section = node('section', undefined, 'question-context');
-          section.append(node('h4', context.label), node('p', context.text)); content.append(section);
+          section.append(node('h4', context.label));
+          if (context.sourceLines) {
+            section.append(node('p', 'Os números indicam as linhas do caderno original.', 'review-note passage-line-note'));
+            const lines = node('ol', undefined, 'source-lines'); lines.setAttribute('aria-label', 'Linhas do texto original');
+            for (const line of context.sourceLines) {const li = node('li',line.text); li.value = line.number; lines.append(li);}
+            section.append(lines);
+          } else section.append(node('p', context.text));
+          if (context.sourceCredit) section.append(node('small', context.sourceCredit, 'source-credit'));
+          content.append(section);
         }
       }
       if (q.review.temporalScope === 'historical_excerpt') content.append(node('p', q.review.temporalNote, 'review-note historical-note'));
@@ -282,8 +293,10 @@ const StudyUI = (() => {
           correction.append(list);
         }
         for (const explanation of item.explanations) {
-          correction.append(node('p', explanation.text), node('small', 'Comentário: ' + explanation.author));
-          for (const ref of explanation.references) correction.append(sourceLink('Referência — ' + ref.locator, ref.officialUrl));
+          const comment = node('section', undefined, 'didactic-comment');
+          comment.append(node('h5','Comentário didático'), node('p', explanation.text), node('small', 'Autoria: ' + explanation.author));
+          for (const ref of explanation.references) comment.append(sourceLink('Referência — ' + ref.locator, ref.officialUrl));
+          correction.append(comment);
         }
         if (!item.explanations.length) correction.append(node('p', 'Explicação ainda não disponível. Consulte o gabarito oficial e as referências da prova.', 'review-note'));
         content.append(correction);
@@ -347,6 +360,37 @@ const StudyUI = (() => {
       } else description.append(node('p', 'Nenhum erro para revisar neste objetivo.', 'review-note'));
       section.append(description, actions);
       return section;
+    }
+    function performanceView(sessions, roleId, scope) {
+      const details = disclosure('performance-' + scope, scope === 'history' ? 'Desempenho neste objetivo' : 'Desempenho por disciplina e assunto', 'support-details performance-details');
+      if (store.state.active) {details.append(node('p','Finalize a sessão em andamento para consultar o desempenho.')); return details;}
+      if (!roleId) {details.append(node('p','Selecione um cargo para consultar o desempenho.')); return details;}
+      const report = Study.performance(sessions, roleId);
+      const role = data.roles.find(r=>r.id===roleId);
+      const objective = role ? data.contests.find(c=>c.id===role.contestId).title + ' — ' + role.title : sessions.find(s=>s.roleId===roleId)?.objective || 'Objetivo registrado';
+      details.append(node('p', objective, 'review-note'));
+      if (!report.sessions) {details.append(node('p','Nenhuma sessão finalizada para este objetivo.')); return details;}
+      details.append(node('p', amount(report.questions,'questão distinta','questões distintas') + ' · ' + amount(report.attempts,'tentativa','tentativas') + ' · ' + amount(report.sessions,'sessão finalizada','sessões finalizadas') + '.'));
+      const description = row => {
+        const value = node('p', undefined, 'performance-rate');
+        value.append(node('strong',row.rate === null ? 'Sem respostas válidas' : row.rate + '% de acerto'), document.createTextNode(' · ' + amount(row.questions,'questão distinta','questões distintas') + ' · ' + amount(row.attempts,'tentativa','tentativas')));
+        const counts = node('p',amount(row.correct,'acerto','acertos') + ' · ' + amount(row.incorrect,'erro','erros') + ' · ' + amount(row.blank,'branco','brancos') + (row.annulled ? ' · ' + amount(row.annulled,'anulada/retirada','anuladas/retiradas') : ''),'review-note');
+        return [value, counts];
+      };
+      const list = node('ul',undefined,'performance-list');
+      for (const discipline of report.disciplines) {
+        const li = node('li'); li.append(node('h4',discipline.label), ...description(discipline));
+        const topics = disclosure('performance-topics-' + scope + '-' + discipline.id,'Ver assuntos registrados');
+        const items = node('ul',undefined,'performance-topics');
+        for (const topic of report.topics.filter(t=>t.disciplineId===discipline.id)) {
+          const row = node('li'); row.append(node('p',topic.label,'performance-topic-label'), ...description(topic)); items.append(row);
+        }
+        topics.append(items); li.append(topics); list.append(li);
+      }
+      const help = disclosure('performance-help-' + scope, 'Como estes números são calculados');
+      help.append(node('p','Taxa de acerto = acertos ÷ (acertos + erros). Brancos e anulações ficam separados. Cada repetição em uma sessão finalizada conta como outra tentativa.'), node('p','Uma questão pode aparecer em vários grupos. Não some os subtotais: eles usam os vínculos diretos salvos nas tentativas, preservando os resultados históricos.'));
+      details.append(list, help);
+      return details;
     }
     function renderReview() {
       const session = store.state.active;
@@ -418,6 +462,7 @@ const StudyUI = (() => {
       }
       content.append(node('h3', 'Continuar estudando'), reviewActions);
       if (store.state.active) content.append(node('p', 'Finalize ou retome a sessão em andamento antes de iniciar outra.', 'review-note'));
+      content.append(performanceView(store.state.history, selectedRole, 'history'));
       content.append(node('h3', 'Sessões finalizadas (' + store.state.history.length + ')'));
       if (!store.state.history.length) content.append(node('p', 'Você ainda não finalizou nenhuma sessão.'));
       const list = node('ul', undefined, 'session-list');
@@ -447,7 +492,7 @@ const StudyUI = (() => {
         content.append(resultMetrics(session));
         const explanation = disclosure('score-help', 'Como o resultado é calculado');
         explanation.append(node('p', summary(session)), node('p', 'Este treino não tem pontuação de concurso. A taxa usa acertos e erros; brancos e anulações ficam separados. Sem respostas válidas, não há percentual.'));
-        content.append(resultActions(session), explanation);
+        content.append(resultActions(session), performanceView([session], session.roleId, 'session-' + session.id), explanation);
       } else {
         const progress = node('div', undefined, 'session-progress');
         const bar = document.createElement('progress'); bar.max = session.items.length; bar.value = session.answers.length; bar.setAttribute('aria-label', 'Questões marcadas');

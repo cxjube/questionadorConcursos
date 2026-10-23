@@ -12,7 +12,7 @@ const key = 'questionador-concursos.progress.v1';
    assert.equal(await page.locator('#study-options').getAttribute('open'),null);
    await page.locator('#study-options summary').focus();await page.keyboard.press('Enter');
    assert.equal(await page.locator('#study-topic').isDisabled(),true);
-   assert.equal(await page.locator('#study-discipline option[value="lingua-portuguesa"]').isDisabled(),true);
+   assert.equal(await page.locator('#study-discipline option[value="lingua-inglesa"]').isDisabled(),true);
    await page.locator('#study-discipline').selectOption('comunicacao-social');
    await page.locator('#study-topic').selectOption('comunicacao-social-2');
    assert.match(await page.locator('#study-filter-status').innerText(),/5 de 5/);
