@@ -8,6 +8,10 @@ The app is static HTML/CSS/classic JavaScript in `docs/`. No runtime framework, 
 
 The approved scope now includes read-only consolidation of the supplied notices, syllabus/rule transcription and inventory of uploaded exam/key pairs. Do not add study sessions, dashboards, question imports, scoring execution or simulators without approval for that next stage.
 
+## Product reference
+
+Read `documentation/product-guidelines.md` and its implementation-gap review in `documentation/guideline-review.md` when planning a feature. These are product requirements, not authorization to implement the entire roadmap. The user's approved stage controls scope. Do not present proposed validation or study capabilities as already implemented. Preserve exact canonical syllabus items; editorial tags and summaries must remain distinct.
+
 ## Integrity and provenance
 
 Never invent a question, answer key, syllabus or exam rule. Never mix PROFNIT data into this catalog. Keep source question, answer key and explanation provenance independent. Reuse questions through syllabus mappings, never cloned question rows. Preserve upstream attribution in CREDITS.md and the public footer.

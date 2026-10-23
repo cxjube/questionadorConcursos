@@ -60,6 +60,8 @@ tests/                    testes Python e JavaScript
 documentation/            contrato, fontes e entrega da etapa
 ```
 
+As [diretrizes de produto revisadas](documentation/product-guidelines.md) orientam as próximas etapas. A [revisão das sugestões recebidas](documentation/guideline-review.md) distingue capacidades existentes e requisitos futuros.
+
 Veja o [relatório desta etapa](documentation/notice-consolidation.md), o [contrato de dados](documentation/data-contract.md) e o [registro de fontes](documentation/source-register.md).
 
 ## GitHub Pages
