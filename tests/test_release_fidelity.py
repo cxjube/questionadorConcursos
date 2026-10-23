@@ -25,7 +25,13 @@ class ReleasedFidelityTests(unittest.TestCase):
                 page = self.pages[ctx['sourceDocumentId']][ctx['sourcePage'] - 1]
                 if 'sourceLines' in ctx:
                     page = re.sub(r'(?m)^\d+\s*$', '', page)
-                self.assertIn(clean(ctx['text']), clean(page))
+                # -raw can drop inter-word spacing in justified PDF lines. Exact word
+                # boundaries and original numbers of numbered passages are checked by
+                # the independent bbox tests below; keep the full character check here.
+                expected, observed = clean(ctx['text']), clean(page)
+                if 'sourceLines' in ctx:
+                    expected, observed = re.sub(r'\s+', '', expected), re.sub(r'\s+', '', observed)
+                self.assertIn(expected, observed)
                 if 'sourceCredit' in ctx:
                     self.assertIn(clean(ctx['sourceCredit']), clean(page))
         for q in self.catalog['questions']:
@@ -122,12 +128,49 @@ class ReleasedFidelityTests(unittest.TestCase):
 
     def test_didactic_comments_have_separate_identity_and_source_evidence(self):
         comments = self.catalog['explanations']
-        self.assertEqual(len(comments),4)
-        self.assertEqual({c['questionId'] for c in comments},{f'232funprespexe-cb1-01-q{n:03d}' for n in range(13,17)})
-        text = next(c['text'] for c in self.catalog['contexts'] if c['id']=='funpresp-homem-certezas')
+        self.assertEqual(len(comments),8)
+        self.assertEqual({c['questionId'] for c in comments},{f'232funprespexe-cb1-01-q{n:03d}' for n in [5,6,7,8,13,14,15,16]})
+        questions = {q['id']:q for q in self.catalog['questions']}
+        contexts = {c['id']:c for c in self.catalog['contexts']}
         for comment in comments:
+            text = contexts[questions[comment['questionId']]['contextIds'][0]]['text']
             self.assertIn('assistido por IA',comment['author'])
             self.assertTrue(comment['id'].endswith('-comment-v1'))
             self.assertEqual(comment['references'][0]['documentId'],'source-232funprespexe-cb1-01-paper')
             for quote in re.findall('“([^”]+)”',comment['text']):
                 self.assertIn(clean(quote),clean(text))
+
+    def test_fourth_batch_original_left_column_lines_and_release_manifest(self):
+        manifest = read_json(ROOT / 'data/reviews/fourth-batch.json')
+        released = {q['id']:q for q in self.catalog['questions'] if q['review']['decisionReference']==manifest['decisionReference']}
+        self.assertEqual(set(released),{r['questionId'] for r in manifest['items']})
+        self.assertEqual(len(released),8)
+        ctx = next(c for c in self.catalog['contexts'] if c['id']=='funpresp-amigo-talas')
+        source = ROOT / self.docs[ctx['sourceDocumentId']]['file']
+        xml = subprocess.run(['pdftotext','-bbox-layout','-f','1','-l','1',str(source),'-'],check=True,capture_output=True,text=True).stdout
+        ns = {'x':'http://www.w3.org/1999/xhtml'}
+        lines, marks = [], []
+        for line in ET.fromstring(xml).findall('.//x:line',ns):
+            x,y = float(line.attrib['xMin']),float(line.attrib['yMin'])
+            text = ' '.join(w.text or '' for w in line.findall('x:word',ns))
+            if 45<x<300 and 191<y<467: lines.append((y,text))
+            if 30<x<36 and 191<y<467 and text.isdigit(): marks.append((y,int(text)))
+        lines.sort()
+        self.assertEqual(len(lines),27)
+        self.assertEqual(ctx['sourceLines'],[{'number':i,'text':text} for i,(_,text) in enumerate(lines,1)])
+        for y,number in marks: self.assertLess(abs(lines[number-1][0]-y),3)
+        keys = {k['id']:k for k in self.catalog['answerKeys']}
+        command = next(c['text'] for c in self.catalog['contexts'] if c['id']=='funpresp-amigo-comando')
+        page = clean(self.pages[ctx['sourceDocumentId']][0])
+        for row in manifest['items']:
+            q=released[row['questionId']]
+            self.assertEqual(q['contextIds'],row['contextIds'])
+            self.assertEqual(q['origin']['number'],row['number'])
+            self.assertEqual(q['origin']['paperId'],row['paperId'])
+            self.assertEqual(q['origin']['locator'],'PDF p. 1')
+            self.assertEqual(q['answerKeyId'],row['answerKeyId'])
+            self.assertEqual(keys[q['answerKeyId']]['value'],row['answerValue'])
+            self.assertEqual(keys[q['answerKeyId']]['documentId'],row['answerDocumentId'])
+            self.assertEqual([m['syllabusItemId'] for m in self.catalog['mappings'] if m['questionId']==q['id']],row['syllabusItemIds'])
+            self.assertIn(f"{row['number']} {q['stem']}",page)
+            self.assertLess(page.index(command),page.index(q['stem']))

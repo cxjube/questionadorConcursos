@@ -1,5 +1,7 @@
 # Revisão das diretrizes recebidas — 23/10/2026
 
+> Estado atual: [treino com tempo e pontuação personalizados](timed-practice-release.md) e [quarto lote](fourth-batch-release.md). As limitações abaixo registram entregas anteriores.
+
 > Atualização: o lote foi liberado para o primeiro treino funcional. Consulte a [decisão de liberação](first-batch-release.md) e o [guia de uso e backup](study-guide.md). Os estados de preparação e limitações descritos neste registro se referem à entrega anterior.
 
 

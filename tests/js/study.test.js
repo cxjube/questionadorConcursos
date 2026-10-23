@@ -219,7 +219,7 @@ test('performance ignores drafts, preserves historical results and never turns b
 });
 test('numbered passages and editorial comments survive backup, while damaged line numbering or missing references fail',()=>{
  const s=setup();const p={...s.Study.empty(),active:s.Study.create(s.data,s.role,s.Study.empty(),'all',{disciplineId:'lingua-portuguesa'})};
- assert.equal(p.active.items.length,8);
+ assert.equal(p.active.items.length,16);
  const raw=s.Study.exportBackup(p), original=plain(p);
  const restored=s.Study.importBackup(raw,s.data);assert.deepEqual(plain(restored),original);
  assert.equal(restored.active.items[0].contexts[0].sourceLines.length,26);
@@ -230,4 +230,56 @@ test('numbered passages and editorial comments survive backup, while damaged lin
  }
  s.data.explanations[0].text='SYNTHETIC EDITORIAL UPDATE';
  assert.deepEqual(plain(s.Study.importBackup(raw,s.data)),original);
+});
+
+test('origin/year/format intersect syllabus filters without duplicating questions',()=>{
+ const s=setup(), p=s.Study.empty(), paperId='source-232funprespexe-cb1-01';
+ const found=s.Study.pool(s.data,s.role,p,'all',{paperId,year:2016,type:'true_false',disciplineId:'lingua-portuguesa'});
+ assert.ok(found.length);assert.ok(found.every(q=>q.origin.paperId===paperId&&q.type==='true_false'));
+ assert.equal(s.Study.pool(s.data,s.role,p,'all',{paperId,year:2025}).length,0);
+ const mc=s.Study.pool(s.data,s.role,p,'all',{type:'multiple_choice'});assert.equal(mc.length,5);
+ assert.equal(s.Study.pool(s.data,'abdi-futuro',p,'all',{paperId}).length,0);
+ for(const filters of [{paperId:'missing-source'},{year:'2016'},{year:NaN},{type:'essay'}]) assert.throws(()=>s.Study.pool(s.data,s.role,p,'all',filters));
+ const session=s.Study.create(s.data,s.role,p,'all',{paperId,year:2016,type:'true_false',limit:2});
+ const restored=s.Study.importBackup(s.Study.exportBackup({...p,active:session}),s.data);
+ assert.equal(restored.active.selection.paperId,paperId);assert.equal(restored.active.selection.year,2016);
+});
+test('timed sessions use a persisted deadline, reject late answers and finalize once at the deadline',()=>{
+ const s=setup();let p=s.Study.empty();
+ p.active=s.Study.create(s.data,s.role,p,'all',{id:'timed-practice',now:'2026-10-23T12:00:00.000Z',durationMinutes:1,limit:3});
+ assert.equal(s.Study.remaining(p.active,'2026-10-23T12:00:01.100Z'),59);
+ assert.equal(s.Study.expired(p.active,'2026-10-23T12:01:00.000Z'),true);
+ p.active=s.Study.choose(p.active,true,'2026-10-23T12:00:59.999Z');
+ const resumed=s.Study.importBackup(s.Study.exportBackup(p),s.data);
+ assert.equal(resumed.active.timer.deadlineAt,'2026-10-23T12:01:00.000Z');
+ assert.throws(()=>s.Study.choose(resumed.active,false,'2026-10-23T12:01:00.000Z'),/tempo/);
+ p=s.Study.finish(resumed,'2026-10-24T12:00:00.000Z');
+ assert.equal(p.history[0].finishedAt,'2026-10-23T12:01:00.000Z');assert.equal(p.history[0].finishReason,'time_limit');
+ assert.equal(s.Study.totals(p.history[0]).blank,2);assert.equal(s.Study.finish(p).history.length,1);
+ assert.deepEqual(plain(s.Study.validate(p,s.data)),plain(p));
+ const early={...s.Study.empty(),active:s.Study.create(s.data,s.role,s.Study.empty(),'all',{now:'2026-10-23T12:00:00.000Z',durationMinutes:10,limit:1})};
+ const manual=s.Study.finish(early,'2026-10-23T12:01:00.000Z');
+ assert.equal(manual.history[0].finishReason,'manual');assert.equal(manual.history[0].finishedAt,'2026-10-23T12:01:00.000Z');
+ assert.ok(s.Study.validate(manual,s.data));
+ for(const durationMinutes of [0,1.5,1441,'10',NaN]) assert.throws(()=>s.Study.create(s.data,s.role,s.Study.empty(),'all',{durationMinutes}),/tempo/);
+});
+test('custom scoring never changes accuracy, unscored history or official criteria',()=>{
+ const s=setup();const make=mode=>s.Study.create(s.data,s.role,s.Study.empty(),'all',{limit:3,scoringMode:mode});
+ const unscored=make('none');assert.equal(s.Study.score(unscored),null);
+ for(const mode of ['net','right_only']) {
+  let session=make(mode);session=s.Study.choose(session,session.items[0].key.value);
+  session=s.Study.move(session,1);session=s.Study.choose(session,!session.items[1].key.value);
+  const p=s.Study.finish({...s.Study.empty(),active:session});const finished=p.history[0];
+  assert.equal(s.Study.score(finished).points,mode==='net'?0:1);assert.equal(s.Study.score(finished).maximum,3);
+  assert.equal(s.Study.totals(finished).rate,50);assert.equal(Object.hasOwn(finished.scoringProfile,'minimumScore'),false);
+  assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(p),s.data)),plain(p));
+  finished.items[2].key.result='annulled';finished.items[2].key.value=null;assert.equal(s.Study.score(finished).points,mode==='net'?0:1);assert.equal(s.Study.score(finished).maximum,2);
+ }
+ const p={...s.Study.empty(),active:make('net')};p.active=s.Study.choose(p.active,!p.active.items[0].key.value);assert.equal(s.Study.score(p.active).points,-1);
+ for(const change of [p=>p.active.scoringProfile.kind='official',p=>p.active.scoringProfile.incorrect=1,p=>p.active.scoringProfile.blank=1,p=>p.active.scoringProfile.minimumScore=54,p=>p.active.timer={durationSeconds:60,deadlineAt:'2026-10-23T12:00:00.000Z'},p=>p.active.selection.year='2016',p=>p.active.selection.type='essay']) {
+  const broken=plain(p);change(broken);assert.throws(()=>s.Study.validate(broken,s.data));
+ }
+ const legacy={...s.Study.empty(),active:unscored};delete legacy.active.timer;delete legacy.active.selection;
+ assert.deepEqual(plain(s.Study.validate(legacy,s.data)),plain(legacy));
+ assert.equal(s.Study.finish({...s.Study.empty(),active:make('none')}).history[0].scoringProfile,null);
 });

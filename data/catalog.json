@@ -3249,6 +3249,254 @@
         "temporalNote": "Análise linguística e interpretação de texto literário adaptado no caderno de 2016; texto e gabarito histórico preservados.",
         "decisionReference": "documentation/third-batch-release.md"
       }
+    },
+    {
+      "id": "232funprespexe-cb1-01-q001",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A substituição do pronome “o”, em “reduziu-o a artigos” (R. 11 e 12), por lhe preservaria a correção gramatical do texto.",
+      "options": [],
+      "contextIds": [
+        "funpresp-amigo-talas",
+        "funpresp-amigo-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-cb1-01",
+        "number": 1,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "232funprespexe-cb1-01-q001-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Análise linguística e interpretação do texto literário Um amigo em talas adaptado no caderno de 2016; texto e gabarito histórico preservados.",
+        "decisionReference": "documentation/fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-cb1-01-q002",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O sujeito da oração ‘também aceita trabalho’ (R.20) está elíptico e se refere a ‘Amadeu Amaral Júnior’ (R.18), o que justifica o emprego da forma verbal “aceita” na terceira pessoa do singular.",
+      "options": [],
+      "contextIds": [
+        "funpresp-amigo-talas",
+        "funpresp-amigo-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-cb1-01",
+        "number": 2,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "232funprespexe-cb1-01-q002-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Análise linguística e interpretação do texto literário Um amigo em talas adaptado no caderno de 2016; texto e gabarito histórico preservados.",
+        "decisionReference": "documentation/fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-cb1-01-q003",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Sem prejuízo para a correção gramatical do período, a expressão “por quê” (R.23) poderia ser substituída por o porquê.",
+      "options": [],
+      "contextIds": [
+        "funpresp-amigo-talas",
+        "funpresp-amigo-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-cb1-01",
+        "number": 3,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "232funprespexe-cb1-01-q003-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Análise linguística e interpretação do texto literário Um amigo em talas adaptado no caderno de 2016; texto e gabarito histórico preservados.",
+        "decisionReference": "documentation/fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-cb1-01-q004",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As vírgulas em “Amadeu Amaral Júnior, em estado de desemprego, aceita esmolas, donativos, roupa velha, pão dormido” (R. 18 a 20) foram todas empregadas para separar itens de uma enumeração.",
+      "options": [],
+      "contextIds": [
+        "funpresp-amigo-talas",
+        "funpresp-amigo-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-cb1-01",
+        "number": 4,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "232funprespexe-cb1-01-q004-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Análise linguística e interpretação do texto literário Um amigo em talas adaptado no caderno de 2016; texto e gabarito histórico preservados.",
+        "decisionReference": "documentation/fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-cb1-01-q005",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Para o narrador, seu amigo Amadeu Amaral Júnior não foi imprudente ao publicar anúncios oferecendo os seus serviços.",
+      "options": [],
+      "contextIds": [
+        "funpresp-amigo-talas",
+        "funpresp-amigo-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-cb1-01",
+        "number": 5,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "232funprespexe-cb1-01-q005-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Análise linguística e interpretação do texto literário Um amigo em talas adaptado no caderno de 2016; texto e gabarito histórico preservados.",
+        "decisionReference": "documentation/fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-cb1-01-q006",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Os costumes peculiares de Amadeu Amaral Júnior são apresentados no segundo parágrafo do texto.",
+      "options": [],
+      "contextIds": [
+        "funpresp-amigo-talas",
+        "funpresp-amigo-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-cb1-01",
+        "number": 6,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "232funprespexe-cb1-01-q006-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Análise linguística e interpretação do texto literário Um amigo em talas adaptado no caderno de 2016; texto e gabarito histórico preservados.",
+        "decisionReference": "documentation/fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-cb1-01-q007",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "De acordo com o texto, os hóspedes da pensão ficavam espantados com os anúncios de jornal referentes a Amadeu Amaral Júnior.",
+      "options": [],
+      "contextIds": [
+        "funpresp-amigo-talas",
+        "funpresp-amigo-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-cb1-01",
+        "number": 7,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "232funprespexe-cb1-01-q007-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Análise linguística e interpretação do texto literário Um amigo em talas adaptado no caderno de 2016; texto e gabarito histórico preservados.",
+        "decisionReference": "documentation/fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-cb1-01-q008",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Para caracterizar o personagem Amadeu Amaral Júnior, o narrador combina, no segundo parágrafo, recursos dos tipos textuais narrativo e descritivo.",
+      "options": [],
+      "contextIds": [
+        "funpresp-amigo-talas",
+        "funpresp-amigo-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-cb1-01",
+        "number": 8,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "232funprespexe-cb1-01-q008-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-23",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Análise linguística e interpretação do texto literário Um amigo em talas adaptado no caderno de 2016; texto e gabarito histórico preservados.",
+        "decisionReference": "documentation/fourth-batch-release.md"
+      }
     }
   ],
   "answerKeys": [
@@ -3771,6 +4019,110 @@
       "locator": "PDF p. 1",
       "result": "valid",
       "value": false
+    },
+    {
+      "id": "232funprespexe-cb1-01-q001-key-v1",
+      "questionId": "232funprespexe-cb1-01-q001",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "232funprespexe-cb1-01-q002-key-v1",
+      "questionId": "232funprespexe-cb1-01-q002",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "232funprespexe-cb1-01-q003-key-v1",
+      "questionId": "232funprespexe-cb1-01-q003",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "232funprespexe-cb1-01-q004-key-v1",
+      "questionId": "232funprespexe-cb1-01-q004",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "232funprespexe-cb1-01-q005-key-v1",
+      "questionId": "232funprespexe-cb1-01-q005",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "232funprespexe-cb1-01-q006-key-v1",
+      "questionId": "232funprespexe-cb1-01-q006",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "232funprespexe-cb1-01-q007-key-v1",
+      "questionId": "232funprespexe-cb1-01-q007",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "232funprespexe-cb1-01-q008-key-v1",
+      "questionId": "232funprespexe-cb1-01-q008",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
     }
   ],
   "explanations": [
@@ -3823,6 +4175,58 @@
         {
           "documentId": "source-232funprespexe-cb1-01-paper",
           "locator": "PDF p. 1, texto O homem que só tinha certezas, linhas 1–7"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-cb1-01-q005-comment-v1",
+      "questionId": "232funprespexe-cb1-01-q005",
+      "text": "O narrador afirma que Amadeu “andou muito bem” e recomenda que outros jornalistas necessitados sigam seu exemplo (linhas 23–27). A interpretação proposta no item é compatível com essa avaliação favorável.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-232funprespexe-cb1-01-paper",
+          "locator": "PDF p. 1, texto Um amigo em talas, linhas 23–27"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-cb1-01-q006-comment-v1",
+      "questionId": "232funprespexe-cb1-01-q006",
+      "text": "O segundo parágrafo descreve a roupa, a alimentação, o sono, os passeios noturnos e a escrita de Amadeu (linhas 4–14). Esses são os costumes singulares anunciados no primeiro parágrafo.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-232funprespexe-cb1-01-paper",
+          "locator": "PDF p. 1, texto Um amigo em talas, linhas 1–14"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-cb1-01-q007-comment-v1",
+      "questionId": "232funprespexe-cb1-01-q007",
+      "text": "O primeiro parágrafo associa o espanto aos costumes singulares de Amadeu. No segundo, o narrador atribui a indignação dos pensionistas ao barulho noturno (linhas 7–9). O anúncio só aparece depois, e o texto informa que não produziu efeito; não diz que os anúncios espantavam os hóspedes.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-232funprespexe-cb1-01-paper",
+          "locator": "PDF p. 1, texto Um amigo em talas, linhas 1–3, 7–9 e 17–21"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-cb1-01-q008-comment-v1",
+      "questionId": "232funprespexe-cb1-01-q008",
+      "text": "O segundo parágrafo combina caracterização de hábitos, roupas e modo de vida com ações do personagem: ler o tratado, transformá-lo em artigos e planejar sua publicação (linhas 4–14). Essa combinação sustenta a presença de recursos descritivos e narrativos apontada pelo item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-232funprespexe-cb1-01-paper",
+          "locator": "PDF p. 1, texto Um amigo em talas, linhas 4–14"
         }
       ]
     }
@@ -6859,6 +7263,62 @@
       "syllabusItemId": "camara-2026-lingua-portuguesa-1",
       "justification": "Avalia a interpretação contextual de uma expressão figurada.",
       "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-cb1-01-q001-mapping-1",
+      "questionId": "232funprespexe-cb1-01-q001",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-5-6",
+      "justification": "Avalia a regência verbal na substituição de pronome objeto.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-cb1-01-q002-mapping-1",
+      "questionId": "232funprespexe-cb1-01-q002",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-5-5",
+      "justification": "Avalia a concordância da forma verbal com o sujeito elíptico recuperado no texto.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-cb1-01-q003-mapping-1",
+      "questionId": "232funprespexe-cb1-01-q003",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-5-1",
+      "justification": "Avalia o emprego de expressão substantivada e sua função no período.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-cb1-01-q004-mapping-1",
+      "questionId": "232funprespexe-cb1-01-q004",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-5-4",
+      "justification": "Avalia as funções da vírgula no período.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-cb1-01-q005-mapping-1",
+      "questionId": "232funprespexe-cb1-01-q005",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-1",
+      "justification": "Avalia a interpretação do posicionamento do narrador.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-cb1-01-q006-mapping-1",
+      "questionId": "232funprespexe-cb1-01-q006",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-1",
+      "justification": "Avalia a localização de informação explícita no texto.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-cb1-01-q007-mapping-1",
+      "questionId": "232funprespexe-cb1-01-q007",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-1",
+      "justification": "Avalia a interpretação do motivo do espanto dos hóspedes.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-cb1-01-q008-mapping-1",
+      "questionId": "232funprespexe-cb1-01-q008",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-2",
+      "justification": "Avalia a combinação de tipos textuais no segundo parágrafo.",
+      "status": "confirmed"
     }
   ],
   "scoringRules": [
@@ -7261,6 +7721,135 @@
       "kind": "instruction",
       "label": "Comando compartilhado",
       "text": "Julgue os itens seguintes, referentes aos aspectos linguísticos e às ideias do texto O homem que só tinha certezas.",
+      "sourceDocumentId": "source-232funprespexe-cb1-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "funpresp-amigo-talas",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Um amigo em talas",
+      "text": "O meu antigo companheiro de pensão Amadeu Amaral\nJúnior, um homem louro e fornido, tinha costumes singulares\nque espantavam os outros hóspedes.\nAmadeu Amaral Júnior vestia-se com sobriedade:\nusava uma cueca preta e calçava medonhos tamancos\nbarulhentos. Alimentava-se mal, espichava-se na cama, roncava\no dia inteiro e passava as noites acordado, passeando, agitando\no soalho, o que provocava a indignação dos outros\npensionistas. Quando se cansava, sentava-se a uma grande\nmesa ao fundo da sala e escrevia o resto da noite. Leu um\ntratado de psicologia e trocou-o em miúdo, isto é, reduziu-o a\nartigos, uns quarenta ou cinquenta, que projetou meter nas\nrevistas e nos jornais e com o produto vestir-se, habitar uma\ncasa diferente daquela e pagar ao barbeiro.\nMudamo-nos, separamo-nos, perdemo-nos de vista.\nCreio que os artigos de psicologia não foram publicados,\npois há tempo li este anúncio num semanário: “Intelectual\ndesempregado. Amadeu Amaral Júnior, em estado de\ndesemprego, aceita esmolas, donativos, roupa velha,\npão dormido. Também aceita trabalho”. O anúncio não\nproduziu nenhum efeito.\nMuita gente se espanta com o procedimento desse\namigo. Não sei por quê. Eu, por mim, acho que Amadeu\nAmaral Júnior andou muito bem. Todos os jornalistas\nnecessitados deviam seguir o exemplo dele. O anúncio, pois\nnão. E, em duros casos, a propaganda oral, numa esquina, aos\ngritos. Exatamente como quem vende pomada para calos.",
+      "sourceLines": [
+        {
+          "number": 1,
+          "text": "O meu antigo companheiro de pensão Amadeu Amaral"
+        },
+        {
+          "number": 2,
+          "text": "Júnior, um homem louro e fornido, tinha costumes singulares"
+        },
+        {
+          "number": 3,
+          "text": "que espantavam os outros hóspedes."
+        },
+        {
+          "number": 4,
+          "text": "Amadeu Amaral Júnior vestia-se com sobriedade:"
+        },
+        {
+          "number": 5,
+          "text": "usava uma cueca preta e calçava medonhos tamancos"
+        },
+        {
+          "number": 6,
+          "text": "barulhentos. Alimentava-se mal, espichava-se na cama, roncava"
+        },
+        {
+          "number": 7,
+          "text": "o dia inteiro e passava as noites acordado, passeando, agitando"
+        },
+        {
+          "number": 8,
+          "text": "o soalho, o que provocava a indignação dos outros"
+        },
+        {
+          "number": 9,
+          "text": "pensionistas. Quando se cansava, sentava-se a uma grande"
+        },
+        {
+          "number": 10,
+          "text": "mesa ao fundo da sala e escrevia o resto da noite. Leu um"
+        },
+        {
+          "number": 11,
+          "text": "tratado de psicologia e trocou-o em miúdo, isto é, reduziu-o a"
+        },
+        {
+          "number": 12,
+          "text": "artigos, uns quarenta ou cinquenta, que projetou meter nas"
+        },
+        {
+          "number": 13,
+          "text": "revistas e nos jornais e com o produto vestir-se, habitar uma"
+        },
+        {
+          "number": 14,
+          "text": "casa diferente daquela e pagar ao barbeiro."
+        },
+        {
+          "number": 15,
+          "text": "Mudamo-nos, separamo-nos, perdemo-nos de vista."
+        },
+        {
+          "number": 16,
+          "text": "Creio que os artigos de psicologia não foram publicados,"
+        },
+        {
+          "number": 17,
+          "text": "pois há tempo li este anúncio num semanário: “Intelectual"
+        },
+        {
+          "number": 18,
+          "text": "desempregado. Amadeu Amaral Júnior, em estado de"
+        },
+        {
+          "number": 19,
+          "text": "desemprego, aceita esmolas, donativos, roupa velha,"
+        },
+        {
+          "number": 20,
+          "text": "pão dormido. Também aceita trabalho”. O anúncio não"
+        },
+        {
+          "number": 21,
+          "text": "produziu nenhum efeito."
+        },
+        {
+          "number": 22,
+          "text": "Muita gente se espanta com o procedimento desse"
+        },
+        {
+          "number": 23,
+          "text": "amigo. Não sei por quê. Eu, por mim, acho que Amadeu"
+        },
+        {
+          "number": 24,
+          "text": "Amaral Júnior andou muito bem. Todos os jornalistas"
+        },
+        {
+          "number": 25,
+          "text": "necessitados deviam seguir o exemplo dele. O anúncio, pois"
+        },
+        {
+          "number": 26,
+          "text": "não. E, em duros casos, a propaganda oral, numa esquina, aos"
+        },
+        {
+          "number": 27,
+          "text": "gritos. Exatamente como quem vende pomada para calos."
+        }
+      ],
+      "sourceCredit": "Graciliano Ramos. Um amigo em talas. In: Linhas tortas. Rio de Janeiro: Record, 1983, p. 125 (com adaptações).",
+      "sourceDocumentId": "source-232funprespexe-cb1-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "funpresp-amigo-comando",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando compartilhado",
+      "text": "Com relação às ideias e aos aspectos linguísticos do texto Um amigo em talas, julgue os itens que se seguem.",
       "sourceDocumentId": "source-232funprespexe-cb1-01-paper",
       "sourcePage": 1
     }

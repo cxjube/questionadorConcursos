@@ -1,6 +1,6 @@
 # Como estudar e guardar o progresso
 
-1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. O objetivo disponível é Câmara — Comunicação Social — Divulgação Institucional, com 40 questões de provas anteriores relacionadas.
+1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. O objetivo disponível é Câmara — Comunicação Social — Divulgação Institucional, com 48 questões de provas anteriores relacionadas.
 2. Marque sua resposta ou **Deixar em branco**. Use **Anterior** e **Próxima** para navegar; **Próxima** é a ação principal. Você pode trocar a alternativa ou selecionar **Deixar em branco** até finalizar.
 3. Ao sair e voltar, use **Continuar questões**. A posição e as marcações são retomadas quando o navegador permitiu o salvamento.
 4. Use **Finalizar sessão** em qualquer questão ou abra **Revisar sessão** para conferir a lista e voltar às questões que quiser (também é o próximo passo na última questão). A confirmação informa quantas questões ficarão em branco e inicia com foco em **Continuar respondendo**. Cancelar ou abrir a revisão não encerra a tentativa. Questões sem marcação passam a brancos. A correção mostra sua resposta, gabarito definitivo, resultado e links da prova e do gabarito. Explicações indisponíveis são identificadas.
@@ -8,7 +8,7 @@
 
 ## Preparar uma nova sessão
 
-No resultado, o grupo **Próximo treino** fica logo abaixo dos indicadores. **Nova sessão** retorna à seleção do concurso/cargo e limpa disciplina, assunto, quantidade e sorteio. O resultado anterior permanece no histórico. Você pode configurar o próximo treino com calma: outra sessão só começa ao clicar em **Iniciar questões**.
+No resultado, o grupo **Próximo treino** fica logo abaixo dos indicadores. **Nova sessão** retorna à seleção do concurso/cargo e limpa disciplina, assunto, origem, ano, formato, quantidade, sorteio, tempo e pontuação. O resultado anterior permanece no histórico. Você pode configurar o próximo treino com calma: outra sessão só começa ao clicar em **Iniciar questões**.
 
 **Revisar erros** fica no mesmo grupo quando houver questões compatíveis com erro no último resultado finalizado para o objetivo. Sem erros, uma mensagem substitui o botão. A navegação Anterior/Próxima dentro da correção serve apenas para consultar as questões dessa tentativa.
 
@@ -16,7 +16,7 @@ Se você abrir um resultado antigo enquanto responde a outro treino, **Nova sess
 
 ## Como interpretar os resultados
 
-A taxa de acerto é acertos ÷ (acertos + erros). Brancos e anulações são separados. Uma sessão inteiramente em branco não recebe um percentual artificial de 0%. Não há nota líquida, mínimo oficial ou classificação neste treino.
+A taxa de acerto é acertos ÷ (acertos + erros). Brancos e anulações são separados. Uma sessão inteiramente em branco não recebe um percentual artificial de 0%. A pontuação é opcional: +1 por acerto, erro zero ou −1, branco/anulação zero. Ela não altera a taxa de acerto, não aplica mínimos oficiais nem indica aprovação. Sessões antigas sem pontuação permanecem assim.
 
 A revisão de erros considera o último resultado finalizado da questão e do cargo na versão correspondente. Se você errou e depois acertou, ela sai desse conjunto. Branco não é erro. Inéditas são questões que ainda não participaram de uma sessão finalizada compatível, inclusive após mudança de versão. Apenas visitar ou marcar uma questão em sessão aberta não cria uma tentativa.
 
@@ -32,19 +32,29 @@ Abra **Ver assuntos registrados** dentro de uma disciplina para ver os vínculos
 
 ## Textos numerados e comentários
 
-O texto de apoio dos oito itens de Língua Portuguesa mantém os números das linhas da prova original. A quebra visual no celular não muda esses números. A referência bibliográfica permanece ao final do texto.
+O texto de apoio dos dezesseis itens de Língua Portuguesa mantém os números das linhas da prova original. A quebra visual no celular não muda esses números. A referência bibliográfica permanece ao final do texto.
 
-Após finalizar, quatro desses itens mostram **Comentário didático**, com autoria assistida por IA e referência à página/linhas que sustentam a interpretação. O gabarito continua identificado separadamente como oficial definitivo. Os comentários não são justificativas emitidas pela banca. Nas questões sem comentário confiável revisado, a aplicação informa sua indisponibilidade. Sessões e backups preservam a versão do comentário usada naquela tentativa.
+Após finalizar, oito desses itens mostram **Comentário didático**, com autoria assistida por IA e referência à página/linhas que sustentam a interpretação. O gabarito continua identificado separadamente como oficial definitivo. Os comentários não são justificativas emitidas pela banca. Nas questões sem comentário confiável revisado, a aplicação informa sua indisponibilidade. Sessões e backups preservam a versão do comentário usada naquela tentativa.
 
 ## Personalizar o treino
 
 Antes de iniciar, abra **Personalizar treino**. Escolha uma disciplina e, se desejar, um assunto: o recorte inclui seus subtópicos. Os números nas opções indicam questões distintas, sem multiplicar uma questão por seus vínculos. Disciplinas sem itens ficam desabilitadas; assuntos sem itens não aparecem na seleção. Consulte Programa para ver o edital completo.
 
+Os filtros **Prova de origem**, **Ano de aplicação** e **Formato** podem ser combinados com disciplina/assunto. A origem é a prova onde a questão foi aplicada, não o concurso para o qual você estuda. Uma combinação sem itens bloqueia o início; altere os filtros ou use **Limpar filtros**. As contagens nas disciplinas/assuntos representam a oferta do banco para aquele recorte; o status abaixo mostra a interseção de todos os filtros.
+
 Preencha **Quantidade de questões** ou deixe vazio para usar todas as disponíveis. Um pedido maior que a oferta bloqueia o início e informa o limite, sem repetir questões. Marque **Sortear questões e ordem** para variar a seleção; sem essa opção, usa-se a ordem do banco. O sorteio nunca altera alternativas, comandos ou textos de apoio. **Limpar filtros** retorna à seleção completa.
 
 Ao iniciar, as questões e sua ordem ficam salvas. Retomar mantém a mesma sessão, mesmo que você consulte outro objetivo. Os filtros ficam bloqueados enquanto houver sessão em andamento. A seleção original aparece em **Sobre esta sessão** e acompanha o backup; backups anteriores sem esses metadados continuam compatíveis.
 
-Os atalhos de revisão de erros, brancos e inéditas usam o objetivo e o histórico, sem herdar os filtros do treino. Treino personalizado continua sem cronômetro ou pontuação oficial de concurso.
+Os atalhos de revisão de erros, brancos e inéditas usam o objetivo e o histórico, sem herdar os filtros do treino. A revisão por esses atalhos começa sem tempo limite e sem pontuação; essas configurações são escolhidas ao preparar um treino personalizado. Nenhum treino aplica notas mínimas oficiais.
+
+## Tempo e pontuação opcionais
+
+Em **Personalizar treino**, deixe **Tempo limite (minutos)** vazio para estudar sem limite ou informe um inteiro de 1 a 1440. O relógio começa ao clicar em **Iniciar questões**, continua fora da página e não reinicia ao retomar. O indicador fica no topo do estudo. Ao esgotar, as respostas são bloqueadas, a sessão vai ao histórico uma única vez e as questões restantes ficam em branco. Se a página estiver fechada, isso ocorre ao reabri-la, registrando o prazo original. **Finalizar sessão** continua permitindo encerrar antes do tempo, com confirmação.
+
+Em **Pontuação do treino**, escolha **Sem pontuação**, **Acerto +1 · erro 0** ou **Acerto +1 · erro −1**. Brancos e anulações valem zero. O resultado exibe a pontuação escolhida, que pode ser negativa. Não existem mínimos eliminatórios ou classificação nessa modalidade. A configuração fica salva na sessão e no backup, sem atribuir pontuação retroativa às sessões antigas. O desempenho por disciplina continua usando acertos e erros.
+
+O treino usa o relógio do dispositivo; mantenha a data/hora corretas. Sem servidor, ele não é um mecanismo de fiscalização. Backups de sessões com prazo vencido também são encerrados ao serem carregados.
 
 ## Exportar e restaurar
 

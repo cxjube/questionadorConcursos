@@ -2,7 +2,7 @@
 
 ## Diretrizes de produto, arquitetura, banco de questões e experiência de estudo
 
-**Versão:** 1.4 — revisão integrada ao repositório
+**Versão:** 1.5 — revisão integrada ao repositório
 **Data:** 23/10/2026
 **Projeto:** Questionador Concursos
 **Repositório:** https://github.com/cxjube/questionadorConcursos
@@ -14,9 +14,9 @@
 
 Este documento consolida as sugestões fornecidas pelo usuário e os ajustes de revisão. É uma referência de produto e de aceite por etapa, não autorização para implementar todo o roadmap.
 
-O estado implementado em 23/10/2026 inclui o catálogo v3 e três lotes liberados: 40 questões oficiais, 13 contextos compartilhados, gabaritos definitivos independentes, revisão assistida por agente e 42 vínculos revisados. Há oito questões de Língua Portuguesa com texto/linhas originais, quatro comentários didáticos referenciados identificados como assistidos por IA e desempenho básico por disciplina/assunto em sessões finalizadas, distinguindo questões e tentativas. As fontes dos 20 PDFs foram comparadas com downloads oficiais. Há treino personalizado por disciplina/assunto com subtópicos, quantidade e sorteio opcional, sessão, retomada, correção ao finalizar, histórico local, revisão de erros/brancos/inéditas e backup exportável/importável com confirmação de substituição.
+O estado implementado em 23/10/2026 inclui o catálogo v3 e quatro lotes liberados: 48 questões oficiais, 15 contextos compartilhados, gabaritos definitivos independentes, revisão assistida por agente e 50 vínculos revisados. Há dezesseis questões de Língua Portuguesa com texto/linhas originais, oito comentários didáticos referenciados identificados como assistidos por IA e desempenho básico por disciplina/assunto em sessões finalizadas, distinguindo questões e tentativas. As fontes dos 20 PDFs foram comparadas com downloads oficiais. Há treino personalizado por disciplina/assunto com subtópicos, quantidade e sorteio opcional, sessão, retomada, correção ao finalizar, histórico local, revisão de erros/brancos/inéditas e backup exportável/importável com confirmação de substituição.
 
-O treino não executa a pontuação de um concurso. Cronômetro, simulados, evolução por período, filtros adicionais (bloco, origem, ano e formato), mais comentários referenciados e novos lotes continuam requisitos de etapas futuras. O banco oferece atualmente oito itens de P1 e 32 de P2, insuficientes para um simulado de 90+90 itens distintos. O roadmap abaixo não é uma declaração de implementação integral.
+O treino oferece filtros por origem/ano/formato, prazo opcional persistente com encerramento automático e pontuação personalizada (+1 por acerto; erro zero ou −1; branco/anulação zero), sem mínimos oficiais. Simulados com regras/composição oficiais, evolução por período, filtro por bloco, mais comentários referenciados e novos lotes continuam requisitos de etapas futuras. O banco oferece atualmente 16 itens de P1 e 32 de P2, insuficientes para um simulado de 90+90 itens distintos. O roadmap abaixo não é uma declaração de implementação integral.
 
 Consulte o [contrato vigente](data-contract.md), o [registro de liberação](first-batch-release.md) e o [guia de uso](study-guide.md). O arquivo original de preparação permanece fora do Pages como evidência histórica, sem ser interpretado como a decisão atual do catálogo publicado.
 

@@ -423,3 +423,9 @@ button { overflow-wrap: anywhere; }
   .rule-overview dd { margin: 0; font-size: var(--text-base); text-align: right; }
   .finish-area .study-actions button { width: 100%; }
 }
+
+.training-timing { margin-block-start: var(--space-md); }
+.training-clock { font-variant-numeric: tabular-nums; color: var(--text-soft); font-weight: 650; }
+
+.metrics #training-score { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: var(--space-xs); align-items: center; justify-content: space-between; }
+.metrics #training-score dd { margin: 0; }

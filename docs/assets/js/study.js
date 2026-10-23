@@ -75,7 +75,11 @@ const Study = (() => {
     const topic = topicId && data.topics.find(t => t.id === topicId && syllabus.some(s => s.topicId === t.id));
     const discipline = disciplineId && data.disciplines.find(d => d.id === disciplineId && syllabus.some(s => data.topics.find(t => t.id === s.topicId)?.disciplineId === d.id));
     if (disciplineId && !discipline || topicId && (!topic || disciplineId && topic.disciplineId !== disciplineId)) throw Error('Disciplina ou assunto inválido para este objetivo.');
-    return {disciplineId, topicId, disciplineLabel: discipline?.label || null, topicLabel: topic?.label || null};
+    const paperId = filters.paperId || null, year = filters.year ?? null, type = filters.type || null;
+    const paper = paperId && data.papers.find(p => p.id === paperId);
+    if (paperId && !paper || year !== null && (!Number.isInteger(year) || year < 1900 || year > 2100) || type && !['true_false','multiple_choice'].includes(type)) throw Error('Origem, ano ou formato inválido.');
+    return {disciplineId, topicId, disciplineLabel: discipline?.label || null, topicLabel: topic?.label || null,
+      paperId, paperLabel: paper ? paper.institution + ' · ' + paper.year + ' · ' + paper.booklet : null, year, type};
   }
   function pool(data, roleId, progress, mode = 'all', filters = {}) {
     if (!MODES.includes(mode)) throw Error('Modo de estudo inválido.');
@@ -88,6 +92,8 @@ const Study = (() => {
     const history = latest(progress, roleId);
     return data.questions.filter(q => {
       if (!eligible.has(q.id) || q.review.status !== 'released') return false;
+      const paper = data.papers.find(p => p.id === q.origin.paperId);
+      if (selected.paperId && paper.id !== selected.paperId || selected.year !== null && paper.year !== selected.year || selected.type && q.type !== selected.type) return false;
       const entry = history.get(q.id);
       // An older revision is not evidence that the current question was studied.
       const current = entry && entry.item.question.revision === q.revision && entry.item.key.id === q.answerKeyId &&
@@ -133,14 +139,31 @@ const Study = (() => {
     }
     if (limit !== null) questions = questions.slice(0, limit);
     if (questions.length > 500) throw Error('A seleção excede o limite de 500 questões por sessão.');
+    const startedAt = settings.now || now();
+    const durationMinutes = settings.durationMinutes ?? null;
+    if (durationMinutes !== null && (!Number.isInteger(durationMinutes) || durationMinutes < 1 || durationMinutes > 1440)) throw Error('Escolha um tempo inteiro entre 1 e 1440 minutos.');
+    const scoringMode = settings.scoringMode || 'none';
+    if (!['none','right_only','net'].includes(scoringMode)) throw Error('Pontuação de treino inválida.');
+    const scoringProfile = scoringMode === 'none' ? null : {version:1, kind:'custom', correct:1, incorrect:scoringMode === 'net' ? -1 : 0, blank:0, annulled:0};
     return { id: settings.id || id(), catalogRevision: data.revision, contestId: role.contestId, roleId,
       objective: data.contests.find(c => c.id === role.contestId).title + ' — ' + role.title,
-      mode, startedAt: settings.now || now(), finishedAt: null, position: 0,
-      scoringProfile: null, selection: {...selection(data, roleId, settings), limit, shuffle: Boolean(settings.shuffle)},
+      mode, startedAt, finishedAt: null, position: 0,
+      timer: durationMinutes === null ? null : {durationSeconds:durationMinutes * 60, deadlineAt:new Date(Date.parse(startedAt) + durationMinutes * 60000).toISOString()},
+      scoringProfile, selection: {...selection(data, roleId, settings), limit, shuffle: Boolean(settings.shuffle)},
       items: questions.map(q => snapshot(data, q, roleId)), answers: [] };
   }
-  function choose(session, value) {
+  function remaining(session, timestamp = now()) {
+    return session.timer ? Math.max(0, Math.ceil((Date.parse(session.timer.deadlineAt) - Date.parse(timestamp)) / 1000)) : null;
+  }
+  function expired(session, timestamp = now()) { return Boolean(session.timer) && remaining(session, timestamp) === 0; }
+  function score(session) {
+    if (!session.scoringProfile) return null;
+    const counts = totals(session), profile = session.scoringProfile;
+    return {points:['correct','incorrect','blank','annulled'].reduce((sum,key) => sum + counts[key] * profile[key],0), maximum:session.items.filter(item=>item.key.result === 'valid').length * profile.correct};
+  }
+  function choose(session, value, timestamp = now()) {
     if (session.finishedAt) return session;
+    if (expired(session,timestamp)) throw Error('O tempo deste treino terminou.');
     const question = session.items[session.position].question;
     if (value !== null && (question.type === 'true_false' ? typeof value !== 'boolean' : !question.options.some(o => o.id === value))) throw Error('Resposta inválida.');
     return { ...session, answers: [...session.answers.filter(a => a.questionId !== question.id), { questionId: question.id, value }] };
@@ -154,7 +177,9 @@ const Study = (() => {
     const active = progress.active;
     if (progress.history.some(s => s.id === active.id)) return { ...progress, active: null };
     if (progress.history.length >= 500) throw Error('Exporte o histórico antes de finalizar: o limite de sessões foi atingido.');
-    const session = { ...active, finishedAt: timestamp };
+    const timedOut = expired(active,timestamp);
+    const session = { ...active, finishedAt: timedOut ? active.timer.deadlineAt : timestamp,
+      finishReason:timedOut ? 'time_limit' : 'manual' };
     return { ...progress, active: null, history: [...progress.history, session] };
   }
   function sameContent(a, b) {
@@ -194,12 +219,22 @@ const Study = (() => {
       if (!record(session) || !identifier(session.id) || sessionIds.has(session.id) || !identifier(session.contestId) || !identifier(session.roleId) || !text(session.objective) ||
           !/^[a-f0-9]{64}$/.test(session.catalogRevision) || !MODES.includes(session.mode) || !date(session.startedAt) ||
           !(session.finishedAt === null || date(session.finishedAt) && session.finishedAt >= session.startedAt) ||
-          !array(session.items, 500) || !session.items.length || !array(session.answers, 500) || session.scoringProfile !== null ||
+          !array(session.items, 500) || !session.items.length || !array(session.answers, 500) ||
+          !(session.scoringProfile === null || record(session.scoringProfile) && session.scoringProfile.version === 1 && session.scoringProfile.kind === 'custom' && Object.keys(session.scoringProfile).every(k=>['version','kind','correct','incorrect','blank','annulled'].includes(k)) && session.scoringProfile.correct === 1 && [0,-1].includes(session.scoringProfile.incorrect) && session.scoringProfile.blank === 0 && session.scoringProfile.annulled === 0) ||
           !Number.isInteger(session.position) || session.position < 0 || session.position >= session.items.length) fail();
+      if (own(session,'timer') && session.timer !== null) {
+        const timer = session.timer;
+        if (!record(timer) || !Number.isInteger(timer.durationSeconds) || timer.durationSeconds < 60 || timer.durationSeconds > 86400 || timer.durationSeconds % 60 || !date(timer.deadlineAt) || Date.parse(timer.deadlineAt) !== Date.parse(session.startedAt) + timer.durationSeconds * 1000 || session.finishedAt && session.finishedAt > timer.deadlineAt) fail();
+      }
+      if (own(session,'finishReason') && (!session.finishedAt || !['manual','time_limit'].includes(session.finishReason) || (session.finishReason === 'time_limit') !== Boolean(session.timer && session.finishedAt === session.timer.deadlineAt))) fail();
       sessionIds.add(session.id);
       // Selection metadata is optional so backups made before personalized practice remain compatible.
       if (own(session, 'selection')) {
         const selected = session.selection;
+        if (!record(selected)) fail();
+        if (own(selected,'paperId') && (!(selected.paperId === null || identifier(selected.paperId)) || !(selected.paperLabel === null || text(selected.paperLabel)) || Boolean(selected.paperId) !== Boolean(selected.paperLabel))) fail();
+        if (own(selected,'year') && !(selected.year === null || Number.isInteger(selected.year) && selected.year >= 1900 && selected.year <= 2100)) fail();
+        if (own(selected,'type') && ![null,'true_false','multiple_choice'].includes(selected.type)) fail();
         if (!record(selected) || !['disciplineId','topicId'].every(k => selected[k] === null || identifier(selected[k])) ||
             !['disciplineLabel','topicLabel'].every(k => selected[k] === null || text(selected[k])) ||
             Boolean(selected.disciplineId) !== Boolean(selected.disciplineLabel) || Boolean(selected.topicId) !== Boolean(selected.topicLabel) ||
@@ -217,6 +252,7 @@ const Study = (() => {
             key.questionId !== q.id || key.id !== q.answerKeyId || !identifier(key.id) || !Number.isInteger(key.version) || key.version < 1 || key.stage !== 'definitive' ||
             key.origin !== 'official' || key.status !== 'confirmed' || !['valid', 'annulled', 'withdrawn'].includes(key.result) || !url(key.officialUrl) || !identifier(key.documentId) || !text(key.locator) ||
             paper.id !== q.origin.paperId || !text(paper.title) || !text(paper.provider) || !text(paper.institution) || !text(paper.role) || !Number.isInteger(paper.year) || !text(paper.booklet) || !url(paper.officialUrl)) fail();
+        if (session.selection && (session.selection.paperId && session.selection.paperId !== paper.id || session.selection.year && session.selection.year !== paper.year || session.selection.type && session.selection.type !== q.type)) fail();
         const options = new Set();
         for (const o of q.options) { if (!record(o) || !identifier(o.id) || options.has(o.id) || !text(o.text)) fail(); options.add(o.id); }
         if (q.type === 'true_false' ? options.size !== 0 : options.size < 2) fail();
@@ -266,6 +302,6 @@ const Study = (() => {
     if (!parsed || parsed.format !== 'questionador-concursos-backup' || parsed.version !== VERSION) throw Error('Este arquivo não é um backup compatível do Questionador Concursos.');
     return validate(parsed.progress, data);
   }
-  return { VERSION, MAX_BYTES, empty, grade, choiceOf, totals, performance, latest, topicBranch, pool, snapshot, create, choose, move, finish, matches, validate, exportBackup, importBackup };
+  return { VERSION, MAX_BYTES, empty, grade, choiceOf, totals, performance, latest, topicBranch, pool, snapshot, create, remaining, expired, score, choose, move, finish, matches, validate, exportBackup, importBackup };
 })();
 Object.assign(globalThis, { Study });

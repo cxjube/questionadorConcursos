@@ -2,13 +2,15 @@
 
 Aplicação estática para estudos de concursos públicos, baseada na arquitetura do [Questionador](https://github.com/mugubr/questionador), de Miguel Muniz e Rubens Braz. Veja [créditos e autorização](CREDITS.md).
 
-**Etapa atual: terceiro lote e acompanhamento básico.** A aba **Questionador** é a primeira: escolha concurso/cargo e clique em **Iniciar questões**. Em **Personalizar treino**, filtre disciplina/assunto, escolha a quantidade e ative o sorteio se desejar. Há 40 questões oficiais liberadas, com revisão assistida por agente: 35 Certo/Errado e cinco de múltipla escolha. Veja os registros do [primeiro](documentation/first-batch-release.md), [segundo](documentation/second-batch-release.md) e [terceiro lote](documentation/third-batch-release.md).
+**Etapa atual: quarto lote e treino com tempo/pontuação opcionais.** A aba **Questionador** é a primeira: escolha concurso/cargo e clique em **Iniciar questões**. Em **Personalizar treino**, filtre disciplina/assunto, prova de origem, ano e formato, escolha a quantidade e ative o sorteio se desejar. Há 48 questões oficiais liberadas, com revisão assistida por agente: 43 Certo/Errado e cinco de múltipla escolha. Veja os registros do [primeiro](documentation/first-batch-release.md), [segundo](documentation/second-batch-release.md), [terceiro](documentation/third-batch-release.md) e [quarto lote](documentation/fourth-batch-release.md).
 
-Você pode navegar, alterar respostas e deixá-las em branco. **Finalizar sessão** está disponível em todas as questões e exige confirmação, informando quantas ficarão em branco. **Revisar sessão** permite conferir as marcações antes de encerrar. O resultado apresenta acertos, erros, brancos, percentual e gabarito definitivo, com links de origem. O treino não aplica pontuação ou mínimos de simulado da Câmara. Explicações ausentes são indicadas explicitamente.
+O tempo limite é opcional (1–1440 minutos) e continua ao sair da página. Ao esgotar, a tentativa é encerrada automaticamente com as marcações feitas até então. Fechar a página não pausa o treino; ao reabrir após o prazo, ele é finalizado no horário limite. Veja [regras desta entrega](documentation/timed-practice-release.md).
+
+Você pode navegar, alterar respostas e deixá-las em branco. **Finalizar sessão** está disponível em todas as questões e exige confirmação, informando quantas ficarão em branco. **Revisar sessão** permite conferir as marcações antes de encerrar. O resultado apresenta acertos, erros, brancos, percentual e gabarito definitivo, com links de origem. O treino permite +1 por acerto, com erro valendo zero ou −1; brancos/anulações valem zero. É uma configuração de treino, sem os mínimos oficiais da Câmara. Explicações ausentes são indicadas explicitamente.
 
 No resultado, **Nova sessão** fica junto do resumo e retorna à escolha do objetivo, limpando filtros para preparar outro treino. O resultado anterior permanece salvo; outra sessão só é criada ao clicar em **Iniciar questões**. **Revisar erros** aparece ao lado quando houver erros compatíveis para o objetivo.
 
-Oito itens de Língua Portuguesa preservam texto, autoria e numeração das linhas originais. Quatro têm comentários didáticos com referências, identificados como assistidos por IA e separados do gabarito oficial. O resultado e **Histórico e desempenho** oferecem contagens por disciplina/assunto, distinguindo questões diferentes e tentativas repetidas. As explicações do cálculo ficam recolhidas. O histórico usa sessões finalizadas e os vínculos registrados à época.
+Dezesseis itens de Língua Portuguesa preservam texto, autoria e numeração das linhas originais. Oito têm comentários didáticos com referências, identificados como assistidos por IA e separados do gabarito oficial. O resultado e **Histórico e desempenho** oferecem contagens por disciplina/assunto, distinguindo questões diferentes e tentativas repetidas. As explicações do cálculo ficam recolhidas. O histórico usa sessões finalizadas e os vínculos registrados à época.
 
 As marcações são salvas automaticamente no navegador. Ao voltar à página, **Continuar questões** retoma a sessão. Dentro do estudo, **Histórico** permite consultar sessões, revisar os últimos erros, estudar questões inéditas, revisar brancos e exportar/importar o progresso. A seção **Backup e recuperação** concentra exportação e importação. A importação mostra uma prévia e exige confirmação antes de substituir os dados. Use o [guia de estudo e backup](documentation/study-guide.md).
 
@@ -60,7 +62,7 @@ README.md
 pyproject.toml / uv.lock   ferramentas do pipeline
 package.json              comando dos testes JavaScript; sem pacotes
 schemas/                  catálogo v3, contextos, entidades, auditoria e lote
-data/catalog.json         fonte canônica; 40 questões, gabaritos, comentários e vínculos
+data/catalog.json         fonte canônica; 48 questões, gabaritos, comentários e vínculos
 data/workbench/           lote de preparação, fora do build
 data/reviews/             evidência da listagem oficial e revisão dos lotes
 sources/                   editais, cadernos e gabaritos; fora do Pages
@@ -103,10 +105,11 @@ APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/b
 APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-filters.cjs
 APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-new-session.cjs
 APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-performance.cjs
+APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-timed-practice.cjs
 ```
 
 Essas ferramentas não integram a aplicação nem são dependências obrigatórias do projeto. O teste cobre abas, navegação por teclado, temas, persistência, seletores, estados sem dados e ausência de transbordamento horizontal em 320 e 1280 px. Não substitui uma auditoria completa de acessibilidade.
 
 ## Próxima etapa
 
-Priorizar as seis disciplinas ainda sem itens e os demais assuntos, com novos lotes conferidos e comentários referenciados. Depois, cronômetro e simulados personalizados com perfil de pontuação versionado, filtros por origem/ano/formato e evolução por período. Há oito questões elegíveis em P1 e 32 em P2: o banco ainda não comporta um simulado de 90+90 itens distintos. O treino atual não atribui pontuação de concurso. Não há importação automática, simulado completo, dashboard avançado ou gamificação.
+Priorizar as seis disciplinas ainda sem itens e os demais assuntos, com novos lotes conferidos e comentários referenciados. Depois, evolução por período e simulados com composição/regras oficiais versionadas. Há 16 questões elegíveis em P1 e 32 em P2: o banco ainda não comporta um simulado de 90+90 itens distintos. Tempo e pontuação personalizados não aplicam os mínimos da Câmara. Filtro por bloco P1/P2, importação automática, simulado completo, dashboard avançado e gamificação permanecem fora desta entrega.

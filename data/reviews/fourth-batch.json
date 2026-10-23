@@ -1,0 +1,153 @@
+{
+  "id": "fourth-batch",
+  "reviewedAt": "2026-10-23",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/fourth-batch-release.md",
+  "items": [
+    {
+      "questionId": "232funprespexe-cb1-01-q001",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 1,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-amigo-talas",
+        "funpresp-amigo-comando"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q001-key-v1",
+      "answerDocumentId": "source-232funprespexe-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-5-6"
+      ],
+      "justification": "Avalia a regência verbal na substituição de pronome objeto."
+    },
+    {
+      "questionId": "232funprespexe-cb1-01-q002",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 2,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-amigo-talas",
+        "funpresp-amigo-comando"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q002-key-v1",
+      "answerDocumentId": "source-232funprespexe-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-5-5"
+      ],
+      "justification": "Avalia a concordância da forma verbal com o sujeito elíptico recuperado no texto."
+    },
+    {
+      "questionId": "232funprespexe-cb1-01-q003",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 3,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-amigo-talas",
+        "funpresp-amigo-comando"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q003-key-v1",
+      "answerDocumentId": "source-232funprespexe-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-5-1"
+      ],
+      "justification": "Avalia o emprego de expressão substantivada e sua função no período."
+    },
+    {
+      "questionId": "232funprespexe-cb1-01-q004",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 4,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-amigo-talas",
+        "funpresp-amigo-comando"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q004-key-v1",
+      "answerDocumentId": "source-232funprespexe-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-5-4"
+      ],
+      "justification": "Avalia as funções da vírgula no período."
+    },
+    {
+      "questionId": "232funprespexe-cb1-01-q005",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 5,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-amigo-talas",
+        "funpresp-amigo-comando"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q005-key-v1",
+      "answerDocumentId": "source-232funprespexe-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-1"
+      ],
+      "justification": "Avalia a interpretação do posicionamento do narrador."
+    },
+    {
+      "questionId": "232funprespexe-cb1-01-q006",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 6,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-amigo-talas",
+        "funpresp-amigo-comando"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q006-key-v1",
+      "answerDocumentId": "source-232funprespexe-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-1"
+      ],
+      "justification": "Avalia a localização de informação explícita no texto."
+    },
+    {
+      "questionId": "232funprespexe-cb1-01-q007",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 7,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-amigo-talas",
+        "funpresp-amigo-comando"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q007-key-v1",
+      "answerDocumentId": "source-232funprespexe-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-1"
+      ],
+      "justification": "Avalia a interpretação do motivo do espanto dos hóspedes."
+    },
+    {
+      "questionId": "232funprespexe-cb1-01-q008",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 8,
+      "sourcePage": 1,
+      "contextIds": [
+        "funpresp-amigo-talas",
+        "funpresp-amigo-comando"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q008-key-v1",
+      "answerDocumentId": "source-232funprespexe-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-2"
+      ],
+      "justification": "Avalia a combinação de tipos textuais no segundo parágrafo."
+    }
+  ]
+}

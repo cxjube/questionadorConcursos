@@ -12,15 +12,15 @@
         if (theme === 'light' || theme === 'dark') document.documentElement.setAttribute('data-theme', theme);
       } catch (_) { /* Blocked storage must not prevent startup. */ }
     </script>
-    <link rel="stylesheet" href="assets/css/styles.css?v=9">
+    <link rel="stylesheet" href="assets/css/styles.css?v=10">
     <script defer src="assets/js/types.js?v=4"></script>
     <script defer src="assets/js/storage.js?v=4"></script>
     <script defer src="assets/js/theme.js?v=4"></script>
     <script defer src="assets/js/catalog.js?v=4"></script>
-    <script defer src="data/catalog.js?v=9"></script>
-    <script defer src="assets/js/study.js?v=9"></script>
+    <script defer src="data/catalog.js?v=10"></script>
+    <script defer src="assets/js/study.js?v=10"></script>
     <script defer src="assets/js/progress.js?v=4"></script>
-    <script defer src="assets/js/study-ui.js?v=9"></script>
+    <script defer src="assets/js/study-ui.js?v=10"></script>
     <script defer src="assets/js/main.js?v=4"></script>
   </head>
   <body>
@@ -65,8 +65,16 @@
             <div class="training-fields">
               <div><label for="study-discipline">Disciplina</label><div class="select-control"><select id="study-discipline"></select></div></div>
               <div><label for="study-topic">Assunto e subtópicos</label><div class="select-control"><select id="study-topic" aria-describedby="study-filter-note"></select></div></div>
+              <div><label for="study-paper">Prova de origem</label><div class="select-control"><select id="study-paper"></select></div></div>
+              <div><label for="study-year">Ano de aplicação</label><div class="select-control"><select id="study-year"></select></div></div>
+              <div><label for="study-type">Formato</label><div class="select-control"><select id="study-type"><option value="">Todos os formatos</option><option value="true_false">Certo ou Errado</option><option value="multiple_choice">Múltipla escolha</option></select></div></div>
               <div><label for="study-quantity">Quantidade de questões</label><input id="study-quantity" type="number" min="1" step="1" inputmode="numeric" placeholder="Todas as disponíveis" aria-describedby="study-filter-status"></div>
             </div>
+            <div class="training-fields training-timing">
+              <div><label for="study-minutes">Tempo limite (minutos)</label><input id="study-minutes" type="number" min="1" max="1440" step="1" inputmode="numeric" placeholder="Sem limite" aria-describedby="study-timing-note"></div>
+              <div><label for="study-scoring">Pontuação do treino</label><div class="select-control"><select id="study-scoring" aria-describedby="study-timing-note"><option value="none">Sem pontuação</option><option value="right_only">Acerto +1 · erro 0</option><option value="net">Acerto +1 · erro −1</option></select></div></div>
+            </div>
+            <p id="study-timing-note" class="review-note">O tempo continua ao sair ou fechar a página. Ao terminar, a sessão é encerrada automaticamente; questões sem resposta ficam em branco. A pontuação escolhida é apenas para treino: brancos e anulações valem zero, sem notas mínimas oficiais.</p>
             <label class="reference-toggle"><input id="study-shuffle" type="checkbox"> Sortear questões e ordem</label>
             <p id="study-filter-note" class="review-note">Um assunto inclui seus subtópicos. O sorteio não altera o texto nem a ordem das alternativas.</p>
             <p id="study-filter-status" role="status"></p>
