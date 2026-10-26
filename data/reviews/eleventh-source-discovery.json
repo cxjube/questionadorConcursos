@@ -1,0 +1,206 @@
+{
+  "id": "eleventh-source-discovery",
+  "checkedAt": "2026-10-23T23:29:10.571494+00:00",
+  "scope": "Two complete official Cebraspe paper/definitive-key pairs and four initial legal/publisher HTML downloads. Initial evidence is dated 2026-10-23; additions and rechecks are explicitly dated 2026-10-26. Selection and thematic eligibility are reviewed separately per item.",
+  "listings": [
+    {
+      "event": "serpro_23",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/serpro_23",
+      "file": "data/reviews/eleventh-source-listings/serpro_23.json",
+      "sha256": "aa5e94dbee9973d30a97466da885e1cf681ff717a2399640d1a1bd723689951d"
+    },
+    {
+      "event": "stj_24",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/stj_24",
+      "file": "data/reviews/eleventh-source-listings/stj_24.json",
+      "sha256": "091d63dac3822715e21e8a41f8d41bd9670e65cb740c7d581212d39b3c1e3678"
+    }
+  ],
+  "pairs": [
+    {
+      "paperId": "source-846-serpro-23-cb1-01",
+      "event": "serpro_23",
+      "booklet": "846_SERPRO_23_CB1_01",
+      "applicationDate": "2023-07-23",
+      "documents": [
+        {
+          "documentId": "source-846-serpro-23-cb1-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/SERPRO_23/arquivos/846_SERPRO_23_CB1_01.PDF",
+          "sha256": "2cbdd08d37c9ee9f37a667aa988315075c3541b2688ba2cf29913561662c0d0f",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "28/07/2023 09:15",
+            "nomeArquivo": "846_SERPRO_23_CB1_01.PDF",
+            "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS BÁSICOS",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2023-07-28T09:15:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-846-serpro-23-cb1-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/SERPRO_23/arquivos/GAB_DEFINITIVO_846_SERPRO_23_CB1_01.PDF",
+          "sha256": "1c351b687563a9b7bbb624e271d3f332ca088cd814bb3fc54afb2be7163a70c2",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "16/08/2023 11:02",
+            "nomeArquivo": "GAB_DEFINITIVO_846_SERPRO_23_CB1_01.PDF",
+            "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS BÁSICOS",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2023-08-16T11:02:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 1,
+      "lastItem": 50,
+      "itemCount": 50,
+      "annulledItems": [
+        12,
+        26
+      ]
+    },
+    {
+      "paperId": "source-018-stj-cb1-01",
+      "event": "stj_24",
+      "booklet": "018_STJ_CB1_01",
+      "applicationDate": "2024-12-01",
+      "documents": [
+        {
+          "documentId": "source-018-stj-cb1-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/018_STJ_CB1_01.PDF",
+          "sha256": "4de19f387fecc954d82a39c32a58e8750dfe7217807f0214bc9d11c20230f989",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "06/12/2024 19:00",
+            "nomeArquivo": "018_STJ_CB1_01.PDF",
+            "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS BÁSICOS PARA TODOS OS CARGOS (EXCETO PARA OS CARGOS 1, 3, 18 E 19)",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2024-12-06T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-018-stj-cb1-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/GAB_DEFINITIVO_018_STJ_CB1_01.PDF",
+          "sha256": "05cb676c1b5b27f21e7589282f96d698992a27422ddf642557d8f41c799433e8",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "10/01/2025 15:00",
+            "nomeArquivo": "GAB_DEFINITIVO_018_STJ_CB1_01.PDF",
+            "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS BÁSICOS PARA TODOS OS CARGOS (EXCETO PARA OS CARGOS 1, 3, 18 E 19)",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2025-01-10T15:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 1,
+      "lastItem": 50,
+      "itemCount": 50,
+      "annulledItems": [
+        8,
+        15,
+        49,
+        50
+      ]
+    }
+  ],
+  "references": [
+    {
+      "documentId": "reference-lei-8429-1992",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.html",
+      "sha256": "ac5ffb8bcb800556b9cd9563bcffe957c81c3170fe455c1da526013a4ee89010",
+      "method": "initial_official_or_publisher_html_download_cited_visible_text_reviewed"
+    },
+    {
+      "documentId": "reference-microsoft-teams-recording",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/tmr-meeting-recording-change",
+      "sha256": "3a54d4ab31c866e6131dee40e8013d2943a6408ad9448aa65249b1745b53fc8d",
+      "method": "initial_official_or_publisher_html_download_cited_visible_text_reviewed"
+    },
+    {
+      "documentId": "reference-microsoft-ipv6",
+      "url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/ipv6-overview",
+      "sha256": "096acec44ed4a347d83ecea3168e91d7d3861b9277e92e59a40f753a321b57e0",
+      "method": "initial_publisher_html_download_cited_visible_text_reviewed",
+      "checkedDate": "2026-10-26"
+    },
+    {
+      "documentId": "reference-microsoft-dns",
+      "url": "https://learn.microsoft.com/en-us/windows-server/networking/dns/dns-overview",
+      "sha256": "a2346c530f0c174cd5589430c485d51f9670c16a6b9e587f6a4a8421212624e0",
+      "method": "initial_publisher_html_download_cited_visible_text_reviewed",
+      "checkedDate": "2026-10-26"
+    }
+  ],
+  "excluded": [
+    {
+      "paperId": "source-018-stj-cb1-01",
+      "numbers": [
+        8,
+        15,
+        49,
+        50
+      ],
+      "reason": "Official definitive key marks X; Power BI items 49/50 are attractive for a gap but cannot be released as valid scored questions."
+    },
+    {
+      "paperId": "source-846-serpro-23-cb1-01",
+      "numbers": [
+        12,
+        26
+      ],
+      "reason": "Official definitive annulments; neither selected nor replaced by an invented answer."
+    }
+  ],
+  "latestRechecks": [
+    {
+      "event": "serpro_23",
+      "checkedAt": "2026-10-26T18:11:52.373067+00:00",
+      "listingUrl": "https://apis.cebraspe.org.br/cebraspe/eventos/serpro_23",
+      "listingFile": "data/reviews/eleventh-source-listings/serpro_23-2026-10-26.json",
+      "listingSha256": "aa5e94dbee9973d30a97466da885e1cf681ff717a2399640d1a1bd723689951d",
+      "documents": [
+        {
+          "documentId": "source-846-serpro-23-cb1-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/SERPRO_23/arquivos/846_SERPRO_23_CB1_01.PDF",
+          "sha256": "2cbdd08d37c9ee9f37a667aa988315075c3541b2688ba2cf29913561662c0d0f",
+          "outcome": "independent_recheck_byte_match"
+        },
+        {
+          "documentId": "source-846-serpro-23-cb1-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/SERPRO_23/arquivos/GAB_DEFINITIVO_846_SERPRO_23_CB1_01.PDF",
+          "sha256": "1c351b687563a9b7bbb624e271d3f332ca088cd814bb3fc54afb2be7163a70c2",
+          "outcome": "independent_recheck_byte_match"
+        }
+      ]
+    },
+    {
+      "event": "stj_24",
+      "checkedAt": "2026-10-26T18:11:53.049852+00:00",
+      "listingUrl": "https://apis.cebraspe.org.br/cebraspe/eventos/stj_24",
+      "listingFile": "data/reviews/eleventh-source-listings/stj_24-2026-10-26.json",
+      "listingSha256": "091d63dac3822715e21e8a41f8d41bd9670e65cb740c7d581212d39b3c1e3678",
+      "documents": [
+        {
+          "documentId": "source-018-stj-cb1-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/018_STJ_CB1_01.PDF",
+          "sha256": "4de19f387fecc954d82a39c32a58e8750dfe7217807f0214bc9d11c20230f989",
+          "outcome": "independent_recheck_byte_match"
+        },
+        {
+          "documentId": "source-018-stj-cb1-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/GAB_DEFINITIVO_018_STJ_CB1_01.PDF",
+          "sha256": "05cb676c1b5b27f21e7589282f96d698992a27422ddf642557d8f41c799433e8",
+          "outcome": "independent_recheck_byte_match"
+        }
+      ]
+    }
+  ],
+  "reviewedAt": "2026-10-26"
+}

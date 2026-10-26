@@ -1,0 +1,950 @@
+{
+  "id": "eleventh-batch",
+  "reviewedAt": "2026-10-26",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/eleventh-batch-release.md",
+  "items": [
+    {
+      "questionId": "846-serpro-23-cb1-01-q022",
+      "paperId": "source-846-serpro-23-cb1-01",
+      "number": 22,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        416.6967,
+        453.1767
+      ],
+      "contextIds": [
+        "serpro-2023-data-art-passage",
+        "serpro-2023-data-art-command"
+      ],
+      "answerKeyId": "846-serpro-23-cb1-01-q022-key-v1",
+      "answerDocumentId": "source-846-serpro-23-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-2"
+      ],
+      "justification": "Conector adversativo relevante à compreensão semântica."
+    },
+    {
+      "questionId": "846-serpro-23-cb1-01-q027",
+      "paperId": "source-846-serpro-23-cb1-01",
+      "number": 27,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        467.8167,
+        505.3767
+      ],
+      "contextIds": [
+        "serpro-2023-women-programming-passage",
+        "serpro-2023-women-programming-command"
+      ],
+      "answerKeyId": "846-serpro-23-cb1-01-q027-key-v1",
+      "answerDocumentId": "source-846-serpro-23-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-1"
+      ],
+      "justification": "Ideia principal e relação entre contribuição histórica e preconceito."
+    },
+    {
+      "questionId": "846-serpro-23-cb1-01-q029",
+      "paperId": "source-846-serpro-23-cb1-01",
+      "number": 29,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        531.0567,
+        556.7367
+      ],
+      "contextIds": [
+        "serpro-2023-women-programming-passage",
+        "serpro-2023-women-programming-command"
+      ],
+      "answerKeyId": "846-serpro-23-cb1-01-q029-key-v1",
+      "answerDocumentId": "source-846-serpro-23-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-3"
+      ],
+      "justification": "Uso contextual de registro formal e expressões coloquiais contemporâneas."
+    },
+    {
+      "questionId": "846-serpro-23-cb1-01-q030",
+      "paperId": "source-846-serpro-23-cb1-01",
+      "number": 30,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        556.7367,
+        590
+      ],
+      "contextIds": [
+        "serpro-2023-women-programming-passage",
+        "serpro-2023-women-programming-command"
+      ],
+      "answerKeyId": "846-serpro-23-cb1-01-q030-key-v1",
+      "answerDocumentId": "source-846-serpro-23-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-1"
+      ],
+      "justification": "Vocabulário contextual: relação de sentido entre dull e boring."
+    },
+    {
+      "questionId": "106-pf-cg1-01-q061",
+      "paperId": "source-106-pf-cg1-01",
+      "number": 61,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        112.8088,
+        191.6967
+      ],
+      "contextIds": [
+        "pf-policial-2025-internet-command"
+      ],
+      "answerKeyId": "106-pf-cg1-01-q061-key-v1",
+      "answerDocumentId": "source-106-pf-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-2-1"
+      ],
+      "justification": "Ferramentas de rede, conceito de dados ou colaboração previstos no edital de destino."
+    },
+    {
+      "questionId": "106-pf-cg1-01-q065",
+      "paperId": "source-106-pf-cg1-01",
+      "number": 65,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        445.0167,
+        547.497132
+      ],
+      "contextIds": [
+        "pf-policial-2025-net-security-command"
+      ],
+      "answerKeyId": "106-pf-cg1-01-q065-key-v1",
+      "answerDocumentId": "source-106-pf-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-2"
+      ],
+      "justification": "Ferramentas de rede, conceito de dados ou colaboração previstos no edital de destino."
+    },
+    {
+      "questionId": "106-pf-cg1-01-q072",
+      "paperId": "source-106-pf-cg1-01",
+      "number": 72,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        368.6487,
+        444.778296
+      ],
+      "contextIds": [
+        "pf-policial-2025-information-data-command"
+      ],
+      "answerKeyId": "106-pf-cg1-01-q072-key-v1",
+      "answerDocumentId": "source-106-pf-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-7-1"
+      ],
+      "justification": "Ferramentas de rede, conceito de dados ou colaboração previstos no edital de destino."
+    },
+    {
+      "questionId": "106-pf-cg1-01-q083",
+      "paperId": "source-106-pf-cg1-01",
+      "number": 83,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        339.4887,
+        394.2087
+      ],
+      "contextIds": [
+        "pf-policial-2025-ml-command"
+      ],
+      "answerKeyId": "106-pf-cg1-01-q083-key-v1",
+      "answerDocumentId": "source-106-pf-cg1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-2-1"
+      ],
+      "justification": "Ferramentas de rede, conceito de dados ou colaboração previstos no edital de destino."
+    },
+    {
+      "questionId": "018-stj-cb1-01-q048",
+      "paperId": "source-018-stj-cb1-01",
+      "number": 48,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        661.0167,
+        707.457192
+      ],
+      "contextIds": [
+        "stj-2024-teams-command"
+      ],
+      "answerKeyId": "018-stj-cb1-01-q048-key-v1",
+      "answerDocumentId": "source-018-stj-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-3"
+      ],
+      "justification": "Ferramentas de rede, conceito de dados ou colaboração previstos no edital de destino."
+    },
+    {
+      "questionId": "018-stj-cb1-01-q023",
+      "paperId": "source-018-stj-cb1-01",
+      "number": 23,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        172.3287,
+        254.76870000000002
+      ],
+      "contextIds": [
+        "stj-2024-agents-licitation-command"
+      ],
+      "answerKeyId": "018-stj-cb1-01-q023-key-v1",
+      "answerDocumentId": "source-018-stj-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-3-2"
+      ],
+      "justification": "Cargo/função, ato administrativo, licitação ou improbidade expressamente previsto no programa."
+    },
+    {
+      "questionId": "018-stj-cb1-01-q024",
+      "paperId": "source-018-stj-cb1-01",
+      "number": 24,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        254.76870000000002,
+        374.0988
+      ],
+      "contextIds": [
+        "stj-2024-agents-licitation-command"
+      ],
+      "answerKeyId": "018-stj-cb1-01-q024-key-v1",
+      "answerDocumentId": "source-018-stj-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-10-1"
+      ],
+      "justification": "Cargo/função, ato administrativo, licitação ou improbidade expressamente previsto no programa."
+    },
+    {
+      "questionId": "018-stj-cb1-01-q026",
+      "paperId": "source-018-stj-cb1-01",
+      "number": 26,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        565.6887,
+        636.537504
+      ],
+      "contextIds": [
+        "stj-2024-motivation-command"
+      ],
+      "answerKeyId": "018-stj-cb1-01-q026-key-v1",
+      "answerDocumentId": "source-018-stj-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-2-1"
+      ],
+      "justification": "Cargo/função, ato administrativo, licitação ou improbidade expressamente previsto no programa."
+    },
+    {
+      "questionId": "018-stj-cb1-01-q040",
+      "paperId": "source-018-stj-cb1-01",
+      "number": 40,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        75.1287,
+        115.1368
+      ],
+      "contextIds": [
+        "stj-2024-probity-command"
+      ],
+      "answerKeyId": "018-stj-cb1-01-q040-key-v1",
+      "answerDocumentId": "source-018-stj-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-7"
+      ],
+      "justification": "Cargo/função, ato administrativo, licitação ou improbidade expressamente previsto no programa."
+    },
+    {
+      "questionId": "018-stj-cb1-01-q041",
+      "paperId": "source-018-stj-cb1-01",
+      "number": 41,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        115.1368,
+        156.0567
+      ],
+      "contextIds": [
+        "stj-2024-probity-command"
+      ],
+      "answerKeyId": "018-stj-cb1-01-q041-key-v1",
+      "answerDocumentId": "source-018-stj-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-7"
+      ],
+      "justification": "Cargo/função, ato administrativo, licitação ou improbidade expressamente previsto no programa."
+    },
+    {
+      "questionId": "018-stj-cb1-01-q042",
+      "paperId": "source-018-stj-cb1-01",
+      "number": 42,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        156.0567,
+        210.9687
+      ],
+      "contextIds": [
+        "stj-2024-probity-command"
+      ],
+      "answerKeyId": "018-stj-cb1-01-q042-key-v1",
+      "answerDocumentId": "source-018-stj-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-7"
+      ],
+      "justification": "Cargo/função, ato administrativo, licitação ou improbidade expressamente previsto no programa."
+    },
+    {
+      "questionId": "018-stj-cb1-01-q043",
+      "paperId": "source-018-stj-cb1-01",
+      "number": 43,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        210.9687,
+        256.497192
+      ],
+      "contextIds": [
+        "stj-2024-probity-command"
+      ],
+      "answerKeyId": "018-stj-cb1-01-q043-key-v1",
+      "answerDocumentId": "source-018-stj-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-7"
+      ],
+      "justification": "Cargo/função, ato administrativo, licitação ou improbidade expressamente previsto no programa."
+    },
+    {
+      "questionId": "038-anm-010-01-q064",
+      "paperId": "source-038-anm-010-01",
+      "number": 64,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        265.2567,
+        328.136172
+      ],
+      "contextIds": [
+        "anm-producao"
+      ],
+      "answerKeyId": "038-anm-010-01-q064-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-2-3"
+      ],
+      "justification": "Marketing institucional e construção de imagem de marca."
+    },
+    {
+      "questionId": "038-anm-010-01-q066",
+      "paperId": "source-038-anm-010-01",
+      "number": 66,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        421.6167,
+        456.7767
+      ],
+      "contextIds": [
+        "anm-010-advertising-technology-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q066-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-2-6"
+      ],
+      "justification": "Automação e segmentação no marketing digital."
+    },
+    {
+      "questionId": "038-anm-010-01-q069",
+      "paperId": "source-038-anm-010-01",
+      "number": 69,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        568.9767,
+        615.1767
+      ],
+      "contextIds": [
+        "anm-010-omnichannel-media-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q069-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-3-6"
+      ],
+      "justification": "Métricas de avaliação de campanhas e limites do retorno imediato."
+    },
+    {
+      "questionId": "038-anm-010-01-q070",
+      "paperId": "source-038-anm-010-01",
+      "number": 70,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        615.1767,
+        661.4967
+      ],
+      "contextIds": [
+        "anm-010-omnichannel-media-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q070-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-4-3"
+      ],
+      "justification": "Gestão consistente da marca entre pontos de contato."
+    },
+    {
+      "questionId": "038-anm-010-01-q071",
+      "paperId": "source-038-anm-010-01",
+      "number": 71,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        661.4967,
+        707.8167
+      ],
+      "contextIds": [
+        "anm-010-omnichannel-media-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q071-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-1-5"
+      ],
+      "justification": "Compra programática como característica de mídia digital."
+    },
+    {
+      "questionId": "038-anm-010-01-q073",
+      "paperId": "source-038-anm-010-01",
+      "number": 73,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        754.0167,
+        795
+      ],
+      "contextIds": [
+        "anm-010-omnichannel-media-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q073-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-3-5"
+      ],
+      "justification": "Pesquisa e mensuração de mídia em múltiplos canais."
+    },
+    {
+      "questionId": "038-anm-010-01-q084",
+      "paperId": "source-038-anm-010-01",
+      "number": 84,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        541.2567,
+        577.1367
+      ],
+      "contextIds": [
+        "anm-010-metrics-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q084-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-4-9"
+      ],
+      "justification": "Gestão de projetos de comunicação e adaptação de cronogramas."
+    },
+    {
+      "questionId": "038-anm-010-01-q088",
+      "paperId": "source-038-anm-010-01",
+      "number": 88,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        716.0967,
+        751.9767
+      ],
+      "contextIds": [
+        "anm-010-endomarketing-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q088-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-2-4"
+      ],
+      "justification": "Endomarketing e equilíbrio de conteúdo das publicações internas."
+    },
+    {
+      "questionId": "038-anm-010-01-q089",
+      "paperId": "source-038-anm-010-01",
+      "number": 89,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        751.9767,
+        795
+      ],
+      "contextIds": [
+        "anm-010-endomarketing-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q089-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-2-3"
+      ],
+      "justification": "Estratégias de engajamento e alinhamento no endomarketing."
+    },
+    {
+      "questionId": "038-anm-010-01-q092",
+      "paperId": "source-038-anm-010-01",
+      "number": 92,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        174.7767,
+        221.4567
+      ],
+      "contextIds": [
+        "anm-010-internal-production-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q092-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-5-6"
+      ],
+      "justification": "Narrativa e produção audiovisual em filmes publicitários."
+    },
+    {
+      "questionId": "038-anm-010-01-q093",
+      "paperId": "source-038-anm-010-01",
+      "number": 93,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        221.4567,
+        279.1767
+      ],
+      "contextIds": [
+        "anm-010-internal-production-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q093-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-2-4"
+      ],
+      "justification": "Relação entre comunicação interna e cultura organizacional."
+    },
+    {
+      "questionId": "038-anm-010-01-q094",
+      "paperId": "source-038-anm-010-01",
+      "number": 94,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        279.1767,
+        325.8567
+      ],
+      "contextIds": [
+        "anm-010-internal-production-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q094-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-5-7"
+      ],
+      "justification": "Produção editorial orientada à clareza e aos públicos."
+    },
+    {
+      "questionId": "038-anm-012-01-q079",
+      "paperId": "source-038-anm-012-01",
+      "number": 79,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        719.5767,
+        766.1367
+      ],
+      "contextIds": [
+        "anm-012-senado-identity-passage",
+        "anm-012-senado-identity-command"
+      ],
+      "answerKeyId": "038-anm-012-01-q079-key-v1",
+      "answerDocumentId": "source-038-anm-012-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-3-2"
+      ],
+      "justification": "Identidade institucional e normalização de aplicação da marca."
+    },
+    {
+      "questionId": "038-anm-012-01-q108",
+      "paperId": "source-038-anm-012-01",
+      "number": 108,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        70.3767,
+        128.0967
+      ],
+      "contextIds": [
+        "anm-012-modern-relations-command"
+      ],
+      "answerKeyId": "038-anm-012-01-q108-key-v1",
+      "answerDocumentId": "source-038-anm-012-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-2-5"
+      ],
+      "justification": "Comunicação, satisfação dos colaboradores e clima organizacional."
+    },
+    {
+      "questionId": "038-anm-012-01-q112",
+      "paperId": "source-038-anm-012-01",
+      "number": 112,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        301.6167,
+        337.0167
+      ],
+      "contextIds": [
+        "anm-012-modern-relations-command"
+      ],
+      "answerKeyId": "038-anm-012-01-q112-key-v1",
+      "answerDocumentId": "source-038-anm-012-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-8"
+      ],
+      "justification": "Políticas gerais de comunicação orientadas por objetivos."
+    },
+    {
+      "questionId": "038-anm-008-01-q063",
+      "paperId": "source-038-anm-008-01",
+      "number": 63,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        736.0167,
+        775.7367
+      ],
+      "contextIds": [
+        "anm-008-research-command"
+      ],
+      "answerKeyId": "038-anm-008-01-q063-key-v1",
+      "answerDocumentId": "source-038-anm-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-3-1"
+      ],
+      "justification": "Distinção entre consulta exploratória e pesquisa com tratamento estatístico."
+    }
+  ],
+  "contexts": [
+    {
+      "contextId": "serpro-2023-data-art-passage",
+      "paperId": "source-846-serpro-23-cb1-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        64,
+        286
+      ],
+      "paragraphs": true,
+      "bulletParagraphs": false,
+      "creditBounds": [
+        300,
+        303
+      ]
+    },
+    {
+      "contextId": "serpro-2023-data-art-command",
+      "paperId": "source-846-serpro-23-cb1-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        317,
+        332
+      ],
+      "paragraphs": false,
+      "bulletParagraphs": false,
+      "creditBounds": null
+    },
+    {
+      "contextId": "serpro-2023-women-programming-passage",
+      "paperId": "source-846-serpro-23-cb1-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        46,
+        347
+      ],
+      "paragraphs": true,
+      "bulletParagraphs": false,
+      "creditBounds": [
+        363,
+        365
+      ]
+    },
+    {
+      "contextId": "serpro-2023-women-programming-command",
+      "paperId": "source-846-serpro-23-cb1-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        380,
+        394
+      ],
+      "paragraphs": false,
+      "bulletParagraphs": false,
+      "creditBounds": null
+    },
+    {
+      "contextId": "stj-2024-agents-licitation-command",
+      "paperId": "source-018-stj-cb1-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        121,
+        156
+      ],
+      "paragraphs": false,
+      "bulletParagraphs": false,
+      "creditBounds": null
+    },
+    {
+      "contextId": "stj-2024-motivation-command",
+      "paperId": "source-018-stj-cb1-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        530,
+        549
+      ],
+      "paragraphs": false,
+      "bulletParagraphs": false,
+      "creditBounds": null
+    },
+    {
+      "contextId": "stj-2024-probity-command",
+      "paperId": "source-018-stj-cb1-01",
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        46,
+        62
+      ],
+      "paragraphs": false,
+      "bulletParagraphs": false,
+      "creditBounds": null
+    },
+    {
+      "contextId": "stj-2024-teams-command",
+      "paperId": "source-018-stj-cb1-01",
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        566,
+        582
+      ],
+      "paragraphs": false,
+      "bulletParagraphs": false,
+      "creditBounds": null
+    },
+    {
+      "contextId": "pf-policial-2025-internet-command",
+      "paperId": "source-106-pf-cg1-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        71,
+        99
+      ],
+      "paragraphs": false,
+      "bulletParagraphs": false,
+      "creditBounds": null
+    },
+    {
+      "contextId": "anm-010-advertising-technology-command",
+      "paperId": "source-038-anm-010-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        329,
+        343
+      ],
+      "paragraphs": false,
+      "bulletParagraphs": false,
+      "creditBounds": null
+    },
+    {
+      "contextId": "anm-010-omnichannel-media-command",
+      "paperId": "source-038-anm-010-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        544,
+        558
+      ],
+      "paragraphs": false,
+      "bulletParagraphs": false,
+      "creditBounds": null
+    },
+    {
+      "contextId": "anm-010-endomarketing-command",
+      "paperId": "source-038-anm-010-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        655,
+        658
+      ],
+      "paragraphs": false,
+      "bulletParagraphs": false,
+      "creditBounds": null
+    },
+    {
+      "contextId": "anm-010-internal-production-command",
+      "paperId": "source-038-anm-010-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        46,
+        71
+      ],
+      "paragraphs": false,
+      "bulletParagraphs": false,
+      "creditBounds": null
+    },
+    {
+      "contextId": "anm-012-senado-identity-passage",
+      "paperId": "source-038-anm-012-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        488,
+        669
+      ],
+      "paragraphs": true,
+      "bulletParagraphs": true,
+      "creditBounds": [
+        683,
+        693
+      ]
+    },
+    {
+      "contextId": "anm-012-senado-identity-command",
+      "paperId": "source-038-anm-012-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        706,
+        709
+      ],
+      "paragraphs": false,
+      "bulletParagraphs": false,
+      "creditBounds": null
+    },
+    {
+      "contextId": "anm-012-modern-relations-command",
+      "paperId": "source-038-anm-012-01",
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        46,
+        60
+      ],
+      "paragraphs": false,
+      "bulletParagraphs": false,
+      "creditBounds": null
+    },
+    {
+      "contextId": "anm-008-research-command",
+      "paperId": "source-038-anm-008-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        604,
+        632
+      ],
+      "paragraphs": false,
+      "bulletParagraphs": false,
+      "creditBounds": null
+    }
+  ]
+}

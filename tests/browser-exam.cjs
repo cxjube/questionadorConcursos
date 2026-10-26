@@ -99,9 +99,9 @@ async function reflow(page) {
    await page.reload();await page.locator('#start-study:not([disabled])').waitFor();assert.equal((await progress(page)).history.length,3);
    assert.deepEqual(errors,[]);assert.deepEqual(external,[]);await context.close();
   }
-  // Clearly isolated test-only response: one official item absent from a copied catalog.
+  // Clearly isolated copied-catalog fixture: only 89 basic C/E remain.
   const context=await browser.newContext(),page=await context.newPage();
-  await page.route('**/data/catalog.js*',async route=>{const response=await route.fetch();await route.fulfill({response,body:await response.text()+'\nwindow.CONCURSOS_CATALOG.questions.shift();\n'});});
+  await page.route('**/data/catalog.js*',async route=>{const response=await route.fetch();await route.fulfill({response,body:await response.text()+`\n(()=>{const d=window.CONCURSOS_CATALOG,s=new Set(d.syllabusItems.filter(i=>i.block==='basic').map(i=>i.id)),ids=new Set(d.mappings.filter(m=>s.has(m.syllabusItemId)).map(m=>m.questionId));let count=0;d.questions=d.questions.filter(q=>!ids.has(q.id)||q.type!=='true_false'||++count<=89);})();\n`});});
   await page.goto(base);await page.locator('#start-study:not([disabled])').waitFor();assert.equal(await page.locator('#prepare-exam').isDisabled(),true);assert.match(await page.locator('#exam-availability').innerText(),/insuficiente/);await context.close();
   console.log('Exam passed: 180 distinct CE, independent settings, P1/P2 navigation, hidden corrections/history, exact 18+36=54 minima, persisted timer, legacy history, backup UI, five-hour expiry, shortage blocking, keyboard, light/dark and 200% text at 320/1280px.');
  } finally {await browser.close();}

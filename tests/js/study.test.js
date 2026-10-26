@@ -139,7 +139,7 @@ test('subject filters include descendants, respect the role and count canonical 
  const mapped=s.data.mappings.find(m=>m.questionId===parent[0].id);
  s.data.mappings.push({...mapped,id:'synthetic-duplicate-mapping-for-test-only'});
  assert.equal(s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-7'}).length,6);
- assert.equal(s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-2'}).length,5);
+ assert.equal(s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-2'}).length,8);
  for(const filters of [{disciplineId:'missing-test-only'},{topicId:'missing-test-only'},{disciplineId:'lingua-portuguesa',topicId:'comunicacao-social-7'}]) {
   assert.throws(()=>s.Study.pool(s.data,s.role,progress,'all',filters),/inválido/);
  }
@@ -155,7 +155,7 @@ test('custom quantity and draw preserve sources, options and contexts without re
  assert.deepEqual(plain(session.items.map(i=>i.question.id)),plain(pool.slice(1,3).map(q=>q.id)));
  for(const item of session.items) assert.deepEqual(plain(item),plain(s.Study.snapshot(s.data,s.data.questions.find(q=>q.id===item.question.id),s.role)));
  assert.equal(JSON.stringify(s.data),before);assert.equal(session.scoringProfile,null);
- for(const limit of [0,-1,1.5,'2',6,NaN]) assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{...filters,limit}),/quantidade/);
+ for(const limit of [0,-1,1.5,'2',pool.length+1,NaN]) assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{...filters,limit}),/quantidade/);
  assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{disciplineId:'ciencia-politica',type:'true_false',year:2025}),/Não há questões/);
 });
 test('filtered errors use finalized outcomes and ignore unfinished choices',()=>{
@@ -287,10 +287,10 @@ test('custom scoring never changes accuracy, unscored history or official criter
 test('block filters use target syllabus blocks, preserve distinct IDs and validate snapshots',()=>{
  const s=setup(),p=s.Study.empty();
  const basic=s.Study.pool(s.data,s.role,p,'all',{block:'basic'}),specific=s.Study.pool(s.data,s.role,p,'all',{block:'specific'});
- assert.equal(basic.length,91);assert.equal(specific.length,102);
+ assert.equal(basic.length,107);assert.equal(specific.length,118);
  assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',disciplineId:'lingua-inglesa'}).length,0);
  const session=s.Study.create(s.data,s.role,p,'all',{block:'basic',disciplineId:'lingua-inglesa'});
- assert.equal(session.items.length,11);assert.equal(session.selection.block,'basic');
+ assert.equal(session.items.length,15);assert.equal(session.selection.block,'basic');
  assert.equal(session.items[0].question.language,'en');assert.equal(session.items[0].contexts[0].language,'en');
  assert.ok(session.items.every(i=>i.mappings.some(m=>m.block==='basic')));
  const restored=s.Study.importBackup(s.Study.exportBackup({...p,active:session}),s.data);assert.deepEqual(plain(restored.active),plain(session));
@@ -302,8 +302,8 @@ test('block filters use target syllabus blocks, preserve distinct IDs and valida
  assert.ok(s.Study.validate({...p,active:legacy},s.data));
  const multi=plain(s.data),target=multi.syllabusItems.find(t=>t.block==='specific');
  multi.mappings.push({id:'synthetic-cross-block-link',questionId:basic[0].id,syllabusItemId:target.id,status:'confirmed'});
- assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,103);
- assert.equal(s.Study.pool(multi,s.role,p).length,192);
+ assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,119);
+ assert.equal(s.Study.pool(multi,s.role,p).length,224);
  assert.throws(()=>s.Study.pool(s.data,s.role,p,'all',{block:'invalid'}),/Bloco/);
 });
 test('evolution uses local calendar days, weighted accuracy and finalized role snapshots only',()=>{
@@ -345,8 +345,8 @@ test('sixth batch counts shared topics once and keeps MC separate from CE compos
  const shared='camara-2023-tecnica-tarde-tipo1-q017';
  assert.equal(basic.filter(q=>q.id===shared).length,1);assert.equal(specific.filter(q=>q.id===shared).length,1);
  assert.equal(s.Study.pool(s.data,s.role,p).filter(q=>q.id===shared).length,1);
- assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'}).length,90);
- assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'}).length,90);
+ assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'}).length,106);
+ assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'}).length,106);
  for(const discipline of s.data.disciplines) assert.ok(s.Study.pool(s.data,s.role,p,'all',{disciplineId:discipline.id}).length>0);
 });
 
@@ -356,7 +356,7 @@ test('legal and FGV source snapshots survive backup with narrowly allowed offici
  assert.equal(p.active.items.length,7);assert.ok(p.active.items.every(i=>i.explanations.length===1));
  const restored=s.Study.importBackup(s.Study.exportBackup(p),s.data);assert.deepEqual(plain(restored),plain(p));
  p.active=s.Study.create(s.data,s.role,s.Study.empty(),'all',{disciplineId:'direito-administrativo-administracao-publica'});
- assert.equal(p.active.items.length,19);assert.ok(s.Study.importBackup(s.Study.exportBackup(p),s.data));
+ assert.equal(p.active.items.length,26);assert.ok(s.Study.importBackup(s.Study.exportBackup(p),s.data));
  const bad=plain(p);bad.active.items[0].explanations[0].references[0].officialUrl='https://www.planalto.gov.br.evil.invalid/fake';
  // Snapshot references carry the canonical source URL; reject a lookalike hostname.
  const ref=p.active.items[0].explanations[0].references[0];
@@ -369,12 +369,12 @@ test('legal and FGV source snapshots survive backup with narrowly allowed offici
  assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(spoof),s.data));
 });
 
-test('the completed CE base provides 90 distinct valid items per target block',()=>{
+test('the expanded CE reserve provides 106 distinct valid items per target block',()=>{
  const s=setup(),p=s.Study.empty();
  const basic=s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'});
  const specific=s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'});
- assert.equal(basic.length,90);assert.equal(specific.length,90);
- assert.equal(new Set([...basic,...specific].map(q=>q.id)).size,180);
+ assert.equal(basic.length,106);assert.equal(specific.length,106);
+ assert.equal(new Set([...basic,...specific].map(q=>q.id)).size,212);
  for(const block of ['basic','specific']) {
   const session=s.Study.create(s.data,s.role,p,'all',{block,type:'true_false',limit:90});
   assert.equal(session.items.length,90);

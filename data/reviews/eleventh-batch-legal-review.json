@@ -1,0 +1,84 @@
+{
+  "id": "eleventh-batch-legal-review",
+  "reviewedAt": "2026-10-26",
+  "scope": "Agent-assisted compatibility with the cited active clauses; official source rechecks are retained separately. Not a complete legal audit or board-authored rationale.",
+  "items": [
+    {
+      "questionId": "018-stj-cb1-01-q023",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, V",
+          "activeQuote": "V - as funções de confiança, exercidas exclusivamente por servidores ocupantes de cargo efetivo, e os cargos em comissão, a serem preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, destinam-se apenas às atribuições de direção, chefia e assessoramento;"
+        }
+      ]
+    },
+    {
+      "questionId": "018-stj-cb1-01-q024",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 26, § 5º, I e II",
+          "activeQuote": "§ 5º A margem de preferência não se aplica aos bens manufaturados nacionais e aos serviços nacionais se a capacidade de produção desses bens ou de prestação desses serviços no País for inferior: I - à quantidade a ser adquirida ou contratada; ou II - aos quantitativos fixados em razão do parcelamento do objeto, quando for o caso."
+        }
+      ]
+    },
+    {
+      "questionId": "018-stj-cb1-01-q026",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-9784-1999",
+          "locator": "Art. 50, § 1º",
+          "activeQuote": "A motivação deve ser explícita, clara e congruente, podendo consistir em declaração de concordância com fundamentos de anteriores pareceres, informações, decisões ou propostas, que, neste caso, serão parte integrante do ato."
+        }
+      ]
+    },
+    {
+      "questionId": "018-stj-cb1-01-q040",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-8429-1992",
+          "locator": "Art. 11, IV",
+          "activeQuote": "IV - negar publicidade aos atos oficiais, exceto em razão de sua imprescindibilidade para a segurança da sociedade e do Estado ou de outras hipóteses instituídas em lei;"
+        }
+      ]
+    },
+    {
+      "questionId": "018-stj-cb1-01-q041",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-8429-1992",
+          "locator": "Art. 11, § 4º",
+          "activeQuote": "§ 4º Os atos de improbidade de que trata este artigo exigem lesividade relevante ao bem jurídico tutelado para serem passíveis de sancionamento e independem do reconhecimento da produção de danos ao erário e de enriquecimento ilícito dos agentes públicos."
+        }
+      ]
+    },
+    {
+      "questionId": "018-stj-cb1-01-q042",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-8429-1992",
+          "locator": "Art. 1º, § 6º",
+          "activeQuote": "§ 6º Estão sujeitos às sanções desta Lei os atos de improbidade praticados contra o patrimônio de entidade privada que receba subvenção, benefício ou incentivo, fiscal ou creditício, de entes públicos ou governamentais, previstos no § 5º deste artigo."
+        }
+      ]
+    },
+    {
+      "questionId": "018-stj-cb1-01-q043",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-8429-1992",
+          "locator": "Art. 3º, caput",
+          "activeQuote": "Art. 3º As disposições desta Lei são aplicáveis, no que couber, àquele que, mesmo não sendo agente público, induza ou concorra dolosamente para a prática do ato de improbidade."
+        }
+      ]
+    }
+  ]
+}

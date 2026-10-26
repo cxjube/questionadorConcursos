@@ -1,0 +1,70 @@
+{
+  "id": "eleventh-reference-rechecks",
+  "scope": "Current visible cited clauses/technical conditions checked on 2026-10-26. Raw files and hashes retained independently; no whole-document binary equality is claimed. Câmara fallback used for Constitution/administrative-procedure law; Planalto case-sensitive URL succeeded for procurement law. HTTP-200 gateway-error HTML was rejected.",
+  "references": [
+    {
+      "documentId": "reference-constitution-1988",
+      "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "file": "data/reviews/eleventh-reference-rechecks/reference-constitution-1988.html",
+      "sha256": "a8de1643589cf9fb199bb58a0cf4a6acd63c35ed377843d8240ca500b7e1f2c1",
+      "checkedAt": "2026-10-26T18:11:05.384442+00:00",
+      "outcome": "cited_visible_text_matches",
+      "citedQuotes": [
+        "V - as funções de confiança, exercidas exclusivamente por servidores ocupantes de cargo efetivo, e os cargos em comissão, a serem preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, destinam-se apenas às atribuições de direção, chefia e assessoramento;"
+      ],
+      "retainedDocumentSha256": "bfcf4ff3177fedb13db963a2a05109d7520c01dff8257e83007a9e50ba51841e"
+    },
+    {
+      "documentId": "reference-lei-9784-1999",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "file": "data/reviews/eleventh-reference-rechecks/reference-lei-9784-1999.html",
+      "sha256": "87cd4730fda84e28bdfc490c4cd6635b8eb86c98a4ab2daf29e380eb62c0a80b",
+      "checkedAt": "2026-10-26T18:11:05.395491+00:00",
+      "outcome": "cited_visible_text_matches",
+      "citedQuotes": [
+        "A motivação deve ser explícita, clara e congruente, podendo consistir em declaração de concordância com fundamentos de anteriores pareceres, informações, decisões ou propostas, que, neste caso, serão parte integrante do ato."
+      ],
+      "retainedDocumentSha256": "0252507e0e6394f79d4f4cf68fe3677af2176f9d252c711e738824d163e0f152"
+    },
+    {
+      "documentId": "reference-lei-14133-2021",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14133.htm",
+      "file": "data/reviews/eleventh-reference-rechecks/reference-lei-14133-2021.html",
+      "sha256": "7474e192ebb898ef4c68ef75649f0a5cde78b916b0d4937018ece24b74ed6b7e",
+      "checkedAt": "2026-10-26T18:11:05.454090+00:00",
+      "outcome": "cited_visible_text_matches",
+      "citedQuotes": [
+        "§ 5º A margem de preferência não se aplica aos bens manufaturados nacionais e aos serviços nacionais se a capacidade de produção desses bens ou de prestação desses serviços no País for inferior: I - à quantidade a ser adquirida ou contratada; ou II - aos quantitativos fixados em razão do parcelamento do objeto, quando for o caso."
+      ],
+      "retainedDocumentSha256": "e2e59f1cd0b413a6ea6c26ffb2cc9cbccbe108fcfd41b4b6394f4157c33f0de8"
+    },
+    {
+      "documentId": "reference-lei-8429-1992",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.html",
+      "file": "data/reviews/eleventh-reference-rechecks/reference-lei-8429-1992.html",
+      "sha256": "ac5ffb8bcb800556b9cd9563bcffe957c81c3170fe455c1da526013a4ee89010",
+      "checkedAt": "2026-10-26T18:11:05.467663+00:00",
+      "outcome": "cited_visible_text_matches",
+      "citedQuotes": [
+        "IV - negar publicidade aos atos oficiais, exceto em razão de sua imprescindibilidade para a segurança da sociedade e do Estado ou de outras hipóteses instituídas em lei;",
+        "§ 4º Os atos de improbidade de que trata este artigo exigem lesividade relevante ao bem jurídico tutelado para serem passíveis de sancionamento e independem do reconhecimento da produção de danos ao erário e de enriquecimento ilícito dos agentes públicos.",
+        "§ 6º Estão sujeitos às sanções desta Lei os atos de improbidade praticados contra o patrimônio de entidade privada que receba subvenção, benefício ou incentivo, fiscal ou creditício, de entes públicos ou governamentais, previstos no § 5º deste artigo.",
+        "Art. 3º As disposições desta Lei são aplicáveis, no que couber, àquele que, mesmo não sendo agente público, induza ou concorra dolosamente para a prática do ato de improbidade."
+      ],
+      "retainedDocumentSha256": "ac5ffb8bcb800556b9cd9563bcffe957c81c3170fe455c1da526013a4ee89010"
+    },
+    {
+      "documentId": "reference-microsoft-teams-recording",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/tmr-meeting-recording-change",
+      "file": "data/reviews/eleventh-reference-rechecks/reference-microsoft-teams-recording.html",
+      "sha256": "3a54d4ab31c866e6131dee40e8013d2943a6408ad9448aa65249b1745b53fc8d",
+      "checkedAt": "2026-10-26T18:11:05.475466+00:00",
+      "outcome": "cited_visible_text_matches",
+      "citedQuotes": [
+        "the recording saves to the organizer's OneDrive",
+        "For Channel meetings, the recording is stored in the SharePoint"
+      ],
+      "retainedDocumentSha256": "3a54d4ab31c866e6131dee40e8013d2943a6408ad9448aa65249b1745b53fc8d"
+    }
+  ]
+}

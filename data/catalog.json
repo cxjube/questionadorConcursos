@@ -2388,6 +2388,110 @@
       "sha256": "6ed7c19586b21355e998746a0620cea5c2f3e6a24036d7f3743b7d30330e5d90",
       "publicationDate": null,
       "paperId": null
+    },
+    {
+      "id": "source-846-serpro-23-cb1-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "SERPRO — Analista — Especialização: Tecnologia — Conhecimentos básicos — caderno",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/SERPRO_23/arquivos/846_SERPRO_23_CB1_01.PDF",
+      "file": "sources/papers/846_SERPRO_23_CB1_01.PDF",
+      "sha256": "2cbdd08d37c9ee9f37a667aa988315075c3541b2688ba2cf29913561662c0d0f",
+      "publicationDate": "2023-07-28",
+      "paperId": "source-846-serpro-23-cb1-01"
+    },
+    {
+      "id": "source-846-serpro-23-cb1-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "SERPRO — Analista — Especialização: Tecnologia — Conhecimentos básicos — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/SERPRO_23/arquivos/GAB_DEFINITIVO_846_SERPRO_23_CB1_01.PDF",
+      "file": "sources/answer-keys/GAB_DEFINITIVO_846_SERPRO_23_CB1_01.PDF",
+      "sha256": "1c351b687563a9b7bbb624e271d3f332ca088cd814bb3fc54afb2be7163a70c2",
+      "publicationDate": "2023-08-16",
+      "paperId": "source-846-serpro-23-cb1-01"
+    },
+    {
+      "id": "source-018-stj-cb1-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Superior Tribunal de Justiça — Conhecimentos básicos para todos os cargos, exceto cargos 1, 3, 18 e 19 — caderno",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/018_STJ_CB1_01.PDF",
+      "file": "sources/papers/018_STJ_CB1_01.PDF",
+      "sha256": "4de19f387fecc954d82a39c32a58e8750dfe7217807f0214bc9d11c20230f989",
+      "publicationDate": "2024-12-06",
+      "paperId": "source-018-stj-cb1-01"
+    },
+    {
+      "id": "source-018-stj-cb1-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Superior Tribunal de Justiça — Conhecimentos básicos para todos os cargos, exceto cargos 1, 3, 18 e 19 — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/GAB_DEFINITIVO_018_STJ_CB1_01.PDF",
+      "file": "sources/answer-keys/GAB_DEFINITIVO_018_STJ_CB1_01.PDF",
+      "sha256": "05cb676c1b5b27f21e7589282f96d698992a27422ddf642557d8f41c799433e8",
+      "publicationDate": "2025-01-10",
+      "paperId": "source-018-stj-cb1-01"
+    },
+    {
+      "id": "reference-lei-8429-1992",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Lei nº 8.429/1992 — texto atualizado",
+      "issuer": "Câmara dos Deputados",
+      "status": "verified",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.html",
+      "file": "sources/references/camara-lei-8429-1992.html",
+      "sha256": "ac5ffb8bcb800556b9cd9563bcffe957c81c3170fe455c1da526013a4ee89010",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-microsoft-teams-recording",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Teams meeting recording and transcript storage and permissions in OneDrive and SharePoint",
+      "issuer": "Microsoft Learn",
+      "status": "verified",
+      "officialUrl": "https://learn.microsoft.com/en-us/microsoftteams/tmr-meeting-recording-change",
+      "file": "sources/references/microsoft-teams-recording.html",
+      "sha256": "3a54d4ab31c866e6131dee40e8013d2943a6408ad9448aa65249b1745b53fc8d",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-microsoft-ipv6",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "IPv6 Overview — Microsoft Learn",
+      "issuer": "Microsoft Learn",
+      "status": "verified",
+      "officialUrl": "https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/ipv6-overview",
+      "file": "sources/references/microsoft-ipv6.html",
+      "sha256": "096acec44ed4a347d83ecea3168e91d7d3861b9277e92e59a40f753a321b57e0",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-microsoft-dns",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "DNS overview — Microsoft Learn",
+      "issuer": "Microsoft Learn",
+      "status": "verified",
+      "officialUrl": "https://learn.microsoft.com/en-us/windows-server/networking/dns/dns-overview",
+      "file": "sources/references/microsoft-dns.html",
+      "sha256": "a2346c530f0c174cd5589430c485d51f9670c16a6b9e587f6a4a8421212624e0",
+      "publicationDate": null,
+      "paperId": null
     }
   ],
   "papers": [
@@ -2919,6 +3023,62 @@
           94
         ],
         "answerKeyDocumentId": "source-106-pf-cg1-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-846-serpro-23-cb1-01",
+      "bankId": "concursos",
+      "title": "SERPRO 2023 — Analista — Especialização: Tecnologia — Conhecimentos básicos",
+      "provider": "Cebraspe",
+      "institution": "SERPRO",
+      "role": "Analista — Especialização: Tecnologia — Conhecimentos básicos",
+      "year": 2023,
+      "booklet": "846_SERPRO_23_CB1_01",
+      "documentId": "source-846-serpro-23-cb1-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2023-07-23",
+        "block": "basic",
+        "firstItem": 1,
+        "lastItem": 50,
+        "itemCount": 50,
+        "questionType": "true_false",
+        "annulledItems": [
+          12,
+          26
+        ],
+        "answerKeyDocumentId": "source-846-serpro-23-cb1-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-018-stj-cb1-01",
+      "bankId": "concursos",
+      "title": "Superior Tribunal de Justiça 2024 — Conhecimentos básicos para todos os cargos, exceto cargos 1, 3, 18 e 19",
+      "provider": "Cebraspe",
+      "institution": "Superior Tribunal de Justiça",
+      "role": "Conhecimentos básicos para todos os cargos, exceto cargos 1, 3, 18 e 19",
+      "year": 2024,
+      "booklet": "018_STJ_CB1_01",
+      "documentId": "source-018-stj-cb1-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2024-12-01",
+        "block": "basic",
+        "firstItem": 1,
+        "lastItem": 50,
+        "itemCount": 50,
+        "questionType": "true_false",
+        "annulledItems": [
+          8,
+          15,
+          49,
+          50
+        ],
+        "answerKeyDocumentId": "source-018-stj-cb1-01-key",
         "pairingStatus": "matched_by_filename_and_range",
         "externalVerification": true
       }
@@ -8982,6 +9142,975 @@
         "temporalNote": "Conceitos e modelos da prova de origem, sem transformar exemplos históricos em afirmações sobre legislação ou dados atuais.",
         "decisionReference": "documentation/tenth-batch-release.md"
       }
+    },
+    {
+      "id": "846-serpro-23-cb1-01-q022",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "The use of “nonetheless”, in the first sentence of the second paragraph, expresses a somewhat contradictory idea in the sentence.",
+      "options": [],
+      "contextIds": [
+        "serpro-2023-data-art-passage",
+        "serpro-2023-data-art-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-846-serpro-23-cb1-01",
+        "number": 22,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "846-serpro-23-cb1-01-q022-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do excerto da prova de origem, com seus parágrafos e créditos preservados; não converte idade, exemplo ou manual institucional em regra atual universal.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "846-serpro-23-cb1-01-q027",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "The main point of the article is the ironic dismissal of women’s abilities to work in programming in disregard for their fundamental contribution to this area.",
+      "options": [],
+      "contextIds": [
+        "serpro-2023-women-programming-passage",
+        "serpro-2023-women-programming-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-846-serpro-23-cb1-01",
+        "number": 27,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "846-serpro-23-cb1-01-q027-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do excerto da prova de origem, com seus parágrafos e créditos preservados; não converte idade, exemplo ou manual institucional em regra atual universal.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "846-serpro-23-cb1-01-q029",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "This is an informative text which mingles formal and colloquial vocabulary, such as “street cred”.",
+      "options": [],
+      "contextIds": [
+        "serpro-2023-women-programming-passage",
+        "serpro-2023-women-programming-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-846-serpro-23-cb1-01",
+        "number": 29,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "846-serpro-23-cb1-01-q029-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do excerto da prova de origem, com seus parágrafos e créditos preservados; não converte idade, exemplo ou manual institucional em regra atual universal.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "846-serpro-23-cb1-01-q030",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "The adjective “dull”, in the first sentence of the fourth paragraph, could be replaced by boring without changing the meaning of the sentence.",
+      "options": [],
+      "contextIds": [
+        "serpro-2023-women-programming-passage",
+        "serpro-2023-women-programming-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-846-serpro-23-cb1-01",
+        "number": 30,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "846-serpro-23-cb1-01-q030-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do excerto da prova de origem, com seus parágrafos e créditos preservados; não converte idade, exemplo ou manual institucional em regra atual universal.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "106-pf-cg1-01-q061",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O Microsoft Remote Desktop e o TeamViewer permitem acesso remoto a computadores, o que possibilita a transferência de arquivos, e os ambientes Microsoft Office e LibreOffice oferecem ferramentas para criação de textos, planilhas e apresentações, garantindo compatibilidade com diversos formatos.",
+      "options": [],
+      "contextIds": [
+        "pf-policial-2025-internet-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-106-pf-cg1-01",
+        "number": 61,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "106-pf-cg1-01-q061-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "106-pf-cg1-01-q065",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No protocolo IPv6, cada endereço tem 256 bits, que são divididos em duas partes (a primeira define a rede e a segunda identifica o host); esse protocolo elimina o uso de máscaras de sub-rede, substituindo-as por prefixos de rede fixos; por sua vez, o IPv4 utiliza endereços de 32 bits e máscaras de sub-rede variáveis para definir a separação entre rede e host.",
+      "options": [],
+      "contextIds": [
+        "pf-policial-2025-net-security-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-106-pf-cg1-01",
+        "number": 65,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "106-pf-cg1-01-q065-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "106-pf-cg1-01-q072",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Na teoria da informação, dados representam fatos brutos que, quando organizados e interpretados, se transformam em informação, e a segurança da informação busca protegê-los contra acessos não autorizados, garantindo sua confidencialidade, integridade e disponibilidade.",
+      "options": [],
+      "contextIds": [
+        "pf-policial-2025-information-data-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-106-pf-cg1-01",
+        "number": 72,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "106-pf-cg1-01-q072-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "106-pf-cg1-01-q083",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O DNS é responsável por garantir a confidencialidade das comunicações entre cliente e servidor por meio de criptografia ponta a ponta embutida no próprio protocolo desde a sua concepção.",
+      "options": [],
+      "contextIds": [
+        "pf-policial-2025-ml-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-106-pf-cg1-01",
+        "number": 83,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "106-pf-cg1-01-q083-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-cb1-01-q048",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Quando gravadas, as reuniões realizadas pelo MS Teams são disponibilizadas via chat da reunião e ficam armazenadas no OneDrive do organizador da reunião.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-teams-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-cb1-01",
+        "number": 48,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "018-stj-cb1-01-q048-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-cb1-01-q023",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Para o desempenho de funções de natureza permanente, correspondentes às atribuições de chefia, direção e assessoramento, não se exige que o agente público que as exercerá tenha sido admitido no serviço público mediante concurso público.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-agents-licitation-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-cb1-01",
+        "number": 23,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "018-stj-cb1-01-q023-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Cláusulas ativas citadas conferidas nas fontes oficiais em 26/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-cb1-01-q024",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Com base no princípio da isonomia e da economicidade, a administração pública pode, nas compras, dar preferência para bens manufaturados que atendam a normas técnicas brasileiras, ainda que a capacidade de produção desses bens seja inferior à quantidade que se pretenda adquirir, desde que esteja previsto no edital que a compra da quantidade complementar de bens será feita por outro fornecedor.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-agents-licitation-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-cb1-01",
+        "number": 24,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "018-stj-cb1-01-q024-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Cláusulas ativas citadas conferidas nas fontes oficiais em 26/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-cb1-01-q026",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Quando a lei exigir motivação para o ato administrativo, esta deverá ser explícita, clara e congruente, não podendo consistir em declaração de concordância com fundamentos de pareceres, informações, decisões ou propostas anteriores.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-motivation-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-cb1-01",
+        "number": 26,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "018-stj-cb1-01-q026-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Cláusulas ativas citadas conferidas nas fontes oficiais em 26/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-cb1-01-q040",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A conduta de servidor de negar publicidade a atos oficiais configura ato de improbidade administrativa que causa prejuízo ao erário.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-probity-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-cb1-01",
+        "number": 40,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "018-stj-cb1-01-q040-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Cláusulas ativas citadas conferidas nas fontes oficiais em 26/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-cb1-01-q041",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O ato de improbidade administrativa que atenta contra os princípios da administração pública só é passível de sanção se tiver gerado lesividade relevante ao bem jurídico tutelado.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-probity-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-cb1-01",
+        "number": 41,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "018-stj-cb1-01-q041-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Cláusulas ativas citadas conferidas nas fontes oficiais em 26/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-cb1-01-q042",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As sanções previstas na Lei de Improbidade Administrativa aplicam-se aos atos de improbidade cometidos contra o patrimônio de entidades privadas que gozam de benefício fiscal concedido por ente público ou governamental.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-probity-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-cb1-01",
+        "number": 42,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "018-stj-cb1-01-q042-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Cláusulas ativas citadas conferidas nas fontes oficiais em 26/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-cb1-01-q043",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A Lei de Improbidade Administrativa é aplicável àqueles que, mesmo não sendo agentes públicos, concorram culposamente para a prática de ato de improbidade.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-probity-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-cb1-01",
+        "number": 43,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "018-stj-cb1-01-q043-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Cláusulas ativas citadas conferidas nas fontes oficiais em 26/10/2026; enunciado e gabarito originais preservados.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q064",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As formas de divulgação institucional, como as ações de relações públicas e patrocínios, são menos eficazes que anúncios publicitários no que diz respeito à construção de uma imagem de marca sólida e ao aumento da lealdade do consumidor.",
+      "options": [],
+      "contextIds": [
+        "anm-producao"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 64,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-010-01-q064-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q066",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A automação de marketing é relevante para campanhas publicitárias, mas não contribui para a personalização e segmentação de anúncios.",
+      "options": [],
+      "contextIds": [
+        "anm-010-advertising-technology-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 66,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-010-01-q066-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q069",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A mensuração do impacto de uma campanha publicitária deve ser feita com base no retorno financeiro imediato gerado pela campanha, sendo este o indicador mais confiável de sua eficácia.",
+      "options": [],
+      "contextIds": [
+        "anm-010-omnichannel-media-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 69,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-010-01-q069-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q070",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As estratégias omnichannel são cruciais para a garantia de uma experiência de marca consistente, integrando todos os pontos de contato e proporcionando uma percepção unificada da marca para os consumidores.",
+      "options": [],
+      "contextIds": [
+        "anm-010-omnichannel-media-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 70,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-010-01-q070-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q071",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Ao automatizar a compra e venda de espaços publicitários em tempo real, a publicidade programática permite uma segmentação mais precisa do público-alvo e otimiza o retorno sobre o investimento das campanhas.",
+      "options": [],
+      "contextIds": [
+        "anm-010-omnichannel-media-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 71,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-010-01-q071-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q073",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A mensuração cross-media, que avalia o impacto de campanhas publicitárias em múltiplos canais, é fundamental para o entendimento da jornada do consumidor e a otimização da alocação de orçamento de mídia.",
+      "options": [],
+      "contextIds": [
+        "anm-010-omnichannel-media-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 73,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-010-01-q073-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q084",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Projetos de comunicação organizacional com cronogramas inflexíveis garantem maior eficiência, pois minimizam interrupções ou ajustes desnecessários durante a execução.",
+      "options": [],
+      "contextIds": [
+        "anm-010-metrics-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 84,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-010-01-q084-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q088",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Publicações internas em endomarketing devem equilibrar conteúdos operacionais e motivacionais para engajar colaboradores de forma contínua.",
+      "options": [],
+      "contextIds": [
+        "anm-010-endomarketing-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 88,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-010-01-q088-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q089",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Campanhas internas de endomarketing podem ser eficazes mesmo sem alinhamento direto aos objetivos organizacionais, desde que gerem aumento na produtividade dos colaboradores.",
+      "options": [],
+      "contextIds": [
+        "anm-010-endomarketing-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 89,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-010-01-q089-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q092",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A técnica de storytelling em filmes publicitários é mais eficaz em campanhas de endomarketing quando utilizada para reforçar valores institucionais por meio de histórias reais envolvendo colaboradores.",
+      "options": [],
+      "contextIds": [
+        "anm-010-internal-production-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 92,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-010-01-q092-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q093",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A estética publicitária de campanhas institucionais voltadas para o público interno deve ser adaptada à cultura organizacional, mesmo que isso implique na simplificação de elementos visuais em comparação com campanhas externas.",
+      "options": [],
+      "contextIds": [
+        "anm-010-internal-production-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 93,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-010-01-q093-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-010-01-q094",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A produção editorial em campanhas publicitárias deve considerar o uso de elementos visuais minimalistas em contextos institucionais, pois simplificam a mensagem e facilitam sua compreensão por públicos diversificados.",
+      "options": [],
+      "contextIds": [
+        "anm-010-internal-production-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-010-01",
+        "number": 94,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-010-01-q094-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-012-01-q079",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O manual da identidade institucional é um instrumento cujo propósito é normatizar a aplicação da marca, a fim de que se obtenha uma unidade visual constante, que fortaleça a imagem institucional.",
+      "options": [],
+      "contextIds": [
+        "anm-012-senado-identity-passage",
+        "anm-012-senado-identity-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-012-01",
+        "number": 79,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-012-01-q079-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Interpretação do excerto da prova de origem, com seus parágrafos e créditos preservados; não converte idade, exemplo ou manual institucional em regra atual universal.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-012-01-q108",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A comunicação eficaz nas organizações melhora as relações com os clientes, com a comunidade e com os investidores, mas não colabora para que funcionários ou empregados sejam mais produtivos e sintam-se mais satisfeitos no trabalho.",
+      "options": [],
+      "contextIds": [
+        "anm-012-modern-relations-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-012-01",
+        "number": 108,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "038-anm-012-01-q108-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-012-01-q112",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Os profissionais de relações públicas podem estabelecer políticas de comunicação organizacional baseadas em uma abordagem orientada por objetivos.",
+      "options": [],
+      "contextIds": [
+        "anm-012-modern-relations-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-012-01",
+        "number": 112,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "038-anm-012-01-q112-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-008-01-q063",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A enquete é um método de pesquisa caracterizado por perguntas abertas e estruturadas que geram análises estatísticas dos dados obtidos.",
+      "options": [],
+      "contextIds": [
+        "anm-008-research-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-008-01",
+        "number": 63,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-008-01-q063-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conceitos da prova de origem; comentários técnicos distinguem condições e exceções sem alterar o gabarito definitivo.",
+        "decisionReference": "documentation/eleventh-batch-release.md"
+      }
     }
   ],
   "answerKeys": [
@@ -11476,6 +12605,422 @@
       "stage": "definitive",
       "status": "confirmed",
       "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "846-serpro-23-cb1-01-q022-key-v1",
+      "questionId": "846-serpro-23-cb1-01-q022",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-846-serpro-23-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "846-serpro-23-cb1-01-q027-key-v1",
+      "questionId": "846-serpro-23-cb1-01-q027",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-846-serpro-23-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "846-serpro-23-cb1-01-q029-key-v1",
+      "questionId": "846-serpro-23-cb1-01-q029",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-846-serpro-23-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "846-serpro-23-cb1-01-q030-key-v1",
+      "questionId": "846-serpro-23-cb1-01-q030",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-846-serpro-23-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "106-pf-cg1-01-q061-key-v1",
+      "questionId": "106-pf-cg1-01-q061",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-106-pf-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "106-pf-cg1-01-q065-key-v1",
+      "questionId": "106-pf-cg1-01-q065",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-106-pf-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "106-pf-cg1-01-q072-key-v1",
+      "questionId": "106-pf-cg1-01-q072",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-106-pf-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "106-pf-cg1-01-q083-key-v1",
+      "questionId": "106-pf-cg1-01-q083",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-106-pf-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "018-stj-cb1-01-q048-key-v1",
+      "questionId": "018-stj-cb1-01-q048",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "018-stj-cb1-01-q023-key-v1",
+      "questionId": "018-stj-cb1-01-q023",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "018-stj-cb1-01-q024-key-v1",
+      "questionId": "018-stj-cb1-01-q024",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "018-stj-cb1-01-q026-key-v1",
+      "questionId": "018-stj-cb1-01-q026",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "018-stj-cb1-01-q040-key-v1",
+      "questionId": "018-stj-cb1-01-q040",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "018-stj-cb1-01-q041-key-v1",
+      "questionId": "018-stj-cb1-01-q041",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "018-stj-cb1-01-q042-key-v1",
+      "questionId": "018-stj-cb1-01-q042",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "018-stj-cb1-01-q043-key-v1",
+      "questionId": "018-stj-cb1-01-q043",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-010-01-q064-key-v1",
+      "questionId": "038-anm-010-01-q064",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-010-01-q066-key-v1",
+      "questionId": "038-anm-010-01-q066",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-010-01-q069-key-v1",
+      "questionId": "038-anm-010-01-q069",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-010-01-q070-key-v1",
+      "questionId": "038-anm-010-01-q070",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-010-01-q071-key-v1",
+      "questionId": "038-anm-010-01-q071",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-010-01-q073-key-v1",
+      "questionId": "038-anm-010-01-q073",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-010-01-q084-key-v1",
+      "questionId": "038-anm-010-01-q084",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-010-01-q088-key-v1",
+      "questionId": "038-anm-010-01-q088",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-010-01-q089-key-v1",
+      "questionId": "038-anm-010-01-q089",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-010-01-q092-key-v1",
+      "questionId": "038-anm-010-01-q092",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-010-01-q093-key-v1",
+      "questionId": "038-anm-010-01-q093",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-010-01-q094-key-v1",
+      "questionId": "038-anm-010-01-q094",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-012-01-q079-key-v1",
+      "questionId": "038-anm-012-01-q079",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-012-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-012-01-q108-key-v1",
+      "questionId": "038-anm-012-01-q108",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-012-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-012-01-q112-key-v1",
+      "questionId": "038-anm-012-01-q112",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-012-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-008-01-q063-key-v1",
+      "questionId": "038-anm-008-01-q063",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-008-01-key",
       "author": null,
       "locator": "PDF p. 1",
       "result": "valid",
@@ -14764,6 +16309,594 @@
         {
           "documentId": "source-038-anm-010-01-key",
           "locator": "PDF p. 1, item 102"
+        }
+      ]
+    },
+    {
+      "id": "846-serpro-23-cb1-01-q022-comment-v1",
+      "questionId": "846-serpro-23-cb1-01-q022",
+      "text": "Nonetheless equivale a apesar disso ou não obstante. No segundo parágrafo, estabelece uma ressalva entre a caracterização da Data Art como ainda emergente e a afirmação de que ela já existe há décadas. O contraste não transforma as duas afirmações em uma impossibilidade lógica.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-846-serpro-23-cb1-01-paper",
+          "locator": "PDF p. 2, comando/texto e item 22"
+        },
+        {
+          "documentId": "source-846-serpro-23-cb1-01-key",
+          "locator": "PDF p. 1, item 22"
+        }
+      ]
+    },
+    {
+      "id": "846-serpro-23-cb1-01-q027-comment-v1",
+      "questionId": "846-serpro-23-cb1-01-q027",
+      "text": "O texto contrapõe o descrédito dirigido às programadoras à participação fundamental das mulheres desde os primeiros tempos da computação. Essa ironia organiza a exposição; os exemplos sobre Tracy Chou e o ENIAC sustentam a ideia central. A idade e as circunstâncias narradas pertencem ao texto da prova, não são uma atualização biográfica.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-846-serpro-23-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 27"
+        },
+        {
+          "documentId": "source-846-serpro-23-cb1-01-key",
+          "locator": "PDF p. 1, item 27"
+        }
+      ]
+    },
+    {
+      "id": "846-serpro-23-cb1-01-q029-comment-v1",
+      "questionId": "846-serpro-23-cb1-01-q029",
+      "text": "A exposição tem propósito informativo, mas inclui expressões coloquiais como street cred, ligada a reconhecimento ou credibilidade em um grupo. Registro informativo e vocabulário coloquial podem coexistir. O emprego dessa expressão é avaliado no contexto apresentado.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-846-serpro-23-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 29"
+        },
+        {
+          "documentId": "source-846-serpro-23-cb1-01-key",
+          "locator": "PDF p. 1, item 29"
+        }
+      ]
+    },
+    {
+      "id": "846-serpro-23-cb1-01-q030-comment-v1",
+      "questionId": "846-serpro-23-cb1-01-q030",
+      "text": "No quarto parágrafo, dull caracteriza como a programação era vista no período narrado: um trabalho monótono ou entediante. Boring preserva esse sentido. Não se deve transportar automaticamente essa substituição para todos os usos de dull em outros contextos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-846-serpro-23-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 30"
+        },
+        {
+          "documentId": "source-846-serpro-23-cb1-01-key",
+          "locator": "PDF p. 1, item 30"
+        }
+      ]
+    },
+    {
+      "id": "106-pf-cg1-01-q061-comment-v1",
+      "questionId": "106-pf-cg1-01-q061",
+      "text": "Ferramentas de acesso remoto permitem controlar computadores e transferir arquivos conforme suas funções e permissões. Suítes de escritório oferecem editores de texto, planilhas e apresentações com suporte a diferentes formatos. Compatibilidade com diversos formatos não significa fidelidade perfeita em qualquer conversão nem autorização para acesso sem credenciais.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-106-pf-cg1-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 61"
+        },
+        {
+          "documentId": "source-106-pf-cg1-01-key",
+          "locator": "PDF p. 1, item 61"
+        }
+      ]
+    },
+    {
+      "id": "106-pf-cg1-01-q065-comment-v1",
+      "questionId": "106-pf-cg1-01-q065",
+      "text": "Um endereço IPv6 tem 128 bits, não 256. Esse erro já torna o item incorreto. Prefixos IPv6 podem ter comprimentos distintos; a descrição de prefixos de rede fixos também não deve ser tomada como uma regra geral para qualquer rede. IPv4 utiliza endereços de 32 bits.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-106-pf-cg1-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 65"
+        },
+        {
+          "documentId": "source-106-pf-cg1-01-key",
+          "locator": "PDF p. 1, item 65"
+        },
+        {
+          "documentId": "reference-microsoft-ipv6",
+          "locator": "IPv6 addressing — endereços de 128 bits"
+        }
+      ]
+    },
+    {
+      "id": "106-pf-cg1-01-q072-comment-v1",
+      "questionId": "106-pf-cg1-01-q072",
+      "text": "Dados são registros ou fatos que, organizados e interpretados em um contexto, produzem informação. Confidencialidade, integridade e disponibilidade são objetivos centrais da segurança da informação. Protegê-los não se resume a esconder os dados: também envolve evitar alterações indevidas e assegurar acesso autorizado quando necessário.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-106-pf-cg1-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 72"
+        },
+        {
+          "documentId": "source-106-pf-cg1-01-key",
+          "locator": "PDF p. 1, item 72"
+        },
+        {
+          "documentId": "reference-certbr-cartilha",
+          "locator": "PDF p. 64, Mecanismos de segurança — integridade, confidencialidade e disponibilidade"
+        }
+      ]
+    },
+    {
+      "id": "106-pf-cg1-01-q083-comment-v1",
+      "questionId": "106-pf-cg1-01-q083",
+      "text": "A função central do DNS é a resolução de nomes, associando nomes a informações como endereços IP. O protocolo original não oferece, por si, a criptografia ponta a ponta alegada. Recursos posteriores, como DNS sobre TLS ou HTTPS, protegem determinados enlaces de consulta; DNSSEC trata de autenticidade e integridade, sem equivaler a sigilo universal das comunicações.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-106-pf-cg1-01-paper",
+          "locator": "PDF p. 2, comando/texto e item 83"
+        },
+        {
+          "documentId": "source-106-pf-cg1-01-key",
+          "locator": "PDF p. 1, item 83"
+        },
+        {
+          "documentId": "reference-microsoft-dns",
+          "locator": "DNS overview — resolução de nomes"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-cb1-01-q048-comment-v1",
+      "questionId": "018-stj-cb1-01-q048",
+      "text": "O gabarito considera o cenário usual de reuniões agendadas: a gravação é acessível pelo chat e armazenada no OneDrive do organizador. A documentação distingue reuniões de canal, cujas gravações ficam no SharePoint, e chamadas ou situações especiais com outras regras de armazenamento. Portanto, não generalize o OneDrive do organizador a todo tipo de interação no Teams.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-cb1-01-paper",
+          "locator": "PDF p. 4, comando/texto e item 48"
+        },
+        {
+          "documentId": "source-018-stj-cb1-01-key",
+          "locator": "PDF p. 1, item 48"
+        },
+        {
+          "documentId": "reference-microsoft-teams-recording",
+          "locator": "Recording storage — Meetings and events; Channel meetings; Viewing permissions"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-cb1-01-q023-comment-v1",
+      "questionId": "018-stj-cb1-01-q023",
+      "text": "O item trata de funções de direção, chefia e assessoramento e faz uma dispensa genérica de ingresso por concurso. A Constituição reserva as funções de confiança aos ocupantes de cargo efetivo. É necessário distingui-las dos cargos em comissão, que admitem livre nomeação e exoneração, observadas as condições constitucionais; essas categorias não são intercambiáveis.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 23"
+        },
+        {
+          "documentId": "source-018-stj-cb1-01-key",
+          "locator": "PDF p. 1, item 23"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, V"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-cb1-01-q024-comment-v1",
+      "questionId": "018-stj-cb1-01-q024",
+      "text": "A margem de preferência não se aplica quando a capacidade nacional de produção ou de prestação de serviços é inferior à quantidade a adquirir ou aos quantitativos decorrentes do parcelamento, conforme o art. 26, § 5º. Prever a compra complementar de outro fornecedor não afasta essa restrição legal.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 24"
+        },
+        {
+          "documentId": "source-018-stj-cb1-01-key",
+          "locator": "PDF p. 1, item 24"
+        },
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 26, § 5º, I e II"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-cb1-01-q026-comment-v1",
+      "questionId": "018-stj-cb1-01-q026",
+      "text": "A motivação deve ser explícita, clara e congruente, mas pode adotar fundamentos de pareceres, informações, decisões ou propostas anteriores. Nesse caso, esses fundamentos passam a integrar o ato. O erro do item está em proibir essa motivação por remissão, admitida pelo art. 50, § 1º.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-cb1-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 26"
+        },
+        {
+          "documentId": "source-018-stj-cb1-01-key",
+          "locator": "PDF p. 1, item 26"
+        },
+        {
+          "documentId": "reference-lei-9784-1999",
+          "locator": "Art. 50, § 1º"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-cb1-01-q040-comment-v1",
+      "questionId": "018-stj-cb1-01-q040",
+      "text": "A negativa indevida de publicidade aparece no art. 11, IV, entre os atos que atentam contra princípios, e não é classificada automaticamente como dano ao erário. A caracterização exige os elementos legais, inclusive dolo e as ressalvas de sigilo previstas em lei. Nem toda ilegalidade é, por si só, improbidade.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-cb1-01-paper",
+          "locator": "PDF p. 4, comando/texto e item 40"
+        },
+        {
+          "documentId": "source-018-stj-cb1-01-key",
+          "locator": "PDF p. 1, item 40"
+        },
+        {
+          "documentId": "reference-lei-8429-1992",
+          "locator": "Art. 11, IV"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-cb1-01-q041-comment-v1",
+      "questionId": "018-stj-cb1-01-q041",
+      "text": "O art. 11, § 4º, exige lesividade relevante ao bem jurídico tutelado para sancionar os atos tratados nesse artigo. A mesma regra esclarece que não se exige o reconhecimento de dano ao erário ou enriquecimento ilícito. Lesividade relevante e prejuízo patrimonial são conceitos diferentes.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-cb1-01-paper",
+          "locator": "PDF p. 4, comando/texto e item 41"
+        },
+        {
+          "documentId": "source-018-stj-cb1-01-key",
+          "locator": "PDF p. 1, item 41"
+        },
+        {
+          "documentId": "reference-lei-8429-1992",
+          "locator": "Art. 11, § 4º"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-cb1-01-q042-comment-v1",
+      "questionId": "018-stj-cb1-01-q042",
+      "text": "O art. 1º, § 6º, alcança atos contra o patrimônio de entidade privada que receba subvenção, benefício ou incentivo fiscal ou creditício dos entes indicados na lei. O caráter privado da entidade não afasta automaticamente a incidência. O benefício, isoladamente, também não basta para dispensar os demais requisitos de um ato de improbidade.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-cb1-01-paper",
+          "locator": "PDF p. 4, comando/texto e item 42"
+        },
+        {
+          "documentId": "source-018-stj-cb1-01-key",
+          "locator": "PDF p. 1, item 42"
+        },
+        {
+          "documentId": "reference-lei-8429-1992",
+          "locator": "Art. 1º, § 6º"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-cb1-01-q043-comment-v1",
+      "questionId": "018-stj-cb1-01-q043",
+      "text": "O art. 3º alcança quem, mesmo sem ser agente público, induza ou concorra dolosamente para o ato de improbidade. O item troca dolo por culpa. Essa troca não é compatível com a redação citada da lei.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-cb1-01-paper",
+          "locator": "PDF p. 4, comando/texto e item 43"
+        },
+        {
+          "documentId": "source-018-stj-cb1-01-key",
+          "locator": "PDF p. 1, item 43"
+        },
+        {
+          "documentId": "reference-lei-8429-1992",
+          "locator": "Art. 3º, caput"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q064-comment-v1",
+      "questionId": "038-anm-010-01-q064",
+      "text": "Relações públicas e patrocínios também podem construir imagem, confiança e vínculos com públicos. Não existe inferioridade geral desses recursos em relação aos anúncios para toda estratégia institucional. A escolha depende dos objetivos, dos públicos e do contexto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 64"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 64"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q066-comment-v1",
+      "questionId": "038-anm-010-01-q066",
+      "text": "A automação pode utilizar perfis, comportamento e regras para personalizar e segmentar comunicações. Assim, é incorreto negar sua contribuição para esses processos. Automação não substitui planejamento, qualidade dos dados nem observância das regras de proteção de dados.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 66"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 66"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q069-comment-v1",
+      "questionId": "038-anm-010-01-q069",
+      "text": "O retorno financeiro imediato não é medida universal de eficácia. Uma campanha pode ter objetivos de alcance, lembrança, reputação, engajamento ou conversão, com horizontes distintos de avaliação. As métricas devem corresponder aos objetivos definidos, sem reduzir todos os resultados à receita imediata.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 69"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 69"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q070-comment-v1",
+      "questionId": "038-anm-010-01-q070",
+      "text": "A estratégia omnichannel integra os pontos de contato para manter uma experiência coerente de marca. A consistência envolve a jornada entre canais, não apenas repetir peças idênticas em todos eles. O comentário descreve o conceito, sem prometer que a integração isolada assegure sucesso comercial.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 70"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 70"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q071-comment-v1",
+      "questionId": "038-anm-010-01-q071",
+      "text": "A publicidade programática automatiza processos de compra e venda de inventário e pode combinar dados e critérios de segmentação para ajustar a entrega. Sua capacidade de otimização depende da estratégia, da qualidade do inventário e dos dados; não é garantia de retorno positivo em qualquer campanha.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 71"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 71"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q073-comment-v1",
+      "questionId": "038-anm-010-01-q073",
+      "text": "A mensuração cross-media observa campanhas em diferentes meios e pontos de contato, ajudando a compreender a jornada e a distribuir recursos. É preciso considerar possíveis sobreposições de público; somar alcances brutos de canais não equivale, necessariamente, a contar pessoas distintas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 73"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 73"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q084-comment-v1",
+      "questionId": "038-anm-010-01-q084",
+      "text": "Cronogramas orientam a execução, mas a inflexibilidade não garante eficiência. Projetos de comunicação precisam monitorar riscos, dependências e mudanças, ajustando prazos de maneira controlada quando necessário. Flexibilidade não significa ausência de planejamento.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 2, comando/texto e item 84"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 84"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q088-comment-v1",
+      "questionId": "038-anm-010-01-q088",
+      "text": "Publicações internas podem combinar informações operacionais com conteúdos de reconhecimento, integração e motivação. Esse equilíbrio deve atender às necessidades dos colaboradores e aos objetivos da organização, em vez de transformar o veículo em um canal exclusivamente burocrático ou promocional.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 2, comando/texto e item 88"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 88"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q089-comment-v1",
+      "questionId": "038-anm-010-01-q089",
+      "text": "O aumento isolado de produtividade não dispensa alinhamento aos objetivos e valores da organização. Campanhas internas devem integrar a estratégia, promover compreensão e relações de confiança. O item trata esse alinhamento como desnecessário.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 2, comando/texto e item 89"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 89"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q092-comment-v1",
+      "questionId": "038-anm-010-01-q092",
+      "text": "Histórias reais de colaboradores podem aproximar valores institucionais da experiência do público interno. A técnica narrativa deve respeitar autenticidade, pertinência e finalidade da campanha, sem sugerir que qualquer depoimento ou filme produzirá, por si, o efeito pretendido.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 2, comando/texto e item 92"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 92"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q093-comment-v1",
+      "questionId": "038-anm-010-01-q093",
+      "text": "A linguagem visual precisa dialogar com a cultura e as referências do público interno. Simplificar elementos pode favorecer compreensão e identificação, sem significar perda automática de qualidade. A escolha estética depende do público, dos objetivos e do contexto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 2, comando/texto e item 93"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 93"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-010-01-q094-comment-v1",
+      "questionId": "038-anm-010-01-q094",
+      "text": "O item recomenda considerar a simplicidade visual para facilitar a compreensão institucional. Isso não transforma o minimalismo em obrigação legal nem em solução ideal para todo projeto: hierarquia da informação, legibilidade e necessidades do público devem orientar a composição.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-010-01-paper",
+          "locator": "PDF p. 2, comando/texto e item 94"
+        },
+        {
+          "documentId": "source-038-anm-010-01-key",
+          "locator": "PDF p. 1, item 94"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-012-01-q079-comment-v1",
+      "questionId": "038-anm-012-01-q079",
+      "text": "Um manual de identidade define critérios de aplicação da marca para manter unidade e reconhecimento visual. O excerto do Senado exemplifica esse papel, mas suas recomendações específicas não são convertidas em norma da Câmara nem em obrigação universal de toda instituição.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-012-01-paper",
+          "locator": "PDF p. 2, comando/texto e item 79"
+        },
+        {
+          "documentId": "source-038-anm-012-01-key",
+          "locator": "PDF p. 1, item 79"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-012-01-q108-comment-v1",
+      "questionId": "038-anm-012-01-q108",
+      "text": "A comunicação organizacional também pode contribuir para integração, satisfação e produtividade dos colaboradores. O item erra ao limitar seus efeitos positivos aos públicos externos e negar essa contribuição interna. Ela é um fator do clima, não a única causa de satisfação ou produtividade.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-012-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 108"
+        },
+        {
+          "documentId": "source-038-anm-012-01-key",
+          "locator": "PDF p. 1, item 108"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-012-01-q112-comment-v1",
+      "questionId": "038-anm-012-01-q112",
+      "text": "Profissionais de relações públicas podem formular políticas organizacionais de comunicação com objetivos e diretrizes definidos. O item trata dessa possibilidade geral; não afirma que uma política específica da Câmara tenha determinado conteúdo nem substitui a consulta ao Ato da Mesa nº 218/2025.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-012-01-paper",
+          "locator": "PDF p. 3, comando/texto e item 112"
+        },
+        {
+          "documentId": "source-038-anm-012-01-key",
+          "locator": "PDF p. 1, item 112"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-008-01-q063-comment-v1",
+      "questionId": "038-anm-008-01-q063",
+      "text": "Uma enquete não se define pela combinação obrigatória de perguntas abertas e estruturadas, nem garante amostragem representativa ou resultados generalizáveis. Pode funcionar como consulta exploratória, frequentemente com participação espontânea. A classificação de métodos exige distinguir formato das perguntas, seleção dos participantes e finalidade da análise.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-008-01-paper",
+          "locator": "PDF p. 1, comando/texto e item 63"
+        },
+        {
+          "documentId": "source-038-anm-008-01-key",
+          "locator": "PDF p. 1, item 63"
         }
       ]
     }
@@ -18871,6 +21004,230 @@
       "syllabusItemId": "camara-2026-divulgacao-institucional-5-1",
       "justification": "Planejamento, indicadores de comunicação ou fundamentos da produção gráfica previstos no edital.",
       "status": "confirmed"
+    },
+    {
+      "id": "846-serpro-23-cb1-01-q022-mapping-1",
+      "questionId": "846-serpro-23-cb1-01-q022",
+      "syllabusItemId": "camara-2026-lingua-inglesa-2",
+      "justification": "Conector adversativo relevante à compreensão semântica.",
+      "status": "confirmed"
+    },
+    {
+      "id": "846-serpro-23-cb1-01-q027-mapping-1",
+      "questionId": "846-serpro-23-cb1-01-q027",
+      "syllabusItemId": "camara-2026-lingua-inglesa-1",
+      "justification": "Ideia principal e relação entre contribuição histórica e preconceito.",
+      "status": "confirmed"
+    },
+    {
+      "id": "846-serpro-23-cb1-01-q029-mapping-1",
+      "questionId": "846-serpro-23-cb1-01-q029",
+      "syllabusItemId": "camara-2026-lingua-inglesa-3",
+      "justification": "Uso contextual de registro formal e expressões coloquiais contemporâneas.",
+      "status": "confirmed"
+    },
+    {
+      "id": "846-serpro-23-cb1-01-q030-mapping-1",
+      "questionId": "846-serpro-23-cb1-01-q030",
+      "syllabusItemId": "camara-2026-lingua-inglesa-1",
+      "justification": "Vocabulário contextual: relação de sentido entre dull e boring.",
+      "status": "confirmed"
+    },
+    {
+      "id": "106-pf-cg1-01-q061-mapping-1",
+      "questionId": "106-pf-cg1-01-q061",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-2-1",
+      "justification": "Ferramentas de rede, conceito de dados ou colaboração previstos no edital de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "106-pf-cg1-01-q065-mapping-1",
+      "questionId": "106-pf-cg1-01-q065",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-2",
+      "justification": "Ferramentas de rede, conceito de dados ou colaboração previstos no edital de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "106-pf-cg1-01-q072-mapping-1",
+      "questionId": "106-pf-cg1-01-q072",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-7-1",
+      "justification": "Ferramentas de rede, conceito de dados ou colaboração previstos no edital de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "106-pf-cg1-01-q083-mapping-1",
+      "questionId": "106-pf-cg1-01-q083",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-2-1",
+      "justification": "Ferramentas de rede, conceito de dados ou colaboração previstos no edital de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-cb1-01-q048-mapping-1",
+      "questionId": "018-stj-cb1-01-q048",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-3",
+      "justification": "Ferramentas de rede, conceito de dados ou colaboração previstos no edital de destino.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-cb1-01-q023-mapping-1",
+      "questionId": "018-stj-cb1-01-q023",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-3-2",
+      "justification": "Cargo/função, ato administrativo, licitação ou improbidade expressamente previsto no programa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-cb1-01-q024-mapping-1",
+      "questionId": "018-stj-cb1-01-q024",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-1",
+      "justification": "Cargo/função, ato administrativo, licitação ou improbidade expressamente previsto no programa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-cb1-01-q026-mapping-1",
+      "questionId": "018-stj-cb1-01-q026",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-2-1",
+      "justification": "Cargo/função, ato administrativo, licitação ou improbidade expressamente previsto no programa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-cb1-01-q040-mapping-1",
+      "questionId": "018-stj-cb1-01-q040",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-7",
+      "justification": "Cargo/função, ato administrativo, licitação ou improbidade expressamente previsto no programa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-cb1-01-q041-mapping-1",
+      "questionId": "018-stj-cb1-01-q041",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-7",
+      "justification": "Cargo/função, ato administrativo, licitação ou improbidade expressamente previsto no programa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-cb1-01-q042-mapping-1",
+      "questionId": "018-stj-cb1-01-q042",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-7",
+      "justification": "Cargo/função, ato administrativo, licitação ou improbidade expressamente previsto no programa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-cb1-01-q043-mapping-1",
+      "questionId": "018-stj-cb1-01-q043",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-7",
+      "justification": "Cargo/função, ato administrativo, licitação ou improbidade expressamente previsto no programa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q064-mapping-1",
+      "questionId": "038-anm-010-01-q064",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-2-3",
+      "justification": "Marketing institucional e construção de imagem de marca.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q066-mapping-1",
+      "questionId": "038-anm-010-01-q066",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-2-6",
+      "justification": "Automação e segmentação no marketing digital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q069-mapping-1",
+      "questionId": "038-anm-010-01-q069",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-3-6",
+      "justification": "Métricas de avaliação de campanhas e limites do retorno imediato.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q070-mapping-1",
+      "questionId": "038-anm-010-01-q070",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-4-3",
+      "justification": "Gestão consistente da marca entre pontos de contato.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q071-mapping-1",
+      "questionId": "038-anm-010-01-q071",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-5",
+      "justification": "Compra programática como característica de mídia digital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q073-mapping-1",
+      "questionId": "038-anm-010-01-q073",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-3-5",
+      "justification": "Pesquisa e mensuração de mídia em múltiplos canais.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q084-mapping-1",
+      "questionId": "038-anm-010-01-q084",
+      "syllabusItemId": "camara-2026-comunicacao-social-4-9",
+      "justification": "Gestão de projetos de comunicação e adaptação de cronogramas.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q088-mapping-1",
+      "questionId": "038-anm-010-01-q088",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-2-4",
+      "justification": "Endomarketing e equilíbrio de conteúdo das publicações internas.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q089-mapping-1",
+      "questionId": "038-anm-010-01-q089",
+      "syllabusItemId": "camara-2026-comunicacao-social-2-3",
+      "justification": "Estratégias de engajamento e alinhamento no endomarketing.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q092-mapping-1",
+      "questionId": "038-anm-010-01-q092",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-5-6",
+      "justification": "Narrativa e produção audiovisual em filmes publicitários.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q093-mapping-1",
+      "questionId": "038-anm-010-01-q093",
+      "syllabusItemId": "camara-2026-comunicacao-social-2-4",
+      "justification": "Relação entre comunicação interna e cultura organizacional.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-010-01-q094-mapping-1",
+      "questionId": "038-anm-010-01-q094",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-5-7",
+      "justification": "Produção editorial orientada à clareza e aos públicos.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-012-01-q079-mapping-1",
+      "questionId": "038-anm-012-01-q079",
+      "syllabusItemId": "camara-2026-comunicacao-social-3-2",
+      "justification": "Identidade institucional e normalização de aplicação da marca.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-012-01-q108-mapping-1",
+      "questionId": "038-anm-012-01-q108",
+      "syllabusItemId": "camara-2026-comunicacao-social-2-5",
+      "justification": "Comunicação, satisfação dos colaboradores e clima organizacional.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-012-01-q112-mapping-1",
+      "questionId": "038-anm-012-01-q112",
+      "syllabusItemId": "camara-2026-comunicacao-social-8",
+      "justification": "Políticas gerais de comunicação orientadas por objetivos.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-008-01-q063-mapping-1",
+      "questionId": "038-anm-008-01-q063",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-3-1",
+      "justification": "Distinção entre consulta exploratória e pesquisa com tratamento estatístico.",
+      "status": "confirmed"
     }
   ],
   "scoringRules": [
@@ -19967,6 +22324,166 @@
       "text": "No que diz respeito ao tratamento de imagem, ao infográfico, ao projeto gráfico impresso e digital, aos formatos de arquivos, às cores, à fotografia, à ilustração e à tipologia na produção editorial, julgue os itens a seguir.",
       "sourceDocumentId": "source-038-anm-010-01-paper",
       "sourcePage": 2
+    },
+    {
+      "id": "serpro-2023-data-art-passage",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Texto de apoio — Data Art",
+      "text": "Data art is a form of digital art that uses data as a medium or source material to create visually appealing and meaningful representations. It often involves the use of algorithms, software, and technology to turn data into something that can be seen, such as a graph, chart, or animation. The goal is to convey emotions to the audience by sharing insights, patterns, or stories hidden within the data in an accessible and creative way. Data artist Kirell Benzi adds that, because it is based on data, the piece has a more objective truth behind its construction and does not solely come from the artist’s imagination.\n\nStill emerging, Data Art has nonetheless existed for decades. What stands it apart, from the other digital art categories, is the complex interaction between material, process, and expression.\n\nThe artist Aaron Koblin once argued that “data can make us more human”. As part of a project to put this forward, he made Flight Patterns. The summary purpose explains it all: Interpreting a series of flight data and, once processed, a wide range of human behaviors appears. It is how we all flow through technology.",
+      "sourceDocumentId": "source-846-serpro-23-cb1-01-paper",
+      "sourcePage": 2,
+      "sourceCredit": "Internet: <agoradigital.art> (adapted).",
+      "language": "en"
+    },
+    {
+      "id": "serpro-2023-data-art-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Considering the information stated in the precedent text and the vocabulary used in it, judge the following items.",
+      "sourceDocumentId": "source-846-serpro-23-cb1-01-paper",
+      "sourcePage": 2,
+      "language": "en"
+    },
+    {
+      "id": "serpro-2023-women-programming-passage",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Texto de apoio — mulheres na programação",
+      "text": "Tracy Chou is a 31-year-old programmer — and “an absolute rock star,” as her former boss Ben Silbermann, the CEO and co-founder of Pinterest, once said. Yet for all her street cred, Chou still finds herself grappling with one of the biggest problems in the industry: Female programmers are regarded skeptically, and sometimes even treated with flat-out hostility. She’s seen the same pattern of behavior personally during her decade in coding: colleagues who muse openly about whether women are biologically less wired to be great programmers.\n\nThere’s a deep irony here — because women were in computing from its earliest days. Indeed, they were considered essential back when “computers” were not even yet machines. Just before the digital age emerged, computers were humans. And for a time, a large portion of them were women.\n\nSoon, the human computers faced an even more existential threat: digital computers, which promised to work with far greater speed and to handle complex math.\n\nWomen, though, were among the original coders of these strange new digital brains, because in the early days programming was seen as dull work. The earliest programmers for the Eniac — the military-funded first programmable general-purpose computer — were entirely women. And though they wound up inventing brilliant coding techniques, they received none of the glory: When the Army showed off the Eniac to the press, it did not introduce the women who had written the code.",
+      "sourceDocumentId": "source-846-serpro-23-cb1-01-paper",
+      "sourcePage": 3,
+      "sourceCredit": "Internet: <smithsonianmag.com> (adapted).",
+      "language": "en"
+    },
+    {
+      "id": "serpro-2023-women-programming-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Judge the following items about the previous text and the information stated in it as well as the vocabulary used in it.",
+      "sourceDocumentId": "source-846-serpro-23-cb1-01-paper",
+      "sourcePage": 3,
+      "language": "en"
+    },
+    {
+      "id": "stj-2024-agents-licitation-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Acerca do exercício da função pública pelos agentes públicos e de princípios e procedimentos relativos à licitação pública, julgue os itens seguintes.",
+      "sourceDocumentId": "source-018-stj-cb1-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "stj-2024-motivation-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Acerca do processo administrativo federal, Lei n.º 9.784/1999, julgue o item subsequente.",
+      "sourceDocumentId": "source-018-stj-cb1-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "stj-2024-probity-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Com base na Lei n.º 8.429/1992 (Lei de Improbidade Administrativa), julgue os itens que se seguem.",
+      "sourceDocumentId": "source-018-stj-cb1-01-paper",
+      "sourcePage": 4
+    },
+    {
+      "id": "stj-2024-teams-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens a seguir, em relação aos aplicativos MS Teams, OneDrive e MS SharePoint.",
+      "sourceDocumentId": "source-018-stj-cb1-01-paper",
+      "sourcePage": 4
+    },
+    {
+      "id": "pf-policial-2025-internet-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Acerca de Internet e intranet, bem como de tecnologias, ferramentas, aplicativos e procedimentos associados, julgue os próximos itens.",
+      "sourceDocumentId": "source-106-pf-cg1-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "anm-010-advertising-technology-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que se refere à análise da relação entre a publicidade e as novas tecnologias, julgue os itens subsequentes.",
+      "sourceDocumentId": "source-038-anm-010-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "anm-010-omnichannel-media-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que diz respeito às estratégias omnichannel, ao planejamento, à mensuração e à mídia, julgue os itens seguintes.",
+      "sourceDocumentId": "source-038-anm-010-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "anm-010-endomarketing-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que se refere ao endomarketing, julgue os seguintes itens.",
+      "sourceDocumentId": "source-038-anm-010-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "anm-010-internal-production-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os próximos itens, relativos a produção e linguagem publicitária, relações públicas, gestão estratégica da comunicação organizacional e endomarketing.",
+      "sourceDocumentId": "source-038-anm-010-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "anm-012-senado-identity-passage",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Texto de apoio — Manual de Identidade do Senado Federal",
+      "text": "A escolha das imagens deve ser feita de forma criteriosa, de modo a evitar erro de interpretação da mensagem e desgaste da imagem institucional. Dessa forma, a imagem ― ilustração e(ou) foto ― deve observar os seguintes aspectos:\n\n• formato (tamanho e forma) e posição coerentes com o layout do material a ser produzido;\n\n• correto contraste com os demais elementos da mensagem;\n\n• não geração de interpretação negativa, como ferimentos, acidentes, violência, salvo quando estritamente necessário à compreensão da mensagem;\n\n• priorização de características nacionais (raça, religião, símbolos, espécies vegetais e animais etc.).\n\nImportante: quando usadas imagens de bancos externos, pagos ou não, recomenda-se consultar os aspectos legais de crédito indicados no site do respectivo banco e, sempre que possível, guardar/salvar a licença de uso em via digital e(ou) impressa, como forma de se precaver de problemas legais.",
+      "sourceDocumentId": "source-038-anm-012-01-paper",
+      "sourcePage": 2,
+      "sourceCredit": "Manual de Identidade do Senado Federal. Internet: <www12.senado.leg.br> (com adaptações)."
+    },
+    {
+      "id": "anm-012-senado-identity-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "A partir do texto precedente, julgue os seguintes itens.",
+      "sourceDocumentId": "source-038-anm-012-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "anm-012-modern-relations-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que diz respeito a relações públicas nas organizações modernas, julgue os seguintes itens.",
+      "sourceDocumentId": "source-038-anm-012-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "anm-008-research-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que diz respeito aos métodos e às técnicas de pesquisa, aos meios de comunicação de massa e aos veículos de comunicação de massa no Brasil, julgue os próximos itens.",
+      "sourceDocumentId": "source-038-anm-008-01-paper",
+      "sourcePage": 1
     }
   ]
 }

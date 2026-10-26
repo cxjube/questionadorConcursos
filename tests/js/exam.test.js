@@ -14,6 +14,11 @@ function setup() {
   return {...context,data:context.window.CONCURSOS_CATALOG,role:context.window.CONCURSOS_CATALOG.roles[0].id};
 }
 function active(s) {return {...s.Study.empty(),active:s.Study.create(s.data,s.role,s.Study.empty(),'exam',{now:start,id:'exam-test',random:()=>0.4})};}
+// Isolated copied-catalog boundary fixture, independent of future bank growth.
+function minimumBank(s) {
+  const ids=new Set(['basic','specific'].flatMap(block=>s.Study.pool(s.data,s.role,s.Study.empty(),'all',{block,type:'true_false'}).slice(0,90).map(q=>q.id)));
+  s.data.questions=s.data.questions.filter(q=>q.type!=='true_false' || ids.has(q.id));
+}
 function withPoints(s,p1,p2) {
   const progress = active(s);
   for (const [index,points] of [p1,p2].entries()) for (const item of progress.active.items.filter(i=>i.examBlockId===['p1','p2'][index]).slice(0,Math.abs(points)))
@@ -33,7 +38,7 @@ test('exam fixes 90+90 distinct CE, source rules v1, 5h deadline and independent
   s.data.scoringRules[0].minimumTotalScore=999;assert.equal(session.scoringProfile.rule.minimumTotalScore,54);
 });
 test('exam allocation handles overlapping thematic eligibility without starving a block',()=>{
-  const s=setup(); const target=s.data.syllabusItems.find(i=>i.block==='basic' && i.status==='confirmed');
+  const s=setup();minimumBank(s); const target=s.data.syllabusItems.find(i=>i.block==='basic' && i.status==='confirmed');
   const specific=s.Study.pool(s.data,s.role,s.Study.empty(),'all',{block:'specific',type:'true_false'});
   for(const [index,q] of specific.slice(0,6).entries()) s.data.mappings.push({id:'synthetic-overlap-'+index,questionId:q.id,syllabusItemId:target.id,status:'confirmed'});
   const availability=s.Study.examAvailability(s.data,s.role);
@@ -47,7 +52,7 @@ test('exam allocation handles overlapping thematic eligibility without starving 
   assert.throws(()=>active(s),/insuficiente/);
 });
 test('exam blocks unconfirmed rules, missing eligible CE and custom settings without changing practice',()=>{
-  const s=setup();assert.equal(s.Study.examAvailability(s.data,'abdi-futuro').ready,false);
+  const s=setup();minimumBank(s);assert.equal(s.Study.examAvailability(s.data,'abdi-futuro').ready,false);
   for(const settings of [{limit:20},{durationMinutes:5},{scoringMode:'none'},{block:'basic'},{type:'multiple_choice'},{shuffle:false}])
     assert.throws(()=>s.Study.create(s.data,s.role,s.Study.empty(),'exam',settings),/fixados/);
   const rule=s.data.scoringRules[0];rule.status='documented';assert.throws(()=>active(s),/confirmado/);rule.status='confirmed';
@@ -110,4 +115,19 @@ test('later catalog rule versions preserve the original exam score and source sn
   const restored=s.Study.importBackup(s.Study.exportBackup(original),s.data);
   assert.equal(JSON.stringify(restored),before);assert.equal(s.Study.score(restored.history[0]).meetsMinimums,true);
   const fresh=active(s);assert.equal(fresh.active.scoringProfile.rule.version,2);assert.equal(fresh.active.scoringProfile.rule.minimumTotalScore,100);
+});
+test('the larger reserve varies sampled questions while keeping 90+90 and older exams intact',()=>{
+  const s=setup(),available=s.Study.examAvailability(s.data,s.role);
+  assert.deepEqual(plain(available.blocks.map(b=>b.questions.length)),[106,106]);assert.equal(available.distinct,212);
+  const draw=random=>s.Study.create(s.data,s.role,s.Study.empty(),'exam',{now:start,random});
+  const first=draw(()=>0.01),second=draw(()=>0.99);
+  const ids=session=>new Set(session.items.map(i=>i.question.id));
+  assert.notDeepEqual(ids(first),ids(second));assert.equal(ids(first).size,180);assert.equal(ids(second).size,180);
+  const old=plain(s.data);old.revision='0'.repeat(64); // Synthetic revision only inside this test.
+  const added=new Set(old.questions.filter(q=>q.review.decisionReference==='documentation/eleventh-batch-release.md').map(q=>q.id));
+  old.questions=old.questions.filter(q=>!added.has(q.id));old.mappings=old.mappings.filter(m=>!added.has(m.questionId));
+  let p={...s.Study.empty(),active:s.Study.create(old,s.role,s.Study.empty(),'exam',{now:start,id:'older-exam'})};
+  p.active=s.Study.choose(p.active,false,'2026-10-23T12:01:00.000Z');p=s.Study.finish(p,end);
+  const restored=s.Study.importBackup(s.Study.exportBackup(p),s.data);
+  assert.deepEqual(plain(restored),plain(p));assert.deepEqual(plain(s.Study.score(restored.history[0])),plain(s.Study.score(p.history[0])));
 });

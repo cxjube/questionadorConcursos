@@ -1,0 +1,321 @@
+{
+  "id": "eleventh-coverage",
+  "reviewedAt": "2026-10-26",
+  "definition": "Direct confirmed mappings to exact canonical syllabus item IDs. Parent items without a direct mapping can have covered descendants. Presence of questions is not complete coverage or mastery.",
+  "before": {
+    "questions": 192,
+    "ce": 180,
+    "directSyllabusItems": 81
+  },
+  "after": {
+    "questions": 224,
+    "ce": 212,
+    "directSyllabusItems": 103,
+    "syllabusItems": 228,
+    "cePools": {
+      "basic": 106,
+      "specific": 106
+    },
+    "sharedCE": 0
+  },
+  "newDirectSyllabusItems": [
+    {
+      "id": "camara-2026-lingua-inglesa-2",
+      "number": "2",
+      "label": "Itens gramaticais relevantes para compreensão de conteúdos semânticos.",
+      "disciplineId": "lingua-inglesa",
+      "block": "basic",
+      "questionIds": [
+        "846-serpro-23-cb1-01-q022"
+      ]
+    },
+    {
+      "id": "camara-2026-lingua-inglesa-3",
+      "number": "3",
+      "label": "Conhecimento e uso das formas contemporâneas da linguagem inglesa.",
+      "disciplineId": "lingua-inglesa",
+      "block": "basic",
+      "questionIds": [
+        "846-serpro-23-cb1-01-q029"
+      ]
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-3-2",
+      "number": "3.2",
+      "label": "Cargo, emprego e função pública.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "questionIds": [
+        "018-stj-cb1-01-q023"
+      ]
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-7",
+      "number": "7",
+      "label": "Improbidade Administrativa (Lei nº 8.429/1992 e suas alterações).",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "questionIds": [
+        "018-stj-cb1-01-q040",
+        "018-stj-cb1-01-q041",
+        "018-stj-cb1-01-q042",
+        "018-stj-cb1-01-q043"
+      ]
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-2",
+      "number": "2",
+      "label": "Redes de computadores.",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "questionIds": [
+        "106-pf-cg1-01-q065"
+      ]
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-2-1",
+      "number": "2.1",
+      "label": "Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet.",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "questionIds": [
+        "106-pf-cg1-01-q061",
+        "106-pf-cg1-01-q083"
+      ]
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-3",
+      "number": "3",
+      "label": "Ferramentas de comunicação e colaboração: correio eletrônico (webmail, cliente de e-mail), aplicativos de comunicação (Microsoft Teams, Google Meet).",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "questionIds": [
+        "018-stj-cb1-01-q048"
+      ]
+    },
+    {
+      "id": "camara-2026-comunicacao-social-2-3",
+      "number": "2.3",
+      "label": "Endomarketing: conceitos e estratégias de engajamento.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "questionIds": [
+        "038-anm-010-01-q089"
+      ]
+    },
+    {
+      "id": "camara-2026-comunicacao-social-2-4",
+      "number": "2.4",
+      "label": "Comunicação e cultura organizacional.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "questionIds": [
+        "038-anm-010-01-q093"
+      ]
+    },
+    {
+      "id": "camara-2026-comunicacao-social-2-5",
+      "number": "2.5",
+      "label": "Gestão do clima organizacional por meio da comunicação.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "questionIds": [
+        "038-anm-012-01-q108"
+      ]
+    },
+    {
+      "id": "camara-2026-comunicacao-social-3-2",
+      "number": "3.2",
+      "label": "Gestão da imagem, identidade e reputação corporativa/institucional.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "questionIds": [
+        "038-anm-012-01-q079"
+      ]
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-9",
+      "number": "4.9",
+      "label": "Gestão de projetos de comunicação.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "questionIds": [
+        "038-anm-010-01-q084"
+      ]
+    },
+    {
+      "id": "camara-2026-comunicacao-social-8",
+      "number": "8",
+      "label": "Políticas de comunicação.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "questionIds": [
+        "038-anm-012-01-q112"
+      ]
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-3",
+      "number": "2.3",
+      "label": "Marketing institucional.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "questionIds": [
+        "038-anm-010-01-q064"
+      ]
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-4",
+      "number": "2.4",
+      "label": "Endomarketing.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "questionIds": [
+        "038-anm-010-01-q088"
+      ]
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-6",
+      "number": "2.6",
+      "label": "Marketing digital.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "questionIds": [
+        "038-anm-010-01-q066"
+      ]
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3-1",
+      "number": "3.1",
+      "label": "Pesquisas qualitativas e quantitativas.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "questionIds": [
+        "038-anm-008-01-q063"
+      ]
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3-5",
+      "number": "3.5",
+      "label": "Pesquisa de mídia.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "questionIds": [
+        "038-anm-010-01-q073"
+      ]
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3-6",
+      "number": "3.6",
+      "label": "Métricas de avaliação na publicidade digital.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "questionIds": [
+        "038-anm-010-01-q069"
+      ]
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-4-3",
+      "number": "4.3",
+      "label": "Gerenciamento de marca.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "questionIds": [
+        "038-anm-010-01-q070"
+      ]
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5-6",
+      "number": "5.6",
+      "label": "Criação e produção de projetos audiovisuais.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "questionIds": [
+        "038-anm-010-01-q092"
+      ]
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5-7",
+      "number": "5.7",
+      "label": "Criação e produção de publicações: definição de objetivos, público-alvo, linha editorial, identidade, estratégia de distribuição, indicadores e avaliação.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "questionIds": [
+        "038-anm-010-01-q094"
+      ]
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "lingua-portuguesa",
+      "label": "Língua Portuguesa",
+      "questions": 31,
+      "ce": 31,
+      "directlyMapped": 11,
+      "syllabusItems": 20
+    },
+    {
+      "id": "lingua-inglesa",
+      "label": "Língua Inglesa",
+      "questions": 15,
+      "ce": 15,
+      "directlyMapped": 3,
+      "syllabusItems": 3
+    },
+    {
+      "id": "direito-administrativo-administracao-publica",
+      "label": "Noções de Direito Administrativo e Administração Pública",
+      "questions": 26,
+      "ce": 26,
+      "directlyMapped": 14,
+      "syllabusItems": 46
+    },
+    {
+      "id": "direito-constitucional-regimento",
+      "label": "Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados",
+      "questions": 18,
+      "ce": 17,
+      "directlyMapped": 7,
+      "syllabusItems": 14
+    },
+    {
+      "id": "tecnologia-informacao-dados",
+      "label": "Tecnologia da Informação e Dados",
+      "questions": 17,
+      "ce": 17,
+      "directlyMapped": 10,
+      "syllabusItems": 20
+    },
+    {
+      "id": "comunicacao-social",
+      "label": "Comunicação Social",
+      "questions": 30,
+      "ce": 25,
+      "directlyMapped": 21,
+      "syllabusItems": 45
+    },
+    {
+      "id": "divulgacao-institucional",
+      "label": "Divulgação Institucional",
+      "questions": 29,
+      "ce": 29,
+      "directlyMapped": 21,
+      "syllabusItems": 40
+    },
+    {
+      "id": "processo-legislativo-regimento",
+      "label": "Processo Legislativo e Regimento Interno",
+      "questions": 22,
+      "ce": 17,
+      "directlyMapped": 8,
+      "syllabusItems": 27
+    },
+    {
+      "id": "ciencia-politica",
+      "label": "Ciência Política",
+      "questions": 37,
+      "ce": 35,
+      "directlyMapped": 8,
+      "syllabusItems": 13
+    }
+  ]
+}

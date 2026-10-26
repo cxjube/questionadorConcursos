@@ -1,5 +1,7 @@
 # Registro dos documentos recebidos
 
+> Atualização em 26/10/2026: [11º lote](eleventh-batch-release.md), com 224 questões (212 C/E), 224 comentários e 75 fontes canônicas. São 106 C/E distintos por bloco e 103/228 itens programáticos com vínculo direto. Os registros anteriores mantêm o histórico de cada entrega.
+
 > Atualização: [décimo lote](tenth-batch-release.md), com 192 questões, 192 comentários e 67 fontes. São 90/90 C/E distintos em P1/P2; todas as questões atuais têm comentário. Os registros anteriores abaixo preservam o histórico das respectivas entregas.
 
 > Atualização: [personalização e evolução por período](customization-evolution-release.md); [quinto lote e novo par oficial da ANM](fifth-batch-release.md). São 55 questões, 12 comentários e 22 PDFs registrados. Os estados descritos abaixo correspondem às entregas indicadas.

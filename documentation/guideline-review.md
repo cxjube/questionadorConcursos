@@ -1,5 +1,7 @@
 # Revisão das diretrizes recebidas — 23/10/2026
 
+> Atualização em 26/10/2026: [11º lote](eleventh-batch-release.md), com 224 questões (212 C/E), 224 comentários e 75 fontes canônicas. São 106 C/E distintos por bloco e 103/228 itens programáticos com vínculo direto. Os registros anteriores mantêm o histórico de cada entrega.
+
 > Atualização: [simulado de 180 C/E](exam-release.md) com 90+90 distintos, perfil versionado, prazo fixo, mínimos independentes, navegação por blocos e preservação de histórico/backup. Os registros anteriores continuam históricos.
 
 > Atualização: [décimo lote](tenth-batch-release.md), com 192 questões, 192 comentários e 67 fontes. São 90/90 C/E distintos em P1/P2; todas as questões atuais têm comentário. Os registros anteriores abaixo preservam o histórico das respectivas entregas.
