@@ -1,0 +1,257 @@
+{
+  "id": "twelfth-batch-legal-review",
+  "reviewedAt": "2026-10-26",
+  "scope": "Agent-assisted review limited to the cited active clauses; not a comprehensive legal opinion. Decree 9203 is a conceptual federal reference, not an assertion of direct applicability to CNJ internal rules. Constitution reuses the official same-day recheck; canonical previous files remain intact.",
+  "references": [
+    {
+      "documentId": "reference-lei-12232-2010",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.html",
+      "file": "sources/references/camara-lei-12232-2010.html",
+      "sha256": "7ac5ce924d75c6e448e6e757dcbe9dc73982d0439bbb3ca1f8219f049c32c65f",
+      "checkedAt": "2026-10-26T19:14:09.650685+00:00",
+      "method": "initial_official_download_bytes_retained; cited_active_wording_reviewed"
+    },
+    {
+      "documentId": "reference-decreto-9203-2017",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.html",
+      "file": "sources/references/camara-decreto-9203-2017.html",
+      "sha256": "cc9e9c5356e5c1578af402f769c80ee2dd831facae27b0cbb9a5a971d9b38f2a",
+      "checkedAt": "2026-10-26T19:14:09.650685+00:00",
+      "method": "initial_official_download_bytes_retained; cited_active_wording_reviewed"
+    },
+    {
+      "documentId": "reference-decreto-1171-1994",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/1994/decreto-1171-22-junho-1994-449441-normaatualizada-pe.html",
+      "file": "sources/references/camara-decreto-1171-1994.html",
+      "sha256": "c6d7b4872af6517619fdf7db149333331d9bfc452d4001b88e80a53fe065864b",
+      "checkedAt": "2026-10-26T19:14:09.650685+00:00",
+      "method": "initial_official_download_bytes_retained; cited_active_wording_reviewed"
+    },
+    {
+      "documentId": "reference-lei-5172-1966",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html",
+      "file": "sources/references/camara-lei-5172-1966.html",
+      "sha256": "dc32f69ddba5b4c0cdd7952091c74d755c1e0e699a444aa3566819b94422b650",
+      "checkedAt": "2026-10-26T19:14:09.650685+00:00",
+      "method": "initial_official_download_bytes_retained; cited_active_wording_reviewed"
+    },
+    {
+      "documentId": "reference-constitution-1988",
+      "file": "data/reviews/eleventh-reference-rechecks/reference-constitution-1988.html",
+      "sha256": "a8de1643589cf9fb199bb58a0cf4a6acd63c35ed377843d8240ca500b7e1f2c1",
+      "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "checkedAt": "2026-10-26T18:11:05.384442+00:00",
+      "method": "same_day_official_recheck_reused"
+    },
+    {
+      "documentId": "reference-lei-12527-2011",
+      "file": "data/reviews/content-reference-rechecks/reference-lei-12527-2011.html",
+      "sha256": "879f1f2a828e39d6928786f523957b5c71f68b04c4132a0d541e0b65a8f51130",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "checkedAt": "2026-10-26T18:42:39.282779+00:00",
+      "method": "same_day_official_recheck_reused"
+    },
+    {
+      "documentId": "reference-codigo-civil-2002",
+      "file": "data/reviews/content-reference-rechecks/reference-codigo-civil-2002.html",
+      "sha256": "6ed7c19586b21355e998746a0620cea5c2f3e6a24036d7f3743b7d30330e5d90",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
+      "checkedAt": "2026-10-26T18:42:38.232726+00:00",
+      "method": "same_day_official_recheck_reused"
+    },
+    {
+      "documentId": "reference-lei-14133-2021",
+      "file": "data/reviews/eleventh-reference-rechecks/reference-lei-14133-2021.html",
+      "sha256": "7474e192ebb898ef4c68ef75649f0a5cde78b916b0d4937018ece24b74ed6b7e",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14133.htm",
+      "checkedAt": "2026-10-26T18:11:05.454090+00:00",
+      "method": "same_day_official_recheck_reused"
+    }
+  ],
+  "items": [
+    {
+      "questionId": "038-anm-010-01-q117",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-12232-2010",
+          "locator": "Art. 1º, caput",
+          "activeQuote": "Art. 1º Esta Lei estabelece normas gerais sobre licitações e contratações pela administração pública de serviços de publicidade prestados necessariamente por intermédio de agências de propaganda, no âmbito da União, dos Estados, do Distrito Federal e dos Municípios."
+        },
+        {
+          "documentId": "reference-lei-12232-2010",
+          "locator": "Art. 4º, caput",
+          "activeQuote": "Art. 4º Os serviços de publicidade previstos nesta Lei serão contratados em agências de propaganda cujas atividades sejam disciplinadas pela Lei nº 4.680, de 18 de junho de 1965, e que tenham obtido certificado de qualificação técnica de funcionamento."
+        },
+        {
+          "documentId": "reference-lei-12232-2010",
+          "locator": "Art. 16, caput",
+          "activeQuote": "Art. 16. As informações sobre a execução do contrato, com os nomes dos fornecedores de serviços especializados e veículos, serão divulgadas em sítio próprio aberto para o contrato na rede mundial de computadores, garantido o livre acesso às informações por quaisquer interessados."
+        },
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 186",
+          "activeQuote": "Art. 186. Aplicam-se as disposições desta Lei subsidiariamente à Lei nº 8.987, de 13 de fevereiro de 1995, à Lei nº 11.079, de 30 de dezembro de 2004, e à Lei nº 12.232, de 29 de abril de 2010."
+        }
+      ],
+      "temporalNote": "A remissão do art. 5º da Lei 12.232 à Lei 8.666 não permite aplicar silenciosamente o regime revogado. Conferida a aplicação subsidiária da Lei 14.133, art. 186; o item não avalia modalidades ou tipos de licitação."
+    },
+    {
+      "questionId": "989-codevasf-010-01-q102",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, § 1º",
+          "activeQuote": "§ 1º A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos."
+        }
+      ]
+    },
+    {
+      "questionId": "989-codevasf-010-01-q118",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-12232-2010",
+          "locator": "Art. 4º, caput",
+          "activeQuote": "Art. 4º Os serviços de publicidade previstos nesta Lei serão contratados em agências de propaganda cujas atividades sejam disciplinadas pela Lei nº 4.680, de 18 de junho de 1965, e que tenham obtido certificado de qualificação técnica de funcionamento."
+        }
+      ]
+    },
+    {
+      "questionId": "989-codevasf-010-01-q119",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-12232-2010",
+          "locator": "Art. 4º, § 1º",
+          "activeQuote": "§ 1º O certificado de qualificação técnica de funcionamento previsto no caput deste artigo poderá ser obtido perante o Conselho Executivo das Normas-Padrão - CENP, entidade sem fins lucrativos, integrado e gerido por entidades nacionais que representam veículos, anunciantes e agências, ou por entidade equivalente, legalmente reconhecida como fiscalizadora e certificadora das condições técnicas de agências de propaganda."
+        }
+      ]
+    },
+    {
+      "questionId": "989-codevasf-010-01-q120",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-12232-2010",
+          "locator": "Art. 16, caput",
+          "activeQuote": "Art. 16. As informações sobre a execução do contrato, com os nomes dos fornecedores de serviços especializados e veículos, serão divulgadas em sítio próprio aberto para o contrato na rede mundial de computadores, garantido o livre acesso às informações por quaisquer interessados."
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-013-01-q069",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-12527-2011",
+          "locator": "Art. 8º, caput",
+          "activeQuote": "Art. 8º É dever dos órgãos e entidades públicas promover, independentemente de requerimentos, a divulgação em local de fácil acesso, no âmbito de suas competências, de informações de interesse coletivo ou geral por eles produzidas ou custodiadas."
+        },
+        {
+          "documentId": "reference-lei-12527-2011",
+          "locator": "Art. 10, caput",
+          "activeQuote": "Art. 10. Qualquer interessado poderá apresentar pedido de acesso a informações aos órgãos e entidades referidos no art. 1º desta Lei, por qualquer meio legítimo, devendo o pedido conter a identificação do requerente e a especificação da informação requerida."
+        }
+      ]
+    },
+    {
+      "questionId": "094-pf-cb1-01-q022",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-decreto-1171-1994",
+          "locator": "Anexo, XV, e",
+          "activeQuote": "e) deixar de utilizar os avanços técnicos e científicos ao seu alcance ou do seu conhecimento para atendimento do seu mister;"
+        }
+      ]
+    },
+    {
+      "questionId": "979-cnj-007-01-q062",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-decreto-9203-2017",
+          "locator": "Art. 2º, II",
+          "activeQuote": "II - valor público - produtos e resultados gerados, preservados ou entregues pelas atividades de uma organização que representem respostas efetivas e úteis às necessidades ou às demandas de interesse público e modifiquem aspectos do conjunto da sociedade ou de alguns grupos específicos reconhecidos como destinatários legítimos de bens e serviços públicos;"
+        }
+      ]
+    },
+    {
+      "questionId": "979-cnj-007-01-q065",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-decreto-9203-2017",
+          "locator": "Art. 2º, I",
+          "activeQuote": "I - governança pública - conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade;"
+        },
+        {
+          "documentId": "reference-decreto-9203-2017",
+          "locator": "Art. 2º, IV",
+          "activeQuote": "IV - gestão de riscos - processo de natureza permanente, estabelecido, direcionado e monitorado pela alta administração, que contempla as atividades de identificar, avaliar e gerenciar potenciais eventos que possam afetar a organização, destinado a fornecer segurança razoável quanto à realização de seus objetivos."
+        },
+        {
+          "documentId": "reference-decreto-9203-2017",
+          "locator": "Art. 5º, III",
+          "activeQuote": "III - controle, que compreende processos estruturados para mitigar os possíveis riscos com vistas ao alcance dos objetivos institucionais e para garantir a execução ordenada, ética, econômica, eficiente e eficaz das atividades da organização, com preservação da legalidade e da economicidade no dispêndio de recursos públicos."
+        }
+      ]
+    },
+    {
+      "questionId": "979-cnj-007-01-q067",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 165, caput",
+          "activeQuote": "Art. 165. Leis de iniciativa do Poder Executivo estabelecerão:"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 99, § 2º, I e II",
+          "activeQuote": "§ 2º O encaminhamento da proposta, ouvidos os outros tribunais interessados, compete: I - no âmbito da União, aos Presidentes do Supremo Tribunal Federal e dos Tribunais Superiores, com a aprovação dos respectivos tribunais; II - no âmbito dos Estados e no do Distrito Federal e Territórios, aos Presidentes dos Tribunais de Justiça, com a aprovação dos respectivos tribunais."
+        }
+      ]
+    },
+    {
+      "questionId": "979-cnj-007-01-q073",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 165, § 1º",
+          "activeQuote": "§ 1º A lei que instituir o plano plurianual estabelecerá, de forma regionalizada, as diretrizes, objetivos e metas da administração pública federal para as despesas de capital e outras delas decorrentes e para as relativas aos programas de duração continuada."
+        }
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-cb3-01-q032",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-lei-5172-1966",
+          "locator": "Art. 78, caput",
+          "activeQuote": "Art. 78. Considera-se poder de polícia atividade da administração pública que, limitando ou disciplinando direito, interesse ou liberdade, regula a prática de ato ou abstenção de fato, em razão de interesse público concernente à segurança, à higiene, à ordem, aos costumes, à disciplina da produção e do mercado, ao exercício de atividades econômicas dependentes de concessão ou autorização do Poder Público, à tranqüilidade pública ou ao respeito à propriedade e aos direitos individuais ou coletivos."
+        }
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-cb3-01-q035",
+      "decision": "compatible_with_cited_active_wording",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, § 6º",
+          "activeQuote": "§ 6º As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."
+        },
+        {
+          "documentId": "reference-codigo-civil-2002",
+          "locator": "Art. 945",
+          "activeQuote": "Art. 945. Se a vítima tiver concorrido culposamente para o evento danoso, a sua indenização será fixada tendo-se em conta a gravidade de sua culpa em confronto com a do autor do dano."
+        }
+      ]
+    }
+  ]
+}

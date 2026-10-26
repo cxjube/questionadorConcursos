@@ -1,5 +1,8 @@
 # Conferência das fontes oficiais — 23/10/2026
 
+> Atualização do [12º lote](twelfth-batch-release.md): 83 fontes canônicas (56 PDFs e 27 HTML), 23 pares completos, 1.416 números e 67 anulações no inventário. Dois novos pares oficiais CNJ/TCEAC foram baixados duas vezes com bytes idênticos; quatro novas referências legais preservam o download inicial da Câmara. [Documentos específicos da Câmara](camara-reference-review.md) foram conferidos separadamente na biblioteca oficial. Os registros abaixo mantêm o histórico de cada entrega.
+
+
 > Atualização em 26/10/2026: [11º lote](eleventh-batch-release.md), com 224 questões (212 C/E), 224 comentários e 75 fontes canônicas. São 106 C/E distintos por bloco e 103/228 itens programáticos com vínculo direto. Os registros anteriores mantêm o histórico de cada entrega.
 
 > Atualização: [décimo lote](tenth-batch-release.md), com 192 questões, 192 comentários e 67 fontes. São 90/90 C/E distintos em P1/P2; todas as questões atuais têm comentário. Os registros anteriores abaixo preservam o histórico das respectivas entregas.

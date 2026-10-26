@@ -418,7 +418,15 @@ const StudyUI = (() => {
         for (const explanation of item.explanations) {
           const comment = node('section', undefined, 'didactic-comment');
           comment.append(node('h5','Comentário didático'), node('p', explanation.text), node('small', 'Autoria: ' + explanation.author));
-          for (const ref of explanation.references) comment.append(sourceLink('Referência — ' + ref.locator, ref.officialUrl));
+          const references = node('ul', undefined, 'comment-references');
+          references.setAttribute('aria-label', 'Referências do comentário');
+          for (const ref of explanation.references) {
+            const referenceDocument = data.documents.find(d => d.id === ref.documentId && d.officialUrl === ref.officialUrl);
+            const label = ref.officialUrl === item.paper.officialUrl ? 'Caderno oficial' :
+              ref.officialUrl === item.key.officialUrl ? 'Gabarito definitivo' : referenceDocument?.title || 'Referência';
+            const entry = node('li'); entry.append(sourceLink(label + ' — ' + ref.locator, ref.officialUrl)); references.append(entry);
+          }
+          comment.append(references);
           correction.append(comment);
         }
         if (!item.explanations.length) correction.append(node('p', 'Explicação ainda não disponível. Consulte o gabarito oficial e as referências da prova.', 'review-note'));

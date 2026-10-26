@@ -3,7 +3,7 @@ import argparse
 import sys
 
 from tools.build import render, write_artifact
-from tools.coverage import artifacts
+from tools.coverage import current_artifacts
 from tools.site import check_site
 from tools.source_audit import audit_sources
 from tools.review_batch import validate_batch
@@ -22,8 +22,8 @@ def main(argv: list[str] | None = None) -> int:
         catalog = read_json(ROOT / 'data/catalog.json')
         errors = validate(catalog)
         if not errors and args.command == 'coverage':
-            review = read_json(ROOT / 'data/reviews/content-audit-2026-10-26.json')
-            for filename, content in artifacts(catalog, review).items():
+            review = read_json(ROOT / 'data/reviews/twelfth-batch.json')
+            for filename, content in current_artifacts(catalog, review).items():
                 target = ROOT / filename
                 if args.check:
                     if not target.is_file() or target.read_text(encoding='utf-8') != content:

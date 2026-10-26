@@ -4,8 +4,6 @@ import hashlib
 import io
 import json
 
-from tools.validate import ROOT
-
 JSON_PATH = 'data/reviews/coverage-audit-2026-10-26.json'
 CSV_PATH = 'documentation/coverage-audit-2026-10-26.csv'
 MD_PATH = 'documentation/coverage-audit-2026-10-26.md'
@@ -73,10 +71,10 @@ def coverage(catalog, umbrella_ids=()):
 
 
 def artifacts(catalog, audit):
-    """Generate the machine inventory, spreadsheet and readable complete syllabus map."""
+    """Reproduce the historical audit from its exact catalog snapshot."""
     report = coverage(catalog, audit['editorialUmbrellaIds'])
     report = dict(reviewedAt=audit['reviewedAt'], method='agent_assisted',
-                  catalogSha256=hashlib.sha256((ROOT / 'data/catalog.json').read_bytes()).hexdigest(),
+                  catalogSha256=hashlib.sha256((json.dumps(catalog, ensure_ascii=False, indent=2) + '\n').encode()).hexdigest(),
                   scope='Oferta de questões vinculadas, não domínio, cobertura integral ou peso de prova.', **report)
     output = {JSON_PATH: json.dumps(report, ensure_ascii=False, indent=2) + '\n'}
     stream = io.StringIO(newline='')
@@ -151,4 +149,57 @@ def artifacts(catalog, audit):
               '- Navegador Chromium em 320/1280 px: filtros, personalização, evolução e simulado completo, com temas claro/escuro e texto a 200%.', '',
               '## Reproduzir', '', 'Execute `uv run python -m tools coverage` para gerar os três arquivos e `uv run python -m tools coverage --check` para verificar que refletem o catálogo. A data é a da auditoria; uma próxima revisão exige atualizar explicitamente o registro, sem presumir nova checagem legal.', '']
     output[MD_PATH] = '\n'.join(lines)
+    return output
+
+
+def current_artifacts(catalog, review):
+    """Publish the current inventory separately from the immutable dated audit."""
+    report = coverage(catalog, ['camara-2026-ciencia-politica-1'])
+    report = dict(reviewedAt=review['reviewedAt'], latestBatchId=review['id'],
+                  catalogSha256=hashlib.sha256((json.dumps(catalog, ensure_ascii=False, indent=2) + '\n').encode()).hexdigest(),
+                  scope='Oferta de questões distintas, sem inferência de domínio ou peso de prova.', **report)
+    output = {'data/reviews/coverage-current.json': json.dumps(report, ensure_ascii=False, indent=2) + '\n'}
+    fields = ['id', 'disciplineId', 'block', 'number', 'label', 'state', 'priority', 'isLeaf',
+              'directCE', 'directMC', 'subtreeCE', 'subtreeMC', 'directQuestionIds', 'subtreeQuestionIds']
+    stream = io.StringIO(newline='')
+    writer = csv.DictWriter(stream, fieldnames=fields, lineterminator='\n')
+    writer.writeheader()
+    for row in report['items']:
+        writer.writerow({k: ';'.join(row[k]) if isinstance(row[k], list) else row[k] for k in fields})
+    output['documentation/coverage-current.csv'] = stream.getvalue()
+    lines = ['# Mapa atual do banco de questões', '',
+             f"Última revisão: {review['reviewedAt']}; lote `{review['id']}`. "
+             f"São {len(catalog['questions'])} questões e {len(catalog['mappings'])} vínculos; "
+             f"**{report['directItems']}/{report['totalItems']} itens com vínculo direto**, "
+             f"{report['descendantsOnly']} atendidos só por descendentes e {report['emptyItems']} sem questões na subárvore "
+             f"({report['emptyLeaves']} folhas). O título amplo Ciência Política 1 permanece separado.", '',
+             f"C/E: P1 **{report['blocks']['basic']['ce']}**, P2 **{report['blocks']['specific']['ce']}**. "
+             'O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.', '',
+             'Direto significa vínculo ao item exato; subárvore reúne o próprio item e seus descendentes, sem duplicar IDs. '
+             'Vínculos de pais não são distribuídos aos filhos. Prioridades editoriais: A sem C/E, B com 1–2 C/E, C com 3 ou mais. '
+             'Pais e filhos se sobrepõem; as contagens não são pesos oficiais.', '',
+             '[Entrega do 12º lote](twelfth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)', '',
+             '## Disciplinas', '', '| Disciplina | Direto / programa | C/E distintos | MC distintos | Folhas vazias |',
+             '| --- | ---: | ---: | ---: | ---: |']
+    for d in report['disciplines']:
+        lines.append(f"| {d['label']} | {d['directItems']}/{d['totalItems']} | {d['questionsCE']} | {d['questionsMC']} | {d['emptyLeaves']} |")
+    lines += ['', '## Prioridades seguintes', '',
+              '1. Visualização de dados (TI 8–8.4), prompts e IA generativa (5.1/5.3): continuam sem itens válidos selecionados neste lote. STJ 49/50 permanecem excluídos por anulação.',
+              '2. Regimento Comum e resoluções do Congresso: Constitucional 8–8.2 e Processo Legislativo 6–6.3.',
+              '3. Redes sociais oficiais (Comunicação 5–5.4), política e manuais da Câmara (8.1/8.2/10.1), com fonte vigente e questão oficial compatível.',
+              '4. Expandir responsabilidade civil, governança, poderes e ética publicitária: os primeiros vínculos são amostras pequenas.',
+              '5. Gramática e uso do Inglês (2/3), lacunas específicas de Português, pesquisa de mercado/opinião/imagem e formação política brasileira.', '',
+              '## Inventário completo', '']
+    labels = {'direct': 'Direto', 'descendants_only': 'Só descendentes', 'empty': 'Sem questões', 'editorial_umbrella': 'Escopo'}
+    for d in report['disciplines']:
+        lines += [f"### {d['label']}", '', '| Item | Conteúdo oficial | C/E direto | MC direto | C/E subárvore | MC subárvore | Situação | Prioridade |',
+                  '| --- | --- | ---: | ---: | ---: | ---: | --- | --- |']
+        for row in report['items']:
+            if row['disciplineId'] == d['id']:
+                label = row['label'].replace('|', '\\|')
+                lines.append(f"| {row['number']} | {label} | {row['directCE']} | {row['directMC']} | {row['subtreeCE']} | {row['subtreeMC']} | {labels[row['state']]} | {row['priority']} |")
+        lines.append('')
+    lines += ['Gerado por `python -m tools coverage`; conferir com `python -m tools coverage --check`. '
+              'A data identifica a revisão editorial do lote, sem presumir reconferência online de toda referência antiga.', '']
+    output['documentation/coverage-current.md'] = '\n'.join(lines)
     return output

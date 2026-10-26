@@ -118,7 +118,7 @@ test('later catalog rule versions preserve the original exam score and source sn
 });
 test('the larger reserve varies sampled questions while keeping 90+90 and older exams intact',()=>{
   const s=setup(),available=s.Study.examAvailability(s.data,s.role);
-  assert.deepEqual(plain(available.blocks.map(b=>b.questions.length)),[107,105]);assert.equal(available.distinct,212);
+  assert.deepEqual(plain(available.blocks.map(b=>b.questions.length)),[117,125]);assert.equal(available.distinct,242);
   const draw=random=>s.Study.create(s.data,s.role,s.Study.empty(),'exam',{now:start,random});
   const first=draw(()=>0.01),second=draw(()=>0.99);
   const ids=session=>new Set(session.items.map(i=>i.question.id));
@@ -148,4 +148,24 @@ test('pre-audit 180-item exams retain their allocation, context versions and sco
   const restored=s.Study.importBackup(s.Study.exportBackup(progress),s.data);
   assert.deepEqual(plain(restored),plain(progress));
   assert.deepEqual(plain(s.Study.score(restored.history[0])),plain(s.Study.score(progress.history[0])));
+});
+
+test('the 12th batch preserves real previous-catalog sessions while adding new distinct choices',()=>{
+  const s=setup();
+  const old=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync(path.join(root,'data/reviews/content-audit-catalog-2026-10-26.json.gz'))).toString());
+  old.revision='d'.repeat(64); // Synthetic revision; all question/key/rule rows are the frozen real catalog.
+  assert.equal(old.questions.length,224);
+  const before=s.Study.create(old,s.role,s.Study.empty(),'exam',{now:start,random:()=>0.4});
+  let progress={...s.Study.empty(),active:before};
+  const restored=s.Study.importBackup(s.Study.exportBackup(progress),s.data);
+  assert.deepEqual(plain(restored),plain(progress));
+  assert.equal(restored.active.items.length,180);
+  const oldIds=new Set(old.questions.map(q=>q.id));
+  assert.ok(restored.active.items.every(i=>oldIds.has(i.question.id)));
+  progress=s.Study.finish(restored,end);
+  assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(progress),s.data)),plain(progress));
+  const current=s.Study.examAvailability(s.data,s.role);
+  assert.deepEqual(plain(current.blocks.map(b=>b.questions.length)),[117,125]);
+  const all=s.Study.pool(s.data,s.role,s.Study.empty(),'all',{type:'true_false'});
+  assert.equal(all.filter(q=>!oldIds.has(q.id)).length,30);
 });

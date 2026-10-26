@@ -7,6 +7,7 @@ import unittest
 from tools.coverage import artifacts, coverage
 from tools.reference_text import reference_text
 from tools.validate import ROOT, read_json
+from review_helpers import audit_catalog
 
 
 def digest(value):
@@ -16,15 +17,25 @@ def digest(value):
 class CoverageAuditTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c = read_json(ROOT / 'data/catalog.json')
+        cls.c = audit_catalog()
         cls.audit = read_json(ROOT / 'data/reviews/content-audit-2026-10-26.json')
 
-    def test_report_counts_and_generated_artifacts_are_current(self):
+    def test_historical_audit_counts_and_artifacts_remain_reproducible(self):
         report = coverage(self.c, self.audit['editorialUmbrellaIds'])
         self.assertEqual((report['totalItems'], report['directItems'], report['descendantsOnly'], report['emptyItems'], report['emptyLeaves']), (228, 105, 26, 96, 87))
         self.assertEqual(report['blocks'], {'basic': {'total': 108, 'ce': 107}, 'specific': {'total': 117, 'ce': 105}})
         for filename, content in artifacts(self.c, self.audit).items():
             self.assertEqual((ROOT / filename).read_text(), content, filename)
+
+    def test_previous_catalog_rows_are_preserved_after_new_batches(self):
+        current = read_json(ROOT / 'data/catalog.json')
+        for section, rows in self.c.items():
+            if isinstance(rows, list):
+                indexed = {row['id']: row for row in current[section]}
+                for row in rows:
+                    self.assertEqual(indexed[row['id']], row, (section, row['id']))
+            else:
+                self.assertEqual(current[section], rows)
 
     def test_subtree_counts_deduplicate_and_never_propagate_parent_links_down(self):
         catalog = copy.deepcopy(self.c)

@@ -9,7 +9,7 @@ const key='questionador-concursos.progress.v1';
    const context=await browser.newContext({viewport:{width,height:1000}}),page=await context.newPage(),errors=[],external=[];
    page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(!r.url().startsWith(new URL(base).origin+'/'))external.push(r.url());});
    await page.goto(base);await page.locator('#start-study:not([disabled])').waitFor();
-   assert.match(await page.locator('#study-availability').innerText(),/^224 questões/);
+   assert.match(await page.locator('#study-availability').innerText(),/^254 questões/);
    await page.locator('#prepare-exam').click();assert.match(await page.locator('#exam-bank-note').innerText(),/sorteio usa apenas questões elegíveis/);await page.keyboard.press('Escape');
    const added=new Set();
    for(const paperId of ['source-846-serpro-23-cb1-01','source-018-stj-cb1-01','source-106-pf-cg1-01','source-038-anm-010-01','source-038-anm-012-01','source-038-anm-008-01']) {

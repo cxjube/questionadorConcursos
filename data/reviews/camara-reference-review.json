@@ -1,0 +1,135 @@
+{
+  "checkedAt": "2026-10-26T19:22:37.945581+00:00",
+  "method": "official_library_identity_and_selected_sections_review",
+  "scope": "PDFs consultados localmente para identificar edição, estrutura e seções selecionadas. O repositório mantém metadados, hashes e links oficiais; os livros completos não são republicados. Não é revisão exaustiva dos manuais e não foram criadas questões a partir deles.",
+  "manuals": [
+    {
+      "name": "simples",
+      "url": "https://bd-rest.camara.leg.br/server/api/core/bitstreams/e0d3210c-4891-40cc-9e1f-84f4e941a7c7/content",
+      "sha256": "495b0c6a89b8a1c68d7d708e279fdf53a847812e7a20dc18503fcfd0244d92f2",
+      "bytes": 4049491,
+      "checkedAt": "2026-10-26T19:22:35.081236+00:00",
+      "bitstreamId": "e0d3210c-4891-40cc-9e1f-84f4e941a7c7",
+      "retention": "local_review_copy_not_republished",
+      "itemId": "706f93f7-3180-463c-a67a-47c57c2de847",
+      "edition": "2024",
+      "isbn": "978-85-402-1044-8",
+      "libraryUrl": "https://bd.camara.leg.br/bd/handle/bdcamara/41947",
+      "checkedSections": [
+        {
+          "section": "Ficha catalográfica e sumário",
+          "pdfPages": [
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "section": "Avaliação com leitores",
+          "pdfPages": [
+            94,
+            95
+          ],
+          "printedPages": [
+            96,
+            97
+          ]
+        }
+      ]
+    },
+    {
+      "name": "comunicacao",
+      "url": "https://bd-rest.camara.leg.br/server/api/core/bitstreams/fae44501-68a4-4bd2-8716-8c4d80b11aaa/content",
+      "sha256": "ca465c69966e7ce1e81a723686ebc1e485a76aa8a5a87ed1ab02867ea1f38475",
+      "bytes": 14178874,
+      "checkedAt": "2026-10-26T19:22:37.943496+00:00",
+      "bitstreamId": "fae44501-68a4-4bd2-8716-8c4d80b11aaa",
+      "retention": "local_review_copy_not_republished",
+      "itemId": "2fdea221-d5d7-488c-9211-ff1b228e169f",
+      "edition": "2025",
+      "isbn": "978-85-402-1123-0",
+      "libraryUrl": "https://bd.camara.leg.br/bd/handle/bdcamara/57184",
+      "checkedSections": [
+        {
+          "section": "Ficha catalográfica e sumário",
+          "pdfPages": [
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "section": "Uso de inteligência artificial",
+          "pdfPages": [
+            17,
+            18
+          ],
+          "printedPages": [
+            20,
+            21
+          ]
+        },
+        {
+          "section": "Redes sociais",
+          "pdfPages": [
+            71,
+            72
+          ],
+          "printedPages": [
+            78,
+            79
+          ]
+        }
+      ]
+    }
+  ],
+  "policyDocuments": [
+    {
+      "id": "ato218-original",
+      "url": "https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html",
+      "file": "data/reviews/camara-reference-evidence/ato218-original.html",
+      "sha256": "f5aad485fcd13d3cebbc4651aab3d501a384b0997b608703b46723d959b6e647",
+      "checkedAt": "2026-10-26T19:24:01.818108+00:00"
+    },
+    {
+      "id": "ato218-record",
+      "url": "https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-norma-cd-mesa.html",
+      "file": "data/reviews/camara-reference-evidence/ato218-record.html",
+      "sha256": "b46e974d0021d6aec6c068c11a95a7bdbc4c0b177a8b4d5b6aa098ddd9d13f5b",
+      "checkedAt": "2026-10-26T19:24:01.818243+00:00"
+    },
+    {
+      "id": "policy-index",
+      "url": "https://www2.camara.leg.br/comunicacao/politica-de-comunicacao",
+      "file": "data/reviews/camara-reference-evidence/policy-index.html",
+      "sha256": "b8c6727fdb5e1c914ba6dfbead2fbd0fbc2b810f8e4f228a95c59abd146e1c9e",
+      "checkedAt": "2026-10-26T19:24:01.818390+00:00"
+    },
+    {
+      "id": "policy-norms",
+      "url": "https://www2.camara.leg.br/comunicacao/politica-de-comunicacao/normativos",
+      "file": "data/reviews/camara-reference-evidence/policy-norms.html",
+      "sha256": "acf11f0afd38c6bbec6c1fb6cad0b41cd2358824bd835dcf8a94b0da27e7af24",
+      "checkedAt": "2026-10-26T19:24:01.818518+00:00"
+    },
+    {
+      "id": "os7-record",
+      "url": "https://www2.camara.leg.br/legin/int/ordser/2025/ordemdeservico-7-22-dezembro-2025-798598-norma-direx.html",
+      "file": "data/reviews/camara-reference-evidence/os7-record.html",
+      "sha256": "355c1711a5ea11d12bde9ee46fe9280f1210807ef45c2a035fe616b1864629d9",
+      "checkedAt": "2026-10-26T19:24:01.818629+00:00"
+    }
+  ],
+  "failedRoutes": [
+    {
+      "url": "https://infograficos.camara.leg.br/manual-de-comunicacao/",
+      "outcome": "HTTP 503; official-library fallback succeeded"
+    },
+    {
+      "url": "https://www2.camara.leg.br/comunicacao/politica-de-comunicacao/manual-de-comunicacao-1",
+      "outcome": "HTTP 503; official-library fallback succeeded"
+    }
+  ],
+  "identityNote": "Metadados e ISBN conferidos na API oficial e na ficha catalográfica. Seções selecionadas; não revisão exaustiva. Ato 218: cadastro sem revogação expressa, com OS 7/2025 complementar de visitação institucional."
+}

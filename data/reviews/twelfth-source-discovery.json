@@ -1,0 +1,287 @@
+{
+  "id": "twelfth-source-discovery",
+  "checkedAt": "2026-10-26T19:09:07.560573+00:00",
+  "scope": "Two complete Cebraspe pairs, independently re-downloaded byte-identically. Eligibility remains individual. Older source verification is retained, not claimed as a fresh download.",
+  "listings": [
+    {
+      "event": "cnj_24",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/cnj_24",
+      "file": "data/reviews/twelfth-source-listings/cnj_24.json",
+      "sha256": "a8e18fd3ab9d8181c2db1c2e7f1c6457a0d51a847966d9478aedb94cd094e607"
+    },
+    {
+      "event": "tce_ac_24",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/tce_ac_24",
+      "file": "data/reviews/twelfth-source-listings/tce_ac_24.json",
+      "sha256": "be356a5e736cd4e398c8f60e8035bdcb270905888d9717b6af39830741b64a7c"
+    }
+  ],
+  "pairs": [
+    {
+      "paperId": "source-979-cnj-007-01",
+      "event": "cnj_24",
+      "booklet": "979_CNJ_007_01",
+      "applicationDate": "2024-06-30",
+      "firstItem": 51,
+      "lastItem": 120,
+      "documents": [
+        {
+          "documentId": "source-979-cnj-007-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/CNJ_24/arquivos/979_CNJ_007_01.PDF",
+          "sha256": "21ae6a54865e95f3bee2307116a73287784aa7244969e738ff4f4646b31322b2",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "05/07/2024 19:00",
+            "nomeArquivo": "979_CNJ_007_01.PDF",
+            "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS ESPECÍFICOS - CARGO 7",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2024-07-05T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-979-cnj-007-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/CNJ_24/arquivos/GAB_DEFINITIVO_979_CNJ_007_01.PDF",
+          "sha256": "0f297e43b48c4331b4bccb44e02a9488f44268022a791997ddd4b43a2bda1c26",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "24/07/2024 15:00",
+            "nomeArquivo": "GAB_DEFINITIVO_979_CNJ_007_01.PDF",
+            "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – CARGO 7",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2024-07-24T15:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "annulledItems": [
+        51
+      ],
+      "itemCount": 70
+    },
+    {
+      "paperId": "source-993-tce-ac-cb3-01",
+      "event": "tce_ac_24",
+      "booklet": "993_TCE_AC_CB3_01",
+      "applicationDate": "2024-09-01",
+      "firstItem": 1,
+      "lastItem": 50,
+      "documents": [
+        {
+          "documentId": "source-993-tce-ac-cb3-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/TCE_AC_24/arquivos/993_TCE_AC_CB3_01.PDF",
+          "sha256": "c52c9a32df8a9fd3b6674356fecf6b827a8d3401eb76ad129b12304bd4b7f31a",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "06/09/2024 19:00",
+            "nomeArquivo": "993_TCE_AC_CB3_01.PDF",
+            "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS BÁSICOS PARA OS CARGOS 14, 15, 16, 17 E 18",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2024-09-06T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-993-tce-ac-cb3-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/TCE_AC_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_CB3_01.PDF",
+          "sha256": "5a509e9e394f84ea4c6fc170173ee817cf9c6cae13d206c32c6af3416c7d1dec",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "24/09/2024 10:40",
+            "nomeArquivo": "GAB_DEFINITIVO_993_TCE_AC_CB3_01.PDF",
+            "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS BÁSICOS PARA OS CARGOS 14, 15, 16, 17 E 18",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2024-09-24T10:40:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "annulledItems": [
+        34,
+        39
+      ],
+      "itemCount": 50
+    }
+  ],
+  "references": [
+    {
+      "documentId": "reference-lei-12232-2010",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.html",
+      "file": "sources/references/camara-lei-12232-2010.html",
+      "sha256": "7ac5ce924d75c6e448e6e757dcbe9dc73982d0439bbb3ca1f8219f049c32c65f",
+      "checkedAt": "2026-10-26T19:14:09.650685+00:00",
+      "method": "initial_official_download_bytes_retained; cited_active_wording_reviewed"
+    },
+    {
+      "documentId": "reference-decreto-9203-2017",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.html",
+      "file": "sources/references/camara-decreto-9203-2017.html",
+      "sha256": "cc9e9c5356e5c1578af402f769c80ee2dd831facae27b0cbb9a5a971d9b38f2a",
+      "checkedAt": "2026-10-26T19:14:09.650685+00:00",
+      "method": "initial_official_download_bytes_retained; cited_active_wording_reviewed"
+    },
+    {
+      "documentId": "reference-decreto-1171-1994",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/1994/decreto-1171-22-junho-1994-449441-normaatualizada-pe.html",
+      "file": "sources/references/camara-decreto-1171-1994.html",
+      "sha256": "c6d7b4872af6517619fdf7db149333331d9bfc452d4001b88e80a53fe065864b",
+      "checkedAt": "2026-10-26T19:14:09.650685+00:00",
+      "method": "initial_official_download_bytes_retained; cited_active_wording_reviewed"
+    },
+    {
+      "documentId": "reference-lei-5172-1966",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html",
+      "file": "sources/references/camara-lei-5172-1966.html",
+      "sha256": "dc32f69ddba5b4c0cdd7952091c74d755c1e0e699a444aa3566819b94422b650",
+      "checkedAt": "2026-10-26T19:14:09.650685+00:00",
+      "method": "initial_official_download_bytes_retained; cited_active_wording_reviewed"
+    }
+  ],
+  "excludedCandidates": [
+    {
+      "event": "tce_mg_25",
+      "paperUrl": "https://cdn.cebraspe.org.br/concursos/TCE_MG_25/arquivos/320D70B97CC0EDBE166890B55FCDA7A4D04AC4E219402DE1DDEE1BDC051EC6F5.pdf",
+      "paperSha256": "0263a24204cfe51acae7be27aded1e6c16370f08ddb2f28bacc6e78b2f4ff0eb",
+      "paperListingEntry": {
+        "tipoExtensaoArquivo": "_.pdf",
+        "dataArquivo": "30/01/2026 18:00",
+        "nomeArquivo": "320D70B97CC0EDBE166890B55FCDA7A4D04AC4E219402DE1DDEE1BDC051EC6F5.pdf",
+        "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS GERAIS PARA TODOS OS CARGOS",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2026-01-30T18:00:00"
+      },
+      "keyUrl": "https://cdn.cebraspe.org.br/concursos/TCE_MG_25/arquivos/F6CF40CFC4CE65D590EE9EC52331D1C4C35D052F368F3B2E8C8631E4DDA7330E.pdf",
+      "keyListingEntry": {
+        "tipoExtensaoArquivo": "_.pdf",
+        "dataArquivo": "24/02/2026 11:20",
+        "nomeArquivo": "F6CF40CFC4CE65D590EE9EC52331D1C4C35D052F368F3B2E8C8631E4DDA7330E.pdf",
+        "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS GERAIS PARA TODOS OS CARGOS",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2026-02-24T11:20:00"
+      },
+      "outcome": "multiple_choice_excluded_from_ce_batch",
+      "scope": "Paper read locally; definitive key identified in official listing but not downloaded/paired for release. Not in canonical catalog."
+    },
+    {
+      "event": "tce_mg_25",
+      "paperUrl": "https://cdn.cebraspe.org.br/concursos/TCE_MG_25/arquivos/C8E90765DF4F7D7B2FBCC7F3F1D8EC0DACC552563907792148F9160AB5706AC8.pdf",
+      "paperSha256": "7233d8abffadfac3244726812dc545a8a27601664876f2b113898ec44517686b",
+      "paperListingEntry": {
+        "tipoExtensaoArquivo": "_.pdf",
+        "dataArquivo": "30/01/2026 18:00",
+        "nomeArquivo": "C8E90765DF4F7D7B2FBCC7F3F1D8EC0DACC552563907792148F9160AB5706AC8.pdf",
+        "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 1",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2026-01-30T18:00:00"
+      },
+      "keyUrl": "https://cdn.cebraspe.org.br/concursos/TCE_MG_25/arquivos/95B28874A5BBD4AC9DBC3AE82106DF08EC7177210B7AE7823A1A3DB37F84718A.pdf",
+      "keyListingEntry": {
+        "tipoExtensaoArquivo": "_.pdf",
+        "dataArquivo": "24/02/2026 11:20",
+        "nomeArquivo": "95B28874A5BBD4AC9DBC3AE82106DF08EC7177210B7AE7823A1A3DB37F84718A.pdf",
+        "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – CARGO 1",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2026-02-24T11:20:00"
+      },
+      "outcome": "multiple_choice_excluded_from_ce_batch",
+      "scope": "Paper read locally; definitive key identified in official listing but not downloaded/paired for release. Not in canonical catalog."
+    },
+    {
+      "event": "tce_mg_25",
+      "paperUrl": "https://cdn.cebraspe.org.br/concursos/TCE_MG_25/arquivos/A1559974E62EFEE70A476728E778E766A05DAD5986180CD64DCE4634728CF0A4.pdf",
+      "paperSha256": "b67d340496bd4fc7da85d43b83e77506c018a0761eaae227997c6ffc100fe123",
+      "paperListingEntry": {
+        "tipoExtensaoArquivo": "_.pdf",
+        "dataArquivo": "30/01/2026 18:00",
+        "nomeArquivo": "A1559974E62EFEE70A476728E778E766A05DAD5986180CD64DCE4634728CF0A4.pdf",
+        "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 8",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2026-01-30T18:00:00"
+      },
+      "keyUrl": "https://cdn.cebraspe.org.br/concursos/TCE_MG_25/arquivos/A35044DF07E64EA13ED9971F6468D99857F94A6E731A03FF9D21324F8EC69485.pdf",
+      "keyListingEntry": {
+        "tipoExtensaoArquivo": "_.pdf",
+        "dataArquivo": "24/02/2026 11:20",
+        "nomeArquivo": "A35044DF07E64EA13ED9971F6468D99857F94A6E731A03FF9D21324F8EC69485.pdf",
+        "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – CARGO 8",
+        "isDataValid": true,
+        "isGuid": false,
+        "dataArquivoObj": "2026-02-24T11:20:00"
+      },
+      "outcome": "multiple_choice_excluded_from_ce_batch",
+      "scope": "Paper read locally; definitive key identified in official listing but not downloaded/paired for release. Not in canonical catalog."
+    },
+    {
+      "paperId": "source-018-stj-cb1-01",
+      "numbers": [
+        49,
+        50
+      ],
+      "outcome": "annulled_in_official_definitive_key; still excluded"
+    },
+    {
+      "paperId": "source-038-anm-013-01",
+      "number": 57,
+      "definitiveAnswer": "E",
+      "outcome": "pending_editorial_rationale; not released"
+    }
+  ],
+  "existingPairsUsed": [
+    {
+      "paperId": "source-038-anm-010-01",
+      "documentId": "source-038-anm-010-01-paper",
+      "answerKeyDocumentId": "source-038-anm-010-01-key",
+      "sourceVerification": "data/source-verification.json",
+      "note": "Historical official byte match; source and key checked locally in this release."
+    },
+    {
+      "paperId": "source-989-codevasf-010-01",
+      "documentId": "source-989-codevasf-010-01-paper",
+      "answerKeyDocumentId": "source-989-codevasf-010-01-key",
+      "sourceVerification": "data/source-verification.json",
+      "note": "Historical official byte match; source and key checked locally in this release."
+    },
+    {
+      "paperId": "source-042-embrapa-analista-072-01",
+      "documentId": "source-042-embrapa-analista-072-01-paper",
+      "answerKeyDocumentId": "source-042-embrapa-analista-072-01-key",
+      "sourceVerification": "data/source-verification.json",
+      "note": "Historical official byte match; source and key checked locally in this release."
+    },
+    {
+      "paperId": "source-038-anm-013-01",
+      "documentId": "source-038-anm-013-01-paper",
+      "answerKeyDocumentId": "source-038-anm-013-01-key",
+      "sourceVerification": "data/source-verification.json",
+      "note": "Historical official byte match; source and key checked locally in this release."
+    },
+    {
+      "paperId": "source-094-pf-cb1-01",
+      "documentId": "source-094-pf-cb1-01-paper",
+      "answerKeyDocumentId": "source-094-pf-cb1-01-key",
+      "sourceVerification": "data/source-verification.json",
+      "note": "Historical official byte match; source and key checked locally in this release."
+    }
+  ],
+  "candidateListings": [
+    {
+      "event": "tce_mg_25",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/tce_mg_25",
+      "file": "data/reviews/twelfth-source-listings/tce_mg_25.json",
+      "sha256": "5098be1eff79e8dfb53dc195838787be0e184f356caba6ad1fd3c8658295d889"
+    }
+  ],
+  "referenceLimitations": [
+    "CONAR publisher route returned HTTP 403; item ANM 59 is a conceptual question matched to its official source/key, without a claimed fresh CONAR-site verification.",
+    "Planalto legal routes timed out; active cited clauses checked in official Câmara consolidated legislation."
+  ]
+}

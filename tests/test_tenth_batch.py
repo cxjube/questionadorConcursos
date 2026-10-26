@@ -120,14 +120,14 @@ class TenthBatchTests(unittest.TestCase):
         syllabus = {s['id']: s for s in self.c['syllabusItems']}
         keys = {k['id']: k for k in self.c['answerKeys']}
         pools = {block: {m['questionId'] for m in self.c['mappings'] if syllabus[m['syllabusItemId']]['block'] == block and self.questions[m['questionId']]['type'] == 'true_false'} for block in ['basic', 'specific']}
-        self.assertEqual({k: len(v) for k, v in pools.items()}, {'basic': 107, 'specific': 105})
+        self.assertEqual({k: len(v) for k, v in pools.items()}, {'basic': 117, 'specific': 125})
         self.assertFalse(pools['basic'] & pools['specific'])
-        self.assertEqual(len(pools['basic'] | pools['specific']), 212)
+        self.assertEqual(len(pools['basic'] | pools['specific']), 242)
         for id in pools['basic'] | pools['specific']:
             q = self.questions[id];key = keys[q['answerKeyId']]
             self.assertEqual(key['result'], 'valid')
             self.assertEqual(key['stage'], 'definitive')
             self.assertNotIn(q['origin']['number'], self.papers[q['origin']['paperId']]['inventory']['annulledItems'])
-        self.assertEqual(len(self.questions), 224)
-        self.assertEqual(len(self.c['documents']), 75)
-        self.assertEqual(sum(p['inventory']['itemCount'] for p in self.c['papers']), 1296)
+        self.assertEqual(len(self.questions), 254)
+        self.assertEqual(len(self.c['documents']), 83)
+        self.assertEqual(sum(p['inventory']['itemCount'] for p in self.c['papers']), 1416)

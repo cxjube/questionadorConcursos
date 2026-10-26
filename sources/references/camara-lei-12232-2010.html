@@ -1,0 +1,863 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.4.7.2 (Linux)"/>
+	<meta name="author" content="P_6140"/>
+	<meta name="created" content="2022-06-01T11:30:00"/>
+	<meta name="changedby" content="Eneida Valarini Martins"/>
+	<meta name="changed" content="2022-06-01T11:48:00"/>
+	<style type="text/css">
+		@page { size: 21.59cm 27.94cm; margin-right: 2cm; margin-top: 2.5cm; margin-bottom: 2.5cm }
+		p { direction: ltr; color: #000000; orphans: 2; widows: 2; background: transparent }
+		p.western { font-family: "Times New Roman", serif; font-size: 12pt; so-language: pt-BR }
+		p.cjk { font-family: "Times New Roman", serif; font-size: 12pt }
+		p.ctl { font-family: "Times New Roman", serif; font-size: 10pt; so-language: ar-SA }
+		a:link { color: #0000ff; text-decoration: underline }
+		a:visited { color: #800080; text-decoration: underline }
+	</style>
+</head>
+<body lang="pt-BR" text="#000000" link="#0000ff" vlink="#800080" dir="ltr"><p align="center">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAByCAIAAAAXnYLjAAAACXBIWXMAAA7FAAAOxQFHbOz/AABNT0lEQVR4nO19DXQT15n2e05mj64mytHINvHIFtFIciLhuoAp9Q8QZMcJ4GXLT7MpuGxiKN/isLQhaTcnQEpDkhaTk00p2bIE77pgsmCTLIF4l4IhxlZi459QYxzFlhNZGgXZHhfbGp+Kq6uzk7PfvWNDut3uNhA3u3vO3uZMhSxpRs+893mf9+decf/2b/8G/zf++IP7776A/3xoEfg0AobFn/v1PcDN/mNe0Bca/4OBTl65hatLvgua+n9A39bQZCAS3NEDyWYwrATO/vtflqzXX6yCYS5cPwJ3PvZlXuPnH/9TgWYWKrOrS3YDCQM39yaNJD+qMty36cbL+gFk3ZYBPs3/H/tt4H8o0JSdoRk4iV0dBRHlAqEPuuEOe/8Hb/tObC//DhgyJWDPqqAJwCUBEnBHEj4V/jBTJ3vA8N/AMF860GOvQuoTcL0e7lzx+18wybbUiuEpBrc2DFAEiKKqToSuCB3by9dkyR8+5TY/w66do8hKDG7SC6hbnwGnfj/Q9GPphKDH/6bxpQNN7XTs1eQEMpiPAKfCnf+efJNHIC6BSQBwgNkME5QTrEltjoFEqOVeGWif48JECbIXjhFDKrVoAZAAhB6LgaP/9OhY18Md0hTck6zNpsjkROkAw9Nf9lfWx5cLNLNWKfnrWsPd3wT4JaCn4HoNoFXMJClkdMQpst36UYCJToAwaLkGbgK0keSYEvBVpi/kfUfxmo2879y+JWUVzPbp0HS447J+h+ZC/DCYKuDTejCsmHrBp1cA3OyoucEAX7bP1BjMX7JFUz49Zbi7FLgEaMUA7cmhPsO9q2CiGcyrmN+jTo87lRxBhlSJ2btGdNunXjHh+zAsAQ8+LAEoDdju4ZO/HjZkCLrPpOLEDiYZ4t1g9rKz3IEgqQKcAzSXGTLTJAgmasE0Cyifc54v9UtzNw9f3pj0XRJolEnXQ7zSkLEZJrp1+6X6oRtMc6mkM6R6mAFqPuBKDWYjRTw50g0d9XNK8JVqmCOCqoCwFMut9dJiq8Guf4nrEfYhFOtPJ8Ak6RpcN23zVkj6wOCFZAOYNgOkM/agfpU60s8fCn3B8d9g0XEdX+4w82/aYeAKma2NnYH07QB7AVZDfG9yzGpIp3aqACcznpmIGcyK70KrmIXf9vErRUxGeRCx2gARid6NYYjPZWxD7x+9T2SuzvteiO9inzY2DGYKaROV4clPqg33noNPj+s8LjM3C18W0F+2RVNdxa0CrTk55jGYk7pgKKJEAaml1NKTYxYdX4chvai+9umlCwEMGw3pqsHM/B6ROw1ZvNSEVQccDOPnOOiIg7c8p+dC3ewyereEkX9uAnIYgE9/pBIm7P2dBAbLpIUrDNTSoQyuv224ex27hjgBUzO7zZReJnXIlzW+RKBJt64QqAQuYKBoq3Q6JgY6m7VmQ/oqxrZjfec+7GsO+JEGSx4t6L/4l+68bN+5N7wlfEcjdjv4gxoWvs53KDjfxvd3dCrAuz85arhnSwQUcxAiUWzntrtXq5FBsDdjBqN2YKTXocYb3QueTYZeMqSvhTvMFHfG3eTU/1qgJ2OBqWM/80hUuiV17598gakLSpqwXlfHc3VmAPbNGV8L5y4E2n0VfYzOeJCxvXx71euVbZc6X5OcEAXixnZ61PBFBDuotxvJIy2dyjswZyOWO/zuDGPe6s3nzIL8Kzj7Tt1zrtP2r62read+7UCvm3tZPbGUfsse2FlXE3zuBaLPm1VVf/+X3vwS9+wedtmT8QtVlgZdCCb3sZk33fdgei1ahuvNLIKIV4KpjOUoKKxUq5FXdQtqZnOWWvGgePzcfqJB+Z++aDBTJiENF44eavfnUnNXeMGEVYE/XlN5Ocrv2ZgnRx32hUBqeJHD+9L4B7KMbi4hLvT7msHOgRrhk4CTY5cNqcuWPFAGi6lf9Z27cKD97ZdByrJzQUOqGEH6nRsM9qGUmiMHNz11AEzdAM6aE43lyj53aa+eJnwD7vgWiyon6JUXM1Og4mRasZ5WoA0rkoNVFDvgyiBey7z8xCkwl8PE2wCSnpGgqgM6+uUz/s5ZnM1gbu//hNTUVF5UIdsEF1SwUl/H8UjFl1UozsoCcZ3v+Nbydbys4Q5q7AK+fAkXAG9fkANr/OLbuOMszq/gG35RuWL7sp6TOw3+HmF5nl0qOdvRGw701MDsJ/LkAGR5hnsgsyI3d7i6qc7bud+dt9C7ZFfTqx5fJNX9KYH4Qaa7KWtP7NP9szIV+humE5tpBXriBcM95XCdXmgzc0FMY1CNXKNjvQ247cmRwy+dGQ5friPAi/MzRn6tbHv+gCDwFsC9Ud4hYDXOxzTsSOOHR7FKxkFRlq5JlWvGwAbNURhWeQDsZoEkWeIx9p/A+SaIRLA7i5/oeloJBO0KXDnob4ZOxPGlObPbosFzr5dVbDq5njy9x7aqr2FvhsBvO95Z2grSSonE+aZgYum7e+yLn4I7RHadJqseOgGLev6zDMHtjmkFGq1hRmFanxxsN6Q3A6ya0sv0O3Db6eOOAdT3cR2i8bUNH3un8+SlTpEJWiyogGzYOsqrCM9Lg2GKNQciivp8+8rXgawwKUpEUFSM9EwSPRPcnYA1PGnEyuvg/TlQprZ7KTSOOagRDnbSGSAHg7kSbh+1yVVLh2UY+VUlwLvwMYZ7IRDsDLzd6bBBVxS2vX34sKvQYD41pfHpvEFFOnVI05t7ml6OpkHBeqooDPdsTX5C1UUzkCIda4Z4cqLgQMNqK8cPC9DlB2q/YZWG2LBA4y/awHoZD9+LBeDDagoSxomwBCTkzayXa7CQBm+b+C4VLPQMKh4Bo5uizeW4F5BzR4P5udQfQoTAEhdA6jIwr7WTSgSOgkFkd1146aDvjEbnSsre7neJyhSLKuMuekP80GviszkcBv6lVyt+9FdrwbkHPq1hYc4dgo7ytAIzzUCz2OEUoPXJ0EGDfVlyEAzmWsbXDOu5visH6Fft0sMkK7UmCpwJ4CpcNGH4AGY9BJe7qTVllS5CXtcjkgv5zu2jHxmRmfkeI9hCAJlofEJjuwTAIGj0mCP/uTG/BcM72Pss30M1Bpw1QEFyJOQmdVcm8trf6aSf77g/q8K7vKY3fFGrD41iJ0DMBLGrkEHvtImHKFYl6Bmwzk6v0W0ZmD/kNgNnmF5spvXDTAjuoBxdY3BWsGNmEcVaSZ6E4Bti1gp5ZCgWBouD8exwHCxxABsPVzEFz5rLX+iGV1flzF798mS+v/9iwI4gOYLdiGlnC+GpBB9W4QGBWjQNCDOBQ6CRTQ+5+k+NiYhXW8HABcFFIkOK4Z3Ol7g8j+j35uSB5C/f9DKNLbfOK+jbeN6aBb2A53F8l4WyEJ/4ADty+a5RvCxycHbeGXZL43sZyyFZpyj3NGIzvdRB4LqPRSI6U1PVTMO8htdJUzveUFAfaMYOByiARVXPbkp81wWcPY+9bVjF1A0Z0p3JoQOGDOr3PTU1m597FnxHeUMam91IwxRlq65MVg3iGxZtpMeRNTw0Yl8LFKybLfcfdC945tzDayukQrdTnSCryq+3G8yHkhMb1LHVszwrLip18zjo0nD2NRgWMb3BXUGcncUfaMfeB86SodPme15nnjx+GUzbphWZ6QX6Druenztc9XpreUmrwflsMtIOmYhwtubmqOcqf4zDMQskKGMAD6PYOg9iKn0HH6NAS/yuhnrq6177K4ccuVxuw75W3q5h3yg/DEyHAMUaeAdgNTMV4CGA86Db9eIFpN/XszKNhjNBoueplyyexXQkWnXlQmXz4PlwMGERWrpkDFpdbJhPzDRCfKwFwKXwwzawcEAVDo2SXvq7SiLYdn/vFFOi5l2scpZMTqM/nA6gaShIXTZFmakLYYKsb5Jbu/d3bl1+0jfwxrEAWPpwOAQFTvxtDQLXmAMkAkYchEaBagxCORrAquCKjQdFewA4yddYuWYpHzmIGTsD0yGNozg7jacUr05xdIjVruifNT+164h3ttjY09GKaaTef6Fy9iMyy/wROT1rQ19ryKJ1do0CnTHDHGTMxEMqzhagBXirgHtVcArsZlttWMzKawp0Vr380qanD8PELr3yQGmwCrgAQAUYviiNfDGgx+oZLxuWwMQR0JrBtAziCpqoo+w5rPA1vq6LCrYKPLNfJ64NgfVfYe4yHtmy+liVBDsRHzbBAhUcX1/xzDyHeR4FrujcxfY1WXxHP9gl8EXBgXjqP0vSUrpGo9Suw/IkRxPGG7r2oOdasmDeuaM9bhvT1NTek7/eZshgPOu+D157+uUrn3ScPfGPw1zQIuOYAJSrwir/IDDNM08AqtyZ/olTM/YjtDYQr4tcXG9fUAtmSY9fgMnTO5Iw9gLLvhr0cgGNJP+zkvx0Aj3Z10Ljaao6TXNZXSO+AdBqFl5TT2Iq9V2knNtDra1P6aGCrFfGGTOA6mUV5S2b0Smuy1rjWn78Q0IGWwFKyv9UMphRcoIYzBZGu5os+/bNKcFQzU7VhiCMMMShC1LolVIdTT+Q0DktBVUFC2LCkJGVHAoaMujJeSGA1QCkz0nIcsh9t8zqW5psFmCxkD8SjV1sqLQITI+HqVMN4wEL5AB0Uec8E8eoDhmlnnwv0fYzZd2AD7vbydBO831/q9d9TsFEn57LprLvVb2OU/SlAE3PcX2fnsyWIH6AxazwFBNw9Bnz9nP/3F779j4KB0rjey9j5wzeCYwBC7NAkkCWeYgETzVUXpD5gxVb3QsQK/RpoiFToDOdXsu7FxUJWAbDPow7ZvKqyliFvkrKGpdEnr7Abs9Bml+O6kcZIq1BkcPm9GC+Cytv8pCL4TgGrz85oRjSKU1L7IJJ9yOLK2IjjWfahxxp42HKQg6mYQjjDabcu8LYea+NkOphuYfeDBpV1vxi36Yft8GncjL0tOHuLXr1h8YEl4FKefPW20D5toCmA61nOU9Wp6CTXUiO1ckDYdDqJbfa3NFKdUUu4S+O4uVWvpHgDHrpKj6mgDHQOUuCk2dZRXsewpKtMTmy0JAugZZkn0k/5zrq9pUvXchH9mDZwYs2XApMC3Zb15+5TO3dg2ZA72nk5AKU33tH12WLyGoFFGxaq9UJLj6yGuzt4LNBOeWcXz615NEz7CKp9bF81tvlC4nXnlHTO98Cl7q4DKvm31BUqcSPVjfDw7n+03K0XU6hKM8i/GV6d+lNZWq60OD8e5Ypo48pyZs2MD/0Kbk9zG7rTYw32vRIhNVHDKlQ84uQBDAiWsPEn6AxyF3YIvCnr2KLQ9cVwFto9Ez1nIwd+jFG4PFXOrOlIa/Ul7e6jJIDcHLN3mpqTZEIyMW8JMKhS2tDmsOYlQvXEglRoKzs/A28vFK02/O3/cKHROk8kIeGFUdW2aOB4uygXJwV9j4TirT6fT7QlfgB90PbYYLOdDVy3bqrmmmSUs+A6H1o2Ug9nX/29KMrvrF8019KO549k8HVh0kwBnwfwYk0vi2AyyeKDZkiI0PqCRjEbvj0bZg4QGft7SB2m0Cbn4CJuYwu6Ej9Zv8nwxcDdeUV9AqGhy9jq4NFFlQhWCwsaI4xt8V40ChT9FlO2RKjYQs9s21F/iL3gsLk0BlZRhE6k+UesLF8dHV8a0ZUGpollZhJuVeCOwzf+kUHAiFEQORUkUMxjgwQ8pCESBTKH3Bbvib907tSr1zQJCtlkuy276N3K+Krp2QFhmIDEPudsK28ct+Ft874fehSC70GCjoKdBb7/GvWZT33/ZfXfr93+EKPdTG7cmMUE4lXI9Xp5oWsHkZ9II2hJmtjqU/cHsq3CzSwyoVu0ayq7Ws9SO30eENleXnqA7lA+Zeq3a7fwLyZzKcvQDh8FXJnQh/iZxEc/hgcM4A08IXeaKSmzkfhoJ9m0zNHNj6g5FQr60oKpCoZ7k+Qvt8A0lRyR3q2Jvdyc7NBOVxTjWzLQe176F7hfFTYnW8ROUhEFLgaQDPnkhjUahI5Ydnz4D9FwP/8T+qLtDqQmB6PZPFb74M9V3lrPBoWeUpf8D7IM/Hj1cENaOmejdu3He2By+C4l+l6ehuuNPiXzPt75gnjehaBKeuRL9LldNvybg9onQCHzr1rbQoC81oqNFSMXcgAyzXc5QCqVUkDxO7DYU3Pt10Fx0xcJPHleulO2EI1A+Vf8AI0HGVx9tkgbkyrGUwTLixHBtF+MVDznlbg4mBb9V4yimJi6GHy92JBCoxSiF4q+toKeXCzA3JOvj3Q1PoQYTepDGIymkF2lXh3faps8290cErlMy/R2JJqGHouejvJ6Ndf2/g+dcjU3unpYCZQCyBX8SGAQqgsnZ935uNOOq8QMHtvF2AJqwStAhOrc8J16pMKIHXJ7cJ1+0DX6NXV4ubWM/A+RvfyXZ/gXdl8U5jphOUaFNl4KAf3QhCoPqMxtMhORaLsMVO7AbjCYbfGN0SxVMTv8sOw5w0ghhyUtGfSMB0WOCTr1W4gJ4pNQW8JJCdy2tWMtktgQSXDxOmQqQ5ZUZQP5Qgi0Ns+MD7UHCK2dYUicmckizONL9KgyDR3/b6th7fuqznOS0F2XgAftW6W0dZ4MQfsObySDu4sY38wQe9ef8RfWpwnBzspezioNn2f77/YJklHYchvyPgWmFYDu5+3P24T6OSEKH/4FIxQVYaL7+dFevU0xvPCa0jHVB/0wsgAVjge/JhObqqJIkCP2EDPmQb5GigKQ7nZb+yFn2ZoQIM8p2ZYf4Ryi2/4alMh1ytIg2o067Hjy4mtgJXETMKgBvejgtc1SJFZ5scYV60msmFhoGBjqzywvak9R/4UWj+AlDRxiM6ktILtx9H6hScMpAeiWBRBIZheHT2vQYGOMLY74BzBNDIiGsPdnu9f4+VZflyfbbJc3+/Dhkw+2XrYwL2R1LDB3iS5Cj/rZf1jA33uH8ogszcfAcqHyoU8q7FyqRPRMfonGtG5G4DZ6TBTRG4bL45iJY11vRCOpyizm+QBA/AdQZA5+mWyGuPLl+eSi2H5ftPcSxpaNEMOX37qqZVwqHVFb/vyIVvRI1JzF5eMgWBBSWr1QxpKzKATHA1cU10mkWqPUKtIoOhv82uldb27D1YQ2z76VwJki9R9LCp5OpZ7FgbPnoBhGVtNvKTduLZChmn+KKUU+mm8EsAQYJMpEmVWL3Pslfkb2fyzuyZnZB5obzz/C7J7z5cFtD1/A3Sspij7WplFu2moQjmB1dlwvsgY2WtjL6P2S/37lYf5dErKEnvGkJGaHKLhHI2eE5E36RO4Mbp8oSQ+8w2v2eme+eSRDAigttetWVnf820c5CSXjUaEpPI7RXJSpNrjwVePZ5jmDmjEdQ3Y0SoMDKuUxwc0MHLwzdayh6D9+8ucJ9u3hmHVxqWbyxeUy7UNOwKe3VcqytccrDjB8ioX42D9KgxHwTiKE2EwWkC4BoX/ihUnX6RhO2JzTkQwR9CrOaexYRQ6CKtMIpvT1+rf/XTpbSB2m0C77yH90Rx6Vu9C8DXzosiyP8cJSMCLyzEhPNVVimZcck9m8tdB991G4FygDUy+13BPDn0c+cTYroxdkNcTqWB4hnr8w/6mvzueofRtzKpvsmV1kR8MIsGlp4Sv7FkBYxG3WYiMMUwpvdAjYUfdoinKk4+BGDnUCwWHlILNK1Ht6ZZAR4AKPfgUMjk4ps6VRlZ8W6w/pmAqLMNx3iIwxWnN5YmeUXqLoi/ARZmfJ+Bhqj1mUk3ClzswlTQggt1DLTqn5mh9+Xf2st6+2+q8ua1ch4bcC5b7Bpz2jnr7Oug4ypgBRvkD1BMO8BR9Ouz3sDqI4e7Jt/j1HNBkBplpkIkOyjM2v211Dqf2Dgu9H6uII8vFuiYVQqYXB0aTLsTsNGeyF1QfdiQkgLhmIHKNjAOzdICp3BK1bqOaTAgwzrGndnaUHXkYKo6/vOvvms6jDZmInfhAy7zD6+qP/RjCX+WNcRwz8ZY4HtaYxu8C3mrCLCfOVDyr9UhpqeoRxoQK6wTmpXyoOer3elcYMgkk39Y7gwXWiHMrsfgtAj1Rz7QO1RucsOkvn6o65PCO7LOv468chTUIy8AfOItr23mLDa/K5/OlSZYAPcc2cOOI+t9NtEf50/FHH8qiEQdJAKIT/wF4vQ9WtXCrUyh2nIFhnWaOccLMbeeeRmdRVlFTd7vT4TnPoEEU5XFAmfqRPeZQCpekR3onBmcIcE3d5SvesRJ2N9ZnwgbG13FliDMf92UtLw6eDmIhjU/oOWhQ2WNEo1aBn2fCy3J499ey7KbB/uoxMZsyBrjX8VQ1Ud1SvmmvvsZAZJlu1rfXABMGMBfR4O1zwv35gJ7q3wHWbXTH1uQE9WZXkoPdZ9orz3wMda/xySKstED51/HB49C3FKtRqPTjWTl0Yo5VruTN83SL1qaOkVZoUnCGKO3yUh4v2FldN8+EIB4Nof0prHZClRkYaWxJUWO5ffKC7Llfbn5PLMocpu8nU6/RKL6Q0Mggpz8WDBRxyqqTrH1eE8tGHPNG8bBJ6QXxys8fm/PdVwPRh4vE57rS+N5RXJIGfdSE01ittuzB1DVeahOp9GzJoWD/QQyjlPqAakFRorbMU1v2XWmyf1jvXvAtlqfkiuCOOWCKwKcU9MPA/XT6gGYvXMY6BFkfVzfTZ5pssEuzvjp7WAg+/xP8zEa+gyqkk1BRgg82QDgfRIkPR5mlPHkUZ7fyc9IS+W4wzwP4tVG2QUhekcGJ0p3g+1CmkY4n6/Qr7/BjHmatmZMWmgY3bTZTFC+BlMlwZDY7+TzSefkmRxMdZSMnu8Az+fxOv6d+Hf/kwR0v//mxibGRv61Y+r2DHRVZVGuCk7Ac93cKjFJ6Ir8iz3D3jdkGg2or5UAQOLhi473rmLef61ksuYtrdlR4ilLdkKv3AMk32j9EvcPt8+H3uV51/QpjDNB7600CxAU9AyBId2ZfHGWp5+erceWzvA9Y/qzCCzVXaTSLWTl1FFs4GpTjizLsfgfmSVhCcJlqKM5xSYO1L1y5JKQvEvrkKIyhraAz7yT/TtosmrRZK8rUeZk+1jXGlC1P6o3JZ+ixRIKwjM7feN5oEva1bp1l2neguxl9BXV/qNJ3NQSXbPCcgyzweqkESkxVD2DKi4y8Oaa2sAz02yKLYGt8RoiObdpe2P9RIGzLQ4FO9q3jSYYAyxLLrKfpzs8r9T4f0CyxK+khg6Rn2uiZ1MhHAYXyhcCrcUyu8s8/jp/7B4o1726HZ+7Fj3/MegpicaZJBYHxYEyvDXpsfBflRE8RRfOSOIcei7lz1YEcI5qsTTGbpbaZqSbHBfOUzV6bsmXjlBVPaYybjx+aqRbeQVYu9AhL3G/3R/Y3NH/dmvt+zNAKBUfKw4/VXPxejQeZmIw5Olp6ruQUsvGGu7OAFVu69Go68yITnZ0MZXozNH5NCX7pBB+Wx3atW98fEmpOnKZ3ogDxENf9E7U2w0qAOWCYdmdomJ0cMxu4KzfuJPSHlIPVVcNcwkp9N73kmVi6CjXPs9UlEQ7318Kur0PN+1Q/YapYLXr2gHp2chmoFkTXvMRDnKAMaiJSFZKGQdiYEEQXTNkms1PBMGmzN2pWZOqvunYG3aKNN2yZ6pZdJYp4j9twJ8pPwi+oNruacJkMGRz4IkAlaKvp+0ZOTSBmH76BvHzoTL97UP9ig6Bl0v8boSjXMFu+QmDpRrzvNOVorKrw+P7DgvQGjQ9IHOxr1rJOIJaOOgXJGrjzR58f5c8NNIXaDCy3y1ZPstpKRDndSoyka8wymx/4GMdmAPSz+Gr9Y7juAg8chlq+vBDXtPG9M7BDYL0TljjMy2WvgZnWjZLqcc1FvQGqWC9f5gdEivJndmrUOXfq8Q1enrLoayo9TikN/Tj5moM++aesXmOORCMxzeNySOSa+p5FcEQLhcIQvN9uySqYB3Irmy1AlT5MdYZQnzFIY1q1QedlkbcvhLd9wHL/wMdoHCsA1ScJ4J1p9J6F3Hkqm3WwCgzCLaF8C0AzEWMqgnj3uyFVGKWILzeOVmbMhksqTkkwnQB/AuK/4ov3wfbn8XPUN65mvrF8Jma9SCE8bx6EVVYECHiwUSwscgt2u/lAI5G4JkKwkagDnDDJttROb3L0zcc3uVvvvWOPc7iJ9zVDZlwZNwnseRKuuuDb9I0VAY4gNTAwLND3Zl5TG+PCFpFkcGSDJHtLVx7vvNLuc7oz/XptiLHzCEW5htUSVRtQlH0R4zH/GCtomTCYePiA1S6o1h6WoWAu0dcjtdH3nvsod0m2nS3Qm36gYbJhWzl0sUm9/EapCA6J1aQXSXwLYFcP3zUDh+/hB4axA/FP7sevVfK+KLijLL6iEeMxldVcyMdYfdAWC0DlhwhO11xSYLOt7qS4NgUJ+orNpEswwwwqJBDolpv4Hb1Mj+oE5W76eDW8dWZPrfvJFxIwF80Qqq6VGRvVHa31oCh0wk1yN/tMkyBdR0PxVpTqUSZIk6+7UCpGUA9MrcBE15i6h+U9EMcTL3QMGve/OebUe6mYyqaz0MG0Nv0rErBCkPLLtvbBFtISBfGdJc8XAdxCbvoWAxbDkteWHFr/Md4fABIDqwVaZOwSYMCJ4RqkXMMpDtYH5ARYfD9+t4nvb8WGFliZxmbifvo8K4enjHNCb5QqioIUlLR71wsN6vtsJsOLBYZDAXkIpIc49fwMITGVx2AaI8MCAzFdhwDTy5Tf13xn+8RIBI0Slw38Gsmh12YVIUYG0sSbOmRSk5yNkQyUvbNXgo9GnFaxTZapLqKaMDnkVyhjWOEKFaa6ktvvH6P+JAYp1Gk7AQ8I96XIH1HSCI2yHMPuv+uExX6Isl6fDd6dYL61CsAth+AkZTtCIafQGQLGGCnDPNgghRostcQYnxJnHQF0ZC/iqb5+7jm+n8OkmfeyvB1/5hpuuxRMEZn9UosyppkjA2+osIKinA2Kt3Spe4HbfZ97x2vn4GPZZRLYa3S7Hoqxz2R2KjCv+F4cvfTL9vCnkiUr109gxZ1wPgZGipD++t/R1x4pu1UGxshAWq6ip7MkA2ec6OqkKINCUebzde934l1suYcHE45djVqsMKTxKdGPqBIKaeBkegPHnCx3Rv1NYZZxyQPkVnG7ZaDN6BTRqDXrTbTU1u7CQx9AtgNaVD7HgllOWYBQD2TPxhdVpkPKn+X7NWx4E1ZasTQT2iXcG1VK5oslinI6KMusW4LkIqX8YcmMBHMqTExMnG4PuETppkYG3aIp1p/ZqUk4fUkeFEkmGCju52UyqUPGb3D6Ta3CuL65DmAt9Y0WwjqClVHlJi9HJFZ/Od6fqipjcA/j4qE4OGdCSGW9ptT1WGZCrAtiCzC9JVaB9bIaTbj8T/eC+ZYzpbeRvVulQp8Fei5R+wUc+w2DPETvfwz7LTxcw6Hf8JCNKe7zAcvS2peq67YuZ74RtTMtLlJHT+Tn/tQrE/eJHW0Fnqzqs7HzGiroaBfvdpvvpCRNlkuoivw72xzSrXWQartrKlV4FLVx0ZP5W2pk8phyI9cxfkOruGZAG+GNGrzoUQJxqA4qInO/jIU7OH5lCVYJL7eMdVGbJdhPz2KBXpVHgMenKnA8zMYDCu8yYfq8xYRFyt3JJkjKzJ3eUf7580q3AnSynqqO5K/7ZqHeLmDZZzqZLt0F1KYSceadBxtwzlKgao+C4tIr342BuhLEr9+F615jHCK3gFTAQzBcc6WfRBRrVnZdoJe6+gHT93cGpTcmyEsnfRf9tZa41SiKv22bk4+piqB+j6I8mQOh2mPcAjmxKR0ypVVuMDvo1k09h9Vh7H3fIaaT/NXlTc+9hGzQr7EaZv5fQ8cAT2Rc8dzm008fcLKgX5+Oo0zVGeOMiwY0TD8txYQH4gxr+pmrlmYZnGV6B5NwSz0et2TRLPI2gLAqH7pO9CwC6AV4EPiuGOtIog7k/oV8KIwXfZ3vlRmXhVWcDdBHcGnxJF/nAddpTgdogf2NKqhkXEhfMOr0ZPkzozISPdt2HxwCRMSyAdOUPcJv6Y0p7aFb600dkkG9H7upv5sDualYFmnNJJwY4KRKH4QaXiLgEaERjoP9r3kYYeyxdNNBX7/sTGNXPn8Gf+ljPP9e9l30GiOeb2WPLTY+O4yJwKr4bvcWvYNbhXgfmObB9fTPuX7/cwN9vV4/AVvJPSd/rtVXPwzYGYcuvRc0prHjJXr/Y9AbxNQ6elVMLSKsJ9dFW9amp3/wauUrSxfy/WxDh5BFg4QoUcOv4oqPifUo2EZAek8sAu0z+72Z2Rjkpuw3oWc/JtX0VK7ut3IdA/pfbz6ePFq117vUFJconqevRKIlriLwnwW8CnhVy1nx6JaJEeFsawX7gpQ0rmHXvcyiLRQVk96TR7BF4hNRPHwvFYG4/EHeYNb1FipmfYfg1vdk+Vzjc6dJKcSgbyWg9ZnvLHSgrOF4kMZONN6j8v5SmHfNxClxiFnAwjErGAL+QQfuUvlvI1i65GXQ0BPb/7bq5e8BBI2kM8b9tZM1agISZFnJyUAtIVJK/zFpib+b6wC4mXdmz8Dk8bPayuRrPuP0GcilVxQzNbXIk/Fmy3J6R+83wXsEHiIBkcNhjScRWPqnL4IWON7fBCoMEa8l5qOqORZmCtr6VdabqTf68KEodjIdDcWmFe5H9DYlpOqdgt0QP8nuD1kF5j9ccPnDQCfHIgbTFT2XNJf1sekrBivKF4Zf6gGBD/0jhkXwiBW/GYb597K+JMs1FpH/5Vx8ohuWS9i7Zp/BTLmsHbSCTU//7fcrvN95MPXZd97asqqs4IH8unrlTLCkVNxXLZ9xSWWT3Mpyb9qURfstKCVGbsaKN+uErJp1IwfCHo8qJE0cnLRxirL+mhLuTLsM821iqQcCQTlGhMK0SkXjn38Qzy5jfZpJLSl/1EVprISzdFlYR8dUHHgZnA6IxVi/1TyBVRqLkd6Rgg7rq/sFHYe5kDqtAYsh1c66BOAIy10RSS/CFtmdRd9cKRyrqSSL+AzN2HVtbD5lhKs86sWxfKb8Lvv5lx+krLniYM3LlU9UG8ySnltQAeXNRZ2LpHp5orgcVKqF31Oh1JZVIoVO6/XAKTvVFBcnUgSpr5u0aMa/uuqYzIRM8m+IKyB6zm8AoZu57EllknEtAFyoL+qctUhcs1hSFrgfe6FmaREfCWJzyXrQ5iYnAjW//KeLHwSz0/hVS2e1Vg+RuJ9x4G8Y3dGY2+LAEGe5xuUav+knbXCnme1Rwfa5UZhFUyO/bmdPThfQN/B+jK0IY8393azJkaiPLC6YjbbvOl3Z+wELUqjOK+nHy74CO1tgy6pl7odnzV5QVPbsyllUD2nyC//YtOY+q+ReViR2tjdDsQ1Xvy9XfYyoIs4UxTPRjc8XbG1s/slA2hajSaA4gihO1rZv5PB0XXFNhRtMncNNbF9a9FwDncJirxqgXvqmjqbMkxFTZ0E1fdd7XDHIyvEPUSAkZ0A4SXGU+P7+N0RXYc0vm44F/KCvjkmH8Mby7OrqzgyqOkwQu4wzLPrsHMYlX7c991c72bdO6j6Q7cggTYWFt7JE7hZ19B1mmPCyKg6rMsjuPFK7oObcBSL/6im5CYObP/sh3ujmY/Gz7nlPVb2+czjOb5gPStJzoamiwJBHjc+dxZ8M4DKJirxGlzZljyCiw+15Gxf5q1t+QUzfn9S/Q9dgkpfJb2sPdcKCEguyhN2PP0I57bU8rzooVxyRx7QbdRaVdaDnxreoAoSjj9K7SJXM/laynFNKC0LtUdanKreDt6RpYrQeKDOkscwi64jM32uEwyG2DIB3FKfMmvOoYQTcaxrdeU4wEVZMMeh50TsizK5vfdwi0CyH9y7reqe+EeUDlUjx5iWLwxNfqdjX1ni5t2fzg3D2KvZQG5wgAcU/3IXbJTh79HsWnU8jJCxquAyB3Iw3Fg1Ut9QioSyFmyjNEqujJcui/hcXvb+z5SeurC0D14QUPSM5ZaE0MvyY1bkRGCwo9swSN/McZiEdSP/EiF8VXCbK5pAyrKYIwnK5TFwEly9VgChNZvuo4+0LnignPb4o2CX+lIDBB6cV5skbr2JKx2epmvY20e9HHWCuB1c8DIaMfcBVAvp71hPNKt/drP2OokXh/pL6ow2L2X/XX4VILaQWskqlVmROl9f8dSv5MS9fxcs4aA7DlX417MfYyV+WcSg+TqUos9wRYs7k231Y8gJEx7LF+t6o48w/7p4YiTT5u59WDyP5rRcX1e/sfjaDPDqU5klQHaJrZFeMJNIMzMuxPmlxcVU/6/eYGIE7Ubo5PZVrHoC5OTFiNEEi+FNJguqWFSVFReUPuGu6+hvfUai22SAFa2Qo58AXhFU5/MbX61JmsFyNRa/7zPLk1fh6Wa7Ggo9G4a2X2DowAts3eECmWnvhVnv2Wj0lf/vjttt2i8BepHekn6KclRxBFcc75wE0hZgGEPKh8sT3E5PxYRdkzIsmPoBD8U4H4e3rQLqPRQr2hfw2gF3HG3fsq4I7oIsIiEsMpJUekh0vzt13VqlsDa41ig4/V/A7tcHJx/WH65VUFOgIIJEtk0BxNUM940hrkaRok7Z2wFZWoihSej71wBkmuZjbR22WWrFQwq7dzooqkG2D3ihkAKYT5WKgkz6T44ChMDhtMBxn62VyCX9Iwxty1vbLfSKqNNxjZVZ1W+sqvgjQzB/q/dGsq1W5Tig5NCJY7oXXh/lF1zASEgnmIXnnPOa7kYP6HN6BcGSQt8+EiKZ3M8mw+WH/odbqLrLFyiE/605Cwxzs7N67cW71Mlv9oQBYR8MhzeGyFZG4MpnPe0hCvVFSO6GGuqmG8WREZSeHkFxevCy1qd34prZ9PmcxiqiPwPrKt0m0aUFWPb35jQRK/pXlnSUZiyX8gzPgnQ/4RRqLRJgn13dYYIsTWEaJz+BYZEjS8Ia5a5espoafy9IaoG/rdltLsr4A0KYiPXg5mfxkOxi2CunLSh8e3n/w8EUCKTNxbxxIF7ZaYJx6+TCMW3AK9VExXFTIn23Gz4kQyaIkmCOCX1CgTPJ3NT8L4k9yiOrXYPTnj63eVvVKYDlSS7YUVHldcLDh9cZgI+KcGZyDxo2hIFV7HgifNMIsK6m2Qs/6pbNPWfNeeR2Qo2T/g+JPuxmzD4GYAUqprV4keGeU2W/jV+AZPYKNDGByDWAGbgHWN5ASY1cI18D1VaDhgnoVGy0s1t2zZruUV8G2v/o0wlYeIou+89aXadHJTn3NdOmRdy1NPmou+4pN+7wLVxzjWH7ASfhQDGffx4eu4RTqjFjWabJmAWIWRu/xim1yz40BQ4bRkAFukqh/JqV8/+YEVFLl0H/51dz5ntAlcdyEjgU9Td0BR1rv326EdK1+hMshA35kZ3uqjYCRcCElMniyOe+JhuWJmQXofrLOpqz4xsp20nExQGfbmc2merDB7pNTNRRqs6p++Xb9OucLLL/B4lhgWTBwsDWNsT62NAT0Neu7GvYVt+4rX5NjuO/PwfQU5Td9Tx2WdL2Nvv/bApr1HWyn2uOxB4TuTyogvPdMFNqO1w3HWGKa7SDggN4utgKZ9ZnQQFZju2RAB7jz+YJD2KewhVN6ZOenxGhf4H/3YvDgFti2/2WIp1TUbIyhqR6lmAbfXllwrNHTeFodGlXmc2EkOkMtUJI1qy9OhkYhwybNWgRVLXIOKH5OaIsC1L4NDNgzG0znKMqHajF8FZwKvBPHi/SkHSWumiB2zOQb/wVbFsEwtQkaBGpsrXL4Mrvy0CgNC20IEhuWuuywEO5cBvFDLIGGHIwn2TJs9TYwuy2gTUjftY5G5EUVDwQqXgIL4cOI2UJIt4VLKnY52fXEgNlRaAZYwuDI5/s7sNsBSAO9J29gskORHvOlxPZq2PPw+Agk9p7YmiBrXZyDdUYLgU2lFQBXqt8mKVJBiMtdbjMUr5T2H+9GlK9tsFHq3vT/tgIcP31JdYliL4eGg/I803MbPDxKh+/VYEsuJFRWN3HFoXcG+Dp470yMosxDGOfwA4BdDpbmZ7m6GFunTmma2vjm+eNLHq1k3Szxk4AUtqsE28ya6r9HwfQwq4LfxvLMW34H27BWYGwF7RA/JaausnA2YooOfMxyHVQSwCjL4VoEiIUhw4GHqBxugXl/YZNQ1AD6vhGF/MRQpjkD6RbNukxrfMYueWzbCSgl+Gc/SK05Wtf3PmRwZDjXs2N/A1xTVCRkc/AeMVQsFIS7zbKHVMlMe5yRxYL3Ok4HiBNk6ltniY3lJUEkphIlIUk5P/iLgV/8y5hTX/M9WWAjM/VOXII9C3nLezhF0+v3MbZ+lv41Q294zbbh/D8NgHZc31nyKRZtkwNgKmWPqe3EDzBmgQ232rl760CzRY0+iJ9hK+44EY2dzc1ddOFy3XxgtYkH72VrrOnVx1R+3ldxVx84e6H0T3gJjduzWJ7BPZOnTG3OmOxfYb2m716EY2+OTe6b0Yb4Yz8Z+3YO/8xrIHcc3OVna6caZ66YZ5tFNMVl9Tx5NDDLdvZ0wJOTlrSQGNKUutNN80hLoTjO9iQUjaDQMDNhWMx66R7LgO5u6KJXwuGwwNbwvtXBr8lmVe10PWfgpOQW168zCpZrEEI83IUFlVf6HzMvWMcWXZPDDKE7t8Onsr4A2wHmPSwyJLe8tdWtA339CstdmQS2c6tJMtjXPlNapw7P7jIFnVHcFdajuF5qHjhMr54AtWj4V3y2BpY9y1OzI4CZXU/2SkMiOQQ/Oo6pI1L0VYhhDTsEOCbjMzshV4JdOTyUwDKoJ5F6GXJItFMmNtIS3SLx8qhR8rgk8NtvqACEsEADxwVZev/RZPE0Ubkmb/3BTmqBoOEQfc2/YlUDqkMoV1id0NsD5C5MCZqOEJ2FVjy1I06N/znbdn2N0Aa9otXMcGI7eCSZ6uBuLctxu0Cb9e2zxlS2unGsHrhmg32ZJz+3q+ZbFFMLRfk3vOUelgOjX8AK/JESvKsRHF6gSqO/hZ1QtNPvmUo/I/lrWF/NVnBaBVYoYJvwcLyq6xNKThc+4Pvex8UA3kIqB3lvJtUbvICiKmE9y2qaceJXne0yb2/HERr+2CB9YyrcDTd66fQjUFVDNm+cvXdfT4yDcRVcc1gHhJvavo/tQGO5C7P+AkodFh5m6grEwvLRfXG89hXeYTpcsbzXvXgL3PkETPSA+QvtJHG7OjpVZ6hUBnr/mR1NjZULPLMvRnuoRSALs8quGMyj2uNf8MEQbHBC81UgjbqGJcCWz+sW/fw5ZtQs/6synUvjMSuwlSPwMZvXW2J4tlevVUeZLpSoFctwvD9Psi9s3rV3664xMZ83pEMkyHK4ogb9B8fot5HK6SdTZ3tzjcHg4nsS8p+lnmkeczDpwK5BvwdgQZho0BuDklw4fQEvcMLqZTlCpv9Ua5ZnPsuRWDKXS3TOaCt18/qiO6RMw8Yo7tLdtXlbq2qfvBgPxuJ4nMZUPXjeYv6d97FrDoR76cRjujXi4e2XccTKTy4DePfdxHCYrZSixst2m4iy9SNdV3VOd/JealmzwaeBVMTWatAY0nd8Bcov3VTmhVQ7GUT9GpDjw+78N7zP8gbOWPX8mJcDIQ2UGsZO4lKe9WLrPoAeHyvO7G5JNGp4uYlv/g32Iv6lKK54kP/W63heLlubnj2PzaTugH/rAycXLz57Y19PadKSpmVM01Y/qembvlvb9OQcgB7qtYeBaVLXvWwfDEqFa39YoUQOEpktViU2THmZ2uaP3sb0r3ofEFCescRw4V1QRqOJEugP0/sB4iIoX8isWI7mSFlO8SsbDGYRzMK5tlfpCQMDsOnpDf0fWX2tYRHqyp/lVQVfaeTtMltPSE5jpQGDl8k4tpsHDFZuhKWvQB+dMX/C1opJHCQ1nM3IDZeVr5UH672uPNG10Jzeru+bekpPT04PNpNj+vZUSvbs2ril5uj+i6PjlDpUYTymplg+GSdOXPnjvbu28RF9/RZayCvEuK0mQRmc1Z57cPYw73Di8hl6/Aas22bONramgVpxQ2vOigeceo5QYBlhjYoFWFL4xDmlymuCiTHBPbvI7SxIThT7ju13zwl619F38R2tGGQ+X8SKD8s+cG9MTWpsNU3DD2DtK0DPpQ6Dl54rky+eicufOGgwI7brCOsBV9kvDHDdeqVKnjZk9DF9QBtmuzO6dz89b2JstXK9PamIBlE5ePx0V6An0c92Relpxcoa9uDxnWPUbWZTOdWCt/wJeL3M+1HuBhvFF3sX8r4g1FTDqqUVSx9AbM9A7sYvrbAOAXvPmVftJtQ/IIsuL1MXJtkAc5d87wf9IdX3y6P2bH9+CVt/6TvKrJvts/v4mGEmCOVsPWzpfNgfhnIqPOgZB1m1Ba7vh9SNoFmZYmPSolnfXVqd2vll+sZ0WjS1hYmRMnNqrTl1w7ta96kTlTQGoz49280ThXk26tYOVjO5b+zgiwHvmsODVdcMa/gl+prsSCv/RC1OWL3ALTh9HDJECY2e3bA8vOSB0v4Rg4RYTlhNm0uiAaorzKnJZNztu1jbPIgaW5qcVGsrztLfsHUS9HZS6zZwqecaE3IYU5+KTvMyh70e/gx1m0O86MAK8BJgRZlnz9D3HuESbO9/rZttx8aykgWs4fxW+kX/6zF9QN9h7h9av6u60qrAskUHCPR6xLxj/k4q+AqHsBJh+6nJVwHewTu+AnYvjrA18NhbxNupchiEg0fHPOvWN5GuhDV7wFZm1Fif3CVgq7p3ngAycnLpEkrQc+A6UJTJiIwySeQTZd/Rp1ujy4HeAansvAY5adJ+OZAd7iyTttf4GqnuLi/hva8xou+oYatiBQ3vcUD/pPZ4B9uX8VcGukT7cur6DOlzgbQfeRcFWvuKskJLHqkGc/20gTOdQHP24+fyQ0pJyFbU2tL87gvFoAXkqLMvUOd5QI8JOd7rwF4Hey3SN0haU8LWju/+GcA1tpvUI43vhN53kfvLMtlmDgKrE8YVC8c0mhId6o/AbDNb1rdk9ab613aQEcH+jSWt7+0m97P1+IMIXKri13t2e+/dV9tyFNL8wx9AdQD/wMSvLMfSi7yvESItYKd2/XXGEwrrt4Pa2p6f+nu+LfDl61bUBxzP1oRTpG/2tbwlR0Obntr3X+ygVPbXO2r/ZvctwDMdGOtj4t1X24ysYq0EBm0Fa39UW/fChme+Q9bvrrMTHEE89fX0bFSxeR/kxXxoOAobd+GMEAw5WSqVcuKb70cBohlyYgCtyzRBiklAJiGmyE5KNiIxaPLEhGjm7OcuVCkKodKi/6N+Yk2gUWUALC4CA4Looo9NHpcaCGlOcrmTfWwMXtHwK89AyX24Yh0veWlkzx9/B1MtSNjKbz7UD9kzYM0TFb4BtL/mdfDsp1+ldxg5pHUTE0vNqb8f5e//8NVbhefWgF69q/7krt8vLSPcnBxwWDhySRByiBpKK5b7D0kux+aVB0XTUzXVuJyeag2/FChL4PAhOB+CnHw9f4YgdheV0vpj1oXVmQPZflNxDkomgpednEi/dujkvCaorn1jJdypurM8ognqGpsOvbDL0upPeJsekujsofcD9SLhoXgThOuG72Wr6WM0RrXghAkyOGi8xnf9Df72TN67BjY9p+/FUMNTD1yyjH/u2RXALTtwfOOA9BOWmCaqMIMMa8hsbvi925Pu2FfVFYcdXmnagP7+vqr1s6XZxb+17QpR8rfVP+uRV6z/D7sLha7EOKtfLHBF2/2clGlCNY3wjHttc8df5q/LKl/HfnfJ1wrH2rCVxmMc69kYuIYXAZzvhcz7WN8mte4BJ0sBXvr48GOotygno13LPR04SiOP3pnrrOBgm0iA0B9sgAlolNliRTX7W4LvcKFEPN5SKsgO+Y6G6jqNi9jC26EYZFhYjzOchdifQTawesrJOD72NzBPwxXb+PJnbly5Ftp+rvkSeTSF/TyRitQAEQt7qZr8fdFK1T/XXwzT+B4tWf1Zb+OrP6964rt/oGP6vwJ67n3Scw1yqfrmptWPTIFJAKnyoVFlxfrffXGEkGybNAgwBMjFdtYSq5TiggungHV4BiMROFQLLbr99s6E8at8ytfweIz1oxo5flxjtRhyH/0YPqRi1wzwzPevKNuygsZmL/dVtfW6RE84egiukySolKOrXtvhRKwX3zqDRZVrls9Kz6Za2NMeCvcu6jTGwA984iM8ns/6tVMW8SSMEzPBFafXxoMFdwlQUY2/Y+Lz1zAAGlpLutqGE9JqasuDcWJM8yTixoeQwqrsrPn1340mX3cMsd2dJj46Z75vyQsnj5BfyQT+8AKA/wrox0qXBFpf2N+INq2eesYJ8ntiAdsw4j+MgMJWYFO1kBCkodFACgguUfzJO03Oqz0HYfZbbT3We8EVZpkmiINrJh4Ig8sBsTjA11i9zjmTGjK4OAwhsNwFTbV4zZJuBIEwIa6Zyynvz6JK/c4kcGL/B+ekTMmqhfX9SYk1O6/jw74V2cMTI5bTbSGKu/UjtqYmM5/SEIYZMA54voVl950xSPRj51/wvUEWi6/8UQXiPFRcHjrR5E8rpXQXU9VME/vZLUStQSETY6r53wO94+dVvdxcGjAWosDzR5Rw9OwQ58lIE/eU/EGc/xBH7/7xj+DnVXO21VuI2vyzx1irI9L/9x/GmVb5fpP4nkwovsRUYOHkRDwApuLCYqjYtKuNbGO/XGVha7MgzHJ782dAb5y3hvC4haXwLzXy80vwJZV/5+ssUxGJ4I5fHAQbO1NG4ylYyMMwnuiqBy4n0k/FWCfy8c7sHOjtJPmgtvBVmtErjx1Zx9PYspwiy/GhEF6ezZ+O40XXWG0lO8b3ctj5Z/ywzPZEfe6FrYZ0qpQlBSmXhFkPmch5WXaZJGISJtd+IdETiURmOz/j6CNnzl0MonGE5oP8liokRsmQbdkjXOCnP/5ce7T9YWe4+7ubxJ9XVUfFoieP+ONgjLcP2AooUw9oMPo3n7HYLEms8ut9nnHVwqk7srYfClKq2doUtRZ92FC782fJsYaXzjSdOF9nYTVmGACej+GBuyDlLrbiKmUORRkSHdhn0nful3lpEaxxs0Xbcgnvo1F1K8tgIOi0s6XkUO7FNVc71z4Hhkxe34wzEcnkYRC8C8FKkeXwuBFej7Oq6/BXwaJAaIbeIKjib3vYbgWTv//ybkh45WhzRm5R7wcBeuXG0RcH0vbfz/y5ISOuGNikmBpl+6p6h8VBlWSK5D0FMk0SsgkpSuCnhz/vTnifS3VQpm/76xd60VyjVJShBIY4RNQJl2Cm0O8oIUu+wfzA7sdXNG6rJyagtv9tUzWys52KQ8rFIZKoOzpsn7fSnLryR3/RVOA8uLuhAvrYmhHBAegqjP+GT6Eo/EYXedm8VAC1l/h/Rntd3fBiC+tMLLHRiKQenFgdheSDs90PvOGr2mOXD8NMOBWw9QUyQgpkoIXUNzjTqEzeh2bA1LxhXEdJgM8WcOwq26FqHBjK7gXbQauMDG0+cPRpSFsHl5sRB8uzKqU5qfuP115CxSmi6DQR933uGygfoSizFQiiOK5CpihO7tm0MesW0k6fV95tKFm2uzXAYlNRondynPXrEycXONTYR/86iXXHnhVzvnvk256THnuQfisU5F9c8/7ZX+E+2Xn8ZM2aB+aa0zfbbd1Wjh+4C7vuYpVQp4X11lviQE2bFcOuYYiyfVVcCgwglGPyxFSxkZNItPDFoa3998OK1e9S7ZH/vV3nng2H+3y96GkkShlZcCnOIkkCimBne1Vb7sIDM9h+uiGWVGG9+xl3wZAJcjhccbDuIL1WsXBXzd7QaIkzTZllayyy+duDIHSMLRfrT8t1wB2s/YcpFUF5+fxl4kJCwkQy4zBo0jsCuYlZXOyJH97C2qzPC/SS0rzAQPfRKPOvlL9Y76HSPkuqvOzndx5FMAZL1rOzZt8rVl+aldEyFCP+HQ9C+2BKlx+/sPH83uq6pva1jlxH+P3GXl0vD7DL5Ye4HBjuZATyG/4SwY/OpuEytnp4Qv1RnMRMiJ4rA+QhUJI0KpR5qm4MWroh3T47/P5b9HRpKmjtIShy6Ul+UALpttQF2WN9JlvKaDQEPFV1l2awFWOOXH6WmlOxLjsSL3yyoWlcaXPacjM4dfXoQelh2HsUNhfxB5ph88asvqPoJsp0VAWQC4kDAuuO0I9sNpfabg3lWwAadAKhhFS2raqX/UZK+8Y/O93UzpcWUb1Rt7Pb0fzzKsrmtVuX7HiNNLZAhlRiR/t2ns14cdk4iSSQxFtNdcOXYZizbSnYLqVL7Z80Xeiri3V2WrKZDsm4C7/85EF7ljfim3fIjy1cALGCemNKtHMW4jcvAvljaAMMe/eK0CWLy90zcDEHkvSSHIXhtsqEdW2G6EBpwyPRMSRC3V/tlCOw6/R+IvekaLgk11bkeXTFIxXnPpk41FDn12bNl0RHfMeyhxOV1bjs09TN6xLtPkAaPnA0e8Mix82vTCco0/s6Q0z2/JHRiY23jvKtAT05avdsoli3CKjtUnav3LPBw+94b3Zmbm5VIDEZ+VOyrkJQ3dy+7Z2cEuQ/G8VIy3MonWiRbZk2fmAU2tpfb0tbZJ1Z/MLGzcIaopLmdE5yz1sJ+o7d/ZCzIccvy/uohiyQsPlrqcLo2NsDqQB42TDYhw9HgHfPrPRdBXkmeBHL0pWX58nB+sggtAdYJVDVsCHd40531xaviYypYpIoBtT5SaTscEPoAxkEqM45LWt+Jcg6np5axjf/05h3Hb8zmuP0bDz5W3vaVf28bLkp9HrAafRsuNmpvZyivOvL2veOYr1jV9WJUeHlZaFDAWLM/QFoiRxOnbP+1ew0pfZvdm9av8Kb795VI52OyuyXNgC2LBogMF6r4D0Ps5T0qlfqiBJ6us1Zsqh493d3R0YietSHJnU/VQ6sfEVsRIkS5TEFWtc8sNEHZ+bAKeTihQGscmx3aeBmS4u3yANyhITtnH+Oi+Wy6dsrqAEiYYIgmGA8d7DT19YeOB+FTbZw8fz6tnewvYRtAlv9Dn5G4qmO7iPw5PEVHf9U+9vfcfW2qlJbqHyhnwZcjdHmIVtBDjeRazPsfvx2UL5NoOnYTe/qa/U7/VssacYUYqB8vUA8PSwEu4Ipc570XPnZY+5Z7to9zGsX/fBIQiH0GzfJObOkoRFbynHf4GpbTlPc7ww4hy9VlD7ZNB4NlRRtpMyjjCntSacQLcmXwmJqscEZYJ06ND5Ea+x2OV16L6klkI0XtByf7F+5dLnBudSdPuFmu4jMAm5V/8VKX2sooA1VXFR8cZlGccOaZOXkUDRs5GZJXkQjV+XB1OONCTHLuKXc+PgrY73E23GqefJLvftB/9PVNUZAMVUYFwQa1PuSWeULg40nYL7Sf/LwF/r55dvP3lGKoFyR/9K5cVXZOf90INiTWzA7HB2PaerMJ49c/dlUKuDt7+TXvNu/o3m3S5OLbfvSo+N9QRCz/KGWnHVzey8H4KWCOrWE/15N9XDzi72Q4czauDcsr/Y6CCeWZzWRFLMZFU32USTZb69M1rD9ooZVIqVTIrgTJsbmXPlEIBzI1795Jn4ZVPKtBuKM1hbb6tpg7QapHnmh8kTdscbtB9eB0gH7Zbw8K+Xy8ZQheOjZZWU3v9GPjtZvNJ2WxOC3WxZnos3Hglt2wOZdcg5VUNsf/EJd6PDF06Qdzyyhs0xWHl62FA5UB602SKiKSxDK/iKfgPPkP9aane4nnO6lC/prLkjVLdB0Inw+DHtK6s9c6mwjvAPB3gAfbsFbPH5vPjx21NUbRy/PDR/y9VrVxrUEENpmtTmohgM5TMNCkXMiG8hBCI+Co6EJ+iHMFu4jB/Rd1GYtGO1DVNGl+ZGC9qwLjWh8W2O9whnlxjFB4MdHIfKrHCnTPxDLO93ipG86sk5yP8RiLup1QmyhVQFFGdmNu+H9V5rFWNbqQ9G99P69/KCUt/72NzSeHqDpoA5k9ZM7+o6XOLIgrIzT+1/CnZEK/IFgZ9p3S12EdPzDJir+d9/nLkvK59uoFIRF1StcXEtsNFq6LFVqGQtTn5bPCoIZEBsixJ5eT1rwsvl8+yhWRjs9FK/mlMIHFzX5O8PIaZV7u0j2N0XSRs45kr0bsoLUB4qID4/WSQWpUnSMMvWD1WHfAARacOmfp6qXxtbk8Pu68QAnPd2+bpwoYAWjKDb/7LOgzgr7Zwk9J+R9MrdCgnqPHQSOwKgyz0a+9bDH/tUvijJMV+L/5M+Y4qB2cYnI802wbGG9Xco6c6nnITjTC4Wrd9UDUej92FXqddwBVZcgg4T9aKfRBGdONs1aEXI0dY6A8dSvjPQvj4jyCJcT6+p0PwyHgnyxoHOFadybWd8W4MtKepEWhMbxlQvHUcQotwfbC4wFwrdquw9vWMa3K2MFEp8cwfO5+sClnK3r+Jpkzun34GgwASaW+BnXlARbMyAV2qBo15uJ4GWSlruce0uQxguA75PbqmXHywtzDjRkOKXib6KJR3Z9IV7+7TF9FRZdjXz/x2+2Bi6f7ciBEEFpeUDq0ChAsG3IVlb03SM0QisRiEtTBlChUUDR97tbZjp6LxcOxrLfqSZwrS5x79NIbjsQ7bTMXtsfqYfRHBqvKPI5i5g1AkFWEwFEdUJYjRKRXypmfqslewucPxDoYrsNZGZJ2qCsZaLMIBLxm6MlrUedQwQSuWxWDcQpM0CCE42acl6WW2RIQWSLdHq/DBel0lddvao2Xgz1oe693zu+zmmTtmfJeeunDWWYXqDp+OkPH3n1tcRbAY/1GnFw+y+Ort+4qLdJplj/JGEqsQieNzVPQlPYmu/LZ1LvLU6wVbFgtFrZziZou4tDrxNHBjoImtwczTl/lWyAIcmbVV1jWZ/FfjPO52MVbiTwIwpVwcEMMk7AhTgYTstrPu7s48Z74/M+Gi7xzmRb1gxxjoTNY4yzHRCMoieh6nuO6T/OkuAsCGLSQkDBxlhUVAazZTLYJLsyRLHYpj7x+DT/PCdMO9B0PPH4Y5PkN/NJ9EiWqiR7C7mM0qL3TrY7c+H1RDDDaFuXoFG1hWWTjWpbismBTNKARjIFYSCusi6ueFMGjcG4dY89ZH26fdjZLmdInsrmBMQ721R8rI2taf3RZUhY84ip5MwlApx1gcncKKGhIL1JYJsJftaMI7E1hnGi7yHWNqA46DOJNJEyL6SJLN4btZzt2PLiuv3fPoF2dpcaucJ5JlhfgmYXf65tIW51TD/QNwdVeJSdh66uW+cRmtovUT0gZo2/XJL40fGtJba816HTxRUPeMoGFUXfPQL1XO7OuxcNIGkgPKxycPIfP3NW/U3nfB86pahfBiikMi6IT3/E//Be44oflRvumcqxFT35An9teGhmYeLGdxoLK7MLC8YBzZePDnGzMjR5SJETtgKjomQANXPUKJNYPPt+kZIKKbShP1iO+iLjjwg0HZOV3NIfvonEnUNxQtrbzrSDJV5H0MB8+geTPPReRcbXt1Mr9qti6v1FLDKkuDtyPwrLaetf/ZGEJuNdd/ESEALue+qTQ6yXLjnEk5/g2Q8vuIly/l/sGLgaNlodbJYIQkJVjZw19evi+GgyA8mzJHiv7cTy3J6/l9caCcuIgd5z5qRnQ998Kj82mX38o44/LtCT48yPWcmRRu0XudKEGlhoWjtXPB9GebmOxqFonnO0cVbakB92ZlK+VpRMZBkksdkOaVz0NMlXblq1+x4p+WuY2pCa8bL/t09hTPMYOYkyrzHNnBidoOotMbkLJFI35rQp2sA3HAlx0WyXXO9Xi6kq79gz/Sz8X48vA+jJsVu3zarD9U0BqbHFkW2Dy++Hh2yl69Arb7Ef3iCUQzI5y7jGMuvjRKV4gTgVjyUnRuQuReByBHASrRcBFCxaEtEkaSximGq9UBNpEuXfBBU5WmzqSLmYGIlMRBv0CVln/qUEbM77BdEx3Q2Mn2d8eUBPjk3rV2xiWYWeU2/3h00FKUryDGQnNIcLoQFgSiCB0DiYExq40j5bv+A7eSV/cYH5njUwoRqA/XjFiv9HI29QhiJ2HWg/koz03lCLpviKYiarZ1uotqG8/IJS6orOooptVoG4+/HPtan2H2N82UBPjsVfnU3/u/GvRyirnB5FLhIjaWzPXRJX2Oq2uOo0Tb3Cnm9HEEleTzdwLLlhuI4mxtSOzgY7+zksNu4HJYTE8XgyhbM4OQghwUXNPq4szLI+axtesf4Werf+SOO/B+jfGZRVfhuJHa/V98lKRppoZbuCsOGe5YYx1D+iTlz0pX/N0x8M2E2Q/5UCc/pUy5aDk4c0iUaVwxoqFKFUEAsy/1hC7fbG/wigf2fs/r3xAqWIX/e7l6w0342IIT050GB2ftZT+9MfT96paUhK/JHG/0Sg/7NB7Xrio3NJgzsZ8bm/svS/+3JubfxvApoO833MZmc/9EeXvdM+/pcB/b93/B/QX9L4P6C/pPH/ASh2fZlWJeRzAAAAAElFTkSuQmCC" name="Object1" align="left" hspace="12" width="67" height="64"/>
+<br/>
+
+</p>
+<p align="center"><br/>
+
+</p>
+<p align="center"><br/>
+
+</p>
+<p align="center"><br/>
+
+</p>
+<p align="center"><br/>
+
+</p>
+<p align="center"><font size="2" style="font-size: 10pt"><b>CÂMARA
+DOS DEPUTADOS</b></font></p>
+<p align="center"><font size="2" style="font-size: 10pt">Centro de
+Documentação e Informação</font></p>
+<p align="justify"><br/>
+
+</p>
+<p align="center"><font size="4" style="font-size: 14pt"><b>LEI Nº
+12.232, DE 29 DE ABRIL DE 2010</b></font></p>
+<p align="justify"><br/>
+
+</p>
+<p align="justify"><br/>
+
+</p>
+<p align="justify" style="margin-left: 8cm"><font size="3" style="font-size: 12pt">Dispõe
+sobre as normas gerais para licitação e contratação pela
+administração pública de serviços de publicidade prestados por
+intermédio de agências de propaganda e dá outras providências.</font></p>
+<p align="justify"><br/>
+
+</p>
+<p align="justify"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt"><b>O
+PRESIDENTE DA REPÚBLICA</b></font></p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Faço
+saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei: </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="center"><font size="3" style="font-size: 12pt">CAPÍTULO I</font></p>
+<p align="center"><font size="3" style="font-size: 12pt">DISPOSIÇÕES
+GERAIS</font></p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+1º Esta Lei estabelece normas gerais sobre licitações e
+contratações pela administração pública de serviços de
+publicidade prestados necessariamente por intermédio de agências de
+propaganda, no âmbito da União, dos Estados, do Distrito Federal e
+dos Municípios. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">§
+1º Subordinam-se ao disposto nesta Lei os órgãos do Poder
+Executivo, Legislativo e Judiciário, as pessoas da administração
+indireta e todas as entidades controladas direta ou indiretamente
+pelos entes referidos no </font><font size="3" style="font-size: 12pt"><i>caput</i></font><font size="3" style="font-size: 12pt">
+deste artigo. </font></font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+2º As Leis nºs 4.680, de 18 de junho de 1965, e 8.666, de 21 de
+junho de 1993, serão aplicadas aos procedimentos licitatórios e aos
+contratos regidos por esta Lei, de forma complementar. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+2º Para fins desta Lei, considera-se serviços de publicidade o
+conjunto de atividades realizadas integradamente que tenham por
+objetivo o estudo, o planejamento, a conceituação, a concepção, a
+criação, a execução interna, a intermediação e a supervisão da
+execução externa e a distribuição de publicidade aos veículos e
+demais meios de divulgação, com o objetivo de promover a venda de
+bens ou serviços de qualquer natureza, difundir ideias ou informar o
+público em geral. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+1º Nas contratações de serviços de publicidade, poderão ser
+incluídos como atividades complementares os serviços especializados
+pertinentes: </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">I
+- ao planejamento e à execução de pesquisas e de outros
+instrumentos de avaliação e de geração de conhecimento sobre o
+mercado, o público-alvo, os meios de divulgação nos quais serão
+difundidas as peças e ações publicitárias ou sobre os resultados
+das campanhas realizadas, respeitado o disposto no art. 3º desta
+Lei; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">II
+- à produção e à execução técnica das peças e projetos
+publicitários criados; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">III
+- à criação e ao desenvolvimento de formas inovadoras de
+comunicação publicitária, em consonância com novas tecnologias,
+visando à expansão dos efeitos das mensagens e das ações
+publicitárias. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">§
+2º Os contratos de serviços de publicidade terão por objeto
+somente as atividades previstas no </font><font size="3" style="font-size: 12pt"><i>caput</i></font><font size="3" style="font-size: 12pt">
+e no § 1º deste artigo, vedada a inclusão de quaisquer outras
+atividades, em especial as de assessoria de imprensa, comunicação e
+relações públicas ou as que tenham por finalidade a realização
+de eventos festivos de qualquer natureza, as quais serão contratadas
+por meio de procedimentos licitatórios próprios, respeitado o
+disposto na legislação em vigor. </font></font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+3º Na contratação dos serviços de publicidade, faculta-se a
+adjudicação do objeto da licitação a mais de uma agência de
+propaganda, sem a segregação em itens ou contas publicitárias,
+mediante justificativa no processo de licitação. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+4º Para a execução das ações de comunicação publicitária
+realizadas no âmbito dos contratos decorrentes das licitações
+previstas no § 3º deste artigo, o órgão ou a entidade deverá,
+obrigatoriamente, instituir procedimento de seleção interna entre
+as contratadas, cuja metodologia será aprovada pela administração
+e publicada na imprensa oficial. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+3º As pesquisas e avaliações previstas no inciso I do § 1º do
+art. 2º desta Lei terão a finalidade específica de aferir o
+desenvolvimento estratégico, a criação e a veiculação e de
+possibilitar a mensuração dos resultados das campanhas
+publicitárias realizadas em decorrência da execução do contrato. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Parágrafo
+único. É vedada a inclusão nas pesquisas e avaliações de matéria
+estranha ou que não guarde pertinência temática com a ação
+publicitária ou com o objeto do contrato de prestação de serviços
+de publicidade. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+4º Os serviços de publicidade previstos nesta Lei serão
+contratados em agências de propaganda cujas atividades sejam
+disciplinadas pela Lei nº 4.680, de 18 de junho de 1965, e que
+tenham obtido certificado de qualificação técnica de
+funcionamento. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">§
+1º O certificado de qualificação técnica de funcionamento
+previsto no </font><font size="3" style="font-size: 12pt"><i>caput</i></font><font size="3" style="font-size: 12pt">
+deste artigo poderá ser obtido perante o Conselho Executivo das
+Normas-Padrão - CENP, entidade sem fins lucrativos, integrado e
+gerido por entidades nacionais que representam veículos, anunciantes
+e agências, ou por entidade equivalente, legalmente reconhecida como
+fiscalizadora e certificadora das condições técnicas de agências
+de propaganda. </font></font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+2º A agência contratada nos termos desta Lei só poderá reservar e
+comprar espaço ou tempo publicitário de veículos de divulgação,
+por conta e por ordem dos seus clientes, se previamente os
+identificar e tiver sido por eles expressamente autorizada. </font>
+</p>
+<p align="justify"><br/>
+
+</p>
+<p align="center"><font size="3" style="font-size: 12pt">CAPÍTULO II</font></p>
+<p align="center"><font size="3" style="font-size: 12pt">DOS
+PROCEDIMENTOS LICITATÓRIOS</font></p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+5º As licitações previstas nesta Lei serão processadas pelos
+órgãos e entidades responsáveis pela contratação, respeitadas as
+modalidades definidas no art. 22 da Lei nº 8.666, de 21 de junho de
+1993, adotando-se como obrigatórios os tipos &quot;melhor técnica&quot;
+ou &quot;técnica e preço&quot;. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+6º A elaboração do instrumento convocatório das licitações
+previstas nesta Lei obedecerá às exigências do art. 40 da Lei nº
+8.666, de 21 de junho de 1993, com exceção das previstas nos
+incisos I e II do seu § 2º, e às seguintes: </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">I
+- os documentos de habilitação serão apresentados apenas pelos
+licitantes classificados no julgamento final das propostas, nos
+termos do inciso XI do art. 11 desta Lei;</font></p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">II
+- as informações suficientes para que os interessados elaborem
+propostas serão estabelecidas em um </font><font size="3" style="font-size: 12pt"><i>briefing</i></font><font size="3" style="font-size: 12pt">,
+de forma precisa, clara e objetiva; </font></font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">III
+- a proposta técnica será composta de um plano de comunicação
+publicitária, pertinente às informações expressas no </font><font size="3" style="font-size: 12pt"><i>briefing</i></font><font size="3" style="font-size: 12pt">,
+e de um conjunto de informações referentes ao proponente; </font></font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">IV
+- o plano de comunicação publicitária previsto no inciso III deste
+artigo será apresentado em 2 (duas) vias, uma sem a identificação
+de sua autoria e outra com a identificação; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">V
+- a proposta de preço conterá quesitos representativos das formas
+de remuneração vigentes no mercado publicitário; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">VI
+- o julgamento das propostas técnicas e de preços e o julgamento
+final do certame serão realizados exclusivamente com base nos
+critérios especificados no instrumento convocatório; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">VII
+- a subcomissão técnica prevista no § 1º do art. 10 desta Lei
+reavaliará a pontuação atribuída a um quesito sempre que a
+diferença entre a maior e a menor pontuação for superior a 20%
+(vinte por cento) da pontuação máxima do quesito, com o fim de
+restabelecer o equilíbrio das pontuações atribuídas, de
+conformidade com os critérios objetivos postos no instrumento
+convocatório; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">VIII
+- serão fixados critérios objetivos e automáticos de identificação
+da proposta mais vantajosa para a administração, no caso de empate
+na soma de pontos das propostas técnicas, nas licitações do tipo
+&quot;melhor técnica&quot;; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">IX
+- o formato para apresentação pelos proponentes do plano de
+comunicação publicitária será padronizado quanto a seu tamanho, a
+fontes tipográficas, a espaçamento de parágrafos, a quantidades e
+formas dos exemplos de peças e a outros aspectos pertinentes,
+observada a exceção prevista no inciso XI deste artigo; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">X
+- para apresentação pelos proponentes do conjunto de informações
+de que trata o art. 8º desta Lei, poderão ser fixados o número
+máximo de páginas de texto, o número de peças e trabalhos
+elaborados para seus clientes e as datas a partir das quais devam ter
+sido elaborados os trabalhos, e veiculadas, distribuídas, exibidas
+ou expostas as peças; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">XI
+- na elaboração das tabelas, planilhas e gráficos integrantes do
+plano de mídia e não mídia, os proponentes poderão utilizar as
+fontes tipográficas que julgarem mais adequadas para sua
+apresentação; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">XII
+- será vedada a aposição, a qualquer parte da via não
+identificada do plano de comunicação publicitária, de marca, sinal
+ou palavra que possibilite a identificação do seu proponente antes
+da abertura do invólucro de que trata o § 2º do art. 9º desta
+Lei; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">XIII
+- será vedada a aposição ao invólucro destinado às informações
+de que trata o art. 8º desta Lei, assim como dos documentos nele
+contidos, de informação, marca, sinal, etiqueta ou qualquer outro
+elemento que identifique a autoria do plano de comunicação
+publicitária, em qualquer momento anterior à abertura dos
+invólucros de que trata o § 2º do art. 9º desta Lei; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">XIV
+- será desclassificado o licitante que descumprir o disposto nos
+incisos XII e XIII deste artigo e demais disposições do instrumento
+convocatório. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+1º No caso do inciso VII deste artigo, persistindo a diferença de
+pontuação prevista após a reavaliação do quesito, os membros da
+subcomissão técnica, autores das pontuações consideradas
+destoantes, deverão registrar em ata as razões que os levaram a
+manter a pontuação atribuída ao quesito reavaliado, que será
+assinada por todos os membros da subcomissão e passará a compor o
+processo da licitação. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+2º Se houver desclassificação de alguma proposta técnica por
+descumprimento de disposições do instrumento convocatório, ainda
+assim será atribuída pontuação a seus quesitos, a ser lançada em
+planilhas que ficarão acondicionadas em invólucro fechado e
+rubricado no fecho pelos membros da subcomissão técnica prevista no
+§ 1º do art. 10 desta Lei, até que expirem os prazos para
+interposição de recursos relativos a essa fase da licitação,
+exceto nos casos em que o descumprimento resulte na identificação
+do proponente antes da abertura do invólucro de que trata o § 2º
+do art. 9º desta Lei. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+7º O plano de comunicação publicitária de que trata o inciso III
+do art. 6o desta Lei será composto dos seguintes quesitos: </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">I
+- raciocínio básico, sob a forma de texto, que apresentará um
+diagnóstico das necessidades de comunicação publicitária do órgão
+ou entidade responsável pela licitação, a compreensão do
+proponente sobre o objeto da licitação e os desafios de comunicação
+a serem enfrentados; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">II
+- estratégia de comunicação publicitária, sob a forma de texto,
+que indicará e defenderá as linhas gerais da proposta para suprir o
+desafio e alcançar os resultados e metas de comunicação desejadas
+pelo órgão ou entidade responsável pela licitação; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">III
+- ideia criativa, sob a forma de exemplos de peças publicitárias,
+que corresponderão à resposta criativa do proponente aos desafios e
+metas por ele explicitados na estratégia de comunicação
+publicitária; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">IV
+- estratégia de mídia e não mídia, em que o proponente
+explicitará e justificará a estratégia e as táticas recomendadas,
+em consonância com a estratégia de comunicação publicitária por
+ela sugerida e em função da verba disponível indicada no
+instrumento convocatório, apresentada sob a forma de textos,
+tabelas, gráficos, planilhas e por quadro resumo que identificará
+as peças a serem veiculadas ou distribuídas e suas respectivas
+quantidades, inserções e custos nominais de produção e de
+veiculação. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+8º O conjunto de informações a que se refere o inciso III do art.
+6º desta Lei será composto de quesitos destinados a avaliar a
+capacidade de atendimento do proponente e o nível dos trabalhos por
+ele realizados para seus clientes. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+9º As propostas de preços serão apresentadas em 1 (um) invólucro
+e as propostas técnicas em 3 (três) invólucros distintos,
+destinados um para a via não identificada do plano de comunicação
+publicitária, um para a via identificada do plano de comunicação
+publicitária e outro para as demais informações integrantes da
+proposta técnica. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+1º O invólucro destinado à apresentação da via não identificada
+do plano de comunicação publicitária será padronizado e fornecido
+previamente pelo órgão ou entidade responsável pela licitação,
+sem nenhum tipo de identificação. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+2º A via identificada do plano de comunicação publicitária terá
+o mesmo teor da via não identificada, sem os exemplos de peças
+referentes à ideia criativa. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+10. As licitações previstas nesta Lei serão processadas e julgadas
+por comissão permanente ou especial, com exceção da análise e
+julgamento das propostas técnicas. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">§
+1º As propostas técnicas serão analisadas e julgadas por
+subcomissão técnica, constituída por, pelo menos, 3 (três)
+membros que sejam formados em comunicação, publicidade ou </font><font size="3" style="font-size: 12pt"><i>marketing</i></font><font size="3" style="font-size: 12pt">
+ou que atuem em uma dessas áreas, sendo que, pelo menos, 1/3 (um
+terço) deles não poderão manter nenhum vínculo funcional ou
+contratual, direto ou indireto, com o órgão ou a entidade
+responsável pela licitação. </font></font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+2º A escolha dos membros da subcomissão técnica dar-seá por
+sorteio, em sessão pública, entre os nomes de uma relação que
+terá, no mínimo, o triplo do número de integrantes da subcomissão,
+previamente cadastrados, e será composta por, pelo menos, 1/3 (um
+terço) de profissionais que não mantenham nenhum vínculo funcional
+ou contratual, direto ou indireto, com o órgão ou entidade
+responsável pela licitação. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+3º Nas contratações de valor estimado em até 10 (dez) vezes o
+limite previsto na alínea a do inciso II do art. 23 da Lei nº
+8.666, de 21 de junho de 1993, a relação prevista no § 2º deste
+artigo terá, no mínimo, o dobro do número de integrantes da
+subcomissão técnica e será composta por, pelo menos, 1/3 (um
+terço) de profissionais que não mantenham nenhum vínculo funcional
+ou contratual, direto ou indireto, com o órgão ou entidade
+responsável pela licitação. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+4º A relação dos nomes referidos nos §§ 2º e 3º deste artigo
+será publicada na imprensa oficial, em prazo não inferior a 10
+(dez) dias da data em que será realizada a sessão pública marcada
+para o sorteio. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+5º Para os fins do cumprimento do disposto nesta Lei, até 48
+(quarenta e oito) horas antes da sessão pública destinada ao
+sorteio, qualquer interessado poderá impugnar pessoa integrante da
+relação a que se referem os §§ 2º, 3º e 4º deste artigo,
+mediante fundamentos jurídicos plausíveis. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+6º Admitida a impugnação, o impugnado terá o direito de abster-se
+de atuar na subcomissão técnica, declarando-se impedido ou
+suspeito, antes da decisão da autoridade competente. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+7º A abstenção do impugnado ou o acolhimento da impugnação,
+mediante decisão fundamentada da autoridade competente, implicará,
+se necessário, a elaboração e a publicação de nova lista, sem o
+nome impugnado, respeitado o disposto neste artigo. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+8º A sessão pública será realizada após a decisão motivada da
+impugnação, em data previamente designada, garantidos o cumprimento
+do prazo mínimo previsto no § 4º deste artigo e a possibilidade de
+fiscalização do sorteio por qualquer interessado. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+9º O sorteio será processado de modo a garantir o preenchimento das
+vagas da subcomissão técnica, de acordo com a proporcionalidade do
+número de membros que mantenham ou não vínculo com o órgão ou
+entidade responsável pela licitação, nos termos dos §§ 1º, 2º
+e 3º deste artigo. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">§
+10. Nas licitações previstas nesta Lei, quando processadas sob a
+modalidade de convite, a subcomissão técnica, excepcionalmente, nas
+pequenas unidades administrativas e sempre que for comprovadamente
+impossível o cumprimento do disposto neste artigo, será substituída
+pela comissão permanente de licitação ou, inexistindo esta, por
+servidor formalmente designado pela autoridade competente, que deverá
+possuir conhecimentos na área de comunicação, publicidade ou
+</font><font size="3" style="font-size: 12pt"><i>marketing</i></font><font size="3" style="font-size: 12pt">.
+</font></font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+11. Os invólucros com as propostas técnicas e de preços serão
+entregues à comissão permanente ou especial na data, local e
+horário determinados no instrumento convocatório. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+1º Os integrantes da subcomissão técnica não poderão participar
+da sessão de recebimento e abertura dos invólucros com as propostas
+técnicas e de preços. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+2º Os invólucros padronizados com a via não identificada do plano
+de comunicação publicitária só serão recebidos pela comissão
+permanente ou especial se não apresentarem marca, sinal, etiqueta ou
+qualquer outro elemento capaz de identificar a licitante. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+3º A comissão permanente ou especial não lançará nenhum código,
+sinal ou marca nos invólucros padronizados nem nos documentos que
+compõem a via não identificada do plano de comunicação
+publicitária. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+4º O processamento e o julgamento da licitação obedecerão ao
+seguinte procedimento: </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">I
+- abertura dos 2 (dois) invólucros com a via não identificada do
+plano de comunicação e com as informações de que trata o art. 8o
+desta Lei, em sessão pública, pela comissão permanente ou
+especial; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">II
+- encaminhamento das propostas técnicas à subcomissão técnica
+para análise e julgamento; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">III
+- análise individualizada e julgamento do plano de comunicação
+publicitária, desclassificando-se as que desatenderem as exigências
+legais ou estabelecidas no instrumento convocatório, observado o
+disposto no inciso XIV do art. 6º desta Lei; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">IV
+- elaboração de ata de julgamento do plano de comunicação
+publicitária e encaminhamento à comissão permanente ou especial,
+juntamente com as propostas, as planilhas com as pontuações e a
+justificativa escrita das razões que as fundamentaram em cada caso; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">V
+- análise individualizada e julgamento dos quesitos referentes às
+informações de que trata o art. 8º desta Lei, desclassificando- se
+as que desatenderem quaisquer das exigências legais ou estabelecidas
+no instrumento convocatório; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">VI
+- elaboração de ata de julgamento dos quesitos mencionados no
+inciso V deste artigo e encaminhamento à comissão permanente ou
+especial, juntamente com as propostas, as planilhas com as pontuações
+e a justificativa escrita das razões que as fundamentaram em cada
+caso; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">VII
+- realização de sessão pública para apuração do resultado geral
+das propostas técnicas, com os seguintes procedimentos: </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">a)
+abertura dos invólucros com a via identificada do plano de
+comunicação publicitária;  </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">b)
+cotejo entre as vias identificadas e não identificadas do plano de
+comunicação publicitária, para identificação de sua autoria;  </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">c)
+elaboração de planilha geral com as pontuações atribuídas a cada
+um dos quesitos de cada proposta técnica;  </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">d)
+proclamação do resultado do julgamento geral da proposta técnica,
+registrando-se em ata as propostas desclassificadas e a ordem de
+classificação;  </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">VIII
+- publicação do resultado do julgamento da proposta técnica, com a
+indicação dos proponentes desclassificados e da ordem de
+classificação organizada pelo nome dos licitantes, abrindo-se prazo
+para interposição de recurso, conforme disposto na alínea b do
+inciso I do art. 109 da Lei nº 8.666, de 21 de junho de 1993; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">IX
+- abertura dos invólucros com as propostas de preços, em sessão
+pública, obedecendo-se ao previsto nos incisos II, III e IV do § 1º
+do art. 46 da Lei nº 8.666, de 21 de junho de 1993, nas licitações
+do tipo &quot;melhor técnica&quot;, e ao disposto no § 2º do art.
+46 da mesma Lei, nas licitações do tipo &quot;técnica e preço&quot;;
+</font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">X
+- publicação do resultado do julgamento final das propostas,
+abrindo-se prazo para interposição de recurso, conforme disposto na
+alínea b do inciso I do art. 109 da Lei nº 8.666, de 21 de junho de
+1993; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">XI
+- convocação dos licitantes classificados no julgamento final das
+propostas para apresentação dos documentos de habilitação; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">XII
+- recebimento e abertura do invólucro com os documentos de
+habilitação dos licitantes previstos no inciso XI deste artigo, em
+sessão pública, para análise da sua conformidade com as condições
+estabelecidas na legislação em vigor e no instrumento convocatório;
+</font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">XIII
+- decisão quanto à habilitação ou inabilitação dos licitantes
+previstos no inciso XI deste artigo e abertura do prazo para
+interposição de recurso, nos termos da alínea a do inciso I do
+art. 109 da Lei nº 8.666, de 21 de junho de 1993; </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">XIV
+- reconhecida a habilitação dos licitantes, na forma dos incisos
+XI, XII e XIII deste artigo, será homologado o procedimento e
+adjudicado o objeto licitado, observado o disposto no § 3º do art.
+2º desta Lei. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+12. O descumprimento, por parte de agente do órgão ou entidade
+responsável pela licitação, dos dispositivos desta Lei destinados
+a garantir o julgamento do plano de comunicação publicitária sem o
+conhecimento de sua autoria, até a abertura dos invólucros de que
+trata a alínea a do inciso VII do § 4º do art. 11 desta Lei,
+implicará a anulação do certame, sem prejuízo da apuração de
+eventual responsabilidade administrativa, civil ou criminal dos
+envolvidos na irregularidade. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="center"><font size="3" style="font-size: 12pt">CAPÍTULO
+III</font></p>
+<p align="center"><font size="3" style="font-size: 12pt">DOS
+CONTRATOS DE SERVIÇOS DE PUBLICIDADE E DA SUA EXECUÇÃO</font></p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+13. A definição do objeto do contrato de serviços previstos nesta
+Lei e das cláusulas que o integram dar-se-á em estrita vinculação
+ao estabelecido no instrumento convocatório da licitação e aos
+termos da legislação em vigor. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Parágrafo
+único. A execução do contrato dar-se-á em total conformidade com
+os termos e condições estabelecidas na licitação e no respectivo
+instrumento contratual. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+14. Somente pessoas físicas ou jurídicas previamente cadastradas
+pelo contratante poderão fornecer ao contratado bens ou serviços
+especializados relacionados com as atividades complementares da
+execução do objeto do contrato, nos termos do § 1º do art. 2º
+desta Lei. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">§
+1º O fornecimento de bens ou serviços especializados na
+conformidade do previsto no </font><font size="3" style="font-size: 12pt"><i>caput</i></font><font size="3" style="font-size: 12pt">
+deste artigo exigirá sempre a apresentação pelo contratado ao
+contratante de 3 (três) orçamentos obtidos entre pessoas que atuem
+no mercado do ramo do fornecimento pretendido. </font></font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+2º No caso do § 1º deste artigo, o contratado procederá à coleta
+de orçamentos de fornecedores em envelopes fechados, que serão
+abertos em sessão pública, convocada e realizada sob fiscalização
+do contratante, sempre que o fornecimento de bens ou serviços tiver
+valor superior a 0,5% (cinco décimos por cento) do valor global do
+contrato. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+3º O fornecimento de bens ou serviços de valor igual ou inferior a
+20% (vinte por cento) do limite previsto na alínea a do inciso II do
+art. 23 da Lei nº 8.666, de 21 de junho de 1993, está dispensado do
+procedimento previsto no § 2º deste artigo. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+15. Os custos e as despesas de veiculação apresentados ao
+contratante para pagamento deverão ser acompanhados da demonstração
+do valor devido ao veículo, de sua tabela de preços, da descrição
+dos descontos negociados e dos pedidos de inserção correspondentes,
+bem como de relatório de checagem de veiculação, a cargo de
+empresa independente, sempre que possível. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Parágrafo
+único. Pertencem ao contratante as vantagens obtidas em negociação
+de compra de mídia diretamente ou por intermédio de agência de
+propaganda, incluídos os eventuais descontos e as bonificações na
+forma de tempo, espaço ou reaplicações que tenham sido concedidos
+pelo veículo de divulgação. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+16. As informações sobre a execução do contrato, com os nomes dos
+fornecedores de serviços especializados e veículos, serão
+divulgadas em sítio próprio aberto para o contrato na rede mundial
+de computadores, garantido o livre acesso às informações por
+quaisquer interessados. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Parágrafo
+único. As informações sobre valores pagos serão divulgadas pelos
+totais de cada tipo de serviço de fornecedores e de cada meio de
+divulgação. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+17. As agências contratadas deverão, durante o período de, no
+mínimo, 5 (cinco) anos após a extinção do contrato, manter acervo
+comprobatório da totalidade dos serviços prestados e das peças
+publicitárias produzidas. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="center"><font size="3" style="font-size: 12pt">CAPÍTULO IV</font></p>
+<p align="center"><font size="3" style="font-size: 12pt">DISPOSIÇÕES
+FINAIS E TRANSITÓRIAS</font></p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+18. É facultativa a concessão de planos de incentivo por veículo
+de divulgação e sua aceitação por agência de propaganda, e os
+frutos deles resultantes constituem, para todos os fins de direito,
+receita própria da agência e não estão compreendidos na obrigação
+estabelecida no parágrafo único do art. 15 desta Lei. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">§
+1º A equação econômico-financeira definida na licitação e no
+contrato não se altera em razão da vigência ou não de planos de
+incentivo referidos no </font><font size="3" style="font-size: 12pt"><i>caput</i></font><font size="3" style="font-size: 12pt">
+deste artigo, cujos frutos estão expressamente excluídos dela. </font></font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">§
+2º As agências de propaganda não poderão, em nenhum caso,
+sobrepor os planos de incentivo aos interesses dos contratantes,
+preterindo veículos de divulgação que não os concedam ou
+priorizando os que os ofereçam, devendo sempre conduzir-se na
+orientação da escolha desses veículos de acordo com pesquisas e
+dados técnicos comprovados. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">§
+3º O desrespeito ao disposto no § 2º deste artigo constituirá
+grave violação aos deveres contratuais por parte da agência
+contratada e a submeterá a processo administrativo em que, uma vez
+comprovado o comportamento injustificado, implicará a aplicação
+das sanções previstas no </font><font size="3" style="font-size: 12pt"><i>caput</i></font><font size="3" style="font-size: 12pt">
+do art. 87 da Lei nº 8.666, de 21 de junho de 1993. </font></font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+19. Para fins de interpretação da legislação de regência,
+valores correspondentes ao desconto-padrão de agência pela
+concepção, execução e distribuição de propaganda, por ordem e
+conta de clientes anunciantes, constituem receita da agência de
+publicidade e, em consequência, o veículo de divulgação não
+pode, para quaisquer fins, faturar e contabilizar tais valores como
+receita própria, inclusive quando o repasse do desconto-padrão à
+agência de publicidade for efetivado por meio de veículo de
+divulgação. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Parágrafo
+único. (VETADO) </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+20. O disposto nesta Lei será aplicado subsidiariamente às empresas
+que possuem regulamento próprio de contratação, às licitações
+já abertas, aos contratos em fase de execução e aos efeitos
+pendentes dos contratos já encerrados na data de sua publicação. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">Art.
+20-A. A contratação de serviços de comunicação institucional,
+que compreendem os serviços de relação com a imprensa e de
+relações públicas, deverá observar o disposto no art. 5º desta
+Lei.</font></font></p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">§
+1º Aplica-se o disposto no </font><font size="3" style="font-size: 12pt"><i>caput</i></font><font size="3" style="font-size: 12pt">
+deste artigo à contratação dos serviços direcionados ao
+planejamento, criação, programação e manutenção de páginas
+eletrônicas da administração pública, ao monitoramento e gestão
+de suas redes sociais e à otimização de páginas e canais digitais
+para mecanismos de buscas e produção de mensagens, infográficos,
+painéis interativos e conteúdo institucional.</font></font></p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">§
+2º O disposto no </font><font size="3" style="font-size: 12pt"><i>caput</i></font><font size="3" style="font-size: 12pt">
+e no § 1º deste artigo não abrange a contratação de espaços
+publicitários e de mídia ou a expansão dos efeitos das mensagens e
+das ações de comunicação, que observarão o disposto no </font><font size="3" style="font-size: 12pt"><i>caput</i></font><font size="3" style="font-size: 12pt">
+do art. 2º desta Lei.</font></font></p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">§
+3º O disposto no </font><font size="3" style="font-size: 12pt"><i>caput</i></font><font size="3" style="font-size: 12pt">
+não exclui a possibilidade de os serviços descritos no </font><font size="3" style="font-size: 12pt"><i>caput</i></font><font size="3" style="font-size: 12pt">
+e no § 1º deste artigo serem prestados pelos servidores dos
+respectivos órgãos e entidades da administração pública. </font><font color="#0000ff"><u><a href="https://www2.camara.leg.br/legin/fed/lei/2022/lei-14356-31-maio-2022-792744-publicacaooriginal-165407-pl.html"><font size="3" style="font-size: 12pt"><i>(Artigo
+acrescido pela Lei nº 14.356, de 31/5/2022)</i></font></a></u></font></font></p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">Art.
+20-B. Para fins desta Lei, os serviços de comunicação
+institucional compreendem os serviços de relações com a imprensa e
+de relações públicas, assim definidos:</font></font></p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">I
+- relações com a imprensa: ação que reúne estratégias
+organizacionais para promover e reforçar a comunicação dos órgãos
+e das entidades contratantes com seus públicos de interesse, por
+meio da interação com profissionais da imprensa; e</font></font></p>
+<p align="justify" style="text-indent: 2cm"><font size="2" style="font-size: 10pt"><font size="3" style="font-size: 12pt">II
+- relações públicas: esforço de comunicação planejado, coeso e
+contínuo que tem por objetivo estabelecer adequada percepção da
+atuação e dos objetivos institucionais, a partir do estímulo à
+compreensão mútua e da manutenção de padrões de relacionamento e
+fluxos de informação entre os órgãos e as entidades contratantes
+e seus públicos de interesse, no Brasil e no exterior. </font><font color="#0000ff"><u><a href="https://www2.camara.leg.br/legin/fed/lei/2022/lei-14356-31-maio-2022-792744-publicacaooriginal-165407-pl.html"><font size="3" style="font-size: 12pt"><i>(Artigo
+acrescido pela Lei nº 14.356, de 31/5/2022)</i></font></a></u></font></font></p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+21. Serão discriminadas em categorias de programação específicas
+no projeto e na lei orçamentária anual as dotações orçamentárias
+destinadas às despesas com publicidade institucional e com
+publicidade de utilidade pública, inclusive quando for produzida ou
+veiculada por órgão ou entidade integrante da administração
+pública. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Art.
+22. Esta Lei entra em vigor na data da sua publicação. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Brasília,
+29 de abril de 2010; 189º da Independência e 122º da República. </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">LUIZ
+INÁCIO LULA DA SILVA </font>
+</p>
+<p align="justify" style="text-indent: 2cm"><font size="3" style="font-size: 12pt">Luiz
+Paulo Teles Ferreira Barreto</font></p>
+<p align="justify" style="text-indent: 2cm"><br/>
+
+</p>
+</body>
+</html>

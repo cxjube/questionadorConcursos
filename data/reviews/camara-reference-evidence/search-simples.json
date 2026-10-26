@@ -1,0 +1,1057 @@
+{
+  "id" : null,
+  "scope" : null,
+  "query" : "linguagem simples",
+  "appliedFilters" : null,
+  "sort" : null,
+  "configuration" : null,
+  "type" : "discover",
+  "_links" : {
+    "self" : {
+      "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%2520simples"
+    }
+  },
+  "_embedded" : {
+    "searchResult" : {
+      "_embedded" : {
+        "objects" : [ {
+          "hitHighlights" : {
+            "dc.description.abstract" : [ "Este manual aborda as etapas do planejamento, desenvolvimento e testagem de textos em <em>Linguagem</em> <em>Simples</em>. Traz as principais diretrizes de arquitetura da informação, texto e de design para uma comunicação eficiente." ],
+            "dc.title" : [ "Manual de <em>linguagem</em> <em>simples</em> : como planejar, desenvolver e testar textos que funcionam" ]
+          },
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "706f93f7-3180-463c-a67a-47c57c2de847",
+              "uuid" : "706f93f7-3180-463c-a67a-47c57c2de847",
+              "name" : "Manual de linguagem simples : como planejar, desenvolver e testar textos que funcionam",
+              "handle" : "bdcamara/41947",
+              "metadata" : {
+                "dc.contributor.author" : [ {
+                  "value" : "Roedel, Patricia",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.accessioned" : [ {
+                  "value" : "2024-10-08T18:24:26Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.available" : [ {
+                  "value" : "2024-10-08T18:24:26Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2024",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.description.abstract" : [ {
+                  "value" : "Este manual aborda as etapas do planejamento, desenvolvimento e testagem de textos em Linguagem Simples. Traz as principais diretrizes de arquitetura da informação, texto e de design para uma comunicação eficiente.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : 0,
+                  "place" : 0
+                } ],
+                "dc.format.medium" : [ {
+                  "value" : "108 p.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.isbn" : [ {
+                  "value" : "978-85-402-1044-8",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "https://bd.camara.leg.br/bd/handle/bdcamara/41947",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.publisher" : [ {
+                  "value" : "Brasília: Câmara dos Deputados, Edições Câmara",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.subject" : [ {
+                  "value" : "Comunicação, manual\nArquitetura da informação\nComunicação escrita",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Manual de linguagem simples : como planejar, desenvolver e testar textos que funcionam",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : 0,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2025-02-26T19:23:47.982+00:00",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/relationships"
+                },
+                "version" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/core/items/4ac67b15-b250-495e-9af9-5b7e63e24ed8"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "4ac67b15-b250-495e-9af9-5b7e63e24ed8",
+              "uuid" : "4ac67b15-b250-495e-9af9-5b7e63e24ed8",
+              "name" : "Da necessidade de viabilidade da adoção do padrão dados abertos ligados pelo Congresso Nacional: um estudo no contexto do orçamento público",
+              "handle" : "bdcamara/14256",
+              "metadata" : {
+                "dc.contributor.advisor" : [ {
+                  "value" : "Bax, Marcello Peixoto",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.contributor.author" : [ {
+                  "value" : "Alves, Marcus Vinícius Chevitarese",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.accessioned" : [ {
+                  "value" : "2013-08-28T21:50:09Z",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                }, {
+                  "value" : "2013-12-09T16:29:06Z",
+                  "language" : "",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 1
+                } ],
+                "dc.date.available" : [ {
+                  "value" : "2013-08-28T21:50:09Z",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                }, {
+                  "value" : "2013-12-09T16:29:06Z",
+                  "language" : "",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 1
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2013",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.description" : [ {
+                  "value" : "Monografia (especialização) -- Curso de Arquitetura e Organização da Informação, Câmara dos Deputados, Centro de Formação, Treinamento e Aperfeiçoamento (Cefor); Universidade Federal de\n Minas Gerais, Escola de Ciência da Informação (ECI), 2013.",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.description.abstract" : [ {
+                  "value" : "Analisa a necessidade e a viabilidade da adoção do padrão Dados Abertos Ligados pelo Congresso Nacional no que concerne à informação sobre o Orçamento Federal. Traz revisão dos fundamentos teóricos da Web Semântica e pesquisa acerca das principais tecnologias da Web Semântica, especialmente aquelas associadas ao padrão Dados Abertos e Ligados. Foi elaborado e aplicado um estudo de casos múltiplos, no qual se avaliou os sistemas de informação orçamentários do Congresso Nacional que possuem interface Web: o Siga Brasil (Senado) e o Fiscalize (Câmara dos Deputados).",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.format.medium" : [ {
+                  "value" : "93 f.",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://bd.camara.leg.br/bd/handle/bdcamara/14256",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.language.iso" : [ {
+                  "value" : "pt_BR",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.subject" : [ {
+                  "value" : "Orçamento público, Brasil",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                }, {
+                  "value" : "Acesso à informação, Brasil",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 1
+                }, {
+                  "value" : "Direito à informação, Brasil",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 2
+                }, {
+                  "value" : "Tecnologia da informação, Brasil",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 3
+                }, {
+                  "value" : "Ontologia",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 4
+                } ],
+                "dc.title" : [ {
+                  "value" : "Da necessidade de viabilidade da adoção do padrão dados abertos ligados pelo Congresso Nacional: um estudo no contexto do orçamento público",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : 0,
+                  "place" : 0
+                } ],
+                "dc.type" : [ {
+                  "value" : "monografia, dissertação, tese",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2025-02-26T19:19:34.999+00:00",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/4ac67b15-b250-495e-9af9-5b7e63e24ed8/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/4ac67b15-b250-495e-9af9-5b7e63e24ed8/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/4ac67b15-b250-495e-9af9-5b7e63e24ed8/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/4ac67b15-b250-495e-9af9-5b7e63e24ed8/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/4ac67b15-b250-495e-9af9-5b7e63e24ed8/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/4ac67b15-b250-495e-9af9-5b7e63e24ed8/relationships"
+                },
+                "version" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/4ac67b15-b250-495e-9af9-5b7e63e24ed8/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/4ac67b15-b250-495e-9af9-5b7e63e24ed8/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/4ac67b15-b250-495e-9af9-5b7e63e24ed8/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/4ac67b15-b250-495e-9af9-5b7e63e24ed8"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "2fdea221-d5d7-488c-9211-ff1b228e169f",
+              "uuid" : "2fdea221-d5d7-488c-9211-ff1b228e169f",
+              "name" : "Manual de comunicação da Câmara dos Deputados",
+              "handle" : "bdcamara/57184",
+              "metadata" : {
+                "dc.contributor.author" : [ {
+                  "value" : "Brasil. Congresso Nacional. Câmara dos Deputados",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.accessioned" : [ {
+                  "value" : "2025-10-01T13:00:32Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2025",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.description.abstract" : [ {
+                  "value" : "O objetivo principal do Manual é dar transparência aos princípios que regem a atuação dos profissionais de comunicação da Câmara e aos procedimentos decorrentes desses princípios. Vale ressaltar que a característica plural da instituição legislativa, com a enorme diversidade de opiniões dos deputados, impõe uma comunicação acima de tudo imparcial, que reflita esse pluralismo.\nO Manual também busca tornar compreensíveis para leigos as nuances do processo legislativo e os termos técnicos usados, de modo a facilitar a participação do cidadão na atividade legislativa. Assim, foi elaborado por todas as áreas envolvidas na comunicação da Câmara dos Deputados e reflete a experiência acumulada no dia a dia do trabalho como fonte primária de informação sobre a atuação dos 513 deputados federais nas comissões, no Plenário e nos demais espaços institucionais.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.format.medium" : [ {
+                  "value" : "210 p.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.isbn" : [ {
+                  "value" : "978-85-402-1123-0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "https://bd.camara.leg.br/bd/handle/bdcamara/57184",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.language.iso" : [ {
+                  "value" : "pt_BR",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.publisher" : [ {
+                  "value" : "Brasília :  Câmara dos Deputados, Edições Câmara",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.subject" : [ {
+                  "value" : "Brasil. Congresso Nacional. Câmara dos Deputados",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                }, {
+                  "value" : "Comunicação social, manual, Brasil",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 1
+                }, {
+                  "value" : "Política de comunicação, Brasil",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 2
+                } ],
+                "dc.title" : [ {
+                  "value" : "Manual de comunicação da Câmara dos Deputados",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.type" : [ {
+                  "value" : "Livro",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2025-10-01T13:00:53.155+00:00",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/relationships"
+                },
+                "version" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/core/items/ab58a636-6d16-467e-aa0d-62416fcce501"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "ab58a636-6d16-467e-aa0d-62416fcce501",
+              "uuid" : "ab58a636-6d16-467e-aa0d-62416fcce501",
+              "name" : "Memória, Mudança Linguística versus Recuperação em Documentos de Arquivo no longo prazo",
+              "handle" : "bdcamara/27599",
+              "metadata" : {
+                "dc.contributor.advisor" : [ {
+                  "value" : "Sousa, Renato Tarciso Barbosa",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.contributor.author" : [ {
+                  "value" : "Bodê, Ernesto Carlos",
+                  "language" : "",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.accessioned" : [ {
+                  "value" : "2016-05-04T15:36:05Z",
+                  "language" : "",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.available" : [ {
+                  "value" : "2016-05-04T15:36:05Z",
+                  "language" : "",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2015",
+                  "language" : "",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.description" : [ {
+                  "value" : "Tese (doutorado) -- Faculdade de Ciência\nda Informação, Universidade de Brasília, 2015.",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                }, {
+                  "value" : "Anexo 1: Análise Documental.",
+                  "language" : "",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 1
+                }, {
+                  "value" : "Anexo 2: Ocorrência de termos.",
+                  "language" : "",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 2
+                } ],
+                "dc.description.abstract" : [ {
+                  "value" : "Apresenta resultados que permitam a melhor compreensão dos efeitos\ndo fenômeno da mudança linguística na recuperação da informação que ocorrerá no futuro de\nlongo prazo por pessoas utilizando estados posteriores da língua portuguesa em relação ao\nestado de língua utilizado na criação dos documentos. O escopo definido compreende\ndocumentos de arquivo históricos produzidos contemporaneamente, os quais precisarão ser\nrecuperados através de sistemas informatizados, ao longo do tempo em que serão utilizados os\nnovos estados da língua portuguesa.",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.format.medium" : [ {
+                  "value" : "212 f.",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : 0,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://bd.camara.leg.br/bd/handle/bdcamara/27599",
+                  "language" : "",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.language.iso" : [ {
+                  "value" : "pt_BR",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.subject" : [ {
+                  "value" : "Recuperação da Informação",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                }, {
+                  "value" : "Documento, conservação",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 1
+                }, {
+                  "value" : "Linguística",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 2
+                } ],
+                "dc.title" : [ {
+                  "value" : "Memória, Mudança Linguística versus Recuperação em Documentos de Arquivo no longo prazo",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.type" : [ {
+                  "value" : "monografia, dissertação, tese",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2025-02-26T19:33:13.891+00:00",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/ab58a636-6d16-467e-aa0d-62416fcce501/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/ab58a636-6d16-467e-aa0d-62416fcce501/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/ab58a636-6d16-467e-aa0d-62416fcce501/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/ab58a636-6d16-467e-aa0d-62416fcce501/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/ab58a636-6d16-467e-aa0d-62416fcce501/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/ab58a636-6d16-467e-aa0d-62416fcce501/relationships"
+                },
+                "version" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/ab58a636-6d16-467e-aa0d-62416fcce501/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/ab58a636-6d16-467e-aa0d-62416fcce501/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/ab58a636-6d16-467e-aa0d-62416fcce501/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/ab58a636-6d16-467e-aa0d-62416fcce501"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : {
+            "dc.description.abstract" : [ "A presente pesquisa consiste na sistematização da informação contida nos dados não-estruturados do discurso parlamentar por meio da aplicação da técnica do Processamento de <em>Linguagem</em> Natural (PLN), a fim de resgatar aspectos qualitativos do discurso" ],
+            "dc.title" : [ "Análise do discurso parlamentar por meio da técnica do processamento de <em>linguagem</em> natural: abordagem estatística e aprendizagem de máquina" ]
+          },
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/core/items/563f40f6-d5f1-42c0-abf2-e7b5c6ad6b00"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "563f40f6-d5f1-42c0-abf2-e7b5c6ad6b00",
+              "uuid" : "563f40f6-d5f1-42c0-abf2-e7b5c6ad6b00",
+              "name" : "Análise do discurso parlamentar por meio da técnica do processamento de linguagem natural: abordagem estatística e aprendizagem de máquina",
+              "handle" : "bdcamara/35719",
+              "metadata" : {
+                "dc.contributor.advisor" : [ {
+                  "value" : "Nascimento, Francisco Assis de Oliveira",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.contributor.author" : [ {
+                  "value" : "Schwartz, Fabiano Peruzzo",
+                  "language" : "",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.accessioned" : [ {
+                  "value" : "2018-05-17T16:25:23Z",
+                  "language" : "",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.available" : [ {
+                  "value" : "2018-05-17T16:25:23Z",
+                  "language" : "",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2018",
+                  "language" : "",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.description" : [ {
+                  "value" : "Relatório de pesquisa (pós-doutorado) -- Faculdade de Tecnologia, Universidade de Brasília, 2018.",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.description.abstract" : [ {
+                  "value" : "A presente pesquisa consiste na sistematização da informação contida nos dados não-estruturados do discurso parlamentar por meio da aplicação da técnica do Processamento de Linguagem Natural (PLN), a fim de resgatar aspectos qualitativos do discurso e de estabelecer as conexões entre fatos, dados quantitativos e resultados finais da atividade legislativa. Trata-se não somente da investigação de vocábulos e expressões do texto, mas, também, da extração de sentido e/ou de padrões do discurso parlamentar no contexto temporal. Modelos estatísticos e de aprendizagem de máquina foram testados e avaliados como potenciais ferramentas de análise do discurso.\nComo principais contribuições podem ser destacadas: (1) a estruturação de base textual dos discursos parlamentares compreendendo as legislaturas de número 51 a 55, (2) a definição do Índice de Identidade Ideológica, que constitui ferramenta objetiva de análise do discurso parlamentar e pode ser usada como parâmetro de comparação entre estudos, e (3) a disponibilização dos dados, scripts de programação e resultados em repositório público, com a finalidade de incentivar novos estudos sobre o tema e de prover meios para a reprodutibilidade da pesquisa.",
+                  "language" : "",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.format.medium" : [ {
+                  "value" : "95 f.",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : 0,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://bd.camara.leg.br/bd/handle/bdcamara/35719",
+                  "language" : "",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.language.iso" : [ {
+                  "value" : "pt_BR",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.subject" : [ {
+                  "value" : "Discurso parlamentar",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Análise do discurso parlamentar por meio da técnica do processamento de linguagem natural: abordagem estatística e aprendizagem de máquina",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : 0,
+                  "place" : 0
+                } ],
+                "dc.type" : [ {
+                  "value" : "monografia, dissertação, tese",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2025-01-06T19:47:18.243+00:00",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/563f40f6-d5f1-42c0-abf2-e7b5c6ad6b00/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/563f40f6-d5f1-42c0-abf2-e7b5c6ad6b00/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/563f40f6-d5f1-42c0-abf2-e7b5c6ad6b00/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/563f40f6-d5f1-42c0-abf2-e7b5c6ad6b00/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/563f40f6-d5f1-42c0-abf2-e7b5c6ad6b00/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/563f40f6-d5f1-42c0-abf2-e7b5c6ad6b00/relationships"
+                },
+                "version" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/563f40f6-d5f1-42c0-abf2-e7b5c6ad6b00/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/563f40f6-d5f1-42c0-abf2-e7b5c6ad6b00/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/563f40f6-d5f1-42c0-abf2-e7b5c6ad6b00/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/563f40f6-d5f1-42c0-abf2-e7b5c6ad6b00"
+                }
+              }
+            }
+          }
+        } ]
+      },
+      "page" : {
+        "number" : 0,
+        "size" : 5,
+        "totalPages" : 196,
+        "totalElements" : 977
+      },
+      "_links" : {
+        "next" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%20simples&page=1&size=5"
+        },
+        "last" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%20simples&page=195&size=5"
+        },
+        "self" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%20simples&size=5"
+        }
+      }
+    },
+    "facets" : [ {
+      "name" : "author",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "minValue" : "1774-1843",
+      "maxValue" : "Zullo Júnior, Jurandir",
+      "page" : {
+        "number" : 0,
+        "size" : 5
+      },
+      "_links" : {
+        "next" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/facets/author?query=linguagem%20simples&page=1&size=5"
+        },
+        "self" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/facets/author?query=linguagem%20simples&size=5"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "Brasil. Congresso Nacional. Câmara dos Deputados",
+          "count" : 99,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%2520simples&f.author=Brasil.%20Congresso%20Nacional.%20C%C3%A2mara%20dos%20Deputados,equals"
+            }
+          }
+        }, {
+          "label" : "Brasil. Congresso Nacional. Câmara dos Deputados. Secretaria de Comunicação Social",
+          "count" : 72,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%2520simples&f.author=Brasil.%20Congresso%20Nacional.%20C%C3%A2mara%20dos%20Deputados.%20Secretaria%20de%20Comunica%C3%A7%C3%A3o%20Social,equals"
+            }
+          }
+        }, {
+          "label" : "Brasil. Congresso Nacional. Câmara dos Deputados. Centro de Documentação e Informação",
+          "count" : 22,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%2520simples&f.author=Brasil.%20Congresso%20Nacional.%20C%C3%A2mara%20dos%20Deputados.%20Centro%20de%20Documenta%C3%A7%C3%A3o%20e%20Informa%C3%A7%C3%A3o,equals"
+            }
+          }
+        }, {
+          "label" : "Sociedade Brasileira de Direito Internacional",
+          "count" : 11,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%2520simples&f.author=Sociedade%20Brasileira%20de%20Direito%20Internacional,equals"
+            }
+          }
+        }, {
+          "label" : "Rocha, Claudionor",
+          "count" : 7,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%2520simples&f.author=Rocha,%20Claudionor,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "subject",
+      "facetType" : "hierarchical",
+      "facetLimit" : 5,
+      "page" : {
+        "number" : 0,
+        "size" : 5
+      },
+      "_links" : {
+        "next" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/facets/subject?query=linguagem%20simples&page=1&size=5"
+        },
+        "self" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/facets/subject?query=linguagem%20simples&size=5"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "Brasil. Congresso Nacional. Câmara dos Deputados",
+          "count" : 72,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%2520simples&f.subject=Brasil.%20Congresso%20Nacional.%20C%C3%A2mara%20dos%20Deputados,equals"
+            }
+          }
+        }, {
+          "label" : "Processo legislativo, Brasil",
+          "count" : 34,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%2520simples&f.subject=Processo%20legislativo,%20Brasil,equals"
+            }
+          }
+        }, {
+          "label" : "Brasil. Constituição (1988)",
+          "count" : 33,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%2520simples&f.subject=Brasil.%20Constitui%C3%A7%C3%A3o%20(1988),equals"
+            }
+          }
+        }, {
+          "label" : "Poder legislativo, Brasil",
+          "count" : 21,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%2520simples&f.subject=Poder%20legislativo,%20Brasil,equals"
+            }
+          }
+        }, {
+          "label" : "Inteligência artificial",
+          "count" : 14,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%2520simples&f.subject=Intelig%C3%AAncia%20artificial,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "dateIssued",
+      "facetType" : "date",
+      "facetLimit" : 5,
+      "minValue" : "0018",
+      "maxValue" : "Anais do Parlamento Brasileiro, 1862, tomo III.",
+      "page" : {
+        "number" : 0,
+        "size" : 5
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/facets/dateIssued?query=linguagem%20simples&size=5"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "18 - 409",
+          "count" : 3,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%2520simples&f.dateIssued=%5B18%20TO%20409%5D,equals"
+            }
+          }
+        }, {
+          "label" : "820 - 1229",
+          "count" : 1,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%2520simples&f.dateIssued=%5B820%20TO%201229%5D,equals"
+            }
+          }
+        }, {
+          "label" : "1640 - 2026",
+          "count" : 928,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%2520simples&f.dateIssued=%5B1640%20TO%202026%5D,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "has_content_in_original_bundle",
+      "facetType" : "standard",
+      "facetLimit" : 2,
+      "page" : {
+        "number" : 0,
+        "size" : 2
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/facets/has_content_in_original_bundle?query=linguagem%20simples&size=2"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "true",
+          "count" : 977,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=linguagem%2520simples&f.has_content_in_original_bundle=true,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "entityType",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "_links" : {
+        "self" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/facets/entityType?query=linguagem%20simples"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    } ]
+  }
+}

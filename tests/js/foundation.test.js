@@ -41,7 +41,7 @@ test('blocked or corrupted storage does not prevent use', () => {
 test('the published catalog selects the confirmed target and keeps future roles empty', () => {
   const { Catalog, window } = context(storage());
   const data = Catalog.parse(window.CONCURSOS_CATALOG);
-  assert.equal(data.questions.length, 224);
+  assert.equal(data.questions.length, 254);
   assert.equal(Catalog.rolesFor(data, 'camara-2026').length, 1);
   assert.equal(Catalog.rolesFor(data, 'abdi-futuro').length, 0);
   assert.equal(Catalog.rolesFor(data, 'cgu-futuro').length, 0);
@@ -65,7 +65,7 @@ test('syllabus and scoring selectors keep future contests empty', () => {
   assert.equal(Catalog.syllabusFor(data, data.roles[0].id).length, 228);
   assert.equal(Catalog.rulesFor(data, data.roles[0].id).length, 1);
   assert.equal(Catalog.syllabusFor(data, 'abdi-futuro').length, 0);
-  assert.equal(data.questions.length, 224);
-  assert.equal(data.papers.length, 21);
+  assert.equal(data.questions.length, 254);
+  assert.equal(data.papers.length, 23);
   assert.ok(data.papers.every(paper => paper.inventory.externalVerification));
 });

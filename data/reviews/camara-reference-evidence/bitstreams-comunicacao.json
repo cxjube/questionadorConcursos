@@ -1,0 +1,62 @@
+{
+  "_embedded" : {
+    "bitstreams" : [ {
+      "id" : "fae44501-68a4-4bd2-8716-8c4d80b11aaa",
+      "uuid" : "fae44501-68a4-4bd2-8716-8c4d80b11aaa",
+      "name" : "manual_comunicacao.pdf",
+      "handle" : null,
+      "metadata" : {
+        "dc.source" : [ {
+          "value" : "manual_comunicacao.pdf",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "manual_comunicacao.pdf",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "bundleName" : "ORIGINAL",
+      "sizeBytes" : 14178874,
+      "checkSum" : {
+        "checkSumAlgorithm" : "MD5",
+        "value" : "7a75b4bc797b273a1b0d7132c74a191b"
+      },
+      "sequenceId" : 1,
+      "type" : "bitstream",
+      "_links" : {
+        "content" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/core/bitstreams/fae44501-68a4-4bd2-8716-8c4d80b11aaa/content"
+        },
+        "bundle" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/core/bitstreams/fae44501-68a4-4bd2-8716-8c4d80b11aaa/bundle"
+        },
+        "format" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/core/bitstreams/fae44501-68a4-4bd2-8716-8c4d80b11aaa/format"
+        },
+        "thumbnail" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/core/bitstreams/fae44501-68a4-4bd2-8716-8c4d80b11aaa/thumbnail"
+        },
+        "self" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/core/bitstreams/fae44501-68a4-4bd2-8716-8c4d80b11aaa"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 1
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://bd-rest.camara.leg.br/server/api/core/bundles/0f139304-e1eb-4ea7-a858-73b13932fde5/bitstreams"
+    }
+  }
+}

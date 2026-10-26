@@ -135,10 +135,12 @@ test('subject filters include descendants, respect the role and count canonical 
  const s=setup(), progress=s.Study.empty();
  const parent=s.Study.pool(s.data,s.role,progress,'all',{disciplineId:'comunicacao-social',topicId:'comunicacao-social-7'});
  const child=s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-7-1'});
- assert.equal(parent.length,6);assert.deepEqual(plain(parent),plain(child));
+ assert.equal(parent.length,7);assert.equal(child.length,6);
+ assert.ok(child.every(q=>parent.some(p=>p.id===q.id)));
+ assert.deepEqual(plain(s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-7-2'}).map(q=>q.id)),['989-codevasf-010-01-q102']);
  const mapped=s.data.mappings.find(m=>m.questionId===parent[0].id);
  s.data.mappings.push({...mapped,id:'synthetic-duplicate-mapping-for-test-only'});
- assert.equal(s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-7'}).length,6);
+ assert.equal(s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-7'}).length,7);
  assert.equal(s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-2'}).length,7);
  for(const filters of [{disciplineId:'missing-test-only'},{topicId:'missing-test-only'},{disciplineId:'lingua-portuguesa',topicId:'comunicacao-social-7'}]) {
   assert.throws(()=>s.Study.pool(s.data,s.role,progress,'all',filters),/inválido/);
@@ -287,7 +289,7 @@ test('custom scoring never changes accuracy, unscored history or official criter
 test('block filters use target syllabus blocks, preserve distinct IDs and validate snapshots',()=>{
  const s=setup(),p=s.Study.empty();
  const basic=s.Study.pool(s.data,s.role,p,'all',{block:'basic'}),specific=s.Study.pool(s.data,s.role,p,'all',{block:'specific'});
- assert.equal(basic.length,108);assert.equal(specific.length,117);
+ assert.equal(basic.length,118);assert.equal(specific.length,137);
  assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',disciplineId:'lingua-inglesa'}).length,0);
  const session=s.Study.create(s.data,s.role,p,'all',{block:'basic',disciplineId:'lingua-inglesa'});
  assert.equal(session.items.length,15);assert.equal(session.selection.block,'basic');
@@ -302,8 +304,8 @@ test('block filters use target syllabus blocks, preserve distinct IDs and valida
  assert.ok(s.Study.validate({...p,active:legacy},s.data));
  const multi=plain(s.data),target=multi.syllabusItems.find(t=>t.block==='specific');
  multi.mappings.push({id:'synthetic-cross-block-link',questionId:basic[0].id,syllabusItemId:target.id,status:'confirmed'});
- assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,118);
- assert.equal(s.Study.pool(multi,s.role,p).length,224);
+ assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,138);
+ assert.equal(s.Study.pool(multi,s.role,p).length,254);
  assert.throws(()=>s.Study.pool(s.data,s.role,p,'all',{block:'invalid'}),/Bloco/);
 });
 test('evolution uses local calendar days, weighted accuracy and finalized role snapshots only',()=>{
@@ -345,8 +347,8 @@ test('sixth batch counts shared topics once and keeps MC separate from CE compos
  const shared='camara-2023-tecnica-tarde-tipo1-q017';
  assert.equal(basic.filter(q=>q.id===shared).length,1);assert.equal(specific.filter(q=>q.id===shared).length,1);
  assert.equal(s.Study.pool(s.data,s.role,p).filter(q=>q.id===shared).length,1);
- assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'}).length,107);
- assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'}).length,105);
+ assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'}).length,117);
+ assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'}).length,125);
  for(const discipline of s.data.disciplines) assert.ok(s.Study.pool(s.data,s.role,p,'all',{disciplineId:discipline.id}).length>0);
 });
 
@@ -356,7 +358,7 @@ test('legal and FGV source snapshots survive backup with narrowly allowed offici
  assert.equal(p.active.items.length,7);assert.ok(p.active.items.every(i=>i.explanations.length===1));
  const restored=s.Study.importBackup(s.Study.exportBackup(p),s.data);assert.deepEqual(plain(restored),plain(p));
  p.active=s.Study.create(s.data,s.role,s.Study.empty(),'all',{disciplineId:'direito-administrativo-administracao-publica'});
- assert.equal(p.active.items.length,26);assert.ok(s.Study.importBackup(s.Study.exportBackup(p),s.data));
+ assert.equal(p.active.items.length,35);assert.ok(s.Study.importBackup(s.Study.exportBackup(p),s.data));
  const bad=plain(p);bad.active.items[0].explanations[0].references[0].officialUrl='https://www.planalto.gov.br.evil.invalid/fake';
  // Snapshot references carry the canonical source URL; reject a lookalike hostname.
  const ref=p.active.items[0].explanations[0].references[0];
@@ -369,12 +371,12 @@ test('legal and FGV source snapshots survive backup with narrowly allowed offici
  assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(spoof),s.data));
 });
 
-test('the expanded CE reserve provides 107 basic and 105 specific distinct valid items',()=>{
+test('the expanded CE reserve provides 117 basic and 125 specific distinct valid items',()=>{
  const s=setup(),p=s.Study.empty();
  const basic=s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'});
  const specific=s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'});
- assert.equal(basic.length,107);assert.equal(specific.length,105);
- assert.equal(new Set([...basic,...specific].map(q=>q.id)).size,212);
+ assert.equal(basic.length,117);assert.equal(specific.length,125);
+ assert.equal(new Set([...basic,...specific].map(q=>q.id)).size,242);
  for(const block of ['basic','specific']) {
   const session=s.Study.create(s.data,s.role,p,'all',{block,type:'true_false',limit:90});
   assert.equal(session.items.length,90);

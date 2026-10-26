@@ -1,0 +1,1037 @@
+{
+  "id" : null,
+  "scope" : null,
+  "query" : "manual comunicação",
+  "appliedFilters" : null,
+  "sort" : null,
+  "configuration" : null,
+  "type" : "discover",
+  "_links" : {
+    "self" : {
+      "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=manual%2520comunica%25C3%25A7%25C3%25A3o"
+    }
+  },
+  "_embedded" : {
+    "searchResult" : {
+      "_embedded" : {
+        "objects" : [ {
+          "hitHighlights" : {
+            "dc.description.abstract" : [ "O objetivo principal do <em>Manual</em> é dar transparência aos princípios que regem a atuação dos profissionais de <em>comunicação</em> da Câmara e aos procedimentos decorrentes desses princípios. Vale ressaltar que a característica plural da instituição legislativa", ", com a enorme diversidade de opiniões dos deputados, impõe uma <em>comunicação</em> acima de tudo imparcial, que reflita esse pluralismo.\nO <em>Manual</em> também busca tornar compreensíveis para leigos as nuances do processo legislativo e os termos técnicos usados, de" ],
+            "dc.title" : [ "<em>Manual</em> de <em>comunicação</em> da Câmara dos Deputados" ]
+          },
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "2fdea221-d5d7-488c-9211-ff1b228e169f",
+              "uuid" : "2fdea221-d5d7-488c-9211-ff1b228e169f",
+              "name" : "Manual de comunicação da Câmara dos Deputados",
+              "handle" : "bdcamara/57184",
+              "metadata" : {
+                "dc.contributor.author" : [ {
+                  "value" : "Brasil. Congresso Nacional. Câmara dos Deputados",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.accessioned" : [ {
+                  "value" : "2025-10-01T13:00:32Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2025",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.description.abstract" : [ {
+                  "value" : "O objetivo principal do Manual é dar transparência aos princípios que regem a atuação dos profissionais de comunicação da Câmara e aos procedimentos decorrentes desses princípios. Vale ressaltar que a característica plural da instituição legislativa, com a enorme diversidade de opiniões dos deputados, impõe uma comunicação acima de tudo imparcial, que reflita esse pluralismo.\nO Manual também busca tornar compreensíveis para leigos as nuances do processo legislativo e os termos técnicos usados, de modo a facilitar a participação do cidadão na atividade legislativa. Assim, foi elaborado por todas as áreas envolvidas na comunicação da Câmara dos Deputados e reflete a experiência acumulada no dia a dia do trabalho como fonte primária de informação sobre a atuação dos 513 deputados federais nas comissões, no Plenário e nos demais espaços institucionais.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.format.medium" : [ {
+                  "value" : "210 p.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.isbn" : [ {
+                  "value" : "978-85-402-1123-0",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "https://bd.camara.leg.br/bd/handle/bdcamara/57184",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.language.iso" : [ {
+                  "value" : "pt_BR",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.publisher" : [ {
+                  "value" : "Brasília :  Câmara dos Deputados, Edições Câmara",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.subject" : [ {
+                  "value" : "Brasil. Congresso Nacional. Câmara dos Deputados",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                }, {
+                  "value" : "Comunicação social, manual, Brasil",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 1
+                }, {
+                  "value" : "Política de comunicação, Brasil",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 2
+                } ],
+                "dc.title" : [ {
+                  "value" : "Manual de comunicação da Câmara dos Deputados",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.type" : [ {
+                  "value" : "Livro",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2025-10-01T13:00:53.155+00:00",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/relationships"
+                },
+                "version" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/2fdea221-d5d7-488c-9211-ff1b228e169f"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : {
+            "dc.title" : [ "<em>Manual</em> de redação : Secretaria de <em>Comunicação</em> Social" ]
+          },
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/core/items/0302d5c0-e87b-4d92-b65a-afe86bb65fce"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "0302d5c0-e87b-4d92-b65a-afe86bb65fce",
+              "uuid" : "0302d5c0-e87b-4d92-b65a-afe86bb65fce",
+              "name" : "Manual de redação : Secretaria de Comunicação Social",
+              "handle" : "bdcamara/13776",
+              "metadata" : {
+                "dc.contributor.author" : [ {
+                  "value" : "Malavazi, Ademir",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.accessioned" : [ {
+                  "value" : "2013-07-31T14:40:22Z",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                }, {
+                  "value" : "2013-12-09T15:27:38Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 1
+                } ],
+                "dc.date.available" : [ {
+                  "value" : "2013-07-31T14:40:22Z",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                }, {
+                  "value" : "2013-12-09T15:27:38Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 1
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2004",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.description" : [ {
+                  "value" : "Conteúdo: A comunicação e seu conteúdo — TV Câmara — Estilo (Agência e Jornal) — Gramática (Agência e Jornal) — Relações públicas — Divulgação — Glossário de termos legislativos — Glossário de termos de uso comum.",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.format.medium" : [ {
+                  "value" : "267 p.",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://bd.camara.leg.br/bd/handle/bdcamara/13776",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.language.iso" : [ {
+                  "value" : "pt_BR",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.publisher" : [ {
+                  "value" : "Brasília : Coordenação de Publicações",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.relation.ispartofseries" : [ {
+                  "value" : "Série fontes de referência. Guias e manuais ; n. 12",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.subject" : [ {
+                  "value" : "Redação, língua portuguesa, Brasil",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                }, {
+                  "value" : "Jornalismo, Brasil",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 1
+                }, {
+                  "value" : "Gramática, língua portuguesa, Brasil",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 2
+                }, {
+                  "value" : "Brasil. Congresso. Câmara dos Deputados. Secretaria de Comunicação Social",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 3
+                } ],
+                "dc.title" : [ {
+                  "value" : "Manual de redação : Secretaria de Comunicação Social",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.type" : [ {
+                  "value" : "livro",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2025-02-26T19:13:16.016+00:00",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/0302d5c0-e87b-4d92-b65a-afe86bb65fce/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/0302d5c0-e87b-4d92-b65a-afe86bb65fce/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/0302d5c0-e87b-4d92-b65a-afe86bb65fce/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/0302d5c0-e87b-4d92-b65a-afe86bb65fce/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/0302d5c0-e87b-4d92-b65a-afe86bb65fce/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/0302d5c0-e87b-4d92-b65a-afe86bb65fce/relationships"
+                },
+                "version" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/0302d5c0-e87b-4d92-b65a-afe86bb65fce/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/0302d5c0-e87b-4d92-b65a-afe86bb65fce/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/0302d5c0-e87b-4d92-b65a-afe86bb65fce/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/0302d5c0-e87b-4d92-b65a-afe86bb65fce"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : {
+            "dc.description.abstract" : [ "Este <em>manual</em> aborda as etapas do planejamento, desenvolvimento e testagem de textos em Linguagem Simples. Traz as principais diretrizes de arquitetura da informação, texto e de design para uma <em>comunicação</em> eficiente." ],
+            "dc.title" : [ "<em>Manual</em> de linguagem simples : como planejar, desenvolver e testar textos que funcionam" ]
+          },
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "706f93f7-3180-463c-a67a-47c57c2de847",
+              "uuid" : "706f93f7-3180-463c-a67a-47c57c2de847",
+              "name" : "Manual de linguagem simples : como planejar, desenvolver e testar textos que funcionam",
+              "handle" : "bdcamara/41947",
+              "metadata" : {
+                "dc.contributor.author" : [ {
+                  "value" : "Roedel, Patricia",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.accessioned" : [ {
+                  "value" : "2024-10-08T18:24:26Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.available" : [ {
+                  "value" : "2024-10-08T18:24:26Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2024",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.description.abstract" : [ {
+                  "value" : "Este manual aborda as etapas do planejamento, desenvolvimento e testagem de textos em Linguagem Simples. Traz as principais diretrizes de arquitetura da informação, texto e de design para uma comunicação eficiente.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : 0,
+                  "place" : 0
+                } ],
+                "dc.format.medium" : [ {
+                  "value" : "108 p.",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.isbn" : [ {
+                  "value" : "978-85-402-1044-8",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "https://bd.camara.leg.br/bd/handle/bdcamara/41947",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.publisher" : [ {
+                  "value" : "Brasília: Câmara dos Deputados, Edições Câmara",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.subject" : [ {
+                  "value" : "Comunicação, manual\nArquitetura da informação\nComunicação escrita",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Manual de linguagem simples : como planejar, desenvolver e testar textos que funcionam",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : 0,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2025-02-26T19:23:47.982+00:00",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/relationships"
+                },
+                "version" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/706f93f7-3180-463c-a67a-47c57c2de847"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : {
+            "dc.description.abstract" : [ "<em>Manual</em> para redação oficial de documentos administrativos da Câmara dos Deputados." ],
+            "dc.title" : [ "<em>Manual</em> de redação" ]
+          },
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/core/items/3839ac93-4bb1-462f-9e5e-4a8c063b5801"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "3839ac93-4bb1-462f-9e5e-4a8c063b5801",
+              "uuid" : "3839ac93-4bb1-462f-9e5e-4a8c063b5801",
+              "name" : "Manual de redação",
+              "handle" : "bdcamara/5684",
+              "metadata" : {
+                "dc.contributor.author" : [ {
+                  "value" : "Brasil. Congresso Nacional. Câmara dos Deputados",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.accessioned" : [ {
+                  "value" : "2011-03-24T18:41:18Z",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                }, {
+                  "value" : "2013-12-09T15:22:16Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 1
+                } ],
+                "dc.date.available" : [ {
+                  "value" : "2011-03-24T18:41:18Z",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                }, {
+                  "value" : "2013-12-09T15:22:16Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 1
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2004",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.description.abstract" : [ {
+                  "value" : "Manual para redação oficial de documentos administrativos da Câmara dos Deputados.",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.format.medium" : [ {
+                  "value" : "420 p.",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.isbn" : [ {
+                  "value" : "8573653655",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://bd.camara.leg.br/bd/handle/bdcamara/5684",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.language.iso" : [ {
+                  "value" : "pt_BR",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.publisher" : [ {
+                  "value" : "Câmara dos Deputados, Coordenação de Publicações",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.relation.ispartofseries" : [ {
+                  "value" : "Série fontes de referência. Guias e manuais ; n. 17",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.subject" : [ {
+                  "value" : "Brasil. Congresso Nacional. Câmara dos Deputados, manual de serviço",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                }, {
+                  "value" : "Redação, língua portuguesa, Brasil",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 1
+                }, {
+                  "value" : "Gramática, língua portuguesa, Brasil",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 2
+                }, {
+                  "value" : "Redação oficial, língua portuguesa, Brasil",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 3
+                } ],
+                "dc.title" : [ {
+                  "value" : "Manual de redação",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.type" : [ {
+                  "value" : "livro",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2025-02-26T19:17:42.872+00:00",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/3839ac93-4bb1-462f-9e5e-4a8c063b5801/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/3839ac93-4bb1-462f-9e5e-4a8c063b5801/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/3839ac93-4bb1-462f-9e5e-4a8c063b5801/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/3839ac93-4bb1-462f-9e5e-4a8c063b5801/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/3839ac93-4bb1-462f-9e5e-4a8c063b5801/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/3839ac93-4bb1-462f-9e5e-4a8c063b5801/relationships"
+                },
+                "version" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/3839ac93-4bb1-462f-9e5e-4a8c063b5801/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/3839ac93-4bb1-462f-9e5e-4a8c063b5801/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/3839ac93-4bb1-462f-9e5e-4a8c063b5801/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/3839ac93-4bb1-462f-9e5e-4a8c063b5801"
+                }
+              }
+            }
+          }
+        }, {
+          "hitHighlights" : {
+            "dc.title" : [ "<em>Manual</em> do fiscal de contratos da Câmara dos Deputados" ]
+          },
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/core/items/f0cf3c03-438b-4bad-85e9-31829c95ab9e"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "f0cf3c03-438b-4bad-85e9-31829c95ab9e",
+              "uuid" : "f0cf3c03-438b-4bad-85e9-31829c95ab9e",
+              "name" : "Manual do fiscal de contratos da Câmara dos Deputados",
+              "handle" : "bdcamara/17100",
+              "metadata" : {
+                "dc.contributor.author" : [ {
+                  "value" : "Saigg, Ibrahim Gonçalves",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.accessioned" : [ {
+                  "value" : "2014-03-26T13:31:41Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.available" : [ {
+                  "value" : "2014-03-26T13:31:41Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "2012-08",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.format.medium" : [ {
+                  "value" : "132 p.",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://bd.camara.leg.br/bd/handle/bdcamara/17100",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.language.iso" : [ {
+                  "value" : "pt_BR",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.publisher" : [ {
+                  "value" : "Brasília : Câmara dos Deputados",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.subject" : [ {
+                  "value" : "Contrato administrativo, fiscalização",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Manual do fiscal de contratos da Câmara dos Deputados",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.type" : [ {
+                  "value" : "livro",
+                  "language" : "pt_BR",
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2025-02-26T19:47:16.752+00:00",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/f0cf3c03-438b-4bad-85e9-31829c95ab9e/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/f0cf3c03-438b-4bad-85e9-31829c95ab9e/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/f0cf3c03-438b-4bad-85e9-31829c95ab9e/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/f0cf3c03-438b-4bad-85e9-31829c95ab9e/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/f0cf3c03-438b-4bad-85e9-31829c95ab9e/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/f0cf3c03-438b-4bad-85e9-31829c95ab9e/relationships"
+                },
+                "version" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/f0cf3c03-438b-4bad-85e9-31829c95ab9e/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/f0cf3c03-438b-4bad-85e9-31829c95ab9e/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/f0cf3c03-438b-4bad-85e9-31829c95ab9e/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bd-rest.camara.leg.br/server/api/core/items/f0cf3c03-438b-4bad-85e9-31829c95ab9e"
+                }
+              }
+            }
+          }
+        } ]
+      },
+      "page" : {
+        "number" : 0,
+        "size" : 5,
+        "totalPages" : 119,
+        "totalElements" : 591
+      },
+      "_links" : {
+        "next" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=manual%20comunica%C3%A7%C3%A3o&page=1&size=5"
+        },
+        "last" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=manual%20comunica%C3%A7%C3%A3o&page=118&size=5"
+        },
+        "self" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=manual%20comunica%C3%A7%C3%A3o&size=5"
+        }
+      }
+    },
+    "facets" : [ {
+      "name" : "author",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "minValue" : "1774-1843",
+      "maxValue" : "Zullo Júnior, Jurandir",
+      "page" : {
+        "number" : 0,
+        "size" : 5
+      },
+      "_links" : {
+        "next" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/facets/author?query=manual%20comunica%C3%A7%C3%A3o&page=1&size=5"
+        },
+        "self" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/facets/author?query=manual%20comunica%C3%A7%C3%A3o&size=5"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "Brasil. Congresso Nacional. Câmara dos Deputados. Secretaria de Comunicação Social",
+          "count" : 110,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=manual%2520comunica%25C3%25A7%25C3%25A3o&f.author=Brasil.%20Congresso%20Nacional.%20C%C3%A2mara%20dos%20Deputados.%20Secretaria%20de%20Comunica%C3%A7%C3%A3o%20Social,equals"
+            }
+          }
+        }, {
+          "label" : "Brasil. Congresso Nacional. Câmara dos Deputados",
+          "count" : 39,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=manual%2520comunica%25C3%25A7%25C3%25A3o&f.author=Brasil.%20Congresso%20Nacional.%20C%C3%A2mara%20dos%20Deputados,equals"
+            }
+          }
+        }, {
+          "label" : "Brasil. Congresso Nacional. Câmara dos Deputados. Centro de Documentação e Informação",
+          "count" : 7,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=manual%2520comunica%25C3%25A7%25C3%25A3o&f.author=Brasil.%20Congresso%20Nacional.%20C%C3%A2mara%20dos%20Deputados.%20Centro%20de%20Documenta%C3%A7%C3%A3o%20e%20Informa%C3%A7%C3%A3o,equals"
+            }
+          }
+        }, {
+          "label" : "Brasil. Congresso Nacional. Câmara dos Deputados. Comissão de Direitos Humanos e Minorias",
+          "count" : 5,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=manual%2520comunica%25C3%25A7%25C3%25A3o&f.author=Brasil.%20Congresso%20Nacional.%20C%C3%A2mara%20dos%20Deputados.%20Comiss%C3%A3o%20de%20Direitos%20Humanos%20e%20Minorias,equals"
+            }
+          }
+        }, {
+          "label" : "Sociedade Brasileira de Direito Internacional",
+          "count" : 5,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=manual%2520comunica%25C3%25A7%25C3%25A3o&f.author=Sociedade%20Brasileira%20de%20Direito%20Internacional,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "subject",
+      "facetType" : "hierarchical",
+      "facetLimit" : 5,
+      "page" : {
+        "number" : 0,
+        "size" : 5
+      },
+      "_links" : {
+        "next" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/facets/subject?query=manual%20comunica%C3%A7%C3%A3o&page=1&size=5"
+        },
+        "self" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/facets/subject?query=manual%20comunica%C3%A7%C3%A3o&size=5"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "Brasil. Congresso Nacional. Câmara dos Deputados",
+          "count" : 56,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=manual%2520comunica%25C3%25A7%25C3%25A3o&f.subject=Brasil.%20Congresso%20Nacional.%20C%C3%A2mara%20dos%20Deputados,equals"
+            }
+          }
+        }, {
+          "label" : "Poder legislativo, Brasil",
+          "count" : 19,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=manual%2520comunica%25C3%25A7%25C3%25A3o&f.subject=Poder%20legislativo,%20Brasil,equals"
+            }
+          }
+        }, {
+          "label" : "Brasil. Constituição (1988)",
+          "count" : 13,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=manual%2520comunica%25C3%25A7%25C3%25A3o&f.subject=Brasil.%20Constitui%C3%A7%C3%A3o%20(1988),equals"
+            }
+          }
+        }, {
+          "label" : "Orçamento público, Brasil",
+          "count" : 13,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=manual%2520comunica%25C3%25A7%25C3%25A3o&f.subject=Or%C3%A7amento%20p%C3%BAblico,%20Brasil,equals"
+            }
+          }
+        }, {
+          "label" : "Gestão pública",
+          "count" : 12,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=manual%2520comunica%25C3%25A7%25C3%25A3o&f.subject=Gest%C3%A3o%20p%C3%BAblica,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "dateIssued",
+      "facetType" : "date",
+      "facetLimit" : 5,
+      "minValue" : "0018",
+      "maxValue" : "Anais do Parlamento Brasileiro, 1862, tomo III.",
+      "page" : {
+        "number" : 0,
+        "size" : 5
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/facets/dateIssued?query=manual%20comunica%C3%A7%C3%A3o&size=5"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "1640 - 2026",
+          "count" : 522,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=manual%2520comunica%25C3%25A7%25C3%25A3o&f.dateIssued=%5B1640%20TO%202026%5D,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "has_content_in_original_bundle",
+      "facetType" : "standard",
+      "facetLimit" : 2,
+      "page" : {
+        "number" : 0,
+        "size" : 2
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/facets/has_content_in_original_bundle?query=manual%20comunica%C3%A7%C3%A3o&size=2"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "true",
+          "count" : 591,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://bd-rest.camara.leg.br/server/api/discover/search/objects?query=manual%2520comunica%25C3%25A7%25C3%25A3o&f.has_content_in_original_bundle=true,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "entityType",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "_links" : {
+        "self" : {
+          "href" : "https://bd-rest.camara.leg.br/server/api/discover/facets/entityType?query=manual%20comunica%C3%A7%C3%A3o"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    } ]
+  }
+}

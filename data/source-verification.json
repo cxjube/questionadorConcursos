@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-26T18:11:05.491699+00:00",
-  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23. Comment completion: two Priberam entries retain the initial official publisher download bytes; no independent second download is claimed. Ninth source discovery: 16 new paper/key PDFs independently re-downloaded with byte equality; two Microsoft Learn HTML references retain initial publisher bytes. Complete source inventory is separate from individually released questions. Existing matches are historical evidence; not every old source was downloaded again. Tenth batch: one PF 2025 Bloco II pair independently re-downloaded with identical bytes; three Câmara current legal HTML references retain initial official download bytes. Compatibility is limited to cited active clauses as of 2026-10-23. Other prior sources were not all downloaded again. Eleventh batch: SERPRO 2023 and STJ 2024 basic paper/definitive-key PDFs independently re-downloaded byte-identically. Initial Câmara improbity-law and Microsoft Teams HTML downloads retained. Current review is limited to cited clauses and technical conditions; older evidence remains historical. Resumed on 2026-10-26: IPv6 and DNS initial Microsoft Learn reference bytes retained; seven legal items rechecked against cited active official clauses and Teams conditions rechecked, with separate evidence in data/reviews/eleventh-reference-rechecks.json. No new questions use annulled STJ Power BI items.",
+  "checkedAt": "2026-10-26T19:14:09.650685+00:00",
+  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23. Comment completion: two Priberam entries retain the initial official publisher download bytes; no independent second download is claimed. Ninth source discovery: 16 new paper/key PDFs independently re-downloaded with byte equality; two Microsoft Learn HTML references retain initial publisher bytes. Complete source inventory is separate from individually released questions. Existing matches are historical evidence; not every old source was downloaded again. Tenth batch: one PF 2025 Bloco II pair independently re-downloaded with identical bytes; three Câmara current legal HTML references retain initial official download bytes. Compatibility is limited to cited active clauses as of 2026-10-23. Other prior sources were not all downloaded again. Eleventh batch: SERPRO 2023 and STJ 2024 basic paper/definitive-key PDFs independently re-downloaded byte-identically. Initial Câmara improbity-law and Microsoft Teams HTML downloads retained. Current review is limited to cited clauses and technical conditions; older evidence remains historical. Resumed on 2026-10-26: IPv6 and DNS initial Microsoft Learn reference bytes retained; seven legal items rechecked against cited active official clauses and Teams conditions rechecked, with separate evidence in data/reviews/eleventh-reference-rechecks.json. No new questions use annulled STJ Power BI items. Twelfth batch: two complete CNJ/TCEAC paper and definitive-key pairs independently downloaded twice with matching bytes; historical records are not repeated downloads. Four initial official Câmara legal HTML downloads retained; no second binary download is claimed for HTML. Compatibility is limited to cited active clauses as of 2026-10-26.",
   "documents": [
     {
       "documentId": "camara-2026-edital-01-documento",
@@ -527,6 +527,62 @@
       "outcome": "byte_match",
       "officialUrl": "https://learn.microsoft.com/en-us/windows-server/networking/dns/dns-overview",
       "remoteSha256": "a2346c530f0c174cd5589430c485d51f9670c16a6b9e587f6a4a8421212624e0"
+    },
+    {
+      "documentId": "source-979-cnj-007-01-paper",
+      "localSha256": "21ae6a54865e95f3bee2307116a73287784aa7244969e738ff4f4646b31322b2",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CNJ_24/arquivos/979_CNJ_007_01.PDF",
+      "remoteSha256": "21ae6a54865e95f3bee2307116a73287784aa7244969e738ff4f4646b31322b2"
+    },
+    {
+      "documentId": "source-979-cnj-007-01-key",
+      "localSha256": "0f297e43b48c4331b4bccb44e02a9488f44268022a791997ddd4b43a2bda1c26",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CNJ_24/arquivos/GAB_DEFINITIVO_979_CNJ_007_01.PDF",
+      "remoteSha256": "0f297e43b48c4331b4bccb44e02a9488f44268022a791997ddd4b43a2bda1c26"
+    },
+    {
+      "documentId": "source-993-tce-ac-cb3-01-paper",
+      "localSha256": "c52c9a32df8a9fd3b6674356fecf6b827a8d3401eb76ad129b12304bd4b7f31a",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCE_AC_24/arquivos/993_TCE_AC_CB3_01.PDF",
+      "remoteSha256": "c52c9a32df8a9fd3b6674356fecf6b827a8d3401eb76ad129b12304bd4b7f31a"
+    },
+    {
+      "documentId": "source-993-tce-ac-cb3-01-key",
+      "localSha256": "5a509e9e394f84ea4c6fc170173ee817cf9c6cae13d206c32c6af3416c7d1dec",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCE_AC_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_CB3_01.PDF",
+      "remoteSha256": "5a509e9e394f84ea4c6fc170173ee817cf9c6cae13d206c32c6af3416c7d1dec"
+    },
+    {
+      "documentId": "reference-lei-12232-2010",
+      "localSha256": "7ac5ce924d75c6e448e6e757dcbe9dc73982d0439bbb3ca1f8219f049c32c65f",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.html",
+      "outcome": "byte_match",
+      "remoteSha256": "7ac5ce924d75c6e448e6e757dcbe9dc73982d0439bbb3ca1f8219f049c32c65f"
+    },
+    {
+      "documentId": "reference-decreto-9203-2017",
+      "localSha256": "cc9e9c5356e5c1578af402f769c80ee2dd831facae27b0cbb9a5a971d9b38f2a",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.html",
+      "outcome": "byte_match",
+      "remoteSha256": "cc9e9c5356e5c1578af402f769c80ee2dd831facae27b0cbb9a5a971d9b38f2a"
+    },
+    {
+      "documentId": "reference-decreto-1171-1994",
+      "localSha256": "c6d7b4872af6517619fdf7db149333331d9bfc452d4001b88e80a53fe065864b",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/decret/1994/decreto-1171-22-junho-1994-449441-normaatualizada-pe.html",
+      "outcome": "byte_match",
+      "remoteSha256": "c6d7b4872af6517619fdf7db149333331d9bfc452d4001b88e80a53fe065864b"
+    },
+    {
+      "documentId": "reference-lei-5172-1966",
+      "localSha256": "dc32f69ddba5b4c0cdd7952091c74d755c1e0e699a444aa3566819b94422b650",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html",
+      "outcome": "byte_match",
+      "remoteSha256": "dc32f69ddba5b4c0cdd7952091c74d755c1e0e699a444aa3566819b94422b650"
     }
   ],
   "corroboration": [

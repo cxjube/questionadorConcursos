@@ -1,0 +1,828 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="apple-itunes-app" content="app-id=1049343067" />
+    <meta name="google-play-app" content="app-id=br.leg.camara.infolegmovel" />
+    <script>
+      (function () {
+        let initialized = false;
+        let loading = false;
+
+        function ensureBody(callback) {
+          if (document.body) {
+            callback();
+          } else {
+            setTimeout(() => ensureBody(callback), 50);
+          }
+        }
+
+        function loadScript() {
+          if (loading || window.VLibras) return;
+          loading = true;
+
+          ensureBody(() => {
+            const s = document.createElement("script");
+            s.src = "https://vlibras.gov.br/app/vlibras-plugin.js";
+            s.onload = initVLibras;
+            document.body.appendChild(s);
+          });
+        }
+
+        function initVLibras() {
+          if (initialized || !window.VLibras) return;
+
+          ensureBody(() => {
+            if (!document.querySelector("[vw]")) {
+              const container = document.createElement("div");
+              container.innerHTML = `
+              <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                  <div class="vw-plugin-top-wrapper"></div>
+                </div>
+              </div>
+            `;
+              document.body.appendChild(container);
+            }
+
+            (new window.VLibras.Widget(
+              "https://vlibras.gov.br/app",
+              "https://vlibras.gov.br/config/camara.json",
+            ),
+              $("body").append(
+                '<aside><div vw class="enabled"><div vw-access-button class="active"></div><div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div></div></aside>',
+              ));
+            initialized = true;
+
+            injectCSS();
+            if (!window.location.pathname.includes("/comissoes")) {
+              bindButton();
+            }
+          });
+        }
+
+        function injectCSS() {
+          if (document.getElementById("vlibras-style")) return;
+          const style = document.createElement("style");
+          style.id = "vlibras-style";
+          style.innerHTML = `
+          [vw-access-button] { display: none !important; }
+          div[vw] { z-index: 999999 !important; }
+        `;
+          document.head.appendChild(style);
+        }
+
+        function bindButton() {
+          const btn = document.getElementById("meu-botao-vlibras");
+          if (!btn) {
+            setTimeout(bindButton, 300);
+            return;
+          }
+
+          btn.onclick = function (e) {
+            e.preventDefault();
+            const original = document.querySelector("[vw-access-button]");
+            if (original) original.click();
+          };
+        }
+
+        // OBSERVA MUTA&#199;&#213;ES DO DOM (ESSENCIAL NO PLONE)
+        const observer = new MutationObserver(() => {
+          if (!document.querySelector("[vw]") && !initialized) {
+            loadScript();
+          }
+        });
+
+        observer.observe(document.documentElement, {
+          childList: true,
+          subtree: true,
+        });
+
+        window.addEventListener("load", loadScript);
+      })();
+    </script>
+
+    <title>Portal da Câmara dos Deputados</title>
+  <style type="text/css">@import url(https://www2.camara.leg.br/portal_css/camara_leg_viradadigital/member-cachekey-46bb2e0fc9968a457e63f356c0ff3900.css);</style><style type="text/css">@import url(https://www2.camara.leg.br/portal_css/camara_leg_viradadigital/portlets-cachekey-8a45f49b338591ae0c9c8a91f261dc78.css);</style><style type="text/css" media="screen">@import url(https://www2.camara.leg.br/portal_css/camara_leg_viradadigital/deprecated-cachekey-32595b622b36f2eee9478f07796d4f67.css);</style><style type="text/css" media="screen">@import url(https://www2.camara.leg.br/portal_css/camara_leg_viradadigital/resourceplone.app.discussion.stylesheetsdiscussion-cachekey-5b23f388acd88bdb65020b51a5a278fb.css);</style><style type="text/css">@import url(https://www2.camara.leg.br/portal_css/camara_leg_viradadigital/elements-cachekey-57e40a70bd8192a6f63782abff5c2748.css);</style><style type="text/css" media="all">@import url(https://www2.camara.leg.br/portal_css/camara_leg_viradadigital/ploneCustom-cachekey-7fb44e17264e070fccf4e31d9f2ada1c.css);</style><link rel="stylesheet" type="text/css" href="https://www2.camara.leg.br/portal_css/camara_leg_viradadigital/themecamara.leg.viradadigitalcsslibsbootstrap-datetimepicker.min-cachekey-ab2d257c1b49d2d194633e2ecb4564a2.css" /><link rel="stylesheet" type="text/css" href="https://www.camara.leg.br/tema/global/camara-custom.css" /><link rel="stylesheet" type="text/css" href="https://www2.camara.leg.br/portal_css/camara_leg_viradadigital/++theme++camara.leg.viradadigital/css/all.min.css" /><link rel="apple-touch-icon" sizes="180x180" href="https://www.camara.leg.br/tema/apple-touch-icon.png" /><link rel="icon" type="image/png" sizes="32x32" href="https://www.camara.leg.br/tema/favicon-32x32.png" /><link rel="icon" type="image/png" sizes="16x16" href="https://www.camara.leg.br/tema/favicon-16x16.png" /><link rel="manifest" href="https://www.camara.leg.br/tema/site.webmanifest" /><link rel="mask-icon" href="https://www.camara.leg.br/tema/safari-pinned-tab.svg" color="#009e49" /><link rel="search" href="http://www2.camara.leg.br/busca-geral" title="Buscar neste site" /><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/resourceplone.app.jquery-cachekey-3fa72abea58e1799bd3b0bc237335d45.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/styleswitcher-cachekey-9178d2d1bc80488214ac8d40a46c7bdf.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/impressaoIframes-cachekey-7de901cf3c737563606c12fa53b7a321.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/GoogleAnalyticsTracker.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/kss-bbb-cachekey-df10a37e7aa4176c3b122c2e3b0ee128.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/inline_validation-cachekey-35d4d75a94cdb17b403a636871dd92cb.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitaljsbootstrap.min-cachekey-c15df71e2ec454087fe4c4eab0ce9d3e.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitaljslibsmoment.min-cachekey-860514b918ea422f7e82fa48125015c4.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitaljslibsmoment-pt-br-cachekey-0aafba4fb000126f1ed0f6701186de00.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitaljslibsbootstrap-datetimepicker.min-cachekey-fac2884b384d9c99236b26d0746facc4.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitaljslibsjquery.maskedinput.min-cachekey-e2f8b2523378532cc132594675b6dc6f.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitaljsacoes-tema-cachekey-a0084cf69f1785571a18f6a58a4986ac.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitaljscorrecoes-bootstrap-tema-cachekey-bd4c19550531506aa59d8b0aa7e8d6c5.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitalviradadigitalvendorjquery.mmenu.all-cachekey-f0e297313e30d6b2b2c2588ef23b5ef2.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitalviradadigitaljsvd_correcoes-cachekey-52a3614631388ad9e07bf35264bc73d5.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitalviradadigitaljsmmenu-correcoes-cachekey-8e45cc1e451978774afbfe2f5f1e95cf.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitalviradadigitaljsselecao-idioma-cachekey-998dbb210e1353a5d7f94011740ee16c.js"></script><meta name="msapplication-TileColor" content="#00a300" /><meta name="msapplication-TileImage" content="https://www.camara.leg.br/tema/mstile-144x144.png" /><meta name="theme-color" content="#009e49" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><link rel="canonical" href="" /><script type="text/javascript">
+          $("link[rel='canonical']").attr("href", window.location.href);
+        </script>
+
+
+
+
+
+
+
+<title>ATO DA MESA Nº 218, DE 30/09/2025 - Publicação Original - Portal Câmara dos Deputados</title>
+
+<meta name="description" content="Publicação de Ato da Mesa: Institui a Política de Comunicação Social da Câmara dos Deputados." />
+
+<!-- Coloque aqui sua referência ao CSS local -->
+<link rel="stylesheet" type="text/css" href="../../../_css/legislacao-v1.css" />
+
+<!-- Coloque aqui seu javascript -->
+<!-- script type="text/javascript" src="caminho-e-nome-do-arquivo.js"></script -->
+
+</head>
+<body>
+    <header class="l-cabecalho-portal" role="banner" id="portal-header">
+        <ul aria-label="Acesso direto" class="acesso-direto">
+          <!-- Links para saltar diretamente para &#225;reas importantes da p&#225;gina accesskey 2 = conte&#250;do e 3 = navega&#231;&#227;o -->
+          <li>
+            <a class="acesso-direto__link" href="#main-content" accesskey="2">Ir ao conteúdo</a>
+          </li>
+          <li>
+            <a class="acesso-direto__link" href="#main-nav" accesskey="3">Ir à navegação principal</a>
+          </li>
+        </ul>
+
+        <!--[if lte IE 9]>
+          <p class="browserupgrade">
+            Voc&#234; est&#225; usando um navegador <strong>defasado</strong>. Por favor,
+            <a href="https://browsehappy.com/">atualize seu navegador</a> para
+            melhorar sua experi&#234;ncia e sua seguran&#231;a.
+          </p>
+        <![endif]-->
+
+        <div class="nav-top">
+          <div class="container nav-top--container">
+            <a href="https://www2.camara.leg.br" class="logo-camara" accesskey="1"><span class="sr-only">Página inicial</span></a>
+
+            <div class="nav-top__palacio"></div>
+
+            <div class="nav-top__menu-superior">
+              <ul aria-label="Ferramentas de apoio" class="links-apoio">
+                <li class="links-apoio__item links-apoio__item--vlibras">
+                  <a id="meu-botao-vlibras" href="javascript:void(0);">
+                    <span>
+                      <img src="https://www.camara.leg.br/tema/assets/images/ico-vlibras-branco.png" alt="Ativar VLibras" width="28px" height="30px" />
+                    </span>
+                  </a>
+                </li>
+                <li class="links-apoio__item links-apoio__item--acessibilidade">
+                  <a href="https://www2.camara.leg.br/acessibilidade/recursos-de-acessibilidade" accesskey="0">Acessibilidade</a>
+                </li>
+                <li class="links-apoio__item links-apoio__item--faleconosco">
+                  <a href="https://www.camara.leg.br/fale-conosco" accesskey="9">Fale Conosco</a>
+                </li>
+              </ul>
+
+              <ul class="orgaos-parceiros" aria-label="Órgãos parceiros">
+                <li class="orgaos-parceiros__item orgaos-parceiros__item--congresso">
+                  <a href="http://www.congressonacional.leg.br"><span>Congresso</span></a>
+                </li>
+                <li class="orgaos-parceiros__item orgaos-parceiros__item--senado">
+                  <a href="http://www.senado.leg.br"><span>Senado</span></a>
+                </li>
+              </ul>
+
+              <div class="lista-idiomas">
+                <button class="botao-idioma-topo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="4,0">
+                  <span class="botao-idioma-topo__sigla">PT</span>
+                </button>
+
+                <ul class="dropdown-menu dropdown-menu-right l-lista-idiomas" aria-label="Idioma">
+                  <li class="l-lista-idiomas__item">
+                    <a href="https://www2.camara.leg.br/english" class="idioma-topo">
+                      <span class="idioma-topo__bandeira idioma-topo__bandeira--ingles" aria-hidden="true"></span>
+                      <span class="idioma-topo__nome">English</span>
+                      <span class="idioma-topo__sigla">EN</span>
+                    </a>
+                  </li>
+                  <li class="l-lista-idiomas__item">
+                    <a href="https://www2.camara.leg.br/espanol" class="idioma-topo">
+                      <span class="idioma-topo__bandeira idioma-topo__bandeira--espanhol" aria-hidden="true"></span>
+                      <span class="idioma-topo__nome">Español</span>
+                      <span class="idioma-topo__sigla">ES</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="home-camara-menu">
+    <nav class="menu-global navbar navbar-expand-lg" role="navigation" aria-label="Navegação principal" id="menuglobal">
+      <div class="container menu-global--container">
+      
+
+        <a href="https://www.camara.leg.br" class="logo-camara" accesskey="1">
+          <span class="sr-only">Página inicial</span>
+        </a>
+
+      
+        
+        <!-- icone menu -->
+        <button class="menu-global--btnmenu navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarportal" aria-controls="navbarportal" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="menu-global--icon"></span>
+        </button>
+
+        <!-- icone busca -->
+        <button class="menu-global--btnsearch" type="button" data-toggle="collapse" data-target="#buscaportal" aria-controls="buscaportal" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fa fa-search"></span>
+        </button>
+
+        <div class="navbar-collapse hidden-sm hidden-md hidden-xs" id="navbarportal">
+          <ul title="Navegação Principal" id="main-nav" class="navbar-nav">
+            
+              
+                <li class="nav-item dropdown">
+                  <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="menu-global__item-temas nav-link dropdown-toggle" id="temas">Assuntos</a>
+
+                  
+                    <ul class="dropdown-menu" aria-labelledby="temas">
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/agropecuaria">Agropecuária</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/cidades-e-transportes">Cidades e transportes</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/ciencia-tecnologia-e-comunicacoes">Ciência, tecnologia e comunicações</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/consumidor">Consumidor</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/direitos-humanos">Direitos humanos</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/economia">Economia</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/educacao-cultura-e-esportes">Educação, cultura e esportes</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/meio-ambiente-e-energia">Meio ambiente e energia</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/politica-e-administracao-publica">Política e administração pública</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/relacoes-exteriores">Relações exteriores</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/saude">Saúde</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/seguranca">Segurança</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/trabalho-previdencia-e-assistencia">Trabalho, previdência e assistência</a>
+                      </li>
+                    </ul>
+                  
+                </li>
+              
+            
+            
+              
+                <li class="nav-item dropdown">
+                  <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="menu-global__item-institucional nav-link dropdown-toggle" id="institucional">Institucional</a>
+
+                  
+                    <ul class="dropdown-menu" aria-labelledby="institucional">
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/agenda">Agenda</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www2.camara.leg.br/transparencia/servicos-ao-cidadao">Serviços</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www2.camara.leg.br/a-camara/estruturaadm/mesa/presidencia">Presidência</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/biblioteca-e-publicacoes/">Biblioteca e publicações</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/escola-da-camara/">Escola da Câmara</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/papel-e-estrutura/">Papel e estrutura</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/historia-e-arquivo/">História e arquivo</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www2.camara.leg.br/a-camara/visiteacamara">Visite</a>
+                      </li>
+                    </ul>
+                  
+                </li>
+              
+            
+            
+              
+                <li class="nav-item dropdown">
+                  <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="menu-global__item-deputados nav-link dropdown-toggle" id="deputados">Deputados</a>
+
+                  
+                    <ul class="dropdown-menu" aria-labelledby="deputados">
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/deputados/quem-sao">Quem são</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/deputados/liderancas-e-bancadas-partidarias">Lideranças e bancadas</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www2.camara.leg.br/deputados/frentes-e-grupos-parlamentares">Frentes e grupos parlamentares</a>
+                      </li>
+                    </ul>
+                  
+                </li>
+              
+            
+            
+              
+                <li class="nav-item dropdown">
+                  <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="menu-global__item-atvlegislativa nav-link dropdown-toggle" id="atvlegislativa">Atividade Legislativa</a>
+
+                  
+                    <ul class="dropdown-menu" aria-labelledby="atvlegislativa">
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/busca-portal/proposicoes/pesquisa-simplificada">Propostas legislativas</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/plenario">Plenário</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/comissoes">Comissões</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/sessoesereunioes">Sessões e reuniões</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www2.camara.leg.br/atividade-legislativa/estudos-e-notas-tecnicas">Estudos legislativos</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www2.camara.leg.br/atividade-legislativa/orcamento-da-uniao">Orçamento da União</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/legislacao">Legislação</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/entenda-o-processo-legislativo/">Entenda o processo legislativo</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www2.camara.leg.br/atividade-legislativa/participe">Participe</a>
+                      </li>
+                    </ul>
+                  
+                </li>
+              
+            
+            
+              
+                <li class="nav-item dropdown">
+                  <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="menu-global__item-comunicacao nav-link dropdown-toggle" id="comunicacao">Comunicação</a>
+
+                  
+                    <ul class="dropdown-menu" aria-labelledby="comunicacao">
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/noticias">Agência Câmara de Notícias</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/radio">Rádio Câmara</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/tv">TV Câmara</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/banco-imagens">Banco de Imagens</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assessoria-de-imprensa">Assessoria de Imprensa</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/comprove">Comprove uma notícia</a>
+                      </li>
+                    </ul>
+                  
+                </li>
+              
+            
+            
+              
+                <li class="nav-item dropdown">
+                  <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="menu-global__item-transprestcontas nav-link dropdown-toggle" id="transprestcontas">Transparência e prestação de contas</a>
+
+                  
+                    <ul class="dropdown-menu" aria-labelledby="transprestcontas">
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/transparencia/">Transparência</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www2.camara.leg.br/transparencia/prestacao-de-contas">Prestação de contas</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://dadosabertos.camara.leg.br/">Dados abertos</a>
+                      </li>
+                    </ul>
+                  
+                </li>
+              
+            
+          </ul>
+          <div class="outras-opcoes-menu-usuario hidden-md hidden-lg">
+            <ul aria-label="Ferramentas de apoio" class="links-apoio links-apoio--menu-mobile">
+              <li class="links-apoio__item links-apoio__item--acessibilidade">
+                <a href="https://www2.camara.leg.br/acessibilidade/recursos-de-acessibilidade" accesskey="0">Acessibilidade</a>
+              </li>
+              <li class="links-apoio__item links-apoio__item--faleconosco">
+                <a href="https://www.camara.leg.br/fale-conosco" accesskey="9">Fale Conosco</a>
+              </li>
+            </ul>
+          </div>
+          <div class="lista-idiomas hidden-md hidden-lg">
+            <button id="botao-idioma-topo" class="botao-idioma-topo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="4,0">
+                <span class="botao-idioma-topo__sigla">PT</span>
+            </button>
+        
+            <ul class="dropdown-menu-right l-lista-idiomas " aria-label="Idioma">
+                <li class="l-lista-idiomas__item">
+                    <a href="https://www2.camara.leg.br/english" class="idioma-topo">
+                        <span class="idioma-topo__bandeira idioma-topo__bandeira--ingles" aria-hidden="true"></span>
+                        <span class="idioma-topo__nome">English</span>
+                        <span class="idioma-topo__sigla">EN</span>
+                    </a>
+                </li>
+                <li class="l-lista-idiomas__item">
+                    <a href="https://www2.camara.leg.br/espanol" class="idioma-topo">
+                        <span class="idioma-topo__bandeira idioma-topo__bandeira--espanhol" aria-hidden="true"></span>
+                        <span class="idioma-topo__nome">Español</span>
+                        <span class="idioma-topo__sigla">ES</span>            
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
+
+
+        <div class="collapse box-search" id="buscaportal">
+          <form role="search" accesskey="4" class="box-search__busca form-inline" action="https://www.camara.leg.br/busca-geral">
+            <label for="termo" class="sr-only box-search__label">Pesquise no Portal da Câmara</label>
+            <input class="form-control box-search__campo" type="search" name="termo" id="termo" placeholder="Buscar" aria-label="Search" />
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+      </header>
+
+    <div class="breadcrumbs-marcacao">
+        <div class="container">
+            <nav aria-label="Onde estou">
+                <ol class="breadcrumb portal-breadcrumbs">
+                    <li class="breadcrumb-item"><a href="//www.camara.leg.br">Início</a></li>
+                    
+	<li class='breadcrumb-item'><a href='http://www2.camara.gov.br/atividade-legislativa'>Atividade Legislativa</a></li>
+    <li class='breadcrumb-item'><a href='http://www2.camara.gov.br/atividade-legislativa/legislacao'>Legislação</a></li>
+
+                    <li class="breadcrumb-item active" aria-current="page">Esta página</li>
+                </ol>
+            </nav>
+        </div>
+        
+        <div class="container-fluid p-0">
+            <div id="menu-secoes-internas" class="menu-secoes-internass">
+                <div id="portal-mainsection">
+                    <div class="l-identificacao-landing">
+                        <div class="container">
+                            <h1 class="titulo-landing">Legislação</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="marcacao-conteudo-portal" class="conteudo-portal container nopadding-right nopadding-left">
+        <div class="coluna-centro col-md-12">
+
+
+<div id="portal-column-content">
+	<div id="portal-content-wrapper">
+		<div class="documentContent">
+			<div id="content">
+	
+				<h2 class="documentFirstHeading">Legislação Informatizada - ATO DA MESA Nº 218, DE 30/09/2025 - Publicação Original</h2>
+				<div class="vejaTambem">
+			    	<p>Veja também:</p>
+			    	<ul>
+                                    <li>
+                                        <a href="atodamesa-218-30-setembro-2025-798137-norma-cd-mesa.html">Dados da Norma</a>
+                                    </li>
+                                </ul>
+			    </div>	
+                                
+
+					<h1>ATO DA MESA Nº 218, DE 30/09/2025</h1>
+				
+				<div class="textoNorma">
+				
+						<p class="ementa">
+							Institui a Política de Comunicação Social da Câmara dos Deputados.
+						</p>
+				
+						<div class="texto">
+							<P align=left><FONT size=3 face=*Times#20New#20Roman-8291><FONT size=3 face=*Times#20New#20Roman-8291>&nbsp;&nbsp;&nbsp;&nbsp; <STRONG>A MESA DA CÂMARA DOS DEPUTADOS</STRONG>, por ato de seu Presidente, <EM>ad referendum</EM> da Mesa Diretora, com base no art. 15, VII e § 1º, do <A href="http://www2.camara.gov.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-norma-pl.html">Regimento Interno da Câmara dos Deputados</A>, resolve: <BR><BR></P>
+<CENTER><B>CAPÍTULO I <BR>DAS DISPOSIÇÕES GERAIS </CENTER>
+<P align=left></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 1º&nbsp;Fica instituída a Política de Comunicação Social da Câmara&nbsp;dos Deputados, que compreende princípios, objetivos, diretrizes, públicos, canais, requisitos, vedações e define atribuições e instrumentos para a gestão coordenada, sinérgica, responsável e técnica dos processos e produtos comunicacionais. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<I>Parágrafo único. </I>Não se aplica a política estabelecida neste ato aos produtos comunicacionais criados ou contratados diretamente por deputados federais, gabinetes parlamentares e lideranças partidárias. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 2º&nbsp;Para os fins desta Política, definem-se:&nbsp;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<TABLE>
+<TBODY>
+<TR>
+<TD width=20></TD>
+<TD vAlign=UP width=30 align=right><I>a)</I></TD>
+<TD>conteúdo: informação cuja produção e difusão se dá em formatos destinados à divulgação, como texto, imagem, áudio e vídeo, com características jornalísticas, publicitárias ou de outras linguagens de comunicação; </TD></TR></TBODY></TABLE>
+<TABLE>
+<TBODY>
+<TR>
+<TD width=20></TD>
+<TD vAlign=UP width=30 align=right><I>b)</I></TD>
+<TD>canal de comunicação: meio pelo qual se transmite um conteúdo para um ou mais públicos, podendo ser interno ou externo, próprio ou de terceiros, como as plataformas digitais privadas; </TD></TR></TBODY></TABLE>
+<TABLE>
+<TBODY>
+<TR>
+<TD width=20></TD>
+<TD vAlign=UP width=30 align=right><I>c)</I></TD>
+<TD>ação de comunicação: atividade que a Câmara dos Deputados desenvolve para alcançar objetivos de comunicação específicos, podendo fazer parte de projetos e de programas; </TD></TR></TBODY></TABLE>
+<TABLE>
+<TBODY>
+<TR>
+<TD width=20></TD>
+<TD vAlign=UP width=30 align=right><I>d)</I></TD>
+<TD>projeto: conjunto de ações com objetivos de comunicação específicos e duração definida; </TD></TR></TBODY></TABLE>
+<TABLE>
+<TBODY>
+<TR>
+<TD width=20></TD>
+<TD vAlign=UP width=30 align=right><I>e)</I></TD>
+<TD>programa: conjunto de ações ou de projetos com objetivos de comunicação específicos, podendo incluir ações permanentes ou cíclicas. &nbsp;</TD></TR></TBODY></TABLE><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<I>Parágrafo único. </I>O glossário de termos constante do Anexo Único contém os demais conceitos necessários à definição do escopo e&nbsp;à aplicação desta Política. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 3º&nbsp;As unidades e órgãos da Câmara dos Deputados não ressalvados pelo parágrafo único do art. 1º deverão adequar seus planos, programas, projetos e processos de trabalho vigentes atinentes à comunicação social à política estabelecida neste Ato. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<I>Parágrafo único. </I>A Política de Comunicação Social se aplica a todos que atuam nas unidades e órgãos da Câmara dos Deputados não ressalvados pelo parágrafo único do art. 1º e o seu descumprimento implicará nas penalidades previstas na legislação vigente e nos normativos internos pertinentes. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 4º&nbsp;Qualquer pessoa que considerar os conteúdos comunicativos impróprios ou em desconformidade com esta Política poderão dirigir sua reclamação à Ouvidoria Parlamentar ou aos serviços de atendimento ao cidadão da Câmara dos Deputados. <BR><BR></P>
+<CENTER><B>CAPÍTULO II </CENTER></B>
+<CENTER><B>DOS PRINCÍPIOS, OBJETIVOS E DIRETRIZES&nbsp;<BR></B>&nbsp;</CENTER>
+<CENTER><B>SEÇÃO I </CENTER></B>
+<CENTER><B>Dos Princípios </CENTER>
+<P align=left></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 5º&nbsp;A Política de Comunicação Social da Câmara dos Deputados é regida pelos princípios da imparcialidade, do pluralismo, do equilíbrio, da transparência e da precisão. <BR><BR></P>
+<CENTER><B>SEÇÃO II </CENTER></B>
+<CENTER><B>Dos objetivos </CENTER>
+<P align=left></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 6º&nbsp;A comunicação da Câmara dos Deputados tem como objetivos: <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I - fortalecer a imagem institucional por meio de informações que contribuam para o melhor entendimento dos atos e processos decisórios da Câmara dos Deputados; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II - consolidar os canais de comunicação da Câmara dos Deputados como fontes primárias confiáveis, imparciais e acessíveis de informação sobre suas atividades; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III - ampliar a conexão entre os cidadãos e seus representantes eleitos, enfatizando a importância do Parlamento para a democracia; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IV - incluir e buscar ativamente uma crescente diversidade de públicos, com vistas à universalização do acesso aos conteúdos dos canais de comunicação da Câmara dos Deputados; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V - aprofundar a transparência da atuação legislativa e da gestão da Câmara dos Deputados, com fidelidade aos fatos, clareza na informação e linguagem acessível; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VI - ampliar a interação da Câmara dos Deputados com a sociedade, estimulando o diálogo e a participação dos cidadãos no processo legislativo; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VII - dar suporte à educação para a democracia e ao esclarecimento sobre o processo legislativo; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VIII - auxiliar a gestão da Câmara dos Deputados, por meio da comunicação com os públicos internos. <BR><BR></P>
+<CENTER><B>SEÇÃO III </CENTER></B>
+<CENTER><B>Das Diretrizes </CENTER>
+<P align=left></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 7º&nbsp;São diretrizes da Política de Comunicação Social da Câmara dos Deputados: <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I - estabelecer uma voz institucional representativa, que conviva com a pluralidade política de seus integrantes, ao mesmo tempo em que possa ser facilmente reconhecível em todo e qualquer produto comunicacional da Câmara dos Deputados; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II - contextualizar os conteúdos no plano político-social geral, preservando a imparcialidade, de forma a incrementar a relevância da comunicação, num cenário de profusão informacional, buscando atender às demandas do Parlamento e da sociedade; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III - apresentar de forma clara o processo de negociação inerente à atividade parlamentar e dar visibilidade e concretude ao trabalho do Parlamento e aos seus efeitos para a vida do cidadão, contribuindo para ampliar o debate democrático e a participação popular; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IV - expor o conteúdo de modo explicativo, elucidativo e didático, procurando sempre a pesquisa e a experimentação de novas linguagens, mais acessíveis e atrativas, de acordo com as especificidades de cada canal de comunicação e de cada público; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V - privilegiar o aspecto coletivo e de interesse público nos conteúdos comunicacionais e na interação com o cidadão por meio dos canais de comunicação; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VI - adotar critérios que respeitem a diversidade de opiniões e as <SPAN style='FONT-SIZE: 12pt; FONT-FAMILY: "*Times#20New#20Roman-8291","serif"; LINE-HEIGHT: 115%; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-family: "Times New Roman"; mso-ansi-language: PT-BR; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA'>características</SPAN> da atuação do Poder Legislativo, buscando garantir o equilíbrio na apresentação das posições políticas; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VII - observar padrões éticos para garantir a imparcialidade, sem privilegiar interesses individuais partidários, comerciais ou empresariais; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VIII - promover a cultura da transparência na Administração Pública, o exercício da cidadania e a liberdade de expressão; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IX - manter procedimentos para identificação de situações de risco para a imagem da Câmara dos Deputados e para o enfrentamento de crises no âmbito comunicacional; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X - incentivar a inovação de conteúdos, linguagens, formatos e processos de trabalho visando o melhor uso dos recursos para o atendimento ao cidadão; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XI - priorizar a divulgação das atividades do Plenário e das Comissões; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XII - cumprir o disposto no art. 221 da Constituição Federal, que determina a diversidade da produção e da programação das emissoras de rádio e televisão, com preferência por conteúdos de finalidades educativas, artísticas, culturais e informativas, bem como a promoção da cultura nacional e regional e da produção independente, priorizando a conexão dessas finalidades e desses conteúdos com a atuação da Câmara dos Deputados; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XIII - sistematizar procedimentos regulares de pesquisa e de tratamento de dados sobre a percepção da população a respeito do trabalho legislativo e sobre o acesso aos produtos de comunicação para avaliar e aperfeiçoar as ações de comunicação; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XIV - estimular o máximo aproveitamento dos conteúdos que a Câmara dos Deputados produz, seja por meio do regaste, da ressignificação e da reciclagem do acervo, seja por meio do incentivo ao uso por veículos de comunicação externos; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XV - definir prioridades e aprofundar a atuação coordenada e sustentável entre as unidades e órgãos internos, buscando o intercâmbio de informações, de experiências e de pontos de vistas diferenciados, para realizar ações conjuntas referentes a produtos comunicacionais; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XVI - orientar as ações de comunicação interna pelos objetivos de promover a valorização e a motivação das equipes de trabalho e fornecer as informações para o bom cumprimento de suas atividades, com precisão e pertinência; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XVII - respeitar os princípios e regras estabelecidos pela Lei Geral de Proteção de Dados Pessoais - Lei n. 13.079, de 14de agosto de 2018 -, e na Lei de Direitos Autorais - Lei n. 9.610, de 19 de fevereiro de 1998; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XVIII - garantir a acessibilidade dos conteúdos produzidos. <BR><BR></P>
+<CENTER><B>CAPÍTULO III </CENTER></B>
+<CENTER><B>DOS PÚBLICOS E CANAIS&nbsp;</B><BR>&nbsp;</CENTER>
+<CENTER><B>SEÇÃO I </CENTER></B>
+<CENTER><B>Dos Públicos </CENTER>
+<P align=left></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 8º&nbsp;A Câmara dos Deputados deve se comunicar com todos os cidadãos brasileiros, ampliando o acesso ao Poder Legislativo. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<I>Parágrafo único - </I>Para tornar essa comunicação efetiva, a Diretoria Executiva de Comunicação e Mídias Digitais deve mapear públicos específicos, sejam eles externos ou internos, e gerenciar o relacionamento com cada um deles, de acordo com suas características próprias e seus temas de interesse, usando os canais mais adequados. <BR><BR></P>
+<CENTER><B>SEÇÃO II </CENTER></B>
+<CENTER><B>Dos Canais </CENTER>
+<P align=left></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 9º&nbsp;A Câmara dos Deputados deve avaliar permanentemente os processos e canais mais adequados para se comunicar com cada um de seus públicos, empregando estudos de recepção e de audiência, tendo em vista as mudanças rápidas em tecnologias e no comportamento dos usuários. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 1º A Câmara dos Deputados deve garantir que os seus conteúdos estejam disponíveis em canais próprios e abertos ao público, e poderá adotar plataformas privadas como canais complementares, para ampliação do acesso. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 2º A comunicação da Câmara dos Deputados deve priorizar o uso de linguagem simples, a fim de tornar o processo legislativo acessível aos diversos públicos. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 3º A comunicação da Câmara dos Deputados deve estabelecer procedimentos de checagem, revisão, e aprovação para garantir a observância desta Política e a precisão dos conteúdos publicados em canais próprios ou em plataformas privadas. <BR><BR></P>
+<CENTER><B>CAPÍTULO IV </CENTER></B>
+<CENTER><B>DOS REQUISITOS E DAS VEDAÇÕES&nbsp;</B><BR>&nbsp;</CENTER>
+<CENTER><B>SEÇÃO I </CENTER></B>
+<CENTER><B>Dos Requisitos </CENTER>
+<P align=left></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 10.&nbsp;A Política de Comunicação Social da Câmara dos Deputados atenderá aos seguintes requisitos, necessários ao cumprimento dos seus objetivos e diretrizes: <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I - garantir recursos humanos e materiais para o cumprimento de seus objetivos e diretrizes; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II - desenvolver e/ou adquirir tecnologia atualizada, necessária ao cumprimento dos objetivos e diretrizes; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III - estabelecer instrumentos de planejamento envolvendo as unidades e os órgãos da Câmara dos Deputados; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IV - estabelecer mecanismos para aferir o cumprimento dos objetivos e diretrizes; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V - capacitar, atualizar e especializar servidores, estimulando o desenvolvimento da versatilidade funcional a fim de atender os avanços conceituais e tecnológicos na comunicação e no serviço público; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VI - prever nos editais de licitação e nos contratos que os serviços e trabalhadores contratados observem o disposto nesta Política. <BR><BR></P>
+<CENTER><B>SEÇÃO II </CENTER></B>
+<CENTER><B>Das Vedações </CENTER>
+<P align=left></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 11.&nbsp;É vedado a todos que atuam nas unidades e nos órgãos da Câmara dos Deputados, observadas as exceções do parágrafo único do art. 1º, na produção de conteúdos institucionais: <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I - exprimir opinião própria favorável ou contrária acerca de qualquer tema em debate; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II - aceitar qualquer tipo de pagamento ou vantagem indevida; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III - promover a divulgação de informações sabidamente inverídicas; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IV - descontextualizar falas, textos e imagens, levando à distorção do sentido. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<I>Parágrafo único. </I>A formulação de perguntas e questionamentos para esclarecimento do público acerca das diferentes posições existentes sobre o assunto não configura violação ao disposto no inciso I. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 12.&nbsp;A comunicação da Câmara dos Deputados não deve favorecer posições ou opiniões políticas nem desrespeitar a proporcionalidade da representação partidária na Câmara dos Deputados. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<I>Parágrafo único. </I>Aplicam-se aos produtos de comunicação da Câmara dos Deputados as vedações constantes do parágrafo único do art. 24 do <A href="http://www2.camara.gov.br/legin/int/atomes/2019/atodamesa-80-4-junho-2019-788269-norma-cd-mesa.html">Ato da Mesa n. 80, de 4 de junho de 2019</A>. <BR><BR></P>
+<CENTER><B>CAPÍTULO V </CENTER></B>
+<CENTER><B>DAS ATIVIDADES TÉCNICAS ESPECÍFICAS E DAS ÁREAS DE ATUAÇÃO&nbsp;</B><BR><BR>&nbsp;</CENTER>
+<CENTER><B>SEÇÃO I </CENTER></B>
+<CENTER><B>Das atividades Técnicas Específicas </CENTER>
+<P align=left></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 13.&nbsp;A comunicação institucional deve contribuir para o fortalecimento da imagem da Câmara dos Deputados, utilizando-se de atividades técnicas específicas, tais como: <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I - atividades de jornalismo e de produção audiovisual, que contribuam para a ampliação da transparência da Câmara dos Deputados, com a divulgação de informações que estimulem o debate e a participação no processo legislativo; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II - atividades de publicidade e de relações públicas, que zelem pelo relacionamento com os diversos públicos e pela identidade da Câmara dos Deputados. <BR><BR></P>
+<CENTER><B>SEÇÃO II </CENTER></B>
+<CENTER><B>Das Áreas de Atuação </CENTER>
+<P align=left></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 14.&nbsp;A Secretaria de Comunicação Social (Secom) e a Secretaria de Participação, Interação e Mídias Digitais (Semid), por meio da Diretoria Executiva de Comunicação e Mídias Digitais (Direx), são as áreas responsáveis: <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I - pela gestão das atividades institucionais de jornalismo, produção audiovisual, publicidade, relações públicas e cultura, entre outras atividades técnicas de comunicação da Câmara dos Deputados; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II - por definir os padrões para o processos de comunicação institucional de todas as unidades e órgãos da Câmara dos Deputados, observadas as exceções do parágrafo único do art.1º; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III - por supervisionar a comunicação com os públicos internos e externos; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IV - por divulgar as atividades institucionais da Câmara dos Deputados; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V - por elaborar o planejamento e desenvolver as ações necessárias à implantação desta Política, que integrarão o Plano Bienal de Comunicação da Câmara dos Deputados. <BR><BR></P>
+<CENTER><B>CAPÍTULO VI </CENTER></B>
+<CENTER><B>DAS DISPOSIÇÕES FINAIS </CENTER></B>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 15.&nbsp;O Conselho Consultivo de Comunicação Social da Câmara dos Deputados zelará pela implantação e pela execução da Política de Comunicação Social, com a participação de todas as unidades e órgãos da Câmara dos Deputados. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 16.&nbsp;Este Ato entra em vigor na data de sua publicação. </P>
+<P><BR><STRONG>JUSTIFICAÇÃO</STRONG>&nbsp;<BR><BR><BR>&nbsp;&nbsp;&nbsp;&nbsp; Levando em consideração a edição da <A href="http://www2.camara.gov.br/legin/fed/rescad/2019/resolucaodacamaradosdeputados-6-3-abril-2019-787913-norma-pl.html">Resolução nº 6 de 2019</A>, que altera o Regimento Interno da Câmara dos Deputados, para dispor sobre a Secretaria de Participação, Interação e Mídias Digitais e a Secretaria de Comunicação&nbsp;Social, o disposto no <A href="http://www2.camara.gov.br/legin/int/atoprt_sn/2019/atodopresidente-58003-24-maio-2019-788209-norma-cd-presi.html">Ato do Presidente de 25/5/2019</A>, que cria o Conselho Consultivo de Comunicação Social, e o <A href="http://www2.camara.gov.br/legin/int/atomes/2021/atodamesa-199-9-agosto-2021-791641-norma-cd-mesa.html">Ato da Mesa nº 199, de 9/8/2021</A>, que dispõe sobre a organização da estrutura administrativa da Diretoria Executiva de Comunicação e Mídias Digitais, esta Mesa Diretora institui o presente Ato que estabelece a Política de Comunicação da Câmara dos Deputados. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp; Há que se ressaltar que tal política está em consonância com as Prioridades Estratégicas da Câmara dos Deputados para o período 2025-2032, em especial as seguintes: </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp; <STRONG>Serviços aos deputados</STRONG> - Trabalhamos em sintonia com os deputados para garantir que tenham o assessoramento, as ferramentas, as informações, os recursos e as instalações de que necessitam para exercerem plenamente o mandato parlamentar. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;<SPAN style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN style="mso-list: Ignore">·<SPAN style='FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;</SPAN></SPAN></SPAN> Aprimorar a capacidade organizacional de apoio aos deputados na formulação da agenda legislativa. </P>
+<P><SPAN style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN style="mso-list: Ignore"><FONT face=Arial>&nbsp;&nbsp;&nbsp;&nbsp;</FONT>·<SPAN style='FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;</SPAN></SPAN></SPAN>Prover instalações, recursos e ferramentas adequadas aos deputados para exercício do mandato parlamentar. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp; <STRONG>Transparência e cidadania</STRONG> - Contribuímos para que a Câmara dos Deputados seja transparente, aberta e acessível. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp; <SPAN style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN style="mso-list: Ignore">·<SPAN style='FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;</SPAN></SPAN></SPAN>Dar transparência às ações da Câmara dos Deputados por meio da publicação de informações claras e precisas. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp; <SPAN style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN style="mso-list: Ignore">·<SPAN style='FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;</SPAN></SPAN></SPAN>Garantir que as informações produzidas internamente cheguem aos diversos segmentos da sociedade de forma compreensível. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN style="mso-list: Ignore">·<SPAN style='FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;</SPAN></SPAN></SPAN> Incentivar o entendimento do processo legislativo e dos temas em debates. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp; <STRONG>Gestão de pessoas</STRONG> - Buscamos o equilíbrio entre motivação, qualificação e resultados para a promoção de uma organização produtiva, diversa e coesa, com um ambiente de trabalho saudável. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN style="mso-list: Ignore">·<SPAN style='FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;</SPAN></SPAN></SPAN> Promover um ambiente de trabalho saudável, inclusivo e respeitoso. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN style="mso-list: Ignore">·<SPAN style='FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;</SPAN></SPAN></SPAN> Melhorar a integração, a colaboração e o fluxo de informações entre todos os servidores. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN style="mso-list: Ignore">·<SPAN style='FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;</SPAN></SPAN></SPAN> Estabelecer e promover padrões éticos entre os servidores e esclarecer situações de conflito de interesse. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp; <STRONG>Suporte organizacional</STRONG> - Nosso compromisso é entregar serviços de alta qualidade com eficiência, eficácia e efetividade, sempre conscientes de nossa responsabilidade com o uso de recursos públicos. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN style="mso-list: Ignore">·<SPAN style='FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;</SPAN></SPAN></SPAN> Aprimorar a gestão da Câmara dos Deputados por meio da utilização de dados para tomada de decisão, da melhoria contínua dos processos de trabalho e dos mecanismos de governança. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN style="mso-list: Ignore">·<SPAN style='FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;</SPAN></SPAN></SPAN> Aprimorar iniciativas de sustentabilidade, acessibilidade, equidade, diversidade e de qualidade de vida no trabalho. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp; <SPAN style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN style="mso-list: Ignore">·<SPAN style='FONT: 7pt "Times New Roman"'>&nbsp;&nbsp; </SPAN></SPAN></SPAN>Estreitar a cooperação técnica nacional e internacional entre&nbsp;parlamentos, para promover o intercâmbio de experiências.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp; Para instituição do presente Ato, levou-se em consideração o avanço célere e abrangente das tecnologias de comunicação e informação, a proliferação dos <EM>smartphones </EM>e das plataformas digitais em rede que transformaram o modo como as pessoas se comunicam, relacionam-se, organizam-se e mobilizam-se, além do aumento crescente da transparência e a abertura de canais de participação e interação com a sociedade por parte de órgãos e agentes públicos no Brasil. Tais mudanças, paradoxalmente, abrem espaço também para desinformação e a polarização intransigente, colocando em risco o respeito à diversidade de opiniões que caracteriza a democracia. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp; O Poder Legislativo, por si só, traz uma multiplicidade de posições um grande volume e uma complexidade de temas em discussão e um ritmo próprio do processo legislativo, que dificultam a compreensão de seu papel e a diversidade dos seus diversos órgãos, bem como de suas diferentes atribuições e os públicos aos quais se dirigem. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp; Dessa forma, para a Câmara dos Deputados, a Comunicação Social reveste-se de relevância estratégica. É por meio dela que as atividades do Poder Legislativo são não somente conhecidas e compartilhadas, mas explicadas e contextualizadas. E é também por meio dela que as demandas da sociedade chegam à instituição. É onde o tempo de maturação da política, o conhecimento acumulado e a segurança do ordenamento jurídico se unem às transmissões ao vivo na TV e na internet, à atuação dos parlamentares em<EM> lives</EM>, à fiscalização de imprensa, ao debate público nas<EM> hashtags</EM>, em teias múltiplas e simultâneas de informação e relacionamento. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp; A comunicação da Câmara é, por definição, a comunicação da democracia. Ela permite a união de olhares, vozes, escutas, por meio do aperfeiçoamento de linguagens, formatos, canais que vão comunicar - tornar comuns, tornar públicas - as funções de legislar, fiscalizar e representar. Por isso sua regulamentação deve estar em linha com as políticas e diretrizes estratégicas da Instituição. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp; Sala de Reuniões, em 30 de setembro de 2025. </P>
+<P><STRONG>HUGO MOTTA</STRONG> <BR>Presidente</P></FONT></FONT>
+						</div>
+					    
+				</div>
+				
+
+                                            <br>
+                                            <div class="rodapeTexto">
+                                                <div class="texto">
+                                                    Este texto não substitui o original publicado no Diário da Câmara dos Deputados - Edição Extra A de 14/10/2025
+                                                </div>
+                                            </div>
+
+					<br><br>
+					<div class="publicacoesTI">
+                                            <strong>Publicação:</strong>
+                                            <ul class="listaMarcada">
+                                                    <li>
+                                                        
+                                                        Diário da Câmara dos Deputados - Edição Extra A
+                                                         - 14/10/2025, Página 3 
+                                                        
+                                                        (Publicação Original)
+                                                        
+                                                    </li>
+                                                    <li>
+                                                        
+                                                        Boletim Administrativo da Câmara dos Deputados
+                                                         - 20/10/2025, Página 8 
+                                                        
+                                                        (Publicação Original)
+                                                        
+                                                    </li>
+                                            </ul>
+					</div>
+
+
+
+			</div> <!-- content // -->
+		</div> <!-- documentContent // -->
+	</div> <!-- portal-content-wrapper // -->
+</div> <!-- portal-column-content // --> 
+</div></div>
+<div class="js-mmenu-container">
+      
+
+      
+      
+
+      
+
+      <footer role="contentinfo" class="rodape-portal">
+        <!-- Coloque aqui o endere&#231;o e demais informa&#231;&#245;es de assinatura -->
+        <address class="rodape-portal-info">
+          <div class="container">
+            <div class="rodape-portal-info__nome">
+              <p>
+                <strong id="legislaturaRodape">57ª Legislatura - 4ª Sessão Legislativa Ordinária</strong>
+              </p>
+            </div>
+
+            <div class="l-rodape-info">
+              <div class="l-rodape-info__local rodape-portal-info__texto">
+                <span class="rodape-info">Câmara dos Deputados - Palácio do Congresso Nacional - Praça
+                  dos Três Poderes</span>
+                <span class="rodape-info">Brasília - DF - Brasil - CEP 70160-900</span>
+                <span class="rodape-info"><span class="rodape-info__destaque">CNPJ:</span>
+                  00.530.352/0001-59</span>
+              </div>
+
+              <div class="l-rodape-info__telefones rodape-portal-info__texto">
+                <ul class="list-unstyled" aria-label="Número para contato e horário de atendimento">
+                  <li>
+                    <span class="rodape-info__destaque">Disque-Câmara:</span>
+                    <a href="tel:0800-0-619-619">0800-0-619-619</a>, das 8h às
+                    20h
+                  </li>
+                  <li>
+                    <span class="rodape-info__destaque">Atendimento por WhatsApp:</span>
+                    <a href="https://wa.me//556132160000?text">(61) 3216-0000</a>, das 8h às 19h
+                  </li>
+                  <li>
+                    <span class="rodape-info__destaque">Atendimento presencial:</span>
+                    das 9h às 19h
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="acesso-provedor text-right">
+              <a title="Autenticar-se no site" href="/login_form">
+                <i class="fas fa-lock" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </address>
+        <!-- Coloque aqui a lista de redes sociais da C&#226;mara -->
+        <div class="rodape-portal-links rodape-portal-links--redes-sociais">
+          <div class="container">
+            <ul class="rodape-portal-links__lista" aria-label="Câmara nas redes sociais">
+              <li class="rodape-portal-links__item">
+                <a href="https://whatsapp.com/channel/0029Va2fexI3gvWgfMs6Fv31" class="rodape-portal-links__link">
+                  <span class="g-social-icon-outline g-social-icon-outline--whatsapp" aria-hidden="true"></span>
+                  <span class="sr-only">Whatsapp</span>
+                </a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://t.me/CamaradosDeputados" class="rodape-portal-links__link">
+                  <span class="g-social-icon-outline g-social-icon-outline--telegram" aria-hidden="true"></span>
+                  <span class="sr-only">Telegram</span>
+                </a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://www.facebook.com/camaradeputados" class="rodape-portal-links__link">
+                  <span class="g-social-icon-outline g-social-icon-outline--facebook" aria-hidden="true"></span>
+                  <span class="sr-only">Facebook</span>
+                </a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://twitter.com/camaradeputados" class="rodape-portal-links__link">
+                  <span class="g-social-icon-outline g-social-icon-outline--twitter" aria-hidden="true"></span>
+                  <span class="sr-only">X</span>
+                </a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://www.youtube.com/channel/UC-ZkSRh-7UEuwXJQ9UMCFJA" class="rodape-portal-links__link">
+                  <span class="g-social-icon-outline g-social-icon-outline--youtube" aria-hidden="true"></span>
+                  <span class="sr-only">Youtube</span>
+                </a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://tiktok.com/@camaradosdeputados" class="rodape-portal-links__link">
+                  <span class="g-social-icon-outline g-social-icon-outline--tiktok" aria-hidden="true"></span>
+                  <span class="sr-only">Tiktok</span>
+                </a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://www.instagram.com/camaradeputados" class="rodape-portal-links__link">
+                  <span class="g-social-icon-outline g-social-icon-outline--instagram" aria-hidden="true"></span>
+                  <span class="sr-only">Instagram</span>
+                </a>
+              </li>
+              <li class="rodape-portal-links__item">
+                  <a href="https://www.threads.com/@camaradosdeputados" class="rodape-portal-links__link">
+                      <span class="g-social-icon-outline g-social-icon-outline--threads" aria-hidden="true"></span>
+                      <span class="sr-only">Threads</span>
+                  </a>
+              </li>
+              <li class="rodape-portal-links__item">
+                  <a href="https://bsky.app/profile/camara.leg.br" class="rodape-portal-links__link">
+                      <span class="g-social-icon-outline g-social-icon-outline--bluesky" aria-hidden="true"></span>
+                      <span class="sr-only">Bluesky</span>
+                  </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Coloque aqui a lista de links de apoio do rodap&#233; -->
+        <div class="rodape-portal-links rodape-portal-links--apoio">
+          <div class="container">
+            <ul class="rodape-portal-links__lista" aria-label="Links de apoio">
+              <li class="rodape-portal-links__item">
+                <a href="https://www2.camara.leg.br/sobre-o-portal" class="rodape-portal-links__link">Sobre o portal</a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://www2.camara.leg.br/termo-de-uso-e-politica-de-privacidade" class="rodape-portal-links__link">Termos de uso</a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://www2.camara.leg.br/aplicativos/" class="rodape-portal-links__link">Aplicativos</a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://www.camara.leg.br/extranet" class="rodape-portal-links__link">Extranet</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <div class="barra-carregando" style="display: none">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Carregando</h5>
+            </div>
+            <div class="modal-body">
+              <p>Por favor, aguarde.</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                  <span class="sr-only"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

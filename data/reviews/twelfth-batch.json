@@ -1,0 +1,904 @@
+{
+  "id": "twelfth-batch",
+  "reviewedAt": "2026-10-26",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/twelfth-batch-release.md",
+  "items": [
+    {
+      "questionId": "038-anm-010-01-q059",
+      "paperId": "source-038-anm-010-01",
+      "number": 59,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        649,
+        744
+      ],
+      "contextIds": [
+        "anm-merchandising"
+      ],
+      "answerKeyId": "038-anm-010-01-q059-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-8-1"
+      ],
+      "justification": "Natureza da autorregulamentação publicitária e do CONAR."
+    },
+    {
+      "questionId": "038-anm-010-01-q075",
+      "paperId": "source-038-anm-010-01",
+      "number": 75,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        146,
+        180
+      ],
+      "contextIds": [
+        "anm-010-copy-production-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q075-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-1-7"
+      ],
+      "justification": "Técnicas de criação e redação publicitária."
+    },
+    {
+      "questionId": "038-anm-010-01-q076",
+      "paperId": "source-038-anm-010-01",
+      "number": 76,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        182,
+        217
+      ],
+      "contextIds": [
+        "anm-010-copy-production-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q076-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-1-7"
+      ],
+      "justification": "Organização narrativa na produção publicitária."
+    },
+    {
+      "questionId": "038-anm-010-01-q077",
+      "paperId": "source-038-anm-010-01",
+      "number": 77,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        218,
+        252
+      ],
+      "contextIds": [
+        "anm-010-copy-production-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q077-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-5-4"
+      ],
+      "justification": "Produção audiovisual publicitária."
+    },
+    {
+      "questionId": "038-anm-010-01-q117",
+      "paperId": "source-038-anm-010-01",
+      "number": 117,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        70,
+        125
+      ],
+      "contextIds": [
+        "anm-010-advertising-law-command"
+      ],
+      "answerKeyId": "038-anm-010-01-q117-key-v1",
+      "answerDocumentId": "source-038-anm-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-8-2"
+      ],
+      "justification": "Contratação pública de serviços de publicidade pela Lei 12.232/2010."
+    },
+    {
+      "questionId": "989-codevasf-010-01-q059",
+      "paperId": "source-989-codevasf-010-01",
+      "number": 59,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        481,
+        505
+      ],
+      "contextIds": [
+        "codevasf-campanha"
+      ],
+      "answerKeyId": "989-codevasf-010-01-q059-key-v1",
+      "answerDocumentId": "source-989-codevasf-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-4-2"
+      ],
+      "justification": "Assinatura e posicionamento de marca no branding."
+    },
+    {
+      "questionId": "989-codevasf-010-01-q102",
+      "paperId": "source-989-codevasf-010-01",
+      "number": 102,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        347,
+        370
+      ],
+      "contextIds": [
+        "codevasf-public-communication-command"
+      ],
+      "answerKeyId": "989-codevasf-010-01-q102-key-v1",
+      "answerDocumentId": "source-989-codevasf-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-7-2"
+      ],
+      "justification": "Distinção entre interesse público e promoção particular, eleitoral ou pessoal."
+    },
+    {
+      "questionId": "989-codevasf-010-01-q118",
+      "paperId": "source-989-codevasf-010-01",
+      "number": 118,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        183,
+        205
+      ],
+      "contextIds": [
+        "codevasf-advertising-law-command"
+      ],
+      "answerKeyId": "989-codevasf-010-01-q118-key-v1",
+      "answerDocumentId": "source-989-codevasf-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-8-2"
+      ],
+      "justification": "Qualificação técnica para contratação de agência de propaganda."
+    },
+    {
+      "questionId": "989-codevasf-010-01-q119",
+      "paperId": "source-989-codevasf-010-01",
+      "number": 119,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        206,
+        228
+      ],
+      "contextIds": [
+        "codevasf-advertising-law-command"
+      ],
+      "answerKeyId": "989-codevasf-010-01-q119-key-v1",
+      "answerDocumentId": "source-989-codevasf-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-8-2"
+      ],
+      "justification": "Certificação da agência e papel do CENP na Lei 12.232/2010."
+    },
+    {
+      "questionId": "989-codevasf-010-01-q120",
+      "paperId": "source-989-codevasf-010-01",
+      "number": 120,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        229,
+        255
+      ],
+      "contextIds": [
+        "codevasf-advertising-law-command"
+      ],
+      "answerKeyId": "989-codevasf-010-01-q120-key-v1",
+      "answerDocumentId": "source-989-codevasf-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-8-2"
+      ],
+      "justification": "Transparência da execução do contrato de publicidade."
+    },
+    {
+      "questionId": "042-embrapa-analista-072-01-q084",
+      "paperId": "source-042-embrapa-analista-072-01",
+      "number": 84,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        104,
+        170
+      ],
+      "contextIds": [
+        "embrapa-2025-strategic-communication-command"
+      ],
+      "answerKeyId": "042-embrapa-analista-072-01-q084-key-v1",
+      "answerDocumentId": "source-042-embrapa-analista-072-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-1-3"
+      ],
+      "justification": "Plataformização e segmentação no cenário de mídia."
+    },
+    {
+      "questionId": "042-embrapa-analista-072-01-q086",
+      "paperId": "source-042-embrapa-analista-072-01",
+      "number": 86,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        226,
+        275
+      ],
+      "contextIds": [
+        "embrapa-2025-strategic-communication-command"
+      ],
+      "answerKeyId": "042-embrapa-analista-072-01-q086-key-v1",
+      "answerDocumentId": "source-042-embrapa-analista-072-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-3-1"
+      ],
+      "justification": "Conceito e objetivos da comunicação institucional."
+    },
+    {
+      "questionId": "042-embrapa-analista-072-01-q087",
+      "paperId": "source-042-embrapa-analista-072-01",
+      "number": 87,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        301,
+        357
+      ],
+      "contextIds": [
+        "embrapa-2025-content-command"
+      ],
+      "answerKeyId": "042-embrapa-analista-072-01-q087-key-v1",
+      "answerDocumentId": "source-042-embrapa-analista-072-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-5-4"
+      ],
+      "justification": "Linguagem audiovisual e recursos de interação no ambiente digital."
+    },
+    {
+      "questionId": "042-embrapa-analista-072-01-q094",
+      "paperId": "source-042-embrapa-analista-072-01",
+      "number": 94,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        676,
+        710
+      ],
+      "contextIds": [
+        "embrapa-2025-crisis-command"
+      ],
+      "answerKeyId": "042-embrapa-analista-072-01-q094-key-v1",
+      "answerDocumentId": "source-042-embrapa-analista-072-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-3-4"
+      ],
+      "justification": "Comunicado como ferramenta de gerenciamento de crise."
+    },
+    {
+      "questionId": "042-embrapa-analista-072-01-q096",
+      "paperId": "source-042-embrapa-analista-072-01",
+      "number": 96,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        744,
+        757
+      ],
+      "contextIds": [
+        "embrapa-2025-crisis-command"
+      ],
+      "answerKeyId": "042-embrapa-analista-072-01-q096-key-v1",
+      "answerDocumentId": "source-042-embrapa-analista-072-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-3-4"
+      ],
+      "justification": "Distinção entre crise e emergência no gerenciamento de comunicação."
+    },
+    {
+      "questionId": "042-embrapa-analista-072-01-q097",
+      "paperId": "source-042-embrapa-analista-072-01",
+      "number": 97,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        757,
+        792
+      ],
+      "contextIds": [
+        "embrapa-2025-crisis-command"
+      ],
+      "answerKeyId": "042-embrapa-analista-072-01-q097-key-v1",
+      "answerDocumentId": "source-042-embrapa-analista-072-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-3-4"
+      ],
+      "justification": "Prioridades na comunicação de crise após desastre."
+    },
+    {
+      "questionId": "038-anm-013-01-q053",
+      "paperId": "source-038-anm-013-01",
+      "number": 53,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        175,
+        218
+      ],
+      "contextIds": [
+        "anm-013-participation-command"
+      ],
+      "answerKeyId": "038-anm-013-01-q053-key-v1",
+      "answerDocumentId": "source-038-anm-013-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-8-3"
+      ],
+      "justification": "Participação cidadã e controle social da gestão."
+    },
+    {
+      "questionId": "038-anm-013-01-q064",
+      "paperId": "source-038-anm-013-01",
+      "number": 64,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        104,
+        151
+      ],
+      "contextIds": [
+        "anm-013-crisis-command"
+      ],
+      "answerKeyId": "038-anm-013-01-q064-key-v1",
+      "answerDocumentId": "source-038-anm-013-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-3-4"
+      ],
+      "justification": "Planejamento preventivo de riscos e crises."
+    },
+    {
+      "questionId": "038-anm-013-01-q069",
+      "paperId": "source-038-anm-013-01",
+      "number": 69,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        407,
+        503
+      ],
+      "contextIds": [
+        "anm-013-transparency-command"
+      ],
+      "answerKeyId": "038-anm-013-01-q069-key-v1",
+      "answerDocumentId": "source-038-anm-013-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-6"
+      ],
+      "justification": "Transparência ativa e passiva no acesso à informação pública."
+    },
+    {
+      "questionId": "038-anm-013-01-q088",
+      "paperId": "source-038-anm-013-01",
+      "number": 88,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        132,
+        201
+      ],
+      "contextIds": [
+        "anm-013-regulatory-governance-command"
+      ],
+      "answerKeyId": "038-anm-013-01-q088-key-v1",
+      "answerDocumentId": "source-038-anm-013-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-9-1"
+      ],
+      "justification": "Conceito de governança em um exemplo de atuação regulatória."
+    },
+    {
+      "questionId": "038-anm-013-01-q119",
+      "paperId": "source-038-anm-013-01",
+      "number": 119,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        305,
+        337
+      ],
+      "contextIds": [
+        "anm-013-governance-policy-command"
+      ],
+      "answerKeyId": "038-anm-013-01-q119-key-v1",
+      "answerDocumentId": "source-038-anm-013-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-8-3"
+      ],
+      "justification": "Conferências como instâncias de participação cidadã nas políticas públicas."
+    },
+    {
+      "questionId": "094-pf-cb1-01-q022",
+      "paperId": "source-094-pf-cb1-01",
+      "number": 22,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        687,
+        762
+      ],
+      "contextIds": [
+        "pf-admin-2025-digital-ethics-command"
+      ],
+      "answerKeyId": "094-pf-cb1-01-q022-key-v1",
+      "answerDocumentId": "source-094-pf-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-6"
+      ],
+      "justification": "Responsabilidade ética no uso de recursos digitais institucionalmente autorizados."
+    },
+    {
+      "questionId": "979-cnj-007-01-q052",
+      "paperId": "source-979-cnj-007-01",
+      "number": 52,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        128,
+        178
+      ],
+      "contextIds": [
+        "cnj-2024-management-technologies-command"
+      ],
+      "answerKeyId": "979-cnj-007-01-q052-key-v1",
+      "answerDocumentId": "source-979-cnj-007-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-8"
+      ],
+      "justification": "Desburocratização na evolução da gestão pública."
+    },
+    {
+      "questionId": "979-cnj-007-01-q054",
+      "paperId": "source-979-cnj-007-01",
+      "number": 54,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        240,
+        279
+      ],
+      "contextIds": [
+        "cnj-2024-results-command"
+      ],
+      "answerKeyId": "979-cnj-007-01-q054-key-v1",
+      "answerDocumentId": "source-979-cnj-007-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-8"
+      ],
+      "justification": "Modelo gerencial e orientação a resultados."
+    },
+    {
+      "questionId": "979-cnj-007-01-q062",
+      "paperId": "source-979-cnj-007-01",
+      "number": 62,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        696,
+        741
+      ],
+      "contextIds": [
+        "cnj-2024-projects-processes-command"
+      ],
+      "answerKeyId": "979-cnj-007-01-q062-key-v1",
+      "answerDocumentId": "source-979-cnj-007-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-9-3"
+      ],
+      "justification": "Valor público e interesse coletivo."
+    },
+    {
+      "questionId": "979-cnj-007-01-q065",
+      "paperId": "source-979-cnj-007-01",
+      "number": 65,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        184,
+        230
+      ],
+      "contextIds": [
+        "cnj-2024-risks-command"
+      ],
+      "answerKeyId": "979-cnj-007-01-q065-key-v1",
+      "answerDocumentId": "source-979-cnj-007-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-9-1"
+      ],
+      "justification": "Distinção entre governança e gestão na abordagem de riscos."
+    },
+    {
+      "questionId": "979-cnj-007-01-q067",
+      "paperId": "source-979-cnj-007-01",
+      "number": 67,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        358,
+        418
+      ],
+      "contextIds": [
+        "cnj-2024-budget-command"
+      ],
+      "answerKeyId": "979-cnj-007-01-q067-key-v1",
+      "answerDocumentId": "source-979-cnj-007-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-4-5"
+      ],
+      "justification": "Iniciativa e encaminhamento do projeto de lei orçamentária."
+    },
+    {
+      "questionId": "979-cnj-007-01-q073",
+      "paperId": "source-979-cnj-007-01",
+      "number": 73,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        170,
+        240
+      ],
+      "contextIds": [
+        "cnj-2024-budget-command"
+      ],
+      "answerKeyId": "979-cnj-007-01-q073-key-v1",
+      "answerDocumentId": "source-979-cnj-007-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-4-1"
+      ],
+      "justification": "Plano plurianual e articulação do planejamento orçamentário."
+    },
+    {
+      "questionId": "993-tce-ac-cb3-01-q032",
+      "paperId": "source-993-tce-ac-cb3-01",
+      "number": 32,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        61,
+        98
+      ],
+      "contextIds": [
+        "tceac-2024-administrative-command"
+      ],
+      "answerKeyId": "993-tce-ac-cb3-01-q032-key-v1",
+      "answerDocumentId": "source-993-tce-ac-cb3-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-5-1"
+      ],
+      "justification": "Poder de polícia em atos gerais e concretos."
+    },
+    {
+      "questionId": "993-tce-ac-cb3-01-q035",
+      "paperId": "source-993-tce-ac-cb3-01",
+      "number": 35,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        196,
+        249
+      ],
+      "contextIds": [
+        "tceac-2024-administrative-command"
+      ],
+      "answerKeyId": "993-tce-ac-cb3-01-q035-key-v1",
+      "answerDocumentId": "source-993-tce-ac-cb3-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-6-4",
+        "camara-2026-direito-administrativo-administracao-publica-6-5"
+      ],
+      "justification": "Nexo causal e efeitos da culpa da vítima na responsabilidade estatal."
+    }
+  ],
+  "contexts": [
+    {
+      "contextId": "anm-010-copy-production-command",
+      "paperId": "source-038-anm-010-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        120.756,
+        132.237
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-010-advertising-law-command",
+      "paperId": "source-038-anm-010-01",
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        46.357,
+        57.357
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "codevasf-public-communication-command",
+      "paperId": "source-989-codevasf-010-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        323.317,
+        334.317
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "codevasf-advertising-law-command",
+      "paperId": "source-989-codevasf-010-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        158.557,
+        169.557
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "embrapa-2025-strategic-communication-command",
+      "paperId": "source-042-embrapa-analista-072-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        69.637,
+        91.436
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "embrapa-2025-content-command",
+      "paperId": "source-042-embrapa-analista-072-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        277.356,
+        288.357
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "embrapa-2025-crisis-command",
+      "paperId": "source-042-embrapa-analista-072-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        651.757,
+        662.757
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-013-participation-command",
+      "paperId": "source-038-anm-013-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        70.357,
+        82.797
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-013-crisis-command",
+      "paperId": "source-038-anm-013-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        70.357,
+        86.277
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-013-transparency-command",
+      "paperId": "source-038-anm-013-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        209.317,
+        241.077
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-013-regulatory-governance-command",
+      "paperId": "source-038-anm-013-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        46.957,
+        70.196
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-013-governance-policy-command",
+      "paperId": "source-038-anm-013-01",
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        46.357,
+        68.037
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "pf-admin-2025-digital-ethics-command",
+      "paperId": "source-094-pf-cb1-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        570.277,
+        595.077
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "cnj-2024-management-technologies-command",
+      "paperId": "source-979-cnj-007-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        71.077,
+        82.317
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "cnj-2024-results-command",
+      "paperId": "source-979-cnj-007-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        180.396,
+        191.517
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "cnj-2024-projects-processes-command",
+      "paperId": "source-979-cnj-007-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        671.197,
+        682.437
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "cnj-2024-risks-command",
+      "paperId": "source-979-cnj-007-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        71.557,
+        98.637
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "cnj-2024-budget-command",
+      "paperId": "source-979-cnj-007-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        232.596,
+        232.796
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "tceac-2024-administrative-command",
+      "paperId": "source-993-tce-ac-cb3-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        47.077,
+        47.277
+      ],
+      "paragraphs": false
+    }
+  ],
+  "newDirectSyllabusItemIds": [
+    "camara-2026-comunicacao-social-1-3",
+    "camara-2026-comunicacao-social-3-1",
+    "camara-2026-comunicacao-social-3-4",
+    "camara-2026-comunicacao-social-6",
+    "camara-2026-comunicacao-social-7-2",
+    "camara-2026-direito-administrativo-administracao-publica-5-1",
+    "camara-2026-direito-administrativo-administracao-publica-6-4",
+    "camara-2026-direito-administrativo-administracao-publica-6-5",
+    "camara-2026-direito-administrativo-administracao-publica-8",
+    "camara-2026-direito-administrativo-administracao-publica-8-3",
+    "camara-2026-direito-administrativo-administracao-publica-9-1",
+    "camara-2026-direito-administrativo-administracao-publica-9-3",
+    "camara-2026-divulgacao-institucional-1-7",
+    "camara-2026-divulgacao-institucional-4-2",
+    "camara-2026-divulgacao-institucional-5-4",
+    "camara-2026-divulgacao-institucional-8-1",
+    "camara-2026-divulgacao-institucional-8-2",
+    "camara-2026-processo-legislativo-regimento-4-1",
+    "camara-2026-processo-legislativo-regimento-4-5",
+    "camara-2026-tecnologia-informacao-dados-6"
+  ],
+  "previousCatalogSnapshot": "data/reviews/content-audit-catalog-2026-10-26.json.gz"
+}

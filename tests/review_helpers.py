@@ -1,5 +1,7 @@
 """Apply explicitly recorded corrections to historical release expectations only."""
 from tools.validate import ROOT, read_json
+import gzip
+import json
 
 AUDIT = read_json(ROOT / 'data/reviews/content-audit-2026-10-26.json')
 
@@ -24,4 +26,10 @@ def revised_context_bounds(row):
 def historical_mappings(catalog):
     """Reconstruct the pre-audit taxonomy without rewriting immutable batch evidence."""
     corrections = {c['after']['id']: c['before'] for c in AUDIT['mappingCorrections']}
-    return [corrections.get(m['id'], m) for m in catalog['mappings']]
+    reviewed = set(AUDIT['reviewedQuestionIds'])
+    return [corrections.get(m['id'], m) for m in catalog['mappings'] if m['questionId'] in reviewed]
+
+
+def audit_catalog():
+    """Load the exact previously published catalog for immutable historical checks."""
+    return json.loads(gzip.decompress((ROOT / 'data/reviews/content-audit-catalog-2026-10-26.json.gz').read_bytes()))

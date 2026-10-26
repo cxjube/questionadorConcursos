@@ -1,5 +1,7 @@
 # Revisão das diretrizes recebidas — 23/10/2026
 
+> Atualização: [12º lote](twelfth-batch-release.md), com 254 questões (242 C/E), 125/228 vínculos diretos e reserva 117/125 em P1/P2. A [cobertura atual](coverage-current.md) substitui os números das entregas históricas abaixo.
+
 > Atualização: [auditoria temática de 26/10](coverage-audit-2026-10-26.md), com 105/228 vínculos diretos, sete classificações corrigidas, um comando versionado e reconferência de 85 citações legais. A reserva atual é de 107/105 C/E em P1/P2.
 
 > Atualização em 26/10/2026: [11º lote](eleventh-batch-release.md), com 224 questões (212 C/E), 224 comentários e 75 fontes canônicas. São 106 C/E distintos por bloco e 103/228 itens programáticos com vínculo direto. Os registros anteriores mantêm o histórico de cada entrega.

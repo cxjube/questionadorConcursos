@@ -148,9 +148,9 @@ class EleventhBatchTests(unittest.TestCase):
         report = read_json(ROOT / 'data/reviews/eleventh-coverage.json')
         syllabus = {s['id']: s for s in self.c['syllabusItems']}
         pools = {block: {m['questionId'] for m in self.c['mappings'] if syllabus[m['syllabusItemId']]['block'] == block and self.questions[m['questionId']]['type'] == 'true_false'} for block in ['basic', 'specific']}
-        self.assertEqual({k: len(v) for k, v in pools.items()}, {'basic': 107, 'specific': 105})
+        self.assertEqual({k: len(v) for k, v in pools.items()}, {'basic': 117, 'specific': 125})
         self.assertFalse(pools['basic'] & pools['specific'])
-        self.assertEqual(len(pools['basic'] | pools['specific']), 212)
+        self.assertEqual(len(pools['basic'] | pools['specific']), 242)
         prior_mappings = historical_mappings(self.c)
         mapped = {m['syllabusItemId'] for m in prior_mappings}
         added = {row['questionId'] for row in self.review['items']}
@@ -158,8 +158,8 @@ class EleventhBatchTests(unittest.TestCase):
         self.assertEqual((len(before), len(mapped)), (81, 103))
         self.assertEqual({row['id'] for row in report['newDirectSyllabusItems']}, mapped - before)
         self.assertEqual(len(report['newDirectSyllabusItems']), 22)
-        self.assertEqual(len(self.questions), 224)
+        self.assertEqual(len(self.questions), 254)
         self.assertEqual(sum(q['type'] == 'multiple_choice' for q in self.c['questions']), 12)
-        self.assertEqual(len(self.c['documents']), 75)
-        self.assertEqual(sum(p['inventory']['itemCount'] for p in self.c['papers']), 1296)
-        self.assertEqual(sum(len(p['inventory']['annulledItems']) for p in self.c['papers']), 64)
+        self.assertEqual(len(self.c['documents']), 83)
+        self.assertEqual(sum(p['inventory']['itemCount'] for p in self.c['papers']), 1416)
+        self.assertEqual(sum(len(p['inventory']['annulledItems']) for p in self.c['papers']), 67)
