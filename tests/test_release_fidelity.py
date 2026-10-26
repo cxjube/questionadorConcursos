@@ -6,6 +6,7 @@ import xml.etree.ElementTree as ET
 import subprocess
 
 from tools.validate import ROOT, read_json
+from review_helpers import revised_syllabus_ids
 from tools.answer_tables import answer_table
 from test_consolidation import clean, pdf_text
 
@@ -85,7 +86,7 @@ class ReleasedFidelityTests(unittest.TestCase):
                 self.assertEqual(keys[q['answerKeyId']]['documentId'], row['answerDocumentId'])
                 self.assertEqual(keys[q['answerKeyId']]['locator'], row['answerLocator'])
                 links = [m for m in self.catalog['mappings'] if m['questionId'] == q['id']]
-                self.assertEqual([m['syllabusItemId'] for m in links], row['syllabusItemIds'])
+                self.assertEqual([m['syllabusItemId'] for m in links], revised_syllabus_ids(q['id'], row['syllabusItemIds']))
                 page = clean(self.pages[self.papers[row['paperId']]['documentId']][row['sourcePage'] - 1])
                 self.assertIn(f"{row['number']} {q['stem']}", page)
                 for ref in q['contextIds']:

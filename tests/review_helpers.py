@@ -1,0 +1,27 @@
+"""Apply explicitly recorded corrections to historical release expectations only."""
+from tools.validate import ROOT, read_json
+
+AUDIT = read_json(ROOT / 'data/reviews/content-audit-2026-10-26.json')
+
+
+def revised_syllabus_ids(question_id, historical_ids):
+    expected = list(historical_ids)
+    for change in AUDIT['mappingCorrections']:
+        if change['before']['questionId'] == question_id:
+            old = change['before']['syllabusItemId']
+            assert old in expected, 'correction must apply to the exact historical target'
+            expected[expected.index(old)] = change['after']['syllabusItemId']
+    return expected
+
+
+def revised_context_bounds(row):
+    for change in AUDIT['contextCorrections']:
+        if change['before']['id'] == row['contextId']:
+            return dict(row, sourceBounds=change['sourceBounds'])
+    return row
+
+
+def historical_mappings(catalog):
+    """Reconstruct the pre-audit taxonomy without rewriting immutable batch evidence."""
+    corrections = {c['after']['id']: c['before'] for c in AUDIT['mappingCorrections']}
+    return [corrections.get(m['id'], m) for m in catalog['mappings']]

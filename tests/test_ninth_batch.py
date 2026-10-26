@@ -7,6 +7,7 @@ import unittest
 import xml.etree.ElementTree as ET
 
 from tools.validate import ROOT, read_json
+from review_helpers import revised_syllabus_ids
 from tools.answer_tables import answer_table
 from tools.reference_text import reference_text
 from test_consolidation import pdf_text
@@ -89,7 +90,7 @@ class NinthBatchTests(unittest.TestCase):
                 self.assertEqual((key['documentId'], key['locator'], key['value']), (row['answerDocumentId'], row['answerLocator'], row['answerValue']))
                 table = answer_table(pdf_text(ROOT / self.docs[key['documentId']]['file']), paper['booklet'])
                 self.assertEqual(table[row['number']], 'C' if key['value'] else 'E')
-                self.assertEqual([m['syllabusItemId'] for m in self.c['mappings'] if m['questionId'] == q['id']], row['syllabusItemIds'])
+                self.assertEqual([m['syllabusItemId'] for m in self.c['mappings'] if m['questionId'] == q['id']], revised_syllabus_ids(q['id'], row['syllabusItemIds']))
         # Preserve the easily misread relationship in the English item.
         self.assertFalse(keys[self.questions['961-anatel-cb1-01-q022']['answerKeyId']]['value'])
         english = [self.questions[id] for id in released if id.startswith('961-anatel')]

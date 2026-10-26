@@ -4,6 +4,7 @@ import json
 import shutil
 import unittest
 from tools.validate import ROOT, read_json
+from review_helpers import revised_syllabus_ids
 from tools.reference_text import reference_text
 from tools.answer_tables import answer_table
 from test_consolidation import pdf_text
@@ -30,7 +31,7 @@ class SixthBatchTests(unittest.TestCase):
                 self.assertEqual(q['answerKeyId'],row['answerKeyId'])
                 key=keys[q['answerKeyId']]
                 self.assertEqual((key['documentId'],key['locator'],key['value']),(row['answerDocumentId'],row['answerLocator'],row['answerValue']))
-                self.assertEqual([m['syllabusItemId'] for m in self.c['mappings'] if m['questionId']==q['id']],row['syllabusItemIds'])
+                self.assertEqual([m['syllabusItemId'] for m in self.c['mappings'] if m['questionId']==q['id']],revised_syllabus_ids(q['id'], row['syllabusItemIds']))
                 comment=comments[q['id']]
                 self.assertIn('assistido por IA',comment['author'])
                 self.assertTrue(comment['references'])

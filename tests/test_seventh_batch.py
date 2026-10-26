@@ -7,6 +7,7 @@ import unittest
 import xml.etree.ElementTree as ET
 
 from tools.validate import ROOT, read_json
+from review_helpers import revised_syllabus_ids
 from tools.reference_text import reference_text
 from tools.answer_tables import answer_table
 from test_consolidation import clean, pdf_text
@@ -44,7 +45,7 @@ class SeventhBatchTests(unittest.TestCase):
                 self.assertEqual(q['origin'],dict(kind='official',paperId=row['paperId'],number=row['number'],locator=f"PDF p. {row['sourcePage']}"))
                 self.assertEqual(q['contextIds'],row['contextIds'])
                 self.assertEqual(q['answerKeyId'],row['answerKeyId'])
-                self.assertEqual([m['syllabusItemId'] for m in self.c['mappings'] if m['questionId']==q['id']],row['syllabusItemIds'])
+                self.assertEqual([m['syllabusItemId'] for m in self.c['mappings'] if m['questionId']==q['id']],revised_syllabus_ids(q['id'], row['syllabusItemIds']))
                 page=str(row['sourcePage']);source=ROOT/self.docs[paper['documentId']]['file']
                 xml=subprocess.run(['pdftotext','-bbox-layout','-f',page,'-l',page,str(source),'-'],capture_output=True,text=True,check=True).stdout
                 lo,hi=row['sourceBounds'];all_lines=[]

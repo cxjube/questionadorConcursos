@@ -7,6 +7,7 @@ import unittest
 import xml.etree.ElementTree as ET
 
 from tools.validate import ROOT, read_json
+from review_helpers import revised_syllabus_ids, revised_context_bounds
 from tools.reference_text import reference_text
 from tools.answer_tables import answer_table
 from test_consolidation import pdf_text
@@ -75,11 +76,12 @@ class TenthBatchTests(unittest.TestCase):
                 if row['paperId'] not in tables:
                     tables[row['paperId']] = answer_table(pdf_text(ROOT / self.docs[key['documentId']]['file']), paper['booklet'])
                 self.assertEqual(tables[row['paperId']][row['number']], 'C' if key['value'] else 'E')
-                self.assertEqual([m['syllabusItemId'] for m in self.c['mappings'] if m['questionId'] == q['id']], row['syllabusItemIds'])
+                self.assertEqual([m['syllabusItemId'] for m in self.c['mappings'] if m['questionId'] == q['id']], revised_syllabus_ids(q['id'], row['syllabusItemIds']))
 
     def test_complete_contexts_passages_and_versioned_democracy_command(self):
         self.assertEqual(len(self.review['contexts']), 25)
         for row in self.review['contexts'] + self.review['contextCorrections']:
+            row = revised_context_bounds(row)
             ctx = self.contexts[row['contextId']]
             parts = []
             for _, x, text in self.bounded(row, ctx['sourceDocumentId']):
@@ -118,7 +120,7 @@ class TenthBatchTests(unittest.TestCase):
         syllabus = {s['id']: s for s in self.c['syllabusItems']}
         keys = {k['id']: k for k in self.c['answerKeys']}
         pools = {block: {m['questionId'] for m in self.c['mappings'] if syllabus[m['syllabusItemId']]['block'] == block and self.questions[m['questionId']]['type'] == 'true_false'} for block in ['basic', 'specific']}
-        self.assertEqual({k: len(v) for k, v in pools.items()}, {'basic': 106, 'specific': 106})
+        self.assertEqual({k: len(v) for k, v in pools.items()}, {'basic': 107, 'specific': 105})
         self.assertFalse(pools['basic'] & pools['specific'])
         self.assertEqual(len(pools['basic'] | pools['specific']), 212)
         for id in pools['basic'] | pools['specific']:

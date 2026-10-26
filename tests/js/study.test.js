@@ -139,7 +139,7 @@ test('subject filters include descendants, respect the role and count canonical 
  const mapped=s.data.mappings.find(m=>m.questionId===parent[0].id);
  s.data.mappings.push({...mapped,id:'synthetic-duplicate-mapping-for-test-only'});
  assert.equal(s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-7'}).length,6);
- assert.equal(s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-2'}).length,8);
+ assert.equal(s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-2'}).length,7);
  for(const filters of [{disciplineId:'missing-test-only'},{topicId:'missing-test-only'},{disciplineId:'lingua-portuguesa',topicId:'comunicacao-social-7'}]) {
   assert.throws(()=>s.Study.pool(s.data,s.role,progress,'all',filters),/inválido/);
  }
@@ -156,7 +156,7 @@ test('custom quantity and draw preserve sources, options and contexts without re
  for(const item of session.items) assert.deepEqual(plain(item),plain(s.Study.snapshot(s.data,s.data.questions.find(q=>q.id===item.question.id),s.role)));
  assert.equal(JSON.stringify(s.data),before);assert.equal(session.scoringProfile,null);
  for(const limit of [0,-1,1.5,'2',pool.length+1,NaN]) assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{...filters,limit}),/quantidade/);
- assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{disciplineId:'ciencia-politica',type:'true_false',year:2025}),/Não há questões/);
+ assert.throws(()=>s.Study.create(s.data,s.role,progress,'all',{topicId:'ciencia-politica-13',type:'true_false'}),/Não há questões/);
 });
 test('filtered errors use finalized outcomes and ignore unfinished choices',()=>{
  const s=setup(), settings={topicId:'comunicacao-social-7',limit:1};let p=s.Study.empty();
@@ -287,7 +287,7 @@ test('custom scoring never changes accuracy, unscored history or official criter
 test('block filters use target syllabus blocks, preserve distinct IDs and validate snapshots',()=>{
  const s=setup(),p=s.Study.empty();
  const basic=s.Study.pool(s.data,s.role,p,'all',{block:'basic'}),specific=s.Study.pool(s.data,s.role,p,'all',{block:'specific'});
- assert.equal(basic.length,107);assert.equal(specific.length,118);
+ assert.equal(basic.length,108);assert.equal(specific.length,117);
  assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',disciplineId:'lingua-inglesa'}).length,0);
  const session=s.Study.create(s.data,s.role,p,'all',{block:'basic',disciplineId:'lingua-inglesa'});
  assert.equal(session.items.length,15);assert.equal(session.selection.block,'basic');
@@ -302,7 +302,7 @@ test('block filters use target syllabus blocks, preserve distinct IDs and valida
  assert.ok(s.Study.validate({...p,active:legacy},s.data));
  const multi=plain(s.data),target=multi.syllabusItems.find(t=>t.block==='specific');
  multi.mappings.push({id:'synthetic-cross-block-link',questionId:basic[0].id,syllabusItemId:target.id,status:'confirmed'});
- assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,119);
+ assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,118);
  assert.equal(s.Study.pool(multi,s.role,p).length,224);
  assert.throws(()=>s.Study.pool(s.data,s.role,p,'all',{block:'invalid'}),/Bloco/);
 });
@@ -345,8 +345,8 @@ test('sixth batch counts shared topics once and keeps MC separate from CE compos
  const shared='camara-2023-tecnica-tarde-tipo1-q017';
  assert.equal(basic.filter(q=>q.id===shared).length,1);assert.equal(specific.filter(q=>q.id===shared).length,1);
  assert.equal(s.Study.pool(s.data,s.role,p).filter(q=>q.id===shared).length,1);
- assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'}).length,106);
- assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'}).length,106);
+ assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'}).length,107);
+ assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'}).length,105);
  for(const discipline of s.data.disciplines) assert.ok(s.Study.pool(s.data,s.role,p,'all',{disciplineId:discipline.id}).length>0);
 });
 
@@ -369,11 +369,11 @@ test('legal and FGV source snapshots survive backup with narrowly allowed offici
  assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(spoof),s.data));
 });
 
-test('the expanded CE reserve provides 106 distinct valid items per target block',()=>{
+test('the expanded CE reserve provides 107 basic and 105 specific distinct valid items',()=>{
  const s=setup(),p=s.Study.empty();
  const basic=s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'});
  const specific=s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'});
- assert.equal(basic.length,106);assert.equal(specific.length,106);
+ assert.equal(basic.length,107);assert.equal(specific.length,105);
  assert.equal(new Set([...basic,...specific].map(q=>q.id)).size,212);
  for(const block of ['basic','specific']) {
   const session=s.Study.create(s.data,s.role,p,'all',{block,type:'true_false',limit:90});
@@ -401,4 +401,26 @@ test('the complete democracy command uses a new question revision and preserves 
  assert.equal(fresh.question.revision,2);assert.equal(fresh.contexts[0].revision,2);
  assert.match(fresh.contexts[0].text,/^Considerando dois grandes modelos/);
  assert.equal(before.active.items[0].contexts[0].text,repair.previousText);
+});
+
+test('content audit preserves older context and taxonomy snapshots without weakening current checks',()=>{
+ const s=setup(),legacy=plain(s.data);
+ const audit=JSON.parse(fs.readFileSync(path.join(root,'data/reviews/content-audit-2026-10-26.json'),'utf8'));
+ for(const [section,changes] of [['mappings',audit.mappingCorrections],['contexts',audit.contextCorrections],['questions',audit.questionRevisions]])
+  for(const change of changes) legacy[section][legacy[section].findIndex(row=>row.id===change.after.id)]=change.before;
+ legacy.revision='e'.repeat(64);
+ legacy.questions=legacy.questions.filter(q=>['camara-2014-cb2-03-q096','camara-2014-area-xix-q145'].includes(q.id));
+ let progress={...s.Study.empty(),active:s.Study.create(legacy,s.role,s.Study.empty(),'all',{id:'before-content-audit'})};
+ const before=plain(progress);
+ assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(progress),s.data)),before);
+ const oldContext=progress.active.items.find(i=>i.question.id==='camara-2014-cb2-03-q096').contexts.find(c=>c.id==='camara-2014-ethics-cf-command');
+ assert.match(oldContext.text,/\. 94$/);assert.equal(oldContext.revision,1);
+ assert.ok(progress.active.items.find(i=>i.question.id==='camara-2014-area-xix-q145').mappings.some(m=>m.topicId==='ciencia-politica-13'));
+ progress=s.Study.finish(progress);
+ assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(progress),s.data)),plain(progress));
+ const fresh=s.Study.snapshot(s.data,s.data.questions.find(q=>q.id==='camara-2014-cb2-03-q096'),s.role);
+ assert.equal(fresh.question.revision,2);assert.equal(fresh.contexts.find(c=>c.id===oldContext.id).revision,2);
+ const current={...s.Study.empty(),active:s.Study.create(s.data,s.role,s.Study.empty(),'all',{paperId:'source-camara-2014-consultor-cb2-03'})};
+ current.active.items.find(i=>i.question.id===fresh.question.id).contexts.find(c=>c.id===oldContext.id).text+=' 94';
+ assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(current),s.data));
 });

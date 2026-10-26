@@ -7,6 +7,7 @@ import unittest
 import xml.etree.ElementTree as ET
 
 from tools.validate import ROOT, read_json
+from review_helpers import revised_syllabus_ids, historical_mappings
 from tools.answer_tables import answer_table
 from tools.reference_text import reference_text
 from test_consolidation import pdf_text
@@ -89,7 +90,7 @@ class EleventhBatchTests(unittest.TestCase):
                 if paper['id'] not in tables:
                     tables[paper['id']] = answer_table(pdf_text(ROOT / self.docs[key['documentId']]['file']), paper['booklet'])
                 self.assertEqual(tables[paper['id']][row['number']], 'C' if key['value'] else 'E')
-                self.assertEqual([m['syllabusItemId'] for m in self.c['mappings'] if m['questionId'] == q['id']], row['syllabusItemIds'])
+                self.assertEqual([m['syllabusItemId'] for m in self.c['mappings'] if m['questionId'] == q['id']], revised_syllabus_ids(q['id'], row['syllabusItemIds']))
                 self.assertNotIn(row['number'], paper['inventory']['annulledItems'])
         self.assertEqual(sum(self.questions[id].get('language') == 'en' for id in released), 4)
 
@@ -147,12 +148,13 @@ class EleventhBatchTests(unittest.TestCase):
         report = read_json(ROOT / 'data/reviews/eleventh-coverage.json')
         syllabus = {s['id']: s for s in self.c['syllabusItems']}
         pools = {block: {m['questionId'] for m in self.c['mappings'] if syllabus[m['syllabusItemId']]['block'] == block and self.questions[m['questionId']]['type'] == 'true_false'} for block in ['basic', 'specific']}
-        self.assertEqual({k: len(v) for k, v in pools.items()}, {'basic': 106, 'specific': 106})
+        self.assertEqual({k: len(v) for k, v in pools.items()}, {'basic': 107, 'specific': 105})
         self.assertFalse(pools['basic'] & pools['specific'])
         self.assertEqual(len(pools['basic'] | pools['specific']), 212)
-        mapped = {m['syllabusItemId'] for m in self.c['mappings']}
+        prior_mappings = historical_mappings(self.c)
+        mapped = {m['syllabusItemId'] for m in prior_mappings}
         added = {row['questionId'] for row in self.review['items']}
-        before = {m['syllabusItemId'] for m in self.c['mappings'] if m['questionId'] not in added}
+        before = {m['syllabusItemId'] for m in prior_mappings if m['questionId'] not in added}
         self.assertEqual((len(before), len(mapped)), (81, 103))
         self.assertEqual({row['id'] for row in report['newDirectSyllabusItems']}, mapped - before)
         self.assertEqual(len(report['newDirectSyllabusItems']), 22)

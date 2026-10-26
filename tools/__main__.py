@@ -3,6 +3,7 @@ import argparse
 import sys
 
 from tools.build import render, write_artifact
+from tools.coverage import artifacts
 from tools.site import check_site
 from tools.source_audit import audit_sources
 from tools.review_batch import validate_batch
@@ -12,14 +13,23 @@ from tools.validate import ROOT, read_json, validate
 def main(argv: list[str] | None = None) -> int:
     """Run the selected operation and preserve validation failures as nonzero exits."""
     parser = argparse.ArgumentParser(description='Questionador Concursos data pipeline')
-    parser.add_argument('command', choices=['validate', 'build', 'check-site', 'audit-sources', 'review-batch'])
+    parser.add_argument('command', choices=['validate', 'build', 'check-site', 'audit-sources', 'review-batch', 'coverage'])
     parser.add_argument('--check', action='store_true', help='compare generated artifact without writing')
     args = parser.parse_args(argv)
-    if args.check and args.command != 'build':
-        parser.error('--check is only supported with build')
+    if args.check and args.command not in {'build', 'coverage'}:
+        parser.error('--check is only supported with build or coverage')
     try:
         catalog = read_json(ROOT / 'data/catalog.json')
         errors = validate(catalog)
+        if not errors and args.command == 'coverage':
+            review = read_json(ROOT / 'data/reviews/content-audit-2026-10-26.json')
+            for filename, content in artifacts(catalog, review).items():
+                target = ROOT / filename
+                if args.check:
+                    if not target.is_file() or target.read_text(encoding='utf-8') != content:
+                        errors.append(f'{filename} is stale; run python -m tools coverage')
+                else:
+                    target.write_text(content, encoding='utf-8')
         if not errors and args.command == 'audit-sources':
             source_evidence = read_json(ROOT / 'data/source-verification.json')
             errors.extend(audit_sources(catalog, source_evidence))

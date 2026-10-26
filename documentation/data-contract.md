@@ -175,3 +175,9 @@ O sétimo lote inclui referências técnicas/didáticas em PDF e HTML dos própr
 O décimo lote completa 90 C/E elegíveis por bloco, sem sobreposição. A correção do comando de modelos de democracia usa revisão 2 no contexto e nas quatro questões antigas associadas; snapshots da revisão anterior continuam históricos. Aumentar a revisão da questão preserva a proteção de backups que impede substituir definições da revisão atual. Veja o manifesto do décimo lote.
 
 O 11º lote acrescenta 32 C/E, elevando a reserva a 106 itens distintos por bloco. A composição do simulado permanece 90+90; versões, pontuação e relógio não mudam. O lote registra 22 novos vínculos diretos a itens do programa sem alterar a taxonomia. Confira o manifesto, a cobertura e as reconsultas legais/técnicas em `data/reviews/eleventh-*.json`.
+
+## Auditoria temática de 26/10/2026
+
+`data/reviews/content-audit-2026-10-26.json` registra sete correções com linhas completas antes/depois e uma correção de comando compartilhado (contexto v2 e questão 96 revisão 2). Não se reclassifica o histórico. A oferta atual passa a 107/105 C/E em P1/P2, sem mudar regras, tipos, enunciados ou chaves. São 105/228 itens com vínculo direto.
+
+`python -m tools coverage` gera inventários JSON/CSV e relatório Markdown fora do Pages; `coverage --check` verifica a reprodução na CI. As contagens sobem pela hierarquia oficial e deduplicam IDs, sem distribuir vínculos de pais a filhos. Prioridade editorial não é peso oficial nem medição de conhecimento. A reconferência das 85 citações legais está separada dos documentos canônicos em `content-reference-rechecks.json`.

@@ -1,0 +1,1167 @@
+{
+  "id": "content-reference-rechecks",
+  "references": [
+    {
+      "documentId": "reference-code-ethics-camara-2001",
+      "url": "https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html",
+      "resolvedUrl": "https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html",
+      "file": "data/reviews/content-reference-rechecks/reference-code-ethics-camara-2001.html",
+      "sha256": "2a6e1344209f4c5d76502a31f0e3c99c2c1fcd3b03577be063e7cf04a7f9b80a",
+      "checkedAt": "2026-10-26T18:42:37.399284+00:00",
+      "acquisition": "publisher_recheck",
+      "failedAttempts": []
+    },
+    {
+      "documentId": "reference-codigo-civil-2002",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
+      "resolvedUrl": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
+      "file": "data/reviews/content-reference-rechecks/reference-codigo-civil-2002.html",
+      "sha256": "6ed7c19586b21355e998746a0620cea5c2f3e6a24036d7f3743b7d30330e5d90",
+      "checkedAt": "2026-10-26T18:42:38.232726+00:00",
+      "acquisition": "publisher_recheck",
+      "failedAttempts": []
+    },
+    {
+      "documentId": "reference-constitution-1988",
+      "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "file": "data/reviews/eleventh-reference-rechecks/reference-constitution-1988.html",
+      "sha256": "a8de1643589cf9fb199bb58a0cf4a6acd63c35ed377843d8240ca500b7e1f2c1",
+      "checkedAt": "2026-10-26T18:11:05.384442+00:00",
+      "acquisition": "same_day_retained_recheck"
+    },
+    {
+      "documentId": "reference-lei-12527-2011",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "resolvedUrl": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "file": "data/reviews/content-reference-rechecks/reference-lei-12527-2011.html",
+      "sha256": "879f1f2a828e39d6928786f523957b5c71f68b04c4132a0d541e0b65a8f51130",
+      "checkedAt": "2026-10-26T18:42:39.282779+00:00",
+      "acquisition": "publisher_recheck",
+      "failedAttempts": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+          "error": "HTTP Error 503: Service Unavailable"
+        }
+      ]
+    },
+    {
+      "documentId": "reference-lei-13709-2018",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "resolvedUrl": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "file": "data/reviews/content-reference-rechecks/reference-lei-13709-2018.html",
+      "sha256": "5ade20f12d206504f3beb13a0595d144efc891229ad0e6badcebfa97a8a83596",
+      "checkedAt": "2026-10-26T18:42:38.979237+00:00",
+      "acquisition": "publisher_recheck",
+      "failedAttempts": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+          "error": "HTTP Error 503: Service Unavailable"
+        }
+      ]
+    },
+    {
+      "documentId": "reference-lei-14133-2021",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14133.htm",
+      "file": "data/reviews/eleventh-reference-rechecks/reference-lei-14133-2021.html",
+      "sha256": "7474e192ebb898ef4c68ef75649f0a5cde78b916b0d4937018ece24b74ed6b7e",
+      "checkedAt": "2026-10-26T18:11:05.454090+00:00",
+      "acquisition": "same_day_retained_recheck"
+    },
+    {
+      "documentId": "reference-lei-8112-1990",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "resolvedUrl": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "file": "data/reviews/content-reference-rechecks/reference-lei-8112-1990.html",
+      "sha256": "2ceed7c5d4c9ef2b466ccba6e37abf93425285cc71afbe9e8641ceb28b9d44cb",
+      "checkedAt": "2026-10-26T18:42:37.955318+00:00",
+      "acquisition": "publisher_recheck",
+      "failedAttempts": []
+    },
+    {
+      "documentId": "reference-lei-8429-1992",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.html",
+      "file": "data/reviews/eleventh-reference-rechecks/reference-lei-8429-1992.html",
+      "sha256": "ac5ffb8bcb800556b9cd9563bcffe957c81c3170fe455c1da526013a4ee89010",
+      "checkedAt": "2026-10-26T18:11:05.467663+00:00",
+      "acquisition": "same_day_retained_recheck"
+    },
+    {
+      "documentId": "reference-lei-9784-1999",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "file": "data/reviews/eleventh-reference-rechecks/reference-lei-9784-1999.html",
+      "sha256": "87cd4730fda84e28bdfc490c4cd6635b8eb86c98a4ab2daf29e380eb62c0a80b",
+      "checkedAt": "2026-10-26T18:11:05.395491+00:00",
+      "acquisition": "same_day_retained_recheck"
+    },
+    {
+      "documentId": "reference-ricd-res17-1989",
+      "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+      "resolvedUrl": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+      "file": "data/reviews/content-reference-rechecks/reference-ricd-res17-1989.html",
+      "sha256": "e95d7b34dd5fdfeae4892cc4e3893c56eb9f1c28cb418af22639a8c7846639d9",
+      "checkedAt": "2026-10-26T18:42:38.198369+00:00",
+      "acquisition": "publisher_recheck",
+      "failedAttempts": []
+    }
+  ],
+  "reviewedAt": "2026-10-26",
+  "scope": "Cláusulas citadas nos seis manifestos legais e a referência adicional do comentário ALCE 21, em dez normas; sem revisão integral das leis. Quatro reconsultas do mesmo dia reaproveitadas, seis novas consultas oficiais. HTML canônico anterior preservado. Diferenças de grafia do ordinal/símbolo de parágrafo registradas individualmente; scripts e redações riscadas excluídos da comparação.",
+  "items": [
+    {
+      "questionId": "camara-2014-cb2-03-q071",
+      "previousManifest": "data/reviews/eighth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 24, caput e XII",
+          "activeQuote": "Art. 24. Compete à União, aos Estados e ao Distrito Federal legislar concorrentemente sobre:",
+          "publisherQuote": "Art. 24. Compete à União, aos Estados e ao Distrito Federal legislar concorrentemente sobre:",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 24, XII",
+          "activeQuote": "XII - previdência social, proteção e defesa da saúde;",
+          "publisherQuote": "XII - previdência social, proteção e defesa da saúde;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q075",
+      "previousManifest": "data/reviews/eighth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 49, XIII",
+          "activeQuote": "XIII - escolher dois terços dos membros do Tribunal de Contas da União;",
+          "publisherQuote": "XIII - escolher dois terços dos membros do Tribunal de Contas da União;",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 73, § 2º, I",
+          "activeQuote": "I - um terço pelo Presidente da República, com aprovação do Senado Federal, sendo dois alternadamente dentre auditores e membros do Ministério Público junto ao Tribunal",
+          "publisherQuote": "I - um terço pelo Presidente da República, com aprovação do Senado Federal, sendo dois alternadamente dentre auditores e membros do Ministério Público junto ao Tribunal",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q078",
+      "previousManifest": "data/reviews/eighth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 84, VI, b",
+          "activeQuote": "b) extinção de funções ou cargos públicos, quando vagos;",
+          "publisherQuote": "b) extinção de funções ou cargos públicos, quando vagos;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q101",
+      "previousManifest": "data/reviews/eighth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 23, VII",
+          "activeQuote": "VII - preservar as florestas, a fauna e a flora;",
+          "publisherQuote": "VII - preservar as florestas, a fauna e a flora;",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 24, VI",
+          "activeQuote": "VI - florestas, caça, pesca, fauna, conservação da natureza, defesa do solo e dos recursos naturais, proteção do meio ambiente e controle da poluição;",
+          "publisherQuote": "VI - florestas, caça, pesca, fauna, conservação da natureza, defesa do solo e dos recursos naturais, proteção do meio ambiente e controle da poluição;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q102",
+      "previousManifest": "data/reviews/eighth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 22, caput e V",
+          "activeQuote": "Art. 22. Compete privativamente à União legislar sobre:",
+          "publisherQuote": "Art. 22. Compete privativamente à União legislar sobre:",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 22, V",
+          "activeQuote": "V - serviço postal;",
+          "publisherQuote": "V - serviço postal;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q105",
+      "previousManifest": "data/reviews/eighth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 23, caput",
+          "activeQuote": "Art. 23. É competência comum da União, dos Estados, do Distrito Federal e dos Municípios:",
+          "publisherQuote": "Art. 23. É competência comum da União, dos Estados, do Distrito Federal e dos Municípios:",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 23, III",
+          "activeQuote": "III - proteger os documentos, as obras e outros bens de valor histórico, artístico e cultural, os monumentos, as paisagens naturais notáveis e os sítios arqueológicos;",
+          "publisherQuote": "III - proteger os documentos, as obras e outros bens de valor histórico, artístico e cultural, os monumentos, as paisagens naturais notáveis e os sítios arqueológicos;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "018-stj-cb1-01-q023",
+      "previousManifest": "data/reviews/eleventh-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, V",
+          "activeQuote": "V - as funções de confiança, exercidas exclusivamente por servidores ocupantes de cargo efetivo, e os cargos em comissão, a serem preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, destinam-se apenas às atribuições de direção, chefia e assessoramento;",
+          "publisherQuote": "V - as funções de confiança, exercidas exclusivamente por servidores ocupantes de cargo efetivo, e os cargos em comissão, a serem preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, destinam-se apenas às atribuições de direção, chefia e assessoramento;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "018-stj-cb1-01-q024",
+      "previousManifest": "data/reviews/eleventh-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 26, § 5º, I e II",
+          "activeQuote": "§ 5º A margem de preferência não se aplica aos bens manufaturados nacionais e aos serviços nacionais se a capacidade de produção desses bens ou de prestação desses serviços no País for inferior: I - à quantidade a ser adquirida ou contratada; ou II - aos quantitativos fixados em razão do parcelamento do objeto, quando for o caso.",
+          "publisherQuote": "§ 5º A margem de preferência não se aplica aos bens manufaturados nacionais e aos serviços nacionais se a capacidade de produção desses bens ou de prestação desses serviços no País for inferior: I - à quantidade a ser adquirida ou contratada; ou II - aos quantitativos fixados em razão do parcelamento do objeto, quando for o caso.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "018-stj-cb1-01-q026",
+      "previousManifest": "data/reviews/eleventh-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-9784-1999",
+          "locator": "Art. 50, § 1º",
+          "activeQuote": "A motivação deve ser explícita, clara e congruente, podendo consistir em declaração de concordância com fundamentos de anteriores pareceres, informações, decisões ou propostas, que, neste caso, serão parte integrante do ato.",
+          "publisherQuote": "A motivação deve ser explícita, clara e congruente, podendo consistir em declaração de concordância com fundamentos de anteriores pareceres, informações, decisões ou propostas, que, neste caso, serão parte integrante do ato.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "018-stj-cb1-01-q040",
+      "previousManifest": "data/reviews/eleventh-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-8429-1992",
+          "locator": "Art. 11, IV",
+          "activeQuote": "IV - negar publicidade aos atos oficiais, exceto em razão de sua imprescindibilidade para a segurança da sociedade e do Estado ou de outras hipóteses instituídas em lei;",
+          "publisherQuote": "IV - negar publicidade aos atos oficiais, exceto em razão de sua imprescindibilidade para a segurança da sociedade e do Estado ou de outras hipóteses instituídas em lei;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "018-stj-cb1-01-q041",
+      "previousManifest": "data/reviews/eleventh-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-8429-1992",
+          "locator": "Art. 11, § 4º",
+          "activeQuote": "§ 4º Os atos de improbidade de que trata este artigo exigem lesividade relevante ao bem jurídico tutelado para serem passíveis de sancionamento e independem do reconhecimento da produção de danos ao erário e de enriquecimento ilícito dos agentes públicos.",
+          "publisherQuote": "§ 4º Os atos de improbidade de que trata este artigo exigem lesividade relevante ao bem jurídico tutelado para serem passíveis de sancionamento e independem do reconhecimento da produção de danos ao erário e de enriquecimento ilícito dos agentes públicos.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "018-stj-cb1-01-q042",
+      "previousManifest": "data/reviews/eleventh-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-8429-1992",
+          "locator": "Art. 1º, § 6º",
+          "activeQuote": "§ 6º Estão sujeitos às sanções desta Lei os atos de improbidade praticados contra o patrimônio de entidade privada que receba subvenção, benefício ou incentivo, fiscal ou creditício, de entes públicos ou governamentais, previstos no § 5º deste artigo.",
+          "publisherQuote": "§ 6º Estão sujeitos às sanções desta Lei os atos de improbidade praticados contra o patrimônio de entidade privada que receba subvenção, benefício ou incentivo, fiscal ou creditício, de entes públicos ou governamentais, previstos no § 5º deste artigo.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "018-stj-cb1-01-q043",
+      "previousManifest": "data/reviews/eleventh-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-8429-1992",
+          "locator": "Art. 3º, caput",
+          "activeQuote": "Art. 3º As disposições desta Lei são aplicáveis, no que couber, àquele que, mesmo não sendo agente público, induza ou concorra dolosamente para a prática do ato de improbidade.",
+          "publisherQuote": "Art. 3º As disposições desta Lei são aplicáveis, no que couber, àquele que, mesmo não sendo agente público, induza ou concorra dolosamente para a prática do ato de improbidade.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "057-ibama-001-01-q064",
+      "previousManifest": "data/reviews/ninth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 151, parágrafo único",
+          "activeQuote": "Parágrafo único. Será aplicado o disposto no caput deste artigo às controvérsias relacionadas a direitos patrimoniais disponíveis, como as questões relacionadas ao restabelecimento do equilíbrio econômico-financeiro do contrato, ao inadimplemento de obrigações contratuais por quaisquer das partes e ao cálculo de indenizações.",
+          "publisherQuote": "Parágrafo único. Será aplicado o disposto no caput deste artigo às controvérsias relacionadas a direitos patrimoniais disponíveis, como as questões relacionadas ao restabelecimento do equilíbrio econômico-financeiro do contrato, ao inadimplemento de obrigações contratuais por quaisquer das partes e ao cálculo de indenizações.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "057-ibama-001-01-q067",
+      "previousManifest": "data/reviews/ninth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 91, § 3º",
+          "activeQuote": "§ 3º Será admitida a forma eletrônica na celebração de contratos e de termos aditivos, atendidas as exigências previstas em regulamento.",
+          "publisherQuote": "§ 3º Será admitida a forma eletrônica na celebração de contratos e de termos aditivos, atendidas as exigências previstas em regulamento.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "057-ibama-001-01-q069",
+      "previousManifest": "data/reviews/ninth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 6º, LIII",
+          "activeQuote": "LIII - contrato de eficiência: contrato cujo objeto é a prestação de serviços, que pode incluir a realização de obras e o fornecimento de bens, com o objetivo de proporcionar economia ao contratante, na forma de redução de despesas correntes, remunerado o contratado com base em percentual da economia gerada;",
+          "publisherQuote": "LIII - contrato de eficiência: contrato cujo objeto é a prestação de serviços, que pode incluir a realização de obras e o fornecimento de bens, com o objetivo de proporcionar economia ao contratante, na forma de redução de despesas correntes, remunerado o contratado com base em percentual da economia gerada;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "057-ibama-001-01-q070",
+      "previousManifest": "data/reviews/ninth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 5º",
+          "activeQuote": "Art. 5º Na aplicação desta Lei, serão observados os princípios da legalidade, da impessoalidade, da moralidade, da publicidade, da eficiência, do interesse público, da probidade administrativa, da igualdade, do planejamento, da transparência, da eficácia, da segregação de funções, da motivação, da vinculação ao edital, do julgamento objetivo, da segurança jurídica, da razoabilidade, da competitividade, da proporcionalidade, da celeridade, da economicidade e do desenvolvimento nacional sustentável, assim como as disposições do Decreto-Lei nº 4.657, de 4 de setembro de 1942 (Lei de Introdução às Normas do Direito Brasileiro).",
+          "publisherQuote": "Art. 5º Na aplicação desta Lei, serão observados os princípios da legalidade, da impessoalidade, da moralidade, da publicidade, da eficiência, do interesse público, da probidade administrativa, da igualdade, do planejamento, da transparência, da eficácia, da segregação de funções, da motivação, da vinculação ao edital, do julgamento objetivo, da segurança jurídica, da razoabilidade, da competitividade, da proporcionalidade, da celeridade, da economicidade e do desenvolvimento nacional sustentável, assim como as disposições do Decreto-Lei nº 4.657, de 4 de setembro de 1942 (Lei de Introdução às Normas do Direito Brasileiro).",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "057-ibama-001-01-q071",
+      "previousManifest": "data/reviews/ninth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-12527-2011",
+          "locator": "Art. 10, § 3º",
+          "activeQuote": "§ 3º São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público.",
+          "publisherQuote": "§ 3º São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "057-ibama-001-01-q072",
+      "previousManifest": "data/reviews/ninth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-13709-2018",
+          "locator": "Art. 7º, X",
+          "activeQuote": "X - para a proteção do crédito, inclusive quanto ao disposto na legislação pertinente.",
+          "publisherQuote": "X - para a proteção do crédito, inclusive quanto ao disposto na legislação pertinente.",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-lei-13709-2018",
+          "locator": "Art. 11, caput e incisos I e II",
+          "activeQuote": "Art. 11. O tratamento de dados pessoais sensíveis somente poderá ocorrer nas seguintes hipóteses: I - quando o titular ou seu responsável legal consentir, de forma específica e destacada, para finalidades específicas; II - sem fornecimento de consentimento do titular, nas hipóteses em que for indispensável para:",
+          "publisherQuote": "Art. 11. O tratamento de dados pessoais sensíveis somente poderá ocorrer nas seguintes hipóteses: I - quando o titular ou seu responsável legal consentir, de forma específica e destacada, para finalidades específicas; II - sem fornecimento de consentimento do titular, nas hipóteses em que for indispensável para:",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q079",
+      "previousManifest": "data/reviews/seventh-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 165, caput e I a III",
+          "activeQuote": "Art. 165. Leis de iniciativa do Poder Executivo estabelecerão: I - o plano plurianual; II - as diretrizes orçamentárias; III - os orçamentos anuais.",
+          "publisherQuote": "Art. 165. Leis de iniciativa do Poder Executivo estabelecerão: I - o plano plurianual; II - as diretrizes orçamentárias; III - os orçamentos anuais.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q080",
+      "previousManifest": "data/reviews/seventh-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 66, § 7º",
+          "activeQuote": "§ 7º Se a lei não for promulgada dentro de quarenta e oito horas pelo Presidente da República, nos casos dos § 3º e § 5º, o Presidente do Senado a promulgará, e, se este não o fizer em igual prazo, caberá ao Vice-Presidente do Senado fazê-lo.",
+          "publisherQuote": "§ 7º Se a lei não for promulgada dentro de quarenta e oito horas pelo Presidente da República, nos casos dos §§ 3º e 5º, o Presidente do Senado a promulgará, e, se este não o fizer em igual prazo, caberá ao Vice-Presidente do Senado fazê-lo.",
+          "outcome": "typography_only"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q089",
+      "previousManifest": "data/reviews/seventh-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 194, caput",
+          "activeQuote": "Art. 194. Terminada a votação em primeiro turno, os projetos irão à Comissão de Constituição e Justiça e de Cidadania para redigir o vencido.",
+          "publisherQuote": "Art. 194. Terminada a votação em primeiro turno, os projetos irão à Comissão de Constituição e Justiça e de Cidadania para redigir o vencido.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q090",
+      "previousManifest": "data/reviews/seventh-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 176, § 1º",
+          "activeQuote": "O Deputado só poderá apartear o orador se lhe solicitar e obtiver permissão, devendo permanecer de pé ao fazê-lo.",
+          "publisherQuote": "O Deputado só poderá apartear o orador se lhe solicitar e obtiver permissão, devendo permanecer de pé ao fazê-lo.",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 176, § 2º, V",
+          "activeQuote": "V - quando o orador declarar, de modo geral, que não o permite;",
+          "publisherQuote": "V - quando o orador declarar, de modo geral, que não o permite;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q091",
+      "previousManifest": "data/reviews/seventh-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 159, § 2º, I",
+          "activeQuote": "§ 2º Haverá entre os projetos em regime de urgência a seguinte ordem de preferencia: I - declaração de guerra e correlatos;",
+          "publisherQuote": "§ 2º Haverá entre os projetos em regime de urgência a seguinte ordem de preferencia: I - declaração de guerra e correlatos;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q092",
+      "previousManifest": "data/reviews/seventh-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 67",
+          "activeQuote": "Art. 67. A matéria constante de projeto de lei rejeitado somente poderá constituir objeto de novo projeto, na mesma sessão legislativa, mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional.",
+          "publisherQuote": "Art. 67. A matéria constante de projeto de lei rejeitado somente poderá constituir objeto de novo projeto, na mesma sessão legislativa, mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q097",
+      "previousManifest": "data/reviews/seventh-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 4º, § 4º",
+          "activeQuote": "o compromissando não poderá apresentar, no ato, declaração oral ou escrita nem ser empossado através de procurador.",
+          "publisherQuote": "o compromissando não poderá apresentar, no ato, declaração oral ou escrita nem ser empossado através de procurador.",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 4º, § 6º-A",
+          "activeQuote": "colher o compromisso de posse por meio de videoconferência durante a sessão preparatória ou no mesmo dia de sua realização",
+          "publisherQuote": "colher o compromisso de posse por meio de videoconferência durante a sessão preparatória ou no mesmo dia de sua realização",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q099",
+      "previousManifest": "data/reviews/seventh-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 24, II",
+          "activeQuote": "II - discutir e votar projetos de lei, dispensada a competência do Plenário, salvo o disposto no § 2º do art. 132 e excetuados os projetos:",
+          "publisherQuote": "II - discutir e votar projetos de lei, dispensada a competência do Plenário, salvo o disposto no § 2º do art. 132 e excetuados os projetos:",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 24, II, h",
+          "activeQuote": "h) em regime de urgência;",
+          "publisherQuote": "h) em regime de urgência;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q100",
+      "previousManifest": "data/reviews/seventh-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 8º, § 3º",
+          "activeQuote": "§ 3º É assegurada a participação de um membro da Minoria, ainda que pela proporcionalidade não lhe caiba lugar.",
+          "publisherQuote": "§ 3º É assegurada a participação de um membro da Minoria, ainda que pela proporcionalidade não lhe caiba lugar.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-cg1-01-q018",
+      "previousManifest": "data/reviews/sixth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 5º, LXXIII",
+          "activeQuote": "qualquer cidadão é parte legítima para propor ação popular que vise a anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural, ficando o autor, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência;",
+          "publisherQuote": "qualquer cidadão é parte legítima para propor ação popular que vise a anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural, ficando o autor, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-cg1-01-q019",
+      "previousManifest": "data/reviews/sixth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, § 4º",
+          "activeQuote": "Os atos de improbidade administrativa importarão a suspensão dos direitos políticos, a perda da função pública, a indisponibilidade dos bens e o ressarcimento ao erário, na forma e gradação previstas em lei, sem prejuízo da ação penal cabível.",
+          "publisherQuote": "Os atos de improbidade administrativa importarão a suspensão dos direitos políticos, a perda da função pública, a indisponibilidade dos bens e o ressarcimento ao erário, na forma e gradação previstas em lei, sem prejuízo da ação penal cabível.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-cg1-01-q020",
+      "previousManifest": "data/reviews/sixth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, XII",
+          "activeQuote": "XII - os vencimentos dos cargos do Poder Legislativo e do Poder Judiciário não poderão ser superiores aos pagos pelo Poder Executivo;",
+          "publisherQuote": "XII - os vencimentos dos cargos do Poder Legislativo e do Poder Judiciário não poderão ser superiores aos pagos pelo Poder Executivo;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-cg1-01-q021",
+      "previousManifest": "data/reviews/sixth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-9784-1999",
+          "locator": "Art. 55",
+          "activeQuote": "Em decisão na qual se evidencie não acarretarem lesão ao interesse público nem prejuízo a terceiros, os atos que apresentarem defeitos sanáveis poderão ser convalidados pela própria Administração.",
+          "publisherQuote": "Em decisão na qual se evidencie não acarretarem lesão ao interesse público nem prejuízo a terceiros, os atos que apresentarem defeitos sanáveis poderão ser convalidados pela própria Administração.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-cg1-01-q022",
+      "previousManifest": "data/reviews/sixth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-9784-1999",
+          "locator": "Art. 2º, parágrafo único, II",
+          "activeQuote": "II - atendimento a fins de interesse geral, vedada a renúncia total ou parcial de poderes ou competências, salvo autorização em lei;",
+          "publisherQuote": "II - atendimento a fins de interesse geral, vedada a renúncia total ou parcial de poderes ou competências, salvo autorização em lei;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-cg1-01-q024",
+      "previousManifest": "data/reviews/sixth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 74, caput e I",
+          "activeQuote": "Art. 74. É inexigível a licitação quando inviável a competição, em especial nos casos de: I - aquisição de materiais, de equipamentos ou de gêneros ou contratação de serviços que só possam ser fornecidos por produtor, empresa ou representante comercial exclusivos;",
+          "publisherQuote": "Art. 74. É inexigível a licitação quando inviável a competição, em especial nos casos de: I - aquisição de materiais, de equipamentos ou de gêneros ou contratação de serviços que só possam ser fornecidos por produtor, empresa ou representante comercial exclusivos;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-cg1-01-q034",
+      "previousManifest": "data/reviews/sixth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-13709-2018",
+          "locator": "Art. 4º, caput e III",
+          "activeQuote": "III - realizado para fins exclusivos de: a) segurança pública; b) defesa nacional; c) segurança do Estado; ou d) atividades de investigação e repressão de infrações penais;",
+          "publisherQuote": "III - realizado para fins exclusivos de: a) segurança pública; b) defesa nacional; c) segurança do Estado; ou d) atividades de investigação e repressão de infrações penais;",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-lei-13709-2018",
+          "locator": "Art. 4º, caput",
+          "activeQuote": "Art. 4º Esta Lei não se aplica ao tratamento de dados pessoais:",
+          "publisherQuote": "Art. 4º Esta Lei não se aplica ao tratamento de dados pessoais:",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-cg1-01-q035",
+      "previousManifest": "data/reviews/sixth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-12527-2011",
+          "locator": "Art. 10, §§ 1º e 3º",
+          "activeQuote": "§ 1º Para o acesso a informações de interesse público, a identificação do requerente não pode conter exigências que inviabilizem a solicitação.",
+          "publisherQuote": "§ 1º Para o acesso a informações de interesse público, a identificação do requerente não pode conter exigências que inviabilizem a solicitação.",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-lei-12527-2011",
+          "locator": "Art. 10, § 3º",
+          "activeQuote": "§ 3º São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público.",
+          "publisherQuote": "§ 3º São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q003",
+      "previousManifest": "data/reviews/sixth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 111, § 3º",
+          "activeQuote": "Nenhum projeto poderá conter 2 (duas) ou mais matérias diversas.",
+          "publisherQuote": "Nenhum projeto poderá conter 2 (duas) ou mais matérias diversas.",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 137, § 2º",
+          "activeQuote": "poderá o Autor da proposição recorrer ao Plenário, no prazo de cinco sessões da publicação do despacho",
+          "publisherQuote": "poderá o Autor da proposição recorrer ao Plenário, no prazo de cinco sessões da publicação do despacho",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 137, § 1º, II, c",
+          "activeQuote": "a Presidência devolverá ao Autor qualquer proposição que: I - não estiver devidamente formalizada e em termos; II - versar sobre matéria: a) alheia à competência da Câmara; b) evidentemente inconstitucional; c) anti-regimental.",
+          "publisherQuote": "a Presidência devolverá ao Autor qualquer proposição que: I - não estiver devidamente formalizada e em termos; II - versar sobre matéria: a) alheia à competência da Câmara; b) evidentemente inconstitucional; c) anti-regimental.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q015",
+      "previousManifest": "data/reviews/sixth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 102, § 3º",
+          "activeQuote": "ou, quando expressamente permitido, de Líder ou Líderes, representando estes últimos exclusivamente o número de Deputados de sua legenda partidária ou parlamentar, na data da apresentação da proposição.",
+          "publisherQuote": "ou, quando expressamente permitido, de Líder ou Líderes, representando estes últimos exclusivamente o número de Deputados de sua legenda partidária ou parlamentar, na data da apresentação da proposição.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q017",
+      "previousManifest": "data/reviews/sixth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 91, caput",
+          "activeQuote": "A sessão plenária da Câmara será transformada em Comissão Geral, sob a direção de seu Presidente, para:",
+          "publisherQuote": "A sessão plenária da Câmara será transformada em Comissão Geral, sob a direção de seu Presidente, para:",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 91, III",
+          "activeQuote": "III - comparecimento de Ministro de Estado.",
+          "publisherQuote": "III - comparecimento de Ministro de Estado.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q018",
+      "previousManifest": "data/reviews/sixth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 109, III",
+          "activeQuote": "III - de resolução a regular, com eficácia de lei ordinária, matérias da competência privativa da Câmara dos Deputados, de caráter político, processual, legislativo ou administrativo",
+          "publisherQuote": "III - de resolução a regular, com eficácia de lei ordinária, matérias da competência privativa da Câmara dos Deputados, de caráter político, processual, legislativo ou administrativo",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q019",
+      "previousManifest": "data/reviews/sixth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 113, I",
+          "activeQuote": "sugere a outro Poder a adoção de providência, a realização de ato administrativo ou de gestão, ou o envio de projeto sobre a matéria de sua iniciativa exclusiva;",
+          "publisherQuote": "sugere a outro Poder a adoção de providência, a realização de ato administrativo ou de gestão, ou o envio de projeto sobre a matéria de sua iniciativa exclusiva;",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 113, § 1º",
+          "activeQuote": "Na hipótese do inciso I, a indicação será objeto de requerimento escrito, despachado pelo Presidente e publicado no Diário da Câmara dos Deputados.",
+          "publisherQuote": "Na hipótese do inciso I, a indicação será objeto de requerimento escrito, despachado pelo Presidente e publicado no Diário da Câmara dos Deputados.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "094-pf-cb1-01-q043",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-8112-1990",
+          "locator": "Art. 37, § 1º",
+          "activeQuote": "§ 1º A redistribuição ocorrerá ex officio para ajustamento de lotação e da força de trabalho às necessidades dos serviços, inclusive nos casos de reorganização, extinção ou criação de órgão ou entidade.",
+          "publisherQuote": "§ 1º A redistribuição ocorrerá ex officio para ajustamento de lotação e da força de trabalho às necessidades dos serviços, inclusive nos casos de reorganização, extinção ou criação de órgão ou entidade.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "094-pf-cb1-01-q047",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-9784-1999",
+          "locator": "Art. 2º, caput",
+          "activeQuote": "Art. 2o A Administração Pública obedecerá, dentre outros, aos princípios da legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência.",
+          "publisherQuote": "Art. 2º A Administração Pública obedecerá, dentre outros, aos princípios da legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência.",
+          "outcome": "typography_only"
+        }
+      ]
+    },
+    {
+      "questionId": "094-pf-cb1-01-q048",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-12527-2011",
+          "locator": "Art. 7º, § 1º",
+          "activeQuote": "§ 1º O acesso à informação previsto no caput não compreende as informações referentes a projetos de pesquisa e desenvolvimento científicos ou tecnológicos cujo sigilo seja imprescindível à segurança da sociedade e do Estado.",
+          "publisherQuote": "§ 1º O acesso à informação previsto no caput não compreende as informações referentes a projetos de pesquisa e desenvolvimento científicos ou tecnológicos cujo sigilo seja imprescindível à segurança da sociedade e do Estado.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "094-pf-cb1-01-q049",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-9784-1999",
+          "locator": "Art. 66, §§ 1º e 2º",
+          "activeQuote": "§ 2o Os prazos expressos em dias contam-se de modo contínuo.",
+          "publisherQuote": "§ 2º Os prazos expressos em dias contam-se de modo contínuo.",
+          "outcome": "typography_only"
+        }
+      ]
+    },
+    {
+      "questionId": "094-pf-cb1-01-q050",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-13709-2018",
+          "locator": "Art. 5º, XVII",
+          "activeQuote": "XVII - relatório de impacto à proteção de dados pessoais: documentação do controlador que contém a descrição dos processos de tratamento de dados pessoais que podem gerar riscos às liberdades civis e aos direitos fundamentais, bem como medidas, salvaguardas e mecanismos de mitigação de risco;",
+          "publisherQuote": "XVII - relatório de impacto à proteção de dados pessoais: documentação do controlador que contém a descrição dos processos de tratamento de dados pessoais que podem gerar riscos às liberdades civis e aos direitos fundamentais, bem como medidas, salvaguardas e mecanismos de mitigação de risco;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q036",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-codigo-civil-2002",
+          "locator": "Arts. 100 e 101",
+          "activeQuote": "Art. 100. Os bens públicos de uso comum do povo e os de uso especial são inalienáveis, enquanto conservarem a sua qualificação, na forma que a lei determinar. Art. 101. Os bens públicos dominicais podem ser alienados, observadas as exigências da lei.",
+          "publisherQuote": "Art. 100. Os bens públicos de uso comum do povo e os de uso especial são inalienáveis, enquanto conservarem a sua qualificação, na forma que a lei determinar. Art. 101. Os bens públicos dominicais podem ser alienados, observadas as exigências da lei.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q037",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-8112-1990",
+          "locator": "Art. 147, caput e parágrafo único",
+          "activeQuote": "Art. 147. Como medida cautelar e a fim de que o servidor não venha a influir na apuração da irregularidade, a autoridade instauradora do processo disciplinar poderá determinar o seu afastamento do exercício do cargo, pelo prazo de até 60 (sessenta) dias, sem prejuízo da remuneração. Parágrafo único. O afastamento poderá ser prorrogado por igual prazo, findo o qual cessarão os seus efeitos, ainda que não concluído o processo.",
+          "publisherQuote": "Art. 147. Como medida cautelar e a fim de que o servidor não venha a influir na apuração da irregularidade, a autoridade instauradora do processo disciplinar poderá determinar o seu afastamento do exercício do cargo, pelo prazo de até 60 (sessenta) dias, sem prejuízo da remuneração. Parágrafo único. O afastamento poderá ser prorrogado por igual prazo, findo o qual cessarão os seus efeitos, ainda que não concluído o processo.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q038",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-lei-9784-1999",
+          "locator": "Art. 2º, parágrafo único, II",
+          "activeQuote": "II - atendimento a fins de interesse geral, vedada a renúncia total ou parcial de poderes ou competências, salvo autorização em lei;",
+          "publisherQuote": "II - atendimento a fins de interesse geral, vedada a renúncia total ou parcial de poderes ou competências, salvo autorização em lei;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "094-pf-cb1-01-q035",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, XVI, caput",
+          "activeQuote": "XVI - é vedada a acumulação remunerada de cargos públicos, exceto, quando houver compatibilidade de horários, observado em qualquer caso o disposto no inciso XI:",
+          "publisherQuote": "XVI - é vedada a acumulação remunerada de cargos públicos, exceto, quando houver compatibilidade de horários, observado em qualquer caso o disposto no inciso XI:",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "094-pf-cb1-01-q036",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 5º, LXIV",
+          "activeQuote": "LXIV - o preso tem direito à identificação dos responsáveis por sua prisão ou por seu interrogatório policial;",
+          "publisherQuote": "LXIV - o preso tem direito à identificação dos responsáveis por sua prisão ou por seu interrogatório policial;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "094-pf-cb1-01-q038",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 5º, XIII — exemplo da classificação doutrinária",
+          "activeQuote": "XIII - é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer;",
+          "publisherQuote": "XIII - é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "094-pf-cb1-01-q039",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 34, caput",
+          "activeQuote": "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+          "publisherQuote": "Art. 34. A União não intervirá nos Estados nem no Distrito Federal, exceto para:",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "094-pf-cb1-01-q040",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 49, caput e V",
+          "activeQuote": "Art. 49. É da competência exclusiva do Congresso Nacional:",
+          "publisherQuote": "Art. 49. É da competência exclusiva do Congresso Nacional:",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 49, V",
+          "activeQuote": "V - sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites de delegação legislativa;",
+          "publisherQuote": "V - sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites de delegação legislativa;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "094-pf-cb1-01-q041",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 84, VII",
+          "activeQuote": "VII - manter relações com Estados estrangeiros e acreditar seus representantes diplomáticos;",
+          "publisherQuote": "VII - manter relações com Estados estrangeiros e acreditar seus representantes diplomáticos;",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 84, VIII",
+          "activeQuote": "VIII - celebrar tratados, convenções e atos internacionais, sujeitos a referendo do Congresso Nacional;",
+          "publisherQuote": "VIII - celebrar tratados, convenções e atos internacionais, sujeitos a referendo do Congresso Nacional;",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 84, XIII",
+          "activeQuote": "XIII - exercer o comando supremo das Forças Armadas, nomear os Comandantes da Marinha, do Exército e da Aeronáutica, promover seus oficiais-generais e nomeá-los para os cargos que lhes são privativos;",
+          "publisherQuote": "XIII - exercer o comando supremo das Forças Armadas, nomear os Comandantes da Marinha, do Exército e da Aeronáutica, promover seus oficiais-generais e nomeá-los para os cargos que lhes são privativos;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q076",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 58, § 2º, III e V",
+          "activeQuote": "III - convocar Ministros de Estado para prestar informações sobre assuntos inerentes a suas atribuições;",
+          "publisherQuote": "III - convocar Ministros de Estado para prestar informações sobre assuntos inerentes a suas atribuições;",
+          "outcome": "exact_active_quote"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 58, § 2º, V",
+          "activeQuote": "V - solicitar depoimento de qualquer autoridade ou cidadão;",
+          "publisherQuote": "V - solicitar depoimento de qualquer autoridade ou cidadão;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q084",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 53, caput",
+          "activeQuote": "Art. 53. Os Deputados e Senadores são invioláveis, civil e penalmente, por quaisquer de suas opiniões, palavras e votos.",
+          "publisherQuote": "Art. 53. Os Deputados e Senadores são invioláveis, civil e penalmente, por quaisquer de suas opiniões, palavras e votos.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q085",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 53, § 3º",
+          "activeQuote": "§ 3º Recebida a denúncia contra o Senador ou Deputado, por crime ocorrido após a diplomação, o Supremo Tribunal Federal dará ciência à Casa respectiva, que, por iniciativa de partido político nela representado e pelo voto da maioria de seus membros, poderá, até a decisão final, sustar o andamento da ação.",
+          "publisherQuote": "§ 3º Recebida a denúncia contra o Senador ou Deputado, por crime ocorrido após a diplomação, o Supremo Tribunal Federal dará ciência à Casa respectiva, que, por iniciativa de partido político nela representado e pelo voto da maioria de seus membros, poderá, até a decisão final, sustar o andamento da ação.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q086",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-code-ethics-camara-2001",
+          "locator": "Código, art. 4º, III",
+          "activeQuote": "III - celebrar acordo que tenha por objeto a posse do suplente, condicionando-a à contraprestação financeira ou à prática de atos contrários aos deveres éticos ou regimentais dos Deputados;",
+          "publisherQuote": "III - celebrar acordo que tenha por objeto a posse do suplente, condicionando-a à contraprestação financeira ou à prática de atos contrários aos deveres éticos ou regimentais dos Deputados;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q087",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-code-ethics-camara-2001",
+          "locator": "Código, art. 5º, III",
+          "activeQuote": "III - praticar ofensas físicas ou morais nas dependências da Câmara dos Deputados ou desacatar, por atos ou palavras, outro parlamentar, a Mesa ou Comissão ou os respectivos Presidentes;",
+          "publisherQuote": "III - praticar ofensas físicas ou morais nas dependências da Câmara dos Deputados ou desacatar, por atos ou palavras, outro parlamentar, a Mesa ou Comissão ou os respectivos Presidentes;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q088",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-code-ethics-camara-2001",
+          "locator": "Código, art. 3º, IX",
+          "activeQuote": "IX - respeitar as decisões legítimas dos órgãos da Casa.",
+          "publisherQuote": "IX - respeitar as decisões legítimas dos órgãos da Casa.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q096",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-code-ethics-camara-2001",
+          "locator": "Resolução nº 25/2001, art. 1º",
+          "activeQuote": "Art. 1º O Código de Ética e Decoro Parlamentar da Câmara dos Deputados é instituído na conformidade do texto anexo.",
+          "publisherQuote": "Art. 1º O Código de Ética e Decoro Parlamentar da Câmara dos Deputados é instituído na conformidade do texto anexo.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q098",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 17, I, h",
+          "activeQuote": "h) determinar o não-apanhamento de discurso, ou aparte, pela taquigrafia;",
+          "publisherQuote": "h) determinar o não-apanhamento de discurso, ou aparte, pela taquigrafia;",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q108",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Art. 77, caput",
+          "activeQuote": "Art. 77. No recinto do Plenário, durante as sessões, só serão admitidos os Deputados e Senadores, os ex-parlamentares, os funcionários da Câmara em serviço local e os jornalistas credenciados.",
+          "publisherQuote": "Art. 77. No recinto do Plenário, durante as sessões, só serão admitidos os Deputados e Senadores, os ex-parlamentares, os funcionários da Câmara em serviço local e os jornalistas credenciados.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2014-cb2-03-q109",
+      "previousManifest": "data/reviews/tenth-batch-legal-review.json",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-code-ethics-camara-2001",
+          "locator": "Código, art. 9º, § 4º",
+          "activeQuote": "§ 4º O Corregedor da Câmara dos Deputados poderá participar de todas as fases do processo no Conselho de Ética e Decoro Parlamentar, inclusive das discussões, sem direito a voto.",
+          "publisherQuote": "§ 4º O Corregedor da Câmara dos Deputados poderá participar de todas as fases do processo no Conselho de Ética e Decoro Parlamentar, inclusive das discussões, sem direito a voto.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    },
+    {
+      "questionId": "539-alce-016-01-q021",
+      "decision": "cited_active_wording_compatible",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 220, § 5º",
+          "activeQuote": "§ 5º Os meios de comunicação social não podem, direta ou indiretamente, ser objeto de monopólio ou oligopólio.",
+          "publisherQuote": "§ 5º Os meios de comunicação social não podem, direta ou indiretamente, ser objeto de monopólio ou oligopólio.",
+          "outcome": "exact_active_quote"
+        }
+      ]
+    }
+  ]
+}

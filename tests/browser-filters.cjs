@@ -15,11 +15,11 @@ const key = 'questionador-concursos.progress.v1';
    assert.equal(await page.locator('#study-discipline option[value="lingua-inglesa"]').isDisabled(),false);
    await page.locator('#study-discipline').selectOption('comunicacao-social');
    await page.locator('#study-topic').selectOption('comunicacao-social-2');
-   assert.match(await page.locator('#study-filter-status').innerText(),/8 de 8/);
+   assert.match(await page.locator('#study-filter-status').innerText(),/7 de 7/);
    await page.locator('#study-quantity').fill('9');
    assert.equal(await page.locator('#start-study').isDisabled(),true);
    assert.equal(await page.locator('#study-quantity').getAttribute('aria-invalid'),'true');
-   assert.match(await page.locator('#study-filter-status').innerText(),/entre 1 e 8/);
+   assert.match(await page.locator('#study-filter-status').innerText(),/entre 1 e 7/);
    await page.locator('#study-quantity').fill('2');await page.locator('#study-shuffle').check();
    await page.locator('#apply-study-options').click();
    for (const theme of ['light','dark']) {

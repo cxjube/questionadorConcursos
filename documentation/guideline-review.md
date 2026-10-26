@@ -1,5 +1,7 @@
 # Revisão das diretrizes recebidas — 23/10/2026
 
+> Atualização: [auditoria temática de 26/10](coverage-audit-2026-10-26.md), com 105/228 vínculos diretos, sete classificações corrigidas, um comando versionado e reconferência de 85 citações legais. A reserva atual é de 107/105 C/E em P1/P2.
+
 > Atualização em 26/10/2026: [11º lote](eleventh-batch-release.md), com 224 questões (212 C/E), 224 comentários e 75 fontes canônicas. São 106 C/E distintos por bloco e 103/228 itens programáticos com vínculo direto. Os registros anteriores mantêm o histórico de cada entrega.
 
 > Atualização: [simulado de 180 C/E](exam-release.md) com 90+90 distintos, perfil versionado, prazo fixo, mínimos independentes, navegação por blocos e preservação de histórico/backup. Os registros anteriores continuam históricos.

@@ -1,0 +1,154 @@
+"""Deterministic editorial coverage inventory; never infer mastery or exam weights."""
+import csv
+import hashlib
+import io
+import json
+
+from tools.validate import ROOT
+
+JSON_PATH = 'data/reviews/coverage-audit-2026-10-26.json'
+CSV_PATH = 'documentation/coverage-audit-2026-10-26.csv'
+MD_PATH = 'documentation/coverage-audit-2026-10-26.md'
+
+
+def coverage(catalog, umbrella_ids=()):
+    """Count distinct eligible questions directly and upward through topic parents."""
+    topics = {t['id']: t for t in catalog['topics']}
+    syllabus = catalog['syllabusItems']
+    keys = {k['id']: k for k in catalog['answerKeys']}
+    questions = {q['id']: q for q in catalog['questions']
+                 if q['review']['status'] == 'released'
+                 and keys[q['answerKeyId']]['result'] == 'valid'
+                 and keys[q['answerKeyId']]['stage'] == 'definitive'}
+    rows = []
+    for item in syllabus:
+        topic = topics[item['topicId']]
+        descendants = {topic['id']}
+        while True:
+            expanded = descendants | {t['id'] for t in topics.values() if t['parentId'] in descendants}
+            if expanded == descendants:
+                break
+            descendants = expanded
+        applicable = {s['id'] for s in syllabus if s['roleId'] == item['roleId']
+                      and s['noticeId'] == item['noticeId'] and s['block'] == item['block']
+                      and s['topicId'] in descendants}
+        direct = {m['questionId'] for m in catalog['mappings'] if m['status'] == 'confirmed'
+                  and m['syllabusItemId'] == item['id'] and m['questionId'] in questions}
+        subtree = {m['questionId'] for m in catalog['mappings'] if m['status'] == 'confirmed'
+                   and m['syllabusItemId'] in applicable and m['questionId'] in questions}
+        ce = {q for q in direct if questions[q]['type'] == 'true_false'}
+        subtree_ce = {q for q in subtree if questions[q]['type'] == 'true_false'}
+        umbrella = item['id'] in umbrella_ids
+        state = ('editorial_umbrella' if umbrella else 'direct' if direct else
+                 'descendants_only' if subtree else 'empty')
+        priority = ('scope' if umbrella else 'A' if not subtree_ce else
+                    'B' if len(subtree_ce) <= 2 else 'C')
+        rows.append(dict(id=item['id'], number=item['number'], label=topic['label'],
+                         disciplineId=topic['disciplineId'], block=item['block'],
+                         parentTopicId=topic['parentId'], isLeaf=len(descendants) == 1,
+                         state=state, priority=priority,
+                         directQuestionIds=sorted(direct), directCE=len(ce), directMC=len(direct-ce),
+                         subtreeQuestionIds=sorted(subtree), subtreeCE=len(subtree_ce),
+                         subtreeMC=len(subtree-subtree_ce)))
+    disciplines = []
+    for discipline in catalog['disciplines']:
+        selected = [r for r in rows if r['disciplineId'] == discipline['id']]
+        ids = {q for r in selected for q in r['directQuestionIds']}
+        disciplines.append(dict(discipline, totalItems=len(selected),
+                                directItems=sum(bool(r['directQuestionIds']) for r in selected),
+                                descendantsOnly=sum(r['state'] == 'descendants_only' for r in selected),
+                                emptyItems=sum(r['state'] == 'empty' for r in selected),
+                                emptyLeaves=sum(r['isLeaf'] and r['state'] == 'empty' for r in selected),
+                                questionsCE=sum(questions[q]['type'] == 'true_false' for q in ids),
+                                questionsMC=sum(questions[q]['type'] == 'multiple_choice' for q in ids)))
+    blocks = {}
+    for block in ['basic', 'specific']:
+        ids = {q for r in rows if r['block'] == block for q in r['directQuestionIds']}
+        blocks[block] = dict(total=len(ids), ce=sum(questions[q]['type'] == 'true_false' for q in ids))
+    return dict(totalItems=len(rows), directItems=sum(bool(r['directQuestionIds']) for r in rows),
+                descendantsOnly=sum(r['state'] == 'descendants_only' for r in rows),
+                emptyItems=sum(r['state'] == 'empty' for r in rows),
+                emptyLeaves=sum(r['isLeaf'] and r['state'] == 'empty' for r in rows),
+                blocks=blocks, disciplines=disciplines, items=rows)
+
+
+def artifacts(catalog, audit):
+    """Generate the machine inventory, spreadsheet and readable complete syllabus map."""
+    report = coverage(catalog, audit['editorialUmbrellaIds'])
+    report = dict(reviewedAt=audit['reviewedAt'], method='agent_assisted',
+                  catalogSha256=hashlib.sha256((ROOT / 'data/catalog.json').read_bytes()).hexdigest(),
+                  scope='Oferta de questões vinculadas, não domínio, cobertura integral ou peso de prova.', **report)
+    output = {JSON_PATH: json.dumps(report, ensure_ascii=False, indent=2) + '\n'}
+    stream = io.StringIO(newline='')
+    fields = ['id', 'disciplineId', 'block', 'number', 'label', 'state', 'priority', 'isLeaf',
+              'directCE', 'directMC', 'subtreeCE', 'subtreeMC', 'directQuestionIds', 'subtreeQuestionIds']
+    writer = csv.DictWriter(stream, fieldnames=fields, lineterminator='\n')
+    writer.writeheader()
+    for row in report['items']:
+        writer.writerow({k: ';'.join(row[k]) if isinstance(row[k], list) else row[k] for k in fields})
+    output[CSV_PATH] = stream.getvalue()
+    lines = ['# Lacunas e revisão de conteúdo — 26/10/2026', '',
+             'Revisão assistida por agente; não equivale a revisão humana ou parecer jurídico. '
+             'O banco continua com 224 questões oficiais (212 C/E e 12 de múltipla escolha), '
+             '224 comentários e 227 vínculos. Não foram adicionadas questões nesta etapa.', '',
+             f"Após sete correções de classificação, **{report['directItems']}/228 itens têm vínculo direto**. "
+             'O estado anterior ao 11º lote era 81/228; o lote elevou para 103/228 antes desta revisão. '
+             f"Há {report['descendantsOnly']} itens sem vínculo direto, mas atendidos por descendentes, "
+             f"{report['emptyItems']} sem questões no próprio item nem nos descendentes "
+             f"({report['emptyLeaves']} são folhas). O item 1 de Ciência Política é um título abrangente, "
+             'identificado separadamente; a hierarquia oficial não foi alterada.', '',
+             '## Como interpretar', '',
+             '- Questões distintas por ID; duas classificações não criam duas questões.',
+             '- Direto = vínculo com o item exato. Subárvore = união dos vínculos do item e de seus descendentes oficiais.',
+             '- Questões de um pai não são distribuídas aos filhos. Um vínculo não significa esgotamento do assunto.',
+             '- Prioridade A: sem C/E na subárvore (inclui eventual múltipla escolha). B: só 1–2 C/E. C: 3 ou mais C/E, ainda exigindo diversidade. São critérios editoriais, sem peso oficial por assunto.',
+             '- “Agrupador” sem vínculo direto e com descendentes atendidos não é uma lacuna integral. Ciência Política 1 é título editorial abrangente, sem descendência inferida.',
+             '- P1 tem 107 C/E e P2 tem 105 C/E, disjuntos. O simulado permanece 90+90; o excedente é de 17/15 itens. Incluindo múltipla escolha: 108/117, com um ID compartilhado.', '',
+             '## Oferta por disciplina', '',
+             '| Disciplina | Direto / programa | Só descendentes | Sem questões¹ | Folhas vazias | C/E | Múltipla escolha |',
+             '| --- | ---: | ---: | ---: | ---: | ---: | ---: |']
+    for d in report['disciplines']:
+        lines.append(f"| {d['label']} | {d['directItems']}/{d['totalItems']} | {d['descendantsOnly']} | {d['emptyItems']} | {d['emptyLeaves']} | {d['questionsCE']} | {d['questionsMC']} |")
+    lines += ['', '¹ Na própria subárvore. Pais e filhos aparecem separadamente, portanto não somar para obter número de assuntos independentes. A questão de múltipla escolha compartilhada aparece em duas disciplinas.', '',
+              '## Ordem recomendada para buscar os próximos lotes', '',
+              'A ordem combina ramos inteiros vazios, especificidade do edital e amostras pequenas. Não estima frequência da banca. Buscar sempre caderno completo e gabarito definitivo oficial; revisar texto/contexto/chave/atualidade antes de liberar.', '',
+              '1. **TI e dados — 8/8.1–8.4, 5.1, 5.3 e 6:** visualização, gráficos, ferramentas e storytelling; prompts, IA generativa e responsabilidade digital. Os itens STJ 49/50 anulados continuam excluídos.',
+              '2. **Administrativo — 5–6.5, 8–9.4:** poderes e abuso, responsabilidade civil, modelos de gestão, governança e Decreto 9.203/2017. São ramos sem questões; não assumir que itens de atos/agentes já os atendem.',
+              '3. **Processo Legislativo — 6–6.3 e Constitucional — 8–8.2:** Regimento Comum e resoluções do Congresso. Depois, PEC/MP (Processo 2.2/2.4), fiscalização (3) e orçamento (4.1/4.3–4.7).',
+              '4. **Comunicação — 5–5.4, 8.1/8.2 e 10.1:** redes oficiais, política e manuais próprios da Câmara. Conferir fonte oficial vigente antes de revisar questões antigas; normas de outros órgãos não substituem esses documentos.',
+              '5. **Divulgação — 6–8.2:** ética, equipes, legislação profissional, CONAR e Lei 12.232/2010. Depois, pesquisa de mercado/opinião/imagem (3.2–3.4) e marca/branding (4.1/4.2).',
+              '6. **Inglês — 2 e 3:** ampliar gramática e uso/registro. Há vínculo nos três itens, mas gramática e uso têm apenas um item cada; não confundir 3/3 com domínio ou variedade suficiente.',
+              '7. **Português — 3, 5.2/5.3/5.8, 6.2/6.4:** ortografia, coordenação/subordinação, colocação e reescrita específica.',
+              '8. **Ciência Política — 4, 10, 12 e 13:** formas de governo, política internacional e história política brasileira. A questão 145 é sobre Europa e deixa de sustentar cobertura fictícia da história dos partidos no Brasil.',
+              '9. **Demais lacunas e amostras B:** usar o inventário completo abaixo; equilibrar os dois blocos e ampliar P2, que tem a menor reserva após a correção. Não preencher lacunas apenas com rótulos mais amplos.', '',
+              '## Revisão de conteúdo e referências', '',
+              'Foram relidos os 224 enunciados/comentários e os 93 comandos/textos de apoio; os testes conferem a transcrição e as chaves contra os PDFs oficiais retidos. Os textos históricos são preservados como parte da prova. Não houve alteração de gabarito nem comentário novo. A autoria dos comentários continua explicitamente assistida por IA e independente da banca.', '',
+              'A reconferência alcança **66 questões legais, 85 citações, dez normas**: Constituição, RICD, Código de Ética, Leis 8.112, 8.429, 9.784, 10.406, 12.527, 13.709 e 14.133. Seis consultas novas e quatro reconsultas retidas do mesmo dia. As cláusulas citadas permanecem compatíveis; três diferenças de ordinal/símbolo de parágrafo entre publicadores estão registradas individualmente. Isso não é revisão integral das normas nem garantia de vigência futura. O Planalto respondeu 503 para LAI/LGPD; foi usada a redação atualizada do portal oficial da Câmara. HTML com erro não foi aceito como evidência.', '',
+              'Referências técnicas e institucionais foram conferidas no material retido; não se afirma nova verificação online integral delas. As ressalvas sobre posse por videoconferência, gravação de reunião de canal e modelos partidários foram mantidas. O próximo lote ainda precisa de revisão normativa própria.', '',
+              '### Correções aplicadas', '',
+              '| Questão | Vínculo anterior | Vínculo corrigido | Motivo |',
+              '| --- | --- | --- | --- |']
+    lookup = {r['id']: r for r in report['items']}
+    for change in audit['mappingCorrections']:
+        a, b = (lookup[change[k]['syllabusItemId']] for k in ['before', 'after'])
+        lines.append(f"| `{change['before']['questionId']}` | {a['disciplineId']} {a['number']} | {b['disciplineId']} {b['number']} | {change['reason']} |")
+    lines += ['', 'O comando `camara-2014-ethics-cf-command` passa de v1 a v2: removido o “94” da questão seguinte, conferido no PDF p. 10, coluna esquerda. A questão 96 passa à revisão 2 para refletir esse contexto. Enunciado, alternativas e chave não mudam. Snapshots antigos de sessões/backups continuam com suas versões e classificações históricas.', '',
+              'Evidência integral: [antes/depois e escopo](../data/reviews/content-audit-2026-10-26.json), [consultas e citações legais](../data/reviews/content-reference-rechecks.json), [inventário JSON](../data/reviews/coverage-audit-2026-10-26.json) e [planilha CSV](coverage-audit-2026-10-26.csv). As evidências ficam fora do site publicado.', '',
+              '## Inventário completo dos 228 itens', '',
+              'Contagens C/E e múltipla escolha são distintas. O CSV/JSON contém os IDs das questões de cada linha e permite rastrear os vínculos. “Escopo” identifica apenas o título amplo de Ciência Política.', '']
+    labels = {'direct': 'Direto', 'descendants_only': 'Só descendentes', 'empty': 'Sem questões', 'editorial_umbrella': 'Escopo'}
+    for discipline in report['disciplines']:
+        lines += [f"### {discipline['label']}", '', '| Item | Conteúdo oficial | C/E direto | MC direto | C/E subárvore | MC subárvore | Situação | Prioridade |',
+                  '| --- | --- | ---: | ---: | ---: | ---: | --- | --- |']
+        for r in report['items']:
+            if r['disciplineId'] == discipline['id']:
+                label = r['label'].replace('|', '\\|')
+                lines.append(f"| {r['number']} | {label} | {r['directCE']} | {r['directMC']} | {r['subtreeCE']} | {r['subtreeMC']} | {labels[r['state']]} | {r['priority']} |")
+        lines.append('')
+    lines += ['## Verificação desta entrega', '',
+              '- 109 testes Python e 47 testes JavaScript aprovados, incluindo transcrição/chaves oficiais, hierarquia sem dupla contagem e importação de snapshots anteriores às correções.',
+              '- Validação do catálogo, auditoria das 75 fontes canônicas, revisão do lote de preparação, geração do catálogo, inventário reproduzível e integridade do artefato estático.',
+              '- Navegador Chromium em 320/1280 px: filtros, personalização, evolução e simulado completo, com temas claro/escuro e texto a 200%.', '',
+              '## Reproduzir', '', 'Execute `uv run python -m tools coverage` para gerar os três arquivos e `uv run python -m tools coverage --check` para verificar que refletem o catálogo. A data é a da auditoria; uma próxima revisão exige atualizar explicitamente o registro, sem presumir nova checagem legal.', '']
+    output[MD_PATH] = '\n'.join(lines)
+    return output
