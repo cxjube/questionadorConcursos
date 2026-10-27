@@ -178,15 +178,15 @@ def current_artifacts(catalog, review):
              'Direto significa vínculo ao item exato; subárvore reúne o próprio item e seus descendentes, sem duplicar IDs. '
              'Vínculos de pais não são distribuídos aos filhos. Prioridades editoriais: A sem C/E, B com 1–2 C/E, C com 3 ou mais. '
              'Pais e filhos se sobrepõem; as contagens não são pesos oficiais.', '',
-             '[Entrega do 13º lote](thirteenth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)', '',
+             '[Entrega do 14º lote](fourteenth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)', '',
              '## Disciplinas', '', '| Disciplina | Direto / programa | C/E distintos | MC distintos | Folhas vazias |',
              '| --- | ---: | ---: | ---: | ---: |']
     for d in report['disciplines']:
         lines.append(f"| {d['label']} | {d['directItems']}/{d['totalItems']} | {d['questionsCE']} | {d['questionsMC']} | {d['emptyLeaves']} |")
     lines += ['', '## Prioridades seguintes', '',
-              '1. Visualização iniciada com dois itens: ampliar tipos de gráficos, ferramentas (8.3) e storytelling (8.4). Prompts e IA generativa (5.1/5.3) seguem sem itens. STJ CB2 48/49/50 também anulados.',
-              '2. Regimento Comum e resoluções do Congresso: Constitucional 8–8.2 e Processo Legislativo 6–6.3.',
-              '3. Redes sociais: uma característica de plataforma em 5.3 não cobre planejamento, postagens, formatos e elementos de publicação (5.1/5.2/5.4). Política e manuais próprios da Câmara (8.1/8.2/10.1) continuam pendentes.',
+              '1. Prompts e IA generativa foram iniciados com itens válidos da ANM/TRT10. Power BI 8.3 tem uma amostra distinta válida do TRT10; ampliar gráficos, ferramentas e storytelling 8.4. Itens anulados do STJ/ANM continuam excluídos.',
+              '2. Regimento Comum e resoluções 1/1970, 3/1990 e 1/2002: quatro amostras de múltipla escolha no treino; ainda faltam C/E e vínculos com os recortes de Constitucional 8–8.2.',
+              '3. Redes sociais têm conceitos e participação do público, mas planejamento, postagens/colaborações e elementos de publicação (5.1/5.2/5.4) seguem sem questões diretas. Política e manuais da Câmara (8.1/8.2/10.1) têm links de leitura, sem vínculo artificial de questões.',
               '4. Expandir responsabilidade civil, governança, poderes e ética publicitária: os primeiros vínculos são amostras pequenas.',
               '5. Gramática e uso do Inglês (2/3), lacunas específicas de Português, pesquisa de mercado/opinião/imagem e formação política brasileira.', '',
               '## Inventário completo', '']

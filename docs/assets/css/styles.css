@@ -295,7 +295,7 @@ button:disabled { cursor: not-allowed; opacity: 0.65; }
 .performance-topics > li { border-top: 1px solid var(--border); padding-block: var(--space-xs); }
 .performance-topic-label { font-weight: 600; }
 .question-context h4 { margin-top: 0; }
-.question-stem { font-family: var(--font-serif); font-size: var(--text-stem); line-height: var(--leading-relaxed); }
+.question-stem { white-space: pre-line; font-family: var(--font-serif); font-size: var(--text-stem); line-height: var(--leading-relaxed); }
 .answer-choices { min-width: 0; border: 0; padding: 0; margin-block: var(--space-md); }
 .answer-choices legend { font-weight: 700; margin-bottom: var(--space-xs); }
 .answer-choice { display: flex; gap: var(--space-xs); align-items: flex-start; padding: var(--space-sm); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); cursor: pointer; min-height: var(--target); }

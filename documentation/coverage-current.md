@@ -1,32 +1,32 @@
 # Mapa atual do banco de questões
 
-Última revisão: 2026-10-26; lote `thirteenth-batch`. São 266 questões e 270 vínculos; **130/228 itens com vínculo direto**, 31 atendidos só por descendentes e 66 sem questões na subárvore (64 folhas). O título amplo Ciência Política 1 permanece separado.
+Última revisão: 2026-10-26; lote `fourteenth-batch`. São 302 questões e 307 vínculos; **142/228 itens com vínculo direto**, 31 atendidos só por descendentes e 54 sem questões na subárvore (53 folhas). O título amplo Ciência Política 1 permanece separado.
 
-C/E: P1 **119**, P2 **135**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
+C/E: P1 **140**, P2 **147**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
 
 Direto significa vínculo ao item exato; subárvore reúne o próprio item e seus descendentes, sem duplicar IDs. Vínculos de pais não são distribuídos aos filhos. Prioridades editoriais: A sem C/E, B com 1–2 C/E, C com 3 ou mais. Pais e filhos se sobrepõem; as contagens não são pesos oficiais.
 
-[Entrega do 13º lote](thirteenth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)
+[Entrega do 14º lote](fourteenth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)
 
 ## Disciplinas
 
 | Disciplina | Direto / programa | C/E distintos | MC distintos | Folhas vazias |
 | --- | ---: | ---: | ---: | ---: |
-| Língua Portuguesa | 11/20 | 31 | 0 | 6 |
-| Língua Inglesa | 3/3 | 15 | 0 | 0 |
+| Língua Portuguesa | 13/20 | 36 | 0 | 4 |
+| Língua Inglesa | 3/3 | 19 | 0 | 0 |
 | Noções de Direito Administrativo e Administração Pública | 21/46 | 35 | 0 | 17 |
 | Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados | 8/14 | 18 | 1 | 4 |
-| Tecnologia da Informação e Dados | 13/20 | 20 | 0 | 4 |
-| Comunicação Social | 30/45 | 42 | 5 | 9 |
-| Divulgação Institucional | 26/40 | 40 | 0 | 8 |
-| Processo Legislativo e Regimento Interno | 10/27 | 17 | 5 | 12 |
+| Tecnologia da Informação e Dados | 16/20 | 32 | 0 | 1 |
+| Comunicação Social | 32/45 | 49 | 5 | 8 |
+| Divulgação Institucional | 28/40 | 46 | 0 | 6 |
+| Processo Legislativo e Regimento Interno | 13/27 | 17 | 8 | 9 |
 | Ciência Política | 8/13 | 36 | 2 | 4 |
 
 ## Prioridades seguintes
 
-1. Visualização iniciada com dois itens: ampliar tipos de gráficos, ferramentas (8.3) e storytelling (8.4). Prompts e IA generativa (5.1/5.3) seguem sem itens. STJ CB2 48/49/50 também anulados.
-2. Regimento Comum e resoluções do Congresso: Constitucional 8–8.2 e Processo Legislativo 6–6.3.
-3. Redes sociais: uma característica de plataforma em 5.3 não cobre planejamento, postagens, formatos e elementos de publicação (5.1/5.2/5.4). Política e manuais próprios da Câmara (8.1/8.2/10.1) continuam pendentes.
+1. Prompts e IA generativa foram iniciados com itens válidos da ANM/TRT10. Power BI 8.3 tem uma amostra distinta válida do TRT10; ampliar gráficos, ferramentas e storytelling 8.4. Itens anulados do STJ/ANM continuam excluídos.
+2. Regimento Comum e resoluções 1/1970, 3/1990 e 1/2002: quatro amostras de múltipla escolha no treino; ainda faltam C/E e vínculos com os recortes de Constitucional 8–8.2.
+3. Redes sociais têm conceitos e participação do público, mas planejamento, postagens/colaborações e elementos de publicação (5.1/5.2/5.4) seguem sem questões diretas. Política e manuais da Câmara (8.1/8.2/10.1) têm links de leitura, sem vínculo artificial de questões.
 4. Expandir responsabilidade civil, governança, poderes e ética publicitária: os primeiros vínculos são amostras pequenas.
 5. Gramática e uso do Inglês (2/3), lacunas específicas de Português, pesquisa de mercado/opinião/imagem e formação política brasileira.
 
@@ -42,15 +42,15 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 4 | Domínio dos mecanismos de coesão textual. | 0 | 0 | 4 | 0 | Só descendentes | C |
 | 4.1 | Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual. | 3 | 0 | 3 | 0 | Direto | C |
 | 4.2 | Emprego de tempos e modos verbais. | 1 | 0 | 1 | 0 | Direto | B |
-| 5 | Domínio da estrutura morfossintática do período. | 0 | 0 | 9 | 0 | Só descendentes | C |
+| 5 | Domínio da estrutura morfossintática do período. | 0 | 0 | 14 | 0 | Só descendentes | C |
 | 5.1 | Emprego das classes de palavras. | 2 | 0 | 2 | 0 | Direto | B |
 | 5.2 | Relações de coordenação entre orações e entre termos da oração. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 5.3 | Relações de subordinação entre orações e entre termos da oração. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 5.4 | Emprego dos sinais de pontuação. | 3 | 0 | 3 | 0 | Direto | C |
-| 5.5 | Concordância verbal e nominal. | 2 | 0 | 2 | 0 | Direto | B |
+| 5.3 | Relações de subordinação entre orações e entre termos da oração. | 1 | 0 | 1 | 0 | Direto | B |
+| 5.4 | Emprego dos sinais de pontuação. | 4 | 0 | 4 | 0 | Direto | C |
+| 5.5 | Concordância verbal e nominal. | 3 | 0 | 3 | 0 | Direto | C |
 | 5.6 | Regência verbal e nominal. | 1 | 0 | 1 | 0 | Direto | B |
-| 5.7 | Emprego do sinal indicativo de crase. | 1 | 0 | 1 | 0 | Direto | B |
-| 5.8 | Colocação dos pronomes átonos. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 5.7 | Emprego do sinal indicativo de crase. | 2 | 0 | 2 | 0 | Direto | B |
+| 5.8 | Colocação dos pronomes átonos. | 1 | 0 | 1 | 0 | Direto | B |
 | 6 | Reescrita de frases e parágrafos do texto. | 0 | 0 | 2 | 0 | Só descendentes | B |
 | 6.1 | Significação das palavras. | 1 | 0 | 1 | 0 | Direto | B |
 | 6.2 | Substituição de palavras ou de trechos de texto. | 0 | 0 | 0 | 0 | Sem questões | A |
@@ -61,9 +61,9 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 
 | Item | Conteúdo oficial | C/E direto | MC direto | C/E subárvore | MC subárvore | Situação | Prioridade |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 1 | Compreensão de textos variados: domínio do vocabulário e da estrutura da língua, ideias principais e secundárias, explícitas e implícitas, relações intratextuais e intertextuais. | 13 | 0 | 13 | 0 | Direto | C |
-| 2 | Itens gramaticais relevantes para compreensão de conteúdos semânticos. | 1 | 0 | 1 | 0 | Direto | B |
-| 3 | Conhecimento e uso das formas contemporâneas da linguagem inglesa. | 1 | 0 | 1 | 0 | Direto | B |
+| 1 | Compreensão de textos variados: domínio do vocabulário e da estrutura da língua, ideias principais e secundárias, explícitas e implícitas, relações intratextuais e intertextuais. | 15 | 0 | 15 | 0 | Direto | C |
+| 2 | Itens gramaticais relevantes para compreensão de conteúdos semânticos. | 2 | 0 | 2 | 0 | Direto | B |
+| 3 | Conhecimento e uso das formas contemporâneas da linguagem inglesa. | 2 | 0 | 2 | 0 | Direto | B |
 
 ### Noções de Direito Administrativo e Administração Pública
 
@@ -147,32 +147,32 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 4.1 | Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais. | 1 | 0 | 1 | 0 | Direto | B |
 | 4.2 | Programas de proteção (antivírus, firewall, antispyware). | 4 | 0 | 4 | 0 | Direto | C |
 | 4.3 | Ameaças digitais (phishing, pharming). | 2 | 0 | 2 | 0 | Direto | B |
-| 5 | Conceitos básicos de inteligência artificial. | 2 | 0 | 3 | 0 | Direto | C |
-| 5.1 | Engenharia de prompts. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 5.2 | Aprendizado supervisionado, não supervisionado e por reforço. | 1 | 0 | 1 | 0 | Direto | B |
-| 5.3 | IA generativa: conceitos, exemplos e casos de uso. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 5 | Conceitos básicos de inteligência artificial. | 3 | 0 | 10 | 0 | Direto | C |
+| 5.1 | Engenharia de prompts. | 1 | 0 | 1 | 0 | Direto | B |
+| 5.2 | Aprendizado supervisionado, não supervisionado e por reforço. | 2 | 0 | 2 | 0 | Direto | B |
+| 5.3 | IA generativa: conceitos, exemplos e casos de uso. | 4 | 0 | 4 | 0 | Direto | C |
 | 6 | Ética e responsabilidade digital no serviço público. | 1 | 0 | 1 | 0 | Direto | B |
-| 7 | Dados. | 0 | 0 | 2 | 0 | Só descendentes | B |
-| 7.1 | Conceitos, atributos, métricas, transformação de dados. | 2 | 0 | 2 | 0 | Direto | B |
-| 8 | Visualização de dados. | 0 | 0 | 2 | 0 | Só descendentes | B |
+| 7 | Dados. | 0 | 0 | 6 | 0 | Só descendentes | C |
+| 7.1 | Conceitos, atributos, métricas, transformação de dados. | 6 | 0 | 6 | 0 | Direto | C |
+| 8 | Visualização de dados. | 0 | 0 | 3 | 0 | Só descendentes | C |
 | 8.1 | Princípios de visualização de dados. | 1 | 0 | 1 | 0 | Direto | B |
 | 8.2 | Tipos de gráficos (histograma, linha, barra, dispersão, box plot). | 1 | 0 | 1 | 0 | Direto | B |
-| 8.3 | Ferramentas de visualização de dados (Power BI, Tableau e Data Studio). | 0 | 0 | 0 | 0 | Sem questões | A |
+| 8.3 | Ferramentas de visualização de dados (Power BI, Tableau e Data Studio). | 1 | 0 | 1 | 0 | Direto | B |
 | 8.4 | Storytelling para visualização de dados. | 0 | 0 | 0 | 0 | Sem questões | A |
 
 ### Comunicação Social
 
 | Item | Conteúdo oficial | C/E direto | MC direto | C/E subárvore | MC subárvore | Situação | Prioridade |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 1 | Teorias da Comunicação. | 0 | 1 | 6 | 2 | Direto | C |
+| 1 | Teorias da Comunicação. | 0 | 1 | 7 | 2 | Direto | C |
 | 1.1 | Escolas, paradigmas, correntes, modelos, principais pensadores. | 2 | 0 | 2 | 0 | Direto | B |
 | 1.2 | Comunicação e opinião pública. | 1 | 1 | 1 | 1 | Direto | B |
 | 1.3 | Midiatização e plataformização. | 1 | 0 | 1 | 0 | Direto | B |
-| 1.4 | Desinformação e integridade da informação. | 2 | 0 | 2 | 0 | Direto | B |
-| 2 | Comunicação interna. | 0 | 0 | 9 | 0 | Só descendentes | C |
+| 1.4 | Desinformação e integridade da informação. | 3 | 0 | 3 | 0 | Direto | C |
+| 2 | Comunicação interna. | 0 | 0 | 10 | 0 | Só descendentes | C |
 | 2.1 | Conceito, funções e objetivos da comunicação interna. | 3 | 0 | 3 | 0 | Direto | C |
 | 2.2 | Ferramentas e canais de comunicação interna (intranet, veículos impressos/digitais, jornais murais, newsletters, eventos). | 3 | 0 | 3 | 0 | Direto | C |
-| 2.3 | Endomarketing: conceitos e estratégias de engajamento. | 1 | 0 | 1 | 0 | Direto | B |
+| 2.3 | Endomarketing: conceitos e estratégias de engajamento. | 2 | 0 | 2 | 0 | Direto | B |
 | 2.4 | Comunicação e cultura organizacional. | 1 | 0 | 1 | 0 | Direto | B |
 | 2.5 | Gestão do clima organizacional por meio da comunicação. | 1 | 0 | 1 | 0 | Direto | B |
 | 3 | Comunicação institucional. | 0 | 0 | 6 | 1 | Só descendentes | C |
@@ -190,7 +190,7 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 4.7 | Definição de indicadores de resultados em comunicação. | 1 | 0 | 1 | 0 | Direto | B |
 | 4.8 | Plano de comunicação. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 4.9 | Gestão de projetos de comunicação. | 1 | 0 | 1 | 0 | Direto | B |
-| 5 | Redes sociais digitais oficiais. | 0 | 0 | 1 | 0 | Só descendentes | B |
+| 5 | Redes sociais digitais oficiais. | 2 | 0 | 3 | 0 | Direto | C |
 | 5.1 | Planejamento e produção de conteúdo. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 5.2 | Postagens e colaborações. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 5.3 | Características das principais plataformas de mídias sociais: diferenças de públicos, linguagem, formatos (4:5, 3:4, 9:16) e conteúdos (cards, carrossel, vídeos, stories, lives). | 1 | 0 | 1 | 0 | Direto | B |
@@ -202,9 +202,9 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 8 | Políticas de comunicação. | 1 | 0 | 1 | 0 | Direto | B |
 | 8.1 | Política de comunicação da Câmara dos Deputados (Ato da Mesa nº 218/2025). | 0 | 0 | 0 | 0 | Sem questões | A |
 | 8.2 | Manual de comunicação da Câmara dos Deputados. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 9 | Inteligência artificial na comunicação. | 0 | 0 | 1 | 0 | Só descendentes | B |
-| 9.1 | Aplicações da IA na comunicação. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 9.2 | Ética no uso de IA na comunicação. | 1 | 0 | 1 | 0 | Direto | B |
+| 9 | Inteligência artificial na comunicação. | 0 | 0 | 4 | 0 | Só descendentes | C |
+| 9.1 | Aplicações da IA na comunicação. | 2 | 0 | 2 | 0 | Direto | B |
+| 9.2 | Ética no uso de IA na comunicação. | 2 | 0 | 2 | 0 | Direto | B |
 | 10 | Linguagem simples e usabilidade. | 1 | 0 | 2 | 0 | Direto | B |
 | 10.1 | Manual de linguagem simples da Câmara dos Deputados. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 10.2 | Conceito e técnicas de usabilidade. | 1 | 0 | 1 | 0 | Direto | B |
@@ -222,17 +222,17 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 1.5 | Mídia: características dos diferentes tipos de veículos e plataformas de comunicação, plano de mídia, monitoramento e análise de dados. | 2 | 0 | 2 | 0 | Direto | B |
 | 1.6 | Produção de campanhas publicitárias. | 1 | 0 | 1 | 0 | Direto | B |
 | 1.7 | Produção e redação de peças publicitárias para diversas mídias. | 2 | 0 | 2 | 0 | Direto | B |
-| 2 | Marketing. | 0 | 0 | 8 | 0 | Só descendentes | C |
+| 2 | Marketing. | 0 | 0 | 9 | 0 | Só descendentes | C |
 | 2.1 | Conceitos de marketing. | 2 | 0 | 2 | 0 | Direto | B |
 | 2.2 | Planejamento de marketing. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 2.3 | Marketing institucional. | 1 | 0 | 1 | 0 | Direto | B |
-| 2.4 | Endomarketing. | 1 | 0 | 1 | 0 | Direto | B |
+| 2.4 | Endomarketing. | 2 | 0 | 2 | 0 | Direto | B |
 | 2.5 | Segmentação. | 1 | 0 | 1 | 0 | Direto | B |
 | 2.6 | Marketing digital. | 1 | 0 | 1 | 0 | Direto | B |
 | 2.7 | Comportamento do consumidor. | 2 | 0 | 2 | 0 | Direto | B |
-| 3 | Pesquisa Aplicada à Comunicação. | 0 | 0 | 3 | 0 | Só descendentes | C |
-| 3.1 | Pesquisas qualitativas e quantitativas. | 1 | 0 | 1 | 0 | Direto | B |
-| 3.2 | Pesquisa de mercado. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 3 | Pesquisa Aplicada à Comunicação. | 0 | 0 | 6 | 0 | Só descendentes | C |
+| 3.1 | Pesquisas qualitativas e quantitativas. | 3 | 0 | 3 | 0 | Direto | C |
+| 3.2 | Pesquisa de mercado. | 1 | 0 | 1 | 0 | Direto | B |
 | 3.3 | Pesquisa de opinião pública. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 3.4 | Pesquisa de imagem. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 3.5 | Pesquisa de mídia. | 1 | 0 | 1 | 0 | Direto | B |
@@ -249,7 +249,7 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 5.5 | Criação e produção de projetos gráficos. | 1 | 0 | 1 | 0 | Direto | B |
 | 5.6 | Criação e produção de projetos audiovisuais. | 1 | 0 | 1 | 0 | Direto | B |
 | 5.7 | Criação e produção de publicações: definição de objetivos, público-alvo, linha editorial, identidade, estratégia de distribuição, indicadores e avaliação. | 1 | 0 | 1 | 0 | Direto | B |
-| 6 | Ética na comunicação. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 6 | Ética na comunicação. | 2 | 0 | 2 | 0 | Direto | B |
 | 7 | Gestão de equipes em publicidade. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 8 | Legislação profissional de publicidade. | 0 | 0 | 5 | 0 | Só descendentes | C |
 | 8.1 | Ética publicitária – código brasileiro de autoregulamentação publicitária. | 1 | 0 | 1 | 0 | Direto | B |
@@ -281,10 +281,10 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 4.7 | Execução financeira e créditos. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 5 | Regimento Interno da Câmara dos Deputados. | 0 | 0 | 5 | 2 | Só descendentes | C |
 | 5.1 | Resolução nº 17/1989 – CD e suas alterações. | 5 | 2 | 5 | 2 | Direto | C |
-| 6 | Regimento Comum do Congresso Nacional. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 6.1 | Resolução nº 1/1970 – CN e suas alterações. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 6.2 | Resolução nº 3/1990 – CN. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 6.3 | Resolução nº 1/2002 – CN. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 6 | Regimento Comum do Congresso Nacional. | 0 | 0 | 0 | 3 | Só descendentes | A |
+| 6.1 | Resolução nº 1/1970 – CN e suas alterações. | 0 | 1 | 0 | 1 | Direto | A |
+| 6.2 | Resolução nº 3/1990 – CN. | 0 | 1 | 0 | 1 | Direto | A |
+| 6.3 | Resolução nº 1/2002 – CN. | 0 | 1 | 0 | 1 | Direto | A |
 | 7 | Código de Ética e Decoro Parlamentar da Câmara dos Deputados. | 5 | 0 | 5 | 0 | Direto | C |
 
 ### Ciência Política

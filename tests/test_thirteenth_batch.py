@@ -19,7 +19,7 @@ class ThirteenthBatchTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.c = read_json(ROOT / 'data/catalog.json')
+        cls.c = json.loads(gzip.decompress((ROOT / 'data/reviews/pre-fourteenth-catalog.json.gz').read_bytes()))
         cls.review = read_json(ROOT / 'data/reviews/thirteenth-batch.json')
         cls.discovery = read_json(ROOT / 'data/reviews/thirteenth-source-discovery.json')
         cls.docs = {d['id']: d for d in cls.c['documents']}
@@ -118,5 +118,5 @@ class ThirteenthBatchTests(unittest.TestCase):
         rows = {r['id']: r for r in report['items']}
         for suffix in ['tecnologia-informacao-dados-5-1', 'tecnologia-informacao-dados-5-3', 'tecnologia-informacao-dados-8-3', 'tecnologia-informacao-dados-8-4', 'comunicacao-social-5-1', 'comunicacao-social-5-2', 'comunicacao-social-5-4', 'comunicacao-social-8-1', 'comunicacao-social-8-2', 'comunicacao-social-10-1']:
             self.assertEqual(rows['camara-2026-' + suffix]['subtreeCE'], 0, suffix)
-        for path, content in current_artifacts(self.c, self.review).items():
+        for path, content in current_artifacts(read_json(ROOT / 'data/catalog.json'), read_json(ROOT / 'data/reviews/fourteenth-batch.json')).items():
             self.assertEqual((ROOT / path).read_text(), content)

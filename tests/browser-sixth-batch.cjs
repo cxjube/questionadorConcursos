@@ -34,7 +34,7 @@ const base=process.env.APP_BASE_URL||'http://127.0.0.1:8000/';
    assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('questionador-concursos.progress.v1')).progress.history.at(-1).items.length),7);
    await page.evaluate(()=>document.querySelector('#study-content')?.scrollIntoView());
    const summary=await page.evaluate(()=>{const p=JSON.parse(localStorage.getItem('questionador-concursos.progress.v1')).progress;return p.history.at(-1).answers;});
-   assert.equal(summary.length,7);
+   assert.equal(summary.length,10);
    // Return to first correction, inspect the separate legal comment and usable official link.
    assert.equal(await page.getByRole('button',{name:'Anterior',exact:true}).isDisabled(),true);
    assert.match(await page.locator('.didactic-comment').innerText(),/art\. 111/);

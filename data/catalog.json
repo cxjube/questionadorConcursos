@@ -2648,6 +2648,149 @@
       "sha256": "cecae54e8c453f708cd03be9efbd144c7472b64c1197c71cd167ccd3a5d0eb5d",
       "publicationDate": null,
       "paperId": "source-988-cpnuje-010-01"
+    },
+    {
+      "id": "source-038-anm-024-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Agência Nacional de Mineração — Cargo 24 — Especialista em Recursos Minerais — Tecnologia da Informação — Ciência de Dados",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_024_01.PDF",
+      "file": "sources/papers/038_ANM_024_01.pdf",
+      "sha256": "8f38b53e9b553ad852b19f6654af483454a76134b657becb9200b8f5ae5a7ba5",
+      "publicationDate": null,
+      "paperId": "source-038-anm-024-01"
+    },
+    {
+      "id": "source-038-anm-024-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Agência Nacional de Mineração — Cargo 24 — Especialista em Recursos Minerais — Tecnologia da Informação — Ciência de Dados — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_024_01.PDF",
+      "file": "sources/answer-keys/038_ANM_024_01-key.pdf",
+      "sha256": "e7f7f5e1fed4d12621ffd0bf41becdf435c9ad36c5d40aedd07664f6b1bed203",
+      "publicationDate": null,
+      "paperId": "source-038-anm-024-01"
+    },
+    {
+      "id": "source-050-trt10-011-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Tribunal Regional do Trabalho da 10ª Região — Cargo 11 — Analista Judiciário — Apoio Especializado — Tecnologia da Informação",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TRT10_24/arquivos/050_TRT10_011_01.pdf",
+      "file": "sources/papers/050_TRT10_011_01.pdf",
+      "sha256": "b57a0cabfbd831b1210795a3e942f9cc09666b58b6420f6f0e82d33706bef266",
+      "publicationDate": null,
+      "paperId": "source-050-trt10-011-01"
+    },
+    {
+      "id": "source-050-trt10-011-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Tribunal Regional do Trabalho da 10ª Região — Cargo 11 — Analista Judiciário — Apoio Especializado — Tecnologia da Informação — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TRT10_24/arquivos/Gab_Definitivo_050_TRT10_011_01.pdf",
+      "file": "sources/answer-keys/050_TRT10_011_01-key.pdf",
+      "sha256": "137cfadcf7bbffb4f5b1b91f01bd41884fa5dd4f86313402d17c7e902c40f0dd",
+      "publicationDate": null,
+      "paperId": "source-050-trt10-011-01"
+    },
+    {
+      "id": "source-018-stj-006-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Superior Tribunal de Justiça — Cargo 6 — Analista Judiciário — Apoio Especializado — Comunicação Social",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/018_STJ_006_01.PDF",
+      "file": "sources/papers/018_STJ_006_01.pdf",
+      "sha256": "39c130c464c98775497254d43872b1b060a1c65aac77381666d485f721d34668",
+      "publicationDate": null,
+      "paperId": "source-018-stj-006-01"
+    },
+    {
+      "id": "source-018-stj-006-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Superior Tribunal de Justiça — Cargo 6 — Analista Judiciário — Apoio Especializado — Comunicação Social — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/GAB_DEFINITIVO_018_STJ_006_01.PDF",
+      "file": "sources/answer-keys/018_STJ_006_01-key.pdf",
+      "sha256": "6a63b4d0580327885f00519b6e5a45e28e77c1ab6a5551013cf3716825894e00",
+      "publicationDate": null,
+      "paperId": "source-018-stj-006-01"
+    },
+    {
+      "id": "source-142-tcuaufc-cb1-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Tribunal de Contas da União — Auditor Federal de Controle Externo — Auditoria de Tecnologia da Informação — Conhecimentos básicos",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCU_25_AUFC/arquivos/E853346980B6093207C3ECF8630F11E71C8F39D74F9D7881E2AB5DE760FB5366.pdf",
+      "file": "sources/papers/142_TCUAUFC_CB1_01.pdf",
+      "sha256": "e85c35039244f7f0b90c3fb5230d568d6a65ac04aaebc50540642c901aaff059",
+      "publicationDate": null,
+      "paperId": "source-142-tcuaufc-cb1-01"
+    },
+    {
+      "id": "source-142-tcuaufc-cb1-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Tribunal de Contas da União — Auditor Federal de Controle Externo — Auditoria de Tecnologia da Informação — Conhecimentos básicos — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCU_25_AUFC/arquivos/FC2383E92E294F91C8C350498AC15C7A00B7B145773F86084285F93A425AC852.pdf",
+      "file": "sources/answer-keys/142_TCUAUFC_CB1_01-key.pdf",
+      "sha256": "4f544f68f75a0867ce73407b743ce8fab537888405d5972ddb69f2ece9c897e4",
+      "publicationDate": null,
+      "paperId": "source-142-tcuaufc-cb1-01"
+    },
+    {
+      "id": "reference-regimento-comum-2025",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Regimento Comum e normas conexas — edição 2025, atualizado até julho de 2025",
+      "issuer": "Congresso Nacional / Senado Federal",
+      "status": "verified",
+      "officialUrl": "https://www25.senado.leg.br/documents/59501/97171143/RCCN.pdf/933b504d-a653-4df5-9329-d4f38c42f64f",
+      "file": "sources/references/Regimento-Comum-Senado.pdf",
+      "sha256": "723077332d3f1f068093eee842ad4142c20ad5efcb5a57e9b9e50341f37cf856",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-microsoft-powerbi-embedded",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Power BI — análise incorporada",
+      "issuer": "Microsoft Learn",
+      "status": "verified",
+      "officialUrl": "https://learn.microsoft.com/pt-br/power-bi/developer/embedded/embedded-analytics-power-bi",
+      "file": "sources/references/powerbi-embedded.html",
+      "sha256": "e28d62909ced1f627b059029f5298d5e1cce26c60d3de110cbfbfb5505da2c38",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-microsoft-prompt-engineering",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Engenharia de prompts — conceitos",
+      "issuer": "Microsoft Learn",
+      "status": "verified",
+      "officialUrl": "https://learn.microsoft.com/pt-br/azure/foundry/openai/concepts/prompt-engineering",
+      "file": "sources/references/prompt-engineering.html",
+      "sha256": "0be4cd5f2874f28057f2713a2f928fcc681ba52f3d54f9989891d4dfa51c3a96",
+      "publicationDate": null,
+      "paperId": null
     }
   ],
   "papers": [
@@ -3346,6 +3489,119 @@
         ],
         "answerKeyDocumentId": "source-988-cpnuje-010-01-key",
         "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-038-anm-024-01",
+      "bankId": "concursos",
+      "title": "Agência Nacional de Mineração — Cargo 24 — Especialista em Recursos Minerais — Tecnologia da Informação — Ciência de Dados",
+      "provider": "Cebraspe",
+      "institution": "Agência Nacional de Mineração",
+      "role": "Cargo 24 — Especialista em Recursos Minerais — Tecnologia da Informação — Ciência de Dados",
+      "year": 2025,
+      "booklet": "038_ANM_024_01",
+      "documentId": "source-038-anm-024-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-02-16",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "annulledItems": [
+          92,
+          94,
+          95,
+          96
+        ],
+        "questionType": "true_false",
+        "answerKeyDocumentId": "source-038-anm-024-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-050-trt10-011-01",
+      "bankId": "concursos",
+      "title": "Tribunal Regional do Trabalho da 10ª Região — Cargo 11 — Analista Judiciário — Apoio Especializado — Tecnologia da Informação",
+      "provider": "Cebraspe",
+      "institution": "Tribunal Regional do Trabalho da 10ª Região",
+      "role": "Cargo 11 — Analista Judiciário — Apoio Especializado — Tecnologia da Informação",
+      "year": 2025,
+      "booklet": "050_TRT10_011_01",
+      "documentId": "source-050-trt10-011-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-03-16",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "annulledItems": [
+          51,
+          58,
+          66,
+          84,
+          85
+        ],
+        "questionType": "true_false",
+        "answerKeyDocumentId": "source-050-trt10-011-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-018-stj-006-01",
+      "bankId": "concursos",
+      "title": "Superior Tribunal de Justiça — Cargo 6 — Analista Judiciário — Apoio Especializado — Comunicação Social",
+      "provider": "Cebraspe",
+      "institution": "Superior Tribunal de Justiça",
+      "role": "Cargo 6 — Analista Judiciário — Apoio Especializado — Comunicação Social",
+      "year": 2024,
+      "booklet": "018_STJ_006_01",
+      "documentId": "source-018-stj-006-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2024-12-01",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "annulledItems": [
+          87
+        ],
+        "questionType": "true_false",
+        "answerKeyDocumentId": "source-018-stj-006-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-142-tcuaufc-cb1-01",
+      "bankId": "concursos",
+      "title": "Tribunal de Contas da União — Auditor Federal de Controle Externo — Auditoria de Tecnologia da Informação — Conhecimentos básicos",
+      "provider": "Cebraspe",
+      "institution": "Tribunal de Contas da União",
+      "role": "Auditor Federal de Controle Externo — Auditoria de Tecnologia da Informação — Conhecimentos básicos",
+      "year": 2026,
+      "booklet": "142_TCUAUFC_CB1_01",
+      "documentId": "source-142-tcuaufc-cb1-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2026-02-22",
+        "block": "basic",
+        "firstItem": 1,
+        "lastItem": 100,
+        "itemCount": 100,
+        "annulledItems": [
+          50,
+          63,
+          64
+        ],
+        "questionType": "true_false",
+        "answerKeyDocumentId": "source-142-tcuaufc-cb1-01-key",
+        "pairingStatus": "matched_by_role_type_and_session",
         "externalVerification": true
       }
     }
@@ -11637,6 +11893,1156 @@
         "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
         "decisionReference": "documentation/thirteenth-batch-release.md"
       }
+    },
+    {
+      "id": "038-anm-024-01-q090",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Para aplicações do mundo real, como geração de imagens, as distribuições são extremamente complexas, e o aprendizado profundo não conseguiu melhorar o desempenho dos modelos generativos, por isso se tem optado por investir em uma classe importante de modelos de linguagem de grande escala (LLMs — large language models) autorregressivos baseados em transformadores.",
+      "options": [],
+      "contextIds": [
+        "anm-024-generative-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-024-01",
+        "number": 90,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-024-01-q090-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-024-01-q091",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Um prompt é um conjunto de instruções que o modelo generativo utiliza para prever a resposta desejada.",
+      "options": [],
+      "contextIds": [
+        "anm-024-generative-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-024-01",
+        "number": 91,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-024-01-q091-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Compatibilidade limitada aos conceitos e trechos citados da documentação do fornecedor consultada em 26/10/2026; não garante comportamento de todas as versões ou respostas de modelos.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-024-01-q093",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Uma IA generativa cujo aprendizado é realizado a partir da distribuição de probabilidade conjunta p(x,y), em que x é o dado de entrada e y é o rótulo que se queira classificar, pode gerar mais amostras por si só artificialmente, com base em suposições a respeito da distribuição de dados.",
+      "options": [],
+      "contextIds": [
+        "anm-024-generative-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-024-01",
+        "number": 93,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-024-01-q093-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-024-01-q097",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O ChatGPT e o DeepSeek são plataformas de IA generativas baseadas em modelos de linguagem de grande escala (LLMs — large language models) e o princípio tecnológico dessas plataformas é a arquitetura transformer, que ajuda o modelo a aprender as relações entre palavras e frases em longos trechos de texto.",
+      "options": [],
+      "contextIds": [
+        "anm-024-generative-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-024-01",
+        "number": 97,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "038-anm-024-01-q097-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-024-01-q106",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Em BI, a informação é o resultado da organização dos dados, ao passo que o conhecimento é a geração de valor com a informação.",
+      "options": [],
+      "contextIds": [
+        "anm-024-bi-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-024-01",
+        "number": 106,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "038-anm-024-01-q106-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-024-01-q110",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Arquivos CSV devem obrigatoriamente incluir um cabeçalho na primeira linha para identificar os campos.",
+      "options": [],
+      "contextIds": [
+        "anm-024-data-formats-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-024-01",
+        "number": 110,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "038-anm-024-01-q110-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-024-01-q111",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A tecnologia JSON permite a aninhamento de objetos e arrays, possibilitando a construção de estruturas de dados complexas.",
+      "options": [],
+      "contextIds": [
+        "anm-024-data-formats-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-024-01",
+        "number": 111,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "038-anm-024-01-q111-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-024-01-q112",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No modelo CRISP-DM, durante a fase de evaluation (avaliação), os resultados do modelo são comparados com os objetivos do negócio para determinar sua eficácia e adequação.",
+      "options": [],
+      "contextIds": [
+        "anm-024-data-formats-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-024-01",
+        "number": 112,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "038-anm-024-01-q112-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-024-01-q116",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O overfitting ocorre quando um modelo de machine learning tem alta precisão nos dados de treinamento, mas apresenta desempenho significativamente pior em novos dados.",
+      "options": [],
+      "contextIds": [
+        "anm-024-learning-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-024-01",
+        "number": 116,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "038-anm-024-01-q116-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-024-01-q120",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O deep learning elimina completamente a necessidade de pré-processamento de dados, pois as redes neurais são capazes de aprender todas as características automaticamente.",
+      "options": [],
+      "contextIds": [
+        "anm-024-learning-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-024-01",
+        "number": 120,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "038-anm-024-01-q120-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "050-trt10-011-01-q063",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A análise integrada do Power BI é responsável pela conexão com os bancos de dados que serão utilizados nos dashboards.",
+      "options": [],
+      "contextIds": [
+        "trt10-2025-power-platform-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-050-trt10-011-01",
+        "number": 63,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "050-trt10-011-01-q063-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Compatibilidade limitada aos conceitos e trechos citados da documentação do fornecedor consultada em 26/10/2026; não garante comportamento de todas as versões ou respostas de modelos.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "050-trt10-011-01-q069",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A IA generativa é capaz de criar conteúdos novos, como textos, imagens, músicas e vídeos, além de resolver problemas inéditos com base em conhecimentos prévios, permitindo gerar novos artefatos realistas em escala, sem repeti-los.",
+      "options": [],
+      "contextIds": [
+        "trt10-2025-evaluation-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-050-trt10-011-01",
+        "number": 69,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "050-trt10-011-01-q069-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-006-01-q053",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Instrumentos de comunicação pública podem incluir canais como websites institucionais, redes sociais, boletins informativos e audiências públicas.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-public-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-006-01",
+        "number": 53,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "018-stj-006-01-q053-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-006-01-q055",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Na elaboração de releases para a imprensa, é considerado ético e profissional que a organização priorize seus interesses promocionais, mesmo que isso implique a não divulgação de informações potencialmente negativas.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-organization-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-006-01",
+        "number": 55,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "018-stj-006-01-q055-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-006-01-q061",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O endomarketing, por focar na satisfação dos colaboradores, pode ser compreendido como sinônimo de comunicação interna.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-internal-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-006-01",
+        "number": 61,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "018-stj-006-01-q061-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-006-01-q062",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O jornalismo institucional deve seguir os mesmos princípios éticos do jornalismo tradicional, como a objetividade, a imparcialidade e a veracidade, ainda que seu conteúdo seja voltado para promover a imagem da organização.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-internal-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-006-01",
+        "number": 62,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "018-stj-006-01-q062-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-006-01-q077",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Os jornalistas não devem lançar mão da inteligência artificial para personalizar conteúdos para diferentes públicos, uma vez que isso pode gerar questões éticas sobre manipulação da informação.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-digital-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-006-01",
+        "number": 77,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "018-stj-006-01-q077-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-006-01-q079",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A comunicação digital permite uma interação bidirecional, de modo que o público, além de receptor, atua também como produtor de conteúdo nas mídias sociais.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-digital-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-006-01",
+        "number": 79,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "018-stj-006-01-q079-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-006-01-q082",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A análise de sentimentos com algoritmos de inteligência artificial pode ajudar jornalistas a monitorar reações do público a notícias, mas, por outro lado, seu uso indevido pode levar à manipulação das percepções do público e à propagação de fake news.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-new-technologies-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-006-01",
+        "number": 82,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "018-stj-006-01-q082-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-006-01-q083",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A inteligência artificial tem potencial para realizar, de forma autônoma, a checagem de fatos, dispensando a intervenção de jornalistas para garantir a precisão da notícia.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-new-technologies-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-006-01",
+        "number": 83,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "018-stj-006-01-q083-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "018-stj-006-01-q085",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O uso de inteligência artificial na moderação de conteúdo pode ajudar a reduzir a propagação de fake news em algumas plataformas digitais.",
+      "options": [],
+      "contextIds": [
+        "stj-2024-new-technologies-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-018-stj-006-01",
+        "number": 85,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "018-stj-006-01-q085-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "959-bcb-cb1-01-q007",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A correção gramatical do quarto período do primeiro parágrafo seria preservada caso se suprimisse a vírgula empregada logo após o travessão que segue o vocábulo “relações”, pois o emprego dos travessões no período dispensa a necessidade da vírgula.",
+      "options": [],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-grammar-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-959-bcb-cb1-01",
+        "number": 7,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "959-bcb-cb1-01-q007-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "959-bcb-cb1-01-q009",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No último período do primeiro parágrafo, a oração “que conectam ofertantes e demandantes de trabalho” restringe o sentido do segmento “plataformas digitais”.",
+      "options": [],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-grammar-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-959-bcb-cb1-01",
+        "number": 9,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "959-bcb-cb1-01-q009-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "959-bcb-cb1-01-q010",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Estaria mantida a correção gramatical do texto caso fosse empregado o acento indicativo de crase no vocábulo “a” em “a distribuição desigual de oportunidades” (último período do texto), visto que seu emprego é facultativo nesse caso.",
+      "options": [],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-grammar-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-959-bcb-cb1-01",
+        "number": 10,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "959-bcb-cb1-01-q010-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "959-bcb-cb1-01-q011",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No primeiro período do segundo parágrafo, a forma verbal “poderiam” está flexionada na terceira pessoa do plural porque concorda com os termos “ofertantes” e “demandantes”.",
+      "options": [],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-grammar-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-959-bcb-cb1-01",
+        "number": 11,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "959-bcb-cb1-01-q011-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "959-bcb-cb1-01-q013",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Estaria mantida a correção gramatical do quarto período do primeiro parágrafo caso a partícula “se”, em “verifica-se”, fosse deslocada para a posição proclítica — se verifica.",
+      "options": [],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-grammar-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-959-bcb-cb1-01",
+        "number": 13,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "959-bcb-cb1-01-q013-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q022",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As used in the text, the expression „in the shadow of elections‟ (in the third sentence of the first paragraph) indicates that the activity of elected officials is influenced by their interest in the next election results.",
+      "options": [],
+      "contextIds": [
+        "tcu-2026-accountability-passage",
+        "tcu-2026-accountability-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-142-tcuaufc-cb1-01",
+        "number": 22,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "142-tcuaufc-cb1-01-q022-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Julgar a leitura e a gramática do excerto original, sem tomar os dados ou conclusões como retrato atual.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q023",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "In the last sentence of the text, the pronoun „them‟ refers to „the rights and interests of every or any person.‟",
+      "options": [],
+      "contextIds": [
+        "tcu-2026-accountability-passage",
+        "tcu-2026-accountability-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-142-tcuaufc-cb1-01",
+        "number": 23,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "142-tcuaufc-cb1-01-q023-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Julgar a leitura e a gramática do excerto original, sem tomar os dados ou conclusões como retrato atual.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q024",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "It is correct to infer from the ideas conveyed in the second paragraph of the text that the degree of effectiveness of electoral accountability varies according to the engagement of citizens in politics.",
+      "options": [],
+      "contextIds": [
+        "tcu-2026-accountability-passage",
+        "tcu-2026-accountability-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-142-tcuaufc-cb1-01",
+        "number": 24,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "142-tcuaufc-cb1-01-q024-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Julgar a leitura e a gramática do excerto original, sem tomar os dados ou conclusões como retrato atual.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q025",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "In the second sentence of the first paragraph, the word “Since” establishes a point in time that indicates when officials begin to “seek reelection or election to a higher office”.",
+      "options": [],
+      "contextIds": [
+        "tcu-2026-accountability-passage",
+        "tcu-2026-accountability-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-142-tcuaufc-cb1-01",
+        "number": 25,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "142-tcuaufc-cb1-01-q025-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Julgar a leitura e a gramática do excerto original, sem tomar os dados ou conclusões como retrato atual.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      },
+      "language": "en"
+    },
+    {
+      "id": "232funprespexe-002-01-q078",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A linguagem técnica e formal deve ser utilizada em instrumentos de coleta de dados quantitativos, uma vez que é a que melhor se adapta a qualquer tipo de público.",
+      "options": [],
+      "contextIds": [
+        "funpresp-2016-research-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-002-01",
+        "number": 78,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "232funprespexe-002-01-q078-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-002-01-q079",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As amostragens não probabilística e representativa, utilizadas em pesquisas com grupos focais, devem ser evitadas nos casos em que o objetivo da pesquisa seja avaliar as reações de consumidores a novos produtos ou serviços.",
+      "options": [],
+      "contextIds": [
+        "funpresp-2016-research-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-002-01",
+        "number": 79,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "232funprespexe-002-01-q079-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "232funprespexe-002-01-q080",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A confirmação ou a refutação de hipóteses formuladas na etapa de definição do problema de pesquisa podem ser obtidas por meio da análise de dados quantitativos ou qualitativos de estudos descritivos.",
+      "options": [],
+      "contextIds": [
+        "funpresp-2016-research-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-232funprespexe-002-01",
+        "number": 80,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "232funprespexe-002-01-q080-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2023-tecnica-tarde-tipo1-q027",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "O Presidente da República editou a Medida Provisória nº XX, na qual foi aberto crédito extraordinário à lei orçamentária anual. Ao tomar conhecimento desse fato, Ana, estagiária no âmbito do Congresso Nacional (CN), questionada por uma colega de estágio em relação a aspectos da tramitação desse ato normativo no âmbito do Poder Legislativo, afirmou que:\n\nI. a Comissão Mista, cujas designação, instalação e funcionamento são disciplinadas pela Resolução nº 1/2002 do CN, deve emitir parecer sobre a Medida Provisória nº XX;\n\nII. essa Comissão, designados os seus integrantes, terá o prazo de 48 horas para a sua instalação, quando, entre outras medidas, será designado relator para a matéria; e\n\nIII. ao relator revisor é vedado exercer as funções de relatoria na Casa diversa da do relator da Medida Provisória nº XX.\n\nÀ luz das normas regimentais aplicáveis à matéria, é correto afirmar, em relação às observações de Ana, que",
+      "options": [
+        {
+          "id": "a",
+          "text": "todas estão certas."
+        },
+        {
+          "id": "b",
+          "text": "todas estão erradas."
+        },
+        {
+          "id": "c",
+          "text": "apenas I está certa."
+        },
+        {
+          "id": "d",
+          "text": "apenas II e III estão certas."
+        },
+        {
+          "id": "e",
+          "text": "apenas I e III estão certas."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2023-tecnica-tarde-tipo1",
+        "number": 27,
+        "locator": "PDF p. 8"
+      },
+      "answerKeyId": "camara-2023-tecnica-tarde-tipo1-q027-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada às cláusulas citadas na edição oficial de 2025, disponibilizada pelo portal do Congresso; não equivale a revisão integral de toda a legislação posterior.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2023-tecnica-tarde-tipo1-q028",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Ao fim do segundo período legislativo da segunda sessão legislativa ordinária da legislatura nº YY, o Presidente da República editou o Decreto nº X, o qual, consoante a opinião generalizada dos especialistas na área, exorbitou dos limites do poder regulamentar. Esse fato levou um Deputado Federal a requerer a sustação do referido Decreto pelo Congresso Nacional.\n\nSobre a hipótese, considerando a sistemática regimental, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A apreciação da matéria deve necessariamente aguardar o fim do recesso parlamentar, considerando que a atuação da Comissão Representativa do Congresso Nacional está adstrita às medidas previstas em numerus clausus no Regimento."
+        },
+        {
+          "id": "b",
+          "text": "A apreciação da matéria ficará a cargo da Comissão Representativa do Congresso Nacional, que exercerá a plenitude das competências do Poder Legislativo no período de recesso."
+        },
+        {
+          "id": "c",
+          "text": "A apreciação da matéria ficará a cargo da Comissão Mista Temporária do Congresso Nacional, que exercerá a plenitude das competências do Poder Legislativo no período de recesso."
+        },
+        {
+          "id": "d",
+          "text": "A sustação do Decreto nº X exige maioria qualificada dos membros do Congresso Nacional, o que configura exceção à possibilidade de atuação da Comissão Representativa."
+        },
+        {
+          "id": "e",
+          "text": "A Comissão Representativa do Congresso Nacional pode sustar o Decreto nº X, desde que se caracterize a necessidade de medida cautelar de caráter urgente."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2023-tecnica-tarde-tipo1",
+        "number": 28,
+        "locator": "PDF p. 8"
+      },
+      "answerKeyId": "camara-2023-tecnica-tarde-tipo1-q028-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada às cláusulas citadas na edição oficial de 2025, disponibilizada pelo portal do Congresso; não equivale a revisão integral de toda a legislação posterior.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2023-tecnica-tarde-tipo1-q030",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Com estrita observância da sistemática regimental, foi instituída determinada Comissão Mista do Congresso Nacional. Ao analisar o Regimento Interno do Congresso Nacional, João, sócio-gerente da sociedade empresária Alfa, que tinha interesse no resultado da deliberação dessa Comissão e iria acompanhar os respectivos trabalhos, concluiu que:\n\nI. O calendário de tramitação da matéria sujeita ao exame da Comissão deve constar das Ordens do Dia do Congresso Nacional, do Senado e da Câmara dos Deputados;\n\nII. Os trabalhos só serão iniciados com a presença mínima de um quarto de sua composição; e\n\nIII. No prazo de oito dias, a partir da instalação da Comissão, o Congressista poderá apresentar emendas, que deverão ser, em seguida, despachadas pelo Presidente.\n\nNesse caso, é correto afirmar, acerca dessas conclusões, que",
+      "options": [
+        {
+          "id": "a",
+          "text": "todas estão certas."
+        },
+        {
+          "id": "b",
+          "text": "todas estão erradas."
+        },
+        {
+          "id": "c",
+          "text": "apenas a observação III está certa."
+        },
+        {
+          "id": "d",
+          "text": "apenas as observações I e II estão certas."
+        },
+        {
+          "id": "e",
+          "text": "apenas as observações II e III estão certas."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2023-tecnica-tarde-tipo1",
+        "number": 30,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara-2023-tecnica-tarde-tipo1-q030-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada às cláusulas citadas na edição oficial de 2025, disponibilizada pelo portal do Congresso; não equivale a revisão integral de toda a legislação posterior.",
+        "decisionReference": "documentation/fourteenth-batch-release.md"
+      }
     }
   ],
   "answerKeys": [
@@ -15097,6 +16503,474 @@
       "locator": "PDF p. 1",
       "result": "valid",
       "value": true
+    },
+    {
+      "id": "038-anm-024-01-q090-key-v1",
+      "questionId": "038-anm-024-01-q090",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-024-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-024-01-q091-key-v1",
+      "questionId": "038-anm-024-01-q091",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-024-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-024-01-q093-key-v1",
+      "questionId": "038-anm-024-01-q093",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-024-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-024-01-q097-key-v1",
+      "questionId": "038-anm-024-01-q097",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-024-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-024-01-q106-key-v1",
+      "questionId": "038-anm-024-01-q106",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-024-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-024-01-q110-key-v1",
+      "questionId": "038-anm-024-01-q110",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-024-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "038-anm-024-01-q111-key-v1",
+      "questionId": "038-anm-024-01-q111",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-024-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-024-01-q112-key-v1",
+      "questionId": "038-anm-024-01-q112",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-024-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-024-01-q116-key-v1",
+      "questionId": "038-anm-024-01-q116",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-024-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-024-01-q120-key-v1",
+      "questionId": "038-anm-024-01-q120",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-024-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "050-trt10-011-01-q063-key-v1",
+      "questionId": "050-trt10-011-01-q063",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-050-trt10-011-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "050-trt10-011-01-q069-key-v1",
+      "questionId": "050-trt10-011-01-q069",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-050-trt10-011-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "018-stj-006-01-q053-key-v1",
+      "questionId": "018-stj-006-01-q053",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-006-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "018-stj-006-01-q055-key-v1",
+      "questionId": "018-stj-006-01-q055",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-006-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "018-stj-006-01-q061-key-v1",
+      "questionId": "018-stj-006-01-q061",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-006-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "018-stj-006-01-q062-key-v1",
+      "questionId": "018-stj-006-01-q062",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-006-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "018-stj-006-01-q077-key-v1",
+      "questionId": "018-stj-006-01-q077",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-006-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "018-stj-006-01-q079-key-v1",
+      "questionId": "018-stj-006-01-q079",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-006-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "018-stj-006-01-q082-key-v1",
+      "questionId": "018-stj-006-01-q082",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-006-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "018-stj-006-01-q083-key-v1",
+      "questionId": "018-stj-006-01-q083",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-006-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "018-stj-006-01-q085-key-v1",
+      "questionId": "018-stj-006-01-q085",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-018-stj-006-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "959-bcb-cb1-01-q007-key-v1",
+      "questionId": "959-bcb-cb1-01-q007",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-959-bcb-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "959-bcb-cb1-01-q009-key-v1",
+      "questionId": "959-bcb-cb1-01-q009",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-959-bcb-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "959-bcb-cb1-01-q010-key-v1",
+      "questionId": "959-bcb-cb1-01-q010",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-959-bcb-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "959-bcb-cb1-01-q011-key-v1",
+      "questionId": "959-bcb-cb1-01-q011",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-959-bcb-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "959-bcb-cb1-01-q013-key-v1",
+      "questionId": "959-bcb-cb1-01-q013",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-959-bcb-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q022-key-v1",
+      "questionId": "142-tcuaufc-cb1-01-q022",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-142-tcuaufc-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q023-key-v1",
+      "questionId": "142-tcuaufc-cb1-01-q023",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-142-tcuaufc-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q024-key-v1",
+      "questionId": "142-tcuaufc-cb1-01-q024",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-142-tcuaufc-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q025-key-v1",
+      "questionId": "142-tcuaufc-cb1-01-q025",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-142-tcuaufc-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "232funprespexe-002-01-q078-key-v1",
+      "questionId": "232funprespexe-002-01-q078",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "232funprespexe-002-01-q079-key-v1",
+      "questionId": "232funprespexe-002-01-q079",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "232funprespexe-002-01-q080-key-v1",
+      "questionId": "232funprespexe-002-01-q080",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-232funprespexe-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2023-tecnica-tarde-tipo1-q027-key-v1",
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q027",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 4 — Edital 3 (tarde), tipo 1",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "camara-2023-tecnica-tarde-tipo1-q028-key-v1",
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q028",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 4 — Edital 3 (tarde), tipo 1",
+      "result": "valid",
+      "value": "e"
+    },
+    {
+      "id": "camara-2023-tecnica-tarde-tipo1-q030-key-v1",
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q030",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 4 — Edital 3 (tarde), tipo 1",
+      "result": "valid",
+      "value": "c"
     }
   ],
   "explanations": [
@@ -19745,6 +21619,638 @@
           "locator": "PDF p. 1, item 120"
         }
       ]
+    },
+    {
+      "id": "038-anm-024-01-q090-comment-v1",
+      "questionId": "038-anm-024-01-q090",
+      "text": "O aprendizado profundo contribuiu para avanços importantes na geração de imagens e de outros conteúdos. LLMs baseados em transformers também são modelos de aprendizado profundo. O item erra ao afirmar que essa abordagem não melhorou modelos generativos e ao sugerir oposição entre aprendizado profundo e LLMs.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-024-01-paper",
+          "locator": "PDF p. 2, item 90"
+        },
+        {
+          "documentId": "source-038-anm-024-01-key",
+          "locator": "PDF p. 1, item 90"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-024-01-q091-comment-v1",
+      "questionId": "038-anm-024-01-q091",
+      "text": "Um prompt fornece instruções e pode incluir contexto, exemplos, restrições e formato esperado para orientar a saída do modelo. A resposta é gerada a partir dessas entradas e do comportamento aprendido; um prompt não garante que a saída seja correta, verdadeira ou exatamente a desejada.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-024-01-paper",
+          "locator": "PDF p. 2, item 91"
+        },
+        {
+          "documentId": "source-038-anm-024-01-key",
+          "locator": "PDF p. 1, item 91"
+        },
+        {
+          "documentId": "reference-microsoft-prompt-engineering",
+          "locator": "Seções sobre instruções, contexto, exemplos e limites da engenharia de prompts"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-024-01-q093-comment-v1",
+      "questionId": "038-anm-024-01-q093",
+      "text": "Um modelo generativo aprende aspectos da distribuição dos dados e pode produzir novas amostras compatíveis com ela. No caso descrito, a modelagem conjunta de entradas e rótulos permite essa geração sob as hipóteses do modelo. Isso não assegura que cada amostra seja verdadeira ou útil nem elimina vieses do treinamento.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-024-01-paper",
+          "locator": "PDF p. 2, item 93"
+        },
+        {
+          "documentId": "source-038-anm-024-01-key",
+          "locator": "PDF p. 1, item 93"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-024-01-q097-comment-v1",
+      "questionId": "038-anm-024-01-q097",
+      "text": "O item identifica ChatGPT e DeepSeek como exemplos de plataformas que utilizam grandes modelos de linguagem, com arquitetura transformer e mecanismos de atenção para lidar com relações no contexto. A afirmação não exige que todos os modelos, versões e serviços dessas plataformas tenham a mesma configuração, nem atribui compreensão humana às saídas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-024-01-paper",
+          "locator": "PDF p. 2, item 97"
+        },
+        {
+          "documentId": "source-038-anm-024-01-key",
+          "locator": "PDF p. 1, item 97"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-024-01-q106-comment-v1",
+      "questionId": "038-anm-024-01-q106",
+      "text": "Dados organizados e contextualizados podem produzir informação. O uso e a interpretação dessa informação para orientar decisões e gerar valor se relacionam ao conhecimento. O item apresenta uma síntese conceitual; armazenamento e volume de dados, por si sós, não asseguram conhecimento.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-024-01-paper",
+          "locator": "PDF p. 3, item 106"
+        },
+        {
+          "documentId": "source-038-anm-024-01-key",
+          "locator": "PDF p. 1, item 106"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-024-01-q110-comment-v1",
+      "questionId": "038-anm-024-01-q110",
+      "text": "Um arquivo CSV pode conter uma linha de cabeçalho, mas isso não é obrigatório para todo arquivo nesse formato. Quando o cabeçalho não existe, o significado e a ordem dos campos precisam ser conhecidos por outro meio. O erro está na palavra “obrigatoriamente”.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-024-01-paper",
+          "locator": "PDF p. 3, item 110"
+        },
+        {
+          "documentId": "source-038-anm-024-01-key",
+          "locator": "PDF p. 1, item 110"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-024-01-q111-comment-v1",
+      "questionId": "038-anm-024-01-q111",
+      "text": "Objetos e arrays podem conter outros objetos e arrays, permitindo representar estruturas hierárquicas. O aninhamento não exige que o JSON seja uma tabela plana nem lhe confere, por si só, semântica de banco relacional. A redação original foi preservada, inclusive sua concordância.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-024-01-paper",
+          "locator": "PDF p. 3, item 111"
+        },
+        {
+          "documentId": "source-038-anm-024-01-key",
+          "locator": "PDF p. 1, item 111"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-024-01-q112-comment-v1",
+      "questionId": "038-anm-024-01-q112",
+      "text": "Na avaliação do CRISP-DM, verifica-se se os resultados do modelo atendem aos objetivos do negócio e se há aspectos que exijam revisão antes da implantação. Uma boa métrica técnica isolada não garante adequação ao problema que motivou o trabalho.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-024-01-paper",
+          "locator": "PDF p. 3, item 112"
+        },
+        {
+          "documentId": "source-038-anm-024-01-key",
+          "locator": "PDF p. 1, item 112"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-024-01-q116-comment-v1",
+      "questionId": "038-anm-024-01-q116",
+      "text": "O sobreajuste ocorre quando o modelo se ajusta excessivamente às particularidades do conjunto de treinamento e generaliza mal para dados novos. A diferença entre desempenho de treinamento e de validação/teste é um indício relevante; alta precisão no treinamento, isoladamente, não prova sobreajuste.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-024-01-paper",
+          "locator": "PDF p. 3, item 116"
+        },
+        {
+          "documentId": "source-038-anm-024-01-key",
+          "locator": "PDF p. 1, item 116"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-024-01-q120-comment-v1",
+      "questionId": "038-anm-024-01-q120",
+      "text": "Redes profundas podem aprender representações, mas não eliminam completamente a preparação dos dados. Limpeza, escolha de entradas, tratamento de valores ausentes e avaliação de qualidade continuam dependentes do problema. A afirmação absoluta de dispensa de todo pré-processamento torna o item incorreto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-024-01-paper",
+          "locator": "PDF p. 3, item 120"
+        },
+        {
+          "documentId": "source-038-anm-024-01-key",
+          "locator": "PDF p. 1, item 120"
+        }
+      ]
+    },
+    {
+      "id": "050-trt10-011-01-q063-comment-v1",
+      "questionId": "050-trt10-011-01-q063",
+      "text": "A análise incorporada permite integrar relatórios e visualizações do Power BI a aplicações e portais. Conectar e preparar fontes de dados é outra função, realizada por conectores e recursos de obtenção/transformação de dados. O item atribui à análise integrada a responsabilidade pela conexão com bancos, confundindo finalidades.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-050-trt10-011-01-paper",
+          "locator": "PDF p. 1, item 63"
+        },
+        {
+          "documentId": "source-050-trt10-011-01-key",
+          "locator": "PDF p. 1, item 63"
+        },
+        {
+          "documentId": "reference-microsoft-powerbi-embedded",
+          "locator": "O que é a análise incorporada do Power BI; integração de relatórios, painéis e blocos em aplicações"
+        }
+      ]
+    },
+    {
+      "id": "050-trt10-011-01-q069-comment-v1",
+      "questionId": "050-trt10-011-01-q069",
+      "text": "O gabarito reconhece a capacidade da IA generativa de produzir textos, imagens, áudio e outros conteúdos a partir de padrões aprendidos. A expressão sobre não repetir artefatos deve ser lida como contraposição à simples recuperação de um conteúdo pronto: não garante originalidade absoluta, ausência de memorização, solução correta de todo problema ou respeito automático a direitos autorais. A revisão das saídas continua necessária.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-050-trt10-011-01-paper",
+          "locator": "PDF p. 2, item 69"
+        },
+        {
+          "documentId": "source-050-trt10-011-01-key",
+          "locator": "PDF p. 1, item 69"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-006-01-q053-comment-v1",
+      "questionId": "018-stj-006-01-q053",
+      "text": "Sites, redes sociais, boletins e audiências podem integrar os canais da comunicação pública. A escolha depende de objetivo, público e condições de acesso. O item situa redes sociais nesse conjunto, sem estabelecer um calendário, um formato de postagem ou uma política específica para contas oficiais da Câmara.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-006-01-paper",
+          "locator": "PDF p. 1, item 53"
+        },
+        {
+          "documentId": "source-018-stj-006-01-key",
+          "locator": "PDF p. 1, item 53"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-006-01-q055-comment-v1",
+      "questionId": "018-stj-006-01-q055",
+      "text": "A comunicação institucional pode explicar a atuação da organização, mas o interesse promocional não justifica ocultar informações negativas relevantes para o esclarecimento público. É preciso apurar e contextualizar fatos com responsabilidade; isso não dispensa a proteção de informações legalmente restritas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-006-01-paper",
+          "locator": "PDF p. 1, item 55"
+        },
+        {
+          "documentId": "source-018-stj-006-01-key",
+          "locator": "PDF p. 1, item 55"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-006-01-q061-comment-v1",
+      "questionId": "018-stj-006-01-q061",
+      "text": "Endomarketing reúne ações voltadas ao engajamento e à relação da organização com seu público interno. Comunicação interna tem alcance mais amplo e inclui fluxos, canais, diálogo e circulação de informações de trabalho. Os conceitos se relacionam, mas a satisfação dos colaboradores não os torna sinônimos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-006-01-paper",
+          "locator": "PDF p. 1, item 61"
+        },
+        {
+          "documentId": "source-018-stj-006-01-key",
+          "locator": "PDF p. 1, item 61"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-006-01-q062-comment-v1",
+      "questionId": "018-stj-006-01-q062",
+      "text": "O vínculo institucional não dispensa verificação, compromisso com a verdade, precisão e tratamento responsável das informações. Promover a imagem da organização não autoriza fabricação, distorção ou ocultação indevida de fatos. O item afirma a manutenção desses princípios éticos, sem prometer neutralidade absoluta de toda produção institucional.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-006-01-paper",
+          "locator": "PDF p. 1, item 62"
+        },
+        {
+          "documentId": "source-018-stj-006-01-key",
+          "locator": "PDF p. 1, item 62"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-006-01-q077-comment-v1",
+      "questionId": "018-stj-006-01-q077",
+      "text": "A possibilidade de risco ético não implica proibição geral do uso de IA para personalizar conteúdos. É preciso avaliar finalidade, transparência, dados utilizados, discriminação e supervisão editorial. O item transforma a existência desses riscos em impedimento absoluto, sem considerar o uso responsável.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-006-01-paper",
+          "locator": "PDF p. 2, item 77"
+        },
+        {
+          "documentId": "source-018-stj-006-01-key",
+          "locator": "PDF p. 1, item 77"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-006-01-q079-comment-v1",
+      "questionId": "018-stj-006-01-q079",
+      "text": "A comunicação digital pode permitir que o público responda, compartilhe e produza conteúdo, além de recebê-lo. Essa possibilidade de participação não assegura diálogo efetivo em toda conta ou plataforma. O vínculo é com o tema geral de redes sociais; o item não descreve recursos específicos de colaboração, medidas de imagem nem elementos de uma postagem oficial.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-006-01-paper",
+          "locator": "PDF p. 2, item 79"
+        },
+        {
+          "documentId": "source-018-stj-006-01-key",
+          "locator": "PDF p. 1, item 79"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-006-01-q082-comment-v1",
+      "questionId": "018-stj-006-01-q082",
+      "text": "Algoritmos podem auxiliar o acompanhamento de reações a conteúdos, mas a análise de sentimentos tem limites de contexto, ironia e representatividade. Resultados devem ser interpretados com cuidado. O item combina uma aplicação possível com riscos de uso indevido, sem afirmar que todo monitoramento seja manipulação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-006-01-paper",
+          "locator": "PDF p. 2, item 82"
+        },
+        {
+          "documentId": "source-018-stj-006-01-key",
+          "locator": "PDF p. 1, item 82"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-006-01-q083-comment-v1",
+      "questionId": "018-stj-006-01-q083",
+      "text": "Ferramentas de IA podem apoiar a checagem, mas não garantem precisão de forma autônoma nem dispensam jornalistas. É necessário examinar fontes, contexto e evidências e responder editorialmente pelo resultado. O erro está em dispensar a intervenção profissional como garantia de exatidão.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-006-01-paper",
+          "locator": "PDF p. 2, item 83"
+        },
+        {
+          "documentId": "source-018-stj-006-01-key",
+          "locator": "PDF p. 1, item 83"
+        }
+      ]
+    },
+    {
+      "id": "018-stj-006-01-q085-comment-v1",
+      "questionId": "018-stj-006-01-q085",
+      "text": "IA pode ajudar a identificar e moderar certos conteúdos enganosos, reduzindo sua circulação em algumas condições. A formulação “pode ajudar” não promete eliminar desinformação. Também são necessários critérios transparentes, avaliação de erros e cuidados com remoções indevidas e liberdade de expressão.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-018-stj-006-01-paper",
+          "locator": "PDF p. 2, item 85"
+        },
+        {
+          "documentId": "source-018-stj-006-01-key",
+          "locator": "PDF p. 1, item 85"
+        }
+      ]
+    },
+    {
+      "id": "959-bcb-cb1-01-q007-comment-v1",
+      "questionId": "959-bcb-cb1-01-q007",
+      "text": "Os travessões isolam a explicação inserida no adjunto inicial. A vírgula após o fechamento dos travessões também delimita esse adjunto deslocado antes da oração principal iniciada por “verifica-se”. Por isso, os dois sinais não são redundantes no período e a supressão proposta não é autorizada pelo simples uso dos travessões.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-959-bcb-cb1-01-paper",
+          "locator": "PDF p. 1, item 7"
+        },
+        {
+          "documentId": "source-959-bcb-cb1-01-key",
+          "locator": "PDF p. 1, item 7"
+        }
+      ]
+    },
+    {
+      "id": "959-bcb-cb1-01-q009-comment-v1",
+      "questionId": "959-bcb-cb1-01-q009",
+      "text": "A oração “que conectam ofertantes e demandantes de trabalho” aparece separada por vírgula e acrescenta uma explicação sobre as plataformas mencionadas. Ela não restringe o antecedente a um subconjunto. A classificação como restritiva contradiz essa organização do período.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-959-bcb-cb1-01-paper",
+          "locator": "PDF p. 1, item 9"
+        },
+        {
+          "documentId": "source-959-bcb-cb1-01-key",
+          "locator": "PDF p. 1, item 9"
+        }
+      ]
+    },
+    {
+      "id": "959-bcb-cb1-01-q010-comment-v1",
+      "questionId": "959-bcb-cb1-01-q010",
+      "text": "Em “como a distribuição desigual de oportunidades”, o “a” é artigo diante de “distribuição”. Não há, nessa construção, a preposição “a” que se fundiria ao artigo. A troca por “à” não é facultativa e prejudica a correção da passagem.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-959-bcb-cb1-01-paper",
+          "locator": "PDF p. 1, item 10"
+        },
+        {
+          "documentId": "source-959-bcb-cb1-01-key",
+          "locator": "PDF p. 1, item 10"
+        }
+      ]
+    },
+    {
+      "id": "959-bcb-cb1-01-q011-comment-v1",
+      "questionId": "959-bcb-cb1-01-q011",
+      "text": "Na passagem “ofertantes e demandantes de trabalho que, de outra forma, poderiam ter dificuldades”, o relativo “que” retoma os dois grupos. O verbo “poderiam” está no plural em concordância com esse referente plural, preservando a relação descrita no item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-959-bcb-cb1-01-paper",
+          "locator": "PDF p. 1, item 11"
+        },
+        {
+          "documentId": "source-959-bcb-cb1-01-key",
+          "locator": "PDF p. 1, item 11"
+        }
+      ]
+    },
+    {
+      "id": "959-bcb-cb1-01-q013-comment-v1",
+      "questionId": "959-bcb-cb1-01-q013",
+      "text": "No trecho analisado, o adjunto inicial é separado por pausa e a oração principal começa com “verifica-se”. A substituição por “se verifica” colocaria o pronome átono no início dessa oração, contrariando a colocação exigida no padrão formal considerado pela banca. A observação se limita à construção apresentada.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-959-bcb-cb1-01-paper",
+          "locator": "PDF p. 1, item 13"
+        },
+        {
+          "documentId": "source-959-bcb-cb1-01-key",
+          "locator": "PDF p. 1, item 13"
+        }
+      ]
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q022-comment-v1",
+      "questionId": "142-tcuaufc-cb1-01-q022",
+      "text": "A expressão “in the shadow of elections” indica que a possibilidade de uma eleição futura influencia o comportamento dos representantes. O texto explica que possíveis opositores podem divulgar ações impopulares junto ao eleitorado, associando a atuação presente aos resultados eleitorais esperados.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-142-tcuaufc-cb1-01-paper",
+          "locator": "PDF p. 2, item 22"
+        },
+        {
+          "documentId": "source-142-tcuaufc-cb1-01-key",
+          "locator": "PDF p. 1, item 22"
+        }
+      ]
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q023-comment-v1",
+      "questionId": "142-tcuaufc-cb1-01-q023",
+      "text": "Na frase final, “them” retoma “the rights and interests of every or any person”. O pronome aparece como complemento de “stand up for”, no sentido de defender esses direitos e interesses. A referência proposta pelo item corresponde ao antecedente plural do excerto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-142-tcuaufc-cb1-01-paper",
+          "locator": "PDF p. 2, item 23"
+        },
+        {
+          "documentId": "source-142-tcuaufc-cb1-01-key",
+          "locator": "PDF p. 1, item 23"
+        }
+      ]
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q024-comment-v1",
+      "questionId": "142-tcuaufc-cb1-01-q024",
+      "text": "O segundo parágrafo relaciona controle efetivo do governo à atuação de cidadãos atentos e envolvidos e à participação em associações. Isso sustenta a inferência sobre a relação entre engajamento dos cidadãos e efetividade da responsabilização eleitoral, sem afirmar que o texto apresente uma medição quantitativa dessa relação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-142-tcuaufc-cb1-01-paper",
+          "locator": "PDF p. 2, item 24"
+        },
+        {
+          "documentId": "source-142-tcuaufc-cb1-01-key",
+          "locator": "PDF p. 1, item 24"
+        }
+      ]
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q025-comment-v1",
+      "questionId": "142-tcuaufc-cb1-01-q025",
+      "text": "Nesse período, “Since” apresenta a razão pela qual a possibilidade de sanção eleitoral estimula os representantes a prestar explicações e atender ao eleitorado. Equivale a “because”, e não a uma marca temporal que indique quando se inicia a busca por reeleição.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-142-tcuaufc-cb1-01-paper",
+          "locator": "PDF p. 2, item 25"
+        },
+        {
+          "documentId": "source-142-tcuaufc-cb1-01-key",
+          "locator": "PDF p. 1, item 25"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-002-01-q078-comment-v1",
+      "questionId": "232funprespexe-002-01-q078",
+      "text": "Um instrumento de coleta deve usar linguagem compreensível e adequada ao público e ao objetivo da pesquisa. Termos técnicos e formalidade não são a melhor escolha para qualquer pessoa ou situação. O erro está na pretensão de validade universal dessa linguagem.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-232funprespexe-002-01-paper",
+          "locator": "PDF p. 2, item 78"
+        },
+        {
+          "documentId": "source-232funprespexe-002-01-key",
+          "locator": "PDF p. 1, item 78"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-002-01-q079-comment-v1",
+      "questionId": "232funprespexe-002-01-q079",
+      "text": "Grupos focais podem ser úteis para explorar percepções e reações de consumidores a produtos e serviços. A seleção é usualmente intencional e não probabilística, não permitindo inferência estatística automática para toda a população. Isso não justifica evitar a técnica para o objetivo descrito. O comentário distingue utilidade exploratória de representatividade estatística, preservando a redação original.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-232funprespexe-002-01-paper",
+          "locator": "PDF p. 2, item 79"
+        },
+        {
+          "documentId": "source-232funprespexe-002-01-key",
+          "locator": "PDF p. 1, item 79"
+        }
+      ]
+    },
+    {
+      "id": "232funprespexe-002-01-q080-comment-v1",
+      "questionId": "232funprespexe-002-01-q080",
+      "text": "Dados quantitativos e qualitativos podem fornecer evidências para avaliar hipóteses definidas no problema de pesquisa, conforme o desenho adotado. Isso não significa que qualquer estudo descritivo comprove causalidade ou confirme definitivamente uma hipótese. O item reconhece a possibilidade de avaliação por diferentes abordagens.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-232funprespexe-002-01-paper",
+          "locator": "PDF p. 2, item 80"
+        },
+        {
+          "documentId": "source-232funprespexe-002-01-key",
+          "locator": "PDF p. 1, item 80"
+        }
+      ]
+    },
+    {
+      "id": "camara-2023-tecnica-tarde-tipo1-q027-comment-v1",
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q027",
+      "text": "Todas as observações estão erradas (B). I: para medida provisória que abre crédito extraordinário, o art. 2º, § 6º, da Resolução nº 1/2002 remete o exame e o parecer à Comissão Mista de Orçamento prevista no art. 166, § 1º, da Constituição. II: o art. 3º prevê instalação em 24 horas, não 48. III: o § 4º atribui ao relator revisor justamente as funções de relatoria na Casa diversa da do relator. Não se deve confundir a comissão ordinariamente constituída para uma MP com a comissão orçamentária dessa hipótese.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2023-tecnica-tarde-tipo1-paper",
+          "locator": "PDF p. 8, questão 27"
+        },
+        {
+          "documentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+          "locator": "PDF p. 4 — Edital 3 (tarde), tipo 1, questão 27"
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "locator": "PDF p. 58 — Resolução 1/2002-CN, art. 2º, § 6º, e art. 3º, caput e § 4º"
+        }
+      ]
+    },
+    {
+      "id": "camara-2023-tecnica-tarde-tipo1-q028-comment-v1",
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q028",
+      "text": "A alternativa E corresponde ao art. 7º, IV, a, da Resolução nº 3/1990-CN: a Comissão Representativa pode deliberar sobre a sustação de atos normativos do Executivo que exorbitem do poder regulamentar ou da delegação legislativa, quando se caracterizar necessidade de medida cautelar urgente. Não se trata de exercício indistinto da plenitude das competências do Legislativo durante o recesso.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2023-tecnica-tarde-tipo1-paper",
+          "locator": "PDF p. 8, questão 28"
+        },
+        {
+          "documentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+          "locator": "PDF p. 4 — Edital 3 (tarde), tipo 1, questão 28"
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "locator": "PDF p. 55 — Resolução 3/1990-CN, art. 7º, IV, a"
+        }
+      ]
+    },
+    {
+      "id": "camara-2023-tecnica-tarde-tipo1-q030-comment-v1",
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q030",
+      "text": "Apenas III está certa (C). O art. 9º, § 2º, exige o calendário nas Ordens do Dia do Senado e da Câmara, sem incluir a do Congresso como afirma I. O art. 12 estabelece presença mínima de um terço para iniciar os trabalhos, não de um quarto. O prazo de oito dias para emendas, contado da instalação, consta do art. 11. Não confundir esse quórum de início dos trabalhos com o de deliberação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2023-tecnica-tarde-tipo1-paper",
+          "locator": "PDF p. 9, questão 30"
+        },
+        {
+          "documentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+          "locator": "PDF p. 4 — Edital 3 (tarde), tipo 1, questão 30"
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "locator": "PDF pp. 27–28 — Resolução 1/1970-CN, arts. 9º, § 2º, 11 e 12"
+        }
+      ]
     }
   ],
   "syllabusItems": [
@@ -24375,6 +26881,265 @@
       "syllabusItemId": "camara-2026-comunicacao-social-1-4",
       "justification": "Discussão terminológica sobre fake news e compromisso jornalístico.",
       "status": "confirmed"
+    },
+    {
+      "id": "038-anm-024-01-q090-mapping-1",
+      "questionId": "038-anm-024-01-q090",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-5-3",
+      "justification": "Modelos generativos e papel do aprendizado profundo.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-024-01-q091-mapping-1",
+      "questionId": "038-anm-024-01-q091",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-5-1",
+      "justification": "Conceito de prompt e instruções fornecidas ao modelo.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-024-01-q093-mapping-1",
+      "questionId": "038-anm-024-01-q093",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-5-3",
+      "justification": "Modelagem generativa e criação de amostras.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-024-01-q097-mapping-1",
+      "questionId": "038-anm-024-01-q097",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-5-3",
+      "justification": "Exemplos de IA generativa baseada em LLMs e transformers.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-024-01-q106-mapping-1",
+      "questionId": "038-anm-024-01-q106",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-7-1",
+      "justification": "Distinção entre dados, informação e conhecimento.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-024-01-q110-mapping-1",
+      "questionId": "038-anm-024-01-q110",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-7-1",
+      "justification": "Formato CSV e cabeçalho opcional.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-024-01-q111-mapping-1",
+      "questionId": "038-anm-024-01-q111",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-7-1",
+      "justification": "Estruturas de dados em JSON.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-024-01-q112-mapping-1",
+      "questionId": "038-anm-024-01-q112",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-7-1",
+      "justification": "Avaliação de resultados em relação ao objetivo do negócio.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-024-01-q116-mapping-1",
+      "questionId": "038-anm-024-01-q116",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-5-2",
+      "justification": "Generalização e sobreajuste no aprendizado de máquina.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-024-01-q120-mapping-1",
+      "questionId": "038-anm-024-01-q120",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-5",
+      "justification": "Limites do aprendizado profundo e preparação de dados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "050-trt10-011-01-q063-mapping-1",
+      "questionId": "050-trt10-011-01-q063",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-8-3",
+      "justification": "Finalidade da análise incorporada no Power BI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "050-trt10-011-01-q069-mapping-1",
+      "questionId": "050-trt10-011-01-q069",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-5-3",
+      "justification": "Capacidade de geração de conteúdo e novos artefatos.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-006-01-q053-mapping-1",
+      "questionId": "018-stj-006-01-q053",
+      "syllabusItemId": "camara-2026-comunicacao-social-5",
+      "justification": "Redes sociais como instrumentos da comunicação pública.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-006-01-q055-mapping-1",
+      "questionId": "018-stj-006-01-q055",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-6",
+      "justification": "Ética e transparência no relacionamento com a imprensa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-006-01-q061-mapping-1",
+      "questionId": "018-stj-006-01-q061",
+      "syllabusItemId": "camara-2026-comunicacao-social-2-3",
+      "justification": "Distinção entre endomarketing e comunicação interna.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-006-01-q061-mapping-2",
+      "questionId": "018-stj-006-01-q061",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-2-4",
+      "justification": "Distinção entre endomarketing e comunicação interna.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-006-01-q062-mapping-1",
+      "questionId": "018-stj-006-01-q062",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-6",
+      "justification": "Compromissos éticos do jornalismo institucional.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-006-01-q077-mapping-1",
+      "questionId": "018-stj-006-01-q077",
+      "syllabusItemId": "camara-2026-comunicacao-social-9-1",
+      "justification": "Personalização de conteúdo com IA e responsabilidade editorial.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-006-01-q079-mapping-1",
+      "questionId": "018-stj-006-01-q079",
+      "syllabusItemId": "camara-2026-comunicacao-social-5",
+      "justification": "Participação e produção de conteúdo em mídias sociais.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-006-01-q082-mapping-1",
+      "questionId": "018-stj-006-01-q082",
+      "syllabusItemId": "camara-2026-comunicacao-social-9-1",
+      "justification": "Análise de sentimentos e riscos na aplicação de IA à comunicação.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-006-01-q083-mapping-1",
+      "questionId": "018-stj-006-01-q083",
+      "syllabusItemId": "camara-2026-comunicacao-social-9-2",
+      "justification": "Limites da checagem automatizada e revisão jornalística.",
+      "status": "confirmed"
+    },
+    {
+      "id": "018-stj-006-01-q085-mapping-1",
+      "questionId": "018-stj-006-01-q085",
+      "syllabusItemId": "camara-2026-comunicacao-social-1-4",
+      "justification": "Moderação assistida por IA e integridade da informação.",
+      "status": "confirmed"
+    },
+    {
+      "id": "959-bcb-cb1-01-q007-mapping-1",
+      "questionId": "959-bcb-cb1-01-q007",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-5-4",
+      "justification": "Pontuação com adjunto deslocado e trecho entre travessões.",
+      "status": "confirmed"
+    },
+    {
+      "id": "959-bcb-cb1-01-q009-mapping-1",
+      "questionId": "959-bcb-cb1-01-q009",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-5-3",
+      "justification": "Oração subordinada adjetiva explicativa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "959-bcb-cb1-01-q010-mapping-1",
+      "questionId": "959-bcb-cb1-01-q010",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-5-7",
+      "justification": "Ausência de preposição exigida para ocorrência de crase.",
+      "status": "confirmed"
+    },
+    {
+      "id": "959-bcb-cb1-01-q011-mapping-1",
+      "questionId": "959-bcb-cb1-01-q011",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-5-5",
+      "justification": "Concordância verbal e antecedente do pronome relativo.",
+      "status": "confirmed"
+    },
+    {
+      "id": "959-bcb-cb1-01-q013-mapping-1",
+      "questionId": "959-bcb-cb1-01-q013",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-5-8",
+      "justification": "Colocação do pronome átono após adjunto separado por vírgula.",
+      "status": "confirmed"
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q022-mapping-1",
+      "questionId": "142-tcuaufc-cb1-01-q022",
+      "syllabusItemId": "camara-2026-lingua-inglesa-1",
+      "justification": "Sentido contextual de expressão figurada.",
+      "status": "confirmed"
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q023-mapping-1",
+      "questionId": "142-tcuaufc-cb1-01-q023",
+      "syllabusItemId": "camara-2026-lingua-inglesa-2",
+      "justification": "Referência pronominal em inglês.",
+      "status": "confirmed"
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q024-mapping-1",
+      "questionId": "142-tcuaufc-cb1-01-q024",
+      "syllabusItemId": "camara-2026-lingua-inglesa-1",
+      "justification": "Inferência de relação entre participação e controle democrático.",
+      "status": "confirmed"
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q025-mapping-1",
+      "questionId": "142-tcuaufc-cb1-01-q025",
+      "syllabusItemId": "camara-2026-lingua-inglesa-3",
+      "justification": "Valor causal de since no contexto.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-002-01-q078-mapping-1",
+      "questionId": "232funprespexe-002-01-q078",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-3-1",
+      "justification": "Linguagem dos instrumentos de pesquisa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-002-01-q079-mapping-1",
+      "questionId": "232funprespexe-002-01-q079",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-3-2",
+      "justification": "Grupos focais na pesquisa de reações de consumidores.",
+      "status": "confirmed"
+    },
+    {
+      "id": "232funprespexe-002-01-q080-mapping-1",
+      "questionId": "232funprespexe-002-01-q080",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-3-1",
+      "justification": "Análise de hipóteses e métodos qualitativos e quantitativos.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2023-tecnica-tarde-tipo1-q027-mapping-1",
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q027",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-6-3",
+      "justification": "Aplicação da resolução do Congresso expressamente cobrada no item; formato original de múltipla escolha preservado.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2023-tecnica-tarde-tipo1-q028-mapping-1",
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q028",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-6-2",
+      "justification": "Aplicação da resolução do Congresso expressamente cobrada no item; formato original de múltipla escolha preservado.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2023-tecnica-tarde-tipo1-q030-mapping-1",
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q030",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-6-1",
+      "justification": "Aplicação da resolução do Congresso expressamente cobrada no item; formato original de múltipla escolha preservado.",
+      "status": "confirmed"
     }
   ],
   "scoringRules": [
@@ -25847,6 +28612,134 @@
       "text": "Julgue os itens a seguir, considerando as técnicas empregadas em resumos de dados levantados de uma população.",
       "sourceDocumentId": "source-988-cpnuje-010-01-paper",
       "sourcePage": 1
+    },
+    {
+      "id": "anm-024-generative-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que se refere a inteligências artificiais (IAs) generativas e discriminativas, julgue os itens seguintes.",
+      "sourceDocumentId": "source-038-anm-024-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "anm-024-bi-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Em relação a BI (business intelligence) e à modelagem de dados, julgue os itens que se seguem.",
+      "sourceDocumentId": "source-038-anm-024-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "anm-024-data-formats-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens a seguir, relativos às tecnologias CSV e JSON, à Linguagem SQL e ao modelo CRISP-DM.",
+      "sourceDocumentId": "source-038-anm-024-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "anm-024-learning-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "A respeito de overfitting e underfitting, de deep learning e de métodos de data mining, julgue os itens que se seguem.",
+      "sourceDocumentId": "source-038-anm-024-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "trt10-2025-power-platform-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "A respeito da Microsoft Power Platform, julgue os itens seguintes.",
+      "sourceDocumentId": "source-050-trt10-011-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "trt10-2025-evaluation-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os próximos itens, relativos à avaliação de modelos.",
+      "sourceDocumentId": "source-050-trt10-011-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "stj-2024-public-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que concerne à comunicação pública, julgue os próximos itens.",
+      "sourceDocumentId": "source-018-stj-006-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "stj-2024-organization-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Acerca de aspectos relativos à comunicação nas organizações, julgue os itens subsequentes.",
+      "sourceDocumentId": "source-018-stj-006-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "stj-2024-internal-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que concerne ao jornalismo institucional e à comunicação interna, julgue os itens a seguir.",
+      "sourceDocumentId": "source-018-stj-006-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "stj-2024-digital-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens subsequentes, referentes à comunicação digital e ao impacto das novas tecnologias na produção e no consumo de conteúdo jornalístico.",
+      "sourceDocumentId": "source-018-stj-006-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "stj-2024-new-technologies-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens subsequentes, acerca de aspectos relacionados às novas tecnologias da comunicação.",
+      "sourceDocumentId": "source-018-stj-006-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "tcu-2026-accountability-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Considering the preceding text, judge the following items.",
+      "sourceDocumentId": "source-142-tcuaufc-cb1-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "funpresp-2016-research-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Acerca de pesquisas de opinião e de mercado, julgue os itens subsequentes.",
+      "sourceDocumentId": "source-232funprespexe-002-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "tcu-2026-accountability-passage",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Texto de apoio",
+      "text": "Electoral accountability is a distinctively democratic form of accountability. Since officials typically seek reelection or election to a higher office, this potential sanction is regarded as a powerful inducement for them to explain their actions to electorates and serve their electorates‟ interests. In this conventional view, much of the activity of elected officials takes place “in the shadow of elections,” with the awareness that potential opponents may publicize their actions, if these seem likely to be unpopular with their electorates.\n\nOn the other hand, some recent work suggests that even in democracies, there is much less retrospective electoral accountability than the conventional view suggests. In a sense, this failure should not be surprising in light of democratic theory. Alexis de Tocqueville and John Stuart Mill emphasized in the mid-19th century the importance, for effective control of government, of alert and involved citizens. Alexis de Tocqueville observed that “the inhabitant of New England is attached to his township not so much because he was born there as because he sees in that township a free and strong corporation that he is a part of and that is worth his trouble to seek to direct.” Democracy, in Tocqueville‟s view, also relies on the existence of multiple voluntary associations, linked to political associations in multiple ways. In the words of John Stuart Mill, “the rights and interests of every or any person are only secure from being disregarded when the person is himself able, and habitually disposed, to stand up for them.”",
+      "sourceDocumentId": "source-142-tcuaufc-cb1-01-paper",
+      "sourcePage": 2,
+      "sourceCredit": "Robert O. Keohane. The Concept of Accountability in World Politics and the Use of Force. Internet:<Repository.law.umich.edu> (adapted).",
+      "language": "en"
     }
   ]
 }

@@ -611,6 +611,83 @@
       "outcome": "byte_match",
       "officialUrl": "https://cdn.cebraspe.org.br/concursos/CPNUJE_24/arquivos/GAB_DEFINITIVO_988_CPNUJE_010_01.PDF",
       "remoteSha256": "cecae54e8c453f708cd03be9efbd144c7472b64c1197c71cd167ccd3a5d0eb5d"
+    },
+    {
+      "documentId": "source-038-anm-024-01-paper",
+      "localSha256": "8f38b53e9b553ad852b19f6654af483454a76134b657becb9200b8f5ae5a7ba5",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_024_01.PDF",
+      "remoteSha256": "8f38b53e9b553ad852b19f6654af483454a76134b657becb9200b8f5ae5a7ba5"
+    },
+    {
+      "documentId": "source-038-anm-024-01-key",
+      "localSha256": "e7f7f5e1fed4d12621ffd0bf41becdf435c9ad36c5d40aedd07664f6b1bed203",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_024_01.PDF",
+      "remoteSha256": "e7f7f5e1fed4d12621ffd0bf41becdf435c9ad36c5d40aedd07664f6b1bed203"
+    },
+    {
+      "documentId": "source-050-trt10-011-01-paper",
+      "localSha256": "b57a0cabfbd831b1210795a3e942f9cc09666b58b6420f6f0e82d33706bef266",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TRT10_24/arquivos/050_TRT10_011_01.pdf",
+      "remoteSha256": "b57a0cabfbd831b1210795a3e942f9cc09666b58b6420f6f0e82d33706bef266"
+    },
+    {
+      "documentId": "source-050-trt10-011-01-key",
+      "localSha256": "137cfadcf7bbffb4f5b1b91f01bd41884fa5dd4f86313402d17c7e902c40f0dd",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TRT10_24/arquivos/Gab_Definitivo_050_TRT10_011_01.pdf",
+      "remoteSha256": "137cfadcf7bbffb4f5b1b91f01bd41884fa5dd4f86313402d17c7e902c40f0dd"
+    },
+    {
+      "documentId": "source-018-stj-006-01-paper",
+      "localSha256": "39c130c464c98775497254d43872b1b060a1c65aac77381666d485f721d34668",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/018_STJ_006_01.PDF",
+      "remoteSha256": "39c130c464c98775497254d43872b1b060a1c65aac77381666d485f721d34668"
+    },
+    {
+      "documentId": "source-018-stj-006-01-key",
+      "localSha256": "6a63b4d0580327885f00519b6e5a45e28e77c1ab6a5551013cf3716825894e00",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/GAB_DEFINITIVO_018_STJ_006_01.PDF",
+      "remoteSha256": "6a63b4d0580327885f00519b6e5a45e28e77c1ab6a5551013cf3716825894e00"
+    },
+    {
+      "documentId": "source-142-tcuaufc-cb1-01-paper",
+      "localSha256": "e85c35039244f7f0b90c3fb5230d568d6a65ac04aaebc50540642c901aaff059",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCU_25_AUFC/arquivos/E853346980B6093207C3ECF8630F11E71C8F39D74F9D7881E2AB5DE760FB5366.pdf",
+      "remoteSha256": "e85c35039244f7f0b90c3fb5230d568d6a65ac04aaebc50540642c901aaff059"
+    },
+    {
+      "documentId": "source-142-tcuaufc-cb1-01-key",
+      "localSha256": "4f544f68f75a0867ce73407b743ce8fab537888405d5972ddb69f2ece9c897e4",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCU_25_AUFC/arquivos/FC2383E92E294F91C8C350498AC15C7A00B7B145773F86084285F93A425AC852.pdf",
+      "remoteSha256": "4f544f68f75a0867ce73407b743ce8fab537888405d5972ddb69f2ece9c897e4"
+    },
+    {
+      "documentId": "reference-regimento-comum-2025",
+      "localSha256": "723077332d3f1f068093eee842ad4142c20ad5efcb5a57e9b9e50341f37cf856",
+      "outcome": "byte_match",
+      "officialUrl": "https://www25.senado.leg.br/documents/59501/97171143/RCCN.pdf/933b504d-a653-4df5-9329-d4f38c42f64f",
+      "remoteSha256": "723077332d3f1f068093eee842ad4142c20ad5efcb5a57e9b9e50341f37cf856"
+    },
+    {
+      "documentId": "reference-microsoft-powerbi-embedded",
+      "localSha256": "e28d62909ced1f627b059029f5298d5e1cce26c60d3de110cbfbfb5505da2c38",
+      "outcome": "byte_match",
+      "officialUrl": "https://learn.microsoft.com/pt-br/power-bi/developer/embedded/embedded-analytics-power-bi",
+      "remoteSha256": "e28d62909ced1f627b059029f5298d5e1cce26c60d3de110cbfbfb5505da2c38"
+    },
+    {
+      "documentId": "reference-microsoft-prompt-engineering",
+      "localSha256": "0be4cd5f2874f28057f2713a2f928fcc681ba52f3d54f9989891d4dfa51c3a96",
+      "outcome": "byte_match",
+      "officialUrl": "https://learn.microsoft.com/pt-br/azure/foundry/openai/concepts/prompt-engineering",
+      "remoteSha256": "0be4cd5f2874f28057f2713a2f928fcc681ba52f3d54f9989891d4dfa51c3a96"
     }
   ],
   "corroboration": [

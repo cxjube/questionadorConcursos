@@ -12,15 +12,15 @@
         if (theme === 'light' || theme === 'dark') document.documentElement.setAttribute('data-theme', theme);
       } catch (_) { /* Blocked storage must not prevent startup. */ }
     </script>
-    <link rel="stylesheet" href="assets/css/styles.css?v=16">
+    <link rel="stylesheet" href="assets/css/styles.css?v=17">
     <script defer src="assets/js/types.js?v=4"></script>
     <script defer src="assets/js/storage.js?v=4"></script>
     <script defer src="assets/js/theme.js?v=4"></script>
     <script defer src="assets/js/catalog.js?v=4"></script>
-    <script defer src="data/catalog.js?v=22"></script>
-    <script defer src="assets/js/study.js?v=16"></script>
+    <script defer src="data/catalog.js?v=23"></script>
+    <script defer src="assets/js/study.js?v=17"></script>
     <script defer src="assets/js/progress.js?v=4"></script>
-    <script defer src="assets/js/study-ui.js?v=17"></script>
+    <script defer src="assets/js/study-ui.js?v=18"></script>
     <script defer src="assets/js/main.js?v=4"></script>
   </head>
   <body>
@@ -112,6 +112,16 @@
             <li><a href="https://www.gov.br/imprensanacional/pt-br" target="_blank" rel="noopener noreferrer"><strong>Diário Oficial da União</strong><span>Portal da Imprensa Nacional para consultar publicações oficiais.</span></a></li>
           </ul>
         </nav>
+        <details class="support-details">
+          <summary>Materiais de referência da Câmara</summary>
+          <p>Consulte os documentos específicos do programa. Os links abrem em outra aba.</p>
+          <ul id="study-reference-links" class="watch-links">
+            <li><a href="https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-norma-cd-mesa.html" target="_blank" rel="noopener noreferrer"><strong>Política de Comunicação</strong><span>Ato da Mesa nº 218/2025 — texto e informações da norma.</span></a></li>
+            <li><a href="https://bd.camara.leg.br/bd/handle/bdcamara/57184" target="_blank" rel="noopener noreferrer"><strong>Manual de Comunicação — 2025</strong><span>Edição da Câmara disponível na Biblioteca Digital.</span></a></li>
+            <li><a href="https://bd.camara.leg.br/bd/handle/bdcamara/41947" target="_blank" rel="noopener noreferrer"><strong>Manual de Linguagem Simples — 2024</strong><span>Orientações para uma comunicação clara e acessível.</span></a></li>
+            <li><a href="https://www25.senado.leg.br/documents/59501/97171143/RCCN.pdf/933b504d-a653-4df5-9329-d4f38c42f64f" target="_blank" rel="noopener noreferrer"><strong>Regimento Comum e normas conexas</strong><span>PDF oficial de 2025, atualizado até julho daquele ano.</span></a></li>
+          </ul>
+        </details>
         <h3>Abertura e retificações</h3>
         <h4>Documentos de referência</h4>
         <ul id="notices" class="notice-list"></ul>

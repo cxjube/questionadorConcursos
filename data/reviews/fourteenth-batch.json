@@ -1,0 +1,1107 @@
+{
+  "id": "fourteenth-batch",
+  "reviewedAt": "2026-10-26",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/fourteenth-batch-release.md",
+  "previousCatalogSha256": "bf4e7228ff5011b714a75a1034831ecca502e1540c16d52be1ab4525fe3c5d4a",
+  "items": [
+    {
+      "questionId": "038-anm-024-01-q090",
+      "paperId": "source-038-anm-024-01",
+      "number": 90,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        249.877,
+        315.717
+      ],
+      "contextIds": [
+        "anm-024-generative-command"
+      ],
+      "answerKeyId": "038-anm-024-01-q090-key-v1",
+      "answerDocumentId": "source-038-anm-024-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-5-3"
+      ],
+      "justification": "Modelos generativos e papel do aprendizado profundo."
+    },
+    {
+      "questionId": "038-anm-024-01-q091",
+      "paperId": "source-038-anm-024-01",
+      "number": 91,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        328.357,
+        339.477
+      ],
+      "contextIds": [
+        "anm-024-generative-command"
+      ],
+      "answerKeyId": "038-anm-024-01-q091-key-v1",
+      "answerDocumentId": "source-038-anm-024-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-5-1"
+      ],
+      "justification": "Conceito de prompt e instruções fornecidas ao modelo."
+    },
+    {
+      "questionId": "038-anm-024-01-q093",
+      "paperId": "source-038-anm-024-01",
+      "number": 93,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        375.997,
+        419.997
+      ],
+      "contextIds": [
+        "anm-024-generative-command"
+      ],
+      "answerKeyId": "038-anm-024-01-q093-key-v1",
+      "answerDocumentId": "source-038-anm-024-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-5-3"
+      ],
+      "justification": "Modelagem generativa e criação de amostras."
+    },
+    {
+      "questionId": "038-anm-024-01-q097",
+      "paperId": "source-038-anm-024-01",
+      "number": 97,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        602.437,
+        657.357
+      ],
+      "contextIds": [
+        "anm-024-generative-command"
+      ],
+      "answerKeyId": "038-anm-024-01-q097-key-v1",
+      "answerDocumentId": "source-038-anm-024-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-5-3"
+      ],
+      "justification": "Exemplos de IA generativa baseada em LLMs e transformers."
+    },
+    {
+      "questionId": "038-anm-024-01-q106",
+      "paperId": "source-038-anm-024-01",
+      "number": 106,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        320.557,
+        350.276
+      ],
+      "contextIds": [
+        "anm-024-bi-command"
+      ],
+      "answerKeyId": "038-anm-024-01-q106-key-v1",
+      "answerDocumentId": "source-038-anm-024-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-7-1"
+      ],
+      "justification": "Distinção entre dados, informação e conhecimento."
+    },
+    {
+      "questionId": "038-anm-024-01-q110",
+      "paperId": "source-038-anm-024-01",
+      "number": 110,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        558.397,
+        573.356
+      ],
+      "contextIds": [
+        "anm-024-data-formats-command"
+      ],
+      "answerKeyId": "038-anm-024-01-q110-key-v1",
+      "answerDocumentId": "source-038-anm-024-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-7-1"
+      ],
+      "justification": "Formato CSV e cabeçalho opcional."
+    },
+    {
+      "questionId": "038-anm-024-01-q111",
+      "paperId": "source-038-anm-024-01",
+      "number": 111,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        589.957,
+        619.557
+      ],
+      "contextIds": [
+        "anm-024-data-formats-command"
+      ],
+      "answerKeyId": "038-anm-024-01-q111-key-v1",
+      "answerDocumentId": "source-038-anm-024-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-7-1"
+      ],
+      "justification": "Estruturas de dados em JSON."
+    },
+    {
+      "questionId": "038-anm-024-01-q112",
+      "paperId": "source-038-anm-024-01",
+      "number": 112,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        636.157,
+        680.636
+      ],
+      "contextIds": [
+        "anm-024-data-formats-command"
+      ],
+      "answerKeyId": "038-anm-024-01-q112-key-v1",
+      "answerDocumentId": "source-038-anm-024-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-7-1"
+      ],
+      "justification": "Avaliação de resultados em relação ao objetivo do negócio."
+    },
+    {
+      "questionId": "038-anm-024-01-q116",
+      "paperId": "source-038-anm-024-01",
+      "number": 116,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        115.477,
+        137.156
+      ],
+      "contextIds": [
+        "anm-024-learning-command"
+      ],
+      "answerKeyId": "038-anm-024-01-q116-key-v1",
+      "answerDocumentId": "source-038-anm-024-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-5-2"
+      ],
+      "justification": "Generalização e sobreajuste no aprendizado de máquina."
+    },
+    {
+      "questionId": "038-anm-024-01-q120",
+      "paperId": "source-038-anm-024-01",
+      "number": 120,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        273.037,
+        305.397
+      ],
+      "contextIds": [
+        "anm-024-learning-command"
+      ],
+      "answerKeyId": "038-anm-024-01-q120-key-v1",
+      "answerDocumentId": "source-038-anm-024-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-5"
+      ],
+      "justification": "Limites do aprendizado profundo e preparação de dados."
+    },
+    {
+      "questionId": "050-trt10-011-01-q063",
+      "paperId": "source-050-trt10-011-01",
+      "number": 63,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        708.637,
+        733.437
+      ],
+      "contextIds": [
+        "trt10-2025-power-platform-command"
+      ],
+      "answerKeyId": "050-trt10-011-01-q063-key-v1",
+      "answerDocumentId": "source-050-trt10-011-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-8-3"
+      ],
+      "justification": "Finalidade da análise incorporada no Power BI."
+    },
+    {
+      "questionId": "050-trt10-011-01-q069",
+      "paperId": "source-050-trt10-011-01",
+      "number": 69,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        45.517,
+        90.477
+      ],
+      "contextIds": [
+        "trt10-2025-evaluation-command"
+      ],
+      "answerKeyId": "050-trt10-011-01-q069-key-v1",
+      "answerDocumentId": "source-050-trt10-011-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-5-3"
+      ],
+      "justification": "Capacidade de geração de conteúdo e novos artefatos."
+    },
+    {
+      "questionId": "018-stj-006-01-q053",
+      "paperId": "source-018-stj-006-01",
+      "number": 53,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        198.997,
+        226.196
+      ],
+      "contextIds": [
+        "stj-2024-public-command"
+      ],
+      "answerKeyId": "018-stj-006-01-q053-key-v1",
+      "answerDocumentId": "source-018-stj-006-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-5"
+      ],
+      "justification": "Redes sociais como instrumentos da comunicação pública."
+    },
+    {
+      "questionId": "018-stj-006-01-q055",
+      "paperId": "source-018-stj-006-01",
+      "number": 55,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        319.477,
+        360.237
+      ],
+      "contextIds": [
+        "stj-2024-organization-command"
+      ],
+      "answerKeyId": "018-stj-006-01-q055-key-v1",
+      "answerDocumentId": "source-018-stj-006-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-6"
+      ],
+      "justification": "Ética e transparência no relacionamento com a imprensa."
+    },
+    {
+      "questionId": "018-stj-006-01-q061",
+      "paperId": "source-018-stj-006-01",
+      "number": 61,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        704.797,
+        731.996
+      ],
+      "contextIds": [
+        "stj-2024-internal-command"
+      ],
+      "answerKeyId": "018-stj-006-01-q061-key-v1",
+      "answerDocumentId": "source-018-stj-006-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-2-3",
+        "camara-2026-divulgacao-institucional-2-4"
+      ],
+      "justification": "Distinção entre endomarketing e comunicação interna."
+    },
+    {
+      "questionId": "018-stj-006-01-q062",
+      "paperId": "source-018-stj-006-01",
+      "number": 62,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        747.397,
+        788.036
+      ],
+      "contextIds": [
+        "stj-2024-internal-command"
+      ],
+      "answerKeyId": "018-stj-006-01-q062-key-v1",
+      "answerDocumentId": "source-018-stj-006-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-6"
+      ],
+      "justification": "Compromissos éticos do jornalismo institucional."
+    },
+    {
+      "questionId": "018-stj-006-01-q077",
+      "paperId": "source-018-stj-006-01",
+      "number": 77,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        349.597,
+        382.316
+      ],
+      "contextIds": [
+        "stj-2024-digital-command"
+      ],
+      "answerKeyId": "018-stj-006-01-q077-key-v1",
+      "answerDocumentId": "source-018-stj-006-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-9-1"
+      ],
+      "justification": "Personalização de conteúdo com IA e responsabilidade editorial."
+    },
+    {
+      "questionId": "018-stj-006-01-q079",
+      "paperId": "source-018-stj-006-01",
+      "number": 79,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        440.197,
+        462.116
+      ],
+      "contextIds": [
+        "stj-2024-digital-command"
+      ],
+      "answerKeyId": "018-stj-006-01-q079-key-v1",
+      "answerDocumentId": "source-018-stj-006-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-5"
+      ],
+      "justification": "Participação e produção de conteúdo em mídias sociais."
+    },
+    {
+      "questionId": "018-stj-006-01-q082",
+      "paperId": "source-018-stj-006-01",
+      "number": 82,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        595.477,
+        638.996
+      ],
+      "contextIds": [
+        "stj-2024-new-technologies-command"
+      ],
+      "answerKeyId": "018-stj-006-01-q082-key-v1",
+      "answerDocumentId": "source-018-stj-006-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-9-1"
+      ],
+      "justification": "Análise de sentimentos e riscos na aplicação de IA à comunicação."
+    },
+    {
+      "questionId": "018-stj-006-01-q083",
+      "paperId": "source-018-stj-006-01",
+      "number": 83,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        651.637,
+        673.556
+      ],
+      "contextIds": [
+        "stj-2024-new-technologies-command"
+      ],
+      "answerKeyId": "018-stj-006-01-q083-key-v1",
+      "answerDocumentId": "source-018-stj-006-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-9-2"
+      ],
+      "justification": "Limites da checagem automatizada e revisão jornalística."
+    },
+    {
+      "questionId": "018-stj-006-01-q085",
+      "paperId": "source-018-stj-006-01",
+      "number": 85,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        731.437,
+        753.356
+      ],
+      "contextIds": [
+        "stj-2024-new-technologies-command"
+      ],
+      "answerKeyId": "018-stj-006-01-q085-key-v1",
+      "answerDocumentId": "source-018-stj-006-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-1-4"
+      ],
+      "justification": "Moderação assistida por IA e integridade da informação."
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q007",
+      "paperId": "source-959-bcb-cb1-01",
+      "number": 7,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        511.477,
+        556.317
+      ],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-grammar-command"
+      ],
+      "answerKeyId": "959-bcb-cb1-01-q007-key-v1",
+      "answerDocumentId": "source-959-bcb-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-5-4"
+      ],
+      "justification": "Pontuação com adjunto deslocado e trecho entre travessões."
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q009",
+      "paperId": "source-959-bcb-cb1-01",
+      "number": 9,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        615.877,
+        638.517
+      ],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-grammar-command"
+      ],
+      "answerKeyId": "959-bcb-cb1-01-q009-key-v1",
+      "answerDocumentId": "source-959-bcb-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-5-3"
+      ],
+      "justification": "Oração subordinada adjetiva explicativa."
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q010",
+      "paperId": "source-959-bcb-cb1-01",
+      "number": 10,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        651.397,
+        685.197
+      ],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-grammar-command"
+      ],
+      "answerKeyId": "959-bcb-cb1-01-q010-key-v1",
+      "answerDocumentId": "source-959-bcb-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-5-7"
+      ],
+      "justification": "Ausência de preposição exigida para ocorrência de crase."
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q011",
+      "paperId": "source-959-bcb-cb1-01",
+      "number": 11,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        698.077,
+        731.757
+      ],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-grammar-command"
+      ],
+      "answerKeyId": "959-bcb-cb1-01-q011-key-v1",
+      "answerDocumentId": "source-959-bcb-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-5-5"
+      ],
+      "justification": "Concordância verbal e antecedente do pronome relativo."
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q013",
+      "paperId": "source-959-bcb-cb1-01",
+      "number": 13,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        768.997,
+        791.637
+      ],
+      "contextIds": [
+        "bcb-2024-platforms-passage",
+        "bcb-2024-grammar-command"
+      ],
+      "answerKeyId": "959-bcb-cb1-01-q013-key-v1",
+      "answerDocumentId": "source-959-bcb-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-5-8"
+      ],
+      "justification": "Colocação do pronome átono após adjunto separado por vírgula."
+    },
+    {
+      "questionId": "142-tcuaufc-cb1-01-q022",
+      "paperId": "source-142-tcuaufc-cb1-01",
+      "number": 22,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        590.646,
+        626.246
+      ],
+      "contextIds": [
+        "tcu-2026-accountability-passage",
+        "tcu-2026-accountability-command"
+      ],
+      "answerKeyId": "142-tcuaufc-cb1-01-q022-key-v1",
+      "answerDocumentId": "source-142-tcuaufc-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-1"
+      ],
+      "justification": "Sentido contextual de expressão figurada."
+    },
+    {
+      "questionId": "142-tcuaufc-cb1-01-q023",
+      "paperId": "source-142-tcuaufc-cb1-01",
+      "number": 23,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        639.966,
+        651.926
+      ],
+      "contextIds": [
+        "tcu-2026-accountability-passage",
+        "tcu-2026-accountability-command"
+      ],
+      "answerKeyId": "142-tcuaufc-cb1-01-q023-key-v1",
+      "answerDocumentId": "source-142-tcuaufc-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-2"
+      ],
+      "justification": "Referência pronominal em inglês."
+    },
+    {
+      "questionId": "142-tcuaufc-cb1-01-q024",
+      "paperId": "source-142-tcuaufc-cb1-01",
+      "number": 24,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        665.646,
+        701.386
+      ],
+      "contextIds": [
+        "tcu-2026-accountability-passage",
+        "tcu-2026-accountability-command"
+      ],
+      "answerKeyId": "142-tcuaufc-cb1-01-q024-key-v1",
+      "answerDocumentId": "source-142-tcuaufc-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-1"
+      ],
+      "justification": "Inferência de relação entre participação e controle democrático."
+    },
+    {
+      "questionId": "142-tcuaufc-cb1-01-q025",
+      "paperId": "source-142-tcuaufc-cb1-01",
+      "number": 25,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        714.986,
+        750.706
+      ],
+      "contextIds": [
+        "tcu-2026-accountability-passage",
+        "tcu-2026-accountability-command"
+      ],
+      "answerKeyId": "142-tcuaufc-cb1-01-q025-key-v1",
+      "answerDocumentId": "source-142-tcuaufc-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-inglesa-3"
+      ],
+      "justification": "Valor causal de since no contexto."
+    },
+    {
+      "questionId": "232funprespexe-002-01-q078",
+      "paperId": "source-232funprespexe-002-01",
+      "number": 78,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        82.741,
+        107.387
+      ],
+      "contextIds": [
+        "funpresp-2016-research-command"
+      ],
+      "answerKeyId": "232funprespexe-002-01-q078-key-v1",
+      "answerDocumentId": "source-232funprespexe-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-3-1"
+      ],
+      "justification": "Linguagem dos instrumentos de pesquisa."
+    },
+    {
+      "questionId": "232funprespexe-002-01-q079",
+      "paperId": "source-232funprespexe-002-01",
+      "number": 79,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        121.981,
+        158.507
+      ],
+      "contextIds": [
+        "funpresp-2016-research-command"
+      ],
+      "answerKeyId": "232funprespexe-002-01-q079-key-v1",
+      "answerDocumentId": "source-232funprespexe-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-3-2"
+      ],
+      "justification": "Grupos focais na pesquisa de reações de consumidores."
+    },
+    {
+      "questionId": "232funprespexe-002-01-q080",
+      "paperId": "source-232funprespexe-002-01",
+      "number": 80,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        172.981,
+        209.507
+      ],
+      "contextIds": [
+        "funpresp-2016-research-command"
+      ],
+      "answerKeyId": "232funprespexe-002-01-q080-key-v1",
+      "answerDocumentId": "source-232funprespexe-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-3-1"
+      ],
+      "justification": "Análise de hipóteses e métodos qualitativos e quantitativos."
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q027",
+      "paperId": "source-camara-2023-tecnica-tarde-tipo1",
+      "number": 27,
+      "questionType": "multiple_choice",
+      "sourcePage": 8,
+      "sourceColumn": "right",
+      "stemBounds": [
+        122,
+        293
+      ],
+      "optionBounds": [
+        [
+          305,
+          306
+        ],
+        [
+          317,
+          318
+        ],
+        [
+          329,
+          330
+        ],
+        [
+          341,
+          342
+        ],
+        [
+          353,
+          354
+        ]
+      ],
+      "contextIds": [],
+      "answerKeyId": "camara-2023-tecnica-tarde-tipo1-q027-key-v1",
+      "answerDocumentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+      "answerValue": "b",
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-6-3"
+      ],
+      "paragraphBounds": [
+        [
+          122,
+          177
+        ],
+        [
+          189,
+          212
+        ],
+        [
+          223,
+          246
+        ],
+        [
+          257,
+          269
+        ],
+        [
+          281,
+          293
+        ]
+      ]
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q028",
+      "paperId": "source-camara-2023-tecnica-tarde-tipo1",
+      "number": 28,
+      "questionType": "multiple_choice",
+      "sourcePage": 8,
+      "sourceColumn": "right",
+      "stemBounds": [
+        387,
+        478
+      ],
+      "optionBounds": [
+        [
+          490,
+          524
+        ],
+        [
+          535,
+          569
+        ],
+        [
+          580,
+          603
+        ],
+        [
+          614,
+          637
+        ],
+        [
+          648,
+          671
+        ]
+      ],
+      "contextIds": [],
+      "answerKeyId": "camara-2023-tecnica-tarde-tipo1-q028-key-v1",
+      "answerDocumentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+      "answerValue": "e",
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-6-2"
+      ],
+      "paragraphBounds": [
+        [
+          387,
+          454
+        ],
+        [
+          466,
+          478
+        ]
+      ]
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q030",
+      "paperId": "source-camara-2023-tecnica-tarde-tipo1",
+      "number": 30,
+      "questionType": "multiple_choice",
+      "sourcePage": 9,
+      "sourceColumn": "left",
+      "stemBounds": [
+        429,
+        590
+      ],
+      "optionBounds": [
+        [
+          601,
+          603
+        ],
+        [
+          613,
+          615
+        ],
+        [
+          625,
+          627
+        ],
+        [
+          637,
+          639
+        ],
+        [
+          649,
+          651
+        ]
+      ],
+      "contextIds": [],
+      "answerKeyId": "camara-2023-tecnica-tarde-tipo1-q030-key-v1",
+      "answerDocumentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+      "answerValue": "c",
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-6-1"
+      ],
+      "paragraphBounds": [
+        [
+          429,
+          485
+        ],
+        [
+          497,
+          520
+        ],
+        [
+          531,
+          543
+        ],
+        [
+          554,
+          577
+        ],
+        [
+          588,
+          590
+        ]
+      ]
+    }
+  ],
+  "contexts": [
+    {
+      "contextId": "anm-024-generative-command",
+      "paperId": "source-038-anm-024-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        225.037,
+        236.157
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-024-bi-command",
+      "paperId": "source-038-anm-024-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        195.517,
+        210.357
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-024-data-formats-command",
+      "paperId": "source-038-anm-024-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        450.157,
+        464.997
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "anm-024-learning-command",
+      "paperId": "source-038-anm-024-01",
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        46.357,
+        57.357
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "trt10-2025-power-platform-command",
+      "paperId": "source-050-trt10-011-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        681.037,
+        693.477
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "trt10-2025-evaluation-command",
+      "paperId": "source-050-trt10-011-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        416.076,
+        416.276
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "stj-2024-public-command",
+      "paperId": "source-018-stj-006-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        70.357,
+        83.997
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "stj-2024-organization-command",
+      "paperId": "source-018-stj-006-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        289.596,
+        303.237
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "stj-2024-internal-command",
+      "paperId": "source-018-stj-006-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        674.795,
+        688.557
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "stj-2024-digital-command",
+      "paperId": "source-018-stj-006-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        314.076,
+        335.996
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "stj-2024-new-technologies-command",
+      "paperId": "source-018-stj-006-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        570.756,
+        581.877
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "tcu-2026-accountability-command",
+      "paperId": "source-142-tcuaufc-cb1-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        515.616,
+        515.816
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "funpresp-2016-research-command",
+      "paperId": "source-232funprespexe-002-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        52.587,
+        64.667
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "tcu-2026-accountability-passage",
+      "paperId": "source-142-tcuaufc-cb1-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        178,
+        475
+      ],
+      "paragraphBounds": [
+        [
+          178,
+          273
+        ],
+        [
+          284,
+          475
+        ]
+      ],
+      "creditBounds": [
+        491,
+        500
+      ],
+      "typographyNormalizations": [
+        {
+          "before": "mid-19 th",
+          "after": "mid-19th",
+          "reason": "Ordinal suffix is superscript in the PDF; raw extraction joins it to 19."
+        }
+      ]
+    }
+  ],
+  "deferredItems": [
+    {
+      "paperId": "source-camara-2023-tecnica-tarde-tipo1",
+      "number": 29,
+      "officialKey": "E",
+      "reason": "A literal justification for statement IV using RCCN art. 140 requires projects on the same subject in both Houses, a condition not explicit in the stem. Deferred for further legal review; no alteration of the official key or source."
+    }
+  ]
+}

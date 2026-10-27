@@ -11,7 +11,7 @@ const cases=[['source-072-stm-004-01','',10],['source-988-cpnuje-010-01','',2]];
    const errors=[];page.on('pageerror',e=>errors.push(e.message));
    for(const [paper,topic,count] of cases) {
     await page.goto(base);await page.evaluate(()=>localStorage.clear());await page.reload();await page.locator('#start-study:not([disabled])').waitFor();
-    assert.match(await page.locator('#study-availability').innerText(),/^266 questões/);
+    assert.match(await page.locator('#study-availability').innerText(),/^302 questões/);
     await page.locator('[data-theme-choice="'+(width===320?'light':'dark')+'"]').click();
     await page.locator('#customize-study').click();await page.locator('#study-paper').selectOption(paper);
     if(topic) {

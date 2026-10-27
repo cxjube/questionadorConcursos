@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-26",
+  "method": "agent_assisted",
+  "scope": "Exact cited clauses in the official Congress compilation dated 2025, updated through July 2025, consulted via the Congress portal. Not an exhaustive check of later amendments or the entire compilation; no human review claimed.",
+  "references": [
+    {
+      "documentId": "reference-regimento-comum-2025",
+      "file": "sources/references/Regimento-Comum-Senado.pdf",
+      "sha256": "723077332d3f1f068093eee842ad4142c20ad5efcb5a57e9b9e50341f37cf856",
+      "edition": "2025",
+      "updatedThrough": "2025-07",
+      "pages": [
+        27,
+        28,
+        48,
+        49,
+        55,
+        58
+      ]
+    }
+  ],
+  "items": [
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q027",
+      "decision": "compatible_with_cited_compilation_clauses",
+      "citations": [
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 58,
+          "activeQuote": "Quando se tratar de Medida Provisória que abra crédito extraordinário à lei orçamentária anual, conforme os arts. 62 e 167, § 3º, da Constituição Federal, o exame e o parecer serão realizados pela Comissão Mista prevista no art. 166, § 1º, da Constituição, observando-se os prazos e o rito estabelecidos nesta Resolução."
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 58,
+          "activeQuote": "Art. 3º Uma vez designada, a Comissão terá o prazo de 24 (vinte e quatro) horas para sua instalação, quando serão eleitos o seu Presidente e o seu Viceposterior à EC 32/01 posterior à EC 32/01 Presidente, bem como designados os Relatores para a matéria."
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 58,
+          "activeQuote": "§ 4º Compete ao Relator Revisor exercer as funções de relatoria na Casa diversa da do Relator da Medida Provisória."
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q028",
+      "decision": "compatible_with_cited_compilation_clauses",
+      "citations": [
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 55,
+          "activeQuote": "a) a sustação de atos normativos do Poder Executivo que exorbitem Comissão Comissão do poder regulamentar ou dos limites de delegação legislativa, desde que se caracterize a necessidade da medida cautelar em caráter urgente (Const. art. 49, inciso V);"
+        }
+      ]
+    },
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q030",
+      "decision": "compatible_with_cited_compilation_clauses",
+      "citations": [
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 27,
+          "activeQuote": "§ 2º O calendário para a tramitação de matéria sujeita ao exame das Comissões Mistas deverá constar das Ordens do Dia do Senado e da Câmara dos Deputados."
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 28,
+          "activeQuote": "Art. 11. Perante a Comissão, no prazo de 8 (oito) dias a partir de sua instalação, o Congressista poderá apresentar emendas que deverão, em seguida, ser despachadas pelo Presidente."
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 28,
+          "activeQuote": "Art. 12. Os trabalhos da Comissão Mista somente serão iniciados com a presença mínima do terço de sua composição."
+        }
+      ]
+    }
+  ],
+  "technical": [
+    {
+      "documentId": "reference-microsoft-powerbi-embedded",
+      "file": "sources/references/powerbi-embedded.html",
+      "sha256": "e28d62909ced1f627b059029f5298d5e1cce26c60d3de110cbfbfb5505da2c38",
+      "activeQuote": "As análises incorporadas do Power BI permitem incorporar conteúdo do Power BI, como relatórios, dashboards e blocos, em sites e aplicativos Web executados em navegadores da Web compatíveis."
+    },
+    {
+      "documentId": "reference-microsoft-prompt-engineering",
+      "file": "sources/references/prompt-engineering.html",
+      "sha256": "0be4cd5f2874f28057f2713a2f928fcc681ba52f3d54f9989891d4dfa51c3a96",
+      "activeQuote": "Instruções As instruções provavelmente são o componente de prompt mais usado. Instruções são simplesmente isso: instruções para o modelo sobre o que fazer."
+    }
+  ]
+}

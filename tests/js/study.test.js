@@ -141,7 +141,7 @@ test('subject filters include descendants, respect the role and count canonical 
  const mapped=s.data.mappings.find(m=>m.questionId===parent[0].id);
  s.data.mappings.push({...mapped,id:'synthetic-duplicate-mapping-for-test-only'});
  assert.equal(s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-7'}).length,7);
- assert.equal(s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-2'}).length,9);
+ assert.equal(s.Study.pool(s.data,s.role,progress,'all',{topicId:'comunicacao-social-2'}).length,10);
  for(const filters of [{disciplineId:'missing-test-only'},{topicId:'missing-test-only'},{disciplineId:'lingua-portuguesa',topicId:'comunicacao-social-7'}]) {
   assert.throws(()=>s.Study.pool(s.data,s.role,progress,'all',filters),/inválido/);
  }
@@ -221,7 +221,7 @@ test('performance ignores drafts, preserves historical results and never turns b
 });
 test('numbered passages and editorial comments survive backup, while damaged line numbering or missing references fail',()=>{
  const s=setup();const p={...s.Study.empty(),active:s.Study.create(s.data,s.role,s.Study.empty(),'all',{disciplineId:'lingua-portuguesa'})};
- assert.equal(p.active.items.length,31);
+ assert.equal(p.active.items.length,36);
  const raw=s.Study.exportBackup(p), original=plain(p);
  const restored=s.Study.importBackup(raw,s.data);assert.deepEqual(plain(restored),original);
  assert.equal(restored.active.items[0].contexts[0].sourceLines.length,26);
@@ -239,7 +239,7 @@ test('origin/year/format intersect syllabus filters without duplicating question
  const found=s.Study.pool(s.data,s.role,p,'all',{paperId,year:2016,type:'true_false',disciplineId:'lingua-portuguesa'});
  assert.ok(found.length);assert.ok(found.every(q=>q.origin.paperId===paperId&&q.type==='true_false'));
  assert.equal(s.Study.pool(s.data,s.role,p,'all',{paperId,year:2025}).length,0);
- const mc=s.Study.pool(s.data,s.role,p,'all',{type:'multiple_choice'});assert.equal(mc.length,12);
+ const mc=s.Study.pool(s.data,s.role,p,'all',{type:'multiple_choice'});assert.equal(mc.length,15);
  assert.equal(s.Study.pool(s.data,'abdi-futuro',p,'all',{paperId}).length,0);
  for(const filters of [{paperId:'missing-source'},{year:'2016'},{year:NaN},{type:'essay'}]) assert.throws(()=>s.Study.pool(s.data,s.role,p,'all',filters));
  const session=s.Study.create(s.data,s.role,p,'all',{paperId,year:2016,type:'true_false',limit:2});
@@ -289,10 +289,10 @@ test('custom scoring never changes accuracy, unscored history or official criter
 test('block filters use target syllabus blocks, preserve distinct IDs and validate snapshots',()=>{
  const s=setup(),p=s.Study.empty();
  const basic=s.Study.pool(s.data,s.role,p,'all',{block:'basic'}),specific=s.Study.pool(s.data,s.role,p,'all',{block:'specific'});
- assert.equal(basic.length,120);assert.equal(specific.length,147);
+ assert.equal(basic.length,141);assert.equal(specific.length,162);
  assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',disciplineId:'lingua-inglesa'}).length,0);
  const session=s.Study.create(s.data,s.role,p,'all',{block:'basic',disciplineId:'lingua-inglesa'});
- assert.equal(session.items.length,15);assert.equal(session.selection.block,'basic');
+ assert.equal(session.items.length,19);assert.equal(session.selection.block,'basic');
  assert.equal(session.items[0].question.language,'en');assert.equal(session.items[0].contexts[0].language,'en');
  assert.ok(session.items.every(i=>i.mappings.some(m=>m.block==='basic')));
  const restored=s.Study.importBackup(s.Study.exportBackup({...p,active:session}),s.data);assert.deepEqual(plain(restored.active),plain(session));
@@ -304,8 +304,8 @@ test('block filters use target syllabus blocks, preserve distinct IDs and valida
  assert.ok(s.Study.validate({...p,active:legacy},s.data));
  const multi=plain(s.data),target=multi.syllabusItems.find(t=>t.block==='specific');
  multi.mappings.push({id:'synthetic-cross-block-link',questionId:basic[0].id,syllabusItemId:target.id,status:'confirmed'});
- assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,148);
- assert.equal(s.Study.pool(multi,s.role,p).length,266);
+ assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,163);
+ assert.equal(s.Study.pool(multi,s.role,p).length,302);
  assert.throws(()=>s.Study.pool(s.data,s.role,p,'all',{block:'invalid'}),/Bloco/);
 });
 test('evolution uses local calendar days, weighted accuracy and finalized role snapshots only',()=>{
@@ -347,15 +347,15 @@ test('sixth batch counts shared topics once and keeps MC separate from CE compos
  const shared='camara-2023-tecnica-tarde-tipo1-q017';
  assert.equal(basic.filter(q=>q.id===shared).length,1);assert.equal(specific.filter(q=>q.id===shared).length,1);
  assert.equal(s.Study.pool(s.data,s.role,p).filter(q=>q.id===shared).length,1);
- assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'}).length,119);
- assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'}).length,135);
+ assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'}).length,140);
+ assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'}).length,147);
  for(const discipline of s.data.disciplines) assert.ok(s.Study.pool(s.data,s.role,p,'all',{disciplineId:discipline.id}).length>0);
 });
 
 test('legal and FGV source snapshots survive backup with narrowly allowed official URLs',()=>{
  const s=setup(),p=s.Study.empty();
  p.active=s.Study.create(s.data,s.role,p,'all',{paperId:'source-camara-2023-tecnica-tarde-tipo1'});
- assert.equal(p.active.items.length,7);assert.ok(p.active.items.every(i=>i.explanations.length===1));
+ assert.equal(p.active.items.length,10);assert.ok(p.active.items.every(i=>i.explanations.length===1));
  const restored=s.Study.importBackup(s.Study.exportBackup(p),s.data);assert.deepEqual(plain(restored),plain(p));
  p.active=s.Study.create(s.data,s.role,s.Study.empty(),'all',{disciplineId:'direito-administrativo-administracao-publica'});
  assert.equal(p.active.items.length,35);assert.ok(s.Study.importBackup(s.Study.exportBackup(p),s.data));
@@ -371,12 +371,12 @@ test('legal and FGV source snapshots survive backup with narrowly allowed offici
  assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(spoof),s.data));
 });
 
-test('the expanded CE reserve provides 119 basic and 135 specific distinct valid items',()=>{
+test('the expanded CE reserve provides 140 basic and 147 specific distinct valid items',()=>{
  const s=setup(),p=s.Study.empty();
  const basic=s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'});
  const specific=s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'});
- assert.equal(basic.length,119);assert.equal(specific.length,135);
- assert.equal(new Set([...basic,...specific].map(q=>q.id)).size,254);
+ assert.equal(basic.length,140);assert.equal(specific.length,147);
+ assert.equal(new Set([...basic,...specific].map(q=>q.id)).size,287);
  for(const block of ['basic','specific']) {
   const session=s.Study.create(s.data,s.role,p,'all',{block,type:'true_false',limit:90});
   assert.equal(session.items.length,90);
@@ -425,4 +425,13 @@ test('content audit preserves older context and taxonomy snapshots without weake
  const current={...s.Study.empty(),active:s.Study.create(s.data,s.role,s.Study.empty(),'all',{paperId:'source-camara-2014-consultor-cb2-03'})};
  current.active.items.find(i=>i.question.id===fresh.question.id).contexts.find(c=>c.id===oldContext.id).text+=' 94';
  assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(current),s.data));
+});
+
+test('Regimento Comum MC snapshots preserve official normative references and reject a lookalike host',()=>{
+ const s=setup(),p={...s.Study.empty(),active:s.Study.create(s.data,s.role,s.Study.empty(),'all',{topicId:'processo-legislativo-regimento-6'})};
+ assert.equal(p.active.items.length,3);assert.ok(p.active.items.every(i=>i.question.type==='multiple_choice'));
+ assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(p),s.data)),plain(p));
+ const bad=plain(p),ref=bad.active.items.flatMap(i=>i.explanations.flatMap(e=>e.references)).find(r=>r.officialUrl.startsWith('https://www25.senado.leg.br/'));
+ assert.ok(ref);ref.officialUrl=ref.officialUrl.replace('www25.senado.leg.br','www25.senado.leg.br.evil.invalid');
+ assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(bad),s.data));
 });

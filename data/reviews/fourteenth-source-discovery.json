@@ -1,0 +1,280 @@
+{
+  "id": "fourteenth-source-discovery",
+  "checkedAt": "2026-10-26",
+  "scope": "Four complete official pairs; repeated downloads compared bytewise. Printed booklet, role, application date and definitive-key range identify the hashed TCU files. Prior records are historical.",
+  "listings": [
+    {
+      "event": "anm_24",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/anm_24",
+      "file": "data/reviews/fourteenth-source-listings/anm_24.json",
+      "sha256": "6f9181e79372949c79d8fcd7810c4ae63f90320beb8d3c0db4f14a71636699dc"
+    },
+    {
+      "event": "trt10_24",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/trt10_24",
+      "file": "data/reviews/fourteenth-source-listings/trt10_24.json",
+      "sha256": "23028dd5390df9d2ce2b92c95b8a775b9281303b1df5892870ba272af29acf08"
+    },
+    {
+      "event": "stj_24",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/stj_24",
+      "file": "data/reviews/fourteenth-source-listings/stj_24.json",
+      "sha256": "091d63dac3822715e21e8a41f8d41bd9670e65cb740c7d581212d39b3c1e3678"
+    },
+    {
+      "event": "tcu_25_aufc",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/tcu_25_aufc",
+      "file": "data/reviews/fourteenth-source-listings/tcu_25_aufc.json",
+      "sha256": "cab6a9cd2e70645fc8596654c1c3195ccbcbf93aa55f2ad656eff1ed617974be"
+    }
+  ],
+  "pairs": [
+    {
+      "paperId": "source-038-anm-024-01",
+      "event": "anm_24",
+      "booklet": "038_ANM_024_01",
+      "applicationDate": "2025-02-16",
+      "documents": [
+        {
+          "documentId": "source-038-anm-024-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_024_01.PDF",
+          "sha256": "8f38b53e9b553ad852b19f6654af483454a76134b657becb9200b8f5ae5a7ba5",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "21/02/2025 19:00",
+            "nomeArquivo": "038_ANM_024_01.PDF",
+            "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 24",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2025-02-21T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-038-anm-024-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_024_01.PDF",
+          "sha256": "e7f7f5e1fed4d12621ffd0bf41becdf435c9ad36c5d40aedd07664f6b1bed203",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.PDF",
+            "dataArquivo": "18/03/2025 18:10",
+            "nomeArquivo": "Gab_Definitivo_038_ANM_024_01.PDF",
+            "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – CARGO 24",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2025-03-18T18:10:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "annulledItems": [
+        92,
+        94,
+        95,
+        96
+      ],
+      "pairingStatus": "matched_by_filename_and_range"
+    },
+    {
+      "paperId": "source-050-trt10-011-01",
+      "event": "trt10_24",
+      "booklet": "050_TRT10_011_01",
+      "applicationDate": "2025-03-16",
+      "documents": [
+        {
+          "documentId": "source-050-trt10-011-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/TRT10_24/arquivos/050_TRT10_011_01.pdf",
+          "sha256": "b57a0cabfbd831b1210795a3e942f9cc09666b58b6420f6f0e82d33706bef266",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "21/03/2025 19:00",
+            "nomeArquivo": "050_TRT10_011_01.pdf",
+            "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 11",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2025-03-21T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-050-trt10-011-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/TRT10_24/arquivos/Gab_Definitivo_050_TRT10_011_01.pdf",
+          "sha256": "137cfadcf7bbffb4f5b1b91f01bd41884fa5dd4f86313402d17c7e902c40f0dd",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "14/04/2025 17:00",
+            "nomeArquivo": "Gab_Definitivo_050_TRT10_011_01.pdf",
+            "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS – CARGO 11",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2025-04-14T17:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "annulledItems": [
+        51,
+        58,
+        66,
+        84,
+        85
+      ],
+      "pairingStatus": "matched_by_filename_and_range"
+    },
+    {
+      "paperId": "source-018-stj-006-01",
+      "event": "stj_24",
+      "booklet": "018_STJ_006_01",
+      "applicationDate": "2024-12-01",
+      "documents": [
+        {
+          "documentId": "source-018-stj-006-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/018_STJ_006_01.PDF",
+          "sha256": "39c130c464c98775497254d43872b1b060a1c65aac77381666d485f721d34668",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "06/12/2024 19:00",
+            "nomeArquivo": "018_STJ_006_01.PDF",
+            "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 6",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2024-12-06T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-018-stj-006-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/GAB_DEFINITIVO_018_STJ_006_01.PDF",
+          "sha256": "6a63b4d0580327885f00519b6e5a45e28e77c1ab6a5551013cf3716825894e00",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "10/01/2025 15:00",
+            "nomeArquivo": "GAB_DEFINITIVO_018_STJ_006_01.PDF",
+            "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – CARGO 6",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2025-01-10T15:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "annulledItems": [
+        87
+      ],
+      "pairingStatus": "matched_by_filename_and_range"
+    },
+    {
+      "paperId": "source-142-tcuaufc-cb1-01",
+      "event": "tcu_25_aufc",
+      "booklet": "142_TCUAUFC_CB1_01",
+      "applicationDate": "2026-02-22",
+      "documents": [
+        {
+          "documentId": "source-142-tcuaufc-cb1-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/TCU_25_AUFC/arquivos/E853346980B6093207C3ECF8630F11E71C8F39D74F9D7881E2AB5DE760FB5366.pdf",
+          "sha256": "e85c35039244f7f0b90c3fb5230d568d6a65ac04aaebc50540642c901aaff059",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "27/02/2026 19:00",
+            "nomeArquivo": "E853346980B6093207C3ECF8630F11E71C8F39D74F9D7881E2AB5DE760FB5366.pdf",
+            "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS BÁSICOS",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2026-02-27T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-142-tcuaufc-cb1-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/TCU_25_AUFC/arquivos/FC2383E92E294F91C8C350498AC15C7A00B7B145773F86084285F93A425AC852.pdf",
+          "sha256": "4f544f68f75a0867ce73407b743ce8fab537888405d5972ddb69f2ece9c897e4",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "20/03/2026 12:04",
+            "nomeArquivo": "FC2383E92E294F91C8C350498AC15C7A00B7B145773F86084285F93A425AC852.pdf",
+            "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS BÁSICOS",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2026-03-20T12:04:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 1,
+      "lastItem": 100,
+      "itemCount": 100,
+      "annulledItems": [
+        50,
+        63,
+        64
+      ],
+      "pairingStatus": "matched_by_role_type_and_session"
+    }
+  ],
+  "references": [
+    {
+      "documentId": "reference-regimento-comum-2025",
+      "url": "https://www25.senado.leg.br/documents/59501/97171143/RCCN.pdf/933b504d-a653-4df5-9329-d4f38c42f64f",
+      "file": "sources/references/Regimento-Comum-Senado.pdf",
+      "sha256": "723077332d3f1f068093eee842ad4142c20ad5efcb5a57e9b9e50341f37cf856",
+      "method": "independent_second_pdf_download_byte_match"
+    },
+    {
+      "documentId": "reference-microsoft-powerbi-embedded",
+      "url": "https://learn.microsoft.com/pt-br/power-bi/developer/embedded/embedded-analytics-power-bi",
+      "file": "sources/references/powerbi-embedded.html",
+      "sha256": "e28d62909ced1f627b059029f5298d5e1cce26c60d3de110cbfbfb5505da2c38",
+      "method": "initial_official_html_download_retained_without_repeated_byte_equality_claim"
+    },
+    {
+      "documentId": "reference-microsoft-prompt-engineering",
+      "url": "https://learn.microsoft.com/pt-br/azure/foundry/openai/concepts/prompt-engineering",
+      "file": "sources/references/prompt-engineering.html",
+      "sha256": "0be4cd5f2874f28057f2713a2f928fcc681ba52f3d54f9989891d4dfa51c3a96",
+      "method": "initial_official_html_download_retained_without_repeated_byte_equality_claim"
+    }
+  ],
+  "excludedCandidates": [
+    {
+      "id": "camara-2014-area-i",
+      "reason": "The archive link labeled Gabarito P2 serves byte-identical question-paper content, not a definitive answer table; no item released.",
+      "files": [
+        {
+          "file": "data/reviews/fourteenth-source-listings/camara2014-area1-prova-objetiva-p2",
+          "sha256": "0667021cef0d22d49a9971093611d9a5cefe22fd24816e76e76a956517a4560b"
+        },
+        {
+          "file": "data/reviews/fourteenth-source-listings/camara2014-area1-gabarito-p2",
+          "sha256": "0667021cef0d22d49a9971093611d9a5cefe22fd24816e76e76a956517a4560b"
+        }
+      ]
+    },
+    {
+      "id": "anm-024-annulled-generative-items",
+      "numbers": [
+        92,
+        94,
+        95,
+        96
+      ],
+      "reason": "X in definitive key; excluded. Same stems in other booklets not used to resurrect annulled items."
+    },
+    {
+      "id": "historical-stj-powerbi",
+      "reason": "Previously rejected CB1/CB2 items remain excluded; TRT10 item 63 is a distinct valid item, not a replacement key."
+    }
+  ],
+  "regimentoPortal": {
+    "url": "https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional",
+    "file": "data/reviews/fourteenth-source-listings/congress-portal.html",
+    "sha256": "f4afd73407174ead8a6cdb20c4a0e13143729b3ead4d6335ee0cc6bb58492c84"
+  }
+}
