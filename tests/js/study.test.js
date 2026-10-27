@@ -23,8 +23,8 @@ function active(s, mode='all', id='test-session') {
 const finishedAt='2026-10-23T12:10:00.000Z';
 test('draw uses reviewed role mappings once per question and preserves contexts',()=>{
  const s=setup();const p=active(s);
- assert.equal(p.active.items.length,s.data.questions.length);
- assert.equal(new Set(p.active.items.map(i=>i.question.id)).size,s.data.questions.length);
+ assert.equal(p.active.items.length,s.Study.pool(s.data,s.role,s.Study.empty()).length);
+ assert.equal(new Set(p.active.items.map(i=>i.question.id)).size,s.Study.pool(s.data,s.role,s.Study.empty()).length);
  assert.equal(s.Study.pool(s.data,'abdi-futuro',p).length,0);
  const shared=p.active.items.filter(i=>i.question.origin.paperId==='source-539-alce-016-01'&&(i.question.origin.number===22||i.question.origin.number===23));
  assert.equal(shared.length,2);assert.equal(shared[0].contexts[0].id,shared[1].contexts[0].id);
@@ -50,14 +50,14 @@ test('navigation and changed drafts never create attempts; finalization is idemp
  assert.equal(p.history.length,0);assert.equal(p.active.answers.length,1);
  p=s.Study.finish(p,finishedAt);
  assert.equal(p.history.length,1);assert.equal(p.active,null);
- assert.equal(s.Study.totals(p.history[0]).correct,1);assert.equal(s.Study.totals(p.history[0]).blank,s.data.questions.length-1);
+ assert.equal(s.Study.totals(p.history[0]).correct,1);assert.equal(s.Study.totals(p.history[0]).blank,s.Study.pool(s.data,s.role,s.Study.empty()).length-1);
  assert.equal(s.Study.totals(p.history[0]).rate,100);
  assert.deepEqual(plain(s.Study.finish(p,finishedAt)),plain(p));
  assert.deepEqual(plain(s.Study.finish({...p,active:{...p.history[0],finishedAt:null}},finishedAt)),plain(p));
 });
 test('zero valid responses has no artificial zero-percent score or official profile',()=>{
  const s=setup();const p=s.Study.finish(active(s),finishedAt);const result=s.Study.totals(p.history[0]);
- assert.equal(result.rate,null);assert.equal(result.blank,s.data.questions.length);assert.equal(p.history[0].scoringProfile,null);
+ assert.equal(result.rate,null);assert.equal(result.blank,s.Study.pool(s.data,s.role,s.Study.empty()).length);assert.equal(p.history[0].scoringProfile,null);
 });
 test('new sessions never exceed the history limit accepted by restore',()=>{
  const s=setup();const progress=s.Study.empty();progress.history=Array(500).fill({});
@@ -66,7 +66,7 @@ test('new sessions never exceed the history limit accepted by restore',()=>{
 test('review errors uses latest finalized outcome and does not treat blanks as errors',()=>{
  const s=setup();let p=active(s);p.active=s.Study.choose(p.active,false);p=s.Study.finish(p,finishedAt);
  assert.equal(s.Study.pool(s.data,s.role,p,'errors').length,1);
- assert.equal(s.Study.pool(s.data,s.role,p,'blank').length,s.data.questions.length-1);
+ assert.equal(s.Study.pool(s.data,s.role,p,'blank').length,s.Study.pool(s.data,s.role,s.Study.empty()).length-1);
  assert.equal(s.Study.pool(s.data,s.role,p,'unanswered').length,0);
  p.active=s.Study.create(s.data,s.role,p,'errors',{id:'review-session',now:'2026-10-23T12:11:00.000Z'});
  p.active=s.Study.choose(p.active,true);p=s.Study.finish(p,'2026-10-23T12:12:00.000Z');
@@ -119,7 +119,7 @@ test('another tab cannot silently replace a newer record; unsaved draft remains 
 test('blocked/quota storage keeps study usable in memory without claiming a save',async()=>{
  const blocked=setup({getItem(){throw Error('blocked');},setItem(){throw Error('blocked');}});
  const b=blocked.Progress.open(blocked.data);assert.equal(b.readOnly,true);
- assert.equal(await blocked.Progress.save(b,active(blocked)),false);assert.equal(b.state.active.items.length,blocked.data.questions.length);
+ assert.equal(await blocked.Progress.save(b,active(blocked)),false);assert.equal(b.state.active.items.length,blocked.Study.pool(blocked.data,blocked.role,blocked.Study.empty()).length);
  const quota=setup({getItem(){return null;},setItem(){throw Error('quota');}});const q=quota.Progress.open(quota.data);
  assert.equal(await quota.Progress.save(q,active(quota)),false);assert.match(q.error,/Não foi possível salvar/);
  assert.ok(quota.Study.exportBackup(q.state));
@@ -212,7 +212,7 @@ test('performance ignores drafts, preserves historical results and never turns b
  p=s.Study.finish(p,finishedAt);
  const history=plain(p.history);history[0].items[0].key.result='annulled';history[0].items[0].key.value=null;
  const report=s.Study.performance(history,s.role);
- assert.equal(report.annulled,1);assert.equal(report.blank,s.data.questions.length-1);assert.equal(report.rate,null);
+ assert.equal(report.annulled,1);assert.equal(report.blank,s.Study.pool(s.data,s.role,s.Study.empty()).length-1);assert.equal(report.rate,null);
  const before=s.Study.performance(p.history,s.role);
  s.data.questions[0].revision+=1;s.data.mappings=[];s.data.disciplines=[];s.data.topics=[];
  assert.deepEqual(plain(s.Study.performance(p.history,s.role)),plain(before));

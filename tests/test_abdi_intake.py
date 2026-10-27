@@ -14,7 +14,7 @@ from test_consolidation import clean, pdf_text
 class AbdiIntakeTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c = read_json(ROOT/'data/catalog.json')
+        cls.c = json.loads(gzip.decompress((ROOT/'data/reviews/pre-abdi-first-batch-catalog.json.gz').read_bytes()))
         cls.m = read_json(ROOT/'data/reviews/abdi-intake.json')
         cls.role = 'abdi-comunicacao-marketing'
         cls.items = [s for s in cls.c['syllabusItems'] if s['roleId']==cls.role]
@@ -74,7 +74,7 @@ class AbdiIntakeTests(unittest.TestCase):
         self.assertEqual(len(ids),145)
         self.assertEqual(sum(questions[i]['type']=='multiple_choice' for i in ids),6)
         self.assertEqual(sum(questions[i]['type']=='true_false' for i in ids),139)
-        readiness=read_json(ROOT/'data/reviews/abdi-bank-readiness.json')
+        readiness=read_json(ROOT/'data/reviews/abdi-intake-bank-readiness.json')
         self.assertEqual(readiness['minimumAdditionalMC'],54)
         self.assertEqual(sum(x['missingForMinimum'] for x in readiness['distribution']),54)
         self.assertEqual([x['missingForMinimum'] for x in readiness['distribution']],[8,6,6,4,4,8,4,14])
@@ -89,7 +89,7 @@ class AbdiIntakeTests(unittest.TestCase):
         self.assertEqual(report['blocks']['institutional'],dict(total=0,ce=0))
         camara=coverage(self.c,['camara-2026-ciencia-politica-1'])
         self.assertEqual((camara['totalItems'],camara['directItems'],camara['emptyItems']),(228,181,14))
-        for path,content in role_artifacts(self.c,self.m,self.role).items():
+        for path,content in role_artifacts(read_json(ROOT/'data/catalog.json'),read_json(ROOT/'data/reviews/abdi-first-batch.json'),self.role).items():
             self.assertEqual((ROOT/path).read_text(),content)
 
     def test_scoring_uses_correct_count_not_half_of_weighted_points(self):

@@ -119,6 +119,8 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
 
     for role in catalog['roles']:
         lookup('contests', role['contestId'], role['id'])
+        for document_id in role.get('referenceDocumentIds', []):
+            verified_document(document_id, 'reference', role['id'])
 
     for notice in catalog['notices']:
         where = notice['id']

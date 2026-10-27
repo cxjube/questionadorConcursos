@@ -203,3 +203,9 @@ O contrato v3 admite também `syllabusItems[].block = institutional`, além de `
 Esses campos descrevem o edital; o motor de simulado continua aceitando apenas o perfil C/E P1/P2 já testado. Não inferir 12,5 pontos, copiar mínimos da Câmara ou converter C/E em MC. A entrega ABDI disponibiliza treino de conteúdo. As associações para o novo cargo não alteram a questão nem os vínculos gravados em sessões da Câmara; ambos os históricos usam suas projeções por cargo.
 
 A cobertura pode ser gerada isoladamente com `python -m tools coverage --role abdi-comunicacao-marketing`, produzindo JSON/CSV/Markdown próprios. A prioridade editorial passa a considerar MC nesse cargo; o mapa Câmara mantém C/E e seu escopo anterior.
+
+## Referências por cargo e expansão ABDI
+
+`roles[].referenceDocumentIds` é uma lista opcional, não vazia, sem IDs repetidos, de documentos canônicos `kind: reference` com identidade oficial verificada. A validação rejeita IDs ausentes, documentos de outro tipo e fontes não verificadas. São leituras institucionais, independentes de questões, chaves e comentários; não criam cobertura temática. O cargo ABDI liga três fontes legais confirmadas; seus cinco documentos internos pendentes não são simulados por URLs não autenticados. O campo não altera snapshots ou a versão do backup.
+
+Os 40 novos itens MC mantêm o contrato v3, com alternativas A–E e chaves definitivas. O leitor de tabelas FGV agora também isola o cabeçalho exato de Técnico Legislativo / tipo, mantendo rejeição a tabelas ambíguas, truncadas ou de outro cargo. `abdi-bank-readiness.json` é uma auditoria estática: registra uma atribuição sem duplicação para as 40 vagas gerais/específicas e déficit de 20 institucionais. Não é o motor de simulado FGV.

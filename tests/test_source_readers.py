@@ -56,3 +56,13 @@ class AlerjAnswerReaderTests(unittest.TestCase):
         for body in ['1 2\n\nA', '1\n\n', '1\n\nComment A', '1 2\n\n3 4\nA B', '1\nA\n1\nB']:
             with self.subTest(body=body), self.assertRaises(ValueError):
                 answer_table(h+'\n'+body, h)
+
+
+class PublisherEncodingFallbackTests(unittest.TestCase):
+    def test_invalid_declared_charset_falls_back_to_strict_utf8_without_replacing_letters(self):
+        raw=b'<meta charset="windows-1252"><p>'+ 'Árvore e divulgação pública'.encode('utf-8')+b'</p>'
+        self.assertEqual(reference_text(raw),'Árvore e divulgação pública')
+
+    def test_invalid_declared_and_invalid_utf8_bytes_are_not_silently_replaced(self):
+        with self.assertRaises(UnicodeDecodeError):
+            reference_text(b'<meta charset="windows-1252"><p>\x81\xff</p>')

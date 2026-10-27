@@ -33,7 +33,7 @@ class SeventhBatchTests(unittest.TestCase):
         self.assertEqual(len(science),8)
         self.assertEqual(self.manifest['sourceDecisions'][0]['decision'],'excluded_preliminary_key')
         self.assertNotIn(self.manifest['sourceDecisions'][0]['url'],{d['officialUrl'] for d in self.c['documents']})
-        self.assertEqual(len(self.c['questions']),395)
+        self.assertEqual(len(self.c['questions']),435)
         self.assertEqual(sum(q['type']=='true_false' for q in self.c['questions']),378)
 
     @unittest.skipUnless(shutil.which('pdftotext'),'Poppler required')
@@ -83,7 +83,7 @@ class SeventhBatchTests(unittest.TestCase):
     def test_added_comments_are_independent_referenced_and_pdf_locators_exist(self):
         comments={e['questionId']:e for e in self.c['explanations']}
         self.assertEqual(len(self.manifest['addedComments']),35)
-        self.assertEqual(len(comments),395)
+        self.assertEqual(len(comments),435)
         remaining={q['id'] for q in self.c['questions']}-set(comments)
         self.assertEqual(len(remaining),0)
         completion=read_json(ROOT/'data/reviews/seventh-batch-comment-completion.json')

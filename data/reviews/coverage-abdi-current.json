@@ -1,12 +1,12 @@
 {
   "totalItems": 97,
-  "directItems": 41,
-  "descendantsOnly": 3,
-  "emptyItems": 53,
-  "emptyLeaves": 48,
+  "directItems": 48,
+  "descendantsOnly": 2,
+  "emptyItems": 47,
+  "emptyLeaves": 42,
   "blocks": {
     "basic": {
-      "total": 58,
+      "total": 86,
       "ce": 58
     },
     "institutional": {
@@ -14,7 +14,7 @@
       "ce": 0
     },
     "specific": {
-      "total": 87,
+      "total": 103,
       "ce": 81
     }
   },
@@ -23,34 +23,34 @@
       "id": "lingua-portuguesa",
       "label": "Língua Portuguesa",
       "totalItems": 20,
-      "directItems": 16,
-      "descendantsOnly": 3,
+      "directItems": 17,
+      "descendantsOnly": 2,
       "emptyItems": 1,
       "emptyLeaves": 1,
       "questionsCE": 40,
-      "questionsMC": 0
+      "questionsMC": 9
     },
     {
       "id": "raciocinio-logico",
       "label": "Raciocínio Lógico",
       "totalItems": 9,
-      "directItems": 0,
+      "directItems": 1,
       "descendantsOnly": 0,
-      "emptyItems": 9,
-      "emptyLeaves": 8,
+      "emptyItems": 8,
+      "emptyLeaves": 7,
       "questionsCE": 0,
-      "questionsMC": 0
+      "questionsMC": 6
     },
     {
       "id": "abdi-nocoes-informatica",
       "label": "Noções de Informática",
       "totalItems": 11,
-      "directItems": 4,
+      "directItems": 7,
       "descendantsOnly": 0,
-      "emptyItems": 7,
-      "emptyLeaves": 7,
+      "emptyItems": 4,
+      "emptyLeaves": 4,
       "questionsCE": 18,
-      "questionsMC": 0
+      "questionsMC": 13
     },
     {
       "id": "abdi-servicos-sociais-autonomos",
@@ -100,12 +100,12 @@
       "id": "abdi-comunicacao-marketing",
       "label": "Comunicação e Marketing",
       "totalItems": 26,
-      "directItems": 21,
+      "directItems": 23,
       "descendantsOnly": 0,
-      "emptyItems": 5,
-      "emptyLeaves": 5,
+      "emptyItems": 3,
+      "emptyLeaves": 3,
       "questionsCE": 81,
-      "questionsMC": 6
+      "questionsMC": 22
     }
   ],
   "items": [
@@ -118,7 +118,7 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "C",
       "directQuestionIds": [
         "038-anm-cg1-01-q001",
         "038-anm-cg1-01-q002",
@@ -134,10 +134,14 @@
         "959-bcb-cb1-01-q002",
         "959-bcb-cb1-01-q003",
         "959-bcb-cb1-01-q004",
-        "959-bcb-cb1-01-q005"
+        "959-bcb-cb1-01-q005",
+        "alerj-2026-comunicacao-manha-tipo1-q001",
+        "alerj-2026-comunicacao-manha-tipo1-q002",
+        "alerj-2026-comunicacao-manha-tipo1-q003",
+        "alerj-2026-comunicacao-manha-tipo1-q004"
       ],
       "directCE": 15,
-      "directMC": 0,
+      "directMC": 4,
       "subtreeQuestionIds": [
         "038-anm-cg1-01-q001",
         "038-anm-cg1-01-q002",
@@ -153,10 +157,14 @@
         "959-bcb-cb1-01-q002",
         "959-bcb-cb1-01-q003",
         "959-bcb-cb1-01-q004",
-        "959-bcb-cb1-01-q005"
+        "959-bcb-cb1-01-q005",
+        "alerj-2026-comunicacao-manha-tipo1-q001",
+        "alerj-2026-comunicacao-manha-tipo1-q002",
+        "alerj-2026-comunicacao-manha-tipo1-q003",
+        "alerj-2026-comunicacao-manha-tipo1-q004"
       ],
       "subtreeCE": 15,
-      "subtreeMC": 0
+      "subtreeMC": 4
     },
     {
       "id": "abdi-2026-lingua-portuguesa-2",
@@ -278,11 +286,13 @@
       "block": "basic",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "descendants_only",
-      "priority": "A",
-      "directQuestionIds": [],
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q009"
+      ],
       "directCE": 0,
-      "directMC": 0,
+      "directMC": 1,
       "subtreeQuestionIds": [
         "038-anm-cg1-01-q008",
         "038-anm-cg1-01-q009",
@@ -298,10 +308,14 @@
         "959-bcb-cb1-01-q010",
         "959-bcb-cb1-01-q011",
         "959-bcb-cb1-01-q013",
-        "959-bcb-cb1-01-q021"
+        "959-bcb-cb1-01-q021",
+        "alerj-2026-comunicacao-manha-tipo1-q006",
+        "alerj-2026-comunicacao-manha-tipo1-q008",
+        "alerj-2026-comunicacao-manha-tipo1-q009",
+        "alerj-2026-comunicacao-manha-tipo1-q010"
       ],
       "subtreeCE": 15,
-      "subtreeMC": 0
+      "subtreeMC": 4
     },
     {
       "id": "abdi-2026-lingua-portuguesa-5-1",
@@ -312,19 +326,23 @@
       "parentTopicId": "abdi-2026-lingua-portuguesa-5",
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
         "232funprespexe-cb1-01-q003",
-        "232funprespexe-cb1-01-q009"
+        "232funprespexe-cb1-01-q009",
+        "alerj-2026-comunicacao-manha-tipo1-q008",
+        "alerj-2026-comunicacao-manha-tipo1-q010"
       ],
       "directCE": 2,
-      "directMC": 0,
+      "directMC": 2,
       "subtreeQuestionIds": [
         "232funprespexe-cb1-01-q003",
-        "232funprespexe-cb1-01-q009"
+        "232funprespexe-cb1-01-q009",
+        "alerj-2026-comunicacao-manha-tipo1-q008",
+        "alerj-2026-comunicacao-manha-tipo1-q010"
       ],
       "subtreeCE": 2,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "abdi-2026-lingua-portuguesa-5-2",
@@ -473,17 +491,19 @@
       "parentTopicId": "abdi-2026-lingua-portuguesa-5",
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
-        "959-bcb-cb1-01-q013"
+        "959-bcb-cb1-01-q013",
+        "alerj-2026-comunicacao-manha-tipo1-q006"
       ],
       "directCE": 1,
-      "directMC": 0,
+      "directMC": 1,
       "subtreeQuestionIds": [
-        "959-bcb-cb1-01-q013"
+        "959-bcb-cb1-01-q013",
+        "alerj-2026-comunicacao-manha-tipo1-q006"
       ],
       "subtreeCE": 1,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "abdi-2026-lingua-portuguesa-6",
@@ -494,17 +514,18 @@
       "parentTopicId": null,
       "isLeaf": false,
       "state": "descendants_only",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
         "038-anm-cg1-01-q005",
         "038-anm-cg1-01-q010",
-        "959-bcb-cb1-01-q019"
+        "959-bcb-cb1-01-q019",
+        "alerj-2026-comunicacao-manha-tipo1-q005"
       ],
       "subtreeCE": 3,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "abdi-2026-lingua-portuguesa-6-1",
@@ -515,17 +536,19 @@
       "parentTopicId": "abdi-2026-lingua-portuguesa-6",
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
-        "038-anm-cg1-01-q005"
+        "038-anm-cg1-01-q005",
+        "alerj-2026-comunicacao-manha-tipo1-q005"
       ],
       "directCE": 1,
-      "directMC": 0,
+      "directMC": 1,
       "subtreeQuestionIds": [
-        "038-anm-cg1-01-q005"
+        "038-anm-cg1-01-q005",
+        "alerj-2026-comunicacao-manha-tipo1-q005"
       ],
       "subtreeCE": 1,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "abdi-2026-lingua-portuguesa-6-2",
@@ -730,14 +753,28 @@
       "block": "basic",
       "parentTopicId": null,
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "senado-2022-administracao-tipo1-q014",
+        "senado-2022-administracao-tipo1-q016",
+        "senado-2022-administracao-tipo1-q017",
+        "senado-2022-policial-tipo1-q014",
+        "senado-2022-policial-tipo1-q016",
+        "senado-2022-policial-tipo1-q017"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 6,
+      "subtreeQuestionIds": [
+        "senado-2022-administracao-tipo1-q014",
+        "senado-2022-administracao-tipo1-q016",
+        "senado-2022-administracao-tipo1-q017",
+        "senado-2022-policial-tipo1-q014",
+        "senado-2022-policial-tipo1-q016",
+        "senado-2022-policial-tipo1-q017"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 6
     },
     {
       "id": "abdi-2026-abdi-nocoes-informatica-1",
@@ -764,14 +801,22 @@
       "block": "basic",
       "parentTopicId": null,
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q011",
+        "alerj-2026-comunicacao-manha-tipo1-q015",
+        "alerj-2026-comunicacao-manha-tipo1-q020"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 3,
+      "subtreeQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q011",
+        "alerj-2026-comunicacao-manha-tipo1-q015",
+        "alerj-2026-comunicacao-manha-tipo1-q020"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 3
     },
     {
       "id": "abdi-2026-abdi-nocoes-informatica-3",
@@ -781,14 +826,26 @@
       "block": "basic",
       "parentTopicId": null,
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q012",
+        "alerj-2026-comunicacao-manha-tipo1-q013",
+        "alerj-2026-comunicacao-manha-tipo1-q016",
+        "alerj-2026-comunicacao-manha-tipo1-q017",
+        "alerj-2026-comunicacao-manha-tipo1-q018"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 5,
+      "subtreeQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q012",
+        "alerj-2026-comunicacao-manha-tipo1-q013",
+        "alerj-2026-comunicacao-manha-tipo1-q016",
+        "alerj-2026-comunicacao-manha-tipo1-q017",
+        "alerj-2026-comunicacao-manha-tipo1-q018"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 5
     },
     {
       "id": "abdi-2026-abdi-nocoes-informatica-4",
@@ -815,14 +872,18 @@
       "block": "basic",
       "parentTopicId": null,
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q014"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q014"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "abdi-2026-abdi-nocoes-informatica-6",
@@ -906,25 +967,29 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
         "038-anm-024-01-q091",
         "038-anm-024-01-q097",
         "038-anm-cg1-01-q026",
         "050-trt10-011-01-q069",
-        "057-ibama-cb1-01-q017"
+        "057-ibama-cb1-01-q017",
+        "128-tcemg-008-01-q043",
+        "alerj-2026-comunicacao-manha-tipo1-q074"
       ],
       "directCE": 5,
-      "directMC": 0,
+      "directMC": 2,
       "subtreeQuestionIds": [
         "038-anm-024-01-q091",
         "038-anm-024-01-q097",
         "038-anm-cg1-01-q026",
         "050-trt10-011-01-q069",
-        "057-ibama-cb1-01-q017"
+        "057-ibama-cb1-01-q017",
+        "128-tcemg-008-01-q043",
+        "alerj-2026-comunicacao-manha-tipo1-q074"
       ],
       "subtreeCE": 5,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "abdi-2026-abdi-nocoes-informatica-10",
@@ -952,23 +1017,27 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
         "038-anm-cg1-01-q034",
         "038-anm-cg1-01-q035",
         "057-ibama-001-01-q072",
-        "094-pf-cb1-01-q050"
+        "094-pf-cb1-01-q050",
+        "alerj-2026-comunicacao-manha-tipo1-q068",
+        "alerj-2026-comunicacao-manha-tipo1-q071"
       ],
       "directCE": 4,
-      "directMC": 0,
+      "directMC": 2,
       "subtreeQuestionIds": [
         "038-anm-cg1-01-q034",
         "038-anm-cg1-01-q035",
         "057-ibama-001-01-q072",
-        "094-pf-cb1-01-q050"
+        "094-pf-cb1-01-q050",
+        "alerj-2026-comunicacao-manha-tipo1-q068",
+        "alerj-2026-comunicacao-manha-tipo1-q071"
       ],
       "subtreeCE": 4,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "abdi-2026-abdi-servicos-sociais-autonomos-1",
@@ -1676,17 +1745,21 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
-        "018-stj-006-01-q055"
+        "018-stj-006-01-q055",
+        "alerj-2026-comunicacao-manha-tipo1-q056",
+        "alerj-2026-comunicacao-manha-tipo1-q059"
       ],
       "directCE": 1,
-      "directMC": 0,
+      "directMC": 2,
       "subtreeQuestionIds": [
-        "018-stj-006-01-q055"
+        "018-stj-006-01-q055",
+        "alerj-2026-comunicacao-manha-tipo1-q056",
+        "alerj-2026-comunicacao-manha-tipo1-q059"
       ],
       "subtreeCE": 1,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-8",
@@ -1697,19 +1770,23 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
         "018-stj-006-01-q055",
-        "893-dataprev-005-01-q104"
+        "893-dataprev-005-01-q104",
+        "alerj-2026-comunicacao-manha-tipo1-q056",
+        "alerj-2026-comunicacao-manha-tipo1-q059"
       ],
       "directCE": 2,
-      "directMC": 0,
+      "directMC": 2,
       "subtreeQuestionIds": [
         "018-stj-006-01-q055",
-        "893-dataprev-005-01-q104"
+        "893-dataprev-005-01-q104",
+        "alerj-2026-comunicacao-manha-tipo1-q056",
+        "alerj-2026-comunicacao-manha-tipo1-q059"
       ],
       "subtreeCE": 2,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-9",
@@ -1719,14 +1796,20 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "128-tcemg-008-01-q045",
+        "alerj-2026-comunicacao-manha-tipo1-q061"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "128-tcemg-008-01-q045",
+        "alerj-2026-comunicacao-manha-tipo1-q061"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-10",
@@ -1737,17 +1820,19 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
-        "153-telebras-008-01-q106"
+        "153-telebras-008-01-q106",
+        "alerj-2026-comunicacao-manha-tipo1-q060"
       ],
       "directCE": 1,
-      "directMC": 0,
+      "directMC": 1,
       "subtreeQuestionIds": [
-        "153-telebras-008-01-q106"
+        "153-telebras-008-01-q106",
+        "alerj-2026-comunicacao-manha-tipo1-q060"
       ],
       "subtreeCE": 1,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-11",
@@ -1779,7 +1864,7 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
         "018-stj-006-01-q061",
         "038-anm-010-01-q088",
@@ -1788,16 +1873,18 @@
         "038-anm-012-01-q108",
         "072-stm-004-01-q079",
         "072-stm-004-01-q082",
+        "128-tcemg-008-01-q045",
         "153-telebras-008-01-q075",
         "205-funpresp-26-jud-005-01-q106",
         "205-funpresp-26-jud-005-01-q107",
         "232funprespexe-002-01-q090",
         "232funprespexe-002-01-q091",
         "232funprespexe-002-01-q092",
-        "232funprespexe-002-01-q096"
+        "232funprespexe-002-01-q096",
+        "alerj-2026-comunicacao-manha-tipo1-q065"
       ],
       "directCE": 14,
-      "directMC": 0,
+      "directMC": 2,
       "subtreeQuestionIds": [
         "018-stj-006-01-q061",
         "038-anm-010-01-q088",
@@ -1806,16 +1893,18 @@
         "038-anm-012-01-q108",
         "072-stm-004-01-q079",
         "072-stm-004-01-q082",
+        "128-tcemg-008-01-q045",
         "153-telebras-008-01-q075",
         "205-funpresp-26-jud-005-01-q106",
         "205-funpresp-26-jud-005-01-q107",
         "232funprespexe-002-01-q090",
         "232funprespexe-002-01-q091",
         "232funprespexe-002-01-q092",
-        "232funprespexe-002-01-q096"
+        "232funprespexe-002-01-q096",
+        "alerj-2026-comunicacao-manha-tipo1-q065"
       ],
       "subtreeCE": 14,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-13",
@@ -1853,7 +1942,7 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "C",
       "directQuestionIds": [
         "018-stj-006-01-q053",
         "018-stj-006-01-q079",
@@ -1866,10 +1955,14 @@
         "893-dataprev-005-01-q107",
         "893-dataprev-005-01-q108",
         "893-dataprev-005-01-q109",
-        "893-dataprev-005-01-q110"
+        "893-dataprev-005-01-q110",
+        "alerj-2026-comunicacao-manha-tipo1-q064",
+        "alerj-2026-comunicacao-manha-tipo1-q067",
+        "alerj-2026-comunicacao-manha-tipo1-q072",
+        "alerj-2026-comunicacao-manha-tipo1-q073"
       ],
       "directCE": 12,
-      "directMC": 0,
+      "directMC": 4,
       "subtreeQuestionIds": [
         "018-stj-006-01-q053",
         "018-stj-006-01-q079",
@@ -1882,10 +1975,14 @@
         "893-dataprev-005-01-q107",
         "893-dataprev-005-01-q108",
         "893-dataprev-005-01-q109",
-        "893-dataprev-005-01-q110"
+        "893-dataprev-005-01-q110",
+        "alerj-2026-comunicacao-manha-tipo1-q064",
+        "alerj-2026-comunicacao-manha-tipo1-q067",
+        "alerj-2026-comunicacao-manha-tipo1-q072",
+        "alerj-2026-comunicacao-manha-tipo1-q073"
       ],
       "subtreeCE": 12,
-      "subtreeMC": 0
+      "subtreeMC": 4
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-15",
@@ -1968,14 +2065,18 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q069"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q069"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-19",
@@ -1986,7 +2087,7 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
         "038-anm-010-01-q073",
         "038-anm-010-01-q083",
@@ -1994,10 +2095,11 @@
         "153-telebras-008-01-q098",
         "205-funpresp-26-jud-005-01-q072",
         "803-tj-es-006-01-q067",
-        "893-dataprev-005-01-q104"
+        "893-dataprev-005-01-q104",
+        "alerj-2026-comunicacao-manha-tipo1-q073"
       ],
       "directCE": 7,
-      "directMC": 0,
+      "directMC": 1,
       "subtreeQuestionIds": [
         "038-anm-010-01-q073",
         "038-anm-010-01-q083",
@@ -2005,10 +2107,11 @@
         "153-telebras-008-01-q098",
         "205-funpresp-26-jud-005-01-q072",
         "803-tj-es-006-01-q067",
-        "893-dataprev-005-01-q104"
+        "893-dataprev-005-01-q104",
+        "alerj-2026-comunicacao-manha-tipo1-q073"
       ],
       "subtreeCE": 7,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-20",
@@ -2025,19 +2128,21 @@
         "042-embrapa-analista-072-01-q094",
         "042-embrapa-analista-072-01-q096",
         "042-embrapa-analista-072-01-q097",
-        "539-alce-016-01-q026"
+        "539-alce-016-01-q026",
+        "alerj-2026-comunicacao-manha-tipo1-q058"
       ],
       "directCE": 4,
-      "directMC": 1,
+      "directMC": 2,
       "subtreeQuestionIds": [
         "038-anm-013-01-q064",
         "042-embrapa-analista-072-01-q094",
         "042-embrapa-analista-072-01-q096",
         "042-embrapa-analista-072-01-q097",
-        "539-alce-016-01-q026"
+        "539-alce-016-01-q026",
+        "alerj-2026-comunicacao-manha-tipo1-q058"
       ],
       "subtreeCE": 4,
-      "subtreeMC": 1
+      "subtreeMC": 2
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-21",
@@ -2088,23 +2193,29 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "C",
       "directQuestionIds": [
         "018-stj-006-01-q055",
         "018-stj-006-01-q062",
         "038-anm-010-01-q059",
-        "205-funpresp-26-jud-005-01-q094"
+        "128-tcemg-008-01-q043",
+        "205-funpresp-26-jud-005-01-q094",
+        "alerj-2026-comunicacao-manha-tipo1-q067",
+        "alerj-2026-comunicacao-manha-tipo1-q074"
       ],
       "directCE": 4,
-      "directMC": 0,
+      "directMC": 3,
       "subtreeQuestionIds": [
         "018-stj-006-01-q055",
         "018-stj-006-01-q062",
         "038-anm-010-01-q059",
-        "205-funpresp-26-jud-005-01-q094"
+        "128-tcemg-008-01-q043",
+        "205-funpresp-26-jud-005-01-q094",
+        "alerj-2026-comunicacao-manha-tipo1-q067",
+        "alerj-2026-comunicacao-manha-tipo1-q074"
       ],
       "subtreeCE": 4,
-      "subtreeMC": 0
+      "subtreeMC": 3
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-24",
@@ -2115,19 +2226,23 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
         "038-anm-013-01-q069",
-        "205-funpresp-26-jud-005-01-q081"
+        "205-funpresp-26-jud-005-01-q081",
+        "alerj-2026-comunicacao-manha-tipo1-q068",
+        "alerj-2026-comunicacao-manha-tipo1-q071"
       ],
       "directCE": 2,
-      "directMC": 0,
+      "directMC": 2,
       "subtreeQuestionIds": [
         "038-anm-013-01-q069",
-        "205-funpresp-26-jud-005-01-q081"
+        "205-funpresp-26-jud-005-01-q081",
+        "alerj-2026-comunicacao-manha-tipo1-q068",
+        "alerj-2026-comunicacao-manha-tipo1-q071"
       ],
       "subtreeCE": 2,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-25",
@@ -2157,21 +2272,23 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "alerj-2026-comunicacao-manha-tipo1-q063"
+        "alerj-2026-comunicacao-manha-tipo1-q063",
+        "alerj-2026-comunicacao-manha-tipo1-q072"
       ],
       "directCE": 0,
-      "directMC": 1,
+      "directMC": 2,
       "subtreeQuestionIds": [
-        "alerj-2026-comunicacao-manha-tipo1-q063"
+        "alerj-2026-comunicacao-manha-tipo1-q063",
+        "alerj-2026-comunicacao-manha-tipo1-q072"
       ],
       "subtreeCE": 0,
-      "subtreeMC": 1
+      "subtreeMC": 2
     }
   ],
   "roleId": "abdi-comunicacao-marketing",
   "reviewedAt": "2026-10-27",
-  "reviewId": "abdi-2026-intake",
-  "distinctQuestions": 145,
+  "reviewId": "abdi-first-batch",
+  "distinctQuestions": 185,
   "distinctCE": 139,
-  "distinctMC": 6
+  "distinctMC": 46
 }

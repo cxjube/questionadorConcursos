@@ -1,5 +1,7 @@
 # Conferência das fontes oficiais — 23/10/2026
 
+> Atualização ABDI em 27/10/2026: [primeiro lote](abdi-first-batch-release.md), 40 novas MC. Inventário global: 139 fontes (102 PDFs / 37 HTML), 45 pares, 3.036 números e 134 anulações. Os três novos pares Senado/TCE-MG tiveram segundo download idêntico; três HTML legislativos oficiais preservam os bytes iniciais. Cinco documentos internos ABDI permanecem sem autenticação após HTTP 403; não foram incluídos como referências verificadas. Fontes antigas mantêm as datas e limites de suas evidências.
+
 > Atualização do [16º lote](sixteenth-batch-release.md): 129 fontes (95 PDFs e 34 HTML), 42 pares, 2.846 números e 121 anulados. Sete pares novos com segundo download idêntico; o HTML da biblioteca identifica o Manual, sem republicar o livro. A revisão jurídica alcança sete questões/12 citações. Os registros anteriores mantêm o histórico.
 
 > Atualização do [15º lote](fifteenth-batch-release.md): 114 fontes (81 PDFs e 33 HTML), 35 pares, 2.366 números e 112 anulados no inventário. Novos PDFs comparados por download independente; quatro normas com novas consultas de 27/10 e Lei 14.133 consultada na evidência retida de 26/10 após timeout. Os números abaixo mantêm o histórico de cada rodada.

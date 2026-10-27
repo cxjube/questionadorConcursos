@@ -27,7 +27,7 @@ def main(argv: list[str] | None = None) -> int:
         if not errors and args.command == 'coverage':
             if args.role and args.role != 'abdi-comunicacao-marketing':
                 parser.error('unsupported coverage role')
-            review = read_json(ROOT / ('data/reviews/abdi-intake.json' if args.role else 'data/reviews/seventeenth-batch.json'))
+            review = read_json(ROOT / ('data/reviews/abdi-first-batch.json' if args.role else 'data/reviews/seventeenth-batch.json'))
             artifacts = role_artifacts(catalog, review, args.role) if args.role else current_artifacts(catalog, review)
             for filename, content in artifacts.items():
                 target = ROOT / filename

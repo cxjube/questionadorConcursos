@@ -1,7 +1,7 @@
 // @ts-check
 /** @typedef {'system' | 'light' | 'dark'} ThemeChoice */
 /** @typedef {{id: string, title: string, status: string, provider: string | null}} Contest */
-/** @typedef {{id: string, contestId: string, title: string, status: string}} ContestRole */
+/** @typedef {{id: string, contestId: string, title: string, status: string, referenceDocumentIds?: string[]}} ContestRole */
 /** @typedef {{id: string, contestId: string, roleIds: string[], title: string, date: string, status: string, documentId: string | null}} Notice */
 /** @typedef {{id: string, status: string, officialUrl: string | null}} SourceDocument */
 /** @typedef {{id: string, label: string}} Discipline */

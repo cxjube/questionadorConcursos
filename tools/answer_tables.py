@@ -4,7 +4,7 @@ import re
 
 def answer_table(text: str, booklet: str) -> dict[int, str]:
     """Select the exact FGV booklet or labelled Cebraspe rows and reject ambiguity."""
-    header_pattern = (r'(?m)^[ \t]*((?:Analista Legislativo[^\n]*TIPO \d+|'
+    header_pattern = (r'(?m)^[ \t]*((?:(?:Analista|Técnico) Legislativo[^\n]*TIPO \d+|'
                       r'Especialista Legislativo[^\n]* - \d+ - Turno (?:Manhã|Tarde|Noite)))[ \t]*$')
     headers = list(re.finditer(header_pattern, text))
     if headers:

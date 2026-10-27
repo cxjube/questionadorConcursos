@@ -1,8 +1,8 @@
 # Questionador Concursos
 
-**ABDI disponível para treino:** [cadastro e plano de fechamento](documentation/abdi-intake-release.md), 97 itens programáticos e 145 questões compartilhadas (139 C/E e 6 MC). O perfil FGV tem regras próprias; seu simulado ainda não está disponível. Veja [as lacunas ABDI](documentation/coverage-abdi-current.md).
+**ABDI ampliada e navegação por objetivo:** [entrega atual](documentation/abdi-first-batch-release.md), 40 novas MC oficiais e 185 questões para treino (139 C/E e 46 MC). Faltam pelo menos 20 MC institucionais nas cotas próprias. O simulado FGV segue indisponível. Veja [as lacunas ABDI](documentation/coverage-abdi-current.md).
 
-Entrega atual: [17º lote e consolidação](documentation/seventeenth-batch-release.md): **395 questões, 378 C/E, reserva 169/209**, 181/228 itens com vínculo direto e 14 lacunas explícitas. Novo lote de 23 C/E; classificação adicional versionada, sem reclassificar o histórico.
+Câmara: [17º lote e consolidação](documentation/seventeenth-batch-release.md): **395 questões, 378 C/E, reserva 169/209**, 181/228 itens com vínculo direto e 14 lacunas explícitas. Novo lote de 23 C/E; classificação adicional versionada, sem reclassificar o histórico.
 
 Aplicação estática para estudos de concursos públicos, baseada na arquitetura do [Questionador](https://github.com/mugubr/questionador), de Miguel Muniz e Rubens Braz. Veja [créditos e autorização](CREDITS.md).
 
@@ -10,7 +10,7 @@ Aplicação estática para estudos de concursos públicos, baseada na arquitetur
 
 Entrega anterior: o [16º lote](documentation/sixteenth-batch-release.md) adicionou 31 C/E e duas MC; seus números de cobertura são históricos. O [mapa atual](documentation/coverage-current.md) incorpora o 17º lote. Há agora uma C/E de storytelling de dados e duas MC oficiais sobre o Manual de Comunicação da Câmara. Consulte também o [roteiro de leitura dos documentos da Câmara](documentation/camara-reading-guide.md).
 
-Na escolha do objetivo, **Simulado 180 questões** abre a preparação: 90 itens de P1 + 90 de P2, cinco horas, acerto +1/erro −1/branco 0 e mínimos independentes de 18/27/54. Só **Iniciar simulado** cria a sessão e inicia o relógio. Os filtros do treino não são aplicados. Há atalhos entre blocos, revisão das marcações e resultado por P1/P2/total. Retomada, histórico e backup preservam o perfil versionado. O simulado utiliza questões anteriores relacionadas; não garante cobertura, distribuição ou dificuldade iguais às da prova. Cada simulado sorteia 90 entre 169 C/E básicas e 90 entre 209 específicas; ainda há muita repetição entre sessões. Veja a [entrega do simulado](documentation/exam-release.md).
+Na escolha do objetivo, **Preparar simulado**, na área Simulado, abre a preparação: 90 itens de P1 + 90 de P2, cinco horas, acerto +1/erro −1/branco 0 e mínimos independentes de 18/27/54. Só **Iniciar simulado** cria a sessão e inicia o relógio. Os filtros do treino não são aplicados. Há atalhos entre blocos, revisão das marcações e resultado por P1/P2/total. Retomada, histórico e backup preservam o perfil versionado. O simulado utiliza questões anteriores relacionadas; não garante cobertura, distribuição ou dificuldade iguais às da prova. Cada simulado sorteia 90 entre 169 C/E básicas e 90 entre 209 específicas; ainda há muita repetição entre sessões. Veja a [entrega do simulado](documentation/exam-release.md).
 
 No **treino personalizado**, o tempo limite é opcional (1–1440 minutos) e continua ao sair da página. Ao esgotar, a tentativa é encerrada automaticamente com as marcações feitas até então. Fechar a página não pausa o treino; ao reabrir após o prazo, ele é finalizado no horário limite. Veja [regras desta entrega](documentation/timed-practice-release.md).
 
@@ -22,15 +22,15 @@ Dezesseis itens de Língua Portuguesa preservam texto, autoria e numeração das
 
 As marcações são salvas automaticamente no navegador. Ao voltar à página, **Continuar questões** retoma a sessão. Dentro do estudo, **Histórico** permite consultar sessões, revisar os últimos erros, estudar questões inéditas, revisar brancos e exportar/importar o progresso. A seção **Backup e recuperação** concentra exportação e importação. A importação mostra uma prévia e exige confirmação antes de substituir os dados. Use o [guia de estudo e backup](documentation/study-guide.md).
 
-As quatro abas de referência preservam nove disciplinas e 228 tópicos/subtópicos, regras, editais nº 1 a 6 e inventário de 42 pares de provas/gabaritos. Há 130 fontes canônicas retidas (96 PDFs e 34 referências em HTML), com identidade oficial registrada. O inventário cobre 2.846 números de itens e 121 anulações. Veja a [conferência das fontes](documentation/source-verification.md). Somente o lote liberado integra o estudo. PDFs e arquivos de trabalho ficam fora do Pages. ABDI possui cargo, abertura e programa confirmados; CGU permanece futuro, sem regras ou conteúdos não confirmados.
+As quatro abas de referência preservam nove disciplinas e 228 tópicos/subtópicos, regras, editais nº 1 a 6 e provas vinculadas ao objetivo selecionado. O inventário global tem 45 pares e 139 fontes canônicas retidas (102 PDFs e 37 referências em HTML), com identidade oficial registrada. O inventário cobre 3.036 números de itens e 134 anulações. Veja a [conferência das fontes](documentation/source-verification.md). Somente o lote liberado integra o estudo. PDFs e arquivos de trabalho ficam fora do Pages. ABDI possui cargo, abertura e programa confirmados; CGU permanece futuro, sem regras ou conteúdos não confirmados.
 
-Os ícones de monitor, sol e lua no cabeçalho selecionam os temas automático, claro e escuro. A aba **Editais** começa pelos links oficiais da Câmara, Cebraspe, ABDI, CGU e Imprensa Nacional para acompanhamento manual de publicações. As cinco abas aceitam clique, setas, Home e End. O tema escuro usa azul-marinho; o automático acompanha a preferência do sistema.
+Os ícones de monitor, sol e lua no cabeçalho selecionam os temas automático, claro e escuro. A aba **Editais** começa pelos links oficiais do concurso selecionado e da Imprensa Nacional para acompanhamento manual de publicações. As cinco abas aceitam clique, setas, Home e End. O tema escuro usa azul-marinho; o automático acompanha a preferência do sistema.
 
 O [14º lote](documentation/fourteenth-batch-release.md) acrescenta 33 C/E e três questões de múltipla escolha. Prompts, IA generativa e Power BI têm novos itens; as três resoluções do Regimento Comum têm uma questão original de múltipla escolha cada, disponível no treino. Reserva C/E: **140 em P1 e 147 em P2**. A aba Editais também reúne os links dos manuais e da política de comunicação da Câmara, sem confundi-los com questões.
 
 Entrega anterior: O [13º lote](documentation/thirteenth-batch-release.md) acrescenta 12 C/E e dois pares oficiais: STM 2025 / Comunicação Social e CPNUJE 2024 / Estatística. Reserva: **119 C/E em P1 e 135 em P2**. Visualização, desinformação e características de plataformas têm novas amostras; os itens de Power BI do STJ CB2 também foram excluídos por anulação.
 
-O [12º lote](documentation/twelfth-batch-release.md) acrescenta 30 C/E, dois novos pares oficiais e quatro referências legais. O banco atual tem 395 comentários. O [mapa atual](documentation/coverage-current.md) e o [CSV atual](documentation/coverage-current.csv) separam vínculos diretos, descendentes e lacunas. A [conferência dos documentos da Câmara](documentation/camara-reference-review.md) identifica os manuais oficiais de Comunicação (2025) e Linguagem Simples (2024). Os links dos comentários agora aparecem separados e identificados por fonte.
+O [12º lote](documentation/twelfth-batch-release.md) acrescenta 30 C/E, dois novos pares oficiais e quatro referências legais. O catálogo global atual tem 435 comentários. O [mapa atual](documentation/coverage-current.md) e o [CSV atual](documentation/coverage-current.csv) separam vínculos diretos, descendentes e lacunas. A [conferência dos documentos da Câmara](documentation/camara-reference-review.md) identifica os manuais oficiais de Comunicação (2025) e Linguagem Simples (2024). Os links dos comentários agora aparecem separados e identificados por fonte.
 
 Registro histórico: a revisão de 26/10 registra as lacunas dos 228 itens, sete correções de classificação e um comando corrigido com nova versão. Foram reconferidas 85 citações legais de 66 questões, em dez normas. Veja o [mapa completo e prioridades](documentation/coverage-audit-2026-10-26.md) e a [planilha CSV](documentation/coverage-audit-2026-10-26.csv). Nenhuma questão ou gabarito foi adicionado ou alterado; sessões antigas preservam seus snapshots.
 
@@ -79,7 +79,7 @@ README.md
 pyproject.toml / uv.lock   ferramentas do pipeline
 package.json              comando dos testes JavaScript; sem pacotes
 schemas/                  catálogo v3, contextos, entidades, auditoria e lote
-data/catalog.json         fonte canônica; 395 questões, gabaritos, comentários e vínculos
+data/catalog.json         fonte canônica; 435 questões únicas, gabaritos, comentários e vínculos
 data/workbench/           lote de preparação, fora do build
 data/reviews/             evidência da listagem oficial e revisão dos lotes
 sources/                   editais, cadernos e gabaritos; fora do Pages
@@ -126,4 +126,4 @@ Essas ferramentas não integram a aplicação nem são dependências obrigatóri
 
 Ampliar e equilibrar o banco, priorizando tópicos sem questões, para variar o simulado de 180 C/E já disponível. Para treinar somente um bloco, use Personalizar treino, selecione P1/P2, Certo/Errado e quantidade 90. Essa modalidade continua sem mínimos oficiais.
 
-Continuar ampliando a reserva de 378 C/E e os tópicos ainda sem cobertura: 179 dos 228 itens programáticos têm vínculo direto e 16 subárvores permanecem sem questões. Os filtros temáticos, incluindo múltipla escolha, têm 169 itens em P1 e 204 em P2, com um compartilhado; não devem ser somados. ABDI/CGU, importação automática, dashboard avançado e gamificação permanecem fora desta entrega. Veja o [relatório do 16º lote](documentation/sixteenth-batch-release.md).
+Na ABDI, confirmar os cinco documentos institucionais pendentes, buscar as 20 MC institucionais nas cotas 4/4/8/4 e preencher as lacunas registradas. As cotas gerais/específicas já comportam 40 IDs distintos, sem assegurar cobertura integral. O simulado FGV será uma etapa própria. A Câmara mantém 181/228 itens diretamente vinculados e 14 subárvores vazias, com reserva C/E de 169/209. CGU depende de edital e especialidade confirmados. Veja a [entrega ABDI atual](documentation/abdi-first-batch-release.md).

@@ -1,21 +1,21 @@
 id,disciplineId,block,number,label,state,priority,directCE,directMC,subtreeCE,subtreeMC
-abdi-2026-lingua-portuguesa-1,lingua-portuguesa,basic,1,Compreensão e interpretação de textos de gêneros variados.,direct,A,15,0,15,0
+abdi-2026-lingua-portuguesa-1,lingua-portuguesa,basic,1,Compreensão e interpretação de textos de gêneros variados.,direct,C,15,4,15,4
 abdi-2026-lingua-portuguesa-2,lingua-portuguesa,basic,2,Reconhecimento de tipos e gêneros textuais.,direct,A,1,0,1,0
 abdi-2026-lingua-portuguesa-3,lingua-portuguesa,basic,3,Domínio da ortografia oficial.,direct,A,2,0,2,0
 abdi-2026-lingua-portuguesa-4,lingua-portuguesa,basic,4,Domínio dos mecanismos de coesão textual.,descendants_only,A,0,0,4,0
 abdi-2026-lingua-portuguesa-4-1,lingua-portuguesa,basic,4.1,"Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual.",direct,A,3,0,3,0
 abdi-2026-lingua-portuguesa-4-2,lingua-portuguesa,basic,4.2,Emprego de tempos e modos verbais.,direct,A,1,0,1,0
-abdi-2026-lingua-portuguesa-5,lingua-portuguesa,basic,5,Domínio da estrutura morfossintática do período.,descendants_only,A,0,0,15,0
-abdi-2026-lingua-portuguesa-5-1,lingua-portuguesa,basic,5.1,Emprego das classes de palavras.,direct,A,2,0,2,0
+abdi-2026-lingua-portuguesa-5,lingua-portuguesa,basic,5,Domínio da estrutura morfossintática do período.,direct,C,0,1,15,4
+abdi-2026-lingua-portuguesa-5-1,lingua-portuguesa,basic,5.1,Emprego das classes de palavras.,direct,B,2,2,2,2
 abdi-2026-lingua-portuguesa-5-2,lingua-portuguesa,basic,5.2,Relações de coordenação entre orações e entre termos da oração.,direct,A,1,0,1,0
 abdi-2026-lingua-portuguesa-5-3,lingua-portuguesa,basic,5.3,Relações de subordinação entre orações e entre termos da oração.,direct,A,1,0,1,0
 abdi-2026-lingua-portuguesa-5-4,lingua-portuguesa,basic,5.4,Emprego dos sinais de pontuação.,direct,A,4,0,4,0
 abdi-2026-lingua-portuguesa-5-5,lingua-portuguesa,basic,5.5,Concordância verbal e nominal.,direct,A,3,0,3,0
 abdi-2026-lingua-portuguesa-5-6,lingua-portuguesa,basic,5.6,Regência verbal e nominal.,direct,A,1,0,1,0
 abdi-2026-lingua-portuguesa-5-7,lingua-portuguesa,basic,5.7,Emprego do sinal indicativo de crase.,direct,A,2,0,2,0
-abdi-2026-lingua-portuguesa-5-8,lingua-portuguesa,basic,5.8,Colocação dos pronomes átonos.,direct,A,1,0,1,0
-abdi-2026-lingua-portuguesa-6,lingua-portuguesa,basic,6,Reescrita de frases e parágrafos do texto.,descendants_only,A,0,0,3,0
-abdi-2026-lingua-portuguesa-6-1,lingua-portuguesa,basic,6.1,Significação das palavras.,direct,A,1,0,1,0
+abdi-2026-lingua-portuguesa-5-8,lingua-portuguesa,basic,5.8,Colocação dos pronomes átonos.,direct,B,1,1,1,1
+abdi-2026-lingua-portuguesa-6,lingua-portuguesa,basic,6,Reescrita de frases e parágrafos do texto.,descendants_only,B,0,0,3,1
+abdi-2026-lingua-portuguesa-6-1,lingua-portuguesa,basic,6.1,Significação das palavras.,direct,B,1,1,1,1
 abdi-2026-lingua-portuguesa-6-2,lingua-portuguesa,basic,6.2,Substituição de palavras ou de trechos de texto.,direct,A,1,0,1,0
 abdi-2026-lingua-portuguesa-6-3,lingua-portuguesa,basic,6.3,Reorganização da estrutura de orações e de períodos do texto.,direct,A,1,0,1,0
 abdi-2026-lingua-portuguesa-6-4,lingua-portuguesa,basic,6.4,Reescrita de textos de diferentes gêneros e níveis de formalidade.,empty,A,0,0,0,0
@@ -27,18 +27,18 @@ abdi-2026-raciocinio-logico-3-2,raciocinio-logico,basic,3.2,Tabelas-verdade.,emp
 abdi-2026-raciocinio-logico-3-3,raciocinio-logico,basic,3.3,Equivalências.,empty,A,0,0,0,0
 abdi-2026-raciocinio-logico-3-4,raciocinio-logico,basic,3.4,Diagramas lógicos.,empty,A,0,0,0,0
 abdi-2026-raciocinio-logico-4,raciocinio-logico,basic,4,Lógica de primeira ordem.,empty,A,0,0,0,0
-abdi-2026-raciocinio-logico-5,raciocinio-logico,basic,5,"Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais.",empty,A,0,0,0,0
+abdi-2026-raciocinio-logico-5,raciocinio-logico,basic,5,"Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais.",direct,C,0,6,0,6
 abdi-2026-abdi-nocoes-informatica-1,abdi-nocoes-informatica,basic,1,"Conceitos básicos de Informática: hardware, software, periféricos, dispositivos de entrada, saída e armazenamento, organização de arquivos e pastas e principais extensões de arquivos;",empty,A,0,0,0,0
-abdi-2026-abdi-nocoes-informatica-2,abdi-nocoes-informatica,basic,2,"Sistemas operacionais Microsoft Windows 10 e Microsoft Windows 11, em português (Brasil): área de trabalho, gerenciamento de arquivos e pastas, configurações, pesquisa, impressão, compartilhamento e principais recursos;",empty,A,0,0,0,0
-abdi-2026-abdi-nocoes-informatica-3,abdi-nocoes-informatica,basic,3,"Microsoft 365, em português (Brasil): Word, Excel, PowerPoint e Outlook;",empty,A,0,0,0,0
+abdi-2026-abdi-nocoes-informatica-2,abdi-nocoes-informatica,basic,2,"Sistemas operacionais Microsoft Windows 10 e Microsoft Windows 11, em português (Brasil): área de trabalho, gerenciamento de arquivos e pastas, configurações, pesquisa, impressão, compartilhamento e principais recursos;",direct,C,0,3,0,3
+abdi-2026-abdi-nocoes-informatica-3,abdi-nocoes-informatica,basic,3,"Microsoft 365, em português (Brasil): Word, Excel, PowerPoint e Outlook;",direct,C,0,5,0,5
 abdi-2026-abdi-nocoes-informatica-4,abdi-nocoes-informatica,basic,4,"LibreOffice 7.x ou superior, em português (Brasil): Writer, Calc e Impress;",empty,A,0,0,0,0
-abdi-2026-abdi-nocoes-informatica-5,abdi-nocoes-informatica,basic,5,"Internet e Intranet: conceitos, navegação, navegadores Google Chrome, Mozilla Firefox e Microsoft Edge, mecanismos de busca, webmail e demais serviços da Internet;",empty,A,0,0,0,0
+abdi-2026-abdi-nocoes-informatica-5,abdi-nocoes-informatica,basic,5,"Internet e Intranet: conceitos, navegação, navegadores Google Chrome, Mozilla Firefox e Microsoft Edge, mecanismos de busca, webmail e demais serviços da Internet;",direct,B,0,1,0,1
 abdi-2026-abdi-nocoes-informatica-6,abdi-nocoes-informatica,basic,6,"Correio eletrônico: envio, recebimento, organização de mensagens, anexos, contatos e calendários;",empty,A,0,0,0,0
 abdi-2026-abdi-nocoes-informatica-7,abdi-nocoes-informatica,basic,7,"Segurança da informação: vírus, malwares, phishing, golpes eletrônicos, antivírus, firewall, backup, autenticação e boas práticas de segurança digital;",direct,A,7,0,7,0
 abdi-2026-abdi-nocoes-informatica-8,abdi-nocoes-informatica,basic,8,"Computação em nuvem: armazenamento, sincronização, compartilhamento de arquivos e colaboração;",direct,A,2,0,2,0
-abdi-2026-abdi-nocoes-informatica-9,abdi-nocoes-informatica,basic,9,"Inteligência Artificial: conceitos básicos, aplicações no ambiente de trabalho, ferramentas de IA generativa, uso responsável, limitações e boas práticas;",direct,A,5,0,5,0
+abdi-2026-abdi-nocoes-informatica-9,abdi-nocoes-informatica,basic,9,"Inteligência Artificial: conceitos básicos, aplicações no ambiente de trabalho, ferramentas de IA generativa, uso responsável, limitações e boas práticas;",direct,B,5,2,5,2
 abdi-2026-abdi-nocoes-informatica-10,abdi-nocoes-informatica,basic,10,"Digitalização, impressão, compartilhamento de documentos, teclas de atalho, recursos de acessibilidade e produtividade em sistemas operacionais e aplicativos.",empty,A,0,0,0,0
-abdi-2026-abdi-nocoes-informatica-11,abdi-nocoes-informatica,basic,11,Legislação acerca de Segurança da Informação e Proteção De Dados: 1. Lei nº 12.527/2011 (Lei de Acesso à Informação); 2. Lei nº 12.737/2012 (Lei de Delitos Informáticos); 3. Lei nº 12.965/2014 (Marco Civil da Internet); 4. Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD),direct,A,4,0,4,0
+abdi-2026-abdi-nocoes-informatica-11,abdi-nocoes-informatica,basic,11,Legislação acerca de Segurança da Informação e Proteção De Dados: 1. Lei nº 12.527/2011 (Lei de Acesso à Informação); 2. Lei nº 12.737/2012 (Lei de Delitos Informáticos); 3. Lei nº 12.965/2014 (Marco Civil da Internet); 4. Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD),direct,B,4,2,4,2
 abdi-2026-abdi-servicos-sociais-autonomos-1,abdi-servicos-sociais-autonomos,institutional,1,NATUREZA E FINALIDADE DOS SERVIÇOS SOCIAIS AUTÔNOMOS,empty,A,0,0,0,0
 abdi-2026-abdi-servicos-sociais-autonomos-1-1,abdi-servicos-sociais-autonomos,institutional,1.1,"Conceito, características, natureza jurídica e finalidade dos Serviços Sociais Autônomos. Lei nº 11.080/2004, art. 1º, caput e § 1º, com redação dada pela Lei nº 14.440/2022; Decreto nº 5.352/2005, arts. 1º e 2º.",empty,A,0,0,0,0
 abdi-2026-abdi-servicos-sociais-autonomos-1-2,abdi-servicos-sociais-autonomos,institutional,1.2,"Personalidade jurídica de direito privado, ausência de fins lucrativos, interesse coletivo e utilidade pública. Lei nº 11.080/2004, art. 1º, § 1º; Decreto nº 5.352/2005, art. 1º.",empty,A,0,0,0,0
@@ -76,23 +76,23 @@ abdi-2026-abdi-comunicacao-marketing-3,abdi-comunicacao-marketing,specific,3,"Co
 abdi-2026-abdi-comunicacao-marketing-4,abdi-comunicacao-marketing,specific,4,Planejamento estratégico de comunicação.,direct,A,7,0,7,0
 abdi-2026-abdi-comunicacao-marketing-5,abdi-comunicacao-marketing,specific,5,Comunicação integrada.,direct,B,0,1,0,1
 abdi-2026-abdi-comunicacao-marketing-6,abdi-comunicacao-marketing,specific,6,"Identidade, imagem, marca e reputação institucional.",direct,A,7,0,7,0
-abdi-2026-abdi-comunicacao-marketing-7,abdi-comunicacao-marketing,specific,7,Assessoria de comunicação e assessoria de imprensa.,direct,A,1,0,1,0
-abdi-2026-abdi-comunicacao-marketing-8,abdi-comunicacao-marketing,specific,8,Relacionamento com a imprensa e fontes de informação.,direct,A,2,0,2,0
-abdi-2026-abdi-comunicacao-marketing-9,abdi-comunicacao-marketing,specific,9,Gêneros jornalísticos.,empty,A,0,0,0,0
-abdi-2026-abdi-comunicacao-marketing-10,abdi-comunicacao-marketing,specific,10,"Técnicas de redação jornalística: notícia, reportagem, entrevista, nota, release, artigo e texto institucional.",direct,A,1,0,1,0
+abdi-2026-abdi-comunicacao-marketing-7,abdi-comunicacao-marketing,specific,7,Assessoria de comunicação e assessoria de imprensa.,direct,B,1,2,1,2
+abdi-2026-abdi-comunicacao-marketing-8,abdi-comunicacao-marketing,specific,8,Relacionamento com a imprensa e fontes de informação.,direct,B,2,2,2,2
+abdi-2026-abdi-comunicacao-marketing-9,abdi-comunicacao-marketing,specific,9,Gêneros jornalísticos.,direct,B,0,2,0,2
+abdi-2026-abdi-comunicacao-marketing-10,abdi-comunicacao-marketing,specific,10,"Técnicas de redação jornalística: notícia, reportagem, entrevista, nota, release, artigo e texto institucional.",direct,B,1,1,1,1
 abdi-2026-abdi-comunicacao-marketing-11,abdi-comunicacao-marketing,specific,11,Edição e revisão de conteúdos.,direct,A,1,0,1,0
-abdi-2026-abdi-comunicacao-marketing-12,abdi-comunicacao-marketing,specific,12,Comunicação interna e relacionamento com públicos internos.,direct,A,14,0,14,0
+abdi-2026-abdi-comunicacao-marketing-12,abdi-comunicacao-marketing,specific,12,Comunicação interna e relacionamento com públicos internos.,direct,B,14,2,14,2
 abdi-2026-abdi-comunicacao-marketing-13,abdi-comunicacao-marketing,specific,13,Comunicação digital e produção de conteúdo para ambientes digitais.,direct,A,4,0,4,0
-abdi-2026-abdi-comunicacao-marketing-14,abdi-comunicacao-marketing,specific,14,"Redes sociais: planejamento, produção, publicação, monitoramento e métricas.",direct,A,12,0,12,0
+abdi-2026-abdi-comunicacao-marketing-14,abdi-comunicacao-marketing,specific,14,"Redes sociais: planejamento, produção, publicação, monitoramento e métricas.",direct,C,12,4,12,4
 abdi-2026-abdi-comunicacao-marketing-15,abdi-comunicacao-marketing,specific,15,Produção e gestão de conteúdo multimídia.,direct,A,1,0,1,0
 abdi-2026-abdi-comunicacao-marketing-16,abdi-comunicacao-marketing,specific,16,"Comunicação audiovisual: fundamentos de fotografia, vídeo e áudio.",direct,A,4,0,4,0
 abdi-2026-abdi-comunicacao-marketing-17,abdi-comunicacao-marketing,specific,17,"Comunicação visual: fundamentos de design, identidade visual e produção gráfica.",direct,A,3,0,3,0
-abdi-2026-abdi-comunicacao-marketing-18,abdi-comunicacao-marketing,specific,18,Planejamento e organização de eventos.,empty,A,0,0,0,0
-abdi-2026-abdi-comunicacao-marketing-19,abdi-comunicacao-marketing,specific,19,Pesquisa de opinião e avaliação de resultados de comunicação.,direct,A,7,0,7,0
-abdi-2026-abdi-comunicacao-marketing-20,abdi-comunicacao-marketing,specific,20,Gestão de crises e comunicação de risco.,direct,B,4,1,4,1
+abdi-2026-abdi-comunicacao-marketing-18,abdi-comunicacao-marketing,specific,18,Planejamento e organização de eventos.,direct,B,0,1,0,1
+abdi-2026-abdi-comunicacao-marketing-19,abdi-comunicacao-marketing,specific,19,Pesquisa de opinião e avaliação de resultados de comunicação.,direct,B,7,1,7,1
+abdi-2026-abdi-comunicacao-marketing-20,abdi-comunicacao-marketing,specific,20,Gestão de crises e comunicação de risco.,direct,B,4,2,4,2
 abdi-2026-abdi-comunicacao-marketing-21,abdi-comunicacao-marketing,specific,21,Relacionamento com públicos de interesse e comunidades.,direct,A,2,0,2,0
 abdi-2026-abdi-comunicacao-marketing-22,abdi-comunicacao-marketing,specific,22,"Comunicação científica, tecnológica e ambiental.",empty,A,0,0,0,0
-abdi-2026-abdi-comunicacao-marketing-23,abdi-comunicacao-marketing,specific,23,Ética e legislação aplicadas à comunicação.,direct,A,4,0,4,0
-abdi-2026-abdi-comunicacao-marketing-24,abdi-comunicacao-marketing,specific,24,"Direito à informação, transparência e acesso à informação.",direct,A,2,0,2,0
+abdi-2026-abdi-comunicacao-marketing-23,abdi-comunicacao-marketing,specific,23,Ética e legislação aplicadas à comunicação.,direct,C,4,3,4,3
+abdi-2026-abdi-comunicacao-marketing-24,abdi-comunicacao-marketing,specific,24,"Direito à informação, transparência e acesso à informação.",direct,B,2,2,2,2
 abdi-2026-abdi-comunicacao-marketing-25,abdi-comunicacao-marketing,specific,25,Proteção de dados pessoais aplicada às atividades de comunicação.,empty,A,0,0,0,0
-abdi-2026-abdi-comunicacao-marketing-26,abdi-comunicacao-marketing,specific,26,"Acessibilidade, inclusão e linguagem simples na comunicação.",direct,B,0,1,0,1
+abdi-2026-abdi-comunicacao-marketing-26,abdi-comunicacao-marketing,specific,26,"Acessibilidade, inclusão e linguagem simples na comunicação.",direct,B,0,2,0,2

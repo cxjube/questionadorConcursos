@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-27T17:03:48.774476+00:00",
-  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23. Comment completion: two Priberam entries retain the initial official publisher download bytes; no independent second download is claimed. Ninth source discovery: 16 new paper/key PDFs independently re-downloaded with byte equality; two Microsoft Learn HTML references retain initial publisher bytes. Complete source inventory is separate from individually released questions. Existing matches are historical evidence; not every old source was downloaded again. Tenth batch: one PF 2025 Bloco II pair independently re-downloaded with identical bytes; three Câmara current legal HTML references retain initial official download bytes. Compatibility is limited to cited active clauses as of 2026-10-23. Other prior sources were not all downloaded again. Eleventh batch: SERPRO 2023 and STJ 2024 basic paper/definitive-key PDFs independently re-downloaded byte-identically. Initial Câmara improbity-law and Microsoft Teams HTML downloads retained. Current review is limited to cited clauses and technical conditions; older evidence remains historical. Resumed on 2026-10-26: IPv6 and DNS initial Microsoft Learn reference bytes retained; seven legal items rechecked against cited active official clauses and Teams conditions rechecked, with separate evidence in data/reviews/eleventh-reference-rechecks.json. No new questions use annulled STJ Power BI items. Twelfth batch: two complete CNJ/TCEAC paper and definitive-key pairs independently downloaded twice with matching bytes; historical records are not repeated downloads. Four initial official Câmara legal HTML downloads retained; no second binary download is claimed for HTML. Compatibility is limited to cited active clauses as of 2026-10-26. ABDI intake 2026-10-27: the user-provided 48-page opening notice is byte-identical to the PDF linked on the FGV psabdi page; its download hash is retained. Other rows retain their original verification dates and scopes; no fresh re-download of all sources is claimed.",
+  "checkedAt": "2026-10-27T18:11:50.997166+00:00",
+  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23. Comment completion: two Priberam entries retain the initial official publisher download bytes; no independent second download is claimed. Ninth source discovery: 16 new paper/key PDFs independently re-downloaded with byte equality; two Microsoft Learn HTML references retain initial publisher bytes. Complete source inventory is separate from individually released questions. Existing matches are historical evidence; not every old source was downloaded again. Tenth batch: one PF 2025 Bloco II pair independently re-downloaded with identical bytes; three Câmara current legal HTML references retain initial official download bytes. Compatibility is limited to cited active clauses as of 2026-10-23. Other prior sources were not all downloaded again. Eleventh batch: SERPRO 2023 and STJ 2024 basic paper/definitive-key PDFs independently re-downloaded byte-identically. Initial Câmara improbity-law and Microsoft Teams HTML downloads retained. Current review is limited to cited clauses and technical conditions; older evidence remains historical. Resumed on 2026-10-26: IPv6 and DNS initial Microsoft Learn reference bytes retained; seven legal items rechecked against cited active official clauses and Teams conditions rechecked, with separate evidence in data/reviews/eleventh-reference-rechecks.json. No new questions use annulled STJ Power BI items. Twelfth batch: two complete CNJ/TCEAC paper and definitive-key pairs independently downloaded twice with matching bytes; historical records are not repeated downloads. Four initial official Câmara legal HTML downloads retained; no second binary download is claimed for HTML. Compatibility is limited to cited active clauses as of 2026-10-26. ABDI intake 2026-10-27: the user-provided 48-page opening notice is byte-identical to the PDF linked on the FGV psabdi page; its download hash is retained. Other rows retain their original verification dates and scopes; no fresh re-download of all sources is claimed. ABDI first batch 2026-10-27: three complete Senado/TCE-MG pairs independently downloaded twice with matching bytes. Three official Câmara legislative HTML references retain initial publisher bytes. Only the selected clauses are reviewed; five internal ABDI documents remain inaccessible/unverified. Other sources were not freshly re-downloaded. See abdi-first-source-discovery.json and abdi-first-reference-review.json.",
   "documents": [
     {
       "documentId": "camara-2026-edital-01-documento",
@@ -912,6 +912,69 @@
       "outcome": "byte_match",
       "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-01-2026-abertura-do-processo-seletivo-abdi-1.pdf",
       "remoteSha256": "d6224edfe4d38f31cf1852879c7079be656e56f98f1bf9ad6d5e4210eb6043ff"
+    },
+    {
+      "documentId": "source-senado-2022-administracao-tipo1-paper",
+      "localSha256": "ef989d985539e44ad74bf649a0823af1336676cd355869f8e05b947b8ceaf346",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/e1cns01_-_analista_legislativo_-_administracaoe1cns01_tipo_1.pdf",
+      "remoteSha256": "ef989d985539e44ad74bf649a0823af1336676cd355869f8e05b947b8ceaf346"
+    },
+    {
+      "documentId": "source-senado-2022-administracao-tipo1-key",
+      "localSha256": "97bc7116a56bdb4688c259749a0c5e068c701b9cd0c21bb7380587431ee047c2",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/senado2022_gabarito_definitivo_edital01.pdf",
+      "remoteSha256": "97bc7116a56bdb4688c259749a0c5e068c701b9cd0c21bb7380587431ee047c2"
+    },
+    {
+      "documentId": "source-senado-2022-policial-tipo1-paper",
+      "localSha256": "1d49fd705710ffc5508fb36f2c379a605301db0a99495dbced5f1ce1b20dadf2",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico_legislativo_-_policial_legislativoe5cns01_tipo_1.pdf",
+      "remoteSha256": "1d49fd705710ffc5508fb36f2c379a605301db0a99495dbced5f1ce1b20dadf2"
+    },
+    {
+      "documentId": "source-senado-2022-policial-tipo1-key",
+      "localSha256": "d61fe999fc291c032ce71bf53ca2122ee3e5b0164303292c720b5a119321eb9e",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/senado2022_gabarito_definitivo_edital05.pdf",
+      "remoteSha256": "d61fe999fc291c032ce71bf53ca2122ee3e5b0164303292c720b5a119321eb9e"
+    },
+    {
+      "documentId": "source-128-tcemg-008-01-paper",
+      "localSha256": "b67d340496bd4fc7da85d43b83e77506c018a0761eaae227997c6ffc100fe123",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCE_MG_25/arquivos/A1559974E62EFEE70A476728E778E766A05DAD5986180CD64DCE4634728CF0A4.pdf",
+      "remoteSha256": "b67d340496bd4fc7da85d43b83e77506c018a0761eaae227997c6ffc100fe123"
+    },
+    {
+      "documentId": "source-128-tcemg-008-01-key",
+      "localSha256": "7ab2e780dbc79dcf295b97dd03592766e22fed5b39ea8e23da3fcb9a347ece89",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCE_MG_25/arquivos/A35044DF07E64EA13ED9971F6468D99857F94A6E731A03FF9D21324F8EC69485.pdf",
+      "remoteSha256": "7ab2e780dbc79dcf295b97dd03592766e22fed5b39ea8e23da3fcb9a347ece89"
+    },
+    {
+      "documentId": "reference-abdi-lei-11080-2004",
+      "localSha256": "387cb9e784b490952003c9851e091ad9ceae52651e48a3b79a988e57bce3ac73",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2004/lei-11080-30-dezembro-2004-535280-normaatualizada-pl.html",
+      "remoteSha256": "387cb9e784b490952003c9851e091ad9ceae52651e48a3b79a988e57bce3ac73"
+    },
+    {
+      "documentId": "reference-abdi-decreto-5352-2005",
+      "localSha256": "48c007019c2bc1154343599279c9dc276856067a27a0085e98cc558c42d98c17",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/decret/2005/decreto-5352-24-janeiro-2005-535482-normaatualizada-pe.html",
+      "remoteSha256": "48c007019c2bc1154343599279c9dc276856067a27a0085e98cc558c42d98c17"
+    },
+    {
+      "documentId": "reference-abdi-lei-14440-2022",
+      "localSha256": "df7f85d07492416b4c3f340b9d217c2d55b72ea6aa9be5962363c9657bf3cf94",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2022/lei-14440-2-setembro-2022-793185-publicacaooriginal-166030-pl.html",
+      "remoteSha256": "df7f85d07492416b4c3f340b9d217c2d55b72ea6aa9be5962363c9657bf3cf94"
     }
   ],
   "corroboration": [

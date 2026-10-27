@@ -223,13 +223,17 @@ const StudyUI = (() => {
       refreshStart();
     }
     function refreshStart() {
-      const total = Study.pool(data, selectedRole, store.state).length;
+      const eligible = Study.pool(data, selectedRole, store.state);
+      const total = eligible.length;
       const settings = trainingSettings();
       const count = Study.pool(data, selectedRole, store.state, 'all', settings).length;
       const resume = Boolean(store.state.active);
       const exam = Study.examAvailability(data,selectedRole);
       prepareExam.disabled = resume || !exam.ready || Boolean(store.conflict);
-      prepareExam.textContent = exam.rule ? 'Simulado ' + exam.rule.blocks.reduce((n,b)=>n+b.questionCount,0) + ' questões' : 'Simulado indisponível';
+      prepareExam.textContent = exam.rule ? 'Preparar simulado' : 'Em preparação';
+      element('exam-summary').hidden = !exam.rule;
+      element('exam-summary').textContent = exam.rule ? exam.rule.blocks.reduce((n,b)=>n+b.questionCount,0) + ' questões · ' + exam.rule.durationMinutes + ' minutos · regras do edital' : '';
+      element('training-heading').textContent = resume ? 'Sessão em andamento' : 'Treino de questões';
       element('exam-availability').hidden = resume || exam.ready;
       element('exam-availability').textContent = exam.reason;
       quantity.max = String(Math.max(1, Math.min(500, count)));
@@ -238,14 +242,14 @@ const StudyUI = (() => {
       const invalid = invalidQuantity || invalidTime;
       quantity.setAttribute('aria-invalid', String(invalidQuantity)); minutes.setAttribute('aria-invalid',String(invalidTime));
       start.textContent = resume ? store.state.active.mode === 'exam' ? 'Continuar simulado' : 'Continuar questões' : 'Iniciar questões';
-      element('landing-history').hidden = !store.state.history.length && !resume;
+      element('landing-history').hidden = !store.state.history.some(s=>s.roleId===selectedRole) && store.state.active?.roleId!==selectedRole;
       start.disabled = (!resume && (!count || invalid)) || Boolean(store.conflict);
       element('study-filters').disabled = resume || !total;
       customize.disabled = resume || !total || Boolean(store.conflict);
       element('apply-study-options').disabled = resume || !count || invalid || Boolean(store.conflict);
       const formatNote = element('study-format-note');
       formatNote.hidden = !data.scoringRules.some(r=>r.roleId===selectedRole && r.blocks.every(b=>b.questionType==='multiple_choice'));
-      formatNote.textContent = 'A prova da ABDI é de múltipla escolha. O treino também inclui questões C/E no formato original; filtre por formato para escolher.';
+      formatNote.textContent = 'Prova oficial: múltipla escolha. Neste treino: ' + eligible.filter(q=>q.type==='multiple_choice').length + ' MC e ' + eligible.filter(q=>q.type==='true_false').length + ' C/E, no formato original.';
       element('study-availability').textContent = total ? total + ' questões disponíveis neste objetivo.' : 'Ainda não há questões publicadas para este objetivo.';
       element('study-filter-status').textContent = invalidTime ? 'Escolha um tempo inteiro entre 1 e 1440 minutos.' : invalidQuantity ? 'Escolha uma quantidade entre 1 e ' + Math.min(500, count) + '.' : count ? (settings.limit || count) + ' de ' + count + ' questões disponíveis para esta seleção.' : 'Nenhuma questão disponível para esta seleção.';
       const customized = settings.block || settings.disciplineId || settings.topicId || settings.limit !== null || settings.shuffle || settings.paperId || settings.year || settings.type || settings.durationMinutes !== null || settings.scoringMode !== 'none';

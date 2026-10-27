@@ -34,7 +34,12 @@ def reference_text(raw: bytes) -> str:
     """Use the declared source encoding and normalize layout whitespace only."""
     charset = re.search(br'charset\s*=\s*["\']?([a-zA-Z0-9_-]+)', raw[:10000], re.I)
     if charset:
-        source = raw.decode(charset.group(1).decode('ascii'))
+        try:
+            source = raw.decode(charset.group(1).decode('ascii'))
+        except UnicodeDecodeError:
+            # A publisher can declare Windows-1252 while serving strict UTF-8.
+            # Only fall back when the declared decoding fails; never replace bytes.
+            source = raw.decode('utf-8')
     else:
         try:
             source = raw.decode('utf-8')

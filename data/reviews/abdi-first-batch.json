@@ -1,0 +1,2115 @@
+{
+  "id": "abdi-first-batch",
+  "reviewedAt": "2026-10-27",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/abdi-first-batch-release.md",
+  "previousCatalogSha256": "ceaf24723c9f478de7854fd4ec2e1ab19ca845940172c9a601f58036bd02208c",
+  "items": [
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q001",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 1,
+      "questionType": "multiple_choice",
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        68.27,
+        79.39
+      ],
+      "paragraphBounds": [
+        [
+          68.27,
+          79.39
+        ]
+      ],
+      "optionBounds": [
+        [
+          92.17,
+          103.41
+        ],
+        [
+          115.21,
+          126.45
+        ],
+        [
+          138.13,
+          149.37
+        ],
+        [
+          161.17,
+          172.41
+        ],
+        [
+          184.09,
+          195.33
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [
+        "alerj-2026-education-passage"
+      ],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q001-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "a",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-lingua-portuguesa-1"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q002",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 2,
+      "questionType": "multiple_choice",
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        228.97,
+        299.16
+      ],
+      "paragraphBounds": [
+        [
+          228.97,
+          299.16
+        ]
+      ],
+      "optionBounds": [
+        [
+          312.04,
+          323.28
+        ],
+        [
+          334.96,
+          346.2
+        ],
+        [
+          357.88,
+          369.12
+        ],
+        [
+          380.92,
+          392.16
+        ],
+        [
+          403.84,
+          415.08
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [
+        "alerj-2026-education-passage"
+      ],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q002-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "b",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-lingua-portuguesa-1"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q003",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 3,
+      "questionType": "multiple_choice",
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        448.74,
+        518.9
+      ],
+      "paragraphBounds": [
+        [
+          448.74,
+          518.9
+        ]
+      ],
+      "optionBounds": [
+        [
+          531.78,
+          531.98
+        ],
+        [
+          543.78,
+          543.98
+        ],
+        [
+          555.78,
+          555.98
+        ],
+        [
+          567.78,
+          567.98
+        ],
+        [
+          579.78,
+          579.98
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [
+        "alerj-2026-education-passage"
+      ],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q003-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "d",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-lingua-portuguesa-1"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q004",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 4,
+      "questionType": "multiple_choice",
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        613.65,
+        661.85
+      ],
+      "paragraphBounds": [
+        [
+          613.65,
+          661.85
+        ]
+      ],
+      "optionBounds": [
+        [
+          674.61,
+          685.85
+        ],
+        [
+          697.65,
+          697.85
+        ],
+        [
+          709.65,
+          720.89
+        ],
+        [
+          732.57,
+          743.806
+        ],
+        [
+          755.606,
+          766.846
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [
+        "alerj-2026-education-passage"
+      ],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q004-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "c",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-lingua-portuguesa-1"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q005",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 5,
+      "questionType": "multiple_choice",
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        68.27,
+        138.33
+      ],
+      "paragraphBounds": [
+        [
+          68.27,
+          138.33
+        ]
+      ],
+      "optionBounds": [
+        [
+          151.09,
+          162.33
+        ],
+        [
+          174.13,
+          185.37
+        ],
+        [
+          197.17,
+          197.37
+        ],
+        [
+          209.05,
+          220.29
+        ],
+        [
+          232.09,
+          243.33
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [
+        "alerj-2026-education-passage"
+      ],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q005-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "c",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-lingua-portuguesa-6-1"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q006",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 6,
+      "questionType": "multiple_choice",
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        277.0,
+        336.12
+      ],
+      "paragraphBounds": [
+        [
+          277.0,
+          336.12
+        ]
+      ],
+      "optionBounds": [
+        [
+          349.0,
+          371.16
+        ],
+        [
+          382.96,
+          394.2
+        ],
+        [
+          405.88,
+          417.12
+        ],
+        [
+          428.82,
+          451.1
+        ],
+        [
+          462.78,
+          474.02
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [
+        "alerj-2026-education-passage"
+      ],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q006-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "b",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-lingua-portuguesa-5-8"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q008",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 8,
+      "questionType": "multiple_choice",
+      "sourcePage": 4,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        68.27,
+        79.39
+      ],
+      "paragraphBounds": [
+        [
+          68.27,
+          79.39
+        ]
+      ],
+      "optionBounds": [
+        [
+          92.17,
+          103.41
+        ],
+        [
+          115.21,
+          126.45
+        ],
+        [
+          138.13,
+          149.37
+        ],
+        [
+          161.17,
+          172.41
+        ],
+        [
+          184.09,
+          195.33
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q008-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "b",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-lingua-portuguesa-5-1"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q009",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 9,
+      "questionType": "multiple_choice",
+      "sourcePage": 4,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        229.09,
+        240.21
+      ],
+      "paragraphBounds": [
+        [
+          229.09,
+          240.21
+        ]
+      ],
+      "optionBounds": [
+        [
+          253.12,
+          286.32
+        ],
+        [
+          298.0,
+          320.28
+        ],
+        [
+          331.96,
+          354.24
+        ],
+        [
+          365.92,
+          399.12
+        ],
+        [
+          410.92,
+          433.1
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q009-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "d",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-lingua-portuguesa-5"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q010",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 10,
+      "questionType": "multiple_choice",
+      "sourcePage": 4,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        466.74,
+        490.94
+      ],
+      "paragraphBounds": [
+        [
+          466.74,
+          490.94
+        ]
+      ],
+      "optionBounds": [
+        [
+          503.82,
+          558.98
+        ],
+        [
+          570.66,
+          614.93
+        ],
+        [
+          626.73,
+          637.97
+        ],
+        [
+          649.65,
+          671.93
+        ],
+        [
+          683.61,
+          705.89
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q010-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "e",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-lingua-portuguesa-5-1"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q011",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 11,
+      "questionType": "multiple_choice",
+      "sourcePage": 5,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        100.57,
+        179.61
+      ],
+      "paragraphBounds": [
+        [
+          100.57,
+          179.61
+        ]
+      ],
+      "optionBounds": [
+        [
+          192.49,
+          192.69
+        ],
+        [
+          204.49,
+          204.69
+        ],
+        [
+          216.49,
+          216.69
+        ],
+        [
+          228.49,
+          228.69
+        ],
+        [
+          240.49,
+          240.69
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q011-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "c",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-nocoes-informatica-2"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q012",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 12,
+      "questionType": "multiple_choice",
+      "sourcePage": 5,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        274.36,
+        320.52
+      ],
+      "paragraphBounds": [
+        [
+          274.36,
+          320.52
+        ]
+      ],
+      "optionBounds": [
+        [
+          333.4,
+          333.6
+        ],
+        [
+          345.4,
+          345.6
+        ],
+        [
+          357.4,
+          357.6
+        ],
+        [
+          369.4,
+          369.6
+        ],
+        [
+          381.4,
+          381.6
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q012-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "b",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-nocoes-informatica-3"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q013",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 13,
+      "questionType": "multiple_choice",
+      "sourcePage": 5,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        415.24,
+        472.34
+      ],
+      "paragraphBounds": [
+        [
+          415.24,
+          472.34
+        ]
+      ],
+      "optionBounds": [
+        [
+          485.22,
+          485.42
+        ],
+        [
+          497.22,
+          497.42
+        ],
+        [
+          509.22,
+          509.42
+        ],
+        [
+          521.22,
+          521.42
+        ],
+        [
+          533.22,
+          533.42
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q013-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "b",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-nocoes-informatica-3"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q014",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 14,
+      "questionType": "multiple_choice",
+      "sourcePage": 5,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        567.18,
+        602.21
+      ],
+      "paragraphBounds": [
+        [
+          567.18,
+          602.21
+        ]
+      ],
+      "optionBounds": [
+        [
+          615.21,
+          615.41
+        ],
+        [
+          627.09,
+          627.29
+        ],
+        [
+          639.09,
+          639.29
+        ],
+        [
+          651.09,
+          651.29
+        ],
+        [
+          663.09,
+          663.29
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q014-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "c",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-nocoes-informatica-5"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q015",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 15,
+      "questionType": "multiple_choice",
+      "sourcePage": 5,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        68.27,
+        136.89
+      ],
+      "paragraphBounds": [
+        [
+          68.27,
+          136.89
+        ]
+      ],
+      "optionBounds": [
+        [
+          149.77,
+          149.97
+        ],
+        [
+          161.77,
+          161.97
+        ],
+        [
+          173.77,
+          173.97
+        ],
+        [
+          185.77,
+          185.97
+        ],
+        [
+          197.77,
+          197.97
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q015-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "c",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-nocoes-informatica-2"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q016",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 16,
+      "questionType": "multiple_choice",
+      "sourcePage": 5,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        231.61,
+        299.76
+      ],
+      "paragraphBounds": [
+        [
+          231.61,
+          299.76
+        ]
+      ],
+      "optionBounds": [
+        [
+          312.64,
+          312.84
+        ],
+        [
+          324.64,
+          324.84
+        ],
+        [
+          336.64,
+          336.84
+        ],
+        [
+          348.64,
+          348.84
+        ],
+        [
+          360.52,
+          360.72
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q016-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "c",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-nocoes-informatica-3"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q017",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 17,
+      "questionType": "multiple_choice",
+      "sourcePage": 5,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        394.48,
+        452.18
+      ],
+      "paragraphBounds": [
+        [
+          394.48,
+          452.18
+        ]
+      ],
+      "optionBounds": [
+        [
+          465.06,
+          465.26
+        ],
+        [
+          477.06,
+          477.26
+        ],
+        [
+          489.06,
+          489.26
+        ],
+        [
+          501.06,
+          501.26
+        ],
+        [
+          513.06,
+          513.26
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q017-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "b",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-nocoes-informatica-3"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q018",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 18,
+      "questionType": "multiple_choice",
+      "sourcePage": 5,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        545.353,
+        595.34
+      ],
+      "paragraphBounds": [
+        [
+          545.353,
+          595.34
+        ]
+      ],
+      "optionBounds": [
+        [
+          608.25,
+          608.45
+        ],
+        [
+          620.25,
+          620.45
+        ],
+        [
+          632.25,
+          632.45
+        ],
+        [
+          644.25,
+          644.45
+        ],
+        [
+          656.25,
+          656.45
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q018-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "a",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-nocoes-informatica-3"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q020",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 20,
+      "questionType": "multiple_choice",
+      "sourcePage": 6,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        212.05,
+        245.25
+      ],
+      "paragraphBounds": [
+        [
+          212.05,
+          245.25
+        ]
+      ],
+      "optionBounds": [
+        [
+          256.0,
+          256.2
+        ],
+        [
+          267.04,
+          267.24
+        ],
+        [
+          278.08,
+          278.28
+        ],
+        [
+          289.0,
+          289.2
+        ],
+        [
+          300.04,
+          300.24
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q020-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "b",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-nocoes-informatica-2"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q056",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 56,
+      "questionType": "multiple_choice",
+      "sourcePage": 13,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        68.27,
+        274.2
+      ],
+      "paragraphBounds": [
+        [
+          68.27,
+          274.2
+        ]
+      ],
+      "optionBounds": [
+        [
+          287.08,
+          287.28
+        ],
+        [
+          299.08,
+          299.28
+        ],
+        [
+          311.08,
+          311.28
+        ],
+        [
+          323.08,
+          323.28
+        ],
+        [
+          334.96,
+          335.16
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q056-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "a",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-7",
+        "abdi-2026-abdi-comunicacao-marketing-8"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q058",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 58,
+      "questionType": "multiple_choice",
+      "sourcePage": 14,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        68.15,
+        247.77
+      ],
+      "paragraphBounds": [
+        [
+          68.15,
+          247.77
+        ]
+      ],
+      "optionBounds": [
+        [
+          260.56,
+          282.84
+        ],
+        [
+          294.52,
+          316.8
+        ],
+        [
+          328.48,
+          361.68
+        ],
+        [
+          373.48,
+          395.64
+        ],
+        [
+          407.44,
+          429.62
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q058-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "d",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-20"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q059",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 59,
+      "questionType": "multiple_choice",
+      "sourcePage": 14,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        463.38,
+        487.46
+      ],
+      "paragraphBounds": [
+        [
+          463.38,
+          487.46
+        ]
+      ],
+      "optionBounds": [
+        [
+          500.34,
+          522.62
+        ],
+        [
+          534.3,
+          556.58
+        ],
+        [
+          568.26,
+          590.54
+        ],
+        [
+          602.25,
+          624.53
+        ],
+        [
+          636.21,
+          658.49
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q059-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "c",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-7",
+        "abdi-2026-abdi-comunicacao-marketing-8"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q060",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 60,
+      "questionType": "multiple_choice",
+      "sourcePage": 14,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        68.27,
+        253.8
+      ],
+      "paragraphBounds": [
+        [
+          68.27,
+          253.8
+        ]
+      ],
+      "optionBounds": [
+        [
+          266.8,
+          267.0
+        ],
+        [
+          278.68,
+          278.88
+        ],
+        [
+          290.68,
+          290.88
+        ],
+        [
+          302.68,
+          302.88
+        ],
+        [
+          314.68,
+          314.88
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q060-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "d",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-10"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q061",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 61,
+      "questionType": "multiple_choice",
+      "sourcePage": 14,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        348.64,
+        591.02
+      ],
+      "paragraphBounds": [
+        [
+          348.64,
+          591.02
+        ]
+      ],
+      "optionBounds": [
+        [
+          603.93,
+          604.13
+        ],
+        [
+          615.93,
+          616.13
+        ],
+        [
+          627.93,
+          628.13
+        ],
+        [
+          639.93,
+          640.13
+        ],
+        [
+          651.93,
+          652.13
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q061-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "d",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-9"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q064",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 64,
+      "questionType": "multiple_choice",
+      "sourcePage": 15,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        68.27,
+        103.29
+      ],
+      "paragraphBounds": [
+        [
+          68.27,
+          103.29
+        ]
+      ],
+      "optionBounds": [
+        [
+          116.29,
+          116.49
+        ],
+        [
+          128.17,
+          128.37
+        ],
+        [
+          140.17,
+          140.37
+        ],
+        [
+          152.17,
+          152.37
+        ],
+        [
+          164.17,
+          164.37
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q064-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "e",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-14"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q065",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 65,
+      "questionType": "multiple_choice",
+      "sourcePage": 15,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        198.13,
+        316.08
+      ],
+      "paragraphBounds": [
+        [
+          198.13,
+          316.08
+        ]
+      ],
+      "optionBounds": [
+        [
+          328.96,
+          351.24
+        ],
+        [
+          362.92,
+          385.2
+        ],
+        [
+          396.88,
+          419.16
+        ],
+        [
+          430.86,
+          453.14
+        ],
+        [
+          464.82,
+          487.1
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q065-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "b",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-12"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q067",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 67,
+      "questionType": "multiple_choice",
+      "sourcePage": 16,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        68.27,
+        90.33
+      ],
+      "paragraphBounds": [
+        [
+          68.27,
+          90.33
+        ]
+      ],
+      "optionBounds": [
+        [
+          103.21,
+          125.37
+        ],
+        [
+          137.17,
+          159.33
+        ],
+        [
+          171.13,
+          193.29
+        ],
+        [
+          205.09,
+          227.25
+        ],
+        [
+          239.05,
+          261.24
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q067-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "d",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-14",
+        "abdi-2026-abdi-comunicacao-marketing-23"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q068",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 68,
+      "questionType": "multiple_choice",
+      "sourcePage": 16,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        295.0,
+        328.08
+      ],
+      "paragraphBounds": [
+        [
+          295.0,
+          328.08
+        ]
+      ],
+      "optionBounds": [
+        [
+          340.96,
+          363.12
+        ],
+        [
+          374.92,
+          408.12
+        ],
+        [
+          419.8,
+          453.14
+        ],
+        [
+          464.82,
+          498.02
+        ],
+        [
+          509.82,
+          543.02
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q068-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "b",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-24",
+        "abdi-2026-abdi-nocoes-informatica-11"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q069",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 69,
+      "questionType": "multiple_choice",
+      "sourcePage": 16,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        68.27,
+        152.25
+      ],
+      "paragraphBounds": [
+        [
+          68.27,
+          152.25
+        ]
+      ],
+      "optionBounds": [
+        [
+          165.13,
+          187.41
+        ],
+        [
+          199.09,
+          221.37
+        ],
+        [
+          233.05,
+          255.36
+        ],
+        [
+          267.04,
+          289.32
+        ],
+        [
+          301.0,
+          323.28
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q069-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "b",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-18"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q071",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 71,
+      "questionType": "multiple_choice",
+      "sourcePage": 17,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        68.27,
+        263.76
+      ],
+      "paragraphBounds": [
+        [
+          68.27,
+          263.76
+        ]
+      ],
+      "optionBounds": [
+        [
+          274.6,
+          274.8
+        ],
+        [
+          285.52,
+          285.72
+        ],
+        [
+          296.56,
+          296.76
+        ],
+        [
+          307.48,
+          307.68
+        ],
+        [
+          318.52,
+          318.72
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q071-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "c",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-24",
+        "abdi-2026-abdi-nocoes-informatica-11"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q072",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 72,
+      "questionType": "multiple_choice",
+      "sourcePage": 17,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        352.48,
+        561.5
+      ],
+      "paragraphBounds": [
+        [
+          352.48,
+          561.5
+        ]
+      ],
+      "optionBounds": [
+        [
+          572.22,
+          572.42
+        ],
+        [
+          583.26,
+          583.46
+        ],
+        [
+          594.18,
+          594.38
+        ],
+        [
+          605.25,
+          605.45
+        ],
+        [
+          616.17,
+          616.37
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q072-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "e",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-14",
+        "abdi-2026-abdi-comunicacao-marketing-26"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q073",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 73,
+      "questionType": "multiple_choice",
+      "sourcePage": 17,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        650.13,
+        696.29
+      ],
+      "paragraphBounds": [
+        [
+          650.13,
+          696.29
+        ]
+      ],
+      "optionBounds": [
+        [
+          709.17,
+          709.37
+        ],
+        [
+          721.17,
+          721.37
+        ],
+        [
+          733.17,
+          733.37
+        ],
+        [
+          745.166,
+          745.366
+        ],
+        [
+          757.046,
+          757.246
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q073-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "c",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-19",
+        "abdi-2026-abdi-comunicacao-marketing-14"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q074",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 74,
+      "questionType": "multiple_choice",
+      "sourcePage": 17,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        68.27,
+        123.33
+      ],
+      "paragraphBounds": [
+        [
+          68.27,
+          123.33
+        ]
+      ],
+      "optionBounds": [
+        [
+          134.17,
+          156.33
+        ],
+        [
+          167.17,
+          178.29
+        ],
+        [
+          189.13,
+          200.25
+        ],
+        [
+          211.09,
+          222.21
+        ],
+        [
+          233.05,
+          255.24
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q074-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "a",
+      "answerPage": 11,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-23",
+        "abdi-2026-abdi-nocoes-informatica-9"
+      ]
+    },
+    {
+      "questionId": "senado-2022-administracao-tipo1-q014",
+      "paperId": "source-senado-2022-administracao-tipo1",
+      "number": 14,
+      "questionType": "multiple_choice",
+      "sourcePage": 6,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        72.59,
+        221.61
+      ],
+      "paragraphBounds": [
+        [
+          72.59,
+          221.61
+        ]
+      ],
+      "optionBounds": [
+        [
+          234.49,
+          234.69
+        ],
+        [
+          246.49,
+          246.69
+        ],
+        [
+          258.49,
+          258.69
+        ],
+        [
+          270.49,
+          270.69
+        ],
+        [
+          282.52,
+          282.72
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "senado-2022-administracao-tipo1-q014-key-v1",
+      "answerDocumentId": "source-senado-2022-administracao-tipo1-key",
+      "answerValue": "c",
+      "answerPage": 1,
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-5"
+      ]
+    },
+    {
+      "questionId": "senado-2022-administracao-tipo1-q016",
+      "paperId": "source-senado-2022-administracao-tipo1",
+      "number": 16,
+      "questionType": "multiple_choice",
+      "sourcePage": 6,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        437.32,
+        494.42
+      ],
+      "paragraphBounds": [
+        [
+          437.32,
+          494.42
+        ]
+      ],
+      "optionBounds": [
+        [
+          507.3,
+          507.5
+        ],
+        [
+          519.3,
+          519.5
+        ],
+        [
+          531.3,
+          531.5
+        ],
+        [
+          543.3,
+          543.5
+        ],
+        [
+          555.18,
+          555.38
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "senado-2022-administracao-tipo1-q016-key-v1",
+      "answerDocumentId": "source-senado-2022-administracao-tipo1-key",
+      "answerValue": "e",
+      "answerPage": 1,
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-5"
+      ]
+    },
+    {
+      "questionId": "senado-2022-administracao-tipo1-q017",
+      "paperId": "source-senado-2022-administracao-tipo1",
+      "number": 17,
+      "questionType": "multiple_choice",
+      "sourcePage": 6,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        613.14,
+        635.18
+      ],
+      "paragraphBounds": [
+        [
+          613.14,
+          635.18
+        ]
+      ],
+      "optionBounds": [
+        [
+          648.18,
+          648.38
+        ],
+        [
+          660.09,
+          660.29
+        ],
+        [
+          672.09,
+          672.29
+        ],
+        [
+          684.09,
+          684.29
+        ],
+        [
+          696.09,
+          696.29
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "senado-2022-administracao-tipo1-q017-key-v1",
+      "answerDocumentId": "source-senado-2022-administracao-tipo1-key",
+      "answerValue": "d",
+      "answerPage": 1,
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-5"
+      ]
+    },
+    {
+      "questionId": "senado-2022-policial-tipo1-q014",
+      "paperId": "source-senado-2022-policial-tipo1",
+      "number": 14,
+      "questionType": "multiple_choice",
+      "sourcePage": 5,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        178.57,
+        248.61
+      ],
+      "paragraphBounds": [
+        [
+          178.57,
+          248.61
+        ]
+      ],
+      "optionBounds": [
+        [
+          261.49,
+          261.69
+        ],
+        [
+          273.49,
+          273.69
+        ],
+        [
+          285.52,
+          285.72
+        ],
+        [
+          297.52,
+          297.72
+        ],
+        [
+          309.52,
+          309.72
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "senado-2022-policial-tipo1-q014-key-v1",
+      "answerDocumentId": "source-senado-2022-policial-tipo1-key",
+      "answerValue": "c",
+      "answerPage": 1,
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-5"
+      ]
+    },
+    {
+      "questionId": "senado-2022-policial-tipo1-q016",
+      "paperId": "source-senado-2022-policial-tipo1",
+      "number": 16,
+      "questionType": "multiple_choice",
+      "sourcePage": 6,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        72.59,
+        118.77
+      ],
+      "paragraphBounds": [
+        [
+          72.59,
+          118.77
+        ]
+      ],
+      "optionBounds": [
+        [
+          131.65,
+          131.85
+        ],
+        [
+          143.65,
+          143.85
+        ],
+        [
+          155.65,
+          155.85
+        ],
+        [
+          167.65,
+          167.85
+        ],
+        [
+          179.53,
+          179.73
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "senado-2022-policial-tipo1-q016-key-v1",
+      "answerDocumentId": "source-senado-2022-policial-tipo1-key",
+      "answerValue": "c",
+      "answerPage": 1,
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-5"
+      ]
+    },
+    {
+      "questionId": "senado-2022-policial-tipo1-q017",
+      "paperId": "source-senado-2022-policial-tipo1",
+      "number": 17,
+      "questionType": "multiple_choice",
+      "sourcePage": 6,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        213.49,
+        248.61
+      ],
+      "paragraphBounds": [
+        [
+          213.49,
+          248.61
+        ]
+      ],
+      "optionBounds": [
+        [
+          261.49,
+          261.69
+        ],
+        [
+          273.49,
+          273.69
+        ],
+        [
+          285.52,
+          285.72
+        ],
+        [
+          297.52,
+          297.72
+        ],
+        [
+          309.52,
+          309.72
+        ]
+      ],
+      "optionMarker": "brackets",
+      "contextIds": [],
+      "answerKeyId": "senado-2022-policial-tipo1-q017-key-v1",
+      "answerDocumentId": "source-senado-2022-policial-tipo1-key",
+      "answerValue": "a",
+      "answerPage": 1,
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-5"
+      ]
+    },
+    {
+      "questionId": "128-tcemg-008-01-q043",
+      "paperId": "source-128-tcemg-008-01",
+      "number": 43,
+      "questionType": "multiple_choice",
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        68.206,
+        80.166
+      ],
+      "paragraphBounds": [
+        [
+          68.206,
+          80.166
+        ]
+      ],
+      "optionBounds": [
+        [
+          97.486,
+          132.966
+        ],
+        [
+          144.526,
+          191.646
+        ],
+        [
+          203.206,
+          238.596
+        ],
+        [
+          250.156,
+          297.276
+        ],
+        [
+          308.836,
+          344.316
+        ]
+      ],
+      "optionMarker": "plain",
+      "contextIds": [],
+      "answerKeyId": "128-tcemg-008-01-q043-key-v1",
+      "answerDocumentId": "source-128-tcemg-008-01-key",
+      "answerValue": "b",
+      "answerPage": 1,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-23",
+        "abdi-2026-abdi-nocoes-informatica-9"
+      ]
+    },
+    {
+      "questionId": "128-tcemg-008-01-q045",
+      "paperId": "source-128-tcemg-008-01",
+      "number": 45,
+      "questionType": "multiple_choice",
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        529.326,
+        553.046
+      ],
+      "paragraphBounds": [
+        [
+          529.326,
+          553.046
+        ]
+      ],
+      "optionBounds": [
+        [
+          570.486,
+          570.686
+        ],
+        [
+          582.246,
+          582.446
+        ],
+        [
+          593.886,
+          594.086
+        ],
+        [
+          605.646,
+          605.846
+        ],
+        [
+          617.406,
+          617.606
+        ]
+      ],
+      "optionMarker": "plain",
+      "contextIds": [],
+      "answerKeyId": "128-tcemg-008-01-q045-key-v1",
+      "answerDocumentId": "source-128-tcemg-008-01-key",
+      "answerValue": "b",
+      "answerPage": 1,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-9",
+        "abdi-2026-abdi-comunicacao-marketing-12"
+      ]
+    }
+  ],
+  "contexts": [
+    {
+      "contextId": "alerj-2026-education-passage",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        130,
+        660
+      ],
+      "paragraphBounds": [
+        [
+          130,
+          132
+        ],
+        [
+          144,
+          194
+        ],
+        [
+          206,
+          208
+        ],
+        [
+          220,
+          270
+        ],
+        [
+          282,
+          285
+        ],
+        [
+          296,
+          346
+        ],
+        [
+          358,
+          361
+        ],
+        [
+          372,
+          422
+        ],
+        [
+          434,
+          484
+        ],
+        [
+          496,
+          499
+        ],
+        [
+          510,
+          560
+        ],
+        [
+          572,
+          622
+        ],
+        [
+          634,
+          660
+        ]
+      ],
+      "creditBounds": [
+        671,
+        673
+      ]
+    }
+  ],
+  "roleMetadataUpdates": [
+    {
+      "roleId": "abdi-comunicacao-marketing",
+      "before": {
+        "id": "abdi-comunicacao-marketing",
+        "contestId": "abdi-2026",
+        "title": "Analista de Produtividade e Inovação — Comunicação e Marketing",
+        "status": "verified"
+      },
+      "after": {
+        "id": "abdi-comunicacao-marketing",
+        "contestId": "abdi-2026",
+        "title": "Analista de Produtividade e Inovação — Comunicação e Marketing",
+        "status": "verified",
+        "referenceDocumentIds": [
+          "reference-abdi-lei-11080-2004",
+          "reference-abdi-decreto-5352-2005",
+          "reference-abdi-lei-14440-2022"
+        ]
+      },
+      "reason": "Leitura institucional vinculada apenas à ABDI; não cria questões ou altera histórico."
+    }
+  ],
+  "pdfLineWrapNormalization": {
+    "method": "Keep the printed hyphen and join a word split across physical lines. Same-line formula spaces are not rewritten.",
+    "questionIds": [
+      "alerj-2026-comunicacao-manha-tipo1-q017"
+    ]
+  },
+  "boundaryNotes": [
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q020",
+      "excludedHeading": "Noções de Direito Administrativo"
+    },
+    {
+      "questionId": "senado-2022-policial-tipo1-q017",
+      "excludedHeading": "Língua Inglesa"
+    }
+  ],
+  "cellReferenceLayoutNormalization": {
+    "questionIds": [
+      "alerj-2026-comunicacao-manha-tipo1-q017",
+      "alerj-2026-comunicacao-manha-tipo1-q018"
+    ],
+    "method": "Remove a font-boundary space before punctuation following a cell reference; retain every character and the original formula."
+  },
+  "classificationNotes": [
+    {
+      "questionId": "128-tcemg-008-01-q043",
+      "notMappedTo": "abdi-2026-abdi-comunicacao-marketing-25",
+      "reason": "O núcleo é ética e supervisão humana no uso de IA. Mencionar LGPD em uma alternativa não fecha a lacuna de proteção de dados aplicada à comunicação."
+    }
+  ]
+}

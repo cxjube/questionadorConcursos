@@ -65,6 +65,7 @@
     const contestSelect = /** @type {HTMLSelectElement} */ (element('contest'));
     const roleSelect = /** @type {HTMLSelectElement} */ (element('role'));
     options(contestSelect, data.contests);
+    const watchItems = [...element('official-watch-links').children];
     /** @returns {void} */
     function renderNotices() {
       const contest = data.contests.find(row => row.id === contestSelect.value);
@@ -101,9 +102,23 @@
         list.append(item);
       }
       element('camara-reference-details').hidden = contest.id !== 'camara-2026';
+      for (const label of document.querySelectorAll('[data-selected-contest]')) label.textContent = contest.title;
+      element('official-watch-links').replaceChildren(...watchItems.filter(item=>item.getAttribute('data-contest-id')===contest.id || item.getAttribute('data-contest-id')==='all'));
+      const role = data.roles.find(r=>r.id===roleSelect.value);
+      const resources = (role?.referenceDocumentIds || []).map(id=>data.documents.find(d=>d.id===id)).filter(d=>d?.status==='verified' && d.officialUrl?.startsWith('https://'));
+      element('role-reference-details').hidden = !resources.length;
+      element('role-reference-title').textContent = 'Materiais de referência — ' + contest.title;
+      element('role-reference-links').replaceChildren();
+      for (const resource of resources) {
+        const li = document.createElement('li'), link = document.createElement('a');
+        link.href = resource.officialUrl; link.target = '_blank'; link.rel = 'noopener noreferrer';
+        link.textContent = resource.title; li.append(link); element('role-reference-links').append(li);
+      }
+
       renderProgram(roleSelect.value);
       renderRules(roleSelect.value);
       renderConsolidation(contest.id, roleSelect.value);
+      renderInventory(roleSelect.value);
       study.select(roleSelect.value);
       element('status').textContent = 'Seleção: ' + contest.title + '. ' + notices.length + ' editais cadastrados.';
     }
@@ -202,32 +217,39 @@
         target.append(details);
       }
     }
-    const received = data.papers.filter(paper => paper.inventory);
-    element('inventory-summary').textContent = 'Acervo compartilhado: ' + data.questions.length + ' questões únicas. Provas de origem: ' + received.length + ' pares de provas/gabaritos, com ' + received.reduce((total, paper) => total + (paper.inventory?.itemCount || 0), 0) + ' itens nos arquivos.';
-    for (const paper of received) {
-      const inventory = paper.inventory;
-      if (!inventory) continue;
-      const li = document.createElement('li');
-      const details = node('details', '');
-      details.className = 'paper-details';
-      details.append(node('summary', paper.institution + ' · ' + paper.year + ' · ' + inventory.itemCount + ' itens'));
-      details.append(node('p', paper.title));
-      details.append(node('p', 'Aplicação: ' + inventory.applicationDate.split('-').reverse().join('/') + ' · itens ' + inventory.firstItem + '–' + inventory.lastItem + ' · ' + (inventory.questionType === 'multiple_choice' ? 'Múltipla escolha' : 'Certo/Errado') + ' · ' + inventory.annulledItems.length + ' anulações no gabarito.'));
-      details.append(node('p', inventory.externalVerification
-        ? 'Caderno e gabarito conferidos por comparação com o download oficial. Somente as questões liberadas integram o estudo.'
-        : 'Conferência dos arquivos na fonte oficial ainda pendente.'));
-      for (const documentId of [paper.documentId, inventory.answerKeyDocumentId]) {
-        const source = data.documents.find(doc => doc.id === documentId);
-        if (source?.status === 'verified' && source.officialUrl?.startsWith('https://')) {
-          const link = document.createElement('a');
-          link.href = source.officialUrl;
-          link.textContent = documentId === inventory.answerKeyDocumentId ? 'Gabarito definitivo oficial' : 'Caderno oficial';
-          const line = document.createElement('span');
-          line.append(link);
-          details.append(line);
+    /** @param {string} roleId @returns {void} */
+    function renderInventory(roleId) {
+      const eligible = Study.pool(data, roleId, Study.empty());
+      const paperIds = new Set(eligible.map(q=>q.origin.paperId));
+      const received = data.papers.filter(paper => paper.inventory && paperIds.has(paper.id));
+      element('inventory').replaceChildren();
+      element('inventory-summary').textContent = eligible.length + ' questões vinculadas a este objetivo. Provas de origem: ' + received.length + ' pares de provas/gabaritos, com ' + received.reduce((total, paper) => total + (paper.inventory?.itemCount || 0), 0) + ' itens nos arquivos.';
+      for (const paper of received) {
+        const inventory = paper.inventory;
+        if (!inventory) continue;
+        const li = document.createElement('li');
+        const details = node('details', '');
+        details.className = 'paper-details';
+        details.append(node('summary', paper.institution + ' · ' + paper.year + ' · ' + inventory.itemCount + ' itens'));
+        details.append(node('p', paper.title));
+        details.append(node('p', eligible.filter(q=>q.origin.paperId===paper.id).length + ' questões liberadas deste caderno para este objetivo.'));
+        details.append(node('p', 'Aplicação: ' + inventory.applicationDate.split('-').reverse().join('/') + ' · itens ' + inventory.firstItem + '–' + inventory.lastItem + ' · ' + (inventory.questionType === 'multiple_choice' ? 'Múltipla escolha' : 'Certo/Errado') + ' · ' + inventory.annulledItems.length + ' anulações no gabarito.'));
+        details.append(node('p', inventory.externalVerification
+          ? 'Caderno e gabarito conferidos por comparação com o download oficial. Somente as questões liberadas integram o estudo.'
+          : 'Conferência dos arquivos na fonte oficial ainda pendente.'));
+        for (const documentId of [paper.documentId, inventory.answerKeyDocumentId]) {
+          const source = data.documents.find(doc => doc.id === documentId);
+          if (source?.status === 'verified' && source.officialUrl?.startsWith('https://')) {
+            const link = document.createElement('a');
+            link.href = source.officialUrl;
+            link.textContent = documentId === inventory.answerKeyDocumentId ? 'Gabarito definitivo oficial' : 'Caderno oficial';
+            const line = document.createElement('span');
+            line.append(link);
+            details.append(line);
+          }
         }
+        li.append(details); element('inventory').append(li);
       }
-      li.append(details); element('inventory').append(li);
     }
     /** @returns {void} */
     function changeContest() {
