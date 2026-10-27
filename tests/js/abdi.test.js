@@ -7,16 +7,16 @@ const root=path.resolve(__dirname,'../..'),role='abdi-comunicacao-marketing',cam
 const plain=x=>JSON.parse(JSON.stringify(x)),start='2026-10-27T10:00:00.000Z',end='2026-10-27T11:00:00.000Z';
 function setup(){const s={window:{},crypto:webcrypto,URL,TextEncoder};vm.createContext(s);for(const f of ['assets/js/study.js','assets/js/catalog.js','data/catalog.js'])vm.runInContext(fs.readFileSync(path.join(root,'docs',f),'utf8'),s);return {...s,data:s.window.CONCURSOS_CATALOG};}
 
-test('ABDI shares canonical items while keeping role pools, original formats and empty institutional topics distinct',()=>{
+test('ABDI shares canonical items while keeping role pools, original formats and institutional topics distinct',()=>{
  const s=setup(),p=s.Study.empty();
  assert.equal(s.Catalog.rolesFor(s.data,'abdi-2026')[0].id,role);
  assert.equal(s.Catalog.syllabusFor(s.data,role).length,97);
- const all=s.Study.pool(s.data,role,p);assert.equal(all.length,185);assert.equal(new Set(all.map(q=>q.id)).size,185);
- assert.equal(s.Study.pool(s.data,role,p,'all',{type:'multiple_choice'}).length,46);
- assert.equal(s.Study.pool(s.data,role,p,'all',{type:'true_false'}).length,139);
- assert.equal(s.Study.pool(s.data,role,p,'all',{block:'basic'}).length,86);
- assert.equal(s.Study.pool(s.data,role,p,'all',{block:'institutional'}).length,0);
- assert.equal(s.Study.pool(s.data,role,p,'all',{block:'specific'}).length,103);
+ const all=s.Study.pool(s.data,role,p);assert.equal(all.length,201);assert.equal(new Set(all.map(q=>q.id)).size,201);
+ assert.equal(s.Study.pool(s.data,role,p,'all',{type:'multiple_choice'}).length,55);
+ assert.equal(s.Study.pool(s.data,role,p,'all',{type:'true_false'}).length,146);
+ assert.equal(s.Study.pool(s.data,role,p,'all',{block:'basic'}).length,92);
+ assert.equal(s.Study.pool(s.data,role,p,'all',{block:'institutional'}).length,7);
+ assert.equal(s.Study.pool(s.data,role,p,'all',{block:'specific'}).length,115);
  assert.equal(s.Study.pool(s.data,camara,p).length,395);
  assert.throws(()=>s.Study.pool(s.data,role,p,'all',{topicId:'processo-legislativo-regimento-6-1'}));
  assert.throws(()=>s.Study.pool(s.data,role,p,'all',{block:'unconfirmed-block'}));
@@ -52,7 +52,7 @@ test('answering a shared question for Camara does not create an ABDI attempt or 
  const a=s.Study.create(s.data,camara,s.Study.empty(),'all',filters);a.answers.push({questionId:a.items[0].question.id,value:a.items[0].key.value});
  const p=s.Study.finish({...s.Study.empty(),active:a},end);
  assert.equal(s.Study.performance(p.history,role).attempts,0);
- assert.equal(s.Study.pool(s.data,role,p,'unanswered').length,185);
+ assert.equal(s.Study.pool(s.data,role,p,'unanswered').length,201);
  const b=s.Study.create(s.data,role,p,'all',filters);assert.equal(b.items[0].question.id,a.items[0].question.id);
  assert.ok(b.items[0].mappings.every(m=>m.roleId===role));assert.ok(a.items[0].mappings.every(m=>m.roleId===camara));
  assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup({...p,active:b}),s.data)),plain({...p,active:b}));
@@ -61,7 +61,7 @@ test('answering a shared question for Camara does not create an ABDI attempt or 
 test('institutional block metadata round-trips in a clearly isolated copied-catalog fixture',()=>{
  const s=setup(),data=plain(s.data),item=data.syllabusItems.find(i=>i.roleId===role && i.block==='institutional');
  data.mappings.push({id:'synthetic-institutional-mapping-test-only',questionId:data.questions[0].id,syllabusItemId:item.id,justification:'SYNTHETIC VALIDATION FIXTURE ONLY',status:'confirmed'});
- const session=s.Study.create(data,role,s.Study.empty(),'all',{block:'institutional',now:start});
+ const session=s.Study.create(data,role,s.Study.empty(),'all',{block:'institutional',limit:1,now:start});
  assert.equal(session.items.length,1);assert.equal(session.selection.block,'institutional');
  assert.ok(session.items[0].mappings.some(m=>m.block==='institutional'));
  const p={...s.Study.empty(),active:session};assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(p),data)),plain(p));

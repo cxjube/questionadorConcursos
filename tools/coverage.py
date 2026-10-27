@@ -228,7 +228,7 @@ def role_artifacts(catalog, review, role_id):
            f"Revisão: {review['reviewedAt']}. **{len(ids)} questões distintas: {report['distinctMC']} MC e {report['distinctCE']} C/E.**",
            f"Programa: {report['totalItems']} itens; {report['directItems']} com vínculo direto, {report['descendantsOnly']} apenas por descendentes e {report['emptyItems']} subárvores sem questões.", '',
            'A prova exige múltipla escolha. C/E são treino de conteúdo no formato original e não compõem reserva MC. Prioridade A indica ausência de MC; B, uma ou duas MC; C, pelo menos três. Não são pesos oficiais nem domínio do assunto.', '',
-           '[Lote atual e plano de fechamento](abdi-first-batch-release.md) · [CSV](coverage-abdi-current.csv)', '',
+           '[Lote atual e plano de fechamento](abdi-second-batch-release.md) · [CSV](coverage-abdi-current.csv)', '',
            '| Área | Questões distintas | MC | C/E |', '| --- | ---: | ---: | ---: |']
     for block,label in [('basic','Gerais'),('institutional','Institucionais'),('specific','Específicos')]:
         selected={q for row in report['items'] if row['block']==block for q in row['directQuestionIds']}

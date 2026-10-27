@@ -190,3 +190,10 @@ test('the CF promotion-personal mapping is versioned and never retroactively cha
  assert.ok(current.items[0].mappings.some(m=>m.topicId==='comunicacao-social-11'));
  assert.ok(s.Study.importBackup(s.Study.exportBackup({...s.Study.empty(),active:current}),s.data));
 });
+
+test('the original seeded Camara CE draw remains identical after adding the FGV allocator',()=>{
+ const s=setup(),expected=JSON.parse(fs.readFileSync(path.join(root,'tests/fixtures/camara-exam-draw-v1.json'),'utf8'));let n=expected.seed;
+ const random=()=>{n=(1664525*n+1013904223)>>>0;return n/4294967296;};
+ const session=s.Study.create(s.data,s.role,s.Study.empty(),'exam',{now:start,id:'legacy-draw-test',random});
+ assert.deepEqual(plain(session.items.map(i=>i.question.id)),expected.questionIds);
+});

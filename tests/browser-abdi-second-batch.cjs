@@ -1,0 +1,18 @@
+'use strict';
+const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs');
+const manifest=JSON.parse(fs.readFileSync('data/reviews/abdi-second-batch.json','utf8')),wanted=new Set(manifest.items.map(x=>x.questionId)),papers=[...new Set(manifest.items.map(x=>x.paperId))];
+const base=process.env.APP_BASE_URL||'http://127.0.0.1:8000/',key='questionador-concursos.progress.v1';
+const state=p=>p.evaluate(k=>JSON.parse(localStorage.getItem(k)).progress,key);
+(async()=>{const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});try{
+ for(const width of [320,1280]){const context=await browser.newContext({viewport:{width,height:1000},ignoreHTTPSErrors:base.startsWith('https:')}),page=await context.newPage(),seen=new Set(),errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(base);await page.locator('#start-study:not([disabled])').waitFor();await page.locator('#contest').selectOption('abdi-2026');await page.locator('[data-theme-choice="'+(width===320?'light':'dark')+'"]').click();assert.match(await page.locator('#study-availability').innerText(),/^201 questões/);
+  for(const paper of papers){
+   const count=await page.evaluate(paper=>Study.pool(window.CONCURSOS_CATALOG,'abdi-comunicacao-marketing',Study.empty(),'all',{paperId:paper}).length,paper);
+   await page.locator('#customize-study').click();await page.locator('#study-paper').selectOption(paper);await page.locator('#study-quantity').fill(String(count));await page.locator('#apply-study-options').click();await page.locator('#start-study').click();await page.locator('#finish-study').waitFor();const active=(await state(page)).active;assert.equal(active.items.length,count);
+   for(let i=0;i<count;i++){const item=active.items[i];if(wanted.has(item.question.id))seen.add(item.question.id);assert.equal(await page.locator('input[name="answer"]').count(),item.question.type==='multiple_choice'?item.question.options.length+1:3);await page.locator('input[value="'+String(item.key.value)+'"]').check();await page.waitForFunction(({key,n})=>JSON.parse(localStorage.getItem(key)).progress.active.answers.length===n,{key,n:i+1});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+    if(wanted.has(item.question.id)&&i===0){await page.evaluate(()=>document.documentElement.style.fontSize='200%');assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);await page.evaluate(()=>document.documentElement.style.fontSize='');}
+    if(i<count-1){await page.locator('#next-question').click();await page.locator('#current-question-heading').filter({hasText:'Questão '+(i+2)+' de '+count}).waitFor();}}
+   await page.locator('#finish-study').click();await page.locator('#confirm-finish').click();await page.locator('.didactic-comment').waitFor();assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);assert.equal(await page.locator('.didactic-comment a').count()>0,true);await page.locator('#new-session').click();
+  }
+  assert.deepEqual(seen,wanted);await page.reload();await page.locator('#start-study:not([disabled])').waitFor();await page.locator('#contest').selectOption('abdi-2026');assert.equal((await state(page)).history.length,papers.length);assert.equal(await page.locator('#prepare-exam').isDisabled(),true);assert.deepEqual(errors,[]);await context.close();console.log('All 16 new official questions, original 4/5-choice formats, CE, corrections and history passed at',width);
+ }
+ }finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

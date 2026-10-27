@@ -1,0 +1,265 @@
+{
+  "id": "abdi-second-reference-review",
+  "reviewedAt": "2026-10-27",
+  "method": "agent_assisted",
+  "scope": "Document identity, requested original acts and selected relevant clauses. Official portal still also lists older agreement texts. This is not an exhaustive legal-currency or signature-validation certification.",
+  "references": [
+    {
+      "documentId": "reference-abdi-estatuto-2024",
+      "file": "sources/references/ABDI-Estatuto-2024.pdf",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2025/01/Estatuto-Social-2024-Registrado.pdf",
+      "sha256": "ee40999e5d45cb19ceaebc2589c8a98f98d7af44946f9ad3c47a7e41e8c6db20",
+      "pages": 15,
+      "citations": [
+        {
+          "article": 5,
+          "sourcePage": 4,
+          "quoteExtracted": "Art. 5º A ABDI tem por finalidade promover a execução de políticas de desenvolvimento industrial, inovação e difusão de tecnologias, especialmente as que contribuam para a geração de empregos, renda, amadurecimento digital e fortalecimento das cadeias produtivas nacionais, em consonância com os objetivos de desenvolvimento sustentável aderentes a sua atuação e com as políticas de comércio exterior e de ciência e tecnologia. § 1º, Para o atingimento de suas finalidades, a ABDI poderá celebrar contratos, convênios, acordos de cooperação ou instrumentos congêneres com pessoas naturais ou pessoas ",
+          "scope": "Selected OCR/native-PDF clause only; raw extraction may include typographic OCR noise. Commentary is editorial paraphrase, not a verbatim legal transcription."
+        },
+        {
+          "article": 6,
+          "sourcePage": 5,
+          "quoteExtracted": "Art. 6º. São órgãos de direção da ABDI: !- Conselho Deliberativo, integrado por 15 conselheiros; !l- Conselho Fiscal 4 CF, integrado por três conselheiros; e Hl- Diretoria Executiva 4 DIREX, integrada por três membros, sendo um Presidente e dois Diretores. § 1º. Aos órgãos e entidades representadas nos Conselhos, não será atribuída responsabilidade solidária ou subsidiária quanto aos atos praticados por seus representantes nesses colegiados, em observância a este Estatuto e a legislação pertinente. § 2º A ABDI contratará seguro de Responsabilidade Civil de Administradores, Diretores e Gestores",
+          "scope": "Selected OCR/native-PDF clause only; raw extraction may include typographic OCR noise. Commentary is editorial paraphrase, not a verbatim legal transcription."
+        },
+        {
+          "article": 8,
+          "sourcePage": 6,
+          "quoteExtracted": "Art. 8º. O Conselho Deliberativo da ABDI é composto por 15 conselheiros, representantes dos órgãos e entidades descritos no art. 5º do Decreto nº 5.352, de 24 de janeiro de 2005 ou outro que vier a alterá-lo ou substituí-lo. § 1º. Cada conselheiro terá um suplente, que o substituirá em suas ausências e seus impedimentos. § 2°. O mandato dos conselheiros titulares e suplentes sera de dois anos, renovável uma vez por igual período. § 3º. As designações dos membros titulares e suplentes do Conselho Deliberativo serão informadas ao Presidente do colegiado pelos titulares dos órgãos e entidades res",
+          "scope": "Selected OCR/native-PDF clause only; raw extraction may include typographic OCR noise. Commentary is editorial paraphrase, not a verbatim legal transcription."
+        },
+        {
+          "article": 9,
+          "sourcePage": 6,
+          "quoteExtracted": "Art. 9º. Compete ao Conselho Deliberativo: /- eleger seu Presidente e Vice-Presidente; SIG Quadra 04 Bloco B Edificio Capital Financial Center - Cruzeiro/ ESTATUTO SOCIAL DA ABDI Sudoeste / Octogonal, Brasília - DF, 70610-440 6",
+          "scope": "Selected OCR/native-PDF clause only; raw extraction may include typographic OCR noise. Commentary is editorial paraphrase, not a verbatim legal transcription."
+        }
+      ]
+    },
+    {
+      "documentId": "reference-abdi-licitacoes-2021",
+      "file": "sources/references/ABDI-Licitacoes-2021.pdf",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Licitacoes-e-Contratos-2021_compressed-1.pdf",
+      "sha256": "b1bda6ea5e6e66f80cf9a38bac5a7fa5ccb3313872bf442b97ea6be13026b6a6",
+      "pages": 28,
+      "citations": [
+        {
+          "article": 1,
+          "sourcePage": 5,
+          "quoteExtracted": "Art. 1º. As contratações de obras, serviços, compras e alienações da ABDI serão precedidas de licitação, observadas as diretrizes e hipóteses de dispensa e inexigibilidade deste Regulamento. Art. 2º. A licitação destina-se a selecionar a proposta mais vantajosa para a ABDI, incentivar a inovação e o desenvolvimento nacional e será processada e julgada em estrita conformidade com os princípios da legalidade, da impessoalidade, da moralidade, da igualdade, da publicidade e eficiência e dos que lhe são correlatos, inadmitindo-se critérios que frustrem seu caráter competitivo. § 1°. A ABDI formula",
+          "scope": "Selected OCR/native-PDF clause only; raw extraction may include typographic OCR noise. Commentary is editorial paraphrase, not a verbatim legal transcription."
+        },
+        {
+          "article": 2,
+          "sourcePage": 5,
+          "quoteExtracted": "Art. 2º. A licitação destina-se a selecionar a proposta mais vantajosa para a ABDI, incentivar a inovação e o desenvolvimento nacional e será processada e julgada em estrita conformidade com os princípios da legalidade, da impessoalidade, da moralidade, da igualdade, da publicidade e eficiência e dos que lhe são correlatos, inadmitindo-se critérios que frustrem seu caráter competitivo. § 1°. A ABDI formulará, aplicará e manterá em vigor práticas coordenadas e eficazes contra a corrupção e que promovam a participação da sociedade, a integridade, a transparência e a obrigação de prestar contas. ",
+          "scope": "Selected OCR/native-PDF clause only; raw extraction may include typographic OCR noise. Commentary is editorial paraphrase, not a verbatim legal transcription."
+        }
+      ]
+    },
+    {
+      "documentId": "reference-abdi-convenios-2026",
+      "file": "sources/references/ABDI-Convenios-2026.pdf",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2026/07/Regulamento_de_convenios_15JUL2026.pdf",
+      "sha256": "93f27fde78d9cbf77b1b0bbf5e60f363da117efbf0ed79fdd9af2fce3cdd4eea",
+      "pages": 20,
+      "citations": [
+        {
+          "article": 2,
+          "sourcePage": 4,
+          "quoteExtracted": "Art. 2º. Para o efeito deste Regulamento, considera-se: I - convênio: denominação genérica do instrumento jurídico utilizado para execução de objeto de interesse recíproco, em regime de mútua cooperação, envolvendo transferência de recursos financeiros ao partícipe que se responsabilizará por sua consecução; a) convênio de cooperação técnica e financeira: celebrado para fins de execução de projeto ou ações de interesse recíproco, que envolvam a realização de projeto, atividade, estudo, ou aquisição de bens relacionados ao objeto; b) convênio de pesquisa, desenvolvimento ou inovação – celebrado",
+          "scope": "Selected OCR/native-PDF clause only; raw extraction may include typographic OCR noise. Commentary is editorial paraphrase, not a verbatim legal transcription."
+        },
+        {
+          "article": 38,
+          "sourcePage": 19,
+          "quoteExtracted": "Art. 38. A ABDI celebrará convênio na qualidade de Convenente/Executora sempre que tiver interesse em realizar projetos ou ações relacionadas à sua missão institucional, em regime de mútua cooperação, mediante recebimento de recursos financeiros de empresas ou entidades públicas ou privadas. § 1º. Os convênios em que a ABDI celebrar na condição de Convenente/Executora estipularão as regras para contratações de bens e serviços com os recursos destinados à execução de seu objeto. § 2º. Os recursos financeiros destinados a execução do objeto dos convênios em que a ABDI figurar como Convenente/Exe",
+          "scope": "Selected OCR/native-PDF clause only; raw extraction may include typographic OCR noise. Commentary is editorial paraphrase, not a verbatim legal transcription."
+        }
+      ]
+    },
+    {
+      "documentId": "reference-abdi-etica-2022",
+      "file": "sources/references/ABDI-Etica-CD004-2022.pdf",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Etica-e-Conduta.pdf",
+      "sha256": "cc4d98a93fd317296dd07fa77305f545fd840465276b3b25b4aaacf2b5166ed7",
+      "pages": 15,
+      "citations": [
+        {
+          "article": 1,
+          "sourcePage": 1,
+          "quoteExtracted": "Art. 1°. Fica aprovado o Regulamento de Etica e Conduta da ABDI. Art. 2°. Esta Resolução entra em vigor na presente data. | -. DANTE)LQÓÍÃRQU ENTINO Presidente do Conselho Deliberativo da ABDI e Resolugdo do Conselho Deliberativo Página 1 de 1",
+          "scope": "Selected OCR/native-PDF clause only; raw extraction may include typographic OCR noise. Commentary is editorial paraphrase, not a verbatim legal transcription."
+        },
+        {
+          "article": 3,
+          "sourcePage": 6,
+          "quoteExtracted": "Art. 3°. São valores e principios éticos que norteiam as relações regidas por esse Regulamento: I. a cooperacéo entre os diferentes atores na execução das ações de maneira escalavel e replicavel; Il. o compromisso com a competitividade nas ações voltadas para o aumento da competitividade do setor produtivo brasileiro; 1. ainovacéo em constante atualizac&o, interna e externa, para manutencéo de um portfélio de programas e projetos coerentes com os desafios da era digital; IV. a valorizacgdo humana no fomento de um ambiente respeitoso e de desenvolvimento que promova a melhoria da qualidade de v",
+          "scope": "Selected OCR/native-PDF clause only; raw extraction may include typographic OCR noise. Commentary is editorial paraphrase, not a verbatim legal transcription."
+        }
+      ]
+    },
+    {
+      "documentId": "reference-abdi-planejamento-2024-2029",
+      "file": "sources/references/ABDI-Planejamento-2024-2029-original.pdf",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2024/01/Caderno-Planejamento-Estrategico-ABDI-20242029_VF.pdf",
+      "sha256": "501b72f66b023155996e00555f247a83a14f1082d2de7f2ec7e78dca4a9f6837",
+      "pages": 38,
+      "citations": [
+        {
+          "sourcePage": 1,
+          "quoteExtracted": "Julho de 2023",
+          "scope": "Original caderno cover, approved by CD 008/2023; not replaced silently by the adjusted caderno."
+        }
+      ]
+    },
+    {
+      "documentId": "reference-abdi-resolucao-008-2023",
+      "file": "sources/references/ABDI-CD008-2023.pdf",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2023/12/008-2023-Resolucao-CD-ABDI-aprova-planejamento-estrategico-2024-2029-assinada.pdf",
+      "sha256": "1b9462f47bc48cd3cdbb83b52b43849a717602eff7701b9808462020c78cdb99",
+      "pages": 1,
+      "citations": [
+        {
+          "article": 1,
+          "sourcePage": 1,
+          "quoteExtracted": "Art. 1º, Fica aprovado o Planejamento Estratégico 2024-2029 da Agência Brasileira de Desenvolvimento Industrial. Art. 2º. Esta Resolução entra em vigor na data de sua publicação. e Ro AS GERALDO JOSÉ RODRIGUES ALCKMIN FILHO Presidente do Conselho Deliberativo da Agência Brasileira de Desenvolvimíento dustrial SBN Quadra 1 | Bloco B | 14º andar | Edifício CNC | Cep: 70041-902 | Brasília-DF | Brasil | Fone: (61) 3962-8700 | www.abdi.com.br",
+          "scope": "Selected OCR/native-PDF clause only; raw extraction may include typographic OCR noise. Commentary is editorial paraphrase, not a verbatim legal transcription."
+        }
+      ]
+    },
+    {
+      "documentId": "reference-abdi-planejamento-ajustado-2024",
+      "file": "sources/references/ABDI-Planejamento-ajustado-CD009-2024.pdf",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2026/04/Planejamento-Estrategico-ABDI-2024-2029.pdf",
+      "sha256": "162b7af25e598adb73eb0cb7c9430f2b13e73cac673a8a3a9ea782de56949528",
+      "pages": 32,
+      "citations": [
+        {
+          "sourcePage": 32,
+          "quoteExtracted": "RESOLUÇÃO CONSELHO DELIBERATIVO Nº 009, DE 27 DE NOVEMBRO DE 2024.",
+          "scope": "Distinct adjusted plan; supplementary reference, not a replacement for the original named notice act."
+        }
+      ]
+    }
+  ],
+  "questionReferences": [
+    {
+      "documentId": "reference-lgpd-camara-consolidada",
+      "file": "sources/references/lgpd-camara-consolidada.html",
+      "sha256": "5ade20f12d206504f3beb13a0595d144efc891229ad0e6badcebfa97a8a83596",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "citations": [
+        {
+          "article": 18,
+          "activeQuote": "Art. 18. O titular dos dados pessoais tem direito a obter do controlador, em relação aos dados do titular por ele tratados, a qualquer momento e mediante requisição: I - confirmação da existência de tratamento; II - acesso aos dados; III - correção de dados incompletos, inexatos ou desatualizados; IV - anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com o disposto nesta Lei; V - portabilidade dos dados a outro fornecedor de serviço ou produto, mediante requisição expressa, de acordo com a regulamentação da autoridade nacional, observados os segredos comercial e industrial; (Inciso com redação dada pela Lei nº 13.853, de 8/7/2019) VI - eliminação dos dados pessoais tratados com o consentimento do titular, exceto nas hipóteses previstas no art. 16 desta Lei; VII - informação das entidades públicas e privadas com as quais o controlador realizou uso compartilhado de dados; VIII - informação sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa; IX - revogação do consentimento, nos termos do § 5º do art. 8º desta Lei. § 1º O titular dos dados pessoais tem o direito de peticionar em relação aos seus dados contra o controlador perante a autoridade nacional. § 2º O titular pode opor-se a tratamento realizado com fundamento em uma das hipóteses de dispensa de consentimento, em caso de descumprimento ao disposto nesta Lei. § 3º Os direitos previstos neste artigo serão exercidos mediante requerimento expresso do titular ou de representante legalmente constituído, a agente de tratamento. § 4º Em caso de impossibilidade de adoção imediata da providência de que trata o § 3º deste artigo, o controlador enviará ao titular resposta em que poderá: I - comunicar que não é agente de tratamento dos dados e indicar, sempre que possível, o agente; ou II - indicar as razões de fato ou de direito que impedem a adoção imediata da providência. § 5º O requerimento referido no § 3º deste artigo será atendido sem custos para o titular, nos prazos e nos termos previstos em regulamento. § 6º O responsável deverá informar, de maneira imediata, aos agentes de tratamento com os quais tenha realizado uso compartilhado de dados a correção, a eliminação, a anonimização ou o bloqueio dos dados, para que repitam idêntico procedimento, exceto nos casos em que esta comunicação seja comprovadamente impossível ou implique esforço desproporcional. (Parágrafo com redação dada pela Lei nº 13.853, de 8/7/2019) § 7º A portabilidade dos dados pessoais a que se refere o inciso V do caput deste artigo não inclui dados que já tenham sido anonimizados pelo controlador. § 8º O direito a que se refere o § 1º deste artigo também poderá ser exercido perante os organismos de defesa do consumidor."
+        },
+        {
+          "article": 19,
+          "activeQuote": "Art. 19. A confirmação de existência ou o acesso a dados pessoais serão providenciados, mediante requisição do titular: I - em formato simplificado, imediatamente; ou II - por meio de declaração clara e completa, que indique a origem dos dados, a inexistência de registro, os critérios utilizados e a finalidade do tratamento, observados os segredos comercial e industrial, fornecida no prazo de até 15 (quinze) dias, contado da data do requerimento do titular. § 1º Os dados pessoais serão armazenados em formato que favoreça o exercício do direito de acesso. § 2º As informações e os dados poderão ser fornecidos, a critério do titular: I - por meio eletrônico, seguro e idôneo para esse fim; ou II - sob forma impressa. § 3º Quando o tratamento tiver origem no consentimento do titular ou em contrato, o titular poderá solicitar cópia eletrônica integral de seus dados pessoais, observados os segredos comercial e industrial, nos termos de regulamentação da autoridade nacional, em formato que permita a sua utilização subsequente, inclusive em outras operações de tratamento. § 4º A autoridade nacional poderá dispor de forma diferenciada acerca dos prazos previstos nos incisos I e II do caput deste artigo para os setores específicos."
+        },
+        {
+          "article": 20,
+          "activeQuote": "Art. 20. O titular dos dados tem direito a solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses, incluídas as decisões destinadas a definir o seu perfil pessoal, profissional, de consumo e de crédito ou os aspectos de sua personalidade. (“Caput” do artigo com redação dada pela Medida Provisória nº 869, de 27/12/2018, convertida na Lei nº 13.853, de 8/7/2019) § 1º O controlador deverá fornecer, sempre que solicitadas, informações claras e adequadas a respeito dos critérios e dos procedimentos utilizados para a decisão automatizada, observados os segredos comercial e industrial. § 2º Em caso de não oferecimento de informações de que trata o § 1º deste artigo baseado na observância de segredo comercial e industrial, a autoridade nacional poderá realizar auditoria para verificação de aspectos discriminatórios em tratamento automatizado de dados pessoais. § 3º (VETADO na Lei nº 13.853, de 8/7/2019)"
+        },
+        {
+          "article": 42,
+          "activeQuote": "Art. 42. O controlador ou o operador que, em razão do exercício de atividade de tratamento de dados pessoais, causar a outrem dano patrimonial, moral, individual ou coletivo, em violação à legislação de proteção de dados pessoais, é obrigado a repará-lo. § 1º A fim de assegurar a efetiva indenização ao titular dos dados: I - o operador responde solidariamente pelos danos causados pelo tratamento quando descumprir as obrigações da legislação de proteção de dados ou quando não tiver seguido as instruções lícitas do controlador, hipótese em que o operador equipara-se ao controlador, salvo nos casos de exclusão previstos no art. 43 desta Lei; II - os controladores que estiverem diretamente envolvidos no tratamento do qual decorreram danos ao titular dos dados respondem solidariamente, salvo nos casos de exclusão previstos no art. 43 desta Lei. § 2º O juiz, no processo civil, poderá inverter o ônus da prova a favor do titular dos dados quando, a seu juízo, for verossímil a alegação, houver hipossuficiência para fins de produção de prova ou quando a produção de prova pelo titular resultar-lhe excessivamente onerosa. § 3º As ações de reparação por danos coletivos que tenham por objeto a responsabilização nos termos do caput deste artigo podem ser exercidas coletivamente em juízo, observado o disposto na legislação pertinente. § 4º Aquele que reparar o dano ao titular tem direito de regresso contra os demais responsáveis, na medida de sua participação no evento danoso."
+        },
+        {
+          "article": 43,
+          "activeQuote": "Art. 43. Os agentes de tratamento só não serão responsabilizados quando provarem: I - que não realizaram o tratamento de dados pessoais que lhes é atribuído; II - que, embora tenham realizado o tratamento de dados pessoais que lhes é atribuído, não houve violação à legislação de proteção de dados; ou III - que o dano é decorrente de culpa exclusiva do titular dos dados ou de terceiro."
+        },
+        {
+          "article": 44,
+          "activeQuote": "Art. 44. O tratamento de dados pessoais será irregular quando deixar de observar a legislação ou quando não fornecer a segurança que o titular dele pode esperar, consideradas as circunstâncias relevantes, entre as quais: I - o modo pelo qual é realizado; II - o resultado e os riscos que razoavelmente dele se esperam; III - as técnicas de tratamento de dados pessoais disponíveis à época em que foi realizado. Parágrafo único. Responde pelos danos decorrentes da violação da segurança dos dados o controlador ou o operador que, ao deixar de adotar as medidas de segurança previstas no art. 46 desta Lei, der causa ao dano."
+        }
+      ]
+    },
+    {
+      "documentId": "reference-abdi-lei-11080-2004",
+      "file": "sources/references/lei11080-consolidada.html",
+      "sha256": "387cb9e784b490952003c9851e091ad9ceae52651e48a3b79a988e57bce3ac73",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2004/lei-11080-30-dezembro-2004-535280-normaatualizada-pl.html",
+      "method": "retained_official_snapshot_read_no_fresh_network_request",
+      "citations": [
+        {
+          "article": 1,
+          "activeQuote": "Art. 1º Fica o Poder Executivo autorizado a instituir Serviço Social Autônomo com a finalidade de promover a execução de políticas de desenvolvimento industrial, de inovação, de transformação digital e de difusão de tecnologia, especialmente as que contribuam para a geração de empregos, em consonância com as políticas de comércio exterior e de ciência e tecnologia. (“Caput” do artigo com redação dada pela Medida Provisória nº 1.112, de 31/3/2022, convertida na Lei nº 14.440, de 2/9/2022) § 1º O Serviço Social Autônomo de que trata o caput deste artigo, pessoa jurídica de direito privado sem fins lucrativos, de interesse coletivo e de utilidade pública, denomina-se Agência Brasileira de Desenvolvimento Industrial - ABDI. § 2º (VETADO)"
+        },
+        {
+          "article": 8,
+          "activeQuote": "Art. 8º Compete ao Poder Executivo, na supervisão da gestão da ABDI: I - definir os termos do contrato de gestão, que estipulará as metas e objetivos, os prazos e responsabilidades para sua execução e especificará os critérios para avaliação da aplicação dos recursos a ela repassados; e II - aprovar, anualmente, o orçamento-programa da ABDI para a execução das atividades previstas no contrato de gestão. Parágrafo único. Até o dia 31 de março de cada exercício, o Poder Executivo apreciará o relatório de gestão e emitirá parecer sobre o cumprimento do contrato de gestão pela ABDI."
+        },
+        {
+          "article": 9,
+          "activeQuote": "Art. 9º São obrigações da ABDI: I - apresentar, anualmente, ao Poder Executivo, até 31 de janeiro, relatório circunstanciado sobre a execução do contrato de gestão no exercício anterior, com a prestação de contas dos recursos públicos nele aplicados, a avaliação geral do contrato de gestão e as análises gerenciais cabíveis; II - remeter ao Tribunal de Contas da União, até 31 de março do ano seguinte ao término do exercício financeiro, as contas da gestão anual aprovadas pelo Conselho Deliberativo; III - articular-se com os órgãos públicos e entidades privadas para o cumprimento de suas finalidades; e IV - disponibilizar informações técnicas, creditícias, entre outras, que contribuam para o desenvolvimento industrial brasileiro."
+        },
+        {
+          "article": 10,
+          "activeQuote": "Art. 10. A ABDI firmará contrato de gestão com o Ministério do Desenvolvimento, Indústria e Comércio Exterior para execução das finalidades previstas nesta Lei."
+        },
+        {
+          "article": 17,
+          "activeQuote": "Art. 17. Constituem receitas adicionais da ABDI: I - os recursos que lhe forem transferidos em decorrência de dotações consignadas no Orçamento-Geral da União, créditos adicionais, transferências ou repasses; II - os recursos provenientes de convênios, acordos e contratos celebrados com entidades, organismos e empresas; III - as doações, legados, subvenções e outros recursos que lhe forem destinados; IV - os decorrentes de decisão judicial; V - os valores apurados com a venda ou o aluguel de bens móveis e imóveis de sua propriedade; (Inciso com redação dada pela Medida Provisória nº 1.112, de 31/3/2022, convertida na Lei nº 14.440, de 2/9/2022) VI - os rendimentos resultantes de aplicações financeiras e de capitais, quando autorizadas pelo Conselho Deliberativo; e (Inciso com redação dada pela Medida Provisória nº 1.112, de 31/3/2022, convertida na Lei nº 14.440, de 2/9/2022) VII - os recursos provenientes da prestação de serviços relacionados às suas finalidades institucionais. (Inciso acrescido pela Medida Provisória nº 1.112, de 31/3/2022, convertida na Lei nº 14.440, de 2/9/2022)"
+        },
+        {
+          "article": 23,
+          "activeQuote": "Art. 23. O patrimônio da ABDI, bem como os legados, doações e heranças que lhe forem destinados, na hipótese de sua extinção, será imediatamente transferido à União."
+        }
+      ]
+    }
+  ],
+  "requestedDocumentGroups": [
+    {
+      "group": "Estatuto",
+      "status": "verified",
+      "documentIds": [
+        "reference-abdi-estatuto-2024"
+      ]
+    },
+    {
+      "group": "Licitações e Contratos",
+      "status": "verified",
+      "documentIds": [
+        "reference-abdi-licitacoes-2021"
+      ]
+    },
+    {
+      "group": "Convênios",
+      "status": "verified",
+      "documentIds": [
+        "reference-abdi-convenios-2026"
+      ],
+      "note": "Portal labels the current file as 2026 and also offers 2024/2021 files; the old ones are not assumed current."
+    },
+    {
+      "group": "Ética e Conduta",
+      "status": "verified",
+      "documentIds": [
+        "reference-abdi-etica-2022"
+      ],
+      "note": "CD 004/2022, de 16/03/2022, visible on PDF page 1."
+    },
+    {
+      "group": "Planejamento Estratégico",
+      "status": "verified",
+      "documentIds": [
+        "reference-abdi-resolucao-008-2023",
+        "reference-abdi-planejamento-2024-2029"
+      ],
+      "supplementaryDocumentIds": [
+        "reference-abdi-planejamento-ajustado-2024"
+      ],
+      "note": "CD 008 de 30/11/2023 and original July 2023 caderno retained, with the distinct CD 009/2024 adjustment identified separately."
+    }
+  ],
+  "pendingInternalDocuments": [],
+  "blockedFetches": [
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "outcome": "HTTP 503; current cited LGPD articles read on the official Câmara consolidated HTML instead, retained as a separate canonical source."
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Revisão das diretrizes recebidas — 23/10/2026
 
+> ABDI — [segundo lote](abdi-second-batch-release.md): cinco grupos internos confirmados, 201 questões de treino, sete MC institucionais e déficit de 13 pelas cotas. O [motor FGV](abdi-exam-engine-release.md) está implementado/testado e continua bloqueado na base real insuficiente. Os registros anteriores são históricos.
+
 > ABDI: [cadastro e treino](abdi-intake-release.md), 97 itens, 145 questões compartilhadas, regras específicas e mapas por cargo. Institucionais e simulado FGV permanecem pendentes; os registros anteriores abaixo se referem à Câmara ou a entregas históricas.
 
 > Estado atual: [17º lote](seventeenth-batch-release.md), 395 questões, 378 C/E, 181/228 itens diretos, reserva 169/209 e 14 lacunas. As atualizações anteriores abaixo são históricas.

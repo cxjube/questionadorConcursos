@@ -1,0 +1,230 @@
+{
+  "id": "abdi-second-source-discovery",
+  "checkedAt": "2026-10-27",
+  "scope": "Official retained portal/API listings; exact-role objective post-appeal keys. Independent repeated byte matches for the seven institutional PDFs and eight selected IBFC source PDFs. LGPD HTML retains initial official bytes only. Prior sources were not all downloaded again.",
+  "listings": [
+    {
+      "id": "legislation",
+      "url": "https://www.abdi.com.br/transparencia/legislacao-aplicavel/",
+      "file": "data/reviews/abdi-second-source-evidence/legislation.html",
+      "sha256": "fc08dcca183751a09c04d33bfdea775dec61a0fc27dbc6c19571f081135cc97f"
+    },
+    {
+      "id": "media-plan",
+      "url": "https://www.abdi.com.br/wp-json/wp/v2/media?search=Planejamento&per_page=100",
+      "file": "data/reviews/abdi-second-source-evidence/media-plan.json",
+      "sha256": "5a9f1b6ad6e5d25cd1e36ba46c9f5935c2268d2b2d03459c1973b5abbf416128"
+    },
+    {
+      "id": "ibfc-2014-index",
+      "url": "https://www2.ibfc.org.br/concurso/abdi-0814/",
+      "file": "data/reviews/abdi-second-source-evidence/abdi-2008-index.html",
+      "sha256": "cec3c0f6ef5c5afa216faa2be040cabd09513c1945262db114fd65904d588bb5"
+    },
+    {
+      "id": "ibfc-papers",
+      "url": "https://www2.ibfc.org.br/concurso/abdi-0814/provas.asp",
+      "file": "data/reviews/abdi-second-source-evidence/ibfc-papers.html",
+      "sha256": "14443380210ab88483321e20578785cd20a389cf1e3308df2dd12955a7f034f1"
+    },
+    {
+      "id": "ibfc-post-keys",
+      "url": "https://www2.ibfc.org.br/concurso/abdi-0814/gabaritos-pos.asp",
+      "file": "data/reviews/abdi-second-source-evidence/ibfc-post-keys.html",
+      "sha256": "1f6be33b83641341b3fca80e5219eeddbe4457f1af6fc03421fefd7d8b0bd83f"
+    }
+  ],
+  "pairs": [
+    {
+      "paperId": "source-abdi-2008-especialista-juridico",
+      "applicationDate": "2008-09-07",
+      "dateEvidence": "abdi-2008-index.html: realizado em 07/09/2008; filename code 0814 is not the year 2014.",
+      "booklet": "ADI – NÍVEL SUPERIOR ESPECIALISTA - JURÍDICO",
+      "firstItem": 1,
+      "lastItem": 20,
+      "annulledItems": [],
+      "documents": [
+        {
+          "documentId": "source-abdi-2008-especialista-juridico-paper",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/especialista-juridico.pdf",
+          "sha256": "0705140b75d4328c03ebc8d539fa35973b7a5a98c1d6e52ed96ed78b1e525813",
+          "method": "independent_second_download_byte_match"
+        },
+        {
+          "documentId": "source-abdi-2008-especialista-juridico-key",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/especialista-juridico.pdf",
+          "sha256": "dafeceb56a11daba85d428663935aa158e4f639f8d3c10aadd8efc7cf018c2ab",
+          "method": "independent_second_download_byte_match"
+        }
+      ],
+      "objectiveScope": "20 objective numbers only; retained PDFs may also include discursive questions/answers, which are not imported."
+    },
+    {
+      "paperId": "source-abdi-2008-especialista-controle-interno-auditoria",
+      "applicationDate": "2008-09-07",
+      "dateEvidence": "abdi-2008-index.html: realizado em 07/09/2008; filename code 0814 is not the year 2014.",
+      "booklet": "ADI – NÍVEL SUPERIOR ESPECIALISTA – CONTROLE INTERNO - AUDITORIA",
+      "firstItem": 1,
+      "lastItem": 20,
+      "annulledItems": [
+        19
+      ],
+      "documents": [
+        {
+          "documentId": "source-abdi-2008-especialista-controle-interno-auditoria-paper",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/especialista-controle-interno-auditoria.pdf",
+          "sha256": "827dab445e6ef73b406c1177bac3c94d6e9e968c118313ed0c629bc4cca08402",
+          "method": "independent_second_download_byte_match"
+        },
+        {
+          "documentId": "source-abdi-2008-especialista-controle-interno-auditoria-key",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/especialista-controle-interno-auditoria.pdf",
+          "sha256": "f937a8b7e64e575d378e511449d3b1b8b11f528c05987d3e7ceb503db1270e9a",
+          "method": "independent_second_download_byte_match"
+        }
+      ],
+      "objectiveScope": "20 objective numbers only; retained PDFs may also include discursive questions/answers, which are not imported."
+    },
+    {
+      "paperId": "source-abdi-2008-senior-juridico",
+      "applicationDate": "2008-09-07",
+      "dateEvidence": "abdi-2008-index.html: realizado em 07/09/2008; filename code 0814 is not the year 2014.",
+      "booklet": "ADI – NÍVEL SUPERIOR SÊNIOR - JURÍDICO",
+      "firstItem": 1,
+      "lastItem": 20,
+      "annulledItems": [],
+      "documents": [
+        {
+          "documentId": "source-abdi-2008-senior-juridico-paper",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/senior-juridico.pdf",
+          "sha256": "47e579bd8c908bb30f82debb5e044e2a1870b94a1393ff8ee63132ca25cf2b71",
+          "method": "independent_second_download_byte_match"
+        },
+        {
+          "documentId": "source-abdi-2008-senior-juridico-key",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/senior-juridico.pdf",
+          "sha256": "f602e3010173080974085a8018af5ac36715b43c93df8fb28779cd514103c11d",
+          "method": "independent_second_download_byte_match"
+        }
+      ],
+      "objectiveScope": "20 objective numbers only; retained PDFs may also include discursive questions/answers, which are not imported."
+    },
+    {
+      "paperId": "source-abdi-2008-senior-assessor-comunicacao",
+      "applicationDate": "2008-09-07",
+      "dateEvidence": "abdi-2008-index.html: realizado em 07/09/2008; filename code 0814 is not the year 2014.",
+      "booklet": "ADI – NÍVEL SUPERIOR SÊNIOR – ASSESSOR DE COMUNICAÇÃO",
+      "firstItem": 1,
+      "lastItem": 20,
+      "annulledItems": [
+        19
+      ],
+      "documents": [
+        {
+          "documentId": "source-abdi-2008-senior-assessor-comunicacao-paper",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/senior-assessor-de-comunicacao.pdf",
+          "sha256": "e47217e0061718438e3c9c82797c2f904bf67e93d9a3cdf603ce692f6d5eacf9",
+          "method": "independent_second_download_byte_match"
+        },
+        {
+          "documentId": "source-abdi-2008-senior-assessor-comunicacao-key",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/senior-assessor-de-comunicacao.pdf",
+          "sha256": "0f9fc74ffb48466ad63301b1afb01e45345b5294b9ade6b796c23afcae28b1ca",
+          "method": "independent_second_download_byte_match"
+        }
+      ],
+      "objectiveScope": "20 objective numbers only; retained PDFs may also include discursive questions/answers, which are not imported."
+    }
+  ],
+  "references": [
+    {
+      "documentId": "reference-abdi-estatuto-2024",
+      "url": "https://www.abdi.com.br/wp-content/uploads/2025/01/Estatuto-Social-2024-Registrado.pdf",
+      "sha256": "ee40999e5d45cb19ceaebc2589c8a98f98d7af44946f9ad3c47a7e41e8c6db20",
+      "method": "independent_second_download_byte_match"
+    },
+    {
+      "documentId": "reference-abdi-licitacoes-2021",
+      "url": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Licitacoes-e-Contratos-2021_compressed-1.pdf",
+      "sha256": "b1bda6ea5e6e66f80cf9a38bac5a7fa5ccb3313872bf442b97ea6be13026b6a6",
+      "method": "independent_second_download_byte_match"
+    },
+    {
+      "documentId": "reference-abdi-convenios-2026",
+      "url": "https://www.abdi.com.br/wp-content/uploads/2026/07/Regulamento_de_convenios_15JUL2026.pdf",
+      "sha256": "93f27fde78d9cbf77b1b0bbf5e60f363da117efbf0ed79fdd9af2fce3cdd4eea",
+      "method": "independent_second_download_byte_match"
+    },
+    {
+      "documentId": "reference-abdi-etica-2022",
+      "url": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Etica-e-Conduta.pdf",
+      "sha256": "cc4d98a93fd317296dd07fa77305f545fd840465276b3b25b4aaacf2b5166ed7",
+      "method": "independent_second_download_byte_match"
+    },
+    {
+      "documentId": "reference-abdi-planejamento-2024-2029",
+      "url": "https://www.abdi.com.br/wp-content/uploads/2024/01/Caderno-Planejamento-Estrategico-ABDI-20242029_VF.pdf",
+      "sha256": "501b72f66b023155996e00555f247a83a14f1082d2de7f2ec7e78dca4a9f6837",
+      "method": "independent_second_download_byte_match"
+    },
+    {
+      "documentId": "reference-abdi-resolucao-008-2023",
+      "url": "https://www.abdi.com.br/wp-content/uploads/2023/12/008-2023-Resolucao-CD-ABDI-aprova-planejamento-estrategico-2024-2029-assinada.pdf",
+      "sha256": "1b9462f47bc48cd3cdbb83b52b43849a717602eff7701b9808462020c78cdb99",
+      "method": "independent_second_download_byte_match"
+    },
+    {
+      "documentId": "reference-abdi-planejamento-ajustado-2024",
+      "url": "https://www.abdi.com.br/wp-content/uploads/2026/04/Planejamento-Estrategico-ABDI-2024-2029.pdf",
+      "sha256": "162b7af25e598adb73eb0cb7c9430f2b13e73cac673a8a3a9ea782de56949528",
+      "method": "independent_second_download_byte_match"
+    },
+    {
+      "documentId": "reference-lgpd-camara-consolidada",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "sha256": "5ade20f12d206504f3beb13a0595d144efc891229ad0e6badcebfa97a8a83596",
+      "method": "initial_official_html_download"
+    }
+  ],
+  "excluded": [
+    {
+      "paper": "especialista-controle-interno-auditoria",
+      "number": 19,
+      "reason": "Official post-appeal key: ANULADA."
+    },
+    {
+      "paper": "senior-assessor-de-comunicacao",
+      "number": 19,
+      "reason": "Official post-appeal key: ANULADA."
+    },
+    {
+      "paper": "senior-juridico",
+      "number": 19,
+      "reason": "Original key D; the 2024 statute art. 9 also expressly admits A (deliberating on accounting statements). Deferred as ambiguous under current wording."
+    },
+    {
+      "paper": "especialista-juridico",
+      "number": 18,
+      "reason": "Original key D describes an intervening party as executor of exclusively physical goals; 2026 agreement definitions changed. Not released as current ABDI regulation."
+    },
+    {
+      "paper": "especialista-controle-interno-auditoria",
+      "number": 14,
+      "reason": "Original definitions and the agency as always grantor are incompatible with the 2026 regulation including ABDI as grantee/executor. Deferred."
+    },
+    {
+      "paper": "senior-juridico",
+      "number": 20,
+      "reason": "Older direct-contracting assumptions/typography and current regulation require additional review; not counted."
+    },
+    {
+      "subject": "Other researched IBFC roles",
+      "reason": "Repeated identical institutional questions are not cloned to manufacture 20 IDs. Public-service general law and obsolete monetary limits do not substitute ABDI regulations."
+    },
+    {
+      "paper": "especialista-controle-interno-auditoria",
+      "number": 16,
+      "reason": "A enumeração literal de princípios foi modificada no Regulamento de 2021. A chave histórica A permanece válida no caderno de 2008; ela não comprova uma alternativa literal única no texto atual. Item retirado do banco atual e da capacidade do simulado, sem classificá-lo como anulado."
+    }
+  ]
+}

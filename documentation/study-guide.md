@@ -2,7 +2,7 @@
 
 > Câmara: 395 questões, sendo 378 C/E; reserva 169/209 em P1/P2. O [16º lote](sixteenth-batch-release.md), o [mapa atual](coverage-current.md) e o [roteiro dos manuais](camara-reading-guide.md) atualizam as contagens históricas abaixo.
 
-1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. Câmara — Comunicação Social — Divulgação Institucional possui 395 questões de provas anteriores relacionadas. ABDI — Comunicação e Marketing oferece 185 questões de treino, descrito na seção ABDI.
+1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. Câmara — Comunicação Social — Divulgação Institucional possui 395 questões de provas anteriores relacionadas. ABDI — Comunicação e Marketing oferece 201 questões de treino, descrito na seção ABDI.
 2. Marque sua resposta ou **Deixar em branco**. Use **Anterior** e **Próxima** para navegar; **Próxima** é a ação principal. Você pode trocar a alternativa ou selecionar **Deixar em branco** até finalizar.
 3. Ao sair e voltar, use **Continuar questões**. A posição e as marcações são retomadas quando o navegador permitiu o salvamento.
 4. Use **Finalizar sessão** em qualquer questão ou abra **Revisar sessão** para conferir a lista e voltar às questões que quiser (também é o próximo passo na última questão). A confirmação informa quantas questões ficarão em branco e inicia com foco em **Continuar respondendo**. Cancelar ou abrir a revisão não encerra a tentativa. Questões sem marcação passam a brancos. A correção mostra sua resposta, gabarito definitivo, resultado e links da prova e do gabarito. Explicações indisponíveis são identificadas.
@@ -120,8 +120,10 @@ O Manual de Comunicação da Câmara tem duas questões de múltipla escolha da 
 
 ## Estudar para ABDI
 
-Selecione ABDI — Comunicação e Marketing. A base tem 185 questões (139 C/E e 46 MC): 145 reutilizadas por vínculos temáticos e 40 novas de provas oficiais. Use Personalizar treino para selecionar Gerais, Institucionais ou Específicos e filtrar o formato. Institucionais ainda não possui questões liberadas. A prova oficial é MC; C/E são apenas treino de conteúdo e mantêm o formato original. O simulado da ABDI ainda não está disponível.
+Selecione ABDI — Comunicação e Marketing. A base tem 201 questões (146 C/E e 55 MC), incluindo sete institucionais revisadas. Use Personalizar treino para selecionar Gerais, Institucionais ou Específicos e filtrar o formato. Institucionais possui oito MC; os filtros preservam as quatro alternativas originais do IBFC e as cinco dos demais itens. A prova oficial é MC; C/E são apenas treino de conteúdo e mantêm o formato original. O simulado da ABDI continua bloqueado: faltam 13 MC institucionais para preencher as cotas sem repetir IDs. O motor já suporta o perfil FGV; não reduz a prova para contornar a falta de questões.
 
-Programa, Regras e Editais mostram o perfil próprio da ABDI. Os históricos dos cargos permanecem separados, mesmo quando utilizam o mesmo ID de questão. Uma sessão ABDI em andamento recupera esse objetivo ao recarregar. Para saber o que falta, consulte [o plano de fechamento atualizado](abdi-first-batch-release.md).
+Programa, Regras e Editais mostram o perfil próprio da ABDI. Os históricos dos cargos permanecem separados, mesmo quando utilizam o mesmo ID de questão. Uma sessão ABDI em andamento recupera esse objetivo ao recarregar. Para saber o que falta, consulte [o plano de fechamento atualizado](abdi-second-batch-release.md).
 
 A escolha do objetivo separa o cartão **Treino de questões**, a preparação de **Simulado** e o acesso ao histórico. As quatro abas de referência acompanham essa seleção. Em **Provas e gabaritos**, aparecem somente cadernos com questões vinculadas ao cargo, com a contagem liberada para ele; o PDF completo pode conter outros assuntos.
+
+Em **Editais → Materiais de referência — ABDI**, estão o Estatuto, os regulamentos próprios, Ética, a CD 008/2023 com o planejamento original e o planejamento ajustado de 2024 identificado separadamente. São leituras verificadas; seus links não significam que todas as normas já tenham questões.

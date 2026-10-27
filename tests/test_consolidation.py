@@ -34,12 +34,12 @@ class ConsolidationTests(unittest.TestCase):
         self.assertEqual(len(self.catalog['disciplines']), 16)
         self.assertEqual(len(self.catalog['topics']), 325)
         self.assertEqual(len(self.catalog['syllabusItems']), 325)
-        self.assertEqual(len(self.catalog['papers']), 45)
-        self.assertEqual(sum(p['inventory']['itemCount'] for p in self.catalog['papers']), 3036)
-        self.assertEqual(sum(len(p['inventory']['annulledItems']) for p in self.catalog['papers']), 134)
-        self.assertEqual(len(self.catalog['questions']), 435)
-        self.assertEqual(len(self.catalog['answerKeys']), 435)
-        self.assertEqual(len(self.catalog['mappings']), 605)
+        self.assertEqual(len(self.catalog['papers']), 49)
+        self.assertEqual(sum(p['inventory']['itemCount'] for p in self.catalog['papers']), 3116)
+        self.assertEqual(sum(len(p['inventory']['annulledItems']) for p in self.catalog['papers']), 136)
+        self.assertEqual(len(self.catalog['questions']), 451)
+        self.assertEqual(len(self.catalog['answerKeys']), 451)
+        self.assertEqual(len(self.catalog['mappings']), 637)
         self.assertTrue(all(c['status'] == 'planned' for c in self.catalog['contests'][2:]))
         self.assertEqual({item['roleId'] for item in self.catalog['syllabusItems']}, {'camara-comunicacao-divulgacao', 'abdi-comunicacao-marketing'})
         self.assertEqual({item['noticeId'] for item in self.catalog['syllabusItems']}, {'camara-2026-edital-01', 'abdi-2026-edital-01'})
@@ -154,12 +154,15 @@ class ConsolidationTests(unittest.TestCase):
             with self.subTest(paper=paper['booklet']):
                 info = paper['inventory']
                 body = pdf_text(ROOT / docs[paper['documentId']]['file'], '-raw')
-                observed = {int(n) for n in re.findall(r'^(?:Questão\s+)?(\d{1,3})\s+', body, re.M)}
+                if paper['provider']=='IBFC':
+                    body=pdf_text(ROOT / docs[paper['documentId']]['file'])
+                marker = r'(?:^|\s{2,})(\d{1,3})\)\s+' if paper['provider']=='IBFC' else r'^(?:Questão\s+)?(\d{1,3})\s+'
+                observed = {int(n) for n in re.findall(marker, body, re.M)}
                 expected = set(range(info['firstItem'], info['lastItem'] + 1))
                 self.assertTrue(expected <= observed)
                 text = pdf_text(ROOT / docs[info['answerKeyDocumentId']]['file'])
-                self.assertIn(paper['booklet'], text)
-                self.assertRegex(text, r'GABARITOS? (?:OFICIAIS )?DEFINITIVOS?')
+                self.assertIn(clean(paper['booklet']), clean(text))
+                self.assertRegex(text, r'GABARITO OFICIAL – APÓS RECURSO – PROVA OBJETIVA' if paper['provider']=='IBFC' else r'GABARITOS? (?:OFICIAIS )?DEFINITIVOS?')
                 key = answer_table(text, paper['booklet'])
                 self.assertEqual(set(key), expected)
                 allowed = set('CEX') if info['questionType'] == 'true_false' else set('ABCDEX')

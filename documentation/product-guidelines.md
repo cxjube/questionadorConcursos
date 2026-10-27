@@ -2,7 +2,7 @@
 
 ## Diretrizes de produto, arquitetura, banco de questões e experiência de estudo
 
-**Versão:** 1.22 — revisão integrada ao repositório
+**Versão:** 1.23 — revisão integrada ao repositório
 **Data:** 27/10/2026
 **Projeto:** Questionador Concursos
 **Repositório:** https://github.com/cxjube/questionadorConcursos
@@ -16,7 +16,7 @@ Este documento consolida as sugestões fornecidas pelo usuário e os ajustes de 
 
 O [17º lote](seventeenth-batch-release.md) consolida 395 questões (378 C/E e 17 MC), reserva 169/209 e 14 lacunas registradas. Questões e regras históricas permanecem versionadas.
 
-A [entrega ABDI atual](abdi-first-batch-release.md) amplia o segundo objetivo para 185 questões de treino (139 C/E / 46 MC), mantendo seus 97 itens e regras FGV. O catálogo global tem 435 questões únicas, 435 comentários, 190 contextos, 605 vínculos e 139 fontes (102 PDFs / 37 HTML). A Câmara conserva 395 questões e 404 vínculos; ABDI tem 201 vínculos, com 48 itens diretos, dois atendidos por descendentes e 47 subárvores vazias. As cotas MC gerais/específicas comportam 40 IDs distintos; faltam ao menos 20 institucionais nas cotas 4/4/8/4 e cinco documentos próprios da ABDI. O simulado FGV permanece pendente. Todas as abas e os links de acompanhamento consideram o objetivo selecionado; provas de outros órgãos só aparecem quando há questões vinculadas ao cargo. A seleção separa treino, simulado e histórico.
+A [entrega ABDI atual](abdi-second-batch-release.md) confirma os cinco grupos internos, preservando CD 008/2023 e o caderno original separadamente do ajuste CD 009/2024, e amplia o cargo para 201 questões (146 C/E / 55 MC), com sete institucionais. Global: 451 questões e comentários, 195 contextos, 637 vínculos e 155 fontes. ABDI tem 233 vínculos e mapa 59/97 direto, cinco só por descendentes e 33 vazios. Todos os 26 títulos específicos possuem amostras parciais; científico/ambiental e LGPD precisam de mais MC e diversidade. O motor FGV está implementado/testado, mas a base real só preenche 47/60 vagas distintas: faltam 13 institucionais nas cotas próprias. Não reduzir a prova ou fabricar alternativas para ativá-lo. O sorteio e as regras Câmara permanecem iguais. Os seis itens IBFC preservam quatro alternativas, com essa diferença informada na preparação; nenhuma questão sintética integra o acervo. Todas as abas continuam considerando o objetivo selecionado.
 
 O estado da Câmara após os dezessete lotes (preservado pela expansão ABDI) inclui o catálogo v3: 395 questões oficiais (378 C/E e 17 de múltipla escolha), 189 contextos, 404 vínculos revisados e 395 comentários didáticos com fontes independentes. As nove disciplinas estão iniciadas, sem cobertura integral do edital. Os comentários são assistidos por IA, separados do gabarito definitivo. Naquele marco havia 130 fontes canônicas retidas: 96 PDFs e 34 referências HTML; a revisão de vigência se limita às cláusulas citadas, na data registrada. Continuam o treino personalizado, sessão, retomada, correção ao finalizar, histórico e desempenho locais, revisão de erros/brancos/inéditas e backup exportável/importável com confirmação de substituição.
 

@@ -500,3 +500,6 @@ dialog.exam-dialog { width: min(36rem, calc(100% - 2rem)); max-width: min(36rem,
 }
 
 .landing-training, .landing-exam { min-width: 0; overflow-wrap: anywhere; }
+
+.mc-exam-results .exam-score-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 40rem) { .mc-exam-results .exam-score-cards { grid-template-columns: 1fr; } }

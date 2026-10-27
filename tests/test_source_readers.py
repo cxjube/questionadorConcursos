@@ -66,3 +66,17 @@ class PublisherEncodingFallbackTests(unittest.TestCase):
     def test_invalid_declared_and_invalid_utf8_bytes_are_not_silently_replaced(self):
         with self.assertRaises(UnicodeDecodeError):
             reference_text(b'<meta charset="windows-1252"><p>\x81\xff</p>')
+
+
+class IbfcObjectiveReaderTests(unittest.TestCase):
+    def test_exact_objective_post_appeal_role_and_annulment_exclude_later_discursive_pages(self):
+        header='GABARITO OFICIAL – APÓS RECURSO – PROVA OBJETIVA\nCARGO: ADI – SYNTHETIC FIXTURE ONLY\nQUESTÃO ALTERNATIVA\n'
+        text=header+'1 A 11 ANULADA\n2 D 12 C\n\f'+header+'1 B 11 D\n'
+        self.assertEqual(answer_table(text,'ADI – SYNTHETIC FIXTURE ONLY'),{1:'A',11:'X',2:'D',12:'C'})
+        with self.assertRaises(ValueError):answer_table(text,'ADI – WRONG SYNTHETIC ROLE')
+
+    def test_malformed_duplicate_or_preliminary_first_page_is_not_accepted(self):
+        header='GABARITO OFICIAL – APÓS RECURSO – PROVA OBJETIVA\nCARGO: ADI – SYNTHETIC FIXTURE ONLY\nQUESTÃO ALTERNATIVA\n'
+        for body in ['1 A 11','1 A\n1 B','1 Z','1 E','']:
+            with self.subTest(body=body),self.assertRaises(ValueError):answer_table(header+body,'ADI – SYNTHETIC FIXTURE ONLY')
+        with self.assertRaises(ValueError):answer_table(header.replace('APÓS RECURSO','PRELIMINAR')+'1 A\n\f'+header+'1 B','ADI – SYNTHETIC FIXTURE ONLY')

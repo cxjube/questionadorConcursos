@@ -4,6 +4,30 @@ import re
 
 def answer_table(text: str, booklet: str) -> dict[int, str]:
     """Select the exact FGV booklet or labelled Cebraspe rows and reject ambiguity."""
+    if 'GABARITO OFICIAL' in text and 'APÓS RECURSO' in text:
+        # This IBFC PDF also has discursive answers on later pages. Only the
+        # first, explicitly objective, exact-role table belongs to the inventory.
+        page = text.split('\f', 1)[0]
+        if 'PROVA OBJETIVA' not in page or 'APÓS RECURSO' not in page:
+            raise ValueError('IBFC key is not an objective definitive table')
+        cargo = re.search(r'CARGO:\s*(.*?)\n\s*QUESTÃO', page, re.S)
+        if not cargo or ' '.join(cargo[1].split()) != booklet:
+            raise ValueError('IBFC key requires the exact role header')
+        rows = page[cargo.end():].splitlines()
+        result = {}
+        for row in rows:
+            if not re.match(r'\s*\d', row):
+                continue
+            if not re.fullmatch(r'\s*(?:\d+\s+(?:ANULADA|[A-D])\s*)+', row):
+                raise ValueError('Invalid IBFC objective answer row')
+            for number, value in re.findall(r'(\d+)\s+(ANULADA|[A-D])', row):
+                number = int(number)
+                if number < 1 or number in result:
+                    raise ValueError('Duplicate IBFC answer number')
+                result[number] = 'X' if value == 'ANULADA' else value
+        if not result:
+            raise ValueError('No IBFC objective answer rows found')
+        return result
     header_pattern = (r'(?m)^[ \t]*((?:(?:Analista|Técnico) Legislativo[^\n]*TIPO \d+|'
                       r'Especialista Legislativo[^\n]* - \d+ - Turno (?:Manhã|Tarde|Noite)))[ \t]*$')
     headers = list(re.finditer(header_pattern, text))

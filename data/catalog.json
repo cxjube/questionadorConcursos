@@ -36,7 +36,14 @@
       "referenceDocumentIds": [
         "reference-abdi-lei-11080-2004",
         "reference-abdi-decreto-5352-2005",
-        "reference-abdi-lei-14440-2022"
+        "reference-abdi-lei-14440-2022",
+        "reference-abdi-estatuto-2024",
+        "reference-abdi-licitacoes-2021",
+        "reference-abdi-convenios-2026",
+        "reference-abdi-etica-2022",
+        "reference-abdi-planejamento-2024-2029",
+        "reference-abdi-resolucao-008-2023",
+        "reference-abdi-planejamento-ajustado-2024"
       ]
     }
   ],
@@ -3958,6 +3965,214 @@
       "sha256": "df7f85d07492416b4c3f340b9d217c2d55b72ea6aa9be5962363c9657bf3cf94",
       "publicationDate": null,
       "paperId": null
+    },
+    {
+      "id": "reference-abdi-estatuto-2024",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "ABDI — Estatuto Social registrado — alteração de 27/11/2024",
+      "issuer": "ABDI",
+      "status": "verified",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2025/01/Estatuto-Social-2024-Registrado.pdf",
+      "file": "sources/references/ABDI-Estatuto-2024.pdf",
+      "sha256": "ee40999e5d45cb19ceaebc2589c8a98f98d7af44946f9ad3c47a7e41e8c6db20",
+      "publicationDate": "2024-11-27",
+      "paperId": null
+    },
+    {
+      "id": "reference-abdi-licitacoes-2021",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "ABDI — Regulamento de Licitações e Contratos — CD 005/2021",
+      "issuer": "ABDI",
+      "status": "verified",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Licitacoes-e-Contratos-2021_compressed-1.pdf",
+      "file": "sources/references/ABDI-Licitacoes-2021.pdf",
+      "sha256": "b1bda6ea5e6e66f80cf9a38bac5a7fa5ccb3313872bf442b97ea6be13026b6a6",
+      "publicationDate": "2021-09-01",
+      "paperId": null
+    },
+    {
+      "id": "reference-abdi-convenios-2026",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "ABDI — Regulamento de Convênios — versão 2026",
+      "issuer": "ABDI",
+      "status": "verified",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2026/07/Regulamento_de_convenios_15JUL2026.pdf",
+      "file": "sources/references/ABDI-Convenios-2026.pdf",
+      "sha256": "93f27fde78d9cbf77b1b0bbf5e60f363da117efbf0ed79fdd9af2fce3cdd4eea",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-abdi-etica-2022",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "ABDI — Ética e Conduta — CD 004/2022",
+      "issuer": "ABDI",
+      "status": "verified",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Etica-e-Conduta.pdf",
+      "file": "sources/references/ABDI-Etica-CD004-2022.pdf",
+      "sha256": "cc4d98a93fd317296dd07fa77305f545fd840465276b3b25b4aaacf2b5166ed7",
+      "publicationDate": "2022-03-16",
+      "paperId": null
+    },
+    {
+      "id": "reference-abdi-planejamento-2024-2029",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "ABDI — Planejamento 2024–2029 — caderno original, julho de 2023",
+      "issuer": "ABDI",
+      "status": "verified",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2024/01/Caderno-Planejamento-Estrategico-ABDI-20242029_VF.pdf",
+      "file": "sources/references/ABDI-Planejamento-2024-2029-original.pdf",
+      "sha256": "501b72f66b023155996e00555f247a83a14f1082d2de7f2ec7e78dca4a9f6837",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-abdi-resolucao-008-2023",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "ABDI — Resolução CD 008/2023 — aprovação do Planejamento 2024–2029",
+      "issuer": "ABDI",
+      "status": "verified",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2023/12/008-2023-Resolucao-CD-ABDI-aprova-planejamento-estrategico-2024-2029-assinada.pdf",
+      "file": "sources/references/ABDI-CD008-2023.pdf",
+      "sha256": "1b9462f47bc48cd3cdbb83b52b43849a717602eff7701b9808462020c78cdb99",
+      "publicationDate": "2023-11-30",
+      "paperId": null
+    },
+    {
+      "id": "reference-abdi-planejamento-ajustado-2024",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "ABDI — Planejamento 2024–2029 ajustado — CD 009/2024 (complementar)",
+      "issuer": "ABDI",
+      "status": "verified",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2026/04/Planejamento-Estrategico-ABDI-2024-2029.pdf",
+      "file": "sources/references/ABDI-Planejamento-ajustado-CD009-2024.pdf",
+      "sha256": "162b7af25e598adb73eb0cb7c9430f2b13e73cac673a8a3a9ea782de56949528",
+      "publicationDate": "2024-11-27",
+      "paperId": null
+    },
+    {
+      "id": "reference-lgpd-camara-consolidada",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Lei 13.709/2018 — LGPD — texto consolidado, Câmara dos Deputados",
+      "issuer": "Câmara dos Deputados",
+      "status": "verified",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "file": "sources/references/lgpd-camara-consolidada.html",
+      "sha256": "5ade20f12d206504f3beb13a0595d144efc891229ad0e6badcebfa97a8a83596",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "source-abdi-2008-especialista-juridico-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "ABDI 2008 — Especialista — Jurídico",
+      "issuer": "IBFC",
+      "status": "verified",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/especialista-juridico.pdf",
+      "file": "sources/papers/ABDI-2008-especialista-juridico.pdf",
+      "sha256": "0705140b75d4328c03ebc8d539fa35973b7a5a98c1d6e52ed96ed78b1e525813",
+      "publicationDate": null,
+      "paperId": "source-abdi-2008-especialista-juridico"
+    },
+    {
+      "id": "source-abdi-2008-especialista-juridico-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "ABDI 2008 — Especialista — Jurídico — gabarito após recurso",
+      "issuer": "IBFC",
+      "status": "verified",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/especialista-juridico.pdf",
+      "file": "sources/answer-keys/ABDI-2008-especialista-juridico-key.pdf",
+      "sha256": "dafeceb56a11daba85d428663935aa158e4f639f8d3c10aadd8efc7cf018c2ab",
+      "publicationDate": null,
+      "paperId": "source-abdi-2008-especialista-juridico"
+    },
+    {
+      "id": "source-abdi-2008-especialista-controle-interno-auditoria-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "ABDI 2008 — Especialista — Controle Interno — Auditoria",
+      "issuer": "IBFC",
+      "status": "verified",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/especialista-controle-interno-auditoria.pdf",
+      "file": "sources/papers/ABDI-2008-especialista-controle-interno-auditoria.pdf",
+      "sha256": "827dab445e6ef73b406c1177bac3c94d6e9e968c118313ed0c629bc4cca08402",
+      "publicationDate": null,
+      "paperId": "source-abdi-2008-especialista-controle-interno-auditoria"
+    },
+    {
+      "id": "source-abdi-2008-especialista-controle-interno-auditoria-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "ABDI 2008 — Especialista — Controle Interno — Auditoria — gabarito após recurso",
+      "issuer": "IBFC",
+      "status": "verified",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/especialista-controle-interno-auditoria.pdf",
+      "file": "sources/answer-keys/ABDI-2008-especialista-controle-interno-auditoria-key.pdf",
+      "sha256": "f937a8b7e64e575d378e511449d3b1b8b11f528c05987d3e7ceb503db1270e9a",
+      "publicationDate": null,
+      "paperId": "source-abdi-2008-especialista-controle-interno-auditoria"
+    },
+    {
+      "id": "source-abdi-2008-senior-juridico-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "ABDI 2008 — Sênior — Jurídico",
+      "issuer": "IBFC",
+      "status": "verified",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/senior-juridico.pdf",
+      "file": "sources/papers/ABDI-2008-senior-juridico.pdf",
+      "sha256": "47e579bd8c908bb30f82debb5e044e2a1870b94a1393ff8ee63132ca25cf2b71",
+      "publicationDate": null,
+      "paperId": "source-abdi-2008-senior-juridico"
+    },
+    {
+      "id": "source-abdi-2008-senior-juridico-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "ABDI 2008 — Sênior — Jurídico — gabarito após recurso",
+      "issuer": "IBFC",
+      "status": "verified",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/senior-juridico.pdf",
+      "file": "sources/answer-keys/ABDI-2008-senior-juridico-key.pdf",
+      "sha256": "f602e3010173080974085a8018af5ac36715b43c93df8fb28779cd514103c11d",
+      "publicationDate": null,
+      "paperId": "source-abdi-2008-senior-juridico"
+    },
+    {
+      "id": "source-abdi-2008-senior-assessor-comunicacao-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "ABDI 2008 — Sênior — Assessor de Comunicação",
+      "issuer": "IBFC",
+      "status": "verified",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/senior-assessor-de-comunicacao.pdf",
+      "file": "sources/papers/ABDI-2008-senior-assessor-comunicacao.pdf",
+      "sha256": "e47217e0061718438e3c9c82797c2f904bf67e93d9a3cdf603ce692f6d5eacf9",
+      "publicationDate": null,
+      "paperId": "source-abdi-2008-senior-assessor-comunicacao"
+    },
+    {
+      "id": "source-abdi-2008-senior-assessor-comunicacao-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "ABDI 2008 — Sênior — Assessor de Comunicação — gabarito após recurso",
+      "issuer": "IBFC",
+      "status": "verified",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/senior-assessor-de-comunicacao.pdf",
+      "file": "sources/answer-keys/ABDI-2008-senior-assessor-comunicacao-key.pdf",
+      "sha256": "0f9fc74ffb48466ad63301b1afb01e45345b5294b9ade6b796c23afcae28b1ca",
+      "publicationDate": null,
+      "paperId": "source-abdi-2008-senior-assessor-comunicacao"
     }
   ],
   "papers": [
@@ -5210,6 +5425,106 @@
         "questionType": "multiple_choice",
         "annulledItems": [],
         "answerKeyDocumentId": "source-128-tcemg-008-01-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-abdi-2008-especialista-juridico",
+      "bankId": "concursos",
+      "title": "ABDI — ADI — Nível Superior — Especialista — Jurídico",
+      "institution": "ABDI",
+      "provider": "IBFC",
+      "role": "ADI — Nível Superior — Especialista — Jurídico",
+      "year": 2008,
+      "booklet": "ADI – NÍVEL SUPERIOR ESPECIALISTA - JURÍDICO",
+      "documentId": "source-abdi-2008-especialista-juridico-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2008-09-07",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 20,
+        "itemCount": 20,
+        "questionType": "multiple_choice",
+        "annulledItems": [],
+        "answerKeyDocumentId": "source-abdi-2008-especialista-juridico-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-abdi-2008-especialista-controle-interno-auditoria",
+      "bankId": "concursos",
+      "title": "ABDI — ADI — Nível Superior — Especialista — Controle Interno — Auditoria",
+      "institution": "ABDI",
+      "provider": "IBFC",
+      "role": "ADI — Nível Superior — Especialista — Controle Interno — Auditoria",
+      "year": 2008,
+      "booklet": "ADI – NÍVEL SUPERIOR ESPECIALISTA – CONTROLE INTERNO - AUDITORIA",
+      "documentId": "source-abdi-2008-especialista-controle-interno-auditoria-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2008-09-07",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 20,
+        "itemCount": 20,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          19
+        ],
+        "answerKeyDocumentId": "source-abdi-2008-especialista-controle-interno-auditoria-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-abdi-2008-senior-juridico",
+      "bankId": "concursos",
+      "title": "ABDI — ADI — Nível Superior — Sênior — Jurídico",
+      "institution": "ABDI",
+      "provider": "IBFC",
+      "role": "ADI — Nível Superior — Sênior — Jurídico",
+      "year": 2008,
+      "booklet": "ADI – NÍVEL SUPERIOR SÊNIOR - JURÍDICO",
+      "documentId": "source-abdi-2008-senior-juridico-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2008-09-07",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 20,
+        "itemCount": 20,
+        "questionType": "multiple_choice",
+        "annulledItems": [],
+        "answerKeyDocumentId": "source-abdi-2008-senior-juridico-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-abdi-2008-senior-assessor-comunicacao",
+      "bankId": "concursos",
+      "title": "ABDI — ADI — Nível Superior — Sênior — Assessor de Comunicação",
+      "institution": "ABDI",
+      "provider": "IBFC",
+      "role": "ADI — Nível Superior — Sênior — Assessor de Comunicação",
+      "year": 2008,
+      "booklet": "ADI – NÍVEL SUPERIOR SÊNIOR – ASSESSOR DE COMUNICAÇÃO",
+      "documentId": "source-abdi-2008-senior-assessor-comunicacao-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2008-09-07",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 20,
+        "itemCount": 20,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          19
+        ],
+        "answerKeyDocumentId": "source-abdi-2008-senior-assessor-comunicacao-key",
         "pairingStatus": "matched_by_role_type_and_session",
         "externalVerification": true
       }
@@ -19463,6 +19778,636 @@
         "temporalNote": "Questão, alternativas e chave definitivos preservados. Vínculo temático parcial ao edital ABDI; não transfere regulamento de outra instituição. Normas citadas têm escopo de leitura e evidência registrado neste lote.",
         "decisionReference": "documentation/abdi-first-batch-release.md"
       }
+    },
+    {
+      "id": "abdi-2008-especialista-juridico-q019",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Levando em consideração o que prevê o Estatuto do Serviço Social Autônomo ABDI, assinale a alternativa correta:",
+      "options": [
+        {
+          "id": "a",
+          "text": "A ABDI tem por finalidade promover a execução de políticas de desenvolvimento industrial, especialmente as que contribuam para a geração de empregos e renda, em consonância com as políticas de comércio exterior e de ciência e tecnologia."
+        },
+        {
+          "id": "b",
+          "text": "Os Presidentes dos Conselhos Deliberativo e Fiscal da ABDI serão eleitos por maioria absoluta de votos, para um período de dois anos, com possibilidade de uma única recondução por igual período."
+        },
+        {
+          "id": "c",
+          "text": "O Conselho Deliberativo da ABDI é o órgão Colegiado de deliberação superior integrado por vinte e um conselheiros, sendo onze representantes dos órgãos do Poder Executivo e dez representantes de entidades privadas."
+        },
+        {
+          "id": "d",
+          "text": "Para consecução do seu objetivo a ABDI poderá celebrar contratos, convênios, acordos de cooperação e outros ajustes com pessoas jurídicas de direito privado exclusivamente constituídas por patrimônio nacional, instaladas no país ou no exterior."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-abdi-2008-especialista-juridico",
+        "number": 19,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "abdi-2008-especialista-juridico-q019-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado, alternativas, comandos e chave definitivos preservados no formato original. A compatibilidade temática é parcial; versões institucionais e cláusulas citadas foram conferidas no escopo registrado do lote. Textos e casos datados são recortes históricos.",
+        "decisionReference": "documentation/abdi-second-batch-release.md"
+      }
+    },
+    {
+      "id": "abdi-2008-especialista-juridico-q020",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Em conformidade com o que dispõe a Lei n° 11.080/2004, podemos afirmar corretamente que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "A agência Brasileira de Desenvolvimento Industrial constitui-se em uma pessoa jurídica de direito público, sem fins lucrativos, de interesse coletivo e de utilidade pública."
+        },
+        {
+          "id": "b",
+          "text": "A ABDI firmará contrato de gestão com o Ministério do Desenvolvimento, Indústria e Comércio Exterior para execução das finalidades previstas em lei."
+        },
+        {
+          "id": "c",
+          "text": "O patrimônio da ABDI na hipótese de sua extinção será imediatamente transferido às instituições que com ela firmaram contrato de parceria, reservado um terço do seu ativo para a União."
+        },
+        {
+          "id": "d",
+          "text": "Constituem receitas da ABDI os valores apurados com a venda ou aluguel de bens móveis e imóveis de sua propriedade ou de propriedade de seus parceiros, que se vinculam financeiramente com a Agência."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-abdi-2008-especialista-juridico",
+        "number": 20,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "abdi-2008-especialista-juridico-q020-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado, alternativas, comandos e chave definitivos preservados no formato original. A compatibilidade temática é parcial; versões institucionais e cláusulas citadas foram conferidas no escopo registrado do lote. Textos e casos datados são recortes históricos.",
+        "decisionReference": "documentation/abdi-second-batch-release.md"
+      }
+    },
+    {
+      "id": "abdi-2008-senior-juridico-q018",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Compete ao Poder Executivo, na tutela da gestão da Agência Brasileira de Desenvolvimento Industrial:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aprovar anualmente o orçamento-programa da ABDI para execução das atividades previstas no contrato de gestão."
+        },
+        {
+          "id": "b",
+          "text": "Remeter ao Tribunal de Contas, até 31 de março do ano seguinte ao término do exercício financeiro as contas da gestão anual da ABDI."
+        },
+        {
+          "id": "c",
+          "text": "Firmar contrato de gestão com o Ministério do Desenvolvimento, Indústria e Comércio Exterior para execução das atribuições delegadas a ABDI."
+        },
+        {
+          "id": "d",
+          "text": "Definir as regras que compõem o estatuto da ABDI e suas respectivas alterações."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-abdi-2008-senior-juridico",
+        "number": 18,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "abdi-2008-senior-juridico-q018-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado, alternativas, comandos e chave definitivos preservados no formato original. A compatibilidade temática é parcial; versões institucionais e cláusulas citadas foram conferidas no escopo registrado do lote. Textos e casos datados são recortes históricos.",
+        "decisionReference": "documentation/abdi-second-batch-release.md"
+      }
+    },
+    {
+      "id": "abdi-2008-especialista-controle-interno-auditoria-q018",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "São órgãos de direção da ABDI:",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Diretoria Executiva, composta por 1 (um) Presidente e 2 (dois) Diretores; II - o Conselho Deliberativo, composto por 15 (quinze) membros; e III - o Conselho Fiscal, composto por 3 (três) membros."
+        },
+        {
+          "id": "b",
+          "text": "A Diretoria Executiva, composta por 1 (um) Presidente e 2 (dois) Diretores; II - o Conselho Deliberativo, composto por 12 (doze) membros; e III - o Conselho Fiscal, composto por 3 (três) membros."
+        },
+        {
+          "id": "c",
+          "text": "A Diretoria Executiva, composta por 1 (um) Presidente e 2 (dois) Diretores; II - o Conselho Deliberativo, composto por 15 (quinze) membros; e III - o Conselho Fiscal, composto por 5 (cinco) membros."
+        },
+        {
+          "id": "d",
+          "text": "A Diretoria Executiva, composta por 1 (um) Presidente e 3 (três) Diretores; II - o Conselho Deliberativo, composto por 12 (doze) membros; e III - o Conselho Fiscal, composto por 5 (cinco) membros."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-abdi-2008-especialista-controle-interno-auditoria",
+        "number": 18,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "abdi-2008-especialista-controle-interno-auditoria-q018-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado, alternativas, comandos e chave definitivos preservados no formato original. A compatibilidade temática é parcial; versões institucionais e cláusulas citadas foram conferidas no escopo registrado do lote. Textos e casos datados são recortes históricos.",
+        "decisionReference": "documentation/abdi-second-batch-release.md"
+      }
+    },
+    {
+      "id": "abdi-2008-senior-assessor-comunicacao-q013",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Com relação às frases abaixo, assinale a alternativa correta:\n\nI- Os profissionais, no desempenho de suas tarefas de assessoria, precisam desenvolver e aperfeiçoar uma cultura ética. Passar informações verdadeiras e reconhecer quando houver erro.\n\nII- As diversas esferas institucionais na sociedade têm suas especificidades – o empresariado, o governo, as representações de classe, os partidos políticos etc. – e o melhor é adequar a assessoria à realidade e cada um dos casos.\n\nIII- Jornalista e fonte são os únicos atores a serem levados em consideração na produção da notícia.\n\nIV- A imagem institucional se transforma em uma aura que recobre toda a empresa e exala seus valores, seus princípios, sua filosofia – enfim, tudo aquilo em que é preciso crer para ver.",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente I,II e III estão corretas"
+        },
+        {
+          "id": "b",
+          "text": "somente I, II e IV estão corretas"
+        },
+        {
+          "id": "c",
+          "text": "somente II, III e IV estão corretas"
+        },
+        {
+          "id": "d",
+          "text": "todas estão corretas"
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-abdi-2008-senior-assessor-comunicacao",
+        "number": 13,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "abdi-2008-senior-assessor-comunicacao-q013-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado, alternativas, comandos e chave definitivos preservados no formato original. A compatibilidade temática é parcial; versões institucionais e cláusulas citadas foram conferidas no escopo registrado do lote. Textos e casos datados são recortes históricos.",
+        "decisionReference": "documentation/abdi-second-batch-release.md"
+      }
+    },
+    {
+      "id": "abdi-2008-senior-assessor-comunicacao-q016",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Para administrar esse tipo de publicidade, a Valujet deve:",
+      "options": [
+        {
+          "id": "a",
+          "text": "ignorar a situação"
+        },
+        {
+          "id": "b",
+          "text": "negar a situação"
+        },
+        {
+          "id": "c",
+          "text": "ser sincera sobre a situação"
+        },
+        {
+          "id": "d",
+          "text": "evitar a situação"
+        }
+      ],
+      "contextIds": [
+        "abdi-2008-valujet-minicaso"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-abdi-2008-senior-assessor-comunicacao",
+        "number": 16,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "abdi-2008-senior-assessor-comunicacao-q016-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Enunciado, alternativas, comandos e chave definitivos preservados no formato original. A compatibilidade temática é parcial; versões institucionais e cláusulas citadas foram conferidas no escopo registrado do lote. Textos e casos datados são recortes históricos.",
+        "decisionReference": "documentation/abdi-second-batch-release.md"
+      }
+    },
+    {
+      "id": "128-tcemg-008-01-q039",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "De acordo com os princípios éticos e as diretrizes que orientam o exercício profissional e institucional da comunicação social, assinale a opção correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "O compromisso ético do comunicador está ligado à promoção da transparência, pluralidade e veracidade, devendo esse profissional assegurar que o direito à informação prevaleça sobre interesses políticos, comerciais ou pessoais."
+        },
+        {
+          "id": "b",
+          "text": "O princípio ético fundamental da comunicação pública é a eficiência informacional, que justifica a simplificação de conteúdos e o controle das narrativas para garantir adesão do público às mensagens institucionais."
+        },
+        {
+          "id": "c",
+          "text": "O uso de conteúdos produzidos por ferramentas de inteligência artificial dispensa a verificação de fontes e autoria, desde que as informações sejam coerentes com o discurso institucional e não prejudiquem a imagem da organização."
+        },
+        {
+          "id": "d",
+          "text": "O uso de dados pessoais em estratégias de comunicação é eticamente legítimo, sempre que autorizado pela alta gestão, independentemente do consentimento explícito dos titulares das informações."
+        },
+        {
+          "id": "e",
+          "text": "O sigilo profissional absoluto em comunicação institucional autoriza a omissão de dados de interesse público quando a divulgação destes possa gerar interpretações negativas à imagem do órgão, cabendo ao comunicador preservar a reputação institucional."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-128-tcemg-008-01",
+        "number": 39,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "128-tcemg-008-01-q039-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado, alternativas, comandos e chave definitivos preservados no formato original. A compatibilidade temática é parcial; versões institucionais e cláusulas citadas foram conferidas no escopo registrado do lote. Textos e casos datados são recortes históricos.",
+        "decisionReference": "documentation/abdi-second-batch-release.md"
+      }
+    },
+    {
+      "id": "128-tcemg-008-01-q031",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Ao longo do século XX, diferentes correntes teóricas buscaram compreender os processos comunicacionais a partir de distintas abordagens epistemológicas. Acerca das teorias da comunicação, assinale a opção correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A teoria dos usos e gratificações entende o receptor como passivo diante das mensagens midiáticas, enfatizando a transmissão eficiente da informação técnica."
+        },
+        {
+          "id": "b",
+          "text": "A teoria hipodérmica, também conhecida como “modelo da agulha hipodérmica”, entende o público como ativo, interpretando criticamente as mensagens de acordo com seu contexto cultural e suas experiências prévias."
+        },
+        {
+          "id": "c",
+          "text": "A teoria crítica da Escola de Frankfurt, representada por autores como Adorno, Horkheimer e Marcuse, analisa a indústria cultural como um instrumento de dominação ideológica que transforma a cultura em mercadoria e reduz a autonomia do sujeito."
+        },
+        {
+          "id": "d",
+          "text": "A teoria da espiral do silêncio, de Jürgen Habermas, afirma que a opinião pública é formada por meio do consenso racional obtido no espaço público ideal de comunicação, livre de coerções e desigualdades."
+        },
+        {
+          "id": "e",
+          "text": "A teoria funcionalista concebe a comunicação como um processo linear e unidirecional, no qual a mídia atua apenas como mediadora neutra entre emissor e receptor."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-128-tcemg-008-01",
+        "number": 31,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "128-tcemg-008-01-q031-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado, alternativas, comandos e chave definitivos preservados no formato original. A compatibilidade temática é parcial; versões institucionais e cláusulas citadas foram conferidas no escopo registrado do lote. Textos e casos datados são recortes históricos.",
+        "decisionReference": "documentation/abdi-second-batch-release.md"
+      }
+    },
+    {
+      "id": "539-alce-016-01-q027",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "No que concerne às teorias da comunicação, assinale a opção correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Na perspectiva dos estudos culturais latino-americanos, a comunicação de crise, para ser eficaz, deve privilegiar os modelos jornalísticos canônicos e o poder da indústria cultural na formação da opinião pública."
+        },
+        {
+          "id": "b",
+          "text": "Ao difundir informações da mídia em grupos de família e amigos, o indivíduo assume um papel similar ao de líder de opinião, conforme o modelo do two step flow of communication."
+        },
+        {
+          "id": "c",
+          "text": "No contexto de colonização da esfera pública habermasiana, a comunicação acerca da pandemia do coronavírus tem sido marcada pelo uso de argumentos racionais e pela promoção de amplo debate público, visando à construção do consenso."
+        },
+        {
+          "id": "d",
+          "text": "Um dos desafios da comunicação em tempos de pandemia é atuar no processo de construção da agenda pública, visando persuadir a população quanto à importância de se obedecer às orientações sanitárias."
+        },
+        {
+          "id": "e",
+          "text": "Sob a perspectiva teórica de Bourdieu, a cobertura da pandemia do coronavírus tem sido marcada pela cooperação entre agentes dos campos midiático, científico e político."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-539-alce-016-01",
+        "number": 27,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "539-alce-016-01-q027-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado, alternativas, comandos e chave definitivos preservados no formato original. A compatibilidade temática é parcial; versões institucionais e cláusulas citadas foram conferidas no escopo registrado do lote. Textos e casos datados são recortes históricos.",
+        "decisionReference": "documentation/abdi-second-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-008-01-q110",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O artigo de divulgação enquadra-se no jornalismo científico, o artigo educativo, no jornalismo especializado, e o artigo doutrinário é o especificamente jornalístico.",
+      "options": [],
+      "contextIds": [
+        "anm-2025-artigo-revolucao-verde",
+        "anm-2025-artigo-comando"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-008-01",
+        "number": 110,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "038-anm-008-01-q110-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Enunciado, alternativas, comandos e chave definitivos preservados no formato original. A compatibilidade temática é parcial; versões institucionais e cláusulas citadas foram conferidas no escopo registrado do lote. Textos e casos datados são recortes históricos.",
+        "decisionReference": "documentation/abdi-second-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-008-01-q079",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O direito do titular de obter a confirmação da existência de tratamento e o acesso a seus dados pessoais pode ser atendido de duas formas pelo controlador, conforme a escolha do titular: de forma imediata e simplificada; ou por meio de declaração clara e completa, observados os segredos comercial e industrial.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-lgpd-direitos"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-008-01",
+        "number": 79,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "153-telebras-008-01-q079-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado, alternativas, comandos e chave definitivos preservados no formato original. A compatibilidade temática é parcial; versões institucionais e cláusulas citadas foram conferidas no escopo registrado do lote. Textos e casos datados são recortes históricos.",
+        "decisionReference": "documentation/abdi-second-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-008-01-q080",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Caso determinada decisão, tomada exclusivamente com base em tratamento automatizado de dados pessoais, afete os interesses do titular dos dados, este poderá solicitar a revisão da decisão, devendo o controlador fornecer, sempre que solicitadas, informações claras sobre os critérios e procedimentos utilizados, ressalvada a proteção ao segredo comercial e industrial.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-lgpd-direitos"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-008-01",
+        "number": 80,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "153-telebras-008-01-q080-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado, alternativas, comandos e chave definitivos preservados no formato original. A compatibilidade temática é parcial; versões institucionais e cláusulas citadas foram conferidas no escopo registrado do lote. Textos e casos datados são recortes históricos.",
+        "decisionReference": "documentation/abdi-second-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-008-01-q081",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O exercício do direito do titular de obter do controlador a portabilidade de seus dados pessoais a outro fornecedor inclui dados que tenham sido previamente anonimizados pelo controlador, desde que a requisição seja expressa e que a regulamentação da autoridade nacional seja observada.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-lgpd-direitos"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-008-01",
+        "number": 81,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "153-telebras-008-01-q081-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado, alternativas, comandos e chave definitivos preservados no formato original. A compatibilidade temática é parcial; versões institucionais e cláusulas citadas foram conferidas no escopo registrado do lote. Textos e casos datados são recortes históricos.",
+        "decisionReference": "documentation/abdi-second-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-008-01-q082",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O tratamento de dados pessoais poderá ser considerado irregular quando, ainda que realizado de acordo com a legislação formalmente aplicável, deixar de oferecer a segurança que o titular legitimamente pode esperar do tratamento, consideradas as circunstâncias relevantes do caso concreto.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-lgpd-responsabilidade"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-008-01",
+        "number": 82,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "153-telebras-008-01-q082-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado, alternativas, comandos e chave definitivos preservados no formato original. A compatibilidade temática é parcial; versões institucionais e cláusulas citadas foram conferidas no escopo registrado do lote. Textos e casos datados são recortes históricos.",
+        "decisionReference": "documentation/abdi-second-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-008-01-q083",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O operador responde solidariamente pelos danos causados ao titular dos dados quando descumprir as obrigações da legislação de proteção de dados ou quando deixar de seguir instruções lícitas do controlador, equiparando-se, nessas hipóteses, a este, ressalvadas as excludentes legais de responsabilidade.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-lgpd-responsabilidade"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-008-01",
+        "number": 83,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "153-telebras-008-01-q083-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado, alternativas, comandos e chave definitivos preservados no formato original. A compatibilidade temática é parcial; versões institucionais e cláusulas citadas foram conferidas no escopo registrado do lote. Textos e casos datados são recortes históricos.",
+        "decisionReference": "documentation/abdi-second-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-008-01-q084",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Nos processos judiciais que envolvam reparação de danos decorrentes do tratamento de dados pessoais, a inversão do ônus da prova em favor do titular é automática, desde que alegada a violação à legislação de proteção de dados.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-lgpd-responsabilidade"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-008-01",
+        "number": 84,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "153-telebras-008-01-q084-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado, alternativas, comandos e chave definitivos preservados no formato original. A compatibilidade temática é parcial; versões institucionais e cláusulas citadas foram conferidas no escopo registrado do lote. Textos e casos datados são recortes históricos.",
+        "decisionReference": "documentation/abdi-second-batch-release.md"
+      }
     }
   ],
   "answerKeys": [
@@ -25120,6 +26065,214 @@
       "locator": "PDF p. 1 — 128_TCEMG_008_01",
       "result": "valid",
       "value": "b"
+    },
+    {
+      "id": "abdi-2008-especialista-juridico-q019-key-v1",
+      "questionId": "abdi-2008-especialista-juridico-q019",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-abdi-2008-especialista-juridico-key",
+      "author": null,
+      "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR ESPECIALISTA - JURÍDICO",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "abdi-2008-especialista-juridico-q020-key-v1",
+      "questionId": "abdi-2008-especialista-juridico-q020",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-abdi-2008-especialista-juridico-key",
+      "author": null,
+      "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR ESPECIALISTA - JURÍDICO",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "abdi-2008-senior-juridico-q018-key-v1",
+      "questionId": "abdi-2008-senior-juridico-q018",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-abdi-2008-senior-juridico-key",
+      "author": null,
+      "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR SÊNIOR - JURÍDICO",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "abdi-2008-especialista-controle-interno-auditoria-q018-key-v1",
+      "questionId": "abdi-2008-especialista-controle-interno-auditoria-q018",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-abdi-2008-especialista-controle-interno-auditoria-key",
+      "author": null,
+      "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR ESPECIALISTA – CONTROLE INTERNO - AUDITORIA",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "abdi-2008-senior-assessor-comunicacao-q013-key-v1",
+      "questionId": "abdi-2008-senior-assessor-comunicacao-q013",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-abdi-2008-senior-assessor-comunicacao-key",
+      "author": null,
+      "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR SÊNIOR – ASSESSOR DE COMUNICAÇÃO",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "abdi-2008-senior-assessor-comunicacao-q016-key-v1",
+      "questionId": "abdi-2008-senior-assessor-comunicacao-q016",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-abdi-2008-senior-assessor-comunicacao-key",
+      "author": null,
+      "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR SÊNIOR – ASSESSOR DE COMUNICAÇÃO",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "128-tcemg-008-01-q039-key-v1",
+      "questionId": "128-tcemg-008-01-q039",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-128-tcemg-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 128_TCEMG_008_01",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "128-tcemg-008-01-q031-key-v1",
+      "questionId": "128-tcemg-008-01-q031",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-128-tcemg-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 128_TCEMG_008_01",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "539-alce-016-01-q027-key-v1",
+      "questionId": "539-alce-016-01-q027",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-539-alce-016-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 539_ALCE_016_01",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "038-anm-008-01-q110-key-v1",
+      "questionId": "038-anm-008-01-q110",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 038_ANM_008_01",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "153-telebras-008-01-q079-key-v1",
+      "questionId": "153-telebras-008-01-q079",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 153_TELEBRAS_008_01",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "153-telebras-008-01-q080-key-v1",
+      "questionId": "153-telebras-008-01-q080",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 153_TELEBRAS_008_01",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "153-telebras-008-01-q081-key-v1",
+      "questionId": "153-telebras-008-01-q081",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 153_TELEBRAS_008_01",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "153-telebras-008-01-q082-key-v1",
+      "questionId": "153-telebras-008-01-q082",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 153_TELEBRAS_008_01",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "153-telebras-008-01-q083-key-v1",
+      "questionId": "153-telebras-008-01-q083",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 153_TELEBRAS_008_01",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "153-telebras-008-01-q084-key-v1",
+      "questionId": "153-telebras-008-01-q084",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 153_TELEBRAS_008_01",
+      "result": "valid",
+      "value": false
     }
   ],
   "explanations": [
@@ -32835,6 +33988,338 @@
         {
           "documentId": "source-128-tcemg-008-01-key",
           "locator": "PDF p. 1 — 128_TCEMG_008_01, questão 45"
+        }
+      ]
+    },
+    {
+      "id": "abdi-2008-especialista-juridico-q019-comment-v1",
+      "questionId": "abdi-2008-especialista-juridico-q019",
+      "text": "A alternativa A descreve parte da finalidade institucional. O Estatuto de 2024 também inclui inovação, difusão de tecnologias, amadurecimento digital e fortalecimento das cadeias produtivas. O Conselho Deliberativo tem 15 membros; os instrumentos da agência podem envolver pessoas naturais e jurídicas, públicas e privadas, no país e no exterior. A redação de 2008 foi preservada e não esgota a finalidade atual.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-abdi-2008-especialista-juridico-paper",
+          "locator": "PDF p. 4, questão 19"
+        },
+        {
+          "documentId": "source-abdi-2008-especialista-juridico-key",
+          "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR ESPECIALISTA - JURÍDICO, questão 19"
+        },
+        {
+          "documentId": "reference-abdi-estatuto-2024",
+          "locator": "PDF pp. 5–8, arts. 5º, 8º e 9º"
+        },
+        {
+          "documentId": "reference-abdi-lei-11080-2004",
+          "locator": "Art. 1º, redação consolidada"
+        }
+      ]
+    },
+    {
+      "id": "abdi-2008-especialista-juridico-q020-comment-v1",
+      "questionId": "abdi-2008-especialista-juridico-q020",
+      "text": "O art. 10 da Lei 11.080/2004 prevê o contrato de gestão com o ministério supervisor, sustentando a alternativa B. A ABDI é pessoa jurídica de direito privado. As demais alternativas trocam sua natureza jurídica ou atribuem patrimônio e receitas a terceiros em condições não previstas na lei. A denominação ministerial impressa no caderno foi preservada.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-abdi-2008-especialista-juridico-paper",
+          "locator": "PDF p. 4, questão 20"
+        },
+        {
+          "documentId": "source-abdi-2008-especialista-juridico-key",
+          "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR ESPECIALISTA - JURÍDICO, questão 20"
+        },
+        {
+          "documentId": "reference-abdi-lei-11080-2004",
+          "locator": "Arts. 1º, 10, 17 e 23, texto consolidado"
+        }
+      ]
+    },
+    {
+      "id": "abdi-2008-senior-juridico-q018-comment-v1",
+      "questionId": "abdi-2008-senior-juridico-q018",
+      "text": "A aprovação anual do orçamento-programa integra a supervisão exercida pelo Poder Executivo, nos termos do art. 8º, II, da Lei 11.080/2004. A remessa das contas ao TCU é obrigação da própria ABDI, prevista no art. 9º, II. Elaborar, deliberar e aprovar o orçamento são competências distintas; a alternativa A corresponde à supervisão indicada.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-abdi-2008-senior-juridico-paper",
+          "locator": "PDF p. 3, questão 18"
+        },
+        {
+          "documentId": "source-abdi-2008-senior-juridico-key",
+          "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR SÊNIOR - JURÍDICO, questão 18"
+        },
+        {
+          "documentId": "reference-abdi-lei-11080-2004",
+          "locator": "Arts. 8º e 9º, texto consolidado"
+        }
+      ]
+    },
+    {
+      "id": "abdi-2008-especialista-controle-interno-auditoria-q018-comment-v1",
+      "questionId": "abdi-2008-especialista-controle-interno-auditoria-q018",
+      "text": "A estrutura indicada na alternativa A permanece compatível com o art. 6º do Estatuto registrado em 2024: Conselho Deliberativo com 15 membros, Conselho Fiscal com três e Diretoria Executiva com um presidente e dois diretores. As demais opções alteram essas quantidades.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-abdi-2008-especialista-controle-interno-auditoria-paper",
+          "locator": "PDF p. 3, questão 18"
+        },
+        {
+          "documentId": "source-abdi-2008-especialista-controle-interno-auditoria-key",
+          "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR ESPECIALISTA – CONTROLE INTERNO - AUDITORIA, questão 18"
+        },
+        {
+          "documentId": "reference-abdi-estatuto-2024",
+          "locator": "PDF p. 6, art. 6º"
+        }
+      ]
+    },
+    {
+      "id": "abdi-2008-senior-assessor-comunicacao-q013-comment-v1",
+      "questionId": "abdi-2008-senior-assessor-comunicacao-q013",
+      "text": "A chave B reúne I, II e IV. A afirmativa III reduz indevidamente a produção da notícia a jornalista e fonte, excluindo os públicos e outros agentes envolvidos. Verdade, reconhecimento de erros e adequação da assessoria ao contexto são aspectos centrais. Honestidade, transparência, diálogo e veracidade também constam do art. 3º do Regulamento de Ética da ABDI; a questão é anterior à resolução de 2022 e não a cita.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-abdi-2008-senior-assessor-comunicacao-paper",
+          "locator": "PDF p. 3, questão 13"
+        },
+        {
+          "documentId": "source-abdi-2008-senior-assessor-comunicacao-key",
+          "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR SÊNIOR – ASSESSOR DE COMUNICAÇÃO, questão 13"
+        },
+        {
+          "documentId": "reference-abdi-etica-2022",
+          "locator": "PDF p. 5, art. 3º, V, VII e XI"
+        }
+      ]
+    },
+    {
+      "id": "abdi-2008-senior-assessor-comunicacao-q016-comment-v1",
+      "questionId": "abdi-2008-senior-assessor-comunicacao-q016",
+      "text": "A chave C exige sinceridade na comunicação de crise. Ignorar, negar ou evitar o caso compromete a credibilidade e dificulta o relacionamento com os públicos afetados. A conduta é compatível com honestidade, transparência e veracidade do art. 3º do Regulamento de Ética da ABDI. O minicaso é um recorte histórico do caderno, sem acréscimo de fatos posteriores.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-abdi-2008-senior-assessor-comunicacao-paper",
+          "locator": "PDF p. 3, questão 16"
+        },
+        {
+          "documentId": "source-abdi-2008-senior-assessor-comunicacao-key",
+          "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR SÊNIOR – ASSESSOR DE COMUNICAÇÃO, questão 16"
+        },
+        {
+          "documentId": "reference-abdi-etica-2022",
+          "locator": "PDF p. 5, art. 3º, V, VII e XI"
+        }
+      ]
+    },
+    {
+      "id": "128-tcemg-008-01-q039-comment-v1",
+      "questionId": "128-tcemg-008-01-q039",
+      "text": "A alternativa A vincula a atividade de comunicação à transparência, pluralidade e veracidade, com prevalência do direito à informação. Autorização da chefia não é uma base legal suficiente, por si só, para qualquer tratamento de dados, e o uso de IA não afasta a verificação. No âmbito da ABDI, o art. 3º prevê transparência, honestidade, diálogo e veracidade. A prova de origem é do TCE/MG; esses princípios comuns não transferem suas normas internas para a agência.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-128-tcemg-008-01-paper",
+          "locator": "PDF p. 3, questão 39"
+        },
+        {
+          "documentId": "source-128-tcemg-008-01-key",
+          "locator": "PDF p. 1 — 128_TCEMG_008_01, questão 39"
+        },
+        {
+          "documentId": "reference-abdi-etica-2022",
+          "locator": "PDF p. 5, art. 3º, V, VII e XI"
+        },
+        {
+          "documentId": "reference-lgpd-camara-consolidada",
+          "locator": "Arts. 6º e 7º, texto consolidado"
+        }
+      ]
+    },
+    {
+      "id": "128-tcemg-008-01-q031-comment-v1",
+      "questionId": "128-tcemg-008-01-q031",
+      "text": "A alternativa C associa a Escola de Frankfurt à crítica da indústria cultural, da padronização e de mecanismos de dominação ideológica. A teoria hipodérmica pressupõe forte influência direta sobre um público concebido como passivo; não corresponde ao receptor ativo descrito na alternativa B. Usos e gratificações, por sua vez, considera a atividade do receptor. São abordagens diferentes do processo comunicacional.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-128-tcemg-008-01-paper",
+          "locator": "PDF p. 1, questão 31"
+        },
+        {
+          "documentId": "source-128-tcemg-008-01-key",
+          "locator": "PDF p. 1 — 128_TCEMG_008_01, questão 31"
+        }
+      ]
+    },
+    {
+      "id": "539-alce-016-01-q027-comment-v1",
+      "questionId": "539-alce-016-01-q027",
+      "text": "No modelo two step flow, a influência dos meios é mediada por líderes de opinião e pelas relações interpessoais. A alternativa B aplica essa ideia ao indivíduo que compartilha informações com familiares e amigos. O modelo não se reduz à transmissão direta e uniforme de uma mensagem para receptores isolados.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-539-alce-016-01-paper",
+          "locator": "PDF p. 2, questão 27"
+        },
+        {
+          "documentId": "source-539-alce-016-01-key",
+          "locator": "PDF p. 1 — 539_ALCE_016_01, questão 27"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-008-01-q110-comment-v1",
+      "questionId": "038-anm-008-01-q110",
+      "text": "Na tipologia empregada pela prova, o artigo de divulgação está associado ao jornalismo científico; o educativo, à especialização temática; e o doutrinário, à argumentação jornalística. A chave definitiva confirma a associação. Essa classificação dos artigos não significa que todo texto que mencione ciência seja divulgação científica. O texto de apoio preserva a posição de seu autor à época.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-008-01-paper",
+          "locator": "PDF p. 3, questão 110"
+        },
+        {
+          "documentId": "source-038-anm-008-01-key",
+          "locator": "PDF p. 1 — 038_ANM_008_01, questão 110"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-008-01-q079-comment-v1",
+      "questionId": "153-telebras-008-01-q079",
+      "text": "O art. 19 admite confirmação e acesso em formato simplificado, imediatamente, ou por declaração clara e completa, em até 15 dias. O segredo comercial e industrial deve ser observado. O item descreve as duas formas de atendimento; não autoriza ocultar integralmente do titular as informações sobre seus próprios dados.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-008-01-paper",
+          "locator": "PDF p. 2, questão 79"
+        },
+        {
+          "documentId": "source-153-telebras-008-01-key",
+          "locator": "PDF p. 1 — 153_TELEBRAS_008_01, questão 79"
+        },
+        {
+          "documentId": "reference-lgpd-camara-consolidada",
+          "locator": "Art. 19, caput e incisos I e II"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-008-01-q080-comment-v1",
+      "questionId": "153-telebras-008-01-q080",
+      "text": "O art. 20 assegura a solicitação de revisão de decisões baseadas unicamente em tratamento automatizado que afetem os interesses do titular. O controlador deve fornecer, quando solicitado, informações claras sobre critérios e procedimentos, respeitados os segredos comercial e industrial. Esse direito é relevante em segmentação e perfis utilizados em comunicação e marketing.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-008-01-paper",
+          "locator": "PDF p. 2, questão 80"
+        },
+        {
+          "documentId": "source-153-telebras-008-01-key",
+          "locator": "PDF p. 1 — 153_TELEBRAS_008_01, questão 80"
+        },
+        {
+          "documentId": "reference-lgpd-camara-consolidada",
+          "locator": "Art. 20, caput e § 1º"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-008-01-q081-comment-v1",
+      "questionId": "153-telebras-008-01-q081",
+      "text": "A portabilidade não inclui dados já anonimizados pelo controlador, conforme o art. 18, § 7º. O item erra ao afirmar sua inclusão mediante pedido expresso. Requisição e regulamentação não afastam essa exclusão legal.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-008-01-paper",
+          "locator": "PDF p. 2, questão 81"
+        },
+        {
+          "documentId": "source-153-telebras-008-01-key",
+          "locator": "PDF p. 1 — 153_TELEBRAS_008_01, questão 81"
+        },
+        {
+          "documentId": "reference-lgpd-camara-consolidada",
+          "locator": "Art. 18, VI e § 7º"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-008-01-q082-comment-v1",
+      "questionId": "153-telebras-008-01-q082",
+      "text": "O art. 44 considera irregular o tratamento que descumpre a legislação ou não fornece a segurança que o titular pode legitimamente esperar. O cumprimento formal de uma regra não elimina automaticamente a análise das condições reais de segurança.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-008-01-paper",
+          "locator": "PDF p. 2, questão 82"
+        },
+        {
+          "documentId": "source-153-telebras-008-01-key",
+          "locator": "PDF p. 1 — 153_TELEBRAS_008_01, questão 82"
+        },
+        {
+          "documentId": "reference-lgpd-camara-consolidada",
+          "locator": "Art. 44, caput e incisos"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-008-01-q083-comment-v1",
+      "questionId": "153-telebras-008-01-q083",
+      "text": "O art. 42, § 1º, I, prevê responsabilidade solidária do operador quando ele descumpre a legislação ou as instruções lícitas do controlador, equiparando-o ao controlador nessas hipóteses, ressalvadas as excludentes do art. 43. A divisão de tarefas com fornecedores de comunicação não elimina essas responsabilidades.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-008-01-paper",
+          "locator": "PDF p. 2, questão 83"
+        },
+        {
+          "documentId": "source-153-telebras-008-01-key",
+          "locator": "PDF p. 1 — 153_TELEBRAS_008_01, questão 83"
+        },
+        {
+          "documentId": "reference-lgpd-camara-consolidada",
+          "locator": "Art. 42, § 1º, I, e art. 43"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-008-01-q084-comment-v1",
+      "questionId": "153-telebras-008-01-q084",
+      "text": "A inversão do ônus da prova depende de decisão judicial e das condições do art. 42, § 2º: verossimilhança, hipossuficiência ou produção da prova excessivamente onerosa ao titular. A mera alegação de violação não torna a inversão automática.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-008-01-paper",
+          "locator": "PDF p. 2, questão 84"
+        },
+        {
+          "documentId": "source-153-telebras-008-01-key",
+          "locator": "PDF p. 1 — 153_TELEBRAS_008_01, questão 84"
+        },
+        {
+          "documentId": "reference-lgpd-camara-consolidada",
+          "locator": "Art. 42, § 2º"
         }
       ]
     }
@@ -40976,6 +42461,230 @@
       "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
       "justification": "Correspondência parcial revisada entre conteúdo avaliado e item do Anexo II ABDI. Fonte, formato e contexto institucionais originais permanecem identificados; não cria uma questão de prova da ABDI.",
       "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-especialista-juridico-q019-abdi-mapping-1",
+      "questionId": "abdi-2008-especialista-juridico-q019",
+      "syllabusItemId": "abdi-2026-abdi-servicos-sociais-autonomos-1-1",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-especialista-juridico-q019-abdi-mapping-2",
+      "questionId": "abdi-2008-especialista-juridico-q019",
+      "syllabusItemId": "abdi-2026-abdi-criacao-estatuto-2-3",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-especialista-juridico-q020-abdi-mapping-1",
+      "questionId": "abdi-2008-especialista-juridico-q020",
+      "syllabusItemId": "abdi-2026-abdi-servicos-sociais-autonomos-1-4",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-especialista-juridico-q020-abdi-mapping-2",
+      "questionId": "abdi-2008-especialista-juridico-q020",
+      "syllabusItemId": "abdi-2026-abdi-criacao-estatuto-2-6",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-senior-juridico-q018-abdi-mapping-1",
+      "questionId": "abdi-2008-senior-juridico-q018",
+      "syllabusItemId": "abdi-2026-abdi-servicos-sociais-autonomos-1-5",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-senior-juridico-q018-abdi-mapping-2",
+      "questionId": "abdi-2008-senior-juridico-q018",
+      "syllabusItemId": "abdi-2026-abdi-criacao-estatuto-2-6",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-especialista-controle-interno-auditoria-q018-abdi-mapping-1",
+      "questionId": "abdi-2008-especialista-controle-interno-auditoria-q018",
+      "syllabusItemId": "abdi-2026-abdi-criacao-estatuto-2-4",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-especialista-controle-interno-auditoria-q018-abdi-mapping-2",
+      "questionId": "abdi-2008-especialista-controle-interno-auditoria-q018",
+      "syllabusItemId": "abdi-2026-abdi-criacao-estatuto-2-5",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-senior-assessor-comunicacao-q013-abdi-mapping-1",
+      "questionId": "abdi-2008-senior-assessor-comunicacao-q013",
+      "syllabusItemId": "abdi-2026-abdi-etica-missao-4-1",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-senior-assessor-comunicacao-q013-abdi-mapping-2",
+      "questionId": "abdi-2008-senior-assessor-comunicacao-q013",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-23",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-senior-assessor-comunicacao-q016-abdi-mapping-1",
+      "questionId": "abdi-2008-senior-assessor-comunicacao-q016",
+      "syllabusItemId": "abdi-2026-abdi-etica-missao-4-1",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-senior-assessor-comunicacao-q016-abdi-mapping-2",
+      "questionId": "abdi-2008-senior-assessor-comunicacao-q016",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-20",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "128-tcemg-008-01-q039-abdi-mapping-1",
+      "questionId": "128-tcemg-008-01-q039",
+      "syllabusItemId": "abdi-2026-abdi-etica-missao-4-1",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "128-tcemg-008-01-q039-abdi-mapping-2",
+      "questionId": "128-tcemg-008-01-q039",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-23",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "128-tcemg-008-01-q031-abdi-mapping-1",
+      "questionId": "128-tcemg-008-01-q031",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-1",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "128-tcemg-008-01-q031-abdi-mapping-2",
+      "questionId": "128-tcemg-008-01-q031",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-2",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "539-alce-016-01-q027-abdi-mapping-1",
+      "questionId": "539-alce-016-01-q027",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-1",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "539-alce-016-01-q027-abdi-mapping-2",
+      "questionId": "539-alce-016-01-q027",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-2",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-008-01-q110-abdi-mapping-1",
+      "questionId": "038-anm-008-01-q110",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-9",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-008-01-q110-abdi-mapping-2",
+      "questionId": "038-anm-008-01-q110",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-22",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q079-abdi-mapping-1",
+      "questionId": "153-telebras-008-01-q079",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-25",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q079-abdi-mapping-2",
+      "questionId": "153-telebras-008-01-q079",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-11",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q080-abdi-mapping-1",
+      "questionId": "153-telebras-008-01-q080",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-25",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q080-abdi-mapping-2",
+      "questionId": "153-telebras-008-01-q080",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-11",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q081-abdi-mapping-1",
+      "questionId": "153-telebras-008-01-q081",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-25",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q081-abdi-mapping-2",
+      "questionId": "153-telebras-008-01-q081",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-11",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q082-abdi-mapping-1",
+      "questionId": "153-telebras-008-01-q082",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-25",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q082-abdi-mapping-2",
+      "questionId": "153-telebras-008-01-q082",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-11",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q083-abdi-mapping-1",
+      "questionId": "153-telebras-008-01-q083",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-25",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q083-abdi-mapping-2",
+      "questionId": "153-telebras-008-01-q083",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-11",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q084-abdi-mapping-1",
+      "questionId": "153-telebras-008-01-q084",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-25",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q084-abdi-mapping-2",
+      "questionId": "153-telebras-008-01-q084",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-11",
+      "justification": "Correspondência parcial revisada com o conteúdo efetivamente avaliado e com as cláusulas aplicáveis ao edital ABDI. Preserva instituição, banca, data, formato e referências originais; não pressupõe que normas de outra instituição sejam normas da ABDI.",
+      "status": "confirmed"
     }
   ],
   "scoringRules": [
@@ -43273,6 +44982,52 @@
       "text": "Iniciativas que estão transformando a Educação no Rio\n\nAtualmente, diversas iniciativas estão transformando a educação no Rio de Janeiro, proporcionando novas abordagens que impactam positivamente alunos e professores. Programas inovadores estão sendo implementados para criar um ambiente de aprendizagem mais dinâmico e inclusivo.\n\nUso de Tecnologia Educacional\n\nUma das principais transformações é o uso de tecnologia educacional nas aulas. Recursos como plataformas online, aplicativos educacionais e ferramentas interativas estão ajudando a engajar os alunos de forma mais efetiva. Isso não só facilita o acesso ao conhecimento, como também estimula a autonomia.\n\nProjetos Sociais e Comunitários\n\nIniciativas sociais, como projetos que envolvem a comunidade local, têm mostrado resultados promissores. Programas de reforço escolar, atividades extracurriculares e parcerias com ONGs ajudam a complementar a educação formal e oferecem suporte adicional aos estudantes.\n\nFormação Continuada de Professores\n\nA formação continuada de professores é outra peça fundamental nesta transformação. A capacitação em novas metodologias e tecnologias de ensino prepara os educadores para lidar com os desafios atuais, oferecendo auxílio para que eles possam explorar todo o potencial de seus alunos.\n\nEssas iniciativas, quando unidas, criam um ecossistema mais forte para a educação no Rio, contribuindo para uma aprendizagem mais rica e efetiva. A comunidade escolar ganha muito com a implementação de ações que promovem a inclusão e a inovação.\n\nO futuro da educação no Rio de Janeiro\n\nAs transformações na educação do Rio de Janeiro mostram que há esperança e caminho para um futuro melhor. Com iniciativas inovadoras, uso de tecnologia e o envolvimento da comunidade, é possível construir uma educação mais inclusiva e de qualidade.\n\nÀ medida que se investe na capacitação de educadores e se promove o uso efetivo dos recursos disponíveis, espera-se que mais alunos sejam motivados e alcançados. A colaboração entre todos os agentes envolvidos é crucial para alcançar resultados positivos.\n\nAssim, o compromisso contínuo com a educação pode levar a mudanças significativas, capacitando as novas gerações a criarem um futuro mais próspero e igualitário.",
       "sourceCredit": "Secretaria de Estado de Educação do Rio de Janeiro, 2025.",
       "sourceDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "telebras-2026-lgpd-direitos",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "LGPD — direitos do titular",
+      "text": "À luz do disposto na Lei n.º 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD) acerca dos direitos do titular de dados pessoais, julgue os itens a seguir.",
+      "sourceDocumentId": "source-153-telebras-008-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "telebras-2026-lgpd-responsabilidade",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "LGPD — responsabilidade e reparação",
+      "text": "A respeito da responsabilização e da reparação de danos decorrentes do tratamento de dados pessoais, julgue os itens seguintes, de acordo com a LGPD.",
+      "sourceDocumentId": "source-153-telebras-008-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "anm-2025-artigo-revolucao-verde",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Texto de apoio — artigo de opinião, recorte de 2025",
+      "text": "Desde a Conferência do Clima de 1972, em Estocolmo, governos ao redor do mundo vêm apresentando compromissos ambiciosos, prometendo mobilizar trilhões de dólares para financiar a transição rumo a uma economia neutra em carbono. No entanto, a História comprova que pouco tem acontecido.\n\nFoi somente em 2021 que o setor privado assumiu papel relevante nessa corrida, dando início a uma revolução verde global. A iniciativa privada é a principal indutora das transições na economia, liderando mudanças desde a Revolução Industrial e passando pela Revolução Tecnológica. Esse papel continuará a ser desempenhado na Revolução Verde, sempre guiado pela busca por inovação, eficiência e lucro. A aprovação do Mercado de Carbono na COP 26, em Glasgow, a criação do sistema único de registro global COP 29, em Baku, e a recente Lei do Mercado de Carbono Brasileiro, aprovada pelo Congresso Nacional, abrem um horizonte de oportunidades excepcionais para impulsionar projetos de crédito de carbono no Brasil. Esse cenário coloca o país em posição estratégica para ser a maior economia neutra em carbono, graças às suas características naturais e econômicas únicas, o que pode fazer o país liderar a transição verde global.",
+      "sourceDocumentId": "source-038-anm-008-01-paper",
+      "sourcePage": 3,
+      "sourceCredit": "Joaquim Leite. Eficiência, inovação e lucro guiarão a Revolução Verde. In: O Globo, Rio de Janeiro, 3/1/2025 (com adaptações)."
+    },
+    {
+      "id": "anm-2025-artigo-comando",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando da prova",
+      "text": "A partir do texto apresentado, julgue os itens que se seguem.",
+      "sourceDocumentId": "source-038-anm-008-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "abdi-2008-valujet-minicaso",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Minicaso original — Valujet (prova de 2008)",
+      "text": "AS QUESTÕES 16, 17 E 18 BASEIAM-SE NO SEGUINTE MINICASO:\n\nEm maio de 1996, um avião da Valujet caiu no Parque Nacional de Everglades, na Flórida, causando a morte de todos os passageiros. Existem muitas coisas que uma companhia poderia fazer em uma situação dessa gravidade.",
+      "sourceDocumentId": "source-abdi-2008-senior-assessor-comunicacao-paper",
       "sourcePage": 3
     }
   ]

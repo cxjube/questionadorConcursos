@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-27T18:11:50.997166+00:00",
-  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23. Comment completion: two Priberam entries retain the initial official publisher download bytes; no independent second download is claimed. Ninth source discovery: 16 new paper/key PDFs independently re-downloaded with byte equality; two Microsoft Learn HTML references retain initial publisher bytes. Complete source inventory is separate from individually released questions. Existing matches are historical evidence; not every old source was downloaded again. Tenth batch: one PF 2025 Bloco II pair independently re-downloaded with identical bytes; three Câmara current legal HTML references retain initial official download bytes. Compatibility is limited to cited active clauses as of 2026-10-23. Other prior sources were not all downloaded again. Eleventh batch: SERPRO 2023 and STJ 2024 basic paper/definitive-key PDFs independently re-downloaded byte-identically. Initial Câmara improbity-law and Microsoft Teams HTML downloads retained. Current review is limited to cited clauses and technical conditions; older evidence remains historical. Resumed on 2026-10-26: IPv6 and DNS initial Microsoft Learn reference bytes retained; seven legal items rechecked against cited active official clauses and Teams conditions rechecked, with separate evidence in data/reviews/eleventh-reference-rechecks.json. No new questions use annulled STJ Power BI items. Twelfth batch: two complete CNJ/TCEAC paper and definitive-key pairs independently downloaded twice with matching bytes; historical records are not repeated downloads. Four initial official Câmara legal HTML downloads retained; no second binary download is claimed for HTML. Compatibility is limited to cited active clauses as of 2026-10-26. ABDI intake 2026-10-27: the user-provided 48-page opening notice is byte-identical to the PDF linked on the FGV psabdi page; its download hash is retained. Other rows retain their original verification dates and scopes; no fresh re-download of all sources is claimed. ABDI first batch 2026-10-27: three complete Senado/TCE-MG pairs independently downloaded twice with matching bytes. Three official Câmara legislative HTML references retain initial publisher bytes. Only the selected clauses are reviewed; five internal ABDI documents remain inaccessible/unverified. Other sources were not freshly re-downloaded. See abdi-first-source-discovery.json and abdi-first-reference-review.json.",
+  "checkedAt": "2026-10-27T20:44:15.252545+00:00",
+  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23. Comment completion: two Priberam entries retain the initial official publisher download bytes; no independent second download is claimed. Ninth source discovery: 16 new paper/key PDFs independently re-downloaded with byte equality; two Microsoft Learn HTML references retain initial publisher bytes. Complete source inventory is separate from individually released questions. Existing matches are historical evidence; not every old source was downloaded again. Tenth batch: one PF 2025 Bloco II pair independently re-downloaded with identical bytes; three Câmara current legal HTML references retain initial official download bytes. Compatibility is limited to cited active clauses as of 2026-10-23. Other prior sources were not all downloaded again. Eleventh batch: SERPRO 2023 and STJ 2024 basic paper/definitive-key PDFs independently re-downloaded byte-identically. Initial Câmara improbity-law and Microsoft Teams HTML downloads retained. Current review is limited to cited clauses and technical conditions; older evidence remains historical. Resumed on 2026-10-26: IPv6 and DNS initial Microsoft Learn reference bytes retained; seven legal items rechecked against cited active official clauses and Teams conditions rechecked, with separate evidence in data/reviews/eleventh-reference-rechecks.json. No new questions use annulled STJ Power BI items. Twelfth batch: two complete CNJ/TCEAC paper and definitive-key pairs independently downloaded twice with matching bytes; historical records are not repeated downloads. Four initial official Câmara legal HTML downloads retained; no second binary download is claimed for HTML. Compatibility is limited to cited active clauses as of 2026-10-26. ABDI intake 2026-10-27: the user-provided 48-page opening notice is byte-identical to the PDF linked on the FGV psabdi page; its download hash is retained. Other rows retain their original verification dates and scopes; no fresh re-download of all sources is claimed. ABDI first batch 2026-10-27: three complete Senado/TCE-MG pairs independently downloaded twice with matching bytes. Three official Câmara legislative HTML references retain initial publisher bytes. Only the selected clauses are reviewed; five internal ABDI documents remain inaccessible/unverified. Other sources were not freshly re-downloaded. See abdi-first-source-discovery.json and abdi-first-reference-review.json. ABDI second batch: seven internal/reference PDFs (including original CD 008/2023 plan and distinct CD 009/2024 adjustment) and four official IBFC 2008 objective/post-appeal pairs independently re-downloaded byte-identically. New official Câmara LGPD HTML retains initial bytes; Planalto returned HTTP 503. No fresh re-download of all older sources is claimed.",
   "documents": [
     {
       "documentId": "camara-2026-edital-01-documento",
@@ -975,6 +975,118 @@
       "outcome": "byte_match",
       "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2022/lei-14440-2-setembro-2022-793185-publicacaooriginal-166030-pl.html",
       "remoteSha256": "df7f85d07492416b4c3f340b9d217c2d55b72ea6aa9be5962363c9657bf3cf94"
+    },
+    {
+      "documentId": "reference-abdi-estatuto-2024",
+      "localSha256": "ee40999e5d45cb19ceaebc2589c8a98f98d7af44946f9ad3c47a7e41e8c6db20",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2025/01/Estatuto-Social-2024-Registrado.pdf",
+      "remoteSha256": "ee40999e5d45cb19ceaebc2589c8a98f98d7af44946f9ad3c47a7e41e8c6db20"
+    },
+    {
+      "documentId": "reference-abdi-licitacoes-2021",
+      "localSha256": "b1bda6ea5e6e66f80cf9a38bac5a7fa5ccb3313872bf442b97ea6be13026b6a6",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Licitacoes-e-Contratos-2021_compressed-1.pdf",
+      "remoteSha256": "b1bda6ea5e6e66f80cf9a38bac5a7fa5ccb3313872bf442b97ea6be13026b6a6"
+    },
+    {
+      "documentId": "reference-abdi-convenios-2026",
+      "localSha256": "93f27fde78d9cbf77b1b0bbf5e60f363da117efbf0ed79fdd9af2fce3cdd4eea",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2026/07/Regulamento_de_convenios_15JUL2026.pdf",
+      "remoteSha256": "93f27fde78d9cbf77b1b0bbf5e60f363da117efbf0ed79fdd9af2fce3cdd4eea"
+    },
+    {
+      "documentId": "reference-abdi-etica-2022",
+      "localSha256": "cc4d98a93fd317296dd07fa77305f545fd840465276b3b25b4aaacf2b5166ed7",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Etica-e-Conduta.pdf",
+      "remoteSha256": "cc4d98a93fd317296dd07fa77305f545fd840465276b3b25b4aaacf2b5166ed7"
+    },
+    {
+      "documentId": "reference-abdi-planejamento-2024-2029",
+      "localSha256": "501b72f66b023155996e00555f247a83a14f1082d2de7f2ec7e78dca4a9f6837",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2024/01/Caderno-Planejamento-Estrategico-ABDI-20242029_VF.pdf",
+      "remoteSha256": "501b72f66b023155996e00555f247a83a14f1082d2de7f2ec7e78dca4a9f6837"
+    },
+    {
+      "documentId": "reference-abdi-resolucao-008-2023",
+      "localSha256": "1b9462f47bc48cd3cdbb83b52b43849a717602eff7701b9808462020c78cdb99",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2023/12/008-2023-Resolucao-CD-ABDI-aprova-planejamento-estrategico-2024-2029-assinada.pdf",
+      "remoteSha256": "1b9462f47bc48cd3cdbb83b52b43849a717602eff7701b9808462020c78cdb99"
+    },
+    {
+      "documentId": "reference-abdi-planejamento-ajustado-2024",
+      "localSha256": "162b7af25e598adb73eb0cb7c9430f2b13e73cac673a8a3a9ea782de56949528",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2026/04/Planejamento-Estrategico-ABDI-2024-2029.pdf",
+      "remoteSha256": "162b7af25e598adb73eb0cb7c9430f2b13e73cac673a8a3a9ea782de56949528"
+    },
+    {
+      "documentId": "reference-lgpd-camara-consolidada",
+      "localSha256": "5ade20f12d206504f3beb13a0595d144efc891229ad0e6badcebfa97a8a83596",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "remoteSha256": "5ade20f12d206504f3beb13a0595d144efc891229ad0e6badcebfa97a8a83596"
+    },
+    {
+      "documentId": "source-abdi-2008-especialista-juridico-paper",
+      "localSha256": "0705140b75d4328c03ebc8d539fa35973b7a5a98c1d6e52ed96ed78b1e525813",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/especialista-juridico.pdf",
+      "remoteSha256": "0705140b75d4328c03ebc8d539fa35973b7a5a98c1d6e52ed96ed78b1e525813"
+    },
+    {
+      "documentId": "source-abdi-2008-especialista-juridico-key",
+      "localSha256": "dafeceb56a11daba85d428663935aa158e4f639f8d3c10aadd8efc7cf018c2ab",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/especialista-juridico.pdf",
+      "remoteSha256": "dafeceb56a11daba85d428663935aa158e4f639f8d3c10aadd8efc7cf018c2ab"
+    },
+    {
+      "documentId": "source-abdi-2008-especialista-controle-interno-auditoria-paper",
+      "localSha256": "827dab445e6ef73b406c1177bac3c94d6e9e968c118313ed0c629bc4cca08402",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/especialista-controle-interno-auditoria.pdf",
+      "remoteSha256": "827dab445e6ef73b406c1177bac3c94d6e9e968c118313ed0c629bc4cca08402"
+    },
+    {
+      "documentId": "source-abdi-2008-especialista-controle-interno-auditoria-key",
+      "localSha256": "f937a8b7e64e575d378e511449d3b1b8b11f528c05987d3e7ceb503db1270e9a",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/especialista-controle-interno-auditoria.pdf",
+      "remoteSha256": "f937a8b7e64e575d378e511449d3b1b8b11f528c05987d3e7ceb503db1270e9a"
+    },
+    {
+      "documentId": "source-abdi-2008-senior-juridico-paper",
+      "localSha256": "47e579bd8c908bb30f82debb5e044e2a1870b94a1393ff8ee63132ca25cf2b71",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/senior-juridico.pdf",
+      "remoteSha256": "47e579bd8c908bb30f82debb5e044e2a1870b94a1393ff8ee63132ca25cf2b71"
+    },
+    {
+      "documentId": "source-abdi-2008-senior-juridico-key",
+      "localSha256": "f602e3010173080974085a8018af5ac36715b43c93df8fb28779cd514103c11d",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/senior-juridico.pdf",
+      "remoteSha256": "f602e3010173080974085a8018af5ac36715b43c93df8fb28779cd514103c11d"
+    },
+    {
+      "documentId": "source-abdi-2008-senior-assessor-comunicacao-paper",
+      "localSha256": "e47217e0061718438e3c9c82797c2f904bf67e93d9a3cdf603ce692f6d5eacf9",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/senior-assessor-de-comunicacao.pdf",
+      "remoteSha256": "e47217e0061718438e3c9c82797c2f904bf67e93d9a3cdf603ce692f6d5eacf9"
+    },
+    {
+      "documentId": "source-abdi-2008-senior-assessor-comunicacao-key",
+      "localSha256": "0f9fc74ffb48466ad63301b1afb01e45345b5294b9ade6b796c23afcae28b1ca",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/senior-assessor-de-comunicacao.pdf",
+      "remoteSha256": "0f9fc74ffb48466ad63301b1afb01e45345b5294b9ade6b796c23afcae28b1ca"
     }
   ],
   "corroboration": [

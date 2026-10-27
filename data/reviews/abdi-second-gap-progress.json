@@ -1,0 +1,476 @@
+{
+  "reviewedAt": "2026-10-27",
+  "roleId": "abdi-comunicacao-marketing",
+  "beforeEmpty": 47,
+  "afterEmpty": 33,
+  "scope": "Every prior empty subtree tracked. One sample is not full coverage. Scientific classification starts topic 22, without claiming the environmental/technological communication branches are fully covered. LGPD items directly test rights/liability, not merely an incidental mention.",
+  "items": [
+    {
+      "id": "abdi-2026-lingua-portuguesa-6-4",
+      "disciplineId": "lingua-portuguesa",
+      "number": "6.4",
+      "label": "Reescrita de textos de diferentes gêneros e níveis de formalidade.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-1",
+      "disciplineId": "raciocinio-logico",
+      "number": "1",
+      "label": "Estruturas lógicas.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-2",
+      "disciplineId": "raciocinio-logico",
+      "number": "2",
+      "label": "Lógica de argumentação: analogias, inferências, deduções e conclusões.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3",
+      "disciplineId": "raciocinio-logico",
+      "number": "3",
+      "label": "Lógica sentencial (ou proposicional).",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3-1",
+      "disciplineId": "raciocinio-logico",
+      "number": "3.1",
+      "label": "Proposições simples e compostas.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3-2",
+      "disciplineId": "raciocinio-logico",
+      "number": "3.2",
+      "label": "Tabelas-verdade.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3-3",
+      "disciplineId": "raciocinio-logico",
+      "number": "3.3",
+      "label": "Equivalências.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3-4",
+      "disciplineId": "raciocinio-logico",
+      "number": "3.4",
+      "label": "Diagramas lógicos.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-4",
+      "disciplineId": "raciocinio-logico",
+      "number": "4",
+      "label": "Lógica de primeira ordem.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-1",
+      "disciplineId": "abdi-nocoes-informatica",
+      "number": "1",
+      "label": "Conceitos básicos de Informática: hardware, software, periféricos, dispositivos de entrada, saída e armazenamento, organização de arquivos e pastas e principais extensões de arquivos;",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-4",
+      "disciplineId": "abdi-nocoes-informatica",
+      "number": "4",
+      "label": "LibreOffice 7.x ou superior, em português (Brasil): Writer, Calc e Impress;",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-6",
+      "disciplineId": "abdi-nocoes-informatica",
+      "number": "6",
+      "label": "Correio eletrônico: envio, recebimento, organização de mensagens, anexos, contatos e calendários;",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-10",
+      "disciplineId": "abdi-nocoes-informatica",
+      "number": "10",
+      "label": "Digitalização, impressão, compartilhamento de documentos, teclas de atalho, recursos de acessibilidade e produtividade em sistemas operacionais e aplicativos.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "number": "1",
+      "label": "NATUREZA E FINALIDADE DOS SERVIÇOS SOCIAIS AUTÔNOMOS",
+      "beforeState": "empty",
+      "afterState": "descendants_only",
+      "newQuestionIds": [
+        "abdi-2008-especialista-juridico-q019",
+        "abdi-2008-especialista-juridico-q020",
+        "abdi-2008-senior-juridico-q018"
+      ]
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-1",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "number": "1.1",
+      "label": "Conceito, características, natureza jurídica e finalidade dos Serviços Sociais Autônomos. Lei nº 11.080/2004, art. 1º, caput e § 1º, com redação dada pela Lei nº 14.440/2022; Decreto nº 5.352/2005, arts. 1º e 2º.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "newQuestionIds": [
+        "abdi-2008-especialista-juridico-q019"
+      ]
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-2",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "number": "1.2",
+      "label": "Personalidade jurídica de direito privado, ausência de fins lucrativos, interesse coletivo e utilidade pública. Lei nº 11.080/2004, art. 1º, § 1º; Decreto nº 5.352/2005, art. 1º.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-3",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "number": "1.3",
+      "label": "Autonomia administrativa e gestão de pessoal. Lei nº 11.080/2004, art. 11, §§ 1º a 4º.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-4",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "number": "1.4",
+      "label": "Regime jurídico e relações com o Poder Público. Contrato de gestão, princípios aplicáveis e responsabilidades institucionais. Lei nº 11.080/2004, arts. 8º a 12; Decreto nº 5.352/2005, art. 10.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "newQuestionIds": [
+        "abdi-2008-especialista-juridico-q020"
+      ]
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-5",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "number": "1.5",
+      "label": "Supervisão, fiscalização, controle e prestação de contas. Lei nº 11.080/2004, arts. 8º, 9º e 14; Decreto nº 5.352/2005, arts. 4º, 6º e 10.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "newQuestionIds": [
+        "abdi-2008-senior-juridico-q018"
+      ]
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2",
+      "disciplineId": "abdi-criacao-estatuto",
+      "number": "2",
+      "label": "LEGISLAÇÃO DE CRIAÇÃO E ESTATUTO SOCIAL DA ABDI",
+      "beforeState": "empty",
+      "afterState": "descendants_only",
+      "newQuestionIds": [
+        "abdi-2008-especialista-controle-interno-auditoria-q018",
+        "abdi-2008-especialista-juridico-q019",
+        "abdi-2008-especialista-juridico-q020",
+        "abdi-2008-senior-juridico-q018"
+      ]
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-1",
+      "disciplineId": "abdi-criacao-estatuto",
+      "number": "2.1",
+      "label": "Lei nº 11.080/2004 e suas alterações, especialmente a Lei nº 14.440/2022.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-2",
+      "disciplineId": "abdi-criacao-estatuto",
+      "number": "2.2",
+      "label": "Decreto nº 5.352/2005 e suas alterações.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-3",
+      "disciplineId": "abdi-criacao-estatuto",
+      "number": "2.3",
+      "label": "Estatuto Social da ABDI: natureza, finalidade, princípios e competências institucionais.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "newQuestionIds": [
+        "abdi-2008-especialista-juridico-q019"
+      ]
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-4",
+      "disciplineId": "abdi-criacao-estatuto",
+      "number": "2.4",
+      "label": "Organização administrativa e estrutura de governança.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "newQuestionIds": [
+        "abdi-2008-especialista-controle-interno-auditoria-q018"
+      ]
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-5",
+      "disciplineId": "abdi-criacao-estatuto",
+      "number": "2.5",
+      "label": "Conselho Deliberativo, Conselho Fiscal e Diretoria-Executiva: composição, competências e atribuições.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "newQuestionIds": [
+        "abdi-2008-especialista-controle-interno-auditoria-q018"
+      ]
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-6",
+      "disciplineId": "abdi-criacao-estatuto",
+      "number": "2.6",
+      "label": "Patrimônio, receitas, contrato de gestão e prestação de contas.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "newQuestionIds": [
+        "abdi-2008-especialista-juridico-q020",
+        "abdi-2008-senior-juridico-q018"
+      ]
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "number": "3",
+      "label": "REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-1",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "number": "3.1",
+      "label": "Regulamento de Licitações e Contratos da ABDI: princípios e disposições gerais.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-2",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "number": "3.2",
+      "label": "Modalidades, procedimentos licitatórios, critérios de julgamento e habilitação.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-3",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "number": "3.3",
+      "label": "Contratação direta: dispensa e inexigibilidade.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-4",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "number": "3.4",
+      "label": "Formalização, execução, fiscalização, alteração e extinção dos contratos.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-5",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "number": "3.5",
+      "label": "Sanções e responsabilidades contratuais.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-6",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "number": "3.6",
+      "label": "Regulamento de Convênios da ABDI: disposições gerais, conceitos e modalidades.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-7",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "number": "3.7",
+      "label": "Celebração de convênios, plano de trabalho, habilitação e contrapartidas.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-8",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "number": "3.8",
+      "label": "Execução, acompanhamento, fiscalização e alterações dos convênios.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-9",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "number": "3.9",
+      "label": "Prestação de contas, responsabilidades e disposições finais.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4",
+      "disciplineId": "abdi-etica-missao",
+      "number": "4",
+      "label": "ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI",
+      "beforeState": "empty",
+      "afterState": "descendants_only",
+      "newQuestionIds": [
+        "128-tcemg-008-01-q039",
+        "abdi-2008-senior-assessor-comunicacao-q013",
+        "abdi-2008-senior-assessor-comunicacao-q016"
+      ]
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-1",
+      "disciplineId": "abdi-etica-missao",
+      "number": "4.1",
+      "label": "Regulamento de Ética e Conduta da ABDI (Resolução do Conselho Deliberativo nº 004/2022): objetivo, aplicabilidade, valores e princípios éticos (arts. 1º a 3º).",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "newQuestionIds": [
+        "128-tcemg-008-01-q039",
+        "abdi-2008-senior-assessor-comunicacao-q013",
+        "abdi-2008-senior-assessor-comunicacao-q016"
+      ]
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-2",
+      "disciplineId": "abdi-etica-missao",
+      "number": "4.2",
+      "label": "Direitos, deveres e vedações aplicáveis aos profissionais da ABDI (arts. 4º a 6º do Regulamento de Ética e Conduta).",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-3",
+      "disciplineId": "abdi-etica-missao",
+      "number": "4.3",
+      "label": "Critérios de conduta profissional: mídias sociais, confidencialidade de informações, propriedade intelectual, utilização de recursos institucionais, doações e patrocínios (arts. 7º a 11 do Regulamento de Ética e Conduta).",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-4",
+      "disciplineId": "abdi-etica-missao",
+      "number": "4.4",
+      "label": "Conflito de interesses: atividades paralelas, atividades políticas, sindicais e religiosas, relacionamento entre profissionais, brindes, presentes, favores, participação em eventos e utilização de informações privilegiadas (arts. 12 a 17 do Regulamento de Ética e Conduta).",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-5",
+      "disciplineId": "abdi-etica-missao",
+      "number": "4.5",
+      "label": "Descumprimento das normas, medidas disciplinares, comunicação de irregularidades, denúncias e gestão do Regulamento de Ética e Conduta (arts. 18 a 25).",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-6",
+      "disciplineId": "abdi-etica-missao",
+      "number": "4.6",
+      "label": "Missão, visão, valores, diretrizes e objetivos estratégicos da ABDI, conforme o Planejamento Estratégico 2024–2029, aprovado pela Resolução do Conselho Deliberativo nº 008/2023.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-7",
+      "disciplineId": "abdi-etica-missao",
+      "number": "4.7",
+      "label": "Atuação institucional da ABDI: promoção do desenvolvimento industrial, inovação, transformação digital, difusão tecnológica, competitividade e sustentabilidade, conforme o art. 1º da Lei nº 11.080/2004, o art. 2º do Decreto nº 5.352/2005 e o Planejamento Estratégico 2024–2029.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "newQuestionIds": []
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-2",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "number": "2",
+      "label": "Processos, elementos, modelos e funções da comunicação.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "newQuestionIds": [
+        "128-tcemg-008-01-q031",
+        "539-alce-016-01-q027"
+      ]
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-22",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "number": "22",
+      "label": "Comunicação científica, tecnológica e ambiental.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "newQuestionIds": [
+        "038-anm-008-01-q110"
+      ]
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-25",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "number": "25",
+      "label": "Proteção de dados pessoais aplicada às atividades de comunicação.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "newQuestionIds": [
+        "153-telebras-008-01-q079",
+        "153-telebras-008-01-q080",
+        "153-telebras-008-01-q081",
+        "153-telebras-008-01-q082",
+        "153-telebras-008-01-q083",
+        "153-telebras-008-01-q084"
+      ]
+    }
+  ]
+}

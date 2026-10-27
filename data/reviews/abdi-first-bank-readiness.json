@@ -1,0 +1,177 @@
+{
+  "reviewedAt": "2026-10-27",
+  "roleId": "abdi-comunicacao-marketing",
+  "scope": "Inventário e verificação estática de cotas com IDs distintos; não implementa o simulado ABDI, não atesta cobertura integral. C/E não entram na capacidade MC. As cotas institucionais continuam vazias.",
+  "distinctTrainingQuestions": 185,
+  "distinctMC": 46,
+  "distinctCE": 139,
+  "minimumAdditionalMC": 20,
+  "distribution": [
+    {
+      "block": "basic",
+      "disciplineId": "lingua-portuguesa",
+      "requiredMC": 8,
+      "availableDistinctMC": 9,
+      "missingForMinimum": 0
+    },
+    {
+      "block": "basic",
+      "disciplineId": "raciocinio-logico",
+      "requiredMC": 6,
+      "availableDistinctMC": 6,
+      "missingForMinimum": 0
+    },
+    {
+      "block": "basic",
+      "disciplineId": "abdi-nocoes-informatica",
+      "requiredMC": 6,
+      "availableDistinctMC": 13,
+      "missingForMinimum": 0
+    },
+    {
+      "block": "institutional",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "requiredMC": 4,
+      "availableDistinctMC": 0,
+      "missingForMinimum": 4
+    },
+    {
+      "block": "institutional",
+      "disciplineId": "abdi-criacao-estatuto",
+      "requiredMC": 4,
+      "availableDistinctMC": 0,
+      "missingForMinimum": 4
+    },
+    {
+      "block": "institutional",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "requiredMC": 8,
+      "availableDistinctMC": 0,
+      "missingForMinimum": 8
+    },
+    {
+      "block": "institutional",
+      "disciplineId": "abdi-etica-missao",
+      "requiredMC": 4,
+      "availableDistinctMC": 0,
+      "missingForMinimum": 4
+    },
+    {
+      "block": "specific",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "requiredMC": 20,
+      "availableDistinctMC": 22,
+      "missingForMinimum": 0
+    }
+  ],
+  "emptySpecificTopics": [
+    {
+      "number": "2",
+      "label": "Processos, elementos, modelos e funções da comunicação."
+    },
+    {
+      "number": "22",
+      "label": "Comunicação científica, tecnológica e ambiental."
+    },
+    {
+      "number": "25",
+      "label": "Proteção de dados pessoais aplicada às atividades de comunicação."
+    }
+  ],
+  "institutionalSourcesNeeded": [
+    "Estatuto Social da ABDI",
+    "Regulamento de Licitações e Contratos da ABDI",
+    "Regulamento de Convênios da ABDI",
+    "Ética e Conduta — Resolução CD 004/2022",
+    "Planejamento Estratégico 2024–2029 — Resolução CD 008/2023"
+  ],
+  "quotaCheck": {
+    "method": "Bipartite matching between official discipline quota slots and eligible canonical MC IDs, with one slot per question. Static audit, not a released exam allocator.",
+    "requiredDistinctMC": 60,
+    "allocatableDistinctMC": 40,
+    "unfilledSlots": 20,
+    "assignments": [
+      {
+        "disciplineId": "lingua-portuguesa",
+        "questionIds": [
+          "alerj-2026-comunicacao-manha-tipo1-q001",
+          "alerj-2026-comunicacao-manha-tipo1-q002",
+          "alerj-2026-comunicacao-manha-tipo1-q003",
+          "alerj-2026-comunicacao-manha-tipo1-q004",
+          "alerj-2026-comunicacao-manha-tipo1-q005",
+          "alerj-2026-comunicacao-manha-tipo1-q006",
+          "alerj-2026-comunicacao-manha-tipo1-q008",
+          "alerj-2026-comunicacao-manha-tipo1-q009"
+        ]
+      },
+      {
+        "disciplineId": "raciocinio-logico",
+        "questionIds": [
+          "senado-2022-administracao-tipo1-q014",
+          "senado-2022-administracao-tipo1-q016",
+          "senado-2022-administracao-tipo1-q017",
+          "senado-2022-policial-tipo1-q014",
+          "senado-2022-policial-tipo1-q016",
+          "senado-2022-policial-tipo1-q017"
+        ]
+      },
+      {
+        "disciplineId": "abdi-nocoes-informatica",
+        "questionIds": [
+          "alerj-2026-comunicacao-manha-tipo1-q011",
+          "alerj-2026-comunicacao-manha-tipo1-q012",
+          "alerj-2026-comunicacao-manha-tipo1-q013",
+          "alerj-2026-comunicacao-manha-tipo1-q014",
+          "alerj-2026-comunicacao-manha-tipo1-q015",
+          "alerj-2026-comunicacao-manha-tipo1-q016"
+        ]
+      },
+      {
+        "disciplineId": "abdi-servicos-sociais-autonomos",
+        "questionIds": []
+      },
+      {
+        "disciplineId": "abdi-criacao-estatuto",
+        "questionIds": []
+      },
+      {
+        "disciplineId": "abdi-licitacoes-convenios",
+        "questionIds": []
+      },
+      {
+        "disciplineId": "abdi-etica-missao",
+        "questionIds": []
+      },
+      {
+        "disciplineId": "abdi-comunicacao-marketing",
+        "questionIds": [
+          "128-tcemg-008-01-q043",
+          "128-tcemg-008-01-q045",
+          "539-alce-016-01-q021",
+          "539-alce-016-01-q022",
+          "539-alce-016-01-q023",
+          "539-alce-016-01-q025",
+          "539-alce-016-01-q026",
+          "alerj-2026-comunicacao-manha-tipo1-q056",
+          "alerj-2026-comunicacao-manha-tipo1-q058",
+          "alerj-2026-comunicacao-manha-tipo1-q059",
+          "alerj-2026-comunicacao-manha-tipo1-q060",
+          "alerj-2026-comunicacao-manha-tipo1-q061",
+          "alerj-2026-comunicacao-manha-tipo1-q063",
+          "alerj-2026-comunicacao-manha-tipo1-q064",
+          "alerj-2026-comunicacao-manha-tipo1-q065",
+          "alerj-2026-comunicacao-manha-tipo1-q067",
+          "alerj-2026-comunicacao-manha-tipo1-q068",
+          "alerj-2026-comunicacao-manha-tipo1-q069",
+          "alerj-2026-comunicacao-manha-tipo1-q071",
+          "alerj-2026-comunicacao-manha-tipo1-q072"
+        ]
+      }
+    ]
+  },
+  "institutionalSourcesReviewed": [
+    "reference-abdi-lei-11080-2004",
+    "reference-abdi-decreto-5352-2005",
+    "reference-abdi-lei-14440-2022"
+  ]
+}

@@ -1,0 +1,2338 @@
+{
+  "id": "abdi-second-batch",
+  "reviewedAt": "2026-10-27",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/abdi-second-batch-release.md",
+  "previousCatalogSha256": "2023206f076d08fc479c82ccad34163a009097ec30dc2104c15c11aeb33608b4",
+  "items": [
+    {
+      "questionId": "abdi-2008-especialista-juridico-q019",
+      "paperId": "source-abdi-2008-especialista-juridico",
+      "number": 19,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-especialista-juridico-key",
+      "answerValue": "a",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-servicos-sociais-autonomos-1-1",
+        "abdi-2026-abdi-criacao-estatuto-2-3"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 4,
+            "column": "right",
+            "x": 303.4996,
+            "y": 29.5874,
+            "text": "Levando em consideração o que prevê o Estatuto"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 303.4996,
+            "y": 42.5874,
+            "text": "do Serviço Social Autônomo ABDI, assinale a alternativa"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 303.4996,
+            "y": 55.5874,
+            "text": "correta:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 4,
+            "column": "right",
+            "x": 303.4996,
+            "y": 68.5874,
+            "text": "A ABDI tem por finalidade promover a execução de"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 81.5874,
+            "text": "políticas de desenvolvimento industrial, especialmente"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 94.5874,
+            "text": "as que contribuam para a geração de empregos e renda,"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 107.5874,
+            "text": "em consonância com as políticas de comércio exterior"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 120.5874,
+            "text": "e de ciência e tecnologia."
+          }
+        ],
+        "b": [
+          {
+            "page": 4,
+            "column": "right",
+            "x": 303.4996,
+            "y": 133.5874,
+            "text": "Os Presidentes dos Conselhos Deliberativo e Fiscal da"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 146.5874,
+            "text": "ABDI serão eleitos por maioria absoluta de votos, para"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 159.5874,
+            "text": "um período de dois anos, com possibilidade de uma"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 172.5874,
+            "text": "única recondução por igual período."
+          }
+        ],
+        "c": [
+          {
+            "page": 4,
+            "column": "right",
+            "x": 303.4996,
+            "y": 185.5874,
+            "text": "O Conselho Deliberativo da ABDI é o órgão Colegiado"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 198.5874,
+            "text": "de deliberação superior integrado por vinte e um"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 211.5874,
+            "text": "conselheiros, sendo onze representantes dos órgãos"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 224.5874,
+            "text": "do Poder Executivo e dez representantes de entidades"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 237.5874,
+            "text": "privadas."
+          }
+        ],
+        "d": [
+          {
+            "page": 4,
+            "column": "right",
+            "x": 303.4996,
+            "y": 250.5874,
+            "text": "Para consecução do seu objetivo a ABDI poderá celebrar"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 263.5874,
+            "text": "contratos, convênios, acordos de cooperação e outros"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 276.5874,
+            "text": "ajustes com pessoas jurídicas de direito privado"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 289.5874,
+            "text": "exclusivamente constituídas por patrimônio nacional,"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 302.5874,
+            "text": "instaladas no país ou no exterior."
+          }
+        ]
+      },
+      "originalQuestionMarker": "19)"
+    },
+    {
+      "questionId": "abdi-2008-especialista-juridico-q020",
+      "paperId": "source-abdi-2008-especialista-juridico",
+      "number": 20,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-especialista-juridico-key",
+      "answerValue": "b",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-servicos-sociais-autonomos-1-4",
+        "abdi-2026-abdi-criacao-estatuto-2-6"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 4,
+            "column": "right",
+            "x": 303.4996,
+            "y": 328.5874,
+            "text": "Em conformidade com o que dispõe a Lei n°"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 303.4996,
+            "y": 341.5874,
+            "text": "11.080/2004, podemos afirmar corretamente que:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 4,
+            "column": "right",
+            "x": 303.4996,
+            "y": 354.5874,
+            "text": "A agência Brasileira de Desenvolvimento Industrial"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 367.5874,
+            "text": "constitui-se em uma pessoa jurídica de direito público,"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 380.5874,
+            "text": "sem fins lucrativos, de interesse coletivo e de utilidade"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 393.5874,
+            "text": "pública."
+          }
+        ],
+        "b": [
+          {
+            "page": 4,
+            "column": "right",
+            "x": 303.4996,
+            "y": 406.5874,
+            "text": "A ABDI firmará contrato de gestão com o Ministério do"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 419.5874,
+            "text": "Desenvolvimento, Indústria e Comércio Exterior para"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 432.5874,
+            "text": "execução das finalidades previstas em lei."
+          }
+        ],
+        "c": [
+          {
+            "page": 4,
+            "column": "right",
+            "x": 303.4996,
+            "y": 445.5874,
+            "text": "O patrimônio da ABDI na hipótese de sua extinção será"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 458.5874,
+            "text": "imediatamente transferido às instituições que com ela"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 471.5874,
+            "text": "firmaram contrato de parceria, reservado um terço do"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 484.5874,
+            "text": "seu ativo para a União."
+          }
+        ],
+        "d": [
+          {
+            "page": 4,
+            "column": "right",
+            "x": 303.4996,
+            "y": 497.5874,
+            "text": "Constituem receitas da ABDI os valores apurados com"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 510.5874,
+            "text": "a venda ou aluguel de bens móveis e imóveis de sua"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 523.5874,
+            "text": "propriedade ou de propriedade de seus parceiros, que"
+          },
+          {
+            "page": 4,
+            "column": "right",
+            "x": 317.6726,
+            "y": 536.5874,
+            "text": "se vinculam financeiramente com a Agência."
+          }
+        ]
+      },
+      "originalQuestionMarker": "20)"
+    },
+    {
+      "questionId": "abdi-2008-senior-juridico-q018",
+      "paperId": "source-abdi-2008-senior-juridico",
+      "number": 18,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-senior-juridico-key",
+      "answerValue": "a",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-servicos-sociais-autonomos-1-5",
+        "abdi-2026-abdi-criacao-estatuto-2-6"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 281.8021,
+            "text": "Compete ao Poder Executivo, na tutela da gestão"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 293.8021,
+            "text": "da Agência Brasileira de Desenvolvimento Industrial:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 305.8021,
+            "text": "Aprovar anualmente o orçamento-programa da ABDI"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 317.8021,
+            "text": "para execução das atividades previstas no contrato"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 329.8021,
+            "text": "de gestão."
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 341.8021,
+            "text": "Remeter ao Tribunal de Contas, até 31 de março"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 353.8021,
+            "text": "do ano seguinte ao término do exercício financeiro as"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 365.8021,
+            "text": "contas da gestão anual da ABDI."
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 377.8021,
+            "text": "Firmar contrato de gestão com o Ministério do"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 389.8021,
+            "text": "Desenvolvimento, Indústria e Comércio Exterior para"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 401.8021,
+            "text": "execução das atribuições delegadas a ABDI."
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 413.8021,
+            "text": "Definir as regras que compõem o estatuto da ABDI e"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 425.8021,
+            "text": "suas respectivas alterações."
+          }
+        ]
+      },
+      "originalQuestionMarker": "18)"
+    },
+    {
+      "questionId": "abdi-2008-especialista-controle-interno-auditoria-q018",
+      "paperId": "source-abdi-2008-especialista-controle-interno-auditoria",
+      "number": 18,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-especialista-controle-interno-auditoria-key",
+      "answerValue": "a",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-criacao-estatuto-2-4",
+        "abdi-2026-abdi-criacao-estatuto-2-5"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6031,
+            "y": 281.5842,
+            "text": "São órgãos de direção da ABDI:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6031,
+            "y": 294.0842,
+            "text": "A Diretoria Executiva, composta por 1 (um) Presidente"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7761,
+            "y": 306.5842,
+            "text": "e 2 (dois) Diretores; II - o Conselho Deliberativo,"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7761,
+            "y": 319.0842,
+            "text": "composto por 15 (quinze) membros; e III - o Conselho"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7761,
+            "y": 331.5842,
+            "text": "Fiscal, composto por 3 (três) membros."
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6031,
+            "y": 344.0842,
+            "text": "A Diretoria Executiva, composta por 1 (um) Presidente"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7761,
+            "y": 356.5842,
+            "text": "e 2 (dois) Diretores; II - o Conselho Deliberativo,"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7761,
+            "y": 369.0842,
+            "text": "composto por 12 (doze) membros; e III - o Conselho"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7761,
+            "y": 381.5842,
+            "text": "Fiscal, composto por 3 (três) membros."
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6031,
+            "y": 394.0842,
+            "text": "A Diretoria Executiva, composta por 1 (um) Presidente"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7761,
+            "y": 406.5842,
+            "text": "e 2 (dois) Diretores; II - o Conselho Deliberativo,"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7761,
+            "y": 419.0842,
+            "text": "composto por 15 (quinze) membros; e III - o Conselho"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7761,
+            "y": 431.5842,
+            "text": "Fiscal, composto por 5 (cinco) membros."
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6031,
+            "y": 444.0842,
+            "text": "A Diretoria Executiva, composta por 1 (um) Presidente"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7761,
+            "y": 456.5842,
+            "text": "e 3 (três) Diretores; II - o Conselho Deliberativo,"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7761,
+            "y": 469.0842,
+            "text": "composto por 12 (doze) membros; e III - o Conselho"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7761,
+            "y": 481.5842,
+            "text": "Fiscal, composto por 5 (cinco) membros."
+          }
+        ]
+      },
+      "originalQuestionMarker": "18)"
+    },
+    {
+      "questionId": "abdi-2008-senior-assessor-comunicacao-q013",
+      "paperId": "source-abdi-2008-senior-assessor-comunicacao",
+      "number": 13,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-senior-assessor-comunicacao-key",
+      "answerValue": "b",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-etica-missao-4-1",
+        "abdi-2026-abdi-comunicacao-marketing-23"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 30.6227,
+            "text": "Com relação às frases abaixo, assinale a alternativa"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 43.1227,
+            "text": "correta:"
+          }
+        ],
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 55.6227,
+            "text": "I- Os profissionais, no desempenho de suas tarefas de"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 68.1227,
+            "text": "assessoria, precisam desenvolver e aperfeiçoar uma"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 80.6227,
+            "text": "cultura ética. Passar informações verdadeiras e"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 93.1227,
+            "text": "reconhecer quando houver erro."
+          }
+        ],
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 105.6227,
+            "text": "II- As diversas esferas institucionais na sociedade têm"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 118.1227,
+            "text": "suas especificidades – o empresariado, o governo, as"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 130.6227,
+            "text": "representações de classe, os partidos políticos etc. – e"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 143.1227,
+            "text": "o melhor é adequar a assessoria à realidade e cada um"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 155.6227,
+            "text": "dos casos."
+          }
+        ],
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 168.1227,
+            "text": "III- Jornalista e fonte são os únicos atores a serem levados"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 180.6227,
+            "text": "em consideração na produção da notícia."
+          }
+        ],
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 193.1227,
+            "text": "IV- A imagem institucional se transforma em uma aura que"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 205.6227,
+            "text": "recobre toda a empresa e exala seus valores, seus"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 218.1227,
+            "text": "princípios, sua filosofia – enfim, tudo aquilo em que é"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 230.6227,
+            "text": "preciso crer para ver."
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 246.1227,
+            "text": "somente I,II e III estão corretas"
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 258.6227,
+            "text": "somente I, II e IV estão corretas"
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 271.1227,
+            "text": "somente II, III e IV estão corretas"
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 283.6227,
+            "text": "todas estão corretas"
+          }
+        ]
+      },
+      "originalQuestionMarker": "13)"
+    },
+    {
+      "questionId": "abdi-2008-senior-assessor-comunicacao-q016",
+      "paperId": "source-abdi-2008-senior-assessor-comunicacao",
+      "number": 16,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-senior-assessor-comunicacao-key",
+      "answerValue": "c",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-etica-missao-4-1",
+        "abdi-2026-abdi-comunicacao-marketing-20"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8986,
+            "y": 731.6227,
+            "text": "Para administrar esse tipo de publicidade, a Valujet"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8986,
+            "y": 744.1227,
+            "text": "deve:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8986,
+            "y": 756.6227,
+            "text": "ignorar a situação"
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8986,
+            "y": 769.1227,
+            "text": "negar a situação"
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8986,
+            "y": 781.6227,
+            "text": "ser sincera sobre a situação"
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8986,
+            "y": 794.1227,
+            "text": "evitar a situação"
+          }
+        ]
+      },
+      "originalQuestionMarker": "16)"
+    },
+    {
+      "questionId": "128-tcemg-008-01-q039",
+      "paperId": "source-128-tcemg-008-01",
+      "number": 39,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-128-tcemg-008-01-key",
+      "answerValue": "a",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-etica-missao-4-1",
+        "abdi-2026-abdi-comunicacao-marketing-23"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.32,
+            "y": 68.30564,
+            "text": "De acordo com os princípios éticos e as diretrizes que orientam o"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.32,
+            "y": 81.98564,
+            "text": "exercício profissional e institucional da comunicação social,"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.32,
+            "y": 95.54564,
+            "text": "assinale a opção correta."
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.32,
+            "y": 116.06564,
+            "text": "O compromisso ético do comunicador está ligado à promoção"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 129.74564,
+            "text": "da transparência, pluralidade e veracidade, devendo esse"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 143.42564,
+            "text": "profissional assegurar que o direito à informação prevaleça"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 157.10564,
+            "text": "sobre interesses políticos, comerciais ou pessoais."
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.32,
+            "y": 170.66564,
+            "text": "O princípio ético fundamental da comunicação pública é a"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 184.34564,
+            "text": "eficiência informacional, que justifica a simplificação de"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 198.02564,
+            "text": "conteúdos e o controle das narrativas para garantir adesão do"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 211.70564,
+            "text": "público às mensagens institucionais."
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.32,
+            "y": 225.29564,
+            "text": "O uso de conteúdos produzidos por ferramentas de"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 238.97564,
+            "text": "inteligência artificial dispensa a verificação de fontes e"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 252.65564,
+            "text": "autoria, desde que as informações sejam coerentes com o"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 266.33564,
+            "text": "discurso institucional e não prejudiquem a imagem da"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 280.01564,
+            "text": "organização."
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.32,
+            "y": 293.57564,
+            "text": "O uso de dados pessoais em estratégias de comunicação é"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 307.25564,
+            "text": "eticamente legítimo, sempre que autorizado pela alta gestão,"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 320.93564,
+            "text": "independentemente do consentimento explícito dos titulares"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 334.61564,
+            "text": "das informações."
+          }
+        ],
+        "e": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.32,
+            "y": 348.29564,
+            "text": "O sigilo profissional absoluto em comunicação institucional"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 361.85564,
+            "text": "autoriza a omissão de dados de interesse público quando a"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 375.55564,
+            "text": "divulgação destes possa gerar interpretações negativas à"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 389.23564,
+            "text": "imagem do órgão, cabendo ao comunicador preservar a"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 42.48,
+            "y": 402.91564,
+            "text": "reputação institucional."
+          }
+        ]
+      },
+      "originalQuestionMarker": null
+    },
+    {
+      "questionId": "128-tcemg-008-01-q031",
+      "paperId": "source-128-tcemg-008-01",
+      "number": 31,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-128-tcemg-008-01-key",
+      "answerValue": "c",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-1",
+        "abdi-2026-abdi-comunicacao-marketing-2"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 1,
+            "column": "left",
+            "x": 28.32,
+            "y": 108.02564,
+            "text": "Ao longo do século XX, diferentes correntes teóricas buscaram"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 28.32,
+            "y": 121.70564,
+            "text": "compreender os processos comunicacionais a partir de distintas"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 28.32,
+            "y": 135.38564,
+            "text": "abordagens epistemológicas. Acerca das teorias da comunicação,"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 28.32,
+            "y": 149.18564,
+            "text": "assinale a opção correta."
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 1,
+            "column": "left",
+            "x": 28.32,
+            "y": 169.70564,
+            "text": "A teoria dos usos e gratificações entende o receptor como"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 42.48,
+            "y": 183.38564,
+            "text": "passivo diante das mensagens midiáticas, enfatizando a"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 42.48,
+            "y": 197.06564,
+            "text": "transmissão eficiente da informação técnica."
+          }
+        ],
+        "b": [
+          {
+            "page": 1,
+            "column": "left",
+            "x": 28.32,
+            "y": 210.74564,
+            "text": "A teoria hipodérmica, também conhecida como “modelo da"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 42.48,
+            "y": 224.57564,
+            "text": "agulha hipodérmica”, entende o público como ativo,"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 42.48,
+            "y": 238.25564,
+            "text": "interpretando criticamente as mensagens de acordo com seu"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 42.48,
+            "y": 251.93564,
+            "text": "contexto cultural e suas experiências prévias."
+          }
+        ],
+        "c": [
+          {
+            "page": 1,
+            "column": "left",
+            "x": 28.32,
+            "y": 265.61564,
+            "text": "A teoria crítica da Escola de Frankfurt, representada por"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 42.48,
+            "y": 279.29564,
+            "text": "autores como Adorno, Horkheimer e Marcuse, analisa a"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 42.48,
+            "y": 293.09564,
+            "text": "indústria cultural como um instrumento de dominação"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 42.48,
+            "y": 306.77564,
+            "text": "ideológica que transforma a cultura em mercadoria e reduz a"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 42.48,
+            "y": 320.45564,
+            "text": "autonomia do sujeito."
+          }
+        ],
+        "d": [
+          {
+            "page": 1,
+            "column": "left",
+            "x": 28.32,
+            "y": 334.13564,
+            "text": "A teoria da espiral do silêncio, de Jürgen Habermas, afirma"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 42.48,
+            "y": 347.81564,
+            "text": "que a opinião pública é formada por meio do consenso"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 42.48,
+            "y": 361.61564,
+            "text": "racional obtido no espaço público ideal de comunicação, livre"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 42.48,
+            "y": 375.31564,
+            "text": "de coerções e desigualdades."
+          }
+        ],
+        "e": [
+          {
+            "page": 1,
+            "column": "left",
+            "x": 28.32,
+            "y": 388.99564,
+            "text": "A teoria funcionalista concebe a comunicação como um"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 42.48,
+            "y": 402.67564,
+            "text": "processo linear e unidirecional, no qual a mídia atua apenas"
+          },
+          {
+            "page": 1,
+            "column": "left",
+            "x": 42.48,
+            "y": 416.35564,
+            "text": "como mediadora neutra entre emissor e receptor."
+          }
+        ]
+      },
+      "originalQuestionMarker": null
+    },
+    {
+      "questionId": "539-alce-016-01-q027",
+      "paperId": "source-539-alce-016-01",
+      "number": 27,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-539-alce-016-01-key",
+      "answerValue": "b",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-1",
+        "abdi-2026-abdi-comunicacao-marketing-2"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.319,
+            "y": 307.47602,
+            "text": "No que concerne às teorias da comunicação, assinale a opção"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.319,
+            "y": 318.75572,
+            "text": "correta."
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.319,
+            "y": 333.0167,
+            "text": "Na perspectiva dos estudos culturais latino-americanos, a"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 318.4792,
+            "y": 346.95572,
+            "text": "comunicação de crise, para ser eficaz, deve privilegiar os"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 318.4792,
+            "y": 358.1159,
+            "text": "modelos jornalísticos canônicos e o poder da indústria"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 318.4792,
+            "y": 369.3956,
+            "text": "cultural na formação da opinião pública."
+          }
+        ],
+        "b": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.319,
+            "y": 378.01598,
+            "text": "Ao difundir informações da mídia em grupos de família e"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 318.4792,
+            "y": 391.955,
+            "text": "amigos, o indivíduo assume um papel similar ao de líder de"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 318.4792,
+            "y": 403.2347,
+            "text": "opinião, conforme o modelo do two step flow of"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 318.4792,
+            "y": 414.39488,
+            "text": "communication."
+          }
+        ],
+        "c": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.319,
+            "y": 423.01526,
+            "text": "No contexto de colonização da esfera pública habermasiana, a"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 318.4792,
+            "y": 436.95428,
+            "text": "comunicação acerca da pandemia do coronavírus tem sido"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 318.4792,
+            "y": 448.23398,
+            "text": "marcada pelo uso de argumentos racionais e pela promoção"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 318.4792,
+            "y": 459.51368,
+            "text": "de amplo debate público, visando à construção do consenso."
+          }
+        ],
+        "d": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.319,
+            "y": 468.13406,
+            "text": "Um dos desafios da comunicação em tempos de pandemia é"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 318.4792,
+            "y": 481.95356,
+            "text": "atuar no processo de construção da agenda pública, visando"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 318.4792,
+            "y": 493.23326,
+            "text": "persuadir a população quanto à importância de se obedecer às"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 318.4792,
+            "y": 504.51296,
+            "text": "orientações sanitárias."
+          }
+        ],
+        "e": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.319,
+            "y": 513.13334,
+            "text": "Sob a perspectiva teórica de Bourdieu, a cobertura da"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 318.4792,
+            "y": 527.07236,
+            "text": "pandemia do coronavírus tem sido marcada pela cooperação"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 318.4792,
+            "y": 538.35206,
+            "text": "entre agentes dos campos midiático, científico e político."
+          }
+        ]
+      },
+      "originalQuestionMarker": null
+    },
+    {
+      "questionId": "038-anm-008-01-q110",
+      "paperId": "source-038-anm-008-01",
+      "number": 110,
+      "type": "true_false",
+      "answerDocumentId": "source-038-anm-008-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-9",
+        "abdi-2026-abdi-comunicacao-marketing-22"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 359.0567,
+            "text": "110 O artigo de divulgação enquadra-se no jornalismo científico,"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 46.1991,
+            "y": 369.856328,
+            "text": "o artigo educativo, no jornalismo especializado, e o artigo"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 46.1991,
+            "y": 380.536436,
+            "text": "doutrinário é o especificamente jornalístico."
+          }
+        ]
+      ],
+      "optionLineGroups": {},
+      "originalQuestionMarker": "110"
+    },
+    {
+      "questionId": "153-telebras-008-01-q079",
+      "paperId": "source-153-telebras-008-01",
+      "number": 79,
+      "type": "true_false",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-25",
+        "abdi-2026-abdi-nocoes-informatica-11"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 2,
+            "column": "left",
+            "x": 28.32,
+            "y": 357.05564,
+            "text": "79 O direito do titular de obter a confirmação da existência de"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 368.45564,
+            "text": "tratamento e o acesso a seus dados pessoais pode ser"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 379.75564,
+            "text": "atendido de duas formas pelo controlador, conforme a"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 391.15564,
+            "text": "escolha do titular: de forma imediata e simplificada; ou por"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 402.55564,
+            "text": "meio de declaração clara e completa, observados os segredos"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 413.83564,
+            "text": "comercial e industrial."
+          }
+        ]
+      ],
+      "optionLineGroups": {},
+      "originalQuestionMarker": "79"
+    },
+    {
+      "questionId": "153-telebras-008-01-q080",
+      "paperId": "source-153-telebras-008-01",
+      "number": 80,
+      "type": "true_false",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-25",
+        "abdi-2026-abdi-nocoes-informatica-11"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 2,
+            "column": "left",
+            "x": 28.32,
+            "y": 427.27564,
+            "text": "80 Caso determinada decisão, tomada exclusivamente com base"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 438.55564,
+            "text": "em tratamento automatizado de dados pessoais, afete os"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 449.95564,
+            "text": "interesses do titular dos dados, este poderá solicitar a revisão"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 461.23564,
+            "text": "da decisão, devendo o controlador fornecer, sempre que"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 472.63564,
+            "text": "solicitadas, informações claras sobre os critérios e"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 484.03564,
+            "text": "procedimentos utilizados, ressalvada a proteção ao segredo"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 495.31564,
+            "text": "comercial e industrial."
+          }
+        ]
+      ],
+      "optionLineGroups": {},
+      "originalQuestionMarker": "80"
+    },
+    {
+      "questionId": "153-telebras-008-01-q081",
+      "paperId": "source-153-telebras-008-01",
+      "number": 81,
+      "type": "true_false",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-25",
+        "abdi-2026-abdi-nocoes-informatica-11"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 2,
+            "column": "left",
+            "x": 28.32,
+            "y": 508.75564,
+            "text": "81 O exercício do direito do titular de obter do controlador a"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 520.03564,
+            "text": "portabilidade de seus dados pessoais a outro fornecedor"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 531.46564,
+            "text": "inclui dados que tenham sido previamente anonimizados"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 542.74564,
+            "text": "pelo controlador, desde que a requisição seja expressa e que"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 554.14564,
+            "text": "a regulamentação da autoridade nacional seja observada."
+          }
+        ]
+      ],
+      "optionLineGroups": {},
+      "originalQuestionMarker": "81"
+    },
+    {
+      "questionId": "153-telebras-008-01-q082",
+      "paperId": "source-153-telebras-008-01",
+      "number": 82,
+      "type": "true_false",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-25",
+        "abdi-2026-abdi-nocoes-informatica-11"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 2,
+            "column": "left",
+            "x": 28.32,
+            "y": 614.02564,
+            "text": "82 O tratamento de dados pessoais poderá ser considerado"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 625.42564,
+            "text": "irregular quando, ainda que realizado de acordo com a"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 636.82564,
+            "text": "legislação formalmente aplicável, deixar de oferecer a"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 648.10564,
+            "text": "segurança que o titular legitimamente pode esperar do"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 659.50564,
+            "text": "tratamento, consideradas as circunstâncias relevantes do caso"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 670.90564,
+            "text": "concreto."
+          }
+        ]
+      ],
+      "optionLineGroups": {},
+      "originalQuestionMarker": "82"
+    },
+    {
+      "questionId": "153-telebras-008-01-q083",
+      "paperId": "source-153-telebras-008-01",
+      "number": 83,
+      "type": "true_false",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-25",
+        "abdi-2026-abdi-nocoes-informatica-11"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 2,
+            "column": "left",
+            "x": 28.32,
+            "y": 684.24564,
+            "text": "83 O operador responde solidariamente pelos danos causados ao"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 695.52564,
+            "text": "titular dos dados quando descumprir as obrigações da"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 706.92564,
+            "text": "legislação de proteção de dados ou quando deixar de seguir"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 718.32564,
+            "text": "instruções lícitas do controlador, equiparando-se, nessas"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 729.60564,
+            "text": "hipóteses, a este, ressalvadas as excludentes legais de"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 741.00564,
+            "text": "responsabilidade."
+          }
+        ]
+      ],
+      "optionLineGroups": {},
+      "originalQuestionMarker": "83"
+    },
+    {
+      "questionId": "153-telebras-008-01-q084",
+      "paperId": "source-153-telebras-008-01",
+      "number": 84,
+      "type": "true_false",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-25",
+        "abdi-2026-abdi-nocoes-informatica-11"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 2,
+            "column": "left",
+            "x": 28.32,
+            "y": 754.44564,
+            "text": "84 Nos processos judiciais que envolvam reparação de danos"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 765.72564,
+            "text": "decorrentes do tratamento de dados pessoais, a inversão do"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 777.12564,
+            "text": "ônus da prova em favor do titular é automática, desde que"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 46.2,
+            "y": 788.40564,
+            "text": "alegada a violação à legislação de proteção de dados."
+          }
+        ]
+      ],
+      "optionLineGroups": {},
+      "originalQuestionMarker": "84"
+    }
+  ],
+  "contexts": [
+    {
+      "contextId": "telebras-2026-lgpd-direitos",
+      "sourceDocumentId": "source-153-telebras-008-01-paper",
+      "lineGroups": [
+        [
+          {
+            "page": 2,
+            "column": "left",
+            "x": 28.32,
+            "y": 319.97564,
+            "text": "À luz do disposto na Lei n.º 13.709/2018 (Lei Geral de Proteção"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 28.32,
+            "y": 331.37564,
+            "text": "de Dados Pessoais – LGPD) acerca dos direitos do titular de"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 28.32,
+            "y": 342.65564,
+            "text": "dados pessoais, julgue os itens a seguir."
+          }
+        ]
+      ],
+      "sourceCredit": null
+    },
+    {
+      "contextId": "telebras-2026-lgpd-responsabilidade",
+      "sourceDocumentId": "source-153-telebras-008-01-paper",
+      "lineGroups": [
+        [
+          {
+            "page": 2,
+            "column": "left",
+            "x": 28.32,
+            "y": 577.06564,
+            "text": "A respeito da responsabilização e da reparação de danos"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 28.32,
+            "y": 588.34564,
+            "text": "decorrentes do tratamento de dados pessoais, julgue os itens"
+          },
+          {
+            "page": 2,
+            "column": "left",
+            "x": 28.32,
+            "y": 599.74564,
+            "text": "seguintes, de acordo com a LGPD."
+          }
+        ]
+      ],
+      "sourceCredit": null
+    },
+    {
+      "contextId": "anm-2025-artigo-revolucao-verde",
+      "sourceDocumentId": "source-038-anm-008-01-paper",
+      "lineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 56.759442,
+            "y": 46.4567,
+            "text": "Desde a Conferência do Clima de 1972, em Estocolmo,"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 57.2567,
+            "text": "governos ao redor do mundo vêm apresentando compromissos"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 67.936808,
+            "text": "ambiciosos, prometendo mobilizar trilhões de dólares para"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 78.616916,
+            "text": "financiar a transição rumo a uma economia neutra em carbono."
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 89.297024,
+            "text": "No entanto, a História comprova que pouco tem acontecido."
+          }
+        ],
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 99.977132,
+            "text": "Foi somente em 2021 que o setor privado assumiu papel"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 110.65724,
+            "text": "relevante nessa corrida, dando início a uma revolução verde"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 121.337348,
+            "text": "global. A iniciativa privada é a principal indutora das transições"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 132.017456,
+            "text": "na economia, liderando mudanças desde a Revolução Industrial e"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 142.697564,
+            "text": "passando pela Revolução Tecnológica. Esse papel continuará a"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 153.377672,
+            "text": "ser desempenhado na Revolução Verde, sempre guiado pela"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 164.05778,
+            "text": "busca por inovação, eficiência e lucro. A aprovação do Mercado"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 174.737888,
+            "text": "de Carbono na COP 26, em Glasgow, a criação do sistema único"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 185.417996,
+            "text": "de registro global COP 29, em Baku, e a recente Lei do Mercado"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 196.098104,
+            "text": "de Carbono Brasileiro, aprovada pelo Congresso Nacional, abrem"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 206.778212,
+            "text": "um horizonte de oportunidades excepcionais para impulsionar"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 217.57784,
+            "text": "projetos de crédito de carbono no Brasil. Esse cenário coloca o"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 228.257948,
+            "text": "país em posição estratégica para ser a maior economia neutra em"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 238.938056,
+            "text": "carbono, graças às suas características naturais e econômicas"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 249.618164,
+            "text": "únicas, o que pode fazer o país liderar a transição verde global."
+          }
+        ]
+      ],
+      "sourceCredit": "Joaquim Leite. Eficiência, inovação e lucro guiarão a Revolução Verde. In: O Globo, Rio de Janeiro, 3/1/2025 (com adaptações)."
+    },
+    {
+      "contextId": "anm-2025-artigo-comando",
+      "sourceDocumentId": "source-038-anm-008-01-paper",
+      "lineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 28.3191,
+            "y": 289.0967,
+            "text": "A partir do texto apresentado, julgue os itens que se seguem."
+          }
+        ]
+      ],
+      "sourceCredit": null
+    },
+    {
+      "contextId": "abdi-2008-valujet-minicaso",
+      "sourceDocumentId": "source-abdi-2008-senior-assessor-comunicacao-paper",
+      "lineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 639.6227,
+            "text": "A S QUESTÕES 16, 17 E 18 BASEIAM - SE NO SEGUINTE MINICASO :"
+          }
+        ],
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0716,
+            "y": 659.1227,
+            "text": "Em maio de 1996, um avião da Valujet caiu no Parque"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0716,
+            "y": 671.6227,
+            "text": "Nacional de Everglades, na Flórida, causando a morte"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0716,
+            "y": 684.1227,
+            "text": "de todos os passageiros. Existem muitas coisas que"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0716,
+            "y": 696.6227,
+            "text": "uma companhia poderia fazer em uma situação"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0716,
+            "y": 709.1227,
+            "text": "dessa gravidade."
+          }
+        ]
+      ],
+      "sourceCredit": null
+    }
+  ],
+  "roleMetadataUpdates": [
+    {
+      "roleId": "abdi-comunicacao-marketing",
+      "before": {
+        "id": "abdi-comunicacao-marketing",
+        "contestId": "abdi-2026",
+        "title": "Analista de Produtividade e Inovação — Comunicação e Marketing",
+        "status": "verified",
+        "referenceDocumentIds": [
+          "reference-abdi-lei-11080-2004",
+          "reference-abdi-decreto-5352-2005",
+          "reference-abdi-lei-14440-2022"
+        ]
+      },
+      "after": {
+        "id": "abdi-comunicacao-marketing",
+        "contestId": "abdi-2026",
+        "title": "Analista de Produtividade e Inovação — Comunicação e Marketing",
+        "status": "verified",
+        "referenceDocumentIds": [
+          "reference-abdi-lei-11080-2004",
+          "reference-abdi-decreto-5352-2005",
+          "reference-abdi-lei-14440-2022",
+          "reference-abdi-estatuto-2024",
+          "reference-abdi-licitacoes-2021",
+          "reference-abdi-convenios-2026",
+          "reference-abdi-etica-2022",
+          "reference-abdi-planejamento-2024-2029",
+          "reference-abdi-resolucao-008-2023",
+          "reference-abdi-planejamento-ajustado-2024"
+        ]
+      }
+    }
+  ],
+  "normalization": "Physical line wraps become spaces; word continuations at a hyphen keep the original hyphen. Original letter markers and question numbers become structured fields. Printed paragraphs/roman clauses are retained separately. No added option E to four-choice originals.",
+  "contextTypographyNormalization": [
+    {
+      "contextId": "abdi-2008-valujet-minicaso",
+      "before": "A S QUESTÕES 16, 17 E 18 BASEIAM - SE NO SEGUINTE MINICASO :",
+      "after": "AS QUESTÕES 16, 17 E 18 BASEIAM-SE NO SEGUINTE MINICASO:",
+      "reason": "BBox fragments split the A/S glyphs and inserted spaces at a hyphen and colon in the uppercase heading. The layout PDF extraction and visible printed wording retain AS, BASEIAM-SE and MINICASO:."
+    }
+  ],
+  "deferredItems": [
+    {
+      "questionId": "abdi-2008-especialista-controle-interno-auditoria-q016",
+      "reason": "A enumeração literal de princípios foi modificada no Regulamento de 2021. A chave histórica A permanece válida no caderno de 2008; ela não comprova uma alternativa literal única no texto atual. Item retirado do banco atual e da capacidade do simulado, sem classificá-lo como anulado.",
+      "originalKey": {
+        "id": "abdi-2008-especialista-controle-interno-auditoria-q016-key-v1",
+        "questionId": "abdi-2008-especialista-controle-interno-auditoria-q016",
+        "version": 1,
+        "origin": "official",
+        "stage": "definitive",
+        "status": "confirmed",
+        "documentId": "source-abdi-2008-especialista-controle-interno-auditoria-key",
+        "author": null,
+        "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR ESPECIALISTA – CONTROLE INTERNO - AUDITORIA",
+        "result": "valid",
+        "value": "a"
+      },
+      "sourceBounds": {
+        "questionId": "abdi-2008-especialista-controle-interno-auditoria-q016",
+        "paperId": "source-abdi-2008-especialista-controle-interno-auditoria",
+        "number": 16,
+        "type": "multiple_choice",
+        "answerDocumentId": "source-abdi-2008-especialista-controle-interno-auditoria-key",
+        "answerValue": "a",
+        "syllabusItemIds": [
+          "abdi-2026-abdi-licitacoes-convenios-3-1"
+        ],
+        "stemLineGroups": [
+          [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 29.8991,
+              "y": 531.5842,
+              "text": "A licitação destina-se a selecionar a proposta mais"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 29.8991,
+              "y": 544.0842,
+              "text": "vantajosa para a ABDI e será processada e julgada em"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 29.8991,
+              "y": 556.5842,
+              "text": "estrita conformidade com os princípios básicos:"
+            }
+          ]
+        ],
+        "optionLineGroups": {
+          "a": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 29.8991,
+              "y": 569.0842,
+              "text": "Da legalidade, da impessoalidade, da moralidade, da"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 44.0721,
+              "y": 581.5842,
+              "text": "igualdade, da publicidade, da probidade, da vinculação"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 44.0721,
+              "y": 594.0842,
+              "text": "ao instrumento convocatório, do julgamento objetivo e"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 44.0721,
+              "y": 606.5842,
+              "text": "dos que lhe são correlatos, inadmitindo-se critérios que"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 44.0721,
+              "y": 619.0842,
+              "text": "frustrem seu caráter competitivo."
+            }
+          ],
+          "b": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 29.8991,
+              "y": 631.5842,
+              "text": "Da legalidade, da impessoalidade, da moralidade, da"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 44.0721,
+              "y": 644.0842,
+              "text": "igualdade, da publicidade, da probidade, da vinculação"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 44.0721,
+              "y": 656.5842,
+              "text": "ao instrumento convocatório, do julgamento objetivo e"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 44.0721,
+              "y": 669.0842,
+              "text": "dos que lhe são correlatos, admitindo-se critérios que"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 44.0721,
+              "y": 681.5842,
+              "text": "frustrem seu caráter competitivo."
+            }
+          ],
+          "c": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 29.8991,
+              "y": 694.0842,
+              "text": "Da legalidade, da impessoalidade, da moralidade, da"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 44.0721,
+              "y": 706.5842,
+              "text": "igualdade, da publicidade, da probidade, da vinculação"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 44.0721,
+              "y": 719.0842,
+              "text": "ao instrumento convocatório, do julgamento objetivo e"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 44.0721,
+              "y": 731.5842,
+              "text": "dos que lhe são correlatos, inadmitindo-se critérios que"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 44.0721,
+              "y": 744.0842,
+              "text": "frustrem seu caráter impessoal."
+            }
+          ],
+          "d": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 29.8991,
+              "y": 756.5842,
+              "text": "Da legalidade, da impessoalidade, da moralidade, da"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 44.0721,
+              "y": 769.0842,
+              "text": "igualdade, da publicidade, da probidade, da vinculação"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 44.0721,
+              "y": 781.5842,
+              "text": "ao instrumento convocatório, do julgamento objetivo e"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 44.0721,
+              "y": 794.0842,
+              "text": "dos que lhe são correlatos, admitindo-se critérios que"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 44.0721,
+              "y": 806.5842,
+              "text": "frustrem seu caráter impessoal."
+            }
+          ]
+        },
+        "originalQuestionMarker": "16)"
+      }
+    }
+  ]
+}

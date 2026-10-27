@@ -1,5 +1,6 @@
 const completionGuard=setTimeout(()=>{console.error('Incomplete exam verification');process.exitCode=1;},240000);
 const {chromium}=require('playwright');
+let debugPage;
 const assert=require('node:assert/strict');
 const fs=require('node:fs/promises');
 const base=process.env.APP_BASE_URL||'http://127.0.0.1:8000/';
@@ -21,6 +22,7 @@ async function reflow(page) {
  try {
   for(const width of [320,1280]) {
    const context=await browser.newContext({viewport:{width,height:1000}}),page=await context.newPage();
+   debugPage=page;
    const errors=[],external=[];page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(!r.url().startsWith(new URL(base).origin+'/')&&!r.url().startsWith('blob:'))external.push(r.url());});
    await page.clock.install({time:new Date('2026-10-23T12:00:00.000Z')});
    await page.goto(base);await page.locator('#start-study:not([disabled])').waitFor();
@@ -105,5 +107,13 @@ async function reflow(page) {
   await page.route('**/data/catalog.js*',async route=>{const response=await route.fetch();await route.fulfill({response,body:await response.text()+`\n(()=>{const d=window.CONCURSOS_CATALOG,s=new Set(d.syllabusItems.filter(i=>i.block==='basic').map(i=>i.id)),ids=new Set(d.mappings.filter(m=>s.has(m.syllabusItemId)).map(m=>m.questionId));let count=0;d.questions=d.questions.filter(q=>!ids.has(q.id)||q.type!=='true_false'||++count<=89);})();\n`});});
   await page.goto(base);await page.locator('#start-study:not([disabled])').waitFor();assert.equal(await page.locator('#prepare-exam').isDisabled(),true);assert.match(await page.locator('#exam-availability').innerText(),/insuficiente/);await context.close();
   clearTimeout(completionGuard);console.log('Exam passed: 180 distinct CE, independent settings, P1/P2 navigation, hidden corrections/history, exact 18+36=54 minima, persisted timer, legacy history, backup UI, five-hour expiry, shortage blocking, keyboard, light/dark and 200% text at 320/1280px.');
- } finally {await browser.close();}
+ } finally {
+  if(debugPage&&!debugPage.isClosed()) console.error('EXAM DIAGNOSTICS',await debugPage.evaluate(()=>{
+   const raw=localStorage.getItem('questionador-concursos.progress.v1'),p=JSON.parse(raw)?.progress;
+   return {warning:document.querySelector('#progress-warning-text')?.textContent,status:document.querySelector('#status')?.textContent,
+    save:document.querySelector('#session-save-status')?.textContent,heading:document.querySelector('#current-question-heading')?.textContent,
+    localBytes:raw?.length,active:p?.active&&{position:p.active.position,answers:p.active.answers.length}};
+  }));
+  await browser.close();
+ }
 })().catch(e=>{clearTimeout(completionGuard);console.error(e);process.exitCode=1;});

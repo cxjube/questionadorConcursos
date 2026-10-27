@@ -1,11 +1,11 @@
 {
   "reviewedAt": "2026-10-27",
   "roleId": "abdi-comunicacao-marketing",
-  "scope": "Inventário e verificação estática de cotas com IDs distintos; não implementa o simulado ABDI, não atesta cobertura integral. C/E não entram na capacidade MC. As cotas institucionais continuam vazias.",
-  "distinctTrainingQuestions": 185,
-  "distinctMC": 46,
-  "distinctCE": 139,
-  "minimumAdditionalMC": 20,
+  "scope": "Exact distinct-ID quota matching. Local discipline deficits cannot simply be added when question IDs overlap. Original four-choice MC remain four-choice; CE never fill MC slots. The implemented FGV simulator stays blocked until every quota can be allocated with distinct compatible items.",
+  "distinctTrainingQuestions": 201,
+  "distinctMC": 55,
+  "distinctCE": 146,
+  "minimumAdditionalMC": 13,
   "distribution": [
     {
       "block": "basic",
@@ -32,15 +32,15 @@
       "block": "institutional",
       "disciplineId": "abdi-servicos-sociais-autonomos",
       "requiredMC": 4,
-      "availableDistinctMC": 0,
-      "missingForMinimum": 4
+      "availableDistinctMC": 3,
+      "missingForMinimum": 1
     },
     {
       "block": "institutional",
       "disciplineId": "abdi-criacao-estatuto",
       "requiredMC": 4,
-      "availableDistinctMC": 0,
-      "missingForMinimum": 4
+      "availableDistinctMC": 4,
+      "missingForMinimum": 0
     },
     {
       "block": "institutional",
@@ -53,43 +53,24 @@
       "block": "institutional",
       "disciplineId": "abdi-etica-missao",
       "requiredMC": 4,
-      "availableDistinctMC": 0,
-      "missingForMinimum": 4
+      "availableDistinctMC": 3,
+      "missingForMinimum": 1
     },
     {
       "block": "specific",
       "disciplineId": "abdi-comunicacao-marketing",
       "requiredMC": 20,
-      "availableDistinctMC": 22,
+      "availableDistinctMC": 27,
       "missingForMinimum": 0
     }
   ],
-  "emptySpecificTopics": [
-    {
-      "number": "2",
-      "label": "Processos, elementos, modelos e funções da comunicação."
-    },
-    {
-      "number": "22",
-      "label": "Comunicação científica, tecnológica e ambiental."
-    },
-    {
-      "number": "25",
-      "label": "Proteção de dados pessoais aplicada às atividades de comunicação."
-    }
-  ],
-  "institutionalSourcesNeeded": [
-    "Estatuto Social da ABDI",
-    "Regulamento de Licitações e Contratos da ABDI",
-    "Regulamento de Convênios da ABDI",
-    "Ética e Conduta — Resolução CD 004/2022",
-    "Planejamento Estratégico 2024–2029 — Resolução CD 008/2023"
-  ],
+  "emptySpecificTopics": [],
+  "institutionalSourcesNeeded": [],
   "quotaCheck": {
-    "method": "Bipartite matching between official discipline quota slots and eligible canonical MC IDs, with one slot per question. Static audit, not a released exam allocator.",
+    "method": "Bipartite matching of canonical MC IDs to exact discipline quota slots; each ID assigned once.",
     "requiredDistinctMC": 60,
-    "allocatableDistinctMC": 40,
-    "unfilledSlots": 20,
+    "allocatableDistinctMC": 47,
+    "unfilledSlots": 13,
     "assignments": [
       {
         "disciplineId": "lingua-portuguesa",
@@ -128,11 +109,17 @@
       },
       {
         "disciplineId": "abdi-servicos-sociais-autonomos",
-        "questionIds": []
+        "questionIds": [
+          "abdi-2008-especialista-juridico-q019",
+          "abdi-2008-especialista-juridico-q020",
+          "abdi-2008-senior-juridico-q018"
+        ]
       },
       {
         "disciplineId": "abdi-criacao-estatuto",
-        "questionIds": []
+        "questionIds": [
+          "abdi-2008-especialista-controle-interno-auditoria-q018"
+        ]
       },
       {
         "disciplineId": "abdi-licitacoes-convenios",
@@ -140,11 +127,16 @@
       },
       {
         "disciplineId": "abdi-etica-missao",
-        "questionIds": []
+        "questionIds": [
+          "128-tcemg-008-01-q039",
+          "abdi-2008-senior-assessor-comunicacao-q013",
+          "abdi-2008-senior-assessor-comunicacao-q016"
+        ]
       },
       {
         "disciplineId": "abdi-comunicacao-marketing",
         "questionIds": [
+          "128-tcemg-008-01-q031",
           "128-tcemg-008-01-q043",
           "128-tcemg-008-01-q045",
           "539-alce-016-01-q021",
@@ -152,6 +144,7 @@
           "539-alce-016-01-q023",
           "539-alce-016-01-q025",
           "539-alce-016-01-q026",
+          "539-alce-016-01-q027",
           "alerj-2026-comunicacao-manha-tipo1-q056",
           "alerj-2026-comunicacao-manha-tipo1-q058",
           "alerj-2026-comunicacao-manha-tipo1-q059",
@@ -162,16 +155,19 @@
           "alerj-2026-comunicacao-manha-tipo1-q065",
           "alerj-2026-comunicacao-manha-tipo1-q067",
           "alerj-2026-comunicacao-manha-tipo1-q068",
-          "alerj-2026-comunicacao-manha-tipo1-q069",
-          "alerj-2026-comunicacao-manha-tipo1-q071",
-          "alerj-2026-comunicacao-manha-tipo1-q072"
+          "alerj-2026-comunicacao-manha-tipo1-q069"
         ]
       }
     ]
   },
   "institutionalSourcesReviewed": [
-    "reference-abdi-lei-11080-2004",
-    "reference-abdi-decreto-5352-2005",
-    "reference-abdi-lei-14440-2022"
-  ]
+    "reference-abdi-estatuto-2024",
+    "reference-abdi-licitacoes-2021",
+    "reference-abdi-convenios-2026",
+    "reference-abdi-etica-2022",
+    "reference-abdi-planejamento-2024-2029",
+    "reference-abdi-resolucao-008-2023",
+    "reference-abdi-planejamento-ajustado-2024"
+  ],
+  "institutionalDistinctMC": 7
 }

@@ -1,5 +1,7 @@
 # Conferência das fontes oficiais — 23/10/2026
 
+> ABDI — [segundo lote](abdi-second-batch-release.md), 27/10/2026: cinco grupos de documentos internos confirmados; sete PDFs institucionais e quatro pares IBFC com segundo download idêntico. CD 008/2023 e planejamento original foram preservados separadamente do ajuste CD 009/2024. LGPD usa nova referência consolidada oficial da Câmara após HTTP 503 no Planalto. Inventário global: 155 fontes (117 PDFs / 38 HTML), 49 pares, 3.116 números objetivos e 136 anulações. Os registros abaixo são históricos.
+
 > Atualização ABDI em 27/10/2026: [primeiro lote](abdi-first-batch-release.md), 40 novas MC. Inventário global: 139 fontes (102 PDFs / 37 HTML), 45 pares, 3.036 números e 134 anulações. Os três novos pares Senado/TCE-MG tiveram segundo download idêntico; três HTML legislativos oficiais preservam os bytes iniciais. Cinco documentos internos ABDI permanecem sem autenticação após HTTP 403; não foram incluídos como referências verificadas. Fontes antigas mantêm as datas e limites de suas evidências.
 
 > Atualização do [16º lote](sixteenth-batch-release.md): 129 fontes (95 PDFs e 34 HTML), 42 pares, 2.846 números e 121 anulados. Sete pares novos com segundo download idêntico; o HTML da biblioteca identifica o Manual, sem republicar o livro. A revisão jurídica alcança sete questões/12 citações. Os registros anteriores mantêm o histórico.

@@ -23,7 +23,7 @@ class AbdiFirstBatchTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.c=read_json(ROOT/'data/catalog.json')
+        cls.c=json.loads(gzip.decompress((ROOT/'data/reviews/pre-abdi-second-batch-catalog.json.gz').read_bytes()))
         cls.m=read_json(ROOT/'data/reviews/abdi-first-batch.json')
         cls.d=read_json(ROOT/'data/reviews/abdi-first-source-discovery.json')
         cls.docs={d['id']:d for d in cls.c['documents']}
@@ -141,12 +141,12 @@ class AbdiFirstBatchTests(unittest.TestCase):
         self.assertEqual(report['blocks']['institutional'],dict(total=0,ce=0))
         self.assertEqual((report['directItems'],report['descendantsOnly'],report['emptyItems']),(48,2,47))
         self.assertEqual(coverage(self.c,['camara-2026-ciencia-politica-1'])['blocks'],{'basic':{'total':170,'ce':169},'specific':{'total':226,'ce':209}})
-        for path,content in role_artifacts(self.c,self.m,role['id']).items():self.assertEqual((ROOT/path).read_text(),content)
+        for path,content in role_artifacts(read_json(ROOT/'data/catalog.json'),read_json(ROOT/'data/reviews/abdi-second-batch.json'),role['id']).items():self.assertEqual((ROOT/path).read_text(),content)
         for bad in ['missing-reading-document','camara-2026-edital-01-documento']:
             changed=copy.deepcopy(self.c);changed['roles'][1]['referenceDocumentIds']=[bad];self.assertTrue(validate(changed))
 
     def test_quota_assignment_has_no_duplicate_ids_and_tracks_all_previous_gaps(self):
-        ready=read_json(ROOT/'data/reviews/abdi-bank-readiness.json')
+        ready=read_json(ROOT/'data/reviews/abdi-first-bank-readiness.json')
         report=coverage(self.c,role_id='abdi-comunicacao-marketing')
         pools={d['disciplineId']:{q for x in report['items'] if x['disciplineId']==d['disciplineId'] for q in x['directQuestionIds'] if self.q[q]['type']=='multiple_choice'} for d in ready['distribution']}
         assigned=[]

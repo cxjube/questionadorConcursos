@@ -17,7 +17,7 @@ const StudyUI = (() => {
   function sourceLink(text, url) {
     const link = node('a', text);
     const parsed = new URL(url);
-    if (parsed.protocol === 'https:' && ['cdn.cebraspe.org.br', 'www.cebraspe.org.br', 'www.camara.leg.br', 'www2.camara.leg.br', 'www.planalto.gov.br', 'conhecimento.fgv.br', 'www12.senado.leg.br', 'www25.senado.leg.br', 'www.gov.br', 'portal.stf.jus.br', 'bd.camara.leg.br', 'repositorio.enap.gov.br', 'cartilha.cert.br', 'developers.google.com', 'support.microsoft.com', 'learn.microsoft.com', 'dicionario.priberam.org'].includes(parsed.hostname) && !parsed.username && !parsed.password) link.href = url;
+    if (parsed.protocol === 'https:' && ['cdn.cebraspe.org.br', 'www.cebraspe.org.br', 'www.camara.leg.br', 'www2.camara.leg.br', 'www.planalto.gov.br', 'conhecimento.fgv.br', 'www2.ibfc.org.br', 'www.abdi.com.br', 'www12.senado.leg.br', 'www25.senado.leg.br', 'www.gov.br', 'portal.stf.jus.br', 'bd.camara.leg.br', 'repositorio.enap.gov.br', 'cartilha.cert.br', 'developers.google.com', 'support.microsoft.com', 'learn.microsoft.com', 'dicionario.priberam.org'].includes(parsed.hostname) && !parsed.username && !parsed.password) link.href = url;
     return link;
   }
   const date = value => new Date(value).toLocaleString('pt-BR');
@@ -64,8 +64,20 @@ const StudyUI = (() => {
       element('exam-title').textContent = 'Simulado de ' + rule.blocks.reduce((n,b)=>n+b.questionCount,0) + ' questões';
       details.replaceChildren(node('p', data.contests.find(c=>c.id===data.roles.find(r=>r.id===selectedRole).contestId).title));
       const list = node('ul');
-      for (const b of rule.blocks) list.append(node('li',b.label + ': ' + b.questionCount + ' C/E · mínimo ' + b.minimumScore + ' pontos.'));
-      list.append(node('li','Mínimo total: ' + rule.minimumTotalScore + ' pontos.'),node('li','Duração: ' + rule.durationMinutes + ' minutos. O tempo começa ao iniciar e continua fora da página.'),node('li','Acerto +1 · erro −1 · branco 0. Gabaritos e comentários aparecem ao finalizar.'));
+      const mc = rule.blocks[0].questionType === 'multiple_choice';
+      for (const b of rule.blocks) {
+        const minimum = b.minimumScoreExclusive ? 'pontuação maior que ' + b.minimumScore : 'mínimo ' + b.minimumScore;
+        list.append(node('li',b.label + ': ' + b.questionCount + (mc ? ' de múltipla escolha' : ' C/E') + ' · ' + minimum + ' pontos.'));
+        if (mc) {
+          const distribution = b.distribution.map(d=>(data.disciplines.find(x=>x.id===d.disciplineId)?.label || d.disciplineId)+': '+d.questionCount).join(' · ');
+          list.append(node('li',distribution + '. Cada acerto vale ' + b.correct.toLocaleString('pt-BR') + ' ponto.'));
+        }
+      }
+      if (rule.minimumTotalScore !== null) list.append(node('li','Mínimo total: ' + rule.minimumTotalScore + ' pontos.'));
+      if (rule.minimumCorrectCount !== undefined) list.append(node('li','Mínimo total: ' + rule.minimumCorrectCount + ' acertos, independentemente da nota ponderada.'));
+      list.append(node('li','Duração: ' + rule.durationMinutes + ' minutos. O tempo começa ao iniciar e continua fora da página.'),
+        node('li',mc ? 'Erros e brancos valem zero. É preciso pontuar nas três áreas. Gabaritos e comentários aparecem ao finalizar.' : 'Acerto +1 · erro −1 · branco 0. Gabaritos e comentários aparecem ao finalizar.'));
+      if (mc) list.append(node('li','Questões de provas anteriores em seu formato original; o número de alternativas pode variar em relação à prova FGV.'));
       details.append(list,node('p','Os filtros do treino personalizado não se aplicam ao simulado.', 'review-note'));
       element('exam-bank-note').textContent = available.distinct === rule.blocks.reduce((n,b)=>n+b.questionCount,0) ? 'Com a reserva atual, novos simulados reutilizam as mesmas questões em outra ordem.' : 'O sorteio usa apenas questões elegíveis de cada bloco, sem repetição dentro do simulado.';
       examDialog.showModal();
@@ -500,13 +512,18 @@ const StudyUI = (() => {
     function examResults(session) {
       const score = Study.score(session), counts = Study.totals(session);
       const section = node('section',undefined,'exam-results'); section.id = 'exam-results';
-      section.append(node('h3','Resultado do simulado'),node('p',score.meetsMinimums ? 'Você atingiu os três mínimos objetivos neste simulado.' : 'Você não atingiu todos os mínimos objetivos neste simulado.','exam-outcome'));
+      const mc = session.scoringProfile.rule.blocks[0].questionType === 'multiple_choice';
+      section.classList.toggle('mc-exam-results',mc);
+      section.append(node('h3','Resultado do simulado'),node('p',score.meetsMinimums ? mc ? 'Você atingiu os critérios objetivos neste simulado.' : 'Você atingiu os três mínimos objetivos neste simulado.' : 'Você não atingiu todos os mínimos objetivos neste simulado.','exam-outcome'));
       const cards = node('div',undefined,'exam-score-cards');
+      const pointText = value=>mc ? value.toLocaleString('pt-BR',{maximumFractionDigits:2}) : String(value);
       for (const block of [...score.blocks,{id:'total',label:'Nota total',...counts,points:score.points,maximum:score.maximum,minimum:score.minimum,met:score.totalMet}]) {
         const card = node('section',undefined,'exam-score-card'); card.dataset.resultBlock = block.id;
         card.append(node('h4',block.label));
         const values = node('dl');
-        for (const [label,value] of [['Nota líquida',block.points + ' / ' + block.maximum],['Mínimo',block.minimum + ' pontos']]) {
+        const minimum = block.id==='total' && score.minimumCorrectCount !== null ? score.minimumCorrectCount + ' acertos' + (block.minimum !== null ? ' e '+pointText(block.minimum)+' pontos' : '') :
+          (block.minimumExclusive ? 'Maior que ' : '') + pointText(block.minimum) + ' pontos';
+        for (const [label,value] of [[mc ? 'Pontuação' : 'Nota líquida',pointText(block.points) + ' / ' + pointText(block.maximum)],['Mínimo',minimum]]) {
           const pair = node('div');pair.append(node('dt',label),node('dd',String(value)));values.append(pair);
         }
         card.append(values,node('p',block.met ? 'Mínimo atingido' : 'Mínimo não atingido',block.met ? 'exam-minimum met' : 'exam-minimum unmet'),
@@ -515,7 +532,7 @@ const StudyUI = (() => {
       }
       const elapsed = Math.min(session.timer.durationSeconds,Math.max(0,Math.floor((Date.parse(session.finishedAt)-Date.parse(session.startedAt))/1000)));
       section.append(cards,node('p','Tempo utilizado: ' + clockText(elapsed) + ' · Acertos entre respostas válidas: ' + (counts.rate === null ? 'sem respostas.' : counts.rate + '%.')),
-        node('p','Atingir os mínimos não garante aprovação. Classificação, discursiva e demais critérios do concurso não são avaliados aqui.','review-note'));
+        node('p',mc ? 'Atingir os mínimos não garante aprovação. Classificação, títulos, experiência e entrevista não são avaliados aqui.' : 'Atingir os mínimos não garante aprovação. Classificação, discursiva e demais critérios do concurso não são avaliados aqui.','review-note'));
       return section;
     }
     function resultActions(session) {
