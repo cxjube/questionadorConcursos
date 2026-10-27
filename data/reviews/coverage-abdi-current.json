@@ -1,20 +1,20 @@
 {
   "totalItems": 97,
-  "directItems": 59,
-  "descendantsOnly": 5,
-  "emptyItems": 33,
-  "emptyLeaves": 31,
+  "directItems": 61,
+  "descendantsOnly": 6,
+  "emptyItems": 30,
+  "emptyLeaves": 29,
   "blocks": {
     "basic": {
-      "total": 92,
+      "total": 102,
       "ce": 64
     },
     "institutional": {
-      "total": 7,
+      "total": 14,
       "ce": 0
     },
     "specific": {
-      "total": 115,
+      "total": 116,
       "ce": 88
     }
   },
@@ -39,7 +39,7 @@
       "emptyItems": 8,
       "emptyLeaves": 7,
       "questionsCE": 0,
-      "questionsMC": 6
+      "questionsMC": 15
     },
     {
       "id": "abdi-nocoes-informatica",
@@ -50,7 +50,7 @@
       "emptyItems": 4,
       "emptyLeaves": 4,
       "questionsCE": 24,
-      "questionsMC": 13
+      "questionsMC": 14
     },
     {
       "id": "abdi-servicos-sociais-autonomos",
@@ -78,12 +78,12 @@
       "id": "abdi-licitacoes-convenios",
       "label": "REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI",
       "totalItems": 10,
-      "directItems": 0,
-      "descendantsOnly": 0,
-      "emptyItems": 10,
-      "emptyLeaves": 9,
+      "directItems": 2,
+      "descendantsOnly": 1,
+      "emptyItems": 7,
+      "emptyLeaves": 7,
       "questionsCE": 0,
-      "questionsMC": 0
+      "questionsMC": 7
     },
     {
       "id": "abdi-etica-missao",
@@ -105,7 +105,7 @@
       "emptyItems": 0,
       "emptyLeaves": 0,
       "questionsCE": 88,
-      "questionsMC": 27
+      "questionsMC": 28
     }
   ],
   "items": [
@@ -756,6 +756,15 @@
       "state": "direct",
       "priority": "C",
       "directQuestionIds": [
+        "abdi-2008-assistente-compras-servicos-q021",
+        "abdi-2008-assistente-compras-servicos-q023",
+        "abdi-2008-assistente-compras-servicos-q024",
+        "abdi-2008-assistente-compras-servicos-q025",
+        "abdi-2008-assistente-compras-servicos-q026",
+        "abdi-2008-assistente-compras-servicos-q027",
+        "abdi-2008-assistente-compras-servicos-q028",
+        "abdi-2008-assistente-compras-servicos-q029",
+        "abdi-2008-assistente-compras-servicos-q030",
         "senado-2022-administracao-tipo1-q014",
         "senado-2022-administracao-tipo1-q016",
         "senado-2022-administracao-tipo1-q017",
@@ -764,8 +773,17 @@
         "senado-2022-policial-tipo1-q017"
       ],
       "directCE": 0,
-      "directMC": 6,
+      "directMC": 15,
       "subtreeQuestionIds": [
+        "abdi-2008-assistente-compras-servicos-q021",
+        "abdi-2008-assistente-compras-servicos-q023",
+        "abdi-2008-assistente-compras-servicos-q024",
+        "abdi-2008-assistente-compras-servicos-q025",
+        "abdi-2008-assistente-compras-servicos-q026",
+        "abdi-2008-assistente-compras-servicos-q027",
+        "abdi-2008-assistente-compras-servicos-q028",
+        "abdi-2008-assistente-compras-servicos-q029",
+        "abdi-2008-assistente-compras-servicos-q030",
         "senado-2022-administracao-tipo1-q014",
         "senado-2022-administracao-tipo1-q016",
         "senado-2022-administracao-tipo1-q017",
@@ -774,7 +792,7 @@
         "senado-2022-policial-tipo1-q017"
       ],
       "subtreeCE": 0,
-      "subtreeMC": 6
+      "subtreeMC": 15
     },
     {
       "id": "abdi-2026-abdi-nocoes-informatica-1",
@@ -1017,7 +1035,7 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
         "038-anm-cg1-01-q034",
         "038-anm-cg1-01-q035",
@@ -1030,10 +1048,11 @@
         "153-telebras-008-01-q083",
         "153-telebras-008-01-q084",
         "alerj-2026-comunicacao-manha-tipo1-q068",
-        "alerj-2026-comunicacao-manha-tipo1-q071"
+        "alerj-2026-comunicacao-manha-tipo1-q071",
+        "senado-2022-policial-tipo1-q051"
       ],
       "directCE": 10,
-      "directMC": 2,
+      "directMC": 3,
       "subtreeQuestionIds": [
         "038-anm-cg1-01-q034",
         "038-anm-cg1-01-q035",
@@ -1046,10 +1065,11 @@
         "153-telebras-008-01-q083",
         "153-telebras-008-01-q084",
         "alerj-2026-comunicacao-manha-tipo1-q068",
-        "alerj-2026-comunicacao-manha-tipo1-q071"
+        "alerj-2026-comunicacao-manha-tipo1-q071",
+        "senado-2022-policial-tipo1-q051"
       ],
       "subtreeCE": 10,
-      "subtreeMC": 2
+      "subtreeMC": 3
     },
     {
       "id": "abdi-2026-abdi-servicos-sociais-autonomos-1",
@@ -1319,14 +1339,22 @@
       "block": "institutional",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "C",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
+      "subtreeQuestionIds": [
+        "abdi-2008-especialista-administrativo-financeiro-q012",
+        "abdi-2008-iniciante-licitacoes-contratos-q011",
+        "abdi-2008-iniciante-licitacoes-contratos-q013",
+        "abdi-2008-iniciante-licitacoes-contratos-q014",
+        "abdi-2008-pleno-servicos-gerais-q011",
+        "abdi-2008-pleno-servicos-gerais-q012",
+        "abdi-2008-senior-juridico-q020"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 7
     },
     {
       "id": "abdi-2026-abdi-licitacoes-convenios-3-1",
@@ -1353,14 +1381,26 @@
       "block": "institutional",
       "parentTopicId": "abdi-2026-abdi-licitacoes-convenios-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "abdi-2008-especialista-administrativo-financeiro-q012",
+        "abdi-2008-iniciante-licitacoes-contratos-q011",
+        "abdi-2008-iniciante-licitacoes-contratos-q013",
+        "abdi-2008-pleno-servicos-gerais-q011",
+        "abdi-2008-pleno-servicos-gerais-q012"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 5,
+      "subtreeQuestionIds": [
+        "abdi-2008-especialista-administrativo-financeiro-q012",
+        "abdi-2008-iniciante-licitacoes-contratos-q011",
+        "abdi-2008-iniciante-licitacoes-contratos-q013",
+        "abdi-2008-pleno-servicos-gerais-q011",
+        "abdi-2008-pleno-servicos-gerais-q012"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 5
     },
     {
       "id": "abdi-2026-abdi-licitacoes-convenios-3-3",
@@ -1370,14 +1410,20 @@
       "block": "institutional",
       "parentTopicId": "abdi-2026-abdi-licitacoes-convenios-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "abdi-2008-iniciante-licitacoes-contratos-q014",
+        "abdi-2008-senior-juridico-q020"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "abdi-2008-iniciante-licitacoes-contratos-q014",
+        "abdi-2008-senior-juridico-q020"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "abdi-2026-abdi-licitacoes-convenios-3-4",
@@ -2338,27 +2384,29 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
         "153-telebras-008-01-q079",
         "153-telebras-008-01-q080",
         "153-telebras-008-01-q081",
         "153-telebras-008-01-q082",
         "153-telebras-008-01-q083",
-        "153-telebras-008-01-q084"
+        "153-telebras-008-01-q084",
+        "senado-2022-policial-tipo1-q051"
       ],
       "directCE": 6,
-      "directMC": 0,
+      "directMC": 1,
       "subtreeQuestionIds": [
         "153-telebras-008-01-q079",
         "153-telebras-008-01-q080",
         "153-telebras-008-01-q081",
         "153-telebras-008-01-q082",
         "153-telebras-008-01-q083",
-        "153-telebras-008-01-q084"
+        "153-telebras-008-01-q084",
+        "senado-2022-policial-tipo1-q051"
       ],
       "subtreeCE": 6,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-26",
@@ -2386,8 +2434,8 @@
   ],
   "roleId": "abdi-comunicacao-marketing",
   "reviewedAt": "2026-10-27",
-  "reviewId": "abdi-second-batch",
-  "distinctQuestions": 201,
+  "reviewId": "abdi-third-batch",
+  "distinctQuestions": 218,
   "distinctCE": 146,
-  "distinctMC": 55
+  "distinctMC": 72
 }

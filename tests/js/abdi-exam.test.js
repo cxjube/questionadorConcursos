@@ -60,3 +60,10 @@ test('new institutional and IBFC official links round-trip while lookalike domai
  for(const url of ['https://www2.ibfc.org.br.evil.example/key.pdf','https://user:password@www2.ibfc.org.br/key.pdf','https://www.abdi.com.br.evil.example/ethics.pdf']){const bad=plain(p);bad.active.items[0].paper.officialUrl=url;assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(bad),s.data));}
  const bad=plain(p);bad.active.items[0].explanations[0].references[2].officialUrl='https://www.abdi.com.br.evil.example/statute.pdf';assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(bad),s.data));
 });
+
+test('released third-lot pool fills exactly 54 quota slots and cannot bypass six missing institutional MC',()=>{
+ const s=setup('native'),a=s.Study.examAvailability(s.data,role),r=JSON.parse(fs.readFileSync(path.join(root,'data/reviews/abdi-bank-readiness.json')));
+ assert.equal(a.ready,false);assert.equal(a.missing.reduce((n,d)=>n+d.count,0),6);assert.equal(r.quotaCheck.allocatableDistinctMC,54);assert.equal(s.Study.pool(s.data,role,s.Study.empty(),'all',{block:'institutional',type:'multiple_choice'}).length,14);assert.throws(()=>active(s),/insuficiente/);
+ const old=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync(path.join(root,'data/reviews/pre-abdi-third-batch-catalog.json.gz'))));old.revision='a'.repeat(64);const previous=s.Study.create(old,role,s.Study.empty(),'all',{now:start});assert.equal(previous.items.length,201);
+ const restored=s.Study.importBackup(s.Study.exportBackup({...s.Study.empty(),active:previous}),s.data);assert.deepEqual(plain(restored.active),plain(previous));assert.equal(s.Study.pool(s.data,role,s.Study.empty()).length,218);
+});

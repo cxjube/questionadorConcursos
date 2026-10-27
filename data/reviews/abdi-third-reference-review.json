@@ -1,0 +1,146 @@
+{
+  "id": "abdi-third-reference-review",
+  "reviewedAt": "2026-10-27",
+  "method": "agent_assisted",
+  "scope": "Selected compatibility review against retained official ABDI RLC CD005/2021 and active LGPD clauses on official Câmara HTML. No new legal document added or fresh whole-bank legal sweep claimed.",
+  "references": [
+    {
+      "documentId": "reference-abdi-licitacoes-2021",
+      "sha256": "b1bda6ea5e6e66f80cf9a38bac5a7fa5ccb3313872bf442b97ea6be13026b6a6",
+      "file": "sources/references/ABDI-Licitacoes-2021.pdf",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Licitacoes-e-Contratos-2021_compressed-1.pdf",
+      "citations": [
+        {
+          "article": 6,
+          "sourcePage": 7,
+          "quoteExtracted": "Art. 6°. São modalidades de licitação: I- concorrência: modalidade de licitação na qual será admitida a participação de qualquer interessado que, na fase de habilitação, comprove possuir requisitos mínimos de qualificação exigidos no instrumento convocatório para execução de seu objeto; Il - convite: modalidade de licitação entre interessados do ramo pertinente ao seu objeto, escolhidos e convidados, em número minimo de cinco, com antecedéncia de pelo menos trés dias, cujo instrumento convocatério sera publicado no Diario Oficial da Unido (DOU) e no sitio eletrénico da ABDI, com a finalidade de possibilitar a participag@o de outros interessados; - concurso: modalidade de licitagdo entre quaisquer interessados para a escolha de trabalho ou projeto técnico, cientifico ou artistico, mediante ",
+          "scope": "Selected native PDF text with possible extraction accents; not an exhaustive amendment check."
+        },
+        {
+          "article": 9,
+          "sourcePage": 9,
+          "quoteExtracted": "Art. 9°. Constituem tipos de licitação, exceto na modalidade concurso: I- ademenor prego; - ade melhor técnica; - ade técnica e prego; IV- ade maior lance ou oferta, nas hipoteses do inciso Ill, alinea “b”, do art. 7º; V- ade maior desconto; e VI- o de maior retorno econémico. Pardgrafo único. Os tipos de licitagdo “melhor técnica” ou “técnica e prego” serdo utilizados preferencialmente para contratagcdes que envolvam natureza intelectual ou nas quais o fator preco não seja exclusivamente relevante, e, neste caso, desde que justificado tecnicamente. CAPITULO IV DAS HIPOTESES DE DISPENSA E INEXIGIBILIDADE DE LICITAGAO Art. 10. A licitagdo podera ser dispensada: I- nas contratagGes até os valores previstos nos incisos |, alinea “a”, e |l, alinea “a do caput do art. 7º; Il - nas alienagdes de",
+          "scope": "Selected native PDF text with possible extraction accents; not an exhaustive amendment check."
+        },
+        {
+          "article": 10,
+          "sourcePage": 9,
+          "quoteExtracted": "Art. 10. A licitagdo podera ser dispensada: I- nas contratagGes até os valores previstos nos incisos |, alinea “a”, e |l, alinea “a do caput do art. 7º; Il - nas alienagdes de bens até o valor previsto no inciso IIl, alinea “a”, do caput do art. 7°; lll - nas contratagdes que mantenham todas as condições definidas em edital de licitagdo realizada ha menos de um ano, quando se verificar que: a) alicitagdo tenha sido deserta por não surgirem licitantes interessados; b) a licitagdo tenha sido fracassada por ndo terem sido apresentadas propostas validas; ou c) as propostas apresentadas consignaram preços manifestamente superiores aos praticados no mercado. IV - nos casos de calamidade publica ou grave perturbagdo da ordem publica; REGULAMENTO DE LICITACOES E CONTRATOS DA ABDI 7",
+          "scope": "Selected native PDF text with possible extraction accents; not an exhaustive amendment check."
+        },
+        {
+          "article": 11,
+          "sourcePage": 11,
+          "quoteExtracted": "Art. 11. A licitação sera inexigivel quando houver inviabilidade de competição, em especial: I- naaquisição de materiais, equipamentos ou géneros diretamente de produtor ou fornecedor exclusivo; II- na contratagdo de impulsionamento de conteldo e criagdo de postagens patrocinadas da ABDI em redes sociais; Ill- na contratação de assinaturas de jornais, revistas e periédicos; IV- na contratacdo dos seguintes servicos técnicos especializados de natureza predominantemente intelectual com profissionais ou empresas de notória especializacéo: a) estudos técnicos, planejamentos, projetos bdsicos ou projetos executivos; b) pareceres, pericias e avaliagdes em geral; c) assessorias ou consultorias técnicas e auditorias financeiras ou tributarias; d) fiscalização, supervisdo ou gerenciamento de obras ",
+          "scope": "Selected native PDF text with possible extraction accents; not an exhaustive amendment check."
+        },
+        {
+          "article": 12,
+          "sourcePage": 12,
+          "quoteExtracted": "Art. 12. As dispensas, com exceção das hipoteses previstas nos incisos | e |l do caput do art. 10, ou as situagdes de inexigibilidade, serdo circunstanciadamente justificadas pela area técnica responsavel, inclusive quanto ao preco, e ratificadas pela autoridade competente. Pardgrafo único. As aquisicdes diretas de bens ou servicos seguirdo os procedimentos simplificados previstos em Instrugdo Normativa. CAPITULO V DA HABILITACAO Art. 13. Para a habilitacdo nas licitagdes podera ser exigida dos interessados, no todo ou em parte, conforme se estabelecer no instrumento convocatério, documentação relativa a: I- habilitacdo juridica: a) cédula de identidade; b) prova de registro, no órgão competente, no caso de empresario individual; c) ato constitutivo, estatuto ou contrato social em vigor, d",
+          "scope": "Selected native PDF text with possible extraction accents; not an exhaustive amendment check."
+        },
+        {
+          "article": 13,
+          "sourcePage": 12,
+          "quoteExtracted": "Art. 13. Para a habilitacdo nas licitagdes podera ser exigida dos interessados, no todo ou em parte, conforme se estabelecer no instrumento convocatério, documentação relativa a: I- habilitacdo juridica: a) cédula de identidade; b) prova de registro, no órgão competente, no caso de empresario individual; c) ato constitutivo, estatuto ou contrato social em vigor, devidamente registrado no órgão competente; e d) ato de nomeagdo ou de eleicdo dos administradores, devidamente registrado no órgão competente, na hipétese de terem sido nomeados ou eleitos em separado, sem prejuizo da apresentação dos demais documentos exigidos na alinea “c”. Il - qualificagdo técnica: a) registro ou inscrição na entidade profissional competente; b) documentos comprobatérios de aptiddo para desempenho de atividade",
+          "scope": "Selected native PDF text with possible extraction accents; not an exhaustive amendment check."
+        },
+        {
+          "article": 14,
+          "sourcePage": 13,
+          "quoteExtracted": "Art. 14. O procedimento da licitação sera iniciado com a solicitagéo formal da contratagéo, na qual serao definidos o objeto, a estimativa de seu valor e os recursos para atender a despesa, com consequente autorização, e a qual serdo juntados, oportunamente, todos os documentos pertinentes, a partir do instrumento convocatério, até o ato final de adjudicagéo. $ 1°. Na definição do objeto não sera admitida a indicação de caracteristicas ou especificagbes exclusivas ou marcas, salvo se justificada e ratificada pela autoridade competente. REGULAMENTO DE LICITACOES E CONTRATOS DA ABDI n",
+          "scope": "Selected native PDF text with possible extraction accents; not an exhaustive amendment check."
+        },
+        {
+          "article": 15,
+          "sourcePage": 14,
+          "quoteExtracted": "Art. 15. O procedimento licitatório será afeto a um agente de contratação observando-se na modalidade pregão o disposto nos artigos 19 a 22, e nas demais modalidades as seguintes fases: I- acesso, em dia e hora previamente designados, às propostas dos licitantes, verificada sua conformidade com os requisitos do edital, desclassificando-se aquelas que não os tenham atendido; II- acesso, em dia e hora previamente designados, a documentacéo relativa a habilitação do licitante classificado em primeiro lugar; Il - encaminhamento das conclusdes do agente de contratação a autoridade a quem competir a homologação do resultado do julgamento e adjudicacdo do objeto ao licitante vencedor; e IV- comunicacao do resultado conforme estabelecido no instrumento convocatdrio. §17°. O agente de contratagdo p",
+          "scope": "Selected native PDF text with possible extraction accents; not an exhaustive amendment check."
+        },
+        {
+          "article": 17,
+          "sourcePage": 14,
+          "quoteExtracted": "Art. 17. Sera facultado ao agente ou comissdo de contratagdo, desde que previsto no instrumento convocatério, inverter o procedimento, analisando primeiramente os documentos de habilitagdo, e só entdo acessando as propostas comerciais. Art. 18. O agente ou comissão de contratagdo e o pregoeiro serdo formalmente designados pela autoridade competente. Art. 19. Nas licitagdes da ABDI os recursos terdo efeito suspensivo e serdo admitidos apenas da decisão que declarar o licitante vencedor. REGULAMENTO DE LICITACOES E CONTRATOS DA ABDI 12",
+          "scope": "Selected native PDF text with possible extraction accents; not an exhaustive amendment check."
+        },
+        {
+          "article": 19,
+          "sourcePage": 14,
+          "quoteExtracted": "Art. 19. Nas licitagdes da ABDI os recursos terdo efeito suspensivo e serdo admitidos apenas da decisão que declarar o licitante vencedor. REGULAMENTO DE LICITACOES E CONTRATOS DA ABDI 12",
+          "scope": "Selected native PDF text with possible extraction accents; not an exhaustive amendment check."
+        },
+        {
+          "article": 21,
+          "sourcePage": 15,
+          "quoteExtracted": "Art. 21. O pregão será realizado, preferencialmente, na modalidade eletrônica, podendo, justificadamente, ser adotada a modalidade presencial. Art. 22. O instrumento convocatório do pregão, eletrônico ou presencial, estabelecerá se o modo de disputa será: I- aberto: hipótese em que os licitantes apresentarão lances públicos e sucessivos, com prorrogações, conforme o critério de julgamento estabelecido pelo instrumento convocatório; ou Il- aberto e fechado: hipótese em que os licitantes apresentarão lances publicos e sucessivos, com lance final e fechado, conforme o critério de julgamento estabelecido pelo instrumento convocatério. Art. 23. No julgamento do pregdo será adotado o tipo menor prego ou maior desconto, observadas as demais condigdes definidas no instrumento convocatdrio. Art. 24",
+          "scope": "Selected native PDF text with possible extraction accents; not an exhaustive amendment check."
+        },
+        {
+          "article": 25,
+          "sourcePage": 15,
+          "quoteExtracted": "Art. 25. O julgamento do pregão presencial observara o seguinte procedimento: I- abertura dos envelopes contendo as propostas de preço dos licitantes, dentro dos quais devera constar a prova de sua representagdo ou instrumento de procuração que autorize seu preposto a participar do pregéo, desclassificando- REGULAMENTO DE LICITACOES E CONTRATOS DA ABDI 13",
+          "scope": "Selected native PDF text with possible extraction accents; not an exhaustive amendment check."
+        },
+        {
+          "article": 26,
+          "sourcePage": 16,
+          "quoteExtracted": "Art. 26. O julgamento do pregão eletrônico observará o seguinte procedimento: I- credenciamento prévio dos licitantes junto ao provedor do sistema eletrônico indicado no instrumento convocatório; Il - acesso dos licitantes ao sistema eletrônico, mediante a utilização de chaves de identidade e de senhas individuais a serem fornecidas pelo provedor quando do credenciamento; REGULAMENTO DE LICITACOES E CONTRATOS DA ABDI 14",
+          "scope": "Selected native PDF text with possible extraction accents; not an exhaustive amendment check."
+        },
+        {
+          "article": 10,
+          "inciso": "VII",
+          "sourcePage": 10,
+          "quoteExtracted": "VIl - na aquisição de gêneros alimenticios pereciveis, com base no preço do dia;",
+          "scope": "Decisive subclause for senior Jurídico q20; native PDF typography retained."
+        },
+        {
+          "article": 11,
+          "inciso": "I",
+          "sourcePage": 11,
+          "quoteExtracted": "I- naaquisição de materiais, equipamentos ou géneros diretamente de produtor ou fornecedor exclusivo;",
+          "scope": "Decisive subclause for senior Jurídico q20; native PDF typography retained."
+        },
+        {
+          "article": 11,
+          "inciso": "V",
+          "sourcePage": 11,
+          "quoteExtracted": "e e) patrocinio ou defesa de causas judiciais ou administrativas. V- na contratagdo de profissional de qualquer setor artistico;",
+          "scope": "Decisive subclause for senior Jurídico q20; native PDF typography retained."
+        },
+        {
+          "article": 11,
+          "inciso": "VI",
+          "sourcePage": 11,
+          "quoteExtracted": "VI- na permuta ou doação em pagamento de bens, observada a avaliagdo atualizada;",
+          "scope": "Decisive subclause for senior Jurídico q20; native PDF typography retained."
+        }
+      ]
+    },
+    {
+      "documentId": "reference-lgpd-camara-consolidada",
+      "sha256": "5ade20f12d206504f3beb13a0595d144efc891229ad0e6badcebfa97a8a83596",
+      "file": "sources/references/lgpd-camara-consolidada.html",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "citations": [
+        {
+          "article": 5,
+          "activeQuote": "Art. 5º Para os fins desta Lei, considera-se: I - dado pessoal: informação relacionada a pessoa natural identificada ou identificável; II - dado pessoal sensível: dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural; III - dado anonimizado: dado relativo a titular que não possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião de seu tratamento; IV - banco de dados: conjunto estruturado de dados pessoais, estabelecido em um ou em vários locais, em suporte eletrônico ou físico; V - titular: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento; VI - controlador: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais; VII - operador: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador; VIII - encarregado: pessoa indicada pelo controlador e operador para atuar como canal de comunicação entre o controlador, os titulares dos dados e a Agência Nacional de Proteção de Dados (ANPD); (Inciso com redação dada pela Medida Provisória nº 1.317, de 17/9/2025, convertida na Lei nº 15.352, de 25/2/2026) IX - agentes de tratamento: o controlador e o operador; X - tratamento: toda operação realizada com dados pessoais, como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração; XI - anonimização: utilização de meios técnicos razoáveis e disponíveis no momento do tratamento, por meio dos quais um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo; XII - consentimento: manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada; XIII - bloqueio: suspensão temporária de qualquer operação de tratamento, mediante guarda do dado pessoal ou do banco de dados; XIV - eliminação: exclusão de dado ou de conjunto de dados armazenados em banco de dados, independentemente do procedimento empregado; XV - transferência internacional de dados: transferência de dados pessoais para país estrangeiro ou organismo internacional do qual o país seja membro; XVI - uso compartilhado de dados: comunicação, difusão, transferência internacional, interconexão de dados pessoais ou tratamento compartilhado de bancos de dados pessoais por órgãos e entidades públicos no cumprimento de suas competências legais, ou entre esses e entes privados, reciprocamente, com autorização específica, para uma ou mais modalidades de tratamento permitidas por esses entes públicos, ou entre entes privados; XVII - relatório de impacto à proteção de dados pessoais: documentação do controlador que contém a descrição dos processos de tratamento de dados pessoais que podem gerar riscos às liberdades civis e aos direitos fundamentais, bem como medidas, salvaguardas e mecanismos de mitigação de risco; XVIII - órgão de pesquisa: órgão ou entidade da administração pública direta ou indireta ou pessoa jurídica de direito privado sem fins lucrativos legalmente constituída sob as leis brasileiras, com sede e foro no País, que inclua em sua missão institucional ou em seu objetivo social ou estatutário a pesquisa básica ou aplicada de caráter histórico, científico, tecnológico ou estatístico; e (Inciso com redação dada pela Medida Provisória nº 869, de 27/12/2018, convertida na Lei nº 13.853, de 8/7/2019) XIX - autoridade nacional: entidade da administração pública responsável por zelar, implementar e fiscalizar o cumprimento desta Lei em todo o território nacional. (Inciso com redação dada pela Medida Provisória nº 1.317, de 17/9/2025, convertida na Lei nº 15.352, de 25/2/2026)"
+        },
+        {
+          "article": 18,
+          "activeQuote": "Art. 18. O titular dos dados pessoais tem direito a obter do controlador, em relação aos dados do titular por ele tratados, a qualquer momento e mediante requisição: I - confirmação da existência de tratamento; II - acesso aos dados; III - correção de dados incompletos, inexatos ou desatualizados; IV - anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com o disposto nesta Lei; V - portabilidade dos dados a outro fornecedor de serviço ou produto, mediante requisição expressa, de acordo com a regulamentação da autoridade nacional, observados os segredos comercial e industrial; (Inciso com redação dada pela Lei nº 13.853, de 8/7/2019) VI - eliminação dos dados pessoais tratados com o consentimento do titular, exceto nas hipóteses previstas no art. 16 desta Lei; VII - informação das entidades públicas e privadas com as quais o controlador realizou uso compartilhado de dados; VIII - informação sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa; IX - revogação do consentimento, nos termos do § 5º do art. 8º desta Lei. § 1º O titular dos dados pessoais tem o direito de peticionar em relação aos seus dados contra o controlador perante a autoridade nacional. § 2º O titular pode opor-se a tratamento realizado com fundamento em uma das hipóteses de dispensa de consentimento, em caso de descumprimento ao disposto nesta Lei. § 3º Os direitos previstos neste artigo serão exercidos mediante requerimento expresso do titular ou de representante legalmente constituído, a agente de tratamento. § 4º Em caso de impossibilidade de adoção imediata da providência de que trata o § 3º deste artigo, o controlador enviará ao titular resposta em que poderá: I - comunicar que não é agente de tratamento dos dados e indicar, sempre que possível, o agente; ou II - indicar as razões de fato ou de direito que impedem a adoção imediata da providência. § 5º O requerimento referido no § 3º deste artigo será atendido sem custos para o titular, nos prazos e nos termos previstos em regulamento. § 6º O responsável deverá informar, de maneira imediata, aos agentes de tratamento com os quais tenha realizado uso compartilhado de dados a correção, a eliminação, a anonimização ou o bloqueio dos dados, para que repitam idêntico procedimento, exceto nos casos em que esta comunicação seja comprovadamente impossível ou implique esforço desproporcional. (Parágrafo com redação dada pela Lei nº 13.853, de 8/7/2019) § 7º A portabilidade dos dados pessoais a que se refere o inciso V do caput deste artigo não inclui dados que já tenham sido anonimizados pelo controlador. § 8º O direito a que se refere o § 1º deste artigo também poderá ser exercido perante os organismos de defesa do consumidor."
+        }
+      ]
+    }
+  ],
+  "reconsideredItems": [
+    {
+      "questionId": "abdi-2008-senior-juridico-q020",
+      "previousDecision": "deferred in second discovery, not released then",
+      "decision": "released after exact-option and current-own-regulation comparison",
+      "evidence": "Original PDF p. 3 visually inspected. Key C; current RLC art. 10 VII lists perishable food at daily price. Alternative B remains doação em pagamento, also the exact term in current art. 11 VI, as inexigibilidade. Original contração spelling preserved."
+    }
+  ]
+}

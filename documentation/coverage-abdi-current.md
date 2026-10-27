@@ -2,18 +2,18 @@
 
 Analista de Produtividade e Inovação — Comunicação e Marketing
 
-Revisão: 2026-10-27. **201 questões distintas: 55 MC e 146 C/E.**
-Programa: 97 itens; 59 com vínculo direto, 5 apenas por descendentes e 33 subárvores sem questões.
+Revisão: 2026-10-27. **218 questões distintas: 72 MC e 146 C/E.**
+Programa: 97 itens; 61 com vínculo direto, 6 apenas por descendentes e 30 subárvores sem questões.
 
 A prova exige múltipla escolha. C/E são treino de conteúdo no formato original e não compõem reserva MC. Prioridade A indica ausência de MC; B, uma ou duas MC; C, pelo menos três. Não são pesos oficiais nem domínio do assunto.
 
-[Lote atual e plano de fechamento](abdi-second-batch-release.md) · [CSV](coverage-abdi-current.csv)
+[Lote atual e plano de fechamento](abdi-third-batch-release.md) · [CSV](coverage-abdi-current.csv)
 
 | Área | Questões distintas | MC | C/E |
 | --- | ---: | ---: | ---: |
-| Gerais | 92 | 28 | 64 |
-| Institucionais | 7 | 7 | 0 |
-| Específicos | 115 | 27 | 88 |
+| Gerais | 102 | 38 | 64 |
+| Institucionais | 14 | 14 | 0 |
+| Específicos | 116 | 28 | 88 |
 
 As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter questões únicas.
 
@@ -47,7 +47,7 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | Raciocínio Lógico | 3.3 | Equivalências. | 0 | 0 | Sem questões |
 | Raciocínio Lógico | 3.4 | Diagramas lógicos. | 0 | 0 | Sem questões |
 | Raciocínio Lógico | 4 | Lógica de primeira ordem. | 0 | 0 | Sem questões |
-| Raciocínio Lógico | 5 | Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais. | 6 | 0 | Direto |
+| Raciocínio Lógico | 5 | Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais. | 15 | 0 | Direto |
 | Noções de Informática | 1 | Conceitos básicos de Informática: hardware, software, periféricos, dispositivos de entrada, saída e armazenamento, organização de arquivos e pastas e principais extensões de arquivos; | 0 | 0 | Sem questões |
 | Noções de Informática | 2 | Sistemas operacionais Microsoft Windows 10 e Microsoft Windows 11, em português (Brasil): área de trabalho, gerenciamento de arquivos e pastas, configurações, pesquisa, impressão, compartilhamento e principais recursos; | 3 | 0 | Direto |
 | Noções de Informática | 3 | Microsoft 365, em português (Brasil): Word, Excel, PowerPoint e Outlook; | 5 | 0 | Direto |
@@ -58,7 +58,7 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | Noções de Informática | 8 | Computação em nuvem: armazenamento, sincronização, compartilhamento de arquivos e colaboração; | 0 | 2 | Direto |
 | Noções de Informática | 9 | Inteligência Artificial: conceitos básicos, aplicações no ambiente de trabalho, ferramentas de IA generativa, uso responsável, limitações e boas práticas; | 2 | 5 | Direto |
 | Noções de Informática | 10 | Digitalização, impressão, compartilhamento de documentos, teclas de atalho, recursos de acessibilidade e produtividade em sistemas operacionais e aplicativos. | 0 | 0 | Sem questões |
-| Noções de Informática | 11 | Legislação acerca de Segurança da Informação e Proteção De Dados: 1. Lei nº 12.527/2011 (Lei de Acesso à Informação); 2. Lei nº 12.737/2012 (Lei de Delitos Informáticos); 3. Lei nº 12.965/2014 (Marco Civil da Internet); 4. Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD) | 2 | 10 | Direto |
+| Noções de Informática | 11 | Legislação acerca de Segurança da Informação e Proteção De Dados: 1. Lei nº 12.527/2011 (Lei de Acesso à Informação); 2. Lei nº 12.737/2012 (Lei de Delitos Informáticos); 3. Lei nº 12.965/2014 (Marco Civil da Internet); 4. Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD) | 3 | 10 | Direto |
 | NATUREZA E FINALIDADE DOS SERVIÇOS SOCIAIS AUTÔNOMOS | 1 | NATUREZA E FINALIDADE DOS SERVIÇOS SOCIAIS AUTÔNOMOS | 0 | 0 | Só descendentes |
 | NATUREZA E FINALIDADE DOS SERVIÇOS SOCIAIS AUTÔNOMOS | 1.1 | Conceito, características, natureza jurídica e finalidade dos Serviços Sociais Autônomos. Lei nº 11.080/2004, art. 1º, caput e § 1º, com redação dada pela Lei nº 14.440/2022; Decreto nº 5.352/2005, arts. 1º e 2º. | 1 | 0 | Direto |
 | NATUREZA E FINALIDADE DOS SERVIÇOS SOCIAIS AUTÔNOMOS | 1.2 | Personalidade jurídica de direito privado, ausência de fins lucrativos, interesse coletivo e utilidade pública. Lei nº 11.080/2004, art. 1º, § 1º; Decreto nº 5.352/2005, art. 1º. | 0 | 0 | Sem questões |
@@ -72,10 +72,10 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | LEGISLAÇÃO DE CRIAÇÃO E ESTATUTO SOCIAL DA ABDI | 2.4 | Organização administrativa e estrutura de governança. | 1 | 0 | Direto |
 | LEGISLAÇÃO DE CRIAÇÃO E ESTATUTO SOCIAL DA ABDI | 2.5 | Conselho Deliberativo, Conselho Fiscal e Diretoria-Executiva: composição, competências e atribuições. | 1 | 0 | Direto |
 | LEGISLAÇÃO DE CRIAÇÃO E ESTATUTO SOCIAL DA ABDI | 2.6 | Patrimônio, receitas, contrato de gestão e prestação de contas. | 2 | 0 | Direto |
-| REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3 | REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 0 | 0 | Sem questões |
+| REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3 | REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 0 | 0 | Só descendentes |
 | REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.1 | Regulamento de Licitações e Contratos da ABDI: princípios e disposições gerais. | 0 | 0 | Sem questões |
-| REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.2 | Modalidades, procedimentos licitatórios, critérios de julgamento e habilitação. | 0 | 0 | Sem questões |
-| REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.3 | Contratação direta: dispensa e inexigibilidade. | 0 | 0 | Sem questões |
+| REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.2 | Modalidades, procedimentos licitatórios, critérios de julgamento e habilitação. | 5 | 0 | Direto |
+| REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.3 | Contratação direta: dispensa e inexigibilidade. | 2 | 0 | Direto |
 | REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.4 | Formalização, execução, fiscalização, alteração e extinção dos contratos. | 0 | 0 | Sem questões |
 | REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.5 | Sanções e responsabilidades contratuais. | 0 | 0 | Sem questões |
 | REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.6 | Regulamento de Convênios da ABDI: disposições gerais, conceitos e modalidades. | 0 | 0 | Sem questões |
@@ -114,7 +114,7 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | Comunicação e Marketing | 22 | Comunicação científica, tecnológica e ambiental. | 0 | 1 | Direto |
 | Comunicação e Marketing | 23 | Ética e legislação aplicadas à comunicação. | 5 | 4 | Direto |
 | Comunicação e Marketing | 24 | Direito à informação, transparência e acesso à informação. | 2 | 2 | Direto |
-| Comunicação e Marketing | 25 | Proteção de dados pessoais aplicada às atividades de comunicação. | 0 | 6 | Direto |
+| Comunicação e Marketing | 25 | Proteção de dados pessoais aplicada às atividades de comunicação. | 1 | 6 | Direto |
 | Comunicação e Marketing | 26 | Acessibilidade, inclusão e linguagem simples na comunicação. | 2 | 0 | Direto |
 
 Gerado por `python -m tools coverage --role abdi-comunicacao-marketing`; verificar com `--check`.

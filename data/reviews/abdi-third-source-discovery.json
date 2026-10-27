@@ -1,0 +1,169 @@
+{
+  "id": "abdi-third-source-discovery",
+  "checkedAt": "2026-10-27",
+  "scope": "Four full official IBFC paper/post-appeal pairs, eight independently repeated identical PDF downloads. Already verified Senate pair reused. Previously retained official references consulted at selected clauses; not all older sources were re-downloaded.",
+  "listings": [
+    {
+      "id": "ibfc-papers",
+      "url": "https://www2.ibfc.org.br/concurso/abdi-0814/provas.asp",
+      "file": "data/reviews/abdi-third-source-evidence/ibfc-papers.html",
+      "sha256": "14443380210ab88483321e20578785cd20a389cf1e3308df2dd12955a7f034f1",
+      "scope": "Previously retained official listing, including common middle-level objective answer table."
+    },
+    {
+      "id": "ibfc-post-keys",
+      "url": "https://www2.ibfc.org.br/concurso/abdi-0814/gabaritos-pos.asp",
+      "file": "data/reviews/abdi-third-source-evidence/ibfc-post-keys.html",
+      "sha256": "1f6be33b83641341b3fca80e5219eeddbe4457f1af6fc03421fefd7d8b0bd83f",
+      "scope": "Previously retained official listing, including common middle-level objective answer table."
+    }
+  ],
+  "pairs": [
+    {
+      "paperId": "source-abdi-2008-especialista-administrativo-financeiro",
+      "booklet": "ADI – NÍVEL SUPERIOR ESPECIALISTA – ADMINISTRATIVO E FINANCEIRO",
+      "applicationDate": "2008-09-07",
+      "firstItem": 1,
+      "lastItem": 20,
+      "annulledItems": [
+        19
+      ],
+      "documents": [
+        {
+          "documentId": "source-abdi-2008-especialista-administrativo-financeiro-paper",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/especialista-administrativo-e-financeiro.pdf",
+          "sha256": "0019d09272e62f7044c7a7c321ecb660e2ed100ebcd3dc6719f5631a998a22b4",
+          "method": "independent_second_download_byte_match"
+        },
+        {
+          "documentId": "source-abdi-2008-especialista-administrativo-financeiro-key",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/especialista-administrativo-e-financeiro.pdf",
+          "sha256": "2ada8103ca657cea2b618d484efe7a2771ac23517d4de6a0ebd74636e6db084a",
+          "method": "independent_second_download_byte_match"
+        }
+      ],
+      "objectiveScope": "Only first-page 20-objective definitive table; discursive material is excluded."
+    },
+    {
+      "paperId": "source-abdi-2008-iniciante-licitacoes-contratos",
+      "booklet": "ADI – NÍVEL SUPERIOR INICIANTE – LICITAÇÕES E CONTRATOS",
+      "applicationDate": "2008-09-07",
+      "firstItem": 1,
+      "lastItem": 20,
+      "annulledItems": [
+        19
+      ],
+      "documents": [
+        {
+          "documentId": "source-abdi-2008-iniciante-licitacoes-contratos-paper",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/iniciante-licitacoes-e-contratos.pdf",
+          "sha256": "75cf56320373ba8e05c6b6574c34cdd2f7ae3dd066dba326c720d075236851e2",
+          "method": "independent_second_download_byte_match"
+        },
+        {
+          "documentId": "source-abdi-2008-iniciante-licitacoes-contratos-key",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/iniciante-licitacoes-e-contratos.pdf",
+          "sha256": "07db87b23f54693813c05cd1624e56aa959ebd1a5d33ddd006614bf8c861921a",
+          "method": "independent_second_download_byte_match"
+        }
+      ],
+      "objectiveScope": "Only first-page 20-objective definitive table; discursive material is excluded."
+    },
+    {
+      "paperId": "source-abdi-2008-pleno-servicos-gerais",
+      "booklet": "ADI – NÍVEL SUPERIOR PLENO – SERVIÇOS GERAIS",
+      "applicationDate": "2008-09-07",
+      "firstItem": 1,
+      "lastItem": 20,
+      "annulledItems": [
+        19
+      ],
+      "documents": [
+        {
+          "documentId": "source-abdi-2008-pleno-servicos-gerais-paper",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/pleno-servicos-gerais.pdf",
+          "sha256": "5608f37a662cbb5a5fba9fc3673d38582699b8582ffc3e3c3374a59bf76e3148",
+          "method": "independent_second_download_byte_match"
+        },
+        {
+          "documentId": "source-abdi-2008-pleno-servicos-gerais-key",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/pleno-servicos-gerais.pdf",
+          "sha256": "fbd89cba0e98cfa586ac72577ace1982159fdfcb8cd839fa288d6a163b8e7c65",
+          "method": "independent_second_download_byte_match"
+        }
+      ],
+      "objectiveScope": "Only first-page 20-objective definitive table; discursive material is excluded."
+    },
+    {
+      "paperId": "source-abdi-2008-assistente-compras-servicos",
+      "booklet": "Nível Médio Assistente – Apoio Administrativo, Protocolo, Compras e Serviços, Apoio a Projetos, Jurídico e Contábil e Financeiro",
+      "applicationDate": "2008-09-07",
+      "firstItem": 1,
+      "lastItem": 40,
+      "annulledItems": [],
+      "documents": [
+        {
+          "documentId": "source-abdi-2008-assistente-compras-servicos-paper",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-medio/compras-e-servicos.pdf",
+          "sha256": "94cf8ada3f4cfb1eb3c87853d16467a01583af7ade906d78398965a758410ecb",
+          "method": "independent_second_download_byte_match"
+        },
+        {
+          "documentId": "source-abdi-2008-assistente-compras-servicos-key",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-medio/medio-assistente.pdf",
+          "sha256": "8fdabb67c5c7481fb3c155e163a79e330ac0ffca2f27f8053d2bdf05617bcf3f",
+          "method": "independent_second_download_byte_match"
+        }
+      ],
+      "objectiveScope": "Common first-page definitive 40-objective table explicitly includes Compras e Serviços among all six roles; exact full CARGOS header required. The other five common papers are not cloned."
+    }
+  ],
+  "excluded": [
+    {
+      "paperId": "source-abdi-2008-assistente-compras-servicos",
+      "number": 22,
+      "originalKey": "B",
+      "decision": "deferred_ambiguous_horizon",
+      "reason": "Original key B (3 years). Premium saving R$200/year and franchise difference R$700 require clarification of the no-accident horizon; not published without resolving the question wording. No key correction is invented."
+    },
+    {
+      "paperId": "source-abdi-2008-especialista-controle-interno-auditoria",
+      "number": 16,
+      "decision": "still_deferred",
+      "reason": "Literal old principles list remains changed from 2021; prior historical key A is preserved outside the released bank."
+    },
+    {
+      "paperId": "source-senado-2022-policial-tipo1",
+      "number": 52,
+      "decision": "deferred_currency_review",
+      "reason": "Question relies on Marco Civil platform liability and judicial-order regime; STF developments in 2025 require targeted review before publication."
+    },
+    {
+      "paperId": "source-senado-2022-policial-tipo1",
+      "number": 53,
+      "decision": "deferred_primary_reference",
+      "reason": "Official definitive key C located, but current STF Tema786 thesis page body was not recovered: theme metadata accessible, linked process request returned HTTP400. Not mapped to ABDI ethics just to complete a quota."
+    },
+    {
+      "source": "Other 2008 public-law questions",
+      "decision": "not_released_as_abdi_regulation",
+      "reason": "Revoked federal-law modalities, monetary limits, old criminal penalties and automatic public-law contract prerogatives do not substitute the own ABDI RLC. General administrative theory not promoted merely to fill slots."
+    }
+  ],
+  "additionalResearch": [
+    {
+      "title": "FGV Fiocruz 2010 — Assessor de Comunicação — scientific journalism",
+      "discoveryUrl": "https://www.qconcursos.com/questoes-de-concursos/provas/fgv-2010-fiocruz-tecnologista-em-saude-assessor-de-comunicacao-social",
+      "status": "unverified_lead_only",
+      "reason": "Third-party complete-paper/key links found, but official archive endpoints returned 404/503/access denied. No source authentication or published question claimed."
+    },
+    {
+      "title": "FGV TCE/ES — Auditor — Direito — tipo1",
+      "officialListing": "https://conhecimento.fgv.br/concursos/tcees22/1",
+      "paperUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/auditor-de-controle-externo-ace-direitodireito-tipo-1.pdf",
+      "answerKeyUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tce-es-2022-auditor-gabarito-definitivo-para-publicacao.pdf",
+      "status": "official_complete_pair_located_not_released",
+      "reason": "Paper and definitive key accessible. Selected text search did not identify SSA items for this priority; no complete question-level review, inventory promotion or publication."
+    }
+  ]
+}

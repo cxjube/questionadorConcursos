@@ -1,0 +1,1708 @@
+{
+  "id": "abdi-third-batch",
+  "reviewedAt": "2026-10-27",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/abdi-third-batch-release.md",
+  "previousCatalogSha256": "95d1e71a5017f8fcf21ce2bdb1fb7f821b15e84b42abf611a089acd04e2e19ff",
+  "items": [
+    {
+      "questionId": "abdi-2008-especialista-administrativo-financeiro-q012",
+      "paperId": "source-abdi-2008-especialista-administrativo-financeiro",
+      "number": 12,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-especialista-administrativo-financeiro-key",
+      "answerValue": "a",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-licitacoes-convenios-3-2"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 696.0092,
+            "text": "12) São tipos de licitação na modalidade Pregão:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 709.6092,
+            "text": "a) Presencial e Eletrônico."
+          }
+        ],
+        "b": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 723.2092,
+            "text": "b) Presencial e Mecânico."
+          }
+        ],
+        "c": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 736.8092,
+            "text": "c) Automático e Eletrônico."
+          }
+        ],
+        "d": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 750.4092,
+            "text": "d) Automático e Mecânico."
+          }
+        ]
+      },
+      "originalQuestionMarker": "12)",
+      "optionMarkerStyle": "lowercase_parenthesis"
+    },
+    {
+      "questionId": "abdi-2008-iniciante-licitacoes-contratos-q011",
+      "paperId": "source-abdi-2008-iniciante-licitacoes-contratos",
+      "number": 11,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-iniciante-licitacoes-contratos-key",
+      "answerValue": "d",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-licitacoes-convenios-3-2"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 518.409,
+            "text": "11) Não se trata de informação que deve"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 531.409,
+            "text": "obrigatoriamente constar do ato convocatório"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 544.409,
+            "text": "da licitação:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 557.409,
+            "text": "a) os requisitos para a participação de interessados."
+          }
+        ],
+        "b": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 570.409,
+            "text": "b) o critério de julgamento."
+          }
+        ],
+        "c": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 583.409,
+            "text": "c) o procedimento de licitação a ser observado."
+          }
+        ],
+        "d": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 596.409,
+            "text": "d) o valor mínimo das propostas a serem apresentadas."
+          }
+        ]
+      },
+      "originalQuestionMarker": "11)",
+      "optionMarkerStyle": "lowercase_parenthesis"
+    },
+    {
+      "questionId": "abdi-2008-iniciante-licitacoes-contratos-q013",
+      "paperId": "source-abdi-2008-iniciante-licitacoes-contratos",
+      "number": 13,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-iniciante-licitacoes-contratos-key",
+      "answerValue": "b",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-licitacoes-convenios-3-2"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 30.6227,
+            "text": "13) Sobre as etapas do procedimento licitatório básico,"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 43.6227,
+            "text": "é correto afirmar que:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 56.6227,
+            "text": "a) na concorrência, ao final de cada uma das etapas do"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 69.6227,
+            "text": "procedimento licitatório deverão ser interpostos os"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 82.6227,
+            "text": "recursos relativos aos atos praticados naquela etapa e"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 95.6227,
+            "text": "todos os recursos somente serão julgados ao final"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 108.6227,
+            "text": "da licitação."
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 121.6227,
+            "text": "b) é possível a dissociação da etapa de julgamento"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 134.6227,
+            "text": "das propostas."
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 147.6227,
+            "text": "c) todos os tipos de licitação apresentam exatamente a"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 160.6227,
+            "text": "mesma estrutura de etapas a serem observadas."
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 173.6227,
+            "text": "d) é suficiente que a entrega dos envelopes seja realizada"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 186.6227,
+            "text": "em sessão pública, podendo a sua abertura ser feita"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 199.6227,
+            "text": "em reuniões de que participem apenas os integrantes"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 212.6227,
+            "text": "da comissão de licitação."
+          }
+        ]
+      },
+      "originalQuestionMarker": "13)",
+      "optionMarkerStyle": "lowercase_parenthesis"
+    },
+    {
+      "questionId": "abdi-2008-iniciante-licitacoes-contratos-q014",
+      "paperId": "source-abdi-2008-iniciante-licitacoes-contratos",
+      "number": 14,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-iniciante-licitacoes-contratos-key",
+      "answerValue": "c",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-licitacoes-convenios-3-3"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 238.6227,
+            "text": "14) A respeito da inexigibilidade de licitação, marque"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 251.6227,
+            "text": "a alternativa falsa:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 264.6227,
+            "text": "a) Pode derivar da ausência de pluralidade de alternativas"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 277.6227,
+            "text": "a serem contratadas pela Administração."
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 290.6227,
+            "text": "b) Pode derivar da inviabilidade de julgamento objetivo de"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 303.6227,
+            "text": "eventuais propostas apresentadas pelos licitantes."
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 316.6227,
+            "text": "c) Pode derivar da existência de um mercado concorrencial."
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8981,
+            "y": 329.6227,
+            "text": "d) Pode derivar da impossibilidade de definição objetiva"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0711,
+            "y": 342.6227,
+            "text": "da prestação a ser executada."
+          }
+        ]
+      },
+      "originalQuestionMarker": "14)",
+      "optionMarkerStyle": "lowercase_parenthesis"
+    },
+    {
+      "questionId": "abdi-2008-senior-juridico-q020",
+      "paperId": "source-abdi-2008-senior-juridico",
+      "number": 20,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-senior-juridico-key",
+      "answerValue": "c",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-licitacoes-convenios-3-3"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 569.8021,
+            "text": "20) Ocorrerá dispensa de prévia licitação para os"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 581.8021,
+            "text": "contratos a serem firmados pela Agência Brasileira de"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 593.8021,
+            "text": "Desenvolvimento Industrial:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 605.8021,
+            "text": "a) quando tiverem por objeto a aquisição de materiais,"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 617.8021,
+            "text": "equipamentos ou gêneros diretamente de produtor ou"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 629.8021,
+            "text": "fornecedor exclusivo."
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 641.8021,
+            "text": "b) nos casos em que objetivarem a permuta ou doação"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 653.8021,
+            "text": "em pagamento de bens, observada a avaliação atualizada."
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 665.8021,
+            "text": "c) que visarem à aquisição de gêneros alimentícios"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 677.8021,
+            "text": "perecíveis, com base no preço do dia."
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 689.8021,
+            "text": "d) quando objetivarem a contração de profissional de"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 701.8021,
+            "text": "qualquer setor artístico."
+          }
+        ]
+      },
+      "originalQuestionMarker": "20)",
+      "optionMarkerStyle": "lowercase_parenthesis"
+    },
+    {
+      "questionId": "abdi-2008-pleno-servicos-gerais-q011",
+      "paperId": "source-abdi-2008-pleno-servicos-gerais",
+      "number": 11,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-pleno-servicos-gerais-key",
+      "answerValue": "d",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-licitacoes-convenios-3-2"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 544.009,
+            "text": "11) Segundo o Regulamento de Licitações e Contratos"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 557.009,
+            "text": "da ABDI, são modalidades de licitação, exceto:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 570.009,
+            "text": "a) concorrência"
+          }
+        ],
+        "b": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 583.009,
+            "text": "b) leilão"
+          }
+        ],
+        "c": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 596.009,
+            "text": "c) pregão"
+          }
+        ],
+        "d": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 609.009,
+            "text": "d) indicação"
+          }
+        ]
+      },
+      "originalQuestionMarker": "11)",
+      "optionMarkerStyle": "lowercase_parenthesis"
+    },
+    {
+      "questionId": "abdi-2008-pleno-servicos-gerais-q012",
+      "paperId": "source-abdi-2008-pleno-servicos-gerais",
+      "number": 12,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-pleno-servicos-gerais-key",
+      "answerValue": "c",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-licitacoes-convenios-3-2"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 635.009,
+            "text": "12) Segundo o Regulamento de Licitações e Contratos"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 648.009,
+            "text": "da ABDI, para a habilitação nas licitações, poderá ser"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 661.009,
+            "text": "exigida dos interessados, documentação relativa a, exceto:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 674.009,
+            "text": "a) Habilitação jurídica"
+          }
+        ],
+        "b": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 687.009,
+            "text": "b) Qualificação técnica"
+          }
+        ],
+        "c": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 700.009,
+            "text": "c) Habilitação comportamental"
+          }
+        ],
+        "d": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.557,
+            "y": 713.009,
+            "text": "d) Qualificação econômico-financeira"
+          }
+        ]
+      },
+      "originalQuestionMarker": "12)",
+      "optionMarkerStyle": "lowercase_parenthesis"
+    },
+    {
+      "questionId": "abdi-2008-assistente-compras-servicos-q021",
+      "paperId": "source-abdi-2008-assistente-compras-servicos",
+      "number": 21,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-assistente-compras-servicos-key",
+      "answerValue": "c",
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-5"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.2345,
+            "y": 694.1376,
+            "text": "21) Duas ferrovias A e B distam 240km e a distância"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.2345,
+            "y": 706.9376,
+            "text": "entre suas representações em um certo mapa é de"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.2345,
+            "y": 719.7376,
+            "text": "12cm. Se a distância entre as representações de duas"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.2345,
+            "y": 732.5376,
+            "text": "outras ferrovias C e D neste mesmo mapa é de 5cm,"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.2345,
+            "y": 745.3376,
+            "text": "então a distância real entre elas é de:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.2345,
+            "y": 758.1376,
+            "text": "a) 120 km"
+          }
+        ],
+        "b": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.2345,
+            "y": 770.9376,
+            "text": "b) 240 km"
+          }
+        ],
+        "c": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.2345,
+            "y": 783.7376,
+            "text": "c) 100 km"
+          }
+        ],
+        "d": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.2345,
+            "y": 796.5376,
+            "text": "d) 50 km"
+          }
+        ]
+      },
+      "originalQuestionMarker": "21)",
+      "optionMarkerStyle": "lowercase_parenthesis"
+    },
+    {
+      "questionId": "abdi-2008-assistente-compras-servicos-q023",
+      "paperId": "source-abdi-2008-assistente-compras-servicos",
+      "number": 23,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-assistente-compras-servicos-key",
+      "answerValue": "a",
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-5"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 222.2225,
+            "text": "23) Uma mercadoria X, que custava R$ 14,50, teve um"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 234.8225,
+            "text": "reajuste e passou a custar R$ 17,40. Se outra"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 247.4225,
+            "text": "mercadoria Y teve o mesmo percentual de reajuste e"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 260.0225,
+            "text": "passou a custar R$ 24,00, então o valor de Y, antes do"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 272.6225,
+            "text": "reajuste era de:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 285.2225,
+            "text": "a) R$ 20,00"
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 194.9889,
+            "y": 285.2225,
+            "text": "c) R$ 19,80"
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 297.8225,
+            "text": "b) R$ 19,20"
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 194.4349,
+            "y": 297.8225,
+            "text": "d) R$ 20,20"
+          }
+        ]
+      },
+      "originalQuestionMarker": "23)",
+      "optionMarkerStyle": "lowercase_parenthesis"
+    },
+    {
+      "questionId": "abdi-2008-assistente-compras-servicos-q024",
+      "paperId": "source-abdi-2008-assistente-compras-servicos",
+      "number": 24,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-assistente-compras-servicos-key",
+      "answerValue": "a",
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-5"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 323.0225,
+            "text": "24) Sônia pensou que seu relógio estivesse atrasado 10"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 335.6225,
+            "text": "minutos e o acertou, mas na verdade o relógio estava"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 348.2225,
+            "text": "adiantado 5 minutos. Ana pensou que seu relógio estivesse"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 360.8225,
+            "text": "adiantado 10 minutos e o acertou, mas na verdade o relógio"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 373.4225,
+            "text": "estava atrasado 5 minutos. Logo depois, as duas se"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 386.0225,
+            "text": "encontraram, quando o relógio de Sônia marcava 10 horas."
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 398.6225,
+            "text": "Neste momento, o relógio de Ana indicava:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 411.2225,
+            "text": "a) 9 hs 30 min"
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 197.7579,
+            "y": 411.2225,
+            "text": "c) 10 hs"
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 423.8225,
+            "text": "b) 9 hs 50 min"
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 196.6479,
+            "y": 423.8225,
+            "text": "d) 10 hs 15 min"
+          }
+        ]
+      },
+      "originalQuestionMarker": "24)",
+      "optionMarkerStyle": "lowercase_parenthesis"
+    },
+    {
+      "questionId": "abdi-2008-assistente-compras-servicos-q025",
+      "paperId": "source-abdi-2008-assistente-compras-servicos",
+      "number": 25,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-assistente-compras-servicos-key",
+      "answerValue": "d",
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-5"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 449.0225,
+            "text": "25) Para se preparar para um campeonato, um atleta"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 461.6225,
+            "text": "resolveu cumprir um programa de treinamento diário"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 474.2225,
+            "text": "durante 30 dias. No primeiro dia ele correu 800 m e, a"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 486.8225,
+            "text": "partir daí, passou a correr sempre 250 m a mais do que"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 499.4225,
+            "text": "o trecho cumprido no dia anterior. Nestas condições,"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 512.0225,
+            "text": "pode-se afirmar que no vigésimo primeiro dia de"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 524.6225,
+            "text": "treinamento ele correu:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 537.2225,
+            "text": "a) 5250 m"
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 196.2609,
+            "y": 537.2225,
+            "text": "c) 5330 m"
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 549.8225,
+            "text": "b) 5750 m"
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 196.2609,
+            "y": 549.8225,
+            "text": "d) 5800 m"
+          }
+        ]
+      },
+      "originalQuestionMarker": "25)",
+      "optionMarkerStyle": "lowercase_parenthesis"
+    },
+    {
+      "questionId": "abdi-2008-assistente-compras-servicos-q026",
+      "paperId": "source-abdi-2008-assistente-compras-servicos",
+      "number": 26,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-assistente-compras-servicos-key",
+      "answerValue": "c",
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-5"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 575.0225,
+            "text": "26) João tem 10 cartões. Cada um tem escrito um dos"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 587.6225,
+            "text": "números: 3; 8; 13; 18; 23; 28 ;33; 48; 53; 68 e todos os"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 600.2225,
+            "text": "dez números aparecem. O menor número de cartões que"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 612.8225,
+            "text": "João pode escolher de modo que a soma dos números"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 625.4225,
+            "text": "nos cartões escolhidos seja exatamente 100 é:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 638.0225,
+            "text": "a) 3"
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 650.6225,
+            "text": "b) 4"
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 663.2225,
+            "text": "c) 5"
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 675.8225,
+            "text": "d) não é possível obter soma 100 com esses cartões"
+          }
+        ]
+      },
+      "originalQuestionMarker": "26)",
+      "optionMarkerStyle": "lowercase_parenthesis"
+    },
+    {
+      "questionId": "abdi-2008-assistente-compras-servicos-q027",
+      "paperId": "source-abdi-2008-assistente-compras-servicos",
+      "number": 27,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-assistente-compras-servicos-key",
+      "answerValue": "b",
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-5"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 701.0225,
+            "text": "27) Um bloco sólido de alumínio no formato de um"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 713.6225,
+            "text": "paralelepípedo reto de arestas 16 cm; 4 cm e 19 cm é"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 726.2225,
+            "text": "levado a um processo de fusão. Com o alumínio líquido"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 738.8225,
+            "text": "obtido, são moldados dois blocos sólidos: um cubo de"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 751.4225,
+            "text": "aresta igual a x cm e outro paralelepípedo reto de"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 764.0225,
+            "text": "dimensões iguais a 50 cm; 2 cm e 10 cm."
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 776.6225,
+            "text": "Nestas condições, o valor de x é:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 789.2225,
+            "text": "a) 5 cm"
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 196.0329,
+            "y": 789.2225,
+            "text": "c) 10 cm"
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8979,
+            "y": 801.8225,
+            "text": "b) 6 cm"
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 194.9229,
+            "y": 801.8225,
+            "text": "d) 8 cm"
+          }
+        ]
+      },
+      "originalQuestionMarker": "27)",
+      "optionMarkerStyle": "lowercase_parenthesis"
+    },
+    {
+      "questionId": "abdi-2008-assistente-compras-servicos-q028",
+      "paperId": "source-abdi-2008-assistente-compras-servicos",
+      "number": 28,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-assistente-compras-servicos-key",
+      "answerValue": "b",
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-5"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 30.6235,
+            "text": "28) Tenho um cubo de madeira , com 3 faces vermelhas"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 42.6235,
+            "text": "e 3 faces azuis, de modo que faces opostas tenham"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 54.6235,
+            "text": "cores diferentes. O cubo é cortado em 3 x 3 x 3 = 27"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 66.6235,
+            "text": "cubos menores. Quantos destes cubos menores têm,"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 78.6235,
+            "text": "pelo menos, uma face vermelha e outra azul?"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 90.6235,
+            "text": "a) 6"
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 471.8529,
+            "y": 90.6235,
+            "text": "c) 13"
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 102.6235,
+            "text": "b) 12"
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 471.1299,
+            "y": 102.6235,
+            "text": "d) 16"
+          }
+        ]
+      },
+      "originalQuestionMarker": "28)",
+      "optionMarkerStyle": "lowercase_parenthesis"
+    },
+    {
+      "questionId": "abdi-2008-assistente-compras-servicos-q029",
+      "paperId": "source-abdi-2008-assistente-compras-servicos",
+      "number": 29,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-assistente-compras-servicos-key",
+      "answerValue": "c",
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-5"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 125.6235,
+            "text": "29) Podemos dividir R$ 10,00 em moedas de 10 centavos"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 137.6235,
+            "text": "e de 25 centavos, sendo que pelo menos uma moeda"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 149.6235,
+            "text": "de cada valor seja utilizada. O número de maneiras"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 161.6235,
+            "text": "possíveis dessa divisão é:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 173.6235,
+            "text": "a) 15"
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 471.6859,
+            "y": 173.6235,
+            "text": "c) 19"
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 185.6235,
+            "text": "b) 16"
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 470.5739,
+            "y": 185.6235,
+            "text": "d) 18"
+          }
+        ]
+      },
+      "originalQuestionMarker": "29)",
+      "optionMarkerStyle": "lowercase_parenthesis"
+    },
+    {
+      "questionId": "abdi-2008-assistente-compras-servicos-q030",
+      "paperId": "source-abdi-2008-assistente-compras-servicos",
+      "number": 30,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-assistente-compras-servicos-key",
+      "answerValue": "a",
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-5"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 208.6235,
+            "text": "30) Nove números são escritos em ordem crescente."
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 220.6235,
+            "text": "O número do meio é a média aritmética dos nove"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 232.6235,
+            "text": "números. A média aritmética dos 5 maiores é de 68 e"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 244.6235,
+            "text": "a média aritmética dos 5 menores é de 44."
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 256.6235,
+            "text": "A soma de todos os números é:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 268.6235,
+            "text": "a) 504"
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 471.4669,
+            "y": 268.6235,
+            "text": "c) 112"
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6019,
+            "y": 280.6235,
+            "text": "b) 500"
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 471.4669,
+            "y": 280.6235,
+            "text": "d) 56"
+          }
+        ]
+      },
+      "originalQuestionMarker": "30)",
+      "optionMarkerStyle": "lowercase_parenthesis"
+    },
+    {
+      "questionId": "senado-2022-policial-tipo1-q051",
+      "paperId": "source-senado-2022-policial-tipo1",
+      "number": 51,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-senado-2022-policial-tipo1-key",
+      "answerValue": "b",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-25",
+        "abdi-2026-abdi-nocoes-informatica-11"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 13,
+            "column": "left",
+            "x": 42.6,
+            "y": 105.11,
+            "text": "Uma pessoa física verificou que seu sobrenome está escrito de"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 42.6,
+            "y": 116.03,
+            "text": "maneira incorreta em banco de dados, mantido pela Secretaria"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 42.6,
+            "y": 127.07,
+            "text": "de Saúde do Município X, destinado à gestão de programa de"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 42.6,
+            "y": 138.11,
+            "text": "distribuição gratuita de medicamentos. A inexatidão da"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 42.6,
+            "y": 149.03,
+            "text": "informação, verificada em confronto com o documento de"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 42.6,
+            "y": 160.07,
+            "text": "identidade apresentado pelo solicitante, gerou a recusa da"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 42.6,
+            "y": 170.99,
+            "text": "Administração em fornecer a medicação."
+          }
+        ],
+        [
+          {
+            "page": 13,
+            "column": "left",
+            "x": 42.6,
+            "y": 183.95,
+            "text": "Acerca da situação acima narrada, assinale a afirmativa correta."
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 13,
+            "column": "left",
+            "x": 42.6,
+            "y": 197.03,
+            "text": "(A) A retificação do nome junto ao banco de dados somente"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 56.76,
+            "y": 207.95,
+            "text": "poderá ser realizada mediante decisão judicial, sendo vedada"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 56.76,
+            "y": 218.99,
+            "text": "à autoridade administrativa fazer tal correção de ofício ou"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 56.76,
+            "y": 230.03,
+            "text": "mediante provocação."
+          }
+        ],
+        "b": [
+          {
+            "page": 13,
+            "column": "left",
+            "x": 42.6,
+            "y": 241.91,
+            "text": "(B) O titular dos dados pessoais poderá solicitar a correção de"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 56.76,
+            "y": 252.95,
+            "text": "seu sobrenome mediante petição dirigida ao agente de"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 56.76,
+            "y": 263.99,
+            "text": "tratamento."
+          }
+        ],
+        "c": [
+          {
+            "page": 13,
+            "column": "left",
+            "x": 42.6,
+            "y": 275.87,
+            "text": "(C) O nome da pessoa física é considerado dado pessoal sensível,"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 56.76,
+            "y": 286.94,
+            "text": "motivo pelo qual a correção da inexatidão depende de"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 56.76,
+            "y": 297.98,
+            "text": "decisão do Prefeito Municipal."
+          }
+        ],
+        "d": [
+          {
+            "page": 13,
+            "column": "left",
+            "x": 42.6,
+            "y": 309.86,
+            "text": "(D) Por se tratar de banco de dados mantido pelo Poder Público"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 56.76,
+            "y": 320.9,
+            "text": "municipal, a Autoridade Nacional de Proteção de Dados não"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 56.76,
+            "y": 331.82,
+            "text": "poderá enviar informe com medidas cabíveis para fazer"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 56.76,
+            "y": 342.86,
+            "text": "cessar a violação, sob pena de violação à autonomia"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 56.76,
+            "y": 353.9,
+            "text": "federativa."
+          }
+        ],
+        "e": [
+          {
+            "page": 13,
+            "column": "left",
+            "x": 42.6,
+            "y": 365.78,
+            "text": "(E) O Poder Público não é obrigado a indicar encarregado para o"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 56.76,
+            "y": 376.82,
+            "text": "tratamento de dados pessoais, pelo que eventual pedido de"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 56.76,
+            "y": 387.74,
+            "text": "correção de dados constantes de bancos de dados mantidos"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 56.76,
+            "y": 398.78,
+            "text": "pela Administração Pública deve ser sempre dirigido à"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 56.76,
+            "y": 409.7,
+            "text": "autoridade máxima do órgão ou entidade, no caso, ao"
+          },
+          {
+            "page": 13,
+            "column": "left",
+            "x": 56.76,
+            "y": 420.74,
+            "text": "Secretário Municipal de Saúde."
+          }
+        ]
+      },
+      "originalQuestionMarker": null,
+      "optionMarkerStyle": "uppercase_parenthesized"
+    }
+  ],
+  "contexts": [],
+  "normalization": "Original question/option markers become structured fields. Physical line wraps become spaces, retaining original hyphens. Paragraphs are bounded separately. Options originally printed in two short columns are stored by their own letter, preserving A–D; no invented E. No complete-bank content re-audit is claimed."
+}

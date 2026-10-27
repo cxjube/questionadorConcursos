@@ -1,0 +1,173 @@
+{
+  "reviewedAt": "2026-10-27",
+  "roleId": "abdi-comunicacao-marketing",
+  "scope": "Exact distinct-ID quota matching. Local discipline deficits cannot simply be added when question IDs overlap. Original four-choice MC remain four-choice; CE never fill MC slots. The implemented FGV simulator stays blocked until every quota can be allocated with distinct compatible items.",
+  "distinctTrainingQuestions": 201,
+  "distinctMC": 55,
+  "distinctCE": 146,
+  "minimumAdditionalMC": 13,
+  "distribution": [
+    {
+      "block": "basic",
+      "disciplineId": "lingua-portuguesa",
+      "requiredMC": 8,
+      "availableDistinctMC": 9,
+      "missingForMinimum": 0
+    },
+    {
+      "block": "basic",
+      "disciplineId": "raciocinio-logico",
+      "requiredMC": 6,
+      "availableDistinctMC": 6,
+      "missingForMinimum": 0
+    },
+    {
+      "block": "basic",
+      "disciplineId": "abdi-nocoes-informatica",
+      "requiredMC": 6,
+      "availableDistinctMC": 13,
+      "missingForMinimum": 0
+    },
+    {
+      "block": "institutional",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "requiredMC": 4,
+      "availableDistinctMC": 3,
+      "missingForMinimum": 1
+    },
+    {
+      "block": "institutional",
+      "disciplineId": "abdi-criacao-estatuto",
+      "requiredMC": 4,
+      "availableDistinctMC": 4,
+      "missingForMinimum": 0
+    },
+    {
+      "block": "institutional",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "requiredMC": 8,
+      "availableDistinctMC": 0,
+      "missingForMinimum": 8
+    },
+    {
+      "block": "institutional",
+      "disciplineId": "abdi-etica-missao",
+      "requiredMC": 4,
+      "availableDistinctMC": 3,
+      "missingForMinimum": 1
+    },
+    {
+      "block": "specific",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "requiredMC": 20,
+      "availableDistinctMC": 27,
+      "missingForMinimum": 0
+    }
+  ],
+  "emptySpecificTopics": [],
+  "institutionalSourcesNeeded": [],
+  "quotaCheck": {
+    "method": "Bipartite matching of canonical MC IDs to exact discipline quota slots; each ID assigned once.",
+    "requiredDistinctMC": 60,
+    "allocatableDistinctMC": 47,
+    "unfilledSlots": 13,
+    "assignments": [
+      {
+        "disciplineId": "lingua-portuguesa",
+        "questionIds": [
+          "alerj-2026-comunicacao-manha-tipo1-q001",
+          "alerj-2026-comunicacao-manha-tipo1-q002",
+          "alerj-2026-comunicacao-manha-tipo1-q003",
+          "alerj-2026-comunicacao-manha-tipo1-q004",
+          "alerj-2026-comunicacao-manha-tipo1-q005",
+          "alerj-2026-comunicacao-manha-tipo1-q006",
+          "alerj-2026-comunicacao-manha-tipo1-q008",
+          "alerj-2026-comunicacao-manha-tipo1-q009"
+        ]
+      },
+      {
+        "disciplineId": "raciocinio-logico",
+        "questionIds": [
+          "senado-2022-administracao-tipo1-q014",
+          "senado-2022-administracao-tipo1-q016",
+          "senado-2022-administracao-tipo1-q017",
+          "senado-2022-policial-tipo1-q014",
+          "senado-2022-policial-tipo1-q016",
+          "senado-2022-policial-tipo1-q017"
+        ]
+      },
+      {
+        "disciplineId": "abdi-nocoes-informatica",
+        "questionIds": [
+          "alerj-2026-comunicacao-manha-tipo1-q011",
+          "alerj-2026-comunicacao-manha-tipo1-q012",
+          "alerj-2026-comunicacao-manha-tipo1-q013",
+          "alerj-2026-comunicacao-manha-tipo1-q014",
+          "alerj-2026-comunicacao-manha-tipo1-q015",
+          "alerj-2026-comunicacao-manha-tipo1-q016"
+        ]
+      },
+      {
+        "disciplineId": "abdi-servicos-sociais-autonomos",
+        "questionIds": [
+          "abdi-2008-especialista-juridico-q019",
+          "abdi-2008-especialista-juridico-q020",
+          "abdi-2008-senior-juridico-q018"
+        ]
+      },
+      {
+        "disciplineId": "abdi-criacao-estatuto",
+        "questionIds": [
+          "abdi-2008-especialista-controle-interno-auditoria-q018"
+        ]
+      },
+      {
+        "disciplineId": "abdi-licitacoes-convenios",
+        "questionIds": []
+      },
+      {
+        "disciplineId": "abdi-etica-missao",
+        "questionIds": [
+          "128-tcemg-008-01-q039",
+          "abdi-2008-senior-assessor-comunicacao-q013",
+          "abdi-2008-senior-assessor-comunicacao-q016"
+        ]
+      },
+      {
+        "disciplineId": "abdi-comunicacao-marketing",
+        "questionIds": [
+          "128-tcemg-008-01-q031",
+          "128-tcemg-008-01-q043",
+          "128-tcemg-008-01-q045",
+          "539-alce-016-01-q021",
+          "539-alce-016-01-q022",
+          "539-alce-016-01-q023",
+          "539-alce-016-01-q025",
+          "539-alce-016-01-q026",
+          "539-alce-016-01-q027",
+          "alerj-2026-comunicacao-manha-tipo1-q056",
+          "alerj-2026-comunicacao-manha-tipo1-q058",
+          "alerj-2026-comunicacao-manha-tipo1-q059",
+          "alerj-2026-comunicacao-manha-tipo1-q060",
+          "alerj-2026-comunicacao-manha-tipo1-q061",
+          "alerj-2026-comunicacao-manha-tipo1-q063",
+          "alerj-2026-comunicacao-manha-tipo1-q064",
+          "alerj-2026-comunicacao-manha-tipo1-q065",
+          "alerj-2026-comunicacao-manha-tipo1-q067",
+          "alerj-2026-comunicacao-manha-tipo1-q068",
+          "alerj-2026-comunicacao-manha-tipo1-q069"
+        ]
+      }
+    ]
+  },
+  "institutionalSourcesReviewed": [
+    "reference-abdi-estatuto-2024",
+    "reference-abdi-licitacoes-2021",
+    "reference-abdi-convenios-2026",
+    "reference-abdi-etica-2022",
+    "reference-abdi-planejamento-2024-2029",
+    "reference-abdi-resolucao-008-2023",
+    "reference-abdi-planejamento-ajustado-2024"
+  ],
+  "institutionalDistinctMC": 7
+}

@@ -12,7 +12,7 @@ async function reflow(page){assert.equal(await page.evaluate(()=>document.docume
    page.on('pageerror',e=>errors.push(e.message));
    await page.goto(base);await page.locator('#start-study:not([disabled])').waitFor();
    await page.locator('#contest').selectOption('abdi-2026');assert.equal(await page.locator('#role').inputValue(),role);
-   assert.match(await page.locator('#study-availability').innerText(),/^201 questões/);
+   assert.match(await page.locator('#study-availability').innerText(),/^218 questões/);
    assert.equal(await page.locator('#study-format-note').isVisible(),true);assert.equal(await page.locator('#prepare-exam').isDisabled(),true);assert.match(await page.locator('#exam-availability').innerText(),/múltipla escolha/);
    await page.locator('[data-theme-choice="'+(width===320?'light':'dark')+'"]').click();
    await page.locator('#program-tab').click();assert.match(await page.locator('#program-summary').innerText(),/8 disciplinas · 97 tópicos/);assert.equal(await page.locator('#program .syllabus-group').count(),8);await reflow(page);

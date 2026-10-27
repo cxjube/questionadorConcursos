@@ -1,5 +1,7 @@
 # Conferência das fontes oficiais — 23/10/2026
 
+> Terceiro lote ABDI, 27/10/2026: [17 novas MC oficiais](abdi-third-batch-release.md), quatro novos pares IBFC com oito downloads repetidos idênticos. Inventário atual: **163 fontes (125 PDFs / 38 HTML), 53 pares, 3.216 números e 139 anulações**. Caderno médio e gabarito comum pareados pelo cabeçalho completo CARGOS; não se duplicaram provas comuns. Senado/LGPD/RLC foram reutilizados no escopo registrado. Os relatos abaixo são históricos.
+
 > ABDI — [segundo lote](abdi-second-batch-release.md), 27/10/2026: cinco grupos de documentos internos confirmados; sete PDFs institucionais e quatro pares IBFC com segundo download idêntico. CD 008/2023 e planejamento original foram preservados separadamente do ajuste CD 009/2024. LGPD usa nova referência consolidada oficial da Câmara após HTTP 503 no Planalto. Inventário global: 155 fontes (117 PDFs / 38 HTML), 49 pares, 3.116 números objetivos e 136 anulações. Os registros abaixo são históricos.
 
 > Atualização ABDI em 27/10/2026: [primeiro lote](abdi-first-batch-release.md), 40 novas MC. Inventário global: 139 fontes (102 PDFs / 37 HTML), 45 pares, 3.036 números e 134 anulações. Os três novos pares Senado/TCE-MG tiveram segundo download idêntico; três HTML legislativos oficiais preservam os bytes iniciais. Cinco documentos internos ABDI permanecem sem autenticação após HTTP 403; não foram incluídos como referências verificadas. Fontes antigas mantêm as datas e limites de suas evidências.

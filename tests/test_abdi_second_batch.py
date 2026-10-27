@@ -21,7 +21,7 @@ def joined(texts):return re.sub(r'(?<=\w)-\n(?=\w)','-','\n'.join(texts)).replac
 class AbdiSecondBatchTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c=read_json(ROOT/'data/catalog.json');cls.m=read_json(ROOT/'data/reviews/abdi-second-batch.json');cls.d=read_json(ROOT/'data/reviews/abdi-second-source-discovery.json')
+        cls.c=json.loads(gzip.decompress((ROOT/'data/reviews/pre-abdi-third-batch-catalog.json.gz').read_bytes()));cls.m=read_json(ROOT/'data/reviews/abdi-second-batch.json');cls.d=read_json(ROOT/'data/reviews/abdi-second-source-discovery.json')
         cls.docs={d['id']:d for d in cls.c['documents']};cls.papers={p['id']:p for p in cls.c['papers']};cls.questions={q['id']:q for q in cls.c['questions']};cls.cache={}
 
     def group(self,rows,did,marker=None):
@@ -104,11 +104,12 @@ class AbdiSecondBatchTests(unittest.TestCase):
         role=next(x for x in self.c['roles'] if x['id']=='abdi-comunicacao-marketing');self.assertEqual(len(role['referenceDocumentIds']),10);self.assertIn(original['id'],role['referenceDocumentIds']);self.assertIn(adjusted['id'],role['referenceDocumentIds'])
 
     def test_quota_matching_catches_overlapping_institutional_pools_and_tracks_every_old_gap(self):
-        ready=read_json(ROOT/'data/reviews/abdi-bank-readiness.json');self.assertEqual((ready['distinctTrainingQuestions'],ready['distinctMC'],ready['distinctCE']),(201,55,146));self.assertEqual(ready['institutionalDistinctMC'],7);self.assertEqual(ready['minimumAdditionalMC'],13);self.assertEqual(ready['institutionalSourcesNeeded'],[])
+        ready=read_json(ROOT/'data/reviews/abdi-second-bank-readiness.json');self.assertEqual((ready['distinctTrainingQuestions'],ready['distinctMC'],ready['distinctCE']),(201,55,146));self.assertEqual(ready['institutionalDistinctMC'],7);self.assertEqual(ready['minimumAdditionalMC'],13);self.assertEqual(ready['institutionalSourcesNeeded'],[])
         self.assertEqual(ready['quotaCheck']['allocatableDistinctMC'],47);assignments=ready['quotaCheck']['assignments'];ids=[q for x in assignments for q in x['questionIds']];self.assertEqual(len(ids),len(set(ids)));self.assertEqual(len(ids),47)
         report=coverage(self.c,role_id='abdi-comunicacao-marketing');self.assertEqual((report['directItems'],report['descendantsOnly'],report['emptyItems']),(59,5,33));self.assertEqual(report['blocks']['institutional'],dict(total=7,ce=0))
         for assignment in assignments:
             available={q for i in report['items'] if i['disciplineId']==assignment['disciplineId'] for q in i['directQuestionIds'] if self.questions[q]['type']=='multiple_choice'};self.assertTrue(set(assignment['questionIds'])<=available)
         byid={x['id']:x for x in report['items']};self.assertEqual([byid['abdi-2026-abdi-comunicacao-marketing-'+n]['directMC'] for n in ['2','22','25']],[2,0,0]);self.assertEqual(byid['abdi-2026-abdi-comunicacao-marketing-22']['directCE'],1);self.assertEqual(byid['abdi-2026-abdi-comunicacao-marketing-25']['directCE'],6)
         progress=read_json(ROOT/'data/reviews/abdi-second-gap-progress.json');old=json.loads(gzip.decompress((ROOT/'data/reviews/pre-abdi-second-batch-catalog.json.gz').read_bytes()));before=coverage(old,role_id='abdi-comunicacao-marketing');self.assertEqual({x['id'] for x in progress['items']},{x['id'] for x in before['items'] if x['state']=='empty'});self.assertEqual((progress['beforeEmpty'],progress['afterEmpty']),(47,33))
-        for path,content in role_artifacts(self.c,self.m,'abdi-comunicacao-marketing').items():self.assertEqual((ROOT/path).read_text(),content)
+        # Current generated artifacts are checked by the current lot and CLI.
+        # This class now protects the exact historical second-lot snapshot.

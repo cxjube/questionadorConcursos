@@ -27,7 +27,7 @@ abdi-2026-raciocinio-logico-3-2,raciocinio-logico,basic,3.2,Tabelas-verdade.,emp
 abdi-2026-raciocinio-logico-3-3,raciocinio-logico,basic,3.3,Equivalências.,empty,A,0,0,0,0
 abdi-2026-raciocinio-logico-3-4,raciocinio-logico,basic,3.4,Diagramas lógicos.,empty,A,0,0,0,0
 abdi-2026-raciocinio-logico-4,raciocinio-logico,basic,4,Lógica de primeira ordem.,empty,A,0,0,0,0
-abdi-2026-raciocinio-logico-5,raciocinio-logico,basic,5,"Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais.",direct,C,0,6,0,6
+abdi-2026-raciocinio-logico-5,raciocinio-logico,basic,5,"Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais.",direct,C,0,15,0,15
 abdi-2026-abdi-nocoes-informatica-1,abdi-nocoes-informatica,basic,1,"Conceitos básicos de Informática: hardware, software, periféricos, dispositivos de entrada, saída e armazenamento, organização de arquivos e pastas e principais extensões de arquivos;",empty,A,0,0,0,0
 abdi-2026-abdi-nocoes-informatica-2,abdi-nocoes-informatica,basic,2,"Sistemas operacionais Microsoft Windows 10 e Microsoft Windows 11, em português (Brasil): área de trabalho, gerenciamento de arquivos e pastas, configurações, pesquisa, impressão, compartilhamento e principais recursos;",direct,C,0,3,0,3
 abdi-2026-abdi-nocoes-informatica-3,abdi-nocoes-informatica,basic,3,"Microsoft 365, em português (Brasil): Word, Excel, PowerPoint e Outlook;",direct,C,0,5,0,5
@@ -38,7 +38,7 @@ abdi-2026-abdi-nocoes-informatica-7,abdi-nocoes-informatica,basic,7,"Segurança 
 abdi-2026-abdi-nocoes-informatica-8,abdi-nocoes-informatica,basic,8,"Computação em nuvem: armazenamento, sincronização, compartilhamento de arquivos e colaboração;",direct,A,2,0,2,0
 abdi-2026-abdi-nocoes-informatica-9,abdi-nocoes-informatica,basic,9,"Inteligência Artificial: conceitos básicos, aplicações no ambiente de trabalho, ferramentas de IA generativa, uso responsável, limitações e boas práticas;",direct,B,5,2,5,2
 abdi-2026-abdi-nocoes-informatica-10,abdi-nocoes-informatica,basic,10,"Digitalização, impressão, compartilhamento de documentos, teclas de atalho, recursos de acessibilidade e produtividade em sistemas operacionais e aplicativos.",empty,A,0,0,0,0
-abdi-2026-abdi-nocoes-informatica-11,abdi-nocoes-informatica,basic,11,Legislação acerca de Segurança da Informação e Proteção De Dados: 1. Lei nº 12.527/2011 (Lei de Acesso à Informação); 2. Lei nº 12.737/2012 (Lei de Delitos Informáticos); 3. Lei nº 12.965/2014 (Marco Civil da Internet); 4. Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD),direct,B,10,2,10,2
+abdi-2026-abdi-nocoes-informatica-11,abdi-nocoes-informatica,basic,11,Legislação acerca de Segurança da Informação e Proteção De Dados: 1. Lei nº 12.527/2011 (Lei de Acesso à Informação); 2. Lei nº 12.737/2012 (Lei de Delitos Informáticos); 3. Lei nº 12.965/2014 (Marco Civil da Internet); 4. Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD),direct,C,10,3,10,3
 abdi-2026-abdi-servicos-sociais-autonomos-1,abdi-servicos-sociais-autonomos,institutional,1,NATUREZA E FINALIDADE DOS SERVIÇOS SOCIAIS AUTÔNOMOS,descendants_only,C,0,0,0,3
 abdi-2026-abdi-servicos-sociais-autonomos-1-1,abdi-servicos-sociais-autonomos,institutional,1.1,"Conceito, características, natureza jurídica e finalidade dos Serviços Sociais Autônomos. Lei nº 11.080/2004, art. 1º, caput e § 1º, com redação dada pela Lei nº 14.440/2022; Decreto nº 5.352/2005, arts. 1º e 2º.",direct,B,0,1,0,1
 abdi-2026-abdi-servicos-sociais-autonomos-1-2,abdi-servicos-sociais-autonomos,institutional,1.2,"Personalidade jurídica de direito privado, ausência de fins lucrativos, interesse coletivo e utilidade pública. Lei nº 11.080/2004, art. 1º, § 1º; Decreto nº 5.352/2005, art. 1º.",empty,A,0,0,0,0
@@ -52,10 +52,10 @@ abdi-2026-abdi-criacao-estatuto-2-3,abdi-criacao-estatuto,institutional,2.3,"Est
 abdi-2026-abdi-criacao-estatuto-2-4,abdi-criacao-estatuto,institutional,2.4,Organização administrativa e estrutura de governança.,direct,B,0,1,0,1
 abdi-2026-abdi-criacao-estatuto-2-5,abdi-criacao-estatuto,institutional,2.5,"Conselho Deliberativo, Conselho Fiscal e Diretoria-Executiva: composição, competências e atribuições.",direct,B,0,1,0,1
 abdi-2026-abdi-criacao-estatuto-2-6,abdi-criacao-estatuto,institutional,2.6,"Patrimônio, receitas, contrato de gestão e prestação de contas.",direct,B,0,2,0,2
-abdi-2026-abdi-licitacoes-convenios-3,abdi-licitacoes-convenios,institutional,3,REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI,empty,A,0,0,0,0
+abdi-2026-abdi-licitacoes-convenios-3,abdi-licitacoes-convenios,institutional,3,REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI,descendants_only,C,0,0,0,7
 abdi-2026-abdi-licitacoes-convenios-3-1,abdi-licitacoes-convenios,institutional,3.1,Regulamento de Licitações e Contratos da ABDI: princípios e disposições gerais.,empty,A,0,0,0,0
-abdi-2026-abdi-licitacoes-convenios-3-2,abdi-licitacoes-convenios,institutional,3.2,"Modalidades, procedimentos licitatórios, critérios de julgamento e habilitação.",empty,A,0,0,0,0
-abdi-2026-abdi-licitacoes-convenios-3-3,abdi-licitacoes-convenios,institutional,3.3,Contratação direta: dispensa e inexigibilidade.,empty,A,0,0,0,0
+abdi-2026-abdi-licitacoes-convenios-3-2,abdi-licitacoes-convenios,institutional,3.2,"Modalidades, procedimentos licitatórios, critérios de julgamento e habilitação.",direct,C,0,5,0,5
+abdi-2026-abdi-licitacoes-convenios-3-3,abdi-licitacoes-convenios,institutional,3.3,Contratação direta: dispensa e inexigibilidade.,direct,B,0,2,0,2
 abdi-2026-abdi-licitacoes-convenios-3-4,abdi-licitacoes-convenios,institutional,3.4,"Formalização, execução, fiscalização, alteração e extinção dos contratos.",empty,A,0,0,0,0
 abdi-2026-abdi-licitacoes-convenios-3-5,abdi-licitacoes-convenios,institutional,3.5,Sanções e responsabilidades contratuais.,empty,A,0,0,0,0
 abdi-2026-abdi-licitacoes-convenios-3-6,abdi-licitacoes-convenios,institutional,3.6,"Regulamento de Convênios da ABDI: disposições gerais, conceitos e modalidades.",empty,A,0,0,0,0
@@ -94,5 +94,5 @@ abdi-2026-abdi-comunicacao-marketing-21,abdi-comunicacao-marketing,specific,21,R
 abdi-2026-abdi-comunicacao-marketing-22,abdi-comunicacao-marketing,specific,22,"Comunicação científica, tecnológica e ambiental.",direct,A,1,0,1,0
 abdi-2026-abdi-comunicacao-marketing-23,abdi-comunicacao-marketing,specific,23,Ética e legislação aplicadas à comunicação.,direct,C,4,5,4,5
 abdi-2026-abdi-comunicacao-marketing-24,abdi-comunicacao-marketing,specific,24,"Direito à informação, transparência e acesso à informação.",direct,B,2,2,2,2
-abdi-2026-abdi-comunicacao-marketing-25,abdi-comunicacao-marketing,specific,25,Proteção de dados pessoais aplicada às atividades de comunicação.,direct,A,6,0,6,0
+abdi-2026-abdi-comunicacao-marketing-25,abdi-comunicacao-marketing,specific,25,Proteção de dados pessoais aplicada às atividades de comunicação.,direct,B,6,1,6,1
 abdi-2026-abdi-comunicacao-marketing-26,abdi-comunicacao-marketing,specific,26,"Acessibilidade, inclusão e linguagem simples na comunicação.",direct,B,0,2,0,2

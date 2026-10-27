@@ -10,12 +10,19 @@ def answer_table(text: str, booklet: str) -> dict[int, str]:
         page = text.split('\f', 1)[0]
         if 'PROVA OBJETIVA' not in page or 'APÓS RECURSO' not in page:
             raise ValueError('IBFC key is not an objective definitive table')
-        cargo = re.search(r'CARGO:\s*(.*?)\n\s*QUESTÃO', page, re.S)
+        # Shared objective tables name all covered roles in CARGOS. Require
+        # that complete header as well; a substring role match is insufficient.
+        cargo = re.search(r'CARGOS?:\s*(.*?)\n\s*QUESTÃO', page, re.S)
         if not cargo or ' '.join(cargo[1].split()) != booklet:
             raise ValueError('IBFC key requires the exact role header')
         rows = page[cargo.end():].splitlines()
         result = {}
         for row in rows:
+            # In the common 40-item table the next subject heading shares
+            # a physical line with item 11 in the left column. Remove only
+            # this labelled heading, keeping strict validation of the answers.
+            row = re.sub(r'[ \t]+(?:PORTUGUÊS|RACIOCÍNIO LÓGICO|INFORMÁTICA) '
+                         r'\(\d+ a \d+\)[ \t]*$', '', row)
             if not re.match(r'\s*\d', row):
                 continue
             if not re.fullmatch(r'\s*(?:\d+\s+(?:ANULADA|[A-D])\s*)+', row):

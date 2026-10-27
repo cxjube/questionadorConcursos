@@ -84,12 +84,12 @@ class SixthBatchTests(unittest.TestCase):
         syllabus={s['id']:s for s in self.c['syllabusItems']}
         topics={t['id']:t for t in self.c['topics']}
         self.assertEqual({topics[syllabus[m['syllabusItemId']]['topicId']]['disciplineId'] for m in self.c['mappings']},{d['id'] for d in self.c['disciplines'] if any(s['roleId']=='camara-comunicacao-divulgacao' and topics[s['topicId']]['disciplineId']==d['id'] for s in syllabus.values())})
-        self.assertEqual(len(self.c['questions']),451)
+        self.assertEqual(len(self.c['questions']),468)
         self.assertEqual(sum(q['type']=='true_false' for q in self.c['questions']),385)
         links=[m for m in self.c['mappings'] if m['questionId']=='camara-2023-tecnica-tarde-tipo1-q017']
         self.assertEqual(len(links),2)
         self.assertEqual({syllabus[m['syllabusItemId']]['block'] for m in links},{'basic','specific'})
-        self.assertEqual(len(self.c['explanations']),451)
+        self.assertEqual(len(self.c['explanations']),468)
 
     @unittest.skipUnless(shutil.which('pdftotext'),'Poppler required')
     def test_question_numbers_match_bounded_source_columns(self):

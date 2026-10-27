@@ -1,11 +1,11 @@
 {
   "reviewedAt": "2026-10-27",
   "roleId": "abdi-comunicacao-marketing",
-  "scope": "Exact distinct-ID quota matching. Local discipline deficits cannot simply be added when question IDs overlap. Original four-choice MC remain four-choice; CE never fill MC slots. The implemented FGV simulator stays blocked until every quota can be allocated with distinct compatible items.",
-  "distinctTrainingQuestions": 201,
-  "distinctMC": 55,
+  "scope": "Current third-lot capacity, exact distinct-ID matching. Four additional distinct MC across nature/creation combined, one procurement/agreements and one ethics remain necessary. Per-role full editorial sweeps are scheduled at project close, not claimed completed now.",
+  "distinctTrainingQuestions": 218,
+  "distinctMC": 72,
   "distinctCE": 146,
-  "minimumAdditionalMC": 13,
+  "minimumAdditionalMC": 6,
   "distribution": [
     {
       "block": "basic",
@@ -18,14 +18,14 @@
       "block": "basic",
       "disciplineId": "raciocinio-logico",
       "requiredMC": 6,
-      "availableDistinctMC": 6,
+      "availableDistinctMC": 15,
       "missingForMinimum": 0
     },
     {
       "block": "basic",
       "disciplineId": "abdi-nocoes-informatica",
       "requiredMC": 6,
-      "availableDistinctMC": 13,
+      "availableDistinctMC": 14,
       "missingForMinimum": 0
     },
     {
@@ -46,8 +46,8 @@
       "block": "institutional",
       "disciplineId": "abdi-licitacoes-convenios",
       "requiredMC": 8,
-      "availableDistinctMC": 0,
-      "missingForMinimum": 8
+      "availableDistinctMC": 7,
+      "missingForMinimum": 1
     },
     {
       "block": "institutional",
@@ -60,7 +60,7 @@
       "block": "specific",
       "disciplineId": "abdi-comunicacao-marketing",
       "requiredMC": 20,
-      "availableDistinctMC": 27,
+      "availableDistinctMC": 28,
       "missingForMinimum": 0
     }
   ],
@@ -69,8 +69,8 @@
   "quotaCheck": {
     "method": "Bipartite matching of canonical MC IDs to exact discipline quota slots; each ID assigned once.",
     "requiredDistinctMC": 60,
-    "allocatableDistinctMC": 47,
-    "unfilledSlots": 13,
+    "allocatableDistinctMC": 54,
+    "unfilledSlots": 6,
     "assignments": [
       {
         "disciplineId": "lingua-portuguesa",
@@ -88,12 +88,12 @@
       {
         "disciplineId": "raciocinio-logico",
         "questionIds": [
-          "senado-2022-administracao-tipo1-q014",
-          "senado-2022-administracao-tipo1-q016",
-          "senado-2022-administracao-tipo1-q017",
-          "senado-2022-policial-tipo1-q014",
-          "senado-2022-policial-tipo1-q016",
-          "senado-2022-policial-tipo1-q017"
+          "abdi-2008-assistente-compras-servicos-q021",
+          "abdi-2008-assistente-compras-servicos-q023",
+          "abdi-2008-assistente-compras-servicos-q024",
+          "abdi-2008-assistente-compras-servicos-q025",
+          "abdi-2008-assistente-compras-servicos-q026",
+          "abdi-2008-assistente-compras-servicos-q027"
         ]
       },
       {
@@ -123,7 +123,15 @@
       },
       {
         "disciplineId": "abdi-licitacoes-convenios",
-        "questionIds": []
+        "questionIds": [
+          "abdi-2008-especialista-administrativo-financeiro-q012",
+          "abdi-2008-iniciante-licitacoes-contratos-q011",
+          "abdi-2008-iniciante-licitacoes-contratos-q013",
+          "abdi-2008-iniciante-licitacoes-contratos-q014",
+          "abdi-2008-pleno-servicos-gerais-q011",
+          "abdi-2008-pleno-servicos-gerais-q012",
+          "abdi-2008-senior-juridico-q020"
+        ]
       },
       {
         "disciplineId": "abdi-etica-missao",
@@ -169,5 +177,6 @@
     "reference-abdi-resolucao-008-2023",
     "reference-abdi-planejamento-ajustado-2024"
   ],
-  "institutionalDistinctMC": 7
+  "institutionalDistinctMC": 14,
+  "checkedAt": "2026-10-27"
 }

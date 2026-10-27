@@ -7,7 +7,7 @@ function setup(){const c={window:{},crypto:webcrypto,URL,TextEncoder};vm.createC
 
 test('all forty official MC preserve five alternatives, independent keys and explanations through practice and backup',()=>{
  const s=setup(),manifest=JSON.parse(fs.readFileSync(path.join(root,'data/reviews/abdi-first-batch.json'))),wanted=new Set(manifest.items.map(r=>r.questionId)),seen=new Set();
- const cases=[['source-alerj-2026-comunicacao-manha-tipo1',33],['source-senado-2022-administracao-tipo1',3],['source-senado-2022-policial-tipo1',3],['source-128-tcemg-008-01',4]];
+ const cases=[['source-alerj-2026-comunicacao-manha-tipo1',33],['source-senado-2022-administracao-tipo1',3],['source-senado-2022-policial-tipo1',4],['source-128-tcemg-008-01',4]];
  for(const [paperId,count] of cases){
   const session=s.Study.create(s.data,role,s.Study.empty(),'all',{paperId,now:start});assert.equal(session.items.length,count);assert.equal(session.scoringProfile,null);
   for(const i of session.items){assert.equal(i.question.type,'multiple_choice');assert.equal(i.question.options.length,5);assert.equal(i.key.stage,'definitive');assert.ok(i.mappings.every(m=>m.roleId===role));assert.equal(i.explanations.length,1);if(wanted.has(i.question.id))seen.add(i.question.id);session.answers.push({questionId:i.question.id,value:i.key.value});}
@@ -15,8 +15,8 @@ test('all forty official MC preserve five alternatives, independent keys and exp
   assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(finished),s.data)),plain(finished));
  }
  assert.deepEqual([...seen].sort(),[...wanted].sort());
- const progress=s.Study.empty();assert.equal(s.Study.pool(s.data,role,progress).length,201);assert.equal(s.Study.pool(s.data,role,progress,'all',{type:'multiple_choice'}).length,55);
- assert.equal(s.Study.pool(s.data,role,progress,'all',{block:'institutional'}).length,7);assert.equal(s.Study.pool(s.data,'camara-comunicacao-divulgacao',progress).length,395);
+ const progress=s.Study.empty();assert.equal(s.Study.pool(s.data,role,progress).length,218);assert.equal(s.Study.pool(s.data,role,progress,'all',{type:'multiple_choice'}).length,72);
+ assert.equal(s.Study.pool(s.data,role,progress,'all',{block:'institutional'}).length,14);assert.equal(s.Study.pool(s.data,'camara-comunicacao-divulgacao',progress).length,395);
  assert.equal(s.Study.examAvailability(s.data,role).ready,false);
 });
 
@@ -25,7 +25,7 @@ test('the 145-item ABDI history remains unchanged and the newly released items b
  const session=s.Study.create(old,role,s.Study.empty(),'all',{now:start});assert.equal(session.items.length,145);
  session.answers=session.items.map(i=>({questionId:i.question.id,value:i.key.value}));let p=s.Study.finish({...s.Study.empty(),active:session},end);
  assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(p),s.data)),plain(p));assert.equal(s.Study.matches(s.data,p.history[0]),true);
- const newIds=new Set(['abdi-first-batch','abdi-second-batch'].flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,'data/reviews/'+name+'.json'))).items.map(i=>i.questionId)));
+ const newIds=new Set(['abdi-first-batch','abdi-second-batch','abdi-third-batch'].flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,'data/reviews/'+name+'.json'))).items.map(i=>i.questionId)));
  assert.deepEqual(new Set(s.Study.pool(s.data,role,p,'unanswered').map(q=>q.id)),newIds);
  assert.equal(s.Study.performance(p.history,role).attempts,145);assert.equal(s.Study.performance(p.history,'camara-comunicacao-divulgacao').attempts,0);
 });
