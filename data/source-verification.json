@@ -688,6 +688,118 @@
       "outcome": "byte_match",
       "officialUrl": "https://learn.microsoft.com/pt-br/azure/foundry/openai/concepts/prompt-engineering",
       "remoteSha256": "0be4cd5f2874f28057f2713a2f928fcc681ba52f3d54f9989891d4dfa51c3a96"
+    },
+    {
+      "documentId": "source-camara14-cb1-01-paper",
+      "localSha256": "79e09d74319bb470f4a9a075f9417fc6c1bd227e63cb788d4ea52f078041ac73",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/conteudo-basico",
+      "remoteSha256": "79e09d74319bb470f4a9a075f9417fc6c1bd227e63cb788d4ea52f078041ac73"
+    },
+    {
+      "documentId": "source-camara14-cb1-01-key",
+      "localSha256": "85ba8e03fd988ea1233d2c81d1b0412ed8106333d704405dae0f2fd0243bcb31",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/gabarito-conteudo-basico",
+      "remoteSha256": "85ba8e03fd988ea1233d2c81d1b0412ed8106333d704405dae0f2fd0243bcb31"
+    },
+    {
+      "documentId": "source-camara14-001-01-paper",
+      "localSha256": "b0ad6de8724a0a4ad67f820f015859d8581a6f36a45ef62dc7b1bc54e37e4864",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/conteudo-especifico",
+      "remoteSha256": "b0ad6de8724a0a4ad67f820f015859d8581a6f36a45ef62dc7b1bc54e37e4864"
+    },
+    {
+      "documentId": "source-camara14-001-01-key",
+      "localSha256": "6d05f7d6995db76398c2d74eb954c7fc7e9c821cc9513676f8e9b469e9686ebf",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/gabarito-p2",
+      "remoteSha256": "6d05f7d6995db76398c2d74eb954c7fc7e9c821cc9513676f8e9b469e9686ebf"
+    },
+    {
+      "documentId": "source-893-dataprev-005-01-paper",
+      "localSha256": "6d3f3d4fcd141618cf9303726b49a8b6096a7654e93393ccaca3b49fff79ca37",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/DATAPREV_23/arquivos/893_DATAPREV_005_01.PDF",
+      "remoteSha256": "6d3f3d4fcd141618cf9303726b49a8b6096a7654e93393ccaca3b49fff79ca37"
+    },
+    {
+      "documentId": "source-893-dataprev-005-01-key",
+      "localSha256": "83b06f91be62ae9404ddd888d0239b2af65e21155a76b0c3e34bef179480212c",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/DATAPREV_23/arquivos/GAB_DEFINITIVO_893_DATAPREV_005_01.PDF",
+      "remoteSha256": "83b06f91be62ae9404ddd888d0239b2af65e21155a76b0c3e34bef179480212c"
+    },
+    {
+      "documentId": "source-803-tj-es-006-01-paper",
+      "localSha256": "9edfe6202c7980cdb30b738c14826ef5e9596e09f405aa75257225311fda1402",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TJ_ES_23/arquivos/803_TJ_ES_006_01.PDF",
+      "remoteSha256": "9edfe6202c7980cdb30b738c14826ef5e9596e09f405aa75257225311fda1402"
+    },
+    {
+      "documentId": "source-803-tj-es-006-01-key",
+      "localSha256": "d1ea80c138dbd1cd982806965d9b71a339202fb1555713df22ee24e48fdf6a00",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TJ_ES_23/arquivos/GAB_DEFINITIVO_803_TJ_ES_006_01.PDF",
+      "remoteSha256": "d1ea80c138dbd1cd982806965d9b71a339202fb1555713df22ee24e48fdf6a00"
+    },
+    {
+      "documentId": "source-108-tcutefc-001-01-paper",
+      "localSha256": "e21da3b873b7e6efee58b28295789cbd93e5ab8fcf87c020883905d94415145b",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCU_25_TEFC/arquivos/108_TCUTEFC_001_01.pdf",
+      "remoteSha256": "e21da3b873b7e6efee58b28295789cbd93e5ab8fcf87c020883905d94415145b"
+    },
+    {
+      "documentId": "source-108-tcutefc-001-01-key",
+      "localSha256": "0e0bfef8488d419bba2769df86b7889f5e3778daf26564acd08cb4c0b09fdbd0",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCU_25_TEFC/arquivos/E53AB5C65454510E881F7667E620F44B6DDD1C083D5175412CF8725A3C9B9C9F.pdf",
+      "remoteSha256": "0e0bfef8488d419bba2769df86b7889f5e3778daf26564acd08cb4c0b09fdbd0"
+    },
+    {
+      "documentId": "source-038-anm-005-01-paper",
+      "localSha256": "287c1dea6191d3e7100fc61750e157d72067638dd27e8f55579815c07c308ff7",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_005_01.PDF",
+      "remoteSha256": "287c1dea6191d3e7100fc61750e157d72067638dd27e8f55579815c07c308ff7"
+    },
+    {
+      "documentId": "source-038-anm-005-01-key",
+      "localSha256": "336f33d329b38037193d408fc34c8ce196045a933497e939c5a1ae03e8757f42",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_005_01.PDF",
+      "remoteSha256": "336f33d329b38037193d408fc34c8ce196045a933497e939c5a1ae03e8757f42"
+    },
+    {
+      "documentId": "reference-lei-4320-1964",
+      "localSha256": "44366eeb6c615a57b8244a2e36e323a04936a73cb9d25d86e6b074d5db1a4791",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+      "remoteSha256": "44366eeb6c615a57b8244a2e36e323a04936a73cb9d25d86e6b074d5db1a4791"
+    },
+    {
+      "documentId": "reference-lrf-2000",
+      "localSha256": "9e178a491fd3ba44c4956316bc9ef602a5d544b2fa5d8a52abaa2e6bac3de691",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html",
+      "remoteSha256": "9e178a491fd3ba44c4956316bc9ef602a5d544b2fa5d8a52abaa2e6bac3de691"
+    },
+    {
+      "documentId": "reference-in-seges-58-2022",
+      "localSha256": "fa816b6ef795c469c8e85e31645549355525035361357dad3972fc830b9a0b39",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-no-58-de-8-de-agosto-de-2022",
+      "remoteSha256": "fa816b6ef795c469c8e85e31645549355525035361357dad3972fc830b9a0b39"
+    },
+    {
+      "documentId": "reference-stf-tema-1237",
+      "localSha256": "00b231048a4f7793c7e4cda74e93967c7c9f04d03938d8913d86e0aea4be8c9b",
+      "outcome": "byte_match",
+      "officialUrl": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=6411925&numeroProcesso=1385315&classeProcesso=ARE&numeroTema=1237",
+      "remoteSha256": "00b231048a4f7793c7e4cda74e93967c7c9f04d03938d8913d86e0aea4be8c9b"
     }
   ],
   "corroboration": [

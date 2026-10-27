@@ -1,0 +1,409 @@
+{
+  "reviewedAt": "2026-10-27",
+  "method": "agent_assisted",
+  "scope": "New cited clauses only; four updated Câmara HTML rechecks on 27/10/2026. Lei 14133 uses the retained Planalto recheck of 26/10/2026 after timeout on 27/10. RCCN is the retained 2025 edition updated through July 2025. No claim of exhaustive law/amendment check or human review.",
+  "rechecks": [
+    {
+      "documentId": "reference-constitution-1988",
+      "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "file": "data/reviews/fifteenth-reference-evidence/reference-constitution-1988.html",
+      "sha256": "a8de1643589cf9fb199bb58a0cf4a6acd63c35ed377843d8240ca500b7e1f2c1",
+      "method": "visible_active_clause_comparison_not_raw_equality",
+      "checkedAt": "2026-10-27"
+    },
+    {
+      "documentId": "reference-lei-9784-1999",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "file": "data/reviews/fifteenth-reference-evidence/reference-lei-9784-1999.html",
+      "sha256": "87cd4730fda84e28bdfc490c4cd6635b8eb86c98a4ab2daf29e380eb62c0a80b",
+      "method": "visible_active_clause_comparison_not_raw_equality",
+      "checkedAt": "2026-10-27"
+    },
+    {
+      "documentId": "reference-lei-14133-2021",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+      "file": "data/reviews/eleventh-reference-rechecks/reference-lei-14133-2021.html",
+      "sha256": "7474e192ebb898ef4c68ef75649f0a5cde78b916b0d4937018ece24b74ed6b7e",
+      "method": "retained_2026_10_26_recheck",
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "documentId": "reference-ricd-res17-1989",
+      "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+      "file": "data/reviews/fifteenth-reference-evidence/reference-ricd-res17-1989.html",
+      "sha256": "e95d7b34dd5fdfeae4892cc4e3893c56eb9f1c28cb418af22639a8c7846639d9",
+      "method": "visible_active_clause_comparison_not_raw_equality",
+      "checkedAt": "2026-10-27"
+    },
+    {
+      "documentId": "reference-lei-8112-1990",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "file": "data/reviews/fifteenth-reference-evidence/reference-lei-8112-1990.html",
+      "sha256": "2ceed7c5d4c9ef2b466ccba6e37abf93425285cc71afbe9e8641ceb28b9d44cb",
+      "method": "visible_active_clause_comparison_not_raw_equality",
+      "checkedAt": "2026-10-27"
+    }
+  ],
+  "items": [
+    {
+      "questionId": "camara14-cb1-01-q079",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 57,
+          "activeQuote": "Art. 2º Nas 48 (quarenta e oito) horas que se seguirem à publicação, no Diário Oficial da União, de Medida Provisória adotada pelo Presidente da República, posterior à EC 32/01 posterior à EC 32/01 Medida Provisória Medida Provisória a Presidência da Mesa do Congresso Nacional fará publicar e distribuir avulsos da matéria e designará Comissão Mista para emitir parecer sobre ela. 3 "
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 58,
+          "activeQuote": "§ 6º Quando se tratar de Medida Provisória que abra crédito extraordinário à lei orçamentária anual, conforme os arts. 62 e 167, § 3º, da Constituição Federal, o exame e o parecer serão realizados pela Comissão Mista prevista no art. 166, § 1º, da Constituição, observando-se os prazos e o rito estabelecidos nesta Resolução. "
+        }
+      ]
+    },
+    {
+      "questionId": "camara14-cb1-01-q080",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 58,
+          "activeQuote": "§ 1º Observar-se-á o critério de alternância entre as Casas para a Presidência das Comissões Mistas constituídas para apreciar Medidas Provisórias, devendo, em cada caso, o Relator ser designado pelo Presidente dentre os membros da Comissão pertencentes à Casa diversa da sua. 6 "
+        }
+      ]
+    },
+    {
+      "questionId": "camara14-cb1-01-q081",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 61,
+          "activeQuote": "§ 3º Havendo modificação no Senado Federal, ainda que decorrente de restabelecimento de matéria ou emenda rejeitada na Câmara dos Deputados, ou de destaque supressivo, será esta encaminhada para exame na Casa iniciadora, sob a forma de emenda, a ser apreciada em turno único, vedadas quaisquer novas alterações. "
+        }
+      ]
+    },
+    {
+      "questionId": "camara14-cb1-01-q082",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 58,
+          "activeQuote": "§ 6º Quando se tratar de Medida Provisória que abra crédito extraordinário à lei orçamentária anual, conforme os arts. 62 e 167, § 3º, da Constituição Federal, o exame e o parecer serão realizados pela Comissão Mista prevista no art. 166, § 1º, da Constituição, observando-se os prazos e o rito estabelecidos nesta Resolução. "
+        }
+      ]
+    },
+    {
+      "questionId": "camara14-cb1-01-q083",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "sourcePage": null,
+          "activeQuote": "Art. 68. As leis delegadas serão elaboradas pelo Presidente da República, que deverá solicitar a delegação ao Congresso Nacional. § 1º Não serão objeto de delegação os atos de competência exclusiva do Congresso Nacional, os de competência privativa da Câmara dos Deputados ou do Senado Federal, a matéria reservada à lei complementar, nem a legislação sobre: I - organização do Poder Judiciário e do Ministério Público, a carreira e a garantia de seus membros; II - nacionalidade, cidadania, direitos individuais, políticos e eleitorais; III - planos plurianuais, diretrizes orçamentárias e orçamentos. "
+        }
+      ]
+    },
+    {
+      "questionId": "camara14-cb1-01-q084",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "sourcePage": null,
+          "activeQuote": "§ 5º A matéria constante de proposta de emenda rejeitada ou havida por prejudicada não pode ser objeto de nova proposta na mesma sessão legislativa. "
+        }
+      ]
+    },
+    {
+      "questionId": "camara14-cb1-01-q092",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "sourcePage": null,
+          "activeQuote": "XX - aprovar a proposta orçamentária da Câmara e encaminhá-la ao Poder Executivo; XXI - encaminhar ao Poder Executivo as solicitações de créditos adicionais necessários ao funcionamento da Câmara e dos seus serviços; XXII - estabelecer os limites de competência para as autorizações de despesa; XXIII - autorizar a assinatura de convênios e de contratos de prestação de serviços; XXIV - aprovar o orçamento analítico da Câmara; "
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "sourcePage": null,
+          "activeQuote": "§ 1º As despesas da Câmara, dentro dos limites das disponibilidades orçamentárias consignadas no Orçamento da União e dos créditos adicionais discriminados no orçamento analítico, devidamente aprovado pela Mesa, serão ordenadas pelo Diretor-Geral. "
+        }
+      ]
+    },
+    {
+      "questionId": "camara14-cb1-01-q096",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 41,
+          "activeQuote": "§ 4º As deliberações da Comissão Mista iniciar-se-ão pelos representantes da Câmara dos Deputados, sendo que o voto contrário da maioria dos representantes de uma das Casas importará a rejeição da matéria. 36 § 5º Na eleição do Presidente e do Vice-Presidente da Comissão, não se aplicam as disposições do § 4º. "
+        }
+      ]
+    },
+    {
+      "questionId": "camara14-cb1-01-q097",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 32,
+          "activeQuote": "Art. 36. A apreciação das matérias será feita em um só turno de discussão e votação. 26 "
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 33,
+          "activeQuote": "Art. 43. Nas deliberações, os votos da Câmara dos Deputados e do Senado Federal serão sempre computados separadamente. "
+        }
+      ]
+    },
+    {
+      "questionId": "camara14-cb1-01-q098",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 29,
+          "activeQuote": "Art. 22. A sessão conjunta terá a duração de 4 (quatro) horas. "
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 30,
+          "activeQuote": "Parágrafo único. Se o término do tempo da sessão ocorrer quando iniciada uma votação, esta será ultimada independentemente de pedido de prorrogação. "
+        }
+      ]
+    },
+    {
+      "questionId": "camara14-cb1-01-q099",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "sourcePage": 40,
+          "activeQuote": "Art. 89. A Mensagem do Presidente da República encaminhando projeto de lei orçamentária será recebida e lida em sessão conjunta, especialmente convocada para esse fim, a realizar-se dentro de 48 (quarenta e oito) horas de sua entrega ao Presidente do Senado. "
+        }
+      ]
+    },
+    {
+      "questionId": "camara14-001-01-q126",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-lei-4320-1964",
+          "sourcePage": null,
+          "activeQuote": "Art. 2º A Lei do Orçamento conterá a discriminação da receita e despesa de forma a evidenciar a política econômica financeira e o programa de trabalho do Governo, obedecidos os princípios de unidade, universalidade e anualidade. § 1° Integrarão a Lei de Orçamento: I - Sumário geral da receita por fontes e da despesa por funções do Governo; "
+        }
+      ]
+    },
+    {
+      "questionId": "camara14-001-01-q128",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "sourcePage": null,
+          "activeQuote": "§ 3º O Ministério Público elaborará sua proposta orçamentária dentro dos limites estabelecidos na lei de diretrizes orçamentárias. "
+        }
+      ]
+    },
+    {
+      "questionId": "camara14-001-01-q129",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-lrf-2000",
+          "sourcePage": null,
+          "activeQuote": "III - evolução do patrimônio líquido, também nos últimos três exercícios, destacando a origem e a aplicação dos recursos obtidos com a alienação de ativos; "
+        },
+        {
+          "documentId": "reference-lrf-2000",
+          "sourcePage": null,
+          "activeQuote": "§ 3º A lei de diretrizes orçamentárias conterá Anexo de Riscos Fiscais, onde serão avaliados os passivos contingentes e outros riscos capazes de afetar as contas públicas, informando as providências a serem tomadas, caso se concretizem. "
+        }
+      ]
+    },
+    {
+      "questionId": "camara14-001-01-q132",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-lei-4320-1964",
+          "sourcePage": null,
+          "activeQuote": "Art. 3º A Lei de Orçamento compreenderá todas as receitas, inclusive as de operações de crédito autorizadas em lei. Parágrafo único . Não se consideram para os fins deste artigo as operações de crédito por antecipação da receita, as emissões de papel-moeda e outras entradas compensatórias no ativo e passivo financeiros. (Parágrafo único vetado pelo Presidente da República e mantido pelo Congresso Nacional, em 4/5/1964). "
+        }
+      ]
+    },
+    {
+      "questionId": "camara14-001-01-q197",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "sourcePage": null,
+          "activeQuote": "Art. 72. A comissão mista permanente a que se refere o art. 166, § 1º, diante de indícios de despesas não autorizadas, ainda que sob a forma de investimentos não programados ou de subsídios não aprovados, poderá solicitar à autoridade governamental responsável que, no prazo de cinco dias, preste os esclarecimentos necessários. § 1º Não prestados os esclarecimentos, ou considerados estes insuficientes, a comissão solicitará ao Tribunal pronunciamento conclusivo sobre a matéria, no prazo de trinta dias. § 2º Entendendo o Tribunal irregular a despesa, a comissão, se julgar que o gasto possa causar dano irreparável ou grave lesão à economia pública, proporá ao Congresso Nacional sua sustação. "
+        }
+      ]
+    },
+    {
+      "questionId": "camara14-001-01-q204",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-lei-8112-1990",
+          "sourcePage": null,
+          "activeQuote": "§ 3º O servidor em estágio probatório poderá exercer quaisquer cargos de provimento em comissão ou funções de direção, chefia ou assessoramento no órgão ou entidade de lotação, e somente poderá ser cedido a outro órgão ou entidade para ocupar cargos de Natureza Especial, cargos de provimento em comissão do Grupo-Direção e Assessoramento Superiores - DAS, de níveis 6, 5 e 4, ou equivalentes. (Parágrafo acrescido pela Lei nº 9.527, de 10/12/1997) "
+        }
+      ]
+    },
+    {
+      "questionId": "108-tcutefc-001-01-q066",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "sourcePage": null,
+          "activeQuote": "§ 6º As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa. "
+        }
+      ]
+    },
+    {
+      "questionId": "108-tcutefc-001-01-q069",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "sourcePage": null,
+          "activeQuote": "§ 6º As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa. "
+        }
+      ]
+    },
+    {
+      "questionId": "108-tcutefc-001-01-q087",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-lei-14133-2021",
+          "sourcePage": null,
+          "activeQuote": "Art. 118. O contratado deverá manter preposto aceito pela Administração no local da obra ou do serviço para representá-lo na execução do contrato. "
+        }
+      ]
+    },
+    {
+      "questionId": "108-tcutefc-001-01-q088",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-lei-14133-2021",
+          "sourcePage": null,
+          "activeQuote": "Art. 117. A execução do contrato deverá ser acompanhada e fiscalizada por 1 (um) ou mais fiscais do contrato, representantes da Administração especialmente designados conforme requisitos estabelecidos no art. 7º desta Lei, ou pelos respectivos substitutos, permitida a contratação de terceiros para assisti-los e subsidiá-los com informações pertinentes a essa atribuição. § 1º O fiscal do contrato anotará em registro próprio todas as ocorrências relacionadas à execução do contrato, determinando o que for necessário para a regularização das faltas ou dos defeitos observados. § 2º O fiscal do contrato informará a seus superiores, em tempo hábil para a adoção das medidas convenientes, a situação que demandar decisão ou providência que ultrapasse sua competência. "
+        }
+      ]
+    },
+    {
+      "questionId": "108-tcutefc-001-01-q095",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-lei-4320-1964",
+          "sourcePage": null,
+          "activeQuote": "Art. 63. A liquidação da despesa consiste na verificação do direito adquirido pelo credor tendo por base os títulos e documentos comprobatórios do respectivo crédito. § 1° Essa verificação tem por fim apurar: I - a origem e o objeto do que se deve pagar; II - a importância exata a pagar; III - a quem se deve pagar a importância, para extinguir a obrigação. § 2º A liquidação da despesa por fornecimentos feitos ou serviços prestados terá por base: I - o contrato, ajuste ou acordo respectivo; II - a nota de empenho; III - os comprovantes da entrega do material ou da prestação efetiva do serviço. "
+        }
+      ]
+    },
+    {
+      "questionId": "108-tcutefc-001-01-q096",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-lei-4320-1964",
+          "sourcePage": null,
+          "activeQuote": "Art. 60. É vedada a realização de despesa sem prévio empenho. "
+        }
+      ]
+    },
+    {
+      "questionId": "803-tj-es-006-01-q099",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "sourcePage": null,
+          "activeQuote": "I - os cargos, empregos e funções públicas são acessíveis aos brasileiros que preencham os requisitos estabelecidos em lei, assim como aos estrangeiros, na forma da lei; (Inciso com redação dada pela Emenda Constitucional nº 19, de 1998) "
+        }
+      ]
+    },
+    {
+      "questionId": "803-tj-es-006-01-q100",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "sourcePage": null,
+          "activeQuote": "V - as funções de confiança, exercidas exclusivamente por servidores ocupantes de cargo efetivo, e os cargos em comissão, a serem preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, destinam-se apenas às atribuições de direção, chefia e assessoramento; (Inciso com redação dada pela Emenda Constitucional nº 19, de 1998) "
+        }
+      ]
+    },
+    {
+      "questionId": "803-tj-es-006-01-q101",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-lei-9784-1999",
+          "sourcePage": null,
+          "activeQuote": "Art. 2º A Administração Pública obedecerá, dentre outros, aos princípios da legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência. Parágrafo único. Nos processos administrativos serão observados, entre outros, os critérios de: I - atuação conforme a lei e o Direito; II - atendimento a fins de interesse geral, vedada a renúncia total ou parcial de poderes ou competências, salvo autorização em lei; "
+        }
+      ]
+    },
+    {
+      "questionId": "803-tj-es-006-01-q103",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-lei-14133-2021",
+          "sourcePage": null,
+          "activeQuote": "§ 3º Será admitida a forma eletrônica na celebração de contratos e de termos aditivos, atendidas as exigências previstas em regulamento. "
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-005-01-q063",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "sourcePage": null,
+          "activeQuote": "§ 6º As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa. "
+        },
+        {
+          "documentId": "reference-stf-tema-1237",
+          "sourcePage": null,
+          "activeQuote": "(i) O Estado é responsável, na esfera cível, por morte ou ferimento decorrente de operações de segurança pública, nos termos da Teoria do Risco Administrativo; (ii) É ônus probatório do ente federativo demonstrar eventuais excludentes de responsabilidade civil; (iii) A perícia inconclusiva sobre a origem de disparo fatal ou que cause ferimento à vítima durante operações policiais e militares não é suficiente, por si só, para afastar a responsabilidade civil do Estado, por constituir elemento indiciário. "
+        }
+      ]
+    },
+    {
+      "questionId": "038-anm-024-01-q073",
+      "decision": "compatible_with_cited_clauses_scope_qualified_in_comment",
+      "citations": [
+        {
+          "documentId": "reference-in-seges-58-2022",
+          "sourcePage": null,
+          "activeQuote": "Art. 1º Esta Instrução Normativa dispõe sobre a elaboração dos Estudos Técnicos Preliminares - ETP, para a aquisição de bens e a contratação de serviços e obras, no âmbito da administração pública federal direta, autárquica e fundacional, e sobre o Sistema ETP digital. "
+        },
+        {
+          "documentId": "reference-in-seges-58-2022",
+          "sourcePage": null,
+          "activeQuote": "Art. 14. A elaboração do ETP: I - é facultada nas hipóteses dos incisos I, II, VII e VIII do art. 75 e do § 7º do art. 90 da Lei nº 14.133, de 2021; e II - é dispensada na hipótese do inciso III do art. 75 da Lei nº 14.133, de 2021, e nos casos de prorrogações dos contratos de serviços e fornecimentos contínuos. "
+        },
+        {
+          "documentId": "reference-lei-14133-2021",
+          "sourcePage": null,
+          "activeQuote": "XX - estudo técnico preliminar: documento constitutivo da primeira etapa do planejamento de uma contratação que caracteriza o interesse público envolvido e a sua melhor solução e dá base ao anteprojeto, ao termo de referência ou ao projeto básico a serem elaborados caso se conclua pela viabilidade da contratação; "
+        }
+      ]
+    }
+  ],
+  "clauseCount": 37
+}

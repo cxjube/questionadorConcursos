@@ -289,7 +289,7 @@ test('custom scoring never changes accuracy, unscored history or official criter
 test('block filters use target syllabus blocks, preserve distinct IDs and validate snapshots',()=>{
  const s=setup(),p=s.Study.empty();
  const basic=s.Study.pool(s.data,s.role,p,'all',{block:'basic'}),specific=s.Study.pool(s.data,s.role,p,'all',{block:'specific'});
- assert.equal(basic.length,141);assert.equal(specific.length,162);
+ assert.equal(basic.length,155);assert.equal(specific.length,185);
  assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',disciplineId:'lingua-inglesa'}).length,0);
  const session=s.Study.create(s.data,s.role,p,'all',{block:'basic',disciplineId:'lingua-inglesa'});
  assert.equal(session.items.length,19);assert.equal(session.selection.block,'basic');
@@ -304,8 +304,8 @@ test('block filters use target syllabus blocks, preserve distinct IDs and valida
  assert.ok(s.Study.validate({...p,active:legacy},s.data));
  const multi=plain(s.data),target=multi.syllabusItems.find(t=>t.block==='specific');
  multi.mappings.push({id:'synthetic-cross-block-link',questionId:basic[0].id,syllabusItemId:target.id,status:'confirmed'});
- assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,163);
- assert.equal(s.Study.pool(multi,s.role,p).length,302);
+ assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,186);
+ assert.equal(s.Study.pool(multi,s.role,p).length,339);
  assert.throws(()=>s.Study.pool(s.data,s.role,p,'all',{block:'invalid'}),/Bloco/);
 });
 test('evolution uses local calendar days, weighted accuracy and finalized role snapshots only',()=>{
@@ -347,8 +347,8 @@ test('sixth batch counts shared topics once and keeps MC separate from CE compos
  const shared='camara-2023-tecnica-tarde-tipo1-q017';
  assert.equal(basic.filter(q=>q.id===shared).length,1);assert.equal(specific.filter(q=>q.id===shared).length,1);
  assert.equal(s.Study.pool(s.data,s.role,p).filter(q=>q.id===shared).length,1);
- assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'}).length,140);
- assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'}).length,147);
+ assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'}).length,154);
+ assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'}).length,170);
  for(const discipline of s.data.disciplines) assert.ok(s.Study.pool(s.data,s.role,p,'all',{disciplineId:discipline.id}).length>0);
 });
 
@@ -358,7 +358,7 @@ test('legal and FGV source snapshots survive backup with narrowly allowed offici
  assert.equal(p.active.items.length,10);assert.ok(p.active.items.every(i=>i.explanations.length===1));
  const restored=s.Study.importBackup(s.Study.exportBackup(p),s.data);assert.deepEqual(plain(restored),plain(p));
  p.active=s.Study.create(s.data,s.role,s.Study.empty(),'all',{disciplineId:'direito-administrativo-administracao-publica'});
- assert.equal(p.active.items.length,35);assert.ok(s.Study.importBackup(s.Study.exportBackup(p),s.data));
+ assert.equal(p.active.items.length,46);assert.ok(s.Study.importBackup(s.Study.exportBackup(p),s.data));
  const bad=plain(p);bad.active.items[0].explanations[0].references[0].officialUrl='https://www.planalto.gov.br.evil.invalid/fake';
  // Snapshot references carry the canonical source URL; reject a lookalike hostname.
  const ref=p.active.items[0].explanations[0].references[0];
@@ -371,12 +371,12 @@ test('legal and FGV source snapshots survive backup with narrowly allowed offici
  assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(spoof),s.data));
 });
 
-test('the expanded CE reserve provides 140 basic and 147 specific distinct valid items',()=>{
+test('the expanded CE reserve provides 154 basic and 170 specific distinct valid items',()=>{
  const s=setup(),p=s.Study.empty();
  const basic=s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'});
  const specific=s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'});
- assert.equal(basic.length,140);assert.equal(specific.length,147);
- assert.equal(new Set([...basic,...specific].map(q=>q.id)).size,287);
+ assert.equal(basic.length,154);assert.equal(specific.length,170);
+ assert.equal(new Set([...basic,...specific].map(q=>q.id)).size,324);
  for(const block of ['basic','specific']) {
   const session=s.Study.create(s.data,s.role,p,'all',{block,type:'true_false',limit:90});
   assert.equal(session.items.length,90);
@@ -428,10 +428,21 @@ test('content audit preserves older context and taxonomy snapshots without weake
 });
 
 test('Regimento Comum MC snapshots preserve official normative references and reject a lookalike host',()=>{
- const s=setup(),p={...s.Study.empty(),active:s.Study.create(s.data,s.role,s.Study.empty(),'all',{topicId:'processo-legislativo-regimento-6'})};
+ const s=setup(),p={...s.Study.empty(),active:s.Study.create(s.data,s.role,s.Study.empty(),'all',{topicId:'processo-legislativo-regimento-6',type:'multiple_choice'})};
  assert.equal(p.active.items.length,3);assert.ok(p.active.items.every(i=>i.question.type==='multiple_choice'));
  assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(p),s.data)),plain(p));
  const bad=plain(p),ref=bad.active.items.flatMap(i=>i.explanations.flatMap(e=>e.references)).find(r=>r.officialUrl.startsWith('https://www25.senado.leg.br/'));
  assert.ok(ref);ref.officialUrl=ref.officialUrl.replace('www25.senado.leg.br','www25.senado.leg.br.evil.invalid');
  assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(bad),s.data));
+});
+
+test('government and STF references round-trip while lookalike domains are rejected',()=>{
+ const s=setup();
+ for(const [paper,host] of [['source-038-anm-024-01','www.gov.br'],['source-038-anm-005-01','portal.stf.jus.br']]) {
+  const p={...s.Study.empty(),active:s.Study.create(s.data,s.role,s.Study.empty(),'all',{paperId:paper})};
+  assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(p),s.data)),plain(p));
+  const broken=plain(p),ref=broken.active.items.flatMap(i=>i.explanations.flatMap(e=>e.references)).find(r=>new URL(r.officialUrl).hostname===host);
+  assert.ok(ref);ref.officialUrl=ref.officialUrl.replace(host,host+'.evil.invalid');
+  assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(broken),s.data));
+ }
 });

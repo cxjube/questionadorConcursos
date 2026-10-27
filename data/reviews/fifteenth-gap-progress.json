@@ -1,0 +1,603 @@
+{
+  "reviewedAt": "2026-10-27",
+  "scope": "All 54 previously empty subtrees tracked; editorial gaps, not independent subjects or official weights. Source search is not exhaustive.",
+  "beforeEmpty": 54,
+  "afterEmpty": 30,
+  "items": [
+    {
+      "syllabusItemId": "camara-2026-lingua-portuguesa-3",
+      "label": "Domínio da ortografia.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-lingua-portuguesa-5-2",
+      "label": "Relações de coordenação entre orações e entre termos da oração.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-lingua-portuguesa-6-2",
+      "label": "Substituição de palavras ou de trechos de texto.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-lingua-portuguesa-6-4",
+      "label": "Reescrita de textos de diferentes gêneros e níveis de formalidade.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-2-2",
+      "label": "Parecer: responsabilidade do emissor do parecer.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-3-1",
+      "label": "Disposições constitucionais aplicáveis.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 2,
+      "newQuestionIds": [
+        "803-tj-es-006-01-q099",
+        "803-tj-es-006-01-q100"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-3-3",
+      "label": "Requisição.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "camara14-001-01-q204"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-4-1",
+      "label": "Fontes e princípios.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-4-2",
+      "label": "Ilícito de direito administrativo disciplinar.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-5-2",
+      "label": "Uso e abuso do poder.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "803-tj-es-006-01-q101"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-6-1",
+      "label": "Responsabilidade civil do Estado no direito brasileiro.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "038-anm-005-01-q063"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-6-2",
+      "label": "Responsabilidade por ato comissivo do Estado.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "038-anm-005-01-q063"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-6-3",
+      "label": "Responsabilidade por omissão do Estado.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "108-tcutefc-001-01-q066"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-8-1",
+      "label": "Nova Governança Pública (New Public Governance): conceito, fundamentos e evolução.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-8-2",
+      "label": "Ação pública em redes de cooperação, articulação interinstitucional e parcerias com o setor privado e terceiro setor.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-8-4",
+      "label": "Valor Público, cadeia de valor público.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-9-2",
+      "label": "Mecanismos de governança: liderança, estratégia e controle.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-9-4",
+      "label": "Decreto Federal nº 9.203/2017 e suas alterações (política de governança da administração pública federal direta, autárquica e fundacional).",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-5",
+      "label": "Planejamento e fiscalização contratual.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "108-tcutefc-001-01-q087"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-6",
+      "label": "Papel do fiscalizador do contrato.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "108-tcutefc-001-01-q088"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-7",
+      "label": "Estudo Técnico Preliminar e Termo de Referência.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "038-anm-024-01-q073"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-7-3",
+      "label": "Deputados (arts. 226 a 251 e suas alterações).",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-7-4",
+      "label": "Administração e economia interna (arts. 262 a 273 e suas alterações).",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "camara14-cb1-01-q092"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-8",
+      "label": "Regimento Comum do Congresso Nacional.",
+      "beforeState": "empty",
+      "afterState": "descendants_only",
+      "beforeCE": 0,
+      "afterCE": 2,
+      "newQuestionIds": [
+        "camara14-cb1-01-q096",
+        "camara14-cb1-01-q099"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-8-1",
+      "label": "Título I.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-8-2",
+      "label": "Título IV, Capítulo II e Capítulo III (até art. 103).",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 2,
+      "newQuestionIds": [
+        "camara14-cb1-01-q096",
+        "camara14-cb1-01-q099"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-8-4",
+      "label": "Storytelling para visualização de dados.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Candidatos CAESB usam storytelling de experiência do usuário, não de dados; provas de dados examinadas não forneceram item selecionável sobre a narrativa de visualizações. Não converter MC em CE nem forçar classificação."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-4-8",
+      "label": "Plano de comunicação.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 2,
+      "newQuestionIds": [
+        "803-tj-es-006-01-q072",
+        "893-dataprev-005-01-q114"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-5-1",
+      "label": "Planejamento e produção de conteúdo.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 2,
+      "newQuestionIds": [
+        "893-dataprev-005-01-q109",
+        "893-dataprev-005-01-q110"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-5-2",
+      "label": "Postagens e colaborações.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "DATAPREV 005 contém plataformas, stories e segmentação. Nenhum item selecionado demonstra colaboração ou os elementos de uma publicação oficial; os conceitos não foram redistribuídos aos filhos."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-5-4",
+      "label": "Elementos fundamentais de publicações em redes sociais: capa, legenda, marcação, palavras-chave, call to action.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "DATAPREV 005 contém plataformas, stories e segmentação. Nenhum item selecionado demonstra colaboração ou os elementos de uma publicação oficial; os conceitos não foram redistribuídos aos filhos."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-8-1",
+      "label": "Política de comunicação da Câmara dos Deputados (Ato da Mesa nº 218/2025).",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Documentos específicos identificados e roteiro de leitura disponível. Não foi confirmada questão oficial compatível com esses textos/edições; conceitos genéricos não foram vinculados."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-8-2",
+      "label": "Manual de comunicação da Câmara dos Deputados.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Documentos específicos identificados e roteiro de leitura disponível. Não foi confirmada questão oficial compatível com esses textos/edições; conceitos genéricos não foram vinculados."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-10-1",
+      "label": "Manual de linguagem simples da Câmara dos Deputados.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Documentos específicos identificados e roteiro de leitura disponível. Não foi confirmada questão oficial compatível com esses textos/edições; conceitos genéricos não foram vinculados."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-11",
+      "label": "Princípios constitucionais da administração pública aplicados à comunicação (Art. 37, § 1º da CF/88 e suas alterações).",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-4",
+      "label": "Atendimento.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-divulgacao-institucional-2-2",
+      "label": "Planejamento de marketing.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-divulgacao-institucional-3-3",
+      "label": "Pesquisa de opinião pública.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "803-tj-es-006-01-q067"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-divulgacao-institucional-3-4",
+      "label": "Pesquisa de imagem.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "893-dataprev-005-01-q104"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-divulgacao-institucional-4-1",
+      "label": "Conceito de marca.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-divulgacao-institucional-7",
+      "label": "Gestão de equipes em publicidade.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-1-1",
+      "label": "Tipos de procedimento, ordinário, abreviado, sumário, sumaríssimo, especial e concentrado.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-2-1",
+      "label": "Projeto de lei ordinária, complementar e delegada.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "camara14-cb1-01-q083"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-2-2",
+      "label": "Medida provisória.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "camara14-cb1-01-q079"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-2-4",
+      "label": "Proposta de Emenda à Constituição (PEC).",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "camara14-cb1-01-q084"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-3",
+      "label": "Fiscalização Contábil, Financeira e Orçamentária.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "camara14-001-01-q197"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-3",
+      "label": "Lei Orçamentária Anual (LOA).",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 2,
+      "newQuestionIds": [
+        "camara14-001-01-q126",
+        "camara14-001-01-q132"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-4",
+      "label": "As interfaces entre LDO, LOA, Lei nº 4.320/1964 e suas alterações e Lei Complementar nº 101/2000 e suas alterações (Lei de Responsabilidade Fiscal).",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "camara14-001-01-q129"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-6",
+      "label": "Proposta orçamentária e sua integração com PPA e LDO.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 1,
+      "newQuestionIds": [
+        "camara14-001-01-q128"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-7",
+      "label": "Execução financeira e créditos.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "beforeCE": 0,
+      "afterCE": 2,
+      "newQuestionIds": [
+        "108-tcutefc-001-01-q095",
+        "108-tcutefc-001-01-q096"
+      ],
+      "decision": "Avanço rastreável nos vínculos do lote; uma amostra não esgota o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-ciencia-politica-4",
+      "label": "Sistemas e formas de governo.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-ciencia-politica-10",
+      "label": "Política internacional contemporânea.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-ciencia-politica-12",
+      "label": "Formação do Estado brasileiro.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    },
+    {
+      "syllabusItemId": "camara-2026-ciencia-politica-13",
+      "label": "História do voto e dos partidos no Brasil.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "beforeCE": 0,
+      "afterCE": 0,
+      "newQuestionIds": [],
+      "decision": "Não foi selecionado neste lote um item oficial com caderno completo, chave definitiva e escopo temático suficiente; segue prioritário. Pesquisa não exaustiva."
+    }
+  ]
+}

@@ -1,0 +1,1064 @@
+{
+  "id": "fifteenth-batch",
+  "reviewedAt": "2026-10-27",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/fifteenth-batch-release.md",
+  "previousCatalogSha256": "52ba4883d5e41b2aa56137b90cb9a3d643e9fe03943cb14c5a562a10fbf0ed14",
+  "items": [
+    {
+      "questionId": "camara14-cb1-01-q079",
+      "paperId": "source-camara14-cb1-01",
+      "number": 79,
+      "sourcePage": 9,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        142.799,
+        197.388
+      ],
+      "contextIds": [
+        "camara-orc-2014-cmo-definition",
+        "camara-orc-2014-mp-command"
+      ],
+      "answerKeyId": "camara14-cb1-01-q079-key-v1",
+      "answerDocumentId": "source-camara14-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-6-3",
+        "camara-2026-processo-legislativo-regimento-2-2"
+      ],
+      "justification": "Tramitação de MP e exceção do crédito extraordinário na Resolução 1/2002-CN."
+    },
+    {
+      "questionId": "camara14-cb1-01-q080",
+      "paperId": "source-camara14-cb1-01",
+      "number": 80,
+      "sourcePage": 9,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        214.019,
+        268.608
+      ],
+      "contextIds": [
+        "camara-orc-2014-mp-command"
+      ],
+      "answerKeyId": "camara14-cb1-01-q080-key-v1",
+      "answerDocumentId": "source-camara14-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-6-3"
+      ],
+      "justification": "Alternância entre Casas na comissão de medida provisória."
+    },
+    {
+      "questionId": "camara14-cb1-01-q081",
+      "paperId": "source-camara14-cb1-01",
+      "number": 81,
+      "sourcePage": 9,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        335.519,
+        403.548
+      ],
+      "contextIds": [
+        "camara-orc-2014-mp-cf-command"
+      ],
+      "answerKeyId": "camara14-cb1-01-q081-key-v1",
+      "answerDocumentId": "source-camara14-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-6-3"
+      ],
+      "justification": "Retorno de MP modificada pelo Senado à Câmara."
+    },
+    {
+      "questionId": "camara14-cb1-01-q082",
+      "paperId": "source-camara14-cb1-01",
+      "number": 82,
+      "sourcePage": 9,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        420,
+        489
+      ],
+      "contextIds": [
+        "camara-orc-2014-cmo-definition",
+        "camara-orc-2014-mp-cf-command"
+      ],
+      "answerKeyId": "camara14-cb1-01-q082-key-v1",
+      "answerDocumentId": "source-camara14-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-6-3"
+      ],
+      "justification": "Exceção da comissão orçamentária na apreciação de MP."
+    },
+    {
+      "questionId": "camara14-cb1-01-q083",
+      "paperId": "source-camara14-cb1-01",
+      "number": 83,
+      "sourcePage": 9,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        541.679,
+        569.388
+      ],
+      "contextIds": [
+        "camara-orc-2014-process-cf-command"
+      ],
+      "answerKeyId": "camara14-cb1-01-q083-key-v1",
+      "answerDocumentId": "source-camara14-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-2-1"
+      ],
+      "justification": "Limites materiais da lei delegada."
+    },
+    {
+      "questionId": "camara14-cb1-01-q084",
+      "paperId": "source-camara14-cb1-01",
+      "number": 84,
+      "sourcePage": 9,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        586.019,
+        640.608
+      ],
+      "contextIds": [
+        "camara-orc-2014-process-cf-command"
+      ],
+      "answerKeyId": "camara14-cb1-01-q084-key-v1",
+      "answerDocumentId": "source-camara14-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-2-4"
+      ],
+      "justification": "Irrepetibilidade da PEC rejeitada na mesma sessão legislativa."
+    },
+    {
+      "questionId": "camara14-cb1-01-q092",
+      "paperId": "source-camara14-cb1-01",
+      "number": 92,
+      "sourcePage": 10,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        604.619,
+        682.486
+      ],
+      "contextIds": [
+        "camara-orc-2014-ricd-command"
+      ],
+      "answerKeyId": "camara14-cb1-01-q092-key-v1",
+      "answerDocumentId": "source-camara14-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-7-4"
+      ],
+      "justification": "Competência administrativa e proposta orçamentária da Câmara."
+    },
+    {
+      "questionId": "camara14-cb1-01-q096",
+      "paperId": "source-camara14-cb1-01",
+      "number": 96,
+      "sourcePage": 10,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        385.139,
+        442.127
+      ],
+      "contextIds": [
+        "camara-orc-2014-cmo-definition",
+        "camara-orc-2014-rccn-command"
+      ],
+      "answerKeyId": "camara14-cb1-01-q096-key-v1",
+      "answerDocumentId": "source-camara14-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-8-2"
+      ],
+      "justification": "Deliberação da comissão orçamentária no recorte do RCCN."
+    },
+    {
+      "questionId": "camara14-cb1-01-q097",
+      "paperId": "source-camara14-cb1-01",
+      "number": 97,
+      "sourcePage": 10,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        465.599,
+        522.587
+      ],
+      "contextIds": [
+        "camara-orc-2014-rccn-command"
+      ],
+      "answerKeyId": "camara14-cb1-01-q097-key-v1",
+      "answerDocumentId": "source-camara14-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-6-1"
+      ],
+      "justification": "Turno de apreciação e cômputo separado dos votos no RCCN."
+    },
+    {
+      "questionId": "camara14-cb1-01-q098",
+      "paperId": "source-camara14-cb1-01",
+      "number": 98,
+      "sourcePage": 10,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        546.059,
+        603.047
+      ],
+      "contextIds": [
+        "camara-orc-2014-rccn-command"
+      ],
+      "answerKeyId": "camara14-cb1-01-q098-key-v1",
+      "answerDocumentId": "source-camara14-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-6-1"
+      ],
+      "justification": "Duração da sessão conjunta e conclusão de votação iniciada."
+    },
+    {
+      "questionId": "camara14-cb1-01-q099",
+      "paperId": "source-camara14-cb1-01",
+      "number": 99,
+      "sourcePage": 10,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        626.519,
+        702.227
+      ],
+      "contextIds": [
+        "camara-orc-2014-rccn-command"
+      ],
+      "answerKeyId": "camara14-cb1-01-q099-key-v1",
+      "answerDocumentId": "source-camara14-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-8-2"
+      ],
+      "justification": "Recebimento da mensagem do projeto orçamentário no RCCN."
+    },
+    {
+      "questionId": "camara14-001-01-q126",
+      "paperId": "source-camara14-001-01",
+      "number": 126,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        578.399,
+        610.187
+      ],
+      "contextIds": [
+        "camara-orc-2014-cycle-command"
+      ],
+      "answerKeyId": "camara14-001-01-q126-key-v1",
+      "answerDocumentId": "source-camara14-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-4-3"
+      ],
+      "justification": "Conteúdo da lei orçamentária anual."
+    },
+    {
+      "questionId": "camara14-001-01-q128",
+      "paperId": "source-camara14-001-01",
+      "number": 128,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        680.519,
+        696.827
+      ],
+      "contextIds": [
+        "camara-orc-2014-cycle-command"
+      ],
+      "answerKeyId": "camara14-001-01-q128-key-v1",
+      "answerDocumentId": "source-camara14-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-4-6"
+      ],
+      "justification": "Limites da LDO na elaboração da proposta orçamentária."
+    },
+    {
+      "questionId": "camara14-001-01-q129",
+      "paperId": "source-camara14-001-01",
+      "number": 129,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        716.099,
+        747.887
+      ],
+      "contextIds": [
+        "camara-orc-2014-cycle-command"
+      ],
+      "answerKeyId": "camara14-001-01-q129-key-v1",
+      "answerDocumentId": "source-camara14-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-4-4"
+      ],
+      "justification": "Distinção entre anexos da LDO na LRF."
+    },
+    {
+      "questionId": "camara14-001-01-q132",
+      "paperId": "source-camara14-001-01",
+      "number": 132,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        165.899,
+        190.368
+      ],
+      "contextIds": [
+        "camara-orc-2014-revenue-command"
+      ],
+      "answerKeyId": "camara14-001-01-q132-key-v1",
+      "answerDocumentId": "source-camara14-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-4-3"
+      ],
+      "justification": "Exclusão de emissão de papel-moeda das receitas da lei de orçamento."
+    },
+    {
+      "questionId": "camara14-001-01-q197",
+      "paperId": "source-camara14-001-01",
+      "number": 197,
+      "sourcePage": 7,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        679.079,
+        729.048
+      ],
+      "contextIds": [
+        "camara-orc-2014-control-command"
+      ],
+      "answerKeyId": "camara14-001-01-q197-key-v1",
+      "answerDocumentId": "source-camara14-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-3"
+      ],
+      "justification": "Procedimento constitucional para sustação de despesa."
+    },
+    {
+      "questionId": "camara14-001-01-q204",
+      "paperId": "source-camara14-001-01",
+      "number": 204,
+      "sourcePage": 7,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        652,
+        782
+      ],
+      "contextIds": [
+        "camara-orc-2014-agents-command"
+      ],
+      "answerKeyId": "camara14-001-01-q204-key-v1",
+      "answerDocumentId": "source-camara14-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-3-3"
+      ],
+      "justification": "Estágio probatório e movimentação para cargo de natureza especial."
+    },
+    {
+      "questionId": "108-tcutefc-001-01-q066",
+      "paperId": "source-108-tcutefc-001-01",
+      "number": 66,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        577.117,
+        602.757
+      ],
+      "contextIds": [
+        "tcu-tefc-2025-caio-passage",
+        "tcu-tefc-2025-caio-command"
+      ],
+      "answerKeyId": "108-tcutefc-001-01-q066-key-v1",
+      "answerDocumentId": "source-108-tcutefc-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-6-3"
+      ],
+      "justification": "Responsabilidade civil por omissão estatal."
+    },
+    {
+      "questionId": "108-tcutefc-001-01-q069",
+      "paperId": "source-108-tcutefc-001-01",
+      "number": 69,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        722.797,
+        748.437
+      ],
+      "contextIds": [
+        "tcu-tefc-2025-caio-passage",
+        "tcu-tefc-2025-caio-command"
+      ],
+      "answerKeyId": "108-tcutefc-001-01-q069-key-v1",
+      "answerDocumentId": "source-108-tcutefc-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-6-4"
+      ],
+      "justification": "Demonstração do dano na responsabilidade por omissão."
+    },
+    {
+      "questionId": "108-tcutefc-001-01-q087",
+      "paperId": "source-108-tcutefc-001-01",
+      "number": 87,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        223.117,
+        258.596
+      ],
+      "contextIds": [
+        "tcu-tefc-2025-fiscal-command"
+      ],
+      "answerKeyId": "108-tcutefc-001-01-q087-key-v1",
+      "answerDocumentId": "source-108-tcutefc-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-10-5"
+      ],
+      "justification": "Atuação do preposto na execução contratual."
+    },
+    {
+      "questionId": "108-tcutefc-001-01-q088",
+      "paperId": "source-108-tcutefc-001-01",
+      "number": 88,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        272.197,
+        307.556
+      ],
+      "contextIds": [
+        "tcu-tefc-2025-fiscal-command"
+      ],
+      "answerKeyId": "108-tcutefc-001-01-q088-key-v1",
+      "answerDocumentId": "source-108-tcutefc-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-10-6"
+      ],
+      "justification": "Informações necessárias ao fiscal de contrato."
+    },
+    {
+      "questionId": "108-tcutefc-001-01-q095",
+      "paperId": "source-108-tcutefc-001-01",
+      "number": 95,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        78.157,
+        114.597
+      ],
+      "contextIds": [
+        "tcu-tefc-2025-budget-command"
+      ],
+      "answerKeyId": "108-tcutefc-001-01-q095-key-v1",
+      "answerDocumentId": "source-108-tcutefc-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-4-7"
+      ],
+      "justification": "Liquidação como etapa da execução da despesa."
+    },
+    {
+      "questionId": "108-tcutefc-001-01-q096",
+      "paperId": "source-108-tcutefc-001-01",
+      "number": 96,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        128.557,
+        164.877
+      ],
+      "contextIds": [
+        "tcu-tefc-2025-budget-command"
+      ],
+      "answerKeyId": "108-tcutefc-001-01-q096-key-v1",
+      "answerDocumentId": "source-108-tcutefc-001-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-processo-legislativo-regimento-4-7"
+      ],
+      "justification": "Momento do empenho e distinção da reserva orçamentária."
+    },
+    {
+      "questionId": "803-tj-es-006-01-q067",
+      "paperId": "source-803-tj-es-006-01",
+      "number": 67,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        375.757,
+        388.077
+      ],
+      "contextIds": [
+        "tjes-2023-opinion-command"
+      ],
+      "answerKeyId": "803-tj-es-006-01-q067-key-v1",
+      "answerDocumentId": "source-803-tj-es-006-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-3-3"
+      ],
+      "justification": "Seleção do público na pesquisa de opinião."
+    },
+    {
+      "questionId": "803-tj-es-006-01-q072",
+      "paperId": "source-803-tj-es-006-01",
+      "number": 72,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        625.477,
+        662.157
+      ],
+      "contextIds": [
+        "tjes-2023-planning-command"
+      ],
+      "answerKeyId": "803-tj-es-006-01-q072-key-v1",
+      "answerDocumentId": "source-803-tj-es-006-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-4-8"
+      ],
+      "justification": "Materialização do planejamento em planos e ações."
+    },
+    {
+      "questionId": "803-tj-es-006-01-q099",
+      "paperId": "source-803-tj-es-006-01",
+      "number": 99,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        497.077,
+        511.556
+      ],
+      "contextIds": [
+        "tjes-2023-agents-command"
+      ],
+      "answerKeyId": "803-tj-es-006-01-q099-key-v1",
+      "answerDocumentId": "source-803-tj-es-006-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-3-1"
+      ],
+      "justification": "Acesso constitucional aos cargos, empregos e funções públicas."
+    },
+    {
+      "questionId": "803-tj-es-006-01-q100",
+      "paperId": "source-803-tj-es-006-01",
+      "number": 100,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        527.677,
+        542.156
+      ],
+      "contextIds": [
+        "tjes-2023-agents-command"
+      ],
+      "answerKeyId": "803-tj-es-006-01-q100-key-v1",
+      "answerDocumentId": "source-803-tj-es-006-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-3-1"
+      ],
+      "justification": "Finalidade das funções de confiança e cargos em comissão."
+    },
+    {
+      "questionId": "803-tj-es-006-01-q101",
+      "paperId": "source-803-tj-es-006-01",
+      "number": 101,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        558.277,
+        572.756
+      ],
+      "contextIds": [
+        "tjes-2023-agents-command"
+      ],
+      "answerKeyId": "803-tj-es-006-01-q101-key-v1",
+      "answerDocumentId": "source-803-tj-es-006-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-5-2"
+      ],
+      "justification": "Excesso de competência e desvio de finalidade como abuso de poder."
+    },
+    {
+      "questionId": "803-tj-es-006-01-q103",
+      "paperId": "source-803-tj-es-006-01",
+      "number": 103,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        656.437,
+        670.916
+      ],
+      "contextIds": [
+        "tjes-2023-contract-command"
+      ],
+      "answerKeyId": "803-tj-es-006-01-q103-key-v1",
+      "answerDocumentId": "source-803-tj-es-006-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-10-4"
+      ],
+      "justification": "Admissão de forma eletrônica dos contratos administrativos."
+    },
+    {
+      "questionId": "893-dataprev-005-01-q104",
+      "paperId": "source-893-dataprev-005-01",
+      "number": 104,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        745.237,
+        788.876
+      ],
+      "contextIds": [
+        "dataprev-2023-clipping-command"
+      ],
+      "answerKeyId": "893-dataprev-005-01-q104-key-v1",
+      "answerDocumentId": "source-893-dataprev-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-3-4"
+      ],
+      "justification": "Limites da contagem de exposição na avaliação da imagem."
+    },
+    {
+      "questionId": "893-dataprev-005-01-q107",
+      "paperId": "source-893-dataprev-005-01",
+      "number": 107,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        226.717,
+        283.196
+      ],
+      "contextIds": [
+        "dataprev-2023-social-command"
+      ],
+      "answerKeyId": "893-dataprev-005-01-q107-key-v1",
+      "answerDocumentId": "source-893-dataprev-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-5-3"
+      ],
+      "justification": "Diferenças entre plataformas e adequação do conteúdo."
+    },
+    {
+      "questionId": "893-dataprev-005-01-q108",
+      "paperId": "source-893-dataprev-005-01",
+      "number": 108,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        296.317,
+        330.236
+      ],
+      "contextIds": [
+        "dataprev-2023-social-command"
+      ],
+      "answerKeyId": "893-dataprev-005-01-q108-key-v1",
+      "answerDocumentId": "source-893-dataprev-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-5-3"
+      ],
+      "justification": "Stories como formato de acompanhamento e proximidade."
+    },
+    {
+      "questionId": "893-dataprev-005-01-q109",
+      "paperId": "source-893-dataprev-005-01",
+      "number": 109,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        343.357,
+        388.556
+      ],
+      "contextIds": [
+        "dataprev-2023-social-command"
+      ],
+      "answerKeyId": "893-dataprev-005-01-q109-key-v1",
+      "answerDocumentId": "source-893-dataprev-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-5-1"
+      ],
+      "justification": "Segmentação de público na distribuição de conteúdo em redes."
+    },
+    {
+      "questionId": "893-dataprev-005-01-q110",
+      "paperId": "source-893-dataprev-005-01",
+      "number": 110,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        401.677,
+        446.876
+      ],
+      "contextIds": [
+        "dataprev-2023-social-command"
+      ],
+      "answerKeyId": "893-dataprev-005-01-q110-key-v1",
+      "answerDocumentId": "source-893-dataprev-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-5-1"
+      ],
+      "justification": "Mídia paga e objetivos de alcance na estratégia de redes."
+    },
+    {
+      "questionId": "893-dataprev-005-01-q114",
+      "paperId": "source-893-dataprev-005-01",
+      "number": 114,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        632.077,
+        665.996
+      ],
+      "contextIds": [
+        "dataprev-2023-planning-command"
+      ],
+      "answerKeyId": "893-dataprev-005-01-q114-key-v1",
+      "answerDocumentId": "source-893-dataprev-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-4-8"
+      ],
+      "justification": "Cronograma no planejamento operacional de comunicação."
+    },
+    {
+      "questionId": "038-anm-005-01-q063",
+      "paperId": "source-038-anm-005-01",
+      "number": 63,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        119.5,
+        196.7
+      ],
+      "contextIds": [
+        "anm-005-2025-state-liability-command"
+      ],
+      "answerKeyId": "038-anm-005-01-q063-key-v1",
+      "answerDocumentId": "source-038-anm-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-6-1",
+        "camara-2026-direito-administrativo-administracao-publica-6-2"
+      ],
+      "justification": "Responsabilidade civil estatal por operação de segurança pública e risco administrativo."
+    },
+    {
+      "questionId": "038-anm-024-01-q073",
+      "paperId": "source-038-anm-024-01",
+      "number": 73,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        694.717,
+        721.317
+      ],
+      "contextIds": [
+        "anm-024-2025-contract-law-command"
+      ],
+      "answerKeyId": "038-anm-024-01-q073-key-v1",
+      "answerDocumentId": "source-038-anm-024-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-10-7"
+      ],
+      "justification": "ETP na prorrogação de contratos contínuos no âmbito da IN SEGES 58."
+    }
+  ],
+  "contexts": [
+    {
+      "contextId": "camara-orc-2014-mp-command",
+      "paperId": "source-camara14-cb1-01",
+      "sourcePage": 9,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        50,
+        65
+      ]
+    },
+    {
+      "contextId": "camara-orc-2014-mp-cf-command",
+      "paperId": "source-camara14-cb1-01",
+      "sourcePage": 9,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        287,
+        315
+      ]
+    },
+    {
+      "contextId": "camara-orc-2014-process-cf-command",
+      "paperId": "source-camara14-cb1-01",
+      "sourcePage": 9,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        507,
+        522
+      ]
+    },
+    {
+      "contextId": "camara-orc-2014-ricd-command",
+      "paperId": "source-camara14-cb1-01",
+      "sourcePage": 10,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        249,
+        269
+      ]
+    },
+    {
+      "contextId": "camara-orc-2014-rccn-command",
+      "paperId": "source-camara14-cb1-01",
+      "sourcePage": 10,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        337,
+        357
+      ]
+    },
+    {
+      "contextId": "camara-orc-2014-cmo-definition",
+      "paperId": "source-camara14-cb1-01",
+      "sourcePage": 9,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        71,
+        106
+      ]
+    },
+    {
+      "contextId": "camara-orc-2014-cycle-command",
+      "paperId": "source-camara14-001-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        538,
+        555
+      ]
+    },
+    {
+      "contextId": "camara-orc-2014-revenue-command",
+      "paperId": "source-camara14-001-01",
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        50,
+        52
+      ]
+    },
+    {
+      "contextId": "camara-orc-2014-control-command",
+      "paperId": "source-camara14-001-01",
+      "sourcePage": 7,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        496,
+        530
+      ]
+    },
+    {
+      "contextId": "camara-orc-2014-agents-command",
+      "paperId": "source-camara14-001-01",
+      "sourcePage": 7,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        239,
+        277
+      ]
+    },
+    {
+      "contextId": "tcu-tefc-2025-caio-passage",
+      "paperId": "source-108-tcutefc-001-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        483,
+        547
+      ]
+    },
+    {
+      "contextId": "tcu-tefc-2025-caio-command",
+      "paperId": "source-108-tcutefc-001-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        562,
+        564
+      ]
+    },
+    {
+      "contextId": "tcu-tefc-2025-fiscal-command",
+      "paperId": "source-108-tcutefc-001-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        196,
+        210
+      ]
+    },
+    {
+      "contextId": "tcu-tefc-2025-budget-command",
+      "paperId": "source-108-tcutefc-001-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        51,
+        64
+      ]
+    },
+    {
+      "contextId": "tjes-2023-opinion-command",
+      "paperId": "source-803-tj-es-006-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        348,
+        362
+      ]
+    },
+    {
+      "contextId": "tjes-2023-planning-command",
+      "paperId": "source-803-tj-es-006-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        547,
+        561
+      ]
+    },
+    {
+      "contextId": "tjes-2023-agents-command",
+      "paperId": "source-803-tj-es-006-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        465,
+        481
+      ]
+    },
+    {
+      "contextId": "tjes-2023-contract-command",
+      "paperId": "source-803-tj-es-006-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        624,
+        641
+      ]
+    },
+    {
+      "contextId": "dataprev-2023-clipping-command",
+      "paperId": "source-893-dataprev-005-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        551,
+        564
+      ]
+    },
+    {
+      "contextId": "dataprev-2023-social-command",
+      "paperId": "source-893-dataprev-005-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        201,
+        214
+      ]
+    },
+    {
+      "contextId": "dataprev-2023-planning-command",
+      "paperId": "source-893-dataprev-005-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        460,
+        486
+      ]
+    },
+    {
+      "contextId": "anm-005-2025-state-liability-command",
+      "paperId": "source-038-anm-005-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        70,
+        102
+      ]
+    },
+    {
+      "contextId": "anm-024-2025-contract-law-command",
+      "paperId": "source-038-anm-024-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        446.677,
+        473.157
+      ],
+      "paragraphs": false
+    }
+  ]
+}

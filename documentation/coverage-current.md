@@ -1,12 +1,12 @@
 # Mapa atual do banco de questões
 
-Última revisão: 2026-10-26; lote `fourteenth-batch`. São 302 questões e 307 vínculos; **142/228 itens com vínculo direto**, 31 atendidos só por descendentes e 54 sem questões na subárvore (53 folhas). O título amplo Ciência Política 1 permanece separado.
+Última revisão: 2026-10-27; lote `fifteenth-batch`. São 339 questões e 346 vínculos; **165/228 itens com vínculo direto**, 32 atendidos só por descendentes e 30 sem questões na subárvore (30 folhas). O título amplo Ciência Política 1 permanece separado.
 
-C/E: P1 **140**, P2 **147**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
+C/E: P1 **154**, P2 **170**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
 
 Direto significa vínculo ao item exato; subárvore reúne o próprio item e seus descendentes, sem duplicar IDs. Vínculos de pais não são distribuídos aos filhos. Prioridades editoriais: A sem C/E, B com 1–2 C/E, C com 3 ou mais. Pais e filhos se sobrepõem; as contagens não são pesos oficiais.
 
-[Entrega do 14º lote](fourteenth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)
+[Entrega do 15º lote](fifteenth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)
 
 ## Disciplinas
 
@@ -14,20 +14,20 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | --- | ---: | ---: | ---: | ---: |
 | Língua Portuguesa | 13/20 | 36 | 0 | 4 |
 | Língua Inglesa | 3/3 | 19 | 0 | 0 |
-| Noções de Direito Administrativo e Administração Pública | 21/46 | 35 | 0 | 17 |
-| Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados | 8/14 | 18 | 1 | 4 |
+| Noções de Direito Administrativo e Administração Pública | 30/46 | 46 | 0 | 8 |
+| Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados | 10/14 | 21 | 1 | 2 |
 | Tecnologia da Informação e Dados | 16/20 | 32 | 0 | 1 |
-| Comunicação Social | 32/45 | 49 | 5 | 8 |
-| Divulgação Institucional | 28/40 | 46 | 0 | 6 |
-| Processo Legislativo e Regimento Interno | 13/27 | 17 | 8 | 9 |
+| Comunicação Social | 34/45 | 55 | 5 | 6 |
+| Divulgação Institucional | 30/40 | 48 | 0 | 4 |
+| Processo Legislativo e Regimento Interno | 21/27 | 32 | 8 | 1 |
 | Ciência Política | 8/13 | 36 | 2 | 4 |
 
 ## Prioridades seguintes
 
 1. Prompts e IA generativa foram iniciados com itens válidos da ANM/TRT10. Power BI 8.3 tem uma amostra distinta válida do TRT10; ampliar gráficos, ferramentas e storytelling 8.4. Itens anulados do STJ/ANM continuam excluídos.
-2. Regimento Comum e resoluções 1/1970, 3/1990 e 1/2002: quatro amostras de múltipla escolha no treino; ainda faltam C/E e vínculos com os recortes de Constitucional 8–8.2.
-3. Redes sociais têm conceitos e participação do público, mas planejamento, postagens/colaborações e elementos de publicação (5.1/5.2/5.4) seguem sem questões diretas. Política e manuais da Câmara (8.1/8.2/10.1) têm links de leitura, sem vínculo artificial de questões.
-4. Expandir responsabilidade civil, governança, poderes e ética publicitária: os primeiros vínculos são amostras pequenas.
+2. Regimento Comum tem agora C/E em Constitucional 8.2 e Processo 6.1/6.3, além de três MC preservadas. Ainda faltam C/E em Constitucional 8.1 (Título I) e Processo 6.2 (Resolução 3/1990).
+3. Planejamento de redes (5.1) foi iniciado com segmentação e mídia paga; ainda faltam questões diretas em postagens/colaborações e elementos de publicação (5.2/5.4). Política e manuais da Câmara (8.1/8.2/10.1) têm links de leitura, sem vínculo artificial de questões.
+4. Expandir governança pública em redes, contratos, responsabilidade civil e orçamento: os novos vínculos são amostras pequenas e não esgotam os subitens.
 5. Gramática e uso do Inglês (2/3), lacunas específicas de Português, pesquisa de mercado/opinião/imagem e formação política brasileira.
 
 ## Inventário completo
@@ -75,24 +75,24 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 2 | Ato administrativo. | 0 | 0 | 2 | 0 | Só descendentes | B |
 | 2.1 | Conceito, requisitos, atributos, classificação e espécies, extinção, nulidades e revogação. | 2 | 0 | 2 | 0 | Direto | B |
 | 2.2 | Parecer: responsabilidade do emissor do parecer. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 3 | Agentes públicos. | 0 | 0 | 2 | 0 | Só descendentes | B |
-| 3.1 | Disposições constitucionais aplicáveis. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 3 | Agentes públicos. | 0 | 0 | 5 | 0 | Só descendentes | C |
+| 3.1 | Disposições constitucionais aplicáveis. | 2 | 0 | 2 | 0 | Direto | B |
 | 3.2 | Cargo, emprego e função pública. | 1 | 0 | 1 | 0 | Direto | B |
-| 3.3 | Requisição. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 3.3 | Requisição. | 1 | 0 | 1 | 0 | Direto | B |
 | 3.4 | Regime jurídico dos servidores públicos federais (Lei 8.112/1990 e suas alterações). | 1 | 0 | 1 | 0 | Direto | B |
 | 4 | Direito administrativo disciplinar. | 0 | 0 | 3 | 0 | Só descendentes | C |
 | 4.1 | Fontes e princípios. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 4.2 | Ilícito de direito administrativo disciplinar. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 4.3 | Procedimentos disciplinares da administração pública. | 1 | 0 | 1 | 0 | Direto | B |
 | 4.4 | Processo Administrativo Federal (Lei nº 9.784/1999 e suas alterações). | 2 | 0 | 2 | 0 | Direto | B |
-| 5 | Poderes administrativos. | 0 | 0 | 1 | 0 | Só descendentes | B |
+| 5 | Poderes administrativos. | 0 | 0 | 2 | 0 | Só descendentes | B |
 | 5.1 | Discricionário, hierárquico, disciplinar, regulamentar e de polícia. | 1 | 0 | 1 | 0 | Direto | B |
-| 5.2 | Uso e abuso do poder. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 6 | Responsabilidade civil do Estado. | 0 | 0 | 1 | 0 | Só descendentes | B |
-| 6.1 | Responsabilidade civil do Estado no direito brasileiro. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 6.2 | Responsabilidade por ato comissivo do Estado. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 6.3 | Responsabilidade por omissão do Estado. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 6.4 | Requisitos para a demonstração da responsabilidade do Estado. | 1 | 0 | 1 | 0 | Direto | B |
+| 5.2 | Uso e abuso do poder. | 1 | 0 | 1 | 0 | Direto | B |
+| 6 | Responsabilidade civil do Estado. | 0 | 0 | 4 | 0 | Só descendentes | C |
+| 6.1 | Responsabilidade civil do Estado no direito brasileiro. | 1 | 0 | 1 | 0 | Direto | B |
+| 6.2 | Responsabilidade por ato comissivo do Estado. | 1 | 0 | 1 | 0 | Direto | B |
+| 6.3 | Responsabilidade por omissão do Estado. | 1 | 0 | 1 | 0 | Direto | B |
+| 6.4 | Requisitos para a demonstração da responsabilidade do Estado. | 2 | 0 | 2 | 0 | Direto | B |
 | 6.5 | Causas excludentes e atenuantes da responsabilidade do Estado. | 1 | 0 | 1 | 0 | Direto | B |
 | 7 | Improbidade Administrativa (Lei nº 8.429/1992 e suas alterações). | 4 | 0 | 4 | 0 | Direto | C |
 | 8 | Evolução dos modelos de gestão pública: patrimonialismo, administração burocrática e nova gestão pública (New Public Management). | 2 | 0 | 4 | 0 | Direto | C |
@@ -105,14 +105,14 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 9.2 | Mecanismos de governança: liderança, estratégia e controle. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 9.3 | Conceito de valor público: geração de valor para a sociedade, entrega de resultados, sustentabilidade e avaliação de impactos de políticas públicas. | 1 | 0 | 1 | 0 | Direto | B |
 | 9.4 | Decreto Federal nº 9.203/2017 e suas alterações (política de governança da administração pública federal direta, autárquica e fundacional). | 0 | 0 | 0 | 0 | Sem questões | A |
-| 10 | Noções de Licitações e Contratos (Lei nº 14.133/2021 e suas alterações). | 0 | 0 | 6 | 0 | Só descendentes | C |
+| 10 | Noções de Licitações e Contratos (Lei nº 14.133/2021 e suas alterações). | 0 | 0 | 10 | 0 | Só descendentes | C |
 | 10.1 | Licitação Pública: conceito, princípios, finalidade do procedimento licitatório, modalidades, dispensa e inexigibilidade de licitação. | 3 | 0 | 3 | 0 | Direto | C |
 | 10.2 | Contratos administrativos. | 1 | 0 | 1 | 0 | Direto | B |
 | 10.3 | Características do contrato administrativo. | 1 | 0 | 1 | 0 | Direto | B |
-| 10.4 | Formalização, gestão e fiscalização do contrato. | 1 | 0 | 1 | 0 | Direto | B |
-| 10.5 | Planejamento e fiscalização contratual. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 10.6 | Papel do fiscalizador do contrato. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 10.7 | Estudo Técnico Preliminar e Termo de Referência. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 10.4 | Formalização, gestão e fiscalização do contrato. | 2 | 0 | 2 | 0 | Direto | B |
+| 10.5 | Planejamento e fiscalização contratual. | 1 | 0 | 1 | 0 | Direto | B |
+| 10.6 | Papel do fiscalizador do contrato. | 1 | 0 | 1 | 0 | Direto | B |
+| 10.7 | Estudo Técnico Preliminar e Termo de Referência. | 1 | 0 | 1 | 0 | Direto | B |
 | 11 | Lei de Acesso à Informação (Lei nº 12.527/2011 e suas alterações). | 3 | 0 | 3 | 0 | Direto | C |
 | 12 | Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 e suas alterações). | 3 | 0 | 3 | 0 | Direto | C |
 
@@ -126,14 +126,14 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 4 | Administração pública: disposições gerais, servidores públicos civis e militares. | 4 | 0 | 4 | 0 | Direto | C |
 | 5 | Poder Legislativo: o Congresso Nacional e suas Casas (atribuições, competências, reuniões e comissões). | 2 | 0 | 2 | 0 | Direto | B |
 | 6 | Regime jurídico-constitucional dos parlamentares. | 2 | 0 | 2 | 0 | Direto | B |
-| 7 | Regimento Interno da Câmara dos Deputados | 0 | 0 | 2 | 1 | Só descendentes | B |
+| 7 | Regimento Interno da Câmara dos Deputados | 0 | 0 | 3 | 1 | Só descendentes | C |
 | 7.1 | Disposições preliminares e Órgãos da Câmara (arts. 1º a 24 e suas alterações). | 2 | 0 | 2 | 0 | Direto | B |
 | 7.2 | Sessões da Câmara (arts. 65 a 94 e suas alterações). | 0 | 1 | 0 | 1 | Direto | A |
 | 7.3 | Deputados (arts. 226 a 251 e suas alterações). | 0 | 0 | 0 | 0 | Sem questões | A |
-| 7.4 | Administração e economia interna (arts. 262 a 273 e suas alterações). | 0 | 0 | 0 | 0 | Sem questões | A |
-| 8 | Regimento Comum do Congresso Nacional. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 7.4 | Administração e economia interna (arts. 262 a 273 e suas alterações). | 1 | 0 | 1 | 0 | Direto | B |
+| 8 | Regimento Comum do Congresso Nacional. | 0 | 0 | 2 | 0 | Só descendentes | B |
 | 8.1 | Título I. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 8.2 | Título IV, Capítulo II e Capítulo III (até art. 103). | 0 | 0 | 0 | 0 | Sem questões | A |
+| 8.2 | Título IV, Capítulo II e Capítulo III (até art. 103). | 2 | 0 | 2 | 0 | Direto | B |
 
 ### Tecnologia da Informação e Dados
 
@@ -180,7 +180,7 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 3.2 | Gestão da imagem, identidade e reputação corporativa/institucional. | 1 | 0 | 1 | 0 | Direto | B |
 | 3.3 | Gerenciamento de crises. | 0 | 1 | 0 | 1 | Direto | A |
 | 3.4 | Técnicas e ferramentas de gerenciamento de crises. | 4 | 0 | 4 | 0 | Direto | C |
-| 4 | Comunicação organizacional. | 0 | 0 | 10 | 1 | Só descendentes | C |
+| 4 | Comunicação organizacional. | 0 | 0 | 12 | 1 | Só descendentes | C |
 | 4.1 | Conceito, objetivos e dimensões da comunicação organizacional. | 1 | 0 | 1 | 0 | Direto | B |
 | 4.2 | O composto da comunicação integrada (comunicação institucional, mercadológica, interna e administrativa). | 0 | 1 | 0 | 1 | Direto | A |
 | 4.3 | Planejamento estratégico de comunicação. | 3 | 0 | 3 | 0 | Direto | C |
@@ -188,12 +188,12 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 4.5 | Comunicação formal e informal nas organizações. | 1 | 0 | 1 | 0 | Direto | B |
 | 4.6 | Definição de públicos-alvo: pesquisa, segmentação, canais de interação. | 2 | 0 | 2 | 0 | Direto | B |
 | 4.7 | Definição de indicadores de resultados em comunicação. | 1 | 0 | 1 | 0 | Direto | B |
-| 4.8 | Plano de comunicação. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 4.8 | Plano de comunicação. | 2 | 0 | 2 | 0 | Direto | B |
 | 4.9 | Gestão de projetos de comunicação. | 1 | 0 | 1 | 0 | Direto | B |
-| 5 | Redes sociais digitais oficiais. | 2 | 0 | 3 | 0 | Direto | C |
-| 5.1 | Planejamento e produção de conteúdo. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 5 | Redes sociais digitais oficiais. | 2 | 0 | 7 | 0 | Direto | C |
+| 5.1 | Planejamento e produção de conteúdo. | 2 | 0 | 2 | 0 | Direto | B |
 | 5.2 | Postagens e colaborações. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 5.3 | Características das principais plataformas de mídias sociais: diferenças de públicos, linguagem, formatos (4:5, 3:4, 9:16) e conteúdos (cards, carrossel, vídeos, stories, lives). | 1 | 0 | 1 | 0 | Direto | B |
+| 5.3 | Características das principais plataformas de mídias sociais: diferenças de públicos, linguagem, formatos (4:5, 3:4, 9:16) e conteúdos (cards, carrossel, vídeos, stories, lives). | 3 | 0 | 3 | 0 | Direto | C |
 | 5.4 | Elementos fundamentais de publicações em redes sociais: capa, legenda, marcação, palavras-chave, call to action. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 6 | Transparência pública. | 1 | 0 | 1 | 0 | Direto | B |
 | 7 | Comunicação Pública. | 0 | 0 | 5 | 2 | Só descendentes | C |
@@ -230,11 +230,11 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 2.5 | Segmentação. | 1 | 0 | 1 | 0 | Direto | B |
 | 2.6 | Marketing digital. | 1 | 0 | 1 | 0 | Direto | B |
 | 2.7 | Comportamento do consumidor. | 2 | 0 | 2 | 0 | Direto | B |
-| 3 | Pesquisa Aplicada à Comunicação. | 0 | 0 | 6 | 0 | Só descendentes | C |
+| 3 | Pesquisa Aplicada à Comunicação. | 0 | 0 | 8 | 0 | Só descendentes | C |
 | 3.1 | Pesquisas qualitativas e quantitativas. | 3 | 0 | 3 | 0 | Direto | C |
 | 3.2 | Pesquisa de mercado. | 1 | 0 | 1 | 0 | Direto | B |
-| 3.3 | Pesquisa de opinião pública. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 3.4 | Pesquisa de imagem. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 3.3 | Pesquisa de opinião pública. | 1 | 0 | 1 | 0 | Direto | B |
+| 3.4 | Pesquisa de imagem. | 1 | 0 | 1 | 0 | Direto | B |
 | 3.5 | Pesquisa de mídia. | 1 | 0 | 1 | 0 | Direto | B |
 | 3.6 | Métricas de avaliação na publicidade digital. | 1 | 0 | 1 | 0 | Direto | B |
 | 4 | Marca e Branding. | 0 | 0 | 2 | 0 | Só descendentes | B |
@@ -263,28 +263,28 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 1.1 | Tipos de procedimento, ordinário, abreviado, sumário, sumaríssimo, especial e concentrado. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 1.2 | Etapas e noções básicas. | 1 | 0 | 1 | 0 | Direto | B |
 | 1.3 | Comissões, pareceres, deliberação, votação, sanção e veto. | 3 | 0 | 3 | 0 | Direto | C |
-| 2 | Matérias Legislativas. | 0 | 0 | 0 | 3 | Só descendentes | A |
-| 2.1 | Projeto de lei ordinária, complementar e delegada. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 2.2 | Medida provisória. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 2 | Matérias Legislativas. | 0 | 0 | 3 | 3 | Só descendentes | C |
+| 2.1 | Projeto de lei ordinária, complementar e delegada. | 1 | 0 | 1 | 0 | Direto | B |
+| 2.2 | Medida provisória. | 1 | 0 | 1 | 0 | Direto | B |
 | 2.3 | Projeto de decreto legislativo e projeto de resolução. | 0 | 1 | 0 | 1 | Direto | A |
-| 2.4 | Proposta de Emenda à Constituição (PEC). | 0 | 0 | 0 | 0 | Sem questões | A |
+| 2.4 | Proposta de Emenda à Constituição (PEC). | 1 | 0 | 1 | 0 | Direto | B |
 | 2.5 | Indicações, pareceres, requerimentos e vetos. | 0 | 1 | 0 | 1 | Direto | A |
 | 2.6 | Iniciativa Legislativa: Presidência da República, Congresso Nacional, tribunais e cidadãos. | 0 | 1 | 0 | 1 | Direto | A |
-| 3 | Fiscalização Contábil, Financeira e Orçamentária. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 4 | Processo Legislativo Orçamentário. | 0 | 0 | 3 | 0 | Só descendentes | C |
+| 3 | Fiscalização Contábil, Financeira e Orçamentária. | 1 | 0 | 1 | 0 | Direto | B |
+| 4 | Processo Legislativo Orçamentário. | 0 | 0 | 9 | 0 | Só descendentes | C |
 | 4.1 | Plano Plurianual (PPA). | 1 | 0 | 1 | 0 | Direto | B |
 | 4.2 | Lei de Diretrizes Orçamentárias (LDO). | 1 | 0 | 1 | 0 | Direto | B |
-| 4.3 | Lei Orçamentária Anual (LOA). | 0 | 0 | 0 | 0 | Sem questões | A |
-| 4.4 | As interfaces entre LDO, LOA, Lei nº 4.320/1964 e suas alterações e Lei Complementar nº 101/2000 e suas alterações (Lei de Responsabilidade Fiscal). | 0 | 0 | 0 | 0 | Sem questões | A |
+| 4.3 | Lei Orçamentária Anual (LOA). | 2 | 0 | 2 | 0 | Direto | B |
+| 4.4 | As interfaces entre LDO, LOA, Lei nº 4.320/1964 e suas alterações e Lei Complementar nº 101/2000 e suas alterações (Lei de Responsabilidade Fiscal). | 1 | 0 | 1 | 0 | Direto | B |
 | 4.5 | Elaboração e aprovação das leis de matéria orçamentária. | 1 | 0 | 1 | 0 | Direto | B |
-| 4.6 | Proposta orçamentária e sua integração com PPA e LDO. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 4.7 | Execução financeira e créditos. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 4.6 | Proposta orçamentária e sua integração com PPA e LDO. | 1 | 0 | 1 | 0 | Direto | B |
+| 4.7 | Execução financeira e créditos. | 2 | 0 | 2 | 0 | Direto | B |
 | 5 | Regimento Interno da Câmara dos Deputados. | 0 | 0 | 5 | 2 | Só descendentes | C |
 | 5.1 | Resolução nº 17/1989 – CD e suas alterações. | 5 | 2 | 5 | 2 | Direto | C |
-| 6 | Regimento Comum do Congresso Nacional. | 0 | 0 | 0 | 3 | Só descendentes | A |
-| 6.1 | Resolução nº 1/1970 – CN e suas alterações. | 0 | 1 | 0 | 1 | Direto | A |
+| 6 | Regimento Comum do Congresso Nacional. | 0 | 0 | 6 | 3 | Só descendentes | C |
+| 6.1 | Resolução nº 1/1970 – CN e suas alterações. | 2 | 1 | 2 | 1 | Direto | B |
 | 6.2 | Resolução nº 3/1990 – CN. | 0 | 1 | 0 | 1 | Direto | A |
-| 6.3 | Resolução nº 1/2002 – CN. | 0 | 1 | 0 | 1 | Direto | A |
+| 6.3 | Resolução nº 1/2002 – CN. | 4 | 1 | 4 | 1 | Direto | C |
 | 7 | Código de Ética e Decoro Parlamentar da Câmara dos Deputados. | 5 | 0 | 5 | 0 | Direto | C |
 
 ### Ciência Política

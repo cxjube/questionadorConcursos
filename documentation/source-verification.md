@@ -1,5 +1,7 @@
 # Conferência das fontes oficiais — 23/10/2026
 
+> Atualização do [15º lote](fifteenth-batch-release.md): 114 fontes (81 PDFs e 33 HTML), 35 pares, 2.366 números e 112 anulados no inventário. Novos PDFs comparados por download independente; quatro normas com novas consultas de 27/10 e Lei 14.133 consultada na evidência retida de 26/10 após timeout. Os números abaixo mantêm o histórico de cada rodada.
+
 > Atualização do [14º lote](fourteenth-batch-release.md): 98 fontes (69 PDFs e 29 HTML), 29 pares completos, 1.866 números e 87 anulações. Quatro novos pares oficiais, uma compilação normativa do Congresso e duas referências técnicas. Os oito PDFs de prova/chave e o PDF normativo tiveram download repetido com igualdade de bytes; HTML conserva o download inicial. Os registros abaixo permanecem históricos.
 
 > Atualização do [13º lote](thirteenth-batch-release.md): 87 fontes canônicas (60 PDFs e 27 HTML), 25 pares completos, 1.556 números e 74 anulações. Os dois novos pares STM/CPNUJE foram baixados novamente com igualdade de bytes; o manifesto conserva listagens e hashes. A chave definitiva do STJ CB2 é evidência separada de exclusão por anulação, sem ampliar o banco elegível.

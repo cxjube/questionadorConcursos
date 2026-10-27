@@ -178,16 +178,16 @@ def current_artifacts(catalog, review):
              'Direto significa vínculo ao item exato; subárvore reúne o próprio item e seus descendentes, sem duplicar IDs. '
              'Vínculos de pais não são distribuídos aos filhos. Prioridades editoriais: A sem C/E, B com 1–2 C/E, C com 3 ou mais. '
              'Pais e filhos se sobrepõem; as contagens não são pesos oficiais.', '',
-             '[Entrega do 14º lote](fourteenth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)', '',
+             '[Entrega do 15º lote](fifteenth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)', '',
              '## Disciplinas', '', '| Disciplina | Direto / programa | C/E distintos | MC distintos | Folhas vazias |',
              '| --- | ---: | ---: | ---: | ---: |']
     for d in report['disciplines']:
         lines.append(f"| {d['label']} | {d['directItems']}/{d['totalItems']} | {d['questionsCE']} | {d['questionsMC']} | {d['emptyLeaves']} |")
     lines += ['', '## Prioridades seguintes', '',
               '1. Prompts e IA generativa foram iniciados com itens válidos da ANM/TRT10. Power BI 8.3 tem uma amostra distinta válida do TRT10; ampliar gráficos, ferramentas e storytelling 8.4. Itens anulados do STJ/ANM continuam excluídos.',
-              '2. Regimento Comum e resoluções 1/1970, 3/1990 e 1/2002: quatro amostras de múltipla escolha no treino; ainda faltam C/E e vínculos com os recortes de Constitucional 8–8.2.',
-              '3. Redes sociais têm conceitos e participação do público, mas planejamento, postagens/colaborações e elementos de publicação (5.1/5.2/5.4) seguem sem questões diretas. Política e manuais da Câmara (8.1/8.2/10.1) têm links de leitura, sem vínculo artificial de questões.',
-              '4. Expandir responsabilidade civil, governança, poderes e ética publicitária: os primeiros vínculos são amostras pequenas.',
+              '2. Regimento Comum tem agora C/E em Constitucional 8.2 e Processo 6.1/6.3, além de três MC preservadas. Ainda faltam C/E em Constitucional 8.1 (Título I) e Processo 6.2 (Resolução 3/1990).',
+              '3. Planejamento de redes (5.1) foi iniciado com segmentação e mídia paga; ainda faltam questões diretas em postagens/colaborações e elementos de publicação (5.2/5.4). Política e manuais da Câmara (8.1/8.2/10.1) têm links de leitura, sem vínculo artificial de questões.',
+              '4. Expandir governança pública em redes, contratos, responsabilidade civil e orçamento: os novos vínculos são amostras pequenas e não esgotam os subitens.',
               '5. Gramática e uso do Inglês (2/3), lacunas específicas de Português, pesquisa de mercado/opinião/imagem e formação política brasileira.', '',
               '## Inventário completo', '']
     labels = {'direct': 'Direto', 'descendants_only': 'Só descendentes', 'empty': 'Sem questões', 'editorial_umbrella': 'Escopo'}

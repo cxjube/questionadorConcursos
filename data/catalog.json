@@ -2791,6 +2791,214 @@
       "sha256": "0be4cd5f2874f28057f2713a2f928fcc681ba52f3d54f9989891d4dfa51c3a96",
       "publicationDate": null,
       "paperId": null
+    },
+    {
+      "id": "source-camara14-cb1-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Câmara dos Deputados — Consultor de Orçamento e Fiscalização Financeira — Conteúdo básico",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/conteudo-basico",
+      "file": "sources/papers/CAMARA14_CB1_01.pdf",
+      "sha256": "79e09d74319bb470f4a9a075f9417fc6c1bd227e63cb788d4ea52f078041ac73",
+      "publicationDate": null,
+      "paperId": "source-camara14-cb1-01"
+    },
+    {
+      "id": "source-camara14-cb1-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Câmara dos Deputados — Consultor de Orçamento e Fiscalização Financeira — Conteúdo básico — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/gabarito-conteudo-basico",
+      "file": "sources/answer-keys/CAMARA14_CB1_01-key.pdf",
+      "sha256": "85ba8e03fd988ea1233d2c81d1b0412ed8106333d704405dae0f2fd0243bcb31",
+      "publicationDate": null,
+      "paperId": "source-camara14-cb1-01"
+    },
+    {
+      "id": "source-camara14-001-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Câmara dos Deputados — Consultor de Orçamento e Fiscalização Financeira — Conteúdo específico",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/conteudo-especifico",
+      "file": "sources/papers/CAMARA14_001_01.pdf",
+      "sha256": "b0ad6de8724a0a4ad67f820f015859d8581a6f36a45ef62dc7b1bc54e37e4864",
+      "publicationDate": null,
+      "paperId": "source-camara14-001-01"
+    },
+    {
+      "id": "source-camara14-001-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Câmara dos Deputados — Consultor de Orçamento e Fiscalização Financeira — Conteúdo específico — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/gabarito-p2",
+      "file": "sources/answer-keys/CAMARA14_001_01-key.pdf",
+      "sha256": "6d05f7d6995db76398c2d74eb954c7fc7e9c821cc9513676f8e9b469e9686ebf",
+      "publicationDate": null,
+      "paperId": "source-camara14-001-01"
+    },
+    {
+      "id": "source-893-dataprev-005-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Dataprev — Cargo 5 — Analista de Tecnologia da Informação — Comunicação Social",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/DATAPREV_23/arquivos/893_DATAPREV_005_01.PDF",
+      "file": "sources/papers/893_DATAPREV_005_01.pdf",
+      "sha256": "6d3f3d4fcd141618cf9303726b49a8b6096a7654e93393ccaca3b49fff79ca37",
+      "publicationDate": null,
+      "paperId": "source-893-dataprev-005-01"
+    },
+    {
+      "id": "source-893-dataprev-005-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Dataprev — Cargo 5 — Analista de Tecnologia da Informação — Comunicação Social — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/DATAPREV_23/arquivos/GAB_DEFINITIVO_893_DATAPREV_005_01.PDF",
+      "file": "sources/answer-keys/893_DATAPREV_005_01-key.pdf",
+      "sha256": "83b06f91be62ae9404ddd888d0239b2af65e21155a76b0c3e34bef179480212c",
+      "publicationDate": null,
+      "paperId": "source-893-dataprev-005-01"
+    },
+    {
+      "id": "source-803-tj-es-006-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Tribunal de Justiça do Espírito Santo — Cargo 6 — Analista Judiciário — Comunicação Social",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TJ_ES_23/arquivos/803_TJ_ES_006_01.PDF",
+      "file": "sources/papers/803_TJ_ES_006_01.pdf",
+      "sha256": "9edfe6202c7980cdb30b738c14826ef5e9596e09f405aa75257225311fda1402",
+      "publicationDate": null,
+      "paperId": "source-803-tj-es-006-01"
+    },
+    {
+      "id": "source-803-tj-es-006-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Tribunal de Justiça do Espírito Santo — Cargo 6 — Analista Judiciário — Comunicação Social — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TJ_ES_23/arquivos/GAB_DEFINITIVO_803_TJ_ES_006_01.PDF",
+      "file": "sources/answer-keys/803_TJ_ES_006_01-key.pdf",
+      "sha256": "d1ea80c138dbd1cd982806965d9b71a339202fb1555713df22ee24e48fdf6a00",
+      "publicationDate": null,
+      "paperId": "source-803-tj-es-006-01"
+    },
+    {
+      "id": "source-108-tcutefc-001-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Tribunal de Contas da União — Técnico Federal de Controle Externo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCU_25_TEFC/arquivos/108_TCUTEFC_001_01.pdf",
+      "file": "sources/papers/108_TCUTEFC_001_01.pdf",
+      "sha256": "e21da3b873b7e6efee58b28295789cbd93e5ab8fcf87c020883905d94415145b",
+      "publicationDate": null,
+      "paperId": "source-108-tcutefc-001-01"
+    },
+    {
+      "id": "source-108-tcutefc-001-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Tribunal de Contas da União — Técnico Federal de Controle Externo — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCU_25_TEFC/arquivos/E53AB5C65454510E881F7667E620F44B6DDD1C083D5175412CF8725A3C9B9C9F.pdf",
+      "file": "sources/answer-keys/108_TCUTEFC_001_01-key.pdf",
+      "sha256": "0e0bfef8488d419bba2769df86b7889f5e3778daf26564acd08cb4c0b09fdbd0",
+      "publicationDate": null,
+      "paperId": "source-108-tcutefc-001-01"
+    },
+    {
+      "id": "source-038-anm-005-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Agência Nacional de Mineração — Cargo 5 — Analista Administrativo — Direito",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_005_01.PDF",
+      "file": "sources/papers/038_ANM_005_01.pdf",
+      "sha256": "287c1dea6191d3e7100fc61750e157d72067638dd27e8f55579815c07c308ff7",
+      "publicationDate": null,
+      "paperId": "source-038-anm-005-01"
+    },
+    {
+      "id": "source-038-anm-005-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Agência Nacional de Mineração — Cargo 5 — Analista Administrativo — Direito — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_005_01.PDF",
+      "file": "sources/answer-keys/038_ANM_005_01-key.pdf",
+      "sha256": "336f33d329b38037193d408fc34c8ce196045a933497e939c5a1ae03e8757f42",
+      "publicationDate": null,
+      "paperId": "source-038-anm-005-01"
+    },
+    {
+      "id": "reference-lei-4320-1964",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Lei nº 4.320/1964 — texto atualizado",
+      "issuer": "Câmara dos Deputados",
+      "status": "verified",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+      "file": "sources/references/lei4320.html",
+      "sha256": "44366eeb6c615a57b8244a2e36e323a04936a73cb9d25d86e6b074d5db1a4791",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-lrf-2000",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Lei Complementar nº 101/2000 — LRF, texto atualizado",
+      "issuer": "Câmara dos Deputados",
+      "status": "verified",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html",
+      "file": "sources/references/lrf.html",
+      "sha256": "9e178a491fd3ba44c4956316bc9ef602a5d544b2fa5d8a52abaa2e6bac3de691",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-in-seges-58-2022",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "IN SEGES nº 58/2022 — estudo técnico preliminar",
+      "issuer": "Portal de Compras do Governo Federal",
+      "status": "verified",
+      "officialUrl": "https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-no-58-de-8-de-agosto-de-2022",
+      "file": "sources/references/in58.html",
+      "sha256": "fa816b6ef795c469c8e85e31645549355525035361357dad3972fc830b9a0b39",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "reference-stf-tema-1237",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "STF — Tema 1237, tese modificada nos embargos",
+      "issuer": "Supremo Tribunal Federal",
+      "status": "verified",
+      "officialUrl": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=6411925&numeroProcesso=1385315&classeProcesso=ARE&numeroTema=1237",
+      "file": "sources/references/stf1237-case.html",
+      "sha256": "00b231048a4f7793c7e4cda74e93967c7c9f04d03938d8913d86e0aea4be8c9b",
+      "publicationDate": null,
+      "paperId": null
     }
   ],
   "papers": [
@@ -3602,6 +3810,180 @@
         "questionType": "true_false",
         "answerKeyDocumentId": "source-142-tcuaufc-cb1-01-key",
         "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-camara14-cb1-01",
+      "bankId": "concursos",
+      "title": "Câmara dos Deputados — Consultor de Orçamento e Fiscalização Financeira — Conteúdo básico",
+      "provider": "Cebraspe",
+      "institution": "Câmara dos Deputados",
+      "role": "Consultor de Orçamento e Fiscalização Financeira — Conteúdo básico",
+      "year": 2014,
+      "booklet": "CAMARA14_CB1_01",
+      "documentId": "source-camara14-cb1-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2014-04-13",
+        "block": "basic",
+        "firstItem": 1,
+        "lastItem": 100,
+        "itemCount": 100,
+        "annulledItems": [
+          6,
+          12,
+          32,
+          47,
+          57,
+          59,
+          60,
+          100
+        ],
+        "questionType": "true_false",
+        "answerKeyDocumentId": "source-camara14-cb1-01-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-camara14-001-01",
+      "bankId": "concursos",
+      "title": "Câmara dos Deputados — Consultor de Orçamento e Fiscalização Financeira — Conteúdo específico",
+      "provider": "Cebraspe",
+      "institution": "Câmara dos Deputados",
+      "role": "Consultor de Orçamento e Fiscalização Financeira — Conteúdo específico",
+      "year": 2014,
+      "booklet": "CAMARA14_001_01",
+      "documentId": "source-camara14-001-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2014-04-13",
+        "block": "specific",
+        "firstItem": 101,
+        "lastItem": 220,
+        "itemCount": 120,
+        "annulledItems": [
+          120,
+          166
+        ],
+        "questionType": "true_false",
+        "answerKeyDocumentId": "source-camara14-001-01-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-893-dataprev-005-01",
+      "bankId": "concursos",
+      "title": "Dataprev — Cargo 5 — Analista de Tecnologia da Informação — Comunicação Social",
+      "provider": "Cebraspe",
+      "institution": "Dataprev",
+      "role": "Cargo 5 — Analista de Tecnologia da Informação — Comunicação Social",
+      "year": 2023,
+      "booklet": "893_DATAPREV_005_01",
+      "documentId": "source-893-dataprev-005-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2023-10-01",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "annulledItems": [
+          101,
+          102,
+          112,
+          113,
+          119
+        ],
+        "questionType": "true_false",
+        "answerKeyDocumentId": "source-893-dataprev-005-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-803-tj-es-006-01",
+      "bankId": "concursos",
+      "title": "Tribunal de Justiça do Espírito Santo — Cargo 6 — Analista Judiciário — Comunicação Social",
+      "provider": "Cebraspe",
+      "institution": "Tribunal de Justiça do Espírito Santo",
+      "role": "Cargo 6 — Analista Judiciário — Comunicação Social",
+      "year": 2023,
+      "booklet": "803_TJ_ES_006_01",
+      "documentId": "source-803-tj-es-006-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2023-03-19",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "annulledItems": [
+          108,
+          115
+        ],
+        "questionType": "true_false",
+        "answerKeyDocumentId": "source-803-tj-es-006-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-108-tcutefc-001-01",
+      "bankId": "concursos",
+      "title": "Tribunal de Contas da União — Técnico Federal de Controle Externo",
+      "provider": "Cebraspe",
+      "institution": "Tribunal de Contas da União",
+      "role": "Técnico Federal de Controle Externo",
+      "year": 2025,
+      "booklet": "108_TCUTEFC_001_01",
+      "documentId": "source-108-tcutefc-001-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-08-03",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "annulledItems": [
+          53,
+          56,
+          70,
+          91,
+          92,
+          93,
+          94,
+          119
+        ],
+        "questionType": "true_false",
+        "answerKeyDocumentId": "source-108-tcutefc-001-01-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-038-anm-005-01",
+      "bankId": "concursos",
+      "title": "Agência Nacional de Mineração — Cargo 5 — Analista Administrativo — Direito",
+      "provider": "Cebraspe",
+      "institution": "Agência Nacional de Mineração",
+      "role": "Cargo 5 — Analista Administrativo — Direito",
+      "year": 2025,
+      "booklet": "038_ANM_005_01",
+      "documentId": "source-038-anm-005-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-02-16",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "annulledItems": [],
+        "questionType": "true_false",
+        "answerKeyDocumentId": "source-038-anm-005-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
         "externalVerification": true
       }
     }
@@ -13043,6 +13425,1121 @@
         "temporalNote": "Conferência limitada às cláusulas citadas na edição oficial de 2025, disponibilizada pelo portal do Congresso; não equivale a revisão integral de toda a legislação posterior.",
         "decisionReference": "documentation/fourteenth-batch-release.md"
       }
+    },
+    {
+      "id": "camara14-cb1-01-q079",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Nas quarenta e oito horas que se seguirem à publicação de MP, o presidente da Mesa do Congresso Nacional designará uma comissão mista para sobre ela emitir parecer, salvo se se tratar de MP que abra crédito extraordinário à lei orçamentária anual, caso em que ela será examinada e receberá parecer da CMO.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-cmo-definition",
+        "camara-orc-2014-mp-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-cb1-01",
+        "number": 79,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara14-cb1-01-q079-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara14-cb1-01-q080",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A eleição para a presidência das comissões mistas constituídas para apreciar MPs observará o critério de alternância entre a Câmara dos Deputados e o Senado Federal, devendo o relator ser designado pelo presidente, em cada caso, entre os membros da comissão pertencentes à Casa diversa da sua.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-mp-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-cb1-01",
+        "number": 80,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara14-cb1-01-q080-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara14-cb1-01-q081",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Se a Câmara dos Deputados aprovar MP editada pelo presidente da República e encaminhá-la ao Senado Federal, e, neste, houver modificação do texto, a MP terá de ser reconduzida à casa iniciadora, onde a alteração, sob a forma de emenda, deverá ser apreciada em turno único, vedadas quaisquer novas alterações.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-mp-cf-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-cb1-01",
+        "number": 81,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara14-cb1-01-q081-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara14-cb1-01-q082",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Caso o presidente da República edite duas MPs, uma que altere dispositivos do Regime Jurídico Único dos Servidores Públicos Federais e outra que abra crédito extraordinário à lei orçamentária anual, caberá à Presidência da Mesa do Congresso Nacional designar comissão mista para emitir parecer sobre ambas as MPs.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-cmo-definition",
+        "camara-orc-2014-mp-cf-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-cb1-01",
+        "number": 82,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara14-cb1-01-q082-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara14-cb1-01-q083",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Nem todos os assuntos podem ser objeto de lei delegada, como, por exemplo, a matéria relativa à legislação sobre planos plurianuais, diretrizes orçamentárias e orçamentos.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-process-cf-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-cb1-01",
+        "number": 83,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara14-cb1-01-q083-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara14-cb1-01-q084",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A matéria constante de proposta de emenda constitucional rejeitada ou havida por prejudicada somente poderá ser reapresentada, na mesma sessão legislativa, mediante requerimento da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-process-cf-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-cb1-01",
+        "number": 84,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "camara14-cb1-01-q084-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara14-cb1-01-q092",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Compete à Comissão de Finanças e Tributação da Câmara dos Deputados, entre outras atribuições, aprovar a proposta orçamentária da Casa, apresentada pela Mesa Diretora, e encaminhá-la ao Poder Executivo, bem como aprovar o orçamento analítico respectivo.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-ricd-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-cb1-01",
+        "number": 92,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara14-cb1-01-q092-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara14-cb1-01-q096",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As deliberações da CMO iniciar-se-ão pelos representantes da Câmara dos Deputados, sendo que o voto contrário da maioria dos representantes de uma das Casas importará na rejeição da matéria.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-cmo-definition",
+        "camara-orc-2014-rccn-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-cb1-01",
+        "number": 96,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara14-cb1-01-q096-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara14-cb1-01-q097",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A apreciação das matérias, nas sessões conjuntas do Congresso Nacional, será feita em dois turnos de discussão e votação, devendo os votos da Câmara dos Deputados e do Senado Federal ser computados conjuntamente.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-rccn-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-cb1-01",
+        "number": 97,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara14-cb1-01-q097-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara14-cb1-01-q098",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As sessões conjuntas da Câmara dos Deputados e do Senado Federal terão a duração de quatro horas, mas, se o término do tempo da sessão ocorrer quando iniciada uma votação, esta será ultimada independentemente de pedido de prorrogação.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-rccn-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-cb1-01",
+        "number": 98,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara14-cb1-01-q098-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara14-cb1-01-q099",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A mensagem do presidente da República encaminhando projeto de lei orçamentária deve ser dirigida ao presidente do Senado Federal e ser recebida e lida em sessão conjunta, especialmente convocada para esse fim, dentro de quarenta e oito horas de sua entrega.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-rccn-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-cb1-01",
+        "number": 99,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "camara14-cb1-01-q099-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara14-001-01-q126",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Entre as partes que compõem a lei orçamentária anual (LOA), está o sumário geral da receita por fontes e da despesa por funções de governo.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-cycle-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-001-01",
+        "number": 126,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara14-001-01-q126-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara14-001-01-q128",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Na LDO, constam os limites para a elaboração das propostas orçamentárias do Ministério Público.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-cycle-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-001-01",
+        "number": 128,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara14-001-01-q128-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara14-001-01-q129",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Entre os assuntos tratados nos anexos de riscos fiscais da LDO, tem-se a evolução do patrimônio líquido, também nos últimos três exercícios.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-cycle-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-001-01",
+        "number": 129,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara14-001-01-q129-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara14-001-01-q132",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As emissões de papel-moeda estão entre as receitas compreendidas na lei de orçamento.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-revenue-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-001-01",
+        "number": 132,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara14-001-01-q132-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara14-001-01-q197",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Independentemente de pronunciamento do TCU, uma comissão mista permanente de senadores e deputados pode propor ao Congresso Nacional a sustação de despesa cujo gasto possa causar grave lesão para a economia pública.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-control-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-001-01",
+        "number": 197,
+        "locator": "PDF p. 7"
+      },
+      "answerKeyId": "camara14-001-01-q197-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara14-001-01-q204",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Se um ocupante de cargo efetivo de nível superior do Poder Legislativo federal, ao final do seu primeiro ano de exercício nesse cargo, for requisitado para ocupar cargo de natureza especial em outro órgão da União, e tal pedido for negado pelo superior hierárquico sob o argumento de não se poder infringir disposição legal, o indeferimento da requisição terá respaldo na legislação vigente, haja vista que o servidor ainda se encontrará em estágio probatório.",
+      "options": [],
+      "contextIds": [
+        "camara-orc-2014-agents-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara14-001-01",
+        "number": 204,
+        "locator": "PDF p. 7"
+      },
+      "answerKeyId": "camara14-001-01-q204-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "108-tcutefc-001-01-q066",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A possibilidade de responsabilização do Estado por atos praticados por seus agentes públicos no exercício da função não alcança os atos omissivos.",
+      "options": [],
+      "contextIds": [
+        "tcu-tefc-2025-caio-passage",
+        "tcu-tefc-2025-caio-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-108-tcutefc-001-01",
+        "number": 66,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "108-tcutefc-001-01-q066-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "108-tcutefc-001-01-q069",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Dada a presunção de legitimidade e veracidade dos atos administrativos, cabe a Caio o ônus de comprovar o alegado prejuízo decorrente da omissão de João.",
+      "options": [],
+      "contextIds": [
+        "tcu-tefc-2025-caio-passage",
+        "tcu-tefc-2025-caio-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-108-tcutefc-001-01",
+        "number": 69,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "108-tcutefc-001-01-q069-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "108-tcutefc-001-01-q087",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Conforme a natureza dos serviços, pode-se exigir a manutenção do preposto da contratada no local da execução do objeto, bem como estabelecer sistema de escala semanal ou mensal.",
+      "options": [],
+      "contextIds": [
+        "tcu-tefc-2025-fiscal-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-108-tcutefc-001-01",
+        "number": 87,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "108-tcutefc-001-01-q087-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "108-tcutefc-001-01-q088",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Para o exercício da função de fiscalização, são suficientes as cópias dos estudos preliminares, do edital e seus anexos, fornecidos pelo setor de licitação e contratos da organização aos fiscais do contrato.",
+      "options": [],
+      "contextIds": [
+        "tcu-tefc-2025-fiscal-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-108-tcutefc-001-01",
+        "number": 88,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "108-tcutefc-001-01-q088-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "108-tcutefc-001-01-q095",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A liquidação da despesa somente poderá ser efetivada após a verificação do direito adquirido pelo credor, mediante apresentação dos documentos comprobatórios da entrega dos bens conforme especificações contratuais.",
+      "options": [],
+      "contextIds": [
+        "tcu-tefc-2025-budget-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-108-tcutefc-001-01",
+        "number": 95,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "108-tcutefc-001-01-q095-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "108-tcutefc-001-01-q096",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O empenho da despesa deve ocorrer obrigatoriamente antes da realização do procedimento licitatório, garantindo-se a reserva orçamentária necessária para o cumprimento da obrigação assumida.",
+      "options": [],
+      "contextIds": [
+        "tcu-tefc-2025-budget-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-108-tcutefc-001-01",
+        "number": 96,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "108-tcutefc-001-01-q096-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "803-tj-es-006-01-q067",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Nas auditorias de opinião, a qualidade do público entrevistado auxilia na análise de problemas.",
+      "options": [],
+      "contextIds": [
+        "tjes-2023-opinion-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-803-tj-es-006-01",
+        "number": 67,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "803-tj-es-006-01-q067-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "803-tj-es-006-01-q072",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O planejamento da comunicação é o processo composto de políticas que devem ser materializadas em planos, processos, estratégias e ações a serem adotadas com base nas diretrizes do planejamento.",
+      "options": [],
+      "contextIds": [
+        "tjes-2023-planning-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-803-tj-es-006-01",
+        "number": 72,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "803-tj-es-006-01-q072-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "803-tj-es-006-01-q099",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Os cargos, empregos e funções públicas são acessíveis apenas aos brasileiros natos ou naturalizados.",
+      "options": [],
+      "contextIds": [
+        "tjes-2023-agents-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-803-tj-es-006-01",
+        "number": 99,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "803-tj-es-006-01-q099-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "803-tj-es-006-01-q100",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As funções de confiança e os cargos em comissão destinam-se apenas às atribuições de direção, chefia e assessoramento.",
+      "options": [],
+      "contextIds": [
+        "tjes-2023-agents-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-803-tj-es-006-01",
+        "number": 100,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "803-tj-es-006-01-q100-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "803-tj-es-006-01-q101",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O abuso de poder é gênero do qual são espécies o desvio de poder (ou desvio de finalidade) e o excesso de poder.",
+      "options": [],
+      "contextIds": [
+        "tjes-2023-agents-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-803-tj-es-006-01",
+        "number": 101,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "803-tj-es-006-01-q101-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "803-tj-es-006-01-q103",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A Lei n.º 14.133/2021 veda expressamente a forma eletrônica na celebração de contratos e de termos aditivos.",
+      "options": [],
+      "contextIds": [
+        "tjes-2023-contract-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-803-tj-es-006-01",
+        "number": 103,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "803-tj-es-006-01-q103-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "893-dataprev-005-01-q104",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O clipping é uma importante ferramenta de mensuração de resultados no relacionamento com a imprensa, mas não deve ser a única, pois a qualidade da imagem de uma organização deve ser avaliada de outras formas além da contabilização da quantidade de vezes que essa organização aparece na mídia.",
+      "options": [],
+      "contextIds": [
+        "dataprev-2023-clipping-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-893-dataprev-005-01",
+        "number": 104,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "893-dataprev-005-01-q104-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "893-dataprev-005-01-q107",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As redes sociais e plataformas digitais de comunicação — entre elas o Instagram, o YouTube e o Facebook — possuem dinâmicas muito semelhantes de relacionamento com seus usuários, de maneira que o conteúdo produzido para determinada rede social pode ser facilmente replicado em outras plataformas, sem prejuízo aos resultados previstos.",
+      "options": [],
+      "contextIds": [
+        "dataprev-2023-social-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-893-dataprev-005-01",
+        "number": 107,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "893-dataprev-005-01-q107-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "893-dataprev-005-01-q108",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Os stories são uma funcionalidade disponível em algumas redes sociais e servem para criar a sensação, junto aos clientes, de que eles acompanham uma marca, pessoa ou organização em tempo real.",
+      "options": [],
+      "contextIds": [
+        "dataprev-2023-social-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-893-dataprev-005-01",
+        "number": 108,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "893-dataprev-005-01-q108-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "893-dataprev-005-01-q109",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Por meio da comunicação com mídia paga nas redes sociais, uma organização pode segmentar seu público de interesse com base em características demográficas, interesses, comportamentos e até tecnologias utilizadas para se conectar às redes.",
+      "options": [],
+      "contextIds": [
+        "dataprev-2023-social-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-893-dataprev-005-01",
+        "number": 109,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "893-dataprev-005-01-q109-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "893-dataprev-005-01-q110",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A mídia paga nas redes sociais é um recurso útil para a comunicação das organizações, uma vez que é mais demorado e mais difícil conquistar públicos de interesse apenas de forma espontânea, ou seja, sem pagar às plataformas de comunicação digital.",
+      "options": [],
+      "contextIds": [
+        "dataprev-2023-social-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-893-dataprev-005-01",
+        "number": 110,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "893-dataprev-005-01-q110-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "893-dataprev-005-01-q114",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O cronograma deve especificar os períodos de tempo nos quais as atividades devem ser executadas, prevendo, dessa forma, o início e o fim de cada fase do planejamento operacional.",
+      "options": [],
+      "contextIds": [
+        "dataprev-2023-planning-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-893-dataprev-005-01",
+        "number": 114,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "893-dataprev-005-01-q114-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-005-01-q063",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Considere que, durante operação policial em uma comunidade, tenha sido dado um disparo de arma de fogo, que atingiu fatalmente um morador da comunidade, e que a perícia tenha sido inconclusiva quanto à origem do projétil. Nessa situação, configura-se a responsabilidade civil do Estado pela morte do referido morador.",
+      "options": [],
+      "contextIds": [
+        "anm-005-2025-state-liability-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-005-01",
+        "number": 63,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-005-01-q063-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "038-anm-024-01-q073",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Em casos de prorrogações de contratos de serviços e fornecimentos contínuos, é dispensada a elaboração de estudo técnico preliminar.",
+      "options": [],
+      "contextIds": [
+        "anm-024-2025-contract-law-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-024-01",
+        "number": 73,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-024-01-q073-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
+        "decisionReference": "documentation/fifteenth-batch-release.md"
+      }
     }
   ],
   "answerKeys": [
@@ -16971,6 +18468,487 @@
       "locator": "PDF p. 4 — Edital 3 (tarde), tipo 1",
       "result": "valid",
       "value": "c"
+    },
+    {
+      "id": "camara14-cb1-01-q079-key-v1",
+      "questionId": "camara14-cb1-01-q079",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara14-cb1-01-q080-key-v1",
+      "questionId": "camara14-cb1-01-q080",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara14-cb1-01-q081-key-v1",
+      "questionId": "camara14-cb1-01-q081",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara14-cb1-01-q082-key-v1",
+      "questionId": "camara14-cb1-01-q082",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara14-cb1-01-q083-key-v1",
+      "questionId": "camara14-cb1-01-q083",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara14-cb1-01-q084-key-v1",
+      "questionId": "camara14-cb1-01-q084",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara14-cb1-01-q092-key-v1",
+      "questionId": "camara14-cb1-01-q092",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara14-cb1-01-q096-key-v1",
+      "questionId": "camara14-cb1-01-q096",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara14-cb1-01-q097-key-v1",
+      "questionId": "camara14-cb1-01-q097",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara14-cb1-01-q098-key-v1",
+      "questionId": "camara14-cb1-01-q098",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara14-cb1-01-q099-key-v1",
+      "questionId": "camara14-cb1-01-q099",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara14-001-01-q126-key-v1",
+      "questionId": "camara14-001-01-q126",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara14-001-01-q128-key-v1",
+      "questionId": "camara14-001-01-q128",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara14-001-01-q129-key-v1",
+      "questionId": "camara14-001-01-q129",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara14-001-01-q132-key-v1",
+      "questionId": "camara14-001-01-q132",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara14-001-01-q197-key-v1",
+      "questionId": "camara14-001-01-q197",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara14-001-01-q204-key-v1",
+      "questionId": "camara14-001-01-q204",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara14-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "108-tcutefc-001-01-q066-key-v1",
+      "questionId": "108-tcutefc-001-01-q066",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-108-tcutefc-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "108-tcutefc-001-01-q069-key-v1",
+      "questionId": "108-tcutefc-001-01-q069",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-108-tcutefc-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "108-tcutefc-001-01-q087-key-v1",
+      "questionId": "108-tcutefc-001-01-q087",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-108-tcutefc-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "108-tcutefc-001-01-q088-key-v1",
+      "questionId": "108-tcutefc-001-01-q088",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-108-tcutefc-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "108-tcutefc-001-01-q095-key-v1",
+      "questionId": "108-tcutefc-001-01-q095",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-108-tcutefc-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "108-tcutefc-001-01-q096-key-v1",
+      "questionId": "108-tcutefc-001-01-q096",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-108-tcutefc-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "803-tj-es-006-01-q067-key-v1",
+      "questionId": "803-tj-es-006-01-q067",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-803-tj-es-006-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "803-tj-es-006-01-q072-key-v1",
+      "questionId": "803-tj-es-006-01-q072",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-803-tj-es-006-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "803-tj-es-006-01-q099-key-v1",
+      "questionId": "803-tj-es-006-01-q099",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-803-tj-es-006-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "803-tj-es-006-01-q100-key-v1",
+      "questionId": "803-tj-es-006-01-q100",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-803-tj-es-006-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "803-tj-es-006-01-q101-key-v1",
+      "questionId": "803-tj-es-006-01-q101",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-803-tj-es-006-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "803-tj-es-006-01-q103-key-v1",
+      "questionId": "803-tj-es-006-01-q103",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-803-tj-es-006-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "893-dataprev-005-01-q104-key-v1",
+      "questionId": "893-dataprev-005-01-q104",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-893-dataprev-005-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "893-dataprev-005-01-q107-key-v1",
+      "questionId": "893-dataprev-005-01-q107",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-893-dataprev-005-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "893-dataprev-005-01-q108-key-v1",
+      "questionId": "893-dataprev-005-01-q108",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-893-dataprev-005-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "893-dataprev-005-01-q109-key-v1",
+      "questionId": "893-dataprev-005-01-q109",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-893-dataprev-005-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "893-dataprev-005-01-q110-key-v1",
+      "questionId": "893-dataprev-005-01-q110",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-893-dataprev-005-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "893-dataprev-005-01-q114-key-v1",
+      "questionId": "893-dataprev-005-01-q114",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-893-dataprev-005-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-005-01-q063-key-v1",
+      "questionId": "038-anm-005-01-q063",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-005-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-024-01-q073-key-v1",
+      "questionId": "038-anm-024-01-q073",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-024-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
     }
   ],
   "explanations": [
@@ -22251,6 +24229,759 @@
           "locator": "PDF pp. 27–28 — Resolução 1/1970-CN, arts. 9º, § 2º, 11 e 12"
         }
       ]
+    },
+    {
+      "id": "camara14-cb1-01-q079-comment-v1",
+      "questionId": "camara14-cb1-01-q079",
+      "text": "A Resolução nº 1/2002-CN prevê a designação da comissão mista nas 48 horas seguintes à publicação da MP. Para a MP que abre crédito extraordinário, o exame e o parecer cabem à comissão mista orçamentária do art. 166, § 1º, da Constituição (CMO), conforme a exceção do art. 2º, § 6º. Não confundir essa exceção com a comissão constituída para as demais MPs.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-cb1-01-paper",
+          "locator": "PDF p. 9, item 79"
+        },
+        {
+          "documentId": "source-camara14-cb1-01-key",
+          "locator": "PDF p. 1, item 79"
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "locator": "Resolução 1/2002-CN, art. 2º, caput e § 6º"
+        }
+      ]
+    },
+    {
+      "id": "camara14-cb1-01-q080-comment-v1",
+      "questionId": "camara14-cb1-01-q080",
+      "text": "A presidência das comissões mistas alterna entre Câmara e Senado. O relator é escolhido entre membros da Casa diversa da do presidente. Essas regras da Resolução nº 1/2002-CN não devem ser confundidas com o relator revisor, que atua na outra Casa.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-cb1-01-paper",
+          "locator": "PDF p. 9, item 80"
+        },
+        {
+          "documentId": "source-camara14-cb1-01-key",
+          "locator": "PDF p. 1, item 80"
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "locator": "Resolução 1/2002-CN, art. 3º, §§ 1º e 2º"
+        }
+      ]
+    },
+    {
+      "id": "camara14-cb1-01-q081-comment-v1",
+      "questionId": "camara14-cb1-01-q081",
+      "text": "A alteração feita pelo Senado retorna à Câmara, onde é apreciada em turno único sob a forma de emenda, vedadas novas alterações. O item trata desse retorno específico; não afirma que toda tramitação de uma MP tenha apenas uma etapa.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-cb1-01-paper",
+          "locator": "PDF p. 9, item 81"
+        },
+        {
+          "documentId": "source-camara14-cb1-01-key",
+          "locator": "PDF p. 1, item 81"
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "locator": "Resolução 1/2002-CN, art. 7º, § 3º"
+        }
+      ]
+    },
+    {
+      "id": "camara14-cb1-01-q082-comment-v1",
+      "questionId": "camara14-cb1-01-q082",
+      "text": "O erro é tratar as duas MPs da mesma forma. A de crédito extraordinário é examinada pela comissão mista orçamentária já prevista na Constituição, conforme o art. 2º, § 6º, da Resolução nº 1/2002-CN; não se designa para ela a comissão mista ordinariamente constituída para uma MP. A distinção basta para afastar a conclusão do item.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-cb1-01-paper",
+          "locator": "PDF p. 9, item 82"
+        },
+        {
+          "documentId": "source-camara14-cb1-01-key",
+          "locator": "PDF p. 1, item 82"
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "locator": "Resolução 1/2002-CN, art. 2º, § 6º"
+        }
+      ]
+    },
+    {
+      "id": "camara14-cb1-01-q083-comment-v1",
+      "questionId": "camara14-cb1-01-q083",
+      "text": "A Constituição exclui da delegação a legislação sobre planos plurianuais, diretrizes orçamentárias e orçamentos. É uma das restrições do art. 68, § 1º; há outras matérias também vedadas. O exemplo não significa que toda matéria restante possa ser delegada sem observar o procedimento constitucional.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-cb1-01-paper",
+          "locator": "PDF p. 9, item 83"
+        },
+        {
+          "documentId": "source-camara14-cb1-01-key",
+          "locator": "PDF p. 1, item 83"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 68, § 1º, III"
+        }
+      ]
+    },
+    {
+      "id": "camara14-cb1-01-q084-comment-v1",
+      "questionId": "camara14-cb1-01-q084",
+      "text": "A matéria de PEC rejeitada ou prejudicada não pode ser objeto de nova proposta na mesma sessão legislativa. O art. 60, § 5º, não cria exceção por requerimento de maioria absoluta. A possibilidade de reapresentação por maioria absoluta do art. 67 diz respeito a projeto de lei, não afasta a regra específica das emendas constitucionais.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-cb1-01-paper",
+          "locator": "PDF p. 9, item 84"
+        },
+        {
+          "documentId": "source-camara14-cb1-01-key",
+          "locator": "PDF p. 1, item 84"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 60, § 5º; art. 67"
+        }
+      ]
+    },
+    {
+      "id": "camara14-cb1-01-q092-comment-v1",
+      "questionId": "camara14-cb1-01-q092",
+      "text": "O art. 15, XX e XXIV, do RICD atribui à Mesa aprovar a proposta orçamentária da Câmara, encaminhá-la ao Executivo e aprovar o orçamento analítico. O item transfere essa competência à Comissão de Finanças e Tributação. Seu vínculo é com a administração e economia interna da Casa, não com a tramitação geral de toda lei orçamentária.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-cb1-01-paper",
+          "locator": "PDF p. 10, item 92"
+        },
+        {
+          "documentId": "source-camara14-cb1-01-key",
+          "locator": "PDF p. 1, item 92"
+        },
+        {
+          "documentId": "reference-ricd-res17-1989",
+          "locator": "Arts. 15, XX e XXIV, e 265, § 1º; administração orçamentária da Casa"
+        }
+      ]
+    },
+    {
+      "id": "camara14-cb1-01-q096-comment-v1",
+      "questionId": "camara14-cb1-01-q096",
+      "text": "O art. 90, § 4º, do Regimento Comum determina início pelos representantes da Câmara e rejeição da matéria quando a maioria dos representantes de uma das Casas votar contra. A regra preserva a participação das duas Casas; não se somam indistintamente todos os votos para superar a rejeição de uma delas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-cb1-01-paper",
+          "locator": "PDF p. 10, item 96"
+        },
+        {
+          "documentId": "source-camara14-cb1-01-key",
+          "locator": "PDF p. 1, item 96"
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "locator": "Resolução 1/1970-CN, art. 90, § 4º"
+        }
+      ]
+    },
+    {
+      "id": "camara14-cb1-01-q097-comment-v1",
+      "questionId": "camara14-cb1-01-q097",
+      "text": "O art. 36 prevê um só turno de discussão e votação. Pelo art. 43, os votos da Câmara e do Senado são computados separadamente. As duas afirmações do item contrariam essas regras gerais; sessão conjunta não significa fusão das votações das Casas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-cb1-01-paper",
+          "locator": "PDF p. 10, item 97"
+        },
+        {
+          "documentId": "source-camara14-cb1-01-key",
+          "locator": "PDF p. 1, item 97"
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "locator": "Resolução 1/1970-CN, arts. 36 e 43"
+        }
+      ]
+    },
+    {
+      "id": "camara14-cb1-01-q098-comment-v1",
+      "questionId": "camara14-cb1-01-q098",
+      "text": "O art. 22 fixa quatro horas e seu parágrafo único permite concluir a votação já iniciada quando termina esse tempo, independentemente de pedido de prorrogação. Essa hipótese específica não deve ser confundida com as regras gerais de prorrogação do art. 23.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-cb1-01-paper",
+          "locator": "PDF p. 10, item 98"
+        },
+        {
+          "documentId": "source-camara14-cb1-01-key",
+          "locator": "PDF p. 1, item 98"
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "locator": "Resolução 1/1970-CN, art. 22, caput e parágrafo único"
+        }
+      ]
+    },
+    {
+      "id": "camara14-cb1-01-q099-comment-v1",
+      "questionId": "camara14-cb1-01-q099",
+      "text": "O art. 89 prevê sessão conjunta especialmente convocada para receber e ler a mensagem do projeto de lei orçamentária, dentro de 48 horas de sua entrega ao presidente do Senado. A conferência é desse dispositivo regimental da edição consultada; não confundir com o prazo constitucional de envio anual do projeto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-cb1-01-paper",
+          "locator": "PDF p. 10, item 99"
+        },
+        {
+          "documentId": "source-camara14-cb1-01-key",
+          "locator": "PDF p. 1, item 99"
+        },
+        {
+          "documentId": "reference-regimento-comum-2025",
+          "locator": "Resolução 1/1970-CN, art. 89"
+        }
+      ]
+    },
+    {
+      "id": "camara14-001-01-q126-comment-v1",
+      "questionId": "camara14-001-01-q126",
+      "text": "A Lei nº 4.320/1964 inclui esse sumário no conteúdo da lei de orçamento. Receitas por fontes e despesas por funções de governo são formas de apresentar o conjunto orçamentário; o sumário não substitui os demais quadros e elementos exigidos pela lei.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-001-01-paper",
+          "locator": "PDF p. 3, item 126"
+        },
+        {
+          "documentId": "source-camara14-001-01-key",
+          "locator": "PDF p. 1, item 126"
+        },
+        {
+          "documentId": "reference-lei-4320-1964",
+          "locator": "Art. 2º, § 1º, I"
+        }
+      ]
+    },
+    {
+      "id": "camara14-001-01-q128-comment-v1",
+      "questionId": "camara14-001-01-q128",
+      "text": "A Constituição assegura autonomia ao Ministério Público, cuja proposta orçamentária deve respeitar os limites estabelecidos na LDO. O vínculo alcança essa articulação na elaboração das propostas, sem afirmar que o item esgote a integração entre PPA, LDO e LOA.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-001-01-paper",
+          "locator": "PDF p. 3, item 128"
+        },
+        {
+          "documentId": "source-camara14-001-01-key",
+          "locator": "PDF p. 1, item 128"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 127, § 3º"
+        }
+      ]
+    },
+    {
+      "id": "camara14-001-01-q129-comment-v1",
+      "questionId": "camara14-001-01-q129",
+      "text": "A evolução do patrimônio líquido nos últimos três exercícios integra o Anexo de Metas Fiscais, conforme o art. 4º, § 2º, III, da LRF. O Anexo de Riscos Fiscais trata de passivos contingentes e outros riscos capazes de afetar as contas públicas, com as providências a adotar se ocorrerem. O item troca os anexos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-001-01-paper",
+          "locator": "PDF p. 3, item 129"
+        },
+        {
+          "documentId": "source-camara14-001-01-key",
+          "locator": "PDF p. 1, item 129"
+        },
+        {
+          "documentId": "reference-lrf-2000",
+          "locator": "Art. 4º, § 2º, III, e § 3º"
+        }
+      ]
+    },
+    {
+      "id": "camara14-001-01-q132-comment-v1",
+      "questionId": "camara14-001-01-q132",
+      "text": "O parágrafo único do art. 3º da Lei nº 4.320/1964 exclui as emissões de papel-moeda das receitas consideradas para esse dispositivo. Não se deve confundir emissão monetária com receita orçamentária de operações de crédito regularmente autorizadas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-001-01-paper",
+          "locator": "PDF p. 3, item 132"
+        },
+        {
+          "documentId": "source-camara14-001-01-key",
+          "locator": "PDF p. 1, item 132"
+        },
+        {
+          "documentId": "reference-lei-4320-1964",
+          "locator": "Art. 3º, caput e parágrafo único"
+        }
+      ]
+    },
+    {
+      "id": "camara14-001-01-q197-comment-v1",
+      "questionId": "camara14-001-01-q197",
+      "text": "O art. 72 prevê solicitação de esclarecimentos à autoridade responsável e, quando necessário, pronunciamento conclusivo do TCU. A proposta de sustação pela comissão, em caso de risco de dano irreparável ou grave lesão à economia pública, depende da conclusão do Tribunal pela irregularidade da despesa. O item dispensa indevidamente esse pronunciamento.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-001-01-paper",
+          "locator": "PDF p. 7, item 197"
+        },
+        {
+          "documentId": "source-camara14-001-01-key",
+          "locator": "PDF p. 1, item 197"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 72, §§ 1º e 2º"
+        }
+      ]
+    },
+    {
+      "id": "camara14-001-01-q204-comment-v1",
+      "questionId": "camara14-001-01-q204",
+      "text": "O art. 20, § 3º, da Lei nº 8.112/1990 permite a cessão do servidor em estágio probatório para cargo de natureza especial em outro órgão ou entidade. Assim, o estágio, por si só, não sustenta a proibição legal absoluta alegada. Isso não transforma qualquer requisição em direito automático nem dispensa os demais requisitos da movimentação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara14-001-01-paper",
+          "locator": "PDF p. 7, item 204"
+        },
+        {
+          "documentId": "source-camara14-001-01-key",
+          "locator": "PDF p. 1, item 204"
+        },
+        {
+          "documentId": "reference-lei-8112-1990",
+          "locator": "Art. 20, § 3º"
+        }
+      ]
+    },
+    {
+      "id": "108-tcutefc-001-01-q066-comment-v1",
+      "questionId": "108-tcutefc-001-01-q066",
+      "text": "O Estado pode responder por omissões quando presentes os pressupostos do regime aplicável, como dever de agir, dano e nexo causal. O erro é excluir todas as omissões. Isso não significa responsabilidade automática por qualquer inércia: é preciso examinar a situação e as condições da responsabilização.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-108-tcutefc-001-01-paper",
+          "locator": "PDF p. 1, item 66"
+        },
+        {
+          "documentId": "source-108-tcutefc-001-01-key",
+          "locator": "PDF p. 1, item 66"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, § 6º"
+        }
+      ]
+    },
+    {
+      "id": "108-tcutefc-001-01-q069-comment-v1",
+      "questionId": "108-tcutefc-001-01-q069",
+      "text": "Na situação apresentada, Caio deve demonstrar o prejuízo alegado e sua ligação com a omissão. A presunção de legitimidade não comprova o dano em seu lugar. A observação se limita à situação da prova e não estabelece que o particular suporte todos os ônus probatórios de qualquer ação contra o Estado.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-108-tcutefc-001-01-paper",
+          "locator": "PDF p. 1, item 69"
+        },
+        {
+          "documentId": "source-108-tcutefc-001-01-key",
+          "locator": "PDF p. 1, item 69"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, § 6º"
+        }
+      ]
+    },
+    {
+      "id": "108-tcutefc-001-01-q087-comment-v1",
+      "questionId": "108-tcutefc-001-01-q087",
+      "text": "O preposto representa a contratada na execução e deve ser aceito pela Administração. A permanência no local e a organização de escalas dependem da natureza dos serviços e das exigências contratuais aplicáveis. O item admite essa possibilidade; não impõe escala semanal ou mensal a todos os contratos. O art. 118 fundamenta a figura do preposto, sem fixar essas escalas como regra universal.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-108-tcutefc-001-01-paper",
+          "locator": "PDF p. 2, item 87"
+        },
+        {
+          "documentId": "source-108-tcutefc-001-01-key",
+          "locator": "PDF p. 1, item 87"
+        },
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 118; referência geral ao preposto, sem impor escala universal"
+        }
+      ]
+    },
+    {
+      "id": "108-tcutefc-001-01-q088-comment-v1",
+      "questionId": "108-tcutefc-001-01-q088",
+      "text": "O fiscal acompanha a execução, registra ocorrências e determina medidas de regularização no âmbito de suas competências. ETP, edital e anexos, isoladamente, não bastam para acompanhar obrigações e condições efetivamente contratadas. É necessário conhecer o contrato e os elementos pertinentes à execução. O art. 117 fundamenta as atribuições, sem criar uma lista documental única para todo contrato.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-108-tcutefc-001-01-paper",
+          "locator": "PDF p. 2, item 88"
+        },
+        {
+          "documentId": "source-108-tcutefc-001-01-key",
+          "locator": "PDF p. 1, item 88"
+        },
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 117, caput e §§ 1º e 2º"
+        }
+      ]
+    },
+    {
+      "id": "108-tcutefc-001-01-q095-comment-v1",
+      "questionId": "108-tcutefc-001-01-q095",
+      "text": "A liquidação verifica o direito adquirido pelo credor com base em títulos e documentos comprobatórios. Em fornecimento de bens, examina-se a entrega conforme o contratado. Essa etapa é distinta do empenho e do pagamento; a afirmação não autoriza pagar apenas com a existência de dotação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-108-tcutefc-001-01-paper",
+          "locator": "PDF p. 3, item 95"
+        },
+        {
+          "documentId": "source-108-tcutefc-001-01-key",
+          "locator": "PDF p. 1, item 95"
+        },
+        {
+          "documentId": "reference-lei-4320-1964",
+          "locator": "Art. 63, caput e §§ 1º e 2º"
+        }
+      ]
+    },
+    {
+      "id": "108-tcutefc-001-01-q096-comment-v1",
+      "questionId": "108-tcutefc-001-01-q096",
+      "text": "O art. 60 da Lei nº 4.320/1964 veda realizar despesa sem prévio empenho. Isso não exige empenhar antes de toda licitação: a verificação ou reserva de disponibilidade orçamentária na preparação não se confunde com o empenho. O erro está em tornar o momento anterior ao procedimento licitatório obrigatório.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-108-tcutefc-001-01-paper",
+          "locator": "PDF p. 3, item 96"
+        },
+        {
+          "documentId": "source-108-tcutefc-001-01-key",
+          "locator": "PDF p. 1, item 96"
+        },
+        {
+          "documentId": "reference-lei-4320-1964",
+          "locator": "Arts. 58 e 60, caput"
+        }
+      ]
+    },
+    {
+      "id": "803-tj-es-006-01-q067-comment-v1",
+      "questionId": "803-tj-es-006-01-q067",
+      "text": "A adequação dos entrevistados ao objetivo da auditoria de opinião ajuda a interpretar o problema. Qualidade do público significa pertinência e condições de participação, não preferência por respostas favoráveis. A afirmação não torna qualquer conjunto de entrevistas estatisticamente representativo nem dispensa critérios de seleção.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-803-tj-es-006-01-paper",
+          "locator": "PDF p. 1, item 67"
+        },
+        {
+          "documentId": "source-803-tj-es-006-01-key",
+          "locator": "PDF p. 1, item 67"
+        }
+      ]
+    },
+    {
+      "id": "803-tj-es-006-01-q072-comment-v1",
+      "questionId": "803-tj-es-006-01-q072",
+      "text": "O planejamento orienta escolhas e se materializa em planos, estratégias, processos e ações coerentes. Um plano de comunicação precisa traduzir diretrizes em execução acompanhável; a existência do documento, sozinha, não garante resultados. O vínculo aborda o conceito geral, não um plano interno específico da Câmara.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-803-tj-es-006-01-paper",
+          "locator": "PDF p. 1, item 72"
+        },
+        {
+          "documentId": "source-803-tj-es-006-01-key",
+          "locator": "PDF p. 1, item 72"
+        }
+      ]
+    },
+    {
+      "id": "803-tj-es-006-01-q099-comment-v1",
+      "questionId": "803-tj-es-006-01-q099",
+      "text": "O art. 37, I, admite brasileiros que preencham os requisitos legais e também estrangeiros, na forma da lei. Por isso, a exclusividade absoluta para brasileiros está errada. Há cargos constitucionalmente reservados a brasileiros natos, mas isso não vale indistintamente para todo cargo, emprego ou função.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-803-tj-es-006-01-paper",
+          "locator": "PDF p. 2, item 99"
+        },
+        {
+          "documentId": "source-803-tj-es-006-01-key",
+          "locator": "PDF p. 1, item 99"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, I"
+        }
+      ]
+    },
+    {
+      "id": "803-tj-es-006-01-q100-comment-v1",
+      "questionId": "803-tj-es-006-01-q100",
+      "text": "O art. 37, V, destina funções de confiança e cargos em comissão apenas às atribuições de direção, chefia e assessoramento. Os regimes de preenchimento são diferentes: funções de confiança são exercidas exclusivamente por ocupantes de cargo efetivo; cargos em comissão observam os requisitos constitucionais e legais próprios.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-803-tj-es-006-01-paper",
+          "locator": "PDF p. 2, item 100"
+        },
+        {
+          "documentId": "source-803-tj-es-006-01-key",
+          "locator": "PDF p. 1, item 100"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, V"
+        }
+      ]
+    },
+    {
+      "id": "803-tj-es-006-01-q101-comment-v1",
+      "questionId": "803-tj-es-006-01-q101",
+      "text": "Há excesso quando o agente ultrapassa os limites de sua competência e desvio de finalidade quando atua buscando fim diverso do previsto. Ambos são formas de abuso de poder. Os deveres de legalidade e finalidade ajudam a identificar esses vícios; a terminologia classificatória do item é doutrinária, não uma transcrição literal da Lei nº 9.784/1999.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-803-tj-es-006-01-paper",
+          "locator": "PDF p. 2, item 101"
+        },
+        {
+          "documentId": "source-803-tj-es-006-01-key",
+          "locator": "PDF p. 1, item 101"
+        },
+        {
+          "documentId": "reference-lei-9784-1999",
+          "locator": "Art. 2º, caput e parágrafo único, II; referência aos limites legais e à finalidade"
+        }
+      ]
+    },
+    {
+      "id": "803-tj-es-006-01-q103-comment-v1",
+      "questionId": "803-tj-es-006-01-q103",
+      "text": "A Lei nº 14.133/2021 permite a forma eletrônica para contratos e termos aditivos, atendidas as exigências previstas em regulamento. O art. 91, § 3º, contraria a vedação absoluta afirmada no item. Permissão não elimina requisitos de formalização, publicidade e segurança aplicáveis.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-803-tj-es-006-01-paper",
+          "locator": "PDF p. 2, item 103"
+        },
+        {
+          "documentId": "source-803-tj-es-006-01-key",
+          "locator": "PDF p. 1, item 103"
+        },
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 91, § 3º"
+        }
+      ]
+    },
+    {
+      "id": "893-dataprev-005-01-q104-comment-v1",
+      "questionId": "893-dataprev-005-01-q104",
+      "text": "A quantidade de menções na mídia é insuficiente para avaliar a imagem organizacional. Importam também teor, contexto e percepção dos públicos. O vínculo cobre esse fundamento da avaliação e pesquisa de imagem, sem afirmar que o clipping equivale a pesquisa de percepção ou que o item ensine todo o método.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-893-dataprev-005-01-paper",
+          "locator": "PDF p. 2, item 104"
+        },
+        {
+          "documentId": "source-893-dataprev-005-01-key",
+          "locator": "PDF p. 1, item 104"
+        }
+      ]
+    },
+    {
+      "id": "893-dataprev-005-01-q107-comment-v1",
+      "questionId": "893-dataprev-005-01-q107",
+      "text": "Plataformas têm linguagens, formatos e dinâmicas de uso diferentes. Reaproveitar conteúdo pode ser útil, mas exige adequação ao público, objetivo e canal. O item erra ao pressupor dinâmicas muito semelhantes e replicação sem prejuízo; não basta publicar exatamente a mesma peça em todos os canais.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-893-dataprev-005-01-paper",
+          "locator": "PDF p. 3, item 107"
+        },
+        {
+          "documentId": "source-893-dataprev-005-01-key",
+          "locator": "PDF p. 1, item 107"
+        }
+      ]
+    },
+    {
+      "id": "893-dataprev-005-01-q108-comment-v1",
+      "questionId": "893-dataprev-005-01-q108",
+      "text": "Stories podem criar uma sensação de proximidade e acompanhamento em tempo real. Trata-se de efeito comunicacional possível, não prova de que tudo é ao vivo nem regra permanente de todas as plataformas. A descrição é preservada no contexto da prova de 2023.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-893-dataprev-005-01-paper",
+          "locator": "PDF p. 3, item 108"
+        },
+        {
+          "documentId": "source-893-dataprev-005-01-key",
+          "locator": "PDF p. 1, item 108"
+        }
+      ]
+    },
+    {
+      "id": "893-dataprev-005-01-q109-comment-v1",
+      "questionId": "893-dataprev-005-01-q109",
+      "text": "A mídia paga pode permitir segmentação por características de públicos e dispositivos, auxiliando o planejamento da distribuição. Critérios e disponibilidade variam com plataforma, políticas e legislação. O vínculo é parcial com planejamento de redes; não ensina toda a produção de conteúdo nem autoriza uso irrestrito de dados pessoais.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-893-dataprev-005-01-paper",
+          "locator": "PDF p. 3, item 109"
+        },
+        {
+          "documentId": "source-893-dataprev-005-01-key",
+          "locator": "PDF p. 1, item 109"
+        }
+      ]
+    },
+    {
+      "id": "893-dataprev-005-01-q110-comment-v1",
+      "questionId": "893-dataprev-005-01-q110",
+      "text": "A mídia paga pode apoiar a conquista de públicos e complementar o alcance orgânico. O gabarito considera a dificuldade e o tempo do crescimento espontâneo no contexto da prova. Isso não garante que pagar seja sempre mais eficiente: objetivo, orçamento, conteúdo e avaliação de resultados continuam necessários.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-893-dataprev-005-01-paper",
+          "locator": "PDF p. 3, item 110"
+        },
+        {
+          "documentId": "source-893-dataprev-005-01-key",
+          "locator": "PDF p. 1, item 110"
+        }
+      ]
+    },
+    {
+      "id": "893-dataprev-005-01-q114-comment-v1",
+      "questionId": "893-dataprev-005-01-q114",
+      "text": "O cronograma organiza quando as atividades e fases devem ocorrer, com início e fim previstos. Ele integra a execução do plano, permitindo acompanhar prazos e dependências. Não substitui a definição de objetivos, públicos, responsabilidades, recursos ou avaliação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-893-dataprev-005-01-paper",
+          "locator": "PDF p. 3, item 114"
+        },
+        {
+          "documentId": "source-893-dataprev-005-01-key",
+          "locator": "PDF p. 1, item 114"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-005-01-q063-comment-v1",
+      "questionId": "038-anm-005-01-q063",
+      "text": "No Tema 1237, com tese modificada nos embargos, o STF reconhece a responsabilidade civil por morte ou ferimento decorrente de operações de segurança pública segundo o risco administrativo. Cabe ao ente demonstrar eventuais excludentes, e a perícia inconclusiva sobre o disparo, por si só, não afasta a responsabilidade. Não se trata de risco integral nem de dispensa de análise do dano e do nexo. O item preserva a situação e o gabarito de 2025.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-005-01-paper",
+          "locator": "PDF p. 1, item 63"
+        },
+        {
+          "documentId": "source-038-anm-005-01-key",
+          "locator": "PDF p. 1, item 63"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, § 6º"
+        },
+        {
+          "documentId": "reference-stf-tema-1237",
+          "locator": "Tema 1237, ARE 1385315; tese modificada nos embargos, itens i–iii"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-024-01-q073-comment-v1",
+      "questionId": "038-anm-024-01-q073",
+      "text": "O art. 14, II, da IN SEGES nº 58/2022 dispensa ETP nas prorrogações de contratos de serviços e fornecimentos contínuos. A resposta é dada no âmbito dessa instrução, expressamente mencionada no comando da prova da ANM. Não se deve transformar a regra do Executivo federal em dispensa universal estabelecida apenas pela Lei nº 14.133/2021 ou automaticamente aplicável à Câmara.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-024-01-paper",
+          "locator": "PDF p. 1, item 73"
+        },
+        {
+          "documentId": "source-038-anm-024-01-key",
+          "locator": "PDF p. 1, item 73"
+        },
+        {
+          "documentId": "reference-in-seges-58-2022",
+          "locator": "Arts. 1º e 14, II"
+        },
+        {
+          "documentId": "reference-lei-14133-2021",
+          "locator": "Art. 6º, XX; conceito de ETP"
+        }
+      ]
     }
   ],
   "syllabusItems": [
@@ -27140,6 +29871,279 @@
       "syllabusItemId": "camara-2026-processo-legislativo-regimento-6-1",
       "justification": "Aplicação da resolução do Congresso expressamente cobrada no item; formato original de múltipla escolha preservado.",
       "status": "confirmed"
+    },
+    {
+      "id": "camara14-cb1-01-q079-mapping-1",
+      "questionId": "camara14-cb1-01-q079",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-6-3",
+      "justification": "Tramitação de MP e exceção do crédito extraordinário na Resolução 1/2002-CN.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-cb1-01-q079-mapping-2",
+      "questionId": "camara14-cb1-01-q079",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-2-2",
+      "justification": "Tramitação de MP e exceção do crédito extraordinário na Resolução 1/2002-CN.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-cb1-01-q080-mapping-1",
+      "questionId": "camara14-cb1-01-q080",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-6-3",
+      "justification": "Alternância entre Casas na comissão de medida provisória.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-cb1-01-q081-mapping-1",
+      "questionId": "camara14-cb1-01-q081",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-6-3",
+      "justification": "Retorno de MP modificada pelo Senado à Câmara.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-cb1-01-q082-mapping-1",
+      "questionId": "camara14-cb1-01-q082",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-6-3",
+      "justification": "Exceção da comissão orçamentária na apreciação de MP.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-cb1-01-q083-mapping-1",
+      "questionId": "camara14-cb1-01-q083",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-2-1",
+      "justification": "Limites materiais da lei delegada.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-cb1-01-q084-mapping-1",
+      "questionId": "camara14-cb1-01-q084",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-2-4",
+      "justification": "Irrepetibilidade da PEC rejeitada na mesma sessão legislativa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-cb1-01-q092-mapping-1",
+      "questionId": "camara14-cb1-01-q092",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-7-4",
+      "justification": "Competência administrativa e proposta orçamentária da Câmara.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-cb1-01-q096-mapping-1",
+      "questionId": "camara14-cb1-01-q096",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-8-2",
+      "justification": "Deliberação da comissão orçamentária no recorte do RCCN.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-cb1-01-q097-mapping-1",
+      "questionId": "camara14-cb1-01-q097",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-6-1",
+      "justification": "Turno de apreciação e cômputo separado dos votos no RCCN.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-cb1-01-q098-mapping-1",
+      "questionId": "camara14-cb1-01-q098",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-6-1",
+      "justification": "Duração da sessão conjunta e conclusão de votação iniciada.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-cb1-01-q099-mapping-1",
+      "questionId": "camara14-cb1-01-q099",
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-8-2",
+      "justification": "Recebimento da mensagem do projeto orçamentário no RCCN.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-001-01-q126-mapping-1",
+      "questionId": "camara14-001-01-q126",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-3",
+      "justification": "Conteúdo da lei orçamentária anual.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-001-01-q128-mapping-1",
+      "questionId": "camara14-001-01-q128",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-6",
+      "justification": "Limites da LDO na elaboração da proposta orçamentária.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-001-01-q129-mapping-1",
+      "questionId": "camara14-001-01-q129",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-4",
+      "justification": "Distinção entre anexos da LDO na LRF.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-001-01-q132-mapping-1",
+      "questionId": "camara14-001-01-q132",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-3",
+      "justification": "Exclusão de emissão de papel-moeda das receitas da lei de orçamento.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-001-01-q197-mapping-1",
+      "questionId": "camara14-001-01-q197",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-3",
+      "justification": "Procedimento constitucional para sustação de despesa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara14-001-01-q204-mapping-1",
+      "questionId": "camara14-001-01-q204",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-3-3",
+      "justification": "Estágio probatório e movimentação para cargo de natureza especial.",
+      "status": "confirmed"
+    },
+    {
+      "id": "108-tcutefc-001-01-q066-mapping-1",
+      "questionId": "108-tcutefc-001-01-q066",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-6-3",
+      "justification": "Responsabilidade civil por omissão estatal.",
+      "status": "confirmed"
+    },
+    {
+      "id": "108-tcutefc-001-01-q069-mapping-1",
+      "questionId": "108-tcutefc-001-01-q069",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-6-4",
+      "justification": "Demonstração do dano na responsabilidade por omissão.",
+      "status": "confirmed"
+    },
+    {
+      "id": "108-tcutefc-001-01-q087-mapping-1",
+      "questionId": "108-tcutefc-001-01-q087",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-5",
+      "justification": "Atuação do preposto na execução contratual.",
+      "status": "confirmed"
+    },
+    {
+      "id": "108-tcutefc-001-01-q088-mapping-1",
+      "questionId": "108-tcutefc-001-01-q088",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-6",
+      "justification": "Informações necessárias ao fiscal de contrato.",
+      "status": "confirmed"
+    },
+    {
+      "id": "108-tcutefc-001-01-q095-mapping-1",
+      "questionId": "108-tcutefc-001-01-q095",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-7",
+      "justification": "Liquidação como etapa da execução da despesa.",
+      "status": "confirmed"
+    },
+    {
+      "id": "108-tcutefc-001-01-q096-mapping-1",
+      "questionId": "108-tcutefc-001-01-q096",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-7",
+      "justification": "Momento do empenho e distinção da reserva orçamentária.",
+      "status": "confirmed"
+    },
+    {
+      "id": "803-tj-es-006-01-q067-mapping-1",
+      "questionId": "803-tj-es-006-01-q067",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-3-3",
+      "justification": "Seleção do público na pesquisa de opinião.",
+      "status": "confirmed"
+    },
+    {
+      "id": "803-tj-es-006-01-q072-mapping-1",
+      "questionId": "803-tj-es-006-01-q072",
+      "syllabusItemId": "camara-2026-comunicacao-social-4-8",
+      "justification": "Materialização do planejamento em planos e ações.",
+      "status": "confirmed"
+    },
+    {
+      "id": "803-tj-es-006-01-q099-mapping-1",
+      "questionId": "803-tj-es-006-01-q099",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-3-1",
+      "justification": "Acesso constitucional aos cargos, empregos e funções públicas.",
+      "status": "confirmed"
+    },
+    {
+      "id": "803-tj-es-006-01-q100-mapping-1",
+      "questionId": "803-tj-es-006-01-q100",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-3-1",
+      "justification": "Finalidade das funções de confiança e cargos em comissão.",
+      "status": "confirmed"
+    },
+    {
+      "id": "803-tj-es-006-01-q101-mapping-1",
+      "questionId": "803-tj-es-006-01-q101",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-5-2",
+      "justification": "Excesso de competência e desvio de finalidade como abuso de poder.",
+      "status": "confirmed"
+    },
+    {
+      "id": "803-tj-es-006-01-q103-mapping-1",
+      "questionId": "803-tj-es-006-01-q103",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-4",
+      "justification": "Admissão de forma eletrônica dos contratos administrativos.",
+      "status": "confirmed"
+    },
+    {
+      "id": "893-dataprev-005-01-q104-mapping-1",
+      "questionId": "893-dataprev-005-01-q104",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-3-4",
+      "justification": "Limites da contagem de exposição na avaliação da imagem.",
+      "status": "confirmed"
+    },
+    {
+      "id": "893-dataprev-005-01-q107-mapping-1",
+      "questionId": "893-dataprev-005-01-q107",
+      "syllabusItemId": "camara-2026-comunicacao-social-5-3",
+      "justification": "Diferenças entre plataformas e adequação do conteúdo.",
+      "status": "confirmed"
+    },
+    {
+      "id": "893-dataprev-005-01-q108-mapping-1",
+      "questionId": "893-dataprev-005-01-q108",
+      "syllabusItemId": "camara-2026-comunicacao-social-5-3",
+      "justification": "Stories como formato de acompanhamento e proximidade.",
+      "status": "confirmed"
+    },
+    {
+      "id": "893-dataprev-005-01-q109-mapping-1",
+      "questionId": "893-dataprev-005-01-q109",
+      "syllabusItemId": "camara-2026-comunicacao-social-5-1",
+      "justification": "Segmentação de público na distribuição de conteúdo em redes.",
+      "status": "confirmed"
+    },
+    {
+      "id": "893-dataprev-005-01-q110-mapping-1",
+      "questionId": "893-dataprev-005-01-q110",
+      "syllabusItemId": "camara-2026-comunicacao-social-5-1",
+      "justification": "Mídia paga e objetivos de alcance na estratégia de redes.",
+      "status": "confirmed"
+    },
+    {
+      "id": "893-dataprev-005-01-q114-mapping-1",
+      "questionId": "893-dataprev-005-01-q114",
+      "syllabusItemId": "camara-2026-comunicacao-social-4-8",
+      "justification": "Cronograma no planejamento operacional de comunicação.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-005-01-q063-mapping-1",
+      "questionId": "038-anm-005-01-q063",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-6-1",
+      "justification": "Responsabilidade civil estatal por operação de segurança pública e risco administrativo.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-005-01-q063-mapping-2",
+      "questionId": "038-anm-005-01-q063",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-6-2",
+      "justification": "Responsabilidade civil estatal por operação de segurança pública e risco administrativo.",
+      "status": "confirmed"
+    },
+    {
+      "id": "038-anm-024-01-q073-mapping-1",
+      "questionId": "038-anm-024-01-q073",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-7",
+      "justification": "ETP na prorrogação de contratos contínuos no âmbito da IN SEGES 58.",
+      "status": "confirmed"
     }
   ],
   "scoringRules": [
@@ -28740,6 +31744,213 @@
       "sourcePage": 2,
       "sourceCredit": "Robert O. Keohane. The Concept of Accountability in World Politics and the Use of Force. Internet:<Repository.law.umich.edu> (adapted).",
       "language": "en"
+    },
+    {
+      "id": "camara-orc-2014-mp-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Acerca da apreciação de MPs pelo Congresso Nacional, conforme disposto na Resolução n.º 1/2002-CN, julgue os itens subsequentes.",
+      "sourceDocumentId": "source-camara14-cb1-01-paper",
+      "sourcePage": 9
+    },
+    {
+      "id": "camara-orc-2014-mp-cf-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Acerca da Resolução n.º 1/2002-CN, que dispõe sobre a apreciação, pelo Congresso Nacional, das MPs a que se refere o artigo 62 da CF, julgue os próximos itens.",
+      "sourceDocumentId": "source-camara14-cb1-01-paper",
+      "sourcePage": 9
+    },
+    {
+      "id": "camara-orc-2014-process-cf-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Com base nas normas sobre processo legislativo constantes da Constituição Federal de 1988 (CF), julgue os itens que se seguem.",
+      "sourceDocumentId": "source-camara14-cb1-01-paper",
+      "sourcePage": 9
+    },
+    {
+      "id": "camara-orc-2014-ricd-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens seguintes, relativos à disciplina estabelecida no Regimento Interno da Câmara dos Deputados.",
+      "sourceDocumentId": "source-camara14-cb1-01-paper",
+      "sourcePage": 10
+    },
+    {
+      "id": "camara-orc-2014-rccn-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Considerando as disposições do Regimento Comum do Congresso Nacional, julgue os itens subsecutivos.",
+      "sourceDocumentId": "source-camara14-cb1-01-paper",
+      "sourcePage": 10
+    },
+    {
+      "id": "camara-orc-2014-cmo-definition",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Sigla apresentada no caderno",
+      "text": "Com relação às competências e à composição da Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO) e de seu Comitê de Admissibilidade de Emendas, julgue os itens a seguir.",
+      "sourceDocumentId": "source-camara14-cb1-01-paper",
+      "sourcePage": 9
+    },
+    {
+      "id": "camara-orc-2014-cycle-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "A respeito do ciclo e sistema orçamentário, julgue os itens que se seguem.",
+      "sourceDocumentId": "source-camara14-001-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "camara-orc-2014-revenue-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Acerca das receitas e despesas públicas, julgue os itens a seguir.",
+      "sourceDocumentId": "source-camara14-001-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "camara-orc-2014-control-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Em relação aos sistemas de controle exercidos no âmbito da administração pública brasileira e da competência, da jurisdição e do exame de contas por parte do TCU, julgue os itens subsecutivos.",
+      "sourceDocumentId": "source-camara14-001-01-paper",
+      "sourcePage": 7
+    },
+    {
+      "id": "camara-orc-2014-agents-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Com referência aos agentes públicos e ao regime jurídico que regulamenta as relações entre os servidores públicos e a administração, julgue os itens que se seguem.",
+      "sourceDocumentId": "source-camara14-001-01-paper",
+      "sourcePage": 7
+    },
+    {
+      "id": "tcu-tefc-2025-caio-passage",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Situação hipotética original",
+      "text": "Caio apresentou requerimento administrativo perante determinada autarquia federal. No exercício de seu cargo comissionado, João, autoridade competente para a prática do ato, manteve-se inerte, gerando, assim, prejuízo a Caio, que, então, ajuizou ação judicial, requerendo indenização pelo prejuízo causado em virtude da omissão de João.",
+      "sourceDocumentId": "source-108-tcutefc-001-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "tcu-tefc-2025-caio-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "A partir dessa situação hipotética, julgue os itens seguintes.",
+      "sourceDocumentId": "source-108-tcutefc-001-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "tcu-tefc-2025-fiscal-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "A respeito dos papéis do fiscalizador do contrato e do preposto da contratada, julgue os itens a seguir.",
+      "sourceDocumentId": "source-108-tcutefc-001-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "tcu-tefc-2025-budget-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens seguintes, à luz das normas de execução orçamentária.",
+      "sourceDocumentId": "source-108-tcutefc-001-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "tjes-2023-opinion-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os próximos itens, relativos a pesquisas de opinião e de mercado.",
+      "sourceDocumentId": "source-803-tj-es-006-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "tjes-2023-planning-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Com relação ao planejamento da comunicação organizacional, julgue os itens a seguir.",
+      "sourceDocumentId": "source-803-tj-es-006-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "tjes-2023-agents-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Com relação aos agentes públicos e aos poderes administrativos, julgue os itens seguintes.",
+      "sourceDocumentId": "source-803-tj-es-006-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "tjes-2023-contract-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os próximos itens, concernentes às licitações e aos contratos administrativos.",
+      "sourceDocumentId": "source-803-tj-es-006-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "dataprev-2023-clipping-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens que se seguem, relativos às rotinas das assessorias de imprensa.",
+      "sourceDocumentId": "source-893-dataprev-005-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "dataprev-2023-social-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que diz respeito à comunicação digital aplicada às redes sociais, julgue os seguintes itens.",
+      "sourceDocumentId": "source-893-dataprev-005-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "dataprev-2023-planning-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os próximos itens, relativos ao planejamento da comunicação nas organizações.",
+      "sourceDocumentId": "source-893-dataprev-005-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "anm-005-2025-state-liability-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Em relação ao processo administrativo, ao sistema de registro de preços, aos agentes públicos e à responsabilidade civil do Estado, julgue os itens subsequentes.",
+      "sourceDocumentId": "source-038-anm-005-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "anm-024-2025-contract-law-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Com relação à Lei n.º 14.133/2021 e às Instruções Normativas SGD/ME n.º 94/2022 e SEGES/ME n.º 65/2021, n.º 58/2022 e n.º 81/2022, julgue os itens subsequentes.",
+      "sourceDocumentId": "source-038-anm-024-01-paper",
+      "sourcePage": 1
     }
   ]
 }

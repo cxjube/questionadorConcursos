@@ -1,21 +1,21 @@
 {
-  "reviewedAt": "2026-10-26",
-  "latestBatchId": "fourteenth-batch",
-  "catalogSha256": "52ba4883d5e41b2aa56137b90cb9a3d643e9fe03943cb14c5a562a10fbf0ed14",
+  "reviewedAt": "2026-10-27",
+  "latestBatchId": "fifteenth-batch",
+  "catalogSha256": "c3ccd8a7cdd43724d8210c8b2340534f74887f516049d2ed01dc1974ec1f6cf2",
   "scope": "Oferta de questões distintas, sem inferência de domínio ou peso de prova.",
   "totalItems": 228,
-  "directItems": 142,
-  "descendantsOnly": 31,
-  "emptyItems": 54,
-  "emptyLeaves": 53,
+  "directItems": 165,
+  "descendantsOnly": 32,
+  "emptyItems": 30,
+  "emptyLeaves": 30,
   "blocks": {
     "basic": {
-      "total": 141,
-      "ce": 140
+      "total": 155,
+      "ce": 154
     },
     "specific": {
-      "total": 162,
-      "ce": 147
+      "total": 185,
+      "ce": 170
     }
   },
   "disciplines": [
@@ -45,22 +45,22 @@
       "id": "direito-administrativo-administracao-publica",
       "label": "Noções de Direito Administrativo e Administração Pública",
       "totalItems": 46,
-      "directItems": 21,
+      "directItems": 30,
       "descendantsOnly": 8,
-      "emptyItems": 17,
-      "emptyLeaves": 17,
-      "questionsCE": 35,
+      "emptyItems": 8,
+      "emptyLeaves": 8,
+      "questionsCE": 46,
       "questionsMC": 0
     },
     {
       "id": "direito-constitucional-regimento",
       "label": "Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados",
       "totalItems": 14,
-      "directItems": 8,
-      "descendantsOnly": 1,
-      "emptyItems": 5,
-      "emptyLeaves": 4,
-      "questionsCE": 18,
+      "directItems": 10,
+      "descendantsOnly": 2,
+      "emptyItems": 2,
+      "emptyLeaves": 2,
+      "questionsCE": 21,
       "questionsMC": 1
     },
     {
@@ -78,33 +78,33 @@
       "id": "comunicacao-social",
       "label": "Comunicação Social",
       "totalItems": 45,
-      "directItems": 32,
+      "directItems": 34,
       "descendantsOnly": 5,
-      "emptyItems": 8,
-      "emptyLeaves": 8,
-      "questionsCE": 49,
+      "emptyItems": 6,
+      "emptyLeaves": 6,
+      "questionsCE": 55,
       "questionsMC": 5
     },
     {
       "id": "divulgacao-institucional",
       "label": "Divulgação Institucional",
       "totalItems": 40,
-      "directItems": 28,
+      "directItems": 30,
       "descendantsOnly": 6,
-      "emptyItems": 6,
-      "emptyLeaves": 6,
-      "questionsCE": 46,
+      "emptyItems": 4,
+      "emptyLeaves": 4,
+      "questionsCE": 48,
       "questionsMC": 0
     },
     {
       "id": "processo-legislativo-regimento",
       "label": "Processo Legislativo e Regimento Interno",
       "totalItems": 27,
-      "directItems": 13,
+      "directItems": 21,
       "descendantsOnly": 5,
-      "emptyItems": 9,
-      "emptyLeaves": 9,
-      "questionsCE": 17,
+      "emptyItems": 1,
+      "emptyLeaves": 1,
+      "questionsCE": 32,
       "questionsMC": 8
     },
     {
@@ -810,15 +810,18 @@
       "parentTopicId": null,
       "isLeaf": false,
       "state": "descendants_only",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
         "018-stj-cb1-01-q023",
-        "094-pf-cb1-01-q043"
+        "094-pf-cb1-01-q043",
+        "803-tj-es-006-01-q099",
+        "803-tj-es-006-01-q100",
+        "camara14-001-01-q204"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 5,
       "subtreeMC": 0
     },
     {
@@ -829,13 +832,19 @@
       "block": "basic",
       "parentTopicId": "direito-administrativo-administracao-publica-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "803-tj-es-006-01-q099",
+        "803-tj-es-006-01-q100"
+      ],
+      "directCE": 2,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "803-tj-es-006-01-q099",
+        "803-tj-es-006-01-q100"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -867,13 +876,17 @@
       "block": "basic",
       "parentTopicId": "direito-administrativo-administracao-publica-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-001-01-q204"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "camara14-001-01-q204"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -1010,9 +1023,10 @@
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "803-tj-es-006-01-q101",
         "993-tce-ac-cb3-01-q032"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -1044,13 +1058,17 @@
       "block": "basic",
       "parentTopicId": "direito-administrativo-administracao-publica-5",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "803-tj-es-006-01-q101"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "803-tj-es-006-01-q101"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -1062,14 +1080,17 @@
       "parentTopicId": null,
       "isLeaf": false,
       "state": "descendants_only",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "038-anm-005-01-q063",
+        "108-tcutefc-001-01-q066",
+        "108-tcutefc-001-01-q069",
         "993-tce-ac-cb3-01-q035"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 4,
       "subtreeMC": 0
     },
     {
@@ -1080,13 +1101,17 @@
       "block": "basic",
       "parentTopicId": "direito-administrativo-administracao-publica-6",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-005-01-q063"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "038-anm-005-01-q063"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -1097,13 +1122,17 @@
       "block": "basic",
       "parentTopicId": "direito-administrativo-administracao-publica-6",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-005-01-q063"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "038-anm-005-01-q063"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -1114,13 +1143,17 @@
       "block": "basic",
       "parentTopicId": "direito-administrativo-administracao-publica-6",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "108-tcutefc-001-01-q066"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "108-tcutefc-001-01-q066"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -1134,14 +1167,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
+        "108-tcutefc-001-01-q069",
         "993-tce-ac-cb3-01-q035"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "108-tcutefc-001-01-q069",
         "993-tce-ac-cb3-01-q035"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -1405,13 +1440,17 @@
       "directMC": 0,
       "subtreeQuestionIds": [
         "018-stj-cb1-01-q024",
+        "038-anm-024-01-q073",
         "038-anm-cg1-01-q024",
         "057-ibama-001-01-q064",
         "057-ibama-001-01-q067",
         "057-ibama-001-01-q069",
-        "057-ibama-001-01-q070"
+        "057-ibama-001-01-q070",
+        "108-tcutefc-001-01-q087",
+        "108-tcutefc-001-01-q088",
+        "803-tj-es-006-01-q103"
       ],
-      "subtreeCE": 6,
+      "subtreeCE": 10,
       "subtreeMC": 0
     },
     {
@@ -1492,14 +1531,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "057-ibama-001-01-q067"
+        "057-ibama-001-01-q067",
+        "803-tj-es-006-01-q103"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "057-ibama-001-01-q067"
+        "057-ibama-001-01-q067",
+        "803-tj-es-006-01-q103"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -1510,13 +1551,17 @@
       "block": "basic",
       "parentTopicId": "direito-administrativo-administracao-publica-10",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "108-tcutefc-001-01-q087"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "108-tcutefc-001-01-q087"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -1527,13 +1572,17 @@
       "block": "basic",
       "parentTopicId": "direito-administrativo-administracao-publica-10",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "108-tcutefc-001-01-q088"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "108-tcutefc-001-01-q088"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -1544,13 +1593,17 @@
       "block": "basic",
       "parentTopicId": "direito-administrativo-administracao-publica-10",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-024-01-q073"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "038-anm-024-01-q073"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -1758,16 +1811,17 @@
       "parentTopicId": null,
       "isLeaf": false,
       "state": "descendants_only",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
         "camara-2014-cb2-03-q097",
         "camara-2014-cb2-03-q100",
-        "camara-2023-tecnica-tarde-tipo1-q017"
+        "camara-2023-tecnica-tarde-tipo1-q017",
+        "camara14-cb1-01-q092"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 3,
       "subtreeMC": 1
     },
     {
@@ -1839,13 +1893,17 @@
       "block": "basic",
       "parentTopicId": "direito-constitucional-regimento-7",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-cb1-01-q092"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "camara14-cb1-01-q092"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -1856,13 +1914,16 @@
       "block": "basic",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "B",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "camara14-cb1-01-q096",
+        "camara14-cb1-01-q099"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -1890,13 +1951,19 @@
       "block": "basic",
       "parentTopicId": "direito-constitucional-regimento-8",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-cb1-01-q096",
+        "camara14-cb1-01-q099"
+      ],
+      "directCE": 2,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "camara14-cb1-01-q096",
+        "camara14-cb1-01-q099"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -2766,9 +2833,11 @@
         "232funprespexe-002-01-q084",
         "232funprespexe-002-01-q085",
         "232funprespexe-002-01-q093",
-        "539-alce-016-01-q025"
+        "539-alce-016-01-q025",
+        "803-tj-es-006-01-q072",
+        "893-dataprev-005-01-q114"
       ],
-      "subtreeCE": 10,
+      "subtreeCE": 12,
       "subtreeMC": 1
     },
     {
@@ -2932,13 +3001,19 @@
       "block": "specific",
       "parentTopicId": "comunicacao-social-4",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "803-tj-es-006-01-q072",
+        "893-dataprev-005-01-q114"
+      ],
+      "directCE": 2,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "803-tj-es-006-01-q072",
+        "893-dataprev-005-01-q114"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -2981,9 +3056,13 @@
       "subtreeQuestionIds": [
         "018-stj-006-01-q053",
         "018-stj-006-01-q079",
-        "072-stm-004-01-q116"
+        "072-stm-004-01-q116",
+        "893-dataprev-005-01-q107",
+        "893-dataprev-005-01-q108",
+        "893-dataprev-005-01-q109",
+        "893-dataprev-005-01-q110"
       ],
-      "subtreeCE": 3,
+      "subtreeCE": 7,
       "subtreeMC": 0
     },
     {
@@ -2994,13 +3073,19 @@
       "block": "specific",
       "parentTopicId": "comunicacao-social-5",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "893-dataprev-005-01-q109",
+        "893-dataprev-005-01-q110"
+      ],
+      "directCE": 2,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "893-dataprev-005-01-q109",
+        "893-dataprev-005-01-q110"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -3029,16 +3114,20 @@
       "parentTopicId": "comunicacao-social-5",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
-        "072-stm-004-01-q116"
+        "072-stm-004-01-q116",
+        "893-dataprev-005-01-q107",
+        "893-dataprev-005-01-q108"
       ],
-      "directCE": 1,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "072-stm-004-01-q116"
+        "072-stm-004-01-q116",
+        "893-dataprev-005-01-q107",
+        "893-dataprev-005-01-q108"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -3742,9 +3831,11 @@
         "038-anm-010-01-q073",
         "232funprespexe-002-01-q078",
         "232funprespexe-002-01-q079",
-        "232funprespexe-002-01-q080"
+        "232funprespexe-002-01-q080",
+        "803-tj-es-006-01-q067",
+        "893-dataprev-005-01-q104"
       ],
-      "subtreeCE": 6,
+      "subtreeCE": 8,
       "subtreeMC": 0
     },
     {
@@ -3801,13 +3892,17 @@
       "block": "specific",
       "parentTopicId": "divulgacao-institucional-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "803-tj-es-006-01-q067"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "803-tj-es-006-01-q067"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -3818,13 +3913,17 @@
       "block": "specific",
       "parentTopicId": "divulgacao-institucional-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "893-dataprev-005-01-q104"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "893-dataprev-005-01-q104"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -4331,16 +4430,19 @@
       "parentTopicId": null,
       "isLeaf": false,
       "state": "descendants_only",
-      "priority": "A",
+      "priority": "C",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
         "camara-2023-tecnica-tarde-tipo1-q015",
         "camara-2023-tecnica-tarde-tipo1-q018",
-        "camara-2023-tecnica-tarde-tipo1-q019"
+        "camara-2023-tecnica-tarde-tipo1-q019",
+        "camara14-cb1-01-q079",
+        "camara14-cb1-01-q083",
+        "camara14-cb1-01-q084"
       ],
-      "subtreeCE": 0,
+      "subtreeCE": 3,
       "subtreeMC": 3
     },
     {
@@ -4351,13 +4453,17 @@
       "block": "specific",
       "parentTopicId": "processo-legislativo-regimento-2",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-cb1-01-q083"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "camara14-cb1-01-q083"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -4368,13 +4474,17 @@
       "block": "specific",
       "parentTopicId": "processo-legislativo-regimento-2",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-cb1-01-q079"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "camara14-cb1-01-q079"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -4406,13 +4516,17 @@
       "block": "specific",
       "parentTopicId": "processo-legislativo-regimento-2",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-cb1-01-q084"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "camara14-cb1-01-q084"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -4465,13 +4579,17 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-001-01-q197"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "camara14-001-01-q197"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -4488,11 +4606,17 @@
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "108-tcutefc-001-01-q095",
+        "108-tcutefc-001-01-q096",
         "979-cnj-007-01-q067",
         "979-cnj-007-01-q073",
-        "camara-2014-cb2-03-q079"
+        "camara-2014-cb2-03-q079",
+        "camara14-001-01-q126",
+        "camara14-001-01-q128",
+        "camara14-001-01-q129",
+        "camara14-001-01-q132"
       ],
-      "subtreeCE": 3,
+      "subtreeCE": 9,
       "subtreeMC": 0
     },
     {
@@ -4545,13 +4669,19 @@
       "block": "specific",
       "parentTopicId": "processo-legislativo-regimento-4",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-001-01-q126",
+        "camara14-001-01-q132"
+      ],
+      "directCE": 2,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "camara14-001-01-q126",
+        "camara14-001-01-q132"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -4562,13 +4692,17 @@
       "block": "specific",
       "parentTopicId": "processo-legislativo-regimento-4",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-001-01-q129"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "camara14-001-01-q129"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -4600,13 +4734,17 @@
       "block": "specific",
       "parentTopicId": "processo-legislativo-regimento-4",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-001-01-q128"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "camara14-001-01-q128"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -4617,13 +4755,19 @@
       "block": "specific",
       "parentTopicId": "processo-legislativo-regimento-4",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "108-tcutefc-001-01-q095",
+        "108-tcutefc-001-01-q096"
+      ],
+      "directCE": 2,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "108-tcutefc-001-01-q095",
+        "108-tcutefc-001-01-q096"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -4693,16 +4837,22 @@
       "parentTopicId": null,
       "isLeaf": false,
       "state": "descendants_only",
-      "priority": "A",
+      "priority": "C",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
         "camara-2023-tecnica-tarde-tipo1-q027",
         "camara-2023-tecnica-tarde-tipo1-q028",
-        "camara-2023-tecnica-tarde-tipo1-q030"
+        "camara-2023-tecnica-tarde-tipo1-q030",
+        "camara14-cb1-01-q079",
+        "camara14-cb1-01-q080",
+        "camara14-cb1-01-q081",
+        "camara14-cb1-01-q082",
+        "camara14-cb1-01-q097",
+        "camara14-cb1-01-q098"
       ],
-      "subtreeCE": 0,
+      "subtreeCE": 6,
       "subtreeMC": 3
     },
     {
@@ -4714,16 +4864,20 @@
       "parentTopicId": "processo-legislativo-regimento-6",
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
-        "camara-2023-tecnica-tarde-tipo1-q030"
+        "camara-2023-tecnica-tarde-tipo1-q030",
+        "camara14-cb1-01-q097",
+        "camara14-cb1-01-q098"
       ],
-      "directCE": 0,
+      "directCE": 2,
       "directMC": 1,
       "subtreeQuestionIds": [
-        "camara-2023-tecnica-tarde-tipo1-q030"
+        "camara-2023-tecnica-tarde-tipo1-q030",
+        "camara14-cb1-01-q097",
+        "camara14-cb1-01-q098"
       ],
-      "subtreeCE": 0,
+      "subtreeCE": 2,
       "subtreeMC": 1
     },
     {
@@ -4756,16 +4910,24 @@
       "parentTopicId": "processo-legislativo-regimento-6",
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "C",
       "directQuestionIds": [
-        "camara-2023-tecnica-tarde-tipo1-q027"
+        "camara-2023-tecnica-tarde-tipo1-q027",
+        "camara14-cb1-01-q079",
+        "camara14-cb1-01-q080",
+        "camara14-cb1-01-q081",
+        "camara14-cb1-01-q082"
       ],
-      "directCE": 0,
+      "directCE": 4,
       "directMC": 1,
       "subtreeQuestionIds": [
-        "camara-2023-tecnica-tarde-tipo1-q027"
+        "camara-2023-tecnica-tarde-tipo1-q027",
+        "camara14-cb1-01-q079",
+        "camara14-cb1-01-q080",
+        "camara14-cb1-01-q081",
+        "camara14-cb1-01-q082"
       ],
-      "subtreeCE": 0,
+      "subtreeCE": 4,
       "subtreeMC": 1
     },
     {

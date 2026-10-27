@@ -45,10 +45,10 @@ class ReleasedFidelityTests(unittest.TestCase):
                 pages = self.pages[self.papers[q['origin']['paperId']]['documentId']]
                 page = clean(pages[int(locator.group(1)) - 1])
                 expected = clean(q['stem'])
-                if q['id'] in {'camara-2014-area-xix-q116', 'camara-2014-area-xix-q117', 'camara-2014-cb2-03-q088', 'camara-2014-cb2-03-q098'}:
+                if q['id'] in {'camara-2014-area-xix-q116', 'camara-2014-area-xix-q117', 'camara-2014-cb2-03-q088', 'camara-2014-cb2-03-q098', 'camara14-cb1-01-q082', 'camara14-001-01-q197', 'camara14-001-01-q204'}:
                     # -raw drops inter-word spaces in these justified lines.
                     # Exact words and original markers are independently checked
-                    # by bounded comparisons in test_eighth_batch/test_tenth_batch.
+                    # by bounded comparisons in test_eighth_batch/test_tenth_batch/test_fifteenth_batch.
                     expected, page = re.sub(r'\s+', '', expected), re.sub(r'\s+', '', page)
                 self.assertIn(expected, page)
                 for option in q['options']:

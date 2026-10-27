@@ -1,0 +1,378 @@
+{
+  "id": "fifteenth-source-discovery",
+  "checkedAt": "2026-10-27",
+  "scope": "Six complete official pairs selected after printed booklet/role/date/definitive range checks. Independent second PDF downloads match retained bytes. Research is not exhaustive.",
+  "listings": [
+    {
+      "event": "camara_orc_2014",
+      "url": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/folder_listing",
+      "file": "data/reviews/fifteenth-source-listings/provas-consultor-de-orcamento-e-fiscalizacao-financeira-folder_listing.html",
+      "sha256": "77e29e21e5856cf5c591fd6ae2b5400bc79c5e86cc521d4fef24ca4db761f814"
+    },
+    {
+      "event": "dataprev_23",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/dataprev_23",
+      "file": "data/reviews/fifteenth-source-listings/dataprev_23.json",
+      "sha256": "96bae562cd1fdc9b18580cdf9831baaae30261c03687b3dd781d01f277687226"
+    },
+    {
+      "event": "tj_es_23",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/tj_es_23",
+      "file": "data/reviews/fifteenth-source-listings/tj_es_23.json",
+      "sha256": "daeda41f42a6e67dd673bc2a59e5e874baa63eeca648bf598a38ef7705f2006a"
+    },
+    {
+      "event": "tcu_25_tefc",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/tcu_25_tefc",
+      "file": "data/reviews/fifteenth-source-listings/tcu_25_tefc.json",
+      "sha256": "a30c9a07cbb031546418bc3d815bcb07cb9fc121c081b8e7f86ab1fdd07f6f72"
+    },
+    {
+      "event": "anm_24",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/anm_24",
+      "file": "data/reviews/fifteenth-source-listings/anm_24.json",
+      "sha256": "6f9181e79372949c79d8fcd7810c4ae63f90320beb8d3c0db4f14a71636699dc"
+    }
+  ],
+  "pairs": [
+    {
+      "paperId": "source-camara14-cb1-01",
+      "event": "camara_orc_2014",
+      "booklet": "CAMARA14_CB1_01",
+      "applicationDate": "2014-04-13",
+      "documents": [
+        {
+          "documentId": "source-camara14-cb1-01-paper",
+          "url": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/conteudo-basico",
+          "sha256": "79e09d74319bb470f4a9a075f9417fc6c1bd227e63cb788d4ea52f078041ac73",
+          "listingEntry": {
+            "href": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/conteudo-basico"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-camara14-cb1-01-key",
+          "url": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/gabarito-conteudo-basico",
+          "sha256": "85ba8e03fd988ea1233d2c81d1b0412ed8106333d704405dae0f2fd0243bcb31",
+          "listingEntry": {
+            "href": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/gabarito-conteudo-basico"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 1,
+      "lastItem": 100,
+      "itemCount": 100,
+      "annulledItems": [
+        6,
+        12,
+        32,
+        47,
+        57,
+        59,
+        60,
+        100
+      ],
+      "pairingStatus": "matched_by_role_type_and_session"
+    },
+    {
+      "paperId": "source-camara14-001-01",
+      "event": "camara_orc_2014",
+      "booklet": "CAMARA14_001_01",
+      "applicationDate": "2014-04-13",
+      "documents": [
+        {
+          "documentId": "source-camara14-001-01-paper",
+          "url": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/conteudo-especifico",
+          "sha256": "b0ad6de8724a0a4ad67f820f015859d8581a6f36a45ef62dc7b1bc54e37e4864",
+          "listingEntry": {
+            "href": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/conteudo-especifico"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-camara14-001-01-key",
+          "url": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/gabarito-p2",
+          "sha256": "6d05f7d6995db76398c2d74eb954c7fc7e9c821cc9513676f8e9b469e9686ebf",
+          "listingEntry": {
+            "href": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/gabarito-p2"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 101,
+      "lastItem": 220,
+      "itemCount": 120,
+      "annulledItems": [
+        120,
+        166
+      ],
+      "pairingStatus": "matched_by_role_type_and_session"
+    },
+    {
+      "paperId": "source-893-dataprev-005-01",
+      "event": "dataprev_23",
+      "booklet": "893_DATAPREV_005_01",
+      "applicationDate": "2023-10-01",
+      "documents": [
+        {
+          "documentId": "source-893-dataprev-005-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/DATAPREV_23/arquivos/893_DATAPREV_005_01.PDF",
+          "sha256": "6d3f3d4fcd141618cf9303726b49a8b6096a7654e93393ccaca3b49fff79ca37",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "06/10/2023 10:00",
+            "nomeArquivo": "893_DATAPREV_005_01.PDF",
+            "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS ESPECÍFICOS - CARGO 5",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2023-10-06T10:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-893-dataprev-005-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/DATAPREV_23/arquivos/GAB_DEFINITIVO_893_DATAPREV_005_01.PDF",
+          "sha256": "83b06f91be62ae9404ddd888d0239b2af65e21155a76b0c3e34bef179480212c",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "20/10/2023 19:00",
+            "nomeArquivo": "GAB_DEFINITIVO_893_DATAPREV_005_01.PDF",
+            "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS - CARGO 5",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2023-10-20T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "annulledItems": [
+        101,
+        102,
+        112,
+        113,
+        119
+      ],
+      "pairingStatus": "matched_by_filename_and_range"
+    },
+    {
+      "paperId": "source-803-tj-es-006-01",
+      "event": "tj_es_23",
+      "booklet": "803_TJ_ES_006_01",
+      "applicationDate": "2023-03-19",
+      "documents": [
+        {
+          "documentId": "source-803-tj-es-006-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/TJ_ES_23/arquivos/803_TJ_ES_006_01.PDF",
+          "sha256": "9edfe6202c7980cdb30b738c14826ef5e9596e09f405aa75257225311fda1402",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "24/03/2023 12:40",
+            "nomeArquivo": "803_TJ_ES_006_01.PDF",
+            "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS ESPECÍFICOS - CARGO 6",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2023-03-24T12:40:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-803-tj-es-006-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/TJ_ES_23/arquivos/GAB_DEFINITIVO_803_TJ_ES_006_01.PDF",
+          "sha256": "d1ea80c138dbd1cd982806965d9b71a339202fb1555713df22ee24e48fdf6a00",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "18/04/2023 18:00",
+            "nomeArquivo": "GAB_DEFINITIVO_803_TJ_ES_006_01.PDF",
+            "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS - CARGO 6",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2023-04-18T18:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "annulledItems": [
+        108,
+        115
+      ],
+      "pairingStatus": "matched_by_filename_and_range"
+    },
+    {
+      "paperId": "source-108-tcutefc-001-01",
+      "event": "tcu_25_tefc",
+      "booklet": "108_TCUTEFC_001_01",
+      "applicationDate": "2025-08-03",
+      "documents": [
+        {
+          "documentId": "source-108-tcutefc-001-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/TCU_25_TEFC/arquivos/108_TCUTEFC_001_01.pdf",
+          "sha256": "e21da3b873b7e6efee58b28295789cbd93e5ab8fcf87c020883905d94415145b",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "08/08/2025 19:00",
+            "nomeArquivo": "108_TCUTEFC_001_01.pdf",
+            "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2025-08-08T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-108-tcutefc-001-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/TCU_25_TEFC/arquivos/E53AB5C65454510E881F7667E620F44B6DDD1C083D5175412CF8725A3C9B9C9F.pdf",
+          "sha256": "0e0bfef8488d419bba2769df86b7889f5e3778daf26564acd08cb4c0b09fdbd0",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "29/08/2025 09:45",
+            "nomeArquivo": "E53AB5C65454510E881F7667E620F44B6DDD1C083D5175412CF8725A3C9B9C9F.pdf",
+            "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2025-08-29T09:45:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "annulledItems": [
+        53,
+        56,
+        70,
+        91,
+        92,
+        93,
+        94,
+        119
+      ],
+      "pairingStatus": "matched_by_role_type_and_session"
+    },
+    {
+      "paperId": "source-038-anm-005-01",
+      "event": "anm_24",
+      "booklet": "038_ANM_005_01",
+      "applicationDate": "2025-02-16",
+      "documents": [
+        {
+          "documentId": "source-038-anm-005-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_005_01.PDF",
+          "sha256": "287c1dea6191d3e7100fc61750e157d72067638dd27e8f55579815c07c308ff7",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "21/02/2025 19:00",
+            "nomeArquivo": "038_ANM_005_01.PDF",
+            "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 5",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2025-02-21T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-038-anm-005-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_005_01.PDF",
+          "sha256": "336f33d329b38037193d408fc34c8ce196045a933497e939c5a1ae03e8757f42",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.PDF",
+            "dataArquivo": "18/03/2025 18:10",
+            "nomeArquivo": "Gab_Definitivo_038_ANM_005_01.PDF",
+            "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – CARGO 5",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2025-03-18T18:10:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "annulledItems": [],
+      "pairingStatus": "matched_by_filename_and_range"
+    }
+  ],
+  "references": [
+    {
+      "documentId": "reference-lei-4320-1964",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+      "file": "sources/references/lei4320.html",
+      "sha256": "44366eeb6c615a57b8244a2e36e323a04936a73cb9d25d86e6b074d5db1a4791",
+      "method": "retained_initial_download_hash_only_not_repeat_equality"
+    },
+    {
+      "documentId": "reference-lrf-2000",
+      "url": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html",
+      "file": "sources/references/lrf.html",
+      "sha256": "9e178a491fd3ba44c4956316bc9ef602a5d544b2fa5d8a52abaa2e6bac3de691",
+      "method": "retained_initial_download_hash_only_not_repeat_equality"
+    },
+    {
+      "documentId": "reference-in-seges-58-2022",
+      "url": "https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-no-58-de-8-de-agosto-de-2022",
+      "file": "sources/references/in58.html",
+      "sha256": "fa816b6ef795c469c8e85e31645549355525035361357dad3972fc830b9a0b39",
+      "method": "retained_initial_download_hash_only_not_repeat_equality"
+    },
+    {
+      "documentId": "reference-stf-tema-1237",
+      "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=6411925&numeroProcesso=1385315&classeProcesso=ARE&numeroTema=1237",
+      "file": "sources/references/stf1237-case.html",
+      "sha256": "00b231048a4f7793c7e4cda74e93967c7c9f04d03938d8913d86e0aea4be8c9b",
+      "method": "retained_initial_download_hash_only_not_repeat_equality"
+    }
+  ],
+  "excludedCandidates": [
+    {
+      "candidate": "Câmara 2012 Técnica Legislativa, links Tipo24",
+      "reason": "A chave encontrada traz PRELIMINARY e CAMARA12_007_24; o arquivo de prova indicado como Tipo24 traz CAMARA12_007_35. Não há par definitivo comprovado para importação.",
+      "files": [
+        {
+          "file": "data/reviews/fifteenth-source-listings/excluded/Prova_Tipo24_ObjDisc_TecLegislativa.pdf",
+          "sha256": "d8fb87399c9206c598f4fa4d4fc88e3b3a4cad7f06a702ac86eaf1e207b2bfe8"
+        },
+        {
+          "file": "data/reviews/fifteenth-source-listings/excluded/Gab_Tipo24_ObjDisc_TecLegislativa.pdf",
+          "sha256": "2d798f9f51ba95d1912db73b67a2a63b5123f377181cbb3f6ace84e85a8879f9"
+        }
+      ]
+    },
+    {
+      "candidate": "DATAPREV 005 / 101, 102, 112, 113, 119",
+      "reason": "Anulados na chave definitiva; não publicados."
+    },
+    {
+      "candidate": "Câmara Orçamento CB1 / 100",
+      "reason": "Anulado; a seleção de Regimento Comum inclui somente 96–99."
+    },
+    {
+      "candidate": "CAESB 014 / storytelling",
+      "reason": "Candidatos tratam de experiência do usuário, não narrativa de dados; MC não transformada em CE."
+    },
+    {
+      "candidate": "Câmara 2014 Área I",
+      "reason": "A exclusão anterior permanece: o link de chave entrega o caderno. Não confundir com os novos pares de Orçamento CB1/001."
+    },
+    {
+      "candidate": "Câmara 2023 Técnica / 29",
+      "reason": "Pendência de fundamentação da situação IV permanece preservada, sem alterar chave E."
+    },
+    {
+      "candidate": "Modelos de gestão e governança",
+      "reason": "Não mapear New Public Management, governança corporativa ou projetos genéricos como Nova Governança Pública/Valor Público apenas pela proximidade das palavras."
+    }
+  ],
+  "researchScope": [
+    "Official Câmara archive: 2000/2002/2007/2012/2014 listings consulted; new complete budget pairs confirmed in folder_listing. Earlier keys with preliminary/mismatched identity remain excluded.",
+    "Cebraspe official event APIs and complete booklets: DATAPREV_23, TJ_ES_23, TCU_25_TEFC, ANM_24 selected. Candidate IT/data and communication booklets from CAESB_24/CAGEPA_24/ANATEL_24/BCB_24/CNPQ_23/PETROBRAS_21_NS were examined selectively, without exhaustive release.",
+    "No claim that absent search results prove there are no official questions; all unreleased candidates remain outside the eligible pool."
+  ]
+}

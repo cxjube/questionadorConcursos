@@ -290,7 +290,7 @@ const Study = (() => {
     const date = v => typeof v === 'string' && /^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d\.\d{3}Z$/.test(v) && Number.isFinite(Date.parse(v)) && new Date(v).toISOString() === v;
     const array = (v, max) => Array.isArray(v) && v.length <= max;
     const url = v => {
-      try { const u = new URL(v); return u.protocol === 'https:' && !u.username && !u.password && ['cdn.cebraspe.org.br', 'www.cebraspe.org.br', 'www.camara.leg.br', 'www2.camara.leg.br', 'www.planalto.gov.br', 'conhecimento.fgv.br', 'www12.senado.leg.br', 'www25.senado.leg.br', 'repositorio.enap.gov.br', 'cartilha.cert.br', 'developers.google.com', 'support.microsoft.com', 'learn.microsoft.com', 'dicionario.priberam.org'].includes(u.hostname); } catch (_) { return false; }
+      try { const u = new URL(v); return u.protocol === 'https:' && !u.username && !u.password && ['cdn.cebraspe.org.br', 'www.cebraspe.org.br', 'www.camara.leg.br', 'www2.camara.leg.br', 'www.planalto.gov.br', 'conhecimento.fgv.br', 'www12.senado.leg.br', 'www25.senado.leg.br', 'www.gov.br', 'portal.stf.jus.br', 'repositorio.enap.gov.br', 'cartilha.cert.br', 'developers.google.com', 'support.microsoft.com', 'learn.microsoft.com', 'dicionario.priberam.org'].includes(u.hostname); } catch (_) { return false; }
     };
     if (!record(progress) || progress.version !== VERSION || progress.bankId !== 'concursos' || !array(progress.history, 500) || !own(progress, 'active')) fail();
     if (progress.active !== null && progress.history.length >= 500) fail();
