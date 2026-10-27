@@ -1,5 +1,7 @@
 # Revisão das diretrizes recebidas — 23/10/2026
 
+> Estado atual: [17º lote](seventeenth-batch-release.md), 395 questões, 378 C/E, 181/228 itens diretos, reserva 169/209 e 14 lacunas. As atualizações anteriores abaixo são históricas.
+
 > Atualização: [16º lote](sixteenth-batch-release.md), com 372 questões (355 C/E e 17 MC), 179/228 itens diretos, reserva 168/187 e 16 subárvores vazias. Duas MC oficiais citam o Manual de Comunicação da Câmara; os registros anteriores preservam o histórico.
 
 > Atualização: [15º lote](fifteenth-batch-release.md), com 339 questões (324 C/E), 165/228 itens diretos e reserva 154/170 em P1/P2. Restam 30 subárvores vazias. As atualizações anteriores preservam o histórico.

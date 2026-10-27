@@ -124,7 +124,7 @@ class NinthBatchTests(unittest.TestCase):
                 self.assertIn(cite['activeQuote'], reference_text((ROOT / self.docs[cite['documentId']]['file']).read_bytes()))
         comments = {e['questionId']: e for e in self.c['explanations']}
         self.assertEqual(set(comments), set(self.questions))
-        self.assertEqual(len(comments), 372)
+        self.assertEqual(len(comments), 395)
         for row in self.review['items']:
             e = comments[row['questionId']]
             self.assertIn('assistido por IA', e['author'])

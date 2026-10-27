@@ -1,12 +1,12 @@
 # Mapa atual do banco de questões
 
-Última revisão: 2026-10-27; lote `sixteenth-batch`. São 372 questões e 379 vínculos; **179/228 itens com vínculo direto**, 32 atendidos só por descendentes e 16 sem questões na subárvore (16 folhas). O título amplo Ciência Política 1 permanece separado.
+Última revisão: 2026-10-27; lote `seventeenth-batch`. São 395 questões e 404 vínculos; **181/228 itens com vínculo direto**, 32 atendidos só por descendentes e 14 sem questões na subárvore (14 folhas). O título amplo Ciência Política 1 permanece separado.
 
-C/E: P1 **168**, P2 **187**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
+C/E: P1 **169**, P2 **209**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
 
 Direto significa vínculo ao item exato; subárvore reúne o próprio item e seus descendentes, sem duplicar IDs. Vínculos de pais não são distribuídos aos filhos. Prioridades editoriais: A sem C/E, B com 1–2 C/E, C com 3 ou mais. Pais e filhos se sobrepõem; as contagens não são pesos oficiais.
 
-[Entrega do 16º lote](sixteenth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)
+[Entrega do 17º lote](seventeenth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)
 
 ## Disciplinas
 
@@ -14,11 +14,11 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | --- | ---: | ---: | ---: | ---: |
 | Língua Portuguesa | 16/20 | 40 | 0 | 1 |
 | Língua Inglesa | 3/3 | 19 | 0 | 0 |
-| Noções de Direito Administrativo e Administração Pública | 34/46 | 54 | 0 | 4 |
+| Noções de Direito Administrativo e Administração Pública | 35/46 | 55 | 0 | 3 |
 | Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados | 10/14 | 21 | 1 | 2 |
 | Tecnologia da Informação e Dados | 17/20 | 34 | 0 | 0 |
-| Comunicação Social | 36/45 | 62 | 7 | 4 |
-| Divulgação Institucional | 31/40 | 55 | 0 | 3 |
+| Comunicação Social | 37/45 | 73 | 7 | 3 |
+| Divulgação Institucional | 31/40 | 66 | 0 | 3 |
 | Processo Legislativo e Regimento Interno | 21/27 | 32 | 8 | 1 |
 | Ciência Política | 11/13 | 39 | 2 | 1 |
 
@@ -27,7 +27,7 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 1. Prompts e IA generativa foram iniciados com itens válidos da ANM/TRT10. Power BI/Tableau 8.3 têm duas amostras válidas e storytelling de dados 8.4 tem uma da Funpresp-Jud. Ampliar diversidade de gráficos, ferramentas e narrativas. Itens anulados do STJ/ANM continuam excluídos.
 2. Regimento Comum tem agora C/E em Constitucional 8.2 e Processo 6.1/6.3, além de três MC preservadas. Ainda faltam C/E em Constitucional 8.1 (Título I) e Processo 6.2 (Resolução 3/1990).
 3. Planejamento de redes (5.1) e colaboração online (5.2) têm C/E; elementos de publicação (5.4) continuam sem questões. Manual de Comunicação da Câmara (8.2) tem duas MC oficiais da ALERJ. Ato 218/2025 e Manual de Linguagem Simples (8.1/10.1) seguem sem questões específicas confirmadas.
-4. Expandir governança pública em redes, contratos, responsabilidade civil e orçamento: os novos vínculos são amostras pequenas e não esgotam os subitens.
+4. Cooperação com o terceiro setor tem uma C/E do Ibama; CF 37, § 1º, tem vínculo versionado por vedação de promoção pessoal. Ainda faltam parecerista, Nova Governança Pública e Decreto 9203 específico; os vínculos são amostras parciais.
 5. Ampliar ortografia, coordenação, substituição lexical e história política, iniciadas neste lote. Ainda faltam reescrita por gênero/formalidade e política internacional contemporânea. Inglês, pesquisas e demais itens com poucas amostras precisam de diversidade.
 
 ## Inventário completo
@@ -95,9 +95,9 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 6.4 | Requisitos para a demonstração da responsabilidade do Estado. | 2 | 0 | 2 | 0 | Direto | B |
 | 6.5 | Causas excludentes e atenuantes da responsabilidade do Estado. | 1 | 0 | 1 | 0 | Direto | B |
 | 7 | Improbidade Administrativa (Lei nº 8.429/1992 e suas alterações). | 4 | 0 | 4 | 0 | Direto | C |
-| 8 | Evolução dos modelos de gestão pública: patrimonialismo, administração burocrática e nova gestão pública (New Public Management). | 2 | 0 | 5 | 0 | Direto | C |
+| 8 | Evolução dos modelos de gestão pública: patrimonialismo, administração burocrática e nova gestão pública (New Public Management). | 2 | 0 | 6 | 0 | Direto | C |
 | 8.1 | Nova Governança Pública (New Public Governance): conceito, fundamentos e evolução. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 8.2 | Ação pública em redes de cooperação, articulação interinstitucional e parcerias com o setor privado e terceiro setor. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 8.2 | Ação pública em redes de cooperação, articulação interinstitucional e parcerias com o setor privado e terceiro setor. | 1 | 0 | 1 | 0 | Direto | B |
 | 8.3 | Coprodução do bem público, participação cidadã e transparência ativa. | 2 | 0 | 2 | 0 | Direto | B |
 | 8.4 | Valor Público, cadeia de valor público. | 1 | 0 | 1 | 0 | Direto | B |
 | 9 | Governança na Administração Pública. | 0 | 0 | 6 | 0 | Só descendentes | C |
@@ -164,23 +164,23 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 
 | Item | Conteúdo oficial | C/E direto | MC direto | C/E subárvore | MC subárvore | Situação | Prioridade |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 1 | Teorias da Comunicação. | 0 | 1 | 8 | 2 | Direto | C |
+| 1 | Teorias da Comunicação. | 0 | 1 | 9 | 2 | Direto | C |
 | 1.1 | Escolas, paradigmas, correntes, modelos, principais pensadores. | 2 | 0 | 2 | 0 | Direto | B |
 | 1.2 | Comunicação e opinião pública. | 2 | 1 | 2 | 1 | Direto | B |
-| 1.3 | Midiatização e plataformização. | 1 | 0 | 1 | 0 | Direto | B |
+| 1.3 | Midiatização e plataformização. | 2 | 0 | 2 | 0 | Direto | B |
 | 1.4 | Desinformação e integridade da informação. | 3 | 0 | 3 | 0 | Direto | C |
-| 2 | Comunicação interna. | 0 | 0 | 10 | 0 | Só descendentes | C |
+| 2 | Comunicação interna. | 0 | 0 | 12 | 0 | Só descendentes | C |
 | 2.1 | Conceito, funções e objetivos da comunicação interna. | 3 | 0 | 3 | 0 | Direto | C |
 | 2.2 | Ferramentas e canais de comunicação interna (intranet, veículos impressos/digitais, jornais murais, newsletters, eventos). | 3 | 0 | 3 | 0 | Direto | C |
-| 2.3 | Endomarketing: conceitos e estratégias de engajamento. | 2 | 0 | 2 | 0 | Direto | B |
-| 2.4 | Comunicação e cultura organizacional. | 1 | 0 | 1 | 0 | Direto | B |
+| 2.3 | Endomarketing: conceitos e estratégias de engajamento. | 3 | 0 | 3 | 0 | Direto | C |
+| 2.4 | Comunicação e cultura organizacional. | 2 | 0 | 2 | 0 | Direto | B |
 | 2.5 | Gestão do clima organizacional por meio da comunicação. | 1 | 0 | 1 | 0 | Direto | B |
-| 3 | Comunicação institucional. | 0 | 0 | 6 | 1 | Só descendentes | C |
-| 3.1 | Conceito e objetivos da comunicação institucional. | 1 | 0 | 1 | 0 | Direto | B |
-| 3.2 | Gestão da imagem, identidade e reputação corporativa/institucional. | 1 | 0 | 1 | 0 | Direto | B |
+| 3 | Comunicação institucional. | 0 | 0 | 8 | 1 | Só descendentes | C |
+| 3.1 | Conceito e objetivos da comunicação institucional. | 2 | 0 | 2 | 0 | Direto | B |
+| 3.2 | Gestão da imagem, identidade e reputação corporativa/institucional. | 2 | 0 | 2 | 0 | Direto | B |
 | 3.3 | Gerenciamento de crises. | 0 | 1 | 0 | 1 | Direto | A |
 | 3.4 | Técnicas e ferramentas de gerenciamento de crises. | 4 | 0 | 4 | 0 | Direto | C |
-| 4 | Comunicação organizacional. | 0 | 0 | 13 | 1 | Só descendentes | C |
+| 4 | Comunicação organizacional. | 0 | 0 | 15 | 1 | Só descendentes | C |
 | 4.1 | Conceito, objetivos e dimensões da comunicação organizacional. | 1 | 0 | 1 | 0 | Direto | B |
 | 4.2 | O composto da comunicação integrada (comunicação institucional, mercadológica, interna e administrativa). | 0 | 1 | 0 | 1 | Direto | A |
 | 4.3 | Planejamento estratégico de comunicação. | 3 | 0 | 3 | 0 | Direto | C |
@@ -188,16 +188,16 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 4.5 | Comunicação formal e informal nas organizações. | 1 | 0 | 1 | 0 | Direto | B |
 | 4.6 | Definição de públicos-alvo: pesquisa, segmentação, canais de interação. | 2 | 0 | 2 | 0 | Direto | B |
 | 4.7 | Definição de indicadores de resultados em comunicação. | 1 | 0 | 1 | 0 | Direto | B |
-| 4.8 | Plano de comunicação. | 3 | 0 | 3 | 0 | Direto | C |
-| 4.9 | Gestão de projetos de comunicação. | 1 | 0 | 1 | 0 | Direto | B |
+| 4.8 | Plano de comunicação. | 4 | 0 | 4 | 0 | Direto | C |
+| 4.9 | Gestão de projetos de comunicação. | 2 | 0 | 2 | 0 | Direto | B |
 | 5 | Redes sociais digitais oficiais. | 2 | 0 | 12 | 0 | Direto | C |
 | 5.1 | Planejamento e produção de conteúdo. | 4 | 0 | 4 | 0 | Direto | C |
 | 5.2 | Postagens e colaborações. | 2 | 0 | 2 | 0 | Direto | B |
 | 5.3 | Características das principais plataformas de mídias sociais: diferenças de públicos, linguagem, formatos (4:5, 3:4, 9:16) e conteúdos (cards, carrossel, vídeos, stories, lives). | 4 | 0 | 4 | 0 | Direto | C |
 | 5.4 | Elementos fundamentais de publicações em redes sociais: capa, legenda, marcação, palavras-chave, call to action. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 6 | Transparência pública. | 1 | 0 | 1 | 0 | Direto | B |
-| 7 | Comunicação Pública. | 0 | 0 | 5 | 2 | Só descendentes | C |
-| 7.1 | Conceitos, fundamentos e especificidades da comunicação pública. | 4 | 2 | 4 | 2 | Direto | C |
+| 6 | Transparência pública. | 2 | 0 | 2 | 0 | Direto | B |
+| 7 | Comunicação Pública. | 0 | 0 | 6 | 2 | Só descendentes | C |
+| 7.1 | Conceitos, fundamentos e especificidades da comunicação pública. | 5 | 2 | 5 | 2 | Direto | C |
 | 7.2 | Comunicação pública versus comunicação governamental e comunicação político-partidária. | 1 | 0 | 1 | 0 | Direto | B |
 | 8 | Políticas de comunicação. | 1 | 0 | 1 | 2 | Direto | B |
 | 8.1 | Política de comunicação da Câmara dos Deputados (Ato da Mesa nº 218/2025). | 0 | 0 | 0 | 0 | Sem questões | A |
@@ -205,10 +205,10 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 9 | Inteligência artificial na comunicação. | 0 | 0 | 4 | 0 | Só descendentes | C |
 | 9.1 | Aplicações da IA na comunicação. | 2 | 0 | 2 | 0 | Direto | B |
 | 9.2 | Ética no uso de IA na comunicação. | 2 | 0 | 2 | 0 | Direto | B |
-| 10 | Linguagem simples e usabilidade. | 1 | 0 | 2 | 0 | Direto | B |
+| 10 | Linguagem simples e usabilidade. | 1 | 0 | 4 | 0 | Direto | C |
 | 10.1 | Manual de linguagem simples da Câmara dos Deputados. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 10.2 | Conceito e técnicas de usabilidade. | 1 | 0 | 1 | 0 | Direto | B |
-| 11 | Princípios constitucionais da administração pública aplicados à comunicação (Art. 37, § 1º da CF/88 e suas alterações). | 0 | 0 | 0 | 0 | Sem questões | A |
+| 10.2 | Conceito e técnicas de usabilidade. | 3 | 0 | 3 | 0 | Direto | C |
+| 11 | Princípios constitucionais da administração pública aplicados à comunicação (Art. 37, § 1º da CF/88 e suas alterações). | 1 | 0 | 1 | 0 | Direto | B |
 
 ### Divulgação Institucional
 
@@ -222,34 +222,34 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 1.5 | Mídia: características dos diferentes tipos de veículos e plataformas de comunicação, plano de mídia, monitoramento e análise de dados. | 3 | 0 | 3 | 0 | Direto | C |
 | 1.6 | Produção de campanhas publicitárias. | 2 | 0 | 2 | 0 | Direto | B |
 | 1.7 | Produção e redação de peças publicitárias para diversas mídias. | 3 | 0 | 3 | 0 | Direto | C |
-| 2 | Marketing. | 0 | 0 | 11 | 0 | Só descendentes | C |
+| 2 | Marketing. | 0 | 0 | 13 | 0 | Só descendentes | C |
 | 2.1 | Conceitos de marketing. | 2 | 0 | 2 | 0 | Direto | B |
 | 2.2 | Planejamento de marketing. | 2 | 0 | 2 | 0 | Direto | B |
-| 2.3 | Marketing institucional. | 1 | 0 | 1 | 0 | Direto | B |
-| 2.4 | Endomarketing. | 2 | 0 | 2 | 0 | Direto | B |
+| 2.3 | Marketing institucional. | 2 | 0 | 2 | 0 | Direto | B |
+| 2.4 | Endomarketing. | 3 | 0 | 3 | 0 | Direto | C |
 | 2.5 | Segmentação. | 1 | 0 | 1 | 0 | Direto | B |
 | 2.6 | Marketing digital. | 1 | 0 | 1 | 0 | Direto | B |
 | 2.7 | Comportamento do consumidor. | 2 | 0 | 2 | 0 | Direto | B |
-| 3 | Pesquisa Aplicada à Comunicação. | 0 | 0 | 8 | 0 | Só descendentes | C |
-| 3.1 | Pesquisas qualitativas e quantitativas. | 3 | 0 | 3 | 0 | Direto | C |
-| 3.2 | Pesquisa de mercado. | 1 | 0 | 1 | 0 | Direto | B |
-| 3.3 | Pesquisa de opinião pública. | 1 | 0 | 1 | 0 | Direto | B |
+| 3 | Pesquisa Aplicada à Comunicação. | 0 | 0 | 13 | 0 | Só descendentes | C |
+| 3.1 | Pesquisas qualitativas e quantitativas. | 4 | 0 | 4 | 0 | Direto | C |
+| 3.2 | Pesquisa de mercado. | 3 | 0 | 3 | 0 | Direto | C |
+| 3.3 | Pesquisa de opinião pública. | 3 | 0 | 3 | 0 | Direto | C |
 | 3.4 | Pesquisa de imagem. | 1 | 0 | 1 | 0 | Direto | B |
-| 3.5 | Pesquisa de mídia. | 1 | 0 | 1 | 0 | Direto | B |
+| 3.5 | Pesquisa de mídia. | 2 | 0 | 2 | 0 | Direto | B |
 | 3.6 | Métricas de avaliação na publicidade digital. | 1 | 0 | 1 | 0 | Direto | B |
-| 4 | Marca e Branding. | 0 | 0 | 4 | 0 | Só descendentes | C |
+| 4 | Marca e Branding. | 0 | 0 | 5 | 0 | Só descendentes | C |
 | 4.1 | Conceito de marca. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 4.2 | Branding. | 3 | 0 | 3 | 0 | Direto | C |
-| 4.3 | Gerenciamento de marca. | 1 | 0 | 1 | 0 | Direto | B |
-| 5 | Design e Produção. | 0 | 0 | 9 | 0 | Só descendentes | C |
+| 4.3 | Gerenciamento de marca. | 2 | 0 | 2 | 0 | Direto | B |
+| 5 | Design e Produção. | 0 | 0 | 11 | 0 | Só descendentes | C |
 | 5.1 | Design gráfico. | 1 | 0 | 1 | 0 | Direto | B |
 | 5.2 | Produção gráfica. | 1 | 0 | 1 | 0 | Direto | B |
-| 5.3 | Produção digital. | 2 | 0 | 2 | 0 | Direto | B |
+| 5.3 | Produção digital. | 3 | 0 | 3 | 0 | Direto | C |
 | 5.4 | Produção para rádio, televisão e redes sociais. | 2 | 0 | 2 | 0 | Direto | B |
 | 5.5 | Criação e produção de projetos gráficos. | 1 | 0 | 1 | 0 | Direto | B |
-| 5.6 | Criação e produção de projetos audiovisuais. | 1 | 0 | 1 | 0 | Direto | B |
+| 5.6 | Criação e produção de projetos audiovisuais. | 2 | 0 | 2 | 0 | Direto | B |
 | 5.7 | Criação e produção de publicações: definição de objetivos, público-alvo, linha editorial, identidade, estratégia de distribuição, indicadores e avaliação. | 1 | 0 | 1 | 0 | Direto | B |
-| 6 | Ética na comunicação. | 2 | 0 | 2 | 0 | Direto | B |
+| 6 | Ética na comunicação. | 3 | 0 | 3 | 0 | Direto | C |
 | 7 | Gestão de equipes em publicidade. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 8 | Legislação profissional de publicidade. | 0 | 0 | 5 | 0 | Só descendentes | C |
 | 8.1 | Ética publicitária – código brasileiro de autoregulamentação publicitária. | 1 | 0 | 1 | 0 | Direto | B |

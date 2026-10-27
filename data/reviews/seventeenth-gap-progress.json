@@ -1,0 +1,172 @@
+{
+  "reviewedAt": "2026-10-27",
+  "scope": "Consolidação parcial das 16 lacunas; 14 continuam abertas. Não comprova cobertura integral.",
+  "beforeEmpty": 16,
+  "afterEmpty": 14,
+  "items": [
+    {
+      "syllabusItemId": "camara-2026-lingua-portuguesa-6-4",
+      "label": "Reescrita de textos de diferentes gêneros e níveis de formalidade.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Pendente de questão oficial diretamente compatível e gabarito definitivo; não preencher com assunto vizinho."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-2-2",
+      "label": "Parecer: responsabilidade do emissor do parecer.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Pendente de questão oficial diretamente compatível e gabarito definitivo; não preencher com assunto vizinho."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-8-1",
+      "label": "Nova Governança Pública (New Public Governance): conceito, fundamentos e evolução.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Pendente de questão oficial diretamente compatível e gabarito definitivo; não preencher com assunto vizinho."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-8-2",
+      "label": "Ação pública em redes de cooperação, articulação interinstitucional e parcerias com o setor privado e terceiro setor.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "afterCE": 1,
+      "afterMC": 0,
+      "newQuestionIds": [
+        "057-ibama-cb1-01-q044"
+      ],
+      "decision": "Amostra parcial com fonte/gabarito, sem declarar domínio integral."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-9-4",
+      "label": "Decreto Federal nº 9.203/2017 e suas alterações (política de governança da administração pública federal direta, autárquica e fundacional).",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Pendente de questão oficial diretamente compatível e gabarito definitivo; não preencher com assunto vizinho."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-7-3",
+      "label": "Deputados (arts. 226 a 251 e suas alterações).",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Pendente de questão oficial diretamente compatível e gabarito definitivo; não preencher com assunto vizinho."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-8-1",
+      "label": "Título I.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Pendente de questão oficial diretamente compatível e gabarito definitivo; não preencher com assunto vizinho."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-5-4",
+      "label": "Elementos fundamentais de publicações em redes sociais: capa, legenda, marcação, palavras-chave, call to action.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Pendente de questão oficial diretamente compatível e gabarito definitivo; não preencher com assunto vizinho."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-8-1",
+      "label": "Política de comunicação da Câmara dos Deputados (Ato da Mesa nº 218/2025).",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Pendente de questão oficial diretamente compatível e gabarito definitivo; não preencher com assunto vizinho."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-10-1",
+      "label": "Manual de linguagem simples da Câmara dos Deputados.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Pendente de questão oficial diretamente compatível e gabarito definitivo; não preencher com assunto vizinho."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-11",
+      "label": "Princípios constitucionais da administração pública aplicados à comunicação (Art. 37, § 1º da CF/88 e suas alterações).",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "afterCE": 1,
+      "afterMC": 0,
+      "newQuestionIds": [
+        "989-codevasf-010-01-q102"
+      ],
+      "decision": "Amostra parcial com fonte/gabarito, sem declarar domínio integral."
+    },
+    {
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-4",
+      "label": "Atendimento.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Pendente de questão oficial diretamente compatível e gabarito definitivo; não preencher com assunto vizinho."
+    },
+    {
+      "syllabusItemId": "camara-2026-divulgacao-institucional-4-1",
+      "label": "Conceito de marca.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Pendente de questão oficial diretamente compatível e gabarito definitivo; não preencher com assunto vizinho."
+    },
+    {
+      "syllabusItemId": "camara-2026-divulgacao-institucional-7",
+      "label": "Gestão de equipes em publicidade.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Pendente de questão oficial diretamente compatível e gabarito definitivo; não preencher com assunto vizinho."
+    },
+    {
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-1-1",
+      "label": "Tipos de procedimento, ordinário, abreviado, sumário, sumaríssimo, especial e concentrado.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Pendente de questão oficial diretamente compatível e gabarito definitivo; não preencher com assunto vizinho."
+    },
+    {
+      "syllabusItemId": "camara-2026-ciencia-politica-10",
+      "label": "Política internacional contemporânea.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Pendente de questão oficial diretamente compatível e gabarito definitivo; não preencher com assunto vizinho."
+    }
+  ]
+}

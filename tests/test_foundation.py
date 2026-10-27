@@ -69,7 +69,7 @@ class FoundationTests(unittest.TestCase):
         """Validate retained source bytes without claiming external authentication."""
         real = read_json(ROOT / 'data/catalog.json')
         self.assertEqual(validate(real), [])
-        self.assertEqual(len(real['questions']), 372)
+        self.assertEqual(len(real['questions']), 395)
         self.assertEqual(len(real['scoringRules']), 1)
         self.assertEqual(len(real['syllabusItems']), 228)
         self.assertEqual(len(real['documents']), 129)

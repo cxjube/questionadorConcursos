@@ -1,0 +1,16 @@
+{
+  "reviewedAt": "2026-10-27",
+  "scope": "Conferência limitada à vedação de promoção pessoal no art. 37, § 1º; reuso de evidência oficial retida do mesmo dia, sem nova requisição.",
+  "questionId": "989-codevasf-010-01-q102",
+  "evidence": {
+    "documentId": "reference-constitution-1988",
+    "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+    "file": "data/reviews/fifteenth-reference-evidence/reference-constitution-1988.html",
+    "sha256": "a8de1643589cf9fb199bb58a0cf4a6acd63c35ed377843d8240ca500b7e1f2c1",
+    "checkedAt": "2026-10-27",
+    "method": "same_day_retained_recheck_2026_10_27"
+  },
+  "activeQuote": "que caracterizem promoção pessoal de autoridades ou servidores públicos",
+  "lei13019FreshRecheckSucceeded": false,
+  "lei13019Note": "Duas URLs públicas Planalto, texto principal e compilado, excederam timeout. Item Ibama 44 mantém texto/chave de 2025; não se alega atualização legal completa."
+}

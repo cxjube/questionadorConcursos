@@ -1,21 +1,21 @@
 {
   "reviewedAt": "2026-10-27",
-  "latestBatchId": "sixteenth-batch",
-  "catalogSha256": "f849c822256112b68ae1539dc869e3e6c0265166cdac1b831c44f2aba40ac299",
+  "latestBatchId": "seventeenth-batch",
+  "catalogSha256": "751861f556a16122cf4b03afc64b1864e2a400c9d175b4f9a4a1b644cce9bd59",
   "scope": "Oferta de questões distintas, sem inferência de domínio ou peso de prova.",
   "totalItems": 228,
-  "directItems": 179,
+  "directItems": 181,
   "descendantsOnly": 32,
-  "emptyItems": 16,
-  "emptyLeaves": 16,
+  "emptyItems": 14,
+  "emptyLeaves": 14,
   "blocks": {
     "basic": {
-      "total": 169,
-      "ce": 168
+      "total": 170,
+      "ce": 169
     },
     "specific": {
-      "total": 204,
-      "ce": 187
+      "total": 226,
+      "ce": 209
     }
   },
   "disciplines": [
@@ -45,11 +45,11 @@
       "id": "direito-administrativo-administracao-publica",
       "label": "Noções de Direito Administrativo e Administração Pública",
       "totalItems": 46,
-      "directItems": 34,
+      "directItems": 35,
       "descendantsOnly": 8,
-      "emptyItems": 4,
-      "emptyLeaves": 4,
-      "questionsCE": 54,
+      "emptyItems": 3,
+      "emptyLeaves": 3,
+      "questionsCE": 55,
       "questionsMC": 0
     },
     {
@@ -78,11 +78,11 @@
       "id": "comunicacao-social",
       "label": "Comunicação Social",
       "totalItems": 45,
-      "directItems": 36,
+      "directItems": 37,
       "descendantsOnly": 5,
-      "emptyItems": 4,
-      "emptyLeaves": 4,
-      "questionsCE": 62,
+      "emptyItems": 3,
+      "emptyLeaves": 3,
+      "questionsCE": 73,
       "questionsMC": 7
     },
     {
@@ -93,7 +93,7 @@
       "descendantsOnly": 6,
       "emptyItems": 3,
       "emptyLeaves": 3,
-      "questionsCE": 55,
+      "questionsCE": 66,
       "questionsMC": 0
     },
     {
@@ -1278,11 +1278,12 @@
       "subtreeQuestionIds": [
         "038-anm-013-01-q053",
         "038-anm-013-01-q119",
+        "057-ibama-cb1-01-q044",
         "153-telebras-003-01-q076",
         "979-cnj-007-01-q052",
         "979-cnj-007-01-q054"
       ],
-      "subtreeCE": 5,
+      "subtreeCE": 6,
       "subtreeMC": 0
     },
     {
@@ -1310,13 +1311,17 @@
       "block": "basic",
       "parentTopicId": "direito-administrativo-administracao-publica-8",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "057-ibama-cb1-01-q044"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "057-ibama-cb1-01-q044"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -2510,10 +2515,11 @@
         "072-stm-004-01-q119",
         "072-stm-004-01-q120",
         "153-telebras-008-01-q106",
+        "205-funpresp-26-jud-005-01-q096",
         "539-alce-016-01-q021",
         "539-alce-016-01-q023"
       ],
-      "subtreeCE": 8,
+      "subtreeCE": 9,
       "subtreeMC": 2
     },
     {
@@ -2575,14 +2581,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "042-embrapa-analista-072-01-q084"
+        "042-embrapa-analista-072-01-q084",
+        "205-funpresp-26-jud-005-01-q096"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "042-embrapa-analista-072-01-q084"
+        "042-embrapa-analista-072-01-q084",
+        "205-funpresp-26-jud-005-01-q096"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -2630,12 +2638,14 @@
         "038-anm-012-01-q108",
         "072-stm-004-01-q079",
         "072-stm-004-01-q082",
+        "153-telebras-008-01-q075",
+        "205-funpresp-26-jud-005-01-q106",
         "232funprespexe-002-01-q090",
         "232funprespexe-002-01-q091",
         "232funprespexe-002-01-q092",
         "232funprespexe-002-01-q096"
       ],
-      "subtreeCE": 10,
+      "subtreeCE": 12,
       "subtreeMC": 0
     },
     {
@@ -2697,18 +2707,20 @@
       "parentTopicId": "comunicacao-social-2",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
         "018-stj-006-01-q061",
-        "038-anm-010-01-q089"
+        "038-anm-010-01-q089",
+        "205-funpresp-26-jud-005-01-q106"
       ],
-      "directCE": 2,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
         "018-stj-006-01-q061",
-        "038-anm-010-01-q089"
+        "038-anm-010-01-q089",
+        "205-funpresp-26-jud-005-01-q106"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -2722,14 +2734,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "038-anm-010-01-q093"
+        "038-anm-010-01-q093",
+        "153-telebras-008-01-q075"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-010-01-q093"
+        "038-anm-010-01-q093",
+        "153-telebras-008-01-q075"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -2773,9 +2787,11 @@
         "042-embrapa-analista-072-01-q094",
         "042-embrapa-analista-072-01-q096",
         "042-embrapa-analista-072-01-q097",
+        "153-telebras-008-01-q055",
+        "153-telebras-008-01-q072",
         "539-alce-016-01-q026"
       ],
-      "subtreeCE": 6,
+      "subtreeCE": 8,
       "subtreeMC": 1
     },
     {
@@ -2789,14 +2805,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "042-embrapa-analista-072-01-q086"
+        "042-embrapa-analista-072-01-q086",
+        "153-telebras-008-01-q055"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "042-embrapa-analista-072-01-q086"
+        "042-embrapa-analista-072-01-q086",
+        "153-telebras-008-01-q055"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -2810,14 +2828,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "038-anm-012-01-q079"
+        "038-anm-012-01-q079",
+        "153-telebras-008-01-q072"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-012-01-q079"
+        "038-anm-012-01-q079",
+        "153-telebras-008-01-q072"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -2889,6 +2909,8 @@
         "038-anm-012-01-q065",
         "072-stm-004-01-q114",
         "153-telebras-008-01-q095",
+        "153-telebras-008-01-q096",
+        "205-funpresp-26-jud-009-01-q076",
         "232funprespexe-002-01-q062",
         "232funprespexe-002-01-q084",
         "232funprespexe-002-01-q085",
@@ -2897,7 +2919,7 @@
         "803-tj-es-006-01-q072",
         "893-dataprev-005-01-q114"
       ],
-      "subtreeCE": 13,
+      "subtreeCE": 15,
       "subtreeMC": 1
     },
     {
@@ -3065,17 +3087,19 @@
       "priority": "C",
       "directQuestionIds": [
         "153-telebras-008-01-q095",
+        "153-telebras-008-01-q096",
         "803-tj-es-006-01-q072",
         "893-dataprev-005-01-q114"
       ],
-      "directCE": 3,
+      "directCE": 4,
       "directMC": 0,
       "subtreeQuestionIds": [
         "153-telebras-008-01-q095",
+        "153-telebras-008-01-q096",
         "803-tj-es-006-01-q072",
         "893-dataprev-005-01-q114"
       ],
-      "subtreeCE": 3,
+      "subtreeCE": 4,
       "subtreeMC": 0
     },
     {
@@ -3089,14 +3113,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "038-anm-010-01-q084"
+        "038-anm-010-01-q084",
+        "205-funpresp-26-jud-009-01-q076"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-010-01-q084"
+        "038-anm-010-01-q084",
+        "205-funpresp-26-jud-009-01-q076"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -3237,14 +3263,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "038-anm-013-01-q069"
+        "038-anm-013-01-q069",
+        "205-funpresp-26-jud-005-01-q081"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-013-01-q069"
+        "038-anm-013-01-q069",
+        "205-funpresp-26-jud-005-01-q081"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -3261,6 +3289,7 @@
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "205-funpresp-26-jud-005-01-q080",
         "232funprespexe-002-01-q097",
         "232funprespexe-002-01-q098",
         "232funprespexe-002-01-q099",
@@ -3269,7 +3298,7 @@
         "539-alce-016-01-q023",
         "989-codevasf-010-01-q102"
       ],
-      "subtreeCE": 5,
+      "subtreeCE": 6,
       "subtreeMC": 2
     },
     {
@@ -3283,6 +3312,7 @@
       "state": "direct",
       "priority": "C",
       "directQuestionIds": [
+        "205-funpresp-26-jud-005-01-q080",
         "232funprespexe-002-01-q097",
         "232funprespexe-002-01-q098",
         "232funprespexe-002-01-q099",
@@ -3290,9 +3320,10 @@
         "539-alce-016-01-q022",
         "539-alce-016-01-q023"
       ],
-      "directCE": 4,
+      "directCE": 5,
       "directMC": 2,
       "subtreeQuestionIds": [
+        "205-funpresp-26-jud-005-01-q080",
         "232funprespexe-002-01-q097",
         "232funprespexe-002-01-q098",
         "232funprespexe-002-01-q099",
@@ -3300,7 +3331,7 @@
         "539-alce-016-01-q022",
         "539-alce-016-01-q023"
       ],
-      "subtreeCE": 4,
+      "subtreeCE": 5,
       "subtreeMC": 2
     },
     {
@@ -3464,7 +3495,7 @@
       "parentTopicId": null,
       "isLeaf": false,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
         "072-stm-004-01-q112"
       ],
@@ -3472,9 +3503,11 @@
       "directMC": 0,
       "subtreeQuestionIds": [
         "038-anm-013-01-q061",
-        "072-stm-004-01-q112"
+        "072-stm-004-01-q112",
+        "153-telebras-008-01-q104",
+        "205-funpresp-26-jud-005-01-q071"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 4,
       "subtreeMC": 0
     },
     {
@@ -3503,16 +3536,20 @@
       "parentTopicId": "comunicacao-social-10",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
-        "038-anm-013-01-q061"
+        "038-anm-013-01-q061",
+        "153-telebras-008-01-q104",
+        "205-funpresp-26-jud-005-01-q071"
       ],
-      "directCE": 1,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-013-01-q061"
+        "038-anm-013-01-q061",
+        "153-telebras-008-01-q104",
+        "205-funpresp-26-jud-005-01-q071"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -3523,13 +3560,17 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "989-codevasf-010-01-q102"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "989-codevasf-010-01-q102"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -3755,10 +3796,12 @@
         "038-anm-010-01-q066",
         "038-anm-010-01-q088",
         "153-telebras-008-01-q053",
+        "205-funpresp-26-jud-005-01-q107",
         "205-funpresp-26-jud-005-01-q108",
+        "205-funpresp-26-jud-005-01-q110",
         "989-codevasf-010-01-q052"
       ],
-      "subtreeCE": 11,
+      "subtreeCE": 13,
       "subtreeMC": 0
     },
     {
@@ -3818,14 +3861,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "038-anm-010-01-q064"
+        "038-anm-010-01-q064",
+        "205-funpresp-26-jud-005-01-q110"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-010-01-q064"
+        "038-anm-010-01-q064",
+        "205-funpresp-26-jud-005-01-q110"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -3837,18 +3882,20 @@
       "parentTopicId": "divulgacao-institucional-2",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
         "018-stj-006-01-q061",
-        "038-anm-010-01-q088"
+        "038-anm-010-01-q088",
+        "205-funpresp-26-jud-005-01-q107"
       ],
-      "directCE": 2,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
         "018-stj-006-01-q061",
-        "038-anm-010-01-q088"
+        "038-anm-010-01-q088",
+        "205-funpresp-26-jud-005-01-q107"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -3933,13 +3980,18 @@
         "038-anm-008-01-q063",
         "038-anm-010-01-q069",
         "038-anm-010-01-q073",
+        "153-telebras-008-01-q066",
+        "153-telebras-008-01-q067",
+        "153-telebras-008-01-q098",
+        "205-funpresp-26-jud-005-01-q065",
+        "205-funpresp-26-jud-005-01-q072",
         "232funprespexe-002-01-q078",
         "232funprespexe-002-01-q079",
         "232funprespexe-002-01-q080",
         "803-tj-es-006-01-q067",
         "893-dataprev-005-01-q104"
       ],
-      "subtreeCE": 8,
+      "subtreeCE": 13,
       "subtreeMC": 0
     },
     {
@@ -3954,17 +4006,19 @@
       "priority": "C",
       "directQuestionIds": [
         "038-anm-008-01-q063",
+        "153-telebras-008-01-q066",
         "232funprespexe-002-01-q078",
         "232funprespexe-002-01-q080"
       ],
-      "directCE": 3,
+      "directCE": 4,
       "directMC": 0,
       "subtreeQuestionIds": [
         "038-anm-008-01-q063",
+        "153-telebras-008-01-q066",
         "232funprespexe-002-01-q078",
         "232funprespexe-002-01-q080"
       ],
-      "subtreeCE": 3,
+      "subtreeCE": 4,
       "subtreeMC": 0
     },
     {
@@ -3976,16 +4030,20 @@
       "parentTopicId": "divulgacao-institucional-3",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
+        "153-telebras-008-01-q098",
+        "205-funpresp-26-jud-005-01-q065",
         "232funprespexe-002-01-q079"
       ],
-      "directCE": 1,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "153-telebras-008-01-q098",
+        "205-funpresp-26-jud-005-01-q065",
         "232funprespexe-002-01-q079"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -3997,16 +4055,20 @@
       "parentTopicId": "divulgacao-institucional-3",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
+        "153-telebras-008-01-q067",
+        "153-telebras-008-01-q098",
         "803-tj-es-006-01-q067"
       ],
-      "directCE": 1,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "153-telebras-008-01-q067",
+        "153-telebras-008-01-q098",
         "803-tj-es-006-01-q067"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -4041,14 +4103,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "038-anm-010-01-q073"
+        "038-anm-010-01-q073",
+        "205-funpresp-26-jud-005-01-q072"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-010-01-q073"
+        "038-anm-010-01-q073",
+        "205-funpresp-26-jud-005-01-q072"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -4089,9 +4153,10 @@
         "038-anm-010-01-q070",
         "153-telebras-008-01-q061",
         "153-telebras-008-01-q062",
+        "205-funpresp-26-jud-005-01-q057",
         "989-codevasf-010-01-q059"
       ],
-      "subtreeCE": 4,
+      "subtreeCE": 5,
       "subtreeMC": 0
     },
     {
@@ -4147,14 +4212,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "038-anm-010-01-q070"
+        "038-anm-010-01-q070",
+        "205-funpresp-26-jud-005-01-q057"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-010-01-q070"
+        "038-anm-010-01-q070",
+        "205-funpresp-26-jud-005-01-q057"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -4179,9 +4246,11 @@
         "038-anm-010-01-q101",
         "038-anm-010-01-q102",
         "042-embrapa-analista-072-01-q087",
-        "072-stm-004-01-q113"
+        "072-stm-004-01-q113",
+        "205-funpresp-26-jud-005-01-q067",
+        "205-funpresp-26-jud-005-01-q095"
       ],
-      "subtreeCE": 9,
+      "subtreeCE": 11,
       "subtreeMC": 0
     },
     {
@@ -4235,18 +4304,20 @@
       "parentTopicId": "divulgacao-institucional-5",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
         "038-anm-008-01-q072",
-        "072-stm-004-01-q113"
+        "072-stm-004-01-q113",
+        "205-funpresp-26-jud-005-01-q095"
       ],
-      "directCE": 2,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
         "038-anm-008-01-q072",
-        "072-stm-004-01-q113"
+        "072-stm-004-01-q113",
+        "205-funpresp-26-jud-005-01-q095"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -4304,14 +4375,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "038-anm-010-01-q092"
+        "038-anm-010-01-q092",
+        "205-funpresp-26-jud-005-01-q067"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-010-01-q092"
+        "038-anm-010-01-q092",
+        "205-funpresp-26-jud-005-01-q067"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -4344,18 +4417,20 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
         "018-stj-006-01-q055",
-        "018-stj-006-01-q062"
+        "018-stj-006-01-q062",
+        "205-funpresp-26-jud-005-01-q094"
       ],
-      "directCE": 2,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
         "018-stj-006-01-q055",
-        "018-stj-006-01-q062"
+        "018-stj-006-01-q062",
+        "205-funpresp-26-jud-005-01-q094"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {

@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-27",
+  "scope": "Busca direcionada não exaustiva, com prioridade às fontes oficiais já retidas; nenhum par novo neste lote.",
+  "selectedPaperIds": [
+    "source-057-ibama-cb1-01",
+    "source-153-telebras-008-01",
+    "source-205-funpresp-26-jud-005-01",
+    "source-205-funpresp-26-jud-009-01"
+  ],
+  "newPairs": 0,
+  "unconfirmedLeads": [
+    {
+      "subject": "Manual de Linguagem Simples 2024",
+      "url": "https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4383436",
+      "observed": "Trecho indexado cita Patricia Roedel 2024, p. 13–14; acesso direto retorna HTTP 403 e não confirma órgão/cargo/prova/chave.",
+      "decision": "Não importado, não contado como questão nem cobertura do manual."
+    }
+  ],
+  "checkedCandidates": [
+    {
+      "event": "funpresp_26_jud",
+      "blocks": "Cadernos gerais dos grupos 1, 2–8/12 e 9–11 e respectivas chaves oficiais",
+      "result": "Não localizado o trecho Roedel nessa seleção; não é alegação de inexistência em outras provas."
+    },
+    {
+      "event": "mec_23",
+      "booklet": "900_MEC_001_01",
+      "result": "Sem item selecionado para as lacunas prioritárias; contextos escolares não foram rotulados como gestão de equipes publicitárias."
+    }
+  ],
+  "searchLimitations": "Parte das consultas públicas retornou desafio/nenhum resultado relevante. Não contornados controles de acesso e não interpretados como ausência de questões.",
+  "deferredTopics": [
+    "Ato 218/2025",
+    "Manual de Linguagem Simples 2024",
+    "Capa/legenda/marcações/palavras-chave/CTA",
+    "Storytelling de dados: ampliar além da amostra existente"
+  ]
+}

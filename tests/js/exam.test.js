@@ -118,7 +118,7 @@ test('later catalog rule versions preserve the original exam score and source sn
 });
 test('the larger reserve varies sampled questions while keeping 90+90 and older exams intact',()=>{
   const s=setup(),available=s.Study.examAvailability(s.data,s.role);
-  assert.deepEqual(plain(available.blocks.map(b=>b.questions.length)),[168,187]);assert.equal(available.distinct,355);
+  assert.deepEqual(plain(available.blocks.map(b=>b.questions.length)),[169,209]);assert.equal(available.distinct,378);
   const draw=random=>s.Study.create(s.data,s.role,s.Study.empty(),'exam',{now:start,random});
   const first=draw(()=>0.01),second=draw(()=>0.99);
   const ids=session=>new Set(session.items.map(i=>i.question.id));
@@ -152,7 +152,7 @@ test('pre-audit 180-item exams retain their allocation, context versions and sco
 
 test('later batches preserve real previous-catalog sessions while adding new distinct choices',()=>{
   const s=setup();
-  for(const [snapshot,count,added] of [['content-audit-catalog-2026-10-26.json.gz',224,143],['pre-thirteenth-catalog.json.gz',254,113],['pre-fourteenth-catalog.json.gz',266,101],['pre-fifteenth-catalog.json.gz',302,68],['pre-sixteenth-catalog.json.gz',339,31]]) {
+  for(const [snapshot,count,added] of [['content-audit-catalog-2026-10-26.json.gz',224,166],['pre-thirteenth-catalog.json.gz',254,136],['pre-fourteenth-catalog.json.gz',266,124],['pre-fifteenth-catalog.json.gz',302,91],['pre-sixteenth-catalog.json.gz',339,54],['pre-seventeenth-catalog.json.gz',372,23]]) {
   const old=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync(path.join(root,'data/reviews',snapshot))).toString());
   old.revision='d'.repeat(64); // Synthetic revision; all question/key/rule rows are the frozen real catalog.
   assert.equal(old.questions.length,count);
@@ -166,8 +166,27 @@ test('later batches preserve real previous-catalog sessions while adding new dis
   progress=s.Study.finish(restored,end);
   assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(progress),s.data)),plain(progress));
   const current=s.Study.examAvailability(s.data,s.role);
-  assert.deepEqual(plain(current.blocks.map(b=>b.questions.length)),[168,187]);
+  assert.deepEqual(plain(current.blocks.map(b=>b.questions.length)),[169,209]);
   const all=s.Study.pool(s.data,s.role,s.Study.empty(),'all',{type:'true_false'});
   assert.equal(all.filter(q=>!oldIds.has(q.id)).length,added);
   }
+});
+
+
+test('the CF promotion-personal mapping is versioned and never retroactively changes old study history',()=>{
+ const s=setup();
+ const old=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync(path.join(root,'data/reviews/pre-seventeenth-catalog.json.gz'))).toString());
+ old.revision='e'.repeat(64);
+ const filters={topicId:'comunicacao-social-7-2',now:start,random:()=>0.4};
+ const session=s.Study.create(old,s.role,s.Study.empty(),'all',filters);
+ assert.equal(session.items.length,1);assert.equal(session.items[0].question.revision,1);assert.equal(session.items[0].mappings.length,1);
+ let progress={...s.Study.empty(),active:session};
+ const restored=s.Study.importBackup(s.Study.exportBackup(progress),s.data);
+ assert.deepEqual(plain(restored),plain(progress));assert.equal(s.Study.matches(s.data,restored.active),false);
+ progress=s.Study.finish(restored,end);
+ assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(progress),s.data)),plain(progress));
+ const current=s.Study.create(s.data,s.role,s.Study.empty(),'all',filters);
+ assert.equal(current.items[0].question.revision,2);assert.equal(current.items[0].mappings.length,2);
+ assert.ok(current.items[0].mappings.some(m=>m.topicId==='comunicacao-social-11'));
+ assert.ok(s.Study.importBackup(s.Study.exportBackup({...s.Study.empty(),active:current}),s.data));
 });

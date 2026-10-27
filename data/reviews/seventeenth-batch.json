@@ -1,0 +1,699 @@
+{
+  "id": "seventeenth-batch",
+  "reviewedAt": "2026-10-27",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/seventeenth-batch-release.md",
+  "previousCatalogSha256": "f849c822256112b68ae1539dc869e3e6c0265166cdac1b831c44f2aba40ac299",
+  "items": [
+    {
+      "questionId": "057-ibama-cb1-01-q044",
+      "paperId": "source-057-ibama-cb1-01",
+      "number": 44,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        353.677,
+        390.117
+      ],
+      "contextIds": [
+        "ibama-2025-participatory-management-command"
+      ],
+      "answerKeyId": "057-ibama-cb1-01-q044-key-v1",
+      "answerDocumentId": "source-057-ibama-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-8-2"
+      ],
+      "justification": "Instrumento de parceria entre administração pública e organizações da sociedade civil, sem transferência financeira; amostra parcial de cooperação com o terceiro setor.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "153-telebras-008-01-q055",
+      "paperId": "source-153-telebras-008-01",
+      "number": 55,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        336.076,
+        374.816
+      ],
+      "contextIds": [
+        "telebras-2026-institutional-promotion-command"
+      ],
+      "answerKeyId": "153-telebras-008-01-q055-key-v1",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-3-1"
+      ],
+      "justification": "Objetivos da propaganda institucional: imagem, reputação e relacionamento.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "153-telebras-008-01-q066",
+      "paperId": "source-153-telebras-008-01",
+      "number": 66,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        177.406,
+        200.526
+      ],
+      "contextIds": [
+        "telebras-2026-pr-research-command"
+      ],
+      "answerKeyId": "153-telebras-008-01-q066-key-v1",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-3-1"
+      ],
+      "justification": "Pesquisa como ferramenta estratégica de diagnóstico em comunicação e relações públicas.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "153-telebras-008-01-q067",
+      "paperId": "source-153-telebras-008-01",
+      "number": 67,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        213.646,
+        248.196
+      ],
+      "contextIds": [
+        "telebras-2026-pr-research-command"
+      ],
+      "answerKeyId": "153-telebras-008-01-q067-key-v1",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-3-3"
+      ],
+      "justification": "Métodos qualitativos e quantitativos na pesquisa de opinião pública.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "153-telebras-008-01-q072",
+      "paperId": "source-153-telebras-008-01",
+      "number": 72,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        590.886,
+        648.086
+      ],
+      "contextIds": [
+        "telebras-2026-pr-opinion-command"
+      ],
+      "answerKeyId": "153-telebras-008-01-q072-key-v1",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-3-2"
+      ],
+      "justification": "Coerência entre práticas, comunicação e percepção institucional.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "153-telebras-008-01-q075",
+      "paperId": "source-153-telebras-008-01",
+      "number": 75,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        779.306,
+        791.026
+      ],
+      "contextIds": [
+        "telebras-2026-pr-opinion-command"
+      ],
+      "answerKeyId": "153-telebras-008-01-q075-key-v1",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-2-4"
+      ],
+      "justification": "Comunicação interna e construção de sentidos na organização.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "153-telebras-008-01-q096",
+      "paperId": "source-153-telebras-008-01",
+      "number": 96,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        244.156,
+        267.276
+      ],
+      "contextIds": [
+        "telebras-2026-digital-planning-command"
+      ],
+      "answerKeyId": "153-telebras-008-01-q096-key-v1",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-4-8"
+      ],
+      "justification": "Articulação de pesquisa, objetivos e meios no planejamento da comunicação.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "153-telebras-008-01-q098",
+      "paperId": "source-153-telebras-008-01",
+      "number": 98,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        328.036,
+        373.856
+      ],
+      "contextIds": [
+        "telebras-2026-digital-planning-command"
+      ],
+      "answerKeyId": "153-telebras-008-01-q098-key-v1",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-3-2",
+        "camara-2026-divulgacao-institucional-3-3"
+      ],
+      "justification": "Diferença entre mensuração por amostra e compreensão de percepções em pesquisas de mercado e opinião.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "153-telebras-008-01-q104",
+      "paperId": "source-153-telebras-008-01",
+      "number": 104,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        660.486,
+        694.906
+      ],
+      "contextIds": [
+        "telebras-2026-web-writing-command"
+      ],
+      "answerKeyId": "153-telebras-008-01-q104-key-v1",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-10-2"
+      ],
+      "justification": "Distinção entre usabilidade e personalização na comunicação digital.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q057",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 57,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        524.376,
+        576.686
+      ],
+      "contextIds": [
+        "funpresp-2026-advertising-media-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q057-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-4-3"
+      ],
+      "justification": "Mensuração dos efeitos de construção de marca no gerenciamento de marca; não pressupõe mídia digital.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q065",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 65,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        359.356,
+        465.296
+      ],
+      "contextIds": [
+        "funpresp-2026-advertising-research-production-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q065-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-3-2"
+      ],
+      "justification": "Contraste entre pesquisa qualitativa e quantitativa em publicidade.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q067",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 67,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        574.806,
+        635.366
+      ],
+      "contextIds": [
+        "funpresp-2026-advertising-research-production-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q067-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-5-6"
+      ],
+      "justification": "Storyboard como recurso de pré-produção audiovisual.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q072",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 72,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        279.556,
+        348.636
+      ],
+      "contextIds": [
+        "funpresp-2026-media-research-design-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q072-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-3-5"
+      ],
+      "justification": "Share of voice é participação relativa, não simples contagem absoluta de inserções.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q080",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 80,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        570.126,
+        623.606
+      ],
+      "contextIds": [
+        "funpresp-2026-public-communication-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q080-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-7-1"
+      ],
+      "justification": "Comunicação pública como participação e construção de soluções coletivas.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q081",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 81,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        638.766,
+        692.146
+      ],
+      "contextIds": [
+        "funpresp-2026-public-communication-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q081-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-6"
+      ],
+      "justification": "Transparência ultrapassa dados contábeis e destinatários da imprensa.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q094",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 94,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        91.846,
+        190.926
+      ],
+      "contextIds": [
+        "funpresp-2026-web-media-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q094-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-6"
+      ],
+      "justification": "Distinção entre informação falsa sem intenção deliberada e desinformação intencional.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q095",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 95,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        205.006,
+        254.796
+      ],
+      "contextIds": [
+        "funpresp-2026-web-media-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q095-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-5-3"
+      ],
+      "justification": "Não linearidade, interação e distribuição em mídias digitais.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q096",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 96,
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        268.876,
+        330.996
+      ],
+      "contextIds": [
+        "funpresp-2026-web-media-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q096-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-1-3"
+      ],
+      "justification": "Algoritmos e seleção do usuário na formação de câmaras de eco.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q106",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 106,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        317.716,
+        391.976
+      ],
+      "contextIds": [
+        "funpresp-2026-strategic-marketing-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q106-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-2-3"
+      ],
+      "justification": "Endomarketing e alinhamento de colaboradores aos objetivos organizacionais.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q107",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 107,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        412.176,
+        523.376
+      ],
+      "contextIds": [
+        "funpresp-2026-strategic-marketing-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q107-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-2-4"
+      ],
+      "justification": "Integração de marketing e recursos humanos no relacionamento com o público interno.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q110",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 110,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        732.626,
+        788.386
+      ],
+      "contextIds": [
+        "funpresp-2026-strategic-marketing-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q110-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-2-3"
+      ],
+      "justification": "Objetivos institucionais e contribuição indireta para a comercialização.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "205-funpresp-26-jud-009-01-q076",
+      "paperId": "source-205-funpresp-26-jud-009-01",
+      "number": 76,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        267.076,
+        312.876
+      ],
+      "contextIds": [
+        "funpresp-2026-data-communication-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-009-01-q076-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-009-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-4-9"
+      ],
+      "justification": "Flexibilidade do escopo em projetos comunicacionais apoiados por ferramentas ágeis.",
+      "questionType": "true_false"
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q071",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 71,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        180.886,
+        263.916
+      ],
+      "contextIds": [
+        "funpresp-2026-media-research-design-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q071-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-10-2"
+      ],
+      "justification": "Distinção explícita entre experiência do usuário, usabilidade e interface.",
+      "questionType": "true_false"
+    }
+  ],
+  "contexts": [
+    {
+      "contextId": "ibama-2025-participatory-management-command",
+      "paperId": "source-057-ibama-cb1-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        288.637,
+        300.837
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "telebras-2026-institutional-promotion-command",
+      "paperId": "source-153-telebras-008-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        307.276,
+        320.436
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "telebras-2026-pr-research-command",
+      "paperId": "source-153-telebras-008-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        81.166,
+        92.886
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "telebras-2026-pr-opinion-command",
+      "paperId": "source-153-telebras-008-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        553.566,
+        576.686
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "funpresp-2026-advertising-research-production-command",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        311.116,
+        341.556
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "funpresp-2026-media-research-design-command",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        51.626,
+        79.446
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "funpresp-2026-web-media-command",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "sourcePage": 3,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        51.626,
+        76.686
+      ],
+      "paragraphs": false
+    }
+  ],
+  "additionalMappings": [
+    {
+      "id": "989-codevasf-010-01-q102-mapping-2",
+      "questionId": "989-codevasf-010-01-q102",
+      "syllabusItemId": "camara-2026-comunicacao-social-11",
+      "justification": "Vedação de promoção pessoal na comunicação pública, com referência já existente e novamente conferida ao art. 37, § 1º, da Constituição. Amostra desse princípio, sem esgotar os demais requisitos do dispositivo.",
+      "status": "confirmed",
+      "decision": "Vínculo adicional explícito com questão revisão 2; snapshots antigos mantêm revisão 1 e seus vínculos originais."
+    }
+  ],
+  "questionRevisions": [
+    {
+      "questionId": "989-codevasf-010-01-q102",
+      "before": {
+        "id": "989-codevasf-010-01-q102",
+        "bankId": "concursos",
+        "revision": 1,
+        "type": "true_false",
+        "stem": "A comunicação pública jamais deve submete-se a interesses particulares, eleitorais e de promoção pessoal.",
+        "options": [],
+        "contextIds": [
+          "codevasf-public-communication-command"
+        ],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-989-codevasf-010-01",
+          "number": 102,
+          "locator": "PDF p. 2"
+        },
+        "answerKeyId": "989-codevasf-010-01-q102-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-26",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Compatibilidade limitada às cláusulas citadas, conferidas em 26/10/2026; enunciado e gabarito históricos preservados.",
+          "decisionReference": "documentation/twelfth-batch-release.md"
+        }
+      },
+      "after": {
+        "id": "989-codevasf-010-01-q102",
+        "bankId": "concursos",
+        "revision": 2,
+        "type": "true_false",
+        "stem": "A comunicação pública jamais deve submete-se a interesses particulares, eleitorais e de promoção pessoal.",
+        "options": [],
+        "contextIds": [
+          "codevasf-public-communication-command"
+        ],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-989-codevasf-010-01",
+          "number": 102,
+          "locator": "PDF p. 2"
+        },
+        "answerKeyId": "989-codevasf-010-01-q102-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-27",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Compatibilidade limitada às cláusulas citadas, conferidas em 26/10/2026; enunciado e gabarito históricos preservados.",
+          "decisionReference": "documentation/seventeenth-batch-release.md"
+        }
+      },
+      "reason": "Vínculo adicional ao art. 37, § 1º, versionado para manter snapshots históricos e não alterar silenciosamente sessões existentes."
+    }
+  ],
+  "classificationNotes": [
+    "O item Funpresp 100 de jornalismo de dados não foi liberado: não foi identificado vínculo direto suficiente no escopo selecionado; não é storytelling de painéis.",
+    "O item 57 trata de retorno na construção da marca e foi vinculado a gerenciamento de marca; o enunciado não especifica publicidade digital."
+  ]
+}

@@ -1,8 +1,8 @@
 # Como estudar e guardar o progresso
 
-> Banco atual: 372 questões, sendo 355 C/E; reserva 168/187 em P1/P2. O [16º lote](sixteenth-batch-release.md), o [mapa atual](coverage-current.md) e o [roteiro dos manuais](camara-reading-guide.md) atualizam as contagens históricas abaixo.
+> Banco atual: 395 questões, sendo 378 C/E; reserva 169/209 em P1/P2. O [16º lote](sixteenth-batch-release.md), o [mapa atual](coverage-current.md) e o [roteiro dos manuais](camara-reading-guide.md) atualizam as contagens históricas abaixo.
 
-1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. O objetivo disponível é Câmara — Comunicação Social — Divulgação Institucional, com 372 questões de provas anteriores relacionadas.
+1. Abra a aba **Questionador**, escolha concurso/cargo e clique em **Iniciar questões**. O objetivo disponível é Câmara — Comunicação Social — Divulgação Institucional, com 395 questões de provas anteriores relacionadas.
 2. Marque sua resposta ou **Deixar em branco**. Use **Anterior** e **Próxima** para navegar; **Próxima** é a ação principal. Você pode trocar a alternativa ou selecionar **Deixar em branco** até finalizar.
 3. Ao sair e voltar, use **Continuar questões**. A posição e as marcações são retomadas quando o navegador permitiu o salvamento.
 4. Use **Finalizar sessão** em qualquer questão ou abra **Revisar sessão** para conferir a lista e voltar às questões que quiser (também é o próximo passo na última questão). A confirmação informa quantas questões ficarão em branco e inicia com foco em **Continuar respondendo**. Cancelar ou abrir a revisão não encerra a tentativa. Questões sem marcação passam a brancos. A correção mostra sua resposta, gabarito definitivo, resultado e links da prova e do gabarito. Explicações indisponíveis são identificadas.
@@ -16,7 +16,7 @@ O cronômetro continua ao sair da página. Use **Continuar simulado** ao voltar.
 
 O resultado calcula acerto +1, erro −1 e branco 0. Mostra nota e mínimo de cada bloco (P1: 18; P2: 27) e do total (54), verificados independentemente. Atingir apenas os mínimos dos dois blocos não assegura o mínimo total. Satisfazer os três não garante aprovação: classificação, discursiva e demais condições não são avaliadas. A sessão guarda a versão das regras usadas; alterações futuras não reescrevem notas anteriores.
 
-São questões anteriores relacionadas ao programa, sem garantia de cobertura, distribuição ou dificuldade iguais às da prova. O banco possui 355 C/E elegíveis: cada simulado usa 90 entre 168 básicas e 90 entre 187 específicas. O sorteio já pode variar a seleção, mas a reserva ainda é pequena e haverá repetição. Os 15 itens de múltipla escolha ficam disponíveis no treino personalizado. Para reduzir a repetição entre simulados, a base precisa continuar crescendo.
+São questões anteriores relacionadas ao programa, sem garantia de cobertura, distribuição ou dificuldade iguais às da prova. O banco possui 378 C/E elegíveis: cada simulado usa 90 entre 169 básicas e 90 entre 209 específicas. O sorteio já pode variar a seleção, mas a reserva ainda é pequena e haverá repetição. Os 17 itens de múltipla escolha ficam disponíveis no treino personalizado. Para reduzir a repetição entre simulados, a base precisa continuar crescendo.
 
 ## Preparar uma nova sessão
 
@@ -102,7 +102,7 @@ Em Programa, **Exibir referências do edital** mostra as citações por tópico.
 
 Os ícones de monitor, sol e lua no cabeçalho selecionam, respectivamente, o tema automático, claro e escuro. A escolha fica salva no navegador. Os botões têm identificação acessível e dica com o nome do tema.
 
-Para treinar 90 itens de um bloco, abra Personalizar treino, selecione P1 ou P2, formato Certo/Errado e quantidade 90. Há 168 C/E distintos em P1 e 187 em P2; o treino continua sem os mínimos oficiais. Todas as 372 questões atuais têm comentário. O décimo lote corrige um comando de democracia com versões novas; históricos e backups anteriores preservam seu conteúdo.
+Para treinar 90 itens de um bloco, abra Personalizar treino, selecione P1 ou P2, formato Certo/Errado e quantidade 90. Há 169 C/E distintos em P1 e 209 em P2; o treino continua sem os mínimos oficiais. Todas as 395 questões atuais têm comentário. O décimo lote corrige um comando de democracia com versões novas; históricos e backups anteriores preservam seu conteúdo.
 
 No topo da aba Editais, os cartões levam aos portais oficiais de Câmara, Cebraspe (concurso da Câmara), ABDI, CGU e Imprensa Nacional. Consulte-os para novas publicações, retificações e comunicados; os links abrem em outra aba. Os dados futuros de ABDI/CGU continuam pendentes de confirmação.
 
