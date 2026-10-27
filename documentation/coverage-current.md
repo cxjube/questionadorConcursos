@@ -1,12 +1,12 @@
 # Mapa atual do banco de questões
 
-Última revisão: 2026-10-26; lote `twelfth-batch`. São 254 questões e 258 vínculos; **125/228 itens com vínculo direto**, 30 atendidos só por descendentes e 72 sem questões na subárvore (68 folhas). O título amplo Ciência Política 1 permanece separado.
+Última revisão: 2026-10-26; lote `thirteenth-batch`. São 266 questões e 270 vínculos; **130/228 itens com vínculo direto**, 31 atendidos só por descendentes e 66 sem questões na subárvore (64 folhas). O título amplo Ciência Política 1 permanece separado.
 
-C/E: P1 **117**, P2 **125**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
+C/E: P1 **119**, P2 **135**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
 
 Direto significa vínculo ao item exato; subárvore reúne o próprio item e seus descendentes, sem duplicar IDs. Vínculos de pais não são distribuídos aos filhos. Prioridades editoriais: A sem C/E, B com 1–2 C/E, C com 3 ou mais. Pais e filhos se sobrepõem; as contagens não são pesos oficiais.
 
-[Entrega do 12º lote](twelfth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)
+[Entrega do 13º lote](thirteenth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)
 
 ## Disciplinas
 
@@ -16,17 +16,17 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | Língua Inglesa | 3/3 | 15 | 0 | 0 |
 | Noções de Direito Administrativo e Administração Pública | 21/46 | 35 | 0 | 17 |
 | Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados | 8/14 | 18 | 1 | 4 |
-| Tecnologia da Informação e Dados | 11/20 | 18 | 0 | 6 |
-| Comunicação Social | 27/45 | 33 | 5 | 11 |
-| Divulgação Institucional | 26/40 | 39 | 0 | 8 |
+| Tecnologia da Informação e Dados | 13/20 | 20 | 0 | 4 |
+| Comunicação Social | 30/45 | 42 | 5 | 9 |
+| Divulgação Institucional | 26/40 | 40 | 0 | 8 |
 | Processo Legislativo e Regimento Interno | 10/27 | 17 | 5 | 12 |
 | Ciência Política | 8/13 | 36 | 2 | 4 |
 
 ## Prioridades seguintes
 
-1. Visualização de dados (TI 8–8.4), prompts e IA generativa (5.1/5.3): continuam sem itens válidos selecionados neste lote. STJ 49/50 permanecem excluídos por anulação.
+1. Visualização iniciada com dois itens: ampliar tipos de gráficos, ferramentas (8.3) e storytelling (8.4). Prompts e IA generativa (5.1/5.3) seguem sem itens. STJ CB2 48/49/50 também anulados.
 2. Regimento Comum e resoluções do Congresso: Constitucional 8–8.2 e Processo Legislativo 6–6.3.
-3. Redes sociais oficiais (Comunicação 5–5.4), política e manuais da Câmara (8.1/8.2/10.1), com fonte vigente e questão oficial compatível.
+3. Redes sociais: uma característica de plataforma em 5.3 não cobre planejamento, postagens, formatos e elementos de publicação (5.1/5.2/5.4). Política e manuais próprios da Câmara (8.1/8.2/10.1) continuam pendentes.
 4. Expandir responsabilidade civil, governança, poderes e ética publicitária: os primeiros vínculos são amostras pequenas.
 5. Gramática e uso do Inglês (2/3), lacunas específicas de Português, pesquisa de mercado/opinião/imagem e formação política brasileira.
 
@@ -154,9 +154,9 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 6 | Ética e responsabilidade digital no serviço público. | 1 | 0 | 1 | 0 | Direto | B |
 | 7 | Dados. | 0 | 0 | 2 | 0 | Só descendentes | B |
 | 7.1 | Conceitos, atributos, métricas, transformação de dados. | 2 | 0 | 2 | 0 | Direto | B |
-| 8 | Visualização de dados. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 8.1 | Princípios de visualização de dados. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 8.2 | Tipos de gráficos (histograma, linha, barra, dispersão, box plot). | 0 | 0 | 0 | 0 | Sem questões | A |
+| 8 | Visualização de dados. | 0 | 0 | 2 | 0 | Só descendentes | B |
+| 8.1 | Princípios de visualização de dados. | 1 | 0 | 1 | 0 | Direto | B |
+| 8.2 | Tipos de gráficos (histograma, linha, barra, dispersão, box plot). | 1 | 0 | 1 | 0 | Direto | B |
 | 8.3 | Ferramentas de visualização de dados (Power BI, Tableau e Data Studio). | 0 | 0 | 0 | 0 | Sem questões | A |
 | 8.4 | Storytelling para visualização de dados. | 0 | 0 | 0 | 0 | Sem questões | A |
 
@@ -164,14 +164,14 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 
 | Item | Conteúdo oficial | C/E direto | MC direto | C/E subárvore | MC subárvore | Situação | Prioridade |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 1 | Teorias da Comunicação. | 0 | 1 | 2 | 2 | Direto | B |
-| 1.1 | Escolas, paradigmas, correntes, modelos, principais pensadores. | 1 | 0 | 1 | 0 | Direto | B |
-| 1.2 | Comunicação e opinião pública. | 0 | 1 | 0 | 1 | Direto | A |
+| 1 | Teorias da Comunicação. | 0 | 1 | 6 | 2 | Direto | C |
+| 1.1 | Escolas, paradigmas, correntes, modelos, principais pensadores. | 2 | 0 | 2 | 0 | Direto | B |
+| 1.2 | Comunicação e opinião pública. | 1 | 1 | 1 | 1 | Direto | B |
 | 1.3 | Midiatização e plataformização. | 1 | 0 | 1 | 0 | Direto | B |
-| 1.4 | Desinformação e integridade da informação. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 2 | Comunicação interna. | 0 | 0 | 7 | 0 | Só descendentes | C |
-| 2.1 | Conceito, funções e objetivos da comunicação interna. | 2 | 0 | 2 | 0 | Direto | B |
-| 2.2 | Ferramentas e canais de comunicação interna (intranet, veículos impressos/digitais, jornais murais, newsletters, eventos). | 2 | 0 | 2 | 0 | Direto | B |
+| 1.4 | Desinformação e integridade da informação. | 2 | 0 | 2 | 0 | Direto | B |
+| 2 | Comunicação interna. | 0 | 0 | 9 | 0 | Só descendentes | C |
+| 2.1 | Conceito, funções e objetivos da comunicação interna. | 3 | 0 | 3 | 0 | Direto | C |
+| 2.2 | Ferramentas e canais de comunicação interna (intranet, veículos impressos/digitais, jornais murais, newsletters, eventos). | 3 | 0 | 3 | 0 | Direto | C |
 | 2.3 | Endomarketing: conceitos e estratégias de engajamento. | 1 | 0 | 1 | 0 | Direto | B |
 | 2.4 | Comunicação e cultura organizacional. | 1 | 0 | 1 | 0 | Direto | B |
 | 2.5 | Gestão do clima organizacional por meio da comunicação. | 1 | 0 | 1 | 0 | Direto | B |
@@ -180,20 +180,20 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 3.2 | Gestão da imagem, identidade e reputação corporativa/institucional. | 1 | 0 | 1 | 0 | Direto | B |
 | 3.3 | Gerenciamento de crises. | 0 | 1 | 0 | 1 | Direto | A |
 | 3.4 | Técnicas e ferramentas de gerenciamento de crises. | 4 | 0 | 4 | 0 | Direto | C |
-| 4 | Comunicação organizacional. | 0 | 0 | 9 | 1 | Só descendentes | C |
+| 4 | Comunicação organizacional. | 0 | 0 | 10 | 1 | Só descendentes | C |
 | 4.1 | Conceito, objetivos e dimensões da comunicação organizacional. | 1 | 0 | 1 | 0 | Direto | B |
 | 4.2 | O composto da comunicação integrada (comunicação institucional, mercadológica, interna e administrativa). | 0 | 1 | 0 | 1 | Direto | A |
 | 4.3 | Planejamento estratégico de comunicação. | 3 | 0 | 3 | 0 | Direto | C |
 | 4.4 | Fluxos comunicativos (descendentes, ascendentes, horizontais e transversais). | 1 | 0 | 1 | 0 | Direto | B |
 | 4.5 | Comunicação formal e informal nas organizações. | 1 | 0 | 1 | 0 | Direto | B |
-| 4.6 | Definição de públicos-alvo: pesquisa, segmentação, canais de interação. | 1 | 0 | 1 | 0 | Direto | B |
+| 4.6 | Definição de públicos-alvo: pesquisa, segmentação, canais de interação. | 2 | 0 | 2 | 0 | Direto | B |
 | 4.7 | Definição de indicadores de resultados em comunicação. | 1 | 0 | 1 | 0 | Direto | B |
 | 4.8 | Plano de comunicação. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 4.9 | Gestão de projetos de comunicação. | 1 | 0 | 1 | 0 | Direto | B |
-| 5 | Redes sociais digitais oficiais. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 5 | Redes sociais digitais oficiais. | 0 | 0 | 1 | 0 | Só descendentes | B |
 | 5.1 | Planejamento e produção de conteúdo. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 5.2 | Postagens e colaborações. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 5.3 | Características das principais plataformas de mídias sociais: diferenças de públicos, linguagem, formatos (4:5, 3:4, 9:16) e conteúdos (cards, carrossel, vídeos, stories, lives). | 0 | 0 | 0 | 0 | Sem questões | A |
+| 5.3 | Características das principais plataformas de mídias sociais: diferenças de públicos, linguagem, formatos (4:5, 3:4, 9:16) e conteúdos (cards, carrossel, vídeos, stories, lives). | 1 | 0 | 1 | 0 | Direto | B |
 | 5.4 | Elementos fundamentais de publicações em redes sociais: capa, legenda, marcação, palavras-chave, call to action. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 6 | Transparência pública. | 1 | 0 | 1 | 0 | Direto | B |
 | 7 | Comunicação Pública. | 0 | 0 | 5 | 2 | Só descendentes | C |
@@ -205,7 +205,7 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 9 | Inteligência artificial na comunicação. | 0 | 0 | 1 | 0 | Só descendentes | B |
 | 9.1 | Aplicações da IA na comunicação. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 9.2 | Ética no uso de IA na comunicação. | 1 | 0 | 1 | 0 | Direto | B |
-| 10 | Linguagem simples e usabilidade. | 0 | 0 | 1 | 0 | Só descendentes | B |
+| 10 | Linguagem simples e usabilidade. | 1 | 0 | 2 | 0 | Direto | B |
 | 10.1 | Manual de linguagem simples da Câmara dos Deputados. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 10.2 | Conceito e técnicas de usabilidade. | 1 | 0 | 1 | 0 | Direto | B |
 | 11 | Princípios constitucionais da administração pública aplicados à comunicação (Art. 37, § 1º da CF/88 e suas alterações). | 0 | 0 | 0 | 0 | Sem questões | A |
@@ -241,10 +241,10 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 4.1 | Conceito de marca. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 4.2 | Branding. | 1 | 0 | 1 | 0 | Direto | B |
 | 4.3 | Gerenciamento de marca. | 1 | 0 | 1 | 0 | Direto | B |
-| 5 | Design e Produção. | 0 | 0 | 8 | 0 | Só descendentes | C |
+| 5 | Design e Produção. | 0 | 0 | 9 | 0 | Só descendentes | C |
 | 5.1 | Design gráfico. | 1 | 0 | 1 | 0 | Direto | B |
 | 5.2 | Produção gráfica. | 1 | 0 | 1 | 0 | Direto | B |
-| 5.3 | Produção digital. | 1 | 0 | 1 | 0 | Direto | B |
+| 5.3 | Produção digital. | 2 | 0 | 2 | 0 | Direto | B |
 | 5.4 | Produção para rádio, televisão e redes sociais. | 2 | 0 | 2 | 0 | Direto | B |
 | 5.5 | Criação e produção de projetos gráficos. | 1 | 0 | 1 | 0 | Direto | B |
 | 5.6 | Criação e produção de projetos audiovisuais. | 1 | 0 | 1 | 0 | Direto | B |

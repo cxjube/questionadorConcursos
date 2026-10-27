@@ -583,6 +583,34 @@
       "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html",
       "outcome": "byte_match",
       "remoteSha256": "dc32f69ddba5b4c0cdd7952091c74d755c1e0e699a444aa3566819b94422b650"
+    },
+    {
+      "documentId": "source-072-stm-004-01-paper",
+      "localSha256": "d9d1f6051b2d2154f8f283676a523f2fd3f51010737158888c4a63fc739abeff",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/072_STM_004_01.pdf",
+      "remoteSha256": "d9d1f6051b2d2154f8f283676a523f2fd3f51010737158888c4a63fc739abeff"
+    },
+    {
+      "documentId": "source-072-stm-004-01-key",
+      "localSha256": "854e34de0320e55ec4af4feb421ba540ae1f17898e67e41bc6363eda533b787f",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/Gab_Definitivo_072_STM_004_01.pdf",
+      "remoteSha256": "854e34de0320e55ec4af4feb421ba540ae1f17898e67e41bc6363eda533b787f"
+    },
+    {
+      "documentId": "source-988-cpnuje-010-01-paper",
+      "localSha256": "9b4c724faf61eae28fb7a384d0378dba44339def4ae24199a46f514f06a98aa2",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CPNUJE_24/arquivos/988_CPNUJE_010_01.PDF",
+      "remoteSha256": "9b4c724faf61eae28fb7a384d0378dba44339def4ae24199a46f514f06a98aa2"
+    },
+    {
+      "documentId": "source-988-cpnuje-010-01-key",
+      "localSha256": "cecae54e8c453f708cd03be9efbd144c7472b64c1197c71cd167ccd3a5d0eb5d",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CPNUJE_24/arquivos/GAB_DEFINITIVO_988_CPNUJE_010_01.PDF",
+      "remoteSha256": "cecae54e8c453f708cd03be9efbd144c7472b64c1197c71cd167ccd3a5d0eb5d"
     }
   ],
   "corroboration": [

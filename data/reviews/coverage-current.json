@@ -1,21 +1,21 @@
 {
   "reviewedAt": "2026-10-26",
-  "latestBatchId": "twelfth-batch",
-  "catalogSha256": "703ddebfc77830e56083ed0dc4b3cfe0ffffedc4cf3def5511a084a48c1e4f7b",
+  "latestBatchId": "thirteenth-batch",
+  "catalogSha256": "bf4e7228ff5011b714a75a1034831ecca502e1540c16d52be1ab4525fe3c5d4a",
   "scope": "Oferta de questões distintas, sem inferência de domínio ou peso de prova.",
   "totalItems": 228,
-  "directItems": 125,
-  "descendantsOnly": 30,
-  "emptyItems": 72,
-  "emptyLeaves": 68,
+  "directItems": 130,
+  "descendantsOnly": 31,
+  "emptyItems": 66,
+  "emptyLeaves": 64,
   "blocks": {
     "basic": {
-      "total": 118,
-      "ce": 117
+      "total": 120,
+      "ce": 119
     },
     "specific": {
-      "total": 137,
-      "ce": 125
+      "total": 147,
+      "ce": 135
     }
   },
   "disciplines": [
@@ -67,22 +67,22 @@
       "id": "tecnologia-informacao-dados",
       "label": "Tecnologia da Informação e Dados",
       "totalItems": 20,
-      "directItems": 11,
-      "descendantsOnly": 2,
-      "emptyItems": 7,
-      "emptyLeaves": 6,
-      "questionsCE": 18,
+      "directItems": 13,
+      "descendantsOnly": 3,
+      "emptyItems": 4,
+      "emptyLeaves": 4,
+      "questionsCE": 20,
       "questionsMC": 0
     },
     {
       "id": "comunicacao-social",
       "label": "Comunicação Social",
       "totalItems": 45,
-      "directItems": 27,
+      "directItems": 30,
       "descendantsOnly": 6,
-      "emptyItems": 12,
-      "emptyLeaves": 11,
-      "questionsCE": 33,
+      "emptyItems": 9,
+      "emptyLeaves": 9,
+      "questionsCE": 42,
       "questionsMC": 5
     },
     {
@@ -93,7 +93,7 @@
       "descendantsOnly": 6,
       "emptyItems": 8,
       "emptyLeaves": 8,
-      "questionsCE": 39,
+      "questionsCE": 40,
       "questionsMC": 0
     },
     {
@@ -2207,13 +2207,16 @@
       "block": "basic",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "B",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "988-cpnuje-010-01-q051",
+        "988-cpnuje-010-01-q056"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -2224,13 +2227,17 @@
       "block": "basic",
       "parentTopicId": "tecnologia-informacao-dados-8",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "988-cpnuje-010-01-q056"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "988-cpnuje-010-01-q056"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -2241,13 +2248,17 @@
       "block": "basic",
       "parentTopicId": "tecnologia-informacao-dados-8",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "988-cpnuje-010-01-q051"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "988-cpnuje-010-01-q051"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -2293,7 +2304,7 @@
       "parentTopicId": null,
       "isLeaf": false,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
         "539-alce-016-01-q021"
       ],
@@ -2302,10 +2313,14 @@
       "subtreeQuestionIds": [
         "038-anm-008-01-q054",
         "042-embrapa-analista-072-01-q084",
+        "072-stm-004-01-q083",
+        "072-stm-004-01-q085",
+        "072-stm-004-01-q119",
+        "072-stm-004-01-q120",
         "539-alce-016-01-q021",
         "539-alce-016-01-q023"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 6,
       "subtreeMC": 2
     },
     {
@@ -2319,14 +2334,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "038-anm-008-01-q054"
+        "038-anm-008-01-q054",
+        "072-stm-004-01-q085"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-008-01-q054"
+        "038-anm-008-01-q054",
+        "072-stm-004-01-q085"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -2338,16 +2355,18 @@
       "parentTopicId": "comunicacao-social-1",
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
+        "072-stm-004-01-q083",
         "539-alce-016-01-q023"
       ],
-      "directCE": 0,
+      "directCE": 1,
       "directMC": 1,
       "subtreeQuestionIds": [
+        "072-stm-004-01-q083",
         "539-alce-016-01-q023"
       ],
-      "subtreeCE": 0,
+      "subtreeCE": 1,
       "subtreeMC": 1
     },
     {
@@ -2379,13 +2398,19 @@
       "block": "specific",
       "parentTopicId": "comunicacao-social-1",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "072-stm-004-01-q119",
+        "072-stm-004-01-q120"
+      ],
+      "directCE": 2,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "072-stm-004-01-q119",
+        "072-stm-004-01-q120"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -2405,12 +2430,14 @@
         "038-anm-010-01-q089",
         "038-anm-010-01-q093",
         "038-anm-012-01-q108",
+        "072-stm-004-01-q079",
+        "072-stm-004-01-q082",
         "232funprespexe-002-01-q090",
         "232funprespexe-002-01-q091",
         "232funprespexe-002-01-q092",
         "232funprespexe-002-01-q096"
       ],
-      "subtreeCE": 7,
+      "subtreeCE": 9,
       "subtreeMC": 0
     },
     {
@@ -2422,18 +2449,20 @@
       "parentTopicId": "comunicacao-social-2",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
+        "072-stm-004-01-q082",
         "232funprespexe-002-01-q090",
         "232funprespexe-002-01-q091"
       ],
-      "directCE": 2,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "072-stm-004-01-q082",
         "232funprespexe-002-01-q090",
         "232funprespexe-002-01-q091"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -2445,18 +2474,20 @@
       "parentTopicId": "comunicacao-social-2",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
+        "072-stm-004-01-q079",
         "232funprespexe-002-01-q092",
         "232funprespexe-002-01-q096"
       ],
-      "directCE": 2,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "072-stm-004-01-q079",
         "232funprespexe-002-01-q092",
         "232funprespexe-002-01-q096"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -2656,13 +2687,14 @@
         "038-anm-010-01-q084",
         "038-anm-012-01-q061",
         "038-anm-012-01-q065",
+        "072-stm-004-01-q114",
         "232funprespexe-002-01-q062",
         "232funprespexe-002-01-q084",
         "232funprespexe-002-01-q085",
         "232funprespexe-002-01-q093",
         "539-alce-016-01-q025"
       ],
-      "subtreeCE": 9,
+      "subtreeCE": 10,
       "subtreeMC": 1
     },
     {
@@ -2785,14 +2817,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "038-anm-012-01-q061"
+        "038-anm-012-01-q061",
+        "072-stm-004-01-q114"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-012-01-q061"
+        "038-anm-012-01-q061",
+        "072-stm-004-01-q114"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -2862,13 +2896,15 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "B",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "072-stm-004-01-q116"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -2913,13 +2949,17 @@
       "block": "specific",
       "parentTopicId": "comunicacao-social-5",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "072-stm-004-01-q116"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "072-stm-004-01-q116"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -3157,15 +3197,18 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "descendants_only",
+      "state": "direct",
       "priority": "B",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "directQuestionIds": [
+        "072-stm-004-01-q112"
+      ],
+      "directCE": 1,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-013-01-q061"
+        "038-anm-013-01-q061",
+        "072-stm-004-01-q112"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -3822,9 +3865,10 @@
         "038-anm-010-01-q100",
         "038-anm-010-01-q101",
         "038-anm-010-01-q102",
-        "042-embrapa-analista-072-01-q087"
+        "042-embrapa-analista-072-01-q087",
+        "072-stm-004-01-q113"
       ],
-      "subtreeCE": 8,
+      "subtreeCE": 9,
       "subtreeMC": 0
     },
     {
@@ -3880,14 +3924,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "038-anm-008-01-q072"
+        "038-anm-008-01-q072",
+        "072-stm-004-01-q113"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-008-01-q072"
+        "038-anm-008-01-q072",
+        "072-stm-004-01-q113"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {

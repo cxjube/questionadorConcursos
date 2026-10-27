@@ -2596,6 +2596,58 @@
       "sha256": "dc32f69ddba5b4c0cdd7952091c74d755c1e0e699a444aa3566819b94422b650",
       "publicationDate": "1966-10-25",
       "paperId": null
+    },
+    {
+      "id": "source-072-stm-004-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Superior Tribunal Militar — Cargo 4 — Analista Judiciário — Apoio Especializado — Comunicação Social",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/072_STM_004_01.pdf",
+      "file": "sources/papers/072_STM_004_01.pdf",
+      "sha256": "d9d1f6051b2d2154f8f283676a523f2fd3f51010737158888c4a63fc739abeff",
+      "publicationDate": null,
+      "paperId": "source-072-stm-004-01"
+    },
+    {
+      "id": "source-072-stm-004-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Superior Tribunal Militar — Cargo 4 — Analista Judiciário — Apoio Especializado — Comunicação Social — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/Gab_Definitivo_072_STM_004_01.pdf",
+      "file": "sources/answer-keys/Gab_Definitivo_072_STM_004_01.pdf",
+      "sha256": "854e34de0320e55ec4af4feb421ba540ae1f17898e67e41bc6363eda533b787f",
+      "publicationDate": null,
+      "paperId": "source-072-stm-004-01"
+    },
+    {
+      "id": "source-988-cpnuje-010-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Justiça Eleitoral — concurso nacional unificado — Cargo 10 — Analista Judiciário — Apoio Especializado — Estatística",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CPNUJE_24/arquivos/988_CPNUJE_010_01.PDF",
+      "file": "sources/papers/988_CPNUJE_010_01.PDF",
+      "sha256": "9b4c724faf61eae28fb7a384d0378dba44339def4ae24199a46f514f06a98aa2",
+      "publicationDate": null,
+      "paperId": "source-988-cpnuje-010-01"
+    },
+    {
+      "id": "source-988-cpnuje-010-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Justiça Eleitoral — concurso nacional unificado — Cargo 10 — Analista Judiciário — Apoio Especializado — Estatística — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CPNUJE_24/arquivos/GAB_DEFINITIVO_988_CPNUJE_010_01.PDF",
+      "file": "sources/answer-keys/GAB_DEFINITIVO_988_CPNUJE_010_01.PDF",
+      "sha256": "cecae54e8c453f708cd03be9efbd144c7472b64c1197c71cd167ccd3a5d0eb5d",
+      "publicationDate": null,
+      "paperId": "source-988-cpnuje-010-01"
     }
   ],
   "papers": [
@@ -3236,6 +3288,63 @@
           39
         ],
         "answerKeyDocumentId": "source-993-tce-ac-cb3-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-072-stm-004-01",
+      "bankId": "concursos",
+      "title": "Superior Tribunal Militar — Cargo 4 — Analista Judiciário — Apoio Especializado — Comunicação Social",
+      "provider": "Cebraspe",
+      "institution": "Superior Tribunal Militar",
+      "role": "Cargo 4 — Analista Judiciário — Apoio Especializado — Comunicação Social",
+      "year": 2025,
+      "booklet": "072_STM_004_01",
+      "documentId": "source-072-stm-004-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-06-01",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "questionType": "true_false",
+        "annulledItems": [
+          53,
+          78,
+          84,
+          106
+        ],
+        "answerKeyDocumentId": "source-072-stm-004-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-988-cpnuje-010-01",
+      "bankId": "concursos",
+      "title": "Justiça Eleitoral — concurso nacional unificado — Cargo 10 — Analista Judiciário — Apoio Especializado — Estatística",
+      "provider": "Cebraspe",
+      "institution": "Justiça Eleitoral — concurso nacional unificado",
+      "role": "Cargo 10 — Analista Judiciário — Apoio Especializado — Estatística",
+      "year": 2024,
+      "booklet": "988_CPNUJE_010_01",
+      "documentId": "source-988-cpnuje-010-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2024-12-08",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "questionType": "true_false",
+        "annulledItems": [
+          55,
+          100,
+          108
+        ],
+        "answerKeyDocumentId": "source-988-cpnuje-010-01-key",
         "pairingStatus": "matched_by_filename_and_range",
         "externalVerification": true
       }
@@ -11168,6 +11277,366 @@
         "temporalNote": "Compatibilidade limitada às cláusulas citadas, conferidas em 26/10/2026; enunciado e gabarito históricos preservados.",
         "decisionReference": "documentation/twelfth-batch-release.md"
       }
+    },
+    {
+      "id": "988-cpnuje-010-01-q051",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Na construção de um histograma, a altura das barras verticais deve ser proporcional à frequência observada de cada valor mensurado.",
+      "options": [],
+      "contextIds": [
+        "cpnuje-2024-data-summary-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-988-cpnuje-010-01",
+        "number": 51,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "988-cpnuje-010-01-q051-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/thirteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "988-cpnuje-010-01-q056",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Embora seja possível representar graficamente uma variável contínua como uma variável discreta, não é possível representar graficamente variáveis discretas como se fossem contínuas.",
+      "options": [],
+      "contextIds": [
+        "cpnuje-2024-data-summary-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-988-cpnuje-010-01",
+        "number": 56,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "988-cpnuje-010-01-q056-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/thirteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "072-stm-004-01-q079",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A estruturação de canais e ações, como veículos de comunicação e eventos internos, consiste na primeira etapa da comunicação interna.",
+      "options": [],
+      "contextIds": [
+        "stm-2025-internal-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-072-stm-004-01",
+        "number": 79,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "072-stm-004-01-q079-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/thirteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "072-stm-004-01-q082",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A comunicação interna é do interesse apenas dos empregados contratados com carteira assinada, que são os representantes oficiais da organização.",
+      "options": [],
+      "contextIds": [
+        "stm-2025-internal-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-072-stm-004-01",
+        "number": 82,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "072-stm-004-01-q082-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/thirteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "072-stm-004-01-q083",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A teoria da espiral do silêncio, formulada por Elisabeth Noelle-Neumann, parte da premissa de que a opinião pública é formada livremente pelos indivíduos e reforçada pelos meios de comunicação, que atuam de forma neutra, sem exercer influência significativa no processo de conformação das ideias sociais.",
+      "options": [],
+      "contextIds": [
+        "stm-2025-theories-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-072-stm-004-01",
+        "number": 83,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "072-stm-004-01-q083-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/thirteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "072-stm-004-01-q085",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Segundo a teoria do newsmaking, o jornalista possui autonomia plena na construção da notícia, sendo a decisão editorial resultado majoritário de suas preferências pessoais e intenções ideológicas, ainda que existam algumas limitações técnicas e organizacionais no ambiente da redação.",
+      "options": [],
+      "contextIds": [
+        "stm-2025-theories-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-072-stm-004-01",
+        "number": 85,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "072-stm-004-01-q085-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/thirteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "072-stm-004-01-q112",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Na cobertura jornalística do Poder Judiciário, o jornalista deve dominar a linguagem técnica característica do português jurídico, mas deve também ser capaz de expressar com clareza as informações a fim de que a sociedade compreenda as decisões que impactam seus direitos.",
+      "options": [],
+      "contextIds": [
+        "stm-2025-digital-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-072-stm-004-01",
+        "number": 112,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "072-stm-004-01-q112-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/thirteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "072-stm-004-01-q113",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Nos textos jornalísticos para a Internet, o tradicional modelo da pirâmide invertida foi extinto em razão do surgimento de novos gêneros textuais, que requerem uma linguagem mais dinâmica, fluida e sem regras.",
+      "options": [],
+      "contextIds": [
+        "stm-2025-digital-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-072-stm-004-01",
+        "number": 113,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "072-stm-004-01-q113-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/thirteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "072-stm-004-01-q114",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Em vez de um único produto de comunicação voltado para uma ampla massa, a Web permite a criação de diferentes formatos editoriais, cada um focado em grupos específicos de usuários.",
+      "options": [],
+      "contextIds": [
+        "stm-2025-digital-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-072-stm-004-01",
+        "number": 114,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "072-stm-004-01-q114-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/thirteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "072-stm-004-01-q116",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No que se refere à sua arquitetura informacional, uma rede social como o X, antigo Twitter, caracteriza-se como uma micromídia, na qual há limitação do espaço textual.",
+      "options": [],
+      "contextIds": [
+        "stm-2025-digital-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-072-stm-004-01",
+        "number": 116,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "072-stm-004-01-q116-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/thirteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "072-stm-004-01-q119",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No jornalismo, o termo desinformação só deve ser usado para se referir a ataques de hackers.",
+      "options": [],
+      "contextIds": [
+        "stm-2025-disinformation-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-072-stm-004-01",
+        "number": 119,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "072-stm-004-01-q119-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/thirteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "072-stm-004-01-q120",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Segundo estudiosos da área jornalística, o termo fake news, traduzido como notícias falsas, deve ser evitado, porque a palavra notícia pressupõe uma informação verificável de interesse público; logo, conteúdos que não atendem a esses padrões não devem ser considerados notícias.",
+      "options": [],
+      "contextIds": [
+        "stm-2025-disinformation-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-072-stm-004-01",
+        "number": 120,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "072-stm-004-01-q120-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-26",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Item conceitual; não constitui regra específica da Câmara nem atualização silenciosa da prova de origem.",
+        "decisionReference": "documentation/thirteenth-batch-release.md"
+      }
     }
   ],
   "answerKeys": [
@@ -14472,6 +14941,162 @@
       "locator": "PDF p. 1",
       "result": "valid",
       "value": false
+    },
+    {
+      "id": "988-cpnuje-010-01-q051-key-v1",
+      "questionId": "988-cpnuje-010-01-q051",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-988-cpnuje-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "988-cpnuje-010-01-q056-key-v1",
+      "questionId": "988-cpnuje-010-01-q056",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-988-cpnuje-010-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "072-stm-004-01-q079-key-v1",
+      "questionId": "072-stm-004-01-q079",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-072-stm-004-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "072-stm-004-01-q082-key-v1",
+      "questionId": "072-stm-004-01-q082",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-072-stm-004-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "072-stm-004-01-q083-key-v1",
+      "questionId": "072-stm-004-01-q083",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-072-stm-004-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "072-stm-004-01-q085-key-v1",
+      "questionId": "072-stm-004-01-q085",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-072-stm-004-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "072-stm-004-01-q112-key-v1",
+      "questionId": "072-stm-004-01-q112",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-072-stm-004-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "072-stm-004-01-q113-key-v1",
+      "questionId": "072-stm-004-01-q113",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-072-stm-004-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "072-stm-004-01-q114-key-v1",
+      "questionId": "072-stm-004-01-q114",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-072-stm-004-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "072-stm-004-01-q116-key-v1",
+      "questionId": "072-stm-004-01-q116",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-072-stm-004-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "072-stm-004-01-q119-key-v1",
+      "questionId": "072-stm-004-01-q119",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-072-stm-004-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "072-stm-004-01-q120-key-v1",
+      "questionId": "072-stm-004-01-q120",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-072-stm-004-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
     }
   ],
   "explanations": [
@@ -18914,6 +19539,210 @@
         {
           "documentId": "reference-codigo-civil-2002",
           "locator": "Art. 945; culpa concorrente"
+        }
+      ]
+    },
+    {
+      "id": "988-cpnuje-010-01-q051-comment-v1",
+      "questionId": "988-cpnuje-010-01-q051",
+      "text": "Um histograma resume a distribuição por intervalos de valores, não pela frequência de cada valor isolado. Com classes de mesma largura, alturas podem representar frequências. Com larguras diferentes, a área de cada barra deve ser proporcional à frequência, usando altura proporcional à densidade de frequência. Por isso, não se deve aplicar a afirmação do item como regra geral para a altura das barras.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-988-cpnuje-010-01-paper",
+          "locator": "PDF p. 1, item 51"
+        },
+        {
+          "documentId": "source-988-cpnuje-010-01-key",
+          "locator": "PDF p. 1, item 51"
+        }
+      ]
+    },
+    {
+      "id": "988-cpnuje-010-01-q056-comment-v1",
+      "questionId": "988-cpnuje-010-01-q056",
+      "text": "A representação gráfica pode ligar pontos de uma variável discreta ou empregar uma aproximação contínua para evidenciar um padrão. Isso não transforma a variável em contínua: a natureza dos valores continua sendo discreta. O erro é proibir de modo absoluto essa forma de representação; a escolha precisa deixar claras as limitações e evitar sugerir valores intermediários inexistentes.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-988-cpnuje-010-01-paper",
+          "locator": "PDF p. 1, item 56"
+        },
+        {
+          "documentId": "source-988-cpnuje-010-01-key",
+          "locator": "PDF p. 1, item 56"
+        }
+      ]
+    },
+    {
+      "id": "072-stm-004-01-q079-comment-v1",
+      "questionId": "072-stm-004-01-q079",
+      "text": "Definir canais e eventos é uma decisão de execução que deve partir de diagnóstico, conhecimento dos públicos e objetivos. Não basta começar pelos veículos sem compreender a situação organizacional. O item antecipa a escolha das ferramentas como primeira etapa; o comentário não impõe uma sequência única a todos os modelos de planejamento.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-072-stm-004-01-paper",
+          "locator": "PDF p. 2, item 79"
+        },
+        {
+          "documentId": "source-072-stm-004-01-key",
+          "locator": "PDF p. 1, item 79"
+        }
+      ]
+    },
+    {
+      "id": "072-stm-004-01-q082-comment-v1",
+      "questionId": "072-stm-004-01-q082",
+      "text": "A comunicação interna interessa às pessoas que participam da organização, independentemente de contratação pela CLT. No serviço público, por exemplo, servidores estatutários também integram o público interno. A palavra “apenas” restringe indevidamente o alcance da comunicação interna.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-072-stm-004-01-paper",
+          "locator": "PDF p. 2, item 82"
+        },
+        {
+          "documentId": "source-072-stm-004-01-key",
+          "locator": "PDF p. 1, item 82"
+        }
+      ]
+    },
+    {
+      "id": "072-stm-004-01-q083-comment-v1",
+      "questionId": "072-stm-004-01-q083",
+      "text": "Na espiral do silêncio, a percepção de um clima de opinião predominante e o receio de isolamento podem reduzir a manifestação de opiniões percebidas como minoritárias. Os meios de comunicação participam da formação desse ambiente. O item contradiz a teoria ao atribuir-lhes neutralidade e ausência de influência significativa; isso não significa que toda pessoa fique em silêncio ou reaja da mesma maneira.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-072-stm-004-01-paper",
+          "locator": "PDF p. 2, item 83"
+        },
+        {
+          "documentId": "source-072-stm-004-01-key",
+          "locator": "PDF p. 1, item 83"
+        }
+      ]
+    },
+    {
+      "id": "072-stm-004-01-q085-comment-v1",
+      "questionId": "072-stm-004-01-q085",
+      "text": "O newsmaking examina como rotinas profissionais, critérios de noticiabilidade e condições organizacionais participam da construção da notícia. Preferências individuais não explicam isoladamente esse processo. O item erra ao atribuir autonomia plena ao jornalista e relegar os condicionantes produtivos a limitações secundárias.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-072-stm-004-01-paper",
+          "locator": "PDF p. 2, item 85"
+        },
+        {
+          "documentId": "source-072-stm-004-01-key",
+          "locator": "PDF p. 1, item 85"
+        }
+      ]
+    },
+    {
+      "id": "072-stm-004-01-q112-comment-v1",
+      "questionId": "072-stm-004-01-q112",
+      "text": "Conhecer os termos jurídicos ajuda a compreender o fato, mas a notícia deve explicar seu significado e seus efeitos de forma clara para a sociedade. O item concilia precisão técnica e compreensão pelo público. Este vínculo trata de linguagem simples em geral, sem atribuir ao item conteúdo do Manual de Linguagem Simples da Câmara nem transformar a regra do STM em norma da Câmara.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-072-stm-004-01-paper",
+          "locator": "PDF p. 4, item 112"
+        },
+        {
+          "documentId": "source-072-stm-004-01-key",
+          "locator": "PDF p. 1, item 112"
+        }
+      ]
+    },
+    {
+      "id": "072-stm-004-01-q113-comment-v1",
+      "questionId": "072-stm-004-01-q113",
+      "text": "Novos formatos e recursos hipertextuais ampliaram as possibilidades do jornalismo digital, mas não extinguiram a pirâmide invertida nem dispensaram critérios de clareza, organização e verificação. O erro está nas afirmações absolutas de extinção do modelo e de ausência de regras.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-072-stm-004-01-paper",
+          "locator": "PDF p. 4, item 113"
+        },
+        {
+          "documentId": "source-072-stm-004-01-key",
+          "locator": "PDF p. 1, item 113"
+        }
+      ]
+    },
+    {
+      "id": "072-stm-004-01-q114-comment-v1",
+      "questionId": "072-stm-004-01-q114",
+      "text": "A Web permite produzir formatos editoriais orientados a grupos com interesses e necessidades específicos. A segmentação pode orientar linguagem, canal e apresentação. Isso é uma possibilidade de planejamento, sem garantir que qualquer produto digital alcance seu público ou exclua conteúdos de interesse amplo.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-072-stm-004-01-paper",
+          "locator": "PDF p. 4, item 114"
+        },
+        {
+          "documentId": "source-072-stm-004-01-key",
+          "locator": "PDF p. 1, item 114"
+        }
+      ]
+    },
+    {
+      "id": "072-stm-004-01-q116-comment-v1",
+      "questionId": "072-stm-004-01-q116",
+      "text": "O gabarito adota a caracterização do X/Twitter como micromídia associada a publicações com limites de extensão. O item não fixa uma quantidade de caracteres. Limites e recursos variam por modalidade de conta e podem mudar; não se deve ensinar um número único como permanente nem concluir que a plataforma oferece apenas texto. A questão inicia uma amostra de características de plataformas, sem cobrir gestão de redes oficiais, dimensões de imagens ou todas as redes.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-072-stm-004-01-paper",
+          "locator": "PDF p. 4, item 116"
+        },
+        {
+          "documentId": "source-072-stm-004-01-key",
+          "locator": "PDF p. 1, item 116"
+        }
+      ]
+    },
+    {
+      "id": "072-stm-004-01-q119-comment-v1",
+      "questionId": "072-stm-004-01-q119",
+      "text": "Desinformação pode envolver conteúdo falso ou enganoso produzido ou difundido deliberadamente para enganar, e não se restringe a ataques de hackers. Um ataque informático pode integrar uma operação de desinformação, mas não define sozinho o conceito. A restrição “só” torna o enunciado incorreto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-072-stm-004-01-paper",
+          "locator": "PDF p. 4, item 119"
+        },
+        {
+          "documentId": "source-072-stm-004-01-key",
+          "locator": "PDF p. 1, item 119"
+        }
+      ]
+    },
+    {
+      "id": "072-stm-004-01-q120-comment-v1",
+      "questionId": "072-stm-004-01-q120",
+      "text": "O item apresenta uma posição defendida por estudiosos: chamar conteúdo fabricado de “notícia” pode conferir aparência de legitimidade a algo que não atende aos critérios jornalísticos de verificação e interesse público. O gabarito confirma essa posição descrita, não um consenso terminológico universal. Expressões mais precisas, como desinformação, dependem da natureza e da intenção do conteúdo; um erro involuntário não deve ser automaticamente tratado como ação deliberada.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-072-stm-004-01-paper",
+          "locator": "PDF p. 4, item 120"
+        },
+        {
+          "documentId": "source-072-stm-004-01-key",
+          "locator": "PDF p. 1, item 120"
         }
       ]
     }
@@ -23462,6 +24291,90 @@
       "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-6-5",
       "justification": "Nexo causal e efeitos da culpa da vítima na responsabilidade estatal.",
       "status": "confirmed"
+    },
+    {
+      "id": "988-cpnuje-010-01-q051-mapping-1",
+      "questionId": "988-cpnuje-010-01-q051",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-8-2",
+      "justification": "Construção e interpretação de histogramas.",
+      "status": "confirmed"
+    },
+    {
+      "id": "988-cpnuje-010-01-q056-mapping-1",
+      "questionId": "988-cpnuje-010-01-q056",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-8-1",
+      "justification": "Escolha de representações gráficas e natureza da variável.",
+      "status": "confirmed"
+    },
+    {
+      "id": "072-stm-004-01-q079-mapping-1",
+      "questionId": "072-stm-004-01-q079",
+      "syllabusItemId": "camara-2026-comunicacao-social-2-2",
+      "justification": "Canais e ações na estruturação da comunicação interna.",
+      "status": "confirmed"
+    },
+    {
+      "id": "072-stm-004-01-q082-mapping-1",
+      "questionId": "072-stm-004-01-q082",
+      "syllabusItemId": "camara-2026-comunicacao-social-2-1",
+      "justification": "Públicos e abrangência da comunicação interna.",
+      "status": "confirmed"
+    },
+    {
+      "id": "072-stm-004-01-q083-mapping-1",
+      "questionId": "072-stm-004-01-q083",
+      "syllabusItemId": "camara-2026-comunicacao-social-1-2",
+      "justification": "Opinião pública e espiral do silêncio.",
+      "status": "confirmed"
+    },
+    {
+      "id": "072-stm-004-01-q085-mapping-1",
+      "questionId": "072-stm-004-01-q085",
+      "syllabusItemId": "camara-2026-comunicacao-social-1-1",
+      "justification": "Newsmaking e condicionantes da produção da notícia.",
+      "status": "confirmed"
+    },
+    {
+      "id": "072-stm-004-01-q112-mapping-1",
+      "questionId": "072-stm-004-01-q112",
+      "syllabusItemId": "camara-2026-comunicacao-social-10",
+      "justification": "Clareza da comunicação pública de conteúdo especializado.",
+      "status": "confirmed"
+    },
+    {
+      "id": "072-stm-004-01-q113-mapping-1",
+      "questionId": "072-stm-004-01-q113",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-5-3",
+      "justification": "Estruturação de textos e produção de conteúdo digital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "072-stm-004-01-q114-mapping-1",
+      "questionId": "072-stm-004-01-q114",
+      "syllabusItemId": "camara-2026-comunicacao-social-4-6",
+      "justification": "Segmentação de públicos e adequação dos formatos editoriais.",
+      "status": "confirmed"
+    },
+    {
+      "id": "072-stm-004-01-q116-mapping-1",
+      "questionId": "072-stm-004-01-q116",
+      "syllabusItemId": "camara-2026-comunicacao-social-5-3",
+      "justification": "Característica de plataforma social e formato textual.",
+      "status": "confirmed"
+    },
+    {
+      "id": "072-stm-004-01-q119-mapping-1",
+      "questionId": "072-stm-004-01-q119",
+      "syllabusItemId": "camara-2026-comunicacao-social-1-4",
+      "justification": "Desinformação e integridade da informação.",
+      "status": "confirmed"
+    },
+    {
+      "id": "072-stm-004-01-q120-mapping-1",
+      "questionId": "072-stm-004-01-q120",
+      "syllabusItemId": "camara-2026-comunicacao-social-1-4",
+      "justification": "Discussão terminológica sobre fake news e compromisso jornalístico.",
+      "status": "confirmed"
     }
   ],
   "scoringRules": [
@@ -24889,6 +25802,51 @@
       "text": "No que se refere a direito administrativo, julgue os itens a seguir.",
       "sourceDocumentId": "source-993-tce-ac-cb3-01-paper",
       "sourcePage": 3
+    },
+    {
+      "id": "stm-2025-internal-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que se refere ao jornalismo institucional e à comunicação interna, julgue os itens a seguir.",
+      "sourceDocumentId": "source-072-stm-004-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "stm-2025-theories-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os próximos itens, referentes a agenda setting, gatekeeping, newsmaking e espiral do silêncio.",
+      "sourceDocumentId": "source-072-stm-004-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "stm-2025-digital-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que diz respeito às novas tecnologias de comunicação e ao jornalismo jurídico, julgue os itens seguintes.",
+      "sourceDocumentId": "source-072-stm-004-01-paper",
+      "sourcePage": 4
+    },
+    {
+      "id": "stm-2025-disinformation-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens que se seguem, referentes a fake news e jornalismo.",
+      "sourceDocumentId": "source-072-stm-004-01-paper",
+      "sourcePage": 4
+    },
+    {
+      "id": "cpnuje-2024-data-summary-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens a seguir, considerando as técnicas empregadas em resumos de dados levantados de uma população.",
+      "sourceDocumentId": "source-988-cpnuje-010-01-paper",
+      "sourcePage": 1
     }
   ]
 }

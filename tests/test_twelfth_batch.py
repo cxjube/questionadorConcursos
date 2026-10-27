@@ -1,4 +1,6 @@
 """Check the 30-item gap-focused batch against retained official source bytes."""
+import gzip
+import json
 import hashlib
 import re
 import shutil
@@ -17,7 +19,7 @@ from review_helpers import audit_catalog
 class TwelfthBatchTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c = read_json(ROOT / 'data/catalog.json')
+        cls.c = json.loads(gzip.decompress((ROOT / 'data/reviews/pre-thirteenth-catalog.json.gz').read_bytes()))
         cls.review = read_json(ROOT / 'data/reviews/twelfth-batch.json')
         cls.discovery = read_json(ROOT / 'data/reviews/twelfth-source-discovery.json')
         cls.docs = {d['id']: d for d in cls.c['documents']}
@@ -129,7 +131,7 @@ class TwelfthBatchTests(unittest.TestCase):
         old_mapped = {r['id'] for r in prior['items'] if r['directQuestionIds']}
         self.assertEqual(len(mapped - old_mapped), 20)
         self.assertTrue(old_mapped <= mapped)
-        for filename, content in current_artifacts(self.c, self.review).items():
+        for filename, content in current_artifacts(read_json(ROOT / 'data/catalog.json'), read_json(ROOT / 'data/reviews/thirteenth-batch.json')).items():
             self.assertEqual((ROOT / filename).read_text(), content)
         basic = {q for r in report['items'] if r['block'] == 'basic' for q in r['directQuestionIds'] if self.questions[q]['type'] == 'true_false'}
         specific = {q for r in report['items'] if r['block'] == 'specific' for q in r['directQuestionIds'] if self.questions[q]['type'] == 'true_false'}

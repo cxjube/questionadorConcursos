@@ -1,0 +1,137 @@
+{
+  "id": "thirteenth-source-discovery",
+  "checkedAt": "2026-10-26",
+  "scope": "Independent repeated downloads of two complete official pairs; eligibility checked item by item. Existing verification records are historical, not new downloads.",
+  "listings": [
+    {
+      "event": "stm_25",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/stm_25",
+      "file": "data/reviews/thirteenth-source-listings/stm_25.json",
+      "sha256": "96de4554a763bac4b3a3f27733a37d4e5aa34d70c1ebd86253d9eeec452eac93"
+    },
+    {
+      "event": "cpnuje_24",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/cpnuje_24",
+      "file": "data/reviews/thirteenth-source-listings/cpnuje_24.json",
+      "sha256": "d1beb3fd9dea9be9605eb3207fae8dcb4fb21dde4792370cae23ec4e7622d460"
+    }
+  ],
+  "pairs": [
+    {
+      "paperId": "source-072-stm-004-01",
+      "event": "stm_25",
+      "booklet": "072_STM_004_01",
+      "applicationDate": "2025-06-01",
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "documents": [
+        {
+          "documentId": "source-072-stm-004-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/072_STM_004_01.pdf",
+          "sha256": "d9d1f6051b2d2154f8f283676a523f2fd3f51010737158888c4a63fc739abeff",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "06/06/2025 19:00",
+            "nomeArquivo": "072_STM_004_01.pdf",
+            "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 4",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2025-06-06T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-072-stm-004-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/Gab_Definitivo_072_STM_004_01.pdf",
+          "sha256": "854e34de0320e55ec4af4feb421ba540ae1f17898e67e41bc6363eda533b787f",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "02/07/2025 14:50",
+            "nomeArquivo": "Gab_Definitivo_072_STM_004_01.pdf",
+            "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – CARGO 4",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2025-07-02T14:50:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "annulledItems": [
+        53,
+        78,
+        84,
+        106
+      ]
+    },
+    {
+      "paperId": "source-988-cpnuje-010-01",
+      "event": "cpnuje_24",
+      "booklet": "988_CPNUJE_010_01",
+      "applicationDate": "2024-12-08",
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "documents": [
+        {
+          "documentId": "source-988-cpnuje-010-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/CPNUJE_24/arquivos/988_CPNUJE_010_01.PDF",
+          "sha256": "9b4c724faf61eae28fb7a384d0378dba44339def4ae24199a46f514f06a98aa2",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "13/12/2024 19:00",
+            "nomeArquivo": "988_CPNUJE_010_01.PDF",
+            "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS ESPECÍFICOS - CARGO 10",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2024-12-13T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-988-cpnuje-010-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/CPNUJE_24/arquivos/GAB_DEFINITIVO_988_CPNUJE_010_01.PDF",
+          "sha256": "cecae54e8c453f708cd03be9efbd144c7472b64c1197c71cd167ccd3a5d0eb5d",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_pdf",
+            "dataArquivo": "15/01/2025 12:40",
+            "nomeArquivo": "GAB_DEFINITIVO_988_CPNUJE_010_01.PDF",
+            "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS - CARGO 10",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2025-01-15T12:40:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "annulledItems": [
+        55,
+        100,
+        108
+      ]
+    }
+  ],
+  "excludedCandidates": [
+    {
+      "booklet": "018_STJ_CB2_01",
+      "numbers": [
+        48,
+        49,
+        50
+      ],
+      "reason": "All three Power BI items have X (annulled) in the definitive key, including the alternative booklet.",
+      "keyFile": "data/reviews/thirteenth-source-listings/GAB_DEFINITIVO_018_STJ_CB2_01.PDF",
+      "keySha256": "f9848d03374780a176f5e1607c3db8f7f40f468e0b7869d26d0def31d734476e",
+      "listingFile": "data/reviews/thirteenth-source-listings/stj_24.json",
+      "officialKeyUrl": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/GAB_DEFINITIVO_018_STJ_CB2_01.PDF"
+    },
+    {
+      "booklet": "Camara2012",
+      "reason": "Available archived key remains preliminary; no definitive key confirmed. Not eligible."
+    },
+    {
+      "scope": "TRF6/FUB basic papers and selected specifics",
+      "reason": "No self-contained item selected for remaining Power BI/prompts/generative-AI gaps. No claim of exhaustive source search."
+    }
+  ]
+}

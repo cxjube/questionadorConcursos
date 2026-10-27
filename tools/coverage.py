@@ -178,15 +178,15 @@ def current_artifacts(catalog, review):
              'Direto significa vínculo ao item exato; subárvore reúne o próprio item e seus descendentes, sem duplicar IDs. '
              'Vínculos de pais não são distribuídos aos filhos. Prioridades editoriais: A sem C/E, B com 1–2 C/E, C com 3 ou mais. '
              'Pais e filhos se sobrepõem; as contagens não são pesos oficiais.', '',
-             '[Entrega do 12º lote](twelfth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)', '',
+             '[Entrega do 13º lote](thirteenth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)', '',
              '## Disciplinas', '', '| Disciplina | Direto / programa | C/E distintos | MC distintos | Folhas vazias |',
              '| --- | ---: | ---: | ---: | ---: |']
     for d in report['disciplines']:
         lines.append(f"| {d['label']} | {d['directItems']}/{d['totalItems']} | {d['questionsCE']} | {d['questionsMC']} | {d['emptyLeaves']} |")
     lines += ['', '## Prioridades seguintes', '',
-              '1. Visualização de dados (TI 8–8.4), prompts e IA generativa (5.1/5.3): continuam sem itens válidos selecionados neste lote. STJ 49/50 permanecem excluídos por anulação.',
+              '1. Visualização iniciada com dois itens: ampliar tipos de gráficos, ferramentas (8.3) e storytelling (8.4). Prompts e IA generativa (5.1/5.3) seguem sem itens. STJ CB2 48/49/50 também anulados.',
               '2. Regimento Comum e resoluções do Congresso: Constitucional 8–8.2 e Processo Legislativo 6–6.3.',
-              '3. Redes sociais oficiais (Comunicação 5–5.4), política e manuais da Câmara (8.1/8.2/10.1), com fonte vigente e questão oficial compatível.',
+              '3. Redes sociais: uma característica de plataforma em 5.3 não cobre planejamento, postagens, formatos e elementos de publicação (5.1/5.2/5.4). Política e manuais próprios da Câmara (8.1/8.2/10.1) continuam pendentes.',
               '4. Expandir responsabilidade civil, governança, poderes e ética publicitária: os primeiros vínculos são amostras pequenas.',
               '5. Gramática e uso do Inglês (2/3), lacunas específicas de Português, pesquisa de mercado/opinião/imagem e formação política brasileira.', '',
               '## Inventário completo', '']

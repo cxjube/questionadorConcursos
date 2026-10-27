@@ -1,0 +1,331 @@
+{
+  "id": "thirteenth-batch",
+  "reviewedAt": "2026-10-26",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/thirteenth-batch-release.md",
+  "items": [
+    {
+      "questionId": "988-cpnuje-010-01-q051",
+      "paperId": "source-988-cpnuje-010-01",
+      "number": 51,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        106,
+        138
+      ],
+      "contextIds": [
+        "cpnuje-2024-data-summary-command"
+      ],
+      "answerKeyId": "988-cpnuje-010-01-q051-key-v1",
+      "answerDocumentId": "source-988-cpnuje-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-8-2"
+      ],
+      "justification": "Construção e interpretação de histogramas."
+    },
+    {
+      "questionId": "988-cpnuje-010-01-q056",
+      "paperId": "source-988-cpnuje-010-01",
+      "number": 56,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        396,
+        445
+      ],
+      "contextIds": [
+        "cpnuje-2024-data-summary-command"
+      ],
+      "answerKeyId": "988-cpnuje-010-01-q056-key-v1",
+      "answerDocumentId": "source-988-cpnuje-010-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-8-1"
+      ],
+      "justification": "Escolha de representações gráficas e natureza da variável."
+    },
+    {
+      "questionId": "072-stm-004-01-q079",
+      "paperId": "source-072-stm-004-01",
+      "number": 79,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        462,
+        486
+      ],
+      "contextIds": [
+        "stm-2025-internal-command"
+      ],
+      "answerKeyId": "072-stm-004-01-q079-key-v1",
+      "answerDocumentId": "source-072-stm-004-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-2-2"
+      ],
+      "justification": "Canais e ações na estruturação da comunicação interna."
+    },
+    {
+      "questionId": "072-stm-004-01-q082",
+      "paperId": "source-072-stm-004-01",
+      "number": 82,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        560,
+        584
+      ],
+      "contextIds": [
+        "stm-2025-internal-command"
+      ],
+      "answerKeyId": "072-stm-004-01-q082-key-v1",
+      "answerDocumentId": "source-072-stm-004-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-2-1"
+      ],
+      "justification": "Públicos e abrangência da comunicação interna."
+    },
+    {
+      "questionId": "072-stm-004-01-q083",
+      "paperId": "source-072-stm-004-01",
+      "number": 83,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        628,
+        687
+      ],
+      "contextIds": [
+        "stm-2025-theories-command"
+      ],
+      "answerKeyId": "072-stm-004-01-q083-key-v1",
+      "answerDocumentId": "source-072-stm-004-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-1-2"
+      ],
+      "justification": "Opinião pública e espiral do silêncio."
+    },
+    {
+      "questionId": "072-stm-004-01-q085",
+      "paperId": "source-072-stm-004-01",
+      "number": 85,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        747,
+        794
+      ],
+      "contextIds": [
+        "stm-2025-theories-command"
+      ],
+      "answerKeyId": "072-stm-004-01-q085-key-v1",
+      "answerDocumentId": "source-072-stm-004-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-1-1"
+      ],
+      "justification": "Newsmaking e condicionantes da produção da notícia."
+    },
+    {
+      "questionId": "072-stm-004-01-q112",
+      "paperId": "source-072-stm-004-01",
+      "number": 112,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        68,
+        95
+      ],
+      "contextIds": [
+        "stm-2025-digital-command"
+      ],
+      "answerKeyId": "072-stm-004-01-q112-key-v1",
+      "answerDocumentId": "source-072-stm-004-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-10"
+      ],
+      "justification": "Clareza da comunicação pública de conteúdo especializado."
+    },
+    {
+      "questionId": "072-stm-004-01-q113",
+      "paperId": "source-072-stm-004-01",
+      "number": 113,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        108,
+        122
+      ],
+      "contextIds": [
+        "stm-2025-digital-command"
+      ],
+      "answerKeyId": "072-stm-004-01-q113-key-v1",
+      "answerDocumentId": "source-072-stm-004-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-5-3"
+      ],
+      "justification": "Estruturação de textos e produção de conteúdo digital."
+    },
+    {
+      "questionId": "072-stm-004-01-q114",
+      "paperId": "source-072-stm-004-01",
+      "number": 114,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        136,
+        149
+      ],
+      "contextIds": [
+        "stm-2025-digital-command"
+      ],
+      "answerKeyId": "072-stm-004-01-q114-key-v1",
+      "answerDocumentId": "source-072-stm-004-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-4-6"
+      ],
+      "justification": "Segmentação de públicos e adequação dos formatos editoriais."
+    },
+    {
+      "questionId": "072-stm-004-01-q116",
+      "paperId": "source-072-stm-004-01",
+      "number": 116,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        190,
+        204
+      ],
+      "contextIds": [
+        "stm-2025-digital-command"
+      ],
+      "answerKeyId": "072-stm-004-01-q116-key-v1",
+      "answerDocumentId": "source-072-stm-004-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-5-3"
+      ],
+      "justification": "Característica de plataforma social e formato textual."
+    },
+    {
+      "questionId": "072-stm-004-01-q119",
+      "paperId": "source-072-stm-004-01",
+      "number": 119,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        302,
+        303
+      ],
+      "contextIds": [
+        "stm-2025-disinformation-command"
+      ],
+      "answerKeyId": "072-stm-004-01-q119-key-v1",
+      "answerDocumentId": "source-072-stm-004-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-1-4"
+      ],
+      "justification": "Desinformação e integridade da informação."
+    },
+    {
+      "questionId": "072-stm-004-01-q120",
+      "paperId": "source-072-stm-004-01",
+      "number": 120,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        316,
+        343
+      ],
+      "contextIds": [
+        "stm-2025-disinformation-command"
+      ],
+      "answerKeyId": "072-stm-004-01-q120-key-v1",
+      "answerDocumentId": "source-072-stm-004-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-1-4"
+      ],
+      "justification": "Discussão terminológica sobre fake news e compromisso jornalístico."
+    }
+  ],
+  "contexts": [
+    {
+      "contextId": "stm-2025-internal-command",
+      "paperId": "source-072-stm-004-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        302.077,
+        313.797
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "stm-2025-theories-command",
+      "paperId": "source-072-stm-004-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        602.557,
+        614.277
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "stm-2025-digital-command",
+      "paperId": "source-072-stm-004-01",
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        52.957,
+        53.157
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "stm-2025-disinformation-command",
+      "paperId": "source-072-stm-004-01",
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        286.357,
+        286.557
+      ],
+      "paragraphs": false
+    },
+    {
+      "contextId": "cpnuje-2024-data-summary-command",
+      "paperId": "source-988-cpnuje-010-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        71.677,
+        87.477
+      ],
+      "paragraphs": false
+    }
+  ],
+  "previousCatalogSha256": "703ddebfc77830e56083ed0dc4b3cfe0ffffedc4cf3def5511a084a48c1e4f7b"
+}
