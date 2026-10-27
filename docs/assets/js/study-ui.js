@@ -181,7 +181,16 @@ const StudyUI = (() => {
     function addOption(select, value, label, disabled = false) {
       const option = node('option', label); option.value = value; option.disabled = disabled; select.append(option);
     }
+    function blockLabel(roleId, value) {
+      if (!value) return 'Todos os blocos';
+      const blocks = data.scoringRules.find(r=>r.roleId===roleId)?.blocks || [];
+      return blocks.find(b=>b.id===value || b.id===({basic:'p1',specific:'p2'})[value])?.label || ({basic:'Conhecimentos gerais',institutional:'Conhecimentos institucionais',specific:'Conhecimentos específicos'})[value];
+    }
     function refreshFilters(resetDiscipline = false) {
+      const previousBlock = resetDiscipline ? '' : block.value;
+      block.replaceChildren(); addOption(block, '', 'Todos os blocos');
+      for (const value of ['basic','institutional','specific']) if (data.syllabusItems.some(s=>s.roleId===selectedRole && s.block===value)) addOption(block,value,blockLabel(selectedRole,value));
+      if ([...block.options].some(o=>o.value===previousBlock)) block.value=previousBlock;
       const previousDiscipline = resetDiscipline ? '' : discipline.value;
       const previousTopic = resetDiscipline ? '' : topic.value;
       discipline.replaceChildren(); topic.replaceChildren();
@@ -223,8 +232,8 @@ const StudyUI = (() => {
       prepareExam.textContent = exam.rule ? 'Simulado ' + exam.rule.blocks.reduce((n,b)=>n+b.questionCount,0) + ' questões' : 'Simulado indisponível';
       element('exam-availability').hidden = resume || exam.ready;
       element('exam-availability').textContent = exam.reason;
-      quantity.max = String(Math.min(500, count));
-      const invalidQuantity = quantity.validity.badInput || settings.limit !== null && (!Number.isInteger(settings.limit) || settings.limit < 1 || settings.limit > Math.min(500, count));
+      quantity.max = String(Math.max(1, Math.min(500, count)));
+      const invalidQuantity = count > 0 && (quantity.validity.badInput || settings.limit !== null && (!Number.isInteger(settings.limit) || settings.limit < 1 || settings.limit > Math.min(500, count)));
       const invalidTime = minutes.validity.badInput || settings.durationMinutes !== null && (!Number.isInteger(settings.durationMinutes) || settings.durationMinutes < 1 || settings.durationMinutes > 1440);
       const invalid = invalidQuantity || invalidTime;
       quantity.setAttribute('aria-invalid', String(invalidQuantity)); minutes.setAttribute('aria-invalid',String(invalidTime));
@@ -234,6 +243,9 @@ const StudyUI = (() => {
       element('study-filters').disabled = resume || !total;
       customize.disabled = resume || !total || Boolean(store.conflict);
       element('apply-study-options').disabled = resume || !count || invalid || Boolean(store.conflict);
+      const formatNote = element('study-format-note');
+      formatNote.hidden = !data.scoringRules.some(r=>r.roleId===selectedRole && r.blocks.every(b=>b.questionType==='multiple_choice'));
+      formatNote.textContent = 'A prova da ABDI é de múltipla escolha. O treino também inclui questões C/E no formato original; filtre por formato para escolher.';
       element('study-availability').textContent = total ? total + ' questões disponíveis neste objetivo.' : 'Ainda não há questões publicadas para este objetivo.';
       element('study-filter-status').textContent = invalidTime ? 'Escolha um tempo inteiro entre 1 e 1440 minutos.' : invalidQuantity ? 'Escolha uma quantidade entre 1 e ' + Math.min(500, count) + '.' : count ? (settings.limit || count) + ' de ' + count + ' questões disponíveis para esta seleção.' : 'Nenhuma questão disponível para esta seleção.';
       const customized = settings.block || settings.disciplineId || settings.topicId || settings.limit !== null || settings.shuffle || settings.paperId || settings.year || settings.type || settings.durationMinutes !== null || settings.scoringMode !== 'none';
@@ -320,7 +332,7 @@ const StudyUI = (() => {
     function sessionInfo(session) {
       const details = disclosure('session-info', 'Sobre esta sessão');
       details.append(node('p', session.objective), node('p', 'Você pode alterar as marcações até finalizar. O gabarito aparece ao final. As sessões são salvas neste navegador quando o armazenamento está disponível.'));
-      if (session.selection && session.mode !== 'exam') details.append(node('p', [session.selection.block === 'basic' ? 'P1 — Conhecimentos básicos' : session.selection.block === 'specific' ? 'P2 — Conhecimentos específicos' : 'Todos os blocos', session.selection.disciplineLabel || 'Todas as disciplinas', session.selection.topicLabel || 'Todos os assuntos', session.selection.paperLabel || 'Todas as provas', session.selection.year || 'Todos os anos', session.selection.type === 'true_false' ? 'Certo ou Errado' : session.selection.type === 'multiple_choice' ? 'Múltipla escolha' : 'Todos os formatos', session.items.length + ' questões', session.selection.shuffle ? 'Seleção e ordem sorteadas' : 'Ordem do banco'].join(' · ')));
+      if (session.selection && session.mode !== 'exam') details.append(node('p', [blockLabel(session.roleId, session.selection.block), session.selection.disciplineLabel || 'Todas as disciplinas', session.selection.topicLabel || 'Todos os assuntos', session.selection.paperLabel || 'Todas as provas', session.selection.year || 'Todos os anos', session.selection.type === 'true_false' ? 'Certo ou Errado' : session.selection.type === 'multiple_choice' ? 'Múltipla escolha' : 'Todos os formatos', session.items.length + ' questões', session.selection.shuffle ? 'Seleção e ordem sorteadas' : 'Ordem do banco'].join(' · ')));
       if (session.timer) details.append(node('p','Tempo limite: ' + session.timer.durationSeconds/60 + ' minutos. O tempo continua fora da página.'));
       if (session.mode === 'exam') {
         const profile = session.scoringProfile;
@@ -713,7 +725,7 @@ const StudyUI = (() => {
         if (session.finishReason === 'time_limit') content.append(node('p','Tempo encerrado. Questões sem resposta foram registradas em branco.','review-note'));
         content.append(session.mode === 'exam' ? examResults(session) : resultMetrics(session));
         const explanation = disclosure('score-help', 'Como o resultado é calculado');
-        explanation.append(node('p', summary(session)), node('p', session.mode === 'exam' ? 'Nota por bloco = acertos − erros. Brancos valem zero. A nota total soma os dois blocos; os mínimos de cada bloco e do total são verificados independentemente conforme o perfil salvo nesta sessão. A taxa de acerto considera apenas acertos e erros. Esta é uma seleção de treino com regras do edital, não uma reprodução histórica da prova.' : session.scoringProfile ? 'Pontuação de treino: acerto +1; erro ' + session.scoringProfile.incorrect + '; branco e anulação 0. Não é uma nota oficial nem aplica os mínimos da Câmara. A taxa de acerto considera apenas acertos e erros.' : 'Este treino não tem pontuação de concurso. A taxa usa acertos e erros; brancos e anulações ficam separados. Sem respostas válidas, não há percentual.'));
+        explanation.append(node('p', summary(session)), node('p', session.mode === 'exam' ? 'Nota por bloco = acertos − erros. Brancos valem zero. A nota total soma os dois blocos; os mínimos de cada bloco e do total são verificados independentemente conforme o perfil salvo nesta sessão. A taxa de acerto considera apenas acertos e erros. Esta é uma seleção de treino com regras do edital, não uma reprodução histórica da prova.' : session.scoringProfile ? 'Pontuação de treino: acerto +1; erro ' + session.scoringProfile.incorrect + '; branco e anulação 0. Não é uma nota oficial nem aplica os critérios eliminatórios do edital. A taxa de acerto considera apenas acertos e erros.' : 'Este treino não tem pontuação de concurso. A taxa usa acertos e erros; brancos e anulações ficam separados. Sem respostas válidas, não há percentual.'));
         content.append(resultActions(session), performanceView([session], session.roleId, 'session-' + session.id), explanation);
       } else {
         const progress = node('div', undefined, 'session-progress');

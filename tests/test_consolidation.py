@@ -31,18 +31,18 @@ class ConsolidationTests(unittest.TestCase):
         """Keep Cargo 1 scope, future contests and intake totals explicit."""
         self.assertEqual(validate(self.catalog), [])
         self.assertEqual(self.catalog['schemaVersion'], 3)
-        self.assertEqual(len(self.catalog['disciplines']), 9)
-        self.assertEqual(len(self.catalog['topics']), 228)
-        self.assertEqual(len(self.catalog['syllabusItems']), 228)
+        self.assertEqual(len(self.catalog['disciplines']), 16)
+        self.assertEqual(len(self.catalog['topics']), 325)
+        self.assertEqual(len(self.catalog['syllabusItems']), 325)
         self.assertEqual(len(self.catalog['papers']), 42)
         self.assertEqual(sum(p['inventory']['itemCount'] for p in self.catalog['papers']), 2846)
         self.assertEqual(sum(len(p['inventory']['annulledItems']) for p in self.catalog['papers']), 121)
         self.assertEqual(len(self.catalog['questions']), 395)
         self.assertEqual(len(self.catalog['answerKeys']), 395)
-        self.assertEqual(len(self.catalog['mappings']), 404)
-        self.assertTrue(all(c['status'] == 'planned' for c in self.catalog['contests'][1:]))
-        self.assertEqual({item['roleId'] for item in self.catalog['syllabusItems']}, {'camara-comunicacao-divulgacao'})
-        self.assertEqual({item['noticeId'] for item in self.catalog['syllabusItems']}, {'camara-2026-edital-01'})
+        self.assertEqual(len(self.catalog['mappings']), 555)
+        self.assertTrue(all(c['status'] == 'planned' for c in self.catalog['contests'][2:]))
+        self.assertEqual({item['roleId'] for item in self.catalog['syllabusItems']}, {'camara-comunicacao-divulgacao', 'abdi-comunicacao-marketing'})
+        self.assertEqual({item['noticeId'] for item in self.catalog['syllabusItems']}, {'camara-2026-edital-01', 'abdi-2026-edital-01'})
 
     def test_reviewed_copy_is_not_a_verified_source(self):
         """Reject downgrading a source while retaining confirmed consumers."""
@@ -65,7 +65,7 @@ class ConsolidationTests(unittest.TestCase):
         changed['consolidations'][0]['entries'][0]['documentId'] = self.catalog['documents'][-1]['id']
         self.assertTrue(any('outside' in e for e in validate(changed)))
         changed = copy.deepcopy(self.catalog)
-        changed['consolidations'][0]['contestId'] = 'abdi-futuro'
+        changed['consolidations'][0]['contestId'] = 'abdi-2026'
         self.assertTrue(any('different contest' in e for e in validate(changed)))
 
     def test_confirmed_consolidation_requires_verified_notices(self):
@@ -73,7 +73,7 @@ class ConsolidationTests(unittest.TestCase):
         consolidation = self.catalog['consolidations'][0]
         self.assertTrue(consolidation['externalVerification'])
         self.assertEqual(consolidation['status'], 'confirmed')
-        self.assertEqual([n['number'] for n in self.catalog['notices']], ['1', '2', '3', '4', '5', '6'])
+        self.assertEqual([n['number'] for n in self.catalog['notices'] if n['contestId']=='camara-2026'], ['1', '2', '3', '4', '5', '6'])
         changed = copy.deepcopy(self.catalog)
         changed['consolidations'][0]['externalVerification'] = False
         self.assertTrue(any('verification' in e for e in validate(changed)))
@@ -89,7 +89,7 @@ class ConsolidationTests(unittest.TestCase):
         start = updated.index('14.2.4 CONHECIMENTOS ESPECÍFICOS')
         cargo_1 = updated[start:updated.index('CARGO 2:', start)]
         topics = {t['id']: t for t in self.catalog['topics']}
-        for item in self.catalog['syllabusItems']:
+        for item in (s for s in self.catalog['syllabusItems'] if s['roleId']=='camara-comunicacao-divulgacao'):
             with self.subTest(item=item['id']):
                 label = topics[item['topicId']]['label']
                 self.assertIn(label, cargo_1 if item['block'] == 'specific' else updated[:start])
@@ -127,7 +127,7 @@ class ConsolidationTests(unittest.TestCase):
         document = next(d for d in self.catalog['documents'] if d['id'] == 'camara-2026-edital-01-documento')
         pages = pdf_text(ROOT / document['file']).split('\f')
         topics = {t['id']: t for t in self.catalog['topics']}
-        for item in self.catalog['syllabusItems']:
+        for item in (s for s in self.catalog['syllabusItems'] if s['roleId']=='camara-comunicacao-divulgacao'):
             with self.subTest(item=item['id']):
                 page = item['sourcePage'] - 1
                 source = clean(' '.join(pages[page:page + 2]))

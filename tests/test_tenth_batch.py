@@ -1,4 +1,6 @@
 """Protect the 90+90 C/E base, source fidelity and versioned context repair."""
+from review_helpers import camara_catalog
+
 import hashlib
 import re
 import shutil
@@ -17,7 +19,7 @@ from test_consolidation import pdf_text
 class TenthBatchTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c = read_json(ROOT / 'data/catalog.json')
+        cls.c = camara_catalog()
         cls.review = read_json(ROOT / 'data/reviews/tenth-batch.json')
         cls.docs = {d['id']: d for d in cls.c['documents']}
         cls.papers = {p['id']: p for p in cls.c['papers']}
@@ -129,5 +131,5 @@ class TenthBatchTests(unittest.TestCase):
             self.assertEqual(key['stage'], 'definitive')
             self.assertNotIn(q['origin']['number'], self.papers[q['origin']['paperId']]['inventory']['annulledItems'])
         self.assertEqual(len(self.questions), 395)
-        self.assertEqual(len(self.c['documents']), 129)
+        self.assertEqual(len(self.c['documents']), 130)
         self.assertEqual(sum(p['inventory']['itemCount'] for p in self.c['papers']), 2846)

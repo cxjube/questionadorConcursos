@@ -1,4 +1,6 @@
 """Keep preparation separate and compare the small batch with retained official PDFs."""
+from review_helpers import camara_catalog
+
 import copy
 import re
 import shutil
@@ -14,7 +16,7 @@ class ReviewBatchTests(unittest.TestCase):
     """Exercise provenance failures and actual source fidelity, not a synthetic import."""
 
     def setUp(self):
-        self.catalog = read_json(ROOT / 'data/catalog.json')
+        self.catalog = camara_catalog()
         self.batch = read_json(ROOT / 'data/workbench/first-batch.json')
 
     def test_preparation_scope_and_publication_boundary(self):

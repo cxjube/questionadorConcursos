@@ -1,4 +1,6 @@
 """Compare the eighth release with bounded source text and definitive keys."""
+from review_helpers import camara_catalog
+
 import shutil
 import subprocess
 import unittest
@@ -14,7 +16,7 @@ from test_consolidation import pdf_text
 class EighthBatchTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c = read_json(ROOT / 'data/catalog.json')
+        cls.c = camara_catalog()
         cls.manifest = read_json(ROOT / 'data/reviews/eighth-batch.json')
         cls.q = {q['id']: q for q in cls.c['questions']}
         cls.docs = {d['id']: d for d in cls.c['documents']}

@@ -193,3 +193,13 @@ As referências do comentário são apresentadas em lista com nomes distintos. O
 O contrato v3 admite também `papers[].inventory.block = mixed` para cadernos que reúnem conhecimentos básicos e específicos, como ALERJ 2026 Comunicação tipo 1/manhã (itens 1–50 básicos e 51–80 específicos). É metadado da origem; os blocos do edital de destino continuam sendo `basic`/`specific`, definidos por vínculos. Não alterar regras ou snapshots antigos com base nesse campo.
 
 O leitor offline de gabaritos reconhece o cabeçalho completo de cargo, número do tipo e turno da ALERJ e aceita linhas vazias de diagramação. Continua exigindo uma única tabela exata, comprimentos compatíveis e numeração sem duplicação; rejeita turno/tipo/cargo diferentes. A forma original de múltipla escolha e a chave definitiva são preservadas.
+
+## ABDI — terceiro bloco e critério por quantidade de acertos
+
+O contrato v3 admite também `syllabusItems[].block = institutional`, além de `basic` e `specific`. Na ABDI, `basic` identifica Conhecimentos Gerais; os nomes visíveis vêm do perfil do cargo. O filtro e os backups de treino aceitam o terceiro bloco sem alterar os snapshots anteriores.
+
+`scoringRules[].minimumCorrectCount` registra um mínimo de quantidade de acertos independente da pontuação ponderada. `blocks[].minimumScoreExclusive: true` aplica comparação estrita ao `minimumScore` informado (ABDI: nota maior que zero por área). O mínimo exclusivo exige um valor numérico. `blocks[].distribution` lista `disciplineId`/`questionCount`, sem duplicatas, com soma igual ao total do bloco e disciplinas pertencentes àquele cargo e bloco.
+
+Esses campos descrevem o edital; o motor de simulado continua aceitando apenas o perfil C/E P1/P2 já testado. Não inferir 12,5 pontos, copiar mínimos da Câmara ou converter C/E em MC. A entrega ABDI disponibiliza treino de conteúdo. As associações para o novo cargo não alteram a questão nem os vínculos gravados em sessões da Câmara; ambos os históricos usam suas projeções por cargo.
+
+A cobertura pode ser gerada isoladamente com `python -m tools coverage --role abdi-comunicacao-marketing`, produzindo JSON/CSV/Markdown próprios. A prioridade editorial passa a considerar MC nesse cargo; o mapa Câmara mantém C/E e seu escopo anterior.

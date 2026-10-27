@@ -70,9 +70,9 @@ class FoundationTests(unittest.TestCase):
         real = read_json(ROOT / 'data/catalog.json')
         self.assertEqual(validate(real), [])
         self.assertEqual(len(real['questions']), 395)
-        self.assertEqual(len(real['scoringRules']), 1)
-        self.assertEqual(len(real['syllabusItems']), 228)
-        self.assertEqual(len(real['documents']), 129)
+        self.assertEqual(len(real['scoringRules']), 2)
+        self.assertEqual(len(real['syllabusItems']), 325)
+        self.assertEqual(len(real['documents']), 130)
         self.assertTrue(all(d['status'] in {'received', 'reviewed_copy', 'verified'} for d in real['documents']))
 
     def test_complete_fixture_and_large_question_number(self):

@@ -20,7 +20,7 @@ class SeventeenthBatchTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.c = read_json(ROOT / 'data/catalog.json')
+        cls.c = json.loads(gzip.decompress((ROOT / 'data/reviews/pre-abdi-catalog.json.gz').read_bytes()))
         cls.m = read_json(ROOT / 'data/reviews/seventeenth-batch.json')
         cls.docs = {d['id']: d for d in cls.c['documents']}
         cls.papers = {p['id']: p for p in cls.c['papers']}
@@ -87,7 +87,7 @@ class SeventeenthBatchTests(unittest.TestCase):
         self.assertEqual(rows['camara-2026-tecnologia-informacao-dados-8-4']['directCE'], 1)
         progress = read_json(ROOT / 'data/reviews/seventeenth-gap-progress.json')
         self.assertEqual((progress['beforeEmpty'], progress['afterEmpty'], len(progress['items'])), (16,14,16))
-        for path, content in current_artifacts(self.c, self.m).items():
+        for path, content in current_artifacts(read_json(ROOT / 'data/catalog.json'), self.m).items():
             self.assertEqual((ROOT/path).read_text(), content)
         legal = read_json(ROOT/'data/reviews/seventeenth-reference-review.json')
         text = reference_text((ROOT/legal['evidence']['file']).read_bytes())

@@ -2,7 +2,7 @@
 
 ## Diretrizes de produto, arquitetura, banco de questões e experiência de estudo
 
-**Versão:** 1.20 — revisão integrada ao repositório
+**Versão:** 1.21 — revisão integrada ao repositório
 **Data:** 27/10/2026
 **Projeto:** Questionador Concursos
 **Repositório:** https://github.com/cxjube/questionadorConcursos
@@ -16,7 +16,9 @@ Este documento consolida as sugestões fornecidas pelo usuário e os ajustes de 
 
 O [17º lote](seventeenth-batch-release.md) consolida 395 questões (378 C/E e 17 MC), reserva 169/209 e 14 lacunas registradas. Questões e regras históricas permanecem versionadas.
 
-O estado implementado em 27/10/2026 inclui o catálogo v3 e dezessete lotes liberados: 395 questões oficiais (378 C/E e 17 de múltipla escolha), 189 contextos, 404 vínculos revisados e 395 comentários didáticos com fontes independentes. As nove disciplinas estão iniciadas, sem cobertura integral do edital. Os comentários são assistidos por IA, separados do gabarito definitivo. Há 129 fontes canônicas retidas: 95 PDFs e 34 referências HTML; a revisão de vigência se limita às cláusulas citadas, na data registrada. Continuam o treino personalizado, sessão, retomada, correção ao finalizar, histórico e desempenho locais, revisão de erros/brancos/inéditas e backup exportável/importável com confirmação de substituição.
+A [entrega ABDI](abdi-intake-release.md) cadastra o segundo objetivo: 97 itens, três áreas, regras FGV e 145 questões compartilhadas (139 C/E / 6 MC), mantendo 395 questões únicas no catálogo. Há 130 fontes. O simulado FGV permanece pendente; os 60 itens, pesos e 30 acertos não são as regras C/E da Câmara. O mapa ABDI é separado.
+
+O estado implementado em 27/10/2026 inclui o catálogo v3 e dezessete lotes liberados: 395 questões oficiais (378 C/E e 17 de múltipla escolha), 189 contextos, 404 vínculos revisados e 395 comentários didáticos com fontes independentes. As nove disciplinas estão iniciadas, sem cobertura integral do edital. Os comentários são assistidos por IA, separados do gabarito definitivo. Há 130 fontes canônicas retidas: 96 PDFs e 34 referências HTML; a revisão de vigência se limita às cláusulas citadas, na data registrada. Continuam o treino personalizado, sessão, retomada, correção ao finalizar, histórico e desempenho locais, revisão de erros/brancos/inéditas e backup exportável/importável com confirmação de substituição.
 
 O treino oferece filtros por bloco P1/P2 e origem/ano/formato, prazo opcional persistente com encerramento automático e pontuação personalizada (+1 por acerto; erro zero ou −1; branco/anulação zero), sem mínimos oficiais. A personalização abre em janela pelo botão à esquerda de Iniciar questões, com Aplicar/Cancelar. O histórico oferece evolução por dias locais em janelas de 7/30 dias ou todo o período. O modo separado de simulado combina os dois blocos sem repetição, com prazo de cinco horas, +1/−1/0 e mínimos independentes 18/27/54 do perfil versionado. Mantém retomada, histórico e backup; não equivale a aprovação nem reprodução histórica. Novos lotes continuam etapas futuras. O banco oferece 170 itens temáticos distintos em P1 e 226 em P2, com um compartilhado. No formato C/E são 169 em P1 e 209 em P2, sem repetição entre os blocos. A base permite sortear os 90 itens entre 169 elegíveis em P1 e 209 em P2; faltam maior reserva e cobertura temática. O 11º lote abre vínculo direto com 22 novos itens programáticos (103/228 antes da revisão temática), sem implicar cobertura integral. Consulte [o relatório](eleventh-batch-release.md). Consulte [a entrega do simulado](exam-release.md). A aba Editais tem links oficiais de acompanhamento no topo. O roadmap abaixo não é uma declaração de implementação integral.
 

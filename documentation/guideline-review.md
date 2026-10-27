@@ -1,5 +1,7 @@
 # Revisão das diretrizes recebidas — 23/10/2026
 
+> ABDI: [cadastro e treino](abdi-intake-release.md), 97 itens, 145 questões compartilhadas, regras específicas e mapas por cargo. Institucionais e simulado FGV permanecem pendentes; os registros anteriores abaixo se referem à Câmara ou a entregas históricas.
+
 > Estado atual: [17º lote](seventeenth-batch-release.md), 395 questões, 378 C/E, 181/228 itens diretos, reserva 169/209 e 14 lacunas. As atualizações anteriores abaixo são históricas.
 
 > Atualização: [16º lote](sixteenth-batch-release.md), com 372 questões (355 C/E e 17 MC), 179/228 itens diretos, reserva 168/187 e 16 subárvores vazias. Duas MC oficiais citam o Manual de Comunicação da Câmara; os registros anteriores preservam o histórico.

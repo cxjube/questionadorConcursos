@@ -367,7 +367,22 @@ def validate(catalog: Any, root: Path = ROOT) -> list[str]:
         block_ids = [b['id'] for b in rule['blocks']]
         if len(block_ids) != len(set(block_ids)):
             fail(where, 'duplicate scoring block id')
+        total_count = sum(b['questionCount'] for b in rule['blocks'])
+        if rule.get('minimumCorrectCount', 0) > total_count:
+            fail(where, 'minimum correct count exceeds total question count')
         for block in rule['blocks']:
+            if block.get('minimumScoreExclusive') and block['minimumScore'] is None:
+                fail(where, 'exclusive minimum requires a numeric minimum score')
+            if 'distribution' in block:
+                distribution = block['distribution']
+                if sum(d['questionCount'] for d in distribution) != block['questionCount']:
+                    fail(where, 'discipline distribution must sum to block question count')
+                if len({d['disciplineId'] for d in distribution}) != len(distribution):
+                    fail(where, 'duplicate distribution discipline')
+                for row in distribution:
+                    lookup('disciplines', row['disciplineId'], where)
+                    if not any(s['roleId'] == rule['roleId'] and s.get('block') == block['id'] and indexes['topics'].get(s['topicId'], {}).get('disciplineId') == row['disciplineId'] for s in catalog['syllabusItems']):
+                        fail(where, 'distribution discipline must belong to the role and block')
             if (block['annulledPolicy'] == 'fixed') != (block['annulledPoints'] is not None):
                 fail(where, 'annulledPoints is required only for fixed policy')
     for consolidation in catalog['consolidations']:

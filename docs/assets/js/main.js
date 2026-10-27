@@ -100,6 +100,7 @@
         item.textContent = 'Nenhum edital cadastrado para este cargo.';
         list.append(item);
       }
+      element('camara-reference-details').hidden = contest.id !== 'camara-2026';
       renderProgram(roleSelect.value);
       renderRules(roleSelect.value);
       renderConsolidation(contest.id, roleSelect.value);
@@ -129,7 +130,7 @@
         const selected = items.filter(item => topicIndex.get(item.topicId)?.disciplineId === discipline.id);
         const details = document.createElement('details');
         details.className = 'syllabus-group';
-        details.append(node('summary', discipline.label + ' — ' + (selected[0]?.block === 'basic' ? 'Básicos' : 'Específicos')));
+        details.append(node('summary', discipline.label + ' — ' + (selected[0]?.block === 'institutional' ? 'Institucionais' : selected[0]?.block === 'basic' ? (data.scoringRules.find(r=>r.roleId===roleId)?.blocks.some(b=>b.id==='basic') ? 'Gerais' : 'Básicos') : 'Específicos')));
         /** @param {string | null} parentId @returns {HTMLUListElement} */
         function tree(parentId) {
           const list = document.createElement('ul');
@@ -156,12 +157,13 @@
     function renderRules(roleId) {
       const rules = Catalog.rulesFor(data, roleId);
       element('rules-caution').hidden = rules.length === 0;
+      element('rules-caution').textContent = rules.some(r=>r.blocks.every(b=>b.questionType==='multiple_choice')) ? 'Critérios da prova oficial. O treino personalizado não aplica esses critérios eliminatórios. O simulado ABDI ainda não está disponível; as demais etapas da seleção não são avaliadas pelo Questionador.' : 'Estes são os critérios da prova oficial. O simulado completo verifica os mínimos; o treino personalizado não os aplica. Atingi-los não garante aprovação: também valem os limites de classificação e as demais regras do edital.';
       const target = element('rules');
       target.replaceChildren();
       if (!rules.length) target.append(node('p', 'As regras das provas objetivas deste cargo ainda não foram cadastradas.'));
       for (const rule of rules) {
         const metrics = node('dl', ''); metrics.className = 'metrics rule-overview';
-        for (const [label, value] of [['Formato', 'Certo/Errado'], ['Duração', rule.durationMinutes + ' minutos'], ['Mínimo total', rule.minimumTotalScore + ' pontos']]) {
+        for (const [label, value] of [['Formato', rule.blocks.every(b=>b.questionType==='multiple_choice') ? 'Múltipla escolha' : 'Certo/Errado'], ['Duração', rule.durationMinutes + ' minutos'], [rule.minimumCorrectCount ? 'Mínimo de acertos' : 'Mínimo total', rule.minimumCorrectCount ? rule.minimumCorrectCount + ' questões' : rule.minimumTotalScore + ' pontos']]) {
           const metric = node('div', ''); metric.append(node('dt', label), node('dd', value)); metrics.append(metric);
         }
         target.append(metrics);
@@ -170,13 +172,16 @@
           const card = node('section', ''); card.className = 'rule-card';
           card.append(node('h3', block.label));
           const list = node('dl', ''); list.className = 'rule-values';
-          for (const [label, value] of [['Itens', block.questionCount], ['Mínimo', block.minimumScore + ' pontos'], ['Acerto', '+' + block.correct], ['Erro', block.incorrect], ['Branco ou dupla marcação', block.blank]]) {
+          for (const [label, value] of [['Itens', block.questionCount], ['Mínimo', block.minimumScoreExclusive ? 'Maior que ' + block.minimumScore + ' pontos' : block.minimumScore + ' pontos'], ['Acerto', '+' + block.correct.toLocaleString('pt-BR')], ['Erro', block.incorrect], ['Branco ou dupla marcação', block.blank]]) {
             const pair = node('div', ''); pair.append(node('dt', label), node('dd', String(value))); list.append(pair);
           }
           card.append(list); blocks.append(card);
         }
         target.append(blocks);
-        target.append(node('p', 'Na anulação, a pontuação do item é atribuída a todos os candidatos (item 8.12.6.1).'));
+        if (rule.minimumCorrectCount) target.append(node('p', 'Os critérios são cumulativos: pelo menos ' + rule.minimumCorrectCount + ' acertos e não zerar nenhuma das três áreas. A quantidade de acertos é diferente da pontuação ponderada; não há mínimo total de 12,5 pontos no edital.'));
+        for (const block of rule.blocks) if (block.distribution) target.append(node('p', block.label + ': ' + block.distribution.map(d=>(data.disciplines.find(x=>x.id===d.disciplineId)?.label || d.disciplineId) + ' — ' + d.questionCount + ' questões').join('; ') + '.'));
+
+        target.append(node('p', 'Na anulação, a pontuação do item é atribuída a todos os candidatos. Consulte o dispositivo indicado na referência da regra.'));
         const source = node('details', ''); source.className = 'support-details';
         source.append(node('summary', 'Referência da regra'), node('p', rule.reference)); target.append(source);
       }
@@ -198,7 +203,7 @@
       }
     }
     const received = data.papers.filter(paper => paper.inventory);
-    element('inventory-summary').textContent = data.questions.length + ' questões liberadas para estudo. Acervo: ' + received.length + ' pares de provas/gabaritos, com ' + received.reduce((total, paper) => total + (paper.inventory?.itemCount || 0), 0) + ' itens nos arquivos.';
+    element('inventory-summary').textContent = 'Acervo compartilhado: ' + data.questions.length + ' questões únicas. Provas de origem: ' + received.length + ' pares de provas/gabaritos, com ' + received.reduce((total, paper) => total + (paper.inventory?.itemCount || 0), 0) + ' itens nos arquivos.';
     for (const paper of received) {
       const inventory = paper.inventory;
       if (!inventory) continue;
@@ -237,7 +242,10 @@
       const checked = /** @type {HTMLInputElement} */ (element('show-program-references')).checked;
       for (const reference of document.querySelectorAll('.program-reference')) /** @type {HTMLElement} */ (reference).hidden = !checked;
     });
+    const activeRole = data.roles.find(r=>r.id===study.state().active?.roleId);
+    if (activeRole) contestSelect.value = activeRole.contestId;
     changeContest();
+    if (activeRole && roleSelect.value !== activeRole.id) {roleSelect.value = activeRole.id; renderNotices();}
     if (!AppStorage.isAvailable()) {
       element('storage-warning').hidden = false;
     }

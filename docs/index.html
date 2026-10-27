@@ -12,16 +12,16 @@
         if (theme === 'light' || theme === 'dark') document.documentElement.setAttribute('data-theme', theme);
       } catch (_) { /* Blocked storage must not prevent startup. */ }
     </script>
-    <link rel="stylesheet" href="assets/css/styles.css?v=17">
+    <link rel="stylesheet" href="assets/css/styles.css?v=18">
     <script defer src="assets/js/types.js?v=4"></script>
     <script defer src="assets/js/storage.js?v=4"></script>
     <script defer src="assets/js/theme.js?v=4"></script>
     <script defer src="assets/js/catalog.js?v=4"></script>
-    <script defer src="data/catalog.js?v=26"></script>
-    <script defer src="assets/js/study.js?v=19"></script>
+    <script defer src="data/catalog.js?v=27"></script>
+    <script defer src="assets/js/study.js?v=20"></script>
     <script defer src="assets/js/progress.js?v=4"></script>
-    <script defer src="assets/js/study-ui.js?v=20"></script>
-    <script defer src="assets/js/main.js?v=4"></script>
+    <script defer src="assets/js/study-ui.js?v=21"></script>
+    <script defer src="assets/js/main.js?v=5"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Ir para o conteúdo</a>
@@ -64,6 +64,7 @@
           <div><label for="role">Cargo e área</label><div class="select-control"><select id="role"><option>Aguardando seleção</option></select></div></div>
         </div>
         <p id="study-availability"></p>
+        <p id="study-format-note" class="review-note" hidden></p>
         <p id="study-resume-note" class="review-note" hidden></p>
         <div class="landing-actions">
           <button id="customize-study" type="button" aria-haspopup="dialog" aria-controls="study-options">Personalizar treino</button>
@@ -107,12 +108,13 @@
             <li><a href="https://www2.camara.leg.br/transparencia/recursos-humanos/concursos" target="_blank" rel="noopener noreferrer"><strong>Câmara — concursos</strong><span>Novos concursos e informações gerais da Câmara dos Deputados.</span></a></li>
             <li><a href="https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades" target="_blank" rel="noopener noreferrer"><strong>Câmara — Analista Legislativo</strong><span>Editais e comunicados do concurso acompanhado neste objetivo.</span></a></li>
             <li><a href="https://www.cebraspe.org.br/concursos/CD_26_ANALISTA" target="_blank" rel="noopener noreferrer"><strong>Cebraspe — concurso da Câmara</strong><span>Publicações da banca, locais de prova, resultados e gabaritos.</span></a></li>
+            <li><a href="https://conhecimento.fgv.br/concursos/psabdi" target="_blank" rel="noopener noreferrer"><strong>FGV — seleção ABDI 2026</strong><span>Edital, cronograma, retificações e comunicados da seleção de Analista de Produtividade e Inovação.</span></a></li>
             <li><a href="https://www.abdi.com.br/transparencia/processo-seletivo/" target="_blank" rel="noopener noreferrer"><strong>ABDI — processos seletivos</strong><span>Aberturas e documentos de seleção de pessoal da agência.</span></a></li>
             <li><a href="https://www.gov.br/cgu/pt-br/acesso-a-informacao/concursos" target="_blank" rel="noopener noreferrer"><strong>CGU — concursos</strong><span>Informações oficiais sobre concursos e processos seletivos.</span></a></li>
             <li><a href="https://www.gov.br/imprensanacional/pt-br" target="_blank" rel="noopener noreferrer"><strong>Diário Oficial da União</strong><span>Portal da Imprensa Nacional para consultar publicações oficiais.</span></a></li>
           </ul>
         </nav>
-        <details class="support-details">
+        <details id="camara-reference-details" class="support-details">
           <summary>Materiais de referência da Câmara</summary>
           <p>Consulte os documentos específicos do programa. Os links abrem em outra aba.</p>
           <ul id="study-reference-links" class="watch-links">

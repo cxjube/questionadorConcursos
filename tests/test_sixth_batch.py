@@ -1,4 +1,6 @@
 """Release scope, active legal references and exact FGV paper/key pairing."""
+from review_helpers import camara_catalog
+
 import hashlib
 import json
 import shutil
@@ -13,7 +15,7 @@ from test_consolidation import pdf_text
 class SixthBatchTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c=read_json(ROOT/'data/catalog.json')
+        cls.c=camara_catalog()
         cls.docs={d['id']:d for d in cls.c['documents']}
         cls.manifest=read_json(ROOT/'data/reviews/sixth-batch.json')
 
@@ -81,7 +83,7 @@ class SixthBatchTests(unittest.TestCase):
     def test_all_nine_disciplines_started_and_shared_item_does_not_duplicate_a_question(self):
         syllabus={s['id']:s for s in self.c['syllabusItems']}
         topics={t['id']:t for t in self.c['topics']}
-        self.assertEqual({topics[syllabus[m['syllabusItemId']]['topicId']]['disciplineId'] for m in self.c['mappings']},{d['id'] for d in self.c['disciplines']})
+        self.assertEqual({topics[syllabus[m['syllabusItemId']]['topicId']]['disciplineId'] for m in self.c['mappings']},{d['id'] for d in self.c['disciplines'] if any(s['roleId']=='camara-comunicacao-divulgacao' and topics[s['topicId']]['disciplineId']==d['id'] for s in syllabus.values())})
         self.assertEqual(len(self.c['questions']),395)
         self.assertEqual(sum(q['type']=='true_false' for q in self.c['questions']),378)
         links=[m for m in self.c['mappings'] if m['questionId']=='camara-2023-tecnica-tarde-tipo1-q017']

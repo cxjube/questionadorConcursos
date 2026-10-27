@@ -349,7 +349,7 @@ test('sixth batch counts shared topics once and keeps MC separate from CE compos
  assert.equal(s.Study.pool(s.data,s.role,p).filter(q=>q.id===shared).length,1);
  assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'basic',type:'true_false'}).length,169);
  assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',type:'true_false'}).length,209);
- for(const discipline of s.data.disciplines) assert.ok(s.Study.pool(s.data,s.role,p,'all',{disciplineId:discipline.id}).length>0);
+ for(const discipline of s.data.disciplines.filter(d=>s.data.syllabusItems.some(i=>i.roleId===s.role && s.data.topics.find(t=>t.id===i.topicId).disciplineId===d.id))) assert.ok(s.Study.pool(s.data,s.role,p,'all',{disciplineId:discipline.id}).length>0);
 });
 
 test('legal and FGV source snapshots survive backup with narrowly allowed official URLs',()=>{

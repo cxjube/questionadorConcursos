@@ -9,10 +9,11 @@ CSV_PATH = 'documentation/coverage-audit-2026-10-26.csv'
 MD_PATH = 'documentation/coverage-audit-2026-10-26.md'
 
 
-def coverage(catalog, umbrella_ids=()):
+def coverage(catalog, umbrella_ids=(), role_id='camara-comunicacao-divulgacao'):
     """Count distinct eligible questions directly and upward through topic parents."""
     topics = {t['id']: t for t in catalog['topics']}
-    syllabus = catalog['syllabusItems']
+    syllabus = [s for s in catalog['syllabusItems'] if s['roleId'] == role_id]
+    preferred_type = next((b['questionType'] for r in catalog['scoringRules'] if r['roleId'] == role_id for b in r['blocks']), 'true_false')
     keys = {k['id']: k for k in catalog['answerKeys']}
     questions = {q['id']: q for q in catalog['questions']
                  if q['review']['status'] == 'released'
@@ -39,8 +40,9 @@ def coverage(catalog, umbrella_ids=()):
         umbrella = item['id'] in umbrella_ids
         state = ('editorial_umbrella' if umbrella else 'direct' if direct else
                  'descendants_only' if subtree else 'empty')
-        priority = ('scope' if umbrella else 'A' if not subtree_ce else
-                    'B' if len(subtree_ce) <= 2 else 'C')
+        preferred = subtree_ce if preferred_type == 'true_false' else subtree - subtree_ce
+        priority = ('scope' if umbrella else 'A' if not preferred else
+                    'B' if len(preferred) <= 2 else 'C')
         rows.append(dict(id=item['id'], number=item['number'], label=topic['label'],
                          disciplineId=topic['disciplineId'], block=item['block'],
                          parentTopicId=topic['parentId'], isLeaf=len(descendants) == 1,
@@ -51,6 +53,8 @@ def coverage(catalog, umbrella_ids=()):
     disciplines = []
     for discipline in catalog['disciplines']:
         selected = [r for r in rows if r['disciplineId'] == discipline['id']]
+        if not selected:
+            continue
         ids = {q for r in selected for q in r['directQuestionIds']}
         disciplines.append(dict(discipline, totalItems=len(selected),
                                 directItems=sum(bool(r['directQuestionIds']) for r in selected),
@@ -60,7 +64,7 @@ def coverage(catalog, umbrella_ids=()):
                                 questionsCE=sum(questions[q]['type'] == 'true_false' for q in ids),
                                 questionsMC=sum(questions[q]['type'] == 'multiple_choice' for q in ids)))
     blocks = {}
-    for block in ['basic', 'specific']:
+    for block in (['basic', 'institutional', 'specific'] if any(s['block'] == 'institutional' for s in syllabus) else ['basic', 'specific']):
         ids = {q for r in rows if r['block'] == block for q in r['directQuestionIds']}
         blocks[block] = dict(total=len(ids), ce=sum(questions[q]['type'] == 'true_false' for q in ids))
     return dict(totalItems=len(rows), directItems=sum(bool(r['directQuestionIds']) for r in rows),
@@ -169,7 +173,7 @@ def current_artifacts(catalog, review):
     output['documentation/coverage-current.csv'] = stream.getvalue()
     lines = ['# Mapa atual do banco de questões', '',
              f"Última revisão: {review['reviewedAt']}; lote `{review['id']}`. "
-             f"São {len(catalog['questions'])} questões e {len(catalog['mappings'])} vínculos; "
+             f"São {len(catalog['questions'])} questões e {sum(m['syllabusItemId'] in {s['id'] for s in catalog['syllabusItems'] if s['roleId'] == 'camara-comunicacao-divulgacao'} for m in catalog['mappings'])} vínculos da Câmara; "
              f"**{report['directItems']}/{report['totalItems']} itens com vínculo direto**, "
              f"{report['descendantsOnly']} atendidos só por descendentes e {report['emptyItems']} sem questões na subárvore "
              f"({report['emptyLeaves']} folhas). O título amplo Ciência Política 1 permanece separado.", '',
@@ -202,4 +206,40 @@ def current_artifacts(catalog, review):
     lines += ['Gerado por `python -m tools coverage`; conferir com `python -m tools coverage --check`. '
               'A data identifica a revisão editorial do lote, sem presumir reconferência online de toda referência antiga.', '']
     output['documentation/coverage-current.md'] = '\n'.join(lines)
+    return output
+
+
+def role_artifacts(catalog, review, role_id):
+    """Generate a separate coverage report for the new target, never merge contests."""
+    role = next(r for r in catalog['roles'] if r['id'] == role_id)
+    report = coverage(catalog, role_id=role_id)
+    ids = {q for row in report['items'] for q in row['directQuestionIds']}
+    questions = {q['id']:q for q in catalog['questions']}
+    report.update(roleId=role_id, reviewedAt=review['reviewedAt'], reviewId=review['id'],
+                  distinctQuestions=len(ids), distinctCE=sum(questions[q]['type']=='true_false' for q in ids),
+                  distinctMC=sum(questions[q]['type']=='multiple_choice' for q in ids))
+    stem = 'coverage-abdi-current'
+    output = {'data/reviews/'+stem+'.json':json.dumps(report, ensure_ascii=False, indent=2)+'\n'}
+    fields = ['id','disciplineId','block','number','label','state','priority','directCE','directMC','subtreeCE','subtreeMC']
+    stream=io.StringIO(newline=''); writer=csv.DictWriter(stream,fieldnames=fields,lineterminator='\n');writer.writeheader()
+    for row in report['items']: writer.writerow({k:row[k] for k in fields})
+    output['documentation/'+stem+'.csv']=stream.getvalue()
+    lines=['# ABDI — mapa do banco por edital','', role['title'], '',
+           f"Revisão: {review['reviewedAt']}. **{len(ids)} questões distintas: {report['distinctMC']} MC e {report['distinctCE']} C/E.**",
+           f"Programa: {report['totalItems']} itens; {report['directItems']} com vínculo direto, {report['descendantsOnly']} apenas por descendentes e {report['emptyItems']} subárvores sem questões.", '',
+           'A prova exige múltipla escolha. C/E são treino de conteúdo no formato original e não compõem reserva MC. Prioridade A indica ausência de MC; B, uma ou duas MC; C, pelo menos três. Não são pesos oficiais nem domínio do assunto.', '',
+           '[Entrega e plano de fechamento](abdi-intake-release.md) · [CSV](coverage-abdi-current.csv)', '',
+           '| Área | Questões distintas | MC | C/E |', '| --- | ---: | ---: | ---: |']
+    for block,label in [('basic','Gerais'),('institutional','Institucionais'),('specific','Específicos')]:
+        selected={q for row in report['items'] if row['block']==block for q in row['directQuestionIds']}
+        mc=sum(questions[q]['type']=='multiple_choice' for q in selected)
+        lines.append(f'| {label} | {len(selected)} | {mc} | {len(selected)-mc} |')
+    lines+=['','As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter questões únicas.', '', '| Disciplina | Item | Conteúdo oficial | MC direto | C/E direto | Situação |', '| --- | --- | --- | ---: | ---: | --- |']
+    disciplines={d['id']:d['label'] for d in catalog['disciplines']}
+    states={'direct':'Direto','descendants_only':'Só descendentes','empty':'Sem questões','editorial_umbrella':'Escopo'}
+    for row in report['items']:
+        label=row['label'].replace('|','\\|')
+        lines.append(f"| {disciplines[row['disciplineId']]} | {row['number']} | {label} | {row['directMC']} | {row['directCE']} | {states[row['state']]} |")
+    lines+=['', 'Gerado por `python -m tools coverage --role abdi-comunicacao-marketing`; verificar com `--check`.', '']
+    output['documentation/'+stem+'.md']='\n'.join(lines)
     return output

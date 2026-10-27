@@ -1,4 +1,6 @@
 """Compare every published item with retained official question/key PDFs."""
+from review_helpers import camara_catalog
+
 import re
 import shutil
 import unittest
@@ -15,7 +17,7 @@ from test_consolidation import clean, pdf_text
 class ReleasedFidelityTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.catalog = read_json(ROOT / 'data/catalog.json')
+        cls.catalog = camara_catalog()
         cls.docs = {d['id']: d for d in cls.catalog['documents']}
         cls.papers = {p['id']: p for p in cls.catalog['papers']}
         cls.pages = {identifier: pdf_text(ROOT / d['file'], '-raw').split('\f')

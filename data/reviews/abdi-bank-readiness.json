@@ -1,0 +1,98 @@
+{
+  "reviewedAt": "2026-10-27",
+  "roleId": "abdi-comunicacao-marketing",
+  "scope": "Inventory only, not a functioning ABDI exam allocator or full-topic coverage. CE excluded from MC capacity. Counts cannot guarantee absence of cross-discipline overlap in future lots.",
+  "distinctTrainingQuestions": 145,
+  "distinctMC": 6,
+  "distinctCE": 139,
+  "minimumAdditionalMC": 54,
+  "distribution": [
+    {
+      "block": "basic",
+      "disciplineId": "lingua-portuguesa",
+      "requiredMC": 8,
+      "availableDistinctMC": 0,
+      "missingForMinimum": 8
+    },
+    {
+      "block": "basic",
+      "disciplineId": "raciocinio-logico",
+      "requiredMC": 6,
+      "availableDistinctMC": 0,
+      "missingForMinimum": 6
+    },
+    {
+      "block": "basic",
+      "disciplineId": "abdi-nocoes-informatica",
+      "requiredMC": 6,
+      "availableDistinctMC": 0,
+      "missingForMinimum": 6
+    },
+    {
+      "block": "institutional",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "requiredMC": 4,
+      "availableDistinctMC": 0,
+      "missingForMinimum": 4
+    },
+    {
+      "block": "institutional",
+      "disciplineId": "abdi-criacao-estatuto",
+      "requiredMC": 4,
+      "availableDistinctMC": 0,
+      "missingForMinimum": 4
+    },
+    {
+      "block": "institutional",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "requiredMC": 8,
+      "availableDistinctMC": 0,
+      "missingForMinimum": 8
+    },
+    {
+      "block": "institutional",
+      "disciplineId": "abdi-etica-missao",
+      "requiredMC": 4,
+      "availableDistinctMC": 0,
+      "missingForMinimum": 4
+    },
+    {
+      "block": "specific",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "requiredMC": 20,
+      "availableDistinctMC": 6,
+      "missingForMinimum": 14
+    }
+  ],
+  "emptySpecificTopics": [
+    {
+      "number": "2",
+      "label": "Processos, elementos, modelos e funções da comunicação."
+    },
+    {
+      "number": "9",
+      "label": "Gêneros jornalísticos."
+    },
+    {
+      "number": "18",
+      "label": "Planejamento e organização de eventos."
+    },
+    {
+      "number": "22",
+      "label": "Comunicação científica, tecnológica e ambiental."
+    },
+    {
+      "number": "25",
+      "label": "Proteção de dados pessoais aplicada às atividades de comunicação."
+    }
+  ],
+  "institutionalSourcesNeeded": [
+    "Lei nº 11.080/2004, alterações e Lei nº 14.440/2022",
+    "Decreto nº 5.352/2005 e alterações",
+    "Estatuto Social da ABDI",
+    "Regulamento de Licitações e Contratos da ABDI",
+    "Regulamento de Convênios da ABDI",
+    "Regulamento de Ética e Conduta — Resolução CD nº 004/2022",
+    "Planejamento Estratégico 2024–2029 — Resolução CD nº 008/2023"
+  ]
+}

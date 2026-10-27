@@ -1,4 +1,6 @@
 """Verify official source discovery separately from individual question release."""
+from review_helpers import camara_catalog
+
 import hashlib
 import re
 import shutil
@@ -17,7 +19,7 @@ from test_consolidation import pdf_text
 class NinthBatchTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c = read_json(ROOT / 'data/catalog.json')
+        cls.c = camara_catalog()
         cls.review = read_json(ROOT / 'data/reviews/ninth-batch.json')
         cls.discovery = read_json(ROOT / 'data/reviews/ninth-source-discovery.json')
         cls.docs = {d['id']: d for d in cls.c['documents']}
@@ -43,7 +45,7 @@ class NinthBatchTests(unittest.TestCase):
                 doc = self.docs[id]
                 self.assertEqual(hashlib.sha256((ROOT / doc['file']).read_bytes()).hexdigest(), doc['sha256'])
                 self.assertIn(doc['officialUrl'], [row['paperUrl'], row['answerUrl']])
-        self.assertEqual(len(self.c['documents']), 129)
+        self.assertEqual(len(self.c['documents']), 130)
         self.assertEqual(len(self.c['papers']), 42)
         self.assertEqual(sum(p['inventory']['itemCount'] for p in self.c['papers']), 2846)
         self.assertEqual(self.papers['source-038-anm-013-01']['year'], 2025)

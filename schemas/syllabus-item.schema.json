@@ -54,7 +54,8 @@
     "block": {
       "enum": [
         "basic",
-        "specific"
+        "specific",
+        "institutional"
       ]
     }
   }

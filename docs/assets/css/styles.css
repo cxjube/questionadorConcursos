@@ -399,10 +399,10 @@ button { overflow-wrap: anywhere; }
 .rule-overview { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .rule-overview dd { font-size: var(--text-lg); }
 .rule-blocks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-md); }
-.rule-card { border: 1px solid var(--border); border-radius: var(--radius-sm); padding: var(--space-sm); }
+.rule-card { min-width: 0; overflow-wrap: anywhere; border: 1px solid var(--border); border-radius: var(--radius-sm); padding: var(--space-sm); }
 .rule-card h3 { margin-top: 0; }
 .rule-values { margin: 0; }
-.rule-values > div { display: flex; justify-content: space-between; gap: var(--space-sm); padding-block: var(--space-2xs); border-top: 1px solid var(--border); }
+.rule-values > div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--space-sm); padding-block: var(--space-2xs); border-top: 1px solid var(--border); }
 .rule-values dt { font-size: var(--text-sm); color: var(--text-soft); }
 .rule-values dd { margin: 0; font-weight: 600; text-align: right; }
 #notices, #inventory { list-style: none; padding: 0; }

@@ -1,4 +1,6 @@
 """Verify the reviewed reserve against official PDFs and retained legal rechecks."""
+from review_helpers import camara_catalog
+
 import hashlib
 import re
 import shutil
@@ -17,7 +19,7 @@ from test_consolidation import pdf_text
 class EleventhBatchTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c = read_json(ROOT / 'data/catalog.json')
+        cls.c = camara_catalog()
         cls.review = read_json(ROOT / 'data/reviews/eleventh-batch.json')
         cls.discovery = read_json(ROOT / 'data/reviews/eleventh-source-discovery.json')
         cls.docs = {d['id']: d for d in cls.c['documents']}
@@ -160,6 +162,6 @@ class EleventhBatchTests(unittest.TestCase):
         self.assertEqual(len(report['newDirectSyllabusItems']), 22)
         self.assertEqual(len(self.questions), 395)
         self.assertEqual(sum(q['type'] == 'multiple_choice' for q in self.c['questions']), 17)
-        self.assertEqual(len(self.c['documents']), 129)
+        self.assertEqual(len(self.c['documents']), 130)
         self.assertEqual(sum(p['inventory']['itemCount'] for p in self.c['papers']), 2846)
         self.assertEqual(sum(len(p['inventory']['annulledItems']) for p in self.c['papers']), 121)

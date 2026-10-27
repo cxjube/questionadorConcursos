@@ -99,7 +99,7 @@ const Study = (() => {
   }
   function selection(data, roleId, filters = {}) {
     const disciplineId = filters.disciplineId || null, topicId = filters.topicId || null, block = filters.block || null;
-    if (block && !['basic','specific'].includes(block)) throw Error('Bloco inválido.');
+    if (block && !['basic','institutional','specific'].includes(block)) throw Error('Bloco inválido.');
     const syllabus = data.syllabusItems.filter(s => s.roleId === roleId && s.status === 'confirmed');
     const topic = topicId && data.topics.find(t => t.id === topicId && syllabus.some(s => s.topicId === t.id));
     const discipline = disciplineId && data.disciplines.find(d => d.id === disciplineId && syllabus.some(s => data.topics.find(t => t.id === s.topicId)?.disciplineId === d.id));
@@ -169,7 +169,7 @@ const Study = (() => {
   }
   function examAvailability(data, roleId) {
     const rule = data.scoringRules.find(r => r.roleId === roleId && supportedExamRule(r));
-    if (!rule) return {ready:false, reason:'Este objetivo ainda não tem um perfil de simulado confirmado e compatível.', rule:null, blocks:[], distinct:0};
+    if (!rule) return {ready:false, reason:data.scoringRules.some(r=>r.roleId===roleId && r.status==='confirmed' && r.blocks.every(b=>b.questionType==='multiple_choice')) ? 'O simulado de múltipla escolha ainda não está disponível. Use o treino de conteúdo.' : 'Este objetivo ainda não tem um perfil de simulado confirmado e compatível.', rule:null, blocks:[], distinct:0};
     const blocks = rule.blocks.map(block => ({...block, questions:pool(data,roleId,empty(),'all',{block:EXAM_BLOCKS[block.id],type:'true_false'})
       .filter(q => {const key = data.answerKeys.find(k => k.id === q.answerKeyId); return q.origin.kind === 'official' && key?.result === 'valid' && key.origin === 'official' && key.status === 'confirmed' && key.stage === 'definitive';})}));
     const distinct = new Set(blocks.flatMap(b=>b.questions.map(q=>q.id))).size;
@@ -327,7 +327,7 @@ const Study = (() => {
       if (own(session, 'selection')) {
         const selected = session.selection;
         if (!record(selected)) fail();
-        if (own(selected,'block') && ![null,'basic','specific'].includes(selected.block)) fail();
+        if (own(selected,'block') && ![null,'basic','institutional','specific'].includes(selected.block)) fail();
         if (own(selected,'paperId') && (!(selected.paperId === null || identifier(selected.paperId)) || !(selected.paperLabel === null || text(selected.paperLabel)) || Boolean(selected.paperId) !== Boolean(selected.paperLabel))) fail();
         if (own(selected,'year') && !(selected.year === null || Number.isInteger(selected.year) && selected.year >= 1900 && selected.year <= 2100)) fail();
         if (own(selected,'type') && ![null,'true_false','multiple_choice'].includes(selected.type)) fail();
@@ -375,7 +375,7 @@ const Study = (() => {
         }
         if (contexts.size !== q.contextIds.length || q.contextIds.some(ref => !contexts.has(ref))) fail();
         for (const m of item.mappings) {
-          if (!record(m) || own(m,'block') && !['basic','specific'].includes(m.block)) fail();
+          if (!record(m) || own(m,'block') && !['basic','institutional','specific'].includes(m.block)) fail();
           if (!record(m) || m.roleId !== session.roleId || !['id','syllabusItemId','noticeId','roleId','topicId','disciplineId'].every(k => identifier(m[k])) || !text(m.topicLabel) || !text(m.disciplineLabel) || !text(m.number)) fail();
         }
         for (const explanation of item.explanations) {

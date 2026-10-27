@@ -3,7 +3,7 @@ import argparse
 import sys
 
 from tools.build import render, write_artifact
-from tools.coverage import current_artifacts
+from tools.coverage import current_artifacts, role_artifacts
 from tools.site import check_site
 from tools.source_audit import audit_sources
 from tools.review_batch import validate_batch
@@ -15,15 +15,21 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description='Questionador Concursos data pipeline')
     parser.add_argument('command', choices=['validate', 'build', 'check-site', 'audit-sources', 'review-batch', 'coverage'])
     parser.add_argument('--check', action='store_true', help='compare generated artifact without writing')
+    parser.add_argument('--role', help='generate a separate role coverage report')
     args = parser.parse_args(argv)
+    if args.role and args.command != 'coverage':
+        parser.error('--role is only supported with coverage')
     if args.check and args.command not in {'build', 'coverage'}:
         parser.error('--check is only supported with build or coverage')
     try:
         catalog = read_json(ROOT / 'data/catalog.json')
         errors = validate(catalog)
         if not errors and args.command == 'coverage':
-            review = read_json(ROOT / 'data/reviews/seventeenth-batch.json')
-            for filename, content in current_artifacts(catalog, review).items():
+            if args.role and args.role != 'abdi-comunicacao-marketing':
+                parser.error('unsupported coverage role')
+            review = read_json(ROOT / ('data/reviews/abdi-intake.json' if args.role else 'data/reviews/seventeenth-batch.json'))
+            artifacts = role_artifacts(catalog, review, args.role) if args.role else current_artifacts(catalog, review)
+            for filename, content in artifacts.items():
                 target = ROOT / filename
                 if args.check:
                     if not target.is_file() or target.read_text(encoding='utf-8') != content:

@@ -33,3 +33,11 @@ def historical_mappings(catalog):
 def audit_catalog():
     """Load the exact previously published catalog for immutable historical checks."""
     return json.loads(gzip.decompress((ROOT / 'data/reviews/content-audit-catalog-2026-10-26.json.gz').read_bytes()))
+
+
+def camara_catalog():
+    """Scope old batch mapping checks to their role while reading current source files."""
+    catalog = read_json(ROOT / 'data/catalog.json')
+    syllabus = {s['id'] for s in catalog['syllabusItems'] if s['roleId']=='camara-comunicacao-divulgacao'}
+    catalog['mappings'] = [m for m in catalog['mappings'] if m['syllabusItemId'] in syllabus]
+    return catalog

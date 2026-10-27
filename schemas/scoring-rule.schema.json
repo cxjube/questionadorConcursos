@@ -16,7 +16,10 @@
     "blocks"
   ],
   "properties": {
-    "version": {"type": "integer", "minimum": 1},
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
     "id": {
       "type": "string",
       "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
@@ -140,10 +143,39 @@
           },
           "doubleMarked": {
             "type": "number"
+          },
+          "distribution": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "disciplineId",
+                "questionCount"
+              ],
+              "properties": {
+                "disciplineId": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                },
+                "questionCount": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              }
+            }
+          },
+          "minimumScoreExclusive": {
+            "type": "boolean"
           }
         }
       },
       "minItems": 1
+    },
+    "minimumCorrectCount": {
+      "type": "integer",
+      "minimum": 1
     }
   }
 }

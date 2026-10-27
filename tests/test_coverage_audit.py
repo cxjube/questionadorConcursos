@@ -33,7 +33,12 @@ class CoverageAuditTests(unittest.TestCase):
             if isinstance(rows, list):
                 indexed = {row['id']: row for row in current[section]}
                 for row in rows:
-                    self.assertEqual(indexed[row['id']], row, (section, row['id']))
+                    if section == 'contests' and row['id'] == 'abdi-futuro':
+                        change = read_json(ROOT / 'data/reviews/abdi-intake.json')['contestTransition']
+                        self.assertEqual(row, change['before'])
+                        self.assertEqual(indexed[change['after']['id']], change['after'])
+                    else:
+                        self.assertEqual(indexed[row['id']], row, (section, row['id']))
             else:
                 self.assertEqual(current[section], rows)
 

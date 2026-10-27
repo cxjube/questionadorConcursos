@@ -1,4 +1,6 @@
 """Protect the new C/E release, legal review and comment provenance."""
+from review_helpers import camara_catalog
+
 import hashlib
 import re
 import shutil

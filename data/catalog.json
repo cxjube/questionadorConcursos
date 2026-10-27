@@ -9,10 +9,10 @@
       "provider": "Cebraspe"
     },
     {
-      "id": "abdi-futuro",
+      "id": "abdi-2026",
       "title": "ABDI — Comunicação e Marketing",
-      "status": "planned",
-      "provider": null
+      "status": "verified",
+      "provider": "FGV"
     },
     {
       "id": "cgu-futuro",
@@ -26,6 +26,12 @@
       "id": "camara-comunicacao-divulgacao",
       "contestId": "camara-2026",
       "title": "Analista Legislativo — Comunicação Social — Divulgação Institucional",
+      "status": "verified"
+    },
+    {
+      "id": "abdi-comunicacao-marketing",
+      "contestId": "abdi-2026",
+      "title": "Analista de Produtividade e Inovação — Comunicação e Marketing",
       "status": "verified"
     }
   ],
@@ -107,6 +113,19 @@
       "status": "verified",
       "documentId": "camara-2026-edital-06-documento",
       "amendsNoticeId": "camara-2026-edital-01"
+    },
+    {
+      "id": "abdi-2026-edital-01",
+      "contestId": "abdi-2026",
+      "roleIds": [
+        "abdi-comunicacao-marketing"
+      ],
+      "number": "01/2026",
+      "title": "ABDI — Edital nº 01/2026, de 20 de outubro de 2026",
+      "date": "2026-10-20",
+      "status": "verified",
+      "documentId": "abdi-2026-edital-01-documento",
+      "amendsNoticeId": null
     }
   ],
   "disciplines": [
@@ -145,6 +164,34 @@
     {
       "id": "ciencia-politica",
       "label": "Ciência Política"
+    },
+    {
+      "id": "raciocinio-logico",
+      "label": "Raciocínio Lógico"
+    },
+    {
+      "id": "abdi-nocoes-informatica",
+      "label": "Noções de Informática"
+    },
+    {
+      "id": "abdi-servicos-sociais-autonomos",
+      "label": "NATUREZA E FINALIDADE DOS SERVIÇOS SOCIAIS AUTÔNOMOS"
+    },
+    {
+      "id": "abdi-criacao-estatuto",
+      "label": "LEGISLAÇÃO DE CRIAÇÃO E ESTATUTO SOCIAL DA ABDI"
+    },
+    {
+      "id": "abdi-licitacoes-convenios",
+      "label": "REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI"
+    },
+    {
+      "id": "abdi-etica-missao",
+      "label": "ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI"
+    },
+    {
+      "id": "abdi-comunicacao-marketing",
+      "label": "Comunicação e Marketing"
     }
   ],
   "topics": [
@@ -1515,6 +1562,588 @@
       "disciplineId": "ciencia-politica",
       "parentId": null,
       "label": "História do voto e dos partidos no Brasil."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-1",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": null,
+      "label": "Compreensão e interpretação de textos de gêneros variados."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-2",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": null,
+      "label": "Reconhecimento de tipos e gêneros textuais."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-3",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": null,
+      "label": "Domínio da ortografia oficial."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-4",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": null,
+      "label": "Domínio dos mecanismos de coesão textual."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-4-1",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "abdi-2026-lingua-portuguesa-4",
+      "label": "Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-4-2",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "abdi-2026-lingua-portuguesa-4",
+      "label": "Emprego de tempos e modos verbais."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": null,
+      "label": "Domínio da estrutura morfossintática do período."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-1",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "abdi-2026-lingua-portuguesa-5",
+      "label": "Emprego das classes de palavras."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-2",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "abdi-2026-lingua-portuguesa-5",
+      "label": "Relações de coordenação entre orações e entre termos da oração."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-3",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "abdi-2026-lingua-portuguesa-5",
+      "label": "Relações de subordinação entre orações e entre termos da oração."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-4",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "abdi-2026-lingua-portuguesa-5",
+      "label": "Emprego dos sinais de pontuação."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-5",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "abdi-2026-lingua-portuguesa-5",
+      "label": "Concordância verbal e nominal."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-6",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "abdi-2026-lingua-portuguesa-5",
+      "label": "Regência verbal e nominal."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-7",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "abdi-2026-lingua-portuguesa-5",
+      "label": "Emprego do sinal indicativo de crase."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-8",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "abdi-2026-lingua-portuguesa-5",
+      "label": "Colocação dos pronomes átonos."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-6",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": null,
+      "label": "Reescrita de frases e parágrafos do texto."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-6-1",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "abdi-2026-lingua-portuguesa-6",
+      "label": "Significação das palavras."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-6-2",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "abdi-2026-lingua-portuguesa-6",
+      "label": "Substituição de palavras ou de trechos de texto."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-6-3",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "abdi-2026-lingua-portuguesa-6",
+      "label": "Reorganização da estrutura de orações e de períodos do texto."
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-6-4",
+      "disciplineId": "lingua-portuguesa",
+      "parentId": "abdi-2026-lingua-portuguesa-6",
+      "label": "Reescrita de textos de diferentes gêneros e níveis de formalidade."
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-1",
+      "disciplineId": "raciocinio-logico",
+      "parentId": null,
+      "label": "Estruturas lógicas."
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-2",
+      "disciplineId": "raciocinio-logico",
+      "parentId": null,
+      "label": "Lógica de argumentação: analogias, inferências, deduções e conclusões."
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3",
+      "disciplineId": "raciocinio-logico",
+      "parentId": null,
+      "label": "Lógica sentencial (ou proposicional)."
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3-1",
+      "disciplineId": "raciocinio-logico",
+      "parentId": "abdi-2026-raciocinio-logico-3",
+      "label": "Proposições simples e compostas."
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3-2",
+      "disciplineId": "raciocinio-logico",
+      "parentId": "abdi-2026-raciocinio-logico-3",
+      "label": "Tabelas-verdade."
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3-3",
+      "disciplineId": "raciocinio-logico",
+      "parentId": "abdi-2026-raciocinio-logico-3",
+      "label": "Equivalências."
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3-4",
+      "disciplineId": "raciocinio-logico",
+      "parentId": "abdi-2026-raciocinio-logico-3",
+      "label": "Diagramas lógicos."
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-4",
+      "disciplineId": "raciocinio-logico",
+      "parentId": null,
+      "label": "Lógica de primeira ordem."
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-5",
+      "disciplineId": "raciocinio-logico",
+      "parentId": null,
+      "label": "Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais."
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-1",
+      "disciplineId": "abdi-nocoes-informatica",
+      "parentId": null,
+      "label": "Conceitos básicos de Informática: hardware, software, periféricos, dispositivos de entrada, saída e armazenamento, organização de arquivos e pastas e principais extensões de arquivos;"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-2",
+      "disciplineId": "abdi-nocoes-informatica",
+      "parentId": null,
+      "label": "Sistemas operacionais Microsoft Windows 10 e Microsoft Windows 11, em português (Brasil): área de trabalho, gerenciamento de arquivos e pastas, configurações, pesquisa, impressão, compartilhamento e principais recursos;"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-3",
+      "disciplineId": "abdi-nocoes-informatica",
+      "parentId": null,
+      "label": "Microsoft 365, em português (Brasil): Word, Excel, PowerPoint e Outlook;"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-4",
+      "disciplineId": "abdi-nocoes-informatica",
+      "parentId": null,
+      "label": "LibreOffice 7.x ou superior, em português (Brasil): Writer, Calc e Impress;"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-5",
+      "disciplineId": "abdi-nocoes-informatica",
+      "parentId": null,
+      "label": "Internet e Intranet: conceitos, navegação, navegadores Google Chrome, Mozilla Firefox e Microsoft Edge, mecanismos de busca, webmail e demais serviços da Internet;"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-6",
+      "disciplineId": "abdi-nocoes-informatica",
+      "parentId": null,
+      "label": "Correio eletrônico: envio, recebimento, organização de mensagens, anexos, contatos e calendários;"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-7",
+      "disciplineId": "abdi-nocoes-informatica",
+      "parentId": null,
+      "label": "Segurança da informação: vírus, malwares, phishing, golpes eletrônicos, antivírus, firewall, backup, autenticação e boas práticas de segurança digital;"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-8",
+      "disciplineId": "abdi-nocoes-informatica",
+      "parentId": null,
+      "label": "Computação em nuvem: armazenamento, sincronização, compartilhamento de arquivos e colaboração;"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-9",
+      "disciplineId": "abdi-nocoes-informatica",
+      "parentId": null,
+      "label": "Inteligência Artificial: conceitos básicos, aplicações no ambiente de trabalho, ferramentas de IA generativa, uso responsável, limitações e boas práticas;"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-10",
+      "disciplineId": "abdi-nocoes-informatica",
+      "parentId": null,
+      "label": "Digitalização, impressão, compartilhamento de documentos, teclas de atalho, recursos de acessibilidade e produtividade em sistemas operacionais e aplicativos."
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-11",
+      "disciplineId": "abdi-nocoes-informatica",
+      "parentId": null,
+      "label": "Legislação acerca de Segurança da Informação e Proteção De Dados: 1. Lei nº 12.527/2011 (Lei de Acesso à Informação); 2. Lei nº 12.737/2012 (Lei de Delitos Informáticos); 3. Lei nº 12.965/2014 (Marco Civil da Internet); 4. Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD)"
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "parentId": null,
+      "label": "NATUREZA E FINALIDADE DOS SERVIÇOS SOCIAIS AUTÔNOMOS"
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-1",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "parentId": "abdi-2026-abdi-servicos-sociais-autonomos-1",
+      "label": "Conceito, características, natureza jurídica e finalidade dos Serviços Sociais Autônomos. Lei nº 11.080/2004, art. 1º, caput e § 1º, com redação dada pela Lei nº 14.440/2022; Decreto nº 5.352/2005, arts. 1º e 2º."
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-2",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "parentId": "abdi-2026-abdi-servicos-sociais-autonomos-1",
+      "label": "Personalidade jurídica de direito privado, ausência de fins lucrativos, interesse coletivo e utilidade pública. Lei nº 11.080/2004, art. 1º, § 1º; Decreto nº 5.352/2005, art. 1º."
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-3",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "parentId": "abdi-2026-abdi-servicos-sociais-autonomos-1",
+      "label": "Autonomia administrativa e gestão de pessoal. Lei nº 11.080/2004, art. 11, §§ 1º a 4º."
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-4",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "parentId": "abdi-2026-abdi-servicos-sociais-autonomos-1",
+      "label": "Regime jurídico e relações com o Poder Público. Contrato de gestão, princípios aplicáveis e responsabilidades institucionais. Lei nº 11.080/2004, arts. 8º a 12; Decreto nº 5.352/2005, art. 10."
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-5",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "parentId": "abdi-2026-abdi-servicos-sociais-autonomos-1",
+      "label": "Supervisão, fiscalização, controle e prestação de contas. Lei nº 11.080/2004, arts. 8º, 9º e 14; Decreto nº 5.352/2005, arts. 4º, 6º e 10."
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2",
+      "disciplineId": "abdi-criacao-estatuto",
+      "parentId": null,
+      "label": "LEGISLAÇÃO DE CRIAÇÃO E ESTATUTO SOCIAL DA ABDI"
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-1",
+      "disciplineId": "abdi-criacao-estatuto",
+      "parentId": "abdi-2026-abdi-criacao-estatuto-2",
+      "label": "Lei nº 11.080/2004 e suas alterações, especialmente a Lei nº 14.440/2022."
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-2",
+      "disciplineId": "abdi-criacao-estatuto",
+      "parentId": "abdi-2026-abdi-criacao-estatuto-2",
+      "label": "Decreto nº 5.352/2005 e suas alterações."
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-3",
+      "disciplineId": "abdi-criacao-estatuto",
+      "parentId": "abdi-2026-abdi-criacao-estatuto-2",
+      "label": "Estatuto Social da ABDI: natureza, finalidade, princípios e competências institucionais."
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-4",
+      "disciplineId": "abdi-criacao-estatuto",
+      "parentId": "abdi-2026-abdi-criacao-estatuto-2",
+      "label": "Organização administrativa e estrutura de governança."
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-5",
+      "disciplineId": "abdi-criacao-estatuto",
+      "parentId": "abdi-2026-abdi-criacao-estatuto-2",
+      "label": "Conselho Deliberativo, Conselho Fiscal e Diretoria-Executiva: composição, competências e atribuições."
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-6",
+      "disciplineId": "abdi-criacao-estatuto",
+      "parentId": "abdi-2026-abdi-criacao-estatuto-2",
+      "label": "Patrimônio, receitas, contrato de gestão e prestação de contas."
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "parentId": null,
+      "label": "REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI"
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-1",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "parentId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "label": "Regulamento de Licitações e Contratos da ABDI: princípios e disposições gerais."
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-2",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "parentId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "label": "Modalidades, procedimentos licitatórios, critérios de julgamento e habilitação."
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-3",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "parentId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "label": "Contratação direta: dispensa e inexigibilidade."
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-4",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "parentId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "label": "Formalização, execução, fiscalização, alteração e extinção dos contratos."
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-5",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "parentId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "label": "Sanções e responsabilidades contratuais."
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-6",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "parentId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "label": "Regulamento de Convênios da ABDI: disposições gerais, conceitos e modalidades."
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-7",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "parentId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "label": "Celebração de convênios, plano de trabalho, habilitação e contrapartidas."
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-8",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "parentId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "label": "Execução, acompanhamento, fiscalização e alterações dos convênios."
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-9",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "parentId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "label": "Prestação de contas, responsabilidades e disposições finais."
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4",
+      "disciplineId": "abdi-etica-missao",
+      "parentId": null,
+      "label": "ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI"
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-1",
+      "disciplineId": "abdi-etica-missao",
+      "parentId": "abdi-2026-abdi-etica-missao-4",
+      "label": "Regulamento de Ética e Conduta da ABDI (Resolução do Conselho Deliberativo nº 004/2022): objetivo, aplicabilidade, valores e princípios éticos (arts. 1º a 3º)."
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-2",
+      "disciplineId": "abdi-etica-missao",
+      "parentId": "abdi-2026-abdi-etica-missao-4",
+      "label": "Direitos, deveres e vedações aplicáveis aos profissionais da ABDI (arts. 4º a 6º do Regulamento de Ética e Conduta)."
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-3",
+      "disciplineId": "abdi-etica-missao",
+      "parentId": "abdi-2026-abdi-etica-missao-4",
+      "label": "Critérios de conduta profissional: mídias sociais, confidencialidade de informações, propriedade intelectual, utilização de recursos institucionais, doações e patrocínios (arts. 7º a 11 do Regulamento de Ética e Conduta)."
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-4",
+      "disciplineId": "abdi-etica-missao",
+      "parentId": "abdi-2026-abdi-etica-missao-4",
+      "label": "Conflito de interesses: atividades paralelas, atividades políticas, sindicais e religiosas, relacionamento entre profissionais, brindes, presentes, favores, participação em eventos e utilização de informações privilegiadas (arts. 12 a 17 do Regulamento de Ética e Conduta)."
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-5",
+      "disciplineId": "abdi-etica-missao",
+      "parentId": "abdi-2026-abdi-etica-missao-4",
+      "label": "Descumprimento das normas, medidas disciplinares, comunicação de irregularidades, denúncias e gestão do Regulamento de Ética e Conduta (arts. 18 a 25)."
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-6",
+      "disciplineId": "abdi-etica-missao",
+      "parentId": "abdi-2026-abdi-etica-missao-4",
+      "label": "Missão, visão, valores, diretrizes e objetivos estratégicos da ABDI, conforme o Planejamento Estratégico 2024–2029, aprovado pela Resolução do Conselho Deliberativo nº 008/2023."
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-7",
+      "disciplineId": "abdi-etica-missao",
+      "parentId": "abdi-2026-abdi-etica-missao-4",
+      "label": "Atuação institucional da ABDI: promoção do desenvolvimento industrial, inovação, transformação digital, difusão tecnológica, competitividade e sustentabilidade, conforme o art. 1º da Lei nº 11.080/2004, o art. 2º do Decreto nº 5.352/2005 e o Planejamento Estratégico 2024–2029."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-1",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Teorias da comunicação."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-2",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Processos, elementos, modelos e funções da comunicação."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-3",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Comunicação social, institucional, organizacional e pública."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-4",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Planejamento estratégico de comunicação."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-5",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Comunicação integrada."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-6",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Identidade, imagem, marca e reputação institucional."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-7",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Assessoria de comunicação e assessoria de imprensa."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-8",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Relacionamento com a imprensa e fontes de informação."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-9",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Gêneros jornalísticos."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-10",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Técnicas de redação jornalística: notícia, reportagem, entrevista, nota, release, artigo e texto institucional."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-11",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Edição e revisão de conteúdos."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-12",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Comunicação interna e relacionamento com públicos internos."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-13",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Comunicação digital e produção de conteúdo para ambientes digitais."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-14",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Redes sociais: planejamento, produção, publicação, monitoramento e métricas."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-15",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Produção e gestão de conteúdo multimídia."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-16",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Comunicação audiovisual: fundamentos de fotografia, vídeo e áudio."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-17",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Comunicação visual: fundamentos de design, identidade visual e produção gráfica."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-18",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Planejamento e organização de eventos."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-19",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Pesquisa de opinião e avaliação de resultados de comunicação."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-20",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Gestão de crises e comunicação de risco."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-21",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Relacionamento com públicos de interesse e comunidades."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-22",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Comunicação científica, tecnológica e ambiental."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-23",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Ética e legislação aplicadas à comunicação."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-24",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Direito à informação, transparência e acesso à informação."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-25",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Proteção de dados pessoais aplicada às atividades de comunicação."
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-26",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "parentId": null,
+      "label": "Acessibilidade, inclusão e linguagem simples na comunicação."
     }
   ],
   "documents": [
@@ -3193,6 +3822,19 @@
       "file": "sources/references/camara-manual-comunicacao-library.html",
       "sha256": "105a752649acfa288e1fba9d70eb24857731c41b369dccb736a1612da0fb7335",
       "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "abdi-2026-edital-01-documento",
+      "bankId": "concursos",
+      "kind": "notice",
+      "title": "ABDI — Edital nº 01/2026 — Abertura e anexos",
+      "issuer": "FGV / ABDI",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-01-2026-abertura-do-processo-seletivo-abdi-1.pdf",
+      "file": "sources/notices/ABDI-2026-Edital-01.pdf",
+      "sha256": "d6224edfe4d38f31cf1852879c7079be656e56f98f1bf9ad6d5e4210eb6043ff",
+      "publicationDate": "2026-10-20",
       "paperId": null
     }
   ],
@@ -31540,6 +32182,1170 @@
       "documentId": "camara-2026-edital-01-documento",
       "sourcePage": 54,
       "block": "specific"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-1",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-1",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 1.",
+      "status": "confirmed",
+      "number": "1",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-2",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-2",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 2.",
+      "status": "confirmed",
+      "number": "2",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-3",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-3",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 3.",
+      "status": "confirmed",
+      "number": "3",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-4",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-4",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 4.",
+      "status": "confirmed",
+      "number": "4",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-4-1",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-4-1",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 4.1.",
+      "status": "confirmed",
+      "number": "4.1",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-4-2",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-4-2",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 4.2.",
+      "status": "confirmed",
+      "number": "4.2",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-5",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 5.",
+      "status": "confirmed",
+      "number": "5",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-1",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-5-1",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 5.1.",
+      "status": "confirmed",
+      "number": "5.1",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-2",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-5-2",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 5.2.",
+      "status": "confirmed",
+      "number": "5.2",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-3",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-5-3",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 5.3.",
+      "status": "confirmed",
+      "number": "5.3",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-4",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-5-4",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 5.4.",
+      "status": "confirmed",
+      "number": "5.4",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-5",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-5-5",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 5.5.",
+      "status": "confirmed",
+      "number": "5.5",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-6",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-5-6",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 5.6.",
+      "status": "confirmed",
+      "number": "5.6",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-7",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-5-7",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 5.7.",
+      "status": "confirmed",
+      "number": "5.7",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-8",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-5-8",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 5.8.",
+      "status": "confirmed",
+      "number": "5.8",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-6",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-6",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 6.",
+      "status": "confirmed",
+      "number": "6",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-6-1",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-6-1",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 6.1.",
+      "status": "confirmed",
+      "number": "6.1",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-6-2",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-6-2",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 6.2.",
+      "status": "confirmed",
+      "number": "6.2",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-6-3",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-6-3",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 6.3.",
+      "status": "confirmed",
+      "number": "6.3",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-6-4",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-lingua-portuguesa-6-4",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, lingua-portuguesa, item 6.4.",
+      "status": "confirmed",
+      "number": "6.4",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-1",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-raciocinio-logico-1",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, raciocinio-logico, item 1.",
+      "status": "confirmed",
+      "number": "1",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-2",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-raciocinio-logico-2",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, raciocinio-logico, item 2.",
+      "status": "confirmed",
+      "number": "2",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-raciocinio-logico-3",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, raciocinio-logico, item 3.",
+      "status": "confirmed",
+      "number": "3",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3-1",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-raciocinio-logico-3-1",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, raciocinio-logico, item 3.1.",
+      "status": "confirmed",
+      "number": "3.1",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3-2",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-raciocinio-logico-3-2",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, raciocinio-logico, item 3.2.",
+      "status": "confirmed",
+      "number": "3.2",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3-3",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-raciocinio-logico-3-3",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, raciocinio-logico, item 3.3.",
+      "status": "confirmed",
+      "number": "3.3",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3-4",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-raciocinio-logico-3-4",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, raciocinio-logico, item 3.4.",
+      "status": "confirmed",
+      "number": "3.4",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-4",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-raciocinio-logico-4",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, raciocinio-logico, item 4.",
+      "status": "confirmed",
+      "number": "4",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-5",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-raciocinio-logico-5",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, raciocinio-logico, item 5.",
+      "status": "confirmed",
+      "number": "5",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-1",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-nocoes-informatica-1",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, abdi-nocoes-informatica, item 1.",
+      "status": "confirmed",
+      "number": "1",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-2",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-nocoes-informatica-2",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, abdi-nocoes-informatica, item 2.",
+      "status": "confirmed",
+      "number": "2",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-3",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-nocoes-informatica-3",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, abdi-nocoes-informatica, item 3.",
+      "status": "confirmed",
+      "number": "3",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-4",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-nocoes-informatica-4",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, abdi-nocoes-informatica, item 4.",
+      "status": "confirmed",
+      "number": "4",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-5",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-nocoes-informatica-5",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, abdi-nocoes-informatica, item 5.",
+      "status": "confirmed",
+      "number": "5",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-6",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-nocoes-informatica-6",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, abdi-nocoes-informatica, item 6.",
+      "status": "confirmed",
+      "number": "6",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-7",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-nocoes-informatica-7",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, abdi-nocoes-informatica, item 7.",
+      "status": "confirmed",
+      "number": "7",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-8",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-nocoes-informatica-8",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, abdi-nocoes-informatica, item 8.",
+      "status": "confirmed",
+      "number": "8",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-9",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-nocoes-informatica-9",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, abdi-nocoes-informatica, item 9.",
+      "status": "confirmed",
+      "number": "9",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-10",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-nocoes-informatica-10",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, abdi-nocoes-informatica, item 10.",
+      "status": "confirmed",
+      "number": "10",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-11",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-nocoes-informatica-11",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, abdi-nocoes-informatica, item 11.",
+      "status": "confirmed",
+      "number": "11",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "basic"
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-servicos-sociais-autonomos-1",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 38, item 1.",
+      "status": "confirmed",
+      "number": "1",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 38,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-1",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-servicos-sociais-autonomos-1-1",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-servicos-sociais-autonomos, item 1.1.",
+      "status": "confirmed",
+      "number": "1.1",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-2",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-servicos-sociais-autonomos-1-2",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-servicos-sociais-autonomos, item 1.2.",
+      "status": "confirmed",
+      "number": "1.2",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-3",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-servicos-sociais-autonomos-1-3",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-servicos-sociais-autonomos, item 1.3.",
+      "status": "confirmed",
+      "number": "1.3",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-4",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-servicos-sociais-autonomos-1-4",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-servicos-sociais-autonomos, item 1.4.",
+      "status": "confirmed",
+      "number": "1.4",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-5",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-servicos-sociais-autonomos-1-5",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-servicos-sociais-autonomos, item 1.5.",
+      "status": "confirmed",
+      "number": "1.5",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-criacao-estatuto-2",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-criacao-estatuto, item 2.",
+      "status": "confirmed",
+      "number": "2",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-1",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-criacao-estatuto-2-1",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-criacao-estatuto, item 2.1.",
+      "status": "confirmed",
+      "number": "2.1",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-2",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-criacao-estatuto-2-2",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-criacao-estatuto, item 2.2.",
+      "status": "confirmed",
+      "number": "2.2",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-3",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-criacao-estatuto-2-3",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-criacao-estatuto, item 2.3.",
+      "status": "confirmed",
+      "number": "2.3",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-4",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-criacao-estatuto-2-4",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-criacao-estatuto, item 2.4.",
+      "status": "confirmed",
+      "number": "2.4",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-5",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-criacao-estatuto-2-5",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-criacao-estatuto, item 2.5.",
+      "status": "confirmed",
+      "number": "2.5",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-6",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-criacao-estatuto-2-6",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-criacao-estatuto, item 2.6.",
+      "status": "confirmed",
+      "number": "2.6",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-licitacoes-convenios, item 3.",
+      "status": "confirmed",
+      "number": "3",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-1",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-licitacoes-convenios-3-1",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-licitacoes-convenios, item 3.1.",
+      "status": "confirmed",
+      "number": "3.1",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-2",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-licitacoes-convenios-3-2",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-licitacoes-convenios, item 3.2.",
+      "status": "confirmed",
+      "number": "3.2",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-3",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-licitacoes-convenios-3-3",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-licitacoes-convenios, item 3.3.",
+      "status": "confirmed",
+      "number": "3.3",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-4",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-licitacoes-convenios-3-4",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-licitacoes-convenios, item 3.4.",
+      "status": "confirmed",
+      "number": "3.4",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-5",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-licitacoes-convenios-3-5",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-licitacoes-convenios, item 3.5.",
+      "status": "confirmed",
+      "number": "3.5",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-6",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-licitacoes-convenios-3-6",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-licitacoes-convenios, item 3.6.",
+      "status": "confirmed",
+      "number": "3.6",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-7",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-licitacoes-convenios-3-7",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-licitacoes-convenios, item 3.7.",
+      "status": "confirmed",
+      "number": "3.7",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-8",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-licitacoes-convenios-3-8",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-licitacoes-convenios, item 3.8.",
+      "status": "confirmed",
+      "number": "3.8",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-9",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-licitacoes-convenios-3-9",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-licitacoes-convenios, item 3.9.",
+      "status": "confirmed",
+      "number": "3.9",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-etica-missao-4",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-etica-missao, item 4.",
+      "status": "confirmed",
+      "number": "4",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-1",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-etica-missao-4-1",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-etica-missao, item 4.1.",
+      "status": "confirmed",
+      "number": "4.1",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-2",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-etica-missao-4-2",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-etica-missao, item 4.2.",
+      "status": "confirmed",
+      "number": "4.2",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-3",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-etica-missao-4-3",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-etica-missao, item 4.3.",
+      "status": "confirmed",
+      "number": "4.3",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-4",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-etica-missao-4-4",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-etica-missao, item 4.4.",
+      "status": "confirmed",
+      "number": "4.4",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-5",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-etica-missao-4-5",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-etica-missao, item 4.5.",
+      "status": "confirmed",
+      "number": "4.5",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-6",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-etica-missao-4-6",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-etica-missao, item 4.6.",
+      "status": "confirmed",
+      "number": "4.6",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-7",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-etica-missao-4-7",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 39, abdi-etica-missao, item 4.7.",
+      "status": "confirmed",
+      "number": "4.7",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 39,
+      "block": "institutional"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-1",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-1",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 1.",
+      "status": "confirmed",
+      "number": "1",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-2",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-2",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 2.",
+      "status": "confirmed",
+      "number": "2",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-3",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-3",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 3.",
+      "status": "confirmed",
+      "number": "3",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-4",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-4",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 4.",
+      "status": "confirmed",
+      "number": "4",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-5",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-5",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 5.",
+      "status": "confirmed",
+      "number": "5",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-6",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-6",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 6.",
+      "status": "confirmed",
+      "number": "6",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-7",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-7",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 7.",
+      "status": "confirmed",
+      "number": "7",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-8",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-8",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 8.",
+      "status": "confirmed",
+      "number": "8",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-9",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-9",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 9.",
+      "status": "confirmed",
+      "number": "9",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-10",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-10",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 10.",
+      "status": "confirmed",
+      "number": "10",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-11",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-11",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 11.",
+      "status": "confirmed",
+      "number": "11",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-12",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-12",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 12.",
+      "status": "confirmed",
+      "number": "12",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-13",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-13",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 13.",
+      "status": "confirmed",
+      "number": "13",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-14",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-14",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 14.",
+      "status": "confirmed",
+      "number": "14",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-15",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-15",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 15.",
+      "status": "confirmed",
+      "number": "15",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-16",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-16",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 16.",
+      "status": "confirmed",
+      "number": "16",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-17",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-17",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 17.",
+      "status": "confirmed",
+      "number": "17",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-18",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-18",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 18.",
+      "status": "confirmed",
+      "number": "18",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-19",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-19",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 19.",
+      "status": "confirmed",
+      "number": "19",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-20",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-20",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 20.",
+      "status": "confirmed",
+      "number": "20",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-21",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-21",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 21.",
+      "status": "confirmed",
+      "number": "21",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-22",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-22",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 22.",
+      "status": "confirmed",
+      "number": "22",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-23",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-23",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 23.",
+      "status": "confirmed",
+      "number": "23",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-24",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-24",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 24.",
+      "status": "confirmed",
+      "number": "24",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-25",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-25",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 25.",
+      "status": "confirmed",
+      "number": "25",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-26",
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "topicId": "abdi-2026-abdi-comunicacao-marketing-26",
+      "reference": "Edital 01/2026, Anexo II, PDF p. 40, abdi-comunicacao-marketing, item 26.",
+      "status": "confirmed",
+      "number": "26",
+      "documentId": "abdi-2026-edital-01-documento",
+      "sourcePage": 40,
+      "block": "specific"
     }
   ],
   "mappings": [
@@ -34370,6 +36176,1063 @@
       "syllabusItemId": "camara-2026-comunicacao-social-10-2",
       "justification": "Distinção explícita entre experiência do usuário, usabilidade e interface.",
       "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-cb1-01-q009-lingua-portuguesa-5-1",
+      "questionId": "232funprespexe-cb1-01-q009",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-5-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 5.1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-cb1-01-q010-lingua-portuguesa-5-5",
+      "questionId": "232funprespexe-cb1-01-q010",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-5-5",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 5.5. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-cb1-01-q011-lingua-portuguesa-4-1",
+      "questionId": "232funprespexe-cb1-01-q011",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-4-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 4.1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-cb1-01-q012-lingua-portuguesa-5-4",
+      "questionId": "232funprespexe-cb1-01-q012",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-5-4",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 5.4. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-cb1-01-q013-lingua-portuguesa-1",
+      "questionId": "232funprespexe-cb1-01-q013",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-cb1-01-q014-lingua-portuguesa-1",
+      "questionId": "232funprespexe-cb1-01-q014",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-cb1-01-q015-lingua-portuguesa-1",
+      "questionId": "232funprespexe-cb1-01-q015",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-cb1-01-q016-lingua-portuguesa-1",
+      "questionId": "232funprespexe-cb1-01-q016",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-cb1-01-q001-lingua-portuguesa-5-6",
+      "questionId": "232funprespexe-cb1-01-q001",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-5-6",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 5.6. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-cb1-01-q002-lingua-portuguesa-5-5",
+      "questionId": "232funprespexe-cb1-01-q002",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-5-5",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 5.5. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-cb1-01-q003-lingua-portuguesa-5-1",
+      "questionId": "232funprespexe-cb1-01-q003",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-5-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 5.1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-cb1-01-q004-lingua-portuguesa-5-4",
+      "questionId": "232funprespexe-cb1-01-q004",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-5-4",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 5.4. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-cb1-01-q005-lingua-portuguesa-1",
+      "questionId": "232funprespexe-cb1-01-q005",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-cb1-01-q006-lingua-portuguesa-1",
+      "questionId": "232funprespexe-cb1-01-q006",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-cb1-01-q007-lingua-portuguesa-1",
+      "questionId": "232funprespexe-cb1-01-q007",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-cb1-01-q008-lingua-portuguesa-2",
+      "questionId": "232funprespexe-cb1-01-q008",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-2",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 2. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-cg1-01-q005-lingua-portuguesa-6-1",
+      "questionId": "038-anm-cg1-01-q005",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-6-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 6.1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-cg1-01-q008-lingua-portuguesa-5-7",
+      "questionId": "038-anm-cg1-01-q008",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-5-7",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 5.7. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-cg1-01-q010-lingua-portuguesa-6-3",
+      "questionId": "038-anm-cg1-01-q010",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-6-3",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 6.3. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-cg1-01-q001-lingua-portuguesa-1",
+      "questionId": "038-anm-cg1-01-q001",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-cg1-01-q002-lingua-portuguesa-1",
+      "questionId": "038-anm-cg1-01-q002",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-cg1-01-q003-lingua-portuguesa-1",
+      "questionId": "038-anm-cg1-01-q003",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-cg1-01-q004-lingua-portuguesa-4-1",
+      "questionId": "038-anm-cg1-01-q004",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-4-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 4.1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-cg1-01-q006-lingua-portuguesa-4-2",
+      "questionId": "038-anm-cg1-01-q006",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-4-2",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 4.2. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-cg1-01-q009-lingua-portuguesa-5-4",
+      "questionId": "038-anm-cg1-01-q009",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-5-4",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 5.4. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-959-bcb-cb1-01-q001-lingua-portuguesa-1",
+      "questionId": "959-bcb-cb1-01-q001",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-959-bcb-cb1-01-q002-lingua-portuguesa-1",
+      "questionId": "959-bcb-cb1-01-q002",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-959-bcb-cb1-01-q003-lingua-portuguesa-1",
+      "questionId": "959-bcb-cb1-01-q003",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-959-bcb-cb1-01-q004-lingua-portuguesa-1",
+      "questionId": "959-bcb-cb1-01-q004",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-959-bcb-cb1-01-q005-lingua-portuguesa-1",
+      "questionId": "959-bcb-cb1-01-q005",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-959-bcb-cb1-01-q006-lingua-portuguesa-4-1",
+      "questionId": "959-bcb-cb1-01-q006",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-4-1",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 4.1. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-959-bcb-cb1-01-q007-lingua-portuguesa-5-4",
+      "questionId": "959-bcb-cb1-01-q007",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-5-4",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 5.4. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-959-bcb-cb1-01-q009-lingua-portuguesa-5-3",
+      "questionId": "959-bcb-cb1-01-q009",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-5-3",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 5.3. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-959-bcb-cb1-01-q010-lingua-portuguesa-5-7",
+      "questionId": "959-bcb-cb1-01-q010",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-5-7",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 5.7. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-959-bcb-cb1-01-q011-lingua-portuguesa-5-5",
+      "questionId": "959-bcb-cb1-01-q011",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-5-5",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 5.5. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-959-bcb-cb1-01-q013-lingua-portuguesa-5-8",
+      "questionId": "959-bcb-cb1-01-q013",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-5-8",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 5.8. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-cb1-01-q008-lingua-portuguesa-3",
+      "questionId": "153-telebras-cb1-01-q008",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-3",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 3. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-cb1-01-q013-lingua-portuguesa-3",
+      "questionId": "153-telebras-cb1-01-q013",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-3",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 3. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-959-bcb-cb1-01-q019-lingua-portuguesa-6-2",
+      "questionId": "959-bcb-cb1-01-q019",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-6-2",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 6.2. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-959-bcb-cb1-01-q021-lingua-portuguesa-5-2",
+      "questionId": "959-bcb-cb1-01-q021",
+      "syllabusItemId": "abdi-2026-lingua-portuguesa-5-2",
+      "justification": "Mesma habilidade de Língua Portuguesa expressa no Anexo II ABDI, item 5.2. Enunciado, texto de apoio, banca e formato originais preservados.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-539-alce-016-01-q021-abdi-comunicacao-marketing-1",
+      "questionId": "539-alce-016-01-q021",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-1",
+      "justification": "Compatibilidade temática parcial com “Teorias da comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-008-01-q054-abdi-comunicacao-marketing-1",
+      "questionId": "038-anm-008-01-q054",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-1",
+      "justification": "Compatibilidade temática parcial com “Teorias da comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-072-stm-004-01-q085-abdi-comunicacao-marketing-1",
+      "questionId": "072-stm-004-01-q085",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-1",
+      "justification": "Compatibilidade temática parcial com “Teorias da comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-539-alce-016-01-q022-abdi-comunicacao-marketing-3",
+      "questionId": "539-alce-016-01-q022",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-3",
+      "justification": "Compatibilidade temática parcial com “Comunicação social, institucional, organizacional e pública.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-539-alce-016-01-q023-abdi-comunicacao-marketing-3",
+      "questionId": "539-alce-016-01-q023",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-3",
+      "justification": "Compatibilidade temática parcial com “Comunicação social, institucional, organizacional e pública.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-002-01-q097-abdi-comunicacao-marketing-3",
+      "questionId": "232funprespexe-002-01-q097",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-3",
+      "justification": "Compatibilidade temática parcial com “Comunicação social, institucional, organizacional e pública.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-002-01-q098-abdi-comunicacao-marketing-3",
+      "questionId": "232funprespexe-002-01-q098",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-3",
+      "justification": "Compatibilidade temática parcial com “Comunicação social, institucional, organizacional e pública.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-002-01-q099-abdi-comunicacao-marketing-3",
+      "questionId": "232funprespexe-002-01-q099",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-3",
+      "justification": "Compatibilidade temática parcial com “Comunicação social, institucional, organizacional e pública.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-002-01-q100-abdi-comunicacao-marketing-3",
+      "questionId": "232funprespexe-002-01-q100",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-3",
+      "justification": "Compatibilidade temática parcial com “Comunicação social, institucional, organizacional e pública.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-012-01-q065-abdi-comunicacao-marketing-3",
+      "questionId": "038-anm-012-01-q065",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-3",
+      "justification": "Compatibilidade temática parcial com “Comunicação social, institucional, organizacional e pública.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-989-codevasf-010-01-q102-abdi-comunicacao-marketing-3",
+      "questionId": "989-codevasf-010-01-q102",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-3",
+      "justification": "Compatibilidade temática parcial com “Comunicação social, institucional, organizacional e pública.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-042-embrapa-analista-072-01-q086-abdi-comunicacao-marketing-3",
+      "questionId": "042-embrapa-analista-072-01-q086",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-3",
+      "justification": "Compatibilidade temática parcial com “Comunicação social, institucional, organizacional e pública.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-008-01-q055-abdi-comunicacao-marketing-3",
+      "questionId": "153-telebras-008-01-q055",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-3",
+      "justification": "Compatibilidade temática parcial com “Comunicação social, institucional, organizacional e pública.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-205-funpresp-26-jud-005-01-q080-abdi-comunicacao-marketing-3",
+      "questionId": "205-funpresp-26-jud-005-01-q080",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-3",
+      "justification": "Compatibilidade temática parcial com “Comunicação social, institucional, organizacional e pública.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-002-01-q084-abdi-comunicacao-marketing-4",
+      "questionId": "232funprespexe-002-01-q084",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-4",
+      "justification": "Compatibilidade temática parcial com “Planejamento estratégico de comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-002-01-q085-abdi-comunicacao-marketing-4",
+      "questionId": "232funprespexe-002-01-q085",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-4",
+      "justification": "Compatibilidade temática parcial com “Planejamento estratégico de comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-010-01-q079-abdi-comunicacao-marketing-4",
+      "questionId": "038-anm-010-01-q079",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-4",
+      "justification": "Compatibilidade temática parcial com “Planejamento estratégico de comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-803-tj-es-006-01-q072-abdi-comunicacao-marketing-4",
+      "questionId": "803-tj-es-006-01-q072",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-4",
+      "justification": "Compatibilidade temática parcial com “Planejamento estratégico de comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-893-dataprev-005-01-q114-abdi-comunicacao-marketing-4",
+      "questionId": "893-dataprev-005-01-q114",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-4",
+      "justification": "Compatibilidade temática parcial com “Planejamento estratégico de comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-008-01-q095-abdi-comunicacao-marketing-4",
+      "questionId": "153-telebras-008-01-q095",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-4",
+      "justification": "Compatibilidade temática parcial com “Planejamento estratégico de comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-008-01-q096-abdi-comunicacao-marketing-4",
+      "questionId": "153-telebras-008-01-q096",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-4",
+      "justification": "Compatibilidade temática parcial com “Planejamento estratégico de comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-539-alce-016-01-q025-abdi-comunicacao-marketing-5",
+      "questionId": "539-alce-016-01-q025",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-5",
+      "justification": "Compatibilidade temática parcial com “Comunicação integrada.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-010-01-q070-abdi-comunicacao-marketing-6",
+      "questionId": "038-anm-010-01-q070",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-6",
+      "justification": "Compatibilidade temática parcial com “Identidade, imagem, marca e reputação institucional.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-012-01-q079-abdi-comunicacao-marketing-6",
+      "questionId": "038-anm-012-01-q079",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-6",
+      "justification": "Compatibilidade temática parcial com “Identidade, imagem, marca e reputação institucional.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-989-codevasf-010-01-q059-abdi-comunicacao-marketing-6",
+      "questionId": "989-codevasf-010-01-q059",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-6",
+      "justification": "Compatibilidade temática parcial com “Identidade, imagem, marca e reputação institucional.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-008-01-q061-abdi-comunicacao-marketing-6",
+      "questionId": "153-telebras-008-01-q061",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-6",
+      "justification": "Compatibilidade temática parcial com “Identidade, imagem, marca e reputação institucional.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-008-01-q062-abdi-comunicacao-marketing-6",
+      "questionId": "153-telebras-008-01-q062",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-6",
+      "justification": "Compatibilidade temática parcial com “Identidade, imagem, marca e reputação institucional.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-008-01-q072-abdi-comunicacao-marketing-6",
+      "questionId": "153-telebras-008-01-q072",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-6",
+      "justification": "Compatibilidade temática parcial com “Identidade, imagem, marca e reputação institucional.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-205-funpresp-26-jud-005-01-q057-abdi-comunicacao-marketing-6",
+      "questionId": "205-funpresp-26-jud-005-01-q057",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-6",
+      "justification": "Compatibilidade temática parcial com “Identidade, imagem, marca e reputação institucional.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-002-01-q090-abdi-comunicacao-marketing-12",
+      "questionId": "232funprespexe-002-01-q090",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
+      "justification": "Compatibilidade temática parcial com “Comunicação interna e relacionamento com públicos internos.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-002-01-q091-abdi-comunicacao-marketing-12",
+      "questionId": "232funprespexe-002-01-q091",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
+      "justification": "Compatibilidade temática parcial com “Comunicação interna e relacionamento com públicos internos.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-002-01-q092-abdi-comunicacao-marketing-12",
+      "questionId": "232funprespexe-002-01-q092",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
+      "justification": "Compatibilidade temática parcial com “Comunicação interna e relacionamento com públicos internos.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-232funprespexe-002-01-q096-abdi-comunicacao-marketing-12",
+      "questionId": "232funprespexe-002-01-q096",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
+      "justification": "Compatibilidade temática parcial com “Comunicação interna e relacionamento com públicos internos.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-010-01-q088-abdi-comunicacao-marketing-12",
+      "questionId": "038-anm-010-01-q088",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
+      "justification": "Compatibilidade temática parcial com “Comunicação interna e relacionamento com públicos internos.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-010-01-q089-abdi-comunicacao-marketing-12",
+      "questionId": "038-anm-010-01-q089",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
+      "justification": "Compatibilidade temática parcial com “Comunicação interna e relacionamento com públicos internos.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-010-01-q093-abdi-comunicacao-marketing-12",
+      "questionId": "038-anm-010-01-q093",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
+      "justification": "Compatibilidade temática parcial com “Comunicação interna e relacionamento com públicos internos.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-012-01-q108-abdi-comunicacao-marketing-12",
+      "questionId": "038-anm-012-01-q108",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
+      "justification": "Compatibilidade temática parcial com “Comunicação interna e relacionamento com públicos internos.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-072-stm-004-01-q079-abdi-comunicacao-marketing-12",
+      "questionId": "072-stm-004-01-q079",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
+      "justification": "Compatibilidade temática parcial com “Comunicação interna e relacionamento com públicos internos.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-072-stm-004-01-q082-abdi-comunicacao-marketing-12",
+      "questionId": "072-stm-004-01-q082",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
+      "justification": "Compatibilidade temática parcial com “Comunicação interna e relacionamento com públicos internos.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-018-stj-006-01-q061-abdi-comunicacao-marketing-12",
+      "questionId": "018-stj-006-01-q061",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
+      "justification": "Compatibilidade temática parcial com “Comunicação interna e relacionamento com públicos internos.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-008-01-q075-abdi-comunicacao-marketing-12",
+      "questionId": "153-telebras-008-01-q075",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
+      "justification": "Compatibilidade temática parcial com “Comunicação interna e relacionamento com públicos internos.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-205-funpresp-26-jud-005-01-q106-abdi-comunicacao-marketing-12",
+      "questionId": "205-funpresp-26-jud-005-01-q106",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
+      "justification": "Compatibilidade temática parcial com “Comunicação interna e relacionamento com públicos internos.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-205-funpresp-26-jud-005-01-q107-abdi-comunicacao-marketing-12",
+      "questionId": "205-funpresp-26-jud-005-01-q107",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
+      "justification": "Compatibilidade temática parcial com “Comunicação interna e relacionamento com públicos internos.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-008-01-q072-abdi-comunicacao-marketing-13",
+      "questionId": "038-anm-008-01-q072",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-13",
+      "justification": "Compatibilidade temática parcial com “Comunicação digital e produção de conteúdo para ambientes digitais.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-072-stm-004-01-q113-abdi-comunicacao-marketing-13",
+      "questionId": "072-stm-004-01-q113",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-13",
+      "justification": "Compatibilidade temática parcial com “Comunicação digital e produção de conteúdo para ambientes digitais.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-205-funpresp-26-jud-005-01-q095-abdi-comunicacao-marketing-13",
+      "questionId": "205-funpresp-26-jud-005-01-q095",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-13",
+      "justification": "Compatibilidade temática parcial com “Comunicação digital e produção de conteúdo para ambientes digitais.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-072-stm-004-01-q116-abdi-comunicacao-marketing-14",
+      "questionId": "072-stm-004-01-q116",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-14",
+      "justification": "Compatibilidade temática parcial com “Redes sociais: planejamento, produção, publicação, monitoramento e métricas.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-018-stj-006-01-q053-abdi-comunicacao-marketing-14",
+      "questionId": "018-stj-006-01-q053",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-14",
+      "justification": "Compatibilidade temática parcial com “Redes sociais: planejamento, produção, publicação, monitoramento e métricas.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-018-stj-006-01-q079-abdi-comunicacao-marketing-14",
+      "questionId": "018-stj-006-01-q079",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-14",
+      "justification": "Compatibilidade temática parcial com “Redes sociais: planejamento, produção, publicação, monitoramento e métricas.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-893-dataprev-005-01-q107-abdi-comunicacao-marketing-14",
+      "questionId": "893-dataprev-005-01-q107",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-14",
+      "justification": "Compatibilidade temática parcial com “Redes sociais: planejamento, produção, publicação, monitoramento e métricas.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-893-dataprev-005-01-q108-abdi-comunicacao-marketing-14",
+      "questionId": "893-dataprev-005-01-q108",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-14",
+      "justification": "Compatibilidade temática parcial com “Redes sociais: planejamento, produção, publicação, monitoramento e métricas.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-893-dataprev-005-01-q109-abdi-comunicacao-marketing-14",
+      "questionId": "893-dataprev-005-01-q109",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-14",
+      "justification": "Compatibilidade temática parcial com “Redes sociais: planejamento, produção, publicação, monitoramento e métricas.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-893-dataprev-005-01-q110-abdi-comunicacao-marketing-14",
+      "questionId": "893-dataprev-005-01-q110",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-14",
+      "justification": "Compatibilidade temática parcial com “Redes sociais: planejamento, produção, publicação, monitoramento e métricas.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-008-01-q099-abdi-comunicacao-marketing-14",
+      "questionId": "153-telebras-008-01-q099",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-14",
+      "justification": "Compatibilidade temática parcial com “Redes sociais: planejamento, produção, publicação, monitoramento e métricas.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-008-01-q101-abdi-comunicacao-marketing-14",
+      "questionId": "153-telebras-008-01-q101",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-14",
+      "justification": "Compatibilidade temática parcial com “Redes sociais: planejamento, produção, publicação, monitoramento e métricas.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-008-01-q105-abdi-comunicacao-marketing-14",
+      "questionId": "153-telebras-008-01-q105",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-14",
+      "justification": "Compatibilidade temática parcial com “Redes sociais: planejamento, produção, publicação, monitoramento e métricas.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-205-funpresp-26-jud-009-01-q077-abdi-comunicacao-marketing-14",
+      "questionId": "205-funpresp-26-jud-009-01-q077",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-14",
+      "justification": "Compatibilidade temática parcial com “Redes sociais: planejamento, produção, publicação, monitoramento e métricas.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-205-funpresp-26-jud-005-01-q082-abdi-comunicacao-marketing-14",
+      "questionId": "205-funpresp-26-jud-005-01-q082",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-14",
+      "justification": "Compatibilidade temática parcial com “Redes sociais: planejamento, produção, publicação, monitoramento e métricas.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-010-01-q092-abdi-comunicacao-marketing-16",
+      "questionId": "038-anm-010-01-q092",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-16",
+      "justification": "Compatibilidade temática parcial com “Comunicação audiovisual: fundamentos de fotografia, vídeo e áudio.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-010-01-q077-abdi-comunicacao-marketing-16",
+      "questionId": "038-anm-010-01-q077",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-16",
+      "justification": "Compatibilidade temática parcial com “Comunicação audiovisual: fundamentos de fotografia, vídeo e áudio.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-042-embrapa-analista-072-01-q087-abdi-comunicacao-marketing-16",
+      "questionId": "042-embrapa-analista-072-01-q087",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-16",
+      "justification": "Compatibilidade temática parcial com “Comunicação audiovisual: fundamentos de fotografia, vídeo e áudio.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-205-funpresp-26-jud-005-01-q067-abdi-comunicacao-marketing-16",
+      "questionId": "205-funpresp-26-jud-005-01-q067",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-16",
+      "justification": "Compatibilidade temática parcial com “Comunicação audiovisual: fundamentos de fotografia, vídeo e áudio.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-010-01-q100-abdi-comunicacao-marketing-17",
+      "questionId": "038-anm-010-01-q100",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-17",
+      "justification": "Compatibilidade temática parcial com “Comunicação visual: fundamentos de design, identidade visual e produção gráfica.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-010-01-q101-abdi-comunicacao-marketing-17",
+      "questionId": "038-anm-010-01-q101",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-17",
+      "justification": "Compatibilidade temática parcial com “Comunicação visual: fundamentos de design, identidade visual e produção gráfica.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-010-01-q102-abdi-comunicacao-marketing-17",
+      "questionId": "038-anm-010-01-q102",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-17",
+      "justification": "Compatibilidade temática parcial com “Comunicação visual: fundamentos de design, identidade visual e produção gráfica.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-010-01-q083-abdi-comunicacao-marketing-19",
+      "questionId": "038-anm-010-01-q083",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-19",
+      "justification": "Compatibilidade temática parcial com “Pesquisa de opinião e avaliação de resultados de comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-010-01-q073-abdi-comunicacao-marketing-19",
+      "questionId": "038-anm-010-01-q073",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-19",
+      "justification": "Compatibilidade temática parcial com “Pesquisa de opinião e avaliação de resultados de comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-803-tj-es-006-01-q067-abdi-comunicacao-marketing-19",
+      "questionId": "803-tj-es-006-01-q067",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-19",
+      "justification": "Compatibilidade temática parcial com “Pesquisa de opinião e avaliação de resultados de comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-893-dataprev-005-01-q104-abdi-comunicacao-marketing-19",
+      "questionId": "893-dataprev-005-01-q104",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-19",
+      "justification": "Compatibilidade temática parcial com “Pesquisa de opinião e avaliação de resultados de comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-008-01-q067-abdi-comunicacao-marketing-19",
+      "questionId": "153-telebras-008-01-q067",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-19",
+      "justification": "Compatibilidade temática parcial com “Pesquisa de opinião e avaliação de resultados de comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-008-01-q098-abdi-comunicacao-marketing-19",
+      "questionId": "153-telebras-008-01-q098",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-19",
+      "justification": "Compatibilidade temática parcial com “Pesquisa de opinião e avaliação de resultados de comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-205-funpresp-26-jud-005-01-q072-abdi-comunicacao-marketing-19",
+      "questionId": "205-funpresp-26-jud-005-01-q072",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-19",
+      "justification": "Compatibilidade temática parcial com “Pesquisa de opinião e avaliação de resultados de comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-539-alce-016-01-q026-abdi-comunicacao-marketing-20",
+      "questionId": "539-alce-016-01-q026",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-20",
+      "justification": "Compatibilidade temática parcial com “Gestão de crises e comunicação de risco.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-042-embrapa-analista-072-01-q094-abdi-comunicacao-marketing-20",
+      "questionId": "042-embrapa-analista-072-01-q094",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-20",
+      "justification": "Compatibilidade temática parcial com “Gestão de crises e comunicação de risco.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-042-embrapa-analista-072-01-q096-abdi-comunicacao-marketing-20",
+      "questionId": "042-embrapa-analista-072-01-q096",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-20",
+      "justification": "Compatibilidade temática parcial com “Gestão de crises e comunicação de risco.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-042-embrapa-analista-072-01-q097-abdi-comunicacao-marketing-20",
+      "questionId": "042-embrapa-analista-072-01-q097",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-20",
+      "justification": "Compatibilidade temática parcial com “Gestão de crises e comunicação de risco.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-013-01-q064-abdi-comunicacao-marketing-20",
+      "questionId": "038-anm-013-01-q064",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-20",
+      "justification": "Compatibilidade temática parcial com “Gestão de crises e comunicação de risco.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-012-01-q061-abdi-comunicacao-marketing-21",
+      "questionId": "038-anm-012-01-q061",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-21",
+      "justification": "Compatibilidade temática parcial com “Relacionamento com públicos de interesse e comunidades.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-072-stm-004-01-q114-abdi-comunicacao-marketing-21",
+      "questionId": "072-stm-004-01-q114",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-21",
+      "justification": "Compatibilidade temática parcial com “Relacionamento com públicos de interesse e comunidades.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-010-01-q059-abdi-comunicacao-marketing-23",
+      "questionId": "038-anm-010-01-q059",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-23",
+      "justification": "Compatibilidade temática parcial com “Ética e legislação aplicadas à comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-018-stj-006-01-q055-abdi-comunicacao-marketing-23",
+      "questionId": "018-stj-006-01-q055",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-23",
+      "justification": "Compatibilidade temática parcial com “Ética e legislação aplicadas à comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-018-stj-006-01-q062-abdi-comunicacao-marketing-23",
+      "questionId": "018-stj-006-01-q062",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-23",
+      "justification": "Compatibilidade temática parcial com “Ética e legislação aplicadas à comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-205-funpresp-26-jud-005-01-q094-abdi-comunicacao-marketing-23",
+      "questionId": "205-funpresp-26-jud-005-01-q094",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-23",
+      "justification": "Compatibilidade temática parcial com “Ética e legislação aplicadas à comunicação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-013-01-q069-abdi-comunicacao-marketing-24",
+      "questionId": "038-anm-013-01-q069",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-24",
+      "justification": "Compatibilidade temática parcial com “Direito à informação, transparência e acesso à informação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-205-funpresp-26-jud-005-01-q081-abdi-comunicacao-marketing-24",
+      "questionId": "205-funpresp-26-jud-005-01-q081",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-24",
+      "justification": "Compatibilidade temática parcial com “Direito à informação, transparência e acesso à informação.”. Reutilização do mesmo ID; formato e contexto da prova de origem preservados, sem atribuir à ABDI normas internas de outra instituição.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-008-01-q106-abdi-comunicacao-marketing-10",
+      "questionId": "153-telebras-008-01-q106",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-10",
+      "justification": "Amostra parcial diretamente observada no enunciado: Técnicas de redação jornalística: notícia, reportagem, entrevista, nota, release, artigo e texto institucional. O exemplo normativo ou institucional da prova original permanece identificado; não equivale a norma interna da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-008-01-q106-abdi-comunicacao-marketing-11",
+      "questionId": "153-telebras-008-01-q106",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-11",
+      "justification": "Amostra parcial diretamente observada no enunciado: Edição e revisão de conteúdos. O exemplo normativo ou institucional da prova original permanece identificado; não equivale a norma interna da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-153-telebras-008-01-q106-abdi-comunicacao-marketing-13",
+      "questionId": "153-telebras-008-01-q106",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-13",
+      "justification": "Amostra parcial diretamente observada no enunciado: Comunicação digital e produção de conteúdo para ambientes digitais. O exemplo normativo ou institucional da prova original permanece identificado; não equivale a norma interna da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-018-stj-006-01-q055-abdi-comunicacao-marketing-7",
+      "questionId": "018-stj-006-01-q055",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-7",
+      "justification": "Amostra parcial diretamente observada no enunciado: Assessoria de comunicação e assessoria de imprensa. O exemplo normativo ou institucional da prova original permanece identificado; não equivale a norma interna da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-018-stj-006-01-q055-abdi-comunicacao-marketing-8",
+      "questionId": "018-stj-006-01-q055",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-8",
+      "justification": "Amostra parcial diretamente observada no enunciado: Relacionamento com a imprensa e fontes de informação. O exemplo normativo ou institucional da prova original permanece identificado; não equivale a norma interna da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-893-dataprev-005-01-q104-abdi-comunicacao-marketing-8",
+      "questionId": "893-dataprev-005-01-q104",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-8",
+      "justification": "Amostra parcial diretamente observada no enunciado: Relacionamento com a imprensa e fontes de informação. O exemplo normativo ou institucional da prova original permanece identificado; não equivale a norma interna da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-alerj-2026-comunicacao-manha-tipo1-q063-abdi-comunicacao-marketing-26",
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q063",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-26",
+      "justification": "Amostra parcial diretamente observada no enunciado: Acessibilidade, inclusão e linguagem simples na comunicação. O exemplo normativo ou institucional da prova original permanece identificado; não equivale a norma interna da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-cg1-01-q029-abdi-nocoes-informatica-7",
+      "questionId": "038-anm-cg1-01-q029",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-7",
+      "justification": "Conceito ou recurso expresso no item 7 de Noções de Informática ABDI. A versão de ferramenta e eventuais condições da prova original são preservadas; vínculo parcial ao tema.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-094-pf-cb1-01-q028-abdi-nocoes-informatica-7",
+      "questionId": "094-pf-cb1-01-q028",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-7",
+      "justification": "Conceito ou recurso expresso no item 7 de Noções de Informática ABDI. A versão de ferramenta e eventuais condições da prova original são preservadas; vínculo parcial ao tema.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-094-pf-cb1-01-q029-abdi-nocoes-informatica-7",
+      "questionId": "094-pf-cb1-01-q029",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-7",
+      "justification": "Conceito ou recurso expresso no item 7 de Noções de Informática ABDI. A versão de ferramenta e eventuais condições da prova original são preservadas; vínculo parcial ao tema.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-094-pf-cb1-01-q032-abdi-nocoes-informatica-7",
+      "questionId": "094-pf-cb1-01-q032",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-7",
+      "justification": "Conceito ou recurso expresso no item 7 de Noções de Informática ABDI. A versão de ferramenta e eventuais condições da prova original são preservadas; vínculo parcial ao tema.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-094-pf-cb1-01-q034-abdi-nocoes-informatica-7",
+      "questionId": "094-pf-cb1-01-q034",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-7",
+      "justification": "Conceito ou recurso expresso no item 7 de Noções de Informática ABDI. A versão de ferramenta e eventuais condições da prova original são preservadas; vínculo parcial ao tema.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-106-pf-cg1-01-q064-abdi-nocoes-informatica-7",
+      "questionId": "106-pf-cg1-01-q064",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-7",
+      "justification": "Conceito ou recurso expresso no item 7 de Noções de Informática ABDI. A versão de ferramenta e eventuais condições da prova original são preservadas; vínculo parcial ao tema.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-106-pf-cg1-01-q088-abdi-nocoes-informatica-7",
+      "questionId": "106-pf-cg1-01-q088",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-7",
+      "justification": "Conceito ou recurso expresso no item 7 de Noções de Informática ABDI. A versão de ferramenta e eventuais condições da prova original são preservadas; vínculo parcial ao tema.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-cg1-01-q030-abdi-nocoes-informatica-8",
+      "questionId": "038-anm-cg1-01-q030",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-8",
+      "justification": "Conceito ou recurso expresso no item 8 de Noções de Informática ABDI. A versão de ferramenta e eventuais condições da prova original são preservadas; vínculo parcial ao tema.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-018-stj-cb1-01-q048-abdi-nocoes-informatica-8",
+      "questionId": "018-stj-cb1-01-q048",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-8",
+      "justification": "Conceito ou recurso expresso no item 8 de Noções de Informática ABDI. A versão de ferramenta e eventuais condições da prova original são preservadas; vínculo parcial ao tema.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-cg1-01-q026-abdi-nocoes-informatica-9",
+      "questionId": "038-anm-cg1-01-q026",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-9",
+      "justification": "Conceito ou recurso expresso no item 9 de Noções de Informática ABDI. A versão de ferramenta e eventuais condições da prova original são preservadas; vínculo parcial ao tema.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-057-ibama-cb1-01-q017-abdi-nocoes-informatica-9",
+      "questionId": "057-ibama-cb1-01-q017",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-9",
+      "justification": "Conceito ou recurso expresso no item 9 de Noções de Informática ABDI. A versão de ferramenta e eventuais condições da prova original são preservadas; vínculo parcial ao tema.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-024-01-q091-abdi-nocoes-informatica-9",
+      "questionId": "038-anm-024-01-q091",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-9",
+      "justification": "Conceito ou recurso expresso no item 9 de Noções de Informática ABDI. A versão de ferramenta e eventuais condições da prova original são preservadas; vínculo parcial ao tema.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-024-01-q097-abdi-nocoes-informatica-9",
+      "questionId": "038-anm-024-01-q097",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-9",
+      "justification": "Conceito ou recurso expresso no item 9 de Noções de Informática ABDI. A versão de ferramenta e eventuais condições da prova original são preservadas; vínculo parcial ao tema.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-050-trt10-011-01-q069-abdi-nocoes-informatica-9",
+      "questionId": "050-trt10-011-01-q069",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-9",
+      "justification": "Conceito ou recurso expresso no item 9 de Noções de Informática ABDI. A versão de ferramenta e eventuais condições da prova original são preservadas; vínculo parcial ao tema.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-cg1-01-q034-abdi-nocoes-informatica-11",
+      "questionId": "038-anm-cg1-01-q034",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-11",
+      "justification": "Questão sobre LAI ou LGPD, normas expressamente listadas em Noções de Informática 11 do Anexo II. O contexto e o alcance do dispositivo da prova original permanecem identificados; não se transforma norma da administração direta em regulamento interno da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-038-anm-cg1-01-q035-abdi-nocoes-informatica-11",
+      "questionId": "038-anm-cg1-01-q035",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-11",
+      "justification": "Questão sobre LAI ou LGPD, normas expressamente listadas em Noções de Informática 11 do Anexo II. O contexto e o alcance do dispositivo da prova original permanecem identificados; não se transforma norma da administração direta em regulamento interno da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-057-ibama-001-01-q072-abdi-nocoes-informatica-11",
+      "questionId": "057-ibama-001-01-q072",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-11",
+      "justification": "Questão sobre LAI ou LGPD, normas expressamente listadas em Noções de Informática 11 do Anexo II. O contexto e o alcance do dispositivo da prova original permanecem identificados; não se transforma norma da administração direta em regulamento interno da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-094-pf-cb1-01-q050-abdi-nocoes-informatica-11",
+      "questionId": "094-pf-cb1-01-q050",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-11",
+      "justification": "Questão sobre LAI ou LGPD, normas expressamente listadas em Noções de Informática 11 do Anexo II. O contexto e o alcance do dispositivo da prova original permanecem identificados; não se transforma norma da administração direta em regulamento interno da ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2026-042-embrapa-analista-072-01-q087-abdi-comunicacao-marketing-15",
+      "questionId": "042-embrapa-analista-072-01-q087",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-15",
+      "justification": "Características e interatividade do vídeo como conteúdo multimídia, explicitamente tratado no enunciado. Amostra parcial de formatos multimídia, sem afirmar cobertura de todo o processo de produção e gestão.",
+      "status": "confirmed"
     }
   ],
   "scoringRules": [
@@ -34411,6 +37274,100 @@
         }
       ],
       "version": 1
+    },
+    {
+      "id": "abdi-2026-comunicacao-objetiva",
+      "version": 1,
+      "noticeId": "abdi-2026-edital-01",
+      "roleId": "abdi-comunicacao-marketing",
+      "status": "confirmed",
+      "documentId": "abdi-2026-edital-01-documento",
+      "reference": "Edital 01/2026: 9.1–9.2.4 (PDF p. 16), 9.5 e 10.1 (PDF p. 17), 14.3.4 (PDF p. 25). Pelo menos 30 acertos e não zerar nenhuma das três áreas; não equivale a um mínimo de 12,5 pontos.",
+      "durationMinutes": 210,
+      "minimumTotalScore": null,
+      "minimumCorrectCount": 30,
+      "blocks": [
+        {
+          "id": "basic",
+          "label": "Conhecimentos gerais",
+          "questionType": "multiple_choice",
+          "questionCount": 20,
+          "correct": 0.3,
+          "incorrect": 0,
+          "blank": 0,
+          "doubleMarked": 0,
+          "annulledPolicy": "credit",
+          "annulledPoints": null,
+          "minimumScore": 0,
+          "distribution": [
+            {
+              "disciplineId": "lingua-portuguesa",
+              "questionCount": 8
+            },
+            {
+              "disciplineId": "raciocinio-logico",
+              "questionCount": 6
+            },
+            {
+              "disciplineId": "abdi-nocoes-informatica",
+              "questionCount": 6
+            }
+          ],
+          "minimumScoreExclusive": true
+        },
+        {
+          "id": "institutional",
+          "label": "Conhecimentos institucionais",
+          "questionType": "multiple_choice",
+          "questionCount": 20,
+          "correct": 0.3,
+          "incorrect": 0,
+          "blank": 0,
+          "doubleMarked": 0,
+          "annulledPolicy": "credit",
+          "annulledPoints": null,
+          "minimumScore": 0,
+          "distribution": [
+            {
+              "disciplineId": "abdi-servicos-sociais-autonomos",
+              "questionCount": 4
+            },
+            {
+              "disciplineId": "abdi-criacao-estatuto",
+              "questionCount": 4
+            },
+            {
+              "disciplineId": "abdi-licitacoes-convenios",
+              "questionCount": 8
+            },
+            {
+              "disciplineId": "abdi-etica-missao",
+              "questionCount": 4
+            }
+          ],
+          "minimumScoreExclusive": true
+        },
+        {
+          "id": "specific",
+          "label": "Conhecimentos específicos",
+          "questionType": "multiple_choice",
+          "questionCount": 20,
+          "correct": 0.65,
+          "incorrect": 0,
+          "blank": 0,
+          "doubleMarked": 0,
+          "annulledPolicy": "credit",
+          "annulledPoints": null,
+          "minimumScore": 0,
+          "distribution": [
+            {
+              "disciplineId": "abdi-comunicacao-marketing",
+              "questionCount": 20
+            }
+          ],
+          "minimumScoreExclusive": true
+        }
+      ]
     }
   ],
   "consolidations": [
@@ -34547,6 +37504,74 @@
           "documentId": "camara-2026-edital-04-documento",
           "sourcePage": 1,
           "supersedesDocumentId": "camara-2026-edital-03-documento"
+        }
+      ]
+    },
+    {
+      "id": "abdi-2026-comunicacao-consolidacao",
+      "contestId": "abdi-2026",
+      "roleId": "abdi-comunicacao-marketing",
+      "baseNoticeId": "abdi-2026-edital-01",
+      "reviewedNoticeIds": [
+        "abdi-2026-edital-01"
+      ],
+      "status": "confirmed",
+      "scopeNote": "Abertura 01/2026 fornecida pelo usuário e comparada byte a byte ao PDF oficial FGV em 27/10/2026. Anexos I/II e regras objetivas deste perfil. A página consultada não listava retificações; não se presume ausência de alterações futuras. Outras etapas, títulos e entrevista não são simulados.",
+      "externalVerification": true,
+      "entries": [
+        {
+          "id": "abdi-2026-etapas",
+          "section": "Edital 01/2026",
+          "title": "Etapas da seleção",
+          "text": "O Processo Seletivo compreenderá as seguintes etapas, todas sob a responsabilidade da Fundação Getulio Vargas, na ordem a seguir: i. Prova Objetiva, de caráter eliminatório e classificatório; ii. Avaliação de Títulos e Experiência Profissional, de caráter classificatório; iii. Entrevista Individual por Competências, de caráter classificatório.",
+          "documentId": "abdi-2026-edital-01-documento",
+          "sourcePage": 1,
+          "supersedesDocumentId": null
+        },
+        {
+          "id": "abdi-2026-vagas",
+          "section": "Edital 01/2026",
+          "title": "Vagas — 1 imediata (AC) e 8 em cadastro de reserva (6 AC e 2 para negros)",
+          "text": "API – Comunicação e Marketing 1 0 0 0 0 1 6 2 0 0 0 8",
+          "documentId": "abdi-2026-edital-01-documento",
+          "sourcePage": 2,
+          "supersedesDocumentId": null
+        },
+        {
+          "id": "abdi-2026-pesos",
+          "section": "Edital 01/2026",
+          "title": "Composição, pesos e alternativas",
+          "text": "9.1. A Prova Objetiva, de caráter eliminatório e classificatório, será composta por 60 (sessenta) questões de múltipla escolha, distribuídas igualmente entre três áreas de conhecimento, conforme o quadro a seguir: DISCIPLINAS QUESTÕES VALOR POR QUESTÃO CONHECIMENTOS GERAIS 20 0,3 Língua Portuguesa 8 0,3 Raciocínio Lógico 6 0,3 Noções de Informática 6 0,3 CONHECIMENTOS INSTITUCIONAIS 20 0,3 Natureza e finalidade dos serviços sociais 0,3 4 autônomos Lei e decreto de criação da ABDI; 0,3 4 Estatuto Regulamento de licitações e contratos; 0,3 8 regulamento de convênios Ética e conduta; Missão e atuação 0,3 4 institucional da agência CONHECIMENTOS ESPECÍFICOS 20 0,65 TOTAL 60 25 9.2. Para todos os perfis, a Prova Objetiva será composta por questões de múltipla escolha, numeradas sequencialmente, com 05 (cinco) alternativas e apenas uma resposta correta. 9.2.1. A Prova Objetiva totalizará 25 (vinte e cinco) pontos. 9.2.1.1. Cada questão de Conhecimentos Gerais vale 0,3 pontos. 9.2.1.2. Cada questão de Conhecimentos Institucionais vale 0,3 pontos. 9.2.1.3. Cada questão de Conhecimentos Específicos vale 0,65 pontos. 9.2.2. Será atribuída nota zero à questão que apresentar mais de uma ou nenhuma resposta assinalada. 9.2.3. As questões da Prova Objetiva serão elaboradas com base nos conteúdos programáticos constantes do Anexo II deste Edital. 9.2.4. A Prova Objetiva não admite consulta de qualquer natureza. 9.3. As respostas da Prova Objetiva serão registradas pelo candidato diretamente na plataforma on-line e processadas eletronicamente pela FGV. 9.4. O candidato é responsável pela conferência de seus dados pessoais, em especial seu nome, seu número de inscrição, sua data de nascimento e o número de seu documento de identidade. 9.5. Será considerado aprovado na Prova Objetiva o candidato que, cumulativamente:",
+          "documentId": "abdi-2026-edital-01-documento",
+          "sourcePage": 16,
+          "supersedesDocumentId": null
+        },
+        {
+          "id": "abdi-2026-criterios",
+          "section": "Edital 01/2026",
+          "title": "Critérios de aprovação na objetiva",
+          "text": "a) acertar, no mínimo, 50% (cinquenta por cento) do número de questões da Prova Objetiva; e b) não zerar nenhuma das áreas de conhecimento.",
+          "documentId": "abdi-2026-edital-01-documento",
+          "sourcePage": 17,
+          "supersedesDocumentId": null
+        },
+        {
+          "id": "abdi-2026-data",
+          "section": "Edital 01/2026",
+          "title": "Data e duração da prova",
+          "text": "A Prova Objetiva, de caráter eliminatório e classificatório, será realizada em plataforma on-line disponibilizada pela FGV, para que o candidato a realize em sua residência, no dia 20 de dezembro de 2026, das 13h30 às 17h00, segundo o horário oficial de Brasília/DF. 10.2. O candidato deverá acessar o link designado para a realização das provas no horário previsto no subitem 10.2.2, munido do documento de identidade original e do comprovante de inscrição ou do comprovante de pagamento da taxa de inscrição. 10.2.1. O candidato terá acesso a um link exclusivo, que será disponibilizado no endereço eletrônico https://conhecimento.fgv.br/concursos/psabdi até 3 (três) dias antes da data prevista no subitem",
+          "documentId": "abdi-2026-edital-01-documento",
+          "sourcePage": 17,
+          "supersedesDocumentId": null
+        },
+        {
+          "id": "abdi-2026-requisitos",
+          "section": "Edital 01/2026",
+          "title": "Requisitos e jornada do perfil",
+          "text": "Diploma, devidamente registrado, de curso de graduação de nível superior em Comunicação Social, Jornalismo, Publicidade e Propaganda, Relações Públicas ou Marketing ou correlatos, fornecido por instituição de ensino superior reconhecida pelo Ministério da Educação (MEC). Será admitido curso superior de tecnologia em Marketing, desde que reconhecido pelo MEC. Experiência profissional exigida: Experiência com tempo mínimo de 6 (seis) meses em planejamento, produção, execução, gestão ou avaliação de ações de comunicação ou marketing, incluindo uma ou mais das seguintes frentes: comunicação institucional e interna; campanhas; produção de conteúdo; canais digitais e redes sociais; publicidade e gestão de marca; relacionamento com públicos; eventos e análise de indicadores de comunicação. Não se exige atuação em todos os canais ou formatos. Jornada semanal: 40 horas.",
+          "documentId": "abdi-2026-edital-01-documento",
+          "sourcePage": 37,
+          "supersedesDocumentId": null
         }
       ]
     }
