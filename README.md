@@ -112,20 +112,8 @@ Questões compartilhadas são relacionadas a itens de editais por vínculos, sem
 Com Playwright e Chromium já disponíveis na máquina, sirva `docs/` e execute:
 
 ```sh
-APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-smoke.cjs
-APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-study.cjs
-APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-usability.cjs
-APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-filters.cjs
-APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-new-session.cjs
-APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-performance.cjs
-APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-timed-practice.cjs
-APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-customization-evolution.cjs
-APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-sixth-batch.cjs
-APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-seventh-batch.cjs
-APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-ninth-batch.cjs
-APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-tenth-batch.cjs
+APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-fifteenth-batch.cjs
 APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-exam.cjs
-APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-eleventh-batch.cjs
 ```
 
 Essas ferramentas não integram a aplicação nem são dependências obrigatórias do projeto. O teste cobre abas, navegação por teclado, temas, persistência, seletores, estados sem dados e ausência de transbordamento horizontal em 320 e 1280 px. Não substitui uma auditoria completa de acessibilidade.
@@ -134,4 +122,4 @@ Essas ferramentas não integram a aplicação nem são dependências obrigatóri
 
 Ampliar e equilibrar o banco, priorizando tópicos sem questões, para variar o simulado de 180 C/E já disponível. Para treinar somente um bloco, use Personalizar treino, selecione P1/P2, Certo/Errado e quantidade 90. Essa modalidade continua sem mínimos oficiais.
 
-Continuar ampliando a reserva de 287 C/E e os tópicos ainda sem cobertura: 142 dos 228 itens programáticos têm vínculo direto. Os filtros temáticos, incluindo múltipla escolha, têm 141 itens em P1 e 162 em P2, com um compartilhado; não devem ser somados. ABDI/CGU, importação automática, dashboard avançado e gamificação permanecem fora desta entrega. Veja o [relatório do 14º lote](documentation/fourteenth-batch-release.md).
+Continuar ampliando a reserva de 324 C/E e os tópicos ainda sem cobertura: 165 dos 228 itens programáticos têm vínculo direto e 30 subárvores permanecem sem questões. Os filtros temáticos, incluindo múltipla escolha, têm 155 itens em P1 e 185 em P2, com um compartilhado; não devem ser somados. ABDI/CGU, importação automática, dashboard avançado e gamificação permanecem fora desta entrega. Veja o [relatório do 15º lote](documentation/fifteenth-batch-release.md).
