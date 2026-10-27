@@ -10,7 +10,7 @@ Este roteiro editorial complementa o treino. Não é conteúdo programático nov
 
 As numerações impressa e do leitor de PDF diferem. Os pontos de entrada não substituem a leitura do restante do material cobrado. Consulte a edição e os documentos previstos no edital; esta conferência não garante ausência de alterações futuras.
 
-Ainda faltam questões oficiais diretamente compatíveis com Comunicação 8.1, 8.2 e 10.1. As questões genéricas de comunicação, IA e linguagem clara não foram reclassificadas como questões desses documentos.
+O 16º lote libera duas MC oficiais da ALERJ de 2026 para Comunicação 8.2: o enunciado cita o Manual de Comunicação de 2025, com trechos conferidos nas páginas impressas 38 e 81 (PDF 33 e 74). Ainda faltam questões específicas de Comunicação 8.1 (Ato 218/2025) e 10.1 (Manual de Linguagem Simples 2024). Questões genéricas não foram reclassificadas como questões desses documentos.
 
 ## Rodada de uso com estudantes
 

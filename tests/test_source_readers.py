@@ -37,3 +37,22 @@ class LegalReaderTests(unittest.TestCase):
 
     def test_visible_parent_after_struck_child_is_not_dropped(self):
         self.assertEqual(reference_text(b'<p>before <strike><span>old</span></strike> after</p>'), 'before after')
+
+
+class AlerjAnswerReaderTests(unittest.TestCase):
+    def test_exact_role_type_and_morning_isolated_with_blank_layout_rows(self):
+        header = 'Especialista Legislativo - Nível IV - Synthetic fixture - 1 - Turno Manhã'
+        other = 'Especialista Legislativo - Nível IV - Synthetic fixture - 2 - Turno Manhã'
+        later = 'Especialista Legislativo - Nível IV - Other fixture - 1 - Turno Manhã'
+        source = header+'\n1 2 3\n\nD * E\n'+other+'\n1 2 3\nA B C\n'+later+'\n1 2 3\nC D A\n'
+        self.assertEqual(answer_table(source, header), {1:'D', 2:'X', 3:'E'})
+        with self.assertRaises(ValueError):
+            answer_table(source, header.replace('Manhã', 'Tarde'))
+        with self.assertRaises(ValueError):
+            answer_table(source+'\n'+header+'\n1 2 3\nA B C', header)
+
+    def test_blank_layout_rows_do_not_allow_missing_answers_or_text_to_masquerade_as_a_key(self):
+        h = 'Especialista Legislativo - Nível IV - Synthetic fixture - 1 - Turno Manhã'
+        for body in ['1 2\n\nA', '1\n\n', '1\n\nComment A', '1 2\n\n3 4\nA B', '1\nA\n1\nB']:
+            with self.subTest(body=body), self.assertRaises(ValueError):
+                answer_table(h+'\n'+body, h)

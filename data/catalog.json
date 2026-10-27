@@ -2999,6 +2999,201 @@
       "sha256": "00b231048a4f7793c7e4cda74e93967c7c9f04d03938d8913d86e0aea4be8c9b",
       "publicationDate": null,
       "paperId": null
+    },
+    {
+      "id": "source-153-telebras-cb1-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Telecomunicações Brasileiras S.A. — Conhecimentos básicos — todos os cargos",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+      "file": "sources/papers/153_TELEBRAS_CB1_01.pdf",
+      "sha256": "34e82b995d5f135b1d04413971219eaf11cbbf0734b053194804c5b25b4c6393",
+      "publicationDate": null,
+      "paperId": "source-153-telebras-cb1-01"
+    },
+    {
+      "id": "source-153-telebras-cb1-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Telecomunicações Brasileiras S.A. — Conhecimentos básicos — todos os cargos — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/374364890113AA9043F5CFCB1F6D6D6BDA5D587A62B89219DFC71B40BA5F948E.pdf",
+      "file": "sources/answer-keys/153_TELEBRAS_CB1_01-key.pdf",
+      "sha256": "db466efbcdc976d07c8ccae04640ef6a642d2ad0dfa3d3cec8ed67520d9d1716",
+      "publicationDate": null,
+      "paperId": "source-153-telebras-cb1-01"
+    },
+    {
+      "id": "source-153-telebras-008-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Telecomunicações Brasileiras S.A. — Cargo 8 — Especialista em Gestão de Telecomunicações — Marketing",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/E745E981210ACFFB4253484290CCDA28BDD29A946F7EAADA73A5B6899C2A2327.pdf",
+      "file": "sources/papers/153_TELEBRAS_008_01.pdf",
+      "sha256": "caadb5285994505629eb14ced86cb7c7b1cf13a0b463f4d267b09c17edae0b84",
+      "publicationDate": null,
+      "paperId": "source-153-telebras-008-01"
+    },
+    {
+      "id": "source-153-telebras-008-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Telecomunicações Brasileiras S.A. — Cargo 8 — Especialista em Gestão de Telecomunicações — Marketing — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/4138A1702D3E4697BE26B8BE9AD2FE1605A687A3BE5D171C97C3359FBFA2E5B1.pdf",
+      "file": "sources/answer-keys/153_TELEBRAS_008_01-key.pdf",
+      "sha256": "a935f49638e4e4cbd45696d93dd155954229010f02af1d7b1576507f17f58e19",
+      "publicationDate": null,
+      "paperId": "source-153-telebras-008-01"
+    },
+    {
+      "id": "source-153-telebras-003-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Telecomunicações Brasileiras S.A. — Cargo 3 — Especialista em Gestão de Telecomunicações — Administrativo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/02A841CD7E3B256A0F85C4096A481C4BE5C82237B440909486D211B69F01732E.pdf",
+      "file": "sources/papers/153_TELEBRAS_003_01.pdf",
+      "sha256": "cce01320ae74f9543dbb82eafcce190988cd9d39fb558d9fec3c8b05aed4add3",
+      "publicationDate": null,
+      "paperId": "source-153-telebras-003-01"
+    },
+    {
+      "id": "source-153-telebras-003-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Telecomunicações Brasileiras S.A. — Cargo 3 — Especialista em Gestão de Telecomunicações — Administrativo — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/3586BBD69D6FCE74C2B891E0942C1654AE304F4BBDD7130BB311AFBDD5BAF3EA.pdf",
+      "file": "sources/answer-keys/153_TELEBRAS_003_01-key.pdf",
+      "sha256": "2a194faf3167157e27f8c6cb09f95aa9132b51776b56adc23fc65ad8aac57bb7",
+      "publicationDate": null,
+      "paperId": "source-153-telebras-003-01"
+    },
+    {
+      "id": "source-072-stm-002-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Superior Tribunal Militar — Cargo 2 — Analista Judiciário — Administração",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/072_STM_002_01.pdf",
+      "file": "sources/papers/072_STM_002_01.pdf",
+      "sha256": "fc535e5b778a797a37e472e5f09ef6b23b0dd0a789b22a49404e3ca62d96b9a2",
+      "publicationDate": null,
+      "paperId": "source-072-stm-002-01"
+    },
+    {
+      "id": "source-072-stm-002-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Superior Tribunal Militar — Cargo 2 — Analista Judiciário — Administração — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/Gab_Definitivo_072_STM_002_01.pdf",
+      "file": "sources/answer-keys/072_STM_002_01-key.pdf",
+      "sha256": "f8edfd128b65fa2d72e859510dbc9add99a33e32acfb665d1b082a61b4898786",
+      "publicationDate": null,
+      "paperId": "source-072-stm-002-01"
+    },
+    {
+      "id": "source-205-funpresp-26-jud-009-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Funpresp-Jud — Emprego 9 — Analista de TI — Ciência de Dados e Inovação",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_26_JUD/arquivos/7E92AF127EDC1384FBB1947BDFA3C6AE05877B614EC4ADBEDDF4F8CF7BEC6EB7.pdf",
+      "file": "sources/papers/205_FUNPRESP_26_JUD_009_01.pdf",
+      "sha256": "777f678732cac3a043f8d202b1445036ea813b5c0b87331463bb5229f5a6dc62",
+      "publicationDate": null,
+      "paperId": "source-205-funpresp-26-jud-009-01"
+    },
+    {
+      "id": "source-205-funpresp-26-jud-009-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Funpresp-Jud — Emprego 9 — Analista de TI — Ciência de Dados e Inovação — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_26_JUD/arquivos/E13E2B3833C356EA314B5FC41D3C8C9A8E4CEFC21FFC2E4420C69DB9843C7802.pdf",
+      "file": "sources/answer-keys/205_FUNPRESP_26_JUD_009_01-key.pdf",
+      "sha256": "addbf9ccaa9420cff7904dd7795292804b731041f982b37aeac5a180c8486803",
+      "publicationDate": null,
+      "paperId": "source-205-funpresp-26-jud-009-01"
+    },
+    {
+      "id": "source-205-funpresp-26-jud-005-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Funpresp-Jud — Emprego 5 — Analista — Comunicação Social — Publicidade e Propaganda",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_26_JUD/arquivos/C4A6B006AE90243DAC8E8FC725C598DFE1545DA10B31B9C85EABBC33A4F41E42.pdf",
+      "file": "sources/papers/205_FUNPRESP_26_JUD_005_01.pdf",
+      "sha256": "9c9dbd074669c17df13c3c42360ec893a503e0b68416140685d74f5b1b627b4e",
+      "publicationDate": null,
+      "paperId": "source-205-funpresp-26-jud-005-01"
+    },
+    {
+      "id": "source-205-funpresp-26-jud-005-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Funpresp-Jud — Emprego 5 — Analista — Comunicação Social — Publicidade e Propaganda — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_26_JUD/arquivos/AEE58581EE3C00C2BA0E78DC2C5C62365F48C3A9485BF3F2EEF602AB45F76737.pdf",
+      "file": "sources/answer-keys/205_FUNPRESP_26_JUD_005_01-key.pdf",
+      "sha256": "236f8a83111b80bce6a8d354278a2a1b5ad05fca44458dd5b3b87da671a8f89c",
+      "publicationDate": null,
+      "paperId": "source-205-funpresp-26-jud-005-01"
+    },
+    {
+      "id": "source-alerj-2026-comunicacao-manha-tipo1-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "ALERJ — Comunicação Social — manhã — tipo 1",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns106-especialista-legislativo-nivel-iv-comunicacao-social-cns106-tipo-1.pdf",
+      "file": "sources/papers/ALERJ-2026-Comunicacao-Manha-Tipo1.pdf",
+      "sha256": "a50ad97d853e1e1b309ed6c0b2f41269039259730c21d0acae36d2b9c97b2843",
+      "publicationDate": null,
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1"
+    },
+    {
+      "id": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "ALERJ — Comunicação Social — manhã — tipo 1 — gabarito definitivo",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/especialista-alerj-gabarito-definitivo.pdf",
+      "file": "sources/answer-keys/ALERJ-2026-Comunicacao-Manha-Tipo1-key.pdf",
+      "sha256": "4b9c907a58e2abfe40635839091f9f9f335b3d5e1ce57cbd165d54336f8e69d5",
+      "publicationDate": null,
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1"
+    },
+    {
+      "id": "reference-camara-communication-manual-2025-library",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Manual de Comunicação da Câmara — 2025 — Biblioteca Digital",
+      "issuer": "Câmara dos Deputados — Biblioteca Digital",
+      "status": "verified",
+      "officialUrl": "https://bd.camara.leg.br/bd/handle/bdcamara/57184",
+      "file": "sources/references/camara-manual-comunicacao-library.html",
+      "sha256": "105a752649acfa288e1fba9d70eb24857731c41b369dccb736a1612da0fb7335",
+      "publicationDate": null,
+      "paperId": null
     }
   ],
   "papers": [
@@ -3984,6 +4179,187 @@
         "questionType": "true_false",
         "answerKeyDocumentId": "source-038-anm-005-01-key",
         "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-153-telebras-cb1-01",
+      "bankId": "concursos",
+      "title": "Telecomunicações Brasileiras S.A. — Conhecimentos básicos — todos os cargos",
+      "provider": "Cebraspe",
+      "institution": "Telecomunicações Brasileiras S.A.",
+      "role": "Conhecimentos básicos — todos os cargos",
+      "year": 2026,
+      "booklet": "153_TELEBRAS_CB1_01",
+      "documentId": "source-153-telebras-cb1-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2026-02-08",
+        "block": "basic",
+        "firstItem": 1,
+        "lastItem": 50,
+        "itemCount": 50,
+        "annulledItems": [
+          24
+        ],
+        "questionType": "true_false",
+        "answerKeyDocumentId": "source-153-telebras-cb1-01-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-153-telebras-008-01",
+      "bankId": "concursos",
+      "title": "Telecomunicações Brasileiras S.A. — Cargo 8 — Especialista em Gestão de Telecomunicações — Marketing",
+      "provider": "Cebraspe",
+      "institution": "Telecomunicações Brasileiras S.A.",
+      "role": "Cargo 8 — Especialista em Gestão de Telecomunicações — Marketing",
+      "year": 2026,
+      "booklet": "153_TELEBRAS_008_01",
+      "documentId": "source-153-telebras-008-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2026-02-08",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "annulledItems": [],
+        "questionType": "true_false",
+        "answerKeyDocumentId": "source-153-telebras-008-01-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-153-telebras-003-01",
+      "bankId": "concursos",
+      "title": "Telecomunicações Brasileiras S.A. — Cargo 3 — Especialista em Gestão de Telecomunicações — Administrativo",
+      "provider": "Cebraspe",
+      "institution": "Telecomunicações Brasileiras S.A.",
+      "role": "Cargo 3 — Especialista em Gestão de Telecomunicações — Administrativo",
+      "year": 2026,
+      "booklet": "153_TELEBRAS_003_01",
+      "documentId": "source-153-telebras-003-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2026-02-08",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "annulledItems": [],
+        "questionType": "true_false",
+        "answerKeyDocumentId": "source-153-telebras-003-01-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-072-stm-002-01",
+      "bankId": "concursos",
+      "title": "Superior Tribunal Militar — Cargo 2 — Analista Judiciário — Administração",
+      "provider": "Cebraspe",
+      "institution": "Superior Tribunal Militar",
+      "role": "Cargo 2 — Analista Judiciário — Administração",
+      "year": 2025,
+      "booklet": "072_STM_002_01",
+      "documentId": "source-072-stm-002-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-06-01",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "annulledItems": [
+          54,
+          101,
+          102,
+          114,
+          120
+        ],
+        "questionType": "true_false",
+        "answerKeyDocumentId": "source-072-stm-002-01-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-205-funpresp-26-jud-009-01",
+      "bankId": "concursos",
+      "title": "Funpresp-Jud — Emprego 9 — Analista de TI — Ciência de Dados e Inovação",
+      "provider": "Cebraspe",
+      "institution": "Funpresp-Jud",
+      "role": "Emprego 9 — Analista de TI — Ciência de Dados e Inovação",
+      "year": 2026,
+      "booklet": "205_FUNPRESP_26_JUD_009_01",
+      "documentId": "source-205-funpresp-26-jud-009-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2026-07-05",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "annulledItems": [],
+        "questionType": "true_false",
+        "answerKeyDocumentId": "source-205-funpresp-26-jud-009-01-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-205-funpresp-26-jud-005-01",
+      "bankId": "concursos",
+      "title": "Funpresp-Jud — Emprego 5 — Analista — Comunicação Social — Publicidade e Propaganda",
+      "provider": "Cebraspe",
+      "institution": "Funpresp-Jud",
+      "role": "Emprego 5 — Analista — Comunicação Social — Publicidade e Propaganda",
+      "year": 2026,
+      "booklet": "205_FUNPRESP_26_JUD_005_01",
+      "documentId": "source-205-funpresp-26-jud-005-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2026-07-05",
+        "block": "specific",
+        "firstItem": 51,
+        "lastItem": 120,
+        "itemCount": 70,
+        "annulledItems": [
+          51,
+          97
+        ],
+        "questionType": "true_false",
+        "answerKeyDocumentId": "source-205-funpresp-26-jud-005-01-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-alerj-2026-comunicacao-manha-tipo1",
+      "bankId": "concursos",
+      "title": "ALERJ — Comunicação Social — manhã — tipo 1",
+      "provider": "FGV",
+      "institution": "Assembleia Legislativa do Estado do Rio de Janeiro",
+      "role": "Especialista Legislativo — Nível IV — Comunicação Social",
+      "year": 2026,
+      "booklet": "Especialista Legislativo - Nível IV - Comunicação Social - 1 - Turno Manhã",
+      "documentId": "source-alerj-2026-comunicacao-manha-tipo1-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2026-02-08",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 80,
+        "itemCount": 80,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          19
+        ],
+        "answerKeyDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+        "pairingStatus": "matched_by_role_type_and_session",
         "externalVerification": true
       }
     }
@@ -14540,6 +14916,1040 @@
         "temporalNote": "Conferência limitada aos conceitos e dispositivos citados em 27/10/2026; a compilação do Regimento Comum é a edição de 2025 atualizada até julho de 2025. Enunciado e gabarito históricos preservados.",
         "decisionReference": "documentation/fifteenth-batch-release.md"
       }
+    },
+    {
+      "id": "153-telebras-cb1-01-q008",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "De acordo com as regras ortográficas vigentes, os vocábulos “pós-humano” e “anti-humano” podem ser corretamente grafados como duas palavras — pós humano e anti humano —, dada a autonomia dos prefixos e do vocábulo “humano”.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-information-passage",
+        "telebras-2026-information-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-cb1-01",
+        "number": 8,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "153-telebras-cb1-01-q008-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-cb1-01-q013",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Os vocábulos “experiência”, “usuário”, “conteúdo” e “audiência” são acentuados de acordo com a mesma regra de acentuação gráfica.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-streaming-passage",
+        "telebras-2026-streaming-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-cb1-01",
+        "number": 13,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "153-telebras-cb1-01-q013-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-008-01-q053",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Profissionais de marketing segmentam os consumidores analisando suas diferenças demográficas, psicográficas e comportamentais.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-marketing-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-008-01",
+        "number": 53,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "153-telebras-008-01-q053-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-008-01-q061",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Identificar e tornar reconhecida uma marca, transmitir posicionamento e apoiar estratégias de branding são algumas das funções do naming.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-branding-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-008-01",
+        "number": 61,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "153-telebras-008-01-q061-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-008-01-q062",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Branding interno é uma estratégia de mercado que destaca e promove um componente de um produto como uma marca em si, contribuindo para a diferenciação e o valor percebido da organização.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-branding-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-008-01",
+        "number": 62,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "153-telebras-008-01-q062-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-008-01-q095",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O planejamento de comunicação integrada deve priorizar estratégias digitais em detrimento do uso de mídias tradicionais, evitando a segmentação de públicos.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-digital-planning-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-008-01",
+        "number": 95,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "153-telebras-008-01-q095-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-008-01-q099",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O planejamento de comunicação digital deve ser concebido como um processo iterativo e flexível, por isso o monitoramento e a análise de métricas devem ocorrer de forma contínua, não se limitando ao final da execução do projeto.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-digital-planning-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-008-01",
+        "number": 99,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "153-telebras-008-01-q099-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-008-01-q101",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Plataformas de colaboração online ampliam a participação dos usuários ao permitir a produção coletiva de conteúdos, favorecendo a verticalidade nos processos comunicacionais.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-digital-planning-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-008-01",
+        "number": 101,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "153-telebras-008-01-q101-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-008-01-q105",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Wikis, blogs e podcasts favorecem a interação e a construção colaborativa de conteúdos, devendo sua linguagem ser clara e adequada ao perfil dos usuários, para favorecer o engajamento.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-web-writing-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-008-01",
+        "number": 105,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "153-telebras-008-01-q105-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-008-01-q106",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Diferentemente da redação para meios impressos, a redação para a Internet prescinde de técnicas de edição linear, de modo que, em portais de notícias e redes sociais, a estrutura de pirâmide invertida torna-se obsoleta.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-web-writing-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-008-01",
+        "number": 106,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "153-telebras-008-01-q106-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-003-01-q070",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O poder de polícia é aquele que possibilita à administração pública apurar infrações e aplicar penalidades aos servidores públicos e demais pessoas sujeitas à disciplina administrativa.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-administrative-powers-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-003-01",
+        "number": 70,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "153-telebras-003-01-q070-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "153-telebras-003-01-q076",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No contexto da governança pública, a entrega de resultados e a geração de valor público devem ser buscadas de forma indissociável da conformidade, exigindo-se que as decisões estratégicas dos agentes públicos sejam pautadas pela legitimidade ética e pelo cumprimento do ordenamento jurídico.",
+      "options": [],
+      "contextIds": [
+        "telebras-2026-governance-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-153-telebras-003-01",
+        "number": 76,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "153-telebras-003-01-q076-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "072-stm-002-01-q052",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O papel das lideranças no setor público é inerente à gestão das atividades dos servidores públicos, eximindo-as dos aspectos de qualidade da governança em relação aos objetivos organizacionais.",
+      "options": [],
+      "contextIds": [
+        "stm-2025-public-management-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-072-stm-002-01",
+        "number": 52,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "072-stm-002-01-q052-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "072-stm-002-01-q078",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As instâncias de governança acompanham a execução das políticas e projetos, avaliando os resultados alcançados e a eficácia das ações implementadas.",
+      "options": [],
+      "contextIds": [
+        "stm-2025-risk-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-072-stm-002-01",
+        "number": 78,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "072-stm-002-01-q078-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "072-stm-002-01-q084",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A boa governança pode ser alcançada independentemente da implementação de mecanismos de avaliação, monitoramento e segregação de funções, desde que haja uma estrutura organizacional formal.",
+      "options": [],
+      "contextIds": [
+        "stm-2025-governance-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-072-stm-002-01",
+        "number": 84,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "072-stm-002-01-q084-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "205-funpresp-26-jud-009-01-q071",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Na primeira camada descrita, a operacionalização dos painéis em ferramentas como Power BI e Tableau permite integrar as informações do data warehouse central a múltiplas fontes de dados externas.",
+      "options": [],
+      "contextIds": [
+        "funpresp-2026-bi-architecture-passage",
+        "funpresp-2026-bi-architecture-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-205-funpresp-26-jud-009-01",
+        "number": 71,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "205-funpresp-26-jud-009-01-q071-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "205-funpresp-26-jud-009-01-q077",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No contexto do marketing em mídias digitais, a adoção de estratégias de segmentação que priorizam nichos específicos de audiência, em detrimento de abordagens massificadas, constitui uma técnica eficaz para direcionar ações e otimizar o engajamento do público-alvo.",
+      "options": [],
+      "contextIds": [
+        "funpresp-2026-data-communication-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-205-funpresp-26-jud-009-01",
+        "number": 77,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "205-funpresp-26-jud-009-01-q077-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "205-funpresp-26-jud-009-01-q081",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Nas estratégias de comunicação corporativa, a aplicação técnica do storytelling pressupõe a substituição da exibição exaustiva e neutra de painéis quantitativos em favor de uma narrativa analítica estruturada.",
+      "options": [],
+      "contextIds": [
+        "funpresp-2026-data-communication-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-205-funpresp-26-jud-009-01",
+        "number": 81,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "205-funpresp-26-jud-009-01-q081-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q053",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O briefing publicitário é uma etapa dispensável no processo de planejamento de comunicação, se já tiver havido campanhas anteriores feitas pela agência para o mesmo cliente.",
+      "options": [],
+      "contextIds": [
+        "funpresp-2026-advertising-planning-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-205-funpresp-26-jud-005-01",
+        "number": 53,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "205-funpresp-26-jud-005-01-q053-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q060",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O planejamento de mídia deve ser elaborado de forma integrada ao planejamento de comunicação, pois a escolha dos canais de veiculação deve ser orientada pelo perfil do público-alvo e pelos objetivos da campanha.",
+      "options": [],
+      "contextIds": [
+        "funpresp-2026-advertising-media-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-205-funpresp-26-jud-005-01",
+        "number": 60,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "205-funpresp-26-jud-005-01-q060-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q076",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Na redação publicitária para o ambiente digital, o copywriting de resposta direta e o copywriting de branding são estratégias equivalentes, pois, neles, os mesmos gatilhos psicológicos de urgência, escassez e prova social são utilizados para construir a percepção de valor da marca e simultaneamente induzir o consumidor a uma ação imediata e mensurável.",
+      "options": [],
+      "contextIds": [
+        "funpresp-2026-copywriting-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-205-funpresp-26-jud-005-01",
+        "number": 76,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "205-funpresp-26-jud-005-01-q076-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q082",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Recomenda-se o uso de redes sociais pela comunicação pública, desde que as mensagens sejam adaptadas à linguagem utilizada em cada plataforma e aos públicos ao quais se destinam.",
+      "options": [],
+      "contextIds": [
+        "funpresp-2026-public-communication-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-205-funpresp-26-jud-005-01",
+        "number": 82,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "205-funpresp-26-jud-005-01-q082-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q108",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Segmentação e posicionamento de mercado são elementos centrais do marketing estratégico, pois permitem que as organizações selecionem os segmentos mais atrativos, compreendam as necessidades dos consumidores e definam uma proposta de valor diferenciada.",
+      "options": [],
+      "contextIds": [
+        "funpresp-2026-strategic-marketing-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-205-funpresp-26-jud-005-01",
+        "number": 108,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "205-funpresp-26-jud-005-01-q108-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "959-bcb-cb1-01-q019",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A substituição da expressão “deixados para trás” (primeiro período do terceiro parágrafo) pelo vocábulo negligenciados não prejudicaria a correção gramatical nem a coerência das ideias do texto.",
+      "options": [],
+      "contextIds": [
+        "bcb-2024-unesco-passage",
+        "bcb-2024-unesco-grammar-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-959-bcb-cb1-01",
+        "number": 19,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "959-bcb-cb1-01-q019-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "959-bcb-cb1-01-q021",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No primeiro período do segundo parágrafo, a expressão “mas também” caracteriza-se como elemento de conexão entre orações no qual a conjunção “mas” expressa sentido aditivo.",
+      "options": [],
+      "contextIds": [
+        "bcb-2024-unesco-passage",
+        "bcb-2024-unesco-grammar-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-959-bcb-cb1-01",
+        "number": 21,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "959-bcb-cb1-01-q021-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q131",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Nos sistemas mistos, o presidente é eleito, mas o Poder Executivo sujeita-se à confiança do Poder Legislativo. Ainda assim, os sistemas mistos estão, na maioria das vezes, muito mais próximos do presidencialismo que do parlamentarismo.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-government-systems-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 131,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "camara-2014-area-xix-q131-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q165",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No Brasil, durante o Império, a dispersão da população e a dificuldade no estabelecimento de um controle político direto sobre o território foram aspectos mandatórios para que o governo central estabelecesse pactos informais com os poderes regionais.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-brazil-state-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 165,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "camara-2014-area-xix-q165-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "camara-2014-area-xix-q196",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Em 1881, no Brasil, uma nova legislação eleitoral marcou o fim da eleição em dois turnos no Império e vedou o direito de voto aos analfabetos, tendo garantido tal direito aos libertos.",
+      "options": [],
+      "contextIds": [
+        "camara-2014-citizenship-passage",
+        "camara-2014-citizenship-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-camara-2014-consultor-area-xix",
+        "number": 196,
+        "locator": "PDF p. 6"
+      },
+      "answerKeyId": "camara-2014-area-xix-q196-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_excerpt",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q079",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A destituição de cargo em comissão em razão de falta grave praticada no exercício das atribuições do cargo exige a instauração de processo administrativo disciplinar somente quando o cargo é ocupado por servidor efetivo.",
+      "options": [],
+      "contextIds": [
+        "tcu-2026-disciplinary-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-142-tcuaufc-cb1-01",
+        "number": 79,
+        "locator": "PDF p. 5"
+      },
+      "answerKeyId": "142-tcuaufc-cb1-01-q079-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q080",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "É permitido ao servidor público participar do conselho de administração e fiscal em sociedade cooperativa prestadora de serviços a seus membros.",
+      "options": [],
+      "contextIds": [
+        "tcu-2026-disciplinary-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-142-tcuaufc-cb1-01",
+        "number": 80,
+        "locator": "PDF p. 5"
+      },
+      "answerKeyId": "142-tcuaufc-cb1-01-q080-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q081",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "É obrigatória a instauração de processo disciplinar quando ilícito praticado por servidor público ensejar a imposição da penalidade de suspensão por período superior a trinta dias.",
+      "options": [],
+      "contextIds": [
+        "tcu-2026-disciplinary-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-142-tcuaufc-cb1-01",
+        "number": 81,
+        "locator": "PDF p. 5"
+      },
+      "answerKeyId": "142-tcuaufc-cb1-01-q081-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Enunciado e chave originais preservados; comentário editorial e vínculo parcial ao tema, sem supor norma interna da Câmara. Referências conferidas no escopo registrado para este lote.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q063",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "O Manual de Comunicação da Câmara dos Deputados ressalta o compromisso da comunicação pública com o uso de linguagem simples para ajudar a “tornar assuntos complicados mais fáceis de entender,” o que, segundo a publicação, “aproxima o Parlamento das pessoas e incentiva maior participação da sociedade nas decisões políticas.”\n\nEsse tipo de linguagem estaria corretamente usada em",
+      "options": [
+        {
+          "id": "a",
+          "text": "O Plenário aprovou requerimento de quebra de interstício de cinco sessões."
+        },
+        {
+          "id": "b",
+          "text": "A Comissão aprovou parecer pela constitucionalidade e juridicidade da proposta."
+        },
+        {
+          "id": "c",
+          "text": "A CPI realizará a oitiva de testemunhas nesta sexta-feira."
+        },
+        {
+          "id": "d",
+          "text": "Enquanto a medida provisória não for votada, o Plenário não pode deliberar sobre determinadas propostas."
+        },
+        {
+          "id": "e",
+          "text": "A Comissão aprovou parecer pela não implicação financeira e orçamentária da proposta."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+        "number": 63,
+        "locator": "PDF p. 15"
+      },
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q063-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Manual citado no enunciado comparado com a edição de 2025 consultada localmente. Livros completos não republicados; a referência canônica retém a página de identificação da Biblioteca Digital.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q070",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Leia o fragmento a seguir.\n\nA atuação da Assessoria de Imprensa visa facilitar e agilizar o trabalho de apuração dos _____, os quais também podem solicitar demandas pelo(a) _____, porém com prazo legal maior para recebimento da resposta.\n\nA Assessoria de Imprensa atende diretamente aos _____, o que beneficia indiretamente _____, que tem acesso às notícias e reportagens sobre o Poder Legislativo produzidas pelos diversos grupos de comunicação do país. As diretrizes que norteiam o trabalho dos assessores de imprensa são transparência, atendimento igualitário a todos os veículos e confiabilidade e correção das respostas fornecidas. Tais diretrizes melhoram a qualidade das informações sobre a Câmara que são publicadas na imprensa e promovem maior interesse da população pelo processo democrático. Na redação das respostas, busca-se adotar os princípios da linguagem _____. Os termos técnicos são explicados de forma clara, precisa e concisa. São _____ adjetivos, opiniões e interpretações de normas e leis.\n\n(Manual de Comunicação da Câmara dos Deputados, 2025.)\n\nAssinale a opção que apresenta os termos que completam corretamente as lacunas do fragmento acima.",
+      "options": [
+        {
+          "id": "a",
+          "text": "cidadãos – Serviço de Informação ao Cidadão – requerentes – o eleitor – neutra – obrigatórios"
+        },
+        {
+          "id": "b",
+          "text": "produtores de conteúdo – portal da Câmara dos Deputados – interagentes – os internautas – laudatória – priorizados"
+        },
+        {
+          "id": "c",
+          "text": "assessores parlamentares – LAI – colaboradores – os deputados – publicitária – proibidos"
+        },
+        {
+          "id": "d",
+          "text": "jornalistas – LGPD – repórteres – os líderes das bancadas – fácil – ressaltados"
+        },
+        {
+          "id": "e",
+          "text": "repórteres – Lei de Acesso à Informação – jornalistas – o cidadão – simples – evitados"
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+        "number": 70,
+        "locator": "PDF p. 16"
+      },
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q070-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Manual citado no enunciado comparado com a edição de 2025 consultada localmente. Livros completos não republicados; a referência canônica retém a página de identificação da Biblioteca Digital.",
+        "decisionReference": "documentation/sixteenth-batch-release.md"
+      }
     }
   ],
   "answerKeys": [
@@ -18949,6 +20359,435 @@
       "locator": "PDF p. 1",
       "result": "valid",
       "value": true
+    },
+    {
+      "id": "153-telebras-cb1-01-q008-key-v1",
+      "questionId": "153-telebras-cb1-01-q008",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "153-telebras-cb1-01-q013-key-v1",
+      "questionId": "153-telebras-cb1-01-q013",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "153-telebras-008-01-q053-key-v1",
+      "questionId": "153-telebras-008-01-q053",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "153-telebras-008-01-q061-key-v1",
+      "questionId": "153-telebras-008-01-q061",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "153-telebras-008-01-q062-key-v1",
+      "questionId": "153-telebras-008-01-q062",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "153-telebras-008-01-q095-key-v1",
+      "questionId": "153-telebras-008-01-q095",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "153-telebras-008-01-q099-key-v1",
+      "questionId": "153-telebras-008-01-q099",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "153-telebras-008-01-q101-key-v1",
+      "questionId": "153-telebras-008-01-q101",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "153-telebras-008-01-q105-key-v1",
+      "questionId": "153-telebras-008-01-q105",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "153-telebras-008-01-q106-key-v1",
+      "questionId": "153-telebras-008-01-q106",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-008-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "153-telebras-003-01-q070-key-v1",
+      "questionId": "153-telebras-003-01-q070",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-003-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "153-telebras-003-01-q076-key-v1",
+      "questionId": "153-telebras-003-01-q076",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-153-telebras-003-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "072-stm-002-01-q052-key-v1",
+      "questionId": "072-stm-002-01-q052",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-072-stm-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "072-stm-002-01-q078-key-v1",
+      "questionId": "072-stm-002-01-q078",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-072-stm-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "072-stm-002-01-q084-key-v1",
+      "questionId": "072-stm-002-01-q084",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-072-stm-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "205-funpresp-26-jud-009-01-q071-key-v1",
+      "questionId": "205-funpresp-26-jud-009-01-q071",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-205-funpresp-26-jud-009-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "205-funpresp-26-jud-009-01-q077-key-v1",
+      "questionId": "205-funpresp-26-jud-009-01-q077",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-205-funpresp-26-jud-009-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "205-funpresp-26-jud-009-01-q081-key-v1",
+      "questionId": "205-funpresp-26-jud-009-01-q081",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-205-funpresp-26-jud-009-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q053-key-v1",
+      "questionId": "205-funpresp-26-jud-005-01-q053",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-205-funpresp-26-jud-005-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q060-key-v1",
+      "questionId": "205-funpresp-26-jud-005-01-q060",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-205-funpresp-26-jud-005-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q076-key-v1",
+      "questionId": "205-funpresp-26-jud-005-01-q076",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-205-funpresp-26-jud-005-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q082-key-v1",
+      "questionId": "205-funpresp-26-jud-005-01-q082",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-205-funpresp-26-jud-005-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q108-key-v1",
+      "questionId": "205-funpresp-26-jud-005-01-q108",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-205-funpresp-26-jud-005-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "959-bcb-cb1-01-q019-key-v1",
+      "questionId": "959-bcb-cb1-01-q019",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-959-bcb-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "959-bcb-cb1-01-q021-key-v1",
+      "questionId": "959-bcb-cb1-01-q021",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-959-bcb-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-area-xix-q131-key-v1",
+      "questionId": "camara-2014-area-xix-q131",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "camara-2014-area-xix-q165-key-v1",
+      "questionId": "camara-2014-area-xix-q165",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "camara-2014-area-xix-q196-key-v1",
+      "questionId": "camara-2014-area-xix-q196",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q079-key-v1",
+      "questionId": "142-tcuaufc-cb1-01-q079",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-142-tcuaufc-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q080-key-v1",
+      "questionId": "142-tcuaufc-cb1-01-q080",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-142-tcuaufc-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q081-key-v1",
+      "questionId": "142-tcuaufc-cb1-01-q081",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-142-tcuaufc-cb1-01-key",
+      "author": null,
+      "locator": "PDF p. 1",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q063-key-v1",
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q063",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 11 — Comunicação Social, tipo 1, manhã",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q070-key-v1",
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q070",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 11 — Comunicação Social, tipo 1, manhã",
+      "result": "valid",
+      "value": "e"
     }
   ],
   "explanations": [
@@ -24982,6 +26821,607 @@
           "locator": "Art. 6º, XX; conceito de ETP"
         }
       ]
+    },
+    {
+      "id": "153-telebras-cb1-01-q008-comment-v1",
+      "questionId": "153-telebras-cb1-01-q008",
+      "text": "As grafias são “pós-humano” e “anti-humano”, com hífen. A autonomia dos elementos não permite transformá-los livremente em duas palavras separadas por espaço. O item contraria a grafia ortográfica dos vocábulos, sem alterar o sentido histórico do texto de apoio.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-cb1-01-paper",
+          "locator": "PDF p. 1, item 8"
+        },
+        {
+          "documentId": "source-153-telebras-cb1-01-key",
+          "locator": "PDF p. 1, item 8"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-cb1-01-q013-comment-v1",
+      "questionId": "153-telebras-cb1-01-q013",
+      "text": "“Experiência”, “usuário” e “audiência” seguem a regra das paroxítonas terminadas em ditongo, na análise tradicional usada em concursos. Em “conteúdo”, o acento marca o “u” tônico em hiato com a vogal anterior. Portanto, não é a mesma regra para todos os vocábulos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-cb1-01-paper",
+          "locator": "PDF p. 1, item 13"
+        },
+        {
+          "documentId": "source-153-telebras-cb1-01-key",
+          "locator": "PDF p. 1, item 13"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-008-01-q053-comment-v1",
+      "questionId": "153-telebras-008-01-q053",
+      "text": "A segmentação pode considerar características demográficas, estilos e valores de vida e padrões de comportamento. Ela ajuda a distinguir grupos de consumidores e a orientar decisões do planejamento de marketing. Uma categoria isolada não descreve integralmente todas as pessoas de um segmento.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-008-01-paper",
+          "locator": "PDF p. 1, item 53"
+        },
+        {
+          "documentId": "source-153-telebras-008-01-key",
+          "locator": "PDF p. 1, item 53"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-008-01-q061-comment-v1",
+      "questionId": "153-telebras-008-01-q061",
+      "text": "Naming é o trabalho de criação e escolha de nomes que identifiquem e diferenciem a marca, de modo coerente com seu posicionamento. Ele integra estratégias de branding, mas o nome sozinho não determina toda a imagem ou reputação da organização. O vínculo é com branding, sem usar este item como uma definição completa de marca.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-008-01-paper",
+          "locator": "PDF p. 1, item 61"
+        },
+        {
+          "documentId": "source-153-telebras-008-01-key",
+          "locator": "PDF p. 1, item 61"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-008-01-q062-comment-v1",
+      "questionId": "153-telebras-008-01-q062",
+      "text": "Destacar um componente como marca corresponde ao ingredient branding. Branding interno trabalha a compreensão e a vivência da marca pelo público interno da organização. O item confunde essas duas estratégias; uma marca de componente não se torna branding interno por estar dentro de um produto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-008-01-paper",
+          "locator": "PDF p. 1, item 62"
+        },
+        {
+          "documentId": "source-153-telebras-008-01-key",
+          "locator": "PDF p. 1, item 62"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-008-01-q095-comment-v1",
+      "questionId": "153-telebras-008-01-q095",
+      "text": "Planejamento integrado combina meios e ações de acordo com objetivos, públicos, acesso e recursos. Ele não exige priorizar sempre o digital nem evitar a segmentação. A escolha de mídias precisa ser justificada pelo contexto, inclusive quando meios presenciais ou tradicionais forem necessários.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-008-01-paper",
+          "locator": "PDF p. 3, item 95"
+        },
+        {
+          "documentId": "source-153-telebras-008-01-key",
+          "locator": "PDF p. 1, item 95"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-008-01-q099-comment-v1",
+      "questionId": "153-telebras-008-01-q099",
+      "text": "O acompanhamento de métricas durante a execução permite corrigir rumos e aprender com os resultados. O planejamento digital pode ser iterativo e flexível; deixar toda a análise apenas para o encerramento reduz a capacidade de ajuste. A flexibilidade não dispensa objetivos e critérios prévios de avaliação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-008-01-paper",
+          "locator": "PDF p. 3, item 99"
+        },
+        {
+          "documentId": "source-153-telebras-008-01-key",
+          "locator": "PDF p. 1, item 99"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-008-01-q101-comment-v1",
+      "questionId": "153-telebras-008-01-q101",
+      "text": "Produção coletiva e participação ampliada tendem a abrir fluxos de contribuição e interação. O erro está em concluir que isso favorece a verticalidade, isto é, a concentração unilateral do processo. Disponibilizar uma plataforma, por si só, também não garante participação equilibrada; são necessárias condições de colaboração.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-008-01-paper",
+          "locator": "PDF p. 3, item 101"
+        },
+        {
+          "documentId": "source-153-telebras-008-01-key",
+          "locator": "PDF p. 1, item 101"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-008-01-q105-comment-v1",
+      "questionId": "153-telebras-008-01-q105",
+      "text": "Esses formatos podem apoiar interação e construção compartilhada de conteúdos, conforme os recursos adotados. Clareza e adequação ao público favorecem a participação. Isso não significa que todo podcast ou blog ofereça edição coletiva: as possibilidades concretas dependem do desenho do canal e de sua abertura aos usuários.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-008-01-paper",
+          "locator": "PDF p. 3, item 105"
+        },
+        {
+          "documentId": "source-153-telebras-008-01-key",
+          "locator": "PDF p. 1, item 105"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-008-01-q106-comment-v1",
+      "questionId": "153-telebras-008-01-q106",
+      "text": "A escrita para a Internet amplia os recursos de navegação e de organização, mas não torna a pirâmide invertida obsoleta nem dispensa edição. Apresentar primeiro a informação central continua útil em muitos conteúdos jornalísticos. A adequação depende do objetivo e do gênero, sem imposição de uma estrutura única.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-008-01-paper",
+          "locator": "PDF p. 3, item 106"
+        },
+        {
+          "documentId": "source-153-telebras-008-01-key",
+          "locator": "PDF p. 1, item 106"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-003-01-q070-comment-v1",
+      "questionId": "153-telebras-003-01-q070",
+      "text": "Apurar infrações e aplicar sanções a servidores e a pessoas ligadas por vínculo específico à disciplina administrativa corresponde ao poder disciplinar. O poder de polícia limita direitos e atividades dos particulares em favor do interesse público. O item atribui a este último a definição do primeiro.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-003-01-paper",
+          "locator": "PDF p. 1, item 70"
+        },
+        {
+          "documentId": "source-153-telebras-003-01-key",
+          "locator": "PDF p. 1, item 70"
+        }
+      ]
+    },
+    {
+      "id": "153-telebras-003-01-q076-comment-v1",
+      "questionId": "153-telebras-003-01-q076",
+      "text": "Produzir resultados e valor para a sociedade não autoriza afastar a legalidade ou a legitimidade ética. O valor público considera a utilidade das respostas às necessidades coletivas, dentro das exigências aplicáveis à atuação estatal. O Decreto nº 9.203/2017 oferece uma referência conceitual federal; não é apresentado como norma interna da Telebras ou da Câmara.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-153-telebras-003-01-paper",
+          "locator": "PDF p. 1, item 76"
+        },
+        {
+          "documentId": "source-153-telebras-003-01-key",
+          "locator": "PDF p. 1, item 76"
+        },
+        {
+          "documentId": "reference-constitution-1988",
+          "locator": "Art. 37, caput"
+        },
+        {
+          "documentId": "reference-decreto-9203-2017",
+          "locator": "Art. 2º, II; conceito de valor público"
+        }
+      ]
+    },
+    {
+      "id": "072-stm-002-01-q052-comment-v1",
+      "questionId": "072-stm-002-01-q052",
+      "text": "Lideranças também respondem pela orientação institucional e pela qualidade da governança; sua atuação não se limita a gerir tarefas dos servidores. O Decreto nº 9.203/2017 descreve a liderança entre os mecanismos de governança. Ele é usado como referência conceitual, sem pressupor sua aplicação automática como norma interna do STM.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-072-stm-002-01-paper",
+          "locator": "PDF p. 1, item 52"
+        },
+        {
+          "documentId": "source-072-stm-002-01-key",
+          "locator": "PDF p. 1, item 52"
+        },
+        {
+          "documentId": "reference-decreto-9203-2017",
+          "locator": "Art. 5º, I; liderança como mecanismo de governança"
+        }
+      ]
+    },
+    {
+      "id": "072-stm-002-01-q078-comment-v1",
+      "questionId": "072-stm-002-01-q078",
+      "text": "Acompanhar execução e avaliar resultados e eficácia permite verificar se a atuação institucional segue os objetivos definidos e se precisa de ajustes. Isso integra o monitoramento de governança, que não se resume a desenhar a estrutura formal. O Decreto nº 9.203/2017 é uma referência conceitual federal, sem atribuir ao STM uma regra interna não citada na prova.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-072-stm-002-01-paper",
+          "locator": "PDF p. 2, item 78"
+        },
+        {
+          "documentId": "source-072-stm-002-01-key",
+          "locator": "PDF p. 1, item 78"
+        },
+        {
+          "documentId": "reference-decreto-9203-2017",
+          "locator": "Art. 2º, I; avaliação, direcionamento e monitoramento"
+        }
+      ]
+    },
+    {
+      "id": "072-stm-002-01-q084-comment-v1",
+      "questionId": "072-stm-002-01-q084",
+      "text": "Uma estrutura no organograma não garante boa governança. Avaliação, monitoramento, controles e segregação de funções ajudam a reduzir conflitos, riscos e falhas. O item erra ao dispensar esses mecanismos. A referência ao Decreto nº 9.203/2017 é conceitual e não estabelece aplicação automática de todas as suas regras ao STM.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-072-stm-002-01-paper",
+          "locator": "PDF p. 2, item 84"
+        },
+        {
+          "documentId": "source-072-stm-002-01-key",
+          "locator": "PDF p. 1, item 84"
+        },
+        {
+          "documentId": "reference-decreto-9203-2017",
+          "locator": "Art. 5º, caput e III; mecanismos de governança e controle"
+        }
+      ]
+    },
+    {
+      "id": "205-funpresp-26-jud-009-01-q071-comment-v1",
+      "questionId": "205-funpresp-26-jud-009-01-q071",
+      "text": "Painéis de BI podem combinar informações do armazém central com outras fontes por conexões e modelos adequados. Power BI e Tableau oferecem recursos para essa integração. Isso não torna dispensáveis a qualidade, a compatibilidade, as permissões e a atualização dos dados; o item afirma a possibilidade na arquitetura apresentada.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-205-funpresp-26-jud-009-01-paper",
+          "locator": "PDF p. 1, item 71"
+        },
+        {
+          "documentId": "source-205-funpresp-26-jud-009-01-key",
+          "locator": "PDF p. 1, item 71"
+        }
+      ]
+    },
+    {
+      "id": "205-funpresp-26-jud-009-01-q077-comment-v1",
+      "questionId": "205-funpresp-26-jud-009-01-q077",
+      "text": "Escolher nichos permite adequar mensagem, canal e ação a grupos com necessidades e interesses específicos. Isso pode melhorar o direcionamento e o engajamento, sem garantir que toda segmentação seja eficiente ou que estratégias de alcance amplo sejam sempre inadequadas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-205-funpresp-26-jud-009-01-paper",
+          "locator": "PDF p. 2, item 77"
+        },
+        {
+          "documentId": "source-205-funpresp-26-jud-009-01-key",
+          "locator": "PDF p. 1, item 77"
+        }
+      ]
+    },
+    {
+      "id": "205-funpresp-26-jud-009-01-q081-comment-v1",
+      "questionId": "205-funpresp-26-jud-009-01-q081",
+      "text": "Storytelling de dados organiza evidências em uma narrativa que explica contexto, relações e implicações para o público. Substituir a exibição exaustiva de painéis por uma narrativa estruturada não significa suprimir dados relevantes, abandonar gráficos ou distorcer resultados. A síntese deve permitir compreensão e manter a verificabilidade das evidências.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-205-funpresp-26-jud-009-01-paper",
+          "locator": "PDF p. 2, item 81"
+        },
+        {
+          "documentId": "source-205-funpresp-26-jud-009-01-key",
+          "locator": "PDF p. 1, item 81"
+        }
+      ]
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q053-comment-v1",
+      "questionId": "205-funpresp-26-jud-005-01-q053",
+      "text": "Campanhas anteriores não dispensam verificar objetivos, públicos, restrições, contexto e entregas da nova ação. O briefing registra e alinha essas necessidades entre cliente e agência. Reaproveitar conhecimento é útil, mas não substitui a atualização das informações de planejamento.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-205-funpresp-26-jud-005-01-paper",
+          "locator": "PDF p. 1, item 53"
+        },
+        {
+          "documentId": "source-205-funpresp-26-jud-005-01-key",
+          "locator": "PDF p. 1, item 53"
+        }
+      ]
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q060-comment-v1",
+      "questionId": "205-funpresp-26-jud-005-01-q060",
+      "text": "A seleção dos canais deve considerar quem se pretende alcançar e o que a campanha busca realizar. Planejamento de mídia e planejamento de comunicação precisam ser articulados, em vez de decidir veículos apenas por disponibilidade, preferência ou repetição de campanhas passadas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-205-funpresp-26-jud-005-01-paper",
+          "locator": "PDF p. 1, item 60"
+        },
+        {
+          "documentId": "source-205-funpresp-26-jud-005-01-key",
+          "locator": "PDF p. 1, item 60"
+        }
+      ]
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q076-comment-v1",
+      "questionId": "205-funpresp-26-jud-005-01-q076",
+      "text": "Resposta direta busca uma ação imediata mensurável; branding trabalha a construção de identidade e valor de marca, frequentemente com horizonte mais longo. As estratégias podem compartilhar recursos persuasivos, mas isso não as torna equivalentes nem obriga a usar os mesmos gatilhos em toda ação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-205-funpresp-26-jud-005-01-paper",
+          "locator": "PDF p. 2, item 76"
+        },
+        {
+          "documentId": "source-205-funpresp-26-jud-005-01-key",
+          "locator": "PDF p. 1, item 76"
+        }
+      ]
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q082-comment-v1",
+      "questionId": "205-funpresp-26-jud-005-01-q082",
+      "text": "A presença em redes deve considerar a linguagem e os recursos de cada plataforma, além das condições e necessidades dos públicos. Adaptar a forma ajuda a tornar a mensagem compreensível e acessível. O item não descreve uma política específica da Câmara nem garante eficiência apenas por estar em uma rede.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-205-funpresp-26-jud-005-01-paper",
+          "locator": "PDF p. 2, item 82"
+        },
+        {
+          "documentId": "source-205-funpresp-26-jud-005-01-key",
+          "locator": "PDF p. 1, item 82"
+        }
+      ]
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q108-comment-v1",
+      "questionId": "205-funpresp-26-jud-005-01-q108",
+      "text": "Segmentar ajuda a selecionar grupos com necessidades e características relevantes; posicionar define a proposta de valor e a forma como se deseja ser percebido em relação às alternativas. Essas decisões orientam o marketing estratégico e precisam ser sustentadas pela atuação e pelas entregas da organização.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-205-funpresp-26-jud-005-01-paper",
+          "locator": "PDF p. 4, item 108"
+        },
+        {
+          "documentId": "source-205-funpresp-26-jud-005-01-key",
+          "locator": "PDF p. 1, item 108"
+        }
+      ]
+    },
+    {
+      "id": "959-bcb-cb1-01-q019-comment-v1",
+      "questionId": "959-bcb-cb1-01-q019",
+      "text": "No contexto da defesa da equidade, “deixados para trás” indica pessoas ou países desconsiderados ou sem a atenção necessária. “Negligenciados” preserva esse sentido e mantém a construção gramatical. A equivalência é contextual, não uma regra de substituição em qualquer uso da expressão.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-959-bcb-cb1-01-paper",
+          "locator": "PDF p. 2, item 19"
+        },
+        {
+          "documentId": "source-959-bcb-cb1-01-key",
+          "locator": "PDF p. 1, item 19"
+        }
+      ]
+    },
+    {
+      "id": "959-bcb-cb1-01-q021-comment-v1",
+      "questionId": "959-bcb-cb1-01-q021",
+      "text": "O período contrapõe benefícios possíveis da IA às questões éticas que ela também suscita. Nessa construção, “mas” introduz contraste; “também” acrescenta a ideia de inclusão, sem transformar a conjunção em aditiva. Não se trata da correlação “não só... mas também” que poderia construir uma relação de adição.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-959-bcb-cb1-01-paper",
+          "locator": "PDF p. 2, item 21"
+        },
+        {
+          "documentId": "source-959-bcb-cb1-01-key",
+          "locator": "PDF p. 1, item 21"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q131-comment-v1",
+      "questionId": "camara-2014-area-xix-q131",
+      "text": "Sistemas mistos combinam presidência com governo sujeito à confiança parlamentar. Essa dependência da confiança legislativa aproxima sua organização do parlamentarismo, não autoriza afirmar a predominância presidencial como regra geral. Há variações institucionais entre países; a descrição não deve ser confundida com uma única configuração universal.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 3, item 131"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 131"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q165-comment-v1",
+      "questionId": "camara-2014-area-xix-q165",
+      "text": "A extensão territorial, a dispersão populacional e a capacidade limitada de controle direto levaram o governo imperial a negociar e articular-se com poderes regionais. Isso ajuda a compreender a construção do Estado brasileiro, sem reduzir todo o período a ausência de centralização ou ignorar as instituições formais.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 4, item 165"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 165"
+        }
+      ]
+    },
+    {
+      "id": "camara-2014-area-xix-q196-comment-v1",
+      "questionId": "camara-2014-area-xix-q196",
+      "text": "A reforma conhecida como Lei Saraiva instituiu eleições diretas, substituindo o sistema de dois graus, restringiu o voto pela exigência de alfabetização e admitiu libertos que satisfizessem os requisitos eleitorais. A expressão “dois turnos” é preservada do enunciado e se refere a esses graus de eleição, não ao segundo turno atual. A inclusão dos libertos não significou sufrágio universal.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-paper",
+          "locator": "PDF p. 6, item 196"
+        },
+        {
+          "documentId": "source-camara-2014-consultor-area-xix-key",
+          "locator": "PDF p. 1, item 196"
+        }
+      ]
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q079-comment-v1",
+      "questionId": "142-tcuaufc-cb1-01-q079",
+      "text": "A destituição disciplinar não é simples exoneração discricionária. Quando decorre de infração sujeita a essa penalidade, deve haver apuração com defesa, mesmo se o agente não ocupar cargo efetivo. O art. 146 da Lei nº 8.112/1990 inclui a destituição de cargo em comissão entre as hipóteses de processo disciplinar obrigatório.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-142-tcuaufc-cb1-01-paper",
+          "locator": "PDF p. 5, item 79"
+        },
+        {
+          "documentId": "source-142-tcuaufc-cb1-01-key",
+          "locator": "PDF p. 1, item 79"
+        },
+        {
+          "documentId": "reference-lei-8112-1990",
+          "locator": "Arts. 135, 143 e 146; destituição e processo disciplinar"
+        }
+      ]
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q080-comment-v1",
+      "questionId": "142-tcuaufc-cb1-01-q080",
+      "text": "A Lei nº 8.112/1990 excepciona a participação em conselhos de administração e fiscal de entidades nas hipóteses previstas, incluindo sociedade cooperativa constituída para prestar serviços a seus membros. Portanto, essa participação não configura, por si só, a infração genérica de gerir sociedade privada. A exceção não dispensa o atendimento de outras obrigações e vedações aplicáveis.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-142-tcuaufc-cb1-01-paper",
+          "locator": "PDF p. 5, item 80"
+        },
+        {
+          "documentId": "source-142-tcuaufc-cb1-01-key",
+          "locator": "PDF p. 1, item 80"
+        },
+        {
+          "documentId": "reference-lei-8112-1990",
+          "locator": "Art. 117, X e parágrafo único, I"
+        }
+      ]
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q081-comment-v1",
+      "questionId": "142-tcuaufc-cb1-01-q081",
+      "text": "A Lei nº 8.112/1990 exige processo disciplinar quando o ilícito puder ensejar suspensão superior a 30 dias e nas demais hipóteses do art. 146. A sindicância não pode, sozinha, substituir o PAD necessário para essas penalidades. A regra se refere à gravidade da sanção aplicável, com observância de defesa e procedimento.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-142-tcuaufc-cb1-01-paper",
+          "locator": "PDF p. 5, item 81"
+        },
+        {
+          "documentId": "source-142-tcuaufc-cb1-01-key",
+          "locator": "PDF p. 1, item 81"
+        },
+        {
+          "documentId": "reference-lei-8112-1990",
+          "locator": "Arts. 145, III, e 146"
+        }
+      ]
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q063-comment-v1",
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q063",
+      "text": "A alternativa D traduz o efeito de uma regra legislativa em uma consequência compreensível para o público. As demais preservam expressões técnicas sem explicação, como “interstício”, “juridicidade”, “oitiva” e “não implicação financeira”. A edição de 2025 do Manual apresenta o mesmo exemplo de substituição de “sobrestar/trancar a pauta”. Trata-se do Manual de Comunicação, não de uma questão específica sobre o livro de Linguagem Simples de 2024.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-alerj-2026-comunicacao-manha-tipo1-paper",
+          "locator": "PDF p. 15, questão 63"
+        },
+        {
+          "documentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+          "locator": "PDF p. 11 — Comunicação Social, tipo 1, manhã, questão 63"
+        },
+        {
+          "documentId": "reference-camara-communication-manual-2025-library",
+          "locator": "Manual de Comunicação, 2025, página impressa 38 / PDF p. 33; linguagem simples e exemplos"
+        }
+      ]
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q070-comment-v1",
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q070",
+      "text": "A alternativa E recompõe o texto do manual: a assessoria facilita a apuração dos repórteres; demandas também podem seguir a Lei de Acesso à Informação; o atendimento direto aos jornalistas beneficia o cidadão; a redação busca linguagem simples e evita adjetivos, opiniões e interpretações de normas. A LAI é uma via legal distinta do atendimento cotidiano à imprensa, com seus próprios prazos e procedimentos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-alerj-2026-comunicacao-manha-tipo1-paper",
+          "locator": "PDF p. 16, questão 70"
+        },
+        {
+          "documentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+          "locator": "PDF p. 11 — Comunicação Social, tipo 1, manhã, questão 70"
+        },
+        {
+          "documentId": "reference-camara-communication-manual-2025-library",
+          "locator": "Manual de Comunicação, 2025, página impressa 81 / PDF p. 74; Assessoria de Imprensa"
+        }
+      ]
     }
   ],
   "syllabusItems": [
@@ -30144,6 +32584,237 @@
       "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-7",
       "justification": "ETP na prorrogação de contratos contínuos no âmbito da IN SEGES 58.",
       "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-cb1-01-q008-mapping-1",
+      "questionId": "153-telebras-cb1-01-q008",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-3",
+      "justification": "Ortografia dos prefixos antes de palavra iniciada por h.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-cb1-01-q013-mapping-1",
+      "questionId": "153-telebras-cb1-01-q013",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-3",
+      "justification": "Distinção entre regras de acentuação.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q053-mapping-1",
+      "questionId": "153-telebras-008-01-q053",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-2-2",
+      "justification": "Segmentação de consumidores na preparação de estratégias de marketing.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q061-mapping-1",
+      "questionId": "153-telebras-008-01-q061",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-4-2",
+      "justification": "Naming como parte das decisões de identidade e branding.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q062-mapping-1",
+      "questionId": "153-telebras-008-01-q062",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-4-2",
+      "justification": "Distinção entre branding interno e marca de componente.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q095-mapping-1",
+      "questionId": "153-telebras-008-01-q095",
+      "syllabusItemId": "camara-2026-comunicacao-social-4-8",
+      "justification": "Integração de meios e públicos no plano de comunicação.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q099-mapping-1",
+      "questionId": "153-telebras-008-01-q099",
+      "syllabusItemId": "camara-2026-comunicacao-social-5-1",
+      "justification": "Planejamento digital com acompanhamento e revisão contínuos.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q101-mapping-1",
+      "questionId": "153-telebras-008-01-q101",
+      "syllabusItemId": "camara-2026-comunicacao-social-5-2",
+      "justification": "Colaboração online e distribuição da participação.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q105-mapping-1",
+      "questionId": "153-telebras-008-01-q105",
+      "syllabusItemId": "camara-2026-comunicacao-social-5-2",
+      "justification": "Construção colaborativa e adequação de linguagem em canais digitais.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-008-01-q106-mapping-1",
+      "questionId": "153-telebras-008-01-q106",
+      "syllabusItemId": "camara-2026-comunicacao-social-1-2",
+      "justification": "Edição jornalística em portais e redes.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-003-01-q070-mapping-1",
+      "questionId": "153-telebras-003-01-q070",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-5-1",
+      "justification": "Distinção entre poder de polícia e poder disciplinar.",
+      "status": "confirmed"
+    },
+    {
+      "id": "153-telebras-003-01-q076-mapping-1",
+      "questionId": "153-telebras-003-01-q076",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-8-4",
+      "justification": "Valor público e conformidade na governança.",
+      "status": "confirmed"
+    },
+    {
+      "id": "072-stm-002-01-q052-mapping-1",
+      "questionId": "072-stm-002-01-q052",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-9-2",
+      "justification": "Papel da liderança como mecanismo de governança.",
+      "status": "confirmed"
+    },
+    {
+      "id": "072-stm-002-01-q078-mapping-1",
+      "questionId": "072-stm-002-01-q078",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-9-2",
+      "justification": "Monitoramento e avaliação pelas instâncias de governança.",
+      "status": "confirmed"
+    },
+    {
+      "id": "072-stm-002-01-q084-mapping-1",
+      "questionId": "072-stm-002-01-q084",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-9-2",
+      "justification": "Limites da estrutura formal para assegurar boa governança.",
+      "status": "confirmed"
+    },
+    {
+      "id": "205-funpresp-26-jud-009-01-q071-mapping-1",
+      "questionId": "205-funpresp-26-jud-009-01-q071",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-8-3",
+      "justification": "Integração de fontes em painéis Power BI/Tableau na arquitetura descrita.",
+      "status": "confirmed"
+    },
+    {
+      "id": "205-funpresp-26-jud-009-01-q077-mapping-1",
+      "questionId": "205-funpresp-26-jud-009-01-q077",
+      "syllabusItemId": "camara-2026-comunicacao-social-5-1",
+      "justification": "Segmentação de audiência no planejamento de comunicação digital.",
+      "status": "confirmed"
+    },
+    {
+      "id": "205-funpresp-26-jud-009-01-q081-mapping-1",
+      "questionId": "205-funpresp-26-jud-009-01-q081",
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-8-4",
+      "justification": "Narrativa analítica para comunicar resultados quantitativos.",
+      "status": "confirmed"
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q053-mapping-1",
+      "questionId": "205-funpresp-26-jud-005-01-q053",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-5",
+      "justification": "Briefing no planejamento de uma nova campanha.",
+      "status": "confirmed"
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q060-mapping-1",
+      "questionId": "205-funpresp-26-jud-005-01-q060",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-6",
+      "justification": "Coerência entre planejamento de mídia e comunicação.",
+      "status": "confirmed"
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q076-mapping-1",
+      "questionId": "205-funpresp-26-jud-005-01-q076",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-7",
+      "justification": "Diferenças entre redação para resposta direta e branding.",
+      "status": "confirmed"
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q082-mapping-1",
+      "questionId": "205-funpresp-26-jud-005-01-q082",
+      "syllabusItemId": "camara-2026-comunicacao-social-5-3",
+      "justification": "Adequação da comunicação pública às plataformas e aos públicos.",
+      "status": "confirmed"
+    },
+    {
+      "id": "205-funpresp-26-jud-005-01-q108-mapping-1",
+      "questionId": "205-funpresp-26-jud-005-01-q108",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-2-2",
+      "justification": "Segmentação e posicionamento no planejamento de marketing.",
+      "status": "confirmed"
+    },
+    {
+      "id": "959-bcb-cb1-01-q019-mapping-1",
+      "questionId": "959-bcb-cb1-01-q019",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-6-2",
+      "justification": "Substituição lexical com preservação do sentido contextual.",
+      "status": "confirmed"
+    },
+    {
+      "id": "959-bcb-cb1-01-q021-mapping-1",
+      "questionId": "959-bcb-cb1-01-q021",
+      "syllabusItemId": "camara-2026-lingua-portuguesa-5-2",
+      "justification": "Coordenação adversativa no contraste entre benefícios e riscos.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q131-mapping-1",
+      "questionId": "camara-2014-area-xix-q131",
+      "syllabusItemId": "camara-2026-ciencia-politica-4",
+      "justification": "Combinação de características nos sistemas mistos de governo.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q165-mapping-1",
+      "questionId": "camara-2014-area-xix-q165",
+      "syllabusItemId": "camara-2026-ciencia-politica-12",
+      "justification": "Formação do Estado imperial e articulação com poderes regionais.",
+      "status": "confirmed"
+    },
+    {
+      "id": "camara-2014-area-xix-q196-mapping-1",
+      "questionId": "camara-2014-area-xix-q196",
+      "syllabusItemId": "camara-2026-ciencia-politica-13",
+      "justification": "Reforma eleitoral de 1881 e limites históricos da cidadania.",
+      "status": "confirmed"
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q079-mapping-1",
+      "questionId": "142-tcuaufc-cb1-01-q079",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-4-1",
+      "justification": "Garantias do processo disciplinar também para ocupante apenas de cargo em comissão.",
+      "status": "confirmed"
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q080-mapping-1",
+      "questionId": "142-tcuaufc-cb1-01-q080",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-4-2",
+      "justification": "Exceção às proibições funcionais no regime disciplinar.",
+      "status": "confirmed"
+    },
+    {
+      "id": "142-tcuaufc-cb1-01-q081-mapping-1",
+      "questionId": "142-tcuaufc-cb1-01-q081",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-4-3",
+      "justification": "Obrigatoriedade de PAD conforme a penalidade possível.",
+      "status": "confirmed"
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q063-mapping-1",
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q063",
+      "syllabusItemId": "camara-2026-comunicacao-social-8-2",
+      "justification": "Citação expressa do Manual de Comunicação da Câmara, com texto localizado na edição oficial de 2025; mantém MC original e não equivale ao Manual de Linguagem Simples de 2024.",
+      "status": "confirmed"
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q070-mapping-1",
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q070",
+      "syllabusItemId": "camara-2026-comunicacao-social-8-2",
+      "justification": "Citação expressa do Manual de Comunicação da Câmara, com texto localizado na edição oficial de 2025; mantém MC original e não equivale ao Manual de Linguagem Simples de 2024.",
+      "status": "confirmed"
     }
   ],
   "scoringRules": [
@@ -31951,6 +34622,262 @@
       "text": "Com relação à Lei n.º 14.133/2021 e às Instruções Normativas SGD/ME n.º 94/2022 e SEGES/ME n.º 65/2021, n.º 58/2022 e n.º 81/2022, julgue os itens subsequentes.",
       "sourceDocumentId": "source-038-anm-024-01-paper",
       "sourcePage": 1
+    },
+    {
+      "id": "telebras-2026-information-passage",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Texto de apoio",
+      "text": "Considerando a informação como um conceito que coexiste com a comunicação, conseguimos visualizá-la em dois sentidos. O primeiro, estritamente técnico ou tecnológico, diz respeito à informação como quantidade mensurável (dados); o segundo sentido é qualitativo e vinculado ao papel da informação como controle e redundância nos sistemas de comunicação. Aqui, a informação está relacionada à organização, na estrutura e na regulação dentro de sistemas; trata-se da informação como um meio de organizar e estabilizar sistemas, de maneira que a repetição (redundância) assegure a integridade da informação na comunicação.\n\nDito isto, vale destacar o que se tem consolidado ao longo das últimas décadas como tecnologias da informação e da comunicação, em que a captura, a “mineração” e o processamento de dados condensam os fluxos da experiência humana, transformados em capital informativo e vendidos diuturnamente nas e pelas estruturas tecnológicas plataformizadas que abduzem nossa atenção. Nesse percurso, comunicação e informação caminham juntas e compõem o sistema central das tecnologias que, a partir das plataformas, interagem com a humanidade e que são denominadas de “inteligência” artificial primitiva ou generativa. Para muitos, tais tecnologias situam-se em um estágio pós-humano ou anti-humano.",
+      "sourceDocumentId": "source-153-telebras-cb1-01-paper",
+      "sourcePage": 1,
+      "sourceCredit": "Ana Regina Rêgo. Comunicação em tempos de inteligência artificial: ampliação ou redução das desigualdades? In: INTERCOM — Revista Brasileira de Ciências da Comunicação, n.º 48, 2025 (com adaptações)."
+    },
+    {
+      "id": "telebras-2026-information-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "A respeito dos sentidos e de aspectos linguísticos do texto apresentado, julgue os itens a seguir.",
+      "sourceDocumentId": "source-153-telebras-cb1-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "telebras-2026-streaming-passage",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Texto de apoio",
+      "text": "O streaming hoje não é apenas um canal de distribuição. Ele se tornou um modelo de consumo cultural, baseado na personalização, na conveniência e na acessibilidade.\n\nOs algoritmos ajudam a moldar a experiência de cada usuário, enquanto o conteúdo pode ser acessado a qualquer hora e em qualquer dispositivo. Além disso, o streaming reduziu as barreiras entre criadores, marcas e audiência.\n\nCom a explosão das plataformas sob demanda, a lógica da programação linear perdeu força. Hoje, a audiência se dispersa por uma infinidade de opções, e o grande público foi substituído por múltiplas comunidades de interesse.",
+      "sourceDocumentId": "source-153-telebras-cb1-01-paper",
+      "sourcePage": 1,
+      "sourceCredit": "Internet: <https://midia.market> (com adaptações)."
+    },
+    {
+      "id": "telebras-2026-streaming-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Considerando a organização do texto precedente, seus sentidos e sua estrutura gramatical, julgue os itens que se seguem.",
+      "sourceDocumentId": "source-153-telebras-cb1-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "telebras-2026-marketing-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Acerca dos conceitos relativos aos fundamentos de marketing e aos sistemas mercadológicos, julgue os itens a seguir.",
+      "sourceDocumentId": "source-153-telebras-008-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "telebras-2026-branding-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens seguintes, relativos a marketing digital, gestão de marcas e posicionamento de imagem.",
+      "sourceDocumentId": "source-153-telebras-008-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "telebras-2026-digital-planning-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Acerca de planejamento e execução de projetos comunicacionais, estratégias de mídia, pesquisa de comunicação com a sociedade e interatividade, julgue os próximos itens.",
+      "sourceDocumentId": "source-153-telebras-008-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "telebras-2026-web-writing-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que diz respeito aos critérios de seleção, redação e edição, à comunicação via Internet e às mídias sociais, julgue os próximos itens.",
+      "sourceDocumentId": "source-153-telebras-008-01-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "telebras-2026-administrative-powers-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os próximos itens, em relação aos poderes da administração pública e aos agentes públicos.",
+      "sourceDocumentId": "source-153-telebras-003-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "telebras-2026-governance-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que concerne à governança e à reforma do aparelho do Estado, julgue os itens seguintes.",
+      "sourceDocumentId": "source-153-telebras-003-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "stm-2025-public-management-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os seguintes itens, acerca da evolução da administração pública, do empreendedorismo governamental e da excelência nos serviços públicos.",
+      "sourceDocumentId": "source-072-stm-002-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "stm-2025-risk-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os próximos itens, referentes à gestão de riscos.",
+      "sourceDocumentId": "source-072-stm-002-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "stm-2025-governance-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que diz respeito à governança pública organizacional, julgue os seguintes itens.",
+      "sourceDocumentId": "source-072-stm-002-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "funpresp-2026-bi-architecture-passage",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Situação hipotética original",
+      "text": "Uma instituição pública estruturou a sua nova arquitetura de dados em duas camadas operacionais. A primeira camada é dedicada ao BI (business intelligence) corporativo, operando sobre um data warehouse centralizado, cujos dados estruturados são consumidos por meio de painéis interativos desenvolvidos em Power BI e Tableau, constituindo a base do seu sistema de suporte à decisão (SSD). A segunda camada é voltada para o data analytics avançado, em que cientistas de dados utilizam as linguagens Python e R para extrair insights preditivos e processar grandes volumes de dados não estruturados provenientes de redes sociais e sensores.",
+      "sourceDocumentId": "source-205-funpresp-26-jud-009-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "funpresp-2026-bi-architecture-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Com base nessa situação hipotética e nos conceitos técnicos de business intelligence, sistemas de suporte a decisão e ferramentas de análise de dados, julgue os itens a seguir.",
+      "sourceDocumentId": "source-205-funpresp-26-jud-009-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "funpresp-2026-data-communication-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens subsequentes, relativos a metodologias ágeis, a ferramentas de gestão de projetos, e a estratégias de comunicação e marketing em ambientes digitais.",
+      "sourceDocumentId": "source-205-funpresp-26-jud-009-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "funpresp-2026-advertising-planning-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Acerca do planejamento de comunicação publicitária, da criação de arte e do design, julgue os itens a seguir.",
+      "sourceDocumentId": "source-205-funpresp-26-jud-005-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "funpresp-2026-advertising-media-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "A respeito dos fundamentos teóricos e práticos da publicidade e da propaganda, que abrangem o planejamento de comunicação, o processo de criação e direção de arte, os princípios do design gráfico aplicados à atividade publicitária, o atendimento e o planejamento de mídia, julgue os itens que se seguem.",
+      "sourceDocumentId": "source-205-funpresp-26-jud-005-01-paper",
+      "sourcePage": 1
+    },
+    {
+      "id": "funpresp-2026-copywriting-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os seguintes itens, a respeito de cibercultura e produção digital, redação publicitária, planejamento de mídia e softwares do pacote Adobe.",
+      "sourceDocumentId": "source-205-funpresp-26-jud-005-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "funpresp-2026-public-communication-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Em relação ao papel da comunicação pública na sociedade, julgue os itens a seguir.",
+      "sourceDocumentId": "source-205-funpresp-26-jud-005-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "funpresp-2026-strategic-marketing-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "A respeito de composto mercadológico, endomarketing, marketing institucional e pesquisa de marketing, bem como de segmentação e posicionamento de mercado, julgue os itens que se seguem.",
+      "sourceDocumentId": "source-205-funpresp-26-jud-005-01-paper",
+      "sourcePage": 4
+    },
+    {
+      "id": "bcb-2024-unesco-passage",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Texto CB1A2-I",
+      "text": "A Conferência Geral da Organização das Nações Unidas para a Educação, a Ciência e a Cultura (UNESCO), em sua 41.ª sessão, reconhece os impactos profundos e dinâmicos, positivos e negativos da inteligência artificial (IA) nas sociedades, no meio ambiente, nos ecossistemas e nas vidas humanas, inclusive na mente humana, em parte devido às novas formas como seu uso influencia o pensamento, a interação e a tomada de decisões e afeta a educação, as ciências humanas, sociais e naturais, a cultura, a comunicação e a informação.\n\nA Conferência considera que as tecnologias de IA podem ser de grande utilidade para a humanidade e podem beneficiar todos os países, mas também suscitam questões éticas fundamentais, por exemplo, em relação às distorções que podem incorporar e exacerbar, o que resultaria potencialmente em discriminação, desigualdade, exclusão digital, exclusão em geral e ameaça à diversidade cultural, social e biológica, além de divisões sociais ou econômicas. Suscitam, ainda, questões relativas à necessidade de transparência e compreensibilidade do funcionamento dos algoritmos e dos dados com que eles foram alimentados, além de seu potencial impacto sobre, entre outros aspectos, a dignidade humana; os direitos humanos e as liberdades fundamentais; a igualdade de gênero; a democracia; os processos sociais, econômicos, políticos e culturais; as práticas científicas e de engenharia; o bem-estar dos animais; o meio ambiente e os ecossistemas.\n\nA Conferência reconhece, ainda, que as tecnologias de IA podem aprofundar as divisões e as desigualdades existentes no mundo, dentro dos países e entre eles, e que a justiça, a confiança e a equidade devem ser defendidas para que nenhum país e nenhum indivíduo sejam deixados para trás, seja em razão do acesso justo às tecnologias de IA e de seus benefícios, seja em razão de medidas de proteção contra suas implicações negativas. Reconhecem-se as diferentes circunstâncias de diferentes países e respeita-se o desejo de algumas pessoas de não participar de todos os desenvolvimentos tecnológicos.\n\nCom base nas considerações acima, entre outras, a UNESCO aprova a presente Recomendação sobre a Ética da Inteligência Artificial.",
+      "sourceDocumentId": "source-959-bcb-cb1-01-paper",
+      "sourcePage": 2,
+      "sourceCredit": "UNESCO. Recomendação sobre a Ética da Inteligência Artificial (com adaptações)."
+    },
+    {
+      "id": "bcb-2024-unesco-grammar-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Julgue os itens seguintes, referentes aos sentidos e a aspectos linguísticos do texto CB1A2-I.",
+      "sourceDocumentId": "source-959-bcb-cb1-01-paper",
+      "sourcePage": 2
+    },
+    {
+      "id": "camara-2014-government-systems-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "No que tange aos sistemas de governo, julgue os próximos itens.",
+      "sourceDocumentId": "source-camara-2014-consultor-area-xix-paper",
+      "sourcePage": 3
+    },
+    {
+      "id": "camara-2014-brazil-state-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Com relação a aspectos genéricos do Estado e específicos do Estado brasileiro, julgue os itens que se seguem.",
+      "sourceDocumentId": "source-camara-2014-consultor-area-xix-paper",
+      "sourcePage": 4
+    },
+    {
+      "id": "camara-2014-citizenship-passage",
+      "revision": 1,
+      "kind": "passage",
+      "label": "Texto de apoio",
+      "text": "O percurso da cidadania no Brasil, como não poderia deixar de ser, seguiu os rumos da história do país. Um país que se tornou independente com a maior parte da população excluída dos direitos civis e políticos e sequer mobilizada por um sentimento de nacionalidade. Uma monarquia, cercada de repúblicas por todos os lados, significou um desafio à experiência nacional, no sentido de se reverem conceitos como ser “súdito” ou ser “soberano”. Estava (e está) em questão, pois, o status desse cidadão, que repassa a própria identidade do indivíduo moderno, e é por ele reivindicada, uma vez que não se quer mais ser apenas “súdito”, ou seja, simples sujeito de deveres e destinatário passivo de comandos.",
+      "sourceDocumentId": "source-camara-2014-consultor-area-xix-paper",
+      "sourcePage": 6,
+      "sourceCredit": "André Botelho e Lilia Moritz Schwarcz (Orgs). Cidadania, um projeto em construção: minorias, justiça e direitos. São Paulo: Claro Enigma, 2012, p. 19."
+    },
+    {
+      "id": "camara-2014-citizenship-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Tendo o texto acima como referência e considerando a questão da cidadania no Brasil, julgue os itens de 194 a 198.",
+      "sourceDocumentId": "source-camara-2014-consultor-area-xix-paper",
+      "sourcePage": 6
+    },
+    {
+      "id": "tcu-2026-disciplinary-command",
+      "revision": 1,
+      "kind": "instruction",
+      "label": "Comando original",
+      "text": "Acerca de agentes públicos, processo administrativo disciplinar e controle judicial, julgue os próximos itens.",
+      "sourceDocumentId": "source-142-tcuaufc-cb1-01-paper",
+      "sourcePage": 5
     }
   ]
 }

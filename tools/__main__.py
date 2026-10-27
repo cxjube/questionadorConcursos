@@ -22,7 +22,7 @@ def main(argv: list[str] | None = None) -> int:
         catalog = read_json(ROOT / 'data/catalog.json')
         errors = validate(catalog)
         if not errors and args.command == 'coverage':
-            review = read_json(ROOT / 'data/reviews/fifteenth-batch.json')
+            review = read_json(ROOT / 'data/reviews/sixteenth-batch.json')
             for filename, content in current_artifacts(catalog, review).items():
                 target = ROOT / filename
                 if args.check:

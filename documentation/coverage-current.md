@@ -1,34 +1,34 @@
 # Mapa atual do banco de questões
 
-Última revisão: 2026-10-27; lote `fifteenth-batch`. São 339 questões e 346 vínculos; **165/228 itens com vínculo direto**, 32 atendidos só por descendentes e 30 sem questões na subárvore (30 folhas). O título amplo Ciência Política 1 permanece separado.
+Última revisão: 2026-10-27; lote `sixteenth-batch`. São 372 questões e 379 vínculos; **179/228 itens com vínculo direto**, 32 atendidos só por descendentes e 16 sem questões na subárvore (16 folhas). O título amplo Ciência Política 1 permanece separado.
 
-C/E: P1 **154**, P2 **170**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
+C/E: P1 **168**, P2 **187**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
 
 Direto significa vínculo ao item exato; subárvore reúne o próprio item e seus descendentes, sem duplicar IDs. Vínculos de pais não são distribuídos aos filhos. Prioridades editoriais: A sem C/E, B com 1–2 C/E, C com 3 ou mais. Pais e filhos se sobrepõem; as contagens não são pesos oficiais.
 
-[Entrega do 15º lote](fifteenth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)
+[Entrega do 16º lote](sixteenth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)
 
 ## Disciplinas
 
 | Disciplina | Direto / programa | C/E distintos | MC distintos | Folhas vazias |
 | --- | ---: | ---: | ---: | ---: |
-| Língua Portuguesa | 13/20 | 36 | 0 | 4 |
+| Língua Portuguesa | 16/20 | 40 | 0 | 1 |
 | Língua Inglesa | 3/3 | 19 | 0 | 0 |
-| Noções de Direito Administrativo e Administração Pública | 30/46 | 46 | 0 | 8 |
+| Noções de Direito Administrativo e Administração Pública | 34/46 | 54 | 0 | 4 |
 | Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados | 10/14 | 21 | 1 | 2 |
-| Tecnologia da Informação e Dados | 16/20 | 32 | 0 | 1 |
-| Comunicação Social | 34/45 | 55 | 5 | 6 |
-| Divulgação Institucional | 30/40 | 48 | 0 | 4 |
+| Tecnologia da Informação e Dados | 17/20 | 34 | 0 | 0 |
+| Comunicação Social | 36/45 | 62 | 7 | 4 |
+| Divulgação Institucional | 31/40 | 55 | 0 | 3 |
 | Processo Legislativo e Regimento Interno | 21/27 | 32 | 8 | 1 |
-| Ciência Política | 8/13 | 36 | 2 | 4 |
+| Ciência Política | 11/13 | 39 | 2 | 1 |
 
 ## Prioridades seguintes
 
-1. Prompts e IA generativa foram iniciados com itens válidos da ANM/TRT10. Power BI 8.3 tem uma amostra distinta válida do TRT10; ampliar gráficos, ferramentas e storytelling 8.4. Itens anulados do STJ/ANM continuam excluídos.
+1. Prompts e IA generativa foram iniciados com itens válidos da ANM/TRT10. Power BI/Tableau 8.3 têm duas amostras válidas e storytelling de dados 8.4 tem uma da Funpresp-Jud. Ampliar diversidade de gráficos, ferramentas e narrativas. Itens anulados do STJ/ANM continuam excluídos.
 2. Regimento Comum tem agora C/E em Constitucional 8.2 e Processo 6.1/6.3, além de três MC preservadas. Ainda faltam C/E em Constitucional 8.1 (Título I) e Processo 6.2 (Resolução 3/1990).
-3. Planejamento de redes (5.1) foi iniciado com segmentação e mídia paga; ainda faltam questões diretas em postagens/colaborações e elementos de publicação (5.2/5.4). Política e manuais da Câmara (8.1/8.2/10.1) têm links de leitura, sem vínculo artificial de questões.
+3. Planejamento de redes (5.1) e colaboração online (5.2) têm C/E; elementos de publicação (5.4) continuam sem questões. Manual de Comunicação da Câmara (8.2) tem duas MC oficiais da ALERJ. Ato 218/2025 e Manual de Linguagem Simples (8.1/10.1) seguem sem questões específicas confirmadas.
 4. Expandir governança pública em redes, contratos, responsabilidade civil e orçamento: os novos vínculos são amostras pequenas e não esgotam os subitens.
-5. Gramática e uso do Inglês (2/3), lacunas específicas de Português, pesquisa de mercado/opinião/imagem e formação política brasileira.
+5. Ampliar ortografia, coordenação, substituição lexical e história política, iniciadas neste lote. Ainda faltam reescrita por gênero/formalidade e política internacional contemporânea. Inglês, pesquisas e demais itens com poucas amostras precisam de diversidade.
 
 ## Inventário completo
 
@@ -38,22 +38,22 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
 | 1 | Compreensão e interpretação de textos de gêneros variados. | 15 | 0 | 15 | 0 | Direto | C |
 | 2 | Reconhecimento de tipos e gêneros textuais. | 1 | 0 | 1 | 0 | Direto | B |
-| 3 | Domínio da ortografia. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 3 | Domínio da ortografia. | 2 | 0 | 2 | 0 | Direto | B |
 | 4 | Domínio dos mecanismos de coesão textual. | 0 | 0 | 4 | 0 | Só descendentes | C |
 | 4.1 | Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual. | 3 | 0 | 3 | 0 | Direto | C |
 | 4.2 | Emprego de tempos e modos verbais. | 1 | 0 | 1 | 0 | Direto | B |
-| 5 | Domínio da estrutura morfossintática do período. | 0 | 0 | 14 | 0 | Só descendentes | C |
+| 5 | Domínio da estrutura morfossintática do período. | 0 | 0 | 15 | 0 | Só descendentes | C |
 | 5.1 | Emprego das classes de palavras. | 2 | 0 | 2 | 0 | Direto | B |
-| 5.2 | Relações de coordenação entre orações e entre termos da oração. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 5.2 | Relações de coordenação entre orações e entre termos da oração. | 1 | 0 | 1 | 0 | Direto | B |
 | 5.3 | Relações de subordinação entre orações e entre termos da oração. | 1 | 0 | 1 | 0 | Direto | B |
 | 5.4 | Emprego dos sinais de pontuação. | 4 | 0 | 4 | 0 | Direto | C |
 | 5.5 | Concordância verbal e nominal. | 3 | 0 | 3 | 0 | Direto | C |
 | 5.6 | Regência verbal e nominal. | 1 | 0 | 1 | 0 | Direto | B |
 | 5.7 | Emprego do sinal indicativo de crase. | 2 | 0 | 2 | 0 | Direto | B |
 | 5.8 | Colocação dos pronomes átonos. | 1 | 0 | 1 | 0 | Direto | B |
-| 6 | Reescrita de frases e parágrafos do texto. | 0 | 0 | 2 | 0 | Só descendentes | B |
+| 6 | Reescrita de frases e parágrafos do texto. | 0 | 0 | 3 | 0 | Só descendentes | C |
 | 6.1 | Significação das palavras. | 1 | 0 | 1 | 0 | Direto | B |
-| 6.2 | Substituição de palavras ou de trechos de texto. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 6.2 | Substituição de palavras ou de trechos de texto. | 1 | 0 | 1 | 0 | Direto | B |
 | 6.3 | Reorganização da estrutura de orações e de períodos do texto. | 1 | 0 | 1 | 0 | Direto | B |
 | 6.4 | Reescrita de textos de diferentes gêneros e níveis de formalidade. | 0 | 0 | 0 | 0 | Sem questões | A |
 
@@ -80,13 +80,13 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 3.2 | Cargo, emprego e função pública. | 1 | 0 | 1 | 0 | Direto | B |
 | 3.3 | Requisição. | 1 | 0 | 1 | 0 | Direto | B |
 | 3.4 | Regime jurídico dos servidores públicos federais (Lei 8.112/1990 e suas alterações). | 1 | 0 | 1 | 0 | Direto | B |
-| 4 | Direito administrativo disciplinar. | 0 | 0 | 3 | 0 | Só descendentes | C |
-| 4.1 | Fontes e princípios. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 4.2 | Ilícito de direito administrativo disciplinar. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 4.3 | Procedimentos disciplinares da administração pública. | 1 | 0 | 1 | 0 | Direto | B |
+| 4 | Direito administrativo disciplinar. | 0 | 0 | 6 | 0 | Só descendentes | C |
+| 4.1 | Fontes e princípios. | 1 | 0 | 1 | 0 | Direto | B |
+| 4.2 | Ilícito de direito administrativo disciplinar. | 1 | 0 | 1 | 0 | Direto | B |
+| 4.3 | Procedimentos disciplinares da administração pública. | 2 | 0 | 2 | 0 | Direto | B |
 | 4.4 | Processo Administrativo Federal (Lei nº 9.784/1999 e suas alterações). | 2 | 0 | 2 | 0 | Direto | B |
-| 5 | Poderes administrativos. | 0 | 0 | 2 | 0 | Só descendentes | B |
-| 5.1 | Discricionário, hierárquico, disciplinar, regulamentar e de polícia. | 1 | 0 | 1 | 0 | Direto | B |
+| 5 | Poderes administrativos. | 0 | 0 | 3 | 0 | Só descendentes | C |
+| 5.1 | Discricionário, hierárquico, disciplinar, regulamentar e de polícia. | 2 | 0 | 2 | 0 | Direto | B |
 | 5.2 | Uso e abuso do poder. | 1 | 0 | 1 | 0 | Direto | B |
 | 6 | Responsabilidade civil do Estado. | 0 | 0 | 4 | 0 | Só descendentes | C |
 | 6.1 | Responsabilidade civil do Estado no direito brasileiro. | 1 | 0 | 1 | 0 | Direto | B |
@@ -95,14 +95,14 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 6.4 | Requisitos para a demonstração da responsabilidade do Estado. | 2 | 0 | 2 | 0 | Direto | B |
 | 6.5 | Causas excludentes e atenuantes da responsabilidade do Estado. | 1 | 0 | 1 | 0 | Direto | B |
 | 7 | Improbidade Administrativa (Lei nº 8.429/1992 e suas alterações). | 4 | 0 | 4 | 0 | Direto | C |
-| 8 | Evolução dos modelos de gestão pública: patrimonialismo, administração burocrática e nova gestão pública (New Public Management). | 2 | 0 | 4 | 0 | Direto | C |
+| 8 | Evolução dos modelos de gestão pública: patrimonialismo, administração burocrática e nova gestão pública (New Public Management). | 2 | 0 | 5 | 0 | Direto | C |
 | 8.1 | Nova Governança Pública (New Public Governance): conceito, fundamentos e evolução. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 8.2 | Ação pública em redes de cooperação, articulação interinstitucional e parcerias com o setor privado e terceiro setor. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 8.3 | Coprodução do bem público, participação cidadã e transparência ativa. | 2 | 0 | 2 | 0 | Direto | B |
-| 8.4 | Valor Público, cadeia de valor público. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 9 | Governança na Administração Pública. | 0 | 0 | 3 | 0 | Só descendentes | C |
+| 8.4 | Valor Público, cadeia de valor público. | 1 | 0 | 1 | 0 | Direto | B |
+| 9 | Governança na Administração Pública. | 0 | 0 | 6 | 0 | Só descendentes | C |
 | 9.1 | Governança pública: conceito, distinção entre governança e governabilidade e alinhamento estratégico. | 2 | 0 | 2 | 0 | Direto | B |
-| 9.2 | Mecanismos de governança: liderança, estratégia e controle. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 9.2 | Mecanismos de governança: liderança, estratégia e controle. | 3 | 0 | 3 | 0 | Direto | C |
 | 9.3 | Conceito de valor público: geração de valor para a sociedade, entrega de resultados, sustentabilidade e avaliação de impactos de políticas públicas. | 1 | 0 | 1 | 0 | Direto | B |
 | 9.4 | Decreto Federal nº 9.203/2017 e suas alterações (política de governança da administração pública federal direta, autárquica e fundacional). | 0 | 0 | 0 | 0 | Sem questões | A |
 | 10 | Noções de Licitações e Contratos (Lei nº 14.133/2021 e suas alterações). | 0 | 0 | 10 | 0 | Só descendentes | C |
@@ -154,19 +154,19 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 6 | Ética e responsabilidade digital no serviço público. | 1 | 0 | 1 | 0 | Direto | B |
 | 7 | Dados. | 0 | 0 | 6 | 0 | Só descendentes | C |
 | 7.1 | Conceitos, atributos, métricas, transformação de dados. | 6 | 0 | 6 | 0 | Direto | C |
-| 8 | Visualização de dados. | 0 | 0 | 3 | 0 | Só descendentes | C |
+| 8 | Visualização de dados. | 0 | 0 | 5 | 0 | Só descendentes | C |
 | 8.1 | Princípios de visualização de dados. | 1 | 0 | 1 | 0 | Direto | B |
 | 8.2 | Tipos de gráficos (histograma, linha, barra, dispersão, box plot). | 1 | 0 | 1 | 0 | Direto | B |
-| 8.3 | Ferramentas de visualização de dados (Power BI, Tableau e Data Studio). | 1 | 0 | 1 | 0 | Direto | B |
-| 8.4 | Storytelling para visualização de dados. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 8.3 | Ferramentas de visualização de dados (Power BI, Tableau e Data Studio). | 2 | 0 | 2 | 0 | Direto | B |
+| 8.4 | Storytelling para visualização de dados. | 1 | 0 | 1 | 0 | Direto | B |
 
 ### Comunicação Social
 
 | Item | Conteúdo oficial | C/E direto | MC direto | C/E subárvore | MC subárvore | Situação | Prioridade |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 1 | Teorias da Comunicação. | 0 | 1 | 7 | 2 | Direto | C |
+| 1 | Teorias da Comunicação. | 0 | 1 | 8 | 2 | Direto | C |
 | 1.1 | Escolas, paradigmas, correntes, modelos, principais pensadores. | 2 | 0 | 2 | 0 | Direto | B |
-| 1.2 | Comunicação e opinião pública. | 1 | 1 | 1 | 1 | Direto | B |
+| 1.2 | Comunicação e opinião pública. | 2 | 1 | 2 | 1 | Direto | B |
 | 1.3 | Midiatização e plataformização. | 1 | 0 | 1 | 0 | Direto | B |
 | 1.4 | Desinformação e integridade da informação. | 3 | 0 | 3 | 0 | Direto | C |
 | 2 | Comunicação interna. | 0 | 0 | 10 | 0 | Só descendentes | C |
@@ -180,7 +180,7 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 3.2 | Gestão da imagem, identidade e reputação corporativa/institucional. | 1 | 0 | 1 | 0 | Direto | B |
 | 3.3 | Gerenciamento de crises. | 0 | 1 | 0 | 1 | Direto | A |
 | 3.4 | Técnicas e ferramentas de gerenciamento de crises. | 4 | 0 | 4 | 0 | Direto | C |
-| 4 | Comunicação organizacional. | 0 | 0 | 12 | 1 | Só descendentes | C |
+| 4 | Comunicação organizacional. | 0 | 0 | 13 | 1 | Só descendentes | C |
 | 4.1 | Conceito, objetivos e dimensões da comunicação organizacional. | 1 | 0 | 1 | 0 | Direto | B |
 | 4.2 | O composto da comunicação integrada (comunicação institucional, mercadológica, interna e administrativa). | 0 | 1 | 0 | 1 | Direto | A |
 | 4.3 | Planejamento estratégico de comunicação. | 3 | 0 | 3 | 0 | Direto | C |
@@ -188,20 +188,20 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 4.5 | Comunicação formal e informal nas organizações. | 1 | 0 | 1 | 0 | Direto | B |
 | 4.6 | Definição de públicos-alvo: pesquisa, segmentação, canais de interação. | 2 | 0 | 2 | 0 | Direto | B |
 | 4.7 | Definição de indicadores de resultados em comunicação. | 1 | 0 | 1 | 0 | Direto | B |
-| 4.8 | Plano de comunicação. | 2 | 0 | 2 | 0 | Direto | B |
+| 4.8 | Plano de comunicação. | 3 | 0 | 3 | 0 | Direto | C |
 | 4.9 | Gestão de projetos de comunicação. | 1 | 0 | 1 | 0 | Direto | B |
-| 5 | Redes sociais digitais oficiais. | 2 | 0 | 7 | 0 | Direto | C |
-| 5.1 | Planejamento e produção de conteúdo. | 2 | 0 | 2 | 0 | Direto | B |
-| 5.2 | Postagens e colaborações. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 5.3 | Características das principais plataformas de mídias sociais: diferenças de públicos, linguagem, formatos (4:5, 3:4, 9:16) e conteúdos (cards, carrossel, vídeos, stories, lives). | 3 | 0 | 3 | 0 | Direto | C |
+| 5 | Redes sociais digitais oficiais. | 2 | 0 | 12 | 0 | Direto | C |
+| 5.1 | Planejamento e produção de conteúdo. | 4 | 0 | 4 | 0 | Direto | C |
+| 5.2 | Postagens e colaborações. | 2 | 0 | 2 | 0 | Direto | B |
+| 5.3 | Características das principais plataformas de mídias sociais: diferenças de públicos, linguagem, formatos (4:5, 3:4, 9:16) e conteúdos (cards, carrossel, vídeos, stories, lives). | 4 | 0 | 4 | 0 | Direto | C |
 | 5.4 | Elementos fundamentais de publicações em redes sociais: capa, legenda, marcação, palavras-chave, call to action. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 6 | Transparência pública. | 1 | 0 | 1 | 0 | Direto | B |
 | 7 | Comunicação Pública. | 0 | 0 | 5 | 2 | Só descendentes | C |
 | 7.1 | Conceitos, fundamentos e especificidades da comunicação pública. | 4 | 2 | 4 | 2 | Direto | C |
 | 7.2 | Comunicação pública versus comunicação governamental e comunicação político-partidária. | 1 | 0 | 1 | 0 | Direto | B |
-| 8 | Políticas de comunicação. | 1 | 0 | 1 | 0 | Direto | B |
+| 8 | Políticas de comunicação. | 1 | 0 | 1 | 2 | Direto | B |
 | 8.1 | Política de comunicação da Câmara dos Deputados (Ato da Mesa nº 218/2025). | 0 | 0 | 0 | 0 | Sem questões | A |
-| 8.2 | Manual de comunicação da Câmara dos Deputados. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 8.2 | Manual de comunicação da Câmara dos Deputados. | 0 | 2 | 0 | 2 | Direto | A |
 | 9 | Inteligência artificial na comunicação. | 0 | 0 | 4 | 0 | Só descendentes | C |
 | 9.1 | Aplicações da IA na comunicação. | 2 | 0 | 2 | 0 | Direto | B |
 | 9.2 | Ética no uso de IA na comunicação. | 2 | 0 | 2 | 0 | Direto | B |
@@ -214,17 +214,17 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 
 | Item | Conteúdo oficial | C/E direto | MC direto | C/E subárvore | MC subárvore | Situação | Prioridade |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 1 | Publicidade. | 0 | 0 | 14 | 0 | Só descendentes | C |
+| 1 | Publicidade. | 0 | 0 | 17 | 0 | Só descendentes | C |
 | 1.1 | Teorias da Publicidade. | 4 | 0 | 4 | 0 | Direto | C |
 | 1.2 | Planejamento publicitário: briefing, diagnóstico, definição de objetivos, definição de público-alvo, estratégia de comunicação, plano de mídia, cronograma de execução, definição de indicadores e avaliação. | 4 | 0 | 4 | 0 | Direto | C |
 | 1.3 | Criação publicitária. | 1 | 0 | 1 | 0 | Direto | B |
 | 1.4 | Atendimento. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 1.5 | Mídia: características dos diferentes tipos de veículos e plataformas de comunicação, plano de mídia, monitoramento e análise de dados. | 2 | 0 | 2 | 0 | Direto | B |
-| 1.6 | Produção de campanhas publicitárias. | 1 | 0 | 1 | 0 | Direto | B |
-| 1.7 | Produção e redação de peças publicitárias para diversas mídias. | 2 | 0 | 2 | 0 | Direto | B |
-| 2 | Marketing. | 0 | 0 | 9 | 0 | Só descendentes | C |
+| 1.5 | Mídia: características dos diferentes tipos de veículos e plataformas de comunicação, plano de mídia, monitoramento e análise de dados. | 3 | 0 | 3 | 0 | Direto | C |
+| 1.6 | Produção de campanhas publicitárias. | 2 | 0 | 2 | 0 | Direto | B |
+| 1.7 | Produção e redação de peças publicitárias para diversas mídias. | 3 | 0 | 3 | 0 | Direto | C |
+| 2 | Marketing. | 0 | 0 | 11 | 0 | Só descendentes | C |
 | 2.1 | Conceitos de marketing. | 2 | 0 | 2 | 0 | Direto | B |
-| 2.2 | Planejamento de marketing. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 2.2 | Planejamento de marketing. | 2 | 0 | 2 | 0 | Direto | B |
 | 2.3 | Marketing institucional. | 1 | 0 | 1 | 0 | Direto | B |
 | 2.4 | Endomarketing. | 2 | 0 | 2 | 0 | Direto | B |
 | 2.5 | Segmentação. | 1 | 0 | 1 | 0 | Direto | B |
@@ -237,9 +237,9 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 3.4 | Pesquisa de imagem. | 1 | 0 | 1 | 0 | Direto | B |
 | 3.5 | Pesquisa de mídia. | 1 | 0 | 1 | 0 | Direto | B |
 | 3.6 | Métricas de avaliação na publicidade digital. | 1 | 0 | 1 | 0 | Direto | B |
-| 4 | Marca e Branding. | 0 | 0 | 2 | 0 | Só descendentes | B |
+| 4 | Marca e Branding. | 0 | 0 | 4 | 0 | Só descendentes | C |
 | 4.1 | Conceito de marca. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 4.2 | Branding. | 1 | 0 | 1 | 0 | Direto | B |
+| 4.2 | Branding. | 3 | 0 | 3 | 0 | Direto | C |
 | 4.3 | Gerenciamento de marca. | 1 | 0 | 1 | 0 | Direto | B |
 | 5 | Design e Produção. | 0 | 0 | 9 | 0 | Só descendentes | C |
 | 5.1 | Design gráfico. | 1 | 0 | 1 | 0 | Direto | B |
@@ -294,7 +294,7 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 1 | Ciência Política. | 0 | 0 | 0 | 0 | Escopo | scope |
 | 2 | Teoria política. | 10 | 0 | 10 | 0 | Direto | C |
 | 3 | Regimes políticos. | 10 | 0 | 10 | 0 | Direto | C |
-| 4 | Sistemas e formas de governo. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 4 | Sistemas e formas de governo. | 1 | 0 | 1 | 0 | Direto | B |
 | 5 | Representação política. | 1 | 1 | 1 | 1 | Direto | B |
 | 6 | Poderes e relações entre poderes: Executivo, Legislativo e Judiciário. | 1 | 0 | 1 | 0 | Direto | B |
 | 7 | Sistemas eleitorais. | 4 | 0 | 4 | 0 | Direto | C |
@@ -302,7 +302,7 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 9 | Organização política brasileira. | 2 | 0 | 2 | 0 | Direto | B |
 | 10 | Política internacional contemporânea. | 0 | 0 | 0 | 0 | Sem questões | A |
 | 11 | Teoria do Estado e formação dos Estados nacionais. | 4 | 0 | 4 | 0 | Direto | C |
-| 12 | Formação do Estado brasileiro. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 13 | História do voto e dos partidos no Brasil. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 12 | Formação do Estado brasileiro. | 1 | 0 | 1 | 0 | Direto | B |
+| 13 | História do voto e dos partidos no Brasil. | 1 | 0 | 1 | 0 | Direto | B |
 
 Gerado por `python -m tools coverage`; conferir com `python -m tools coverage --check`. A data identifica a revisão editorial do lote, sem presumir reconferência online de toda referência antiga.

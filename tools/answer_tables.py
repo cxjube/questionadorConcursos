@@ -4,8 +4,10 @@ import re
 
 def answer_table(text: str, booklet: str) -> dict[int, str]:
     """Select the exact FGV booklet or labelled Cebraspe rows and reject ambiguity."""
-    if re.search(r'(?m)^\s*Analista Legislativo.*TIPO \d+\s*$', text):
-        headers = list(re.finditer(r'(?m)^\s*(Analista Legislativo[^\n]*TIPO \d+)\s*$', text))
+    header_pattern = (r'(?m)^[ \t]*((?:Analista Legislativo[^\n]*TIPO \d+|'
+                      r'Especialista Legislativo[^\n]* - \d+ - Turno (?:Manhã|Tarde|Noite)))[ \t]*$')
+    headers = list(re.finditer(header_pattern, text))
+    if headers:
         matches = [i for i, match in enumerate(headers) if match.group(1).strip() == booklet]
         if len(matches) != 1:
             raise ValueError('FGV key requires one exact role/type header')
@@ -24,9 +26,15 @@ def answer_table(text: str, booklet: str) -> dict[int, str]:
         numbers = [int(n) for n in re.findall(r'\b\d+\b', row) if int(n)]
         if not numbers:
             continue
-        if index + 1 >= len(rows):
+        answer_index = index + 1
+        while answer_index < len(rows) and not rows[answer_index].strip():
+            answer_index += 1
+        if answer_index >= len(rows):
             raise ValueError('Missing answer row')
-        values = re.findall(r'(?<!\w)[A-EX*](?!\w)', rows[index + 1].replace('Gabarito', ''))
+        answer_row = rows[answer_index].replace('Gabarito', '')
+        if numeric and not re.fullmatch(r'\s*[A-EX*](?:\s+[A-EX*])*\s*', answer_row):
+            raise ValueError('Invalid FGV answer row')
+        values = re.findall(r'(?<!\w)[A-EX*](?!\w)', answer_row)
         if len(numbers) != len(values) or any(n in result for n in numbers):
             raise ValueError('Truncated or duplicate official key table')
         result.update((n, 'X' if value == '*' else value) for n, value in zip(numbers, values))

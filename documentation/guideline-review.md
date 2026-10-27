@@ -1,5 +1,7 @@
 # Revisão das diretrizes recebidas — 23/10/2026
 
+> Atualização: [16º lote](sixteenth-batch-release.md), com 372 questões (355 C/E e 17 MC), 179/228 itens diretos, reserva 168/187 e 16 subárvores vazias. Duas MC oficiais citam o Manual de Comunicação da Câmara; os registros anteriores preservam o histórico.
+
 > Atualização: [15º lote](fifteenth-batch-release.md), com 339 questões (324 C/E), 165/228 itens diretos e reserva 154/170 em P1/P2. Restam 30 subárvores vazias. As atualizações anteriores preservam o histórico.
 
 > Atualização: [14º lote](fourteenth-batch-release.md), com 302 questões (287 C/E), 142/228 vínculos diretos e reserva 140/147 em P1/P2. A [cobertura atual](coverage-current.md) substitui os números das entregas históricas abaixo.

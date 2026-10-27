@@ -1,5 +1,7 @@
 # Referências específicas da Câmara — 26/10/2026
 
+> Atualização de 27/10: o [16º lote](sixteenth-batch-release.md) acrescenta duas MC oficiais que citam o Manual de Comunicação. Nova conferência das páginas impressas 38/81 (PDF 33/74) em `sixteenth-manual-review.json`; o livro completo continua fora do repositório. A revisão datada de 26/10 abaixo preserva seu escopo histórico.
+
 Conferência assistida por agente da identificação, edição, escopo e seções selecionadas. Não é revisão jurídica integral ou leitura exaustiva dos dois manuais. A consulta não cria questões autorais nem vínculos temáticos artificiais.
 
 | Documento | Fonte oficial | Resultado |

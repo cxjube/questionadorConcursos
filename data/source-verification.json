@@ -800,6 +800,111 @@
       "outcome": "byte_match",
       "officialUrl": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=6411925&numeroProcesso=1385315&classeProcesso=ARE&numeroTema=1237",
       "remoteSha256": "00b231048a4f7793c7e4cda74e93967c7c9f04d03938d8913d86e0aea4be8c9b"
+    },
+    {
+      "documentId": "source-153-telebras-cb1-01-paper",
+      "localSha256": "34e82b995d5f135b1d04413971219eaf11cbbf0734b053194804c5b25b4c6393",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+      "remoteSha256": "34e82b995d5f135b1d04413971219eaf11cbbf0734b053194804c5b25b4c6393"
+    },
+    {
+      "documentId": "source-153-telebras-cb1-01-key",
+      "localSha256": "db466efbcdc976d07c8ccae04640ef6a642d2ad0dfa3d3cec8ed67520d9d1716",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/374364890113AA9043F5CFCB1F6D6D6BDA5D587A62B89219DFC71B40BA5F948E.pdf",
+      "remoteSha256": "db466efbcdc976d07c8ccae04640ef6a642d2ad0dfa3d3cec8ed67520d9d1716"
+    },
+    {
+      "documentId": "source-153-telebras-008-01-paper",
+      "localSha256": "caadb5285994505629eb14ced86cb7c7b1cf13a0b463f4d267b09c17edae0b84",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/E745E981210ACFFB4253484290CCDA28BDD29A946F7EAADA73A5B6899C2A2327.pdf",
+      "remoteSha256": "caadb5285994505629eb14ced86cb7c7b1cf13a0b463f4d267b09c17edae0b84"
+    },
+    {
+      "documentId": "source-153-telebras-008-01-key",
+      "localSha256": "a935f49638e4e4cbd45696d93dd155954229010f02af1d7b1576507f17f58e19",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/4138A1702D3E4697BE26B8BE9AD2FE1605A687A3BE5D171C97C3359FBFA2E5B1.pdf",
+      "remoteSha256": "a935f49638e4e4cbd45696d93dd155954229010f02af1d7b1576507f17f58e19"
+    },
+    {
+      "documentId": "source-153-telebras-003-01-paper",
+      "localSha256": "cce01320ae74f9543dbb82eafcce190988cd9d39fb558d9fec3c8b05aed4add3",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/02A841CD7E3B256A0F85C4096A481C4BE5C82237B440909486D211B69F01732E.pdf",
+      "remoteSha256": "cce01320ae74f9543dbb82eafcce190988cd9d39fb558d9fec3c8b05aed4add3"
+    },
+    {
+      "documentId": "source-153-telebras-003-01-key",
+      "localSha256": "2a194faf3167157e27f8c6cb09f95aa9132b51776b56adc23fc65ad8aac57bb7",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/3586BBD69D6FCE74C2B891E0942C1654AE304F4BBDD7130BB311AFBDD5BAF3EA.pdf",
+      "remoteSha256": "2a194faf3167157e27f8c6cb09f95aa9132b51776b56adc23fc65ad8aac57bb7"
+    },
+    {
+      "documentId": "source-072-stm-002-01-paper",
+      "localSha256": "fc535e5b778a797a37e472e5f09ef6b23b0dd0a789b22a49404e3ca62d96b9a2",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/072_STM_002_01.pdf",
+      "remoteSha256": "fc535e5b778a797a37e472e5f09ef6b23b0dd0a789b22a49404e3ca62d96b9a2"
+    },
+    {
+      "documentId": "source-072-stm-002-01-key",
+      "localSha256": "f8edfd128b65fa2d72e859510dbc9add99a33e32acfb665d1b082a61b4898786",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/Gab_Definitivo_072_STM_002_01.pdf",
+      "remoteSha256": "f8edfd128b65fa2d72e859510dbc9add99a33e32acfb665d1b082a61b4898786"
+    },
+    {
+      "documentId": "source-205-funpresp-26-jud-009-01-paper",
+      "localSha256": "777f678732cac3a043f8d202b1445036ea813b5c0b87331463bb5229f5a6dc62",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_26_JUD/arquivos/7E92AF127EDC1384FBB1947BDFA3C6AE05877B614EC4ADBEDDF4F8CF7BEC6EB7.pdf",
+      "remoteSha256": "777f678732cac3a043f8d202b1445036ea813b5c0b87331463bb5229f5a6dc62"
+    },
+    {
+      "documentId": "source-205-funpresp-26-jud-009-01-key",
+      "localSha256": "addbf9ccaa9420cff7904dd7795292804b731041f982b37aeac5a180c8486803",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_26_JUD/arquivos/E13E2B3833C356EA314B5FC41D3C8C9A8E4CEFC21FFC2E4420C69DB9843C7802.pdf",
+      "remoteSha256": "addbf9ccaa9420cff7904dd7795292804b731041f982b37aeac5a180c8486803"
+    },
+    {
+      "documentId": "source-205-funpresp-26-jud-005-01-paper",
+      "localSha256": "9c9dbd074669c17df13c3c42360ec893a503e0b68416140685d74f5b1b627b4e",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_26_JUD/arquivos/C4A6B006AE90243DAC8E8FC725C598DFE1545DA10B31B9C85EABBC33A4F41E42.pdf",
+      "remoteSha256": "9c9dbd074669c17df13c3c42360ec893a503e0b68416140685d74f5b1b627b4e"
+    },
+    {
+      "documentId": "source-205-funpresp-26-jud-005-01-key",
+      "localSha256": "236f8a83111b80bce6a8d354278a2a1b5ad05fca44458dd5b3b87da671a8f89c",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_26_JUD/arquivos/AEE58581EE3C00C2BA0E78DC2C5C62365F48C3A9485BF3F2EEF602AB45F76737.pdf",
+      "remoteSha256": "236f8a83111b80bce6a8d354278a2a1b5ad05fca44458dd5b3b87da671a8f89c"
+    },
+    {
+      "documentId": "source-alerj-2026-comunicacao-manha-tipo1-paper",
+      "localSha256": "a50ad97d853e1e1b309ed6c0b2f41269039259730c21d0acae36d2b9c97b2843",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns106-especialista-legislativo-nivel-iv-comunicacao-social-cns106-tipo-1.pdf",
+      "remoteSha256": "a50ad97d853e1e1b309ed6c0b2f41269039259730c21d0acae36d2b9c97b2843"
+    },
+    {
+      "documentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "localSha256": "4b9c907a58e2abfe40635839091f9f9f335b3d5e1ce57cbd165d54336f8e69d5",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/especialista-alerj-gabarito-definitivo.pdf",
+      "remoteSha256": "4b9c907a58e2abfe40635839091f9f9f335b3d5e1ce57cbd165d54336f8e69d5"
+    },
+    {
+      "documentId": "reference-camara-communication-manual-2025-library",
+      "localSha256": "105a752649acfa288e1fba9d70eb24857731c41b369dccb736a1612da0fb7335",
+      "outcome": "byte_match",
+      "officialUrl": "https://bd.camara.leg.br/bd/handle/bdcamara/57184",
+      "remoteSha256": "105a752649acfa288e1fba9d70eb24857731c41b369dccb736a1612da0fb7335"
     }
   ],
   "corroboration": [

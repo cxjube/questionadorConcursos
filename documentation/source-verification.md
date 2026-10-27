@@ -1,5 +1,7 @@
 # Conferência das fontes oficiais — 23/10/2026
 
+> Atualização do [16º lote](sixteenth-batch-release.md): 129 fontes (95 PDFs e 34 HTML), 42 pares, 2.846 números e 121 anulados. Sete pares novos com segundo download idêntico; o HTML da biblioteca identifica o Manual, sem republicar o livro. A revisão jurídica alcança sete questões/12 citações. Os registros anteriores mantêm o histórico.
+
 > Atualização do [15º lote](fifteenth-batch-release.md): 114 fontes (81 PDFs e 33 HTML), 35 pares, 2.366 números e 112 anulados no inventário. Novos PDFs comparados por download independente; quatro normas com novas consultas de 27/10 e Lei 14.133 consultada na evidência retida de 26/10 após timeout. Os números abaixo mantêm o histórico de cada rodada.
 
 > Atualização do [14º lote](fourteenth-batch-release.md): 98 fontes (69 PDFs e 29 HTML), 29 pares completos, 1.866 números e 87 anulações. Quatro novos pares oficiais, uma compilação normativa do Congresso e duas referências técnicas. Os oito PDFs de prova/chave e o PDF normativo tiveram download repetido com igualdade de bytes; HTML conserva o download inicial. Os registros abaixo permanecem históricos.

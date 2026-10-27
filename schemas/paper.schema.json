@@ -86,7 +86,8 @@
         "block": {
           "enum": [
             "basic",
-            "specific"
+            "specific",
+            "mixed"
           ]
         },
         "firstItem": {

@@ -1,0 +1,124 @@
+{
+  "reviewedAt": "2026-10-27",
+  "method": "agent_assisted",
+  "scope": "New cited clauses only; two same-day retained Câmara rechecks and one new Decreto 9203 download. Generic governance items do not assert mandatory application of executive-branch internal rules to STM or Câmara.",
+  "rechecks": [
+    {
+      "documentId": "reference-constitution-1988",
+      "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "file": "data/reviews/fifteenth-reference-evidence/reference-constitution-1988.html",
+      "sha256": "a8de1643589cf9fb199bb58a0cf4a6acd63c35ed377843d8240ca500b7e1f2c1",
+      "checkedAt": "2026-10-27",
+      "method": "same_day_retained_recheck_2026_10_27"
+    },
+    {
+      "documentId": "reference-lei-8112-1990",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "file": "data/reviews/fifteenth-reference-evidence/reference-lei-8112-1990.html",
+      "sha256": "2ceed7c5d4c9ef2b466ccba6e37abf93425285cc71afbe9e8641ceb28b9d44cb",
+      "checkedAt": "2026-10-27",
+      "method": "same_day_retained_recheck_2026_10_27"
+    },
+    {
+      "documentId": "reference-decreto-9203-2017",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.html",
+      "file": "data/reviews/sixteenth-reference-evidence/reference-decreto-9203-2017.html",
+      "sha256": "cc9e9c5356e5c1578af402f769c80ee2dd831facae27b0cbb9a5a971d9b38f2a",
+      "checkedAt": "2026-10-27",
+      "method": "new_official_visible_clause_recheck"
+    }
+  ],
+  "items": [
+    {
+      "questionId": "153-telebras-003-01-q076",
+      "citations": [
+        {
+          "documentId": "reference-constitution-1988",
+          "activeQuote": "Art. 37. A administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência e, também, ao seguinte: (“Caput” do artigo com redação dada pela Emenda Constitucional nº 19, de 1998) "
+        },
+        {
+          "documentId": "reference-decreto-9203-2017",
+          "activeQuote": "II - valor público - produtos e resultados gerados, preservados ou entregues pelas atividades de uma organização que representem respostas efetivas e úteis às necessidades ou às demandas de interesse público e modifiquem aspectos do conjunto da sociedade ou de alguns grupos específicos reconhecidos como destinatários legítimos de bens e serviços públicos; "
+        }
+      ],
+      "decision": "compatible_with_cited_clause_and_scope_notes"
+    },
+    {
+      "questionId": "072-stm-002-01-q052",
+      "citations": [
+        {
+          "documentId": "reference-decreto-9203-2017",
+          "activeQuote": "Art. 5º São mecanismos para o exercício da governança pública: I - liderança, que compreende conjunto de práticas de natureza humana ou comportamental exercida nos principais cargos das organizações, para assegurar a existência das condições mínimas para o exercício da boa governança, quais sejam: a) integridade; b) competência; c) responsabilidade; e d) motivação; "
+        }
+      ],
+      "decision": "compatible_with_cited_clause_and_scope_notes"
+    },
+    {
+      "questionId": "072-stm-002-01-q078",
+      "citations": [
+        {
+          "documentId": "reference-decreto-9203-2017",
+          "activeQuote": "I - governança pública - conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade; "
+        }
+      ],
+      "decision": "compatible_with_cited_clause_and_scope_notes"
+    },
+    {
+      "questionId": "072-stm-002-01-q084",
+      "citations": [
+        {
+          "documentId": "reference-decreto-9203-2017",
+          "activeQuote": "Art. 5º São mecanismos para o exercício da governança pública: I - liderança, que compreende conjunto de práticas de natureza humana ou comportamental exercida nos principais cargos das organizações, para assegurar a existência das condições mínimas para o exercício da boa governança, quais sejam: a) integridade; b) competência; c) responsabilidade; e d) motivação; II - estratégia, que compreende a definição de diretrizes, objetivos, planos e ações, além de critérios de priorização e alinhamento entre organizações e partes interessadas, para que os serviços e produtos de responsabilidade da organização alcancem o resultado pretendido; e III - controle, que compreende processos estruturados para mitigar os possíveis riscos com vistas ao alcance dos objetivos institucionais e para garantir a execução ordenada, ética, econômica, eficiente e eficaz das atividades da organização, com preservação da legalidade e da economicidade no dispêndio de recursos públicos. "
+        }
+      ],
+      "decision": "compatible_with_cited_clause_and_scope_notes"
+    },
+    {
+      "questionId": "142-tcuaufc-cb1-01-q079",
+      "citations": [
+        {
+          "documentId": "reference-lei-8112-1990",
+          "activeQuote": "Art. 135. A destituição de cargo em comissão exercido por não ocupante de cargo efetivo será aplicada nos casos de infração sujeita às penalidades de suspensão e de demissão. Parágrafo único. Constatada a hipótese de que trata este artigo, a exoneração efetuada nos termos do art. 35 será convertida em destituição de cargo em comissão. "
+        },
+        {
+          "documentId": "reference-lei-8112-1990",
+          "activeQuote": "Art. 143. A autoridade que tiver ciência de irregularidade no serviço público é obrigada a promover a sua apuração imediata, mediante sindicância ou processo administrativo disciplinar, assegurada ao acusado ampla defesa. "
+        },
+        {
+          "documentId": "reference-lei-8112-1990",
+          "activeQuote": "Art. 146. Sempre que o ilícito praticado pelo servidor ensejar a imposição de penalidade de suspensão por mais de 30 (trinta) dias, de demissão, cassação de aposentadoria ou disponibilidade, ou destituição de cargo em comissão, será obrigatória a instauração de processo disciplinar. "
+        }
+      ],
+      "decision": "compatible_with_cited_clause_and_scope_notes"
+    },
+    {
+      "questionId": "142-tcuaufc-cb1-01-q080",
+      "citations": [
+        {
+          "documentId": "reference-lei-8112-1990",
+          "activeQuote": "X - participar de gerência ou administração de sociedade privada, personificada ou não personificada, exercer o comércio, exceto na qualidade de acionista, cotista ou comanditário; (Inciso com redação dada pela Lei nº 11.784, de 22/9/2008) "
+        },
+        {
+          "documentId": "reference-lei-8112-1990",
+          "activeQuote": "I - participação nos conselhos de administração e fiscal de empresas ou entidades em que a União detenha, direta ou indiretamente, participação no capital social ou em sociedade cooperativa constituída para prestar serviços a seus membros; e "
+        }
+      ],
+      "decision": "compatible_with_cited_clause_and_scope_notes"
+    },
+    {
+      "questionId": "142-tcuaufc-cb1-01-q081",
+      "citations": [
+        {
+          "documentId": "reference-lei-8112-1990",
+          "activeQuote": "Art. 145. Da sindicância poderá resultar: I - arquivamento do processo; II - aplicação de penalidade de advertência ou suspensão de até 30 (trinta) dias; III - instauração de processo disciplinar. "
+        },
+        {
+          "documentId": "reference-lei-8112-1990",
+          "activeQuote": "Art. 146. Sempre que o ilícito praticado pelo servidor ensejar a imposição de penalidade de suspensão por mais de 30 (trinta) dias, de demissão, cassação de aposentadoria ou disponibilidade, ou destituição de cargo em comissão, será obrigatória a instauração de processo disciplinar. "
+        }
+      ],
+      "decision": "compatible_with_cited_clause_and_scope_notes"
+    }
+  ],
+  "clauseCount": 12
+}

@@ -1,0 +1,380 @@
+{
+  "id": "sixteenth-source-discovery",
+  "checkedAt": "2026-10-27",
+  "scope": "Seven complete pairs; repeated PDF downloads match exactly. Printed role/booklet/date and definitive ranges checked; event year is not application year. Search is not exhaustive.",
+  "listings": [
+    {
+      "event": "telebras_25",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/telebras_25",
+      "file": "data/reviews/sixteenth-source-listings/telebras_25.json",
+      "sha256": "563a5523d7464ece788f5d2e1b8eb1ff8185d9aff8391775df32e837462bbd0e"
+    },
+    {
+      "event": "stm_25",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/stm_25",
+      "file": "data/reviews/sixteenth-source-listings/stm_25.json",
+      "sha256": "96de4554a763bac4b3a3f27733a37d4e5aa34d70c1ebd86253d9eeec452eac93"
+    },
+    {
+      "event": "funpresp_26_jud",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/funpresp_26_jud",
+      "file": "data/reviews/sixteenth-source-listings/funpresp_26_jud.json",
+      "sha256": "1d79a8e9e33f5cdea9a1d6e23d2eac2f288b736dd9dd022c0db72b931e2a8bf9"
+    },
+    {
+      "event": "alerj2025",
+      "url": "https://conhecimento.fgv.br/concursos/alerj2025/1",
+      "file": "data/reviews/sixteenth-source-listings/alerj-especialista.html",
+      "sha256": "b3d728de1e7b4c527f55c9ec10a89c4dc935acc568ae2e04f98ecdf665884928"
+    }
+  ],
+  "pairs": [
+    {
+      "paperId": "source-153-telebras-cb1-01",
+      "event": "telebras_25",
+      "booklet": "153_TELEBRAS_CB1_01",
+      "applicationDate": "2026-02-08",
+      "documents": [
+        {
+          "documentId": "source-153-telebras-cb1-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+          "sha256": "34e82b995d5f135b1d04413971219eaf11cbbf0734b053194804c5b25b4c6393",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "13/02/2026 19:00",
+            "nomeArquivo": "EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+            "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS BÁSICOS PARA TODOS OS CARGOS",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2026-02-13T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-153-telebras-cb1-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/374364890113AA9043F5CFCB1F6D6D6BDA5D587A62B89219DFC71B40BA5F948E.pdf",
+          "sha256": "db466efbcdc976d07c8ccae04640ef6a642d2ad0dfa3d3cec8ed67520d9d1716",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "11/03/2026 14:50",
+            "nomeArquivo": "374364890113AA9043F5CFCB1F6D6D6BDA5D587A62B89219DFC71B40BA5F948E.pdf",
+            "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS BÁSICOS PARA TODOS OS CARGOS",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2026-03-11T14:50:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 1,
+      "lastItem": 50,
+      "itemCount": 50,
+      "annulledItems": [
+        24
+      ],
+      "pairingStatus": "matched_by_role_type_and_session"
+    },
+    {
+      "paperId": "source-153-telebras-008-01",
+      "event": "telebras_25",
+      "booklet": "153_TELEBRAS_008_01",
+      "applicationDate": "2026-02-08",
+      "documents": [
+        {
+          "documentId": "source-153-telebras-008-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/E745E981210ACFFB4253484290CCDA28BDD29A946F7EAADA73A5B6899C2A2327.pdf",
+          "sha256": "caadb5285994505629eb14ced86cb7c7b1cf13a0b463f4d267b09c17edae0b84",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "13/02/2026 19:00",
+            "nomeArquivo": "E745E981210ACFFB4253484290CCDA28BDD29A946F7EAADA73A5B6899C2A2327.pdf",
+            "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 8",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2026-02-13T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-153-telebras-008-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/4138A1702D3E4697BE26B8BE9AD2FE1605A687A3BE5D171C97C3359FBFA2E5B1.pdf",
+          "sha256": "a935f49638e4e4cbd45696d93dd155954229010f02af1d7b1576507f17f58e19",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "11/03/2026 14:50",
+            "nomeArquivo": "4138A1702D3E4697BE26B8BE9AD2FE1605A687A3BE5D171C97C3359FBFA2E5B1.pdf",
+            "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – CARGO 8",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2026-03-11T14:50:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "annulledItems": [],
+      "pairingStatus": "matched_by_role_type_and_session"
+    },
+    {
+      "paperId": "source-153-telebras-003-01",
+      "event": "telebras_25",
+      "booklet": "153_TELEBRAS_003_01",
+      "applicationDate": "2026-02-08",
+      "documents": [
+        {
+          "documentId": "source-153-telebras-003-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/02A841CD7E3B256A0F85C4096A481C4BE5C82237B440909486D211B69F01732E.pdf",
+          "sha256": "cce01320ae74f9543dbb82eafcce190988cd9d39fb558d9fec3c8b05aed4add3",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "13/02/2026 19:00",
+            "nomeArquivo": "02A841CD7E3B256A0F85C4096A481C4BE5C82237B440909486D211B69F01732E.pdf",
+            "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 3",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2026-02-13T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-153-telebras-003-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/3586BBD69D6FCE74C2B891E0942C1654AE304F4BBDD7130BB311AFBDD5BAF3EA.pdf",
+          "sha256": "2a194faf3167157e27f8c6cb09f95aa9132b51776b56adc23fc65ad8aac57bb7",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "11/03/2026 14:50",
+            "nomeArquivo": "3586BBD69D6FCE74C2B891E0942C1654AE304F4BBDD7130BB311AFBDD5BAF3EA.pdf",
+            "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – CARGO 3",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2026-03-11T14:50:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "annulledItems": [],
+      "pairingStatus": "matched_by_role_type_and_session"
+    },
+    {
+      "paperId": "source-072-stm-002-01",
+      "event": "stm_25",
+      "booklet": "072_STM_002_01",
+      "applicationDate": "2025-06-01",
+      "documents": [
+        {
+          "documentId": "source-072-stm-002-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/072_STM_002_01.pdf",
+          "sha256": "fc535e5b778a797a37e472e5f09ef6b23b0dd0a789b22a49404e3ca62d96b9a2",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "06/06/2025 19:00",
+            "nomeArquivo": "072_STM_002_01.pdf",
+            "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – CARGO 2",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2025-06-06T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-072-stm-002-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/Gab_Definitivo_072_STM_002_01.pdf",
+          "sha256": "f8edfd128b65fa2d72e859510dbc9add99a33e32acfb665d1b082a61b4898786",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "02/07/2025 14:50",
+            "nomeArquivo": "Gab_Definitivo_072_STM_002_01.pdf",
+            "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – CARGO 2",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2025-07-02T14:50:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "annulledItems": [
+        54,
+        101,
+        102,
+        114,
+        120
+      ],
+      "pairingStatus": "matched_by_role_type_and_session"
+    },
+    {
+      "paperId": "source-205-funpresp-26-jud-009-01",
+      "event": "funpresp_26_jud",
+      "booklet": "205_FUNPRESP_26_JUD_009_01",
+      "applicationDate": "2026-07-05",
+      "documents": [
+        {
+          "documentId": "source-205-funpresp-26-jud-009-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_26_JUD/arquivos/7E92AF127EDC1384FBB1947BDFA3C6AE05877B614EC4ADBEDDF4F8CF7BEC6EB7.pdf",
+          "sha256": "777f678732cac3a043f8d202b1445036ea813b5c0b87331463bb5229f5a6dc62",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "10/07/2026 19:00",
+            "nomeArquivo": "7E92AF127EDC1384FBB1947BDFA3C6AE05877B614EC4ADBEDDF4F8CF7BEC6EB7.pdf",
+            "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – EMPREGO 9",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2026-07-10T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-205-funpresp-26-jud-009-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_26_JUD/arquivos/E13E2B3833C356EA314B5FC41D3C8C9A8E4CEFC21FFC2E4420C69DB9843C7802.pdf",
+          "sha256": "addbf9ccaa9420cff7904dd7795292804b731041f982b37aeac5a180c8486803",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "05/08/2026 10:10",
+            "nomeArquivo": "E13E2B3833C356EA314B5FC41D3C8C9A8E4CEFC21FFC2E4420C69DB9843C7802.pdf",
+            "descricaoArquivo": " GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – EMPREGO 9",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2026-08-05T10:10:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "annulledItems": [],
+      "pairingStatus": "matched_by_role_type_and_session"
+    },
+    {
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "event": "funpresp_26_jud",
+      "booklet": "205_FUNPRESP_26_JUD_005_01",
+      "applicationDate": "2026-07-05",
+      "documents": [
+        {
+          "documentId": "source-205-funpresp-26-jud-005-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_26_JUD/arquivos/C4A6B006AE90243DAC8E8FC725C598DFE1545DA10B31B9C85EABBC33A4F41E42.pdf",
+          "sha256": "9c9dbd074669c17df13c3c42360ec893a503e0b68416140685d74f5b1b627b4e",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "10/07/2026 19:00",
+            "nomeArquivo": "C4A6B006AE90243DAC8E8FC725C598DFE1545DA10B31B9C85EABBC33A4F41E42.pdf",
+            "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS – EMPREGO 5",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2026-07-10T19:00:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-205-funpresp-26-jud-005-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_26_JUD/arquivos/AEE58581EE3C00C2BA0E78DC2C5C62365F48C3A9485BF3F2EEF602AB45F76737.pdf",
+          "sha256": "236f8a83111b80bce6a8d354278a2a1b5ad05fca44458dd5b3b87da671a8f89c",
+          "listingEntry": {
+            "tipoExtensaoArquivo": "_.pdf",
+            "dataArquivo": "05/08/2026 10:10",
+            "nomeArquivo": "AEE58581EE3C00C2BA0E78DC2C5C62365F48C3A9485BF3F2EEF602AB45F76737.pdf",
+            "descricaoArquivo": " GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS – EMPREGO 5",
+            "isDataValid": true,
+            "isGuid": false,
+            "dataArquivoObj": "2026-08-05T10:10:00"
+          },
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 51,
+      "lastItem": 120,
+      "itemCount": 70,
+      "annulledItems": [
+        51,
+        97
+      ],
+      "pairingStatus": "matched_by_role_type_and_session"
+    },
+    {
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "event": "alerj2025",
+      "booklet": "Especialista Legislativo - Nível IV - Comunicação Social - 1 - Turno Manhã",
+      "applicationDate": "2026-02-08",
+      "documents": [
+        {
+          "documentId": "source-alerj-2026-comunicacao-manha-tipo1-paper",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cns106-especialista-legislativo-nivel-iv-comunicacao-social-cns106-tipo-1.pdf",
+          "sha256": "a50ad97d853e1e1b309ed6c0b2f41269039259730c21d0acae36d2b9c97b2843",
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/especialista-alerj-gabarito-definitivo.pdf",
+          "sha256": "4b9c907a58e2abfe40635839091f9f9f335b3d5e1ce57cbd165d54336f8e69d5",
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ],
+      "firstItem": 1,
+      "lastItem": 80,
+      "itemCount": 80,
+      "annulledItems": [
+        19
+      ],
+      "pairingStatus": "matched_by_role_type_and_session",
+      "keySourcePage": 11,
+      "sourceBlocks": {
+        "basic": [
+          1,
+          50
+        ],
+        "specific": [
+          51,
+          80
+        ]
+      }
+    }
+  ],
+  "references": [
+    {
+      "documentId": "reference-camara-communication-manual-2025-library",
+      "url": "https://bd.camara.leg.br/bd/handle/bdcamara/57184",
+      "file": "sources/references/camara-manual-comunicacao-library.html",
+      "sha256": "105a752649acfa288e1fba9d70eb24857731c41b369dccb736a1612da0fb7335",
+      "method": "initial_library_landing_page_hash_only_not_full_book_or_repeat_equality"
+    }
+  ],
+  "excludedCandidates": [
+    {
+      "candidate": "Câmara 2014 Área XIX / 132 e 194",
+      "reason": "Anulados na chave definitiva; não liberados."
+    },
+    {
+      "candidate": "Funpresp-Jud Publicidade / 51 e 97",
+      "reason": "Anulados; não liberados."
+    },
+    {
+      "candidate": "Manuais específicos",
+      "reason": "Citar linguagem simples no Manual de Comunicação 2025 não equivale a cobrar o Manual de Linguagem Simples 2024. Não foi criado vínculo com Ato 218/2025."
+    },
+    {
+      "candidate": "Temas próximos",
+      "reason": "Naming foi vinculado a branding; não usado para preencher artificialmente Conceito de marca. Colaboração e adequação de linguagem não foram distribuídas para CTA/elementos de postagem. Governança genérica não vira questão específica do Decreto 9203 nem do modelo New Public Governance."
+    }
+  ],
+  "researchScope": [
+    "Official event APIs checked for communication, public administration, IT/data and parliamentary sources; only seven selected complete pairs became canonical. Event names returning non-JSON or no files do not prove absence of a competition or an item.",
+    "Search engines and public third-party metadata were leads only. Manual questions were ultimately confirmed against the official FGV ALERJ booklet, exact morning/type-1 definitive table and local official 2025 manual. No third-party key or commentary was imported.",
+    "FUNPRESP_26_JUD employment 9 contains a valid definitive CE on narrative analysis of quantitative panels. It is distinct from generic corporate storytelling or UX narratives.",
+    "Other candidates from TCE/MG, TCE/RS, TCE/MS, FUB, INPI, FINEP, IBAMA and ICMBio were selectively examined without blanket imports. Some full booklets are MC; they were not converted to CE."
+  ],
+  "deferredCandidates": [
+    {
+      "candidate": "AGSUS 26 RD — Cargo 36, bloco II, item 13",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/AGSUS_26_RD/arquivos/A417F42AE51743A475DE41797AE6A47B1B06518AC8B02E2C8368EB6A8DEC7942.pdf",
+      "reason": "Matriz conjunta de prova e gabarito definitivo com formato diferente das tabelas atuais. Candidato legítimo para análise futura; não foi incorporado como um novo par convencional nem necessário para comprovar a questão distinta da Funpresp-Jud. A data de aplicação e o formato de origem ainda exigem preparação própria."
+    }
+  ]
+}

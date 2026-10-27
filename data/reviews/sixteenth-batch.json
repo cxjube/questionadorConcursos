@@ -1,0 +1,1152 @@
+{
+  "id": "sixteenth-batch",
+  "reviewedAt": "2026-10-27",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/sixteenth-batch-release.md",
+  "previousCatalogSha256": "c3ccd8a7cdd43724d8210c8b2340534f74887f516049d2ed01dc1974ec1f6cf2",
+  "items": [
+    {
+      "questionId": "153-telebras-cb1-01-q008",
+      "paperId": "source-153-telebras-cb1-01",
+      "number": 8,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        263.596,
+        309.156
+      ],
+      "contextIds": [
+        "telebras-2026-information-passage",
+        "telebras-2026-information-command"
+      ],
+      "answerKeyId": "153-telebras-cb1-01-q008-key-v1",
+      "answerDocumentId": "source-153-telebras-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-3"
+      ],
+      "justification": "Ortografia dos prefixos antes de palavra iniciada por h."
+    },
+    {
+      "questionId": "153-telebras-cb1-01-q013",
+      "paperId": "source-153-telebras-cb1-01",
+      "number": 13,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        672.366,
+        695.266
+      ],
+      "contextIds": [
+        "telebras-2026-streaming-passage",
+        "telebras-2026-streaming-command"
+      ],
+      "answerKeyId": "153-telebras-cb1-01-q013-key-v1",
+      "answerDocumentId": "source-153-telebras-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-3"
+      ],
+      "justification": "Distinção entre regras de acentuação."
+    },
+    {
+      "questionId": "153-telebras-008-01-q053",
+      "paperId": "source-153-telebras-008-01",
+      "number": 53,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        216.766,
+        242.676
+      ],
+      "contextIds": [
+        "telebras-2026-marketing-command"
+      ],
+      "answerKeyId": "153-telebras-008-01-q053-key-v1",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-2-2"
+      ],
+      "justification": "Segmentação de consumidores na preparação de estratégias de marketing."
+    },
+    {
+      "questionId": "153-telebras-008-01-q061",
+      "paperId": "source-153-telebras-008-01",
+      "number": 61,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        643.086,
+        668.966
+      ],
+      "contextIds": [
+        "telebras-2026-branding-command"
+      ],
+      "answerKeyId": "153-telebras-008-01-q061-key-v1",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-4-2"
+      ],
+      "justification": "Naming como parte das decisões de identidade e branding."
+    },
+    {
+      "questionId": "153-telebras-008-01-q062",
+      "paperId": "source-153-telebras-008-01",
+      "number": 62,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        683.546,
+        722.386
+      ],
+      "contextIds": [
+        "telebras-2026-branding-command"
+      ],
+      "answerKeyId": "153-telebras-008-01-q062-key-v1",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-4-2"
+      ],
+      "justification": "Distinção entre branding interno e marca de componente."
+    },
+    {
+      "questionId": "153-telebras-008-01-q095",
+      "paperId": "source-153-telebras-008-01",
+      "number": 95,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        208.006,
+        231.036
+      ],
+      "contextIds": [
+        "telebras-2026-digital-planning-command"
+      ],
+      "answerKeyId": "153-telebras-008-01-q095-key-v1",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-4-8"
+      ],
+      "justification": "Integração de meios e públicos no plano de comunicação."
+    },
+    {
+      "questionId": "153-telebras-008-01-q099",
+      "paperId": "source-153-telebras-008-01",
+      "number": 99,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        386.976,
+        432.896
+      ],
+      "contextIds": [
+        "telebras-2026-digital-planning-command"
+      ],
+      "answerKeyId": "153-telebras-008-01-q099-key-v1",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-5-1"
+      ],
+      "justification": "Planejamento digital com acompanhamento e revisão contínuos."
+    },
+    {
+      "questionId": "153-telebras-008-01-q101",
+      "paperId": "source-153-telebras-008-01",
+      "number": 101,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        493.656,
+        516.776
+      ],
+      "contextIds": [
+        "telebras-2026-digital-planning-command"
+      ],
+      "answerKeyId": "153-telebras-008-01-q101-key-v1",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-5-2"
+      ],
+      "justification": "Colaboração online e distribuição da participação."
+    },
+    {
+      "questionId": "153-telebras-008-01-q105",
+      "paperId": "source-153-telebras-008-01",
+      "number": 105,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        708.026,
+        742.546
+      ],
+      "contextIds": [
+        "telebras-2026-web-writing-command"
+      ],
+      "answerKeyId": "153-telebras-008-01-q105-key-v1",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-5-2"
+      ],
+      "justification": "Construção colaborativa e adequação de linguagem em canais digitais."
+    },
+    {
+      "questionId": "153-telebras-008-01-q106",
+      "paperId": "source-153-telebras-008-01",
+      "number": 106,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        755.666,
+        790.186
+      ],
+      "contextIds": [
+        "telebras-2026-web-writing-command"
+      ],
+      "answerKeyId": "153-telebras-008-01-q106-key-v1",
+      "answerDocumentId": "source-153-telebras-008-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-1-2"
+      ],
+      "justification": "Edição jornalística em portais e redes."
+    },
+    {
+      "questionId": "153-telebras-003-01-q070",
+      "paperId": "source-153-telebras-003-01",
+      "number": 70,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        436.656,
+        469.496
+      ],
+      "contextIds": [
+        "telebras-2026-administrative-powers-command"
+      ],
+      "answerKeyId": "153-telebras-003-01-q070-key-v1",
+      "answerDocumentId": "source-153-telebras-003-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-5-1"
+      ],
+      "justification": "Distinção entre poder de polícia e poder disciplinar."
+    },
+    {
+      "questionId": "153-telebras-003-01-q076",
+      "paperId": "source-153-telebras-003-01",
+      "number": 76,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        734.786,
+        789.346
+      ],
+      "contextIds": [
+        "telebras-2026-governance-command"
+      ],
+      "answerKeyId": "153-telebras-003-01-q076-key-v1",
+      "answerDocumentId": "source-153-telebras-003-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-8-4"
+      ],
+      "justification": "Valor público e conformidade na governança."
+    },
+    {
+      "questionId": "072-stm-002-01-q052",
+      "paperId": "source-072-stm-002-01",
+      "number": 52,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        158.917,
+        194.758
+      ],
+      "contextIds": [
+        "stm-2025-public-management-command"
+      ],
+      "answerKeyId": "072-stm-002-01-q052-key-v1",
+      "answerDocumentId": "source-072-stm-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-9-2"
+      ],
+      "justification": "Papel da liderança como mecanismo de governança."
+    },
+    {
+      "questionId": "072-stm-002-01-q078",
+      "paperId": "source-072-stm-002-01",
+      "number": 78,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        122.797,
+        151.197
+      ],
+      "contextIds": [
+        "stm-2025-risk-command"
+      ],
+      "answerKeyId": "072-stm-002-01-q078-key-v1",
+      "answerDocumentId": "source-072-stm-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-9-2"
+      ],
+      "justification": "Monitoramento e avaliação pelas instâncias de governança."
+    },
+    {
+      "questionId": "072-stm-002-01-q084",
+      "paperId": "source-072-stm-002-01",
+      "number": 84,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        476.917,
+        519.477
+      ],
+      "contextIds": [
+        "stm-2025-governance-command"
+      ],
+      "answerKeyId": "072-stm-002-01-q084-key-v1",
+      "answerDocumentId": "source-072-stm-002-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-9-2"
+      ],
+      "justification": "Limites da estrutura formal para assegurar boa governança."
+    },
+    {
+      "questionId": "205-funpresp-26-jud-009-01-q071",
+      "paperId": "source-205-funpresp-26-jud-009-01",
+      "number": 71,
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        706.226,
+        747.826
+      ],
+      "contextIds": [
+        "funpresp-2026-bi-architecture-passage",
+        "funpresp-2026-bi-architecture-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-009-01-q071-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-009-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-8-3"
+      ],
+      "justification": "Integração de fontes em painéis Power BI/Tableau na arquitetura descrita."
+    },
+    {
+      "questionId": "205-funpresp-26-jud-009-01-q077",
+      "paperId": "source-205-funpresp-26-jud-009-01",
+      "number": 77,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        325.996,
+        371.936
+      ],
+      "contextIds": [
+        "funpresp-2026-data-communication-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-009-01-q077-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-009-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-5-1"
+      ],
+      "justification": "Segmentação de audiência no planejamento de comunicação digital."
+    },
+    {
+      "questionId": "205-funpresp-26-jud-009-01-q081",
+      "paperId": "source-205-funpresp-26-jud-009-01",
+      "number": 81,
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        550.686,
+        585.206
+      ],
+      "contextIds": [
+        "funpresp-2026-data-communication-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-009-01-q081-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-009-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-tecnologia-informacao-dados-8-4"
+      ],
+      "justification": "Narrativa analítica para comunicar resultados quantitativos."
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q053",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 53,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        218.236,
+        257.316
+      ],
+      "contextIds": [
+        "funpresp-2026-advertising-planning-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q053-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-1-5"
+      ],
+      "justification": "Briefing no planejamento de uma nova campanha."
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q060",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 60,
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        699.266,
+        738.466
+      ],
+      "contextIds": [
+        "funpresp-2026-advertising-media-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q060-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-1-6"
+      ],
+      "justification": "Coerência entre planejamento de mídia e comunicação."
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q076",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 76,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        176.566,
+        256.716
+      ],
+      "contextIds": [
+        "funpresp-2026-copywriting-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q076-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-1-7"
+      ],
+      "justification": "Diferenças entre redação para resposta direta e branding."
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q082",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 82,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        707.306,
+        747.466
+      ],
+      "contextIds": [
+        "funpresp-2026-public-communication-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q082-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-5-3"
+      ],
+      "justification": "Adequação da comunicação pública às plataformas e aos públicos."
+    },
+    {
+      "questionId": "205-funpresp-26-jud-005-01-q108",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "number": 108,
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        543.606,
+        617.846
+      ],
+      "contextIds": [
+        "funpresp-2026-strategic-marketing-command"
+      ],
+      "answerKeyId": "205-funpresp-26-jud-005-01-q108-key-v1",
+      "answerDocumentId": "source-205-funpresp-26-jud-005-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-2-2"
+      ],
+      "justification": "Segmentação e posicionamento no planejamento de marketing."
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q019",
+      "paperId": "source-959-bcb-cb1-01",
+      "number": 19,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        156.757,
+        196.318
+      ],
+      "contextIds": [
+        "bcb-2024-unesco-passage",
+        "bcb-2024-unesco-grammar-command"
+      ],
+      "answerKeyId": "959-bcb-cb1-01-q019-key-v1",
+      "answerDocumentId": "source-959-bcb-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-6-2"
+      ],
+      "justification": "Substituição lexical com preservação do sentido contextual."
+    },
+    {
+      "questionId": "959-bcb-cb1-01-q021",
+      "paperId": "source-959-bcb-cb1-01",
+      "number": 21,
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        252.277,
+        291.838
+      ],
+      "contextIds": [
+        "bcb-2024-unesco-passage",
+        "bcb-2024-unesco-grammar-command"
+      ],
+      "answerKeyId": "959-bcb-cb1-01-q021-key-v1",
+      "answerDocumentId": "source-959-bcb-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-5-2"
+      ],
+      "justification": "Coordenação adversativa no contraste entre benefícios e riscos."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q131",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 131,
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        81.179,
+        140.327
+      ],
+      "contextIds": [
+        "camara-2014-government-systems-command"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q131-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-4"
+      ],
+      "justification": "Combinação de características nos sistemas mistos de governo."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q165",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 165,
+      "sourcePage": 4,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        287.939,
+        353.089
+      ],
+      "contextIds": [
+        "camara-2014-brazil-state-command"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q165-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-12"
+      ],
+      "justification": "Formação do Estado imperial e articulação com poderes regionais."
+    },
+    {
+      "questionId": "camara-2014-area-xix-q196",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "number": 196,
+      "sourcePage": 6,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        101.759,
+        133.908
+      ],
+      "contextIds": [
+        "camara-2014-citizenship-passage",
+        "camara-2014-citizenship-command"
+      ],
+      "answerKeyId": "camara-2014-area-xix-q196-key-v1",
+      "answerDocumentId": "source-camara-2014-consultor-area-xix-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-13"
+      ],
+      "justification": "Reforma eleitoral de 1881 e limites históricos da cidadania."
+    },
+    {
+      "questionId": "142-tcuaufc-cb1-01-q079",
+      "paperId": "source-142-tcuaufc-cb1-01",
+      "number": 79,
+      "sourcePage": 5,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        414.336,
+        453.656
+      ],
+      "contextIds": [
+        "tcu-2026-disciplinary-command"
+      ],
+      "answerKeyId": "142-tcuaufc-cb1-01-q079-key-v1",
+      "answerDocumentId": "source-142-tcuaufc-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-4-1"
+      ],
+      "justification": "Garantias do processo disciplinar também para ocupante apenas de cargo em comissão."
+    },
+    {
+      "questionId": "142-tcuaufc-cb1-01-q080",
+      "paperId": "source-142-tcuaufc-cb1-01",
+      "number": 80,
+      "sourcePage": 5,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        468.336,
+        494.576
+      ],
+      "contextIds": [
+        "tcu-2026-disciplinary-command"
+      ],
+      "answerKeyId": "142-tcuaufc-cb1-01-q080-key-v1",
+      "answerDocumentId": "source-142-tcuaufc-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-4-2"
+      ],
+      "justification": "Exceção às proibições funcionais no regime disciplinar."
+    },
+    {
+      "questionId": "142-tcuaufc-cb1-01-q081",
+      "paperId": "source-142-tcuaufc-cb1-01",
+      "number": 81,
+      "sourcePage": 5,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        509.256,
+        535.526
+      ],
+      "contextIds": [
+        "tcu-2026-disciplinary-command"
+      ],
+      "answerKeyId": "142-tcuaufc-cb1-01-q081-key-v1",
+      "answerDocumentId": "source-142-tcuaufc-cb1-01-key",
+      "answerLocator": "PDF p. 1",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-4-3"
+      ],
+      "justification": "Obrigatoriedade de PAD conforme a penalidade possível."
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q063",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 63,
+      "questionType": "multiple_choice",
+      "sourcePage": 15,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        588,
+        657
+      ],
+      "paragraphBounds": [
+        [
+          588,
+          644
+        ],
+        [
+          656,
+          657
+        ]
+      ],
+      "optionBounds": [
+        [
+          669,
+          681
+        ],
+        [
+          692,
+          704
+        ],
+        [
+          715,
+          716
+        ],
+        [
+          727,
+          740
+        ],
+        [
+          750,
+          763
+        ]
+      ],
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q063-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "d",
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-8-2"
+      ]
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q070",
+      "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+      "number": 70,
+      "questionType": "multiple_choice",
+      "sourcePage": 16,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        357,
+        584
+      ],
+      "paragraphBounds": [
+        [
+          357,
+          358
+        ],
+        [
+          369,
+          404
+        ],
+        [
+          415,
+          549
+        ],
+        [
+          560,
+          561
+        ],
+        [
+          571,
+          584
+        ]
+      ],
+      "optionBounds": [
+        [
+          595,
+          608
+        ],
+        [
+          618,
+          631
+        ],
+        [
+          641,
+          654
+        ],
+        [
+          664,
+          677
+        ],
+        [
+          687,
+          700
+        ]
+      ],
+      "contextIds": [],
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q070-key-v1",
+      "answerDocumentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "answerValue": "e",
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-8-2"
+      ]
+    }
+  ],
+  "contexts": [
+    {
+      "contextId": "telebras-2026-information-passage",
+      "paperId": "source-153-telebras-cb1-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        225,
+        477
+      ],
+      "paragraphBounds": [
+        [
+          225,
+          335
+        ],
+        [
+          345,
+          477
+        ]
+      ],
+      "creditBounds": [
+        493,
+        508
+      ]
+    },
+    {
+      "contextId": "telebras-2026-information-command",
+      "paperId": "source-153-telebras-cb1-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        523,
+        535
+      ]
+    },
+    {
+      "contextId": "telebras-2026-streaming-passage",
+      "paperId": "source-153-telebras-cb1-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        379,
+        493
+      ],
+      "paragraphBounds": [
+        [
+          379,
+          403
+        ],
+        [
+          413,
+          448
+        ],
+        [
+          458,
+          493
+        ]
+      ],
+      "creditBounds": [
+        503,
+        511
+      ]
+    },
+    {
+      "contextId": "telebras-2026-streaming-command",
+      "paperId": "source-153-telebras-cb1-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        525,
+        540
+      ]
+    },
+    {
+      "contextId": "telebras-2026-marketing-command",
+      "paperId": "source-153-telebras-008-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        81,
+        95
+      ]
+    },
+    {
+      "contextId": "telebras-2026-branding-command",
+      "paperId": "source-153-telebras-008-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        467,
+        481
+      ]
+    },
+    {
+      "contextId": "telebras-2026-digital-planning-command",
+      "paperId": "source-153-telebras-008-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        169,
+        194
+      ]
+    },
+    {
+      "contextId": "telebras-2026-web-writing-command",
+      "paperId": "source-153-telebras-008-01",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        598.44564,
+        621.44564
+      ]
+    },
+    {
+      "contextId": "telebras-2026-administrative-powers-command",
+      "paperId": "source-153-telebras-003-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        331.75563999999997,
+        342.87564000000003
+      ]
+    },
+    {
+      "contextId": "telebras-2026-governance-command",
+      "paperId": "source-153-telebras-003-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        642.72564,
+        653.72564
+      ]
+    },
+    {
+      "contextId": "stm-2025-public-management-command",
+      "paperId": "source-072-stm-002-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        70.2367,
+        94.316988
+      ]
+    },
+    {
+      "contextId": "stm-2025-risk-command",
+      "paperId": "source-072-stm-002-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        47.076699999999995,
+        47.2767
+      ]
+    },
+    {
+      "contextId": "stm-2025-governance-command",
+      "paperId": "source-072-stm-002-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        342,
+        359
+      ]
+    },
+    {
+      "contextId": "funpresp-2026-bi-architecture-passage",
+      "paperId": "source-205-funpresp-26-jud-009-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        318,
+        457
+      ]
+    },
+    {
+      "contextId": "funpresp-2026-bi-architecture-command",
+      "paperId": "source-205-funpresp-26-jud-009-01",
+      "sourcePage": 1,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        476,
+        505
+      ]
+    },
+    {
+      "contextId": "funpresp-2026-data-communication-command",
+      "paperId": "source-205-funpresp-26-jud-009-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        229.75564,
+        252.87564
+      ]
+    },
+    {
+      "contextId": "funpresp-2026-advertising-planning-command",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        81,
+        96
+      ]
+    },
+    {
+      "contextId": "funpresp-2026-advertising-media-command",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "sourcePage": 1,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        399,
+        466
+      ]
+    },
+    {
+      "contextId": "funpresp-2026-copywriting-command",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        51.62564,
+        78.48563999999999
+      ]
+    },
+    {
+      "contextId": "funpresp-2026-public-communication-command",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        471.81564,
+        485.33564
+      ]
+    },
+    {
+      "contextId": "funpresp-2026-strategic-marketing-command",
+      "paperId": "source-205-funpresp-26-jud-005-01",
+      "sourcePage": 4,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        51.62564,
+        107.52564
+      ]
+    },
+    {
+      "contextId": "bcb-2024-unesco-passage",
+      "paperId": "source-959-bcb-cb1-01",
+      "sourcePage": 2,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        65,
+        531
+      ],
+      "paragraphBounds": [
+        [
+          65,
+          167
+        ],
+        [
+          178,
+          368
+        ],
+        [
+          379,
+          494
+        ],
+        [
+          505,
+          531
+        ]
+      ],
+      "creditBounds": [
+        549,
+        551
+      ]
+    },
+    {
+      "contextId": "bcb-2024-unesco-grammar-command",
+      "paperId": "source-959-bcb-cb1-01",
+      "sourcePage": 2,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        47,
+        61
+      ]
+    },
+    {
+      "contextId": "camara-2014-government-systems-command",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "sourcePage": 3,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        50,
+        52
+      ]
+    },
+    {
+      "contextId": "camara-2014-brazil-state-command",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "sourcePage": 4,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        50,
+        68
+      ]
+    },
+    {
+      "contextId": "camara-2014-citizenship-passage",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "sourcePage": 6,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        516,
+        664
+      ],
+      "creditBounds": [
+        681,
+        697
+      ]
+    },
+    {
+      "contextId": "camara-2014-citizenship-command",
+      "paperId": "source-camara-2014-consultor-area-xix",
+      "sourcePage": 6,
+      "sourceColumn": "left",
+      "sourceBounds": [
+        715,
+        732
+      ]
+    },
+    {
+      "contextId": "tcu-2026-disciplinary-command",
+      "paperId": "source-142-tcuaufc-cb1-01",
+      "sourcePage": 5,
+      "sourceColumn": "right",
+      "sourceBounds": [
+        305,
+        320
+      ]
+    }
+  ]
+}

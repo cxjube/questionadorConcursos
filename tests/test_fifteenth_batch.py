@@ -28,7 +28,7 @@ class FifteenthBatchTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.c = read_json(ROOT / 'data/catalog.json')
+        cls.c = json.loads(gzip.decompress((ROOT / 'data/reviews/pre-sixteenth-catalog.json.gz').read_bytes()))
         cls.review = read_json(ROOT / 'data/reviews/fifteenth-batch.json')
         cls.discovery = read_json(ROOT / 'data/reviews/fifteenth-source-discovery.json')
         cls.docs = {d['id']: d for d in cls.c['documents']}
@@ -151,5 +151,5 @@ class FifteenthBatchTests(unittest.TestCase):
         report = coverage(self.c, ['camara-2026-ciencia-politica-1'])
         self.assertEqual((report['directItems'], report['descendantsOnly'], report['emptyItems'], report['emptyLeaves']), (165, 32, 30, 30))
         self.assertEqual(report['blocks'], {'basic': {'total': 155, 'ce': 154}, 'specific': {'total': 185, 'ce': 170}})
-        for path, content in current_artifacts(self.c, self.review).items():
+        for path, content in current_artifacts(read_json(ROOT / 'data/catalog.json'), read_json(ROOT / 'data/reviews/sixteenth-batch.json')).items():
             self.assertEqual((ROOT / path).read_text(), content)

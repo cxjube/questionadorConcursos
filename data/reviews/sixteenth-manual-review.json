@@ -1,0 +1,25 @@
+{
+  "reviewedAt": "2026-10-27",
+  "method": "agent_assisted_selected_section_comparison",
+  "libraryDocumentId": "reference-camara-communication-manual-2025-library",
+  "libraryUrl": "https://bd.camara.leg.br/bd/handle/bdcamara/57184",
+  "bookSha256": "ca465c69966e7ce1e81a723686ebc1e485a76aa8a5a87ed1ab02867ea1f38475",
+  "bookAcquiredAt": "2026-10-26T19:22:37.943496+00:00",
+  "edition": "2025",
+  "isbn": "978-85-402-1123-0",
+  "retention": "Full book consulted locally, not republished. Canonical reference retains only the official library landing page; short quoted evidence is retained here. Paper/key remain independent source records.",
+  "items": [
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q063",
+      "pdfPage": 33,
+      "printedPage": 38,
+      "activeQuote": "O objetivo da linguagem simples é transmitir informações de forma direta e inclusiva. Isso ajuda a tornar assuntos complicados mais fáceis de entender."
+    },
+    {
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q070",
+      "pdfPage": 74,
+      "printedPage": 81,
+      "activeQuote": "A atuação da Assessoria de Imprensa visa facilitar e agilizar o trabalho de apuração dos repórteres, os quais também podem solicitar demandas pela Lei de Acesso à Informação, porém com prazo legal maior para recebimento da resposta."
+    }
+  ]
+}

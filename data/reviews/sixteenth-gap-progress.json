@@ -1,0 +1,342 @@
+{
+  "reviewedAt": "2026-10-27",
+  "scope": "All 30 previously empty subtrees tracked. Direct mappings are partial examples, not mastery, official weights or whole-topic coverage.",
+  "beforeEmpty": 30,
+  "afterEmpty": 16,
+  "items": [
+    {
+      "syllabusItemId": "camara-2026-lingua-portuguesa-3",
+      "label": "Domínio da ortografia.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "afterCE": 2,
+      "afterMC": 0,
+      "newQuestionIds": [
+        "153-telebras-cb1-01-q008",
+        "153-telebras-cb1-01-q013"
+      ],
+      "decision": "Novo vínculo rastreável; amostra parcial, sem alegação de cobertura integral."
+    },
+    {
+      "syllabusItemId": "camara-2026-lingua-portuguesa-5-2",
+      "label": "Relações de coordenação entre orações e entre termos da oração.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "afterCE": 1,
+      "afterMC": 0,
+      "newQuestionIds": [
+        "959-bcb-cb1-01-q021"
+      ],
+      "decision": "Novo vínculo rastreável; amostra parcial, sem alegação de cobertura integral."
+    },
+    {
+      "syllabusItemId": "camara-2026-lingua-portuguesa-6-2",
+      "label": "Substituição de palavras ou de trechos de texto.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "afterCE": 1,
+      "afterMC": 0,
+      "newQuestionIds": [
+        "959-bcb-cb1-01-q019"
+      ],
+      "decision": "Novo vínculo rastreável; amostra parcial, sem alegação de cobertura integral."
+    },
+    {
+      "syllabusItemId": "camara-2026-lingua-portuguesa-6-4",
+      "label": "Reescrita de textos de diferentes gêneros e níveis de formalidade.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Não houve seleção de questão oficial com correspondência suficiente neste lote. Busca não exaustiva; não distribuir questões de assuntos vizinhos para preencher o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-2-2",
+      "label": "Parecer: responsabilidade do emissor do parecer.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Não houve seleção de questão oficial com correspondência suficiente neste lote. Busca não exaustiva; não distribuir questões de assuntos vizinhos para preencher o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-4-1",
+      "label": "Fontes e princípios.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "afterCE": 1,
+      "afterMC": 0,
+      "newQuestionIds": [
+        "142-tcuaufc-cb1-01-q079"
+      ],
+      "decision": "Novo vínculo rastreável; amostra parcial, sem alegação de cobertura integral."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-4-2",
+      "label": "Ilícito de direito administrativo disciplinar.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "afterCE": 1,
+      "afterMC": 0,
+      "newQuestionIds": [
+        "142-tcuaufc-cb1-01-q080"
+      ],
+      "decision": "Novo vínculo rastreável; amostra parcial, sem alegação de cobertura integral."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-8-1",
+      "label": "Nova Governança Pública (New Public Governance): conceito, fundamentos e evolução.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Não houve seleção de questão oficial com correspondência suficiente neste lote. Busca não exaustiva; não distribuir questões de assuntos vizinhos para preencher o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-8-2",
+      "label": "Ação pública em redes de cooperação, articulação interinstitucional e parcerias com o setor privado e terceiro setor.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Não houve seleção de questão oficial com correspondência suficiente neste lote. Busca não exaustiva; não distribuir questões de assuntos vizinhos para preencher o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-8-4",
+      "label": "Valor Público, cadeia de valor público.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "afterCE": 1,
+      "afterMC": 0,
+      "newQuestionIds": [
+        "153-telebras-003-01-q076"
+      ],
+      "decision": "Novo vínculo rastreável; amostra parcial, sem alegação de cobertura integral."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-9-2",
+      "label": "Mecanismos de governança: liderança, estratégia e controle.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "afterCE": 3,
+      "afterMC": 0,
+      "newQuestionIds": [
+        "072-stm-002-01-q052",
+        "072-stm-002-01-q078",
+        "072-stm-002-01-q084"
+      ],
+      "decision": "Novo vínculo rastreável; amostra parcial, sem alegação de cobertura integral."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-9-4",
+      "label": "Decreto Federal nº 9.203/2017 e suas alterações (política de governança da administração pública federal direta, autárquica e fundacional).",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Não houve seleção de questão oficial com correspondência suficiente neste lote. Busca não exaustiva; não distribuir questões de assuntos vizinhos para preencher o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-7-3",
+      "label": "Deputados (arts. 226 a 251 e suas alterações).",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Não houve seleção de questão oficial com correspondência suficiente neste lote. Busca não exaustiva; não distribuir questões de assuntos vizinhos para preencher o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-direito-constitucional-regimento-8-1",
+      "label": "Título I.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Não houve seleção de questão oficial com correspondência suficiente neste lote. Busca não exaustiva; não distribuir questões de assuntos vizinhos para preencher o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-tecnologia-informacao-dados-8-4",
+      "label": "Storytelling para visualização de dados.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "afterCE": 1,
+      "afterMC": 0,
+      "newQuestionIds": [
+        "205-funpresp-26-jud-009-01-q081"
+      ],
+      "decision": "Novo vínculo rastreável; amostra parcial, sem alegação de cobertura integral."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-5-2",
+      "label": "Postagens e colaborações.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "afterCE": 2,
+      "afterMC": 0,
+      "newQuestionIds": [
+        "153-telebras-008-01-q101",
+        "153-telebras-008-01-q105"
+      ],
+      "decision": "Novo vínculo rastreável; amostra parcial, sem alegação de cobertura integral."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-5-4",
+      "label": "Elementos fundamentais de publicações em redes sociais: capa, legenda, marcação, palavras-chave, call to action.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Há colaboração online e adequação de linguagem, mas não foi selecionado item que cobre diretamente capa, legenda, marcação, palavras-chave ou CTA como elementos de uma publicação."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-8-1",
+      "label": "Política de comunicação da Câmara dos Deputados (Ato da Mesa nº 218/2025).",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "As questões localizadas citam o Manual de Comunicação de 2025, não o Ato 218/2025 nem o Manual de Linguagem Simples de 2024; esses vínculos específicos continuam pendentes."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-8-2",
+      "label": "Manual de comunicação da Câmara dos Deputados.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "afterCE": 0,
+      "afterMC": 2,
+      "newQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q063",
+        "alerj-2026-comunicacao-manha-tipo1-q070"
+      ],
+      "decision": "Duas MC oficiais da ALERJ, tipo 1/manhã, citam o Manual de Comunicação da Câmara e foram comparadas com a edição de 2025. Não aumentam a reserva C/E."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-10-1",
+      "label": "Manual de linguagem simples da Câmara dos Deputados.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "As questões localizadas citam o Manual de Comunicação de 2025, não o Ato 218/2025 nem o Manual de Linguagem Simples de 2024; esses vínculos específicos continuam pendentes."
+    },
+    {
+      "syllabusItemId": "camara-2026-comunicacao-social-11",
+      "label": "Princípios constitucionais da administração pública aplicados à comunicação (Art. 37, § 1º da CF/88 e suas alterações).",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Não houve seleção de questão oficial com correspondência suficiente neste lote. Busca não exaustiva; não distribuir questões de assuntos vizinhos para preencher o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-4",
+      "label": "Atendimento.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Não houve seleção de questão oficial com correspondência suficiente neste lote. Busca não exaustiva; não distribuir questões de assuntos vizinhos para preencher o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-divulgacao-institucional-2-2",
+      "label": "Planejamento de marketing.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "afterCE": 2,
+      "afterMC": 0,
+      "newQuestionIds": [
+        "153-telebras-008-01-q053",
+        "205-funpresp-26-jud-005-01-q108"
+      ],
+      "decision": "Novo vínculo rastreável; amostra parcial, sem alegação de cobertura integral."
+    },
+    {
+      "syllabusItemId": "camara-2026-divulgacao-institucional-4-1",
+      "label": "Conceito de marca.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Não houve seleção de questão oficial com correspondência suficiente neste lote. Busca não exaustiva; não distribuir questões de assuntos vizinhos para preencher o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-divulgacao-institucional-7",
+      "label": "Gestão de equipes em publicidade.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Não houve seleção de questão oficial com correspondência suficiente neste lote. Busca não exaustiva; não distribuir questões de assuntos vizinhos para preencher o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-1-1",
+      "label": "Tipos de procedimento, ordinário, abreviado, sumário, sumaríssimo, especial e concentrado.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Não houve seleção de questão oficial com correspondência suficiente neste lote. Busca não exaustiva; não distribuir questões de assuntos vizinhos para preencher o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-ciencia-politica-4",
+      "label": "Sistemas e formas de governo.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "afterCE": 1,
+      "afterMC": 0,
+      "newQuestionIds": [
+        "camara-2014-area-xix-q131"
+      ],
+      "decision": "Novo vínculo rastreável; amostra parcial, sem alegação de cobertura integral."
+    },
+    {
+      "syllabusItemId": "camara-2026-ciencia-politica-10",
+      "label": "Política internacional contemporânea.",
+      "beforeState": "empty",
+      "afterState": "empty",
+      "afterCE": 0,
+      "afterMC": 0,
+      "newQuestionIds": [],
+      "decision": "Não houve seleção de questão oficial com correspondência suficiente neste lote. Busca não exaustiva; não distribuir questões de assuntos vizinhos para preencher o item."
+    },
+    {
+      "syllabusItemId": "camara-2026-ciencia-politica-12",
+      "label": "Formação do Estado brasileiro.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "afterCE": 1,
+      "afterMC": 0,
+      "newQuestionIds": [
+        "camara-2014-area-xix-q165"
+      ],
+      "decision": "Novo vínculo rastreável; amostra parcial, sem alegação de cobertura integral."
+    },
+    {
+      "syllabusItemId": "camara-2026-ciencia-politica-13",
+      "label": "História do voto e dos partidos no Brasil.",
+      "beforeState": "empty",
+      "afterState": "direct",
+      "afterCE": 1,
+      "afterMC": 0,
+      "newQuestionIds": [
+        "camara-2014-area-xix-q196"
+      ],
+      "decision": "Novo vínculo rastreável; amostra parcial, sem alegação de cobertura integral."
+    }
+  ]
+}

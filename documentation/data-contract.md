@@ -187,3 +187,9 @@ O 11º lote acrescenta 32 C/E, elevando a reserva a 106 itens distintos por bloc
 O catálogo mantém o contrato v3: 254 questões, 242 C/E, 112 contextos e 258 vínculos. P1/P2 têm 117/125 C/E distintos; todas as linhas anteriores permanecem idênticas. `twelfth-batch.json` registra trinta novos itens e vinte novos IDs programáticos diretamente atendidos. O inventário `coverage-current.json` e os arquivos `coverage-current.md/.csv` são atualizados por `python -m tools coverage`. A auditoria datada anterior não é sobrescrita. O JSON comprimido `content-audit-catalog-2026-10-26.json.gz` preserva exatamente o catálogo publicado anterior para testes históricos; não é fonte canônica ou dependência do site.
 
 As referências do comentário são apresentadas em lista com nomes distintos. O ajuste usa os URLs/identificadores já presentes no snapshot e não modifica o formato de backup. A identificação dos manuais oficiais está separada em `camara-reference-review.json`; os livros não são republicados nem usados para inventar questões.
+
+## Origem com blocos mistos e nova tabela FGV
+
+O contrato v3 admite também `papers[].inventory.block = mixed` para cadernos que reúnem conhecimentos básicos e específicos, como ALERJ 2026 Comunicação tipo 1/manhã (itens 1–50 básicos e 51–80 específicos). É metadado da origem; os blocos do edital de destino continuam sendo `basic`/`specific`, definidos por vínculos. Não alterar regras ou snapshots antigos com base nesse campo.
+
+O leitor offline de gabaritos reconhece o cabeçalho completo de cargo, número do tipo e turno da ALERJ e aceita linhas vazias de diagramação. Continua exigindo uma única tabela exata, comprimentos compatíveis e numeração sem duplicação; rejeita turno/tipo/cargo diferentes. A forma original de múltipla escolha e a chave definitiva são preservadas.
