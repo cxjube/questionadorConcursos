@@ -11,8 +11,11 @@
       "sha256": "d4ccc50d4fdff5345ce197658eb60ba0afa85bc841d9aef1b265900c71653985",
       "pages": 69,
       "source": "user_upload",
-      "externalIdentity": "not_verified",
-      "canonicalPublication": false
+      "externalIdentity": "byte_match_official_cdn",
+      "canonicalPublication": false,
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/C7A60D15CB0DDDFA92233056D728C555505D6B935D7048646D49445EB346F825.pdf",
+      "remoteSha256": "d4ccc50d4fdff5345ce197658eb60ba0afa85bc841d9aef1b265900c71653985",
+      "verifiedAt": "2026-10-28"
     },
     {
       "file": "data/workbench/cgu-intake/cgu2.pdf",
@@ -20,8 +23,11 @@
       "sha256": "60b757ea292e19ba1bdbb7da06f9deed6d2c6d7db5abc607342b49ab7b98da77",
       "pages": 1,
       "source": "user_upload",
-      "externalIdentity": "not_verified",
-      "canonicalPublication": false
+      "externalIdentity": "byte_match_official_cdn",
+      "canonicalPublication": false,
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/8CC969EF9F81DD9088CC93655FE2734C95419BE8A9285A887D96D915605D867C.pdf",
+      "remoteSha256": "60b757ea292e19ba1bdbb7da06f9deed6d2c6d7db5abc607342b49ab7b98da77",
+      "verifiedAt": "2026-10-28"
     }
   ],
   "rolesRead": [
@@ -68,5 +74,58 @@
   },
   "nextAction": "Wait for specialty confirmation, preserving confirmed AFFC career and uploaded notices; do not ask again for the career or fabricate Comunicação.",
   "confirmedCareer": "Auditor Federal de Finanças e Controle",
-  "userCorrectionAt": "2026-10-28"
+  "userCorrectionAt": "2026-10-28",
+  "officialListing": {
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/cgu_26_affc",
+    "file": "data/workbench/cgu-intake/cebraspe-event.json",
+    "sha256": "aac55a074758db0c70a4c1f52685e8020ee75d34147ba09a828f6fb5c3d6ecf0"
+  },
+  "consolidatedOpening": {
+    "file": "data/workbench/cgu-intake/cgu-abertura-atualizada.pdf",
+    "officialUrl": "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/FDEEFB41D8ACD48AB369A9915EA1A48C67389EC91427E98F6F264E19B1F63FB9.pdf",
+    "sha256": "1edab4a121dcdd92a553a27c132f154e86c0dcd4a0b0518af35061f32aa34eaf",
+    "externalIdentity": "initial_official_cdn_download",
+    "note": "Separate officially labelled updated opening, not a silent replacement of the original uploaded bytes."
+  },
+  "rulesReadPendingCanonicalRegistration": {
+    "objectiveItems": 170,
+    "blocks": [
+      {
+        "id": "P1",
+        "label": "Conhecimentos básicos",
+        "questionCount": 40,
+        "correct": 1,
+        "incorrect": -1,
+        "blank": 0,
+        "minimumScore": 8
+      },
+      {
+        "id": "P2",
+        "label": "Conhecimentos complementares",
+        "questionCount": 40,
+        "correct": 1,
+        "incorrect": -1,
+        "blank": 0,
+        "minimumScore": 12
+      },
+      {
+        "id": "P3",
+        "label": "Conhecimentos específicos",
+        "questionCount": 90,
+        "correct": 2,
+        "incorrect": -2,
+        "blank": 0,
+        "minimumScore": 54
+      }
+    ],
+    "minimumTotalScore": 78,
+    "durationMinutes": 300,
+    "sourceClauses": [
+      "7.1",
+      "7.2",
+      "8.11.2",
+      "8.11.4"
+    ],
+    "note": "Read from opening; no inherited Câmara/ABDI scoring. CGU would need explicit support for complementary syllabus block and three CE blocks before a complete simulator."
+  }
 }
