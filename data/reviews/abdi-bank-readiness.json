@@ -1,11 +1,11 @@
 {
   "reviewedAt": "2026-10-27",
   "roleId": "abdi-comunicacao-marketing",
-  "scope": "Current third-lot capacity, exact distinct-ID matching. Four additional distinct MC across nature/creation combined, one procurement/agreements and one ethics remain necessary. Per-role full editorial sweeps are scheduled at project close, not claimed completed now.",
-  "distinctTrainingQuestions": 218,
-  "distinctMC": 72,
+  "scope": "Fourth lot: exact distinct-ID quota matching now fills 60/60, including 4/4/8/4 institutional. The simulator can start with real reviewed official data. Institutional reserve is minimal: any later exclusion may require blocking again. Whole-bank editorial sweeps remain scheduled for project close.",
+  "distinctTrainingQuestions": 232,
+  "distinctMC": 86,
   "distinctCE": 146,
-  "minimumAdditionalMC": 6,
+  "minimumAdditionalMC": 0,
   "distribution": [
     {
       "block": "basic",
@@ -25,52 +25,52 @@
       "block": "basic",
       "disciplineId": "abdi-nocoes-informatica",
       "requiredMC": 6,
-      "availableDistinctMC": 14,
+      "availableDistinctMC": 15,
       "missingForMinimum": 0
     },
     {
       "block": "institutional",
       "disciplineId": "abdi-servicos-sociais-autonomos",
       "requiredMC": 4,
-      "availableDistinctMC": 3,
-      "missingForMinimum": 1
+      "availableDistinctMC": 7,
+      "missingForMinimum": 0
     },
     {
       "block": "institutional",
       "disciplineId": "abdi-criacao-estatuto",
       "requiredMC": 4,
-      "availableDistinctMC": 4,
+      "availableDistinctMC": 6,
       "missingForMinimum": 0
     },
     {
       "block": "institutional",
       "disciplineId": "abdi-licitacoes-convenios",
       "requiredMC": 8,
-      "availableDistinctMC": 7,
-      "missingForMinimum": 1
+      "availableDistinctMC": 8,
+      "missingForMinimum": 0
     },
     {
       "block": "institutional",
       "disciplineId": "abdi-etica-missao",
       "requiredMC": 4,
-      "availableDistinctMC": 3,
-      "missingForMinimum": 1
+      "availableDistinctMC": 4,
+      "missingForMinimum": 0
     },
     {
       "block": "specific",
       "disciplineId": "abdi-comunicacao-marketing",
       "requiredMC": 20,
-      "availableDistinctMC": 28,
+      "availableDistinctMC": 37,
       "missingForMinimum": 0
     }
   ],
   "emptySpecificTopics": [],
   "institutionalSourcesNeeded": [],
   "quotaCheck": {
-    "method": "Bipartite matching of canonical MC IDs to exact discipline quota slots; each ID assigned once.",
+    "method": "Bipartite matching of distinct canonical MC IDs to every discipline quota slot, each ID assigned once.",
     "requiredDistinctMC": 60,
-    "allocatableDistinctMC": 54,
-    "unfilledSlots": 6,
+    "allocatableDistinctMC": 60,
+    "unfilledSlots": 0,
     "assignments": [
       {
         "disciplineId": "lingua-portuguesa",
@@ -110,21 +110,26 @@
       {
         "disciplineId": "abdi-servicos-sociais-autonomos",
         "questionIds": [
-          "abdi-2008-especialista-juridico-q019",
-          "abdi-2008-especialista-juridico-q020",
-          "abdi-2008-senior-juridico-q018"
+          "344-dpeal-001-01-q009",
+          "abdi-2008-iniciante-processos-q020",
+          "abdi-2008-senior-juridico-q018",
+          "tjrr-2024-direito-tipo1-q050"
         ]
       },
       {
         "disciplineId": "abdi-criacao-estatuto",
         "questionIds": [
-          "abdi-2008-especialista-controle-interno-auditoria-q018"
+          "abdi-2008-especialista-analise-economica-q014",
+          "abdi-2008-especialista-controle-interno-auditoria-q018",
+          "abdi-2008-especialista-juridico-q019",
+          "abdi-2008-especialista-juridico-q020"
         ]
       },
       {
         "disciplineId": "abdi-licitacoes-convenios",
         "questionIds": [
           "abdi-2008-especialista-administrativo-financeiro-q012",
+          "abdi-2008-especialista-analise-economica-q012",
           "abdi-2008-iniciante-licitacoes-contratos-q011",
           "abdi-2008-iniciante-licitacoes-contratos-q013",
           "abdi-2008-iniciante-licitacoes-contratos-q014",
@@ -138,7 +143,8 @@
         "questionIds": [
           "128-tcemg-008-01-q039",
           "abdi-2008-senior-assessor-comunicacao-q013",
-          "abdi-2008-senior-assessor-comunicacao-q016"
+          "abdi-2008-senior-assessor-comunicacao-q016",
+          "fiocruz-2024-te58-q038"
         ]
       },
       {
@@ -177,6 +183,6 @@
     "reference-abdi-resolucao-008-2023",
     "reference-abdi-planejamento-ajustado-2024"
   ],
-  "institutionalDistinctMC": 14,
+  "institutionalDistinctMC": 20,
   "checkedAt": "2026-10-27"
 }

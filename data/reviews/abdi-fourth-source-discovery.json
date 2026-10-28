@@ -1,0 +1,223 @@
+{
+  "id": "abdi-fourth-source-discovery",
+  "checkedAt": "2026-10-27",
+  "scope": "Six complete official pairs; eleven distinct PDFs independently downloaded twice. Fiocruz final report retained once and referenced by two paper-bound key document IDs. Original preliminary keys are not used. Selected retained own ABDI norms and active legal clauses reviewed; whole-bank sweep remains deferred.",
+  "listings": [
+    {
+      "id": "fiocruz-tecnologista",
+      "url": "https://concurso2023.fiotec.fiocruz.br/Tecnologista.asp",
+      "file": "data/reviews/abdi-fourth-source-evidence/fiocruz-tecnologista.html",
+      "sha256": "80c4ddeb5d0545f9850f65513b5fb52b695f8aa7cf4ecde5bbb2f543c35dea61"
+    },
+    {
+      "id": "fiocruz-papers",
+      "url": "https://concurso2023.fiotec.fiocruz.br/Divulga.Provas/",
+      "file": "data/reviews/abdi-fourth-source-evidence/fiocruz-papers.html",
+      "sha256": "ae17bba90fdbf3fd0d59a63ae824da9a894b7b3d1c35ceb6c70b87a090c4540e"
+    },
+    {
+      "id": "tjrr2024",
+      "url": "https://conhecimento.fgv.br/concursos/tjrr24",
+      "file": "data/reviews/abdi-fourth-source-evidence/tjrr2024.html",
+      "sha256": "0fe3230ef7d2cdfa344180511a9493bfdba9e0586e8dfcd43a22a80ca85ae430"
+    }
+  ],
+  "pairs": [
+    {
+      "paperId": "source-abdi-2008-especialista-analise-economica",
+      "booklet": "ADI – NÍVEL SUPERIOR ESPECIALISTA – PROJETOS ANÁLISE ECONÔMICA",
+      "firstItem": 1,
+      "lastItem": 20,
+      "applicationDate": "2008-09-07",
+      "annulledItems": [
+        19
+      ],
+      "documents": [
+        {
+          "documentId": "source-abdi-2008-especialista-analise-economica-paper",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/especialista-projetos-analise-economica.pdf",
+          "sha256": "b7386fbd03c409ee7def131756929733ad7ba02df8a0fb6c872db2b60229aebb",
+          "method": "independent_second_download_byte_match"
+        },
+        {
+          "documentId": "source-abdi-2008-especialista-analise-economica-key",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/especialista-projetos-analise-economica.pdf",
+          "sha256": "ac366cdc8e6b2a5820952243d7704a803497ec9e1163d4da2f3938e2c808c9c6",
+          "method": "independent_second_download_byte_match"
+        }
+      ],
+      "answerKeyPage": 1
+    },
+    {
+      "paperId": "source-abdi-2008-iniciante-processos",
+      "booklet": "ADI – NÍVEL SUPERIOR INICIANTE - PROCESSOS",
+      "firstItem": 1,
+      "lastItem": 20,
+      "applicationDate": "2008-09-07",
+      "annulledItems": [
+        18,
+        19
+      ],
+      "documents": [
+        {
+          "documentId": "source-abdi-2008-iniciante-processos-paper",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/iniciante-processos.pdf",
+          "sha256": "08d83d4b7acc6f087ac67bed3dc7ab44797ee4ea4f38ac5169d8f7fa17507a5f",
+          "method": "independent_second_download_byte_match"
+        },
+        {
+          "documentId": "source-abdi-2008-iniciante-processos-key",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/iniciante-processos.pdf",
+          "sha256": "a3a222e74d6b02f93469df11751efdf3deaf7cf26025cd8ee0c292e5010b732a",
+          "method": "independent_second_download_byte_match"
+        }
+      ],
+      "answerKeyPage": 1
+    },
+    {
+      "paperId": "source-344-dpeal-001-01",
+      "booklet": "344_DPEAL_001_01",
+      "firstItem": 1,
+      "lastItem": 100,
+      "applicationDate": "2017-11-18",
+      "annulledItems": [
+        14,
+        30,
+        82,
+        84,
+        94,
+        99
+      ],
+      "documents": [
+        {
+          "documentId": "source-344-dpeal-001-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/DPE_AL_17_DEFENSOR/arquivos/344_DPEAL_001_01.PDF",
+          "sha256": "e3cc3f000b02b386078a8562bb349bfe7246cd7f42a3c8af464a42798886739b",
+          "method": "independent_second_download_byte_match"
+        },
+        {
+          "documentId": "source-344-dpeal-001-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/DPE_AL_17_DEFENSOR/arquivos/GAB_DEFINITIVO_344_DPEAL_001_01.PDF",
+          "sha256": "0e7e3bc8ee7a38c3d5d6b8274d2e3c8f4b2a6f0223562308e02df15c3e60a889",
+          "method": "independent_second_download_byte_match"
+        }
+      ],
+      "answerKeyPage": 1
+    },
+    {
+      "paperId": "source-tjrr-2024-direito-tipo1",
+      "booklet": "Analista Judiciário - Direito - TIPO 1",
+      "firstItem": 1,
+      "lastItem": 70,
+      "applicationDate": "2024-11-17",
+      "annulledItems": [
+        23,
+        27,
+        29,
+        47
+      ],
+      "documents": [
+        {
+          "documentId": "source-tjrr-2024-direito-tipo1-paper",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cns107t01-analista-judiciario-advogado.pdf",
+          "sha256": "8cda95cfb953796da5df7792d19b991cf2cbaa1828ba99640fb09ad6df087358",
+          "method": "independent_second_download_byte_match"
+        },
+        {
+          "documentId": "source-tjrr-2024-direito-tipo1-key",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrr_gabarito_definitivo_v3.pdf",
+          "sha256": "f36773ab48f52039f52bd5da2f8d8a14407d8c619427e834f9dc927a9688ce95",
+          "method": "independent_second_download_byte_match"
+        }
+      ],
+      "answerKeyPage": 8
+    },
+    {
+      "paperId": "source-fiocruz-2024-te23",
+      "booklet": "TE23 - Reportagem, Redação e Edição em Jornalismo Impresso e Digital- Rio de Janeiro",
+      "firstItem": 1,
+      "lastItem": 40,
+      "applicationDate": "2024-04-28",
+      "annulledItems": [
+        25
+      ],
+      "documents": [
+        {
+          "documentId": "source-fiocruz-2024-te23-paper",
+          "url": "https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE23.pdf",
+          "sha256": "abe74ff25a4866a237a6c70fa5be96f16029618b9d818ba830ecf66e2811bb3a",
+          "method": "independent_second_download_byte_match"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te23-key",
+          "url": "https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-Gabaritos-Finais-Tecnologistas.pdf",
+          "sha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4",
+          "method": "independent_second_download_byte_match"
+        }
+      ],
+      "answerKeyPage": 23
+    },
+    {
+      "paperId": "source-fiocruz-2024-te58",
+      "booklet": "TE58 - Jornalista Web- Rio de Janeiro",
+      "firstItem": 1,
+      "lastItem": 40,
+      "applicationDate": "2024-04-28",
+      "annulledItems": [],
+      "documents": [
+        {
+          "documentId": "source-fiocruz-2024-te58-paper",
+          "url": "https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE58.pdf",
+          "sha256": "2f4ab848f9fda3873ab44099166988185ae0790605b92ce1944ac06e6cf93b01",
+          "method": "independent_second_download_byte_match"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te58-key",
+          "url": "https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-Gabaritos-Finais-Tecnologistas.pdf",
+          "sha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4",
+          "method": "independent_second_download_byte_match"
+        }
+      ],
+      "answerKeyPage": 58
+    }
+  ],
+  "excluded": [
+    {
+      "source": "Fiocruz 2024 preliminary per-profile answer keys",
+      "reason": "Do not use preliminary tables. The full final report controls, including annulments and changes."
+    },
+    {
+      "paperId": "source-fiocruz-2024-te23",
+      "number": 25,
+      "reason": "Final official answer is ANULADA; not released."
+    },
+    {
+      "source": "Fiocruz TE15 — Comunicação e Saúde",
+      "reason": "Complete official source discovered, but not imported in this lot. Focused on TE23/TE58; no bulk release or claim all available profiles reviewed."
+    },
+    {
+      "source": "Repeated ABDI 2008 common institutional questions",
+      "reason": "All 36 upper-level original papers now triaged; repeated identical statements are not cloned to fill quotas. Unreviewed historical policy and obsolete-rule items remain outside the bank."
+    }
+  ],
+  "dateEvidence": {
+    "paperId": "source-tjrr-2024-direito-tipo1",
+    "file": "data/reviews/abdi-fourth-source-evidence/TJRR-2024-notice.pdf",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrr-edital-retificado-prorrogacao-incricao-02-para-09.08_.pdf",
+    "sha256": "d74b59a8c6569146c6359202fadcbd59bfc213909278af30700d3b6271353a94",
+    "noticeSection": "10.1–10.2",
+    "applicationDate": "2024-11-17",
+    "keyHeaderLiteral": "17/12/2024",
+    "note": "Official notice schedules 17 November, a Sunday; final key prints 17 December. Preserve both sources and document the header discrepancy. Paper/role/type and official board listing identify the pair; do not silently change source bytes."
+  },
+  "resolvedLeads": [
+    {
+      "lead": "Scientific/environmental MC",
+      "resolution": "New official Fiocruz 2024 TE23/TE58 pairs; do not misidentify these as the unverified Fiocruz/FGV 2010 lead."
+    },
+    {
+      "lead": "DPE/AL 2017 SSA",
+      "resolution": "Third-party copy used for discovery only; both canonical PDFs were independently downloaded from the official Cebraspe CDN twice. No claim that the inaccessible legacy listing was recovered."
+    }
+  ]
+}

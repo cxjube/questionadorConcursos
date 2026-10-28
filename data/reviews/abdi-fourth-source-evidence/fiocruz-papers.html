@@ -1,0 +1,441 @@
+
+
+
+
+
+<SCRIPT language="JavaScript">
+
+var reDigits = /^\d+$/;
+
+
+function doDigits(pStr)
+{
+	if ( (!reDigits.test(pStr.value)) && (pStr.value != null && pStr.value != ""))  {
+		alert(pStr.value + " NÃO contém apenas dígitos.");
+		pStr.focus();
+	}
+}
+
+
+var reDecimalPt = /^[+-]?((\d+|\d{1,3}(\.\d{3})+)(\,\d*)?|\,\d+)$/;
+var reDecimalEn = /^[+-]?((\d+|\d{1,3}(\,\d{3})+)(\.\d*)?|\.\d+)$/;
+var reDecimal = reDecimalPt;
+
+
+function doDecimal(pStr)
+{
+	pLang = "Pt"
+	charDec = ( pLang != "En"? ",": "." );
+	eval("reDecimal = reDecimal" + pLang);
+	if ( (!reDecimal.test(pStr)) && (pStr != null && pStr != "")) {
+		alert(pStr + " NÃO é um valor válido.");
+	}
+}
+
+var reMoeda = /^\d{1,3}(\.\d{3})*\,\d{2}$/;
+
+
+function doMoeda(pStr)
+{
+	if (reMoeda.test(pStr)) {
+		alert(pStr + " é um valor financeiro válido.");
+	} else if (pStr != null && pStr != "") {
+		alert(pStr + " NÃO é um valor financeiro válido.");
+	}
+}
+
+
+
+function DataHora(evento, objeto){
+	var keypress=(window.event)?event.keyCode:evento.which;
+	campo = eval (objeto);
+	if (campo.value == '00/00/0000')
+	{
+		campo.value=""
+	}
+
+	caracteres = '0123456789';
+	separacao1 = '/';
+	conjunto1 = 2;
+	conjunto2 = 5;
+	if ((caracteres.search(String.fromCharCode (keypress))!=-1) && campo.value.length < (19))
+	{
+		if (campo.value.length == conjunto1 )
+		campo.value = campo.value + separacao1;
+		else if (campo.value.length == conjunto2)
+		campo.value = campo.value + separacao1;
+	}
+	else
+		event.returnValue = false;
+}
+
+
+function Ajeita(f,c,t) {
+   var s = f.value;
+   s = s.replace(/"/g,"");
+   if (t==1)
+      s = s.replace(/ /g,"");
+   else {
+      s = s.replace(/ +/g," ");
+      for (; s.length>0 && s.substr(0,1)==" "; s = s.substr(1));
+      for (var i = s.length-1; i>=0 && s.substr(i,1)==" "; i--);
+      s = s.substr(0,i+1);
+   }
+   if (c>0) {
+      s = s.toUpperCase();
+      if (c>1) {
+         var j, k;
+         for(var i=0; i<s.length; i++) {
+            k = s.charAt(i);
+            j = "ÁÉÍÓÚÀÈÌÒÙÂÊÎÔÛÄËÏÖÜÃÕÑÇ".indexOf(k);
+            if (j>-1) s = s.replace(k,"AEIOUAEIOUAEIOUAEIOUAONC".charAt(j));
+         }
+      }
+   } else if (c==-1) s = s.toLowerCase();
+   f.value = s;
+}
+
+
+function Alert(c,m) {
+   if (m!="") {
+      alert(m);
+      c.focus();
+   }
+}
+
+</script>
+
+
+
+<script language=javascript>
+
+function ValidaRecurso() {
+
+   d = document.cadastro;
+
+   // VALIDAR RECURSO
+   if (d.recurso.value == ""){
+      alert("Você deve fundamentar seu recurso!!!");
+      d.recurso.focus();
+      return false;
+   }
+}
+</script>
+
+
+
+<script language=javascript>
+
+function conta()
+   {
+
+    OqueEstaEscrito = document.cadastro.recurso.value;
+
+    NumCaracteres = document.cadastro.recurso.value.length;
+
+    document.cadastro.NumCaracteres.value = NumCaracteres;
+
+    document.cadastro.Recurso2.value = OqueEstaEscrito;
+
+   }
+</script>
+
+	<HTML>
+	<HEAD><TITLE>Concurso Público Fiocruz 2023</TITLE><link href="style.css" rel="stylesheet" type="text/css"></HEAD>
+	<BODY topmargin="0" bgcolor="#ffffff">
+
+	<table align="center" border="0" style="width: 600px;">
+	<tr>
+	   <td bgcolor="#D2691E" align=center>
+		   <a href="http://portal.fiocruz.br/" border=0><img src="https://concurso2023.fiotec.fiocruz.br/Imagens/Banner-Fiocruz-2023.png" border=0 width="400" height="150"></a><br/>
+	   </td>
+	</tr>
+    </table>
+
+
+
+   <center>
+
+   <table width="1000px" border=0 valign="top" align=center cellpadding=2 cellspacing=2>
+
+   <tr><td align="center" valign="top"><font size=3><B>Provas Realizadas no Dia 28 de Abril de 2024</B></font></td></tr>
+
+   <tr><td align="center" valign="top">&nbsp;</td></tr>
+
+
+
+   <tr><td>
+
+   <BR><BR>
+
+   
+
+   <DIV ID="el1Child" CLASS="child">
+
+
+      <ul>
+
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN01.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN01 - Gestão de Compras/Licitações - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN02.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN02 - Gestão de Pessoas - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN03.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN03 - Gestão Contábil e Financeira - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN04.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN04 - Gestão de Contratos e Convênios - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN05.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN05 - Analista de Gestão em Infraestrutura 1 - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN06.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN06 - Analista de Sistema de Integridade - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN07.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN07 - Analista de Tecnologia da Informação - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN08.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN08 - Gestão do Ensino - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN09.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN09 - Gestão de Projetos - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN10.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN10 - Planejamento, Orçamento e Cooperação - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN11.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN11 - Gestão de Produtos e Mercados - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN12.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN12 - Analista de Gestão em Infraestrutura - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN13.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN13 - Comércio Exterior - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN14.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN14 - Gestão da Inovação - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN15.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN15 - Gestão da Inovação com ênfase na Transferência de Tecnologia - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN16.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN16 - Gestão de Compras/Licitações - Manaus</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN17.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN17 - Gestão do Ensino - Manaus</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN18.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN18 - Gestão de Pessoas - Manaus</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN19.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN19 - Gestão de Compras/Licitações - Salvador</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN20.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN20 - Gestão de Contratos e Convênios - Salvador</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN21.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN21 - Gestão de Materiais/Patrimônio - Salvador</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN22.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN22 - Planejamento, Orçamento e Cooperação - Salvador</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN23.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN23 - Gestão Contábil e Financeira - Fortaleza</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN24.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN24 - Gestão de Compras/Licitações - Fortaleza</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN25.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN25 - Analista de Gestão em Infraestrutura 1 - Brasília</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN26.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN26 - Gestão do Ensino - Brasília</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN27.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN27 - Gestão de Compras/Licitações - Belo Horizonte</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN28.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN28 - Gestão do Ensino - Belo Horizonte</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN29.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN29 - Gestão de Pessoas - Belo Horizonte</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN30.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN30 - Gestão de Projetos - Belo Horizonte</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN31.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN31 - Gestão da Inovação e Prospecção Tecnológica - Campo Grande</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN32.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN32 - Gestão Contábil e Financeira - Recife</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN33.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN33 - Gestão de Compras/Licitações - Recife</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN34.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN34 - Gestão de Pessoas - Recife</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN35.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN35 - Gestão de Compras/Licitações - Curitiba</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN36.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN36 - Gestão de Contratos e Convênios - Curitiba</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN37.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN37 - Gestão de Contratos e Convênios - Porto Velho</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN38.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN38 - Analista de Tecnologia da Informação - Porto Velho</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/AN39.pdf" target=new><font size=2>Analista de Gestão em Saúde - AN39 - Gestão de Materiais/Patrimônio 2 - Rio de Janeiro</font></a>
+
+      </ul>
+
+      <BR>
+      <BR>
+
+
+      <ul>
+
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE01.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE01 - Engenharia de Infraestrutura Farmacêutica- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE02.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE02 - Engenharia Industrial em HVAC- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE03.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE03 - Engenharia de Manutenção Industrial- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE04.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE04 - Engenharia de Automação Industrial- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE05.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE05 - Sistema da Qualidade- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE06.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE06 - Auditorias em Sistemas de Gestão da Qualidade- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE07.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE07 - Processos Assépticos- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE08.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE08 - Produção de IFAs Bacterianas- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE09.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE09 - Imunodiagnóstico- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE10.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE10 - Diagnóstico Molecular- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE11.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE11 - Design de exposições para museus de ciências - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE12.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE12 - Conservação e restauração de bens culturais imóveis- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE13.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE13 - Arquivologia - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE14.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE14 - Processamento, Gestão e Disseminação da Informação - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE15.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE15 - Comunicação e Saúde- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE16.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE16 - Tecnologia da informação e comunicação (TIC) com foco em segurança da informação- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE17.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE17 - Tecnologista em Infraestrutura: Engenharia de Manutenção de Sistemas de Climatização- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE18.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE18 - Tecnologista em Infraestrutura: obras e serviços de engenharia- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE19.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE19 - Tecnologista em Infraestrutura: Engenharia de Manutenção Predial e Utilidades- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE20.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE20 - Infectologia - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE21.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE21 - Gestão de Políticas Públicas em Saúde - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE22.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE22 - Farmacêutico assistencial com ênfase no cuidado da tuberculose drogarresistente e logística farmacêutica - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE23.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE23 - Reportagem, Redação e Edição em Jornalismo Impresso e Digital- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE24.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE24 - Gestão Educacional em Saúde- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE25.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE25 - Educação profissional de nível médio em saúde integrada às disciplinas da área de ciências da natureza e suas tecnologias- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE26.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE26 - Educação profissional de nível médio na área de política, planejamento e gestão em saúde- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE27.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE27 - Educação profissional de nível médio na área de radiologia médica - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE28.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE28 - Educação profissional de nível médio em vigilância em saúde- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE29.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE29 - Educação profissional de nível médio com ênfase em Prontuário Eletrônico em Saúde e Registro Eletrônico em Saúde na interface com Saúde Digital- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE30.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE30 - Educação profissional de nível médio em técnicas laboratoriais em saúde- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE31.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE31 - Farmácia: Gestão de produção na indústria farmacêutica - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE32.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE32 - Desenvolvimento de métodos analíticos para farmacocinética- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE33.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE33 - Engenharia Civil- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE34.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE34 - Garantia da qualidade- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE35.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE35 - Controle de Qualidade de insumos e medicamentos- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE36.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE36 - Tecnologista em desenvolvimento de medicamentos- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE37.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE37 - Tecnologista em desenvolvimento analítico e de embalagem - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE38.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE38 - Tecnologia da informação e comunicação (TIC) com foco em gerenciamento de infraestrutura de TIC- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE39.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE39 - Assistência Farmacêutica- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE40.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE40 - Engenharia - Gestão de manutenção na indústria farmacêutica- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE41.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE41 - Citometria de fluxo- Salvador</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE42.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE42 - Vigilância Molecular e Sequenciamento de Nova Geração com foco em Genômica e Transcriptômica- Salvador</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE43.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE43 - Saúde do trabalhador- Salvador</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE44.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE44 - Arquitetura com Ênfase em Segurança do Trabalho- Salvador</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE45.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE45 - Diagnóstico, epidemiologia molecular e evolução de vírus emergentes e reemergentes- Manaus</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE46.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE46 - Imunologia Aplicada ao Suporte de Pesquisas em Doenças Parasitárias e Infecciosas da Amazônia - Manaus</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE47.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE47 - Pesquisa Clínica em Ensaios Clínicos em Doenças Infecciosas e Parasitárias- Manaus</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE48.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE48 - Engenharia Civil- Belo Horizonte</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE49.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE49 - Ciência de dados em saúde- Belo Horizonte</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE50.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE50 - Tecnologias aplicadas à Pesquisa em Saúde e Processos Biotecnológicos- Belo Horizonte</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE51.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE51 - Biologia Estrutural- Curitiba</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE52.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE52 - Fiscalização, planejamento e gestão em engenharia de manutenção de sistemas de climatização- Recife</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE53.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE53 - Tecnologia da informação e comunicação (TIC) com foco em análise e desenvolvimento de sistema- Recife</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE54.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE54 - Bioinformática - Recife</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE55.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE55 - Plataforma tecnológica de caracterização de proteínas e citometria de fluxo- Recife</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE56.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE56 - Cientista de Dados em Saúde- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE57.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE57 - Processamento, gestão e disseminação de informação bibliográfica em saúde- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE58.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE58 - Jornalista Web- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE59.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE59 - Manejo e produção de roedores e lagomorfos- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE60.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE60 - Tecnologia da informação e comunicação (TIC) com foco em análise e desenvolvimento de sistemas- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE61.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE61 - Controle sanitário e genético de Animais de Laboratório- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE62.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE62 - Clínica, cirurgia, criação e experimentação de primatas não humanos- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE63.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE63 - Saúde Animal no contexto da Saúde Única- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE64.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE64 - Psicologia hospitalar- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE65.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE65 - Enfermagem - Terapia intensiva neonatal e pediátrica- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE66.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE66 - Enfermagem - Centro cirúrgico e central de material de esterilização- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE67.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE67 - Enfermagem - Banco de leite humano- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE68.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE68 - Fonoaudiologia hospitalar neonatal e pediátrica- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE69.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE69 - Terapia ocupacional hospitalar neonatal e pediátrica- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE70.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE70 - Neurocirurgia pediátrica- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE71.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE71 - Psiquiatria hospitalar- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE72.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE72 - Patologia ginecológica e fetoplacentária- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE73.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE73 - Atenção domiciliar pediátrica- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE74.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE74 - Controle de qualidade toxicológico- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE75.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE75 - Controle de qualidade de produtos: fundamentos metodológicos- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE76.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE76 - Controle da Qualidade Vacinas Bacterianas e Soros Hiperimunes- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE77.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE77 - Controle de Qualidade de Vacinas Virais e Cultura de Células- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE78.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE78 - Controle Microbiológico de Produtos sujeitos à Vigilância Sanitária- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE79.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE79 - Arquivologia - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE80.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE80 - Gestão de Equipamentos e Metrologia Física, Química e Biológica- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE81.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE81 - Análise, desenvolvimento e validação de metodologias para o controle físico-químico de produtos sujeitos à vigilância sanitária - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE82.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE82 - Vigilância em Saúde- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE83.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE83 - Serviço Social - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE84.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE84 - Bacteriologia e Biologia Molecular de Micobactérias- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE85.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE85 - Psicologia - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE86.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE86 - Taxonomia e sistemática de insetos vetores, com ênfase em simulídeos, ceraptopogonídeos e triatomíneos e curadoria de coleções entomológicas- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE87.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE87 - Taxonomia e sistemática de microorganismos com ênfase em protozoários de importância em saúde e curadoria de coleções microbiológicas- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE88.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE88 - Taxonomia e sistemática de microorganismos com ênfase em bactérias de importância em saúde e curadoria de coleções microbiológicas- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE89.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE89 - Engenharia de Segurança do Trabalho- Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE90.pdf" target=new><font size=2>Tecnologista em Saúde Pública - TE90 - Médico do Trabalho- Rio de Janeiro</font></a>
+
+      </ul>
+
+      <BR>
+      <BR>
+
+
+      <ul>
+
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE01.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE01 - Bioinformática - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE02.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE02 - Terapias avançadas - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE03.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE03 - História da Saúde e História das Ciências - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE04.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE04 - História, Memória e Patrimônio Cultural - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE05.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE05 - Estudos de Público e Educação Museal - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE06.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE06 - História, Memória e Patrimônio Cultural - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE07.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE07 - Análise de Políticas e Sistemas de Saúde - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE08.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE08 - Microbiologia Ambiental com ênfase em saúde única - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE09.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE09 - Violência e saúde - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE10.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE10 - Assistência Farmacêutica - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE11.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE11 - Direitos Humanos e Saúde - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE12.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE12 - Epidemiologia - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE13.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE13 - Saúde do Trabalhador e Ecologia Humana com ênfase em Vigilância e Promoção da Saúde - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE14.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE14 - Política, planejamento, equidade e Promoção da Saúde - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE15.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE15 - Saneamento e Vigilância em Saúde Ambiental - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE16.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE16 - Ciência, Tecnologia e Inovação em Saúde Pública - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE17.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE17 - Cooperação em Políticas, Sistemas e Gestão de Saúde - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE18.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE18 - Populações vulnerabilizadas, grupos étnico, políticas públicas e equidade social - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE19.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE19 - Educação profissional de nível médio com ênfase em trabalho e educação em saúde - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE20.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE20 - Educação profissional de nível médio na área de saúde mental - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE21.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE21 - Educação profissional de nível médio com ênfase em produção e análise de informações - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE22.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE22 - Educação profissional de nível médio na área de políticas de cuidado para a pessoa idosa - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE23.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE23 - Iniciação científica na educação básica com ênfase em estudos sobre juventude - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE24.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE24 - Biodiversidade e Vigilância Genômica no âmbito da Saúde Única - Campo Grande</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE25.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE25 - Química de Produtos Naturais aplicada a região do Cerrado Pantanal - Campo Grande</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE26.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE26 - Biologia e biodiversidade em saúde com ênfase em vetores e parasitas de doenças negligenciadas - Teresina</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE27.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE27 - Micologia Médica - Porto Velho</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE28.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE28 - Parasitos e vetores de malária na Amazônia - Porto Velho</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE29.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE29 - Biologia de Sistemas com foco em Genômica e Transcriptômica de Células Individuais - Salvador</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE30.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE30 - Pesquisa Clínica - Salvador</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE31.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE31 - Virologia Evolutiva e Computacional - Salvador</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE32.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE32 - Ciência de Dados em Saúde - Salvador</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE33.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE33 - Medicina e Saúde Pública de Precisão - Salvador</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE34.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE34 - Epidemiologia e Vigilância em Saúde Pública - Manaus</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE35.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE35 - Saúde Única na Amazônia - Manaus</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE36.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE36 - Vigilância em Saúde e Ambiente na Amazônia - Manaus</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE37.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE37 - Planejamento, Financiamento e Modelos de Gestão e Atenção à Saúde - Manaus</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE38.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE38 - Microbiologia molecular com ênfase em bioinformática - Manaus</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE39.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE39 - Biotecnologia aplicada a Inovações Terapêuticas e Imunobiológicos - Belo Horizonte</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE40.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE40 - Virologia com ênfase em doenças emergentes e reemergentes - Belo Horizonte</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE41.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE41 - Biologia celular e molecular da interação vetor/patógeno/ hospedeiro - Belo Horizonte</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE42.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE42 - Política, planejamento e gestão de sistemas, programas e serviços de saúde - Belo Horizonte</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE43.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE43 - Epidemiologia - Belo Horizonte</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE44.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE44 - Pesquisa Qualitativa - Belo Horizonte</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE45.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE45 - Espectrometria de Massas Computacional - Curitiba</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE46.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE46 - Micologia Molecular e Celular - Curitiba</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE47.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE47 - Biologia Molecular Aplicada ao Desenvolvimento de Sistemas de Expressão e Processos de Produção de Proteínas Recombinantes - Curitiba</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE48.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE48 - Engenharia Biomédica - Curitiba</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE49.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE49 - Genética molecular de tripanossomatídeos patogênicos - Curitiba</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE50.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE50 - Virologia Clássica e molecular - Recife</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE51.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE51 - Microbiologia Básica e Molecular aplicada a Bactérias e Protozoários causadores de Zoonoses - Recife</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE52.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE52 - Genética Molecular Humana - Recife</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE53.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE53 - Biologia molecular das doenças transmissíveis - Recife</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE54.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE54 - Saúde Coletiva - Recife</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE55.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE55 - Bioecologia, vigilância e controle de culicídeos - Recife</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE56.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE56 - Ciências Sociais em Saúde - Brasília</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE57.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE57 - Vigilância em Saúde - Brasília</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE58.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE58 - Desenvolvimento e validação de metodologias alternativas ao uso de animais na pesquisa - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE59.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE59 - Criação e desenvolvimento de modelos de peixes para uso científico - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE60.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE60 - Pesquisa Translacional - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE61.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE61 - Pesquisador da Área das Ciências Humanas e Sociais - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE62.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE62 - Cientista de Dados - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE63.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE63 - Pesquisa Clínica na Área da Mulher - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE64.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE64 - Métodos Quantitativos - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE65.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE65 - Epidemiologista Social - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE66.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE66 - Pesquisa Clínica em infecções sexualmente transmissíveis - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE67.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE67 - Epidemiologia em uso de álcool e outras drogas - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE68.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE68 - Pesquisa Clínica em Dermatologia em Doenças Infecciosas - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE69.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE69 - Bioinformática aplicada a doenças infecciosas - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE70.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE70 - Biologia Celular e Molecular de microorganismos - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE71.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE71 - Epidemiologia Clínica - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE72.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE72 - Pesquisa Clínica em Micobacterioses - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE73.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE73 - Análise Estatística em Pesquisa Clínica - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE74.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE74 - Informação Científica e Tecnológica em Saúde I - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE75.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE75 - Informação Científica e Tecnológica em Saúde II - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE76.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE76 - Produção de informações por meio de inquéritos de saúde (dados primários), amostragem e análise dos dados - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE77.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE77 - Análise de informações dos sistemas nacionais de saúde - dados secundários - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE78.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE78 - Comunicação e Saúde - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE79.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE79 - Desenvolvimento de métodos para controle de qualidade de produtos inovadores - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE80.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE80 - Desenvolvimento de metodologias de identificação e quantificação de nano produtos sujeitos à vigilância sanitária - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE81.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE81 - Epidemiologia em Saúde Pública - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE82.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE82 - Micologia aplicada a saúde - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE83.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE83 - Pesquisa Qualitativa - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE84.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE84 - Pesquisa e Desenvolvimento de vacinas como estratégia de controle no combate a doenças infecto-parasitárias - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE85.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE85 - Mudanças climáticas, emergências sanitárias e vigilância em saúde - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE86.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE86 - Biodiversidade e Saúde - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE87.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE87 - Bioquímica, Biologia Celular e Molecular de Helmintos de Interesses em Saúde Pública - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE88.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE88 - Bioquímica, Biologia Celular e Molecular de Bactérias de Interesse em Saúde Pública - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE89.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE89 - Bioquímica, Biologia Celular e Biologia Molecular de Parasitos de Interesse na Saúde Pública - Rio de Janeiro</font></a>
+<li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/PE90.pdf" target=new><font size=2>Pesquisador em Saúde Pública - PE90 - Doenças crônico-degenerativas de interesse em saúde pública - Rio de Janeiro</font></a>
+
+
+      </ul>
+
+
+   </DIV>
+
+   </td></tr>
+
+
+   </table>
+
+
+
+
+    <center>
+
+    <table style="width: 1000px;">
+       <tr><td>&nbsp;</td></tr>
+       <tr bgcolor="#CD661D" height=10><td></td></tr>
+    </table>
+
+    </center>
+
+  </TBODY>
+</BODY></HTML>
+

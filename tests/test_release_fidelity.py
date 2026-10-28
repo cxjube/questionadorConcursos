@@ -22,6 +22,8 @@ class ReleasedFidelityTests(unittest.TestCase):
         cls.papers = {p['id']: p for p in cls.catalog['papers']}
         cls.pages = {identifier: pdf_text(ROOT / d['file'], '-raw').split('\f')
                      for identifier, d in cls.docs.items() if d['kind'] == 'question_paper'}
+        cls.fiocruz_typography = {r['questionId'] for r in read_json(
+            ROOT / 'data/reviews/abdi-fourth-batch.json')['items'] if r['fiocruzTypography']}
 
     def test_all_published_text_options_and_contexts_match_source_pages(self):
         for ctx in self.catalog['contexts']:
@@ -45,16 +47,25 @@ class ReleasedFidelityTests(unittest.TestCase):
                 locator = re.fullmatch(r'PDF p\. (\d+)', q['origin']['locator'])
                 self.assertIsNotNone(locator)
                 pages = self.pages[self.papers[q['origin']['paperId']]['documentId']]
-                page = clean(pages[int(locator.group(1)) - 1])
+                raw_page = pages[int(locator.group(1)) - 1]
+                if q['id'] in self.fiocruz_typography:
+                    # These specific new items have documented ligatures and
+                    # physical word-wrap joins. Exact words/option boundaries
+                    # are independently checked against bbox lines in the lot.
+                    raw_page = re.sub(r'([ﬀﬁﬂﬃﬄ]) +(?=[a-zà-ÿ])', r'\1', raw_page)
+                    raw_page = raw_page.translate(str.maketrans({'ﬀ':'ff','ﬁ':'fi','ﬂ':'fl','ﬃ':'ffi','ﬄ':'ffl'}))
+                    raw_page = re.sub(r'(?<=\w)-\n(?=\w)', '', raw_page)
+                page = clean(raw_page)
                 expected = clean(q['stem'])
-                if q['id'] in {'camara-2014-area-xix-q116', 'camara-2014-area-xix-q117', 'camara-2014-cb2-03-q088', 'camara-2014-cb2-03-q098', 'camara14-cb1-01-q082', 'camara14-001-01-q197', 'camara14-001-01-q204'}:
+                if q['id'] in self.fiocruz_typography or q['id'] in {'camara-2014-area-xix-q116', 'camara-2014-area-xix-q117', 'camara-2014-cb2-03-q088', 'camara-2014-cb2-03-q098', 'camara14-cb1-01-q082', 'camara14-001-01-q197', 'camara14-001-01-q204'}:
                     # -raw drops inter-word spaces in these justified lines.
                     # Exact words and original markers are independently checked
                     # by bounded comparisons in test_eighth_batch/test_tenth_batch/test_fifteenth_batch.
                     expected, page = re.sub(r'\s+', '', expected), re.sub(r'\s+', '', page)
                 self.assertIn(expected, page)
                 for option in q['options']:
-                    self.assertIn(clean(option['text']), page)
+                    text = clean(option['text'])
+                    self.assertIn(re.sub(r'\s+', '', text) if q['id'] in self.fiocruz_typography else text, page)
 
     def test_all_published_answers_match_definitive_tables(self):
         tables = {}

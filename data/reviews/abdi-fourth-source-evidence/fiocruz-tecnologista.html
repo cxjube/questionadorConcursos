@@ -1,0 +1,2415 @@
+
+
+
+
+
+<SCRIPT language="JavaScript">
+
+var reDigits = /^\d+$/;
+
+
+function doDigits(pStr)
+{
+	if ( (!reDigits.test(pStr.value)) && (pStr.value != null && pStr.value != ""))  {
+		alert(pStr.value + " N�O cont�m apenas d�gitos.");
+		pStr.focus();
+	}
+}
+
+
+var reDecimalPt = /^[+-]?((\d+|\d{1,3}(\.\d{3})+)(\,\d*)?|\,\d+)$/;
+var reDecimalEn = /^[+-]?((\d+|\d{1,3}(\,\d{3})+)(\.\d*)?|\.\d+)$/;
+var reDecimal = reDecimalPt;
+
+
+function doDecimal(pStr)
+{
+	pLang = "Pt"
+	charDec = ( pLang != "En"? ",": "." );
+	eval("reDecimal = reDecimal" + pLang);
+	if ( (!reDecimal.test(pStr)) && (pStr != null && pStr != "")) {
+		alert(pStr + " N�O � um valor v�lido.");
+	}
+}
+
+var reMoeda = /^\d{1,3}(\.\d{3})*\,\d{2}$/;
+
+
+function doMoeda(pStr)
+{
+	if (reMoeda.test(pStr)) {
+		alert(pStr + " � um valor financeiro v�lido.");
+	} else if (pStr != null && pStr != "") {
+		alert(pStr + " N�O � um valor financeiro v�lido.");
+	}
+}
+
+
+
+function DataHora(evento, objeto){
+	var keypress=(window.event)?event.keyCode:evento.which;
+	campo = eval (objeto);
+	if (campo.value == '00/00/0000')
+	{
+		campo.value=""
+	}
+
+	caracteres = '0123456789';
+	separacao1 = '/';
+	conjunto1 = 2;
+	conjunto2 = 5;
+	if ((caracteres.search(String.fromCharCode (keypress))!=-1) && campo.value.length < (19))
+	{
+		if (campo.value.length == conjunto1 )
+		campo.value = campo.value + separacao1;
+		else if (campo.value.length == conjunto2)
+		campo.value = campo.value + separacao1;
+	}
+	else
+		event.returnValue = false;
+}
+
+
+function Ajeita(f,c,t) {
+   var s = f.value;
+   s = s.replace(/"/g,"");
+   if (t==1)
+      s = s.replace(/ /g,"");
+   else {
+      s = s.replace(/ +/g," ");
+      for (; s.length>0 && s.substr(0,1)==" "; s = s.substr(1));
+      for (var i = s.length-1; i>=0 && s.substr(i,1)==" "; i--);
+      s = s.substr(0,i+1);
+   }
+   if (c>0) {
+      s = s.toUpperCase();
+      if (c>1) {
+         var j, k;
+         for(var i=0; i<s.length; i++) {
+            k = s.charAt(i);
+            j = "������������������������".indexOf(k);
+            if (j>-1) s = s.replace(k,"AEIOUAEIOUAEIOUAEIOUAONC".charAt(j));
+         }
+      }
+   } else if (c==-1) s = s.toLowerCase();
+   f.value = s;
+}
+
+
+function Alert(c,m) {
+   if (m!="") {
+      alert(m);
+      c.focus();
+   }
+}
+
+</script>
+
+
+
+<script language=javascript>
+
+function ValidaRecurso() {
+
+   d = document.cadastro;
+
+   // VALIDAR RECURSO
+   if (d.recurso.value == ""){
+      alert("Voc� deve fundamentar seu recurso!!!");
+      d.recurso.focus();
+      return false;
+   }
+}
+</script>
+
+
+
+<script language=javascript>
+
+function conta()
+   {
+
+    OqueEstaEscrito = document.cadastro.recurso.value;
+
+    NumCaracteres = document.cadastro.recurso.value.length;
+
+    document.cadastro.NumCaracteres.value = NumCaracteres;
+
+    document.cadastro.Recurso2.value = OqueEstaEscrito;
+
+   }
+</script>
+
+	<HTML>
+	<HEAD>
+	   <TITLE>Concurso Publico Fiocruz 2023</TITLE>
+	   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	   <link href="style.css" rel="stylesheet" type="text/css">
+	</HEAD>
+	<BODY topmargin="0" bgcolor="#ffffff">
+
+	<table align="center" border="0" style="width: 1000px;">
+	<tr>
+	   <td bgcolor="#D2691E" align=center>
+		   <a href="http://portal.fiocruz.br/" border=0><img src="https://concurso2023.fiotec.fiocruz.br/Imagens/Banner-Fiocruz-2023.png" border=0 width="600" height="250"></a><br/>
+	   </td>
+	</tr>
+    </table>
+
+
+
+
+    <table align="center" border=0 valign="top" style="width: 1000px;">
+
+       <tr bgcolor="#D2691E">
+          <td align=center><font size=4 color="#ffffff"><b>Tecnologista em Sa&uacute;de P&uacute;blica</b></font></td>
+       </tr>
+
+    </table>
+
+
+
+    <TABLE border=0 align="center">
+
+
+    <TR>
+
+    <td align="left" valign="top" width="1000">
+
+
+
+
+        <table border=0 valign="top" width=100%>
+
+          <tr>
+            <td valign="top" align="Left" height="213" width=60%><span style="font-size: 7.0pt">
+                
+
+
+   <ul>
+
+
+
+   <!-- Apelação Civel -->
+
+   
+
+   <li><DIV ID="el1Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el1'); return false"><font size=3>Apela&ccedil;&atilde;o C&iacute;vel no. 5086459-08.2024.4.02.5101/RJ</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el1Child" CLASS="child" align=Left>
+
+        <ul>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-No170-Retificacao-Homologacao-TE65-Em08092025.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o na Homologa&ccedil;&atilde;o e na Nota de T&iacute;tulos da candidata Camila Telles do Nascimento, inscri&ccedil;&atilde;o 2003504 - Publicada no DOU de 08/09/2025</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Resultado-Final-Titulos-2003504.pdf" target=new><font size=2>Resultado Final de T&iacute;tulos da candidata Camila Telles do Nascimento</font></a>
+           <BR><BR>
+
+        </ul>
+
+   </DIV>
+
+   <BR>
+
+
+
+
+   <!-- Retificações -->
+
+   
+
+   <li><DIV ID="el2Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el2'); return false"><font size=3>Retifica&ccedil;&otilde;es</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el2Child" CLASS="child" align=Left>
+
+        <ul>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Publicacao-DOU-242-Retificacao-Barbara-Edwiges.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o de Nome de Candidato na Homologa&ccedil;&atilde;o do perfil TE20 - Em 19/12/2025</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-02.07.25-Retificacao-TE65.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o da Homologa&ccedil;&atilde;o do Perfil TE65 - Publicada no DOU de 02/07/2025</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-27.06.25-RetificacaoHomologacao-TE65-VivianeSaturninoBraga.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o da Homologa&ccedil;&atilde;o do perfil TE65 em cumprimento Mandado de Seguran&ccedil;a C&iacute;vel no. 5096277-81.2024.4.02.5101/RJ - Publicada no DOU de 27/06/2025</font></a>
+           <BR><BR>
+
+        </ul>
+
+   </DIV>
+
+   <BR>
+
+
+
+
+
+
+   <!-- Publicacao no DOU -->
+
+   
+
+   <li><DIV ID="el3Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el3'); return false"><font size=3>Publica&ccedil;&otilde;es no DOU</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el3Child" CLASS="child" align=Left>
+
+        <ul>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-LuceliaDosSantos-06.06.2025.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o de Nome de Candidato na Homologa&ccedil;&atilde;o do perfil TE21</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-94-21.05.2025-RetificacaoNomeBenjamin.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o de Nome de Candidato na Homologa&ccedil;&atilde;o do perfil TE02</font></a>
+           <BR><BR>
+
+        </ul>
+
+   </DIV>
+
+   <BR>
+
+
+
+
+
+   
+
+   <!-- Homologacao -->
+
+   
+
+   <li><DIV ID="el4Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el4'); return false"><font size=3>Homologa&ccedil;&atilde;o do Concurso</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el4Child" CLASS="child" align=Left>
+
+        <ul>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Em-2025-12-19-Relatorio-Homologacao-Tecnologistas.pdf" target=new><font size=2>Homologa&ccedil;&atilde;o do Resultado Final - Em 19/12/2025 - Atualizado</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Em-2025-12-19-Relatorio-ClassFinalTodos-Tecnologistas.pdf" target=new><font size=2>Classifica&ccedil;&atilde;o dos candidatos antes da Homologa&ccedil;&atilde;o do Resultado Final - Em 19/12/2025 - Atualizado</font></a>
+           <BR><BR>
+
+           <BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Em20250908-Relatorio-Homologacao-Tecnologistas.pdf" target=new><font size=2>Homologa&ccedil;&atilde;o do Resultado Final - Em 08/09/2025 - SEM EFEITO</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Em20250908-Relatorio-ClassFinalTodos-Tecnologistas.pdf" target=new><font size=2>Classifica&ccedil;&atilde;o dos candidatos antes da Homologa&ccedil;&atilde;o do Resultado Final - Em 08/09/2025 - SEM EFEITO</font></a>
+           <BR><BR>
+
+           <BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Em20250702-Relatorio-Homologacao-Tecnologistas.pdf" target=new><font size=2>Homologa&ccedil;&atilde;o do Resultado Final - Em 02/07/2025 - SEM EFEITO</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Em20250702-Relatorio-ClassFinalTodos-Tecnologistas.pdf" target=new><font size=2>Classifica&ccedil;&atilde;o dos candidatos antes da Homologa&ccedil;&atilde;o do Resultado Final - Em 02/07/2025 - SEM EFEITO</font></a>
+           <BR><BR>
+
+           <BR>
+
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Nota-Esclarecimento-Tecnologistas.pdf" target=new><font size=2>Nota de Esclarecimento sobre a Retifica&ccedil;&atilde;o da Homologa&ccedil;&atilde;o do Resultado Final</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Em20250120-Relatorio-Homologacao-Tecnologistas.pdf" target=new><font size=2>Homologa&ccedil;&atilde;o do Resultado Final - Em 22/01/2025 - SEM EFEITO</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Em20250120-Relatorio-ClassFinalTodos-Tecnologistas.pdf" target=new><font size=2>Classifica&ccedil;&atilde;o dos candidatos antes da Homologa&ccedil;&atilde;o do Resultado Final - Em 22/01/2025 - SEM EFEITO</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-22012025-Retificacao-Homologacao-Tecnologista.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o da Homologa&ccedil;&atilde;o do Resultado Final de Tecnologista - Publicado no DOU de 22/01/2025</font></a>
+           <BR><BR>
+
+           <BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-ParaPagina-Tecnologistas-Homologacao.pdf" target=new><font size=2>Homologa&ccedil;&atilde;o do Resultado Final - Em 17/12/2024 - SEM EFEITO</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-ParaPagina-Tecnologistas-ClassFinalTodos.pdf" target=new><font size=2>Classifica&ccedil;&atilde;o dos candidatos antes da Homologa&ccedil;&atilde;o do Resultado Final - Em 17/12/2024 - SEM EFEITO</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-17.12.24-Homologacao-Tecnologista.pdf" target=new><font size=2>Publica&ccedil;&atilde;o no DOU de 17/12/2024: Homologa&ccedil;&atilde;o do Resultado Final</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/FAQ-Homologacao-Concurso-Fiocruz-2023-24.pdf" target=new><font size=2>FAQ Homologa&ccedil;&atilde;o do Concurso</font></a>
+           <BR><BR>
+
+
+        </ul>
+
+   </DIV>
+
+   <BR>
+
+   
+
+
+
+
+
+
+   <!-- Definição das Vagas Prioritárias -->
+
+   
+
+   <li><DIV ID="el5Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el5'); return false"><font size=3>Defini&ccedil;&atilde;o de Vagas Priorit&aacute;rias</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el5Child" CLASS="child" align=Left>
+
+        <ul>
+
+
+           
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Listagem-Candidatos-Do-Sorteio-Tecnologista.pdf" target=new><font size=2>Listagem dos candidatos que ocupar&atilde;o as vagas reservadas para cotistas, nos limites legais</font></a>
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/ConsRespRec.Sorteio.Tecnologistas-Login.asp" target=new><font size=2>Respostas dos Recursos contra o Sorteio de defini&ccedil;&atilde;o das vagas priorit&aacute;rias para a&ccedil;&otilde;es afirmativas</font></a>
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Resultado-Sorteio-Tecnologistas-BancaRecursal.pdf" target=new><font size=2>Resultado do Julgamento dos Recursos contra o Sorteio de defini&ccedil;&atilde;o das vagas priorit&aacute;rias para a&ccedil;&otilde;es afirmativas</font></a>
+                 <BR><BR>
+
+                 <BR>
+
+           
+
+                   <li><a href="#"><font size=2>Per&iacute;odo para Recursos contra o Sorteio de defini&ccedil;&atilde;o das vagas priorit&aacute;rias para a&ccedil;&otilde;es afirmativas: de 10hs do dia 04/12/2024 at&eacute; 18hs de 05/12/2024</font></a>
+                   <BR><BR>
+
+           
+
+                 <li><a href="https://youtu.be/ckuC7sxmCnk" target=new><font size=2>V&iacute;deo do Sorteio das Vagas Afirmativas do Concurso P&uacute;blico Fiocruz 2023</font></a>
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Ata-Sorteio-Tecnologista.pdf" target=new><font size=2>Ata da Sess&atilde;o P&uacute;blica do Sorteio</font></a>
+                 <BR><BR>
+
+           
+
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Edital-Complementar-Sorteio-Tecnologistas-25112024.pdf" target=new><font size=2>Edital com Crit&eacute;rios e Metodologia do Sorteio para a Defini&ccedil;&atilde;o de Vagas Priorit&aacute;rias para A&ccedil;&otilde;es Afirmativas</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-26.11.24.pdf" target=new><font size=2>Edital Complementar no. 16 publicado no DOU de 26/11/2024</font></a>
+           <BR><BR>
+
+
+           <!--
+           <li><a href="https://youtu.be/KY9a8FbUtS4" target=new><font size=2>V&iacute;deo explicativo sobre o sorteio das vagas afirmativas do Concurso P&uacute;blico Fiocruz 2023 (vers&atilde;o com janela de LIBRAS)</font></a>
+           <BR><BR>
+           -->
+
+
+        </ul>
+
+   </DIV>
+
+   <BR>
+
+
+
+
+
+
+   
+
+   <li><DIV ID="el6Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el6'); return false"><font size=3>Cronograma</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el6Child" CLASS="child" align=Left>
+
+        <ul>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Cronograma-Tecnologista-21112024.pdf" target=new><font size=2>NOVO Cronograma de Tecnologista</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-22.11.2024.pdf" target=new><font size=2>Publica&ccedil;&atilde;o no DOU de 22/11/2024: Retifica&ccedil;&atilde;o no Cronograma de Tecnologista</font></a>
+           <BR><BR>
+
+        </ul>
+
+   </DIV>
+
+   <BR>
+
+
+
+
+
+   <!-- Reaplicação do Perfil TE55 -->
+
+   
+
+   <li><DIV ID="el7Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el7'); return false"><font size=3>Reaplica&ccedil;&atilde;o das Provas do Perfil TE55</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el7Child" CLASS="child" align=Left>
+
+        <ul>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Tecnologista.Perfil.TE55.asp" target=new><font size=3 color=red>Clique aqui para saber todas as informa&ccedil;&otilde;es sobre a Reaplica&ccedil;&atilde;o do Perfil TE55</font></a>
+           <BR><BR>
+
+
+        </ul>
+
+   </DIV>
+
+   <BR>
+
+
+
+
+
+
+   <!-- Heteroidentificao e Biopsicossocial  -->
+
+   
+
+   <li><DIV ID="el8Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el8'); return false"><font size=3>Etapas de Heteroidentifica&ccedil;&atilde;o Racial e Avalia&ccedil;&atilde;o Biopsicossocial</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el8Child" CLASS="child" align=Left>
+
+        <ul>
+
+
+           
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-22.11.2024.pdf" target=new><font size=2>Publica&ccedil;&atilde;o no DOU de 22/11/2024: Comunicado de Divulga&ccedil;&atilde;o do Resultado do Julgamento dos Recursos contra a Avalia&ccedil;&atilde;o Biopsicossocial dos candidatos(as) pessoas com defici&ecirc;ncia</font></a>
+                   <BR><BR>
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/ConsRespRec.Tecnologistas.BioPsico.Login.asp" target=new><font size=2>Resultado do Julgamento dos Recursos - Avalia&ccedil;&atilde;o Biopsicossocial dos candidatos(as) pessoas com defici&ecirc;ncia - consulta individual</font></a>
+                   <BR><BR>
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Resultado-Recurso-AvalBioPsico-Tecnologistas.pdf" target=new><font size=2>Resultado do Julgamento dos Recursos - Avalia&ccedil;&atilde;o Biopsicossocial dos candidatos(as) pessoas com defici&ecirc;ncia</font></a>
+                   <BR><BR>
+
+                   <BR>
+
+           
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-08.11.2024.pdf" target=new><font size=2>Publica&ccedil;&atilde;o no DOU de 08/11/2024: Comunicado no. 52 referente ao resultado da comiss&atilde;o recursal de heteroidentifica&ccedil;&atilde;o racial do cargo de Tecnologista em Sa&uacute;de P&uacute;blica</font></a>
+                   <BR><BR>
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/ConsRespRec.Tecnologistas.Hetero.Login.asp" target=new><font size=2>Resultado do Julgamento dos Recursos - Entrevistas de Heteroidentifica&ccedil;&atilde;o Racial - consulta individual</font></a>
+                   <BR><BR>
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Tecnologistas_Resultado_Da_Banca_Recursal_Processo_Heteroidentificacao.pdf" target=new><font size=2>Resultado do Julgamento dos Recursos - Entrevistas de Heteroidentifica&ccedil;&atilde;o dos candidatos que se declararam negros</font></a>
+                   <BR><BR>
+
+                   <BR>
+
+           
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-08.11.2024.pdf" target=new><font size=2>Publica&ccedil;&atilde;o no DOU de 08/11/2024: Retifica&ccedil;&atilde;o do n&uacute;mero do comunicado 45; e Retifica&ccedil;&atilde;o de texto publicado no DOU 197 de 10 de outubro de 2024</font></a>
+           <BR><BR>
+           <BR>
+
+
+
+           
+
+                      <li><a href="#"><font size=2>Per&iacute;odo para Recursos contra o Resultado Preliminar das Entrevistas da Avalia&ccedil;&atilde;o Biopsicossocial: de 10hs do dia 07/11/2024 at&eacute; 18hs de 08/11/2024</font></a>
+                      <BR><BR>
+
+              
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Resultado-AvalBiopsicossocial-Tecnologista.pdf" target=new><font size=2>Resultado Preliminar das Entrevistas da Avalia&ccedil;&atilde;o Biopsicossocial dos candidatos com defici&ecirc;ncia</font></a>
+                   <BR><BR>
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-06.11.2024.pdf" target=new><font size=2>Publica&ccedil;&atilde;o no DOU de 06/11/2024: Divulga&ccedil;&atilde;o do Resultado Preliminar das Entrevistas da Avalia&ccedil;&atilde;o Biopsicossocial</font></a>
+                   <BR><BR>
+
+                   <BR>
+
+           
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-04.11.2024-Resultado-SUB-JUDICE.pdf" target=new><font size=2>Resultado da banca SUB JUDICE da etapa de Heteroidentifica&ccedil;&atilde;o Racial publicado no DOU de 04/11/2024</font></a>
+                   <BR><BR>
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Resultado-SubJudice-VANDERLEY-ABREU-DE-CAMPOS-Tecnologista.pdf" target=new><font size=2>Resultado da Entrevista de Heteroidentifica&ccedil;&atilde;o de candidato com liminar deferida 5085857-17.2024.4.02.5101/RJ - Vanderley Abreu de Campos</font></a>
+                   <BR><BR>
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Resultado-SunJudice-GABRIELA-SANTOS-SILVA-Tecnologista.pdf" target=new><font size=2>Resultado da Entrevista de Heteroidentifica&ccedil;&atilde;o de candidato com mandado de seguran&ccedil;a 5087266-28.2024.4.02.5101/RJ - Gabriela Santos Silva</font></a>
+                   <BR><BR>
+
+           
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Curriculos-SubJudice-Banca-Recursal-Tecnologistas.pdf" target=new><font size=2>Divulga&ccedil;&atilde;o dos Curr&iacute;culos dos Membros da Banca Recursal - Sub Judice - Procedimento de Heteroidentifica&ccedil;&atilde;o Racial</font></a>
+                   <BR><BR>
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Curriculos-Banca-Recursal-Tecnologistas.pdf" target=new><font size=2>Divulga&ccedil;&atilde;o dos Curr&iacute;culos dos Membros da Banca Recursal - Procedimento de Heteroidentifica&ccedil;&atilde;o Racial</font></a>
+                   <BR><BR>
+
+           
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-31.10.2024.pdf" target=new><font size=2>Convoca&ccedil;&atilde;o para Entrevista de Heteroidentifica&ccedil;&atilde;o de candidato com liminar deferida 5085857-17.2024.4.02.5101/RJ, publicado no DOU de 31/10/2024</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-31.10.2024.pdf" target=new><font size=2>Convoca&ccedil;&atilde;o para Entrevista de Heteroidentifica&ccedil;&atilde;o de candidato com mandado de seguran&ccedil;a 5087266-28.2024.4.02.5101/RJ, publicado no DOU de 31/10/2024</font></a>
+           <BR><BR>
+
+
+           
+
+                   <li><a href="#"><font size=2>Per&iacute;odo para Recursos contra o Resultado Preliminar das Entrevistas de Heteroidentifica&ccedil;&atilde;o: de 10hs do dia 29/10/2024 at&eacute; 18hs de 30/10/2024</font></a>
+                   <BR><BR>
+
+           
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-29.10.24.pdf" target=new><font size=2>Publica&ccedil;&atilde;o no DOU - Resultado Preliminar das Entrevistas de Heteroidentifica&ccedil;&atilde;o dos candidatos que se declararam negros</font></a>
+                   <BR><BR>
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Resultado-Preliminar-Etapa-Heteroidentificacao-Tecnologista.pdf" target=new><font size=2>Resultado Preliminar das Entrevistas de Heteroidentifica&ccedil;&atilde;o dos candidatos que se declararam negros</font></a>
+                   <BR><BR>
+
+           
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-18.10.24.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o do Edital Complementar - Procedimento de Heteroidentifica&ccedil;&atilde;o Racial publicado no DOU de 18/10/2024</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU.2024.10.16.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o do Edital Complementar - Procedimento de Heteroidentifica&ccedil;&atilde;o Racial publicado no DOU de 16/10/2024</font></a>
+           <BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Edital-Divulgacao-Curriculos-Heteroidentificacao-Tecnologista.pdf" target=new><font size=2>Divulga&ccedil;&atilde;o dos Curr&iacute;culos dos Membros da Comiss&atilde;o de Avalia&ccedil;&atilde;o de Heteroidentifica&ccedil;&atilde;o Racial</font></a>
+           <BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-10.10.24.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o do Edital Complementar - Procedimento de Heteroidentifica&ccedil;&atilde;o Racial publicado no DOU de 10/10/2024</font></a>
+           <BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-08.10.24-Pagina5.pdf" target=new><font size=2>Altera&ccedil;&atilde;o nos Cronogramas de Tecnologista - publicado no DOU de 08/10/2024</font></a>
+           <BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-08.10.24.pdf" target=new><font size=2>Edital Complementar - Convoca&ccedil;&atilde;o para Entrevista de Heteroidentifica&ccedil;&atilde;o dos candidatos que se declararam negros e Convoca&ccedil;&atilde;o para Avalia&ccedil;&atilde;o Biopsicossocial dos candidatos com defici&ecirc;ncia publicados no DOU de 08/10/2024</font></a>
+           <BR><BR>
+
+
+           
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Edital-Complementar-Heteroidentificacao-Tecnologistas.pdf" target=new><font size=2>Edital Complementar - Convoca&ccedil;&atilde;o para Entrevista de Heteroidentifica&ccedil;&atilde;o dos candidatos que se declararam negros</font></a>
+                   <BR><BR>
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Edital-Complementar-Em08102024-Biopsicossocial-Tecnologistas.pdf" target=new><font size=2>Edital Complementar - Convoca&ccedil;&atilde;o para Avalia&ccedil;&atilde;o Biopsicossocial dos candidatos com defici&ecirc;ncia</font></a>
+                   <BR><BR>
+
+           
+
+                   <li><a href="#"><font size=2>Indica&ccedil;&atilde;o de Cidade para as Etapas de Heteroidentifica&ccedil;&atilde;o Racial e Avalia&ccedil;&atilde;o Biopsicossocial: das 9h00 do dia 26/09/2024 at&eacute; 18h00 de 27/09/2024</font></a>
+                   <BR><BR>
+
+                   <li><a href="#"><font size=2>Indica&ccedil;&atilde;o de Necessidades Especiais para as Etapas de Heteroidentifica&ccedil;&atilde;o Racial e Avalia&ccedil;&atilde;o Biopsicossocial: das 9h00 do dia 26/09/2024 at&eacute; 18h00 de 27/09/2024</font></a>
+                   <BR><BR>
+
+           
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Edital28-Opcao-Cidade-Hetero-Biopsico-Tecnologistas.pdf" target=new><font size=2>Edital de Op&ccedil;&atilde;o de Cidade para as Etapas de Heteroidentifica&ccedil;&atilde;o Racial e Avalia&ccedil;&atilde;o Biopsicossocial</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-23.09.24-Resultado-Prova-Pratica-OpcaoDeCidade.pdf" target=new><font size=2>Divulga&ccedil;&atilde;o de Edital de Op&ccedil;&atilde;o de Cidade para as Etapas de Heteroidentifica&ccedil;&atilde;o Racial e Avalia&ccedil;&atilde;o Biopsicossocial publicado no DOU em 23/09/2024</font></a>
+           <BR><BR>
+
+        </ul>
+
+   </DIV>
+
+   <BR>
+
+
+
+
+
+
+
+
+   
+
+
+   <!-- Prova Prática e Prova de Aula -->
+
+   
+
+   <li><DIV ID="el9Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el9'); return false"><font size=3>Prova Pr&aacute;tica e Prova de Aula</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el9Child" CLASS="child" align=Left>
+
+        <ul>
+
+            <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-24.09.24.pdf" target=new><font size=2>Publica&ccedil;&atilde;o no DOU de 24/09/2024: Resultado Final da Prova de Aula do Perfil TE25</font></a>
+            <BR><BR>
+
+            <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-23.09.24-Resultado-Prova-Pratica-OpcaoDeCidade.pdf" target=new><font size=2>Publica&ccedil;&atilde;o no DOU de 23/09/2024: Resultado Final da Prova Pr&aacute;tica e da Prova de Aula</font></a>
+            <BR><BR>
+
+            <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Notas-Tecnologista-PrPratica-PrAula-Finais.pdf" target=new><font size=2>Resultado Final da Prova Pr&aacute;tica e da Prova de Aula - Relat&oacute;rio</font></a>
+            <BR><BR>
+
+            <li><a href="https://concurso2023.fiotec.fiocruz.br/Consulta.Notas.PrPratica.PrAula.Tecnologistas.Finais/" target=new><font size=2>Resultado Final da Prova Pr&aacute;tica e da Prova de Aula - Consulta Individual</font></a>
+            <BR><BR>
+
+            <li><a href="https://concurso2023.fiotec.fiocruz.br/ConsRespRec.PraticaPrAula.Tecnologistas-Login.asp" target=new><font size=2>Consulta Respostas dos Recursos contra o Resultado Preliminar da Prova Pr&aacute;tica e da Prova de Aula</font></a>
+            <BR><BR>
+
+        </ul>
+
+   </DIV>
+
+   <BR>
+
+   
+
+
+
+
+
+
+
+   <!-- Publicacao no DOU -->
+
+   
+
+   <li><DIV ID="el10Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el10'); return false"><font size=3>Publica&ccedil;&otilde;es no DOU</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el10Child" CLASS="child" align=Left>
+
+        <ul>
+
+            <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-24.09.24.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o da An&aacute;lise de T&iacute;tulos da candidata Rosana Cristina dos Santos - Mandado de Seguran&ccedil;a 5066703-13.2024.4.02.5101/RJ</font></a>
+            <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-16092024-Pag199.pdf" target=new><font size=2>Publica&ccedil;&atilde;o no DOU de 16/09/2024: Retifica&ccedil;&atilde;o no Edital de Tecnologista: altera&ccedil;&atilde;o em quadro de provas</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-09.09.24-Retificacao-Titulos-Analista-E-Tecnologista-Cron-TE41.pdf" target=new><font size=2>Publica&ccedil;&atilde;o de Cronograma Atualizado do perfil TE41 publicado no DOU de 09/09/2024</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-09.09.24-Retificacao-Titulos-Analista-E-Tecnologista-Cron-TE41.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o do Resultado Final da An&aacute;lise de T&iacute;tulos publicada no DOU de 09/09/2024</font></a>
+           <BR><BR>
+
+        </ul>
+
+   </DIV>
+
+   <BR>
+
+
+
+
+   <!-- Prova Prática e Prova de Aula -->
+
+   
+
+   <li><DIV ID="el11Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el11'); return false"><font size=3>Prova Pr&aacute;tica e Prova de Aula</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el11Child" CLASS="child" align=Left>
+
+        <ul>
+
+
+           
+
+                   <li><A HREF="#"><font size=2>Recursos contra o Resultado Preliminar da Prova Pr&aacute;tica e da Prova de Aula: de 10hs do dia 10/09/2024 at&eacute; 23h59min de 11/09/2024</B></font></a>
+                   <BR><BR>
+
+           
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Notas-Preliminares-Tecnologista-PrPratica-PrAula.pdf" target=new><font size=2>Resultado Preliminar da Prova Pr&aacute;tica e da Prova de Aula</font></a>
+                   <BR><BR>
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Consulta.Notas.PrPratica.PrAula.Tecnologistas.Preliminares/" target=new><font size=2>Resultado Preliminar da Prova Pr&aacute;tica e da Prova de Aula - Consulta Individual</font></a>
+                   <BR><BR>
+
+           
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-29.08.24-RETIFICACAO-EDITAIS.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o no Edital Complementar no.6 de Convoca&ccedil;&atilde;o para Prova Pr&aacute;tica e Prova de Aula</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/PORTARIA-PROVA-PRATICA-TE28.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o na Portaria de Divulga&ccedil;&atilde;o das Bancas Examinadoras - TE28</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Portaria-498-Retificacao-Banca-ProvaPratica-TE30.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o na Portaria de Divulga&ccedil;&atilde;o das Bancas Examinadoras - TE30</font></a>
+           <BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/SEI-4178319-Portaria-Cogepe-491.pdf" target=new><font size=2>Portaria de Divulga&ccedil;&atilde;o das Bancas Examinadoras para a etapa de Prova de Aula e Prova Pr&aacute;tica</font></a>
+           <BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Edital-Complementar-Criterios-ProvaPratica-ProvaDeAula-Tecnologista.pdf" target=new><font size=2>Edital Complementar de Convoca&ccedil;&atilde;o para a Prova Pr&aacute;tica e Prova de Aula</font></a>
+           <BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-23.08.2024.Edital.Complementar.PrPratica.PrAula.pdf" target=new><font size=2>Edital Complementar de Convoca&ccedil;&atilde;o para a Prova Pr&aacute;tica e Prova de Aula - Publicado no DOU de 23/08/2024</font></a>
+           <BR><BR>
+
+
+           
+
+                   <li><A HREF="#"><font size=2>Indica&ccedil;&atilde;o de Necessidades Especiais para a Etapa de Prova Pr&aacute;tica e Prova de Aula: do dia 06/08/2024 at&eacute; 23h59min de 11/08/2024</font></a>
+                   <BR><BR>
+
+           
+
+        </ul>
+
+   </DIV>
+
+   <BR>
+
+
+
+
+   
+
+   <!-- Resultados Titulos -->
+
+   
+
+   <li><DIV ID="el12Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el12'); return false"><font size=3>Resultados - T&iacute;tulos</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el12Child" CLASS="child" align=Left>
+
+        <ul>
+
+
+
+           
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Tecnologistas-Relatorio-ResFinal-Titulos.pdf" target=new><font size=2>Resultado Final da An&aacute;lise de T&iacute;tulos - Todos os Perfis - Atualizado</font></a>
+                 <BR><BR>
+
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-27.08.24-Resultado-Titulos-TE41.pdf" target=new><font size=2>Resultado Final da An&aacute;lise de T&iacute;tulos do Perfil TE41 publicada no DOU de 27/08/2024</font></a>
+                 <BR><BR>
+
+                 <!--
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-ResFinal-Titulos-TE41-Em20240826.pdf" target=new><font size=2>Resultado Final da An&aacute;lise de T&iacute;tulos - Perfil TE41</font></a>
+                 <BR><BR>
+                 -->
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/provas/fiotec/index.php" target=new><font size=2>Consulta Respostas dos Recursos contra o Resultado Preliminar da An&aacute;lise de T&iacute;tulos e Consulta Notas Finais de T&iacute;tulos</font></a>
+                 <BR><BR>
+
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-23.08.2024.ResFinalTitulos.Tecnologista.pdf" target=new><font size=2>Resultado Final da An&aacute;lise de T&iacute;tulos publicada no DOU de 23/08/2024</font></a>
+                 <BR><BR>
+
+                 <!--
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-ResFinal-Titulos-Tecnologistas-Em23082024.pdf" target=new><font size=2>Resultado Final da An&aacute;lise de T&iacute;tulos - Menos Perfil TE41</font></a>
+                 <BR><BR>
+                 -->
+
+           
+
+                   <li><A HREF="#"><font size=2>Recursos contra o Resultado Preliminar da An&aacute;lise de T&iacute;tulos: de 10hs do dia 06/08/2024 at&eacute; 23h59min de 07/08/2024</B></font></a>
+                   <BR><BR>
+
+           
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-ResPrelim-Titulos-Tecnologistas.pdf" target=new><font size=2>Resultado Preliminar da An&aacute;lise de T&iacute;tulos</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Consulta.Notas.Preliminares.Titulos.AnaTec/" target=new><font size=2>Resultado Preliminar da An&aacute;lise de T&iacute;tulos - Consulta Individual</font></a>
+           <BR><BR>
+
+        </ul>
+
+   </DIV>
+
+   <BR>
+
+   
+
+
+
+
+
+
+
+
+   <!-- Publicacao no DOU -->
+
+   
+
+   <li><DIV ID="el13Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el13'); return false"><font size=3>Publica&ccedil;&otilde;es no DOU</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el13Child" CLASS="child" align=Left>
+
+        <ul>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-16.08.24.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o no Edital: altera&ccedil;&atilde;o no cronograma</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU.07.08.2024.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o no Edital: altera&ccedil;&atilde;o do cronograma das Provas Pr&aacute;tica e de Aula</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-05.08.24-Retificacoes.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o no Edital Complementar no.3</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/01-Retificacao-DOU-26.07.24.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o no Edital: altera&ccedil;&atilde;o do cronograma</font></a>
+           <BR><BR>
+
+        </ul>
+
+   </DIV>
+
+   <BR>
+
+
+
+
+   <!-- Reaplicacao do TE41 -->
+
+   
+
+   <li><DIV ID="el14Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el14'); return false"><font size=3>Reaplica&ccedil;&atilde;o da Prova Discursiva do Perfil TE41</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el14Child" CLASS="child" align=Left>
+
+        <ul>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Cronograma-Tecnologista-TE41-04092024-Atualizacao.pdf" target=new><font size=2>Cronograma Atualizado do Perfil TE41</font></a>
+           <BR><BR>
+
+
+           
+
+                   <li><A HREF="#"><font size=2>Recursos contra o Resultado Preliminar da An&aacute;lise de T&iacute;tulos - TE41: de 10hs do dia 19/08/2024 at&eacute; 23h59min de 20/08/2024</B></font></a>
+                   <BR><BR>
+
+           
+
+                <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-ResPrelim-Titulos-TE41.pdf" target=new><font size=2>Resultado Preliminar da An&aacute;lise de T&iacute;tulos - Perfil TE41</font></a>
+                <BR><BR>
+
+                <li><a href="https://concurso2023.fiotec.fiocruz.br/Consulta.Notas.Preliminares.Titulos.AnaTec" target=new><font size=2>Resultado Preliminar da An&aacute;lise de T&iacute;tulos - Perfil TE41 - Consulta Individual</font></a>
+                <BR><BR>
+
+           
+
+
+
+           <!--
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/provas/fiotec/index.php" target=new><font size=2>Envio de T&iacute;tulos: do dia 05/08/2024 at&eacute; 23h59min de 09/08/2024</font></a>
+           <BR><BR>
+           -->
+           <li><a href="#" target=new><font size=2>Envio de T&iacute;tulos: do dia 05/08/2024 at&eacute; 23h59min de 09/08/2024</font></a>
+           <BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-02.08.24.pdf" target=new><font size=2>Publica&ccedil;&atilde;o DOU: Notas Finas da Prova Discursiva e Convoca&ccedil;&atilde;o para Envio de T&iacute;tulos - TE41</font></a>
+           <BR><BR>
+
+
+           
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/TE41-Convocacao-Titulos.pdf" target=new><font size=2>Convoca&ccedil;&atilde;o Nominal de Candidatos para Entrega de T&iacute;tulos - Perfil TE41</font></a>
+                   <BR><BR>
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/TE41-Classificacao-Apos-Discursiva.pdf" target=new><font size=2>Classifica&ccedil;&atilde;o dos Candidatos Aprovados na Prova Discursiva - Perfil TE41</font></a>
+                   <BR><BR>
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Consulta.ResFinal.Discursiva.TE41/" target=new><font size=2>Resultado Final da Prova Discursiva - Perfil TE41 - Consulta Individual</font></a>
+                   <BR><BR>
+
+                   <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-TE41-NotasFinais-Discursiva.pdf" target=new><font size=2>Resultado Final da Prova Discursiva - Perfil TE41</font></a>
+                   <BR><BR>
+
+                   <li><A HREF="https://concurso2023.fiotec.fiocruz.br/ConsRespRec.ResDiscur-TE41-Login.asp" target=new><font size=2>Resultado dos Recursos contra o Resultado Preliminar da Prova Discursiva - Perfil TE41</B></font></a>
+                   <BR><BR>
+
+           
+
+                   <li><A HREF="#"><font size=2>Prazo para Recurso contra o Resultado Preliminar da Prova Discursiva - Perfil TE41 - de 29/07/2024 at&eacute; 30/07/2024</B></font></a>
+                   <BR><BR>
+
+           
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Resultado-Preliminar-Discursiva-TE41.pdf" target=new><font size=2>Resultado Preliminar da Prova Discursiva - Perfil TE41</font></a>
+           <BR><BR>
+
+
+           
+
+                <li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.ResPrelim.Discur.TE41/" target=new><font size=2>Resultado Preliminar da Prova Discursiva do Perfil TE41 - Consulta Individual</font></a>
+                <BR><BR>
+
+           
+
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/ConsRespRec.Espelhos-TE41-Login.asp"  target=new><font size=2>Respostas dos Recursos contra o Espelho de Respostas da Prova Discursiva - TE41</font></a>
+           <BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Espelhos/ESP-TE41-Novo.pdf" target=new><font size=2>Espelho de Respostas Definitivo da Prova Discursiva Realizada em 14/07/2024 - Perfil TE41 - Citometria de fluxo - Salvador</font></a>
+           <BR><BR>
+
+
+           <BR>
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Cronograma-Tecnologista-TE41.pdf" target=new><font size=2>Divulga&ccedil;&atilde;o do NOVO Cronograma para o Perfil TE41</font></a>
+           <BR><BR>
+           <BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/2024-07-19-INPDFViewer.pdf" target=new><font size=2>Publica&ccedil;&atilde;o do Cronograma do Perfil TE41 no DOU de 19/07/2024</font></a>
+           <BR><BR>
+
+
+           
+
+                   <li><A HREF="#"><font size=2>Prazo para Recurso contra o Espelho de Respostas da Prova Discursiva - Perfil TE41 - de 16/07/2024 at&eacute; 17/07/2024</B></font></a>
+                   <BR><BR>
+
+           
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE41-Discursiva.pdf" target=new><font size=2>Prova Discursiva Realizada em 14/07/2024 - Perfil TE41 - Citometria de fluxo - Salvador</font></a>
+           <BR><BR>
+
+
+           <li><Form name = "CCI" method = post action = "https://concurso2023.fiotec.fiocruz.br/Cartao.De.Confirmacao.TE41/">
+                       <font size=2><b>Consulta novo CCI: &nbsp;</b></font>
+                       <input type = "submit" name = "CCI" value = "Consultar CCI TE41" p style = "background-color:#CD661D; font-size:10px; color:white; font-weight:bold; height:20; font-family:verdana;">
+               </Form>
+           <BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-05.07.24-Comunicado10-11-12-Retificacao-Resultado-Final-Analista-Tecnologista.pdf" target=new><font size=2>Publica&ccedil;&atilde;o no DOU de 05/07/2024: Reaplica&ccedil;&atilde;o da Prova Discursiva do perfil TE41 em 14/07/2024</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Convocacao-Reaplicacao-TE41-ProvaEm140724.pdf" target=new><font size=2>Convoca&ccedil;&atilde;o Nominal dos Candidatos do Perfil TE41 com Local de Prova</font></a>
+           <BR><BR>
+
+        </ul>
+
+   </DIV>
+
+   <BR>
+
+
+
+
+
+
+   <!-- Titulos -->
+
+
+   
+
+   <li><DIV ID="el15Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el15'); return false"><font size=3>T&iacute;tulos</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el15Child" CLASS="child" align=Left>
+
+        <ul>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Portaria-6-Tecnologista-02.08.24.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o 06 da Portaria de Divulga&ccedil;&atilde;o das Bancas Examinadoras da Etapa de T&iacute;tulos</font></a>
+           <br><br>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/5a-Portaria-435-Tecnologista-29.07.24.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o 05 da Portaria de Divulga&ccedil;&atilde;o das Bancas Examinadoras da Etapa de T&iacute;tulos</font></a>
+           <br><br>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/4a-Portaria-430-Tecnologista-29.07.24.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o 04 da Portaria de Divulga&ccedil;&atilde;o das Bancas Examinadoras da Etapa de T&iacute;tulos</font></a>
+           <br><br>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/05-Portaria-426-Tecnologista-25.07.24.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o 03 da Portaria de Divulga&ccedil;&atilde;o das Bancas Examinadoras da Etapa de T&iacute;tulos</font></a>
+           <br><br>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Portaria-423-Tecnologista-25.07.2024.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o 02 da Portaria de Divulga&ccedil;&atilde;o das Bancas Examinadoras da Etapa de T&iacute;tulos</font></a>
+           <br><br>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Portaria-418-Tecnologista-Retificacao-01-Bancas-Examinadoras-24.07.2024.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o 01 da Portaria de Divulga&ccedil;&atilde;o das Bancas Examinadoras da Etapa de T&iacute;tulos</font></a>
+           <br><br>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Portaria-Cogepe-411-Bancas-Examinadoras-Tecnologista.pdf" target=new><font size=2>Portaria de Divulga&ccedil;&atilde;o das Bancas Examinadoras da Etapa de T&iacute;tulos</font></a>
+           <br><br>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/OrientacoesEcriterios-Avaliacao-Adicionais-TE11.pdf" target=new><font size=3 color=red>Informa&ccedil;&otilde;es EXTRAS - Perfil TE11</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/OrientacoesEcriterios-Avaliacao-Adicionais-TE15.pdf" target=new><font size=3 color=red>Informa&ccedil;&otilde;es EXTRAS - Perfil TE15</font></a>
+           <BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/provas/fiotec/index.php" target=new><font size=2>Envio de T&iacute;tulos: do dia 05/07/2024 at&eacute; 23h59min de 12/07/2024</font></a>
+           <BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-Convocacao-Ttulos-Tecnologistas.pdf" target=new><font size=2>Convoca&ccedil;&atilde;o Nominal de Candidatos para Entrega de T&iacute;tulos</font></a>
+           <BR><BR>
+
+        </ul>
+
+   </DIV>
+
+
+   <BR>
+
+
+
+
+
+   <!-- Publicacao no DOU -->
+
+   
+
+   <li><DIV ID="el16Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el16'); return false"><font size=3>Publica&ccedil;&otilde;es no DOU - 05/07/2024</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el16Child" CLASS="child" align=Left>
+
+        <ul>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Retificacao-Editais-abertura-resultado-pesquisador-05072024-para-DOU.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o no Edital: altera&ccedil;&atilde;o do tamanho do arquivo de Upload</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-05.07.24-Comunicado10-11-12-Retificacao-Resultado-Final-Analista-Tecnologista.pdf" target=new><font size=2>Publica&ccedil;&atilde;o DOU: Notas Finas da Prova Discursiva de Tecnologista</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-05.07.24-Comunicado10-11-12-Retificacao-Resultado-Final-Analista-Tecnologista.pdf" target=new><font size=2>Publica&ccedil;&atilde;o DOU: Convoca&ccedil;&atilde;o para Envio de T&iacute;tulos - Tecnologistas</font></a>
+           <BR><BR>
+
+
+        </ul>
+
+   </DIV>
+
+   <BR>
+
+
+
+
+
+
+
+   <!-- Discursiva -->
+
+
+   
+
+   <li><DIV ID="el17Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el17'); return false"><font size=3>Resultados - Prova Discursiva</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el17Child" CLASS="child" align=Left>
+
+        <ul>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Classificacao-AposDiscursiva-NV-Tecnologistas.pdf" target=new><font size=2>Classifica&ccedil;&atilde;o dos Candidatos Aprovados na Prova Discursiva</font></a>
+           <BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/ResFinal-Discursiva-Tecnologistas.pdf" target=new><font size=2>Resultado Final da Prova Discursiva</font></a>
+           <BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Consulta.ResFinal.Discursiva.Tecnologistas/" target=new><font size=2>Consulta Individual das Notas Finais da Prova Discursiva</font></a>
+           <BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/ConsRespRec.ResDiscur-Tecnologista-Login.asp" target=new><font size=2>Resultado dos Recursos contra o Resultado Preliminar da Prova Discursiva</font></a>
+           <BR><BR>
+
+
+        </ul>
+
+   </DIV>
+
+
+   <BR>
+
+
+
+
+
+
+   <!-- Publicacao no DOU -->
+
+   
+
+   <li><DIV ID="el18Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el18'); return false"><font size=3>Publica&ccedil;&otilde;es no DOU - 26/06/2024</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el18Child" CLASS="child" align=Left>
+
+        <ul>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-26062024-Pag133.pdf" target=new><font size=2>Retifica&ccedil;&otilde;es nos Editais 01, 02 e 03 relativas ao tamanho dos arquivos de upload de t&iacute;tulos e quantidade m&aacute;xima de arquivos</font></a>
+           <BR><BR>
+
+        </ul>
+
+   </DIV>
+
+   <BR>
+
+
+
+
+   <!-- RECURSOS -->
+
+
+   
+
+   <li><DIV ID="el19Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el19'); return false"><font size=3>Recursos</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el19Child" CLASS="child" align=Left>
+
+        <ul>
+
+          <li><a href="https://concurso2023.fiotec.fiocruz.br/Recursos.ResPrelim.Discursiva.Tecnologista/" target=new><font size=2>Recursos contra o Resultado Preliminar da Prova Discursiva de Tecnologista: de 10hs do dia 19/06/2024 at&eacute; 23h59min de 20/06/2024</font></a>
+          <BR>
+
+        </ul>
+
+   </DIV>
+
+
+   <BR>
+   <BR>
+   
+
+
+   <!-- RESULTADOS -->
+
+
+   
+
+   <li><DIV ID="el20Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el20'); return false"><font size=3>Resultados</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el20Child" CLASS="child" align=Left>
+
+        <ul>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Resultado-Preliminar-Discursiva-Tecnologistas.pdf" target=new><font size=2>Resultado Preliminar da Prova Discursiva</font></a>
+           <BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.ResPrelim.Discur.Tecnologistas/" target=new><font size=2>Resultado Preliminar da Prova Discursiva de Tecnologista - Consulta Individual</font></a>
+           <BR><BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-Comunicado-08-18.06.2024.pdf" target=new><font size=2>Comunicado 08 - Perfil TE41 - pubicado no DOU de 19/06/2024</font></a>
+           <BR><BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/COMUNICADO-08-TE41-02.pdf" target=new><font size=3 color=red>Comunicado de Reaplica&ccedil;&atilde;o do Perfil TE41</font></a>
+           <BR><BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Classificacao-Objetiva-Tecnologistas-AntesDiscur.pdf" target=new><font size=2>Classifica&ccedil;&atilde;o dos Candidatos Aprovados na Prova Objetiva</font></a>
+           <BR><BR>
+
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-06062024-Parte1-pag120a145.pdf" target=new><font size=2>Resultado Final da Prova Objetiva publicado no DOU de 06/06/2024 - Parte 1</font></a>
+           <BR>
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-06062024-Parte2-pag146a153.pdf" target=new><font size=2>Resultado Final da Prova Objetiva publicado no DOU de 06/06/2024 - Parte 2</font></a>
+           <BR><BR>
+
+
+           
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-Tecnologistas-ResFinal-Objetiva.pdf" target=new><font size=2>Resultado Final da Prova Objetiva</font></a>
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/ConsRespRec.ResFinalObj-Tecnol-Login.asp" target=new><font size=2>Respostas dos Recursos contra o Resultado Preliminar da Prova Objetiva</font></a>
+                 <BR><BR>
+
+                 <BR>
+
+           
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Recursos.Notas.Objetiva.Tecnologistas" target=new><font size=2>Recursos contra o resultado preliminar da prova objetiva: de 10hs do dia 27/05/2024 at&eacute; 23h59min de 28/05/2024</font></a>
+                 <BR><BR>
+
+                 <BR>
+
+           
+
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Comunicado-TE52-TE53.pdf" target=new><font size=3 color=red>Comunicado Perfis TE52 e TE53</font></a>
+                 <BR><BR><BR>
+
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Comunicado-TE09.pdf" target=new><font size=3 color=red>Gabarito Prova Objetiva Perfl TE09</font></a>
+                 <BR><BR><BR>
+
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Tecnologistas-Resultado-Preliminar-Objetiva.pdf" target=new><font size=2>Resultado Preliminar da Prova Objetiva</font></a>
+                 <BR><BR>
+
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Imagens.Cartoes.Objetiva" target=new><font size=2>Consulta Individual de Notas, Marca&ccedil;&otilde;es e Imagem do Cart&atilde;o Resposta</font></a>
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-Gabaritos-Finais-Tecnologistas.pdf" target=new><font size=2>Divulga&ccedil;&atilde;o dos Gabaritos definitivos</font></a>
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/ConsRespRec.Gabaritos-Tecnologista-Login.asp" target=new><font size=2>Respostas dos Recursos contra os Gabaritos Preliminares das Provas Objetivas</font></a>
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/ConsRespRec.Espelhos-Tecnologista-Login.asp"  target=new><font size=2>Respostas dos Recursos contra o Espelho de Respostas da Prova Discursiva</font></a>
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulga.Espelhos" target=new><font size=2>Divulga&ccedil;&atilde;o dos Espelhos DEFINITIVOS das Provas realizadas em 28/04/2024</font></a>
+                 <BR><BR>
+
+                 <BR>
+
+
+        </ul>
+
+   </DIV>
+
+
+
+   
+
+
+
+
+
+   <!-- URGENTE -->
+
+
+   
+
+   <li><DIV ID="el21Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el21'); return false"><font size=3>PERFIL TE38</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el21Child" CLASS="child" align=Left>
+
+        <ul>
+
+          <li><a href="https://concurso2023.fiotec.fiocruz.br/Recursos.Espelho.Discursiva.TE38/" target=new><font size=2>Recursos contra o Espelho de Respostas da Prova Discursiva - TE38: de 10hs do dia 21/05/2024 at&eacute; 23h59min de 22/05/2024</font></a>
+          <BR><BR>
+
+          <li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Espelhos/ESP-TE38.pdf" target=new><font size=2>Espelho de Respostas da Prova Discursiva - TE38</font></a>
+          <BR><BR>
+
+          <li><a href="https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE38-Discursiva.pdf" target=new><font size=2>Prova Discursiva - TE38</font></a>
+          <BR><BR>
+
+          <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Comunicado-TE38-PrazosRecursais.pdf" target=new><font size=2>Comunicado ao Perfil TE38 - Novos Prazos Recursais</b></font></a>
+          <BR><BR>
+
+          <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Comunicado4-pg123-PublicadoEm21052024.pdf" target=new><font size=2>Comunicado 04 relativo aos prazos recursais do Perfil TE38 publicado no DOU - p&aacute;gina 1</b></font></a>
+          <BR><BR>
+
+          <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Comunicado4-pg124-PublicadoEm21052024.pdf" target=new><font size=2>Comunicado 04 relativo aos prazos recursais do Perfil TE38 publicado no DOU - p&aacute;gina 2</b></font></a>
+          <BR><BR>
+
+          <li><a href="https://concurso2023.fiotec.fiocruz.br/Reaplicacao.TE38/" target=new><font size=2>Sobre a Reaplica&ccedil;&atilde;o do Perfil TE38</b></font></a>
+
+          <BR>
+
+        </ul>
+
+   </DIV>
+
+
+   <BR>
+   <BR>
+
+
+
+
+
+
+
+   <!-- RECURSOS -->
+
+
+   
+
+   <li><DIV ID="el22Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el22'); return false"><font size=3>Recursos</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el22Child" CLASS="child" align=Left>
+
+        <ul>
+
+
+          <li><a href="https://concurso2023.fiotec.fiocruz.br/Recursos.Gabarito.Objetiva"  target=new><font size=2>Recursos contra o gabarito da prova objetiva: de 10hs do dia 30/04/2024 at&eacute; 23h59min de 02/05/2024</font></a>
+          <BR><BR>
+
+          <li><a href="https://concurso2023.fiotec.fiocruz.br/Recursos.Espelho.Discursiva" target=new><font size=2>Recursos contra o Espelho de Respostas da Prova Discursiva: de 10hs do dia 30/04/2024 at&eacute; 23h59min de 02/05/2024</font></a>
+
+          <BR>
+
+        </ul>
+
+   </DIV>
+
+
+   <BR>
+   <BR>
+
+
+
+
+   <!-- RESULTADOS -->
+
+
+   
+
+   <li><DIV ID="el23Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el23'); return false"><font size=3>Resultados</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el23Child" CLASS="child" align=Left>
+
+        <ul>
+
+
+           
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulga.Provas" target=new><font size=2>Divulga&ccedil;&atilde;o dos Cadernos das Provas realizadas em 28/04/2024</font></a>
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulga.Gabaritos" target=new><font size=2>Divulga&ccedil;&atilde;o dos Gabaritos Preliminares das Provas realizadas em 28/04/2024</font></a>
+                 <BR><BR>
+
+                 <BR>
+
+           
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Rel-Geral-Candidatos-Letras-AateE.pdf" target=new><font size=2>Consulta Locais de Prova - Candidatos de Letras A at&eacute; E</font></a>
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Rel-Geral-Candidatos-Letras-FateK.pdf" target=new><font size=2>Consulta Locais de Prova - Candidatos de Letras F at&eacute; K</font></a>
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Rel-Geral-Candidatos-Letras-LateP.pdf" target=new><font size=2>Consulta Locais de Prova - Candidatos de Letras L at&eacute; P</font></a>
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Rel-Geral-Candidatos-Letras-QateZ.pdf" target=new><font size=2>Consulta Locais de Prova - Candidatos de Letras Q at&eacute; Z</font></a>
+                 <BR><BR>
+
+
+                 <li><Form name = "Inscricoes" method = post action = "https://concurso2023.fiotec.fiocruz.br/Cartao.De.Confirmacao/">
+
+                         <font size=2><b>Consulta Cart&atilde;o de Confirma&ccedil;&atilde;o da Inscri&ccedil;&atilde;o (CCI): &nbsp;</b></font>
+
+                         <input type = "submit" name = "Recurso" value = "CCI" p style = "background-color:#CD661D; font-size:12px; color:white; font-weight:bold; height:30; font-family:verdana;">
+
+                      </Form>
+
+                 <br>
+
+           
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relacao-Final-Homologados-Tecnologista-Letras-A-J.pdf" target=new><font size=2>Resultado Final das Inscri&ccedil;&otilde;es Homologadas - Letras A at&eacute; J</font></a>
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relacao-Final-Homologados-Tecnologista-Letras-K-Z.pdf" target=new><font size=2>Resultado Final das Inscri&ccedil;&otilde;es Homologadas - Letras K at&eacute; Z</font></a>
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Resultado-Final-ConcNegros-Tecnologista.pdf" target=new><font size=2>Resultado Final do Pedido para Concorrer &agrave;s Vagas Reservadas aos Candidatos Negros</font></a>
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Resultado-Final-ConcDefi-Tecnologista.pdf" target=new><font size=2>Resultado Final do Pedido para Concorrer &agrave;s Vagas Reservadas &agrave;s Pessoas com Defici&ecirc;ncia</font></a>
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relacao-Final-Necessidades-Tecnologista.pdf" target=new><font size=2>Resultado Final do Pedido de Atendimento Especial para a Realiza&ccedil;&atilde;o das Provas</font></a>
+                 <BR><BR>
+
+                 <li><Form name = "Inscricoes" method = post action = "https://concurso2023.fiotec.fiocruz.br/RespRecHomologacao-Login.asp">
+
+                         <font size=2><b>Respostas dos Recursos contra o Resultado Preliminar das Inscri&ccedil;&otilde;es Homologadas: &nbsp;</b></font>
+
+                         <input type=hidden name="CodEdital" value="02">
+
+                         <input type = "submit" name = "Recurso" value = "Consultar" p style = "background-color:#CD661D; font-size:12px; color:white; font-weight:bold; height:30; font-family:verdana;">
+
+                      </Form>
+
+                 <br>
+
+                 <li><Form name = "Inscricoes" method = post action = "https://concurso2023.fiotec.fiocruz.br/RespRecConcDefi-Login.asp">
+
+                         <font size=2><b>Respostas dos Recursos contra o Resultado Preliminar do Pedido para Concorrer &agrave;s Vagas Reservadas &agrave;s Pessoas com Defici&ecirc;ncia: &nbsp;</b></font>
+
+                         <input type=hidden name="CodEdital" value="02">
+
+                         <input type = "submit" name = "Recurso" value = "Consultar" p style = "background-color:#CD661D; font-size:12px; color:white; font-weight:bold; height:30; font-family:verdana;">
+
+                      </Form>
+
+                 <br>
+
+                 <li><Form name = "Inscricoes" method = post action = "https://concurso2023.fiotec.fiocruz.br/RespRecNecessidades-Login.asp">
+
+                         <font size=2><b>Respostas dos Recursos contra o Pedido de Atendimento Especial para a Realiza&ccedil;&atilde;o das Provas: &nbsp;</b></font>
+
+                         <input type=hidden name="CodEdital" value="02">
+
+                         <input type = "submit" name = "Recurso" value = "Consultar" p style = "background-color:#CD661D; font-size:12px; color:white; font-weight:bold; height:30; font-family:verdana;">
+
+                      </Form>
+
+                 <br>
+
+           
+
+                 <!--
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/NOVA-Relacao-Homologados-Tecnologista.pdf" target=new><font size=2>Resultado Preliminar das Inscri&ccedil;&otilde;es Homologadas</font></a>
+
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Resultado-Preliminar-Negros-Tecnologista.pdf" target=new><font size=2>Resultado Preliminar do Pedido para Concorrer &agrave;s Vagas Reservadas aos Candidatos Negros</font></a>
+
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Resultado-Preliminar-ConcDefi-Tecnologista.pdf" target=new><font size=2>Resultado Preliminar do Pedido para Concorrer &agrave;s Vagas Reservadas &agrave;s Pessoas com Defici&ecirc;ncia</font></a>
+
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Resultado-Preliminar-Necessidades-Tecnologista.pdf" target=new><font size=2>Resultado Preliminar do Pedido de Atendimento Especial para a Realiza&ccedil;&atilde;o das Provas</font></a>
+
+                 <BR><BR>
+                 -->
+
+           
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Resultado-Final-Isencao-Tecnologista.pdf" target=new><font size=2>Resultado definitivo da isen&ccedil;&atilde;o do pagamento da inscri&ccedil;&atilde;o - Tecnologista</font></a>
+
+                 <BR><BR>
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Inscricoes-Tecnologista/RespRecIsencao-Login.asp"><font size=2>Consulta Respostas dos Recursos contra o Resultado Preliminar dos Pedidos de Isen&ccedil;&atilde;o - Tecnologista - a partir das 10h de 09/02/2024</font></a>
+
+                 <BR><BR>
+
+           
+
+                 <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Resultado-Preliminar-Isencao-Tecnologista.pdf" target=new><font size=2>Resultado Preliminar dos Pedidos de Isen&ccedil;&atilde;o - Tecnologista</font></a>
+
+                 <BR><BR>
+
+           
+
+              <li><a href="https://concurso2023.fiotec.fiocruz.br/Inscricoes-Tecnologista/RecursoIsencao-Login.asp"><font size=2>Recurso contra o Resultado Preliminar dos Pedidos de Isen&ccedil;&atilde;o - Tecnologista - de 10h de 01/02/2024 at&eacute; 23h59min de 02/02/2024</font></a>
+
+              <BR>
+
+        </ul>
+
+   </DIV>
+
+
+   <BR>
+   <BR>
+
+
+
+
+   <!-- INSCRI��ES -->
+
+
+   
+
+   <li><DIV ID="el24Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el24'); return false"><font size=3>Inscri&ccedil;&otilde;es de Candidatos</font></a>
+
+   </DIV>
+
+
+   <BR> <br>
+
+   <DIV ID="el24Child" CLASS="child" align=Left>
+
+        <ul>
+
+
+		   
+              <!--
+
+              <li><Form name = "Inscricoes" method = post action = "https://concurso2023.fiotec.fiocruz.br/Recursos.Contra.ResPrelim.Homologados/RecursoHomologa-Login.asp">
+
+                      <font size=2><b>Entrar com Recurso contra o Resultado Preliminar das Inscri&ccedil;&otilde;es Homologadas: &nbsp;</b></font>
+
+                      <input type=hidden name="CodEdital" value="02">
+
+                      <input type = "submit" name = "Recurso" value = "Recurso" p style = "background-color:#CD661D; font-size:12px; color:white; font-weight:bold; height:30; font-family:verdana;">
+
+                   </Form>
+
+              <br>
+              -->
+
+           
+              <!--
+
+              <li><Form name = "Inscricoes" method = post action = "https://concurso2023.fiotec.fiocruz.br/Recursos.Contra.ResPrelim.ConcNegros/RecursoConcNegro-Login.asp">
+
+                      <font size=2><b>Entrar com Recurso contra o Resultado Preliminar do Pedido para Concorrer &agrave;s Vagas Reservadas aos Candidatos Negros: &nbsp;</b></font>
+
+                      <input type=hidden name="CodEdital" value="02">
+
+                      <input type = "submit" name = "Recurso" value = "Recurso" p style = "background-color:#CD661D; font-size:12px; color:white; font-weight:bold; height:30; font-family:verdana;">
+
+                   </Form>
+
+              <br>
+              -->
+
+           
+              <!--
+
+              <li><Form name = "Inscricoes" method = post action = "https://concurso2023.fiotec.fiocruz.br/Recursos.Contra.ResPrelim.ConcDefi/RecursoConcDefi-Login.asp">
+
+                      <font size=2><b>Entrar com Recurso contra o Resultado Preliminar do Pedido para Concorrer &agrave;s Vagas Reservadas &agrave;s Pessoas com Defici&ecirc;ncia: &nbsp;</b></font>
+
+                      <input type=hidden name="CodEdital" value="02">
+
+                      <input type = "submit" name = "Recurso" value = "Recurso" p style = "background-color:#CD661D; font-size:12px; color:white; font-weight:bold; height:30; font-family:verdana;">
+
+                   </Form>
+
+              <br>
+              -->
+
+           
+              <!--
+
+              <li><Form name = "Inscricoes" method = post action = "https://concurso2023.fiotec.fiocruz.br/Recursos.Contra.ResPrelim.Necessidades/RecursoNeces-Login.asp">
+
+                      <font size=2><b>Entrar com Recurso contra o Resultado Preliminar do Pedido de Atendimento Especial para a Realiza&ccedil;&atilde;o das Provas: &nbsp;</b></font>
+
+                      <input type=hidden name="CodEdital" value="02">
+
+                      <input type = "submit" name = "Recurso" value = "Recurso" p style = "background-color:#CD661D; font-size:12px; color:white; font-weight:bold; height:30; font-family:verdana;">
+
+                   </Form>
+
+              <br>
+              -->
+
+           
+
+              <li><font size=2><B>Per&iacute;odo de Inscri&ccedil;&otilde;es : de 10h do dia 22 de Janeiro de 2024 at&eacute; 23h 59min do dia 05 de Mar&ccedil;o de 2024.</B></font><BR>
+
+           
+
+
+
+
+
+
+           <br>
+
+           <li><Form name = "ConsultaCand" method = post action = "https://concurso2023.fiotec.fiocruz.br/Inscricoes-Tecnologista/Consultar-Candidato.asp">
+
+                 <font size=2><b>Consultar Inscri&ccedil;&atilde;o: &nbsp;&nbsp;&nbsp;</b></font>
+
+                 <input type=hidden name="CodEdital" value="02">
+
+                 <input type = "submit" name = "Envio1" value = "Consulta" p style = "background-color:#CD661D; font-size:12px; color:white; font-weight:bold; height:30; font-family:verdana;">
+
+               </Form>
+
+
+
+
+
+
+           
+
+
+
+
+
+           <br>
+
+           <li><Form name = "RecSenha" method = post action = "https://concurso2023.fiotec.fiocruz.br/Inscricoes-Tecnologista/SenhaEsquecida.asp">
+
+                 <font size=2><b>Recupera&ccedil;&atilde;o de Senha esquecida: &nbsp;&nbsp;&nbsp;</b></font>
+
+                 <input type=hidden name="CodEdital" value="02">
+
+                 <input type = "submit" name = "Envio1" value = "Senha" p style = "background-color:#CD661D; font-size:12px; color:white; font-weight:bold; height:30; font-family:verdana;">
+
+               </Form>
+
+
+        </ul>
+
+   </DIV>
+
+
+   <BR>
+   <BR>
+
+
+
+
+
+
+
+   <!-- RETIFICA��ES -->
+
+
+   
+
+   <li><DIV ID="el25Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el25'); return false"><font size=3>Retifica&ccedil;&otilde;es</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el25Child" CLASS="child" align=Left>
+
+        <ul>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Comunicado-02-12042024.pdf" target=new><font size=2>Comunicado publicado no DOU de 15/04/2024 - Editais 01, 02 e 03</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Retificacao-3-07022024-DOU.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o publicada no DOU de 07/02/2024 - Editais 01, 02 e 03</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Retificacao-02-DOU-De17012024.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o publicada no DOU de 17/01/2024 - Editais 01, 02 e 03</font></a>
+           <BR><BR>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Retificacao-Dia-2023-12-26.pdf" target=new><font size=2>Retifica&ccedil;&atilde;o publicada no DOU de 26/12/2023 - Editais 01, 02 e 03</font></a>
+
+        </ul>
+
+   </DIV>
+
+
+   <BR>
+   <BR>
+
+
+
+
+   <!-- EDITAIS -->
+
+
+   
+
+   <li><DIV ID="el26Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el26'); return false"><font size=3>Editais Atualizados</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el26Child" CLASS="child" align=Left>
+
+        <ul>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Edital-Fiocruz-2023-Tecnologista.pdf" target=new><font size=2>Edital de Tecnologista em Sa&uacute;de P&uacute;blica</font></a>
+
+        </ul>
+
+   </DIV>
+
+
+
+   <BR>
+   <BR>
+
+
+
+
+
+
+
+   <!-- EDITAIS ACESSIVEIS -->
+
+
+   
+
+   <li><DIV ID="el27Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el27'); return false"><font size=3>Editais Acess&iacute;veis do Concurso</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el27Child" CLASS="child" align=Left>
+
+        <ul>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Edital-Acessibilidade-Tecnologista.pdf" target=new><font size=2>Edital Acess&iacute;vel de Tecnologista em Sa&uacute;de P&uacute;blica</font></a>
+
+        </ul>
+
+   </DIV>
+
+
+   <BR>
+   <BR>
+
+
+
+
+
+
+
+
+   <!-- D�VIDAS E INFORMA��ES -->
+
+   
+
+   <li><DIV ID="el28Parent" CLASS="parent">
+
+        <A HREF="#" onClick="expandIt('el28'); return false"><font size=3>D&uacute;vidas e Informa&ccedil;&otilde;es</font></a>
+
+   </DIV>
+
+   <BR>
+
+   <DIV ID="el28Child" CLASS="child" align=Left>
+
+        <ul>
+
+           <li><a href="https://www.youtube.com/watch?v=WLx26bh83Gc&t=27s" target=new><font size=2>Fiocruz divulga v&iacute;deo sobre cotas no Concurso 2023</font></a>
+
+           <br><br>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/CAPES-AREA-CONHECIMENTO.pdf" target=new><font size=2>Tabela de &Aacute;reas de Conhecimento - CAPES</font></a>
+
+           <br><br>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/CNPQ-AREA-CONHECIMENTO.pdf" target=new><font size=2>Tabela de &Aacute;reas de Conhecimento - CNPQ</font></a>
+
+           <br><br>
+
+           <li><a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/FAQ-Concurso-Fiocruz-2023.pdf" target=new><font size=2>D&uacute;vidas Frequentes</font></a>
+
+           <br><br>
+
+           <li><font size=2>E-mail para contato: <A HREF="mailto:cogepeatende.concurso@fiocruz.br?subject=Concurso Publico Fiocruz 2023 - Solicita&ccedil;&atilde;o" target="principal">cogepeatende.concurso@fiocruz.br</A></font>
+
+           <br><br>
+
+           <li><font size=2>Telefone: <B>(21) 3836-2084 / 3836-2747 - Atendimento de 08h:30min &agrave;s 16h:30min.</B></font><BR>
+
+        </ul>
+
+   </DIV>
+
+
+
+
+</span></td>
+            <td width="1%" valign="top" align="center" height="213">&nbsp;</td>
+            <td valign="top" align="center" height="213" bgcolor="#FFD39B">
+                
+
+    <table class="MsoTableGrid" border=0 cellspacing="2" cellpadding="2" width=100%>
+
+        <tr>
+          <td colspan=2 valign="top" align="center" bgcolor="#CD661D" height="22"><font color="#ffffff" size="2"><em><strong>
+              INFORMA&Ccedil;&Otilde;ES</strong></em></font></td>
+        </tr>
+
+        <tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+		<tr><th bgcolor=#ffffff><font size=2 color="#CD661D"><B>Data do aviso</B></font></th>
+
+        <th bgcolor=#ffffff><font size=2 color="#CD661D"><B>Evento</B></font></th>
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>19/12/2025</font></B></td>
+            <td>
+                
+                <DIV ID="el29Parent" CLASS="parent">
+
+                     <A HREF="#" onClick="expandIt('el29'); return false">
+                        <font size=2><B>Retifica&ccedil;&atilde;o na Homologa&ccedil;&atilde;o do Resultado Final de Tecnologista devido a mudan&ccedil;a de nome</B></font>
+                     </a>
+
+			    </DIV>
+			</td>
+		</tr>
+		<tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+		<tr><td align=center valign="top"><font size=2><B>07/05/2025</font></B></td>
+            <td>
+                
+                <DIV ID="el30Parent" CLASS="parent">
+
+                     <a href="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Publicacao-DOU-N84-07.05.2025.pdf" target=new onClick="expandIt('el30'); return false"><font size=2><B>Retifica&ccedil;&atilde;o no Edital de Tecnologista</B></font></a>
+
+			    </DIV>
+			</td>
+		</tr>
+		<tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>22/01/2025</font></B></td>
+            <td>
+                
+                <DIV ID="el31Parent" CLASS="parent">
+
+                     <A HREF="#" onClick="expandIt('el31'); return false">
+                        <font size=2><B>Retifica&ccedil;&atilde;o na Homologa&ccedil;&atilde;o do Resultado Final</B></font>
+                     </a>
+
+			    </DIV>
+			</td>
+		</tr>
+		<tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>22/11/2024</font></B></td>
+            <td>
+                
+                <DIV ID="el32Parent" CLASS="parent">
+
+                     <A HREF="#" onClick="expandIt('el32'); return false">
+                        <font size=2><B>Retifica&ccedil;&atilde;o no Cronograma de Reaplica&ccedil;&atilde;o do Perfil TE55</B></font>
+                     </a>
+
+			    </DIV>
+			</td>
+		</tr>
+		<tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>22/11/2024</font></B></td>
+            <td>
+                
+                <DIV ID="el33Parent" CLASS="parent">
+
+                     <A HREF="#" onClick="expandIt('el33'); return false">
+                        <font size=2><B>Retifica&ccedil;&atilde;o no Cronograma de Tecnologista</B></font>
+                     </a>
+
+			    </DIV>
+			</td>
+		</tr>
+		<tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+		<tr><td align=center valign="top"><font size=2><B>06/11/2024</font></B></td>
+            <td>
+                
+                <DIV ID="el34Parent" CLASS="parent">
+
+                     <A HREF="#" onClick="expandIt('el34'); return false">
+                        <font size=2><B>Altera&ccedil;&atilde;o no Cronograma de Reaplica&ccedil;&atilde;o do Perfil TE55</B></font>
+                     </a>
+
+			    </DIV>
+			</td>
+		</tr>
+		<tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+        
+
+		   <tr><td align=center valign="top"><font size=2><B>23/10/2024</font></B></td>
+               <td>
+                   
+                   <DIV ID="el35Parent" CLASS="parent">
+
+                        <A HREF="#" onClick="expandIt('el35'); return false">
+                           <font size=2><B>Perfil TE55 - Reaplica&ccedil;&atilde;o: Divulga&ccedil;&atilde;o do Gabarito Definitivo, Respostas dos Recursos contra o Gabarito, e Resultado Preliminar da Prova Objetiva</B></font>
+                        </a>
+
+		   	       </DIV>
+			   </td>
+		   </tr>
+		   <tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+		
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>14/10/2024</font></B></td>
+            <td>
+                
+                <DIV ID="el36Parent" CLASS="parent">
+
+                     <A HREF="#" onClick="expandIt('el36'); return false">
+                        <font size=2><B>Divulga&ccedil;&atilde;o do Gabarito Preliminar e do Caderno de Prova do Perfil TE55 - Aplica&ccedil;&atilde;o em 13/10/2024</B></font>
+                     </a>
+
+			    </DIV>
+			</td>
+		</tr>
+		<tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>09/09/2024</font></B></td>
+            <td>
+                
+                <DIV ID="el37Parent" CLASS="parent">
+
+                     <A HREF="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-09.09.24-Retificacao-Titulos-Analista-E-Tecnologista-Cron-TE41.pdf" target=new onClick="expandIt('el37'); return false">
+                        <font size=2><B>Retifica&ccedil;&atilde;o do Resultado Final da An&aacute;lise de T&iacute;tulos publicada no DOU de 09/09/2024</B></font>
+                     </a>
+
+			    </DIV>
+			</td>
+		</tr>
+		<tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>09/09/2024</font></B></td>
+            <td>
+                
+                <DIV ID="el38Parent" CLASS="parent">
+
+                     <A HREF="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Cronograma-Tecnologista-TE41-04092024-Atualizacao.pdf" target=new onClick="expandIt('el38'); return false">
+                        <font size=2><B>Cronograma Atualizado do Perfil TE41</B></font>
+                     </a>
+
+			    </DIV>
+			</td>
+		</tr>
+		<tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>16/08/2024</font></B></td>
+            <td>
+                
+                <DIV ID="el39Parent" CLASS="parent">
+                     <A HREF="https://concurso2023.fiotec.fiocruz.br/Divulgacao/DOU-16.08.24.pdf" target=new onClick="expandIt('el39'); return false">
+                        <font size=2><B>Retifica&ccedil;&atilde;o no Edital: altera&ccedil;&atilde;o no cronograma</B></font>
+                     </a>
+			    </DIV>
+			</td>
+		</tr>
+		<tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>19/06/2024</font></B></td>
+            <td>
+                
+                <DIV ID="el40Parent" CLASS="parent">
+                     <A HREF="https://concurso2023.fiotec.fiocruz.br/Divulgacao/COMUNICADO-08-TE41-02.pdf" target=new onClick="expandIt('el40'); return false">
+                        <font size=2><B>Comunicado de Reaplica&ccedil;&atilde;o do Perfil TE41</B></font>
+                     </a>
+			    </DIV>
+			</td>
+		</tr>
+		<tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>17/05/2024</font></B></td>
+            <td>
+                
+                <DIV ID="el41Parent" CLASS="parent">
+                     <A HREF="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Comunicado-TE38-PrazosRecursais.pdf" target=new onClick="expandIt('el41'); return false">
+                        <font size=2><B>Perfil TE38 - Novos Prazos Recursais</B></font>
+                     </a>
+			    </DIV>
+			</td>
+		</tr>
+		<tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>09/05/2024</font></B></td>
+            <td>
+                
+                <DIV ID="el42Parent" CLASS="parent">
+                     <A HREF="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Comunicado-No3-DOU-09052024.pdf" target=new onClick="expandIt('el42'); return false">
+                        <font size=2><B>Comunicado ao Perfil TE38, publicado no DOU de 09/05/2024</B></font>
+                     </a>
+			    </DIV>
+			</td>
+		</tr>
+		<tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>27/04/2024</font></B></td>
+            <td>
+                
+                <DIV ID="el43Parent" CLASS="parent">
+                     <A HREF="#" onClick="expandIt('el43'); return false">
+                        <font size=2><B>Prazo para Recurso contra o Gabarito da Prova Objetiva e Recurso contra o Espelho de Respostas da Prova Discursiva - de 30/04/2024 at&eacute; 02/05/2024</B></font>
+                     </a>
+			    </DIV>
+			</td>
+		</tr>
+		<tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>27/04/2024</font></B></td>
+            <td>
+                
+                <DIV ID="el44Parent" CLASS="parent">
+                     <A HREF="#" onClick="expandIt('el44'); return false">
+                        <font size=2><B>Divulga&ccedil;&atilde;o dos Gabaritos da Prova Objetiva e Divulga&ccedil;&atilde;o dos Espelhos das Provas Discursivas - 29/04/2024</B></font>
+                     </a>
+			    </DIV>
+			</td>
+		</tr>
+		<tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>15/04/2024</font></B></td>
+            <td>
+                
+                <DIV ID="el45Parent" CLASS="parent">
+                     <A HREF="#" onClick="expandIt('el45'); return false">
+                        <font size=2><B>Data da Prova Objetiva e Discursiva confirmada para 28/04/2024</B></font>
+                     </a>
+			    </DIV>
+			</td>
+		</tr>
+		<tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>15/04/2024</font></B></td>
+            <td>
+                
+                <DIV ID="el46Parent" CLASS="parent">
+                     <A HREF="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Comunicado-02-12042024.pdf"  target=new onClick="expandIt('el46'); return false">
+                        <font size=2><B>Comunicado publicado no DOU de 15/04/2024 - Editais 01, 02 e 03</B></font>
+                     </a>
+			    </DIV>
+			</td>
+		</tr>
+	    <tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>12/04/2024</font></B></td>
+            <td>
+                
+                <DIV ID="el47Parent" CLASS="parent">
+                     <A HREF="https://concurso2023.fiotec.fiocruz.br/Cartao.De.Confirmacao/" target=new onClick="expandIt('el47'); return false">
+                        <font size=2><B>Libera&ccedil;&atilde;o do Cart&atilde;o de Confirma&ccedil;&atilde;o da Inscri&ccedil;&atilde;o dos candidatos (CCI)</B></font>
+                     </a>
+			    </DIV>
+			</td>
+		</tr>
+	    <tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>22/02/2024</font></B></td>
+
+            <td>
+
+                
+
+                <DIV ID="el48Parent" CLASS="parent">
+                     <A HREF="https://www.youtube.com/watch?v=WLx26bh83Gc&t=27s"  target=new onClick="expandIt('el48'); return false">
+                        <font size=2><B>Fiocruz divulga v&iacute;deo sobre cotas no Concurso 2023</B></font>
+                     </a>
+			    </DIV>
+			</td>
+		</tr>
+
+	    <tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>07/02/2024</font></B></td>
+
+            <td>
+
+                
+
+                <DIV ID="el49Parent" CLASS="parent">
+                     <A HREF="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Retificacao-3-07022024-DOU.pdf"  target=new onClick="expandIt('el49'); return false">
+                        <font size=2><B>Retifica&ccedil;&atilde;o nos Editais 01, 02 e 03 publicada no DOU</B></font>
+                     </a>
+			    </DIV>
+			</td>
+		</tr>
+
+	    <tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>17/01/2024</font></B></td>
+
+            <td>
+
+                
+
+                <DIV ID="el50Parent" CLASS="parent">
+                     <A HREF="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Retificacao-02-DOU-De17012024.pdf"  target=new onClick="expandIt('el50'); return false">
+                        <font size=2><B>Retifica&ccedil;&atilde;o nos Editais 01, 02 e 03 publicada no DOU</B></font>
+                     </a>
+			    </DIV>
+			</td>
+		</tr>
+
+	    <tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>26/12/2023</font></B></td>
+
+            <td>
+
+                
+
+                <DIV ID="el51Parent" CLASS="parent">
+                     <A HREF="https://concurso2023.fiotec.fiocruz.br/Divulgacao/Retificacao-Dia-2023-12-26.pdf"  target=new onClick="expandIt('el51'); return false">
+                        <font size=2><B>Retifica&ccedil;&atilde;o nos Editais 01, 02 e 03 publicada no DOU</B></font>
+                     </a>
+			    </DIV>
+			</td>
+		</tr>
+
+	    <tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>12/12/2023</font></B></td>
+
+            <td>
+
+                
+
+                <DIV ID="el52Parent" CLASS="parent">
+                     <A HREF="#" onClick="expandIt('el52'); return false">
+                        <font size=2><B>Per&iacute;odo de Inscri&ccedil;&otilde;es: das 10h do dia 22/01/2024 &agrave;s 23h 59min do dia 05/03/2024.</B></font>
+                     </a>
+			    </DIV>
+			</td>
+		</tr>
+
+	    <tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+		<tr><td align=center valign="top"><font size=2><B>12/12/2023</font></B></td>
+
+            <td>
+
+                
+
+                <DIV ID="el53Parent" CLASS="parent">
+                     <A HREF="#" onClick="expandIt('el53'); return false">
+                        <font size=2><B>Publica&ccedil;&atilde;o dos Editais de Analista, Tecnologista e Pesquisador</B></font>
+                     </a>
+			    </DIV>
+			</td>
+		</tr>
+
+	    <tr><td colspan=2 heigth=1 bgcolor=#ffffff></td></tr>
+
+
+
+    </table>
+
+</td>
+          </tr>
+
+        </table>
+
+
+        <br>
+
+
+        <table border=0 width="100%">
+            <tr>
+              <td width="60%"><p align="right"><font  size='1px'>
+              Caso n&atilde;o tenha o Acrobat Reader clique na imagem para copi&aacute;-lo</font></td>
+              <td width="54%"><a href="http://get.adobe.com/br/reader/" target="_blank"><img border="0" width=80 height=20 src="https://concurso2023.fiotec.fiocruz.br/Imagens/get_adobe_reader.png"></a></td>
+            </tr>
+        </table>
+
+
+    </td>
+
+    </TR>
+
+    </table>
+
+
+
+    <center>
+
+    <table style="width: 1000px;">
+       <tr><td>&nbsp;</td></tr>
+       <tr bgcolor="#CD661D" height=10><td></td></tr>
+    </table>
+
+    </center>
+
+  </TBODY>
+</BODY></HTML>
+

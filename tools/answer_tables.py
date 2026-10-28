@@ -4,6 +4,29 @@ import re
 
 def answer_table(text: str, booklet: str) -> dict[int, str]:
     """Select the exact FGV booklet or labelled Cebraspe rows and reject ambiguity."""
+    if 'Concurso Público Fiocruz 2023' in text:
+        # The final report contains many profiles. Its earlier per-profile
+        # PDFs are preliminary and must never authenticate a released key.
+        if 'Gabaritos Finais da Prova Objetiva de 28/04/2024' not in text:
+            raise ValueError('Fiocruz key requires the final objective report')
+        selected = []
+        for page in text.split('\f'):
+            header = re.search(r'(?m)^[ \t]*(TE\d{2}\s+-[\s\S]*?)\n\s*Questão[ \t]+Gabarito', page)
+            if header and ' '.join(header[1].split()) == booklet:
+                selected.append(page[header.end():])
+        if len(selected) != 1:
+            raise ValueError('Fiocruz key requires one complete exact profile header')
+        result = {}
+        for row in selected[0].splitlines():
+            if not row.strip():
+                continue
+            match = re.fullmatch(r'\s*(\d{2})\s+(?:([A-E])(?:\s+\(Gabarito Alterado\))?|Questão ANULADA)\s*', row)
+            if not match or int(match[1]) in result:
+                raise ValueError('Invalid or duplicate Fiocruz final answer row')
+            result[int(match[1])] = match[2] or 'X'
+        if set(result) != set(range(1, 41)):
+            raise ValueError('Incomplete Fiocruz final objective table')
+        return result
     if 'GABARITO OFICIAL' in text and 'APÓS RECURSO' in text:
         # This IBFC PDF also has discursive answers on later pages. Only the
         # first, explicitly objective, exact-role table belongs to the inventory.
@@ -21,8 +44,10 @@ def answer_table(text: str, booklet: str) -> dict[int, str]:
             # In the common 40-item table the next subject heading shares
             # a physical line with item 11 in the left column. Remove only
             # this labelled heading, keeping strict validation of the answers.
-            row = re.sub(r'[ \t]+(?:PORTUGUÊS|RACIOCÍNIO LÓGICO|INFORMÁTICA) '
+            row = re.sub(r'[ \t]+(?:PORTUGUÊS|INGLÊS|RACIOCÍNIO LÓGICO|INFORMÁTICA) '
                          r'\(\d+ a \d+\)[ \t]*$', '', row)
+            row = re.sub(r'^[ \t]*(?:PORTUGUÊS|INGLÊS|RACIOCÍNIO LÓGICO|INFORMÁTICA) '
+                         r'\(\d+ a \d+\)[ \t]+(?=\d)', '', row)
             if not re.match(r'\s*\d', row):
                 continue
             if not re.fullmatch(r'\s*(?:\d+\s+(?:ANULADA|[A-D])\s*)+', row):
@@ -35,7 +60,7 @@ def answer_table(text: str, booklet: str) -> dict[int, str]:
         if not result:
             raise ValueError('No IBFC objective answer rows found')
         return result
-    header_pattern = (r'(?m)^[ \t]*((?:(?:Analista|Técnico) Legislativo[^\n]*TIPO \d+|'
+    header_pattern = (r'(?m)^[ \t]*((?:(?:Analista|Técnico) (?:Legislativo|Judiciário)[^\n]*TIPO \d+|'
                       r'Especialista Legislativo[^\n]* - \d+ - Turno (?:Manhã|Tarde|Noite)))[ \t]*$')
     headers = list(re.finditer(header_pattern, text))
     if headers:

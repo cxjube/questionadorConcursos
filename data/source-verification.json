@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-27T22:59:53.947996+00:00",
-  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23. Comment completion: two Priberam entries retain the initial official publisher download bytes; no independent second download is claimed. Ninth source discovery: 16 new paper/key PDFs independently re-downloaded with byte equality; two Microsoft Learn HTML references retain initial publisher bytes. Complete source inventory is separate from individually released questions. Existing matches are historical evidence; not every old source was downloaded again. Tenth batch: one PF 2025 Bloco II pair independently re-downloaded with identical bytes; three Câmara current legal HTML references retain initial official download bytes. Compatibility is limited to cited active clauses as of 2026-10-23. Other prior sources were not all downloaded again. Eleventh batch: SERPRO 2023 and STJ 2024 basic paper/definitive-key PDFs independently re-downloaded byte-identically. Initial Câmara improbity-law and Microsoft Teams HTML downloads retained. Current review is limited to cited clauses and technical conditions; older evidence remains historical. Resumed on 2026-10-26: IPv6 and DNS initial Microsoft Learn reference bytes retained; seven legal items rechecked against cited active official clauses and Teams conditions rechecked, with separate evidence in data/reviews/eleventh-reference-rechecks.json. No new questions use annulled STJ Power BI items. Twelfth batch: two complete CNJ/TCEAC paper and definitive-key pairs independently downloaded twice with matching bytes; historical records are not repeated downloads. Four initial official Câmara legal HTML downloads retained; no second binary download is claimed for HTML. Compatibility is limited to cited active clauses as of 2026-10-26. ABDI intake 2026-10-27: the user-provided 48-page opening notice is byte-identical to the PDF linked on the FGV psabdi page; its download hash is retained. Other rows retain their original verification dates and scopes; no fresh re-download of all sources is claimed. ABDI first batch 2026-10-27: three complete Senado/TCE-MG pairs independently downloaded twice with matching bytes. Three official Câmara legislative HTML references retain initial publisher bytes. Only the selected clauses are reviewed; five internal ABDI documents remain inaccessible/unverified. Other sources were not freshly re-downloaded. See abdi-first-source-discovery.json and abdi-first-reference-review.json. ABDI second batch: seven internal/reference PDFs (including original CD 008/2023 plan and distinct CD 009/2024 adjustment) and four official IBFC 2008 objective/post-appeal pairs independently re-downloaded byte-identically. New official Câmara LGPD HTML retains initial bytes; Planalto returned HTTP 503. No fresh re-download of all older sources is claimed. ABDI third batch: four additional IBFC 2008 paper/definitive post-appeal pairs, eight independent repeated byte matches. Existing Senate/LGPD/RLC sources reused with selected-clause checks; no whole-bank re-audit.",
+  "checkedAt": "2026-10-27T23:29:07.775022+00:00",
+  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23. Comment completion: two Priberam entries retain the initial official publisher download bytes; no independent second download is claimed. Ninth source discovery: 16 new paper/key PDFs independently re-downloaded with byte equality; two Microsoft Learn HTML references retain initial publisher bytes. Complete source inventory is separate from individually released questions. Existing matches are historical evidence; not every old source was downloaded again. Tenth batch: one PF 2025 Bloco II pair independently re-downloaded with identical bytes; three Câmara current legal HTML references retain initial official download bytes. Compatibility is limited to cited active clauses as of 2026-10-23. Other prior sources were not all downloaded again. Eleventh batch: SERPRO 2023 and STJ 2024 basic paper/definitive-key PDFs independently re-downloaded byte-identically. Initial Câmara improbity-law and Microsoft Teams HTML downloads retained. Current review is limited to cited clauses and technical conditions; older evidence remains historical. Resumed on 2026-10-26: IPv6 and DNS initial Microsoft Learn reference bytes retained; seven legal items rechecked against cited active official clauses and Teams conditions rechecked, with separate evidence in data/reviews/eleventh-reference-rechecks.json. No new questions use annulled STJ Power BI items. Twelfth batch: two complete CNJ/TCEAC paper and definitive-key pairs independently downloaded twice with matching bytes; historical records are not repeated downloads. Four initial official Câmara legal HTML downloads retained; no second binary download is claimed for HTML. Compatibility is limited to cited active clauses as of 2026-10-26. ABDI intake 2026-10-27: the user-provided 48-page opening notice is byte-identical to the PDF linked on the FGV psabdi page; its download hash is retained. Other rows retain their original verification dates and scopes; no fresh re-download of all sources is claimed. ABDI first batch 2026-10-27: three complete Senado/TCE-MG pairs independently downloaded twice with matching bytes. Three official Câmara legislative HTML references retain initial publisher bytes. Only the selected clauses are reviewed; five internal ABDI documents remain inaccessible/unverified. Other sources were not freshly re-downloaded. See abdi-first-source-discovery.json and abdi-first-reference-review.json. ABDI second batch: seven internal/reference PDFs (including original CD 008/2023 plan and distinct CD 009/2024 adjustment) and four official IBFC 2008 objective/post-appeal pairs independently re-downloaded byte-identically. New official Câmara LGPD HTML retains initial bytes; Planalto returned HTTP 503. No fresh re-download of all older sources is claimed. ABDI third batch: four additional IBFC 2008 paper/definitive post-appeal pairs, eight independent repeated byte matches. Existing Senate/LGPD/RLC sources reused with selected-clause checks; no whole-bank re-audit. ABDI fourth batch: six additional official pairs, eleven unique PDFs repeated byte-identically; shared Fiocruz final report retained once for two exact profiles. TJRR key header date discrepancy recorded against official notice. Older legal sources reused only at selected clauses.",
   "documents": [
     {
       "documentId": "camara-2026-edital-01-documento",
@@ -1143,6 +1143,90 @@
       "outcome": "byte_match",
       "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-medio/medio-assistente.pdf",
       "remoteSha256": "8fdabb67c5c7481fb3c155e163a79e330ac0ffca2f27f8053d2bdf05617bcf3f"
+    },
+    {
+      "documentId": "source-abdi-2008-especialista-analise-economica-paper",
+      "localSha256": "b7386fbd03c409ee7def131756929733ad7ba02df8a0fb6c872db2b60229aebb",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/especialista-projetos-analise-economica.pdf",
+      "remoteSha256": "b7386fbd03c409ee7def131756929733ad7ba02df8a0fb6c872db2b60229aebb"
+    },
+    {
+      "documentId": "source-abdi-2008-especialista-analise-economica-key",
+      "localSha256": "ac366cdc8e6b2a5820952243d7704a803497ec9e1163d4da2f3938e2c808c9c6",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/especialista-projetos-analise-economica.pdf",
+      "remoteSha256": "ac366cdc8e6b2a5820952243d7704a803497ec9e1163d4da2f3938e2c808c9c6"
+    },
+    {
+      "documentId": "source-abdi-2008-iniciante-processos-paper",
+      "localSha256": "08d83d4b7acc6f087ac67bed3dc7ab44797ee4ea4f38ac5169d8f7fa17507a5f",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/iniciante-processos.pdf",
+      "remoteSha256": "08d83d4b7acc6f087ac67bed3dc7ab44797ee4ea4f38ac5169d8f7fa17507a5f"
+    },
+    {
+      "documentId": "source-abdi-2008-iniciante-processos-key",
+      "localSha256": "a3a222e74d6b02f93469df11751efdf3deaf7cf26025cd8ee0c292e5010b732a",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/iniciante-processos.pdf",
+      "remoteSha256": "a3a222e74d6b02f93469df11751efdf3deaf7cf26025cd8ee0c292e5010b732a"
+    },
+    {
+      "documentId": "source-344-dpeal-001-01-paper",
+      "localSha256": "e3cc3f000b02b386078a8562bb349bfe7246cd7f42a3c8af464a42798886739b",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/DPE_AL_17_DEFENSOR/arquivos/344_DPEAL_001_01.PDF",
+      "remoteSha256": "e3cc3f000b02b386078a8562bb349bfe7246cd7f42a3c8af464a42798886739b"
+    },
+    {
+      "documentId": "source-344-dpeal-001-01-key",
+      "localSha256": "0e7e3bc8ee7a38c3d5d6b8274d2e3c8f4b2a6f0223562308e02df15c3e60a889",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/DPE_AL_17_DEFENSOR/arquivos/GAB_DEFINITIVO_344_DPEAL_001_01.PDF",
+      "remoteSha256": "0e7e3bc8ee7a38c3d5d6b8274d2e3c8f4b2a6f0223562308e02df15c3e60a889"
+    },
+    {
+      "documentId": "source-tjrr-2024-direito-tipo1-paper",
+      "localSha256": "8cda95cfb953796da5df7792d19b991cf2cbaa1828ba99640fb09ad6df087358",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns107t01-analista-judiciario-advogado.pdf",
+      "remoteSha256": "8cda95cfb953796da5df7792d19b991cf2cbaa1828ba99640fb09ad6df087358"
+    },
+    {
+      "documentId": "source-tjrr-2024-direito-tipo1-key",
+      "localSha256": "f36773ab48f52039f52bd5da2f8d8a14407d8c619427e834f9dc927a9688ce95",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrr_gabarito_definitivo_v3.pdf",
+      "remoteSha256": "f36773ab48f52039f52bd5da2f8d8a14407d8c619427e834f9dc927a9688ce95"
+    },
+    {
+      "documentId": "source-fiocruz-2024-te23-paper",
+      "localSha256": "abe74ff25a4866a237a6c70fa5be96f16029618b9d818ba830ecf66e2811bb3a",
+      "outcome": "byte_match",
+      "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE23.pdf",
+      "remoteSha256": "abe74ff25a4866a237a6c70fa5be96f16029618b9d818ba830ecf66e2811bb3a"
+    },
+    {
+      "documentId": "source-fiocruz-2024-te23-key",
+      "localSha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4",
+      "outcome": "byte_match",
+      "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-Gabaritos-Finais-Tecnologistas.pdf",
+      "remoteSha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4"
+    },
+    {
+      "documentId": "source-fiocruz-2024-te58-paper",
+      "localSha256": "2f4ab848f9fda3873ab44099166988185ae0790605b92ce1944ac06e6cf93b01",
+      "outcome": "byte_match",
+      "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE58.pdf",
+      "remoteSha256": "2f4ab848f9fda3873ab44099166988185ae0790605b92ce1944ac06e6cf93b01"
+    },
+    {
+      "documentId": "source-fiocruz-2024-te58-key",
+      "localSha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4",
+      "outcome": "byte_match",
+      "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-Gabaritos-Finais-Tecnologistas.pdf",
+      "remoteSha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4"
     }
   ],
   "corroboration": [

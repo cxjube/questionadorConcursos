@@ -1,0 +1,1936 @@
+{
+  "id": "abdi-fourth-batch",
+  "reviewedAt": "2026-10-27",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/abdi-fourth-batch-release.md",
+  "previousCatalogSha256": "6ae4b8cbf421366e973b6ab4e2afb8adc40b1e7739792e14e34c3eb67ba38bda",
+  "items": [
+    {
+      "questionId": "abdi-2008-especialista-analise-economica-q012",
+      "paperId": "source-abdi-2008-especialista-analise-economica",
+      "number": 12,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-especialista-analise-economica-key",
+      "answerValue": "b",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-licitacoes-convenios-3-2"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8978,
+            "y": 600.6227,
+            "text": "12) De acordo com o Art. 5º do regulamento de licitações"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8978,
+            "y": 614.6227,
+            "text": "e de contratos do serviço social autônomo Agência"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8978,
+            "y": 628.6227,
+            "text": "Brasileira de Desenvolvimento Industrial (ABDI), são"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8978,
+            "y": 642.6227,
+            "text": "modalidades de licitação:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8978,
+            "y": 656.6227,
+            "text": "a) Concorrência, Convite, Concurso e Leilão."
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8978,
+            "y": 670.6227,
+            "text": "b) Concorrência, Convite, Concurso, Pregão e Leilão."
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8978,
+            "y": 684.6227,
+            "text": "c) Concorrência, Convite, Concurso e Pregão."
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "left",
+            "x": 29.8978,
+            "y": 698.6227,
+            "text": "d) Concorrência, Convite, Concurso, Pregão Eletrônico"
+          },
+          {
+            "page": 3,
+            "column": "left",
+            "x": 44.0708,
+            "y": 712.6227,
+            "text": "e Leilão."
+          }
+        ]
+      },
+      "questionMarkerPattern": "^12\\)\\s*",
+      "optionMarkerPattern": "^([a-d])\\)\\s*",
+      "fiocruzTypography": false,
+      "wordJoins": []
+    },
+    {
+      "questionId": "abdi-2008-especialista-analise-economica-q014",
+      "paperId": "source-abdi-2008-especialista-analise-economica",
+      "number": 14,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-especialista-analise-economica-key",
+      "answerValue": "d",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-servicos-sociais-autonomos-1-5",
+        "abdi-2026-abdi-criacao-estatuto-2-6"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6018,
+            "y": 238.6227,
+            "text": "14) A ABDI apresentará, anualmente, ao Ministério do"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6018,
+            "y": 251.6227,
+            "text": "Desenvolvimento, Indústria e Comércio Exterior,"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6018,
+            "y": 264.6227,
+            "text": "relatório circunstanciado sobre a execução do contrato"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6018,
+            "y": 277.6227,
+            "text": "de gestão no exercício anterior até:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6018,
+            "y": 290.6227,
+            "text": "a) O final do 1º Bimestre."
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 484.3018,
+            "y": 290.6227,
+            "text": "c) 30 de abril."
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6018,
+            "y": 303.6227,
+            "text": "b) 31 de março."
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 484.0818,
+            "y": 303.6227,
+            "text": "d) 31 de janeiro."
+          }
+        ]
+      },
+      "questionMarkerPattern": "^14\\)\\s*",
+      "optionMarkerPattern": "^([a-d])\\)\\s*",
+      "fiocruzTypography": false,
+      "wordJoins": []
+    },
+    {
+      "questionId": "abdi-2008-iniciante-processos-q020",
+      "paperId": "source-abdi-2008-iniciante-processos",
+      "number": 20,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-abdi-2008-iniciante-processos-key",
+      "answerValue": "b",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-servicos-sociais-autonomos-1-5",
+        "abdi-2026-abdi-criacao-estatuto-2-5"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 330.4227,
+            "text": "20) Assinale a alternativa correta em relação ao Estatuto"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 343.4227,
+            "text": "Social Autônomo da Agência Brasileira de"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 356.4227,
+            "text": "Desenvolvimento Industrial:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 369.4227,
+            "text": "a) Compete à Diretoria Executiva da ABDI emitir parecer,"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 382.4227,
+            "text": "quando solicitado, sobre a alienação ou oneração de"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 395.4227,
+            "text": "bens móveis."
+          }
+        ],
+        "b": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 408.4227,
+            "text": "b) O Presidente do Conselho Deliberativo da ABDI tem por"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 421.4227,
+            "text": "atribuição fiscalizar, por delegação do Poder Executivo,"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 434.4227,
+            "text": "o cumprimento do contrato de gestão."
+          }
+        ],
+        "c": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 447.4227,
+            "text": "c) Compete ao Presidente da ABDI planejar, executar,"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 460.4227,
+            "text": "controlar e ajustar as ações das unidades"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 473.4227,
+            "text": "organizacionais de sua área funcional de supervisão."
+          }
+        ],
+        "d": [
+          {
+            "page": 3,
+            "column": "right",
+            "x": 304.6021,
+            "y": 486.4227,
+            "text": "d) O Presidente do Conselho Fiscal da ABDI tem por"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 499.4227,
+            "text": "atribuição decidir sobre os atos de dispensa e"
+          },
+          {
+            "page": 3,
+            "column": "right",
+            "x": 318.7751,
+            "y": 512.4227,
+            "text": "movimentação de pessoal."
+          }
+        ]
+      },
+      "questionMarkerPattern": "^20\\)\\s*",
+      "optionMarkerPattern": "^([a-d])\\)\\s*",
+      "fiocruzTypography": false,
+      "wordJoins": []
+    },
+    {
+      "questionId": "344-dpeal-001-01-q009",
+      "paperId": "source-344-dpeal-001-01",
+      "number": 9,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-344-dpeal-001-01-key",
+      "answerValue": "b",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-servicos-sociais-autonomos-1-1"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 316.319,
+            "y": 57.8267,
+            "text": "QUESTÃO 9"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.4391,
+            "y": 72.9767,
+            "text": "Os serviços sociais autônomos"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.4391,
+            "y": 94.936508,
+            "text": "A são beneficiados pelos privilégios processuais de dilação de"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 322.799283,
+            "y": 105.976172,
+            "text": "prazo recursal."
+          }
+        ],
+        "b": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.4391,
+            "y": 117.97598,
+            "text": "B devem ser criados mediante autorização por lei."
+          }
+        ],
+        "c": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.4391,
+            "y": 130.096304,
+            "text": "C são alcançados pelos sistemas de precatórios."
+          }
+        ],
+        "d": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.4391,
+            "y": 142.096112,
+            "text": "D possuem personalidade jurídica de direito público."
+          }
+        ],
+        "e": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 304.4391,
+            "y": 154.216436,
+            "text": "E estão obrigados a realizar procedimentos licitatórios."
+          }
+        ]
+      },
+      "questionMarkerPattern": "^QUESTÃO\\s+9\\s*",
+      "optionMarkerPattern": "^([A-E])\\s+",
+      "fiocruzTypography": false,
+      "wordJoins": []
+    },
+    {
+      "questionId": "tjrr-2024-direito-tipo1-q050",
+      "paperId": "source-tjrr-2024-direito-tipo1",
+      "number": 50,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-tjrr-2024-direito-tipo1-key",
+      "answerValue": "d",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-servicos-sociais-autonomos-1-2"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 9,
+            "column": "right",
+            "x": 318.55,
+            "y": 575.11,
+            "text": "Diogo estava estudando as questões atinentes à Administração"
+          },
+          {
+            "page": 9,
+            "column": "right",
+            "x": 318.55,
+            "y": 586.03,
+            "text": "direta e indireta, quando surgiu uma dúvida acerca do"
+          },
+          {
+            "page": 9,
+            "column": "right",
+            "x": 318.55,
+            "y": 597.07,
+            "text": "enquadramento das entidades do Terceiro Setor no âmbito da"
+          },
+          {
+            "page": 9,
+            "column": "right",
+            "x": 318.55,
+            "y": 607.99,
+            "text": "organização administrativa."
+          },
+          {
+            "page": 9,
+            "column": "right",
+            "x": 318.55,
+            "y": 619.03,
+            "text": "Ao aprofundar os seus conhecimentos, com vistas a responder a tal"
+          },
+          {
+            "page": 9,
+            "column": "right",
+            "x": 318.55,
+            "y": 630.07,
+            "text": "questionamento, Diogo verificou corretamente que as entidades do"
+          },
+          {
+            "page": 9,
+            "column": "right",
+            "x": 318.55,
+            "y": 640.99,
+            "text": "Terceiro Setor"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 9,
+            "column": "right",
+            "x": 318.55,
+            "y": 652.03,
+            "text": "(A) não integram a Administração direta nem a indireta,"
+          },
+          {
+            "page": 9,
+            "column": "right",
+            "x": 332.71,
+            "y": 662.95,
+            "text": "correspondendo ao mercado, de modo que devem ter finalidade"
+          },
+          {
+            "page": 9,
+            "column": "right",
+            "x": 332.71,
+            "y": 673.99,
+            "text": "lucrativa."
+          }
+        ],
+        "b": [
+          {
+            "page": 9,
+            "column": "right",
+            "x": 318.55,
+            "y": 684.93,
+            "text": "(B) integram a Administração direta, de modo que não possuem"
+          },
+          {
+            "page": 9,
+            "column": "right",
+            "x": 332.71,
+            "y": 695.97,
+            "text": "personalidade jurídica."
+          }
+        ],
+        "c": [
+          {
+            "page": 9,
+            "column": "right",
+            "x": 318.55,
+            "y": 706.89,
+            "text": "(C) integram a Administração indireta, juntamente com as"
+          },
+          {
+            "page": 9,
+            "column": "right",
+            "x": 332.71,
+            "y": 717.93,
+            "text": "sociedades de economia mista e empresas públicas."
+          }
+        ],
+        "d": [
+          {
+            "page": 9,
+            "column": "right",
+            "x": 318.55,
+            "y": 728.97,
+            "text": "(D) não integram a Administração direta nem a indireta, pois tem"
+          },
+          {
+            "page": 9,
+            "column": "right",
+            "x": 332.71,
+            "y": 739.89,
+            "text": "caráter privado, não podendo ser confundidas com as entidades"
+          },
+          {
+            "page": 9,
+            "column": "right",
+            "x": 332.71,
+            "y": 750.93,
+            "text": "administrativas."
+          }
+        ],
+        "e": [
+          {
+            "page": 9,
+            "column": "right",
+            "x": 318.55,
+            "y": 761.85,
+            "text": "(E) podem integrar a Administração direta ou indireta, a depender"
+          },
+          {
+            "page": 9,
+            "column": "right",
+            "x": 332.71,
+            "y": 772.89,
+            "text": "de sua personalidade jurídica, de direito público ou de direito"
+          },
+          {
+            "page": 9,
+            "column": "right",
+            "x": 332.71,
+            "y": 783.81,
+            "text": "privado, respectivamente."
+          }
+        ]
+      },
+      "questionMarkerPattern": null,
+      "optionMarkerPattern": "^\\(([A-E])\\)\\s*",
+      "fiocruzTypography": false,
+      "wordJoins": []
+    },
+    {
+      "questionId": "fiocruz-2024-te58-q038",
+      "paperId": "source-fiocruz-2024-te58",
+      "number": 38,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-fiocruz-2024-te58-key",
+      "answerValue": "a",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-etica-missao-4-2",
+        "abdi-2026-abdi-comunicacao-marketing-22",
+        "abdi-2026-abdi-comunicacao-marketing-26"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 11,
+            "column": "left",
+            "x": 34.199999,
+            "y": 561.825853,
+            "text": "38. Uma comunicação comprometida com os princípios do"
+          },
+          {
+            "page": 11,
+            "column": "left",
+            "x": 34.199999,
+            "y": 573.825853,
+            "text": "SUS precisa ser, também, uma comunicação antirracista."
+          },
+          {
+            "page": 11,
+            "column": "left",
+            "x": 34.199999,
+            "y": 585.825853,
+            "text": "Dentre as atitudes importantes para o enfrentamento ao"
+          },
+          {
+            "page": 11,
+            "column": "left",
+            "x": 34.199999,
+            "y": 597.825853,
+            "text": "racismo na produção jornalística no campo da saúde e da"
+          },
+          {
+            "page": 11,
+            "column": "left",
+            "x": 34.199999,
+            "y": 609.825853,
+            "text": "divulgação cientíﬁ ca, NÃO se pode listar:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 11,
+            "column": "left",
+            "x": 34.199999,
+            "y": 633.825853,
+            "text": "(A) evitar associar questões de saúde pública a recortes"
+          },
+          {
+            "page": 11,
+            "column": "left",
+            "x": 51.120003,
+            "y": 645.825853,
+            "text": "raciais."
+          }
+        ],
+        "b": [
+          {
+            "page": 11,
+            "column": "left",
+            "x": 34.199999,
+            "y": 657.825853,
+            "text": "(B) levar em conta a interseccionalidade ao selecionar,"
+          },
+          {
+            "page": 11,
+            "column": "left",
+            "x": 51.120003,
+            "y": 669.825853,
+            "text": "produzir e apurar pautas."
+          }
+        ],
+        "c": [
+          {
+            "page": 11,
+            "column": "left",
+            "x": 34.199999,
+            "y": 681.825853,
+            "text": "(C) buscar fontes racializadas."
+          }
+        ],
+        "d": [
+          {
+            "page": 11,
+            "column": "left",
+            "x": 34.199999,
+            "y": 693.825853,
+            "text": "(D) buscar que as equipes tenham, elas próprias, diversi-"
+          },
+          {
+            "page": 11,
+            "column": "left",
+            "x": 51.120003,
+            "y": 705.825853,
+            "text": "dade, e não apenas de raça."
+          }
+        ],
+        "e": [
+          {
+            "page": 11,
+            "column": "left",
+            "x": 34.199999,
+            "y": 717.825853,
+            "text": "(E) evitar expressões como “tribo”, “escravo” e “doméstica”."
+          }
+        ]
+      },
+      "questionMarkerPattern": "^38\\.\\s*",
+      "optionMarkerPattern": "^\\(([A-E])\\)\\s*",
+      "fiocruzTypography": true,
+      "wordJoins": [
+        "diversi-\ndade"
+      ]
+    },
+    {
+      "questionId": "fiocruz-2024-te23-q005",
+      "paperId": "source-fiocruz-2024-te23",
+      "number": 5,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-fiocruz-2024-te23-key",
+      "answerValue": "d",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-25",
+        "abdi-2026-abdi-nocoes-informatica-11"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 306.120003,
+            "y": 483.465868,
+            "text": "05. Em relação à Lei nº 13.709/2018, Lei Geral de Proteção"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 306.120003,
+            "y": 495.465868,
+            "text": "de Dados (LGPD), é INCORRETO aﬁ rmar que:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 306.120003,
+            "y": 519.465868,
+            "text": "(A) a lei dispõe sobre o tratamento de dados pessoais,"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 323.160004,
+            "y": 531.465868,
+            "text": "inclusive nos meios digitais, por pessoa natural ou por"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 323.160004,
+            "y": 543.465868,
+            "text": "pessoa jurídica de direito público ou privado."
+          }
+        ],
+        "b": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 306.120003,
+            "y": 555.465868,
+            "text": "(B) a LGPD é aplicável a empresas de qualquer porte,"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 323.160004,
+            "y": 567.465868,
+            "text": "independentemente do meio pelo qual coletou os"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 323.160004,
+            "y": 579.465868,
+            "text": "dados dos indivíduos ou do país de sua sede, desde"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 323.160004,
+            "y": 591.465868,
+            "text": "que atue em território nacional, coletando, tratando ou"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 323.160004,
+            "y": 603.465868,
+            "text": "negociando dados."
+          }
+        ],
+        "c": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 306.120003,
+            "y": 615.465868,
+            "text": "(C) são passíveis de proteção, por meio da LGPD, os dados"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 323.160004,
+            "y": 627.465868,
+            "text": "pessoais, incluindo nome, endereço, CPF, identidade,"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 323.160004,
+            "y": 639.465868,
+            "text": "carteira nacional de habilitação, título de eleitor, número"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 323.160004,
+            "y": 651.465868,
+            "text": "de telefone, email ou qualquer outro dado ou fragmento"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 323.160004,
+            "y": 663.465868,
+            "text": "de dado que possibilite identiﬁ car a pessoa a que ele"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 323.160004,
+            "y": 675.465868,
+            "text": "se refere."
+          }
+        ],
+        "d": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 306.120003,
+            "y": 687.465868,
+            "text": "(D) são considerados dados anonimizados aqueles refe-"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 323.160004,
+            "y": 699.465868,
+            "text": "rentes à convicção religiosa, raça, orientação sexual,"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 323.160004,
+            "y": 711.465868,
+            "text": "estado de saúde, opinião política e ﬁ liação a sindicato."
+          }
+        ],
+        "e": [
+          {
+            "page": 2,
+            "column": "right",
+            "x": 306.120003,
+            "y": 723.465868,
+            "text": "(E) é direito da cidadã e do cidadão ser informado sobre"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 323.160004,
+            "y": 735.465868,
+            "text": "o compartilhamento de seus dados com instituições"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 323.160004,
+            "y": 747.465868,
+            "text": "públicas ou privadas, independentemente de haver"
+          },
+          {
+            "page": 2,
+            "column": "right",
+            "x": 323.160004,
+            "y": 759.465868,
+            "text": "feito esta solicitação."
+          }
+        ]
+      },
+      "questionMarkerPattern": "^05\\.\\s*",
+      "optionMarkerPattern": "^\\(([A-E])\\)\\s*",
+      "fiocruzTypography": true,
+      "wordJoins": [
+        "refe-\nrentes"
+      ]
+    },
+    {
+      "questionId": "fiocruz-2024-te23-q019",
+      "paperId": "source-fiocruz-2024-te23",
+      "number": 19,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-fiocruz-2024-te23-key",
+      "answerValue": "a",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-22"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 505.065858,
+            "text": "19. A determinação socioambiental das doenças é um"
+          },
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 517.065858,
+            "text": "conceito largamente difundido no campo da saúde pública"
+          },
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 529.065858,
+            "text": "e da saúde coletiva. Considerando uma reportagem sobre"
+          },
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 541.065858,
+            "text": "um agravo marcado por forte determinação socioambiental"
+          },
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 553.065858,
+            "text": "(como doença de Chagas, esquistossomose e"
+          },
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 565.065858,
+            "text": "leishmanioses, para citar alguns exemplos), para que"
+          },
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 577.065858,
+            "text": "a dimensão de determinação socioambiental esteja"
+          },
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 589.065858,
+            "text": "devidamente contemplada é necessário recobrir os"
+          },
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 601.065858,
+            "text": "seguintes aspectos:"
+          }
+        ],
+        [
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 625.065858,
+            "text": "I. condições de moradia."
+          }
+        ],
+        [
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 637.065858,
+            "text": "II. hereditariedade."
+          }
+        ],
+        [
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 649.065858,
+            "text": "III. escolaridade, emprego e renda."
+          }
+        ],
+        [
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 661.065858,
+            "text": "IV. acesso a saneamento."
+          }
+        ],
+        [
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 685.065858,
+            "text": "Sobre as alternativas acima, pode-se dizer que:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 709.065858,
+            "text": "(A) I, III e IV estão corretas."
+          }
+        ],
+        "b": [
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 721.065858,
+            "text": "(B) I e IV estão corretas."
+          }
+        ],
+        "c": [
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 733.065858,
+            "text": "(C) III e IV estão corretas."
+          }
+        ],
+        "d": [
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 745.065858,
+            "text": "(D) I e III estão corretas."
+          }
+        ],
+        "e": [
+          {
+            "page": 5,
+            "column": "right",
+            "x": 306.120003,
+            "y": 757.065858,
+            "text": "(E) todas estão corretas."
+          }
+        ]
+      },
+      "questionMarkerPattern": "^19\\.\\s*",
+      "optionMarkerPattern": "^\\(([A-E])\\)\\s*",
+      "fiocruzTypography": true,
+      "wordJoins": []
+    },
+    {
+      "questionId": "fiocruz-2024-te23-q027",
+      "paperId": "source-fiocruz-2024-te23",
+      "number": 27,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-fiocruz-2024-te23-key",
+      "answerValue": "c",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-22"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 7,
+            "column": "right",
+            "x": 306.120003,
+            "y": 64.905855,
+            "text": "27. Imagine o processo de desenvolvimento de um"
+          },
+          {
+            "page": 7,
+            "column": "right",
+            "x": 306.120003,
+            "y": 76.905855,
+            "text": "infográﬁ co associado a uma reportagem sobre um"
+          },
+          {
+            "page": 7,
+            "column": "right",
+            "x": 306.120003,
+            "y": 88.905855,
+            "text": "estudo cientíﬁ co no campo da saúde coletiva e da saúde"
+          },
+          {
+            "page": 7,
+            "column": "right",
+            "x": 306.120003,
+            "y": 100.905855,
+            "text": "pública, envolvendo a análise da segurança em saúde"
+          },
+          {
+            "page": 7,
+            "column": "right",
+            "x": 306.120003,
+            "y": 112.905855,
+            "text": "em recursos hídricos. Considerando que um infográﬁ co"
+          },
+          {
+            "page": 7,
+            "column": "right",
+            "x": 306.120003,
+            "y": 124.905855,
+            "text": "necessariamente confere ênfase a um subconjunto de"
+          },
+          {
+            "page": 7,
+            "column": "right",
+            "x": 306.120003,
+            "y": 136.905855,
+            "text": "aspectos do tema em pauta, sem recobrir sua totalidade,"
+          },
+          {
+            "page": 7,
+            "column": "right",
+            "x": 306.120003,
+            "y": 148.905855,
+            "text": "no processo de seleção dos elementos a serem abordados"
+          },
+          {
+            "page": 7,
+            "column": "right",
+            "x": 306.120003,
+            "y": 160.905855,
+            "text": "na construção deste produto deve ser priorizada a"
+          },
+          {
+            "page": 7,
+            "column": "right",
+            "x": 306.120003,
+            "y": 172.905855,
+            "text": "presença de:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 7,
+            "column": "right",
+            "x": 306.120003,
+            "y": 196.905855,
+            "text": "(A) destaque para o protagonismo cientíﬁ co brasileiro."
+          }
+        ],
+        "b": [
+          {
+            "page": 7,
+            "column": "right",
+            "x": 306.120003,
+            "y": 208.905855,
+            "text": "(B) curiosidades sobre o processo de construção do projeto."
+          }
+        ],
+        "c": [
+          {
+            "page": 7,
+            "column": "right",
+            "x": 306.120003,
+            "y": 220.905855,
+            "text": "(C) elementos de risco para a saúde humana e ambiental."
+          }
+        ],
+        "d": [
+          {
+            "page": 7,
+            "column": "right",
+            "x": 306.120003,
+            "y": 232.905855,
+            "text": "(D) perﬁ l do cientista líder da pesquisa."
+          }
+        ],
+        "e": [
+          {
+            "page": 7,
+            "column": "right",
+            "x": 306.120003,
+            "y": 244.905855,
+            "text": "(E) linha do tempo com etapas da captação de recursos"
+          },
+          {
+            "page": 7,
+            "column": "right",
+            "x": 323.160004,
+            "y": 256.905855,
+            "text": "que forma usados no estudo."
+          }
+        ]
+      },
+      "questionMarkerPattern": "^27\\.\\s*",
+      "optionMarkerPattern": "^\\(([A-E])\\)\\s*",
+      "fiocruzTypography": true,
+      "wordJoins": []
+    },
+    {
+      "questionId": "fiocruz-2024-te58-q022",
+      "paperId": "source-fiocruz-2024-te58",
+      "number": 22,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-fiocruz-2024-te58-key",
+      "answerValue": "a",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-2",
+        "abdi-2026-abdi-comunicacao-marketing-22"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 63.465856,
+            "text": "22. Alguns estudos vêm buscando construir modelos"
+          },
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 75.465856,
+            "text": "teóricos de comunicação pública da ciência. Sobre esses"
+          },
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 87.465856,
+            "text": "modelos, avalie os itens abaixo."
+          }
+        ],
+        [
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 111.465856,
+            "text": "I."
+          },
+          {
+            "page": 8,
+            "column": "left",
+            "x": 50.208657,
+            "y": 111.465856,
+            "text": "São eles: Modelo de Déﬁ cit, Modelo Contextual, Mo-"
+          },
+          {
+            "page": 8,
+            "column": "left",
+            "x": 50.159998,
+            "y": 123.465856,
+            "text": "delo de Conhecimento Leigo e Modelo de Engajamento"
+          },
+          {
+            "page": 8,
+            "column": "left",
+            "x": 50.159998,
+            "y": 135.465856,
+            "text": "Público."
+          }
+        ],
+        [
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 147.465856,
+            "text": "II. O Modelo de Déﬁ ct prevê a transmissão linear de in-"
+          },
+          {
+            "page": 8,
+            "column": "left",
+            "x": 50.159998,
+            "y": 159.465856,
+            "text": "formações de especialistas para o público."
+          }
+        ],
+        [
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 171.465856,
+            "text": "III. O Modelo Contextual tem sido criticado por ser apenas"
+          },
+          {
+            "page": 8,
+            "column": "left",
+            "x": 50.159998,
+            "y": 183.465868,
+            "text": "uma versão mais soﬁ sticada do Modelo de Déﬁ cit."
+          }
+        ],
+        [
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 207.465868,
+            "text": "Dos itens acima:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 231.465868,
+            "text": "(A) todos estão corretos."
+          }
+        ],
+        "b": [
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 243.465868,
+            "text": "(B) apenas II e III estão corretos."
+          }
+        ],
+        "c": [
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 255.465868,
+            "text": "(C) apenas III está correto."
+          }
+        ],
+        "d": [
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 267.465868,
+            "text": "(D) apenas I está correto."
+          }
+        ],
+        "e": [
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 279.465868,
+            "text": "(E) apenas II está correto."
+          }
+        ]
+      },
+      "questionMarkerPattern": "^22\\.\\s*",
+      "optionMarkerPattern": "^\\(([A-E])\\)\\s*",
+      "fiocruzTypography": true,
+      "wordJoins": [
+        "Mo-\ndelo",
+        "in-\nformações"
+      ]
+    },
+    {
+      "questionId": "fiocruz-2024-te58-q024",
+      "paperId": "source-fiocruz-2024-te58",
+      "number": 24,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-fiocruz-2024-te58-key",
+      "answerValue": "c",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-22"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 531.465868,
+            "text": "24. No âmbito da comunicação cientíﬁ ca, pode-se aﬁ rmar"
+          },
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 543.465868,
+            "text": "que a divulgação de preprints para a imprensa:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 567.465868,
+            "text": "(A) nunca deve acontecer, uma vez que fere princípios"
+          },
+          {
+            "page": 8,
+            "column": "left",
+            "x": 50.159998,
+            "y": 579.465868,
+            "text": "éticos elementares."
+          }
+        ],
+        "b": [
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 591.465868,
+            "text": "(B) só deve ocorrer no caso de emergências sanitárias,"
+          },
+          {
+            "page": 8,
+            "column": "left",
+            "x": 50.159998,
+            "y": 603.465868,
+            "text": "como a da Covid-19."
+          }
+        ],
+        "c": [
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 615.465868,
+            "text": "(C) é uma atividade que demanda avaliação criteriosa, e"
+          },
+          {
+            "page": 8,
+            "column": "left",
+            "x": 50.159998,
+            "y": 627.465868,
+            "text": "na qual o divulgador cientíﬁ co precisa adotar cuidados"
+          },
+          {
+            "page": 8,
+            "column": "left",
+            "x": 50.159998,
+            "y": 639.465868,
+            "text": "como o de alertar que aqueles resultados são prelimi-"
+          },
+          {
+            "page": 8,
+            "column": "left",
+            "x": 50.159998,
+            "y": 651.465868,
+            "text": "nares."
+          }
+        ],
+        "d": [
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 663.465868,
+            "text": "(D) pode ocorrer após a avaliação por pares."
+          }
+        ],
+        "e": [
+          {
+            "page": 8,
+            "column": "left",
+            "x": 33.12,
+            "y": 675.465868,
+            "text": "(E) é uma ação recomendável apenas para o caso de uma"
+          },
+          {
+            "page": 8,
+            "column": "left",
+            "x": 50.159998,
+            "y": 687.465868,
+            "text": "sugestão de pauta do tipo “exclusiva”, pois oferece um"
+          },
+          {
+            "page": 8,
+            "column": "left",
+            "x": 50.159998,
+            "y": 699.465868,
+            "text": "tempo maior para a apuração dos repórteres, dando"
+          },
+          {
+            "page": 8,
+            "column": "left",
+            "x": 50.159998,
+            "y": 711.465868,
+            "text": "mais segurança à divulgação."
+          }
+        ]
+      },
+      "questionMarkerPattern": "^24\\.\\s*",
+      "optionMarkerPattern": "^\\(([A-E])\\)\\s*",
+      "fiocruzTypography": true,
+      "wordJoins": [
+        "prelimi-\nnares"
+      ]
+    },
+    {
+      "questionId": "fiocruz-2024-te58-q026",
+      "paperId": "source-fiocruz-2024-te58",
+      "number": 26,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-fiocruz-2024-te58-key",
+      "answerValue": "d",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-26"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 399.465868,
+            "text": "26. A Lei Brasileira de Inclusão da Pessoa com Deﬁ ciência"
+          },
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 411.465868,
+            "text": "tem como objetivo assegurar o exercício dos direitos e das"
+          },
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 423.465868,
+            "text": "liberdades fundamentais das pessoas com deﬁ ciência."
+          },
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 435.465868,
+            "text": "Levando em conta o direito à informação, é importante"
+          },
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 447.465868,
+            "text": "garantir que sites e produtos digitais atendam aos critérios"
+          },
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 459.465868,
+            "text": "de acessibilidade. Observe as recomendações a jornalistas"
+          },
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 471.465868,
+            "text": "abaixo, para que conteúdos digitais sejam acessíveis e"
+          },
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 483.465868,
+            "text": "respeitem direitos."
+          }
+        ],
+        [
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 507.465868,
+            "text": "I. Não se referir a pessoas com deﬁ ciência como portadoras"
+          },
+          {
+            "page": 8,
+            "column": "right",
+            "x": 323.160004,
+            "y": 519.465868,
+            "text": "de deﬁ ciência ou de necessidades especiais."
+          }
+        ],
+        [
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 531.465868,
+            "text": "II. Substituir as legendas das fotos pela sua descrição no"
+          },
+          {
+            "page": 8,
+            "column": "right",
+            "x": 323.160004,
+            "y": 543.465868,
+            "text": "atributo “alt”, do HTML."
+          }
+        ],
+        [
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 555.465868,
+            "text": "III. Evitar inserir links em expressões como “Clique aqui”"
+          },
+          {
+            "page": 8,
+            "column": "right",
+            "x": 323.160004,
+            "y": 567.465868,
+            "text": "ou “Saiba mais”, pois não descrevem seu conteúdo de"
+          },
+          {
+            "page": 8,
+            "column": "right",
+            "x": 323.160004,
+            "y": 579.465868,
+            "text": "destino."
+          }
+        ],
+        [
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 591.465868,
+            "text": "IV. Aderir ao uso de animações e aplicações Flash."
+          }
+        ],
+        [
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 615.465868,
+            "text": "Das aﬁ rmativas acima:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 639.465868,
+            "text": "(A) apenas I está correta."
+          }
+        ],
+        "b": [
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 651.465868,
+            "text": "(B) apenas I e II estão corretas."
+          }
+        ],
+        "c": [
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 663.465868,
+            "text": "(C) apenas IV está correta."
+          }
+        ],
+        "d": [
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 675.465868,
+            "text": "(D) apenas I e III estão corretas."
+          }
+        ],
+        "e": [
+          {
+            "page": 8,
+            "column": "right",
+            "x": 306.120003,
+            "y": 687.465868,
+            "text": "(E) todas estão corretas."
+          }
+        ]
+      },
+      "questionMarkerPattern": "^26\\.\\s*",
+      "optionMarkerPattern": "^\\(([A-E])\\)\\s*",
+      "fiocruzTypography": true,
+      "wordJoins": []
+    },
+    {
+      "questionId": "fiocruz-2024-te58-q029",
+      "paperId": "source-fiocruz-2024-te58",
+      "number": 29,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-fiocruz-2024-te58-key",
+      "answerValue": "e",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-26"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 9,
+            "column": "left",
+            "x": 34.079999,
+            "y": 675.465868,
+            "text": "29. Uma das características da “geração cidadã de dados” é:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 9,
+            "column": "left",
+            "x": 34.079999,
+            "y": 699.465868,
+            "text": "(A) integrar o chamado jornalismo de precisão, ao permitir que os dados circulem de forma descentralizada."
+          }
+        ],
+        "b": [
+          {
+            "page": 9,
+            "column": "left",
+            "x": 34.079999,
+            "y": 711.465868,
+            "text": "(B) possibilitar que qualquer internauta envie sugestões de informações para as bases de dados do governo."
+          }
+        ],
+        "c": [
+          {
+            "page": 9,
+            "column": "left",
+            "x": 34.079999,
+            "y": 723.465868,
+            "text": "(C) estar descrita como um dos parâmetros da Lei de Acesso à Informação (LAI)."
+          }
+        ],
+        "d": [
+          {
+            "page": 9,
+            "column": "left",
+            "x": 34.079999,
+            "y": 735.465868,
+            "text": "(D) tratar-se de uma prática comum em alguns países, mas que ainda não chegou ao Brasil."
+          }
+        ],
+        "e": [
+          {
+            "page": 9,
+            "column": "left",
+            "x": 34.079999,
+            "y": 747.465868,
+            "text": "(E) permitir que grupos minorizados passem a ser protagonistas no processo de geração de dados."
+          }
+        ]
+      },
+      "questionMarkerPattern": "^29\\.\\s*",
+      "optionMarkerPattern": "^\\(([A-E])\\)\\s*",
+      "fiocruzTypography": true,
+      "wordJoins": []
+    },
+    {
+      "questionId": "fiocruz-2024-te58-q039",
+      "paperId": "source-fiocruz-2024-te58",
+      "number": 39,
+      "type": "multiple_choice",
+      "answerDocumentId": "source-fiocruz-2024-te58-key",
+      "answerValue": "e",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-22",
+        "abdi-2026-abdi-comunicacao-marketing-26"
+      ],
+      "stemLineGroups": [
+        [
+          {
+            "page": 11,
+            "column": "right",
+            "x": 306.120003,
+            "y": 69.825859,
+            "text": "39. Um dos desaﬁ os de divulgar temas cientíﬁ cos é ex-"
+          },
+          {
+            "page": 11,
+            "column": "right",
+            "x": 306.120003,
+            "y": 81.825859,
+            "text": "plicar, em linguagem simples, os conceitos complexos"
+          },
+          {
+            "page": 11,
+            "column": "right",
+            "x": 306.120003,
+            "y": 93.825853,
+            "text": "por trás de nomenclaturas nem sempre amigáveis para"
+          },
+          {
+            "page": 11,
+            "column": "right",
+            "x": 306.120003,
+            "y": 105.825853,
+            "text": "o público não especializado. Esse desaﬁ o se torna ainda"
+          },
+          {
+            "page": 11,
+            "column": "right",
+            "x": 306.120003,
+            "y": 117.825853,
+            "text": "maior nos textos para a web, pois sabemos que a leitura"
+          },
+          {
+            "page": 11,
+            "column": "right",
+            "x": 306.120003,
+            "y": 129.825853,
+            "text": "de conteúdo on-line apresenta padrões diferentes dos da"
+          },
+          {
+            "page": 11,
+            "column": "right",
+            "x": 306.120003,
+            "y": 141.825853,
+            "text": "leitura impressa. Para evitar que as descrições de alguns"
+          },
+          {
+            "page": 11,
+            "column": "right",
+            "x": 306.120003,
+            "y": 153.825853,
+            "text": "termos cientíﬁ cos comprometam a objetividade do conteúdo"
+          },
+          {
+            "page": 11,
+            "column": "right",
+            "x": 306.120003,
+            "y": 165.825853,
+            "text": "online, uma opção pode ser:"
+          }
+        ]
+      ],
+      "optionLineGroups": {
+        "a": [
+          {
+            "page": 11,
+            "column": "right",
+            "x": 306.120003,
+            "y": 189.825853,
+            "text": "(A) usar a técnica de “double diamond”."
+          }
+        ],
+        "b": [
+          {
+            "page": 11,
+            "column": "right",
+            "x": 306.120003,
+            "y": 201.825853,
+            "text": "(B) criar uma política editorial que elimine qualquer divul-"
+          },
+          {
+            "page": 11,
+            "column": "right",
+            "x": 323.160004,
+            "y": 213.825853,
+            "text": "gação cientíﬁ ca que não possa ser compreendida pela"
+          },
+          {
+            "page": 11,
+            "column": "right",
+            "x": 323.160004,
+            "y": 225.825853,
+            "text": "população em geral."
+          }
+        ],
+        "c": [
+          {
+            "page": 11,
+            "column": "right",
+            "x": 306.120003,
+            "y": 237.825853,
+            "text": "(C) excluir falas (“aspas”) dos cientistas."
+          }
+        ],
+        "d": [
+          {
+            "page": 11,
+            "column": "right",
+            "x": 306.120003,
+            "y": 249.825853,
+            "text": "(D) destacar em cores os trechos mais técnicos."
+          }
+        ],
+        "e": [
+          {
+            "page": 11,
+            "column": "right",
+            "x": 306.120003,
+            "y": 261.825853,
+            "text": "(E) usar “tooltips” associadas aos termos técnicos."
+          }
+        ]
+      },
+      "questionMarkerPattern": "^39\\.\\s*",
+      "optionMarkerPattern": "^\\(([A-E])\\)\\s*",
+      "fiocruzTypography": true,
+      "wordJoins": [
+        "ex-\nplicar",
+        "divul-\ngação"
+      ]
+    }
+  ],
+  "contexts": [],
+  "normalization": "Question/option markers are structured. Physical wraps become spaces. Fiocruz only: join split ligature glyphs to their word, expand ff/fi/fl/ffi/ffl glyphs and remove hyphens at physical line endings; every resulting word join is listed for this lot. Printed spellings such as Défict and forma remain unchanged. Other sources retain original hyphens."
+}

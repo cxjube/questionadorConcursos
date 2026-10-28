@@ -12,8 +12,8 @@ async function reflow(page){assert.equal(await page.evaluate(()=>document.docume
    page.on('pageerror',e=>errors.push(e.message));
    await page.goto(base);await page.locator('#start-study:not([disabled])').waitFor();
    await page.locator('#contest').selectOption('abdi-2026');assert.equal(await page.locator('#role').inputValue(),role);
-   assert.match(await page.locator('#study-availability').innerText(),/^218 questões/);
-   assert.equal(await page.locator('#study-format-note').isVisible(),true);assert.equal(await page.locator('#prepare-exam').isDisabled(),true);assert.match(await page.locator('#exam-availability').innerText(),/múltipla escolha/);
+   assert.match(await page.locator('#study-availability').innerText(),/^232 questões/);
+   assert.equal(await page.locator('#study-format-note').isVisible(),true);assert.equal(await page.locator('#prepare-exam').isDisabled(),false);assert.match(await page.locator('#exam-availability').innerText(),/múltipla escolha/);
    await page.locator('[data-theme-choice="'+(width===320?'light':'dark')+'"]').click();
    await page.locator('#program-tab').click();assert.match(await page.locator('#program-summary').innerText(),/8 disciplinas · 97 tópicos/);assert.equal(await page.locator('#program .syllabus-group').count(),8);await reflow(page);
    await page.locator('#rules-tab').click();const rules=await page.locator('#rules').innerText();assert.match(rules,/Múltipla escolha/);assert.match(rules,/210 minutos/);assert.match(rules,/30 questões/);assert.equal((rules.match(/Maior que 0 pontos/g)||[]).length,3);assert.doesNotMatch(rules,/Certo\/Errado|null pontos|54 pontos|−1/);await reflow(page);
@@ -25,7 +25,7 @@ async function reflow(page){assert.equal(await page.evaluate(()=>document.docume
    await page.locator('input[value="'+active.items[0].key.value+'"]').check();await page.waitForFunction(k=>JSON.parse(localStorage.getItem(k)).progress.active.answers.length===1,key);
    await page.reload();await page.locator('#start-study:not([disabled])').waitFor();assert.equal(await page.locator('#contest').inputValue(),'abdi-2026');await page.locator('#start-study').click();await page.locator('#finish-study').waitFor();assert.equal((await state(page)).active.items.length,6);
    for(let i=0;i<6;i++){
-    assert.equal(await page.locator('input[name="answer"]').count(),6);assert.equal(active.items[i].question.type,'multiple_choice');assert.ok(active.items[i].mappings.every(m=>m.roleId===role));
+    assert.equal(await page.locator('input[name="answer"]').count(),active.items[i].question.options.length+1);assert.equal(active.items[i].question.type,'multiple_choice');assert.ok(active.items[i].mappings.every(m=>m.roleId===role));
     await page.locator('input[value="'+active.items[i].key.value+'"]').check();await page.waitForFunction(({key,n})=>JSON.parse(localStorage.getItem(key)).progress.active.answers.length===n,{key,n:i+1});if(i<5){await page.locator('#next-question').click();await page.locator('#current-question-heading').filter({hasText:'Questão '+(i+2)+' de 6'}).waitFor();}
    }
    await page.locator('#finish-study').click();await page.locator('#confirm-finish').click();await page.locator('.didactic-comment').waitFor();assert.equal((await state(page)).history[0].scoringProfile,null);await reflow(page);

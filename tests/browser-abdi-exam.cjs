@@ -1,13 +1,13 @@
 'use strict';
 // The FGV flow is exercised with an isolated synthetic institutional fixture.
-// Production is separately checked to keep the exam blocked on real shortages.
+// Production is separately checked for complete real quota capacity.
 const {chromium}=require('playwright'),assert=require('node:assert/strict');
 const fixture=require('./fixtures/abdi-exam.cjs');
 const base=process.env.APP_BASE_URL||'http://127.0.0.1:8000/',key='questionador-concursos.progress.v1';
 const state=p=>p.evaluate(k=>JSON.parse(localStorage.getItem(k))?.progress || {active:null,history:[]},key);
 async function reflow(page){for(const size of ['', '200%']){await page.evaluate(s=>document.documentElement.style.fontSize=s,size);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);assert.equal(await page.evaluate(()=>[...document.querySelectorAll('dialog[open]')].every(d=>d.scrollWidth<=d.clientWidth+1)),true);}await page.evaluate(()=>document.documentElement.style.fontSize='');}
 (async()=>{const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});try{
- const real=await browser.newContext({ignoreHTTPSErrors:base.startsWith('https:')}),realPage=await real.newPage();await realPage.goto(base);await realPage.locator('#start-study:not([disabled])').waitFor();await realPage.locator('#contest').selectOption('abdi-2026');assert.equal(await realPage.locator('#prepare-exam').isDisabled(),true);const capacity=await realPage.evaluate(()=>Study.examAvailability(window.CONCURSOS_CATALOG,'abdi-comunicacao-marketing'));assert.equal(capacity.ready,false);assert.equal(capacity.missing.reduce((n,d)=>n+d.count,0),6);assert.match(await realPage.locator('#exam-availability').innerText(),/insuficiente/);await real.close();
+ const real=await browser.newContext({ignoreHTTPSErrors:base.startsWith('https:')}),realPage=await real.newPage();await realPage.goto(base);await realPage.locator('#start-study:not([disabled])').waitFor();await realPage.locator('#contest').selectOption('abdi-2026');assert.equal(await realPage.locator('#prepare-exam').isDisabled(),false);const capacity=await realPage.evaluate(()=>Study.examAvailability(window.CONCURSOS_CATALOG,'abdi-comunicacao-marketing'));assert.equal(capacity.ready,true);assert.equal(capacity.missing.reduce((n,d)=>n+d.count,0),0);assert.equal(await realPage.locator('#exam-availability').isHidden(),true);await real.close();
  for(const width of [320,1280]){
   const context=await browser.newContext({viewport:{width,height:1000},ignoreHTTPSErrors:base.startsWith('https:')});
   await context.route('**/data/catalog.js*',async route=>{const response=await route.fetch();await route.fulfill({response,body:(await response.text())+'\n;('+fixture.toString()+')(window.CONCURSOS_CATALOG);\n'});});

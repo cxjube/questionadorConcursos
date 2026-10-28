@@ -1,0 +1,127 @@
+{
+  "id": "abdi-fourth-reference-review",
+  "reviewedAt": "2026-10-27",
+  "method": "agent_assisted",
+  "scope": "Selected retained own ABDI norms and active federal-law clauses only; no fresh download of all norms or whole-bank audit claimed. Old question article numbering and delegation wording are explicitly distinguished from the current text in the comments.",
+  "references": [
+    {
+      "documentId": "reference-abdi-licitacoes-2021",
+      "sha256": "b1bda6ea5e6e66f80cf9a38bac5a7fa5ccb3313872bf442b97ea6be13026b6a6",
+      "file": "sources/references/ABDI-Licitacoes-2021.pdf",
+      "citations": [
+        {
+          "article": 6,
+          "sourcePage": 7,
+          "quoteExtracted": "Art. 6°. São modalidades de licitação: I- concorrência: modalidade de licitação na qual será admitida a participação de qualquer interessado que, na fase de habilitação, comprove possuir requisitos mínimos de qualificação exigidos no instrumento convocatório para execução de seu objeto; Il - convite: modalidade de licitação entre interessados do ramo pertinente ao seu objeto, escolhidos e convidados, em número minimo de cinco, com antecedéncia de pelo menos trés dias, cujo instrumento convocatério sera publicado no Diario Oficial da Unido (DOU) e no sitio eletrénico da ABDI, com a finalidade de possibilitar a participag@o de outros interessados; - concurso: modalidade de licitagdo entre quaisquer interessados para a escolha de trabalho ou projeto técnico, cientifico ou artistico, mediante instituição de prémios ou remuneragdo aos vencedores a serem utilizados na execução do trabalho ou projeto selecionado; IV- leilão: modalidade de licitação entre quaisquer interessados para a venda de"
+        },
+        {
+          "article": 21,
+          "sourcePage": 15,
+          "quoteExtracted": "Art. 21. O pregão será realizado, preferencialmente, na modalidade eletrônica, podendo, justificadamente, ser adotada a modalidade presencial. Art. 22. O instrumento convocatório do pregão, eletrônico ou presencial, estabelecerá se o modo de disputa será: I- aberto: hipótese em que os licitantes apresentarão lances públicos e sucessivos, com prorrogações, conforme o critério de julgamento estabelecido pelo instrumento convocatório; ou Il- aberto e fechado: hipótese em que os licitantes apresentarão lances publicos e sucessivos, com lance final e fechado, conforme o critério de julgamento estabelecido pelo instrumento convocatério. Art. 23. No julgamento do pregdo será adotado o tipo menor prego ou maior desconto, observadas as demais condigdes definidas no instrumento convocatdrio. Art. 24. Os pregdes realizados pela ABDI observarão o disposto nessa seção e no instrumento convocatorio. Seção | Do Pregão Presencial Art. 25. O julgamento do pregão presencial observara o seguinte procedim"
+        }
+      ]
+    },
+    {
+      "documentId": "reference-abdi-estatuto-2024",
+      "sha256": "ee40999e5d45cb19ceaebc2589c8a98f98d7af44946f9ad3c47a7e41e8c6db20",
+      "file": "sources/references/ABDI-Estatuto-2024.pdf",
+      "citations": [
+        {
+          "article": 15,
+          "sourcePage": 11,
+          "quoteExtracted": "Art. 15. O Presidente do Conselho Deliberativo terá as seguintes atribuições: |- convocar e presidir as reuniões do Conselho Deliberativo; H- tornar públicas e fazer cumprir as deliberações do Conselho Deliberativo, expedindo os atos pertinentes; Hll- decidir, ad referendum do Conselho Deliberativo, quando o recomende a urgência, sobre matérias da competência do plenário; IV - dar posse aos Presidente e Diretores da ABDI, nomeados pelo Presidente da República, assim como aos conselheiros; V- representar o CD-ABDI em juizo ou fora dele; VI - designar, em caso de vacância da Presidência ou das Diretorias, qualquer Diretor ou membro do quadro de pessoal da ABDI, com ou sem vínculo permanente, o responsável interino pelo cargo, até a nomeação do titular, e Vil - fiscalizar o cumprimento do contrato de gestão. § 1°. O Vice-Presidente do Conselho Deliberativo, eleito dentre os seus membros, substituirá o Presidente em suas ausências, afastamentos e impedimentos legais. § 2°. No caso de vacân"
+        },
+        {
+          "article": 17,
+          "sourcePage": 12,
+          "quoteExtracted": "Art. 17. O Presidente da ABDI terá as seguintes atribuições: /- representar institucionalmente a ABDI; lf- representar a ABDI em juízo ou fora dele; HI - cumprir e fazer cumprir o Estatuto Social e as deliberações do Conselho Deliberativo; IV- convocare presidir as reuniões da DIREX; V- decidir sobre os atos de dispensa, desligamento e movimentação de pessoal; Vi- prover os cargos e funções comissionadas da estrutura operacional da ABDI; Vil- dirigir, coordenar e controlar a execução das atividades da agência, praticando os atos necessários à gestão técnica, administrativa, orçamentária e financeira da ABDI: Vill - assinar, em conjunto com um Diretor, convênios, contratos, ajustes, cheques e outros instrumentos dos quais resulte a constituição de direitos e obrigações, a realização de despesa ou a captação de receita; IX - decidir, ad referendum da DIREX, quando o recomende a urgência, sobre matérias de competência do colegiado; X - delegar suas atribuições, se conveniente para os resu"
+        },
+        {
+          "article": 18,
+          "sourcePage": 13,
+          "quoteExtracted": "Art. 18. Os Diretores da ABDI terão as seguintes atribuições: /- representar institucionalmente a ABDI, por delegação do Presidente ou na sua ausência; ll - planejar, executar, controlar e ajustar as ações das unidades organizacionais de sua área funcional de supervisão; Hll- propor ao Presidente da ABDI a designação dos titulares das áreas funcionais sob sua supervisão; IV- subsidiar a DIREX com informações de acompanhamento da sua area funcional de supervisão, para fins de elaboração dos relatórios de acompanhamento, avaliação e prestação de contas semestral e anual do plano de ação e orçamento-programa; V- participar da elaboração de normas operacionais e de gestão; VI - apoiar as atividades de auditoria técnica, contábil e financeira em sua área funcional de supervisão; Vil- assinar, em conjunto com o Presidente, os documentos de que trata o art. 17, inciso VIII; Vill - delegar suas atribuições, salvo aquelas privativas da DIREX, na forma deste Estatuto, se conveniente para os resu"
+        },
+        {
+          "article": 23,
+          "sourcePage": 15,
+          "quoteExtracted": "Art. 23. A ABDI apresentará, anualmente, ao Poder Executivo, até 31 de janeiro e após a decisão do Conselho Deliberativo, relatório circunstanciado sobre a execução do contrato de gestão no exercício anterior, contendo, no mínimo, as seguintes informações: |- prestação de contas dos recursos aplicados no exercício anterior; jl- a avaliação geral do contrato de gestão a que se refere o art. 21; e Hl- análises gerenciais cabíveis. § 1º. Aplicam-se aos contratos de gestão celebrados na hipótese prevista no parágrafo unico do art. 21, as regras de prestação de contas neles contidas. § 2º. Até 15 de março de cada exercício, o Poder Executivo analisará o relatório de que trata este artigo e emitirá parecer sobre o cumprimento do contrato de gestão pela ABDI. Art 24. A DIREX remeterá ao Tribunal de Contas da União 4 TCU, até 31 de março do ano seguinte ao término do exercício financeiro, as contas da gestão anual aprovadas pelo Conselho Deliberativo, acompanhadas de manifestação do Conselho F"
+        },
+        {
+          "article": 24,
+          "sourcePage": 15,
+          "quoteExtracted": "Art 24. A DIREX remeterá ao Tribunal de Contas da União 4 TCU, até 31 de março do ano seguinte ao término do exercício financeiro, as contas da gestão anual aprovadas pelo Conselho Deliberativo, acompanhadas de manifestação do Conselho Fiscal. CAPÍTULO VIII DAS DISPOSIÇÕES GERAIS E TRANSITÓRIAS Art 25. Os recursos transferidos à ABDI e aqueles por ela obtidos em suas operações serão aplicados integralmente na execução de suas atividades e na sua manutenção, vedada a distribuição de qualquer lucro, seja a que título for. Art 26. Em caso de liquidação e extinção da ABDI, o seu patrimônio será imediatamente transferido à União. Art. 27. O presente Estatuto e suas alterações produzirão efeitos a partir da data da inscrição da ata da reunião que os aprovarem no Cartório de Registro Civil das Pessoas Jurídicas de Brasília 4 Distrito Federal. o <a Brasília, 27 de novembro de 2024 © _~ co =n Averbado as margens do registro nº 0500005698, livro nº A019, uy no) on Ro A) oO m as m i=) 3S4 = Qa =5"
+        }
+      ]
+    },
+    {
+      "documentId": "reference-abdi-etica-2022",
+      "sha256": "cc4d98a93fd317296dd07fa77305f545fd840465276b3b25b4aaacf2b5166ed7",
+      "file": "sources/references/ABDI-Etica-CD004-2022.pdf",
+      "citations": [
+        {
+          "article": 3,
+          "sourcePage": 6,
+          "quoteExtracted": "Art. 3°. São valores e principios éticos que norteiam as relações regidas por esse Regulamento: I. a cooperacéo entre os diferentes atores na execução das ações de maneira escalavel e replicavel; Il. o compromisso com a competitividade nas ações voltadas para o aumento da competitividade do setor produtivo brasileiro; 1. ainovacéo em constante atualizac&o, interna e externa, para manutencéo de um portfélio de programas e projetos coerentes com os desafios da era digital; IV. a valorizacgdo humana no fomento de um ambiente respeitoso e de desenvolvimento que promova a melhoria da qualidade de vida de todos os profissionais envolvidos nas acdes da Agéncia; V. a ética e transparéncia deverão ser levadas em consideracdo no desempenho das atividades dos conselheiros, dirigentes, empregados, estagiarios, menores aprendizes, prestadores de servicos técnicos e operacionais da ABDI; VI. o cumprimento das leis e normas aplicaveis & Agéncia; VIl. alegalidade, honestidade, justica, impessoalidade "
+        },
+        {
+          "article": 4,
+          "sourcePage": 7,
+          "quoteExtracted": "Art. 4º. São direitos dos conselheiros, dirigentes, empregados, estagiários, menores aprendizes, prestadores de serviços técnicos e operacionais da ABDI: L ser respeitado e igualmente tratado, independentemente de diferencas culturais ou ideolégicas, de opinides, deficiéncias, género, cor, etnia, origem, convicções politicas, crencas religiosas, nacionalidade, estado civil, condicdo de sindicalizacéo, classe social, orientação sexual, cargo ou funcéo ocupada; 1. trabalhar em ambiente adequado, que preserve sua integridade fisica, moral, mental e psicolégica e o equilibrio entre a vida profissional, pessoal e familiar; m estabelecer interlocucéo livre com colegas e superiores, podendo expor ideias, pensamentos e opinides, inclusive para discutir aspecto controverso; e V. ter respeitado o sigilo das informacdes de ordem pessoal, quando essas assim forem classificadas, ficando restritas somente ao préprio interessado e ao pessoal responsavel pela guarda, manutencdo e tratamento dessas inf"
+        }
+      ]
+    },
+    {
+      "documentId": "reference-abdi-lei-11080-2004",
+      "sha256": "387cb9e784b490952003c9851e091ad9ceae52651e48a3b79a988e57bce3ac73",
+      "file": "sources/references/lei11080-consolidada.html",
+      "citations": [
+        {
+          "article": 1,
+          "activeQuote": "Art. 1º Fica o Poder Executivo autorizado a instituir Serviço Social Autônomo com a finalidade de promover a execução de políticas de desenvolvimento industrial, de inovação, de transformação digital e de difusão de tecnologia, especialmente as que contribuam para a geração de empregos, em consonância com as políticas de comércio exterior e de ciência e tecnologia. (“Caput” do artigo com redação dada pela Medida Provisória nº 1.112, de 31/3/2022, convertida na Lei nº 14.440, de 2/9/2022) § 1º O Serviço Social Autônomo de que trata o caput deste artigo, pessoa jurídica de direito privado sem fins lucrativos, de interesse coletivo e de utilidade pública, denomina-se Agência Brasileira de Desenvolvimento Industrial - ABDI. § 2º (VETADO)"
+        },
+        {
+          "article": 8,
+          "activeQuote": "Art. 8º Compete ao Poder Executivo, na supervisão da gestão da ABDI: I - definir os termos do contrato de gestão, que estipulará as metas e objetivos, os prazos e responsabilidades para sua execução e especificará os critérios para avaliação da aplicação dos recursos a ela repassados; e II - aprovar, anualmente, o orçamento-programa da ABDI para a execução das atividades previstas no contrato de gestão. Parágrafo único. Até o dia 31 de março de cada exercício, o Poder Executivo apreciará o relatório de gestão e emitirá parecer sobre o cumprimento do contrato de gestão pela ABDI."
+        },
+        {
+          "article": 9,
+          "activeQuote": "Art. 9º São obrigações da ABDI: I - apresentar, anualmente, ao Poder Executivo, até 31 de janeiro, relatório circunstanciado sobre a execução do contrato de gestão no exercício anterior, com a prestação de contas dos recursos públicos nele aplicados, a avaliação geral do contrato de gestão e as análises gerenciais cabíveis; II - remeter ao Tribunal de Contas da União, até 31 de março do ano seguinte ao término do exercício financeiro, as contas da gestão anual aprovadas pelo Conselho Deliberativo; III - articular-se com os órgãos públicos e entidades privadas para o cumprimento de suas finalidades; e IV - disponibilizar informações técnicas, creditícias, entre outras, que contribuam para o desenvolvimento industrial brasileiro."
+        }
+      ]
+    },
+    {
+      "documentId": "reference-abdi-decreto-5352-2005",
+      "sha256": "48c007019c2bc1154343599279c9dc276856067a27a0085e98cc558c42d98c17",
+      "file": "sources/references/decreto5352-consolidado.html",
+      "citations": [
+        {
+          "article": 1,
+          "activeQuote": "Art. 1º. Fica instituído o Serviço Social Autônomo Agência Brasileira de Desenvolvimento Industrial - ABDI, pessoa jurídica de direito privado, sem fins lucrativos, de interesse coletivo e de utilidade pública, conforme disposto no art. 1º da Lei nº 11.080, de 30 de dezembro de 2004."
+        },
+        {
+          "article": 13,
+          "activeQuote": "Art. 13. A ABDI apresentará, anualmente, ao Ministério do Desenvolvimento, Indústria e Comércio Exterior, até 31 de janeiro, relatório circunstanciado sobre a execução do contrato de gestão no exercício anterior, contendo, no mínimo, as seguintes informações: I - prestação de contas dos recursos aplicados no exercício; II - a avaliação geral do desempenho da entidade em relação às metas e indicadores estabelecidos no contrato de gestão; e III - análises gerenciais cabíveis. Parágrafo único. Até 15 de março de cada exercício, o Ministério do Desenvolvimento, Indústria e Comércio Exterior analisará o relatório de que trata este artigo e emitirá parecer sobre o cumprimento do contrato de gestão pela ABDI."
+        },
+        {
+          "article": 14,
+          "activeQuote": "Art. 14. A Diretoria-Executiva da ABDI remeterá ao Tribunal de Contas da União, até 31 de março do ano seguinte ao término do exercício financeiro, a prestação de contas da gestão anual aprovada pelo Conselho Deliberativo, acompanhada de manifestação do Conselho Fiscal, sem prejuízo do disposto no art. 14 da Lei nº 11.080, de 2004."
+        }
+      ]
+    },
+    {
+      "documentId": "reference-lgpd-camara-consolidada",
+      "sha256": "5ade20f12d206504f3beb13a0595d144efc891229ad0e6badcebfa97a8a83596",
+      "file": "sources/references/lgpd-camara-consolidada.html",
+      "citations": [
+        {
+          "article": 5,
+          "activeQuote": "Art. 5º Para os fins desta Lei, considera-se: I - dado pessoal: informação relacionada a pessoa natural identificada ou identificável; II - dado pessoal sensível: dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural; III - dado anonimizado: dado relativo a titular que não possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião de seu tratamento; IV - banco de dados: conjunto estruturado de dados pessoais, estabelecido em um ou em vários locais, em suporte eletrônico ou físico; V - titular: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento; VI - controlador: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais; VII - operador: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador; VIII - encarregado: pessoa indicada pelo controlador e operador para atuar como canal de comunicação entre o controlador, os titulares dos dados e a Agência Nacional de Proteção de Dados (ANPD); (Inciso com redação dada pela Medida Provisória nº 1.317, de 17/9/2025, convertida na Lei nº 15.352, de 25/2/2026) IX - agentes de tratamento: o controlador e o operador; X - tratamento: toda operação realizada com dados pessoais, como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração; XI - anonimização: utilização de meios técnicos razoáveis e disponíveis no momento do tratamento, por meio dos quais um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo; XII - consentimento: manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada; XIII - bloqueio: suspensão temporária de qualquer operação de tratamento, mediante guarda do dado pessoal ou do banco de dados; XIV - eliminação: exclusão de dado ou de conjunto de dados armazenados em banco de dados, independentemente do procedimento empregado; XV - transferência internacional de dados: transferência de dados pessoais para país estrangeiro ou organismo internacional do qual o país seja membro; XVI - uso compartilhado de dados: comunicação, difusão, transferência internacional, interconexão de dados pessoais ou tratamento compartilhado de bancos de dados pessoais por órgãos e entidades públicos no cumprimento de suas competências legais, ou entre esses e entes privados, reciprocamente, com autorização específica, para uma ou mais modalidades de tratamento permitidas por esses entes públicos, ou entre entes privados; XVII - relatório de impacto à proteção de dados pessoais: documentação do controlador que contém a descrição dos processos de tratamento de dados pessoais que podem gerar riscos às liberdades civis e aos direitos fundamentais, bem como medidas, salvaguardas e mecanismos de mitigação de risco; XVIII - órgão de pesquisa: órgão ou entidade da administração pública direta ou indireta ou pessoa jurídica de direito privado sem fins lucrativos legalmente constituída sob as leis brasileiras, com sede e foro no País, que inclua em sua missão institucional ou em seu objetivo social ou estatutário a pesquisa básica ou aplicada de caráter histórico, científico, tecnológico ou estatístico; e (Inciso com redação dada pela Medida Provisória nº 869, de 27/12/2018, convertida na Lei nº 13.853, de 8/7/2019) XIX - autoridade nacional: entidade da administração pública responsável por zelar, implementar e fiscalizar o cumprimento desta Lei em todo o território nacional. (Inciso com redação dada pela Medida Provisória nº 1.317, de 17/9/2025, convertida na Lei nº 15.352, de 25/2/2026)"
+        },
+        {
+          "article": 18,
+          "activeQuote": "Art. 18. O titular dos dados pessoais tem direito a obter do controlador, em relação aos dados do titular por ele tratados, a qualquer momento e mediante requisição: I - confirmação da existência de tratamento; II - acesso aos dados; III - correção de dados incompletos, inexatos ou desatualizados; IV - anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com o disposto nesta Lei; V - portabilidade dos dados a outro fornecedor de serviço ou produto, mediante requisição expressa, de acordo com a regulamentação da autoridade nacional, observados os segredos comercial e industrial; (Inciso com redação dada pela Lei nº 13.853, de 8/7/2019) VI - eliminação dos dados pessoais tratados com o consentimento do titular, exceto nas hipóteses previstas no art. 16 desta Lei; VII - informação das entidades públicas e privadas com as quais o controlador realizou uso compartilhado de dados; VIII - informação sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa; IX - revogação do consentimento, nos termos do § 5º do art. 8º desta Lei. § 1º O titular dos dados pessoais tem o direito de peticionar em relação aos seus dados contra o controlador perante a autoridade nacional. § 2º O titular pode opor-se a tratamento realizado com fundamento em uma das hipóteses de dispensa de consentimento, em caso de descumprimento ao disposto nesta Lei. § 3º Os direitos previstos neste artigo serão exercidos mediante requerimento expresso do titular ou de representante legalmente constituído, a agente de tratamento. § 4º Em caso de impossibilidade de adoção imediata da providência de que trata o § 3º deste artigo, o controlador enviará ao titular resposta em que poderá: I - comunicar que não é agente de tratamento dos dados e indicar, sempre que possível, o agente; ou II - indicar as razões de fato ou de direito que impedem a adoção imediata da providência. § 5º O requerimento referido no § 3º deste artigo será atendido sem custos para o titular, nos prazos e nos termos previstos em regulamento. § 6º O responsável deverá informar, de maneira imediata, aos agentes de tratamento com os quais tenha realizado uso compartilhado de dados a correção, a eliminação, a anonimização ou o bloqueio dos dados, para que repitam idêntico procedimento, exceto nos casos em que esta comunicação seja comprovadamente impossível ou implique esforço desproporcional. (Parágrafo com redação dada pela Lei nº 13.853, de 8/7/2019) § 7º A portabilidade dos dados pessoais a que se refere o inciso V do caput deste artigo não inclui dados que já tenham sido anonimizados pelo controlador. § 8º O direito a que se refere o § 1º deste artigo também poderá ser exercido perante os organismos de defesa do consumidor."
+        }
+      ]
+    }
+  ]
+}

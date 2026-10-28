@@ -15,9 +15,9 @@ test('all forty official MC preserve five alternatives, independent keys and exp
   assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(finished),s.data)),plain(finished));
  }
  assert.deepEqual([...seen].sort(),[...wanted].sort());
- const progress=s.Study.empty();assert.equal(s.Study.pool(s.data,role,progress).length,218);assert.equal(s.Study.pool(s.data,role,progress,'all',{type:'multiple_choice'}).length,72);
- assert.equal(s.Study.pool(s.data,role,progress,'all',{block:'institutional'}).length,14);assert.equal(s.Study.pool(s.data,'camara-comunicacao-divulgacao',progress).length,395);
- assert.equal(s.Study.examAvailability(s.data,role).ready,false);
+ const progress=s.Study.empty();assert.equal(s.Study.pool(s.data,role,progress).length,232);assert.equal(s.Study.pool(s.data,role,progress,'all',{type:'multiple_choice'}).length,86);
+ assert.equal(s.Study.pool(s.data,role,progress,'all',{block:'institutional'}).length,20);assert.equal(s.Study.pool(s.data,'camara-comunicacao-divulgacao',progress).length,395);
+ assert.equal(s.Study.examAvailability(s.data,role).ready,true);
 });
 
 test('the 145-item ABDI history remains unchanged and the newly released items become unanswered',()=>{
@@ -25,7 +25,7 @@ test('the 145-item ABDI history remains unchanged and the newly released items b
  const session=s.Study.create(old,role,s.Study.empty(),'all',{now:start});assert.equal(session.items.length,145);
  session.answers=session.items.map(i=>({questionId:i.question.id,value:i.key.value}));let p=s.Study.finish({...s.Study.empty(),active:session},end);
  assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(p),s.data)),plain(p));assert.equal(s.Study.matches(s.data,p.history[0]),true);
- const newIds=new Set(['abdi-first-batch','abdi-second-batch','abdi-third-batch'].flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,'data/reviews/'+name+'.json'))).items.map(i=>i.questionId)));
+ const newIds=new Set(['abdi-first-batch','abdi-second-batch','abdi-third-batch','abdi-fourth-batch'].flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,'data/reviews/'+name+'.json'))).items.map(i=>i.questionId)));
  assert.deepEqual(new Set(s.Study.pool(s.data,role,p,'unanswered').map(q=>q.id)),newIds);
  assert.equal(s.Study.performance(p.history,role).attempts,145);assert.equal(s.Study.performance(p.history,'camara-comunicacao-divulgacao').attempts,0);
 });

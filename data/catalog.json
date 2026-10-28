@@ -4277,6 +4277,162 @@
       "sha256": "8fdabb67c5c7481fb3c155e163a79e330ac0ffca2f27f8053d2bdf05617bcf3f",
       "publicationDate": null,
       "paperId": "source-abdi-2008-assistente-compras-servicos"
+    },
+    {
+      "id": "source-abdi-2008-especialista-analise-economica-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "ABDI — Especialista — Projetos — Análise Econômica",
+      "issuer": "IBFC",
+      "status": "verified",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/especialista-projetos-analise-economica.pdf",
+      "file": "sources/papers/abdi-2008-especialista-analise-economica.pdf",
+      "sha256": "b7386fbd03c409ee7def131756929733ad7ba02df8a0fb6c872db2b60229aebb",
+      "publicationDate": null,
+      "paperId": "source-abdi-2008-especialista-analise-economica"
+    },
+    {
+      "id": "source-abdi-2008-especialista-analise-economica-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "ABDI — Especialista — Projetos — Análise Econômica — gabarito definitivo",
+      "issuer": "IBFC",
+      "status": "verified",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/especialista-projetos-analise-economica.pdf",
+      "file": "sources/answer-keys/abdi-2008-especialista-analise-economica-key.pdf",
+      "sha256": "ac366cdc8e6b2a5820952243d7704a803497ec9e1163d4da2f3938e2c808c9c6",
+      "publicationDate": null,
+      "paperId": "source-abdi-2008-especialista-analise-economica"
+    },
+    {
+      "id": "source-abdi-2008-iniciante-processos-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "ABDI — Iniciante — Processos",
+      "issuer": "IBFC",
+      "status": "verified",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/iniciante-processos.pdf",
+      "file": "sources/papers/abdi-2008-iniciante-processos.pdf",
+      "sha256": "08d83d4b7acc6f087ac67bed3dc7ab44797ee4ea4f38ac5169d8f7fa17507a5f",
+      "publicationDate": null,
+      "paperId": "source-abdi-2008-iniciante-processos"
+    },
+    {
+      "id": "source-abdi-2008-iniciante-processos-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "ABDI — Iniciante — Processos — gabarito definitivo",
+      "issuer": "IBFC",
+      "status": "verified",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/iniciante-processos.pdf",
+      "file": "sources/answer-keys/abdi-2008-iniciante-processos-key.pdf",
+      "sha256": "a3a222e74d6b02f93469df11751efdf3deaf7cf26025cd8ee0c292e5010b732a",
+      "publicationDate": null,
+      "paperId": "source-abdi-2008-iniciante-processos"
+    },
+    {
+      "id": "source-344-dpeal-001-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Defensoria Pública do Estado de Alagoas — Defensor Público de 1ª Classe",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/DPE_AL_17_DEFENSOR/arquivos/344_DPEAL_001_01.PDF",
+      "file": "sources/papers/344-dpeal-001-01.pdf",
+      "sha256": "e3cc3f000b02b386078a8562bb349bfe7246cd7f42a3c8af464a42798886739b",
+      "publicationDate": null,
+      "paperId": "source-344-dpeal-001-01"
+    },
+    {
+      "id": "source-344-dpeal-001-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Defensoria Pública do Estado de Alagoas — Defensor Público de 1ª Classe — gabarito definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/DPE_AL_17_DEFENSOR/arquivos/GAB_DEFINITIVO_344_DPEAL_001_01.PDF",
+      "file": "sources/answer-keys/344-dpeal-001-01-key.pdf",
+      "sha256": "0e7e3bc8ee7a38c3d5d6b8274d2e3c8f4b2a6f0223562308e02df15c3e60a889",
+      "publicationDate": null,
+      "paperId": "source-344-dpeal-001-01"
+    },
+    {
+      "id": "source-tjrr-2024-direito-tipo1-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Tribunal de Justiça do Estado de Roraima — Analista Judiciário — Direito — Manhã — tipo 1",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns107t01-analista-judiciario-advogado.pdf",
+      "file": "sources/papers/tjrr-2024-direito-tipo1.pdf",
+      "sha256": "8cda95cfb953796da5df7792d19b991cf2cbaa1828ba99640fb09ad6df087358",
+      "publicationDate": null,
+      "paperId": "source-tjrr-2024-direito-tipo1"
+    },
+    {
+      "id": "source-tjrr-2024-direito-tipo1-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Tribunal de Justiça do Estado de Roraima — Analista Judiciário — Direito — Manhã — tipo 1 — gabarito definitivo",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrr_gabarito_definitivo_v3.pdf",
+      "file": "sources/answer-keys/tjrr-2024-direito-tipo1-key.pdf",
+      "sha256": "f36773ab48f52039f52bd5da2f8d8a14407d8c619427e834f9dc927a9688ce95",
+      "publicationDate": null,
+      "paperId": "source-tjrr-2024-direito-tipo1"
+    },
+    {
+      "id": "source-fiocruz-2024-te23-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Fundação Oswaldo Cruz — Tecnologista em Saúde Pública — TE23 — Reportagem, Redação e Edição em Jornalismo Impresso e Digital",
+      "issuer": "Fiocruz/Fiotec",
+      "status": "verified",
+      "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE23.pdf",
+      "file": "sources/papers/fiocruz-2024-te23.pdf",
+      "sha256": "abe74ff25a4866a237a6c70fa5be96f16029618b9d818ba830ecf66e2811bb3a",
+      "publicationDate": null,
+      "paperId": "source-fiocruz-2024-te23"
+    },
+    {
+      "id": "source-fiocruz-2024-te23-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Fundação Oswaldo Cruz — Tecnologista em Saúde Pública — TE23 — Reportagem, Redação e Edição em Jornalismo Impresso e Digital — gabarito definitivo",
+      "issuer": "Fiocruz/Fiotec",
+      "status": "verified",
+      "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-Gabaritos-Finais-Tecnologistas.pdf",
+      "file": "sources/answer-keys/Fiocruz-2024-Tecnologistas-final-key.pdf",
+      "sha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4",
+      "publicationDate": null,
+      "paperId": "source-fiocruz-2024-te23"
+    },
+    {
+      "id": "source-fiocruz-2024-te58-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Fundação Oswaldo Cruz — Tecnologista em Saúde Pública — TE58 — Jornalista Web",
+      "issuer": "Fiocruz/Fiotec",
+      "status": "verified",
+      "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE58.pdf",
+      "file": "sources/papers/fiocruz-2024-te58.pdf",
+      "sha256": "2f4ab848f9fda3873ab44099166988185ae0790605b92ce1944ac06e6cf93b01",
+      "publicationDate": null,
+      "paperId": "source-fiocruz-2024-te58"
+    },
+    {
+      "id": "source-fiocruz-2024-te58-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Fundação Oswaldo Cruz — Tecnologista em Saúde Pública — TE58 — Jornalista Web — gabarito definitivo",
+      "issuer": "Fiocruz/Fiotec",
+      "status": "verified",
+      "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-Gabaritos-Finais-Tecnologistas.pdf",
+      "file": "sources/answer-keys/Fiocruz-2024-Tecnologistas-final-key.pdf",
+      "sha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4",
+      "publicationDate": null,
+      "paperId": "source-fiocruz-2024-te58"
     }
   ],
   "papers": [
@@ -5731,6 +5887,169 @@
         "questionType": "multiple_choice",
         "annulledItems": [],
         "answerKeyDocumentId": "source-abdi-2008-assistente-compras-servicos-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-abdi-2008-especialista-analise-economica",
+      "bankId": "concursos",
+      "title": "ABDI — Especialista — Projetos — Análise Econômica",
+      "institution": "ABDI",
+      "provider": "IBFC",
+      "role": "Especialista — Projetos — Análise Econômica",
+      "year": 2008,
+      "booklet": "ADI – NÍVEL SUPERIOR ESPECIALISTA – PROJETOS ANÁLISE ECONÔMICA",
+      "documentId": "source-abdi-2008-especialista-analise-economica-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2008-09-07",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 20,
+        "itemCount": 20,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          19
+        ],
+        "answerKeyDocumentId": "source-abdi-2008-especialista-analise-economica-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-abdi-2008-iniciante-processos",
+      "bankId": "concursos",
+      "title": "ABDI — Iniciante — Processos",
+      "institution": "ABDI",
+      "provider": "IBFC",
+      "role": "Iniciante — Processos",
+      "year": 2008,
+      "booklet": "ADI – NÍVEL SUPERIOR INICIANTE - PROCESSOS",
+      "documentId": "source-abdi-2008-iniciante-processos-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2008-09-07",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 20,
+        "itemCount": 20,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          18,
+          19
+        ],
+        "answerKeyDocumentId": "source-abdi-2008-iniciante-processos-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-344-dpeal-001-01",
+      "bankId": "concursos",
+      "title": "Defensoria Pública do Estado de Alagoas — Defensor Público de 1ª Classe",
+      "institution": "Defensoria Pública do Estado de Alagoas",
+      "provider": "Cebraspe",
+      "role": "Defensor Público de 1ª Classe",
+      "year": 2017,
+      "booklet": "344_DPEAL_001_01",
+      "documentId": "source-344-dpeal-001-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2017-11-18",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 100,
+        "itemCount": 100,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          14,
+          30,
+          82,
+          84,
+          94,
+          99
+        ],
+        "answerKeyDocumentId": "source-344-dpeal-001-01-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-tjrr-2024-direito-tipo1",
+      "bankId": "concursos",
+      "title": "Tribunal de Justiça do Estado de Roraima — Analista Judiciário — Direito — Manhã — tipo 1",
+      "institution": "Tribunal de Justiça do Estado de Roraima",
+      "provider": "FGV",
+      "role": "Analista Judiciário — Direito — Manhã — tipo 1",
+      "year": 2024,
+      "booklet": "Analista Judiciário - Direito - TIPO 1",
+      "documentId": "source-tjrr-2024-direito-tipo1-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2024-11-17",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 70,
+        "itemCount": 70,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          23,
+          27,
+          29,
+          47
+        ],
+        "answerKeyDocumentId": "source-tjrr-2024-direito-tipo1-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-fiocruz-2024-te23",
+      "bankId": "concursos",
+      "title": "Fundação Oswaldo Cruz — Tecnologista em Saúde Pública — TE23 — Reportagem, Redação e Edição em Jornalismo Impresso e Digital",
+      "institution": "Fundação Oswaldo Cruz",
+      "provider": "Fiocruz/Fiotec",
+      "role": "Tecnologista em Saúde Pública — TE23 — Reportagem, Redação e Edição em Jornalismo Impresso e Digital",
+      "year": 2024,
+      "booklet": "TE23 - Reportagem, Redação e Edição em Jornalismo Impresso e Digital- Rio de Janeiro",
+      "documentId": "source-fiocruz-2024-te23-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2024-04-28",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 40,
+        "itemCount": 40,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          25
+        ],
+        "answerKeyDocumentId": "source-fiocruz-2024-te23-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-fiocruz-2024-te58",
+      "bankId": "concursos",
+      "title": "Fundação Oswaldo Cruz — Tecnologista em Saúde Pública — TE58 — Jornalista Web",
+      "institution": "Fundação Oswaldo Cruz",
+      "provider": "Fiocruz/Fiotec",
+      "role": "Tecnologista em Saúde Pública — TE58 — Jornalista Web",
+      "year": 2024,
+      "booklet": "TE58 - Jornalista Web- Rio de Janeiro",
+      "documentId": "source-fiocruz-2024-te58-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2024-04-28",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 40,
+        "itemCount": 40,
+        "questionType": "multiple_choice",
+        "annulledItems": [],
+        "answerKeyDocumentId": "source-fiocruz-2024-te58-key",
         "pairingStatus": "matched_by_role_type_and_session",
         "externalVerification": true
       }
@@ -21383,6 +21702,680 @@
         "temporalNote": "Redação e gabarito definitivos originais preservados. Correspondência temática parcial; as questões institucionais deste lote foram confrontadas com cláusulas selecionadas do regulamento próprio da ABDI, sem aplicar automaticamente legislação geral de contratação pública. A revisão integral por banco será etapa posterior.",
         "decisionReference": "documentation/abdi-third-batch-release.md"
       }
+    },
+    {
+      "id": "abdi-2008-especialista-analise-economica-q012",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "De acordo com o Art. 5º do regulamento de licitações e de contratos do serviço social autônomo Agência Brasileira de Desenvolvimento Industrial (ABDI), são modalidades de licitação:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Concorrência, Convite, Concurso e Leilão."
+        },
+        {
+          "id": "b",
+          "text": "Concorrência, Convite, Concurso, Pregão e Leilão."
+        },
+        {
+          "id": "c",
+          "text": "Concorrência, Convite, Concurso e Pregão."
+        },
+        {
+          "id": "d",
+          "text": "Concorrência, Convite, Concurso, Pregão Eletrônico e Leilão."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-abdi-2008-especialista-analise-economica",
+        "number": 12,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "abdi-2008-especialista-analise-economica-q012-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão e chave definitivas mantidas no formato original. Correspondência temática parcial; normas próprias da ABDI e cláusulas citadas conferidas no escopo do lote. Referências institucionais de outra prova não se tornam regras da ABDI. A varredura completa de cada banco permanece para o encerramento.",
+        "decisionReference": "documentation/abdi-fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "abdi-2008-especialista-analise-economica-q014",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "A ABDI apresentará, anualmente, ao Ministério do Desenvolvimento, Indústria e Comércio Exterior, relatório circunstanciado sobre a execução do contrato de gestão no exercício anterior até:",
+      "options": [
+        {
+          "id": "a",
+          "text": "O final do 1º Bimestre."
+        },
+        {
+          "id": "b",
+          "text": "31 de março."
+        },
+        {
+          "id": "c",
+          "text": "30 de abril."
+        },
+        {
+          "id": "d",
+          "text": "31 de janeiro."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-abdi-2008-especialista-analise-economica",
+        "number": 14,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "abdi-2008-especialista-analise-economica-q014-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão e chave definitivas mantidas no formato original. Correspondência temática parcial; normas próprias da ABDI e cláusulas citadas conferidas no escopo do lote. Referências institucionais de outra prova não se tornam regras da ABDI. A varredura completa de cada banco permanece para o encerramento.",
+        "decisionReference": "documentation/abdi-fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "abdi-2008-iniciante-processos-q020",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Assinale a alternativa correta em relação ao Estatuto Social Autônomo da Agência Brasileira de Desenvolvimento Industrial:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Compete à Diretoria Executiva da ABDI emitir parecer, quando solicitado, sobre a alienação ou oneração de bens móveis."
+        },
+        {
+          "id": "b",
+          "text": "O Presidente do Conselho Deliberativo da ABDI tem por atribuição fiscalizar, por delegação do Poder Executivo, o cumprimento do contrato de gestão."
+        },
+        {
+          "id": "c",
+          "text": "Compete ao Presidente da ABDI planejar, executar, controlar e ajustar as ações das unidades organizacionais de sua área funcional de supervisão."
+        },
+        {
+          "id": "d",
+          "text": "O Presidente do Conselho Fiscal da ABDI tem por atribuição decidir sobre os atos de dispensa e movimentação de pessoal."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-abdi-2008-iniciante-processos",
+        "number": 20,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "abdi-2008-iniciante-processos-q020-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão e chave definitivas mantidas no formato original. Correspondência temática parcial; normas próprias da ABDI e cláusulas citadas conferidas no escopo do lote. Referências institucionais de outra prova não se tornam regras da ABDI. A varredura completa de cada banco permanece para o encerramento.",
+        "decisionReference": "documentation/abdi-fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "344-dpeal-001-01-q009",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Os serviços sociais autônomos",
+      "options": [
+        {
+          "id": "a",
+          "text": "são beneficiados pelos privilégios processuais de dilação de prazo recursal."
+        },
+        {
+          "id": "b",
+          "text": "devem ser criados mediante autorização por lei."
+        },
+        {
+          "id": "c",
+          "text": "são alcançados pelos sistemas de precatórios."
+        },
+        {
+          "id": "d",
+          "text": "possuem personalidade jurídica de direito público."
+        },
+        {
+          "id": "e",
+          "text": "estão obrigados a realizar procedimentos licitatórios."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-344-dpeal-001-01",
+        "number": 9,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "344-dpeal-001-01-q009-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão e chave definitivas mantidas no formato original. Correspondência temática parcial; normas próprias da ABDI e cláusulas citadas conferidas no escopo do lote. Referências institucionais de outra prova não se tornam regras da ABDI. A varredura completa de cada banco permanece para o encerramento.",
+        "decisionReference": "documentation/abdi-fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "tjrr-2024-direito-tipo1-q050",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Diogo estava estudando as questões atinentes à Administração direta e indireta, quando surgiu uma dúvida acerca do enquadramento das entidades do Terceiro Setor no âmbito da organização administrativa. Ao aprofundar os seus conhecimentos, com vistas a responder a tal questionamento, Diogo verificou corretamente que as entidades do Terceiro Setor",
+      "options": [
+        {
+          "id": "a",
+          "text": "não integram a Administração direta nem a indireta, correspondendo ao mercado, de modo que devem ter finalidade lucrativa."
+        },
+        {
+          "id": "b",
+          "text": "integram a Administração direta, de modo que não possuem personalidade jurídica."
+        },
+        {
+          "id": "c",
+          "text": "integram a Administração indireta, juntamente com as sociedades de economia mista e empresas públicas."
+        },
+        {
+          "id": "d",
+          "text": "não integram a Administração direta nem a indireta, pois tem caráter privado, não podendo ser confundidas com as entidades administrativas."
+        },
+        {
+          "id": "e",
+          "text": "podem integrar a Administração direta ou indireta, a depender de sua personalidade jurídica, de direito público ou de direito privado, respectivamente."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-tjrr-2024-direito-tipo1",
+        "number": 50,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "tjrr-2024-direito-tipo1-q050-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão e chave definitivas mantidas no formato original. Correspondência temática parcial; normas próprias da ABDI e cláusulas citadas conferidas no escopo do lote. Referências institucionais de outra prova não se tornam regras da ABDI. A varredura completa de cada banco permanece para o encerramento.",
+        "decisionReference": "documentation/abdi-fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "fiocruz-2024-te58-q038",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Uma comunicação comprometida com os princípios do SUS precisa ser, também, uma comunicação antirracista. Dentre as atitudes importantes para o enfrentamento ao racismo na produção jornalística no campo da saúde e da divulgação científica, NÃO se pode listar:",
+      "options": [
+        {
+          "id": "a",
+          "text": "evitar associar questões de saúde pública a recortes raciais."
+        },
+        {
+          "id": "b",
+          "text": "levar em conta a interseccionalidade ao selecionar, produzir e apurar pautas."
+        },
+        {
+          "id": "c",
+          "text": "buscar fontes racializadas."
+        },
+        {
+          "id": "d",
+          "text": "buscar que as equipes tenham, elas próprias, diversidade, e não apenas de raça."
+        },
+        {
+          "id": "e",
+          "text": "evitar expressões como “tribo”, “escravo” e “doméstica”."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-fiocruz-2024-te58",
+        "number": 38,
+        "locator": "PDF p. 11"
+      },
+      "answerKeyId": "fiocruz-2024-te58-q038-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão e chave definitivas mantidas no formato original. Correspondência temática parcial; normas próprias da ABDI e cláusulas citadas conferidas no escopo do lote. Referências institucionais de outra prova não se tornam regras da ABDI. A varredura completa de cada banco permanece para o encerramento.",
+        "decisionReference": "documentation/abdi-fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "fiocruz-2024-te23-q005",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Em relação à Lei nº 13.709/2018, Lei Geral de Proteção de Dados (LGPD), é INCORRETO afirmar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "a lei dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado."
+        },
+        {
+          "id": "b",
+          "text": "a LGPD é aplicável a empresas de qualquer porte, independentemente do meio pelo qual coletou os dados dos indivíduos ou do país de sua sede, desde que atue em território nacional, coletando, tratando ou negociando dados."
+        },
+        {
+          "id": "c",
+          "text": "são passíveis de proteção, por meio da LGPD, os dados pessoais, incluindo nome, endereço, CPF, identidade, carteira nacional de habilitação, título de eleitor, número de telefone, email ou qualquer outro dado ou fragmento de dado que possibilite identificar a pessoa a que ele se refere."
+        },
+        {
+          "id": "d",
+          "text": "são considerados dados anonimizados aqueles referentes à convicção religiosa, raça, orientação sexual, estado de saúde, opinião política e filiação a sindicato."
+        },
+        {
+          "id": "e",
+          "text": "é direito da cidadã e do cidadão ser informado sobre o compartilhamento de seus dados com instituições públicas ou privadas, independentemente de haver feito esta solicitação."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-fiocruz-2024-te23",
+        "number": 5,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "fiocruz-2024-te23-q005-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão e chave definitivas mantidas no formato original. Correspondência temática parcial; normas próprias da ABDI e cláusulas citadas conferidas no escopo do lote. Referências institucionais de outra prova não se tornam regras da ABDI. A varredura completa de cada banco permanece para o encerramento.",
+        "decisionReference": "documentation/abdi-fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "fiocruz-2024-te23-q019",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "A determinação socioambiental das doenças é um conceito largamente difundido no campo da saúde pública e da saúde coletiva. Considerando uma reportagem sobre um agravo marcado por forte determinação socioambiental (como doença de Chagas, esquistossomose e leishmanioses, para citar alguns exemplos), para que a dimensão de determinação socioambiental esteja devidamente contemplada é necessário recobrir os seguintes aspectos:\n\nI. condições de moradia.\n\nII. hereditariedade.\n\nIII. escolaridade, emprego e renda.\n\nIV. acesso a saneamento.\n\nSobre as alternativas acima, pode-se dizer que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "I, III e IV estão corretas."
+        },
+        {
+          "id": "b",
+          "text": "I e IV estão corretas."
+        },
+        {
+          "id": "c",
+          "text": "III e IV estão corretas."
+        },
+        {
+          "id": "d",
+          "text": "I e III estão corretas."
+        },
+        {
+          "id": "e",
+          "text": "todas estão corretas."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-fiocruz-2024-te23",
+        "number": 19,
+        "locator": "PDF p. 5"
+      },
+      "answerKeyId": "fiocruz-2024-te23-q019-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão e chave definitivas mantidas no formato original. Correspondência temática parcial; normas próprias da ABDI e cláusulas citadas conferidas no escopo do lote. Referências institucionais de outra prova não se tornam regras da ABDI. A varredura completa de cada banco permanece para o encerramento.",
+        "decisionReference": "documentation/abdi-fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "fiocruz-2024-te23-q027",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Imagine o processo de desenvolvimento de um infográfico associado a uma reportagem sobre um estudo científico no campo da saúde coletiva e da saúde pública, envolvendo a análise da segurança em saúde em recursos hídricos. Considerando que um infográfico necessariamente confere ênfase a um subconjunto de aspectos do tema em pauta, sem recobrir sua totalidade, no processo de seleção dos elementos a serem abordados na construção deste produto deve ser priorizada a presença de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "destaque para o protagonismo científico brasileiro."
+        },
+        {
+          "id": "b",
+          "text": "curiosidades sobre o processo de construção do projeto."
+        },
+        {
+          "id": "c",
+          "text": "elementos de risco para a saúde humana e ambiental."
+        },
+        {
+          "id": "d",
+          "text": "perfil do cientista líder da pesquisa."
+        },
+        {
+          "id": "e",
+          "text": "linha do tempo com etapas da captação de recursos que forma usados no estudo."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-fiocruz-2024-te23",
+        "number": 27,
+        "locator": "PDF p. 7"
+      },
+      "answerKeyId": "fiocruz-2024-te23-q027-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão e chave definitivas mantidas no formato original. Correspondência temática parcial; normas próprias da ABDI e cláusulas citadas conferidas no escopo do lote. Referências institucionais de outra prova não se tornam regras da ABDI. A varredura completa de cada banco permanece para o encerramento.",
+        "decisionReference": "documentation/abdi-fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "fiocruz-2024-te58-q022",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Alguns estudos vêm buscando construir modelos teóricos de comunicação pública da ciência. Sobre esses modelos, avalie os itens abaixo.\n\nI. São eles: Modelo de Déficit, Modelo Contextual, Modelo de Conhecimento Leigo e Modelo de Engajamento Público.\n\nII. O Modelo de Défict prevê a transmissão linear de informações de especialistas para o público.\n\nIII. O Modelo Contextual tem sido criticado por ser apenas uma versão mais sofisticada do Modelo de Déficit.\n\nDos itens acima:",
+      "options": [
+        {
+          "id": "a",
+          "text": "todos estão corretos."
+        },
+        {
+          "id": "b",
+          "text": "apenas II e III estão corretos."
+        },
+        {
+          "id": "c",
+          "text": "apenas III está correto."
+        },
+        {
+          "id": "d",
+          "text": "apenas I está correto."
+        },
+        {
+          "id": "e",
+          "text": "apenas II está correto."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-fiocruz-2024-te58",
+        "number": 22,
+        "locator": "PDF p. 8"
+      },
+      "answerKeyId": "fiocruz-2024-te58-q022-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão e chave definitivas mantidas no formato original. Correspondência temática parcial; normas próprias da ABDI e cláusulas citadas conferidas no escopo do lote. Referências institucionais de outra prova não se tornam regras da ABDI. A varredura completa de cada banco permanece para o encerramento.",
+        "decisionReference": "documentation/abdi-fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "fiocruz-2024-te58-q024",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "No âmbito da comunicação científica, pode-se afirmar que a divulgação de preprints para a imprensa:",
+      "options": [
+        {
+          "id": "a",
+          "text": "nunca deve acontecer, uma vez que fere princípios éticos elementares."
+        },
+        {
+          "id": "b",
+          "text": "só deve ocorrer no caso de emergências sanitárias, como a da Covid-19."
+        },
+        {
+          "id": "c",
+          "text": "é uma atividade que demanda avaliação criteriosa, e na qual o divulgador científico precisa adotar cuidados como o de alertar que aqueles resultados são preliminares."
+        },
+        {
+          "id": "d",
+          "text": "pode ocorrer após a avaliação por pares."
+        },
+        {
+          "id": "e",
+          "text": "é uma ação recomendável apenas para o caso de uma sugestão de pauta do tipo “exclusiva”, pois oferece um tempo maior para a apuração dos repórteres, dando mais segurança à divulgação."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-fiocruz-2024-te58",
+        "number": 24,
+        "locator": "PDF p. 8"
+      },
+      "answerKeyId": "fiocruz-2024-te58-q024-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão e chave definitivas mantidas no formato original. Correspondência temática parcial; normas próprias da ABDI e cláusulas citadas conferidas no escopo do lote. Referências institucionais de outra prova não se tornam regras da ABDI. A varredura completa de cada banco permanece para o encerramento.",
+        "decisionReference": "documentation/abdi-fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "fiocruz-2024-te58-q026",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "A Lei Brasileira de Inclusão da Pessoa com Deficiência tem como objetivo assegurar o exercício dos direitos e das liberdades fundamentais das pessoas com deficiência. Levando em conta o direito à informação, é importante garantir que sites e produtos digitais atendam aos critérios de acessibilidade. Observe as recomendações a jornalistas abaixo, para que conteúdos digitais sejam acessíveis e respeitem direitos.\n\nI. Não se referir a pessoas com deficiência como portadoras de deficiência ou de necessidades especiais.\n\nII. Substituir as legendas das fotos pela sua descrição no atributo “alt”, do HTML.\n\nIII. Evitar inserir links em expressões como “Clique aqui” ou “Saiba mais”, pois não descrevem seu conteúdo de destino.\n\nIV. Aderir ao uso de animações e aplicações Flash.\n\nDas afirmativas acima:",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas I está correta."
+        },
+        {
+          "id": "b",
+          "text": "apenas I e II estão corretas."
+        },
+        {
+          "id": "c",
+          "text": "apenas IV está correta."
+        },
+        {
+          "id": "d",
+          "text": "apenas I e III estão corretas."
+        },
+        {
+          "id": "e",
+          "text": "todas estão corretas."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-fiocruz-2024-te58",
+        "number": 26,
+        "locator": "PDF p. 8"
+      },
+      "answerKeyId": "fiocruz-2024-te58-q026-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão e chave definitivas mantidas no formato original. Correspondência temática parcial; normas próprias da ABDI e cláusulas citadas conferidas no escopo do lote. Referências institucionais de outra prova não se tornam regras da ABDI. A varredura completa de cada banco permanece para o encerramento.",
+        "decisionReference": "documentation/abdi-fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "fiocruz-2024-te58-q029",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Uma das características da “geração cidadã de dados” é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "integrar o chamado jornalismo de precisão, ao permitir que os dados circulem de forma descentralizada."
+        },
+        {
+          "id": "b",
+          "text": "possibilitar que qualquer internauta envie sugestões de informações para as bases de dados do governo."
+        },
+        {
+          "id": "c",
+          "text": "estar descrita como um dos parâmetros da Lei de Acesso à Informação (LAI)."
+        },
+        {
+          "id": "d",
+          "text": "tratar-se de uma prática comum em alguns países, mas que ainda não chegou ao Brasil."
+        },
+        {
+          "id": "e",
+          "text": "permitir que grupos minorizados passem a ser protagonistas no processo de geração de dados."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-fiocruz-2024-te58",
+        "number": 29,
+        "locator": "PDF p. 9"
+      },
+      "answerKeyId": "fiocruz-2024-te58-q029-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão e chave definitivas mantidas no formato original. Correspondência temática parcial; normas próprias da ABDI e cláusulas citadas conferidas no escopo do lote. Referências institucionais de outra prova não se tornam regras da ABDI. A varredura completa de cada banco permanece para o encerramento.",
+        "decisionReference": "documentation/abdi-fourth-batch-release.md"
+      }
+    },
+    {
+      "id": "fiocruz-2024-te58-q039",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Um dos desafios de divulgar temas científicos é explicar, em linguagem simples, os conceitos complexos por trás de nomenclaturas nem sempre amigáveis para o público não especializado. Esse desafio se torna ainda maior nos textos para a web, pois sabemos que a leitura de conteúdo on-line apresenta padrões diferentes dos da leitura impressa. Para evitar que as descrições de alguns termos científicos comprometam a objetividade do conteúdo online, uma opção pode ser:",
+      "options": [
+        {
+          "id": "a",
+          "text": "usar a técnica de “double diamond”."
+        },
+        {
+          "id": "b",
+          "text": "criar uma política editorial que elimine qualquer divulgação científica que não possa ser compreendida pela população em geral."
+        },
+        {
+          "id": "c",
+          "text": "excluir falas (“aspas”) dos cientistas."
+        },
+        {
+          "id": "d",
+          "text": "destacar em cores os trechos mais técnicos."
+        },
+        {
+          "id": "e",
+          "text": "usar “tooltips” associadas aos termos técnicos."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-fiocruz-2024-te58",
+        "number": 39,
+        "locator": "PDF p. 11"
+      },
+      "answerKeyId": "fiocruz-2024-te58-q039-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-27",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão e chave definitivas mantidas no formato original. Correspondência temática parcial; normas próprias da ABDI e cláusulas citadas conferidas no escopo do lote. Referências institucionais de outra prova não se tornam regras da ABDI. A varredura completa de cada banco permanece para o encerramento.",
+        "decisionReference": "documentation/abdi-fourth-batch-release.md"
+      }
     }
   ],
   "answerKeys": [
@@ -27469,6 +28462,188 @@
       "locator": "PDF p. 1 — Técnico Legislativo - Policial Legislativo - TIPO 1",
       "result": "valid",
       "value": "b"
+    },
+    {
+      "id": "abdi-2008-especialista-analise-economica-q012-key-v1",
+      "questionId": "abdi-2008-especialista-analise-economica-q012",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-abdi-2008-especialista-analise-economica-key",
+      "author": null,
+      "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR ESPECIALISTA – PROJETOS ANÁLISE ECONÔMICA",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "abdi-2008-especialista-analise-economica-q014-key-v1",
+      "questionId": "abdi-2008-especialista-analise-economica-q014",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-abdi-2008-especialista-analise-economica-key",
+      "author": null,
+      "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR ESPECIALISTA – PROJETOS ANÁLISE ECONÔMICA",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "abdi-2008-iniciante-processos-q020-key-v1",
+      "questionId": "abdi-2008-iniciante-processos-q020",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-abdi-2008-iniciante-processos-key",
+      "author": null,
+      "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR INICIANTE - PROCESSOS",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "344-dpeal-001-01-q009-key-v1",
+      "questionId": "344-dpeal-001-01-q009",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-344-dpeal-001-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 344_DPEAL_001_01",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "tjrr-2024-direito-tipo1-q050-key-v1",
+      "questionId": "tjrr-2024-direito-tipo1-q050",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-tjrr-2024-direito-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 8 — Analista Judiciário - Direito - TIPO 1",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "fiocruz-2024-te58-q038-key-v1",
+      "questionId": "fiocruz-2024-te58-q038",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-fiocruz-2024-te58-key",
+      "author": null,
+      "locator": "PDF p. 58 — TE58 - Jornalista Web- Rio de Janeiro",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "fiocruz-2024-te23-q005-key-v1",
+      "questionId": "fiocruz-2024-te23-q005",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-fiocruz-2024-te23-key",
+      "author": null,
+      "locator": "PDF p. 23 — TE23 - Reportagem, Redação e Edição em Jornalismo Impresso e Digital- Rio de Janeiro",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "fiocruz-2024-te23-q019-key-v1",
+      "questionId": "fiocruz-2024-te23-q019",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-fiocruz-2024-te23-key",
+      "author": null,
+      "locator": "PDF p. 23 — TE23 - Reportagem, Redação e Edição em Jornalismo Impresso e Digital- Rio de Janeiro",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "fiocruz-2024-te23-q027-key-v1",
+      "questionId": "fiocruz-2024-te23-q027",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-fiocruz-2024-te23-key",
+      "author": null,
+      "locator": "PDF p. 23 — TE23 - Reportagem, Redação e Edição em Jornalismo Impresso e Digital- Rio de Janeiro",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "fiocruz-2024-te58-q022-key-v1",
+      "questionId": "fiocruz-2024-te58-q022",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-fiocruz-2024-te58-key",
+      "author": null,
+      "locator": "PDF p. 58 — TE58 - Jornalista Web- Rio de Janeiro",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "fiocruz-2024-te58-q024-key-v1",
+      "questionId": "fiocruz-2024-te58-q024",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-fiocruz-2024-te58-key",
+      "author": null,
+      "locator": "PDF p. 58 — TE58 - Jornalista Web- Rio de Janeiro",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "fiocruz-2024-te58-q026-key-v1",
+      "questionId": "fiocruz-2024-te58-q026",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-fiocruz-2024-te58-key",
+      "author": null,
+      "locator": "PDF p. 58 — TE58 - Jornalista Web- Rio de Janeiro",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "fiocruz-2024-te58-q029-key-v1",
+      "questionId": "fiocruz-2024-te58-q029",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-fiocruz-2024-te58-key",
+      "author": null,
+      "locator": "PDF p. 58 — TE58 - Jornalista Web- Rio de Janeiro",
+      "result": "valid",
+      "value": "e"
+    },
+    {
+      "id": "fiocruz-2024-te58-q039-key-v1",
+      "questionId": "fiocruz-2024-te58-q039",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-fiocruz-2024-te58-key",
+      "author": null,
+      "locator": "PDF p. 58 — TE58 - Jornalista Web- Rio de Janeiro",
+      "result": "valid",
+      "value": "e"
     }
   ],
   "explanations": [
@@ -35837,6 +37012,288 @@
         {
           "documentId": "reference-lgpd-camara-consolidada",
           "locator": "Arts. 5º, II, e 18, III e § 3º; texto consolidado oficial da Câmara"
+        }
+      ]
+    },
+    {
+      "id": "abdi-2008-especialista-analise-economica-q012-comment-v1",
+      "questionId": "abdi-2008-especialista-analise-economica-q012",
+      "text": "A chave B relaciona concorrência, convite, concurso, pregão e leilão. A enumeração permanece no art. 6º do RLC atual da ABDI. O enunciado de 2008 remete ao antigo art. 5º, referência histórica preservada; não se deve memorizar esse número como o da versão atual. Pregão eletrônico é forma de realização do pregão, não uma sexta modalidade.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-abdi-2008-especialista-analise-economica-paper",
+          "locator": "PDF p. 3, questão 12"
+        },
+        {
+          "documentId": "source-abdi-2008-especialista-analise-economica-key",
+          "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR ESPECIALISTA – PROJETOS ANÁLISE ECONÔMICA, questão 12"
+        },
+        {
+          "documentId": "reference-abdi-licitacoes-2021",
+          "locator": "PDF pp. 7–8, art. 6º; PDF p. 15, art. 21"
+        }
+      ]
+    },
+    {
+      "id": "abdi-2008-especialista-analise-economica-q014-comment-v1",
+      "questionId": "abdi-2008-especialista-analise-economica-q014",
+      "text": "A resposta D é 31 de janeiro, prazo para apresentar o relatório circunstanciado do exercício anterior. A regra está no art. 9º, I, da Lei 11.080/2004, no art. 13 do Decreto 5.352/2005 e no art. 23 do Estatuto atual. Não confundir com o envio de contas ao TCU em 31 de março, nem com prazos de análise pelo supervisor. A denominação ministerial original do caderno foi preservada.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-abdi-2008-especialista-analise-economica-paper",
+          "locator": "PDF p. 3, questão 14"
+        },
+        {
+          "documentId": "source-abdi-2008-especialista-analise-economica-key",
+          "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR ESPECIALISTA – PROJETOS ANÁLISE ECONÔMICA, questão 14"
+        },
+        {
+          "documentId": "reference-abdi-lei-11080-2004",
+          "locator": "Art. 9º, I e II"
+        },
+        {
+          "documentId": "reference-abdi-decreto-5352-2005",
+          "locator": "Arts. 13 e 14"
+        },
+        {
+          "documentId": "reference-abdi-estatuto-2024",
+          "locator": "PDF p. 15, arts. 23 e 24"
+        }
+      ]
+    },
+    {
+      "id": "abdi-2008-iniciante-processos-q020-comment-v1",
+      "questionId": "abdi-2008-iniciante-processos-q020",
+      "text": "A chave B identifica a fiscalização do contrato de gestão pelo Presidente do Conselho Deliberativo, atribuição conservada no art. 15, VII, do Estatuto atual. “Por delegação do Poder Executivo” é a expressão original de 2008; não é transcrição literal do inciso vigente. Planejar, executar, controlar e ajustar as unidades da área funcional é atribuição dos Diretores (art. 18, II). Decidir sobre desligamento e movimentação de pessoal cabe ao Presidente da ABDI (art. 17, V), não ao Conselho Fiscal.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-abdi-2008-iniciante-processos-paper",
+          "locator": "PDF p. 3, questão 20"
+        },
+        {
+          "documentId": "source-abdi-2008-iniciante-processos-key",
+          "locator": "PDF p. 1 — ADI – NÍVEL SUPERIOR INICIANTE - PROCESSOS, questão 20"
+        },
+        {
+          "documentId": "reference-abdi-estatuto-2024",
+          "locator": "PDF pp. 11–13, arts. 15, VII, 17, V, e 18, II"
+        }
+      ]
+    },
+    {
+      "id": "344-dpeal-001-01-q009-comment-v1",
+      "questionId": "344-dpeal-001-01-q009",
+      "text": "A alternativa B corresponde à necessidade de autorização legal para a instituição do serviço social autônomo. A própria ABDI exemplifica essa estrutura: o art. 1º da Lei 11.080/2004 autoriza sua instituição e define personalidade de direito privado, sem fins lucrativos. Não se torna autarquia nem recebe automaticamente os privilégios processuais e o regime de precatórios da Fazenda Pública. O item não exige aplicar as leis gerais de licitação à ABDI: o regime de contratação próprio precisa ser distinguido.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-344-dpeal-001-01-paper",
+          "locator": "PDF p. 2, questão 9"
+        },
+        {
+          "documentId": "source-344-dpeal-001-01-key",
+          "locator": "PDF p. 1 — 344_DPEAL_001_01, questão 9"
+        },
+        {
+          "documentId": "reference-abdi-lei-11080-2004",
+          "locator": "Art. 1º, caput e § 1º"
+        },
+        {
+          "documentId": "reference-abdi-decreto-5352-2005",
+          "locator": "Arts. 1º e 2º"
+        }
+      ]
+    },
+    {
+      "id": "tjrr-2024-direito-tipo1-q050-comment-v1",
+      "questionId": "tjrr-2024-direito-tipo1-q050",
+      "text": "A chave D distingue as entidades privadas do terceiro setor das entidades integrantes da Administração direta e indireta. A ABDI é serviço social autônomo com personalidade de direito privado, sem fins lucrativos, de interesse coletivo e utilidade pública (Lei 11.080/2004, art. 1º, § 1º). A questão exercita a classificação geral; não torna todos os integrantes do terceiro setor sujeitos ao mesmo estatuto, às mesmas parcerias ou ao mesmo regime da ABDI.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-tjrr-2024-direito-tipo1-paper",
+          "locator": "PDF p. 9, questão 50"
+        },
+        {
+          "documentId": "source-tjrr-2024-direito-tipo1-key",
+          "locator": "PDF p. 8 — Analista Judiciário - Direito - TIPO 1, questão 50"
+        },
+        {
+          "documentId": "reference-abdi-lei-11080-2004",
+          "locator": "Art. 1º, § 1º"
+        },
+        {
+          "documentId": "reference-abdi-decreto-5352-2005",
+          "locator": "Art. 1º"
+        }
+      ]
+    },
+    {
+      "id": "fiocruz-2024-te58-q038-comment-v1",
+      "questionId": "fiocruz-2024-te58-q038",
+      "text": "A alternativa A é a exceção: apagar recortes raciais da cobertura pode ocultar desigualdades e determinantes relevantes da saúde. As demais propostas ampliam diversidade de fontes, equipes e perspectivas. Na ABDI, o art. 4º, I, assegura respeito e tratamento igual sem discriminação por cor, etnia ou origem. O vínculo é parcial com esse princípio de conduta; não se transfere a política institucional da Fiocruz ou o regime do SUS para a agência. Os exemplos de linguagem devem ser lidos no contexto de enfrentamento a estigmas, não como proibição universal de palavras.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-fiocruz-2024-te58-paper",
+          "locator": "PDF p. 11, questão 38"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te58-key",
+          "locator": "PDF p. 58 — TE58 - Jornalista Web- Rio de Janeiro, questão 38"
+        },
+        {
+          "documentId": "reference-abdi-etica-2022",
+          "locator": "PDF p. 7, art. 4º, I; PDF p. 6, art. 3º, IV e X"
+        }
+      ]
+    },
+    {
+      "id": "fiocruz-2024-te23-q005-comment-v1",
+      "questionId": "fiocruz-2024-te23-q005",
+      "text": "A incorreta é D: convicção religiosa, origem racial ou étnica, opinião política, filiação sindical e dados sobre saúde ou vida sexual pertencem à categoria de dados pessoais sensíveis, não à de dados anonimizados. Dados anonimizados são aqueles cujo titular não pode ser identificado considerando meios técnicos razoáveis e disponíveis. O art. 18, VII, também prevê informação sobre compartilhamento com entidades públicas e privadas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-fiocruz-2024-te23-paper",
+          "locator": "PDF p. 2, questão 5"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te23-key",
+          "locator": "PDF p. 23 — TE23 - Reportagem, Redação e Edição em Jornalismo Impresso e Digital- Rio de Janeiro, questão 5"
+        },
+        {
+          "documentId": "reference-lgpd-camara-consolidada",
+          "locator": "Art. 5º, I–III, e art. 18, VII"
+        }
+      ]
+    },
+    {
+      "id": "fiocruz-2024-te23-q019-comment-v1",
+      "questionId": "fiocruz-2024-te23-q019",
+      "text": "A chave A reúne I, III e IV: moradia, escolaridade/emprego/renda e saneamento ajudam a explicar a determinação socioambiental das doenças. Hereditariedade é uma dimensão biológica e não caracteriza, por si, a dimensão socioambiental pedida. Para a reportagem, isso implica contextualizar condições de vida e desigualdades, sem reduzir o fenômeno a hábitos individuais ou fatores genéticos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-fiocruz-2024-te23-paper",
+          "locator": "PDF p. 5, questão 19"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te23-key",
+          "locator": "PDF p. 23 — TE23 - Reportagem, Redação e Edição em Jornalismo Impresso e Digital- Rio de Janeiro, questão 19"
+        }
+      ]
+    },
+    {
+      "id": "fiocruz-2024-te23-q027-comment-v1",
+      "questionId": "fiocruz-2024-te23-q027",
+      "text": "A alternativa C prioriza os riscos à saúde humana e ambiental, diretamente ligados à segurança em saúde dos recursos hídricos. Um infográfico precisa selecionar aspectos relevantes para o leitor e para o objetivo da reportagem; currículo do pesquisador, captação e curiosidades não substituem o objeto central. O enunciado propõe desenvolver um produto, sem depender de uma figura ausente. A grafia “que forma usados” da alternativa E foi preservada.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-fiocruz-2024-te23-paper",
+          "locator": "PDF p. 7, questão 27"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te23-key",
+          "locator": "PDF p. 23 — TE23 - Reportagem, Redação e Edição em Jornalismo Impresso e Digital- Rio de Janeiro, questão 27"
+        }
+      ]
+    },
+    {
+      "id": "fiocruz-2024-te58-q022-comment-v1",
+      "questionId": "fiocruz-2024-te58-q022",
+      "text": "A chave A considera os três itens corretos na tipologia cobrada: déficit, contextual, conhecimento leigo e engajamento público. No modelo de déficit, a informação flui de especialistas para o público. A crítica ao modelo contextual aponta que considerar contextos não garante, por si só, abandonar a lógica de transmissão. Essa lista descreve o recorte da questão, não uma classificação única e exaustiva de toda a comunicação científica. A grafia “Défict” do item II é original.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-fiocruz-2024-te58-paper",
+          "locator": "PDF p. 8, questão 22"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te58-key",
+          "locator": "PDF p. 58 — TE58 - Jornalista Web- Rio de Janeiro, questão 22"
+        }
+      ]
+    },
+    {
+      "id": "fiocruz-2024-te58-q024-comment-v1",
+      "questionId": "fiocruz-2024-te58-q024",
+      "text": "A chave C exige avaliar o contexto e alertar que um preprint contém resultados preliminares, sem confundi-lo com um artigo já aprovado por revisão por pares. Não há proibição absoluta de comunicar preprints nem autorização para apresentá-los como achados consolidados. Divulgar incertezas e limitações é parte do cuidado editorial; exclusividade jornalística não substitui essa avaliação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-fiocruz-2024-te58-paper",
+          "locator": "PDF p. 8, questão 24"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te58-key",
+          "locator": "PDF p. 58 — TE58 - Jornalista Web- Rio de Janeiro, questão 24"
+        }
+      ]
+    },
+    {
+      "id": "fiocruz-2024-te58-q026-comment-v1",
+      "questionId": "fiocruz-2024-te58-q026",
+      "text": "A alternativa D reúne I e III: usar terminologia respeitosa e links que indiquem seu destino. Texto alternativo descreve a imagem e não substitui automaticamente a legenda editorial visível; cada recurso tem finalidade própria. Flash é tecnologia descontinuada e não uma recomendação de acessibilidade. A questão fornece as recomendações a avaliar, sem exigir uma imagem externa.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-fiocruz-2024-te58-paper",
+          "locator": "PDF p. 8, questão 26"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te58-key",
+          "locator": "PDF p. 58 — TE58 - Jornalista Web- Rio de Janeiro, questão 26"
+        }
+      ]
+    },
+    {
+      "id": "fiocruz-2024-te58-q029-comment-v1",
+      "questionId": "fiocruz-2024-te58-q029",
+      "text": "A chave E destaca o protagonismo de grupos minorizados na geração cidadã de dados. O ponto é ampliar participação na definição, produção e interpretação dos dados sobre problemas que os afetam. Isso não se reduz a enviar sugestões a uma base governamental nem é, por definição, um procedimento criado pela Lei de Acesso à Informação. O vínculo é parcial com inclusão na comunicação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-fiocruz-2024-te58-paper",
+          "locator": "PDF p. 9, questão 29"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te58-key",
+          "locator": "PDF p. 58 — TE58 - Jornalista Web- Rio de Janeiro, questão 29"
+        }
+      ]
+    },
+    {
+      "id": "fiocruz-2024-te58-q039-comment-v1",
+      "questionId": "fiocruz-2024-te58-q039",
+      "text": "A chave E usa tooltips para oferecer explicações contextuais dos termos técnicos sem interromper o fluxo principal do texto. Isso mantém informação científica com apoio à compreensão do público; excluir especialistas ou eliminar assuntos complexos não resolve o problema. Em um produto real, o acesso à explicação precisa também considerar teclado e dispositivos de toque, e não depender apenas de passar o mouse.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-fiocruz-2024-te58-paper",
+          "locator": "PDF p. 11, questão 39"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te58-key",
+          "locator": "PDF p. 58 — TE58 - Jornalista Web- Rio de Janeiro, questão 39"
         }
       ]
     }
@@ -44327,6 +45784,153 @@
       "questionId": "senado-2022-policial-tipo1-q051",
       "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-11",
       "justification": "Correspondência parcial com o conceito diretamente avaliado, mantendo a prova, o formato e a chave originais. Para licitações, compatibilidade conferida com o regulamento próprio da ABDI CD 005/2021; não se transfere automaticamente regime de outro órgão.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-especialista-analise-economica-q012-abdi-mapping-1",
+      "questionId": "abdi-2008-especialista-analise-economica-q012",
+      "syllabusItemId": "abdi-2026-abdi-licitacoes-convenios-3-2",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-especialista-analise-economica-q014-abdi-mapping-1",
+      "questionId": "abdi-2008-especialista-analise-economica-q014",
+      "syllabusItemId": "abdi-2026-abdi-servicos-sociais-autonomos-1-5",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-especialista-analise-economica-q014-abdi-mapping-2",
+      "questionId": "abdi-2008-especialista-analise-economica-q014",
+      "syllabusItemId": "abdi-2026-abdi-criacao-estatuto-2-6",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-iniciante-processos-q020-abdi-mapping-1",
+      "questionId": "abdi-2008-iniciante-processos-q020",
+      "syllabusItemId": "abdi-2026-abdi-servicos-sociais-autonomos-1-5",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "abdi-2008-iniciante-processos-q020-abdi-mapping-2",
+      "questionId": "abdi-2008-iniciante-processos-q020",
+      "syllabusItemId": "abdi-2026-abdi-criacao-estatuto-2-5",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "344-dpeal-001-01-q009-abdi-mapping-1",
+      "questionId": "344-dpeal-001-01-q009",
+      "syllabusItemId": "abdi-2026-abdi-servicos-sociais-autonomos-1-1",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "tjrr-2024-direito-tipo1-q050-abdi-mapping-1",
+      "questionId": "tjrr-2024-direito-tipo1-q050",
+      "syllabusItemId": "abdi-2026-abdi-servicos-sociais-autonomos-1-2",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "fiocruz-2024-te58-q038-abdi-mapping-1",
+      "questionId": "fiocruz-2024-te58-q038",
+      "syllabusItemId": "abdi-2026-abdi-etica-missao-4-2",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "fiocruz-2024-te58-q038-abdi-mapping-2",
+      "questionId": "fiocruz-2024-te58-q038",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-22",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "fiocruz-2024-te58-q038-abdi-mapping-3",
+      "questionId": "fiocruz-2024-te58-q038",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-26",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "fiocruz-2024-te23-q005-abdi-mapping-1",
+      "questionId": "fiocruz-2024-te23-q005",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-25",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "fiocruz-2024-te23-q005-abdi-mapping-2",
+      "questionId": "fiocruz-2024-te23-q005",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-11",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "fiocruz-2024-te23-q019-abdi-mapping-1",
+      "questionId": "fiocruz-2024-te23-q019",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-22",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "fiocruz-2024-te23-q027-abdi-mapping-1",
+      "questionId": "fiocruz-2024-te23-q027",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-22",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "fiocruz-2024-te58-q022-abdi-mapping-1",
+      "questionId": "fiocruz-2024-te58-q022",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-2",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "fiocruz-2024-te58-q022-abdi-mapping-2",
+      "questionId": "fiocruz-2024-te58-q022",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-22",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "fiocruz-2024-te58-q024-abdi-mapping-1",
+      "questionId": "fiocruz-2024-te58-q024",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-22",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "fiocruz-2024-te58-q026-abdi-mapping-1",
+      "questionId": "fiocruz-2024-te58-q026",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-26",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "fiocruz-2024-te58-q029-abdi-mapping-1",
+      "questionId": "fiocruz-2024-te58-q029",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-26",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "fiocruz-2024-te58-q039-abdi-mapping-1",
+      "questionId": "fiocruz-2024-te58-q039",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-22",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
+      "status": "confirmed"
+    },
+    {
+      "id": "fiocruz-2024-te58-q039-abdi-mapping-2",
+      "questionId": "fiocruz-2024-te58-q039",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-26",
+      "justification": "Correspondência parcial com o conceito efetivamente avaliado. As provas e chaves originais permanecem independentes do comentário; a vinculação temática não transfere normas de outra instituição para a ABDI.",
       "status": "confirmed"
     }
   ],

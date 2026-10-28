@@ -61,9 +61,14 @@ test('new institutional and IBFC official links round-trip while lookalike domai
  const bad=plain(p);bad.active.items[0].explanations[0].references[2].officialUrl='https://www.abdi.com.br.evil.example/statute.pdf';assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(bad),s.data));
 });
 
-test('released third-lot pool fills exactly 54 quota slots and cannot bypass six missing institutional MC',()=>{
+test('historical third-lot shortage remains documented while the real fourth-lot exam fills all quotas',()=>{
  const s=setup('native'),a=s.Study.examAvailability(s.data,role),r=JSON.parse(fs.readFileSync(path.join(root,'data/reviews/abdi-bank-readiness.json')));
- assert.equal(a.ready,false);assert.equal(a.missing.reduce((n,d)=>n+d.count,0),6);assert.equal(r.quotaCheck.allocatableDistinctMC,54);assert.equal(s.Study.pool(s.data,role,s.Study.empty(),'all',{block:'institutional',type:'multiple_choice'}).length,14);assert.throws(()=>active(s),/insuficiente/);
- const old=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync(path.join(root,'data/reviews/pre-abdi-third-batch-catalog.json.gz'))));old.revision='a'.repeat(64);const previous=s.Study.create(old,role,s.Study.empty(),'all',{now:start});assert.equal(previous.items.length,201);
- const restored=s.Study.importBackup(s.Study.exportBackup({...s.Study.empty(),active:previous}),s.data);assert.deepEqual(plain(restored.active),plain(previous));assert.equal(s.Study.pool(s.data,role,s.Study.empty()).length,218);
+ assert.equal(a.ready,true);assert.equal(a.missing.length,0);assert.equal(r.quotaCheck.allocatableDistinctMC,60);assert.equal(s.Study.pool(s.data,role,s.Study.empty(),'all',{block:'institutional',type:'multiple_choice'}).length,20);
+ const old=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync(path.join(root,'data/reviews/pre-abdi-fourth-batch-catalog.json.gz'))));old.revision='a'.repeat(64);assert.equal(s.Study.examAvailability(old,role).ready,false);const previous=s.Study.create(old,role,s.Study.empty(),'all',{now:start});assert.equal(previous.items.length,218);
+ const restored=s.Study.importBackup(s.Study.exportBackup({...s.Study.empty(),active:previous}),s.data);assert.deepEqual(plain(restored.active),plain(previous));
+ const p=active(s),session=p.active,ids=session.items.map(i=>i.question.id);assert.equal(ids.length,60);assert.equal(new Set(ids).size,60);assert.ok(ids.every(id=>!id.startsWith('synthetic-')));
+ for(const block of session.scoringProfile.rule.blocks){assert.equal(session.items.filter(i=>i.examBlockId===block.id).length,20);for(const quota of block.distribution)assert.equal(session.items.filter(i=>i.examBlockId===block.id && i.examDisciplineId===quota.disciplineId).length,quota.questionCount);}
+ assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(p),s.data)),plain(p));
+ const correct=withCounts(s,[20,20,20]);assert.equal(s.Study.score(correct.history[0]).points,25);assert.equal(s.Study.score(correct.history[0]).meetsMinimums,true);
+ const fiocruz=session.items.find(i=>i.paper.officialUrl.includes('fiocruz.br'));assert.ok(fiocruz);const bad=plain(p),item=bad.active.items.find(i=>i.question.id===fiocruz.question.id);item.paper.officialUrl='https://concurso2023.fiotec.fiocruz.br.evil.example/paper.pdf';assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(bad),s.data));
 });

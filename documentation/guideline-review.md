@@ -1,5 +1,7 @@
 # Revisão das diretrizes recebidas — 23/10/2026
 
+> ABDI — [quarto lote](abdi-fourth-batch-release.md): simulado real disponível com 60 IDs em todas as cotas; 232 questões de treino e 20 institucionais. A reserva é mínima, e 28 subárvores continuam sem questões. Varredura completa por banco prevista para o encerramento. Os registros seguintes são históricos.
+
 > ABDI — [segundo lote](abdi-second-batch-release.md): cinco grupos internos confirmados, 201 questões de treino, sete MC institucionais e déficit de 13 pelas cotas. O [motor FGV](abdi-exam-engine-release.md) está implementado/testado e continua bloqueado na base real insuficiente. Os registros anteriores são históricos.
 
 > ABDI: [cadastro e treino](abdi-intake-release.md), 97 itens, 145 questões compartilhadas, regras específicas e mapas por cargo. Institucionais e simulado FGV permanecem pendentes; os registros anteriores abaixo se referem à Câmara ou a entregas históricas.

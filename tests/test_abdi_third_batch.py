@@ -19,7 +19,7 @@ from tools.validate import ROOT, read_json, validate
 class AbdiThirdBatchTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c=read_json(ROOT/'data/catalog.json');cls.m=read_json(ROOT/'data/reviews/abdi-third-batch.json');cls.d=read_json(ROOT/'data/reviews/abdi-third-source-discovery.json')
+        cls.c=json.loads(gzip.decompress((ROOT/'data/reviews/pre-abdi-fourth-batch-catalog.json.gz').read_bytes()));cls.m=read_json(ROOT/'data/reviews/abdi-third-batch.json');cls.d=read_json(ROOT/'data/reviews/abdi-third-source-discovery.json')
         cls.docs={d['id']:d for d in cls.c['documents']};cls.papers={p['id']:p for p in cls.c['papers']};cls.questions={q['id']:q for q in cls.c['questions']};cls.cache={}
 
     group=previous_batch.AbdiSecondBatchTests.group
@@ -92,7 +92,7 @@ class AbdiThirdBatchTests(unittest.TestCase):
         self.assertEqual((5*68+5*44)/10*9,504)
 
     def test_exact_matching_progress_and_coverage_do_not_exaggerate_mc_reserve_or_breadth(self):
-        r=read_json(ROOT/'data/reviews/abdi-bank-readiness.json');self.assertEqual((r['distinctTrainingQuestions'],r['distinctMC'],r['distinctCE'],r['institutionalDistinctMC']),(218,72,146,14));self.assertEqual(r['minimumAdditionalMC'],6);self.assertEqual(r['quotaCheck']['allocatableDistinctMC'],54)
+        r=read_json(ROOT/'data/reviews/abdi-third-bank-readiness.json');self.assertEqual((r['distinctTrainingQuestions'],r['distinctMC'],r['distinctCE'],r['institutionalDistinctMC']),(218,72,146,14));self.assertEqual(r['minimumAdditionalMC'],6);self.assertEqual(r['quotaCheck']['allocatableDistinctMC'],54)
         ids=[q for row in r['quotaCheck']['assignments'] for q in row['questionIds']];self.assertEqual(len(ids),len(set(ids)));self.assertEqual(len(ids),54)
         report=coverage(self.c,role_id='abdi-comunicacao-marketing');self.assertEqual((report['directItems'],report['descendantsOnly'],report['emptyItems']),(61,6,30));self.assertEqual(report['blocks'],{'basic':{'total':102,'ce':64},'institutional':{'total':14,'ce':0},'specific':{'total':116,'ce':88}})
         available={d['disciplineId']:d['availableDistinctMC'] for d in r['distribution']};self.assertEqual(available['raciocinio-logico'],15);self.assertEqual(available['abdi-licitacoes-convenios'],7)
@@ -101,7 +101,7 @@ class AbdiThirdBatchTests(unittest.TestCase):
         byid={x['id']:x for x in report['items']};self.assertEqual(byid['abdi-2026-abdi-comunicacao-marketing-22']['directMC'],0);self.assertEqual(byid['abdi-2026-abdi-comunicacao-marketing-25']['directMC'],1)
         logic=[row for row in report['items'] if row['disciplineId']=='raciocinio-logico'];self.assertEqual(sum(row['state']=='empty' for row in logic),8)
         old=json.loads(gzip.decompress((ROOT/'data/reviews/pre-abdi-third-batch-catalog.json.gz').read_bytes()));before=coverage(old,role_id='abdi-comunicacao-marketing');progress=read_json(ROOT/'data/reviews/abdi-third-gap-progress.json');self.assertEqual((progress['beforeEmpty'],progress['afterEmpty']),(33,30));self.assertEqual({x['id'] for x in progress['items']},{x['id'] for x in before['items'] if x['state']=='empty'})
-        for path,content in role_artifacts(self.c,self.m,'abdi-comunicacao-marketing').items():self.assertEqual((ROOT/path).read_text(),content)
+        # Current generated artifacts are tested by the current lot and CLI.
         excluded={(x.get('paperId'),x.get('number')) for x in self.d['excluded']};published={(x['paperId'],x['number']) for x in self.m['items']};self.assertFalse(excluded&published)
 
 

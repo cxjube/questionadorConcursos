@@ -11,12 +11,12 @@ test('ABDI shares canonical items while keeping role pools, original formats and
  const s=setup(),p=s.Study.empty();
  assert.equal(s.Catalog.rolesFor(s.data,'abdi-2026')[0].id,role);
  assert.equal(s.Catalog.syllabusFor(s.data,role).length,97);
- const all=s.Study.pool(s.data,role,p);assert.equal(all.length,218);assert.equal(new Set(all.map(q=>q.id)).size,218);
- assert.equal(s.Study.pool(s.data,role,p,'all',{type:'multiple_choice'}).length,72);
+ const all=s.Study.pool(s.data,role,p);assert.equal(all.length,232);assert.equal(new Set(all.map(q=>q.id)).size,232);
+ assert.equal(s.Study.pool(s.data,role,p,'all',{type:'multiple_choice'}).length,86);
  assert.equal(s.Study.pool(s.data,role,p,'all',{type:'true_false'}).length,146);
- assert.equal(s.Study.pool(s.data,role,p,'all',{block:'basic'}).length,102);
- assert.equal(s.Study.pool(s.data,role,p,'all',{block:'institutional'}).length,14);
- assert.equal(s.Study.pool(s.data,role,p,'all',{block:'specific'}).length,116);
+ assert.equal(s.Study.pool(s.data,role,p,'all',{block:'basic'}).length,103);
+ assert.equal(s.Study.pool(s.data,role,p,'all',{block:'institutional'}).length,20);
+ assert.equal(s.Study.pool(s.data,role,p,'all',{block:'specific'}).length,125);
  assert.equal(s.Study.pool(s.data,camara,p).length,395);
  assert.throws(()=>s.Study.pool(s.data,role,p,'all',{topicId:'processo-legislativo-regimento-6-1'}));
  assert.throws(()=>s.Study.pool(s.data,role,p,'all',{block:'unconfirmed-block'}));
@@ -26,8 +26,8 @@ test('new FGV criteria remain independent of the CE exam and custom practice',()
  const s=setup(),rule=s.Catalog.rulesFor(s.data,role)[0];
  assert.equal(rule.durationMinutes,210);assert.equal(rule.minimumCorrectCount,30);assert.equal(rule.minimumTotalScore,null);
  assert.deepEqual(plain(rule.blocks.map(b=>[b.questionCount,b.correct,b.minimumScoreExclusive])),[[20,.3,true],[20,.3,true],[20,.65,true]]);
- const availability=s.Study.examAvailability(s.data,role);assert.equal(availability.ready,false);assert.match(availability.reason,/múltipla escolha/);
- assert.throws(()=>s.Study.create(s.data,role,s.Study.empty(),'exam',{now:start}));
+ const availability=s.Study.examAvailability(s.data,role);assert.equal(availability.ready,true);
+ assert.equal(s.Study.create(s.data,role,s.Study.empty(),'exam',{now:start}).items.length,60);
  const practice=s.Study.create(s.data,role,s.Study.empty(),'all',{limit:2,now:start});assert.equal(practice.scoringProfile,null);
  assert.equal(s.Study.examAvailability(s.data,camara).ready,true);
 });
@@ -52,7 +52,7 @@ test('answering a shared question for Camara does not create an ABDI attempt or 
  const a=s.Study.create(s.data,camara,s.Study.empty(),'all',filters);a.answers.push({questionId:a.items[0].question.id,value:a.items[0].key.value});
  const p=s.Study.finish({...s.Study.empty(),active:a},end);
  assert.equal(s.Study.performance(p.history,role).attempts,0);
- assert.equal(s.Study.pool(s.data,role,p,'unanswered').length,218);
+ assert.equal(s.Study.pool(s.data,role,p,'unanswered').length,232);
  const b=s.Study.create(s.data,role,p,'all',filters);assert.equal(b.items[0].question.id,a.items[0].question.id);
  assert.ok(b.items[0].mappings.every(m=>m.roleId===role));assert.ok(a.items[0].mappings.every(m=>m.roleId===camara));
  assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup({...p,active:b}),s.data)),plain({...p,active:b}));

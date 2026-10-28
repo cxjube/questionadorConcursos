@@ -141,7 +141,7 @@ class AbdiFirstBatchTests(unittest.TestCase):
         self.assertEqual(report['blocks']['institutional'],dict(total=0,ce=0))
         self.assertEqual((report['directItems'],report['descendantsOnly'],report['emptyItems']),(48,2,47))
         self.assertEqual(coverage(self.c,['camara-2026-ciencia-politica-1'])['blocks'],{'basic':{'total':170,'ce':169},'specific':{'total':226,'ce':209}})
-        for path,content in role_artifacts(read_json(ROOT/'data/catalog.json'),read_json(ROOT/'data/reviews/abdi-third-batch.json'),role['id']).items():self.assertEqual((ROOT/path).read_text(),content)
+        for path,content in role_artifacts(read_json(ROOT/'data/catalog.json'),read_json(ROOT/'data/reviews/abdi-fourth-batch.json'),role['id']).items():self.assertEqual((ROOT/path).read_text(),content)
         for bad in ['missing-reading-document','camara-2026-edital-01-documento']:
             changed=copy.deepcopy(self.c);changed['roles'][1]['referenceDocumentIds']=[bad];self.assertTrue(validate(changed))
 
