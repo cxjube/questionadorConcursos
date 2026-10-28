@@ -1,0 +1,95 @@
+{
+  "id": "gaps-third-reference-review",
+  "reviewedAt": "2026-10-28",
+  "scope": "Selected cited clauses only. CNS510 and FENAJ are new initial publisher downloads; other norms retain prior downloaded bytes and were compared offline at the cited provisions. No fresh re-download or whole-bank legal audit is claimed. TCLE question retains the 2024 research context; no certification of every later research-regulation change. CONFERP rule is limited to the original official paper/key, not asserted as own ABDI regulation.",
+  "references": [
+    {
+      "documentId": "reference-lei-9784-1999",
+      "file": "sources/references/lei-9784-1999.html",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+      "sha256": "0252507e0e6394f79d4f4cf68fe3677af2176f9d252c711e738824d163e0f152",
+      "evidenceBasis": "previously_retained_selected_clauses",
+      "quotes": [
+        "Art. 26. O órgão competente perante o qual tramita o processo administrativo determinará a intimação do interessado para ciência de decisão ou a efetivação de diligências. § 1o A intimação deverá conter: I - identificação do intimado e nome do órgão ou entidad",
+        "indeterminados, desconhecidos ou com domicílio indefinido, a intimação deve ser efetuada por meio de publicação oficial. § 5o As intimações serão nulas quando feitas sem observância das prescrições legais, mas o comparecimento do administrado supre sua falta o"
+      ]
+    },
+    {
+      "documentId": "reference-lei-12846-2013",
+      "file": "sources/references/lei12846-consolidada.html",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2013/lei-12846-1-agosto-2013-776664-normaatualizada-pl.html",
+      "sha256": "9afe6e1ce1afec52ebbd6ef579f3e8b24f2eaadb238e3d1e6aa9477ec4837301",
+      "evidenceBasis": "previously_retained_selected_clauses",
+      "quotes": [
+        "Art. 2º As pessoas jurídicas serão responsabilizadas objetivamente, nos âmbitos administrativo e civil, pelos atos lesivos previstos nesta Lei praticados em seu interesse ou benefício, exclusivo ou não. Art. 3º A responsabilização da pessoa jurídica não exclui",
+        "Art. 4º Subsiste a responsabilidade da pessoa jurídica na hipótese de alteração contratual, transformação, incorporação, fusão ou cisão societária. § 1º Nas hipóteses de fusão e incorporação, a responsabilidade da sucessora será restrita à obrigação de pagamen",
+        "terá competência concorrente para instaurar processos administrativos de responsabilização de pessoas jurídicas ou para avocar os processos instaurados com fundamento nesta Lei, para exame de sua regularidade ou para corrigir-lhes o andamento. Art. 9º Competem",
+        "Art. 14. A personalidade jurídica poderá ser desconsiderada sempre que utilizada com abuso do direito para facilitar, encobrir ou dissimular a prática dos atos ilícitos previstos nesta Lei ou para provocar confusão patrimonial, sendo estendidos todos os efeito",
+        "§ 8º Em caso de descumprimento do acordo de leniência, a pessoa jurídica ficará impedida de celebrar novo acordo pelo prazo de 3 (três) anos contados do conhecimento pela administração pública do referido descumprimento. § 9º A celebração do acordo de leniênci"
+      ]
+    },
+    {
+      "documentId": "reference-lei-8429-1992",
+      "file": "sources/references/camara-lei-8429-1992.html",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.html",
+      "sha256": "ac5ffb8bcb800556b9cd9563bcffe957c81c3170fe455c1da526013a4ee89010",
+      "evidenceBasis": "previously_retained_selected_clauses",
+      "quotes": [
+        "Consideram-se atos de improbidade administrativa as condutas dolosas tipificadas nos arts. 9º, 10 e 11 desta Lei, ressalvados tipos previstos em leis especiais. (Parágrafo acrescido pela Lei nº 14.230, de 25/10/2021) § 2º Considera-se dolo a vontade livre e co"
+      ]
+    },
+    {
+      "documentId": "reference-lgpd-camara-consolidada",
+      "file": "sources/references/lgpd-camara-consolidada.html",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "sha256": "5ade20f12d206504f3beb13a0595d144efc891229ad0e6badcebfa97a8a83596",
+      "evidenceBasis": "previously_retained_selected_clauses",
+      "quotes": [
+        "prevenção de fraudes e irregularidades, ou proteger e resguardar a segurança e a integridade do titular dos dados, desde que vedado o tratamento para outras finalidades. (Inciso acrescido pela Medida Provisória nº 869, de 27/12/2018, convertida na Lei nº 13.85"
+      ]
+    },
+    {
+      "documentId": "reference-lei-12527-2011",
+      "file": "sources/references/lei-12527-2011.html",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+      "sha256": "1d2e5473cac63e692323d21815340f8bd30cb6897cacafa59da8b8b94f72f33c",
+      "evidenceBasis": "previously_retained_selected_clauses",
+      "quotes": [
+        "motivos determinantes da solicitação de informações de interesse público. Art. 11. O órgão ou entidade pública deverá autorizar ou conceder o acesso imediato à informação disponível. § 1º Não sendo possível conceder o acesso imediato, na forma disposta no capu"
+      ]
+    },
+    {
+      "documentId": "reference-cns-510-2016",
+      "file": "sources/references/cns-510-2016.html",
+      "officialUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/cns/2016/res0510_07_04_2016.html",
+      "sha256": "a131326799170b33c4043e0ea39799c8c55437e76f8a6fb40cf1c41e20399ca0",
+      "evidenceBasis": "new_initial_publisher_download",
+      "quotes": [
+        "Art. 15. O Registro do Consentimento e do Assentimento é o meio pelo qual é explicitado o consentimento livre e esclarecido do participante ou de seu responsável legal, sob a forma escrita, sonora, imagética, ou em outras formas que atendam às características ",
+        "Art. 16. O pesquisador deverá justificar o meio de registro mais adequado, considerando, para isso, o grau de risco envolvido, as características do processo da pesquisa e do participante. § 1º Os casos em que seja inviável o Registro de Consentimento ou do As",
+        "Art. 17. O Registro de Consentimento Livre e Esclarecido, em seus diferentes formatos, deverá conter esclarecimentos suficientes sobre a pesquisa, incluindo: I - a justificativa, os objetivos e os procedimentos que serão utilizados na pesquisa, com informação "
+      ]
+    },
+    {
+      "documentId": "reference-fenaj-etica-2007",
+      "file": "sources/references/fenaj-etica-2007.pdf",
+      "officialUrl": "https://fenaj.org.br/wp-content/uploads/2016/08/codigo_de_etica_dos_jornalistas_brasileiros-1.pdf",
+      "sha256": "243bccc9a71db5adfb2012adbb4a43af265de572c4c346b6c9533793f05298f3",
+      "evidenceBasis": "new_initial_publisher_download",
+      "quotes": [
+        "VI - realizar cobertura jornalística para o meio de comunicação em que trabalha sobre organizações públicas, privadas ou não-governamentais, da qual seja assessor, empregado, prestador de serviço ou proprietário, nem utilizar o referido veículo para defender o"
+      ]
+    },
+    {
+      "documentId": "reference-abdi-etica-2022",
+      "file": "sources/references/ABDI-Etica-CD004-2022.pdf",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Etica-e-Conduta.pdf",
+      "sha256": "cc4d98a93fd317296dd07fa77305f545fd840465276b3b25b4aaacf2b5166ed7",
+      "evidenceBasis": "previously_retained_selected_clauses",
+      "quotes": [
+        "Confidencialidade de Informações. Propriedade Intelectua Utilização de Recursos da Agência Doações € PatrfoCÍNIOS ... CAPÍTULO Vl......viiinnnnnos CONFLITO DE INTERESSES Atividades Paralelas.................... Atividade Politica, Sindical e Religiosa.........",
+        "Utilizacao de Informações Privilegiadas Art. 17. No desempenho das atividades na Agéncia todos os colaboradores podem ter acesso a informacdes privilegiadas e/ou confidenciais, sendo expressamente proibido divulga-las ou utiliza-las em beneficio préprio ou de "
+      ]
+    }
+  ]
+}

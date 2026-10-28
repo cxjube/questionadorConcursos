@@ -25,6 +25,11 @@ class ReleasedFidelityTests(unittest.TestCase):
                      for identifier, d in cls.docs.items() if d['kind'] == 'question_paper'}
         cls.fiocruz_typography = {r['questionId'] for r in read_json(
             ROOT / 'data/reviews/abdi-fourth-batch.json')['items'] if r['fiocruzTypography']}
+        new = read_json(ROOT / 'data/reviews/gaps-third-batch.json')
+        cls.fiocruz_typography.update(new['fiocruzTypography'])
+        cls.visual_restorations = new['fiocruzVisualRestorations']
+        cls.bbox_verified = {r['questionId'] for r in new['items']}
+
 
     def test_all_published_text_options_and_contexts_match_source_pages(self):
         for ctx in self.catalog['contexts']:
@@ -63,9 +68,13 @@ class ReleasedFidelityTests(unittest.TestCase):
                     raw_page = re.sub(r'([ﬀﬁﬂﬃﬄ]) +(?=[a-zà-ÿ])', r'\1', raw_page)
                     raw_page = raw_page.translate(str.maketrans({'ﬀ':'ff','ﬁ':'fi','ﬂ':'fl','ﬃ':'ffi','ﬄ':'ffl'}))
                     raw_page = re.sub(r'(?<=\w)-\n(?=\w)', '', raw_page)
+                    if q['id'] in self.visual_restorations:
+                        raw_page = ' '.join(raw_page.split())
+                        for before, after in self.visual_restorations[q['id']].items():
+                            raw_page = raw_page.replace(before, after)
                 page = clean(raw_page)
                 expected = clean(q['stem'])
-                if q['id'] in self.fiocruz_typography or q['id'] in {'camara-2014-area-xix-q116', 'camara-2014-area-xix-q117', 'camara-2014-cb2-03-q088', 'camara-2014-cb2-03-q098', 'camara14-cb1-01-q082', 'camara14-001-01-q197', 'camara14-001-01-q204'}:
+                if q['id'] in self.bbox_verified or q['id'] in self.fiocruz_typography or q['id'] in {'camara-2014-area-xix-q116', 'camara-2014-area-xix-q117', 'camara-2014-cb2-03-q088', 'camara-2014-cb2-03-q098', 'camara14-cb1-01-q082', 'camara14-001-01-q197', 'camara14-001-01-q204'}:
                     # -raw drops inter-word spaces in these justified lines.
                     # Exact words and original markers are independently checked
                     # by bounded comparisons in test_eighth_batch/test_tenth_batch/test_fifteenth_batch.
@@ -73,7 +82,7 @@ class ReleasedFidelityTests(unittest.TestCase):
                 self.assertIn(expected, page)
                 for option in q['options']:
                     text = clean(option['text'])
-                    self.assertIn(re.sub(r'\s+', '', text) if q['id'] in self.fiocruz_typography else text, page)
+                    self.assertIn(re.sub(r'\s+', '', text) if q['id'] in self.fiocruz_typography or q['id'] in self.bbox_verified else text, page)
 
     def test_all_published_answers_match_definitive_tables(self):
         tables = {}

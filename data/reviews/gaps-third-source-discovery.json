@@ -1,0 +1,223 @@
+{
+  "id": "gaps-third-source-discovery",
+  "checkedAt": "2026-10-28",
+  "scope": "Five new complete paper/final-key pairs. Eight unique PDF binaries compared with an independent official download. Shared final reports retained once. Existing pairs retain their historical verification; not all sources were downloaded again.",
+  "pairs": [
+    {
+      "paperId": "source-cgu-2022-auditoria-manha-tipo1",
+      "booklet": "Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Manhã",
+      "documents": [
+        {
+          "documentId": "source-cgu-2022-auditoria-manha-tipo1-paper",
+          "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controleaffc_tipo_1_manha.pdf",
+          "file": "sources/papers/cgu-2022-auditoria-manha-tipo1.pdf",
+          "sha256": "754334fccdad35ede08a3a8b7ed5d7b365c2cdbf9de3cb33b042117843e556b7",
+          "bytes": 1033864,
+          "independentRepeatSha256": "754334fccdad35ede08a3a8b7ed5d7b365c2cdbf9de3cb33b042117843e556b7",
+          "repeatCheckedAt": "2026-10-28T18:50:38.553983+00:00"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-manha-tipo1-key",
+          "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu2021_gabarito_definitivo_retificado_20.04.2022.pdf",
+          "file": "sources/answer-keys/CGU-2022-final-key-retified-2022-04-20.pdf",
+          "sha256": "1b908040aff014df0fcbc0070f7cc96584ebd95334819663b39eda83a9fc3e70",
+          "bytes": 883549,
+          "independentRepeatSha256": "1b908040aff014df0fcbc0070f7cc96584ebd95334819663b39eda83a9fc3e70",
+          "repeatCheckedAt": "2026-10-28T18:50:38.497619+00:00"
+        }
+      ],
+      "answerKeyPage": 1,
+      "annulledItems": []
+    },
+    {
+      "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+      "booklet": "Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "documents": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controle_-_area_auditoria_e_fiscalizacaoaffc-af_tipo_1_tarde.pdf",
+          "file": "sources/papers/cgu-2022-auditoria-tarde-tipo1.pdf",
+          "sha256": "f0857b431ba18d899fa161ccc66fe74f4b74cc914a974ab508b9fe757801d4b1",
+          "bytes": 1106591,
+          "independentRepeatSha256": "f0857b431ba18d899fa161ccc66fe74f4b74cc914a974ab508b9fe757801d4b1",
+          "repeatCheckedAt": "2026-10-28T18:50:38.650074+00:00"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu2021_gabarito_definitivo_retificado_20.04.2022.pdf",
+          "file": "sources/answer-keys/CGU-2022-final-key-retified-2022-04-20.pdf",
+          "sha256": "1b908040aff014df0fcbc0070f7cc96584ebd95334819663b39eda83a9fc3e70",
+          "bytes": 883549,
+          "independentRepeatSha256": "1b908040aff014df0fcbc0070f7cc96584ebd95334819663b39eda83a9fc3e70",
+          "repeatCheckedAt": "2026-10-28T18:50:38.497619+00:00"
+        }
+      ],
+      "answerKeyPage": 17,
+      "annulledItems": [
+        33
+      ]
+    },
+    {
+      "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+      "booklet": "Auditor Federal de Finanças e Controle - Correição e Combate à Corrupção – Tipo 1 | Tarde",
+      "documents": [
+        {
+          "documentId": "source-cgu-2022-correicao-tarde-tipo1-paper",
+          "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controle_-_area_correicao_e_combate_a_corrupcaoaffc-cc_tipo_1_tarde.pdf",
+          "file": "sources/papers/cgu-2022-correicao-tarde-tipo1.pdf",
+          "sha256": "1c070ac39a71d543008f7024e0c8f7e77b9fc11f05b266670b22e866e9817567",
+          "bytes": 1110855,
+          "independentRepeatSha256": "1c070ac39a71d543008f7024e0c8f7e77b9fc11f05b266670b22e866e9817567",
+          "repeatCheckedAt": "2026-10-28T18:50:38.577075+00:00"
+        },
+        {
+          "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+          "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu2021_gabarito_definitivo_retificado_20.04.2022.pdf",
+          "file": "sources/answer-keys/CGU-2022-final-key-retified-2022-04-20.pdf",
+          "sha256": "1b908040aff014df0fcbc0070f7cc96584ebd95334819663b39eda83a9fc3e70",
+          "bytes": 883549,
+          "independentRepeatSha256": "1b908040aff014df0fcbc0070f7cc96584ebd95334819663b39eda83a9fc3e70",
+          "repeatCheckedAt": "2026-10-28T18:50:38.497619+00:00"
+        }
+      ],
+      "answerKeyPage": 25,
+      "annulledItems": [
+        33
+      ]
+    },
+    {
+      "paperId": "source-senado-2022-processo-tipo1",
+      "booklet": "Analista Legislativo - Processo Legislativo - TIPO 1",
+      "documents": [
+        {
+          "documentId": "source-senado-2022-processo-tipo1-paper",
+          "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/e1cns08_-_analista_legislativo_-_processo_legislativoe1cns08_tipo_1.pdf",
+          "file": "sources/papers/senado-2022-processo-tipo1.pdf",
+          "sha256": "0c4358cec5eefe5e145b218799494f0fe0ae2c3009002333c0e6b9c2e3a70e10",
+          "bytes": 1312747,
+          "independentRepeatSha256": "0c4358cec5eefe5e145b218799494f0fe0ae2c3009002333c0e6b9c2e3a70e10",
+          "repeatCheckedAt": "2026-10-28T18:50:38.657166+00:00"
+        },
+        {
+          "documentId": "source-senado-2022-processo-tipo1-key",
+          "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/senado2022_gabarito_definitivo_edital01.pdf",
+          "file": "sources/answer-keys/SENADO-2022-Administracao-Tipo1-key.pdf",
+          "sha256": "97bc7116a56bdb4688c259749a0c5e068c701b9cd0c21bb7380587431ee047c2",
+          "bytes": 614096,
+          "independentRepeatSha256": "97bc7116a56bdb4688c259749a0c5e068c701b9cd0c21bb7380587431ee047c2",
+          "repeatCheckedAt": "2026-10-28T18:50:39.634225+00:00"
+        }
+      ],
+      "answerKeyPage": 10,
+      "annulledItems": [
+        3,
+        11,
+        25,
+        45,
+        60
+      ]
+    },
+    {
+      "paperId": "source-fiocruz-2024-te15",
+      "booklet": "TE15 - Comunicação e Saúde- Rio de Janeiro",
+      "documents": [
+        {
+          "documentId": "source-fiocruz-2024-te15-paper",
+          "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE15.pdf",
+          "file": "sources/papers/fiocruz-2024-te15.pdf",
+          "sha256": "2c1edcbf009392716afaa7c6391eefce37c59b9534f62d1675c10cf7b9e9851a",
+          "bytes": 868068,
+          "independentRepeatSha256": "2c1edcbf009392716afaa7c6391eefce37c59b9534f62d1675c10cf7b9e9851a",
+          "repeatCheckedAt": "2026-10-28T18:51:15.677959+00:00"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te15-key",
+          "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-Gabaritos-Finais-Tecnologistas.pdf",
+          "file": "sources/answer-keys/Fiocruz-2024-Tecnologistas-final-key.pdf",
+          "sha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4",
+          "bytes": 623643,
+          "independentRepeatSha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4",
+          "repeatCheckedAt": "2026-10-28T18:50:40.846398+00:00"
+        }
+      ],
+      "answerKeyPage": 15,
+      "annulledItems": [
+        13,
+        19
+      ]
+    }
+  ],
+  "listings": [
+    {
+      "url": "https://conhecimento.fgv.br/concursos/concursocgu21",
+      "file": "data/reviews/gaps-third-source-evidence/cgu-list.html",
+      "sha256": "5650d8c5d2e430befbf9e969dfa564d26d0f9d0af632b03b0406db5ac0a722b3"
+    },
+    {
+      "url": "https://conhecimento.fgv.br/concursos/senado22/1",
+      "file": "data/reviews/gaps-third-source-evidence/senado1.html",
+      "sha256": "96ba5a209797d9d09d71c194ce191eea0cdee89165cf0af83706de2e16b45661"
+    },
+    {
+      "url": "https://concurso2023.fiotec.fiocruz.br/",
+      "file": "data/reviews/abdi-fourth-source-evidence/fiocruz-papers.html",
+      "scope": "Previously retained official paper listing; TE15 Vista.Provas link, not preliminary Vista-Gabaritos."
+    }
+  ],
+  "excluded": [
+    {
+      "source": "CGU/FGV2022",
+      "items": [
+        33
+      ],
+      "reason": "Anulada no gabarito definitivo retificado de ambos os cadernos de tarde; não publicada."
+    },
+    {
+      "source": "CGU/FGV2022",
+      "items": [
+        "manhã24",
+        "tarde20",
+        "correição46/51/78",
+        "auditoria65/69/80"
+      ],
+      "reason": "Questões dependentes de EGD2020, quarentena, decreto revogado8420/2015, estrutura históricaCMAP ou regra fiscal antiga não liberadas. Lei12813 não reconfirmada: Planalto timeout, CGU404."
+    },
+    {
+      "source": "FiocruzTE15",
+      "items": "Vista-Gabaritos/TE15.pdf",
+      "reason": "É gabarito preliminar, não caderno. Usado Vista.Provas/TE15.pdf e relatório final independente."
+    },
+    {
+      "source": "ABDI2008",
+      "items": "Regras próprias obsoletas e questões repetidas",
+      "reason": "Exclusões dos lotes anteriores mantidas; não clonadas para criar reserva."
+    },
+    {
+      "source": "Busca dirigida Cebraspe",
+      "items": "Métodos causais, informática, governança e primeira ordem",
+      "reason": "Buscador retornou429 nesta rodada. Sem contorno e sem evidência de questão oficial nova para esses recortes."
+    }
+  ],
+  "keyCorrection": {
+    "file": "data/reviews/gaps-third-source-evidence/cgu-communication.pdf",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/comunicado_gabarito_definitivo_3.pdf",
+    "sha256": "e0ab4e52fa8e120ea80591b118f9d0a2ec704b1b109438185bcdae38553fd318",
+    "scope": "Morning type1 q24 was transcribed B then corrected A on20Apr2022. Not released in this lot: EGD2020 is time-bound. All new CGU keys use the retified report."
+  },
+  "retainedReferences": [
+    {
+      "documentId": "reference-cns-510-2016",
+      "file": "sources/references/cns-510-2016.html",
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/cns/2016/res0510_07_04_2016.html",
+      "sha256": "a131326799170b33c4043e0ea39799c8c55437e76f8a6fb40cf1c41e20399ca0",
+      "scope": "Initial official publisher bytes; selected cited articles only, not fresh verification of all previous references."
+    },
+    {
+      "documentId": "reference-fenaj-etica-2007",
+      "file": "sources/references/fenaj-etica-2007.pdf",
+      "url": "https://fenaj.org.br/wp-content/uploads/2016/08/codigo_de_etica_dos_jornalistas_brasileiros-1.pdf",
+      "sha256": "243bccc9a71db5adfb2012adbb4a43af265de572c4c346b6c9533793f05298f3",
+      "scope": "Initial official publisher bytes; selected cited articles only, not fresh verification of all previous references."
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "ruleVersion": 1,
   "ready": true,
   "requiredCE": 170,
-  "distinctCE": 224,
+  "distinctCE": 226,
   "allocatableDistinctCE": 170,
   "minimumAdditionalCE": 0,
   "blocks": [
@@ -165,9 +165,11 @@
         "896-tcdf-ce1-01-q038",
         "896-tcdf-ce1-01-q040",
         "993-tce-ac-014-01-q118",
-        "993-tce-ac-014-01-q120"
+        "993-tce-ac-014-01-q120",
+        "106-pf-cg1-01-q073",
+        "106-pf-cg1-01-q074"
       ],
-      "availableCE": 81,
+      "availableCE": 83,
       "allocatedCE": 40,
       "missingForThisAllocation": 0
     },

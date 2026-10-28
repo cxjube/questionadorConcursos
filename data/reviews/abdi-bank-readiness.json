@@ -3,10 +3,10 @@
   "checkedAt": "2026-10-28",
   "roleId": "abdi-comunicacao-marketing",
   "scope": "Exact distinct-ID matching across all official discipline quotas. CE remain training only. Capacity does not certify coverage or difficulty; later withdrawals can block the simulator.",
-  "distinctTrainingQuestions": 240,
-  "distinctMC": 88,
-  "distinctCE": 152,
-  "institutionalDistinctMC": 21,
+  "distinctTrainingQuestions": 246,
+  "distinctMC": 93,
+  "distinctCE": 153,
+  "institutionalDistinctMC": 25,
   "minimumAdditionalMC": 0,
   "distribution": [
     {
@@ -55,14 +55,14 @@
       "block": "institutional",
       "disciplineId": "abdi-etica-missao",
       "requiredMC": 4,
-      "availableDistinctMC": 4,
+      "availableDistinctMC": 8,
       "missingForMinimum": 0
     },
     {
       "block": "specific",
       "disciplineId": "abdi-comunicacao-marketing",
       "requiredMC": 20,
-      "availableDistinctMC": 37,
+      "availableDistinctMC": 40,
       "missingForMinimum": 0
     }
   ],
@@ -141,16 +141,17 @@
       {
         "disciplineId": "abdi-etica-missao",
         "questionIds": [
-          "128-tcemg-008-01-q039",
-          "abdi-2008-senior-assessor-comunicacao-q013",
-          "abdi-2008-senior-assessor-comunicacao-q016",
-          "fiocruz-2024-te58-q038"
+          "alerj-2026-comunicacao-manha-tipo1-q053",
+          "cgu-2022-auditoria-tarde-tipo1-q043",
+          "fiocruz-2024-te58-q038",
+          "tjrr-2024-direito-tipo1-q019"
         ]
       },
       {
         "disciplineId": "abdi-comunicacao-marketing",
         "questionIds": [
           "128-tcemg-008-01-q031",
+          "128-tcemg-008-01-q039",
           "128-tcemg-008-01-q043",
           "128-tcemg-008-01-q045",
           "539-alce-016-01-q021",
@@ -159,17 +160,16 @@
           "539-alce-016-01-q025",
           "539-alce-016-01-q026",
           "539-alce-016-01-q027",
+          "abdi-2008-senior-assessor-comunicacao-q013",
+          "abdi-2008-senior-assessor-comunicacao-q016",
+          "alerj-2026-comunicacao-manha-tipo1-q051",
           "alerj-2026-comunicacao-manha-tipo1-q056",
           "alerj-2026-comunicacao-manha-tipo1-q058",
           "alerj-2026-comunicacao-manha-tipo1-q059",
           "alerj-2026-comunicacao-manha-tipo1-q060",
           "alerj-2026-comunicacao-manha-tipo1-q061",
           "alerj-2026-comunicacao-manha-tipo1-q063",
-          "alerj-2026-comunicacao-manha-tipo1-q064",
-          "alerj-2026-comunicacao-manha-tipo1-q065",
-          "alerj-2026-comunicacao-manha-tipo1-q067",
-          "alerj-2026-comunicacao-manha-tipo1-q068",
-          "alerj-2026-comunicacao-manha-tipo1-q069"
+          "alerj-2026-comunicacao-manha-tipo1-q064"
         ]
       }
     ]

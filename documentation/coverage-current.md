@@ -1,12 +1,12 @@
 # Mapa atual do banco de questões
 
-Última revisão: 2026-10-28; lote `reserve-second-batch`. São 396 questões e 405 vínculos da Câmara; **182/228 itens com vínculo direto**, 32 atendidos só por descendentes e 13 sem questões na subárvore (13 folhas). O título amplo Ciência Política 1 permanece separado.
+Última revisão: 2026-10-28; lote `gaps-third-batch`. São 399 questões e 408 vínculos da Câmara; **185/228 itens com vínculo direto**, 32 atendidos só por descendentes e 10 sem questões na subárvore (10 folhas). O título amplo Ciência Política 1 permanece separado.
 
 C/E: P1 **169**, P2 **209**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
 
 Direto significa vínculo ao item exato; subárvore reúne o próprio item e seus descendentes, sem duplicar IDs. Vínculos de pais não são distribuídos aos filhos. Prioridades editoriais: A sem C/E, B com 1–2 C/E, C com 3 ou mais. Pais e filhos se sobrepõem; as contagens não são pesos oficiais.
 
-[Lote atual e reservas](reserve-second-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)
+[Lote atual e reservas](gaps-third-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)
 
 ## Disciplinas
 
@@ -18,8 +18,8 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados | 10/14 | 21 | 1 | 2 |
 | Tecnologia da Informação e Dados | 17/20 | 34 | 0 | 0 |
 | Comunicação Social | 37/45 | 73 | 7 | 3 |
-| Divulgação Institucional | 31/40 | 66 | 0 | 3 |
-| Processo Legislativo e Regimento Interno | 21/27 | 32 | 8 | 1 |
+| Divulgação Institucional | 33/40 | 66 | 2 | 1 |
+| Processo Legislativo e Regimento Interno | 22/27 | 32 | 9 | 0 |
 | Ciência Política | 11/13 | 39 | 2 | 1 |
 
 ## Prioridades seguintes
@@ -214,11 +214,11 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 
 | Item | Conteúdo oficial | C/E direto | MC direto | C/E subárvore | MC subárvore | Situação | Prioridade |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 1 | Publicidade. | 0 | 0 | 17 | 0 | Só descendentes | C |
+| 1 | Publicidade. | 0 | 0 | 17 | 1 | Só descendentes | C |
 | 1.1 | Teorias da Publicidade. | 4 | 0 | 4 | 0 | Direto | C |
 | 1.2 | Planejamento publicitário: briefing, diagnóstico, definição de objetivos, definição de público-alvo, estratégia de comunicação, plano de mídia, cronograma de execução, definição de indicadores e avaliação. | 4 | 0 | 4 | 0 | Direto | C |
 | 1.3 | Criação publicitária. | 1 | 0 | 1 | 0 | Direto | B |
-| 1.4 | Atendimento. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 1.4 | Atendimento. | 0 | 1 | 0 | 1 | Direto | A |
 | 1.5 | Mídia: características dos diferentes tipos de veículos e plataformas de comunicação, plano de mídia, monitoramento e análise de dados. | 3 | 0 | 3 | 0 | Direto | C |
 | 1.6 | Produção de campanhas publicitárias. | 2 | 0 | 2 | 0 | Direto | B |
 | 1.7 | Produção e redação de peças publicitárias para diversas mídias. | 3 | 0 | 3 | 0 | Direto | C |
@@ -237,8 +237,8 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 3.4 | Pesquisa de imagem. | 1 | 0 | 1 | 0 | Direto | B |
 | 3.5 | Pesquisa de mídia. | 2 | 0 | 2 | 0 | Direto | B |
 | 3.6 | Métricas de avaliação na publicidade digital. | 1 | 0 | 1 | 0 | Direto | B |
-| 4 | Marca e Branding. | 0 | 0 | 5 | 0 | Só descendentes | C |
-| 4.1 | Conceito de marca. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 4 | Marca e Branding. | 0 | 0 | 5 | 1 | Só descendentes | C |
+| 4.1 | Conceito de marca. | 0 | 1 | 0 | 1 | Direto | A |
 | 4.2 | Branding. | 3 | 0 | 3 | 0 | Direto | C |
 | 4.3 | Gerenciamento de marca. | 2 | 0 | 2 | 0 | Direto | B |
 | 5 | Design e Produção. | 0 | 0 | 11 | 0 | Só descendentes | C |
@@ -259,8 +259,8 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 
 | Item | Conteúdo oficial | C/E direto | MC direto | C/E subárvore | MC subárvore | Situação | Prioridade |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 1 | Procedimento Legislativo. | 0 | 0 | 4 | 0 | Só descendentes | C |
-| 1.1 | Tipos de procedimento, ordinário, abreviado, sumário, sumaríssimo, especial e concentrado. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 1 | Procedimento Legislativo. | 0 | 0 | 4 | 1 | Só descendentes | C |
+| 1.1 | Tipos de procedimento, ordinário, abreviado, sumário, sumaríssimo, especial e concentrado. | 0 | 1 | 0 | 1 | Direto | A |
 | 1.2 | Etapas e noções básicas. | 1 | 0 | 1 | 0 | Direto | B |
 | 1.3 | Comissões, pareceres, deliberação, votação, sanção e veto. | 3 | 0 | 3 | 0 | Direto | C |
 | 2 | Matérias Legislativas. | 0 | 0 | 3 | 3 | Só descendentes | C |

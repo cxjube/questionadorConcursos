@@ -43,7 +43,8 @@
         "reference-abdi-etica-2022",
         "reference-abdi-planejamento-2024-2029",
         "reference-abdi-resolucao-008-2023",
-        "reference-abdi-planejamento-ajustado-2024"
+        "reference-abdi-planejamento-ajustado-2024",
+        "reference-fenaj-etica-2007"
       ]
     },
     {
@@ -56,7 +57,8 @@
         "reference-cgu-in3-2017-consolidada",
         "reference-cgu-in7-2017",
         "reference-mcasp-11-2025",
-        "reference-lei-12846-2013"
+        "reference-lei-12846-2013",
+        "reference-cns-510-2016"
       ]
     }
   ],
@@ -6371,6 +6373,162 @@
       "sha256": "9afe6e1ce1afec52ebbd6ef579f3e8b24f2eaadb238e3d1e6aa9477ec4837301",
       "publicationDate": null,
       "paperId": null
+    },
+    {
+      "id": "source-cgu-2022-auditoria-manha-tipo1-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "CGU — Auditoria e Fiscalização — conhecimentos básicos — manhã — tipo 1",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controleaffc_tipo_1_manha.pdf",
+      "file": "sources/papers/cgu-2022-auditoria-manha-tipo1.pdf",
+      "sha256": "754334fccdad35ede08a3a8b7ed5d7b365c2cdbf9de3cb33b042117843e556b7",
+      "publicationDate": null,
+      "paperId": "source-cgu-2022-auditoria-manha-tipo1"
+    },
+    {
+      "id": "source-cgu-2022-auditoria-manha-tipo1-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "CGU — Auditoria e Fiscalização — conhecimentos básicos — manhã — tipo 1 — gabarito definitivo retificado em 20/04/2022",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu2021_gabarito_definitivo_retificado_20.04.2022.pdf",
+      "file": "sources/answer-keys/CGU-2022-final-key-retified-2022-04-20.pdf",
+      "sha256": "1b908040aff014df0fcbc0070f7cc96584ebd95334819663b39eda83a9fc3e70",
+      "publicationDate": null,
+      "paperId": "source-cgu-2022-auditoria-manha-tipo1"
+    },
+    {
+      "id": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "CGU — Auditoria e Fiscalização — tarde — tipo 1",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controle_-_area_auditoria_e_fiscalizacaoaffc-af_tipo_1_tarde.pdf",
+      "file": "sources/papers/cgu-2022-auditoria-tarde-tipo1.pdf",
+      "sha256": "f0857b431ba18d899fa161ccc66fe74f4b74cc914a974ab508b9fe757801d4b1",
+      "publicationDate": null,
+      "paperId": "source-cgu-2022-auditoria-tarde-tipo1"
+    },
+    {
+      "id": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "CGU — Auditoria e Fiscalização — tarde — tipo 1 — gabarito definitivo retificado em 20/04/2022",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu2021_gabarito_definitivo_retificado_20.04.2022.pdf",
+      "file": "sources/answer-keys/CGU-2022-final-key-retified-2022-04-20.pdf",
+      "sha256": "1b908040aff014df0fcbc0070f7cc96584ebd95334819663b39eda83a9fc3e70",
+      "publicationDate": null,
+      "paperId": "source-cgu-2022-auditoria-tarde-tipo1"
+    },
+    {
+      "id": "source-cgu-2022-correicao-tarde-tipo1-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "CGU — Correição e Combate à Corrupção — tarde — tipo 1",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controle_-_area_correicao_e_combate_a_corrupcaoaffc-cc_tipo_1_tarde.pdf",
+      "file": "sources/papers/cgu-2022-correicao-tarde-tipo1.pdf",
+      "sha256": "1c070ac39a71d543008f7024e0c8f7e77b9fc11f05b266670b22e866e9817567",
+      "publicationDate": null,
+      "paperId": "source-cgu-2022-correicao-tarde-tipo1"
+    },
+    {
+      "id": "source-cgu-2022-correicao-tarde-tipo1-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "CGU — Correição e Combate à Corrupção — tarde — tipo 1 — gabarito definitivo retificado em 20/04/2022",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu2021_gabarito_definitivo_retificado_20.04.2022.pdf",
+      "file": "sources/answer-keys/CGU-2022-final-key-retified-2022-04-20.pdf",
+      "sha256": "1b908040aff014df0fcbc0070f7cc96584ebd95334819663b39eda83a9fc3e70",
+      "publicationDate": null,
+      "paperId": "source-cgu-2022-correicao-tarde-tipo1"
+    },
+    {
+      "id": "source-senado-2022-processo-tipo1-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Senado — Analista Legislativo — Processo Legislativo — tipo 1",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/e1cns08_-_analista_legislativo_-_processo_legislativoe1cns08_tipo_1.pdf",
+      "file": "sources/papers/senado-2022-processo-tipo1.pdf",
+      "sha256": "0c4358cec5eefe5e145b218799494f0fe0ae2c3009002333c0e6b9c2e3a70e10",
+      "publicationDate": null,
+      "paperId": "source-senado-2022-processo-tipo1"
+    },
+    {
+      "id": "source-senado-2022-processo-tipo1-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Senado — Analista Legislativo — Processo Legislativo — tipo 1 — gabarito definitivo",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/senado2022_gabarito_definitivo_edital01.pdf",
+      "file": "sources/answer-keys/SENADO-2022-Administracao-Tipo1-key.pdf",
+      "sha256": "97bc7116a56bdb4688c259749a0c5e068c701b9cd0c21bb7380587431ee047c2",
+      "publicationDate": null,
+      "paperId": "source-senado-2022-processo-tipo1"
+    },
+    {
+      "id": "source-fiocruz-2024-te15-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "Fiocruz — Tecnologista — TE15 — Comunicação e Saúde",
+      "issuer": "Fiocruz/Fiotec",
+      "status": "verified",
+      "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE15.pdf",
+      "file": "sources/papers/fiocruz-2024-te15.pdf",
+      "sha256": "2c1edcbf009392716afaa7c6391eefce37c59b9534f62d1675c10cf7b9e9851a",
+      "publicationDate": null,
+      "paperId": "source-fiocruz-2024-te15"
+    },
+    {
+      "id": "source-fiocruz-2024-te15-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "Fiocruz — Tecnologista — TE15 — Comunicação e Saúde — gabarito definitivo",
+      "issuer": "Fiocruz/Fiotec",
+      "status": "verified",
+      "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-Gabaritos-Finais-Tecnologistas.pdf",
+      "file": "sources/answer-keys/Fiocruz-2024-Tecnologistas-final-key.pdf",
+      "sha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4",
+      "publicationDate": null,
+      "paperId": "source-fiocruz-2024-te15"
+    },
+    {
+      "id": "reference-cns-510-2016",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "CNS — Resolução 510/2016 — pesquisas em ciências humanas e sociais",
+      "issuer": "Conselho Nacional de Saúde / Ministério da Saúde",
+      "status": "verified",
+      "officialUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/cns/2016/res0510_07_04_2016.html",
+      "file": "sources/references/cns-510-2016.html",
+      "sha256": "a131326799170b33c4043e0ea39799c8c55437e76f8a6fb40cf1c41e20399ca0",
+      "publicationDate": "2016-04-07",
+      "paperId": null
+    },
+    {
+      "id": "reference-fenaj-etica-2007",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "FENAJ — Código de Ética dos Jornalistas Brasileiros",
+      "issuer": "Federação Nacional dos Jornalistas",
+      "status": "verified",
+      "officialUrl": "https://fenaj.org.br/wp-content/uploads/2016/08/codigo_de_etica_dos_jornalistas_brasileiros-1.pdf",
+      "file": "sources/references/fenaj-etica-2007.pdf",
+      "sha256": "243bccc9a71db5adfb2012adbb4a43af265de572c4c346b6c9533793f05298f3",
+      "publicationDate": "2007-08-04",
+      "paperId": null
     }
   ],
   "papers": [
@@ -8154,6 +8312,139 @@
           19
         ],
         "answerKeyDocumentId": "source-abdi-2008-projetos-biotecnologia-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-cgu-2022-auditoria-manha-tipo1",
+      "bankId": "concursos",
+      "title": "CGU — Auditoria e Fiscalização — conhecimentos básicos — manhã — tipo 1",
+      "institution": "Controladoria-Geral da União",
+      "provider": "FGV",
+      "role": "Auditoria e Fiscalização — conhecimentos básicos — manhã — tipo 1",
+      "year": 2022,
+      "booklet": "Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Manhã",
+      "documentId": "source-cgu-2022-auditoria-manha-tipo1-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2022-03-20",
+        "block": "basic",
+        "firstItem": 1,
+        "lastItem": 30,
+        "itemCount": 30,
+        "questionType": "multiple_choice",
+        "annulledItems": [],
+        "answerKeyDocumentId": "source-cgu-2022-auditoria-manha-tipo1-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-cgu-2022-auditoria-tarde-tipo1",
+      "bankId": "concursos",
+      "title": "CGU — Auditoria e Fiscalização — tarde — tipo 1",
+      "institution": "Controladoria-Geral da União",
+      "provider": "FGV",
+      "role": "Auditoria e Fiscalização — tarde — tipo 1",
+      "year": 2022,
+      "booklet": "Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2022-03-20",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 80,
+        "itemCount": 80,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          33
+        ],
+        "answerKeyDocumentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-cgu-2022-correicao-tarde-tipo1",
+      "bankId": "concursos",
+      "title": "CGU — Correição e Combate à Corrupção — tarde — tipo 1",
+      "institution": "Controladoria-Geral da União",
+      "provider": "FGV",
+      "role": "Correição e Combate à Corrupção — tarde — tipo 1",
+      "year": 2022,
+      "booklet": "Auditor Federal de Finanças e Controle - Correição e Combate à Corrupção – Tipo 1 | Tarde",
+      "documentId": "source-cgu-2022-correicao-tarde-tipo1-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2022-03-20",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 80,
+        "itemCount": 80,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          33
+        ],
+        "answerKeyDocumentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-senado-2022-processo-tipo1",
+      "bankId": "concursos",
+      "title": "Senado — Analista Legislativo — Processo Legislativo — tipo 1",
+      "institution": "Senado Federal",
+      "provider": "FGV",
+      "role": "Analista Legislativo — Processo Legislativo — tipo 1",
+      "year": 2022,
+      "booklet": "Analista Legislativo - Processo Legislativo - TIPO 1",
+      "documentId": "source-senado-2022-processo-tipo1-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2022-11-06",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 70,
+        "itemCount": 70,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          3,
+          11,
+          25,
+          45,
+          60
+        ],
+        "answerKeyDocumentId": "source-senado-2022-processo-tipo1-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-fiocruz-2024-te15",
+      "bankId": "concursos",
+      "title": "Fiocruz — Tecnologista — TE15 — Comunicação e Saúde",
+      "institution": "Fundação Oswaldo Cruz",
+      "provider": "Fiocruz/Fiotec",
+      "role": "Tecnologista — TE15 — Comunicação e Saúde",
+      "year": 2024,
+      "booklet": "TE15 - Comunicação e Saúde- Rio de Janeiro",
+      "documentId": "source-fiocruz-2024-te15-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2024-04-28",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 40,
+        "itemCount": 40,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          13,
+          19
+        ],
+        "answerKeyDocumentId": "source-fiocruz-2024-te15-key",
         "pairingStatus": "matched_by_role_type_and_session",
         "externalVerification": true
       }
@@ -28310,6 +28601,1732 @@
         "temporalNote": "Comparação assistida de enunciado, apoio e gabarito definitivo independente. MCASP 11 comparado em seções selecionadas, sem auditoria integral do livro. Normas próprias de outros órgãos não se tornam regras CGU/ABDI. Comentários preliminares do caderno TCDF não são a fonte da chave definitiva.",
         "decisionReference": "documentation/reserve-second-batch-release.md"
       }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q014",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "O Superior Tribunal de Justiça ensina que, para ser considerado regular o processo administrativo, hão de ser asseguradas ao administrado as garantias inerentes ao devido processo legal, assim como a rigorosa observação do princípio da ampla defesa, com os meios e recursos a ela inerentes. Ao disciplinar tal matéria, no âmbito do processo administrativo, o legislador ordinário positivou parâmetros precisos, consoante se vê na Lei do Processo Administrativo Federal (Lei nº 9.784/1999). Assim, a notificação que não chega ao conhecimento do administrado intimado não cumpre, em linha de princípio, a sua função constitucionalmente prevista. A intimação por via postal é tida como meio idôneo se alcançar o fim a que se destina: dar, ao interessado, inequívoca ciência da decisão ou da efetivação de diligências. Nesse contexto, em tema de notificação por edital no âmbito do processo administrativo federal, de acordo com a jurisprudência do Superior Tribunal de Justiça, nas hipóteses em que a tentativa de entrega da notificação pelos Correios é frustrada, cabe à Administração buscar outro meio idôneo para provar, nos autos, a certeza da ciência do interessado:",
+      "options": [
+        {
+          "id": "a",
+          "text": "sob pena de nulidade absoluta do processo administrativo, não sendo possível, em qualquer hipótese, a utilização de notificação por edital;"
+        },
+        {
+          "id": "b",
+          "text": "sob pena de nulidade relativa do processo administrativo, mediante demonstração do prejuízo no prazo de 120 dias, não sendo possível, em qualquer hipótese, a utilização de notificação por edital;"
+        },
+        {
+          "id": "c",
+          "text": "sob pena de nulidade relativa do processo administrativo, mediante demonstração do prejuízo no prazo de cinco anos, não sendo possível, em qualquer hipótese, a utilização de notificação por edital;"
+        },
+        {
+          "id": "d",
+          "text": "reservando-se a publicação oficial, nos termos da lei, tão somente às hipóteses de interessado indeterminado, interessado desconhecido ou interessado com domicílio indefinido;"
+        },
+        {
+          "id": "e",
+          "text": "reservando-se a publicação oficial, em analogia ao Código de Processo Civil, tão somente à hipótese de interessado em local inacessível, com esgotamento das tentativas de notificação real nos endereços constantes nos bancos de dados disponíveis."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 14,
+        "locator": "PDF p. 7"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q014-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q018",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "A Lei Geral de Proteção de Dados Pessoais (LGPD) estabelece que o uso compartilhado de dados pessoais pelo poder público deve atender a finalidades específicas de execução de políticas públicas e atribuição legal pelos órgãos e pelas entidades públicas, respeitados os princípios de proteção de dados pessoais elencados na lei. Nesse contexto, de acordo com a Lei nº 13.709/2018, é vedado ao poder público transferir a entidades privadas dados pessoais constantes de bases de dados a que tenha acesso, EXCETO:",
+      "options": [
+        {
+          "id": "a",
+          "text": "na hipótese de o compartilhamento tutelar e resguardar direito da personalidade e integridade do titular dos dados, permitido o tratamento para outras finalidades;"
+        },
+        {
+          "id": "b",
+          "text": "quando houver previsão legal, salvo se a transferência for respaldada em contratos, convênios ou instrumentos congêneres;"
+        },
+        {
+          "id": "c",
+          "text": "nos casos em que os dados forem acessíveis publicamente e desde que o titular dos dados apresente documento formal, com firma reconhecida, de aquiescência com o compartilhamento;"
+        },
+        {
+          "id": "d",
+          "text": "nos casos de execução centralizada de atividade pública que recomende o compartilhamento de dados, desde que a entidade privada colabore, ainda que indiretamente, com a concretização da política pública;"
+        },
+        {
+          "id": "e",
+          "text": "na hipótese de a transferência dos dados objetivar exclusivamente a prevenção de fraudes e irregularidades, ou proteger e resguardar a segurança e a integridade do titular dos dados, desde que vedado o tratamento para outras finalidades."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 18,
+        "locator": "PDF p. 8"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q018-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q026",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Um servidor recém-empossado foi designado para atuar na Secretaria de Orçamento Federal, junto à equipe responsável pela elaboração da proposta de Lei de Diretrizes Orçamentárias (LDO). A chefia imediata solicitou que o servidor fizesse uma apresentação detalhada sobre a definição das metas de resultado primário (RP) e resultado nominal (RN) a serem incluídas no Anexo de Metas Fiscais da LDO do próximo exercício. Durante a apresentação, a chefia notou que o servidor apresentou alguns equívocos conceituais. Uma das informações equivocadas que podem ter constado na apresentação feita pelo servidor é que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "a apuração do RP abrange órgãos e entidades como fundações e empresas estatais dependentes;"
+        },
+        {
+          "id": "b",
+          "text": "o RN pode ser apurado acrescentando ao RP o saldo da conta de juros;"
+        },
+        {
+          "id": "c",
+          "text": "o RP é apurado pelo confronto de receitas e despesas financeiras;"
+        },
+        {
+          "id": "d",
+          "text": "os juros a serem considerados no cálculo do RN são apurados por competência;"
+        },
+        {
+          "id": "e",
+          "text": "um RN nulo significa que o ente manteve constante o seu nível de endividamento."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 26,
+        "locator": "PDF p. 11"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q026-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q035",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Durante a execução de um trabalho de avaliação, não foi possível observar algumas das diretrizes do Referencial Técnico da Atividade de Auditoria Interna Governamental do Poder Executivo Federal, em razão de limitações operacionais. Em virtude disso, houve impactos moderados sobre os resultados da auditoria. A equipe de auditoria deve:",
+      "options": [
+        {
+          "id": "a",
+          "text": "suspender a execução dos trabalhos e comunicar ao responsável pela unidade auditada que não será emitido relatório;"
+        },
+        {
+          "id": "b",
+          "text": "solicitar alteração do Plano de Auditoria Interna, de modo a compatibilizá-lo com as restrições ocorridas;"
+        },
+        {
+          "id": "c",
+          "text": "reduzir o escopo do trabalho, após autorização do coordenador da equipe de auditoria;"
+        },
+        {
+          "id": "d",
+          "text": "registrar no relatório as razões e o impacto da não observância das diretrizes sobre o trabalho de avaliação e os seus resultados;"
+        },
+        {
+          "id": "e",
+          "text": "deixar de emitir opinião sobre o objeto auditado, limitando-se a relatar os procedimentos adotados na execução da auditoria."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 35,
+        "locator": "PDF p. 12"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q035-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q041",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "O responsável por uma Unidade de Auditoria Interna Governamental (UAIG) sabe que deve elaborar um Plano de Auditoria Interna baseado em riscos. Ocorre que a unidade auditada não instituiu um processo formal de gerenciamento de riscos, mas demandou à UAIG a realização de um trabalho de consultoria com o objetivo de auxiliar na implantação desse processo. A UAIG coletou, junto à alta administração, informações sobre suas expectativas e entendimentos a respeito dos principais processos e dos riscos associados. O responsável pela UAIG deve:",
+      "options": [
+        {
+          "id": "a",
+          "text": "inserir no Plano de Auditoria Interna o trabalho de consultoria demandado e, com base nos resultados desse trabalho, selecionar objetos de auditoria que apresentem maior risco;"
+        },
+        {
+          "id": "b",
+          "text": "inserir no Plano de Auditoria Interna os processos de maior materialidade e recusar o pedido de realização de trabalho de consultoria, por se tratar de processo cuja implantação cabe ao gestor;"
+        },
+        {
+          "id": "c",
+          "text": "inserir no Plano de Auditoria Interna os objetos de maior risco, com base nas informações disponíveis, além de avaliar a viabilidade de incorporar o trabalho de consultoria no mesmo Plano;"
+        },
+        {
+          "id": "d",
+          "text": "informar ao órgão central do Sistema de Controle Interno que a elaboração do Plano de Auditoria Interna será adiada até a conclusão da consultoria para implantação do processo de gerenciamento de riscos;"
+        },
+        {
+          "id": "e",
+          "text": "promover o mapeamento dos principais processos, de modo a selecionar os objetos de maior risco para inclusão no Plano de Auditoria Interna, além de aguardar autorização do órgão setorial de controle interno para realização do trabalho de consultoria."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 41,
+        "locator": "PDF p. 14"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q041-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q043",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Um auditor interno governamental inexperiente pergunta ao seu colega de equipe mais antigo como deve ser a comunicação com a unidade auditada durante a execução da auditoria. O colega responde que os auditores internos devem manter boas relações profissionais com os auditados, além de promover um fluxo de informações livre e aberto. Essa resposta dada pelo auditor mais antigo está:",
+      "options": [
+        {
+          "id": "a",
+          "text": "incompleta, pois os auditores internos devem guardar para si as informações referentes a possíveis achados de auditoria, reservando-as para o relatório final;"
+        },
+        {
+          "id": "b",
+          "text": "incompleta, pois pode haver informações não públicas, para as quais devem ser respeitados os requisitos de confidencialidade;"
+        },
+        {
+          "id": "c",
+          "text": "equivocada, pois os auditores internos devem interagir minimamente com a unidade auditada, de modo a preservar sua independência e objetividade;"
+        },
+        {
+          "id": "d",
+          "text": "correta, pois a comunicação entre auditor e auditado para solicitação e entrega de informações deve ser informal, dando-se preferência à comunicação oral em detrimento da escrita;"
+        },
+        {
+          "id": "e",
+          "text": "equivocada, pois o auditado deve se limitar a responder o que lhe foi perguntado e a enviar as informações solicitadas."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 43,
+        "locator": "PDF p. 14"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q043-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q044",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Ao mapear os riscos de um processo de trabalho, os gestores de determinado órgão do Poder Executivo Federal identificaram os seguintes riscos:  R1: risco de perda de confiança da sociedade na capacidade operacional do órgão;  R2: risco de contingenciamento do orçamento;  R3: risco de perda de capacidade operacional em virtude de aposentadoria iminente de vários servidores;  R4: risco de interrupção de serviços essenciais em virtude de uma pandemia que pode reduzir drasticamente a força de trabalho do órgão por alguns dias. Para avaliar esses riscos, será necessário:",
+      "options": [
+        {
+          "id": "a",
+          "text": "solicitar ao órgão de controle interno a realização de um trabalho de avaliação;"
+        },
+        {
+          "id": "b",
+          "text": "desconsiderar R1 e R2, por se tratar de riscos externos ao órgão;"
+        },
+        {
+          "id": "c",
+          "text": "entrevistar os servidores aposentados, para que seja possível mensurar o impacto do risco R3;"
+        },
+        {
+          "id": "d",
+          "text": "estimar a probabilidade e o impacto da ocorrência de cada um dos riscos;"
+        },
+        {
+          "id": "e",
+          "text": "desconsiderar o risco R4, por se tratar de situação excepcional de caráter temporário."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 44,
+        "locator": "PDF p. 14"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q044-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q046",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Determinada equipe de auditoria investigou a causa raiz de um achado, mas não conseguiu chegar a uma conclusão. Então, apresentou a matriz de achados ao supervisor, com a observação de que “não foi possível identificar a causa do achado”. O supervisor, com base na Orientação Prática sobre Relatório de Auditoria, deverá responder que a equipe:",
+      "options": [
+        {
+          "id": "a",
+          "text": "deveria ter indicado, como causa do achado, “fragilidades nos controles internos”;"
+        },
+        {
+          "id": "b",
+          "text": "deveria ter prorrogado a execução do trabalho até que chegasse a uma conclusão quanto à causa raiz do achado;"
+        },
+        {
+          "id": "c",
+          "text": "deveria ter indicado, como causa do achado, o descumprimento do dispositivo legal que regula a matéria;"
+        },
+        {
+          "id": "d",
+          "text": "deveria, juntamente com o supervisor, avaliar a possibilidade de concluir o trabalho com base em causas de nível intermediário;"
+        },
+        {
+          "id": "e",
+          "text": "poderia deixar de indicar a causa do achado, desde que propusesse recomendar à unidade auditada a realização de um trabalho para identificar a referida causa."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 46,
+        "locator": "PDF p. 15"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q046-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q047",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "No curso de um trabalho de avaliação, a equipe de auditoria se depara com uma relevante situação de desconformidade que não havia sido prevista na fase de planejamento e, portanto, não é abrangida pelas questões de auditoria. Nesse caso, a equipe deve:",
+      "options": [
+        {
+          "id": "a",
+          "text": "tratar a situação como um dos achados de auditoria;"
+        },
+        {
+          "id": "b",
+          "text": "reiniciar o planejamento do trabalho e elaborar nova matriz de planejamento;"
+        },
+        {
+          "id": "c",
+          "text": "informar a situação ao supervisor e aguardar orientações sobre o que deve ser feito;"
+        },
+        {
+          "id": "d",
+          "text": "incluir uma nova ação de controle no Plano de Auditoria Interna;"
+        },
+        {
+          "id": "e",
+          "text": "avaliar a possibilidade de alterar o escopo da avaliação, de modo a incluir um novo tema."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 47,
+        "locator": "PDF p. 15"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q047-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q063",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "O processo de análise de uma política pública gera informações sobre seu desempenho, necessárias para realizar ajustes ao longo de sua execução, fortalecer o planejamento de programas e imprimir maior efetividade às ações do poder público. A análise do desempenho de uma política pública pode ocorrer por meio de avaliação (ex ante ou ex post) ou de monitoramento – processos distintos que atendem a fins igualmente diversos. O processo de monitoramento consiste em:",
+      "options": [
+        {
+          "id": "a",
+          "text": "acompanhamento, após a implementação, pelo órgão responsável pela política pública;"
+        },
+        {
+          "id": "b",
+          "text": "julgamento, atribuição de valor e mensuração da política pública;"
+        },
+        {
+          "id": "c",
+          "text": "acompanhamento, ao longo da implementação, pelo órgão diretamente responsável pela política pública;"
+        },
+        {
+          "id": "d",
+          "text": "acompanhamento, ao longo da implementação, por órgãos independentes, não diretamente responsáveis pela política pública;"
+        },
+        {
+          "id": "e",
+          "text": "acompanhamento, após a implementação, por órgãos independentes, não diretamente responsáveis pela política pública."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 63,
+        "locator": "PDF p. 19"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q063-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q064",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Sobre as análises ex ante e ex post, é correto afirmar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "a análise ex ante ocorre apenas durante a fase de elaboração da política pública, sendo toda análise posterior considerada ex post;"
+        },
+        {
+          "id": "b",
+          "text": "a análise ex ante não deve avaliar decisões que ocasionem impacto orçamentário após a implementação da política pública, devendo tais considerações ser objeto de análise ex post;"
+        },
+        {
+          "id": "c",
+          "text": "a avaliação de impacto da política pública deve ser objeto de análise ex post, pois é inviável projetar o impacto da política na fase ex ante;"
+        },
+        {
+          "id": "d",
+          "text": "a análise ex ante continua sendo apropriada após a implementação da política pública e inclui a fase de monitoramento;"
+        },
+        {
+          "id": "e",
+          "text": "a análise ex ante pode ser empregada após o resultado de uma análise ex post determinar que a política pública teve desempenho insatisfatório e deve ser reformulada."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 64,
+        "locator": "PDF p. 20"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q064-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q066",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Uma forma de imprimir racionalidade ao processo de formulação e viabilizar a posterior avaliação das políticas públicas é a utilização do modelo lógico, uma importante ferramenta para identificar e descrever os componentes do desenho, da operação e dos resultados esperados de uma política pública durante sua elaboração. O modelo lógico é formado por cinco componentes: insumos, atividades, produtos, resultados e impactos. Sobre os componentes do modelo lógico, é correto afirmar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "resultados são os efeitos de longo prazo observados nos indivíduos ou instituições em decorrência da intervenção realizada;"
+        },
+        {
+          "id": "b",
+          "text": "produtos são os recursos necessários à realização da intervenção ou implementação da política;"
+        },
+        {
+          "id": "c",
+          "text": "insumos são os frutos diretos e quantificáveis da política pública;"
+        },
+        {
+          "id": "d",
+          "text": "impactos são os efeitos imediatos da intervenção ou política pública, nem sempre mensuráveis;"
+        },
+        {
+          "id": "e",
+          "text": "atividades são as ações e os serviços realizados no escopo da política pública."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 66,
+        "locator": "PDF p. 20"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q066-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q067",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "As avaliações de desempenho das políticas públicas são peça essencial para o aperfeiçoamento dos programas, com vistas à racionalização do gasto público e à maximização dos benefícios à população. É, portanto, fundamental tanto para gestores quanto para decisores entender como as diferentes formas de avaliação impactam as políticas públicas. Diferentes métodos de análise focam em diferentes componentes da intervenção estatal e produzem insumos que permitem avaliar e aprimorar os programas. Sobre as diversas linhas de análise de políticas públicas, é correto afirmar que o método de avaliação:",
+      "options": [
+        {
+          "id": "a",
+          "text": "de resultados consiste no confronto dos pressupostos assumidos na formulação do programa com as evidências mais recentes, enfatizando quais insumos, processos ou produtos são mais eficazes para alcançar as metas pretendidas;"
+        },
+        {
+          "id": "b",
+          "text": "de implementação consiste em uma análise aprofundada que identifica se a execução da política obedece ao desenho formulado e atenta para a transformação de insumos em produtos para a população;"
+        },
+        {
+          "id": "c",
+          "text": "de desenho se debruça sobre os indicadores utilizados para construção das metas do programa para compreender se os efeitos estão alinhados com o planejamento inicial;"
+        },
+        {
+          "id": "d",
+          "text": "econômica lida com o conceito de escassez de recursos públicos e visa encontrar maneiras mais eficientes de aplicá-los por meio de sofisticadas técnicas estatísticas;"
+        },
+        {
+          "id": "e",
+          "text": "de eficiência busca compreender a relação entre os custos e os benefícios das políticas públicas por meio da comparação de programas já em execução."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 67,
+        "locator": "PDF p. 20"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q067-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q068",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Além de impactos no público-alvo, é importante salientar o impacto que as políticas públicas têm no orçamento público – composto pelo Plano Plurianual (PPA), pela Lei de Diretrizes Orçamentárias (LDO) e pela Lei Orçamentária Anual (LOA). As avaliações de desempenho são importantes peças nesse processo, produzindo insumos que permitem o aprimoramento, expansão ou reformulação de políticas, ajustes que podem incorrer em aumentos ou reduções dos custos dos programas. No entanto, grande parte das despesas do orçamento público é protegida por mandamento constitucional ou legal. Sobre os impactos que as avaliações de políticas públicas podem ter no orçamento, é correto afirmar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "a rigidez do orçamento público reduz demasiadamente a margem de manobra do governo, de forma que as avaliações de políticas públicas têm impacto orçamentário quase nulo;"
+        },
+        {
+          "id": "b",
+          "text": "as avaliações de desempenho têm maior possibilidade de impacto no PPA, graças à sua flexibilidade e constante renovação;"
+        },
+        {
+          "id": "c",
+          "text": "em que pese a rigidez do orçamento, avaliações indicando ajustes administrativos, como em critérios de elegibilidade para certos programas, podem ser implementadas com relativa facilidade;"
+        },
+        {
+          "id": "d",
+          "text": "as avaliações de desempenho podem mais facilmente impactar o orçamento por meio da LOA, cujas diretrizes informam a confecção da LDO;"
+        },
+        {
+          "id": "e",
+          "text": "as avaliações de desempenho podem mais facilmente impactar o orçamento por meio da LDO, que é mais flexível e não está à mercê de despesas obrigatórias."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 68,
+        "locator": "PDF p. 20"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q068-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q077",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Uma das funções do Estado na execução da política regulatória é mitigar as denominadas falhas de mercado em que a intervenção governamental na economia busca o atingimento do nível de alocação socialmente ótimo. Nesse sentido, é correto afirmar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "o meio ambiente sustentável é considerado um recurso comum, não rival e não exclusivo, e, devido à existência do problema do holdout, o governo falha em garantir seu uso racional;"
+        },
+        {
+          "id": "b",
+          "text": "a existência de um monopólio natural no setor de infraestrutura é uma falha de mercado e exige que o governo implemente uma política regulatória para que as tarifas ofertadas sejam iguais ao custo marginal da firma;"
+        },
+        {
+          "id": "c",
+          "text": "as externalidades não são falhas de mercado, pois há um benefício externo à sociedade advindo da decisão dos agentes, sendo eventualmente necessária a intervenção governamental via imposição de quotas de produção;"
+        },
+        {
+          "id": "d",
+          "text": "um governo probo e eficiente pode ser visto como um bem público puro apesar de ser possível excluir algum cidadão do benefício de um bom governo, de forma que a legislação que permite o controle social evitaria o problema do carona (free rider);"
+        },
+        {
+          "id": "e",
+          "text": "os bens meritórios, apesar de não apresentarem todas as características de bens públicos puros, geram externalidades positivas e sua provisão deve ser estimulada pelo governo via, por exemplo, o estabelecimento de subsídios à produção pelo setor privado."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 77,
+        "locator": "PDF p. 24"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q077-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q078",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Em relação às funções do governo e às políticas econômicas, é correto afirmar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "o governo exerce a função alocativa ao implementar atividades que requerem investimentos elevados e com retorno econômico baixo, mas que, no longo prazo, produzem retornos sociais importantes;"
+        },
+        {
+          "id": "b",
+          "text": "a intervenção direta do setor público na produção de bens e serviços de infraestrutura, ao claramente beneficiar as classes sociais menos favorecidas, atende precipuamente o objetivo da função estabilizadora;"
+        },
+        {
+          "id": "c",
+          "text": "o financiamento de políticas fiscais contracíclicas via elevação do déficit público, com o intuito de estimular uma economia recessiva na armadilha da liquidez, provoca o efeito crowding out total e é vedado pela Lei de Responsabilidade Fiscal;"
+        },
+        {
+          "id": "d",
+          "text": "a votação em um candidato a um cargo público majoritário sinaliza a intenção da população em relação à implementação da política pública desejada. Assim, o candidato vencedor que utiliza como pauta principal a taxação de grandes fortunas revela o desejo da sociedade pela função reguladora;"
+        },
+        {
+          "id": "e",
+          "text": "a independência do Banco Central do Brasil fortalece a credibilidade da política monetária e torna a gestão da taxa de juros mais eficiente ao combater pressões inflacionárias e estimular o crescimento econômico, cumprindo assim o papel preponderante da função distributiva."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 78,
+        "locator": "PDF p. 24"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q078-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q079",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Com base nos tipos de tributos e nos princípios teóricos da tributação, é correto afirmar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "em uma economia inicialmente em equilíbrio eficiente de Pareto, a implementação de um imposto específico sobre as vendas de mercadorias causa distorção alocativa e o ônus tributário é repassado integralmente aos consumidores, independentemente da elasticidade-preço da demanda;"
+        },
+        {
+          "id": "b",
+          "text": "a baixa participação da tributação da renda e do patrimônio e a excessiva participação dos tributos sobre bens e serviços em relação à carga tributária total de um país tendem a provocar alto grau de regressividade do sistema tributário ao onerar a parcela da população com menor rendimento;"
+        },
+        {
+          "id": "c",
+          "text": "em situações de desequilíbrio econômico, o imposto de renda regressivo torna-se um importante instrumento automático de estabilização e de justiça fiscal, desde que o governo consiga minimizar a defasagem entre o recebimento da renda e o pagamento do imposto, beneficiando inequivocamente a eficiência econômica;"
+        },
+        {
+          "id": "d",
+          "text": "a implantação do imposto único sobre valor adicionado é um importante instrumento do federalismo fiscal por aumentar a eficiência e a integração vertical e promover a equidade horizontal e a progressividade, contudo, dificulta a política de isenção tributária dos bens de produção por parte dos entes federativos;"
+        },
+        {
+          "id": "e",
+          "text": "o princípio do benefício está de acordo com as previsões do modelo de Tiebout, pois a tributação proporcional ao uso leva o governo a oferecer bens e serviços compatíveis com os tributos cobrados (“votação com os pés”), além de atender a um dos objetivos mais relevantes da tributação, que é a distribuição de renda."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+        "number": 79,
+        "locator": "PDF p. 25"
+      },
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q079-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q043",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "A sociedade empresária Beta firmou acordo de leniência com a Controladoria-Geral da União pela prática de atos lesivos à Administração Pública Federal, comprometendo-se a cooperar plena e permanentemente com as investigações e o processo administrativo. Ocorre que a citada pessoa jurídica descumpriu o acordo de leniência, razão pela qual, consoante dispõe a Lei nº 12.846/2013:",
+      "options": [
+        {
+          "id": "a",
+          "text": "será obrigada a pagar multa equivalente ao dobro do valor comprovado do dano ao erário decorrente de todos os atos ilícitos que reconheceu ter praticado;"
+        },
+        {
+          "id": "b",
+          "text": "ficará impedida de celebrar novo acordo pelo prazo de três anos contados do conhecimento pela administração pública do referido descumprimento;"
+        },
+        {
+          "id": "c",
+          "text": "terá suspensa sua inscrição no Cadastro Nacional de Pessoas Jurídicas, mas é vedada a anotação do descumprimento no Cadastro Nacional de Empresas Punidas (CNEP);"
+        },
+        {
+          "id": "d",
+          "text": "seus sócios terão os direitos políticos suspensos, pelo período de cinco a oito anos, observado o contraditório e a ampla defesa em processo administrativo que tramitará em apenso;"
+        },
+        {
+          "id": "e",
+          "text": "será decretada sua dissolução compulsória, assim como aplicada multa equivalente ao valor comprovado do dano ao erário decorrente de todos os atos ilícitos que reconheceu ter praticado."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+        "number": 43,
+        "locator": "PDF p. 14"
+      },
+      "answerKeyId": "cgu-2022-correicao-tarde-tipo1-q043-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q044",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Em janeiro de 2022, José, servidor público federal, no exercício de sua competência e de forma comprovadamente culposa, praticou ato que causou prejuízo ao erário, na medida em que realizou operação financeira sem observância das normas legais e regulamentares. Consoante dispõe a Lei de Improbidade Administrativa (Lei nº 8.429/1992, com as alterações introduzidas pela Lei nº 14.230/2021), José:",
+      "options": [
+        {
+          "id": "a",
+          "text": "praticou ato de improbidade administrativa, por expressa previsão legal, visto que ocorreu efetivo dano ao erário, que deve ser objeto de ressarcimento, assim como devem ser aplicadas as demais sanções previstas no Art. 12 daquela lei;"
+        },
+        {
+          "id": "b",
+          "text": "não praticou ato de improbidade administrativa, pois, apesar de ter causado prejuízo ao erário, não restou provado, de forma cumulativa, enriquecimento ilícito ou violação dos princípios da administração pública por parte de José, ainda que de forma culposa;"
+        },
+        {
+          "id": "c",
+          "text": "não praticou ato de improbidade administrativa, por falta de tipicidade prevista nos Arts. 9º, 10 e 11 da citada lei, sendo irrelevante o fato de sua conduta ter sido culposa ou dolosa, visto que ocorreu dano ao erário;"
+        },
+        {
+          "id": "d",
+          "text": "não praticou ato de improbidade administrativa, pois para tal é imprescindível que a conduta seja dolosa, assim entendida como aquela praticada com vontade livre e consciente de alcançar o resultado ilícito tipificado nos Arts. 9º, 10 e 11 da citada lei, não bastando a voluntariedade do agente;"
+        },
+        {
+          "id": "e",
+          "text": "praticou ato de improbidade administrativa, pois o mero exercício da função ou desempenho de competências públicas que causar dano ao erário, independentemente de comprovação de ato doloso com fim ilícito, constitui ato de improbidade, pelo princípio da indisponibilidade do erário."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+        "number": 44,
+        "locator": "PDF p. 15"
+      },
+      "answerKeyId": "cgu-2022-correicao-tarde-tipo1-q044-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q045",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "O Ministro de Estado do Ministério Alfa instaurou processo administrativo de responsabilização (PAR) para apuração da responsabilidade administrativa da pessoa jurídica Beta, que pode resultar na aplicação das sanções administrativas previstas na Lei Anticorrupção, pela eventual prática de ato lesivo à Administração Pública Federal, em razão da notícia de ilegalidades graves relacionadas à fraude em licitação. No curso do PAR, constatou-se a complexidade, a repercussão e a relevância da matéria. No caso em tela, de acordo com o Decreto nº 8.420/2015, que regulamenta a Lei nº 12.846/2013, a Controladoria-Geral da União possui competência:",
+      "options": [
+        {
+          "id": "a",
+          "text": "exclusiva para avocar o PAR para exame de sua regularidade ou para corrigir-lhe o andamento, inclusive promovendo a aplicação da penalidade administrativa cabível;"
+        },
+        {
+          "id": "b",
+          "text": "instrutória para colaborar na coleta da prova do PAR, caso inexistam condições objetivas para sua instrução no Ministério Alfa, mas lhe é vedado o julgamento do PAR, sob pena de supressão de instância administrativa;"
+        },
+        {
+          "id": "c",
+          "text": "para avocar o PAR para fins de sua instrução, caso seja caracterizada omissão da autoridade originariamente competente, mas lhe é vedada a aplicação da penalidade administrativa cabível;"
+        },
+        {
+          "id": "d",
+          "text": "para julgar recurso de decisão do Ministério Alfa que, após regular tramitação do PAR, aplicar sanções administrativas à pessoa jurídica Beta, que pode recorrer no prazo de vinte dias, após a ciência da decisão;"
+        },
+        {
+          "id": "e",
+          "text": "suplementar para sanar vícios procedimentais no PAR, caso inexistam condições objetivas para sua instrução no Ministério Alfa, mas lhe é vedado o julgamento do PAR, sob pena de supressão de instância administrativa."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+        "number": 45,
+        "locator": "PDF p. 15"
+      },
+      "answerKeyId": "cgu-2022-correicao-tarde-tipo1-q045-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q073",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Após denúncias encaminhadas pelo canal digital de órgão federal vinculado ao Ministério X, foi instaurado processo administrativo para apuração de eventuais ilícitos e sua autoria, inclusive com forte suspeita de prática de atos de corrupção ativa a servidores públicos. Em breve narrativa, a denúncia aponta que duas sociedades empresárias, através de seus sócios majoritários e com vínculo de parentesco colateral por consanguinidade, se utilizavam de combinação prévia de preços e condições para fraudar o caráter competitivo de procedimentos licitatórios públicos nas modalidades de concorrência e pregão. A investigação apurou que os sócios, todos não administradores, se utilizavam da autonomia subjetiva das pessoas jurídicas para manipular suas ações por meio dos atos de gestão dos administradores, beneficiando-se dos efeitos de tais atos. Na prática, verificou-se confusão patrimonial entre as duas sociedades empresárias diante do cumprimento, pela pessoa jurídica, reiteradamente, de obrigações particulares do sócio e dos administradores. Considerados os fatos narrados, a situação descrita autoriza:",
+      "options": [
+        {
+          "id": "a",
+          "text": "a aplicação da desconsideração da personalidade jurídica para responsabilizar os sócios pelos prejuízos que a Administração Pública sofreu, porém é indispensável que seja garantido aos sócios o contraditório e a ampla defesa prévios;"
+        },
+        {
+          "id": "b",
+          "text": "a aplicação da fraude contra credores de modo a anular todo o procedimento licitatório e o(s) eventual(is) contrato(s) administrativo(s) decorrente(s), sem prejuízo do ajuizamento de ação indenizatória pela pessoa jurídica de direito público prejudicada em face das sociedades;"
+        },
+        {
+          "id": "c",
+          "text": "o ajuizamento de ação de responsabilidade civil em face das sociedades e dos sócios, em razão da solidariedade legal entre elas e seus membros, independentemente da averiguação da existência de dolo ou culpa;"
+        },
+        {
+          "id": "d",
+          "text": "a declaração judicial de ineficácia dos atos praticados em relação à Administração Pública, com decretação liminar de arresto dos bens das sociedades, seus sócios e administradores;"
+        },
+        {
+          "id": "e",
+          "text": "a decretação, pela Administração Pública, da dissolução compulsória das pessoas jurídicas, que será executada em processo judicial próprio, cabendo ao juiz a nomeação dos liquidantes."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+        "number": 73,
+        "locator": "PDF p. 24"
+      },
+      "answerKeyId": "cgu-2022-correicao-tarde-tipo1-q073-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q075",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "No curso de uma fiscalização para apurar atos ilícitos praticados por sociedade empresária em prejuízo de agentes econômicos do mercado financeiro, verificou-se a prática de atos por parte de administradores da referida sociedade para dificultar a fiscalização mediante a utilização de táticas procrastinatórias e coação moral sobre servidores do órgão regulador. Após constatada a responsabilidade da pessoa jurídica, verificou-se, em consulta aos órgãos envolvidos no Registro de Empresas, a alteração do tipo societário e do quadro social. Sendo certo que a conduta descrita e imputada à pessoa jurídica constitui ato lesivo à Administração Pública, é correto afirmar que a transformação da pessoa jurídica:",
+      "options": [
+        {
+          "id": "a",
+          "text": "constitui obstáculo à responsabilização da pessoa jurídica pela prática de ato lesivo à Administração Pública, em razão da extinção da personalidade jurídica como efeito da operação societária;"
+        },
+        {
+          "id": "b",
+          "text": "não exclui nem a responsabilidade da pessoa jurídica nem a de seus administradores, sendo para ambos hipótese de responsabilidade objetiva, ou seja, independentemente de sua culpabilidade;"
+        },
+        {
+          "id": "c",
+          "text": "não elimina a possibilidade de responsabilização da pessoa jurídica e de seus dirigentes pela prática de ato lesivo à Administração Pública;"
+        },
+        {
+          "id": "d",
+          "text": "impede sua responsabilização, porém subsiste a responsabilidade subjetiva dos administradores na medida de sua culpabilidade;"
+        },
+        {
+          "id": "e",
+          "text": "não elimina a possibilidade de responsabilização da pessoa jurídica e de seus dirigentes pela prática de ato lesivo à Administração Pública, provado que a atuação da pessoa jurídica decorreu de dolo ou culpa."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+        "number": 75,
+        "locator": "PDF p. 25"
+      },
+      "answerKeyId": "cgu-2022-correicao-tarde-tipo1-q075-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "cgu-2022-auditoria-manha-tipo1-q026",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "No processo de planejamento e execução de políticas públicas (PP), diversos fatores se fazem presentes e influem, direta e indiretamente, no processo decisório público. Compete aos gestores analisar com isenção os fatores de maior ou menor impacto de maneira a assegurar o uso apropriado de recursos com vistas ao alcance da finalidade, dos objetivos e da missão de seus órgãos. Quando trabalhando em conjunto com outros órgãos no planejamento e análise de PP, os decisores e gestores se defrontam com situações nas quais pode haver conflito de interesses na utilização de recursos. Nesses casos específicos, devem-se considerar:",
+      "options": [
+        {
+          "id": "a",
+          "text": "em conjunto objetivos individuais dos órgãos através de critérios amplos de forma a favorecer as metas individuais, aumentando assim a eficiência ao alocar recursos destinados a PP, por vezes garantindo que mais desses objetivos sejam alcançados;"
+        },
+        {
+          "id": "b",
+          "text": "em conjunto objetivos principais da PP através de critérios individuais de cada órgão de forma a mitigar metas e objetivos particulares, assim garantindo que mais objetivos principais sejam alcançados;"
+        },
+        {
+          "id": "c",
+          "text": "individualmente os objetivos principais da PP através de critérios individuais de cada órgão, de forma a mitigar as inclinações individuais a favorecer metas e objetivos particulares de cada órgão, por vezes garantindo que mais objetivos principais sejam alcançados;"
+        },
+        {
+          "id": "d",
+          "text": "em conjunto objetivos principais e individuais da PP através de critérios únicos de cada órgão, de forma a favorecer metas e objetivos particulares deles, por vezes garantindo a alocação mais eficiente de recursos e que mais objetivos principais sejam alcançados;"
+        },
+        {
+          "id": "e",
+          "text": "em conjunto objetivos principais da PP através de critérios amplos, de forma a mitigar as inclinações individuais a favorecer metas e objetivos particulares de cada órgão, por vezes garantindo que mais objetivos principais sejam alcançados."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-auditoria-manha-tipo1",
+        "number": 26,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "cgu-2022-auditoria-manha-tipo1-q026-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "fiocruz-2024-te58-q025",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "No Brasil, o controle da ética na pesquisa é atribuição da Comissão Nacional de Ética em Pesquisa (Conep), que conta com um sistema de Comitês de Ética em Pesquisa, os chamados “CEP”. Sua principal atribuição é avaliar os aspectos éticos das pesquisas que envolvem seres humanos. Um dos documentos fundamentais a serem avaliados, nesse processo, é o Termo de Consentimento Livre e Esclarecido (TCLE). Sobre esse documento, é INCORRETO afirmar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "deve abranger o detalhamento dos direitos, dos procedimentos, dos riscos e dos benefícios associados à escolha de uma pessoa em participar de determinada pesquisa."
+        },
+        {
+          "id": "b",
+          "text": "só é exigido em pesquisas que envolvam coleta de material biológico."
+        },
+        {
+          "id": "c",
+          "text": "a forma de registro escolhida pelo pesquisador, no TCLE, deve levar em consideração características individuais, sociais, linguísticas, econômicas e culturais do participante da pesquisa."
+        },
+        {
+          "id": "d",
+          "text": "pesquisas que envolvem menores de 18 anos devem ter TCLE e também TALE, Termo de Assentimento Livre e Esclarecido."
+        },
+        {
+          "id": "e",
+          "text": "pode ser elaborado em qualquer meio, formato ou mídia, adaptando-se às características dos participantes da pesquisa e das abordagens metodológicas aplicadas."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-fiocruz-2024-te58",
+        "number": 25,
+        "locator": "PDF p. 8"
+      },
+      "answerKeyId": "fiocruz-2024-te58-q025-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "fiocruz-2024-te58-q031",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "A revolução digital fez com que haja uma enorme quantidade de dados e informações em estado bruto - matéria-prima preciosa para a capacidade investigativa de jornalistas. Hoje existem inúmeros caminhos para buscar dados que rendam pautas e debates relevantes. Sobre alguns deles, avalie as afirmativas abaixo.\n\nI. Órgãos públicos devem ter em seus sites uma área de “acesso à informação”, iniciativa da chamada “transparência ativa”.\n\nII. Os diários oficiais — e agora os principais deles estão disponíveis na internet — prosseguem sendo fonte importante para jornalistas.\n\nIII. Em pedidos de informação realizados via Lei de Acesso à Informação, é proibido exigir que o interessado informe os motivos de sua solicitação.\n\nIV. Um formato comum para dados abertos é o CSV, no caso de arquivos com planilhas já disponíveis para download. Das afirmativas acima:",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas a I e a II estão corretas."
+        },
+        {
+          "id": "b",
+          "text": "apenas I, II e IV estão corretas."
+        },
+        {
+          "id": "c",
+          "text": "apenas I, II e III estão corretas."
+        },
+        {
+          "id": "d",
+          "text": "apenas II, III e IV estão corretas."
+        },
+        {
+          "id": "e",
+          "text": "todas estão corretas."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-fiocruz-2024-te58",
+        "number": 31,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "fiocruz-2024-te58-q031-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "fiocruz-2024-te58-q032",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Uma vez que já tem os dados em mãos, é importante que o jornalista de dados:\n\nI. Busque entender, ao menos minimamente, a origem, a captação, o recorte e as limitações desses dados.\n\nII. Faça uma cópia de segurança do documento original, antes de começar a limpeza de dados.\n\nIII. “Raspe” os valores extremos.\n\nIV. Identifique a eventual falta de registros, e faça a checagem com a fonte. Das afirmativas acima:",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas a I e a II estão corretas."
+        },
+        {
+          "id": "b",
+          "text": "apenas a I está correta."
+        },
+        {
+          "id": "c",
+          "text": "apenas I, II e IV estão corretas."
+        },
+        {
+          "id": "d",
+          "text": "apenas II, III e IV estão corretas."
+        },
+        {
+          "id": "e",
+          "text": "todas estão corretas."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-fiocruz-2024-te58",
+        "number": 32,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "fiocruz-2024-te58-q032-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "fiocruz-2024-te23-q036",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Uma definição assertiva sobre as Desigualdades Sociais em Saúde deve levar em conta:",
+      "options": [
+        {
+          "id": "a",
+          "text": "desrespeito aos direitos humanos."
+        },
+        {
+          "id": "b",
+          "text": "situações de risco e vulnerabilidade."
+        },
+        {
+          "id": "c",
+          "text": "comportamentos relacionados à saúde e o estado de saúde físico e mental."
+        },
+        {
+          "id": "d",
+          "text": "situações que implicam algum grau de injustiça porque estão associadas a características sociais que sistematicamente colocam alguns grupos em desvantagem com relação à oportunidade de ser e se manter sadio."
+        },
+        {
+          "id": "e",
+          "text": "condições políticas e sociais que surgiram com o capitalismo, em sua fase de produção industrial."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-fiocruz-2024-te23",
+        "number": 36,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "fiocruz-2024-te23-q036-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "fiocruz-2024-te23-q037",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "“Welfare States (Estados de Bem-Estar Social): este termo designa as políticas desenvolvidas em resposta ao processo de modernização das sociedades ocidentais, consistindo em intervenções políticas no funcionamento da economia e na distribuição social de oportunidades de vida, que procuram promover a seguridade e a igualdade entre cidadãos, com o objetivo de fomentar integração social das sociedades industriais altamente mobilizadas”. Os Welfare States são, portanto, um mecanismo:",
+      "options": [
+        {
+          "id": "a",
+          "text": "de promoção da saúde e do bem-estar comum."
+        },
+        {
+          "id": "b",
+          "text": "de regulação da assistência à saúde da população, bem como uma garantia dos direitos cidadãos."
+        },
+        {
+          "id": "c",
+          "text": "para garantir políticas sociais justas e democráticas no acesso aos serviços de saúde e ao bem-estar social."
+        },
+        {
+          "id": "d",
+          "text": "de integração que neutraliza as características destrutivas da modernização, e sua essência reside na responsabilidade pela seguridade e pela igualdade, realizada por meio de políticas distributivas."
+        },
+        {
+          "id": "e",
+          "text": "ultrapassado, visto que, conceitualmente e na prática, outros conceitos e políticas de saúde o tornaram obsoleto."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-fiocruz-2024-te23",
+        "number": 37,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "fiocruz-2024-te23-q037-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "fiocruz-2024-te15-q002",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Kathryn Best (2012) em seu livro “Fundamentos da Gestão de Design” explica que “As marcas conectam visível e experiencialmente os mecanismos internos que fazem conectar uma organização (sua visão, seus valores e seus propósitos) ao mundo externo dos públicos, interessados, consumidores e usuários”. Segundo a autora, o modo como as marcas se ligam às necessidades e desejos emocionais das pessoas é conhecido como branding emocional. Sobre marcas e branding, analise as afirmativas abaixo, considerando-as como falsas (F) ou verdadeiras (V).\n\nI. O branding não visa influenciar toda a organização, porém tem como objetivo atingir seus públicos-alvo.\n\nII. Construir uma “imagem de marca” positiva na mente do consumidor é uma das funções mais importantes de uma marca.\n\nIII. Marcas são capazes de suscitar emoções como confiança e, assim, estimular a lealdade de compradores, usuários e seguidores. As afirma vas I, II e III são, respectivamente:",
+      "options": [
+        {
+          "id": "a",
+          "text": "V, V e F."
+        },
+        {
+          "id": "b",
+          "text": "F, V e F."
+        },
+        {
+          "id": "c",
+          "text": "V, F e V."
+        },
+        {
+          "id": "d",
+          "text": "F, V e V."
+        },
+        {
+          "id": "e",
+          "text": "V, V e V."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-fiocruz-2024-te15",
+        "number": 2,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "fiocruz-2024-te15-q002-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q051",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "De acordo com o Código de Ética dos Jornalistas Brasileiros, ao assumir a função de Assessor de Imprensa, o profissional está impedido de",
+      "options": [
+        {
+          "id": "a",
+          "text": "resguardar o sigilo da fonte."
+        },
+        {
+          "id": "b",
+          "text": "recorrer à cláusula de consciência."
+        },
+        {
+          "id": "c",
+          "text": "buscar provas que fundamentem as informações de interesse público."
+        },
+        {
+          "id": "d",
+          "text": "apurar precisamente os fatos e zelar pela correta divulgação da informação."
+        },
+        {
+          "id": "e",
+          "text": "realizar cobertura jornalística para o veículo de comunicação em que trabalha sobre organizações das quais seja assessor."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+        "number": 51,
+        "locator": "PDF p. 12"
+      },
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q051-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q053",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Um profissional de Relações Públicas foi nomeado perito para esclarecer a Justiça em matéria de sua competência. Porém, uma das partes envolvidas no processo é concorrente direto de um cliente seu. Neste caso, de acordo com o Código de Ética dos Profissionais de Relações Públicas, o profissional deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "aceitar a nomeação pois, segundo o Código, a recusa só é justificável caso a parte envolvida seja parente direto do profissional nomeado."
+        },
+        {
+          "id": "b",
+          "text": "recusar a nomeação, mas usar seu relacionamento com a autoridade que o nomeou para influenciar a escolha de um novo perito desfavorável ao concorrente do seu cliente."
+        },
+        {
+          "id": "c",
+          "text": "aceitar a nomeação e agir com absoluta isenção, limitando-se à exposição do que tiver conhecimento a partir da análise dos materiais a ele apresentados."
+        },
+        {
+          "id": "d",
+          "text": "consultar seu cliente para que, juntos, avaliem a melhor maneira de analisar os documentos e materiais a ele apresentados."
+        },
+        {
+          "id": "e",
+          "text": "recusar a nomeação, pois o Código indica que é vedado ao profissional atuar em perícia em que sejam parte tanto o seu cliente quanto o concorrente dele."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-alerj-2026-comunicacao-manha-tipo1",
+        "number": 53,
+        "locator": "PDF p. 13"
+      },
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q053-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "tjrr-2024-direito-tipo1-q019",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Entre os compromissos de conduta ética previstos na Resolução TJRR/TP nº 73/2022 (Código de Ética dos Servidores do Tribunal de Justiça do Estado de Roraima), encontramos o seguinte:",
+      "options": [
+        {
+          "id": "a",
+          "text": "atuar com neutralidade no cumprimento de suas atribuições, sendo possível, contudo, manifestar suas influências político-partidária, religiosa ou ideológica no exercício de suas atribuições."
+        },
+        {
+          "id": "b",
+          "text": "zelar pelo uso correto e eficiente do patrimônio institucional, adotando práticas de economicidade e sustentabilidade, o que não abarca o combate ao desperdício de materiais utilizados no âmbito do Tribunal ou de sua missão institucional."
+        },
+        {
+          "id": "c",
+          "text": "tratar autoridades, superiores hierárquicos, jurisdicionados, advogados, demais servidores, terceirizados, estagiários e outros colaboradores com respeito, cordialidade, disponibilidade e senso de cooperação e justiça, inclusive quanto às limitações pessoais."
+        },
+        {
+          "id": "d",
+          "text": "utilizar com responsabilidade os recursos e ferramentas de Tecnologia da Informação e Comunicação, observando as normas internas, autorizando-se a utilização desses recursos para propagação e divulgação de conteúdo mesmo que atente contra a moralidade administrativa."
+        },
+        {
+          "id": "e",
+          "text": "representar de imediato à autoridade competente todo e qualquer ato ou fato que seja contrário ao interesse público, salvo quanto à denúncia de pressões de superiores hierárquicos que visem a obter vantagens indevidas em decorrência de ações ou omissões imorais, ilegais ou antiéticas."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-tjrr-2024-direito-tipo1",
+        "number": 19,
+        "locator": "PDF p. 4"
+      },
+      "answerKeyId": "tjrr-2024-direito-tipo1-q019-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "539-alce-016-01-q050",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "O atendimento é a área da agência publicitária que faz contato com o cliente e elabora o briefing com todas as informações para que, a partir daí, seja feito todo o trabalho de criação da campanha publicitária. O atendimento",
+      "options": [
+        {
+          "id": "a",
+          "text": "limita-se a responder à solicitação do cliente."
+        },
+        {
+          "id": "b",
+          "text": "tem a responsabilidade pela rentabilidade da conta da agência, concentrando informações sobre faturamento, custos e gastos internos."
+        },
+        {
+          "id": "c",
+          "text": "solicita orçamentos às gráficas e é responsável por negociar e cuidar da impressão e supervisão dos trabalhos junto aos fornecedores."
+        },
+        {
+          "id": "d",
+          "text": "é responsável pelo diagnóstico dos problemas da empresa, com sugestão de soluções."
+        },
+        {
+          "id": "e",
+          "text": "é responsável pela elaboração e implantação do planejamento estratégico da agência."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-539-alce-016-01",
+        "number": 50,
+        "locator": "PDF p. 5"
+      },
+      "answerKeyId": "539-alce-016-01-q050-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "senado-2022-processo-tipo1-q054",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Maria, servidora pública ocupante de cargo de provimento efetivo no âmbito do Senado Federal, se deparou com três proposições legislativas:\n\nI. um projeto de lei de autoria do Presidente da República no qual foi solicitada urgência;\n\nII. um projeto de lei em que, na forma do regimento, é dispensada a competência do Plenário, sendo discutido e votado no âmbito das comissões; e\n\nIII. um projeto de lei orçamentária anual. Considerando o procedimento legislativo a ser observado nessas três proposições, é correto afirmar que estamos perante, respectivamente, procedimentos",
+      "options": [
+        {
+          "id": "a",
+          "text": "abreviado, sumário e especial."
+        },
+        {
+          "id": "b",
+          "text": "sumário, conclusivo e reduzido."
+        },
+        {
+          "id": "c",
+          "text": "concentrado, especial e reduzido."
+        },
+        {
+          "id": "d",
+          "text": "sumário, abreviado e concentrado."
+        },
+        {
+          "id": "e",
+          "text": "abreviado, sumário e terminativo."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-senado-2022-processo-tipo1",
+        "number": 54,
+        "locator": "PDF p. 15"
+      },
+      "answerKeyId": "senado-2022-processo-tipo1-q054-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "106-pf-cg1-01-q073",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Em sistemas biométricos de alta segurança, o controle do FNIR é mais relevante que o do FPIR, pois rejeitar um usuário legítimo acarreta maior risco que aceitar um impostor.",
+      "options": [],
+      "contextIds": [
+        "gaps3-pf-biometrics-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-106-pf-cg1-01",
+        "number": 73,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "106-pf-cg1-01-q073-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
+    },
+    {
+      "id": "106-pf-cg1-01-q074",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O indicador FPIR é diretamente influenciado por um limiar de decisão mal ajustado, o que pode comprometer a segurança de sistemas biométricos ao se aceitarem usuários não autorizados.",
+      "options": [],
+      "contextIds": [
+        "gaps3-pf-biometrics-command"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-106-pf-cg1-01",
+        "number": 74,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "106-pf-cg1-01-q074-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-28",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+        "decisionReference": "documentation/gaps-third-batch-release.md"
+      }
     }
   ],
   "answerKeys": [
@@ -36216,6 +38233,474 @@
       "locator": "PDF p. 1 — 128_TCEMG_008_01",
       "result": "valid",
       "value": "e"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q014-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q014",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q018-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q018",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "e"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q026-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q026",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q035-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q035",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q041-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q041",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q043-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q043",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q044-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q044",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q046-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q046",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q047-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q047",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q063-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q063",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q064-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q064",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "e"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q066-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q066",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "e"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q067-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q067",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q068-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q068",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q077-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q077",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "e"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q078-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q078",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q079-key-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q079",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 17 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q043-key-v1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q043",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 25 — Auditor Federal de Finanças e Controle - Correição e Combate à Corrupção – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q044-key-v1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q044",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 25 — Auditor Federal de Finanças e Controle - Correição e Combate à Corrupção – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q045-key-v1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q045",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 25 — Auditor Federal de Finanças e Controle - Correição e Combate à Corrupção – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q073-key-v1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q073",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 25 — Auditor Federal de Finanças e Controle - Correição e Combate à Corrupção – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q075-key-v1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q075",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 25 — Auditor Federal de Finanças e Controle - Correição e Combate à Corrupção – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "cgu-2022-auditoria-manha-tipo1-q026-key-v1",
+      "questionId": "cgu-2022-auditoria-manha-tipo1-q026",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-auditoria-manha-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 1 — Auditor Federal de Finanças e Controle - Auditoria e Fiscalização – Tipo 1 | Manhã",
+      "result": "valid",
+      "value": "e"
+    },
+    {
+      "id": "fiocruz-2024-te58-q025-key-v1",
+      "questionId": "fiocruz-2024-te58-q025",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-fiocruz-2024-te58-key",
+      "author": null,
+      "locator": "PDF p. 58 — TE58 - Jornalista Web- Rio de Janeiro",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "fiocruz-2024-te58-q031-key-v1",
+      "questionId": "fiocruz-2024-te58-q031",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-fiocruz-2024-te58-key",
+      "author": null,
+      "locator": "PDF p. 58 — TE58 - Jornalista Web- Rio de Janeiro",
+      "result": "valid",
+      "value": "e"
+    },
+    {
+      "id": "fiocruz-2024-te58-q032-key-v1",
+      "questionId": "fiocruz-2024-te58-q032",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-fiocruz-2024-te58-key",
+      "author": null,
+      "locator": "PDF p. 58 — TE58 - Jornalista Web- Rio de Janeiro",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "fiocruz-2024-te23-q036-key-v1",
+      "questionId": "fiocruz-2024-te23-q036",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-fiocruz-2024-te23-key",
+      "author": null,
+      "locator": "PDF p. 23 — TE23 - Reportagem, Redação e Edição em Jornalismo Impresso e Digital- Rio de Janeiro",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "fiocruz-2024-te23-q037-key-v1",
+      "questionId": "fiocruz-2024-te23-q037",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-fiocruz-2024-te23-key",
+      "author": null,
+      "locator": "PDF p. 23 — TE23 - Reportagem, Redação e Edição em Jornalismo Impresso e Digital- Rio de Janeiro",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "fiocruz-2024-te15-q002-key-v1",
+      "questionId": "fiocruz-2024-te15-q002",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-fiocruz-2024-te15-key",
+      "author": null,
+      "locator": "PDF p. 15 — TE15 - Comunicação e Saúde- Rio de Janeiro",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q051-key-v1",
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q051",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 1 — Especialista Legislativo - Nível IV - Comunicação Social - 1 - Turno Manhã",
+      "result": "valid",
+      "value": "e"
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q053-key-v1",
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q053",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 1 — Especialista Legislativo - Nível IV - Comunicação Social - 1 - Turno Manhã",
+      "result": "valid",
+      "value": "e"
+    },
+    {
+      "id": "tjrr-2024-direito-tipo1-q019-key-v1",
+      "questionId": "tjrr-2024-direito-tipo1-q019",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-tjrr-2024-direito-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 1 — Analista Judiciário - Direito - TIPO 1",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "539-alce-016-01-q050-key-v1",
+      "questionId": "539-alce-016-01-q050",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-539-alce-016-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 539_ALCE_016_01",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "senado-2022-processo-tipo1-q054-key-v1",
+      "questionId": "senado-2022-processo-tipo1-q054",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-senado-2022-processo-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 10 — Analista Legislativo - Processo Legislativo - TIPO 1",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "106-pf-cg1-01-q073-key-v1",
+      "questionId": "106-pf-cg1-01-q073",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-106-pf-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 106_PF_CG1_01",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "106-pf-cg1-01-q074-key-v1",
+      "questionId": "106-pf-cg1-01-q074",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-106-pf-cg1-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 106_PF_CG1_01",
+      "result": "valid",
+      "value": true
     }
   ],
   "explanations": [
@@ -47496,6 +49981,698 @@
         {
           "documentId": "source-128-tcemg-008-01-key",
           "locator": "PDF p. 1, questão 44"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q014-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q014",
+      "text": "A chave D preserva o caráter excepcional da intimação por publicação oficial. Frustrada uma entrega postal, não se presume automaticamente que o interessado seja desconhecido ou esteja em domicílio indefinido. O art. 26, §§ 3º–4º, da Lei 9.784/1999 exige meio que assegure a ciência e delimita a publicação oficial. A amostra trata da comunicação no devido processo, sem esgotar todas as garantias.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 7, questão 14"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 14"
+        },
+        {
+          "documentId": "reference-lei-9784-1999",
+          "locator": "Art. 26, §§ 3º–4º"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q018-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q018",
+      "text": "A alternativa E reproduz a exceção de prevenção de fraudes e irregularidades ou proteção da segurança e integridade do titular, vedado o tratamento para outras finalidades. O art. 26, § 1º, V, da LGPD não concede autorização geral para repassar bancos públicos a particulares. É preciso examinar finalidade, base legal e as condições do compartilhamento.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 8, questão 18"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 18"
+        },
+        {
+          "documentId": "reference-lgpd-camara-consolidada",
+          "locator": "Art. 26, § 1º, V"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q026-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q026",
+      "text": "A incorreta é C: o resultado primário contrapõe receitas e despesas primárias, excluindo os componentes financeiros pertinentes. O resultado nominal incorpora o resultado dos juros nominais. Não se deve trocar os conceitos nem inferir que superávit primário implique necessariamente queda nominal da dívida. A amostra é conceitual e não substitui os demonstrativos fiscais e seus ajustes metodológicos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 11, questão 26"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 26"
+        },
+        {
+          "documentId": "reference-lrf-2000",
+          "locator": "Art. 4º, § 1º — metas de resultados primário e nominal"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q035-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q035",
+      "text": "A chave D exige transparência quanto às limitações: registrar as razões da não observância e o impacto no trabalho e nos resultados. Uma restrição operacional não autoriza ocultar limites nem abandonar automaticamente a auditoria. As conclusões devem permanecer proporcionais à evidência efetivamente obtida.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 12, questão 35"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 35"
+        },
+        {
+          "documentId": "reference-cgu-in3-2017-consolidada",
+          "locator": "Seção IV — comunicação dos resultados e limitações do trabalho"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q041-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q041",
+      "text": "A alternativa C combina planejamento baseado nos riscos conhecidos com avaliação da viabilidade da consultoria. A ausência de processo formal de riscos não impede planejar a auditoria nem torna obrigatório adiar tudo. Consultoria pode apoiar a gestão, preservando a decisão e a implantação sob responsabilidade dos gestores; esta questão não esgota pactuação de produtos ou salvaguardas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 14, questão 41"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 41"
+        },
+        {
+          "documentId": "reference-cgu-in3-2017-consolidada",
+          "locator": "Itens 14–15 e seção IV — consultoria e planejamento baseado em riscos"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q043-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q043",
+      "text": "A chave B ressalva a confidencialidade das informações não públicas: boas relações e fluxo aberto não significam divulgação irrestrita. Na ABDI, o vínculo é parcial com o art. 8º do seu Regulamento de Ética: proteção e circulação de informações confidenciais apenas a quem delas necessita. Não se transfere à agência o regime federal de auditoria nem se confunde sigilo legítimo com ocultação de informação de interesse público.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 14, questão 43"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 43"
+        },
+        {
+          "documentId": "reference-cgu-in3-2017-consolidada",
+          "locator": "Seção III — comportamento ético e confidencialidade"
+        },
+        {
+          "documentId": "reference-abdi-etica-2022",
+          "locator": "Art. 8º, especialmente inciso II"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q044-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q044",
+      "text": "A alternativa D considera probabilidade e impacto de cada risco, sem excluir de saída riscos externos ou eventos temporários. A combinação subsidia priorização e resposta, mas depende do contexto e das escalas adotadas. O item inicia a avaliação aplicada de riscos, sem exigir que a auditoria substitua o gerenciamento a cargo da organização.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 14, questão 44"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 44"
+        },
+        {
+          "documentId": "reference-cgu-in3-2017-consolidada",
+          "locator": "Seção IV — planejamento baseado em riscos"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q046-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q046",
+      "text": "A chave D recomenda avaliar, com o supervisor, a possibilidade de trabalhar com causas intermediárias quando a causa raiz não pôde ser estabelecida. Não se inventa uma causa genérica nem se prolonga indefinidamente a investigação. O vínculo inicia a parte de recomendações relacionadas às causas; não atesta implementação, resultado ou benefício.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 15, questão 46"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 46"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q047-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q047",
+      "text": "A chave C exige comunicar a nova situação relevante ao supervisor e aguardar orientação. Achado fora do escopo não deve ser incorporado de maneira automática nem provocar, sozinho, o reinício integral do planejamento. A supervisão avaliará o encaminhamento adequado, preservando os limites e os objetivos do trabalho.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 15, questão 47"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 47"
+        },
+        {
+          "documentId": "reference-cgu-in3-2017-consolidada",
+          "locator": "Seção IV — planejamento, execução e supervisão"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q063-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q063",
+      "text": "A chave C caracteriza monitoramento como acompanhamento ao longo da implementação pelo órgão responsável. Não é julgamento avaliativo posterior nem exige independência externa em todos os casos. Esta amostra inicia a distinção entre acompanhamento de execução e avaliação de resultados; não demonstra, por si, o efeito causal da política.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 19, questão 63"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 63"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q064-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q064",
+      "text": "A chave E admite uma nova análise ex ante quando resultados de uma avaliação ex post indicam a necessidade de reformular a intervenção. Ex ante e ex post expressam a relação da análise com a decisão e a intervenção examinadas, não uma divisão que impede rever políticas já existentes. Não se afirma cobertura de todos os desenhos de avaliação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 20, questão 64"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 64"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q066-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q066",
+      "text": "A chave E identifica atividades como ações e serviços realizados no escopo da política. Insumos são recursos; produtos são entregas diretas; resultados e impactos expressam mudanças em horizontes e níveis diferentes. Um modelo lógico organiza hipóteses da intervenção, mas não prova causalidade apenas por estar desenhado.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 20, questão 66"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 66"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q067-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q067",
+      "text": "A alternativa B examina se a implementação segue o desenho e transforma insumos em produtos. É uma amostra de análise de processos. Não equivale a avaliação de impacto causal e não cobre, sozinha, triangulação, integração de métodos ou generalização. A questão mantém sua classificação e chave originais de avaliação de políticas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 20, questão 67"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 67"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q068-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q068",
+      "text": "A chave C reconhece que ajustes administrativos, como critérios de elegibilidade, podem oferecer espaço para melhoria mesmo sob rigidez orçamentária. Isso não autoriza afastar direitos, lei ou controles. A questão inicia a análise de condições de implementação das recomendações; não avalia integralmente escuta, priorização e efeitos distributivos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 20, questão 68"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 68"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q077-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q077",
+      "text": "A chave E distingue bens meritórios de bens públicos puros: a provisão de bens com externalidades positivas pode ser estimulada por subsídios. Não é necessário que um bem seja simultaneamente não rival e não excludente para justificar uma ação estatal. Monopólios naturais e recursos comuns exigem análise própria.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 24, questão 77"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 77"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q078-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q078",
+      "text": "A alternativa A exemplifica a função alocativa com investimentos de elevado custo e retorno privado baixo, mas relevantes benefícios sociais. A distributiva trata da distribuição de renda e oportunidades; a estabilizadora, de emprego, preços e flutuações macroeconômicas. A amostra não determina uma solução institucional única nem cobre todo o federalismo fiscal.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 24, questão 78"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 78"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q079-comment-v1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q079",
+      "text": "A chave B reconhece que forte peso dos tributos sobre bens e serviços, combinado a menor participação de renda e patrimônio, tende à regressividade: os estratos de menor renda comprometem maior proporção dos recursos no consumo. Trata-se de uma relação teórica; a incidência efetiva depende das regras, isenções e transferências, sem presumir detalhes da reforma tributária vigente.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+          "locator": "PDF p. 25, questão 79"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+          "locator": "PDF p. 17, questão 79"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q043-comment-v1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q043",
+      "text": "A alternativa B aplica o art. 16, § 8º, da Lei 12.846/2013: o descumprimento impede novo acordo por três anos contados do conhecimento do fato pela administração. Não se presume dissolução compulsória nem uma multa automática em dobro. O item inicia efeitos do descumprimento, sem esgotar requisitos, colaboração e obrigações do acordo.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-correicao-tarde-tipo1-paper",
+          "locator": "PDF p. 14, questão 43"
+        },
+        {
+          "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+          "locator": "PDF p. 25, questão 43"
+        },
+        {
+          "documentId": "reference-lei-12846-2013",
+          "locator": "Art. 16, § 8º"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q044-comment-v1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q044",
+      "text": "A chave D afasta a improbidade fundada apenas em culpa: os arts. 1º, §§ 1º–3º, e 10 da Lei 8.429/1992, após a Lei 14.230/2021, exigem dolo. Dano ao erário ou ilegalidade não se confundem automaticamente com ato doloso de improbidade. Isso não elimina outras modalidades de responsabilização cabíveis, que dependem dos seus próprios requisitos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-correicao-tarde-tipo1-paper",
+          "locator": "PDF p. 15, questão 44"
+        },
+        {
+          "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+          "locator": "PDF p. 25, questão 44"
+        },
+        {
+          "documentId": "reference-lei-8429-1992",
+          "locator": "Arts. 1º, §§ 1º–3º, e 10 — redação da Lei 14.230/2021"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q045-comment-v1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q045",
+      "text": "A chave A corresponde ao art. 8º, § 2º, da Lei 12.846/2013: a CGU possui competência concorrente para instaurar PAR ou avocar processos para examinar regularidade ou corrigir andamento, no âmbito do Poder Executivo federal. Não se trata de poder recursal com os prazos inventados nas demais opções nem de atuação somente suplementar.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-correicao-tarde-tipo1-paper",
+          "locator": "PDF p. 15, questão 45"
+        },
+        {
+          "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+          "locator": "PDF p. 25, questão 45"
+        },
+        {
+          "documentId": "reference-lei-12846-2013",
+          "locator": "Art. 8º, § 2º"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q073-comment-v1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q073",
+      "text": "A chave A exige contraditório e ampla defesa antes de alcançar sócios por desconsideração da personalidade jurídica. O cenário fornece sinais concretos de combinação entre fornecedores e confusão patrimonial, não mera coincidência de parentesco. A desconsideração não autoriza responsabilização automática de todo sócio nem dissolução administrativa compulsória.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-correicao-tarde-tipo1-paper",
+          "locator": "PDF p. 24, questão 73"
+        },
+        {
+          "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+          "locator": "PDF p. 25, questão 73"
+        },
+        {
+          "documentId": "reference-lei-12846-2013",
+          "locator": "Art. 14 — desconsideração e garantias"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q075-comment-v1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q075",
+      "text": "A chave C preserva a responsabilização após transformação da pessoa jurídica, conforme art. 4º da Lei 12.846/2013. A responsabilidade objetiva é da pessoa jurídica; dirigentes e administradores respondem conforme sua culpabilidade, nos termos do art. 3º, § 2º. Não se deve transformar a mudança societária em imunidade nem impor responsabilidade objetiva às pessoas físicas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-correicao-tarde-tipo1-paper",
+          "locator": "PDF p. 25, questão 75"
+        },
+        {
+          "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+          "locator": "PDF p. 25, questão 75"
+        },
+        {
+          "documentId": "reference-lei-12846-2013",
+          "locator": "Arts. 2º–4º"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-auditoria-manha-tipo1-q026-comment-v1",
+      "questionId": "cgu-2022-auditoria-manha-tipo1-q026",
+      "text": "A alternativa E privilegia objetivos da política pública e critérios amplos na coordenação entre órgãos, mitigando a tendência a favorecer apenas metas particulares de cada organização. Cooperação não elimina competências ou controles. A amostra trata da coordenação interorganizacional, sem preencher artificialmente todos os tópicos de integração da CGU.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-auditoria-manha-tipo1-paper",
+          "locator": "PDF p. 10, questão 26"
+        },
+        {
+          "documentId": "source-cgu-2022-auditoria-manha-tipo1-key",
+          "locator": "PDF p. 1, questão 26"
+        }
+      ]
+    },
+    {
+      "id": "fiocruz-2024-te58-q025-comment-v1",
+      "questionId": "fiocruz-2024-te58-q025",
+      "text": "A alternativa B é incorreta: consentimento em pesquisa não se restringe à coleta de material biológico. A prova de 2024 trata do sistema CEP/Conep e de consentimento/assentimento em pesquisa. A Resolução CNS 510/2016, arts. 15–17, disciplina registros adequados às características dos participantes em ciências humanas e sociais. A entrevista de auditoria não se torna pesquisa submetida a CEP apenas por usar entrevista: finalidade e regime aplicável precisam ser examinados. A amostra não é uma revisão de toda a regulação de pesquisa posterior a 2024.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-fiocruz-2024-te58-paper",
+          "locator": "PDF p. 8, questão 25"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te58-key",
+          "locator": "PDF p. 58, questão 25"
+        },
+        {
+          "documentId": "reference-cns-510-2016",
+          "locator": "Arts. 15–17 — consentimento/assentimento em ciências humanas e sociais"
+        }
+      ]
+    },
+    {
+      "id": "fiocruz-2024-te58-q031-comment-v1",
+      "questionId": "fiocruz-2024-te58-q031",
+      "text": "A chave E considera corretas as quatro afirmativas: transparência ativa, diários oficiais como fonte, proibição de exigir motivo para pedido de acesso e CSV como formato comum de dados abertos. A LAI, art. 10, § 3º, veda exigências sobre motivos determinantes do pedido. Encontrar uma fonte oficial não dispensa conferir o contexto e a qualidade do dado utilizado.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-fiocruz-2024-te58-paper",
+          "locator": "PDF p. 10, questão 31"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te58-key",
+          "locator": "PDF p. 58, questão 31"
+        },
+        {
+          "documentId": "reference-lei-12527-2011",
+          "locator": "Art. 10, § 3º"
+        }
+      ]
+    },
+    {
+      "id": "fiocruz-2024-te58-q032-comment-v1",
+      "questionId": "fiocruz-2024-te58-q032",
+      "text": "A chave C reúne I, II e IV: compreender origem e limites, preservar cópia original e verificar registros ausentes. Excluir valores extremos indiscriminadamente, como sugere III, pode manipular a evidência e esconder fenômenos relevantes. A questão inicia integridade e rastreabilidade dos registros, sem cobrir sozinha autoria e plágio.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-fiocruz-2024-te58-paper",
+          "locator": "PDF p. 10, questão 32"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te58-key",
+          "locator": "PDF p. 58, questão 32"
+        }
+      ]
+    },
+    {
+      "id": "fiocruz-2024-te23-q036-comment-v1",
+      "questionId": "fiocruz-2024-te23-q036",
+      "text": "A alternativa D destaca desigualdades sistemáticas associadas a características sociais e oportunidades de saúde. A comparação não se reduz a comportamentos individuais ou à presença genérica de risco. A amostra inicia o recorte saúde/desigualdades, sem cobrir toda a realidade brasileira, pobreza, habitação ou vulnerabilidade climática.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-fiocruz-2024-te23-paper",
+          "locator": "PDF p. 10, questão 36"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te23-key",
+          "locator": "PDF p. 23, questão 36"
+        }
+      ]
+    },
+    {
+      "id": "fiocruz-2024-te23-q037-comment-v1",
+      "questionId": "fiocruz-2024-te23-q037",
+      "text": "A chave D vincula o Estado de Bem-Estar Social à seguridade, à igualdade e às políticas distributivas no contexto descrito. É uma amostra de arranjo histórico de desenvolvimento e proteção social. Não demonstra que todas as configurações sejam idênticas nem esgota mercado, planejamento, industrialização e inovação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-fiocruz-2024-te23-paper",
+          "locator": "PDF p. 10, questão 37"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te23-key",
+          "locator": "PDF p. 23, questão 37"
+        }
+      ]
+    },
+    {
+      "id": "fiocruz-2024-te15-q002-comment-v1",
+      "questionId": "fiocruz-2024-te15-q002",
+      "text": "A chave D corresponde a F, V e V. Marcas conectam valores e propósitos da organização aos seus públicos, suscitam associações e emoções e podem estimular confiança e lealdade. Branding envolve a organização, não apenas um público externo ou uma logomarca. O enunciado inicia o conceito e as funções da marca; não se limita a naming nem representa cobertura integral de todas as teorias de marca.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-fiocruz-2024-te15-paper",
+          "locator": "PDF p. 3, questão 2"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te15-key",
+          "locator": "PDF p. 15, questão 2"
+        }
+      ]
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q051-comment-v1",
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q051",
+      "text": "A alternativa E identifica a vedação do Código de Ética dos Jornalistas, art. 7º, VI: cobrir para o veículo organizações das quais se é assessor. As outras opções são garantias e deveres profissionais. O vínculo com a ABDI é parcial, para reconhecer conflitos entre interesses e papéis; seus arts. 12–17 devem ser estudados na norma própria. A agência não passa a adotar automaticamente o código profissional como seu regulamento interno.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-alerj-2026-comunicacao-manha-tipo1-paper",
+          "locator": "PDF p. 12, questão 51"
+        },
+        {
+          "documentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+          "locator": "PDF p. 1, questão 51"
+        },
+        {
+          "documentId": "reference-abdi-etica-2022",
+          "locator": "Arts. 12–17 — conflito de interesses; comparação parcial"
+        },
+        {
+          "documentId": "reference-fenaj-etica-2007",
+          "locator": "Art. 7º, VI"
+        }
+      ]
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q053-comment-v1",
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q053",
+      "text": "A chave E determina a recusa da perícia quando cliente ou concorrente dele integra a disputa, segundo o código profissional citado pela prova. O caso exercita identificação de interesse que prejudica a isenção. A relação com os arts. 12–17 da ABDI é temática e parcial: não se afirma que esses artigos contenham a mesma regra de perícia do Conferp nem se transfere à agência a regulamentação de outra profissão.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-alerj-2026-comunicacao-manha-tipo1-paper",
+          "locator": "PDF p. 13, questão 53"
+        },
+        {
+          "documentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+          "locator": "PDF p. 1, questão 53"
+        },
+        {
+          "documentId": "reference-abdi-etica-2022",
+          "locator": "Arts. 12–17 — interesses privados e imparcialidade; comparação parcial"
+        }
+      ]
+    },
+    {
+      "id": "tjrr-2024-direito-tipo1-q019-comment-v1",
+      "questionId": "tjrr-2024-direito-tipo1-q019",
+      "text": "A alternativa C preserva respeito, cordialidade, cooperação e justiça no trato com todos, inclusive diante de limitações pessoais. As demais opções relativizam neutralidade, combate ao desperdício, uso responsável dos recursos ou denúncia de pressões. O vínculo é parcial com os arts. 4º–5º da ABDI; o Código do TJRR permanece como origem da questão e não vira norma interna da agência.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-tjrr-2024-direito-tipo1-paper",
+          "locator": "PDF p. 4, questão 19"
+        },
+        {
+          "documentId": "source-tjrr-2024-direito-tipo1-key",
+          "locator": "PDF p. 1, questão 19"
+        },
+        {
+          "documentId": "reference-abdi-etica-2022",
+          "locator": "Arts. 4º–5º — direitos e deveres"
+        }
+      ]
+    },
+    {
+      "id": "539-alce-016-01-q050-comment-v1",
+      "questionId": "539-alce-016-01-q050",
+      "text": "A alternativa B enfatiza a responsabilidade pela rentabilidade da conta e pelas informações de faturamento, custos e gastos internos. O atendimento articula a relação cliente–agência e seus aspectos comerciais; não se resume a receber solicitações nem à produção gráfica. A amostra é de atendimento publicitário, não de atendimento genérico ao cidadão.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-539-alce-016-01-paper",
+          "locator": "PDF p. 5, questão 50"
+        },
+        {
+          "documentId": "source-539-alce-016-01-key",
+          "locator": "PDF p. 1, questão 50"
+        }
+      ]
+    },
+    {
+      "id": "senado-2022-processo-tipo1-q054-comment-v1",
+      "questionId": "senado-2022-processo-tipo1-q054",
+      "text": "A chave D distingue três procedimentos: sumário para urgência constitucional, abreviado para deliberação conclusiva em comissão e concentrado para a lei orçamentária. A amostra inicia esses três tipos, sem presumir cobertura dos demais ritos listados no edital da Câmara. O cenário de origem é o Senado e não importa automaticamente suas normas internas para a Câmara.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-senado-2022-processo-tipo1-paper",
+          "locator": "PDF p. 15, questão 54"
+        },
+        {
+          "documentId": "source-senado-2022-processo-tipo1-key",
+          "locator": "PDF p. 10, questão 54"
+        }
+      ]
+    },
+    {
+      "id": "106-pf-cg1-01-q073-comment-v1",
+      "questionId": "106-pf-cg1-01-q073",
+      "text": "O item está errado: em controle biométrico de alta segurança, aceitar um impostor é um falso positivo relevante à segurança; rejeitar um usuário legítimo é falso negativo e afeta disponibilidade e experiência. A prioridade depende do contexto e dos custos dos erros, não da inversão afirmada. A amostra só inicia falsos positivos/negativos, sem preencher falácia ecológica ou viés de confirmação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-106-pf-cg1-01-paper",
+          "locator": "PDF p. 1, questão 73"
+        },
+        {
+          "documentId": "source-106-pf-cg1-01-key",
+          "locator": "PDF p. 1, questão 73"
+        }
+      ]
+    },
+    {
+      "id": "106-pf-cg1-01-q074-comment-v1",
+      "questionId": "106-pf-cg1-01-q074",
+      "text": "O item está certo: o limiar de decisão altera a aceitação indevida de usuários não autorizados, afetando a taxa de identificação de falsos positivos. Ajustá-lo envolve compromisso com falsos negativos e com os custos de cada erro. O vínculo é conceitual com erros de classificação, sem generalizar os resultados para qualquer teste ou inferência.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-106-pf-cg1-01-paper",
+          "locator": "PDF p. 1, questão 74"
+        },
+        {
+          "documentId": "source-106-pf-cg1-01-key",
+          "locator": "PDF p. 1, questão 74"
         }
       ]
     }
@@ -61678,6 +64855,384 @@
       "syllabusItemId": "abdi-2026-abdi-etica-missao-4-2",
       "status": "confirmed",
       "justification": "Correspondência parcial revisada: Direitos, deveres e vedações aplicáveis aos profissionais da ABDI (arts. 4º a 6º do Regulamento de Ética e Conduta). Texto, revisão, chave e comentário anteriores permanecem inalterados. Ética/transparência e interesse público: relação conceitual com arts. 3º, V, e 4º do regulamento próprio ABDI; normas do TCE/MG não são importadas."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q014-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q014",
+      "syllabusItemId": "cgu-2026-direito-controle-responsabilizacao-2-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Devido processo, contraditório, defesa e imparcialidade; finalidade da instrução e da prova. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q018-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q018",
+      "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-2-2",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Informação classificada, sigilos legais, informação pessoal e documentos preparatórios; acesso parcial, motivação e revisão de restrições. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q026-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q026",
+      "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-1-2",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Progressividade, regressividade e neutralidade da tributação; resultados primário e nominal, déficit e necessidades de financiamento; restrições, riscos e sustentabilidade fiscal em análise aplicada. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q035-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q035",
+      "syllabusItemId": "cgu-2026-atuacao-integrada-3-2",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Distinção entre sinal de risco, evidência e conclusão; necessidade de aprofundamento e proporcionalidade da afirmação. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q035-gaps3-mapping-2",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q035",
+      "syllabusItemId": "cgu-2026-auditoria-governamental-5-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Testes sobre qualidade de dados, controles e rastreabilidade; desenho de validações independentes; riscos de viés, erro e mudança de desempenho; supervisão e governança de sistemas automatizados; limites do uso de IA como evidência. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q041-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q041",
+      "syllabusItemId": "cgu-2026-atuacao-integrada-1-2",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Avaliação e consultoria como serviços de auditoria interna governamental; apuração de atos e fatos com indícios de ilegalidade ou irregularidade na utilização de recursos públicos federais como competência do sistema de controle interno. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q041-gaps3-mapping-2",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q041",
+      "syllabusItemId": "cgu-2026-atuacao-integrada-2-2",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Priorização por risco, materialidade e relevância social em nível conceitual; adequação do trabalho às finalidades de avaliação, consultoria ou apuração. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q041-gaps3-mapping-3",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q041",
+      "syllabusItemId": "cgu-2026-atuacao-integrada-2-3",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Apoio à melhoria da gestão com preservação da autonomia técnica e das responsabilidades de decisão e execução dos gestores. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q041-gaps3-mapping-4",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q041",
+      "syllabusItemId": "cgu-2026-auditoria-governamental-1-3",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Consultoria: análise da demanda, pactuação de objetivos, escopo e produtos; assessoramento, aconselhamento e facilitação; salvaguardas de objetividade e limites à assunção de responsabilidades gerenciais. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q043-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q043",
+      "syllabusItemId": "cgu-2026-atuacao-integrada-4-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Clareza, contexto e utilidade dos resultados; publicidade e proteção de pessoas e informações. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q043-gaps3-mapping-2",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q043",
+      "syllabusItemId": "cgu-2026-evidencias-dados-ia-4-2",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Escuta sem indução, confidencialidade e risco de identificação indireta. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q043-gaps3-mapping-3",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q043",
+      "syllabusItemId": "abdi-2026-abdi-etica-missao-4-3",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Critérios de conduta profissional: mídias sociais, confidencialidade de informações, propriedade intelectual, utilização de recursos institucionais, doações e patrocínios (arts. 7º a 11 do Regulamento de Ética e Conduta). Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q044-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q044",
+      "syllabusItemId": "cgu-2026-governanca-riscos-integridade-2-2",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Identificação de vulnerabilidades e de controles compatíveis com situações usuais, a partir dos dados fornecidos. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q046-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q046",
+      "syllabusItemId": "cgu-2026-atuacao-integrada-4-2",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Recomendações relacionadas a causas e riscos; distinção entre plano de ação, implementação, resultado e benefício. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q047-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q047",
+      "syllabusItemId": "cgu-2026-auditoria-governamental-2-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Universo, seleção e priorização; risco de auditoria; objetivos, escopo, critérios e questões; matriz de planejamento, programa de trabalho e desenho de evidências. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q063-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q063",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-6-3",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Distinção entre plano, implementação e resultados, com evidências adequadas a cada etapa. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q064-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q064",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-3",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Avaliações ex ante e ex post, de desenho, implementação, resultados, impacto e eficiência. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q066-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q066",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-1-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Causas e manifestações do problema público; população elegível e público atendido; instrumentos, incentivos, teoria da mudança e modelo lógico. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q066-gaps3-mapping-2",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q066",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Insumos, atividades, produtos, resultados e impactos; eficiência, eficácia, efetividade e equidade. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q067-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q067",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-4-2",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Análise de processos e hipóteses de mecanismo; triangulação e integração de evidências quantitativas e qualitativas; limites de generalização. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q068-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q068",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-6-2",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Priorização, escuta, adaptação e condições de implementação; acompanhamento de benefícios e efeitos distributivos. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q077-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q077",
+      "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-1-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Funções alocativa, distributiva e estabilizadora; bens públicos, externalidades e monopólios naturais; financiamento de políticas e federalismo fiscal. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q078-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q078",
+      "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-1-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Funções alocativa, distributiva e estabilizadora; bens públicos, externalidades e monopólios naturais; financiamento de políticas e federalismo fiscal. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-tarde-tipo1-q079-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q079",
+      "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-1-2",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Progressividade, regressividade e neutralidade da tributação; resultados primário e nominal, déficit e necessidades de financiamento; restrições, riscos e sustentabilidade fiscal em análise aplicada. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q043-gaps3-mapping-1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q043",
+      "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-6-3",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Acordo de leniência: requisitos, colaboração, efeitos, obrigações de integridade e limites. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q044-gaps3-mapping-1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q044",
+      "syllabusItemId": "cgu-2026-direito-controle-responsabilizacao-4-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Distinção entre indício, falha de gestão, irregularidade e responsabilidade. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q045-gaps3-mapping-1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q045",
+      "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-6-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Processo administrativo disciplinar e processo administrativo de responsabilização de pessoas jurídicas: cabimento, instrução, garantias e decisão. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q073-gaps3-mapping-1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q073",
+      "syllabusItemId": "cgu-2026-direito-controle-responsabilizacao-2-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Devido processo, contraditório, defesa e imparcialidade; finalidade da instrução e da prova. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q073-gaps3-mapping-2",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q073",
+      "syllabusItemId": "cgu-2026-contratacoes-transferencias-4-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Concentração e vínculos entre fornecedores; fracionamento e padrões atípicos; comprovação física e documental; cruzamentos de dados; limites de amostras dirigidas por risco. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q073-gaps3-mapping-3",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q073",
+      "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-5-4",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Licitude, suficiência e valoração da prova; compartilhamento entre instâncias, contraditório, defesa e motivação. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q075-gaps3-mapping-1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q075",
+      "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-5-3",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Responsabilidade objetiva da pessoa jurídica e requisitos de ato lesivo e interesse ou benefício. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "cgu-2022-auditoria-manha-tipo1-q026-gaps3-mapping-1",
+      "questionId": "cgu-2022-auditoria-manha-tipo1-q026",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-2-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Arranjos federativos e interorganizacionais; parcerias; capacidades, recursos e diferenças territoriais; discricionariedade na linha de frente e barreiras administrativas. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "fiocruz-2024-te58-q025-gaps3-mapping-1",
+      "questionId": "fiocruz-2024-te58-q025",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-7-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Dignidade, privacidade e segurança das pessoas; riscos de coerção, exposição e reidentificação; informação e consentimento quando cabível. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "fiocruz-2024-te58-q025-gaps3-mapping-2",
+      "questionId": "fiocruz-2024-te58-q025",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-7-3",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Distinção entre auditoria e pesquisa científica envolvendo seres humanos; finalidades, proteção dos participantes e requisitos de apreciação ética. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "fiocruz-2024-te58-q025-gaps3-mapping-3",
+      "questionId": "fiocruz-2024-te58-q025",
+      "syllabusItemId": "cgu-2026-evidencias-dados-ia-4-3",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Distinção entre as condições e os regimes de proteção de entrevistados em auditoria, participantes de pesquisa e denunciantes. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "fiocruz-2024-te58-q031-gaps3-mapping-1",
+      "questionId": "fiocruz-2024-te58-q031",
+      "syllabusItemId": "cgu-2026-evidencias-dados-ia-1-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Relação entre problema, pergunta e informação necessária; fontes documentais, administrativas, estatísticas e de participação social. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "fiocruz-2024-te58-q031-gaps3-mapping-2",
+      "questionId": "fiocruz-2024-te58-q031",
+      "syllabusItemId": "cgu-2026-transparencia-ouvidoria-5-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Confiabilidade e contexto das fontes; distinção entre fato, alegação e interpretação. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "fiocruz-2024-te58-q032-gaps3-mapping-1",
+      "questionId": "fiocruz-2024-te58-q032",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-7-2",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Integridade dos registros, autoria e prevenção de plágio, fabricação ou seleção indevida de evidências. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "fiocruz-2024-te58-q032-gaps3-mapping-2",
+      "questionId": "fiocruz-2024-te58-q032",
+      "syllabusItemId": "cgu-2026-evidencias-dados-ia-1-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Relação entre problema, pergunta e informação necessária; fontes documentais, administrativas, estatísticas e de participação social. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "fiocruz-2024-te23-q036-gaps3-mapping-1",
+      "questionId": "fiocruz-2024-te23-q036",
+      "syllabusItemId": "cgu-2026-sociedade-brasileira-5-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Pobreza, renda e proteção social; educação, saúde, saneamento e habitação como problemas públicos; sustentabilidade e vulnerabilidade climática; leitura contextual de indicadores e desigualdades. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "fiocruz-2024-te23-q037-gaps3-mapping-1",
+      "questionId": "fiocruz-2024-te23-q037",
+      "syllabusItemId": "cgu-2026-estado-democracia-9-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Arranjos de desenvolvimento com diferentes combinações de mercado, planejamento, regulação, provisão pública e atuação empresarial do Estado; industrialização, inovação e transformação produtiva. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "fiocruz-2024-te15-q002-gaps3-mapping-1",
+      "questionId": "fiocruz-2024-te15-q002",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-4-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Conceito de marca. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "fiocruz-2024-te15-q002-gaps3-mapping-2",
+      "questionId": "fiocruz-2024-te15-q002",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-6",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Identidade, imagem, marca e reputação institucional. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q051-gaps3-mapping-1",
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q051",
+      "syllabusItemId": "abdi-2026-abdi-etica-missao-4-4",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Conflito de interesses: atividades paralelas, atividades políticas, sindicais e religiosas, relacionamento entre profissionais, brindes, presentes, favores, participação em eventos e utilização de informações privilegiadas (arts. 12 a 17 do Regulamento de Ética e Conduta). Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q051-gaps3-mapping-2",
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q051",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-23",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Ética e legislação aplicadas à comunicação. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q053-gaps3-mapping-1",
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q053",
+      "syllabusItemId": "abdi-2026-abdi-etica-missao-4-4",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Conflito de interesses: atividades paralelas, atividades políticas, sindicais e religiosas, relacionamento entre profissionais, brindes, presentes, favores, participação em eventos e utilização de informações privilegiadas (arts. 12 a 17 do Regulamento de Ética e Conduta). Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "alerj-2026-comunicacao-manha-tipo1-q053-gaps3-mapping-2",
+      "questionId": "alerj-2026-comunicacao-manha-tipo1-q053",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-23",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Ética e legislação aplicadas à comunicação. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "tjrr-2024-direito-tipo1-q019-gaps3-mapping-1",
+      "questionId": "tjrr-2024-direito-tipo1-q019",
+      "syllabusItemId": "abdi-2026-abdi-etica-missao-4-2",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Direitos, deveres e vedações aplicáveis aos profissionais da ABDI (arts. 4º a 6º do Regulamento de Ética e Conduta). Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "539-alce-016-01-q050-gaps3-mapping-1",
+      "questionId": "539-alce-016-01-q050",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-1-4",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Atendimento. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "senado-2022-processo-tipo1-q054-gaps3-mapping-1",
+      "questionId": "senado-2022-processo-tipo1-q054",
+      "syllabusItemId": "camara-2026-processo-legislativo-regimento-1-1",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Tipos de procedimento, ordinário, abreviado, sumário, sumaríssimo, especial e concentrado. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "106-pf-cg1-01-q073-gaps3-mapping-1",
+      "questionId": "106-pf-cg1-01-q073",
+      "syllabusItemId": "cgu-2026-evidencias-dados-ia-3-2",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Generalizações indevidas, falácia ecológica e viés de confirmação; falsos positivos e falsos negativos. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "106-pf-cg1-01-q074-gaps3-mapping-1",
+      "questionId": "106-pf-cg1-01-q074",
+      "syllabusItemId": "cgu-2026-evidencias-dados-ia-3-2",
+      "status": "confirmed",
+      "justification": "Amostra parcial do recorte efetivamente avaliado: Generalizações indevidas, falácia ecológica e viés de confirmação; falsos positivos e falsos negativos. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+    },
+    {
+      "id": "106-pf-cg1-01-q061-gaps3-additional",
+      "questionId": "106-pf-cg1-01-q061",
+      "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-4",
+      "status": "confirmed",
+      "justification": "Suítes e compatibilidade: o texto nomeia LibreOffice e seus tipos de documentos. Amostra de conceitos comuns à família, sem testar recursos exclusivos da versão7.x nem preencher uma reserva MC."
+    },
+    {
+      "id": "fiocruz-2024-te58-q038-gaps3-additional",
+      "questionId": "fiocruz-2024-te58-q038",
+      "syllabusItemId": "cgu-2026-etica-publica-4-1",
+      "status": "confirmed",
+      "justification": "Prevenção de racismo e discriminação na comunicação. Princípio comum, sem transferir o regime SUS ou uma norma própria Fiocruz para a CGU."
     }
   ],
   "scoringRules": [
@@ -64673,6 +68228,15 @@
       "text": "Julgue os itens subsequentes, relacionados à estrutura e ao fechamento das demonstrações contábeis aplicadas ao setor público.",
       "sourceDocumentId": "source-057-ibama-001-01-paper",
       "sourcePage": 3,
+      "revision": 1
+    },
+    {
+      "id": "gaps3-pf-biometrics-command",
+      "kind": "instruction",
+      "label": "Comando da prova",
+      "text": "Julgue os próximos itens, relativos aos modos de transmissão de dados, ao modelo OSI, à linguagem Python e aos conceitos de falso positivo (FPIR) e falso negativo (FNIR) dos testes de acurácia do NIST.GOV.",
+      "sourceDocumentId": "source-106-pf-cg1-01-paper",
+      "sourcePage": 1,
       "revision": 1
     }
   ]

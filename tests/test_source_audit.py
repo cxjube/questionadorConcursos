@@ -18,11 +18,11 @@ class SourceAuditTests(unittest.TestCase):
     def test_all_retained_sources_have_recorded_official_matches(self):
         """Keep document identity separate from a question bank ready for study."""
         self.assertEqual(audit_sources(self.catalog, self.evidence), [])
-        self.assertEqual(sum(r['outcome'] == 'byte_match' for r in self.evidence['documents']), 194)
-        self.assertEqual(sum(d['status'] == 'verified' for d in self.catalog['documents']), 194)
+        self.assertEqual(sum(r['outcome'] == 'byte_match' for r in self.evidence['documents']), 206)
+        self.assertEqual(sum(d['status'] == 'verified' for d in self.catalog['documents']), 206)
         self.assertTrue(all(n['status'] == 'verified' for n in self.catalog['notices']))
         self.assertTrue(all(p['inventory']['externalVerification'] for p in self.catalog['papers']))
-        self.assertEqual(len(self.catalog['questions']), 608)
+        self.assertEqual(len(self.catalog['questions']), 644)
 
     def test_official_hash_must_match(self):
         """Reject changing remote digest without changing the retained document."""

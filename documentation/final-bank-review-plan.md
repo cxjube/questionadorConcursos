@@ -25,3 +25,5 @@ Concluir cada objetivo com relatório próprio de itens mantidos/corrigidos/reti
 Este arquivo é um plano, não uma declaração de auditoria completa já executada.
 
 Atualização de 28/10/2026: a [ampliação das reservas](reserve-second-batch-release.md) mantém os três simulados funcionais e registra lacunas e fontes adiadas. A conferência técnica automatizada alcança textos, apoios, chaves, contratos, composição e fluxos; a varredura editorial integral por objetivo permanece pendente. A rodada humana tem [roteiro próprio](acceptance-three-goals.md).
+
+Atualização de 28/10/2026: o [terceiro lote integrado](gaps-third-batch-release.md) conclui o reforço inicial de Ética (oito MC) e a triagem dos 161 ramos anteriores. Permanecem 10/15/93 ramos vazios em Câmara/ABDI/CGU. Esta entrega não executou a varredura completa deste protocolo; ela é a próxima etapa definida pelo usuário.

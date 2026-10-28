@@ -2,18 +2,18 @@
 
 Analista de Produtividade e Inovação — Comunicação e Marketing
 
-Revisão: 2026-10-28. **240 questões distintas: 88 MC e 152 C/E.**
-Programa: 97 itens; 72 com vínculo direto, 7 apenas por descendentes e 18 subárvores sem questões.
+Revisão: 2026-10-28. **246 questões distintas: 93 MC e 153 C/E.**
+Programa: 97 itens; 75 com vínculo direto, 7 apenas por descendentes e 15 subárvores sem questões.
 
 A prova exige múltipla escolha. C/E são treino de conteúdo no formato original e não compõem reserva MC. Prioridade A indica ausência de MC; B, uma ou duas MC; C, pelo menos três. Não são pesos oficiais nem domínio do assunto.
 
-[Lote atual e plano de fechamento](reserve-second-batch-release.md) · [CSV](coverage-abdi-current.csv)
+[Lote atual e plano de fechamento](gaps-third-batch-release.md) · [CSV](coverage-abdi-current.csv)
 
 | Área | Questões distintas | MC | C/E |
 | --- | ---: | ---: | ---: |
-| Gerais | 110 | 40 | 70 |
-| Institucionais | 21 | 21 | 0 |
-| Específicos | 125 | 37 | 88 |
+| Gerais | 111 | 40 | 71 |
+| Institucionais | 25 | 25 | 0 |
+| Específicos | 128 | 40 | 88 |
 
 As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter questões únicas.
 
@@ -51,7 +51,7 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | Noções de Informática | 1 | Conceitos básicos de Informática: hardware, software, periféricos, dispositivos de entrada, saída e armazenamento, organização de arquivos e pastas e principais extensões de arquivos; | 1 | 0 | Direto |
 | Noções de Informática | 2 | Sistemas operacionais Microsoft Windows 10 e Microsoft Windows 11, em português (Brasil): área de trabalho, gerenciamento de arquivos e pastas, configurações, pesquisa, impressão, compartilhamento e principais recursos; | 3 | 0 | Direto |
 | Noções de Informática | 3 | Microsoft 365, em português (Brasil): Word, Excel, PowerPoint e Outlook; | 5 | 0 | Direto |
-| Noções de Informática | 4 | LibreOffice 7.x ou superior, em português (Brasil): Writer, Calc e Impress; | 0 | 0 | Sem questões |
+| Noções de Informática | 4 | LibreOffice 7.x ou superior, em português (Brasil): Writer, Calc e Impress; | 0 | 1 | Direto |
 | Noções de Informática | 5 | Internet e Intranet: conceitos, navegação, navegadores Google Chrome, Mozilla Firefox e Microsoft Edge, mecanismos de busca, webmail e demais serviços da Internet; | 1 | 0 | Direto |
 | Noções de Informática | 6 | Correio eletrônico: envio, recebimento, organização de mensagens, anexos, contatos e calendários; | 0 | 0 | Sem questões |
 | Noções de Informática | 7 | Segurança da informação: vírus, malwares, phishing, golpes eletrônicos, antivírus, firewall, backup, autenticação e boas práticas de segurança digital; | 0 | 7 | Direto |
@@ -84,9 +84,9 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.9 | Prestação de contas, responsabilidades e disposições finais. | 0 | 0 | Sem questões |
 | ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4 | ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 0 | 0 | Só descendentes |
 | ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.1 | Regulamento de Ética e Conduta da ABDI (Resolução do Conselho Deliberativo nº 004/2022): objetivo, aplicabilidade, valores e princípios éticos (arts. 1º a 3º). | 3 | 0 | Direto |
-| ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.2 | Direitos, deveres e vedações aplicáveis aos profissionais da ABDI (arts. 4º a 6º do Regulamento de Ética e Conduta). | 2 | 0 | Direto |
-| ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.3 | Critérios de conduta profissional: mídias sociais, confidencialidade de informações, propriedade intelectual, utilização de recursos institucionais, doações e patrocínios (arts. 7º a 11 do Regulamento de Ética e Conduta). | 0 | 0 | Sem questões |
-| ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.4 | Conflito de interesses: atividades paralelas, atividades políticas, sindicais e religiosas, relacionamento entre profissionais, brindes, presentes, favores, participação em eventos e utilização de informações privilegiadas (arts. 12 a 17 do Regulamento de Ética e Conduta). | 0 | 0 | Sem questões |
+| ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.2 | Direitos, deveres e vedações aplicáveis aos profissionais da ABDI (arts. 4º a 6º do Regulamento de Ética e Conduta). | 3 | 0 | Direto |
+| ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.3 | Critérios de conduta profissional: mídias sociais, confidencialidade de informações, propriedade intelectual, utilização de recursos institucionais, doações e patrocínios (arts. 7º a 11 do Regulamento de Ética e Conduta). | 1 | 0 | Direto |
+| ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.4 | Conflito de interesses: atividades paralelas, atividades políticas, sindicais e religiosas, relacionamento entre profissionais, brindes, presentes, favores, participação em eventos e utilização de informações privilegiadas (arts. 12 a 17 do Regulamento de Ética e Conduta). | 2 | 0 | Direto |
 | ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.5 | Descumprimento das normas, medidas disciplinares, comunicação de irregularidades, denúncias e gestão do Regulamento de Ética e Conduta (arts. 18 a 25). | 0 | 0 | Sem questões |
 | ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.6 | Missão, visão, valores, diretrizes e objetivos estratégicos da ABDI, conforme o Planejamento Estratégico 2024–2029, aprovado pela Resolução do Conselho Deliberativo nº 008/2023. | 0 | 0 | Sem questões |
 | ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.7 | Atuação institucional da ABDI: promoção do desenvolvimento industrial, inovação, transformação digital, difusão tecnológica, competitividade e sustentabilidade, conforme o art. 1º da Lei nº 11.080/2004, o art. 2º do Decreto nº 5.352/2005 e o Planejamento Estratégico 2024–2029. | 0 | 0 | Sem questões |
@@ -95,7 +95,7 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | Comunicação e Marketing | 3 | Comunicação social, institucional, organizacional e pública. | 2 | 9 | Direto |
 | Comunicação e Marketing | 4 | Planejamento estratégico de comunicação. | 0 | 7 | Direto |
 | Comunicação e Marketing | 5 | Comunicação integrada. | 1 | 0 | Direto |
-| Comunicação e Marketing | 6 | Identidade, imagem, marca e reputação institucional. | 0 | 7 | Direto |
+| Comunicação e Marketing | 6 | Identidade, imagem, marca e reputação institucional. | 1 | 7 | Direto |
 | Comunicação e Marketing | 7 | Assessoria de comunicação e assessoria de imprensa. | 2 | 1 | Direto |
 | Comunicação e Marketing | 8 | Relacionamento com a imprensa e fontes de informação. | 2 | 2 | Direto |
 | Comunicação e Marketing | 9 | Gêneros jornalísticos. | 2 | 1 | Direto |
@@ -112,7 +112,7 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | Comunicação e Marketing | 20 | Gestão de crises e comunicação de risco. | 3 | 4 | Direto |
 | Comunicação e Marketing | 21 | Relacionamento com públicos de interesse e comunidades. | 0 | 2 | Direto |
 | Comunicação e Marketing | 22 | Comunicação científica, tecnológica e ambiental. | 6 | 1 | Direto |
-| Comunicação e Marketing | 23 | Ética e legislação aplicadas à comunicação. | 5 | 4 | Direto |
+| Comunicação e Marketing | 23 | Ética e legislação aplicadas à comunicação. | 7 | 4 | Direto |
 | Comunicação e Marketing | 24 | Direito à informação, transparência e acesso à informação. | 2 | 2 | Direto |
 | Comunicação e Marketing | 25 | Proteção de dados pessoais aplicada às atividades de comunicação. | 2 | 6 | Direto |
 | Comunicação e Marketing | 26 | Acessibilidade, inclusão e linguagem simples na comunicação. | 6 | 0 | Direto |

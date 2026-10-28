@@ -4,6 +4,34 @@ import re
 
 def answer_table(text: str, booklet: str) -> dict[int, str]:
     """Select the exact FGV booklet or labelled Cebraspe rows and reject ambiguity."""
+    if 'Controladoria Geral da União' in text and 'CONCURSO PÚBLICO 2021' in text:
+        # CGU repeats the same role/type heading in both sessions. Neither a
+        # substring match nor the first matching heading identifies a key.
+        identity, separator, session = booklet.rpartition(' | ')
+        if not separator or session not in {'Manhã', 'Tarde'}:
+            raise ValueError('CGU key requires the exact role, type and session')
+        pages = [page for page in text.split('\f')
+                 if f'GABARITOS – PROVAS DO DIA 20/03/2022 - {session}' in page
+                 and 'GABARITO DEFINITIVO' in page
+                 and identity in [line.strip() for line in page.splitlines()]]
+        if len(pages) != 1:
+            raise ValueError('CGU key requires one exact role/type/session table')
+        body = pages[0].split(identity, 1)[1]
+        rows = [row for row in body.splitlines()
+                if row.strip() and row.strip() != '(*) Questão anulada']
+        result = {}
+        if len(rows) % 2:
+            raise ValueError('Incomplete CGU answer table')
+        for numbers, answers in zip(rows[::2], rows[1::2]):
+            if not re.fullmatch(r'\s*\d+(?:\s+\d+)*\s*', numbers) or not re.fullmatch(r'\s*[A-EX*](?:\s+[A-EX*])*\s*', answers):
+                raise ValueError('Invalid CGU definitive answer row')
+            ns, values = [int(n) for n in numbers.split()], answers.split()
+            if len(ns) != len(values) or any(n in result for n in ns):
+                raise ValueError('Duplicate or truncated CGU answer row')
+            result.update((n, 'X' if v == '*' else v) for n, v in zip(ns, values))
+        if set(result) != set(range(1, 31 if session == 'Manhã' else 81)):
+            raise ValueError('Incomplete CGU definitive table')
+        return result
     if 'Concurso Público Fiocruz 2023' in text:
         # The final report contains many profiles. Its earlier per-profile
         # PDFs are preliminary and must never authenticate a released key.

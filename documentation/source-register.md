@@ -1,5 +1,7 @@
 # Registro dos documentos recebidos
 
+> Estado atual de 28/10/2026: [terceiro lote integrado](gaps-third-batch-release.md),70 pares oficiais e 206 registros documentais; 644 questões liberadas. Este registro de recebimento abaixo é histórico.
+
 > Atualização em 26/10/2026: [11º lote](eleventh-batch-release.md), com 224 questões (212 C/E), 224 comentários e 75 fontes canônicas. São 106 C/E distintos por bloco e 103/228 itens programáticos com vínculo direto. Os registros anteriores mantêm o histórico de cada entrega.
 
 > Atualização: [décimo lote](tenth-batch-release.md), com 192 questões, 192 comentários e 67 fontes. São 90/90 C/E distintos em P1/P2; todas as questões atuais têm comentário. Os registros anteriores abaixo preservam o histórico das respectivas entregas.

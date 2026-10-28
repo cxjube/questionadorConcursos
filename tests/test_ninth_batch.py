@@ -45,9 +45,9 @@ class NinthBatchTests(unittest.TestCase):
                 doc = self.docs[id]
                 self.assertEqual(hashlib.sha256((ROOT / doc['file']).read_bytes()).hexdigest(), doc['sha256'])
                 self.assertIn(doc['officialUrl'], [row['paperUrl'], row['answerUrl']])
-        self.assertEqual(len(self.c['documents']), 194)
-        self.assertEqual(len(self.c['papers']), 65)
-        self.assertEqual(sum(p['inventory']['itemCount'] for p in self.c['papers']), 3826)
+        self.assertEqual(len(self.c['documents']), 206)
+        self.assertEqual(len(self.c['papers']), 70)
+        self.assertEqual(sum(p['inventory']['itemCount'] for p in self.c['papers']), 4126)
         self.assertEqual(self.papers['source-038-anm-013-01']['year'], 2025)
         self.assertEqual(self.papers['source-094-pf-cb1-01']['inventory']['applicationDate'], '2025-06-29')
 
@@ -126,7 +126,7 @@ class NinthBatchTests(unittest.TestCase):
                 self.assertIn(cite['activeQuote'], reference_text((ROOT / self.docs[cite['documentId']]['file']).read_bytes()))
         comments = {e['questionId']: e for e in self.c['explanations']}
         self.assertEqual(set(comments), set(self.questions))
-        self.assertEqual(len(comments), 608)
+        self.assertEqual(len(comments), 644)
         for row in self.review['items']:
             e = comments[row['questionId']]
             self.assertIn('assistido por IA', e['author'])

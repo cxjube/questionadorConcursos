@@ -239,7 +239,7 @@ test('origin/year/format intersect syllabus filters without duplicating question
  const found=s.Study.pool(s.data,s.role,p,'all',{paperId,year:2016,type:'true_false',disciplineId:'lingua-portuguesa'});
  assert.ok(found.length);assert.ok(found.every(q=>q.origin.paperId===paperId&&q.type==='true_false'));
  assert.equal(s.Study.pool(s.data,s.role,p,'all',{paperId,year:2025}).length,0);
- const mc=s.Study.pool(s.data,s.role,p,'all',{type:'multiple_choice'});assert.equal(mc.length,18);
+ const mc=s.Study.pool(s.data,s.role,p,'all',{type:'multiple_choice'});assert.equal(mc.length,21);
  assert.equal(s.Study.pool(s.data,'abdi-futuro',p,'all',{paperId}).length,0);
  for(const filters of [{paperId:'missing-source'},{year:'2016'},{year:NaN},{type:'essay'}]) assert.throws(()=>s.Study.pool(s.data,s.role,p,'all',filters));
  const session=s.Study.create(s.data,s.role,p,'all',{paperId,year:2016,type:'true_false',limit:2});
@@ -289,7 +289,7 @@ test('custom scoring never changes accuracy, unscored history or official criter
 test('block filters use target syllabus blocks, preserve distinct IDs and validate snapshots',()=>{
  const s=setup(),p=s.Study.empty();
  const basic=s.Study.pool(s.data,s.role,p,'all',{block:'basic'}),specific=s.Study.pool(s.data,s.role,p,'all',{block:'specific'});
- assert.equal(basic.length,171);assert.equal(specific.length,226);
+ assert.equal(basic.length,171);assert.equal(specific.length,229);
  assert.equal(s.Study.pool(s.data,s.role,p,'all',{block:'specific',disciplineId:'lingua-inglesa'}).length,0);
  const session=s.Study.create(s.data,s.role,p,'all',{block:'basic',disciplineId:'lingua-inglesa'});
  assert.equal(session.items.length,19);assert.equal(session.selection.block,'basic');
@@ -304,8 +304,8 @@ test('block filters use target syllabus blocks, preserve distinct IDs and valida
  assert.ok(s.Study.validate({...p,active:legacy},s.data));
  const multi=plain(s.data),target=multi.syllabusItems.find(t=>t.block==='specific');
  multi.mappings.push({id:'synthetic-cross-block-link',questionId:basic[0].id,syllabusItemId:target.id,status:'confirmed'});
- assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,227);
- assert.equal(s.Study.pool(multi,s.role,p).length,396);
+ assert.equal(s.Study.pool(multi,s.role,p,'all',{block:'specific'}).length,230);
+ assert.equal(s.Study.pool(multi,s.role,p).length,399);
  assert.throws(()=>s.Study.pool(s.data,s.role,p,'all',{block:'invalid'}),/Bloco/);
 });
 test('evolution uses local calendar days, weighted accuracy and finalized role snapshots only',()=>{

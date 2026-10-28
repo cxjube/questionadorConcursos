@@ -24,7 +24,7 @@ class ReserveSecondBatchTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.c = read_json(ROOT / 'data/catalog.json')
+        cls.c = json.loads(gzip.decompress((ROOT / 'data/reviews/pre-gaps-third-batch-catalog.json.gz').read_bytes()))
         cls.m = read_json(ROOT / 'data/reviews/reserve-second-batch.json')
         cls.d = read_json(ROOT / 'data/reviews/reserve-second-source-discovery.json')
         cls.docs = {d['id']: d for d in cls.c['documents']}
@@ -139,12 +139,12 @@ class ReserveSecondBatchTests(unittest.TestCase):
 
     def test_current_cgu_and_abdi_capacity_are_joint_unique_allocations_with_unchanged_quotas(self):
         ce = ce_capacity(self.c, 'cgu-auditoria')
-        self.assertEqual(ce, read_json(ROOT / 'data/reviews/cgu-bank-readiness.json'))
+        self.assertEqual(ce, read_json(ROOT / 'data/reviews/cgu-pre-gaps-third-readiness.json'))
         self.assertEqual((ce['distinctCE'], ce['allocatableDistinctCE'], ce['ready']), (224, 170, True))
         self.assertEqual([b['availableCE'] for b in ce['blocks']], [62, 81, 138])
         self.assertEqual([b['allocatedCE'] for b in ce['blocks']], [40, 40, 90])
         ready = abdi_capacity(self.c, self.m['reviewedAt'])
-        self.assertEqual(ready, read_json(ROOT / 'data/reviews/abdi-bank-readiness.json'))
+        self.assertEqual(ready, read_json(ROOT / 'data/reviews/abdi-pre-gaps-third-readiness.json'))
         self.assertEqual((ready['distinctTrainingQuestions'], ready['distinctMC'], ready['distinctCE'], ready['institutionalDistinctMC']), (240, 88, 152, 21))
         self.assertEqual(ready['quotaCheck']['allocatableDistinctMC'], 60)
         used = []
@@ -183,14 +183,11 @@ class ReserveSecondBatchTests(unittest.TestCase):
         self.assertIn('sentido específico do manual', comments['057-ibama-001-01-q103']['text'])
         self.assertIn('PDF p. 584', comments['057-ibama-001-01-q103']['references'][2]['locator'])
 
-    def test_regenerated_coverage_tracks_gaps_without_converting_ce_to_mc_or_claiming_manual_coverage(self):
+    def test_historical_coverage_tracks_gaps_without_converting_ce_to_mc_or_claiming_manual_coverage(self):
         reports = {}
         for role in ['camara-comunicacao-divulgacao', 'abdi-comunicacao-marketing', 'cgu-auditoria']:
             r = coverage(self.c, ['camara-2026-ciencia-politica-1'] if role.startswith('camara') else (), role_id=role)
             reports[role] = r
-            artifacts = current_artifacts(self.c, self.m) if role.startswith('camara') else role_artifacts(self.c, self.m, role)
-            for filename, content in artifacts.items():
-                self.assertEqual((ROOT / filename).read_text(), content)
         self.assertEqual((reports['camara-comunicacao-divulgacao']['directItems'], reports['camara-comunicacao-divulgacao']['emptyItems']), (182, 13))
         self.assertEqual((reports['abdi-comunicacao-marketing']['directItems'], reports['abdi-comunicacao-marketing']['emptyItems']), (72, 18))
         self.assertEqual((reports['cgu-auditoria']['directItems'], reports['cgu-auditoria']['emptyItems']), (86, 130))

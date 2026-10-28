@@ -1,0 +1,5478 @@
+{
+  "reviewedAt": "2026-10-28",
+  "latestBatchId": "reserve-second-batch",
+  "catalogSha256": "e8f4d802ec89ce9490493826cdd35400fbc92b290c773f6fededab7e02981b48",
+  "scope": "Oferta de questões distintas, sem inferência de domínio ou peso de prova.",
+  "totalItems": 228,
+  "directItems": 182,
+  "descendantsOnly": 32,
+  "emptyItems": 13,
+  "emptyLeaves": 13,
+  "blocks": {
+    "basic": {
+      "total": 171,
+      "ce": 169
+    },
+    "specific": {
+      "total": 226,
+      "ce": 209
+    }
+  },
+  "disciplines": [
+    {
+      "id": "lingua-portuguesa",
+      "label": "Língua Portuguesa",
+      "totalItems": 20,
+      "directItems": 17,
+      "descendantsOnly": 3,
+      "emptyItems": 0,
+      "emptyLeaves": 0,
+      "questionsCE": 40,
+      "questionsMC": 1
+    },
+    {
+      "id": "lingua-inglesa",
+      "label": "Língua Inglesa",
+      "totalItems": 3,
+      "directItems": 3,
+      "descendantsOnly": 0,
+      "emptyItems": 0,
+      "emptyLeaves": 0,
+      "questionsCE": 19,
+      "questionsMC": 0
+    },
+    {
+      "id": "direito-administrativo-administracao-publica",
+      "label": "Noções de Direito Administrativo e Administração Pública",
+      "totalItems": 46,
+      "directItems": 35,
+      "descendantsOnly": 8,
+      "emptyItems": 3,
+      "emptyLeaves": 3,
+      "questionsCE": 55,
+      "questionsMC": 0
+    },
+    {
+      "id": "direito-constitucional-regimento",
+      "label": "Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados",
+      "totalItems": 14,
+      "directItems": 10,
+      "descendantsOnly": 2,
+      "emptyItems": 2,
+      "emptyLeaves": 2,
+      "questionsCE": 21,
+      "questionsMC": 1
+    },
+    {
+      "id": "tecnologia-informacao-dados",
+      "label": "Tecnologia da Informação e Dados",
+      "totalItems": 20,
+      "directItems": 17,
+      "descendantsOnly": 3,
+      "emptyItems": 0,
+      "emptyLeaves": 0,
+      "questionsCE": 34,
+      "questionsMC": 0
+    },
+    {
+      "id": "comunicacao-social",
+      "label": "Comunicação Social",
+      "totalItems": 45,
+      "directItems": 37,
+      "descendantsOnly": 5,
+      "emptyItems": 3,
+      "emptyLeaves": 3,
+      "questionsCE": 73,
+      "questionsMC": 7
+    },
+    {
+      "id": "divulgacao-institucional",
+      "label": "Divulgação Institucional",
+      "totalItems": 40,
+      "directItems": 31,
+      "descendantsOnly": 6,
+      "emptyItems": 3,
+      "emptyLeaves": 3,
+      "questionsCE": 66,
+      "questionsMC": 0
+    },
+    {
+      "id": "processo-legislativo-regimento",
+      "label": "Processo Legislativo e Regimento Interno",
+      "totalItems": 27,
+      "directItems": 21,
+      "descendantsOnly": 5,
+      "emptyItems": 1,
+      "emptyLeaves": 1,
+      "questionsCE": 32,
+      "questionsMC": 8
+    },
+    {
+      "id": "ciencia-politica",
+      "label": "Ciência Política",
+      "totalItems": 13,
+      "directItems": 11,
+      "descendantsOnly": 0,
+      "emptyItems": 1,
+      "emptyLeaves": 1,
+      "questionsCE": 39,
+      "questionsMC": 2
+    }
+  ],
+  "items": [
+    {
+      "id": "camara-2026-lingua-portuguesa-1",
+      "number": "1",
+      "label": "Compreensão e interpretação de textos de gêneros variados.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q001",
+        "038-anm-cg1-01-q002",
+        "038-anm-cg1-01-q003",
+        "232funprespexe-cb1-01-q005",
+        "232funprespexe-cb1-01-q006",
+        "232funprespexe-cb1-01-q007",
+        "232funprespexe-cb1-01-q013",
+        "232funprespexe-cb1-01-q014",
+        "232funprespexe-cb1-01-q015",
+        "232funprespexe-cb1-01-q016",
+        "959-bcb-cb1-01-q001",
+        "959-bcb-cb1-01-q002",
+        "959-bcb-cb1-01-q003",
+        "959-bcb-cb1-01-q004",
+        "959-bcb-cb1-01-q005"
+      ],
+      "directCE": 15,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q001",
+        "038-anm-cg1-01-q002",
+        "038-anm-cg1-01-q003",
+        "232funprespexe-cb1-01-q005",
+        "232funprespexe-cb1-01-q006",
+        "232funprespexe-cb1-01-q007",
+        "232funprespexe-cb1-01-q013",
+        "232funprespexe-cb1-01-q014",
+        "232funprespexe-cb1-01-q015",
+        "232funprespexe-cb1-01-q016",
+        "959-bcb-cb1-01-q001",
+        "959-bcb-cb1-01-q002",
+        "959-bcb-cb1-01-q003",
+        "959-bcb-cb1-01-q004",
+        "959-bcb-cb1-01-q005"
+      ],
+      "subtreeCE": 15,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-2",
+      "number": "2",
+      "label": "Reconhecimento de tipos e gêneros textuais.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "232funprespexe-cb1-01-q008"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "232funprespexe-cb1-01-q008"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-3",
+      "number": "3",
+      "label": "Domínio da ortografia.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "153-telebras-cb1-01-q008",
+        "153-telebras-cb1-01-q013"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "153-telebras-cb1-01-q008",
+        "153-telebras-cb1-01-q013"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-4",
+      "number": "4",
+      "label": "Domínio dos mecanismos de coesão textual.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q004",
+        "038-anm-cg1-01-q006",
+        "232funprespexe-cb1-01-q011",
+        "959-bcb-cb1-01-q006"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-4-1",
+      "number": "4.1",
+      "label": "Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "lingua-portuguesa-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q004",
+        "232funprespexe-cb1-01-q011",
+        "959-bcb-cb1-01-q006"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q004",
+        "232funprespexe-cb1-01-q011",
+        "959-bcb-cb1-01-q006"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-4-2",
+      "number": "4.2",
+      "label": "Emprego de tempos e modos verbais.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "lingua-portuguesa-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q006"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q006"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5",
+      "number": "5",
+      "label": "Domínio da estrutura morfossintática do período.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q008",
+        "038-anm-cg1-01-q009",
+        "232funprespexe-cb1-01-q001",
+        "232funprespexe-cb1-01-q002",
+        "232funprespexe-cb1-01-q003",
+        "232funprespexe-cb1-01-q004",
+        "232funprespexe-cb1-01-q009",
+        "232funprespexe-cb1-01-q010",
+        "232funprespexe-cb1-01-q012",
+        "959-bcb-cb1-01-q007",
+        "959-bcb-cb1-01-q009",
+        "959-bcb-cb1-01-q010",
+        "959-bcb-cb1-01-q011",
+        "959-bcb-cb1-01-q013",
+        "959-bcb-cb1-01-q021"
+      ],
+      "subtreeCE": 15,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5-1",
+      "number": "5.1",
+      "label": "Emprego das classes de palavras.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "lingua-portuguesa-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "232funprespexe-cb1-01-q003",
+        "232funprespexe-cb1-01-q009"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "232funprespexe-cb1-01-q003",
+        "232funprespexe-cb1-01-q009"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5-2",
+      "number": "5.2",
+      "label": "Relações de coordenação entre orações e entre termos da oração.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "lingua-portuguesa-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "959-bcb-cb1-01-q021"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "959-bcb-cb1-01-q021"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5-3",
+      "number": "5.3",
+      "label": "Relações de subordinação entre orações e entre termos da oração.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "lingua-portuguesa-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "959-bcb-cb1-01-q009"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "959-bcb-cb1-01-q009"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5-4",
+      "number": "5.4",
+      "label": "Emprego dos sinais de pontuação.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "lingua-portuguesa-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q009",
+        "232funprespexe-cb1-01-q004",
+        "232funprespexe-cb1-01-q012",
+        "959-bcb-cb1-01-q007"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q009",
+        "232funprespexe-cb1-01-q004",
+        "232funprespexe-cb1-01-q012",
+        "959-bcb-cb1-01-q007"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5-5",
+      "number": "5.5",
+      "label": "Concordância verbal e nominal.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "lingua-portuguesa-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "232funprespexe-cb1-01-q002",
+        "232funprespexe-cb1-01-q010",
+        "959-bcb-cb1-01-q011"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "232funprespexe-cb1-01-q002",
+        "232funprespexe-cb1-01-q010",
+        "959-bcb-cb1-01-q011"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5-6",
+      "number": "5.6",
+      "label": "Regência verbal e nominal.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "lingua-portuguesa-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "232funprespexe-cb1-01-q001"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "232funprespexe-cb1-01-q001"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5-7",
+      "number": "5.7",
+      "label": "Emprego do sinal indicativo de crase.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "lingua-portuguesa-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q008",
+        "959-bcb-cb1-01-q010"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q008",
+        "959-bcb-cb1-01-q010"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-5-8",
+      "number": "5.8",
+      "label": "Colocação dos pronomes átonos.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "lingua-portuguesa-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "959-bcb-cb1-01-q013"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "959-bcb-cb1-01-q013"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-6",
+      "number": "6",
+      "label": "Reescrita de frases e parágrafos do texto.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q005",
+        "038-anm-cg1-01-q010",
+        "128-tcemg-008-01-q044",
+        "959-bcb-cb1-01-q019"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-6-1",
+      "number": "6.1",
+      "label": "Significação das palavras.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "lingua-portuguesa-6",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q005"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q005"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-6-2",
+      "number": "6.2",
+      "label": "Substituição de palavras ou de trechos de texto.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "lingua-portuguesa-6",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "959-bcb-cb1-01-q019"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "959-bcb-cb1-01-q019"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-6-3",
+      "number": "6.3",
+      "label": "Reorganização da estrutura de orações e de períodos do texto.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "lingua-portuguesa-6",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q010"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q010"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-portuguesa-6-4",
+      "number": "6.4",
+      "label": "Reescrita de textos de diferentes gêneros e níveis de formalidade.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "lingua-portuguesa-6",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "128-tcemg-008-01-q044"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "128-tcemg-008-01-q044"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-lingua-inglesa-1",
+      "number": "1",
+      "label": "Compreensão de textos variados: domínio do vocabulário e da estrutura da língua, ideias principais e secundárias, explícitas e implícitas, relações intratextuais e intertextuais.",
+      "disciplineId": "lingua-inglesa",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q011",
+        "038-anm-cg1-01-q012",
+        "038-anm-cg1-01-q013",
+        "038-anm-cg1-01-q014",
+        "142-tcuaufc-cb1-01-q022",
+        "142-tcuaufc-cb1-01-q024",
+        "846-serpro-23-cb1-01-q027",
+        "846-serpro-23-cb1-01-q030",
+        "961-anatel-cb1-01-q016",
+        "961-anatel-cb1-01-q017",
+        "961-anatel-cb1-01-q018",
+        "961-anatel-cb1-01-q020",
+        "961-anatel-cb1-01-q021",
+        "961-anatel-cb1-01-q022",
+        "961-anatel-cb1-01-q023"
+      ],
+      "directCE": 15,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q011",
+        "038-anm-cg1-01-q012",
+        "038-anm-cg1-01-q013",
+        "038-anm-cg1-01-q014",
+        "142-tcuaufc-cb1-01-q022",
+        "142-tcuaufc-cb1-01-q024",
+        "846-serpro-23-cb1-01-q027",
+        "846-serpro-23-cb1-01-q030",
+        "961-anatel-cb1-01-q016",
+        "961-anatel-cb1-01-q017",
+        "961-anatel-cb1-01-q018",
+        "961-anatel-cb1-01-q020",
+        "961-anatel-cb1-01-q021",
+        "961-anatel-cb1-01-q022",
+        "961-anatel-cb1-01-q023"
+      ],
+      "subtreeCE": 15,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-inglesa-2",
+      "number": "2",
+      "label": "Itens gramaticais relevantes para compreensão de conteúdos semânticos.",
+      "disciplineId": "lingua-inglesa",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "142-tcuaufc-cb1-01-q023",
+        "846-serpro-23-cb1-01-q022"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q023",
+        "846-serpro-23-cb1-01-q022"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-lingua-inglesa-3",
+      "number": "3",
+      "label": "Conhecimento e uso das formas contemporâneas da linguagem inglesa.",
+      "disciplineId": "lingua-inglesa",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "142-tcuaufc-cb1-01-q025",
+        "846-serpro-23-cb1-01-q029"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q025",
+        "846-serpro-23-cb1-01-q029"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-1",
+      "number": "1",
+      "label": "Estado, governo e Administração Pública: conceito, elementos, poderes e organização do Estado.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "094-pf-cb1-01-q047",
+        "959-bcb-cb1-01-q036",
+        "959-bcb-cb1-01-q038"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-1-1",
+      "number": "1.1",
+      "label": "Princípios constitucionais e doutrinários da Administração Pública.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "094-pf-cb1-01-q047",
+        "959-bcb-cb1-01-q038"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "094-pf-cb1-01-q047",
+        "959-bcb-cb1-01-q038"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-1-2",
+      "number": "1.2",
+      "label": "Organização administrativa: administração direta e indireta; centralização, descentralização, concentração e desconcentração.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "959-bcb-cb1-01-q036"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "959-bcb-cb1-01-q036"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-2",
+      "number": "2",
+      "label": "Ato administrativo.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "B",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-cb1-01-q026",
+        "038-anm-cg1-01-q021"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-2-1",
+      "number": "2.1",
+      "label": "Conceito, requisitos, atributos, classificação e espécies, extinção, nulidades e revogação.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "018-stj-cb1-01-q026",
+        "038-anm-cg1-01-q021"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-cb1-01-q026",
+        "038-anm-cg1-01-q021"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-2-2",
+      "number": "2.2",
+      "label": "Parecer: responsabilidade do emissor do parecer.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-2",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-3",
+      "number": "3",
+      "label": "Agentes públicos.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-cb1-01-q023",
+        "094-pf-cb1-01-q043",
+        "803-tj-es-006-01-q099",
+        "803-tj-es-006-01-q100",
+        "camara14-001-01-q204"
+      ],
+      "subtreeCE": 5,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-3-1",
+      "number": "3.1",
+      "label": "Disposições constitucionais aplicáveis.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "803-tj-es-006-01-q099",
+        "803-tj-es-006-01-q100"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "803-tj-es-006-01-q099",
+        "803-tj-es-006-01-q100"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-3-2",
+      "number": "3.2",
+      "label": "Cargo, emprego e função pública.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "018-stj-cb1-01-q023"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-cb1-01-q023"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-3-3",
+      "number": "3.3",
+      "label": "Requisição.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-001-01-q204"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara14-001-01-q204"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-3-4",
+      "number": "3.4",
+      "label": "Regime jurídico dos servidores públicos federais (Lei 8.112/1990 e suas alterações).",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "094-pf-cb1-01-q043"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "094-pf-cb1-01-q043"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-4",
+      "number": "4",
+      "label": "Direito administrativo disciplinar.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q022",
+        "094-pf-cb1-01-q049",
+        "142-tcuaufc-cb1-01-q079",
+        "142-tcuaufc-cb1-01-q080",
+        "142-tcuaufc-cb1-01-q081",
+        "959-bcb-cb1-01-q037"
+      ],
+      "subtreeCE": 6,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-4-1",
+      "number": "4.1",
+      "label": "Fontes e princípios.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "142-tcuaufc-cb1-01-q079"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q079"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-4-2",
+      "number": "4.2",
+      "label": "Ilícito de direito administrativo disciplinar.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "142-tcuaufc-cb1-01-q080"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q080"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-4-3",
+      "number": "4.3",
+      "label": "Procedimentos disciplinares da administração pública.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "142-tcuaufc-cb1-01-q081",
+        "959-bcb-cb1-01-q037"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q081",
+        "959-bcb-cb1-01-q037"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-4-4",
+      "number": "4.4",
+      "label": "Processo Administrativo Federal (Lei nº 9.784/1999 e suas alterações).",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q022",
+        "094-pf-cb1-01-q049"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q022",
+        "094-pf-cb1-01-q049"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-5",
+      "number": "5",
+      "label": "Poderes administrativos.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "153-telebras-003-01-q070",
+        "803-tj-es-006-01-q101",
+        "993-tce-ac-cb3-01-q032"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-5-1",
+      "number": "5.1",
+      "label": "Discricionário, hierárquico, disciplinar, regulamentar e de polícia.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "153-telebras-003-01-q070",
+        "993-tce-ac-cb3-01-q032"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "153-telebras-003-01-q070",
+        "993-tce-ac-cb3-01-q032"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-5-2",
+      "number": "5.2",
+      "label": "Uso e abuso do poder.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "803-tj-es-006-01-q101"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "803-tj-es-006-01-q101"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-6",
+      "number": "6",
+      "label": "Responsabilidade civil do Estado.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-005-01-q063",
+        "108-tcutefc-001-01-q066",
+        "108-tcutefc-001-01-q069",
+        "993-tce-ac-cb3-01-q035"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-6-1",
+      "number": "6.1",
+      "label": "Responsabilidade civil do Estado no direito brasileiro.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-6",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-005-01-q063"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-005-01-q063"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-6-2",
+      "number": "6.2",
+      "label": "Responsabilidade por ato comissivo do Estado.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-6",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-005-01-q063"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-005-01-q063"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-6-3",
+      "number": "6.3",
+      "label": "Responsabilidade por omissão do Estado.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-6",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "108-tcutefc-001-01-q066"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "108-tcutefc-001-01-q066"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-6-4",
+      "number": "6.4",
+      "label": "Requisitos para a demonstração da responsabilidade do Estado.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-6",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "108-tcutefc-001-01-q069",
+        "993-tce-ac-cb3-01-q035"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "108-tcutefc-001-01-q069",
+        "993-tce-ac-cb3-01-q035"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-6-5",
+      "number": "6.5",
+      "label": "Causas excludentes e atenuantes da responsabilidade do Estado.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-6",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "993-tce-ac-cb3-01-q035"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "993-tce-ac-cb3-01-q035"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-7",
+      "number": "7",
+      "label": "Improbidade Administrativa (Lei nº 8.429/1992 e suas alterações).",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "018-stj-cb1-01-q040",
+        "018-stj-cb1-01-q041",
+        "018-stj-cb1-01-q042",
+        "018-stj-cb1-01-q043"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-cb1-01-q040",
+        "018-stj-cb1-01-q041",
+        "018-stj-cb1-01-q042",
+        "018-stj-cb1-01-q043"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-8",
+      "number": "8",
+      "label": "Evolução dos modelos de gestão pública: patrimonialismo, administração burocrática e nova gestão pública (New Public Management).",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "979-cnj-007-01-q052",
+        "979-cnj-007-01-q054"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-013-01-q053",
+        "038-anm-013-01-q119",
+        "057-ibama-cb1-01-q044",
+        "153-telebras-003-01-q076",
+        "979-cnj-007-01-q052",
+        "979-cnj-007-01-q054"
+      ],
+      "subtreeCE": 6,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-8-1",
+      "number": "8.1",
+      "label": "Nova Governança Pública (New Public Governance): conceito, fundamentos e evolução.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-8",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-8-2",
+      "number": "8.2",
+      "label": "Ação pública em redes de cooperação, articulação interinstitucional e parcerias com o setor privado e terceiro setor.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-8",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "057-ibama-cb1-01-q044"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "057-ibama-cb1-01-q044"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-8-3",
+      "number": "8.3",
+      "label": "Coprodução do bem público, participação cidadã e transparência ativa.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-8",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-013-01-q053",
+        "038-anm-013-01-q119"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-013-01-q053",
+        "038-anm-013-01-q119"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-8-4",
+      "number": "8.4",
+      "label": "Valor Público, cadeia de valor público.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-8",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "153-telebras-003-01-q076"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "153-telebras-003-01-q076"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-9",
+      "number": "9",
+      "label": "Governança na Administração Pública.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-013-01-q088",
+        "072-stm-002-01-q052",
+        "072-stm-002-01-q078",
+        "072-stm-002-01-q084",
+        "979-cnj-007-01-q062",
+        "979-cnj-007-01-q065"
+      ],
+      "subtreeCE": 6,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-9-1",
+      "number": "9.1",
+      "label": "Governança pública: conceito, distinção entre governança e governabilidade e alinhamento estratégico.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-9",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-013-01-q088",
+        "979-cnj-007-01-q065"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-013-01-q088",
+        "979-cnj-007-01-q065"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-9-2",
+      "number": "9.2",
+      "label": "Mecanismos de governança: liderança, estratégia e controle.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-9",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "072-stm-002-01-q052",
+        "072-stm-002-01-q078",
+        "072-stm-002-01-q084"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "072-stm-002-01-q052",
+        "072-stm-002-01-q078",
+        "072-stm-002-01-q084"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-9-3",
+      "number": "9.3",
+      "label": "Conceito de valor público: geração de valor para a sociedade, entrega de resultados, sustentabilidade e avaliação de impactos de políticas públicas.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-9",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "979-cnj-007-01-q062"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "979-cnj-007-01-q062"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-9-4",
+      "number": "9.4",
+      "label": "Decreto Federal nº 9.203/2017 e suas alterações (política de governança da administração pública federal direta, autárquica e fundacional).",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-9",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-10",
+      "number": "10",
+      "label": "Noções de Licitações e Contratos (Lei nº 14.133/2021 e suas alterações).",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-cb1-01-q024",
+        "038-anm-024-01-q073",
+        "038-anm-cg1-01-q024",
+        "057-ibama-001-01-q064",
+        "057-ibama-001-01-q067",
+        "057-ibama-001-01-q069",
+        "057-ibama-001-01-q070",
+        "108-tcutefc-001-01-q087",
+        "108-tcutefc-001-01-q088",
+        "803-tj-es-006-01-q103"
+      ],
+      "subtreeCE": 10,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-10-1",
+      "number": "10.1",
+      "label": "Licitação Pública: conceito, princípios, finalidade do procedimento licitatório, modalidades, dispensa e inexigibilidade de licitação.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-10",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "018-stj-cb1-01-q024",
+        "038-anm-cg1-01-q024",
+        "057-ibama-001-01-q070"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-cb1-01-q024",
+        "038-anm-cg1-01-q024",
+        "057-ibama-001-01-q070"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-10-2",
+      "number": "10.2",
+      "label": "Contratos administrativos.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-10",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "057-ibama-001-01-q064"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "057-ibama-001-01-q064"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-10-3",
+      "number": "10.3",
+      "label": "Características do contrato administrativo.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-10",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "057-ibama-001-01-q069"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "057-ibama-001-01-q069"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-10-4",
+      "number": "10.4",
+      "label": "Formalização, gestão e fiscalização do contrato.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-10",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "057-ibama-001-01-q067",
+        "803-tj-es-006-01-q103"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "057-ibama-001-01-q067",
+        "803-tj-es-006-01-q103"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-10-5",
+      "number": "10.5",
+      "label": "Planejamento e fiscalização contratual.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-10",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "108-tcutefc-001-01-q087"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "108-tcutefc-001-01-q087"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-10-6",
+      "number": "10.6",
+      "label": "Papel do fiscalizador do contrato.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-10",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "108-tcutefc-001-01-q088"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "108-tcutefc-001-01-q088"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-10-7",
+      "number": "10.7",
+      "label": "Estudo Técnico Preliminar e Termo de Referência.",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": "direito-administrativo-administracao-publica-10",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-024-01-q073"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-024-01-q073"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-11",
+      "number": "11",
+      "label": "Lei de Acesso à Informação (Lei nº 12.527/2011 e suas alterações).",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q035",
+        "057-ibama-001-01-q071",
+        "094-pf-cb1-01-q048"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q035",
+        "057-ibama-001-01-q071",
+        "094-pf-cb1-01-q048"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-administrativo-administracao-publica-12",
+      "number": "12",
+      "label": "Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 e suas alterações).",
+      "disciplineId": "direito-administrativo-administracao-publica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q034",
+        "057-ibama-001-01-q072",
+        "094-pf-cb1-01-q050"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q034",
+        "057-ibama-001-01-q072",
+        "094-pf-cb1-01-q050"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-1",
+      "number": "1",
+      "label": "Constituição Federal de 1988: conceito, contexto histórico, características, estrutura do texto.",
+      "disciplineId": "direito-constitucional-regimento",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "094-pf-cb1-01-q038"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "094-pf-cb1-01-q038"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-2",
+      "number": "2",
+      "label": "Princípios fundamentais. Direitos e garantias fundamentais: direitos e deveres individuais e coletivos, direitos sociais, nacionalidade, direitos políticos e partidos políticos.",
+      "disciplineId": "direito-constitucional-regimento",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q018",
+        "094-pf-cb1-01-q036"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q018",
+        "094-pf-cb1-01-q036"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-3",
+      "number": "3",
+      "label": "Organização do Estado: organização político-administrativa, União, estados, municípios, Distrito Federal e territórios. Intervenção Federal.",
+      "disciplineId": "direito-constitucional-regimento",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "094-pf-cb1-01-q039",
+        "camara-2014-cb2-03-q071",
+        "camara-2014-cb2-03-q101",
+        "camara-2014-cb2-03-q102",
+        "camara-2014-cb2-03-q105"
+      ],
+      "directCE": 5,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "094-pf-cb1-01-q039",
+        "camara-2014-cb2-03-q071",
+        "camara-2014-cb2-03-q101",
+        "camara-2014-cb2-03-q102",
+        "camara-2014-cb2-03-q105"
+      ],
+      "subtreeCE": 5,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-4",
+      "number": "4",
+      "label": "Administração pública: disposições gerais, servidores públicos civis e militares.",
+      "disciplineId": "direito-constitucional-regimento",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q019",
+        "038-anm-cg1-01-q020",
+        "094-pf-cb1-01-q035",
+        "camara-2014-cb2-03-q078"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q019",
+        "038-anm-cg1-01-q020",
+        "094-pf-cb1-01-q035",
+        "camara-2014-cb2-03-q078"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-5",
+      "number": "5",
+      "label": "Poder Legislativo: o Congresso Nacional e suas Casas (atribuições, competências, reuniões e comissões).",
+      "disciplineId": "direito-constitucional-regimento",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "094-pf-cb1-01-q040",
+        "camara-2014-cb2-03-q075"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "094-pf-cb1-01-q040",
+        "camara-2014-cb2-03-q075"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-6",
+      "number": "6",
+      "label": "Regime jurídico-constitucional dos parlamentares.",
+      "disciplineId": "direito-constitucional-regimento",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara-2014-cb2-03-q084",
+        "camara-2014-cb2-03-q085"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-cb2-03-q084",
+        "camara-2014-cb2-03-q085"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-7",
+      "number": "7",
+      "label": "Regimento Interno da Câmara dos Deputados",
+      "disciplineId": "direito-constitucional-regimento",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-cb2-03-q097",
+        "camara-2014-cb2-03-q100",
+        "camara-2023-tecnica-tarde-tipo1-q017",
+        "camara14-cb1-01-q092"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-7-1",
+      "number": "7.1",
+      "label": "Disposições preliminares e Órgãos da Câmara (arts. 1º a 24 e suas alterações).",
+      "disciplineId": "direito-constitucional-regimento",
+      "block": "basic",
+      "parentTopicId": "direito-constitucional-regimento-7",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara-2014-cb2-03-q097",
+        "camara-2014-cb2-03-q100"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-cb2-03-q097",
+        "camara-2014-cb2-03-q100"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-7-2",
+      "number": "7.2",
+      "label": "Sessões da Câmara (arts. 65 a 94 e suas alterações).",
+      "disciplineId": "direito-constitucional-regimento",
+      "block": "basic",
+      "parentTopicId": "direito-constitucional-regimento-7",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q017"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q017"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-7-3",
+      "number": "7.3",
+      "label": "Deputados (arts. 226 a 251 e suas alterações).",
+      "disciplineId": "direito-constitucional-regimento",
+      "block": "basic",
+      "parentTopicId": "direito-constitucional-regimento-7",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-7-4",
+      "number": "7.4",
+      "label": "Administração e economia interna (arts. 262 a 273 e suas alterações).",
+      "disciplineId": "direito-constitucional-regimento",
+      "block": "basic",
+      "parentTopicId": "direito-constitucional-regimento-7",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-cb1-01-q092"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara14-cb1-01-q092"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-8",
+      "number": "8",
+      "label": "Regimento Comum do Congresso Nacional.",
+      "disciplineId": "direito-constitucional-regimento",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "B",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara14-cb1-01-q096",
+        "camara14-cb1-01-q099"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-8-1",
+      "number": "8.1",
+      "label": "Título I.",
+      "disciplineId": "direito-constitucional-regimento",
+      "block": "basic",
+      "parentTopicId": "direito-constitucional-regimento-8",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-direito-constitucional-regimento-8-2",
+      "number": "8.2",
+      "label": "Título IV, Capítulo II e Capítulo III (até art. 103).",
+      "disciplineId": "direito-constitucional-regimento",
+      "block": "basic",
+      "parentTopicId": "direito-constitucional-regimento-8",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-cb1-01-q096",
+        "camara14-cb1-01-q099"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara14-cb1-01-q096",
+        "camara14-cb1-01-q099"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-1",
+      "number": "1",
+      "label": "MSOffice 365 (Word, Excel, PowerPoint e OneDrive).",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q030"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q030"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-2",
+      "number": "2",
+      "label": "Redes de computadores.",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "106-pf-cg1-01-q065"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "106-pf-cg1-01-q061",
+        "106-pf-cg1-01-q065",
+        "106-pf-cg1-01-q083"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-2-1",
+      "number": "2.1",
+      "label": "Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet.",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": "tecnologia-informacao-dados-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "106-pf-cg1-01-q061",
+        "106-pf-cg1-01-q083"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "106-pf-cg1-01-q061",
+        "106-pf-cg1-01-q083"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-3",
+      "number": "3",
+      "label": "Ferramentas de comunicação e colaboração: correio eletrônico (webmail, cliente de e-mail), aplicativos de comunicação (Microsoft Teams, Google Meet).",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "018-stj-cb1-01-q048"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-cb1-01-q048"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-4",
+      "number": "4",
+      "label": "Conceitos gerais de segurança e governança digital.",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q029",
+        "094-pf-cb1-01-q028",
+        "094-pf-cb1-01-q029",
+        "094-pf-cb1-01-q032",
+        "094-pf-cb1-01-q034",
+        "106-pf-cg1-01-q064",
+        "106-pf-cg1-01-q088"
+      ],
+      "subtreeCE": 7,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-4-1",
+      "number": "4.1",
+      "label": "Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais.",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": "tecnologia-informacao-dados-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "094-pf-cb1-01-q028"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "094-pf-cb1-01-q028"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-4-2",
+      "number": "4.2",
+      "label": "Programas de proteção (antivírus, firewall, antispyware).",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": "tecnologia-informacao-dados-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "094-pf-cb1-01-q029",
+        "094-pf-cb1-01-q032",
+        "106-pf-cg1-01-q064",
+        "106-pf-cg1-01-q088"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "094-pf-cb1-01-q029",
+        "094-pf-cb1-01-q032",
+        "106-pf-cg1-01-q064",
+        "106-pf-cg1-01-q088"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-4-3",
+      "number": "4.3",
+      "label": "Ameaças digitais (phishing, pharming).",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": "tecnologia-informacao-dados-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q029",
+        "094-pf-cb1-01-q034"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q029",
+        "094-pf-cb1-01-q034"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-5",
+      "number": "5",
+      "label": "Conceitos básicos de inteligência artificial.",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-024-01-q120",
+        "038-anm-cg1-01-q026",
+        "057-ibama-cb1-01-q017"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-024-01-q090",
+        "038-anm-024-01-q091",
+        "038-anm-024-01-q093",
+        "038-anm-024-01-q097",
+        "038-anm-024-01-q116",
+        "038-anm-024-01-q120",
+        "038-anm-cg1-01-q026",
+        "050-trt10-011-01-q069",
+        "057-ibama-cb1-01-q017",
+        "106-pf-cg1-01-q080"
+      ],
+      "subtreeCE": 10,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-5-1",
+      "number": "5.1",
+      "label": "Engenharia de prompts.",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": "tecnologia-informacao-dados-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-024-01-q091"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-024-01-q091"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-5-2",
+      "number": "5.2",
+      "label": "Aprendizado supervisionado, não supervisionado e por reforço.",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": "tecnologia-informacao-dados-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-024-01-q116",
+        "106-pf-cg1-01-q080"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-024-01-q116",
+        "106-pf-cg1-01-q080"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-5-3",
+      "number": "5.3",
+      "label": "IA generativa: conceitos, exemplos e casos de uso.",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": "tecnologia-informacao-dados-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-024-01-q090",
+        "038-anm-024-01-q093",
+        "038-anm-024-01-q097",
+        "050-trt10-011-01-q069"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-024-01-q090",
+        "038-anm-024-01-q093",
+        "038-anm-024-01-q097",
+        "050-trt10-011-01-q069"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-6",
+      "number": "6",
+      "label": "Ética e responsabilidade digital no serviço público.",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "094-pf-cb1-01-q022"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "094-pf-cb1-01-q022"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-7",
+      "number": "7",
+      "label": "Dados.",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-024-01-q106",
+        "038-anm-024-01-q110",
+        "038-anm-024-01-q111",
+        "038-anm-024-01-q112",
+        "106-pf-cg1-01-q071",
+        "106-pf-cg1-01-q072"
+      ],
+      "subtreeCE": 6,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-7-1",
+      "number": "7.1",
+      "label": "Conceitos, atributos, métricas, transformação de dados.",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": "tecnologia-informacao-dados-7",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-024-01-q106",
+        "038-anm-024-01-q110",
+        "038-anm-024-01-q111",
+        "038-anm-024-01-q112",
+        "106-pf-cg1-01-q071",
+        "106-pf-cg1-01-q072"
+      ],
+      "directCE": 6,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-024-01-q106",
+        "038-anm-024-01-q110",
+        "038-anm-024-01-q111",
+        "038-anm-024-01-q112",
+        "106-pf-cg1-01-q071",
+        "106-pf-cg1-01-q072"
+      ],
+      "subtreeCE": 6,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-8",
+      "number": "8",
+      "label": "Visualização de dados.",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "050-trt10-011-01-q063",
+        "205-funpresp-26-jud-009-01-q071",
+        "205-funpresp-26-jud-009-01-q081",
+        "988-cpnuje-010-01-q051",
+        "988-cpnuje-010-01-q056"
+      ],
+      "subtreeCE": 5,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-8-1",
+      "number": "8.1",
+      "label": "Princípios de visualização de dados.",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": "tecnologia-informacao-dados-8",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "988-cpnuje-010-01-q056"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "988-cpnuje-010-01-q056"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-8-2",
+      "number": "8.2",
+      "label": "Tipos de gráficos (histograma, linha, barra, dispersão, box plot).",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": "tecnologia-informacao-dados-8",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "988-cpnuje-010-01-q051"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "988-cpnuje-010-01-q051"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-8-3",
+      "number": "8.3",
+      "label": "Ferramentas de visualização de dados (Power BI, Tableau e Data Studio).",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": "tecnologia-informacao-dados-8",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "050-trt10-011-01-q063",
+        "205-funpresp-26-jud-009-01-q071"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "050-trt10-011-01-q063",
+        "205-funpresp-26-jud-009-01-q071"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-tecnologia-informacao-dados-8-4",
+      "number": "8.4",
+      "label": "Storytelling para visualização de dados.",
+      "disciplineId": "tecnologia-informacao-dados",
+      "block": "basic",
+      "parentTopicId": "tecnologia-informacao-dados-8",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "205-funpresp-26-jud-009-01-q081"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "205-funpresp-26-jud-009-01-q081"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-1",
+      "number": "1",
+      "label": "Teorias da Comunicação.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "539-alce-016-01-q021"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "018-stj-006-01-q085",
+        "038-anm-008-01-q054",
+        "042-embrapa-analista-072-01-q084",
+        "072-stm-004-01-q083",
+        "072-stm-004-01-q085",
+        "072-stm-004-01-q119",
+        "072-stm-004-01-q120",
+        "153-telebras-008-01-q106",
+        "205-funpresp-26-jud-005-01-q096",
+        "539-alce-016-01-q021",
+        "539-alce-016-01-q023"
+      ],
+      "subtreeCE": 9,
+      "subtreeMC": 2
+    },
+    {
+      "id": "camara-2026-comunicacao-social-1-1",
+      "number": "1.1",
+      "label": "Escolas, paradigmas, correntes, modelos, principais pensadores.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-008-01-q054",
+        "072-stm-004-01-q085"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-008-01-q054",
+        "072-stm-004-01-q085"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-1-2",
+      "number": "1.2",
+      "label": "Comunicação e opinião pública.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "072-stm-004-01-q083",
+        "153-telebras-008-01-q106",
+        "539-alce-016-01-q023"
+      ],
+      "directCE": 2,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "072-stm-004-01-q083",
+        "153-telebras-008-01-q106",
+        "539-alce-016-01-q023"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-comunicacao-social-1-3",
+      "number": "1.3",
+      "label": "Midiatização e plataformização.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "042-embrapa-analista-072-01-q084",
+        "205-funpresp-26-jud-005-01-q096"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "042-embrapa-analista-072-01-q084",
+        "205-funpresp-26-jud-005-01-q096"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-1-4",
+      "number": "1.4",
+      "label": "Desinformação e integridade da informação.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "018-stj-006-01-q085",
+        "072-stm-004-01-q119",
+        "072-stm-004-01-q120"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-006-01-q085",
+        "072-stm-004-01-q119",
+        "072-stm-004-01-q120"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-2",
+      "number": "2",
+      "label": "Comunicação interna.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-006-01-q061",
+        "038-anm-010-01-q089",
+        "038-anm-010-01-q093",
+        "038-anm-012-01-q108",
+        "072-stm-004-01-q079",
+        "072-stm-004-01-q082",
+        "153-telebras-008-01-q075",
+        "205-funpresp-26-jud-005-01-q106",
+        "232funprespexe-002-01-q090",
+        "232funprespexe-002-01-q091",
+        "232funprespexe-002-01-q092",
+        "232funprespexe-002-01-q096"
+      ],
+      "subtreeCE": 12,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-2-1",
+      "number": "2.1",
+      "label": "Conceito, funções e objetivos da comunicação interna.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "072-stm-004-01-q082",
+        "232funprespexe-002-01-q090",
+        "232funprespexe-002-01-q091"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "072-stm-004-01-q082",
+        "232funprespexe-002-01-q090",
+        "232funprespexe-002-01-q091"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-2-2",
+      "number": "2.2",
+      "label": "Ferramentas e canais de comunicação interna (intranet, veículos impressos/digitais, jornais murais, newsletters, eventos).",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "072-stm-004-01-q079",
+        "232funprespexe-002-01-q092",
+        "232funprespexe-002-01-q096"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "072-stm-004-01-q079",
+        "232funprespexe-002-01-q092",
+        "232funprespexe-002-01-q096"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-2-3",
+      "number": "2.3",
+      "label": "Endomarketing: conceitos e estratégias de engajamento.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "018-stj-006-01-q061",
+        "038-anm-010-01-q089",
+        "205-funpresp-26-jud-005-01-q106"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-006-01-q061",
+        "038-anm-010-01-q089",
+        "205-funpresp-26-jud-005-01-q106"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-2-4",
+      "number": "2.4",
+      "label": "Comunicação e cultura organizacional.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q093",
+        "153-telebras-008-01-q075"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q093",
+        "153-telebras-008-01-q075"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-2-5",
+      "number": "2.5",
+      "label": "Gestão do clima organizacional por meio da comunicação.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-012-01-q108"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-012-01-q108"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-3",
+      "number": "3",
+      "label": "Comunicação institucional.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-012-01-q079",
+        "038-anm-013-01-q064",
+        "042-embrapa-analista-072-01-q086",
+        "042-embrapa-analista-072-01-q094",
+        "042-embrapa-analista-072-01-q096",
+        "042-embrapa-analista-072-01-q097",
+        "153-telebras-008-01-q055",
+        "153-telebras-008-01-q072",
+        "539-alce-016-01-q026"
+      ],
+      "subtreeCE": 8,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-comunicacao-social-3-1",
+      "number": "3.1",
+      "label": "Conceito e objetivos da comunicação institucional.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "042-embrapa-analista-072-01-q086",
+        "153-telebras-008-01-q055"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "042-embrapa-analista-072-01-q086",
+        "153-telebras-008-01-q055"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-3-2",
+      "number": "3.2",
+      "label": "Gestão da imagem, identidade e reputação corporativa/institucional.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-012-01-q079",
+        "153-telebras-008-01-q072"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-012-01-q079",
+        "153-telebras-008-01-q072"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-3-3",
+      "number": "3.3",
+      "label": "Gerenciamento de crises.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "539-alce-016-01-q026"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "539-alce-016-01-q026"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-comunicacao-social-3-4",
+      "number": "3.4",
+      "label": "Técnicas e ferramentas de gerenciamento de crises.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-013-01-q064",
+        "042-embrapa-analista-072-01-q094",
+        "042-embrapa-analista-072-01-q096",
+        "042-embrapa-analista-072-01-q097"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-013-01-q064",
+        "042-embrapa-analista-072-01-q094",
+        "042-embrapa-analista-072-01-q096",
+        "042-embrapa-analista-072-01-q097"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4",
+      "number": "4",
+      "label": "Comunicação organizacional.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q079",
+        "038-anm-010-01-q083",
+        "038-anm-010-01-q084",
+        "038-anm-012-01-q061",
+        "038-anm-012-01-q065",
+        "072-stm-004-01-q114",
+        "153-telebras-008-01-q095",
+        "153-telebras-008-01-q096",
+        "205-funpresp-26-jud-009-01-q076",
+        "232funprespexe-002-01-q062",
+        "232funprespexe-002-01-q084",
+        "232funprespexe-002-01-q085",
+        "232funprespexe-002-01-q093",
+        "539-alce-016-01-q025",
+        "803-tj-es-006-01-q072",
+        "893-dataprev-005-01-q114"
+      ],
+      "subtreeCE": 15,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-1",
+      "number": "4.1",
+      "label": "Conceito, objetivos e dimensões da comunicação organizacional.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-012-01-q065"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-012-01-q065"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-2",
+      "number": "4.2",
+      "label": "O composto da comunicação integrada (comunicação institucional, mercadológica, interna e administrativa).",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "539-alce-016-01-q025"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "539-alce-016-01-q025"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-3",
+      "number": "4.3",
+      "label": "Planejamento estratégico de comunicação.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-010-01-q079",
+        "232funprespexe-002-01-q084",
+        "232funprespexe-002-01-q085"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q079",
+        "232funprespexe-002-01-q084",
+        "232funprespexe-002-01-q085"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-4",
+      "number": "4.4",
+      "label": "Fluxos comunicativos (descendentes, ascendentes, horizontais e transversais).",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "232funprespexe-002-01-q062"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "232funprespexe-002-01-q062"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-5",
+      "number": "4.5",
+      "label": "Comunicação formal e informal nas organizações.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "232funprespexe-002-01-q093"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "232funprespexe-002-01-q093"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-6",
+      "number": "4.6",
+      "label": "Definição de públicos-alvo: pesquisa, segmentação, canais de interação.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-012-01-q061",
+        "072-stm-004-01-q114"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-012-01-q061",
+        "072-stm-004-01-q114"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-7",
+      "number": "4.7",
+      "label": "Definição de indicadores de resultados em comunicação.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q083"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q083"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-8",
+      "number": "4.8",
+      "label": "Plano de comunicação.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "153-telebras-008-01-q095",
+        "153-telebras-008-01-q096",
+        "803-tj-es-006-01-q072",
+        "893-dataprev-005-01-q114"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "153-telebras-008-01-q095",
+        "153-telebras-008-01-q096",
+        "803-tj-es-006-01-q072",
+        "893-dataprev-005-01-q114"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-4-9",
+      "number": "4.9",
+      "label": "Gestão de projetos de comunicação.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q084",
+        "205-funpresp-26-jud-009-01-q076"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q084",
+        "205-funpresp-26-jud-009-01-q076"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-5",
+      "number": "5",
+      "label": "Redes sociais digitais oficiais.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "018-stj-006-01-q053",
+        "018-stj-006-01-q079"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-006-01-q053",
+        "018-stj-006-01-q079",
+        "072-stm-004-01-q116",
+        "153-telebras-008-01-q099",
+        "153-telebras-008-01-q101",
+        "153-telebras-008-01-q105",
+        "205-funpresp-26-jud-005-01-q082",
+        "205-funpresp-26-jud-009-01-q077",
+        "893-dataprev-005-01-q107",
+        "893-dataprev-005-01-q108",
+        "893-dataprev-005-01-q109",
+        "893-dataprev-005-01-q110"
+      ],
+      "subtreeCE": 12,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-5-1",
+      "number": "5.1",
+      "label": "Planejamento e produção de conteúdo.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "153-telebras-008-01-q099",
+        "205-funpresp-26-jud-009-01-q077",
+        "893-dataprev-005-01-q109",
+        "893-dataprev-005-01-q110"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "153-telebras-008-01-q099",
+        "205-funpresp-26-jud-009-01-q077",
+        "893-dataprev-005-01-q109",
+        "893-dataprev-005-01-q110"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-5-2",
+      "number": "5.2",
+      "label": "Postagens e colaborações.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "153-telebras-008-01-q101",
+        "153-telebras-008-01-q105"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "153-telebras-008-01-q101",
+        "153-telebras-008-01-q105"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-5-3",
+      "number": "5.3",
+      "label": "Características das principais plataformas de mídias sociais: diferenças de públicos, linguagem, formatos (4:5, 3:4, 9:16) e conteúdos (cards, carrossel, vídeos, stories, lives).",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "072-stm-004-01-q116",
+        "205-funpresp-26-jud-005-01-q082",
+        "893-dataprev-005-01-q107",
+        "893-dataprev-005-01-q108"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "072-stm-004-01-q116",
+        "205-funpresp-26-jud-005-01-q082",
+        "893-dataprev-005-01-q107",
+        "893-dataprev-005-01-q108"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-5-4",
+      "number": "5.4",
+      "label": "Elementos fundamentais de publicações em redes sociais: capa, legenda, marcação, palavras-chave, call to action.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-5",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-6",
+      "number": "6",
+      "label": "Transparência pública.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-013-01-q069",
+        "205-funpresp-26-jud-005-01-q081"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-013-01-q069",
+        "205-funpresp-26-jud-005-01-q081"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-7",
+      "number": "7",
+      "label": "Comunicação Pública.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "205-funpresp-26-jud-005-01-q080",
+        "232funprespexe-002-01-q097",
+        "232funprespexe-002-01-q098",
+        "232funprespexe-002-01-q099",
+        "232funprespexe-002-01-q100",
+        "539-alce-016-01-q022",
+        "539-alce-016-01-q023",
+        "989-codevasf-010-01-q102"
+      ],
+      "subtreeCE": 6,
+      "subtreeMC": 2
+    },
+    {
+      "id": "camara-2026-comunicacao-social-7-1",
+      "number": "7.1",
+      "label": "Conceitos, fundamentos e especificidades da comunicação pública.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-7",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "205-funpresp-26-jud-005-01-q080",
+        "232funprespexe-002-01-q097",
+        "232funprespexe-002-01-q098",
+        "232funprespexe-002-01-q099",
+        "232funprespexe-002-01-q100",
+        "539-alce-016-01-q022",
+        "539-alce-016-01-q023"
+      ],
+      "directCE": 5,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "205-funpresp-26-jud-005-01-q080",
+        "232funprespexe-002-01-q097",
+        "232funprespexe-002-01-q098",
+        "232funprespexe-002-01-q099",
+        "232funprespexe-002-01-q100",
+        "539-alce-016-01-q022",
+        "539-alce-016-01-q023"
+      ],
+      "subtreeCE": 5,
+      "subtreeMC": 2
+    },
+    {
+      "id": "camara-2026-comunicacao-social-7-2",
+      "number": "7.2",
+      "label": "Comunicação pública versus comunicação governamental e comunicação político-partidária.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-7",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "989-codevasf-010-01-q102"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "989-codevasf-010-01-q102"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-8",
+      "number": "8",
+      "label": "Políticas de comunicação.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-012-01-q112"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-012-01-q112",
+        "alerj-2026-comunicacao-manha-tipo1-q063",
+        "alerj-2026-comunicacao-manha-tipo1-q070"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 2
+    },
+    {
+      "id": "camara-2026-comunicacao-social-8-1",
+      "number": "8.1",
+      "label": "Política de comunicação da Câmara dos Deputados (Ato da Mesa nº 218/2025).",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-8",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-8-2",
+      "number": "8.2",
+      "label": "Manual de comunicação da Câmara dos Deputados.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-8",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q063",
+        "alerj-2026-comunicacao-manha-tipo1-q070"
+      ],
+      "directCE": 0,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q063",
+        "alerj-2026-comunicacao-manha-tipo1-q070"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 2
+    },
+    {
+      "id": "camara-2026-comunicacao-social-9",
+      "number": "9",
+      "label": "Inteligência artificial na comunicação.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-006-01-q077",
+        "018-stj-006-01-q082",
+        "018-stj-006-01-q083",
+        "038-anm-013-01-q063"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-9-1",
+      "number": "9.1",
+      "label": "Aplicações da IA na comunicação.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-9",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "018-stj-006-01-q077",
+        "018-stj-006-01-q082"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-006-01-q077",
+        "018-stj-006-01-q082"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-9-2",
+      "number": "9.2",
+      "label": "Ética no uso de IA na comunicação.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-9",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "018-stj-006-01-q083",
+        "038-anm-013-01-q063"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-006-01-q083",
+        "038-anm-013-01-q063"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-10",
+      "number": "10",
+      "label": "Linguagem simples e usabilidade.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "072-stm-004-01-q112"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-013-01-q061",
+        "072-stm-004-01-q112",
+        "153-telebras-008-01-q104",
+        "205-funpresp-26-jud-005-01-q071"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-10-1",
+      "number": "10.1",
+      "label": "Manual de linguagem simples da Câmara dos Deputados.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-10",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-10-2",
+      "number": "10.2",
+      "label": "Conceito e técnicas de usabilidade.",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": "comunicacao-social-10",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-013-01-q061",
+        "153-telebras-008-01-q104",
+        "205-funpresp-26-jud-005-01-q071"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-013-01-q061",
+        "153-telebras-008-01-q104",
+        "205-funpresp-26-jud-005-01-q071"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-comunicacao-social-11",
+      "number": "11",
+      "label": "Princípios constitucionais da administração pública aplicados à comunicação (Art. 37, § 1º da CF/88 e suas alterações).",
+      "disciplineId": "comunicacao-social",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "989-codevasf-010-01-q102"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "989-codevasf-010-01-q102"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-1",
+      "number": "1",
+      "label": "Publicidade.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q051",
+        "038-anm-010-01-q054",
+        "038-anm-010-01-q055",
+        "038-anm-010-01-q056",
+        "038-anm-010-01-q061",
+        "038-anm-010-01-q062",
+        "038-anm-010-01-q071",
+        "038-anm-010-01-q075",
+        "038-anm-010-01-q076",
+        "205-funpresp-26-jud-005-01-q053",
+        "205-funpresp-26-jud-005-01-q060",
+        "205-funpresp-26-jud-005-01-q076",
+        "989-codevasf-010-01-q051",
+        "989-codevasf-010-01-q053",
+        "989-codevasf-010-01-q054",
+        "989-codevasf-010-01-q056",
+        "989-codevasf-010-01-q058"
+      ],
+      "subtreeCE": 17,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-1-1",
+      "number": "1.1",
+      "label": "Teorias da Publicidade.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-010-01-q051",
+        "038-anm-010-01-q054",
+        "038-anm-010-01-q055",
+        "989-codevasf-010-01-q053"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q051",
+        "038-anm-010-01-q054",
+        "038-anm-010-01-q055",
+        "989-codevasf-010-01-q053"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-1-2",
+      "number": "1.2",
+      "label": "Planejamento publicitário: briefing, diagnóstico, definição de objetivos, definição de público-alvo, estratégia de comunicação, plano de mídia, cronograma de execução, definição de indicadores e avaliação.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-010-01-q056",
+        "038-anm-010-01-q062",
+        "989-codevasf-010-01-q054",
+        "989-codevasf-010-01-q058"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q056",
+        "038-anm-010-01-q062",
+        "989-codevasf-010-01-q054",
+        "989-codevasf-010-01-q058"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-1-3",
+      "number": "1.3",
+      "label": "Criação publicitária.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "989-codevasf-010-01-q051"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "989-codevasf-010-01-q051"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-1-4",
+      "number": "1.4",
+      "label": "Atendimento.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-1",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-1-5",
+      "number": "1.5",
+      "label": "Mídia: características dos diferentes tipos de veículos e plataformas de comunicação, plano de mídia, monitoramento e análise de dados.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-010-01-q071",
+        "205-funpresp-26-jud-005-01-q053",
+        "989-codevasf-010-01-q056"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q071",
+        "205-funpresp-26-jud-005-01-q053",
+        "989-codevasf-010-01-q056"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-1-6",
+      "number": "1.6",
+      "label": "Produção de campanhas publicitárias.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q061",
+        "205-funpresp-26-jud-005-01-q060"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q061",
+        "205-funpresp-26-jud-005-01-q060"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-1-7",
+      "number": "1.7",
+      "label": "Produção e redação de peças publicitárias para diversas mídias.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-010-01-q075",
+        "038-anm-010-01-q076",
+        "205-funpresp-26-jud-005-01-q076"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q075",
+        "038-anm-010-01-q076",
+        "205-funpresp-26-jud-005-01-q076"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2",
+      "number": "2",
+      "label": "Marketing.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-006-01-q061",
+        "038-anm-010-01-q053",
+        "038-anm-010-01-q056",
+        "038-anm-010-01-q057",
+        "038-anm-010-01-q058",
+        "038-anm-010-01-q064",
+        "038-anm-010-01-q066",
+        "038-anm-010-01-q088",
+        "153-telebras-008-01-q053",
+        "205-funpresp-26-jud-005-01-q107",
+        "205-funpresp-26-jud-005-01-q108",
+        "205-funpresp-26-jud-005-01-q110",
+        "989-codevasf-010-01-q052"
+      ],
+      "subtreeCE": 13,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-1",
+      "number": "2.1",
+      "label": "Conceitos de marketing.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q057",
+        "038-anm-010-01-q058"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q057",
+        "038-anm-010-01-q058"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-2",
+      "number": "2.2",
+      "label": "Planejamento de marketing.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "153-telebras-008-01-q053",
+        "205-funpresp-26-jud-005-01-q108"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "153-telebras-008-01-q053",
+        "205-funpresp-26-jud-005-01-q108"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-3",
+      "number": "2.3",
+      "label": "Marketing institucional.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q064",
+        "205-funpresp-26-jud-005-01-q110"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q064",
+        "205-funpresp-26-jud-005-01-q110"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-4",
+      "number": "2.4",
+      "label": "Endomarketing.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "018-stj-006-01-q061",
+        "038-anm-010-01-q088",
+        "205-funpresp-26-jud-005-01-q107"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-006-01-q061",
+        "038-anm-010-01-q088",
+        "205-funpresp-26-jud-005-01-q107"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-5",
+      "number": "2.5",
+      "label": "Segmentação.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q056"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q056"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-6",
+      "number": "2.6",
+      "label": "Marketing digital.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q066"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q066"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-2-7",
+      "number": "2.7",
+      "label": "Comportamento do consumidor.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q053",
+        "989-codevasf-010-01-q052"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q053",
+        "989-codevasf-010-01-q052"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3",
+      "number": "3",
+      "label": "Pesquisa Aplicada à Comunicação.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-008-01-q063",
+        "038-anm-010-01-q069",
+        "038-anm-010-01-q073",
+        "153-telebras-008-01-q066",
+        "153-telebras-008-01-q067",
+        "153-telebras-008-01-q098",
+        "205-funpresp-26-jud-005-01-q065",
+        "205-funpresp-26-jud-005-01-q072",
+        "232funprespexe-002-01-q078",
+        "232funprespexe-002-01-q079",
+        "232funprespexe-002-01-q080",
+        "803-tj-es-006-01-q067",
+        "893-dataprev-005-01-q104"
+      ],
+      "subtreeCE": 13,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3-1",
+      "number": "3.1",
+      "label": "Pesquisas qualitativas e quantitativas.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-008-01-q063",
+        "153-telebras-008-01-q066",
+        "232funprespexe-002-01-q078",
+        "232funprespexe-002-01-q080"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-008-01-q063",
+        "153-telebras-008-01-q066",
+        "232funprespexe-002-01-q078",
+        "232funprespexe-002-01-q080"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3-2",
+      "number": "3.2",
+      "label": "Pesquisa de mercado.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "153-telebras-008-01-q098",
+        "205-funpresp-26-jud-005-01-q065",
+        "232funprespexe-002-01-q079"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "153-telebras-008-01-q098",
+        "205-funpresp-26-jud-005-01-q065",
+        "232funprespexe-002-01-q079"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3-3",
+      "number": "3.3",
+      "label": "Pesquisa de opinião pública.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "153-telebras-008-01-q067",
+        "153-telebras-008-01-q098",
+        "803-tj-es-006-01-q067"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "153-telebras-008-01-q067",
+        "153-telebras-008-01-q098",
+        "803-tj-es-006-01-q067"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3-4",
+      "number": "3.4",
+      "label": "Pesquisa de imagem.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "893-dataprev-005-01-q104"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "893-dataprev-005-01-q104"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3-5",
+      "number": "3.5",
+      "label": "Pesquisa de mídia.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q073",
+        "205-funpresp-26-jud-005-01-q072"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q073",
+        "205-funpresp-26-jud-005-01-q072"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-3-6",
+      "number": "3.6",
+      "label": "Métricas de avaliação na publicidade digital.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q069"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q069"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-4",
+      "number": "4",
+      "label": "Marca e Branding.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q070",
+        "153-telebras-008-01-q061",
+        "153-telebras-008-01-q062",
+        "205-funpresp-26-jud-005-01-q057",
+        "989-codevasf-010-01-q059"
+      ],
+      "subtreeCE": 5,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-4-1",
+      "number": "4.1",
+      "label": "Conceito de marca.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-4",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-4-2",
+      "number": "4.2",
+      "label": "Branding.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "153-telebras-008-01-q061",
+        "153-telebras-008-01-q062",
+        "989-codevasf-010-01-q059"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "153-telebras-008-01-q061",
+        "153-telebras-008-01-q062",
+        "989-codevasf-010-01-q059"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-4-3",
+      "number": "4.3",
+      "label": "Gerenciamento de marca.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q070",
+        "205-funpresp-26-jud-005-01-q057"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q070",
+        "205-funpresp-26-jud-005-01-q057"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5",
+      "number": "5",
+      "label": "Design e Produção.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-008-01-q072",
+        "038-anm-010-01-q077",
+        "038-anm-010-01-q092",
+        "038-anm-010-01-q094",
+        "038-anm-010-01-q100",
+        "038-anm-010-01-q101",
+        "038-anm-010-01-q102",
+        "042-embrapa-analista-072-01-q087",
+        "072-stm-004-01-q113",
+        "205-funpresp-26-jud-005-01-q067",
+        "205-funpresp-26-jud-005-01-q095"
+      ],
+      "subtreeCE": 11,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5-1",
+      "number": "5.1",
+      "label": "Design gráfico.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q102"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q102"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5-2",
+      "number": "5.2",
+      "label": "Produção gráfica.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q100"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q100"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5-3",
+      "number": "5.3",
+      "label": "Produção digital.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-008-01-q072",
+        "072-stm-004-01-q113",
+        "205-funpresp-26-jud-005-01-q095"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-008-01-q072",
+        "072-stm-004-01-q113",
+        "205-funpresp-26-jud-005-01-q095"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5-4",
+      "number": "5.4",
+      "label": "Produção para rádio, televisão e redes sociais.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q077",
+        "042-embrapa-analista-072-01-q087"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q077",
+        "042-embrapa-analista-072-01-q087"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5-5",
+      "number": "5.5",
+      "label": "Criação e produção de projetos gráficos.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q101"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q101"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5-6",
+      "number": "5.6",
+      "label": "Criação e produção de projetos audiovisuais.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q092",
+        "205-funpresp-26-jud-005-01-q067"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q092",
+        "205-funpresp-26-jud-005-01-q067"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-5-7",
+      "number": "5.7",
+      "label": "Criação e produção de publicações: definição de objetivos, público-alvo, linha editorial, identidade, estratégia de distribuição, indicadores e avaliação.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q094"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q094"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-6",
+      "number": "6",
+      "label": "Ética na comunicação.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "018-stj-006-01-q055",
+        "018-stj-006-01-q062",
+        "205-funpresp-26-jud-005-01-q094"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-006-01-q055",
+        "018-stj-006-01-q062",
+        "205-funpresp-26-jud-005-01-q094"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-7",
+      "number": "7",
+      "label": "Gestão de equipes em publicidade.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-8",
+      "number": "8",
+      "label": "Legislação profissional de publicidade.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q059",
+        "038-anm-010-01-q117",
+        "989-codevasf-010-01-q118",
+        "989-codevasf-010-01-q119",
+        "989-codevasf-010-01-q120"
+      ],
+      "subtreeCE": 5,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-8-1",
+      "number": "8.1",
+      "label": "Ética publicitária – código brasileiro de autoregulamentação publicitária.",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-8",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q059"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q059"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-divulgacao-institucional-8-2",
+      "number": "8.2",
+      "label": "Normas gerais para contratação de serviços de publicidade (Lei nº 12.232/2010 e suas alterações).",
+      "disciplineId": "divulgacao-institucional",
+      "block": "specific",
+      "parentTopicId": "divulgacao-institucional-8",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-010-01-q117",
+        "989-codevasf-010-01-q118",
+        "989-codevasf-010-01-q119",
+        "989-codevasf-010-01-q120"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q117",
+        "989-codevasf-010-01-q118",
+        "989-codevasf-010-01-q119",
+        "989-codevasf-010-01-q120"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-1",
+      "number": "1",
+      "label": "Procedimento Legislativo.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-cb2-03-q076",
+        "camara-2014-cb2-03-q080",
+        "camara-2014-cb2-03-q092",
+        "camara-2014-cb2-03-q099"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-1-1",
+      "number": "1.1",
+      "label": "Tipos de procedimento, ordinário, abreviado, sumário, sumaríssimo, especial e concentrado.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-1",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-1-2",
+      "number": "1.2",
+      "label": "Etapas e noções básicas.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara-2014-cb2-03-q092"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-cb2-03-q092"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-1-3",
+      "number": "1.3",
+      "label": "Comissões, pareceres, deliberação, votação, sanção e veto.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "camara-2014-cb2-03-q076",
+        "camara-2014-cb2-03-q080",
+        "camara-2014-cb2-03-q099"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-cb2-03-q076",
+        "camara-2014-cb2-03-q080",
+        "camara-2014-cb2-03-q099"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-2",
+      "number": "2",
+      "label": "Matérias Legislativas.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q015",
+        "camara-2023-tecnica-tarde-tipo1-q018",
+        "camara-2023-tecnica-tarde-tipo1-q019",
+        "camara14-cb1-01-q079",
+        "camara14-cb1-01-q083",
+        "camara14-cb1-01-q084"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 3
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-2-1",
+      "number": "2.1",
+      "label": "Projeto de lei ordinária, complementar e delegada.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-cb1-01-q083"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara14-cb1-01-q083"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-2-2",
+      "number": "2.2",
+      "label": "Medida provisória.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-cb1-01-q079"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara14-cb1-01-q079"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-2-3",
+      "number": "2.3",
+      "label": "Projeto de decreto legislativo e projeto de resolução.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q018"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q018"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-2-4",
+      "number": "2.4",
+      "label": "Proposta de Emenda à Constituição (PEC).",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-cb1-01-q084"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara14-cb1-01-q084"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-2-5",
+      "number": "2.5",
+      "label": "Indicações, pareceres, requerimentos e vetos.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q019"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q019"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-2-6",
+      "number": "2.6",
+      "label": "Iniciativa Legislativa: Presidência da República, Congresso Nacional, tribunais e cidadãos.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q015"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q015"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-3",
+      "number": "3",
+      "label": "Fiscalização Contábil, Financeira e Orçamentária.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-001-01-q197"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara14-001-01-q197"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-4",
+      "number": "4",
+      "label": "Processo Legislativo Orçamentário.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "108-tcutefc-001-01-q095",
+        "108-tcutefc-001-01-q096",
+        "979-cnj-007-01-q067",
+        "979-cnj-007-01-q073",
+        "camara-2014-cb2-03-q079",
+        "camara14-001-01-q126",
+        "camara14-001-01-q128",
+        "camara14-001-01-q129",
+        "camara14-001-01-q132"
+      ],
+      "subtreeCE": 9,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-4-1",
+      "number": "4.1",
+      "label": "Plano Plurianual (PPA).",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "979-cnj-007-01-q073"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "979-cnj-007-01-q073"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-4-2",
+      "number": "4.2",
+      "label": "Lei de Diretrizes Orçamentárias (LDO).",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara-2014-cb2-03-q079"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-cb2-03-q079"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-4-3",
+      "number": "4.3",
+      "label": "Lei Orçamentária Anual (LOA).",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-001-01-q126",
+        "camara14-001-01-q132"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara14-001-01-q126",
+        "camara14-001-01-q132"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-4-4",
+      "number": "4.4",
+      "label": "As interfaces entre LDO, LOA, Lei nº 4.320/1964 e suas alterações e Lei Complementar nº 101/2000 e suas alterações (Lei de Responsabilidade Fiscal).",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-001-01-q129"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara14-001-01-q129"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-4-5",
+      "number": "4.5",
+      "label": "Elaboração e aprovação das leis de matéria orçamentária.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "979-cnj-007-01-q067"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "979-cnj-007-01-q067"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-4-6",
+      "number": "4.6",
+      "label": "Proposta orçamentária e sua integração com PPA e LDO.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara14-001-01-q128"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara14-001-01-q128"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-4-7",
+      "number": "4.7",
+      "label": "Execução financeira e créditos.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "108-tcutefc-001-01-q095",
+        "108-tcutefc-001-01-q096"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "108-tcutefc-001-01-q095",
+        "108-tcutefc-001-01-q096"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-5",
+      "number": "5",
+      "label": "Regimento Interno da Câmara dos Deputados.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-cb2-03-q089",
+        "camara-2014-cb2-03-q090",
+        "camara-2014-cb2-03-q091",
+        "camara-2014-cb2-03-q098",
+        "camara-2014-cb2-03-q108",
+        "camara-2023-tecnica-tarde-tipo1-q003",
+        "camara-2023-tecnica-tarde-tipo1-q017"
+      ],
+      "subtreeCE": 5,
+      "subtreeMC": 2
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-5-1",
+      "number": "5.1",
+      "label": "Resolução nº 17/1989 – CD e suas alterações.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "camara-2014-cb2-03-q089",
+        "camara-2014-cb2-03-q090",
+        "camara-2014-cb2-03-q091",
+        "camara-2014-cb2-03-q098",
+        "camara-2014-cb2-03-q108",
+        "camara-2023-tecnica-tarde-tipo1-q003",
+        "camara-2023-tecnica-tarde-tipo1-q017"
+      ],
+      "directCE": 5,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "camara-2014-cb2-03-q089",
+        "camara-2014-cb2-03-q090",
+        "camara-2014-cb2-03-q091",
+        "camara-2014-cb2-03-q098",
+        "camara-2014-cb2-03-q108",
+        "camara-2023-tecnica-tarde-tipo1-q003",
+        "camara-2023-tecnica-tarde-tipo1-q017"
+      ],
+      "subtreeCE": 5,
+      "subtreeMC": 2
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-6",
+      "number": "6",
+      "label": "Regimento Comum do Congresso Nacional.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q027",
+        "camara-2023-tecnica-tarde-tipo1-q028",
+        "camara-2023-tecnica-tarde-tipo1-q030",
+        "camara14-cb1-01-q079",
+        "camara14-cb1-01-q080",
+        "camara14-cb1-01-q081",
+        "camara14-cb1-01-q082",
+        "camara14-cb1-01-q097",
+        "camara14-cb1-01-q098"
+      ],
+      "subtreeCE": 6,
+      "subtreeMC": 3
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-6-1",
+      "number": "6.1",
+      "label": "Resolução nº 1/1970 – CN e suas alterações.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-6",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q030",
+        "camara14-cb1-01-q097",
+        "camara14-cb1-01-q098"
+      ],
+      "directCE": 2,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q030",
+        "camara14-cb1-01-q097",
+        "camara14-cb1-01-q098"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-6-2",
+      "number": "6.2",
+      "label": "Resolução nº 3/1990 – CN.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-6",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q028"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q028"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-6-3",
+      "number": "6.3",
+      "label": "Resolução nº 1/2002 – CN.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": "processo-legislativo-regimento-6",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q027",
+        "camara14-cb1-01-q079",
+        "camara14-cb1-01-q080",
+        "camara14-cb1-01-q081",
+        "camara14-cb1-01-q082"
+      ],
+      "directCE": 4,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q027",
+        "camara14-cb1-01-q079",
+        "camara14-cb1-01-q080",
+        "camara14-cb1-01-q081",
+        "camara14-cb1-01-q082"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-processo-legislativo-regimento-7",
+      "number": "7",
+      "label": "Código de Ética e Decoro Parlamentar da Câmara dos Deputados.",
+      "disciplineId": "processo-legislativo-regimento",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "camara-2014-cb2-03-q086",
+        "camara-2014-cb2-03-q087",
+        "camara-2014-cb2-03-q088",
+        "camara-2014-cb2-03-q096",
+        "camara-2014-cb2-03-q109"
+      ],
+      "directCE": 5,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-cb2-03-q086",
+        "camara-2014-cb2-03-q087",
+        "camara-2014-cb2-03-q088",
+        "camara-2014-cb2-03-q096",
+        "camara-2014-cb2-03-q109"
+      ],
+      "subtreeCE": 5,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-ciencia-politica-1",
+      "number": "1",
+      "label": "Ciência Política.",
+      "disciplineId": "ciencia-politica",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "editorial_umbrella",
+      "priority": "scope",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-ciencia-politica-2",
+      "number": "2",
+      "label": "Teoria política.",
+      "disciplineId": "ciencia-politica",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "camara-2014-area-xix-q114",
+        "camara-2014-area-xix-q116",
+        "camara-2014-area-xix-q117",
+        "camara-2014-area-xix-q119",
+        "camara-2014-area-xix-q120",
+        "camara-2014-area-xix-q126",
+        "camara-2014-area-xix-q127",
+        "camara-2014-area-xix-q128",
+        "camara-2014-area-xix-q129",
+        "camara-2014-area-xix-q130"
+      ],
+      "directCE": 10,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-area-xix-q114",
+        "camara-2014-area-xix-q116",
+        "camara-2014-area-xix-q117",
+        "camara-2014-area-xix-q119",
+        "camara-2014-area-xix-q120",
+        "camara-2014-area-xix-q126",
+        "camara-2014-area-xix-q127",
+        "camara-2014-area-xix-q128",
+        "camara-2014-area-xix-q129",
+        "camara-2014-area-xix-q130"
+      ],
+      "subtreeCE": 10,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-ciencia-politica-3",
+      "number": "3",
+      "label": "Regimes políticos.",
+      "disciplineId": "ciencia-politica",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "camara-2014-area-xix-q118",
+        "camara-2014-area-xix-q121",
+        "camara-2014-area-xix-q122",
+        "camara-2014-area-xix-q133",
+        "camara-2014-area-xix-q134",
+        "camara-2014-area-xix-q136",
+        "camara-2014-area-xix-q137",
+        "camara-2014-area-xix-q138",
+        "camara-2014-area-xix-q139",
+        "camara-2014-area-xix-q140"
+      ],
+      "directCE": 10,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-area-xix-q118",
+        "camara-2014-area-xix-q121",
+        "camara-2014-area-xix-q122",
+        "camara-2014-area-xix-q133",
+        "camara-2014-area-xix-q134",
+        "camara-2014-area-xix-q136",
+        "camara-2014-area-xix-q137",
+        "camara-2014-area-xix-q138",
+        "camara-2014-area-xix-q139",
+        "camara-2014-area-xix-q140"
+      ],
+      "subtreeCE": 10,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-ciencia-politica-4",
+      "number": "4",
+      "label": "Sistemas e formas de governo.",
+      "disciplineId": "ciencia-politica",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara-2014-area-xix-q131"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-area-xix-q131"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-ciencia-politica-5",
+      "number": "5",
+      "label": "Representação política.",
+      "disciplineId": "ciencia-politica",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara-2014-area-xix-q135",
+        "camara-2023-tecnica-tarde-tipo1-q034"
+      ],
+      "directCE": 1,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "camara-2014-area-xix-q135",
+        "camara-2023-tecnica-tarde-tipo1-q034"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-ciencia-politica-6",
+      "number": "6",
+      "label": "Poderes e relações entre poderes: Executivo, Legislativo e Judiciário.",
+      "disciplineId": "ciencia-politica",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "094-pf-cb1-01-q041"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "094-pf-cb1-01-q041"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-ciencia-politica-7",
+      "number": "7",
+      "label": "Sistemas eleitorais.",
+      "disciplineId": "ciencia-politica",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "camara-2014-area-xix-q142",
+        "camara-2014-area-xix-q151",
+        "camara-2014-area-xix-q152",
+        "camara-2014-area-xix-q153"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-area-xix-q142",
+        "camara-2014-area-xix-q151",
+        "camara-2014-area-xix-q152",
+        "camara-2014-area-xix-q153"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-ciencia-politica-8",
+      "number": "8",
+      "label": "Teoria dos partidos políticos.",
+      "disciplineId": "ciencia-politica",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "camara-2014-area-xix-q141",
+        "camara-2014-area-xix-q143",
+        "camara-2014-area-xix-q144",
+        "camara-2014-area-xix-q145",
+        "camara-2023-tecnica-tarde-tipo1-q035"
+      ],
+      "directCE": 4,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "camara-2014-area-xix-q141",
+        "camara-2014-area-xix-q143",
+        "camara-2014-area-xix-q144",
+        "camara-2014-area-xix-q145",
+        "camara-2023-tecnica-tarde-tipo1-q035"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 1
+    },
+    {
+      "id": "camara-2026-ciencia-politica-9",
+      "number": "9",
+      "label": "Organização política brasileira.",
+      "disciplineId": "ciencia-politica",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara-2014-area-xix-q155",
+        "camara-2014-area-xix-q156"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-area-xix-q155",
+        "camara-2014-area-xix-q156"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-ciencia-politica-10",
+      "number": "10",
+      "label": "Política internacional contemporânea.",
+      "disciplineId": "ciencia-politica",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-ciencia-politica-11",
+      "number": "11",
+      "label": "Teoria do Estado e formação dos Estados nacionais.",
+      "disciplineId": "ciencia-politica",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "camara-2014-area-xix-q111",
+        "camara-2014-area-xix-q112",
+        "camara-2014-area-xix-q113",
+        "camara-2014-area-xix-q115"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-area-xix-q111",
+        "camara-2014-area-xix-q112",
+        "camara-2014-area-xix-q113",
+        "camara-2014-area-xix-q115"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-ciencia-politica-12",
+      "number": "12",
+      "label": "Formação do Estado brasileiro.",
+      "disciplineId": "ciencia-politica",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara-2014-area-xix-q165"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-area-xix-q165"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "camara-2026-ciencia-politica-13",
+      "number": "13",
+      "label": "História do voto e dos partidos no Brasil.",
+      "disciplineId": "ciencia-politica",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara-2014-area-xix-q196"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-area-xix-q196"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    }
+  ]
+}

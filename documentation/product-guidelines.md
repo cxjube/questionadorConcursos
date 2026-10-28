@@ -2,7 +2,7 @@
 
 ## Diretrizes de produto, arquitetura, banco de questões e experiência de estudo
 
-**Versão:** 1.28 — revisão integrada ao repositório
+**Versão:** 1.29 — revisão integrada ao repositório
 **Data:** 28/10/2026
 **Projeto:** Questionador Concursos
 **Repositório:** https://github.com/cxjube/questionadorConcursos
@@ -11,6 +11,9 @@
 ---
 
 # 0. ESTADO E ESCOPO DESTA REFERÊNCIA
+
+Atualização de 28/10/2026: [terceiro lote integrado](gaps-third-batch-release.md), 644 questões (511 C/E e 133 MC). Ética ABDI tem oito MC e a área institucional, 25. Câmara tem 399 questões e dez lacunas; ABDI, 246 questões e quinze lacunas; CGU, 260 questões e 93 lacunas. A [triagem dos 161 ramos anteriores](gaps-third-gap-progress.md) distingue primeira amostra de cobertura integral. Os três simulados e suas regras foram preservados. Varredura editorial e rodada humana continuam pendentes; os estados seguintes são históricos.
+
 
 Este documento consolida as sugestões fornecidas pelo usuário e os ajustes de revisão. É uma referência de produto e de aceite por etapa, não autorização para implementar todo o roadmap.
 

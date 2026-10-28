@@ -1,0 +1,2548 @@
+{
+  "totalItems": 97,
+  "directItems": 72,
+  "descendantsOnly": 7,
+  "emptyItems": 18,
+  "emptyLeaves": 18,
+  "blocks": {
+    "basic": {
+      "total": 110,
+      "ce": 70
+    },
+    "institutional": {
+      "total": 21,
+      "ce": 0
+    },
+    "specific": {
+      "total": 125,
+      "ce": 88
+    }
+  },
+  "disciplines": [
+    {
+      "id": "lingua-portuguesa",
+      "label": "Língua Portuguesa",
+      "totalItems": 20,
+      "directItems": 18,
+      "descendantsOnly": 2,
+      "emptyItems": 0,
+      "emptyLeaves": 0,
+      "questionsCE": 40,
+      "questionsMC": 10
+    },
+    {
+      "id": "raciocinio-logico",
+      "label": "Raciocínio Lógico",
+      "totalItems": 9,
+      "directItems": 6,
+      "descendantsOnly": 1,
+      "emptyItems": 2,
+      "emptyLeaves": 2,
+      "questionsCE": 6,
+      "questionsMC": 15
+    },
+    {
+      "id": "abdi-nocoes-informatica",
+      "label": "Noções de Informática",
+      "totalItems": 11,
+      "directItems": 9,
+      "descendantsOnly": 0,
+      "emptyItems": 2,
+      "emptyLeaves": 2,
+      "questionsCE": 24,
+      "questionsMC": 15
+    },
+    {
+      "id": "abdi-servicos-sociais-autonomos",
+      "label": "NATUREZA E FINALIDADE DOS SERVIÇOS SOCIAIS AUTÔNOMOS",
+      "totalItems": 6,
+      "directItems": 4,
+      "descendantsOnly": 1,
+      "emptyItems": 1,
+      "emptyLeaves": 1,
+      "questionsCE": 0,
+      "questionsMC": 7
+    },
+    {
+      "id": "abdi-criacao-estatuto",
+      "label": "LEGISLAÇÃO DE CRIAÇÃO E ESTATUTO SOCIAL DA ABDI",
+      "totalItems": 7,
+      "directItems": 4,
+      "descendantsOnly": 1,
+      "emptyItems": 2,
+      "emptyLeaves": 2,
+      "questionsCE": 0,
+      "questionsMC": 6
+    },
+    {
+      "id": "abdi-licitacoes-convenios",
+      "label": "REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI",
+      "totalItems": 10,
+      "directItems": 3,
+      "descendantsOnly": 1,
+      "emptyItems": 6,
+      "emptyLeaves": 6,
+      "questionsCE": 0,
+      "questionsMC": 9
+    },
+    {
+      "id": "abdi-etica-missao",
+      "label": "ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI",
+      "totalItems": 8,
+      "directItems": 2,
+      "descendantsOnly": 1,
+      "emptyItems": 5,
+      "emptyLeaves": 5,
+      "questionsCE": 0,
+      "questionsMC": 4
+    },
+    {
+      "id": "abdi-comunicacao-marketing",
+      "label": "Comunicação e Marketing",
+      "totalItems": 26,
+      "directItems": 26,
+      "descendantsOnly": 0,
+      "emptyItems": 0,
+      "emptyLeaves": 0,
+      "questionsCE": 88,
+      "questionsMC": 37
+    }
+  ],
+  "items": [
+    {
+      "id": "abdi-2026-lingua-portuguesa-1",
+      "number": "1",
+      "label": "Compreensão e interpretação de textos de gêneros variados.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q001",
+        "038-anm-cg1-01-q002",
+        "038-anm-cg1-01-q003",
+        "232funprespexe-cb1-01-q005",
+        "232funprespexe-cb1-01-q006",
+        "232funprespexe-cb1-01-q007",
+        "232funprespexe-cb1-01-q013",
+        "232funprespexe-cb1-01-q014",
+        "232funprespexe-cb1-01-q015",
+        "232funprespexe-cb1-01-q016",
+        "959-bcb-cb1-01-q001",
+        "959-bcb-cb1-01-q002",
+        "959-bcb-cb1-01-q003",
+        "959-bcb-cb1-01-q004",
+        "959-bcb-cb1-01-q005",
+        "alerj-2026-comunicacao-manha-tipo1-q001",
+        "alerj-2026-comunicacao-manha-tipo1-q002",
+        "alerj-2026-comunicacao-manha-tipo1-q003",
+        "alerj-2026-comunicacao-manha-tipo1-q004"
+      ],
+      "directCE": 15,
+      "directMC": 4,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q001",
+        "038-anm-cg1-01-q002",
+        "038-anm-cg1-01-q003",
+        "232funprespexe-cb1-01-q005",
+        "232funprespexe-cb1-01-q006",
+        "232funprespexe-cb1-01-q007",
+        "232funprespexe-cb1-01-q013",
+        "232funprespexe-cb1-01-q014",
+        "232funprespexe-cb1-01-q015",
+        "232funprespexe-cb1-01-q016",
+        "959-bcb-cb1-01-q001",
+        "959-bcb-cb1-01-q002",
+        "959-bcb-cb1-01-q003",
+        "959-bcb-cb1-01-q004",
+        "959-bcb-cb1-01-q005",
+        "alerj-2026-comunicacao-manha-tipo1-q001",
+        "alerj-2026-comunicacao-manha-tipo1-q002",
+        "alerj-2026-comunicacao-manha-tipo1-q003",
+        "alerj-2026-comunicacao-manha-tipo1-q004"
+      ],
+      "subtreeCE": 15,
+      "subtreeMC": 4
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-2",
+      "number": "2",
+      "label": "Reconhecimento de tipos e gêneros textuais.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "232funprespexe-cb1-01-q008"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "232funprespexe-cb1-01-q008"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-3",
+      "number": "3",
+      "label": "Domínio da ortografia oficial.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "153-telebras-cb1-01-q008",
+        "153-telebras-cb1-01-q013"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "153-telebras-cb1-01-q008",
+        "153-telebras-cb1-01-q013"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-4",
+      "number": "4",
+      "label": "Domínio dos mecanismos de coesão textual.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q004",
+        "038-anm-cg1-01-q006",
+        "232funprespexe-cb1-01-q011",
+        "959-bcb-cb1-01-q006"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-4-1",
+      "number": "4.1",
+      "label": "Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-lingua-portuguesa-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q004",
+        "232funprespexe-cb1-01-q011",
+        "959-bcb-cb1-01-q006"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q004",
+        "232funprespexe-cb1-01-q011",
+        "959-bcb-cb1-01-q006"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-4-2",
+      "number": "4.2",
+      "label": "Emprego de tempos e modos verbais.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-lingua-portuguesa-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q006"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q006"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5",
+      "number": "5",
+      "label": "Domínio da estrutura morfossintática do período.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q009"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q008",
+        "038-anm-cg1-01-q009",
+        "232funprespexe-cb1-01-q001",
+        "232funprespexe-cb1-01-q002",
+        "232funprespexe-cb1-01-q003",
+        "232funprespexe-cb1-01-q004",
+        "232funprespexe-cb1-01-q009",
+        "232funprespexe-cb1-01-q010",
+        "232funprespexe-cb1-01-q012",
+        "959-bcb-cb1-01-q007",
+        "959-bcb-cb1-01-q009",
+        "959-bcb-cb1-01-q010",
+        "959-bcb-cb1-01-q011",
+        "959-bcb-cb1-01-q013",
+        "959-bcb-cb1-01-q021",
+        "alerj-2026-comunicacao-manha-tipo1-q006",
+        "alerj-2026-comunicacao-manha-tipo1-q008",
+        "alerj-2026-comunicacao-manha-tipo1-q009",
+        "alerj-2026-comunicacao-manha-tipo1-q010"
+      ],
+      "subtreeCE": 15,
+      "subtreeMC": 4
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-1",
+      "number": "5.1",
+      "label": "Emprego das classes de palavras.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-lingua-portuguesa-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "232funprespexe-cb1-01-q003",
+        "232funprespexe-cb1-01-q009",
+        "alerj-2026-comunicacao-manha-tipo1-q008",
+        "alerj-2026-comunicacao-manha-tipo1-q010"
+      ],
+      "directCE": 2,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "232funprespexe-cb1-01-q003",
+        "232funprespexe-cb1-01-q009",
+        "alerj-2026-comunicacao-manha-tipo1-q008",
+        "alerj-2026-comunicacao-manha-tipo1-q010"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 2
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-2",
+      "number": "5.2",
+      "label": "Relações de coordenação entre orações e entre termos da oração.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-lingua-portuguesa-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "959-bcb-cb1-01-q021"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "959-bcb-cb1-01-q021"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-3",
+      "number": "5.3",
+      "label": "Relações de subordinação entre orações e entre termos da oração.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-lingua-portuguesa-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "959-bcb-cb1-01-q009"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "959-bcb-cb1-01-q009"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-4",
+      "number": "5.4",
+      "label": "Emprego dos sinais de pontuação.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-lingua-portuguesa-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q009",
+        "232funprespexe-cb1-01-q004",
+        "232funprespexe-cb1-01-q012",
+        "959-bcb-cb1-01-q007"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q009",
+        "232funprespexe-cb1-01-q004",
+        "232funprespexe-cb1-01-q012",
+        "959-bcb-cb1-01-q007"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-5",
+      "number": "5.5",
+      "label": "Concordância verbal e nominal.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-lingua-portuguesa-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "232funprespexe-cb1-01-q002",
+        "232funprespexe-cb1-01-q010",
+        "959-bcb-cb1-01-q011"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "232funprespexe-cb1-01-q002",
+        "232funprespexe-cb1-01-q010",
+        "959-bcb-cb1-01-q011"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-6",
+      "number": "5.6",
+      "label": "Regência verbal e nominal.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-lingua-portuguesa-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "232funprespexe-cb1-01-q001"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "232funprespexe-cb1-01-q001"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-7",
+      "number": "5.7",
+      "label": "Emprego do sinal indicativo de crase.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-lingua-portuguesa-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q008",
+        "959-bcb-cb1-01-q010"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q008",
+        "959-bcb-cb1-01-q010"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-5-8",
+      "number": "5.8",
+      "label": "Colocação dos pronomes átonos.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-lingua-portuguesa-5",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "959-bcb-cb1-01-q013",
+        "alerj-2026-comunicacao-manha-tipo1-q006"
+      ],
+      "directCE": 1,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "959-bcb-cb1-01-q013",
+        "alerj-2026-comunicacao-manha-tipo1-q006"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 1
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-6",
+      "number": "6",
+      "label": "Reescrita de frases e parágrafos do texto.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "B",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q005",
+        "038-anm-cg1-01-q010",
+        "128-tcemg-008-01-q044",
+        "959-bcb-cb1-01-q019",
+        "alerj-2026-comunicacao-manha-tipo1-q005"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 2
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-6-1",
+      "number": "6.1",
+      "label": "Significação das palavras.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-lingua-portuguesa-6",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q005",
+        "alerj-2026-comunicacao-manha-tipo1-q005"
+      ],
+      "directCE": 1,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q005",
+        "alerj-2026-comunicacao-manha-tipo1-q005"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 1
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-6-2",
+      "number": "6.2",
+      "label": "Substituição de palavras ou de trechos de texto.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-lingua-portuguesa-6",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "959-bcb-cb1-01-q019"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "959-bcb-cb1-01-q019"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-6-3",
+      "number": "6.3",
+      "label": "Reorganização da estrutura de orações e de períodos do texto.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-lingua-portuguesa-6",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q010"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q010"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-lingua-portuguesa-6-4",
+      "number": "6.4",
+      "label": "Reescrita de textos de diferentes gêneros e níveis de formalidade.",
+      "disciplineId": "lingua-portuguesa",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-lingua-portuguesa-6",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "128-tcemg-008-01-q044"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "128-tcemg-008-01-q044"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-1",
+      "number": "1",
+      "label": "Estruturas lógicas.",
+      "disciplineId": "raciocinio-logico",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "896-tcdf-cb1-01-q032",
+        "896-tcdf-cb1-01-q033"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "896-tcdf-cb1-01-q032",
+        "896-tcdf-cb1-01-q033"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-2",
+      "number": "2",
+      "label": "Lógica de argumentação: analogias, inferências, deduções e conclusões.",
+      "disciplineId": "raciocinio-logico",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "142-tcuaufc-cb1-01-q032",
+        "142-tcuaufc-cb1-01-q034",
+        "142-tcuaufc-cb1-01-q035",
+        "142-tcuaufc-cb1-01-q036"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q032",
+        "142-tcuaufc-cb1-01-q034",
+        "142-tcuaufc-cb1-01-q035",
+        "142-tcuaufc-cb1-01-q036"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3",
+      "number": "3",
+      "label": "Lógica sentencial (ou proposicional).",
+      "disciplineId": "raciocinio-logico",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "896-tcdf-cb1-01-q032",
+        "896-tcdf-cb1-01-q033"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3-1",
+      "number": "3.1",
+      "label": "Proposições simples e compostas.",
+      "disciplineId": "raciocinio-logico",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-raciocinio-logico-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "896-tcdf-cb1-01-q033"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "896-tcdf-cb1-01-q033"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3-2",
+      "number": "3.2",
+      "label": "Tabelas-verdade.",
+      "disciplineId": "raciocinio-logico",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-raciocinio-logico-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "896-tcdf-cb1-01-q032"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "896-tcdf-cb1-01-q032"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3-3",
+      "number": "3.3",
+      "label": "Equivalências.",
+      "disciplineId": "raciocinio-logico",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-raciocinio-logico-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "896-tcdf-cb1-01-q032"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "896-tcdf-cb1-01-q032"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-3-4",
+      "number": "3.4",
+      "label": "Diagramas lógicos.",
+      "disciplineId": "raciocinio-logico",
+      "block": "basic",
+      "parentTopicId": "abdi-2026-raciocinio-logico-3",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-4",
+      "number": "4",
+      "label": "Lógica de primeira ordem.",
+      "disciplineId": "raciocinio-logico",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-raciocinio-logico-5",
+      "number": "5",
+      "label": "Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais.",
+      "disciplineId": "raciocinio-logico",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "abdi-2008-assistente-compras-servicos-q021",
+        "abdi-2008-assistente-compras-servicos-q023",
+        "abdi-2008-assistente-compras-servicos-q024",
+        "abdi-2008-assistente-compras-servicos-q025",
+        "abdi-2008-assistente-compras-servicos-q026",
+        "abdi-2008-assistente-compras-servicos-q027",
+        "abdi-2008-assistente-compras-servicos-q028",
+        "abdi-2008-assistente-compras-servicos-q029",
+        "abdi-2008-assistente-compras-servicos-q030",
+        "senado-2022-administracao-tipo1-q014",
+        "senado-2022-administracao-tipo1-q016",
+        "senado-2022-administracao-tipo1-q017",
+        "senado-2022-policial-tipo1-q014",
+        "senado-2022-policial-tipo1-q016",
+        "senado-2022-policial-tipo1-q017"
+      ],
+      "directCE": 0,
+      "directMC": 15,
+      "subtreeQuestionIds": [
+        "abdi-2008-assistente-compras-servicos-q021",
+        "abdi-2008-assistente-compras-servicos-q023",
+        "abdi-2008-assistente-compras-servicos-q024",
+        "abdi-2008-assistente-compras-servicos-q025",
+        "abdi-2008-assistente-compras-servicos-q026",
+        "abdi-2008-assistente-compras-servicos-q027",
+        "abdi-2008-assistente-compras-servicos-q028",
+        "abdi-2008-assistente-compras-servicos-q029",
+        "abdi-2008-assistente-compras-servicos-q030",
+        "senado-2022-administracao-tipo1-q014",
+        "senado-2022-administracao-tipo1-q016",
+        "senado-2022-administracao-tipo1-q017",
+        "senado-2022-policial-tipo1-q014",
+        "senado-2022-policial-tipo1-q016",
+        "senado-2022-policial-tipo1-q017"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 15
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-1",
+      "number": "1",
+      "label": "Conceitos básicos de Informática: hardware, software, periféricos, dispositivos de entrada, saída e armazenamento, organização de arquivos e pastas e principais extensões de arquivos;",
+      "disciplineId": "abdi-nocoes-informatica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q011"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q011"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-2",
+      "number": "2",
+      "label": "Sistemas operacionais Microsoft Windows 10 e Microsoft Windows 11, em português (Brasil): área de trabalho, gerenciamento de arquivos e pastas, configurações, pesquisa, impressão, compartilhamento e principais recursos;",
+      "disciplineId": "abdi-nocoes-informatica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q011",
+        "alerj-2026-comunicacao-manha-tipo1-q015",
+        "alerj-2026-comunicacao-manha-tipo1-q020"
+      ],
+      "directCE": 0,
+      "directMC": 3,
+      "subtreeQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q011",
+        "alerj-2026-comunicacao-manha-tipo1-q015",
+        "alerj-2026-comunicacao-manha-tipo1-q020"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 3
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-3",
+      "number": "3",
+      "label": "Microsoft 365, em português (Brasil): Word, Excel, PowerPoint e Outlook;",
+      "disciplineId": "abdi-nocoes-informatica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q012",
+        "alerj-2026-comunicacao-manha-tipo1-q013",
+        "alerj-2026-comunicacao-manha-tipo1-q016",
+        "alerj-2026-comunicacao-manha-tipo1-q017",
+        "alerj-2026-comunicacao-manha-tipo1-q018"
+      ],
+      "directCE": 0,
+      "directMC": 5,
+      "subtreeQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q012",
+        "alerj-2026-comunicacao-manha-tipo1-q013",
+        "alerj-2026-comunicacao-manha-tipo1-q016",
+        "alerj-2026-comunicacao-manha-tipo1-q017",
+        "alerj-2026-comunicacao-manha-tipo1-q018"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 5
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-4",
+      "number": "4",
+      "label": "LibreOffice 7.x ou superior, em português (Brasil): Writer, Calc e Impress;",
+      "disciplineId": "abdi-nocoes-informatica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-5",
+      "number": "5",
+      "label": "Internet e Intranet: conceitos, navegação, navegadores Google Chrome, Mozilla Firefox e Microsoft Edge, mecanismos de busca, webmail e demais serviços da Internet;",
+      "disciplineId": "abdi-nocoes-informatica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q014"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q014"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-6",
+      "number": "6",
+      "label": "Correio eletrônico: envio, recebimento, organização de mensagens, anexos, contatos e calendários;",
+      "disciplineId": "abdi-nocoes-informatica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-7",
+      "number": "7",
+      "label": "Segurança da informação: vírus, malwares, phishing, golpes eletrônicos, antivírus, firewall, backup, autenticação e boas práticas de segurança digital;",
+      "disciplineId": "abdi-nocoes-informatica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q029",
+        "094-pf-cb1-01-q028",
+        "094-pf-cb1-01-q029",
+        "094-pf-cb1-01-q032",
+        "094-pf-cb1-01-q034",
+        "106-pf-cg1-01-q064",
+        "106-pf-cg1-01-q088"
+      ],
+      "directCE": 7,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q029",
+        "094-pf-cb1-01-q028",
+        "094-pf-cb1-01-q029",
+        "094-pf-cb1-01-q032",
+        "094-pf-cb1-01-q034",
+        "106-pf-cg1-01-q064",
+        "106-pf-cg1-01-q088"
+      ],
+      "subtreeCE": 7,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-8",
+      "number": "8",
+      "label": "Computação em nuvem: armazenamento, sincronização, compartilhamento de arquivos e colaboração;",
+      "disciplineId": "abdi-nocoes-informatica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "018-stj-cb1-01-q048",
+        "038-anm-cg1-01-q030"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "018-stj-cb1-01-q048",
+        "038-anm-cg1-01-q030"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-9",
+      "number": "9",
+      "label": "Inteligência Artificial: conceitos básicos, aplicações no ambiente de trabalho, ferramentas de IA generativa, uso responsável, limitações e boas práticas;",
+      "disciplineId": "abdi-nocoes-informatica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-024-01-q091",
+        "038-anm-024-01-q097",
+        "038-anm-cg1-01-q026",
+        "050-trt10-011-01-q069",
+        "057-ibama-cb1-01-q017",
+        "128-tcemg-008-01-q043",
+        "alerj-2026-comunicacao-manha-tipo1-q074"
+      ],
+      "directCE": 5,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "038-anm-024-01-q091",
+        "038-anm-024-01-q097",
+        "038-anm-cg1-01-q026",
+        "050-trt10-011-01-q069",
+        "057-ibama-cb1-01-q017",
+        "128-tcemg-008-01-q043",
+        "alerj-2026-comunicacao-manha-tipo1-q074"
+      ],
+      "subtreeCE": 5,
+      "subtreeMC": 2
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-10",
+      "number": "10",
+      "label": "Digitalização, impressão, compartilhamento de documentos, teclas de atalho, recursos de acessibilidade e produtividade em sistemas operacionais e aplicativos.",
+      "disciplineId": "abdi-nocoes-informatica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q015",
+        "alerj-2026-comunicacao-manha-tipo1-q020"
+      ],
+      "directCE": 0,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q015",
+        "alerj-2026-comunicacao-manha-tipo1-q020"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 2
+    },
+    {
+      "id": "abdi-2026-abdi-nocoes-informatica-11",
+      "number": "11",
+      "label": "Legislação acerca de Segurança da Informação e Proteção De Dados: 1. Lei nº 12.527/2011 (Lei de Acesso à Informação); 2. Lei nº 12.737/2012 (Lei de Delitos Informáticos); 3. Lei nº 12.965/2014 (Marco Civil da Internet); 4. Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD)",
+      "disciplineId": "abdi-nocoes-informatica",
+      "block": "basic",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-cg1-01-q034",
+        "038-anm-cg1-01-q035",
+        "057-ibama-001-01-q072",
+        "094-pf-cb1-01-q050",
+        "153-telebras-008-01-q079",
+        "153-telebras-008-01-q080",
+        "153-telebras-008-01-q081",
+        "153-telebras-008-01-q082",
+        "153-telebras-008-01-q083",
+        "153-telebras-008-01-q084",
+        "alerj-2026-comunicacao-manha-tipo1-q068",
+        "alerj-2026-comunicacao-manha-tipo1-q071",
+        "fiocruz-2024-te23-q005",
+        "senado-2022-policial-tipo1-q051"
+      ],
+      "directCE": 10,
+      "directMC": 4,
+      "subtreeQuestionIds": [
+        "038-anm-cg1-01-q034",
+        "038-anm-cg1-01-q035",
+        "057-ibama-001-01-q072",
+        "094-pf-cb1-01-q050",
+        "153-telebras-008-01-q079",
+        "153-telebras-008-01-q080",
+        "153-telebras-008-01-q081",
+        "153-telebras-008-01-q082",
+        "153-telebras-008-01-q083",
+        "153-telebras-008-01-q084",
+        "alerj-2026-comunicacao-manha-tipo1-q068",
+        "alerj-2026-comunicacao-manha-tipo1-q071",
+        "fiocruz-2024-te23-q005",
+        "senado-2022-policial-tipo1-q051"
+      ],
+      "subtreeCE": 10,
+      "subtreeMC": 4
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1",
+      "number": "1",
+      "label": "NATUREZA E FINALIDADE DOS SERVIÇOS SOCIAIS AUTÔNOMOS",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "block": "institutional",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "344-dpeal-001-01-q009",
+        "abdi-2008-especialista-analise-economica-q014",
+        "abdi-2008-especialista-juridico-q019",
+        "abdi-2008-especialista-juridico-q020",
+        "abdi-2008-iniciante-processos-q020",
+        "abdi-2008-senior-juridico-q018",
+        "tjrr-2024-direito-tipo1-q050"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 7
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-1",
+      "number": "1.1",
+      "label": "Conceito, características, natureza jurídica e finalidade dos Serviços Sociais Autônomos. Lei nº 11.080/2004, art. 1º, caput e § 1º, com redação dada pela Lei nº 14.440/2022; Decreto nº 5.352/2005, arts. 1º e 2º.",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-servicos-sociais-autonomos-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "344-dpeal-001-01-q009",
+        "abdi-2008-especialista-juridico-q019"
+      ],
+      "directCE": 0,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "344-dpeal-001-01-q009",
+        "abdi-2008-especialista-juridico-q019"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 2
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-2",
+      "number": "1.2",
+      "label": "Personalidade jurídica de direito privado, ausência de fins lucrativos, interesse coletivo e utilidade pública. Lei nº 11.080/2004, art. 1º, § 1º; Decreto nº 5.352/2005, art. 1º.",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-servicos-sociais-autonomos-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "tjrr-2024-direito-tipo1-q050"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "tjrr-2024-direito-tipo1-q050"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-3",
+      "number": "1.3",
+      "label": "Autonomia administrativa e gestão de pessoal. Lei nº 11.080/2004, art. 11, §§ 1º a 4º.",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-servicos-sociais-autonomos-1",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-4",
+      "number": "1.4",
+      "label": "Regime jurídico e relações com o Poder Público. Contrato de gestão, princípios aplicáveis e responsabilidades institucionais. Lei nº 11.080/2004, arts. 8º a 12; Decreto nº 5.352/2005, art. 10.",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-servicos-sociais-autonomos-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "abdi-2008-especialista-juridico-q020"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "abdi-2008-especialista-juridico-q020"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-5",
+      "number": "1.5",
+      "label": "Supervisão, fiscalização, controle e prestação de contas. Lei nº 11.080/2004, arts. 8º, 9º e 14; Decreto nº 5.352/2005, arts. 4º, 6º e 10.",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-servicos-sociais-autonomos-1",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "abdi-2008-especialista-analise-economica-q014",
+        "abdi-2008-iniciante-processos-q020",
+        "abdi-2008-senior-juridico-q018"
+      ],
+      "directCE": 0,
+      "directMC": 3,
+      "subtreeQuestionIds": [
+        "abdi-2008-especialista-analise-economica-q014",
+        "abdi-2008-iniciante-processos-q020",
+        "abdi-2008-senior-juridico-q018"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 3
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2",
+      "number": "2",
+      "label": "LEGISLAÇÃO DE CRIAÇÃO E ESTATUTO SOCIAL DA ABDI",
+      "disciplineId": "abdi-criacao-estatuto",
+      "block": "institutional",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "abdi-2008-especialista-analise-economica-q014",
+        "abdi-2008-especialista-controle-interno-auditoria-q018",
+        "abdi-2008-especialista-juridico-q019",
+        "abdi-2008-especialista-juridico-q020",
+        "abdi-2008-iniciante-processos-q020",
+        "abdi-2008-senior-juridico-q018"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 6
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-1",
+      "number": "2.1",
+      "label": "Lei nº 11.080/2004 e suas alterações, especialmente a Lei nº 14.440/2022.",
+      "disciplineId": "abdi-criacao-estatuto",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-criacao-estatuto-2",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-2",
+      "number": "2.2",
+      "label": "Decreto nº 5.352/2005 e suas alterações.",
+      "disciplineId": "abdi-criacao-estatuto",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-criacao-estatuto-2",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-3",
+      "number": "2.3",
+      "label": "Estatuto Social da ABDI: natureza, finalidade, princípios e competências institucionais.",
+      "disciplineId": "abdi-criacao-estatuto",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-criacao-estatuto-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "abdi-2008-especialista-juridico-q019"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "abdi-2008-especialista-juridico-q019"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-4",
+      "number": "2.4",
+      "label": "Organização administrativa e estrutura de governança.",
+      "disciplineId": "abdi-criacao-estatuto",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-criacao-estatuto-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "abdi-2008-especialista-controle-interno-auditoria-q018"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "abdi-2008-especialista-controle-interno-auditoria-q018"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-5",
+      "number": "2.5",
+      "label": "Conselho Deliberativo, Conselho Fiscal e Diretoria-Executiva: composição, competências e atribuições.",
+      "disciplineId": "abdi-criacao-estatuto",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-criacao-estatuto-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "abdi-2008-especialista-controle-interno-auditoria-q018",
+        "abdi-2008-iniciante-processos-q020"
+      ],
+      "directCE": 0,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "abdi-2008-especialista-controle-interno-auditoria-q018",
+        "abdi-2008-iniciante-processos-q020"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 2
+    },
+    {
+      "id": "abdi-2026-abdi-criacao-estatuto-2-6",
+      "number": "2.6",
+      "label": "Patrimônio, receitas, contrato de gestão e prestação de contas.",
+      "disciplineId": "abdi-criacao-estatuto",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-criacao-estatuto-2",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "abdi-2008-especialista-analise-economica-q014",
+        "abdi-2008-especialista-juridico-q020",
+        "abdi-2008-senior-juridico-q018"
+      ],
+      "directCE": 0,
+      "directMC": 3,
+      "subtreeQuestionIds": [
+        "abdi-2008-especialista-analise-economica-q014",
+        "abdi-2008-especialista-juridico-q020",
+        "abdi-2008-senior-juridico-q018"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 3
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3",
+      "number": "3",
+      "label": "REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "block": "institutional",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "abdi-2008-especialista-administrativo-financeiro-q012",
+        "abdi-2008-especialista-analise-economica-q012",
+        "abdi-2008-iniciante-licitacoes-contratos-q011",
+        "abdi-2008-iniciante-licitacoes-contratos-q013",
+        "abdi-2008-iniciante-licitacoes-contratos-q014",
+        "abdi-2008-pleno-servicos-gerais-q011",
+        "abdi-2008-pleno-servicos-gerais-q012",
+        "abdi-2008-projetos-biotecnologia-q012",
+        "abdi-2008-senior-juridico-q020"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 9
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-1",
+      "number": "3.1",
+      "label": "Regulamento de Licitações e Contratos da ABDI: princípios e disposições gerais.",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-2",
+      "number": "3.2",
+      "label": "Modalidades, procedimentos licitatórios, critérios de julgamento e habilitação.",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "abdi-2008-especialista-administrativo-financeiro-q012",
+        "abdi-2008-especialista-analise-economica-q012",
+        "abdi-2008-iniciante-licitacoes-contratos-q011",
+        "abdi-2008-iniciante-licitacoes-contratos-q013",
+        "abdi-2008-pleno-servicos-gerais-q011",
+        "abdi-2008-pleno-servicos-gerais-q012"
+      ],
+      "directCE": 0,
+      "directMC": 6,
+      "subtreeQuestionIds": [
+        "abdi-2008-especialista-administrativo-financeiro-q012",
+        "abdi-2008-especialista-analise-economica-q012",
+        "abdi-2008-iniciante-licitacoes-contratos-q011",
+        "abdi-2008-iniciante-licitacoes-contratos-q013",
+        "abdi-2008-pleno-servicos-gerais-q011",
+        "abdi-2008-pleno-servicos-gerais-q012"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 6
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-3",
+      "number": "3.3",
+      "label": "Contratação direta: dispensa e inexigibilidade.",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "abdi-2008-iniciante-licitacoes-contratos-q014",
+        "abdi-2008-senior-juridico-q020"
+      ],
+      "directCE": 0,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "abdi-2008-iniciante-licitacoes-contratos-q014",
+        "abdi-2008-senior-juridico-q020"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 2
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-4",
+      "number": "3.4",
+      "label": "Formalização, execução, fiscalização, alteração e extinção dos contratos.",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-5",
+      "number": "3.5",
+      "label": "Sanções e responsabilidades contratuais.",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-6",
+      "number": "3.6",
+      "label": "Regulamento de Convênios da ABDI: disposições gerais, conceitos e modalidades.",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "abdi-2008-projetos-biotecnologia-q012"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "abdi-2008-projetos-biotecnologia-q012"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-7",
+      "number": "3.7",
+      "label": "Celebração de convênios, plano de trabalho, habilitação e contrapartidas.",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-8",
+      "number": "3.8",
+      "label": "Execução, acompanhamento, fiscalização e alterações dos convênios.",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-licitacoes-convenios-3-9",
+      "number": "3.9",
+      "label": "Prestação de contas, responsabilidades e disposições finais.",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-licitacoes-convenios-3",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4",
+      "number": "4",
+      "label": "ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI",
+      "disciplineId": "abdi-etica-missao",
+      "block": "institutional",
+      "parentTopicId": null,
+      "isLeaf": false,
+      "state": "descendants_only",
+      "priority": "C",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "128-tcemg-008-01-q039",
+        "abdi-2008-senior-assessor-comunicacao-q013",
+        "abdi-2008-senior-assessor-comunicacao-q016",
+        "fiocruz-2024-te58-q038"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 4
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-1",
+      "number": "4.1",
+      "label": "Regulamento de Ética e Conduta da ABDI (Resolução do Conselho Deliberativo nº 004/2022): objetivo, aplicabilidade, valores e princípios éticos (arts. 1º a 3º).",
+      "disciplineId": "abdi-etica-missao",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-etica-missao-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "128-tcemg-008-01-q039",
+        "abdi-2008-senior-assessor-comunicacao-q013",
+        "abdi-2008-senior-assessor-comunicacao-q016"
+      ],
+      "directCE": 0,
+      "directMC": 3,
+      "subtreeQuestionIds": [
+        "128-tcemg-008-01-q039",
+        "abdi-2008-senior-assessor-comunicacao-q013",
+        "abdi-2008-senior-assessor-comunicacao-q016"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 3
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-2",
+      "number": "4.2",
+      "label": "Direitos, deveres e vedações aplicáveis aos profissionais da ABDI (arts. 4º a 6º do Regulamento de Ética e Conduta).",
+      "disciplineId": "abdi-etica-missao",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-etica-missao-4",
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "128-tcemg-008-01-q039",
+        "fiocruz-2024-te58-q038"
+      ],
+      "directCE": 0,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "128-tcemg-008-01-q039",
+        "fiocruz-2024-te58-q038"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 2
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-3",
+      "number": "4.3",
+      "label": "Critérios de conduta profissional: mídias sociais, confidencialidade de informações, propriedade intelectual, utilização de recursos institucionais, doações e patrocínios (arts. 7º a 11 do Regulamento de Ética e Conduta).",
+      "disciplineId": "abdi-etica-missao",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-etica-missao-4",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-4",
+      "number": "4.4",
+      "label": "Conflito de interesses: atividades paralelas, atividades políticas, sindicais e religiosas, relacionamento entre profissionais, brindes, presentes, favores, participação em eventos e utilização de informações privilegiadas (arts. 12 a 17 do Regulamento de Ética e Conduta).",
+      "disciplineId": "abdi-etica-missao",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-etica-missao-4",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-5",
+      "number": "4.5",
+      "label": "Descumprimento das normas, medidas disciplinares, comunicação de irregularidades, denúncias e gestão do Regulamento de Ética e Conduta (arts. 18 a 25).",
+      "disciplineId": "abdi-etica-missao",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-etica-missao-4",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-6",
+      "number": "4.6",
+      "label": "Missão, visão, valores, diretrizes e objetivos estratégicos da ABDI, conforme o Planejamento Estratégico 2024–2029, aprovado pela Resolução do Conselho Deliberativo nº 008/2023.",
+      "disciplineId": "abdi-etica-missao",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-etica-missao-4",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-etica-missao-4-7",
+      "number": "4.7",
+      "label": "Atuação institucional da ABDI: promoção do desenvolvimento industrial, inovação, transformação digital, difusão tecnológica, competitividade e sustentabilidade, conforme o art. 1º da Lei nº 11.080/2004, o art. 2º do Decreto nº 5.352/2005 e o Planejamento Estratégico 2024–2029.",
+      "disciplineId": "abdi-etica-missao",
+      "block": "institutional",
+      "parentTopicId": "abdi-2026-abdi-etica-missao-4",
+      "isLeaf": true,
+      "state": "empty",
+      "priority": "A",
+      "directQuestionIds": [],
+      "directCE": 0,
+      "directMC": 0,
+      "subtreeQuestionIds": [],
+      "subtreeCE": 0,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-1",
+      "number": "1",
+      "label": "Teorias da comunicação.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-008-01-q054",
+        "072-stm-004-01-q085",
+        "128-tcemg-008-01-q031",
+        "539-alce-016-01-q021",
+        "539-alce-016-01-q027"
+      ],
+      "directCE": 2,
+      "directMC": 3,
+      "subtreeQuestionIds": [
+        "038-anm-008-01-q054",
+        "072-stm-004-01-q085",
+        "128-tcemg-008-01-q031",
+        "539-alce-016-01-q021",
+        "539-alce-016-01-q027"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 3
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-2",
+      "number": "2",
+      "label": "Processos, elementos, modelos e funções da comunicação.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "128-tcemg-008-01-q031",
+        "539-alce-016-01-q027",
+        "fiocruz-2024-te58-q022"
+      ],
+      "directCE": 0,
+      "directMC": 3,
+      "subtreeQuestionIds": [
+        "128-tcemg-008-01-q031",
+        "539-alce-016-01-q027",
+        "fiocruz-2024-te58-q022"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 3
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-3",
+      "number": "3",
+      "label": "Comunicação social, institucional, organizacional e pública.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-012-01-q065",
+        "042-embrapa-analista-072-01-q086",
+        "153-telebras-008-01-q055",
+        "205-funpresp-26-jud-005-01-q080",
+        "232funprespexe-002-01-q097",
+        "232funprespexe-002-01-q098",
+        "232funprespexe-002-01-q099",
+        "232funprespexe-002-01-q100",
+        "539-alce-016-01-q022",
+        "539-alce-016-01-q023",
+        "989-codevasf-010-01-q102"
+      ],
+      "directCE": 9,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "038-anm-012-01-q065",
+        "042-embrapa-analista-072-01-q086",
+        "153-telebras-008-01-q055",
+        "205-funpresp-26-jud-005-01-q080",
+        "232funprespexe-002-01-q097",
+        "232funprespexe-002-01-q098",
+        "232funprespexe-002-01-q099",
+        "232funprespexe-002-01-q100",
+        "539-alce-016-01-q022",
+        "539-alce-016-01-q023",
+        "989-codevasf-010-01-q102"
+      ],
+      "subtreeCE": 9,
+      "subtreeMC": 2
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-4",
+      "number": "4",
+      "label": "Planejamento estratégico de comunicação.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "038-anm-010-01-q079",
+        "153-telebras-008-01-q095",
+        "153-telebras-008-01-q096",
+        "232funprespexe-002-01-q084",
+        "232funprespexe-002-01-q085",
+        "803-tj-es-006-01-q072",
+        "893-dataprev-005-01-q114"
+      ],
+      "directCE": 7,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q079",
+        "153-telebras-008-01-q095",
+        "153-telebras-008-01-q096",
+        "232funprespexe-002-01-q084",
+        "232funprespexe-002-01-q085",
+        "803-tj-es-006-01-q072",
+        "893-dataprev-005-01-q114"
+      ],
+      "subtreeCE": 7,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-5",
+      "number": "5",
+      "label": "Comunicação integrada.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "539-alce-016-01-q025"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "539-alce-016-01-q025"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-6",
+      "number": "6",
+      "label": "Identidade, imagem, marca e reputação institucional.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "038-anm-010-01-q070",
+        "038-anm-012-01-q079",
+        "153-telebras-008-01-q061",
+        "153-telebras-008-01-q062",
+        "153-telebras-008-01-q072",
+        "205-funpresp-26-jud-005-01-q057",
+        "989-codevasf-010-01-q059"
+      ],
+      "directCE": 7,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q070",
+        "038-anm-012-01-q079",
+        "153-telebras-008-01-q061",
+        "153-telebras-008-01-q062",
+        "153-telebras-008-01-q072",
+        "205-funpresp-26-jud-005-01-q057",
+        "989-codevasf-010-01-q059"
+      ],
+      "subtreeCE": 7,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-7",
+      "number": "7",
+      "label": "Assessoria de comunicação e assessoria de imprensa.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "018-stj-006-01-q055",
+        "alerj-2026-comunicacao-manha-tipo1-q056",
+        "alerj-2026-comunicacao-manha-tipo1-q059"
+      ],
+      "directCE": 1,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "018-stj-006-01-q055",
+        "alerj-2026-comunicacao-manha-tipo1-q056",
+        "alerj-2026-comunicacao-manha-tipo1-q059"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 2
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-8",
+      "number": "8",
+      "label": "Relacionamento com a imprensa e fontes de informação.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "018-stj-006-01-q055",
+        "893-dataprev-005-01-q104",
+        "alerj-2026-comunicacao-manha-tipo1-q056",
+        "alerj-2026-comunicacao-manha-tipo1-q059"
+      ],
+      "directCE": 2,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "018-stj-006-01-q055",
+        "893-dataprev-005-01-q104",
+        "alerj-2026-comunicacao-manha-tipo1-q056",
+        "alerj-2026-comunicacao-manha-tipo1-q059"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 2
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-9",
+      "number": "9",
+      "label": "Gêneros jornalísticos.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-008-01-q110",
+        "128-tcemg-008-01-q045",
+        "alerj-2026-comunicacao-manha-tipo1-q061"
+      ],
+      "directCE": 1,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "038-anm-008-01-q110",
+        "128-tcemg-008-01-q045",
+        "alerj-2026-comunicacao-manha-tipo1-q061"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 2
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-10",
+      "number": "10",
+      "label": "Técnicas de redação jornalística: notícia, reportagem, entrevista, nota, release, artigo e texto institucional.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "153-telebras-008-01-q106",
+        "alerj-2026-comunicacao-manha-tipo1-q060"
+      ],
+      "directCE": 1,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "153-telebras-008-01-q106",
+        "alerj-2026-comunicacao-manha-tipo1-q060"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 1
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-11",
+      "number": "11",
+      "label": "Edição e revisão de conteúdos.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "153-telebras-008-01-q106"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "153-telebras-008-01-q106"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-12",
+      "number": "12",
+      "label": "Comunicação interna e relacionamento com públicos internos.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "018-stj-006-01-q061",
+        "038-anm-010-01-q088",
+        "038-anm-010-01-q089",
+        "038-anm-010-01-q093",
+        "038-anm-012-01-q108",
+        "072-stm-004-01-q079",
+        "072-stm-004-01-q082",
+        "128-tcemg-008-01-q045",
+        "153-telebras-008-01-q075",
+        "205-funpresp-26-jud-005-01-q106",
+        "205-funpresp-26-jud-005-01-q107",
+        "232funprespexe-002-01-q090",
+        "232funprespexe-002-01-q091",
+        "232funprespexe-002-01-q092",
+        "232funprespexe-002-01-q096",
+        "alerj-2026-comunicacao-manha-tipo1-q065"
+      ],
+      "directCE": 14,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "018-stj-006-01-q061",
+        "038-anm-010-01-q088",
+        "038-anm-010-01-q089",
+        "038-anm-010-01-q093",
+        "038-anm-012-01-q108",
+        "072-stm-004-01-q079",
+        "072-stm-004-01-q082",
+        "128-tcemg-008-01-q045",
+        "153-telebras-008-01-q075",
+        "205-funpresp-26-jud-005-01-q106",
+        "205-funpresp-26-jud-005-01-q107",
+        "232funprespexe-002-01-q090",
+        "232funprespexe-002-01-q091",
+        "232funprespexe-002-01-q092",
+        "232funprespexe-002-01-q096",
+        "alerj-2026-comunicacao-manha-tipo1-q065"
+      ],
+      "subtreeCE": 14,
+      "subtreeMC": 2
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-13",
+      "number": "13",
+      "label": "Comunicação digital e produção de conteúdo para ambientes digitais.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "038-anm-008-01-q072",
+        "072-stm-004-01-q113",
+        "153-telebras-008-01-q106",
+        "205-funpresp-26-jud-005-01-q095"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-008-01-q072",
+        "072-stm-004-01-q113",
+        "153-telebras-008-01-q106",
+        "205-funpresp-26-jud-005-01-q095"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-14",
+      "number": "14",
+      "label": "Redes sociais: planejamento, produção, publicação, monitoramento e métricas.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "018-stj-006-01-q053",
+        "018-stj-006-01-q079",
+        "072-stm-004-01-q116",
+        "153-telebras-008-01-q099",
+        "153-telebras-008-01-q101",
+        "153-telebras-008-01-q105",
+        "205-funpresp-26-jud-005-01-q082",
+        "205-funpresp-26-jud-009-01-q077",
+        "893-dataprev-005-01-q107",
+        "893-dataprev-005-01-q108",
+        "893-dataprev-005-01-q109",
+        "893-dataprev-005-01-q110",
+        "alerj-2026-comunicacao-manha-tipo1-q064",
+        "alerj-2026-comunicacao-manha-tipo1-q067",
+        "alerj-2026-comunicacao-manha-tipo1-q072",
+        "alerj-2026-comunicacao-manha-tipo1-q073"
+      ],
+      "directCE": 12,
+      "directMC": 4,
+      "subtreeQuestionIds": [
+        "018-stj-006-01-q053",
+        "018-stj-006-01-q079",
+        "072-stm-004-01-q116",
+        "153-telebras-008-01-q099",
+        "153-telebras-008-01-q101",
+        "153-telebras-008-01-q105",
+        "205-funpresp-26-jud-005-01-q082",
+        "205-funpresp-26-jud-009-01-q077",
+        "893-dataprev-005-01-q107",
+        "893-dataprev-005-01-q108",
+        "893-dataprev-005-01-q109",
+        "893-dataprev-005-01-q110",
+        "alerj-2026-comunicacao-manha-tipo1-q064",
+        "alerj-2026-comunicacao-manha-tipo1-q067",
+        "alerj-2026-comunicacao-manha-tipo1-q072",
+        "alerj-2026-comunicacao-manha-tipo1-q073"
+      ],
+      "subtreeCE": 12,
+      "subtreeMC": 4
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-15",
+      "number": "15",
+      "label": "Produção e gestão de conteúdo multimídia.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "042-embrapa-analista-072-01-q087"
+      ],
+      "directCE": 1,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "042-embrapa-analista-072-01-q087"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-16",
+      "number": "16",
+      "label": "Comunicação audiovisual: fundamentos de fotografia, vídeo e áudio.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "038-anm-010-01-q077",
+        "038-anm-010-01-q092",
+        "042-embrapa-analista-072-01-q087",
+        "205-funpresp-26-jud-005-01-q067"
+      ],
+      "directCE": 4,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q077",
+        "038-anm-010-01-q092",
+        "042-embrapa-analista-072-01-q087",
+        "205-funpresp-26-jud-005-01-q067"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-17",
+      "number": "17",
+      "label": "Comunicação visual: fundamentos de design, identidade visual e produção gráfica.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "038-anm-010-01-q100",
+        "038-anm-010-01-q101",
+        "038-anm-010-01-q102"
+      ],
+      "directCE": 3,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q100",
+        "038-anm-010-01-q101",
+        "038-anm-010-01-q102"
+      ],
+      "subtreeCE": 3,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-18",
+      "number": "18",
+      "label": "Planejamento e organização de eventos.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q069"
+      ],
+      "directCE": 0,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q069"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 1
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-19",
+      "number": "19",
+      "label": "Pesquisa de opinião e avaliação de resultados de comunicação.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-010-01-q073",
+        "038-anm-010-01-q083",
+        "153-telebras-008-01-q067",
+        "153-telebras-008-01-q098",
+        "205-funpresp-26-jud-005-01-q072",
+        "803-tj-es-006-01-q067",
+        "893-dataprev-005-01-q104",
+        "alerj-2026-comunicacao-manha-tipo1-q073"
+      ],
+      "directCE": 7,
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "038-anm-010-01-q073",
+        "038-anm-010-01-q083",
+        "153-telebras-008-01-q067",
+        "153-telebras-008-01-q098",
+        "205-funpresp-26-jud-005-01-q072",
+        "803-tj-es-006-01-q067",
+        "893-dataprev-005-01-q104",
+        "alerj-2026-comunicacao-manha-tipo1-q073"
+      ],
+      "subtreeCE": 7,
+      "subtreeMC": 1
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-20",
+      "number": "20",
+      "label": "Gestão de crises e comunicação de risco.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-013-01-q064",
+        "042-embrapa-analista-072-01-q094",
+        "042-embrapa-analista-072-01-q096",
+        "042-embrapa-analista-072-01-q097",
+        "539-alce-016-01-q026",
+        "abdi-2008-senior-assessor-comunicacao-q016",
+        "alerj-2026-comunicacao-manha-tipo1-q058"
+      ],
+      "directCE": 4,
+      "directMC": 3,
+      "subtreeQuestionIds": [
+        "038-anm-013-01-q064",
+        "042-embrapa-analista-072-01-q094",
+        "042-embrapa-analista-072-01-q096",
+        "042-embrapa-analista-072-01-q097",
+        "539-alce-016-01-q026",
+        "abdi-2008-senior-assessor-comunicacao-q016",
+        "alerj-2026-comunicacao-manha-tipo1-q058"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 3
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-21",
+      "number": "21",
+      "label": "Relacionamento com públicos de interesse e comunidades.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "A",
+      "directQuestionIds": [
+        "038-anm-012-01-q061",
+        "072-stm-004-01-q114"
+      ],
+      "directCE": 2,
+      "directMC": 0,
+      "subtreeQuestionIds": [
+        "038-anm-012-01-q061",
+        "072-stm-004-01-q114"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 0
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-22",
+      "number": "22",
+      "label": "Comunicação científica, tecnológica e ambiental.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-008-01-q110",
+        "fiocruz-2024-te23-q019",
+        "fiocruz-2024-te23-q027",
+        "fiocruz-2024-te58-q022",
+        "fiocruz-2024-te58-q024",
+        "fiocruz-2024-te58-q038",
+        "fiocruz-2024-te58-q039"
+      ],
+      "directCE": 1,
+      "directMC": 6,
+      "subtreeQuestionIds": [
+        "038-anm-008-01-q110",
+        "fiocruz-2024-te23-q019",
+        "fiocruz-2024-te23-q027",
+        "fiocruz-2024-te58-q022",
+        "fiocruz-2024-te58-q024",
+        "fiocruz-2024-te58-q038",
+        "fiocruz-2024-te58-q039"
+      ],
+      "subtreeCE": 1,
+      "subtreeMC": 6
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-23",
+      "number": "23",
+      "label": "Ética e legislação aplicadas à comunicação.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "018-stj-006-01-q055",
+        "018-stj-006-01-q062",
+        "038-anm-010-01-q059",
+        "128-tcemg-008-01-q039",
+        "128-tcemg-008-01-q043",
+        "205-funpresp-26-jud-005-01-q094",
+        "abdi-2008-senior-assessor-comunicacao-q013",
+        "alerj-2026-comunicacao-manha-tipo1-q067",
+        "alerj-2026-comunicacao-manha-tipo1-q074"
+      ],
+      "directCE": 4,
+      "directMC": 5,
+      "subtreeQuestionIds": [
+        "018-stj-006-01-q055",
+        "018-stj-006-01-q062",
+        "038-anm-010-01-q059",
+        "128-tcemg-008-01-q039",
+        "128-tcemg-008-01-q043",
+        "205-funpresp-26-jud-005-01-q094",
+        "abdi-2008-senior-assessor-comunicacao-q013",
+        "alerj-2026-comunicacao-manha-tipo1-q067",
+        "alerj-2026-comunicacao-manha-tipo1-q074"
+      ],
+      "subtreeCE": 4,
+      "subtreeMC": 5
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-24",
+      "number": "24",
+      "label": "Direito à informação, transparência e acesso à informação.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-013-01-q069",
+        "205-funpresp-26-jud-005-01-q081",
+        "alerj-2026-comunicacao-manha-tipo1-q068",
+        "alerj-2026-comunicacao-manha-tipo1-q071"
+      ],
+      "directCE": 2,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "038-anm-013-01-q069",
+        "205-funpresp-26-jud-005-01-q081",
+        "alerj-2026-comunicacao-manha-tipo1-q068",
+        "alerj-2026-comunicacao-manha-tipo1-q071"
+      ],
+      "subtreeCE": 2,
+      "subtreeMC": 2
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-25",
+      "number": "25",
+      "label": "Proteção de dados pessoais aplicada às atividades de comunicação.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "153-telebras-008-01-q079",
+        "153-telebras-008-01-q080",
+        "153-telebras-008-01-q081",
+        "153-telebras-008-01-q082",
+        "153-telebras-008-01-q083",
+        "153-telebras-008-01-q084",
+        "fiocruz-2024-te23-q005",
+        "senado-2022-policial-tipo1-q051"
+      ],
+      "directCE": 6,
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "153-telebras-008-01-q079",
+        "153-telebras-008-01-q080",
+        "153-telebras-008-01-q081",
+        "153-telebras-008-01-q082",
+        "153-telebras-008-01-q083",
+        "153-telebras-008-01-q084",
+        "fiocruz-2024-te23-q005",
+        "senado-2022-policial-tipo1-q051"
+      ],
+      "subtreeCE": 6,
+      "subtreeMC": 2
+    },
+    {
+      "id": "abdi-2026-abdi-comunicacao-marketing-26",
+      "number": "26",
+      "label": "Acessibilidade, inclusão e linguagem simples na comunicação.",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "block": "specific",
+      "parentTopicId": null,
+      "isLeaf": true,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q063",
+        "alerj-2026-comunicacao-manha-tipo1-q072",
+        "fiocruz-2024-te58-q026",
+        "fiocruz-2024-te58-q029",
+        "fiocruz-2024-te58-q038",
+        "fiocruz-2024-te58-q039"
+      ],
+      "directCE": 0,
+      "directMC": 6,
+      "subtreeQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q063",
+        "alerj-2026-comunicacao-manha-tipo1-q072",
+        "fiocruz-2024-te58-q026",
+        "fiocruz-2024-te58-q029",
+        "fiocruz-2024-te58-q038",
+        "fiocruz-2024-te58-q039"
+      ],
+      "subtreeCE": 0,
+      "subtreeMC": 6
+    }
+  ],
+  "roleId": "abdi-comunicacao-marketing",
+  "reviewedAt": "2026-10-28",
+  "reviewId": "reserve-second-batch",
+  "distinctQuestions": 240,
+  "distinctCE": 152,
+  "distinctMC": 88
+}
