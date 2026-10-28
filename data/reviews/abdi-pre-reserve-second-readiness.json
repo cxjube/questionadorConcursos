@@ -1,0 +1,188 @@
+{
+  "reviewedAt": "2026-10-27",
+  "roleId": "abdi-comunicacao-marketing",
+  "scope": "Fourth lot: exact distinct-ID quota matching now fills 60/60, including 4/4/8/4 institutional. The simulator can start with real reviewed official data. Institutional reserve is minimal: any later exclusion may require blocking again. Whole-bank editorial sweeps remain scheduled for project close.",
+  "distinctTrainingQuestions": 232,
+  "distinctMC": 86,
+  "distinctCE": 146,
+  "minimumAdditionalMC": 0,
+  "distribution": [
+    {
+      "block": "basic",
+      "disciplineId": "lingua-portuguesa",
+      "requiredMC": 8,
+      "availableDistinctMC": 9,
+      "missingForMinimum": 0
+    },
+    {
+      "block": "basic",
+      "disciplineId": "raciocinio-logico",
+      "requiredMC": 6,
+      "availableDistinctMC": 15,
+      "missingForMinimum": 0
+    },
+    {
+      "block": "basic",
+      "disciplineId": "abdi-nocoes-informatica",
+      "requiredMC": 6,
+      "availableDistinctMC": 15,
+      "missingForMinimum": 0
+    },
+    {
+      "block": "institutional",
+      "disciplineId": "abdi-servicos-sociais-autonomos",
+      "requiredMC": 4,
+      "availableDistinctMC": 7,
+      "missingForMinimum": 0
+    },
+    {
+      "block": "institutional",
+      "disciplineId": "abdi-criacao-estatuto",
+      "requiredMC": 4,
+      "availableDistinctMC": 6,
+      "missingForMinimum": 0
+    },
+    {
+      "block": "institutional",
+      "disciplineId": "abdi-licitacoes-convenios",
+      "requiredMC": 8,
+      "availableDistinctMC": 8,
+      "missingForMinimum": 0
+    },
+    {
+      "block": "institutional",
+      "disciplineId": "abdi-etica-missao",
+      "requiredMC": 4,
+      "availableDistinctMC": 4,
+      "missingForMinimum": 0
+    },
+    {
+      "block": "specific",
+      "disciplineId": "abdi-comunicacao-marketing",
+      "requiredMC": 20,
+      "availableDistinctMC": 37,
+      "missingForMinimum": 0
+    }
+  ],
+  "emptySpecificTopics": [],
+  "institutionalSourcesNeeded": [],
+  "quotaCheck": {
+    "method": "Bipartite matching of distinct canonical MC IDs to every discipline quota slot, each ID assigned once.",
+    "requiredDistinctMC": 60,
+    "allocatableDistinctMC": 60,
+    "unfilledSlots": 0,
+    "assignments": [
+      {
+        "disciplineId": "lingua-portuguesa",
+        "questionIds": [
+          "alerj-2026-comunicacao-manha-tipo1-q001",
+          "alerj-2026-comunicacao-manha-tipo1-q002",
+          "alerj-2026-comunicacao-manha-tipo1-q003",
+          "alerj-2026-comunicacao-manha-tipo1-q004",
+          "alerj-2026-comunicacao-manha-tipo1-q005",
+          "alerj-2026-comunicacao-manha-tipo1-q006",
+          "alerj-2026-comunicacao-manha-tipo1-q008",
+          "alerj-2026-comunicacao-manha-tipo1-q009"
+        ]
+      },
+      {
+        "disciplineId": "raciocinio-logico",
+        "questionIds": [
+          "abdi-2008-assistente-compras-servicos-q021",
+          "abdi-2008-assistente-compras-servicos-q023",
+          "abdi-2008-assistente-compras-servicos-q024",
+          "abdi-2008-assistente-compras-servicos-q025",
+          "abdi-2008-assistente-compras-servicos-q026",
+          "abdi-2008-assistente-compras-servicos-q027"
+        ]
+      },
+      {
+        "disciplineId": "abdi-nocoes-informatica",
+        "questionIds": [
+          "alerj-2026-comunicacao-manha-tipo1-q011",
+          "alerj-2026-comunicacao-manha-tipo1-q012",
+          "alerj-2026-comunicacao-manha-tipo1-q013",
+          "alerj-2026-comunicacao-manha-tipo1-q014",
+          "alerj-2026-comunicacao-manha-tipo1-q015",
+          "alerj-2026-comunicacao-manha-tipo1-q016"
+        ]
+      },
+      {
+        "disciplineId": "abdi-servicos-sociais-autonomos",
+        "questionIds": [
+          "344-dpeal-001-01-q009",
+          "abdi-2008-iniciante-processos-q020",
+          "abdi-2008-senior-juridico-q018",
+          "tjrr-2024-direito-tipo1-q050"
+        ]
+      },
+      {
+        "disciplineId": "abdi-criacao-estatuto",
+        "questionIds": [
+          "abdi-2008-especialista-analise-economica-q014",
+          "abdi-2008-especialista-controle-interno-auditoria-q018",
+          "abdi-2008-especialista-juridico-q019",
+          "abdi-2008-especialista-juridico-q020"
+        ]
+      },
+      {
+        "disciplineId": "abdi-licitacoes-convenios",
+        "questionIds": [
+          "abdi-2008-especialista-administrativo-financeiro-q012",
+          "abdi-2008-especialista-analise-economica-q012",
+          "abdi-2008-iniciante-licitacoes-contratos-q011",
+          "abdi-2008-iniciante-licitacoes-contratos-q013",
+          "abdi-2008-iniciante-licitacoes-contratos-q014",
+          "abdi-2008-pleno-servicos-gerais-q011",
+          "abdi-2008-pleno-servicos-gerais-q012",
+          "abdi-2008-senior-juridico-q020"
+        ]
+      },
+      {
+        "disciplineId": "abdi-etica-missao",
+        "questionIds": [
+          "128-tcemg-008-01-q039",
+          "abdi-2008-senior-assessor-comunicacao-q013",
+          "abdi-2008-senior-assessor-comunicacao-q016",
+          "fiocruz-2024-te58-q038"
+        ]
+      },
+      {
+        "disciplineId": "abdi-comunicacao-marketing",
+        "questionIds": [
+          "128-tcemg-008-01-q031",
+          "128-tcemg-008-01-q043",
+          "128-tcemg-008-01-q045",
+          "539-alce-016-01-q021",
+          "539-alce-016-01-q022",
+          "539-alce-016-01-q023",
+          "539-alce-016-01-q025",
+          "539-alce-016-01-q026",
+          "539-alce-016-01-q027",
+          "alerj-2026-comunicacao-manha-tipo1-q056",
+          "alerj-2026-comunicacao-manha-tipo1-q058",
+          "alerj-2026-comunicacao-manha-tipo1-q059",
+          "alerj-2026-comunicacao-manha-tipo1-q060",
+          "alerj-2026-comunicacao-manha-tipo1-q061",
+          "alerj-2026-comunicacao-manha-tipo1-q063",
+          "alerj-2026-comunicacao-manha-tipo1-q064",
+          "alerj-2026-comunicacao-manha-tipo1-q065",
+          "alerj-2026-comunicacao-manha-tipo1-q067",
+          "alerj-2026-comunicacao-manha-tipo1-q068",
+          "alerj-2026-comunicacao-manha-tipo1-q069"
+        ]
+      }
+    ]
+  },
+  "institutionalSourcesReviewed": [
+    "reference-abdi-estatuto-2024",
+    "reference-abdi-licitacoes-2021",
+    "reference-abdi-convenios-2026",
+    "reference-abdi-etica-2022",
+    "reference-abdi-planejamento-2024-2029",
+    "reference-abdi-resolucao-008-2023",
+    "reference-abdi-planejamento-ajustado-2024"
+  ],
+  "institutionalDistinctMC": 20,
+  "checkedAt": "2026-10-27"
+}

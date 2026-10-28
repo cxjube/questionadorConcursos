@@ -6,7 +6,7 @@ A pedido do usuário, a revisão completa fica para o encerramento do projeto. N
 
 1. Câmara: congelar catálogo e lista dos IDs vinculados a esse cargo.
 2. ABDI: fazer o mesmo para seu edital e conferir o regulamento próprio, sem presumir aplicação de regras da Câmara ou da Administração Pública.
-3. CGU: somente após cargo/especialidade/edital e banco confirmados.
+3. CGU: Auditor Federal de Finanças e Controle — Auditoria, já confirmado e com banco/simulado disponíveis; congelar seus IDs e conferir o edital e as regras próprios.
 
 Uma questão compartilhada mantém um único ID. Examinar sua integridade textual uma vez e registrar separadamente a pertinência e atualidade para cada objetivo. Uma exclusão temática em um objetivo não precisa excluir a questão dos outros.
 
@@ -23,3 +23,5 @@ Congelar o catálogo anterior. Incrementar as versões pertinentes ao alterar co
 Concluir cada objetivo com relatório próprio de itens mantidos/corrigidos/retirados/pendentes, contagens antes/depois e verificações de fonte/contrato/site. A entrega final também confere fluxo real de estudo, respostas, cronômetro, correção, histórico, backup, isolamento entre objetivos, teclado, temas e telas de 320/1280 px.
 
 Este arquivo é um plano, não uma declaração de auditoria completa já executada.
+
+Atualização de 28/10/2026: a [ampliação das reservas](reserve-second-batch-release.md) mantém os três simulados funcionais e registra lacunas e fontes adiadas. A conferência técnica automatizada alcança textos, apoios, chaves, contratos, composição e fluxos; a varredura editorial integral por objetivo permanece pendente. A rodada humana tem [roteiro próprio](acceptance-three-goals.md).

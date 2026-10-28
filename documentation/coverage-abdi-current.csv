@@ -14,21 +14,21 @@ abdi-2026-lingua-portuguesa-5-5,lingua-portuguesa,basic,5.5,Concordância verbal
 abdi-2026-lingua-portuguesa-5-6,lingua-portuguesa,basic,5.6,Regência verbal e nominal.,direct,A,1,0,1,0
 abdi-2026-lingua-portuguesa-5-7,lingua-portuguesa,basic,5.7,Emprego do sinal indicativo de crase.,direct,A,2,0,2,0
 abdi-2026-lingua-portuguesa-5-8,lingua-portuguesa,basic,5.8,Colocação dos pronomes átonos.,direct,B,1,1,1,1
-abdi-2026-lingua-portuguesa-6,lingua-portuguesa,basic,6,Reescrita de frases e parágrafos do texto.,descendants_only,B,0,0,3,1
+abdi-2026-lingua-portuguesa-6,lingua-portuguesa,basic,6,Reescrita de frases e parágrafos do texto.,descendants_only,B,0,0,3,2
 abdi-2026-lingua-portuguesa-6-1,lingua-portuguesa,basic,6.1,Significação das palavras.,direct,B,1,1,1,1
 abdi-2026-lingua-portuguesa-6-2,lingua-portuguesa,basic,6.2,Substituição de palavras ou de trechos de texto.,direct,A,1,0,1,0
 abdi-2026-lingua-portuguesa-6-3,lingua-portuguesa,basic,6.3,Reorganização da estrutura de orações e de períodos do texto.,direct,A,1,0,1,0
-abdi-2026-lingua-portuguesa-6-4,lingua-portuguesa,basic,6.4,Reescrita de textos de diferentes gêneros e níveis de formalidade.,empty,A,0,0,0,0
-abdi-2026-raciocinio-logico-1,raciocinio-logico,basic,1,Estruturas lógicas.,empty,A,0,0,0,0
-abdi-2026-raciocinio-logico-2,raciocinio-logico,basic,2,"Lógica de argumentação: analogias, inferências, deduções e conclusões.",empty,A,0,0,0,0
-abdi-2026-raciocinio-logico-3,raciocinio-logico,basic,3,Lógica sentencial (ou proposicional).,empty,A,0,0,0,0
-abdi-2026-raciocinio-logico-3-1,raciocinio-logico,basic,3.1,Proposições simples e compostas.,empty,A,0,0,0,0
-abdi-2026-raciocinio-logico-3-2,raciocinio-logico,basic,3.2,Tabelas-verdade.,empty,A,0,0,0,0
-abdi-2026-raciocinio-logico-3-3,raciocinio-logico,basic,3.3,Equivalências.,empty,A,0,0,0,0
+abdi-2026-lingua-portuguesa-6-4,lingua-portuguesa,basic,6.4,Reescrita de textos de diferentes gêneros e níveis de formalidade.,direct,B,0,1,0,1
+abdi-2026-raciocinio-logico-1,raciocinio-logico,basic,1,Estruturas lógicas.,direct,A,2,0,2,0
+abdi-2026-raciocinio-logico-2,raciocinio-logico,basic,2,"Lógica de argumentação: analogias, inferências, deduções e conclusões.",direct,A,4,0,4,0
+abdi-2026-raciocinio-logico-3,raciocinio-logico,basic,3,Lógica sentencial (ou proposicional).,descendants_only,A,0,0,2,0
+abdi-2026-raciocinio-logico-3-1,raciocinio-logico,basic,3.1,Proposições simples e compostas.,direct,A,1,0,1,0
+abdi-2026-raciocinio-logico-3-2,raciocinio-logico,basic,3.2,Tabelas-verdade.,direct,A,1,0,1,0
+abdi-2026-raciocinio-logico-3-3,raciocinio-logico,basic,3.3,Equivalências.,direct,A,1,0,1,0
 abdi-2026-raciocinio-logico-3-4,raciocinio-logico,basic,3.4,Diagramas lógicos.,empty,A,0,0,0,0
 abdi-2026-raciocinio-logico-4,raciocinio-logico,basic,4,Lógica de primeira ordem.,empty,A,0,0,0,0
 abdi-2026-raciocinio-logico-5,raciocinio-logico,basic,5,"Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais.",direct,C,0,15,0,15
-abdi-2026-abdi-nocoes-informatica-1,abdi-nocoes-informatica,basic,1,"Conceitos básicos de Informática: hardware, software, periféricos, dispositivos de entrada, saída e armazenamento, organização de arquivos e pastas e principais extensões de arquivos;",empty,A,0,0,0,0
+abdi-2026-abdi-nocoes-informatica-1,abdi-nocoes-informatica,basic,1,"Conceitos básicos de Informática: hardware, software, periféricos, dispositivos de entrada, saída e armazenamento, organização de arquivos e pastas e principais extensões de arquivos;",direct,B,0,1,0,1
 abdi-2026-abdi-nocoes-informatica-2,abdi-nocoes-informatica,basic,2,"Sistemas operacionais Microsoft Windows 10 e Microsoft Windows 11, em português (Brasil): área de trabalho, gerenciamento de arquivos e pastas, configurações, pesquisa, impressão, compartilhamento e principais recursos;",direct,C,0,3,0,3
 abdi-2026-abdi-nocoes-informatica-3,abdi-nocoes-informatica,basic,3,"Microsoft 365, em português (Brasil): Word, Excel, PowerPoint e Outlook;",direct,C,0,5,0,5
 abdi-2026-abdi-nocoes-informatica-4,abdi-nocoes-informatica,basic,4,"LibreOffice 7.x ou superior, em português (Brasil): Writer, Calc e Impress;",empty,A,0,0,0,0
@@ -37,7 +37,7 @@ abdi-2026-abdi-nocoes-informatica-6,abdi-nocoes-informatica,basic,6,"Correio ele
 abdi-2026-abdi-nocoes-informatica-7,abdi-nocoes-informatica,basic,7,"Segurança da informação: vírus, malwares, phishing, golpes eletrônicos, antivírus, firewall, backup, autenticação e boas práticas de segurança digital;",direct,A,7,0,7,0
 abdi-2026-abdi-nocoes-informatica-8,abdi-nocoes-informatica,basic,8,"Computação em nuvem: armazenamento, sincronização, compartilhamento de arquivos e colaboração;",direct,A,2,0,2,0
 abdi-2026-abdi-nocoes-informatica-9,abdi-nocoes-informatica,basic,9,"Inteligência Artificial: conceitos básicos, aplicações no ambiente de trabalho, ferramentas de IA generativa, uso responsável, limitações e boas práticas;",direct,B,5,2,5,2
-abdi-2026-abdi-nocoes-informatica-10,abdi-nocoes-informatica,basic,10,"Digitalização, impressão, compartilhamento de documentos, teclas de atalho, recursos de acessibilidade e produtividade em sistemas operacionais e aplicativos.",empty,A,0,0,0,0
+abdi-2026-abdi-nocoes-informatica-10,abdi-nocoes-informatica,basic,10,"Digitalização, impressão, compartilhamento de documentos, teclas de atalho, recursos de acessibilidade e produtividade em sistemas operacionais e aplicativos.",direct,B,0,2,0,2
 abdi-2026-abdi-nocoes-informatica-11,abdi-nocoes-informatica,basic,11,Legislação acerca de Segurança da Informação e Proteção De Dados: 1. Lei nº 12.527/2011 (Lei de Acesso à Informação); 2. Lei nº 12.737/2012 (Lei de Delitos Informáticos); 3. Lei nº 12.965/2014 (Marco Civil da Internet); 4. Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD),direct,C,10,4,10,4
 abdi-2026-abdi-servicos-sociais-autonomos-1,abdi-servicos-sociais-autonomos,institutional,1,NATUREZA E FINALIDADE DOS SERVIÇOS SOCIAIS AUTÔNOMOS,descendants_only,C,0,0,0,7
 abdi-2026-abdi-servicos-sociais-autonomos-1-1,abdi-servicos-sociais-autonomos,institutional,1.1,"Conceito, características, natureza jurídica e finalidade dos Serviços Sociais Autônomos. Lei nº 11.080/2004, art. 1º, caput e § 1º, com redação dada pela Lei nº 14.440/2022; Decreto nº 5.352/2005, arts. 1º e 2º.",direct,B,0,2,0,2
@@ -52,19 +52,19 @@ abdi-2026-abdi-criacao-estatuto-2-3,abdi-criacao-estatuto,institutional,2.3,"Est
 abdi-2026-abdi-criacao-estatuto-2-4,abdi-criacao-estatuto,institutional,2.4,Organização administrativa e estrutura de governança.,direct,B,0,1,0,1
 abdi-2026-abdi-criacao-estatuto-2-5,abdi-criacao-estatuto,institutional,2.5,"Conselho Deliberativo, Conselho Fiscal e Diretoria-Executiva: composição, competências e atribuições.",direct,B,0,2,0,2
 abdi-2026-abdi-criacao-estatuto-2-6,abdi-criacao-estatuto,institutional,2.6,"Patrimônio, receitas, contrato de gestão e prestação de contas.",direct,C,0,3,0,3
-abdi-2026-abdi-licitacoes-convenios-3,abdi-licitacoes-convenios,institutional,3,REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI,descendants_only,C,0,0,0,8
+abdi-2026-abdi-licitacoes-convenios-3,abdi-licitacoes-convenios,institutional,3,REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI,descendants_only,C,0,0,0,9
 abdi-2026-abdi-licitacoes-convenios-3-1,abdi-licitacoes-convenios,institutional,3.1,Regulamento de Licitações e Contratos da ABDI: princípios e disposições gerais.,empty,A,0,0,0,0
 abdi-2026-abdi-licitacoes-convenios-3-2,abdi-licitacoes-convenios,institutional,3.2,"Modalidades, procedimentos licitatórios, critérios de julgamento e habilitação.",direct,C,0,6,0,6
 abdi-2026-abdi-licitacoes-convenios-3-3,abdi-licitacoes-convenios,institutional,3.3,Contratação direta: dispensa e inexigibilidade.,direct,B,0,2,0,2
 abdi-2026-abdi-licitacoes-convenios-3-4,abdi-licitacoes-convenios,institutional,3.4,"Formalização, execução, fiscalização, alteração e extinção dos contratos.",empty,A,0,0,0,0
 abdi-2026-abdi-licitacoes-convenios-3-5,abdi-licitacoes-convenios,institutional,3.5,Sanções e responsabilidades contratuais.,empty,A,0,0,0,0
-abdi-2026-abdi-licitacoes-convenios-3-6,abdi-licitacoes-convenios,institutional,3.6,"Regulamento de Convênios da ABDI: disposições gerais, conceitos e modalidades.",empty,A,0,0,0,0
+abdi-2026-abdi-licitacoes-convenios-3-6,abdi-licitacoes-convenios,institutional,3.6,"Regulamento de Convênios da ABDI: disposições gerais, conceitos e modalidades.",direct,B,0,1,0,1
 abdi-2026-abdi-licitacoes-convenios-3-7,abdi-licitacoes-convenios,institutional,3.7,"Celebração de convênios, plano de trabalho, habilitação e contrapartidas.",empty,A,0,0,0,0
 abdi-2026-abdi-licitacoes-convenios-3-8,abdi-licitacoes-convenios,institutional,3.8,"Execução, acompanhamento, fiscalização e alterações dos convênios.",empty,A,0,0,0,0
 abdi-2026-abdi-licitacoes-convenios-3-9,abdi-licitacoes-convenios,institutional,3.9,"Prestação de contas, responsabilidades e disposições finais.",empty,A,0,0,0,0
 abdi-2026-abdi-etica-missao-4,abdi-etica-missao,institutional,4,ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI,descendants_only,C,0,0,0,4
 abdi-2026-abdi-etica-missao-4-1,abdi-etica-missao,institutional,4.1,"Regulamento de Ética e Conduta da ABDI (Resolução do Conselho Deliberativo nº 004/2022): objetivo, aplicabilidade, valores e princípios éticos (arts. 1º a 3º).",direct,C,0,3,0,3
-abdi-2026-abdi-etica-missao-4-2,abdi-etica-missao,institutional,4.2,"Direitos, deveres e vedações aplicáveis aos profissionais da ABDI (arts. 4º a 6º do Regulamento de Ética e Conduta).",direct,B,0,1,0,1
+abdi-2026-abdi-etica-missao-4-2,abdi-etica-missao,institutional,4.2,"Direitos, deveres e vedações aplicáveis aos profissionais da ABDI (arts. 4º a 6º do Regulamento de Ética e Conduta).",direct,B,0,2,0,2
 abdi-2026-abdi-etica-missao-4-3,abdi-etica-missao,institutional,4.3,"Critérios de conduta profissional: mídias sociais, confidencialidade de informações, propriedade intelectual, utilização de recursos institucionais, doações e patrocínios (arts. 7º a 11 do Regulamento de Ética e Conduta).",empty,A,0,0,0,0
 abdi-2026-abdi-etica-missao-4-4,abdi-etica-missao,institutional,4.4,"Conflito de interesses: atividades paralelas, atividades políticas, sindicais e religiosas, relacionamento entre profissionais, brindes, presentes, favores, participação em eventos e utilização de informações privilegiadas (arts. 12 a 17 do Regulamento de Ética e Conduta).",empty,A,0,0,0,0
 abdi-2026-abdi-etica-missao-4-5,abdi-etica-missao,institutional,4.5,"Descumprimento das normas, medidas disciplinares, comunicação de irregularidades, denúncias e gestão do Regulamento de Ética e Conduta (arts. 18 a 25).",empty,A,0,0,0,0

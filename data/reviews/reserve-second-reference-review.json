@@ -1,0 +1,135 @@
+{
+  "id": "reserve-second-reference-review",
+  "reviewedAt": "2026-10-28",
+  "method": "agent_assisted_selected_clauses",
+  "scope": "48 new items and 16 additive mappings to unchanged prior questions. Selected manual sections, retained legal clauses and independent final keys only.",
+  "references": [
+    {
+      "documentId": "reference-mcasp-11-2025",
+      "file": "sources/references/MCASP-11-official.html",
+      "sha256": "641e8c2e8b16c6efa6c246f799b5f81ba9014640d9744bb8b3b41a516b7e930f",
+      "quotes": [
+        {
+          "text": "Manual de Contabilidade Aplicada ao Setor Público - MCASP - 11ª Edição"
+        }
+      ]
+    },
+    {
+      "documentId": "reference-lei-12846-2013",
+      "file": "sources/references/lei12846-consolidada.html",
+      "sha256": "9afe6e1ce1afec52ebbd6ef579f3e8b24f2eaadb238e3d1e6aa9477ec4837301",
+      "scope": "Initial same-day Camara HTML",
+      "quotes": [
+        {
+          "text": "publicação extraordinária da decisão condenatória"
+        },
+        {
+          "text": "Na esfera administrativa"
+        },
+        {
+          "text": "A publicação extraordinária da decisão condenatória ocorrerá na forma de extrato de sentença"
+        }
+      ]
+    },
+    {
+      "documentId": "reference-lei-14133-2021",
+      "file": "sources/references/lei-14133-2021.html",
+      "sha256": "e2e59f1cd0b413a6ea6c26ffb2cc9cbccbe108fcfd41b4b6394f4157c33f0de8",
+      "scope": "Previously retained official HTML consulted at selected clauses; no fresh download claimed.",
+      "quotes": [
+        {
+          "text": "riscos sociais, ambientais e à segurança da população local"
+        },
+        {
+          "text": "interesse público"
+        }
+      ]
+    },
+    {
+      "documentId": "reference-lei-12527-2011",
+      "file": "sources/references/lei-12527-2011.html",
+      "sha256": "1d2e5473cac63e692323d21815340f8bd30cb6897cacafa59da8b8b94f72f33c",
+      "scope": "Previously retained official HTML consulted at selected clauses; no fresh download claimed.",
+      "quotes": [
+        {
+          "text": "reservada: 5 (cinco) anos"
+        }
+      ]
+    },
+    {
+      "documentId": "reference-lrf-2000",
+      "file": "sources/references/lrf.html",
+      "sha256": "9e178a491fd3ba44c4956316bc9ef602a5d544b2fa5d8a52abaa2e6bac3de691",
+      "scope": "Previously retained official HTML consulted at selected clauses; no fresh download claimed.",
+      "quotes": [
+        {
+          "text": "controle de custos"
+        },
+        {
+          "text": "avaliação dos resultados"
+        }
+      ]
+    },
+    {
+      "documentId": "reference-lei-4320-1964",
+      "file": "sources/references/lei4320.html",
+      "sha256": "44366eeb6c615a57b8244a2e36e323a04936a73cb9d25d86e6b074d5db1a4791",
+      "scope": "Previously retained official HTML consulted at selected clauses; no fresh download claimed.",
+      "quotes": [
+        {
+          "text": "A abertura dos créditos suplementares e especiais depende da existência de recursos disponíveis"
+        }
+      ]
+    },
+    {
+      "documentId": "reference-abdi-convenios-2026",
+      "file": "sources/references/ABDI-Convenios-2026.pdf",
+      "sha256": "93f27fde78d9cbf77b1b0bbf5e60f363da117efbf0ed79fdd9af2fce3cdd4eea",
+      "scope": "Selected retained normative PDF clauses; no fresh download/whole-document audit claimed.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "interesse recíproco e em regime de mútua cooperação"
+        },
+        {
+          "page": 8,
+          "text": "Art. 9º. Na hipótese de o plano de trabalho prever o desembolso"
+        }
+      ]
+    },
+    {
+      "documentId": "reference-abdi-etica-2022",
+      "file": "sources/references/ABDI-Etica-CD004-2022.pdf",
+      "sha256": "cc4d98a93fd317296dd07fa77305f545fd840465276b3b25b4aaacf2b5166ed7",
+      "scope": "Selected retained normative PDF clauses; no fresh download/whole-document audit claimed.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "a ética e transparéncia deverão ser levadas em consideracdo"
+        }
+      ]
+    },
+    {
+      "documentId": "reference-cgu-in3-2017-consolidada",
+      "file": "sources/references/CGU-IN3-2017-consolidada.pdf",
+      "sha256": "48ebbdaa5d3a9f75176447b8d5ecf80536267559036534d8d23e97834ba203dd",
+      "scope": "Selected retained normative PDF clauses; no fresh download/whole-document audit claimed.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "A auditoria interna governamental é uma atividade independente e objetiva"
+        },
+        {
+          "page": 17,
+          "text": "ambiente de controle, avaliação de riscos, atividades de controle, informação e comunicação"
+        }
+      ]
+    }
+  ],
+  "deferred": [
+    "Lei12813 Planalto HTTP503: no new conflict-of-interest statutory question released.",
+    "Ibama108/Decreto93872 remains deferred from the first lot.",
+    "Full separate bank-by-bank editorial sweeps remain at project close."
+  ],
+  "manualEvidenceFile": "data/reviews/reserve-second-source-evidence/mcasp11-selected-excerpts.json"
+}

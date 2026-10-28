@@ -1,5 +1,7 @@
 # Conferência das fontes oficiais — 23/10/2026
 
+> Reservas,28/10: [48 novas questões](reserve-second-batch-release.md), três pares TCDF Auditoria de10/12/2023 e um ABDI/IBFC2008 com oito PDFs repetidos idênticos. As justificativas preliminares TCDF não fornecem a chave de correção. MCASP11 e síntese de alterações também tiveram dois downloads idênticos, mas seus PDFs completos ficam fora do repositório; página oficial e excertos selecionados foram retidos. Lei12846 consolidada usa novo HTML oficial da Câmara. Inventário194registros(154PDF/40HTML),65pares,3.826números/166anulações. Demais fontes mantêm seus escopos históricos.
+
 > Primeiro lote CGU, 28/10: [78 C/E e simulado real](cgu-first-batch-release.md). Dois pares TCE/AC (quatro PDFs) e duas normas CGU com segundo download idêntico; Lei 4.320/LRF com rechecks HTML separados, sem substituir os originais. IN 7 revoga 4(d)/5 do anexo da IN 3, sem confundir com 14/15. Escopo selecionado, sem MCASP integral. Global184 registros (146PDF/38HTML),61pares,3.646números/155anulações. Os relatos seguintes são históricos.
 
 > CGU — Auditoria, 28/10/2026: [cadastro confirmado](cgu-intake-release.md), abertura original, retificação nº 2 e abertura atualizada baixadas novamente do CDN com hashes idênticos. Listagem do evento também permanece idêntica. Inventário global: 178 registros (140 PDF/38 HTML); continuam 59 pares, 3.506 números e 153 anulações. Nenhuma questão ou referência legal antiga foi reconferida on-line em massa. Os relatos seguintes são históricos.

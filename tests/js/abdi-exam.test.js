@@ -63,7 +63,7 @@ test('new institutional and IBFC official links round-trip while lookalike domai
 
 test('historical third-lot shortage remains documented while the real fourth-lot exam fills all quotas',()=>{
  const s=setup('native'),a=s.Study.examAvailability(s.data,role),r=JSON.parse(fs.readFileSync(path.join(root,'data/reviews/abdi-bank-readiness.json')));
- assert.equal(a.ready,true);assert.equal(a.missing.length,0);assert.equal(r.quotaCheck.allocatableDistinctMC,60);assert.equal(s.Study.pool(s.data,role,s.Study.empty(),'all',{block:'institutional',type:'multiple_choice'}).length,20);
+ assert.equal(a.ready,true);assert.equal(a.missing.length,0);assert.equal(r.quotaCheck.allocatableDistinctMC,60);assert.equal(s.Study.pool(s.data,role,s.Study.empty(),'all',{block:'institutional',type:'multiple_choice'}).length,21);
  const old=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync(path.join(root,'data/reviews/pre-abdi-fourth-batch-catalog.json.gz'))));old.revision='a'.repeat(64);assert.equal(s.Study.examAvailability(old,role).ready,false);const previous=s.Study.create(old,role,s.Study.empty(),'all',{now:start});assert.equal(previous.items.length,218);
  const restored=s.Study.importBackup(s.Study.exportBackup({...s.Study.empty(),active:previous}),s.data);assert.deepEqual(plain(restored.active),plain(previous));
  const p=active(s),session=p.active,ids=session.items.map(i=>i.question.id);assert.equal(ids.length,60);assert.equal(new Set(ids).size,60);assert.ok(ids.every(id=>!id.startsWith('synthetic-')));

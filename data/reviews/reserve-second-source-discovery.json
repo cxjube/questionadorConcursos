@@ -1,0 +1,167 @@
+{
+  "id": "reserve-second-source-discovery",
+  "checkedAt": "2026-10-28",
+  "pairs": [
+    {
+      "paperId": "source-896-tcdf-cb1-01",
+      "booklet": "896_TCDF_CB1_01",
+      "firstItem": 1,
+      "lastItem": 35,
+      "applicationDate": "2023-12-10",
+      "annulledItems": [
+        3,
+        6
+      ],
+      "containsPreliminaryAnswers": true,
+      "documents": [
+        {
+          "documentId": "source-896-tcdf-cb1-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/TC_DF_23/arquivos/896_TCDF_CB1_01_COMJUSTIFICATIVA.PDF",
+          "sha256": "609ed8f0b5c8871859968519cce6d9afed1def4c2a5c54319f218c0c0e5d5c44",
+          "repeatSha256": "609ed8f0b5c8871859968519cce6d9afed1def4c2a5c54319f218c0c0e5d5c44"
+        },
+        {
+          "documentId": "source-896-tcdf-cb1-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/TC_DF_23/arquivos/GAB_DEFINITIVO_896_TCDF_CB1_01.PDF",
+          "sha256": "9b25e03581d20559fb632d667d8e68ebc2cc2354929653aae12d7c479a46ca52",
+          "repeatSha256": "9b25e03581d20559fb632d667d8e68ebc2cc2354929653aae12d7c479a46ca52"
+        }
+      ]
+    },
+    {
+      "paperId": "source-896-tcdf-ce1-01",
+      "booklet": "896_TCDF_CE1_01",
+      "firstItem": 36,
+      "lastItem": 95,
+      "applicationDate": "2023-12-10",
+      "annulledItems": [
+        36,
+        37,
+        41,
+        42,
+        43,
+        74
+      ],
+      "containsPreliminaryAnswers": true,
+      "documents": [
+        {
+          "documentId": "source-896-tcdf-ce1-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/TC_DF_23/arquivos/896_TCDF_CE1_01_COMJUSTIFICATIVA.PDF",
+          "sha256": "25a6833b3a8c4705255bec3c4c69149aadb9233519b41ee4e01bfc95cb549154",
+          "repeatSha256": "25a6833b3a8c4705255bec3c4c69149aadb9233519b41ee4e01bfc95cb549154"
+        },
+        {
+          "documentId": "source-896-tcdf-ce1-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/TC_DF_23/arquivos/GAB_DEFINITIVO_896_TCDF_CE1_01.PDF",
+          "sha256": "1a993027792a6467b0f3aab4f709388215ddac2d368da883c259f85aef0274b6",
+          "repeatSha256": "1a993027792a6467b0f3aab4f709388215ddac2d368da883c259f85aef0274b6"
+        }
+      ]
+    },
+    {
+      "paperId": "source-896-tcdf-002-01",
+      "booklet": "896_TCDF_002_01",
+      "firstItem": 96,
+      "lastItem": 160,
+      "applicationDate": "2023-12-10",
+      "annulledItems": [
+        124,
+        130
+      ],
+      "containsPreliminaryAnswers": true,
+      "documents": [
+        {
+          "documentId": "source-896-tcdf-002-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/TC_DF_23/arquivos/896_TCDF_002_01_COMJUSTIFICATIVA.PDF",
+          "sha256": "9694411e9d896285f39ead98dfa0e366caeab2aaa7daf4c3f4f91634a0b03b60",
+          "repeatSha256": "9694411e9d896285f39ead98dfa0e366caeab2aaa7daf4c3f4f91634a0b03b60"
+        },
+        {
+          "documentId": "source-896-tcdf-002-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/TC_DF_23/arquivos/GAB_DEFINITIVO_896_TCDF_002_01.PDF",
+          "sha256": "d46d51fd39c2fd97b8784c211e90aea8262bb55f27c3f57d52e76ef327d43bb3",
+          "repeatSha256": "d46d51fd39c2fd97b8784c211e90aea8262bb55f27c3f57d52e76ef327d43bb3"
+        }
+      ]
+    },
+    {
+      "paperId": "source-abdi-2008-projetos-biotecnologia",
+      "booklet": "ADI – NÍVEL SUPERIOR ESPECIALISTA – PROJETOS BIOTECNOLOGIA",
+      "firstItem": 1,
+      "lastItem": 20,
+      "applicationDate": "2008-09-07",
+      "annulledItems": [
+        19
+      ],
+      "documents": [
+        {
+          "documentId": "source-abdi-2008-projetos-biotecnologia-paper",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/especialista-projetos-biotecnologia.pdf",
+          "sha256": "a0f7f69aa298aa85e334cbb01ee4933e3027248c957358f5e5dd81128069965a",
+          "repeatSha256": "a0f7f69aa298aa85e334cbb01ee4933e3027248c957358f5e5dd81128069965a"
+        },
+        {
+          "documentId": "source-abdi-2008-projetos-biotecnologia-key",
+          "url": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/especialista-projetos-biotecnologia.pdf",
+          "sha256": "ce8d0814a4408fd5aeb7749d281f045b17a8f4e60596426eb35af919f23d04f5",
+          "repeatSha256": "ce8d0814a4408fd5aeb7749d281f045b17a8f4e60596426eb35af919f23d04f5"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "documentId": "reference-mcasp-11-2025",
+      "url": "https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2025/26",
+      "file": "sources/references/MCASP-11-official.html",
+      "sha256": "641e8c2e8b16c6efa6c246f799b5f81ba9014640d9744bb8b3b41a516b7e930f",
+      "method": "initial_official_html_download_match"
+    },
+    {
+      "documentId": "reference-lei-12846-2013",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2013/lei-12846-1-agosto-2013-776664-normaatualizada-pl.html",
+      "file": "sources/references/lei12846-consolidada.html",
+      "sha256": "9afe6e1ce1afec52ebbd6ef579f3e8b24f2eaadb238e3d1e6aa9477ec4837301",
+      "method": "initial_official_html_download_match"
+    },
+    {
+      "resource": "MCASP-11.pdf",
+      "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf",
+      "sha256": "2a520efe8575b2dd647fd2351c6b6d6bddeb2dbfd866a0f475bf3d88b218c065",
+      "bytes": 7066277,
+      "repeatSha256": "2a520efe8575b2dd647fd2351c6b6d6bddeb2dbfd866a0f475bf3d88b218c065",
+      "fullFileRetainedInRepository": false,
+      "scope": "Full PDF consulted locally; selected-page evidence retained separately."
+    },
+    {
+      "resource": "MCASP-11-alteracoes.pdf",
+      "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/anexos/24160_1518848/S%C3%ADntese%20de%20Altera%C3%A7%C3%B5es%20do%20MCASP%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf",
+      "sha256": "c774c84c455faf284fe9c7e90b0f15b976beb1a73395b7a060a8e381a22bf98e",
+      "bytes": 203619,
+      "repeatSha256": "c774c84c455faf284fe9c7e90b0f15b976beb1a73395b7a060a8e381a22bf98e",
+      "fullFileRetainedInRepository": false,
+      "scope": "Full PDF consulted locally; selected-page evidence retained separately."
+    }
+  ],
+  "listings": [
+    {
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/tc_df_23",
+      "file": "data/reviews/cgu-first-source-evidence/tc_df_23.json",
+      "sha256": "f591c5bc32f062ff2cb7bcd28190bd45b65936c8f8c70b4c3003dd7e172b254c",
+      "scope": "Previously retained official listing; no fresh listing download claimed."
+    },
+    {
+      "url": "https://www2.ibfc.org.br/concurso/abdi-0814/provas.asp",
+      "file": "data/reviews/abdi-third-source-evidence/ibfc-papers.html",
+      "sha256": "14443380210ab88483321e20578785cd20a389cf1e3308df2dd12955a7f034f1",
+      "scope": "Previously retained official listing; no fresh listing download claimed."
+    },
+    {
+      "url": "https://www2.ibfc.org.br/concurso/abdi-0814/gabaritos-pos.asp",
+      "file": "data/reviews/abdi-third-source-evidence/ibfc-post-keys.html",
+      "sha256": "1f6be33b83641341b3fca80e5219eeddbe4457f1af6fc03421fefd7d8b0bd83f",
+      "scope": "Previously retained official listing; no fresh listing download claimed."
+    }
+  ],
+  "scope": "Three TCDF 2023 Auditoria paper/definitive-key pairs and one ABDI 2008 pair independently downloaded twice. Annotated TCDF question PDFs are never used as definitive keys. MCASP11 PDF and change-summary repeated identically; full manual remains local, with official HTML landing canonical and selected excerpts retained. Lei12846 initial official Camara HTML retained. Older sources preserve previous verification scopes."
+}

@@ -118,5 +118,5 @@ class ThirteenthBatchTests(unittest.TestCase):
         rows = {r['id']: r for r in report['items']}
         for suffix in ['tecnologia-informacao-dados-5-1', 'tecnologia-informacao-dados-5-3', 'tecnologia-informacao-dados-8-3', 'tecnologia-informacao-dados-8-4', 'comunicacao-social-5-1', 'comunicacao-social-5-2', 'comunicacao-social-5-4', 'comunicacao-social-8-1', 'comunicacao-social-8-2', 'comunicacao-social-10-1']:
             self.assertEqual(rows['camara-2026-' + suffix]['subtreeCE'], 0, suffix)
-        for path, content in current_artifacts(read_json(ROOT / 'data/catalog.json'), read_json(ROOT / 'data/reviews/seventeenth-batch.json')).items():
+        for path, content in current_artifacts(read_json(ROOT / 'data/catalog.json'), read_json(ROOT / 'data/reviews/reserve-second-batch.json')).items():
             self.assertEqual((ROOT / path).read_text(), content)

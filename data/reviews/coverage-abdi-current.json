@@ -1,16 +1,16 @@
 {
   "totalItems": 97,
-  "directItems": 63,
-  "descendantsOnly": 6,
-  "emptyItems": 28,
-  "emptyLeaves": 27,
+  "directItems": 72,
+  "descendantsOnly": 7,
+  "emptyItems": 18,
+  "emptyLeaves": 18,
   "blocks": {
     "basic": {
-      "total": 103,
-      "ce": 64
+      "total": 110,
+      "ce": 70
     },
     "institutional": {
-      "total": 20,
+      "total": 21,
       "ce": 0
     },
     "specific": {
@@ -23,32 +23,32 @@
       "id": "lingua-portuguesa",
       "label": "Língua Portuguesa",
       "totalItems": 20,
-      "directItems": 17,
+      "directItems": 18,
       "descendantsOnly": 2,
-      "emptyItems": 1,
-      "emptyLeaves": 1,
+      "emptyItems": 0,
+      "emptyLeaves": 0,
       "questionsCE": 40,
-      "questionsMC": 9
+      "questionsMC": 10
     },
     {
       "id": "raciocinio-logico",
       "label": "Raciocínio Lógico",
       "totalItems": 9,
-      "directItems": 1,
-      "descendantsOnly": 0,
-      "emptyItems": 8,
-      "emptyLeaves": 7,
-      "questionsCE": 0,
+      "directItems": 6,
+      "descendantsOnly": 1,
+      "emptyItems": 2,
+      "emptyLeaves": 2,
+      "questionsCE": 6,
       "questionsMC": 15
     },
     {
       "id": "abdi-nocoes-informatica",
       "label": "Noções de Informática",
       "totalItems": 11,
-      "directItems": 7,
+      "directItems": 9,
       "descendantsOnly": 0,
-      "emptyItems": 4,
-      "emptyLeaves": 4,
+      "emptyItems": 2,
+      "emptyLeaves": 2,
       "questionsCE": 24,
       "questionsMC": 15
     },
@@ -78,12 +78,12 @@
       "id": "abdi-licitacoes-convenios",
       "label": "REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI",
       "totalItems": 10,
-      "directItems": 2,
+      "directItems": 3,
       "descendantsOnly": 1,
-      "emptyItems": 7,
-      "emptyLeaves": 7,
+      "emptyItems": 6,
+      "emptyLeaves": 6,
       "questionsCE": 0,
-      "questionsMC": 8
+      "questionsMC": 9
     },
     {
       "id": "abdi-etica-missao",
@@ -521,11 +521,12 @@
       "subtreeQuestionIds": [
         "038-anm-cg1-01-q005",
         "038-anm-cg1-01-q010",
+        "128-tcemg-008-01-q044",
         "959-bcb-cb1-01-q019",
         "alerj-2026-comunicacao-manha-tipo1-q005"
       ],
       "subtreeCE": 3,
-      "subtreeMC": 1
+      "subtreeMC": 2
     },
     {
       "id": "abdi-2026-lingua-portuguesa-6-1",
@@ -600,14 +601,18 @@
       "block": "basic",
       "parentTopicId": "abdi-2026-lingua-portuguesa-6",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "128-tcemg-008-01-q044"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "128-tcemg-008-01-q044"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "abdi-2026-raciocinio-logico-1",
@@ -617,13 +622,19 @@
       "block": "basic",
       "parentTopicId": null,
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "directQuestionIds": [
+        "896-tcdf-cb1-01-q032",
+        "896-tcdf-cb1-01-q033"
+      ],
+      "directCE": 2,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "896-tcdf-cb1-01-q032",
+        "896-tcdf-cb1-01-q033"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -634,13 +645,23 @@
       "block": "basic",
       "parentTopicId": null,
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "directQuestionIds": [
+        "142-tcuaufc-cb1-01-q032",
+        "142-tcuaufc-cb1-01-q034",
+        "142-tcuaufc-cb1-01-q035",
+        "142-tcuaufc-cb1-01-q036"
+      ],
+      "directCE": 4,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q032",
+        "142-tcuaufc-cb1-01-q034",
+        "142-tcuaufc-cb1-01-q035",
+        "142-tcuaufc-cb1-01-q036"
+      ],
+      "subtreeCE": 4,
       "subtreeMC": 0
     },
     {
@@ -651,13 +672,16 @@
       "block": "basic",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
+      "state": "descendants_only",
       "priority": "A",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "896-tcdf-cb1-01-q032",
+        "896-tcdf-cb1-01-q033"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -668,13 +692,17 @@
       "block": "basic",
       "parentTopicId": "abdi-2026-raciocinio-logico-3",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "directQuestionIds": [
+        "896-tcdf-cb1-01-q033"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "896-tcdf-cb1-01-q033"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -685,13 +713,17 @@
       "block": "basic",
       "parentTopicId": "abdi-2026-raciocinio-logico-3",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "directQuestionIds": [
+        "896-tcdf-cb1-01-q032"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "896-tcdf-cb1-01-q032"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -702,13 +734,17 @@
       "block": "basic",
       "parentTopicId": "abdi-2026-raciocinio-logico-3",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "directQuestionIds": [
+        "896-tcdf-cb1-01-q032"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "896-tcdf-cb1-01-q032"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -802,14 +838,18 @@
       "block": "basic",
       "parentTopicId": null,
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q011"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q011"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "abdi-2026-abdi-nocoes-informatica-2",
@@ -1017,14 +1057,20 @@
       "block": "basic",
       "parentTopicId": null,
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q015",
+        "alerj-2026-comunicacao-manha-tipo1-q020"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "alerj-2026-comunicacao-manha-tipo1-q015",
+        "alerj-2026-comunicacao-manha-tipo1-q020"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "abdi-2026-abdi-nocoes-informatica-11",
@@ -1374,10 +1420,11 @@
         "abdi-2008-iniciante-licitacoes-contratos-q014",
         "abdi-2008-pleno-servicos-gerais-q011",
         "abdi-2008-pleno-servicos-gerais-q012",
+        "abdi-2008-projetos-biotecnologia-q012",
         "abdi-2008-senior-juridico-q020"
       ],
       "subtreeCE": 0,
-      "subtreeMC": 8
+      "subtreeMC": 9
     },
     {
       "id": "abdi-2026-abdi-licitacoes-convenios-3-1",
@@ -1492,14 +1539,18 @@
       "block": "institutional",
       "parentTopicId": "abdi-2026-abdi-licitacoes-convenios-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "abdi-2008-projetos-biotecnologia-q012"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "abdi-2008-projetos-biotecnologia-q012"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "abdi-2026-abdi-licitacoes-convenios-3-7",
@@ -1610,15 +1661,17 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
+        "128-tcemg-008-01-q039",
         "fiocruz-2024-te58-q038"
       ],
       "directCE": 0,
-      "directMC": 1,
+      "directMC": 2,
       "subtreeQuestionIds": [
+        "128-tcemg-008-01-q039",
         "fiocruz-2024-te58-q038"
       ],
       "subtreeCE": 0,
-      "subtreeMC": 1
+      "subtreeMC": 2
     },
     {
       "id": "abdi-2026-abdi-etica-missao-4-3",
@@ -2487,9 +2540,9 @@
     }
   ],
   "roleId": "abdi-comunicacao-marketing",
-  "reviewedAt": "2026-10-27",
-  "reviewId": "abdi-fourth-batch",
-  "distinctQuestions": 232,
-  "distinctCE": 146,
-  "distinctMC": 86
+  "reviewedAt": "2026-10-28",
+  "reviewId": "reserve-second-batch",
+  "distinctQuestions": 240,
+  "distinctCE": 152,
+  "distinctMC": 88
 }

@@ -1,16 +1,16 @@
 {
-  "reviewedAt": "2026-10-27",
-  "latestBatchId": "seventeenth-batch",
-  "catalogSha256": "3bd30d847e952dd565cd7b17f09422ece2ddd743683961374ee730ef0207e1ba",
+  "reviewedAt": "2026-10-28",
+  "latestBatchId": "reserve-second-batch",
+  "catalogSha256": "e8f4d802ec89ce9490493826cdd35400fbc92b290c773f6fededab7e02981b48",
   "scope": "Oferta de questões distintas, sem inferência de domínio ou peso de prova.",
   "totalItems": 228,
-  "directItems": 181,
+  "directItems": 182,
   "descendantsOnly": 32,
-  "emptyItems": 14,
-  "emptyLeaves": 14,
+  "emptyItems": 13,
+  "emptyLeaves": 13,
   "blocks": {
     "basic": {
-      "total": 170,
+      "total": 171,
       "ce": 169
     },
     "specific": {
@@ -23,12 +23,12 @@
       "id": "lingua-portuguesa",
       "label": "Língua Portuguesa",
       "totalItems": 20,
-      "directItems": 16,
+      "directItems": 17,
       "descendantsOnly": 3,
-      "emptyItems": 1,
-      "emptyLeaves": 1,
+      "emptyItems": 0,
+      "emptyLeaves": 0,
       "questionsCE": 40,
-      "questionsMC": 0
+      "questionsMC": 1
     },
     {
       "id": "lingua-inglesa",
@@ -512,10 +512,11 @@
       "subtreeQuestionIds": [
         "038-anm-cg1-01-q005",
         "038-anm-cg1-01-q010",
+        "128-tcemg-008-01-q044",
         "959-bcb-cb1-01-q019"
       ],
       "subtreeCE": 3,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "camara-2026-lingua-portuguesa-6-1",
@@ -588,14 +589,18 @@
       "block": "basic",
       "parentTopicId": "lingua-portuguesa-6",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
+      "directQuestionIds": [
+        "128-tcemg-008-01-q044"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "128-tcemg-008-01-q044"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "camara-2026-lingua-inglesa-1",

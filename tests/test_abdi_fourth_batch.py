@@ -94,7 +94,7 @@ class AbdiFourthBatchTests(unittest.TestCase):
         comments={e['questionId']:e for e in self.c['explanations']};self.assertIn('art. 6º',comments['abdi-2008-especialista-analise-economica-q012']['text']);self.assertIn('31 de janeiro',comments['abdi-2008-especialista-analise-economica-q014']['text']);self.assertIn('2008',comments['abdi-2008-iniciante-processos-q020']['text']);self.assertIn('não se transfere',comments['fiocruz-2024-te58-q038']['text'])
 
     def test_real_quota_matching_fills_every_slot_and_tracks_remaining_topics_without_claiming_full_coverage(self):
-        ready=read_json(ROOT/'data/reviews/abdi-bank-readiness.json');self.assertEqual((ready['distinctTrainingQuestions'],ready['distinctMC'],ready['distinctCE'],ready['institutionalDistinctMC']),(232,86,146,20));self.assertEqual(ready['minimumAdditionalMC'],0);self.assertEqual(ready['quotaCheck']['allocatableDistinctMC'],60)
+        ready=read_json(ROOT/'data/reviews/abdi-pre-reserve-second-readiness.json');self.assertEqual((ready['distinctTrainingQuestions'],ready['distinctMC'],ready['distinctCE'],ready['institutionalDistinctMC']),(232,86,146,20));self.assertEqual(ready['minimumAdditionalMC'],0);self.assertEqual(ready['quotaCheck']['allocatableDistinctMC'],60)
         report=coverage(self.c,role_id='abdi-comunicacao-marketing');self.assertEqual((report['directItems'],report['descendantsOnly'],report['emptyItems']),(63,6,28));self.assertEqual(report['blocks'],{'basic':{'total':103,'ce':64},'institutional':{'total':20,'ce':0},'specific':{'total':125,'ce':88}})
         used=[]
         for assignment,quota in zip(ready['quotaCheck']['assignments'],ready['distribution']):
@@ -102,7 +102,7 @@ class AbdiFourthBatchTests(unittest.TestCase):
         self.assertEqual(len(used),len(set(used)));self.assertEqual(len(used),60)
         byid={x['id']:x for x in report['items']};self.assertEqual(byid['abdi-2026-abdi-comunicacao-marketing-22']['directMC'],6);self.assertEqual(byid['abdi-2026-abdi-comunicacao-marketing-25']['directMC'],2)
         old=json.loads(gzip.decompress((ROOT/'data/reviews/pre-abdi-fourth-batch-catalog.json.gz').read_bytes()));before=coverage(old,role_id='abdi-comunicacao-marketing');progress=read_json(ROOT/'data/reviews/abdi-fourth-gap-progress.json');self.assertEqual({x['id'] for x in progress['items']},{x['id'] for x in before['items'] if x['state']=='empty'});self.assertEqual((progress['beforeEmpty'],progress['afterEmpty']),(30,28))
-        for path,content in role_artifacts(self.c,self.m,'abdi-comunicacao-marketing').items():self.assertEqual((ROOT/path).read_text(),content)
+        for path,content in role_artifacts(read_json(ROOT/'data/catalog.json'),read_json(ROOT/'data/reviews/reserve-second-batch.json'),'abdi-comunicacao-marketing').items():self.assertEqual((ROOT/path).read_text(),content)
 
 
 if __name__=='__main__':unittest.main()

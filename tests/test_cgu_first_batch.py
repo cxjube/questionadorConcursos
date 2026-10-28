@@ -18,7 +18,7 @@ from tools.validate import ROOT, read_json, validate
 class CGUFirstBatchTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c = read_json(ROOT / 'data/catalog.json')
+        cls.c = json.loads(gzip.decompress((ROOT / 'data/reviews/pre-reserve-second-batch-catalog.json.gz').read_bytes()))
         cls.review = read_json(ROOT / 'data/reviews/cgu-first-batch.json')
         cls.discovery = read_json(ROOT / 'data/reviews/cgu-first-source-discovery.json')
         cls.docs = {d['id']: d for d in cls.c['documents']}
@@ -100,7 +100,7 @@ class CGUFirstBatchTests(unittest.TestCase):
             else:
                 self.assertEqual(self.c[section][:len(rows)] if isinstance(rows, list) else self.c[section], rows, section)
         self.assertEqual(validate(self.c), [])
-        self.assertEqual(audit_sources(self.c, read_json(ROOT / 'data/source-verification.json')), [])
+        self.assertEqual(audit_sources(read_json(ROOT / 'data/catalog.json'), read_json(ROOT / 'data/source-verification.json')), [])
         self.assertEqual(len(self.c['questions']), 560)
         self.assertEqual(len(self.c['explanations']), 560)
         self.assertEqual(len(self.c['mappings']), 897)
@@ -141,7 +141,7 @@ class CGUFirstBatchTests(unittest.TestCase):
 
     def test_native_capacity_is_170_unique_with_unchanged_official_rules_and_scoped_comments(self):
         r = ce_capacity(self.c, 'cgu-auditoria')
-        self.assertEqual(r, read_json(ROOT / 'data/reviews/cgu-bank-readiness.json'))
+        self.assertEqual(r, read_json(ROOT / 'data/reviews/cgu-pre-reserve-second-readiness.json'))
         self.assertTrue(r['ready'])
         self.assertEqual((r['distinctCE'], r['allocatableDistinctCE'], r['minimumAdditionalCE']), (180, 170, 0))
         self.assertEqual([b['allocatedCE'] for b in r['blocks']], [40, 40, 90])

@@ -89,7 +89,7 @@ class AbdiIntakeTests(unittest.TestCase):
         self.assertEqual(report['blocks']['institutional'],dict(total=0,ce=0))
         camara=coverage(self.c,['camara-2026-ciencia-politica-1'])
         self.assertEqual((camara['totalItems'],camara['directItems'],camara['emptyItems']),(228,181,14))
-        for path,content in role_artifacts(read_json(ROOT/'data/catalog.json'),read_json(ROOT/'data/reviews/abdi-fourth-batch.json'),self.role).items():
+        for path,content in role_artifacts(read_json(ROOT/'data/catalog.json'),read_json(ROOT/'data/reviews/reserve-second-batch.json'),self.role).items():
             self.assertEqual((ROOT/path).read_text(),content)
 
     def test_scoring_uses_correct_count_not_half_of_weighted_points(self):

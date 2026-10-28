@@ -2,17 +2,17 @@
 
 Analista de Produtividade e Inovação — Comunicação e Marketing
 
-Revisão: 2026-10-27. **232 questões distintas: 86 MC e 146 C/E.**
-Programa: 97 itens; 63 com vínculo direto, 6 apenas por descendentes e 28 subárvores sem questões.
+Revisão: 2026-10-28. **240 questões distintas: 88 MC e 152 C/E.**
+Programa: 97 itens; 72 com vínculo direto, 7 apenas por descendentes e 18 subárvores sem questões.
 
 A prova exige múltipla escolha. C/E são treino de conteúdo no formato original e não compõem reserva MC. Prioridade A indica ausência de MC; B, uma ou duas MC; C, pelo menos três. Não são pesos oficiais nem domínio do assunto.
 
-[Lote atual e plano de fechamento](abdi-fourth-batch-release.md) · [CSV](coverage-abdi-current.csv)
+[Lote atual e plano de fechamento](reserve-second-batch-release.md) · [CSV](coverage-abdi-current.csv)
 
 | Área | Questões distintas | MC | C/E |
 | --- | ---: | ---: | ---: |
-| Gerais | 103 | 39 | 64 |
-| Institucionais | 20 | 20 | 0 |
+| Gerais | 110 | 40 | 70 |
+| Institucionais | 21 | 21 | 0 |
 | Específicos | 125 | 37 | 88 |
 
 As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter questões únicas.
@@ -38,17 +38,17 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | Língua Portuguesa | 6.1 | Significação das palavras. | 1 | 1 | Direto |
 | Língua Portuguesa | 6.2 | Substituição de palavras ou de trechos de texto. | 0 | 1 | Direto |
 | Língua Portuguesa | 6.3 | Reorganização da estrutura de orações e de períodos do texto. | 0 | 1 | Direto |
-| Língua Portuguesa | 6.4 | Reescrita de textos de diferentes gêneros e níveis de formalidade. | 0 | 0 | Sem questões |
-| Raciocínio Lógico | 1 | Estruturas lógicas. | 0 | 0 | Sem questões |
-| Raciocínio Lógico | 2 | Lógica de argumentação: analogias, inferências, deduções e conclusões. | 0 | 0 | Sem questões |
-| Raciocínio Lógico | 3 | Lógica sentencial (ou proposicional). | 0 | 0 | Sem questões |
-| Raciocínio Lógico | 3.1 | Proposições simples e compostas. | 0 | 0 | Sem questões |
-| Raciocínio Lógico | 3.2 | Tabelas-verdade. | 0 | 0 | Sem questões |
-| Raciocínio Lógico | 3.3 | Equivalências. | 0 | 0 | Sem questões |
+| Língua Portuguesa | 6.4 | Reescrita de textos de diferentes gêneros e níveis de formalidade. | 1 | 0 | Direto |
+| Raciocínio Lógico | 1 | Estruturas lógicas. | 0 | 2 | Direto |
+| Raciocínio Lógico | 2 | Lógica de argumentação: analogias, inferências, deduções e conclusões. | 0 | 4 | Direto |
+| Raciocínio Lógico | 3 | Lógica sentencial (ou proposicional). | 0 | 0 | Só descendentes |
+| Raciocínio Lógico | 3.1 | Proposições simples e compostas. | 0 | 1 | Direto |
+| Raciocínio Lógico | 3.2 | Tabelas-verdade. | 0 | 1 | Direto |
+| Raciocínio Lógico | 3.3 | Equivalências. | 0 | 1 | Direto |
 | Raciocínio Lógico | 3.4 | Diagramas lógicos. | 0 | 0 | Sem questões |
 | Raciocínio Lógico | 4 | Lógica de primeira ordem. | 0 | 0 | Sem questões |
 | Raciocínio Lógico | 5 | Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais. | 15 | 0 | Direto |
-| Noções de Informática | 1 | Conceitos básicos de Informática: hardware, software, periféricos, dispositivos de entrada, saída e armazenamento, organização de arquivos e pastas e principais extensões de arquivos; | 0 | 0 | Sem questões |
+| Noções de Informática | 1 | Conceitos básicos de Informática: hardware, software, periféricos, dispositivos de entrada, saída e armazenamento, organização de arquivos e pastas e principais extensões de arquivos; | 1 | 0 | Direto |
 | Noções de Informática | 2 | Sistemas operacionais Microsoft Windows 10 e Microsoft Windows 11, em português (Brasil): área de trabalho, gerenciamento de arquivos e pastas, configurações, pesquisa, impressão, compartilhamento e principais recursos; | 3 | 0 | Direto |
 | Noções de Informática | 3 | Microsoft 365, em português (Brasil): Word, Excel, PowerPoint e Outlook; | 5 | 0 | Direto |
 | Noções de Informática | 4 | LibreOffice 7.x ou superior, em português (Brasil): Writer, Calc e Impress; | 0 | 0 | Sem questões |
@@ -57,7 +57,7 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | Noções de Informática | 7 | Segurança da informação: vírus, malwares, phishing, golpes eletrônicos, antivírus, firewall, backup, autenticação e boas práticas de segurança digital; | 0 | 7 | Direto |
 | Noções de Informática | 8 | Computação em nuvem: armazenamento, sincronização, compartilhamento de arquivos e colaboração; | 0 | 2 | Direto |
 | Noções de Informática | 9 | Inteligência Artificial: conceitos básicos, aplicações no ambiente de trabalho, ferramentas de IA generativa, uso responsável, limitações e boas práticas; | 2 | 5 | Direto |
-| Noções de Informática | 10 | Digitalização, impressão, compartilhamento de documentos, teclas de atalho, recursos de acessibilidade e produtividade em sistemas operacionais e aplicativos. | 0 | 0 | Sem questões |
+| Noções de Informática | 10 | Digitalização, impressão, compartilhamento de documentos, teclas de atalho, recursos de acessibilidade e produtividade em sistemas operacionais e aplicativos. | 2 | 0 | Direto |
 | Noções de Informática | 11 | Legislação acerca de Segurança da Informação e Proteção De Dados: 1. Lei nº 12.527/2011 (Lei de Acesso à Informação); 2. Lei nº 12.737/2012 (Lei de Delitos Informáticos); 3. Lei nº 12.965/2014 (Marco Civil da Internet); 4. Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD) | 4 | 10 | Direto |
 | NATUREZA E FINALIDADE DOS SERVIÇOS SOCIAIS AUTÔNOMOS | 1 | NATUREZA E FINALIDADE DOS SERVIÇOS SOCIAIS AUTÔNOMOS | 0 | 0 | Só descendentes |
 | NATUREZA E FINALIDADE DOS SERVIÇOS SOCIAIS AUTÔNOMOS | 1.1 | Conceito, características, natureza jurídica e finalidade dos Serviços Sociais Autônomos. Lei nº 11.080/2004, art. 1º, caput e § 1º, com redação dada pela Lei nº 14.440/2022; Decreto nº 5.352/2005, arts. 1º e 2º. | 2 | 0 | Direto |
@@ -78,13 +78,13 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.3 | Contratação direta: dispensa e inexigibilidade. | 2 | 0 | Direto |
 | REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.4 | Formalização, execução, fiscalização, alteração e extinção dos contratos. | 0 | 0 | Sem questões |
 | REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.5 | Sanções e responsabilidades contratuais. | 0 | 0 | Sem questões |
-| REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.6 | Regulamento de Convênios da ABDI: disposições gerais, conceitos e modalidades. | 0 | 0 | Sem questões |
+| REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.6 | Regulamento de Convênios da ABDI: disposições gerais, conceitos e modalidades. | 1 | 0 | Direto |
 | REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.7 | Celebração de convênios, plano de trabalho, habilitação e contrapartidas. | 0 | 0 | Sem questões |
 | REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.8 | Execução, acompanhamento, fiscalização e alterações dos convênios. | 0 | 0 | Sem questões |
 | REGULAMENTO DE LICITAÇÕES E CONTRATOS E REGULAMENTO DE CONVÊNIOS DA ABDI | 3.9 | Prestação de contas, responsabilidades e disposições finais. | 0 | 0 | Sem questões |
 | ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4 | ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 0 | 0 | Só descendentes |
 | ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.1 | Regulamento de Ética e Conduta da ABDI (Resolução do Conselho Deliberativo nº 004/2022): objetivo, aplicabilidade, valores e princípios éticos (arts. 1º a 3º). | 3 | 0 | Direto |
-| ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.2 | Direitos, deveres e vedações aplicáveis aos profissionais da ABDI (arts. 4º a 6º do Regulamento de Ética e Conduta). | 1 | 0 | Direto |
+| ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.2 | Direitos, deveres e vedações aplicáveis aos profissionais da ABDI (arts. 4º a 6º do Regulamento de Ética e Conduta). | 2 | 0 | Direto |
 | ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.3 | Critérios de conduta profissional: mídias sociais, confidencialidade de informações, propriedade intelectual, utilização de recursos institucionais, doações e patrocínios (arts. 7º a 11 do Regulamento de Ética e Conduta). | 0 | 0 | Sem questões |
 | ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.4 | Conflito de interesses: atividades paralelas, atividades políticas, sindicais e religiosas, relacionamento entre profissionais, brindes, presentes, favores, participação em eventos e utilização de informações privilegiadas (arts. 12 a 17 do Regulamento de Ética e Conduta). | 0 | 0 | Sem questões |
 | ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.5 | Descumprimento das normas, medidas disciplinares, comunicação de irregularidades, denúncias e gestão do Regulamento de Ética e Conduta (arts. 18 a 25). | 0 | 0 | Sem questões |

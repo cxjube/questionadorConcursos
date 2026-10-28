@@ -1,0 +1,1654 @@
+{
+  "id": "reserve-second-gap-progress",
+  "reviewedAt": "2026-10-28",
+  "scope": "Every previously empty subtree is tracked separately by role. A new partial mapping is not a claim of full syllabus coverage.",
+  "roles": [
+    {
+      "roleId": "camara-comunicacao-divulgacao",
+      "beforeEmpty": 14,
+      "afterEmpty": 13,
+      "beforeDirect": 181,
+      "afterDirect": 182,
+      "items": [
+        {
+          "id": "camara-2026-lingua-portuguesa-6-4",
+          "number": "6.4",
+          "label": "Reescrita de textos de diferentes gêneros e níveis de formalidade.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "128-tcemg-008-01-q044"
+          ]
+        },
+        {
+          "id": "camara-2026-direito-administrativo-administracao-publica-2-2",
+          "number": "2.2",
+          "label": "Parecer: responsabilidade do emissor do parecer.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "camara-2026-direito-administrativo-administracao-publica-8-1",
+          "number": "8.1",
+          "label": "Nova Governança Pública (New Public Governance): conceito, fundamentos e evolução.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "camara-2026-direito-administrativo-administracao-publica-9-4",
+          "number": "9.4",
+          "label": "Decreto Federal nº 9.203/2017 e suas alterações (política de governança da administração pública federal direta, autárquica e fundacional).",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "camara-2026-direito-constitucional-regimento-7-3",
+          "number": "7.3",
+          "label": "Deputados (arts. 226 a 251 e suas alterações).",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "camara-2026-direito-constitucional-regimento-8-1",
+          "number": "8.1",
+          "label": "Título I.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "camara-2026-comunicacao-social-5-4",
+          "number": "5.4",
+          "label": "Elementos fundamentais de publicações em redes sociais: capa, legenda, marcação, palavras-chave, call to action.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "camara-2026-comunicacao-social-8-1",
+          "number": "8.1",
+          "label": "Política de comunicação da Câmara dos Deputados (Ato da Mesa nº 218/2025).",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "camara-2026-comunicacao-social-10-1",
+          "number": "10.1",
+          "label": "Manual de linguagem simples da Câmara dos Deputados.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "camara-2026-divulgacao-institucional-1-4",
+          "number": "1.4",
+          "label": "Atendimento.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "camara-2026-divulgacao-institucional-4-1",
+          "number": "4.1",
+          "label": "Conceito de marca.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "camara-2026-divulgacao-institucional-7",
+          "number": "7",
+          "label": "Gestão de equipes em publicidade.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "camara-2026-processo-legislativo-regimento-1-1",
+          "number": "1.1",
+          "label": "Tipos de procedimento, ordinário, abreviado, sumário, sumaríssimo, especial e concentrado.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "camara-2026-ciencia-politica-10",
+          "number": "10",
+          "label": "Política internacional contemporânea.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        }
+      ]
+    },
+    {
+      "roleId": "abdi-comunicacao-marketing",
+      "beforeEmpty": 28,
+      "afterEmpty": 18,
+      "beforeDirect": 63,
+      "afterDirect": 72,
+      "items": [
+        {
+          "id": "abdi-2026-lingua-portuguesa-6-4",
+          "number": "6.4",
+          "label": "Reescrita de textos de diferentes gêneros e níveis de formalidade.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "128-tcemg-008-01-q044"
+          ]
+        },
+        {
+          "id": "abdi-2026-raciocinio-logico-1",
+          "number": "1",
+          "label": "Estruturas lógicas.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "896-tcdf-cb1-01-q032",
+            "896-tcdf-cb1-01-q033"
+          ]
+        },
+        {
+          "id": "abdi-2026-raciocinio-logico-2",
+          "number": "2",
+          "label": "Lógica de argumentação: analogias, inferências, deduções e conclusões.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "142-tcuaufc-cb1-01-q032",
+            "142-tcuaufc-cb1-01-q034",
+            "142-tcuaufc-cb1-01-q035",
+            "142-tcuaufc-cb1-01-q036"
+          ]
+        },
+        {
+          "id": "abdi-2026-raciocinio-logico-3",
+          "number": "3",
+          "label": "Lógica sentencial (ou proposicional).",
+          "beforeState": "empty",
+          "afterState": "descendants_only",
+          "newQuestionIds": [
+            "896-tcdf-cb1-01-q032",
+            "896-tcdf-cb1-01-q033"
+          ]
+        },
+        {
+          "id": "abdi-2026-raciocinio-logico-3-1",
+          "number": "3.1",
+          "label": "Proposições simples e compostas.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "896-tcdf-cb1-01-q033"
+          ]
+        },
+        {
+          "id": "abdi-2026-raciocinio-logico-3-2",
+          "number": "3.2",
+          "label": "Tabelas-verdade.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "896-tcdf-cb1-01-q032"
+          ]
+        },
+        {
+          "id": "abdi-2026-raciocinio-logico-3-3",
+          "number": "3.3",
+          "label": "Equivalências.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "896-tcdf-cb1-01-q032"
+          ]
+        },
+        {
+          "id": "abdi-2026-raciocinio-logico-3-4",
+          "number": "3.4",
+          "label": "Diagramas lógicos.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-raciocinio-logico-4",
+          "number": "4",
+          "label": "Lógica de primeira ordem.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-abdi-nocoes-informatica-1",
+          "number": "1",
+          "label": "Conceitos básicos de Informática: hardware, software, periféricos, dispositivos de entrada, saída e armazenamento, organização de arquivos e pastas e principais extensões de arquivos;",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "alerj-2026-comunicacao-manha-tipo1-q011"
+          ]
+        },
+        {
+          "id": "abdi-2026-abdi-nocoes-informatica-4",
+          "number": "4",
+          "label": "LibreOffice 7.x ou superior, em português (Brasil): Writer, Calc e Impress;",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-abdi-nocoes-informatica-6",
+          "number": "6",
+          "label": "Correio eletrônico: envio, recebimento, organização de mensagens, anexos, contatos e calendários;",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-abdi-nocoes-informatica-10",
+          "number": "10",
+          "label": "Digitalização, impressão, compartilhamento de documentos, teclas de atalho, recursos de acessibilidade e produtividade em sistemas operacionais e aplicativos.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "alerj-2026-comunicacao-manha-tipo1-q015",
+            "alerj-2026-comunicacao-manha-tipo1-q020"
+          ]
+        },
+        {
+          "id": "abdi-2026-abdi-servicos-sociais-autonomos-1-3",
+          "number": "1.3",
+          "label": "Autonomia administrativa e gestão de pessoal. Lei nº 11.080/2004, art. 11, §§ 1º a 4º.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-abdi-criacao-estatuto-2-1",
+          "number": "2.1",
+          "label": "Lei nº 11.080/2004 e suas alterações, especialmente a Lei nº 14.440/2022.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-abdi-criacao-estatuto-2-2",
+          "number": "2.2",
+          "label": "Decreto nº 5.352/2005 e suas alterações.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-abdi-licitacoes-convenios-3-1",
+          "number": "3.1",
+          "label": "Regulamento de Licitações e Contratos da ABDI: princípios e disposições gerais.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-abdi-licitacoes-convenios-3-4",
+          "number": "3.4",
+          "label": "Formalização, execução, fiscalização, alteração e extinção dos contratos.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-abdi-licitacoes-convenios-3-5",
+          "number": "3.5",
+          "label": "Sanções e responsabilidades contratuais.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-abdi-licitacoes-convenios-3-6",
+          "number": "3.6",
+          "label": "Regulamento de Convênios da ABDI: disposições gerais, conceitos e modalidades.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "abdi-2008-projetos-biotecnologia-q012"
+          ]
+        },
+        {
+          "id": "abdi-2026-abdi-licitacoes-convenios-3-7",
+          "number": "3.7",
+          "label": "Celebração de convênios, plano de trabalho, habilitação e contrapartidas.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-abdi-licitacoes-convenios-3-8",
+          "number": "3.8",
+          "label": "Execução, acompanhamento, fiscalização e alterações dos convênios.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-abdi-licitacoes-convenios-3-9",
+          "number": "3.9",
+          "label": "Prestação de contas, responsabilidades e disposições finais.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-abdi-etica-missao-4-3",
+          "number": "4.3",
+          "label": "Critérios de conduta profissional: mídias sociais, confidencialidade de informações, propriedade intelectual, utilização de recursos institucionais, doações e patrocínios (arts. 7º a 11 do Regulamento de Ética e Conduta).",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-abdi-etica-missao-4-4",
+          "number": "4.4",
+          "label": "Conflito de interesses: atividades paralelas, atividades políticas, sindicais e religiosas, relacionamento entre profissionais, brindes, presentes, favores, participação em eventos e utilização de informações privilegiadas (arts. 12 a 17 do Regulamento de Ética e Conduta).",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-abdi-etica-missao-4-5",
+          "number": "4.5",
+          "label": "Descumprimento das normas, medidas disciplinares, comunicação de irregularidades, denúncias e gestão do Regulamento de Ética e Conduta (arts. 18 a 25).",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-abdi-etica-missao-4-6",
+          "number": "4.6",
+          "label": "Missão, visão, valores, diretrizes e objetivos estratégicos da ABDI, conforme o Planejamento Estratégico 2024–2029, aprovado pela Resolução do Conselho Deliberativo nº 008/2023.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "abdi-2026-abdi-etica-missao-4-7",
+          "number": "4.7",
+          "label": "Atuação institucional da ABDI: promoção do desenvolvimento industrial, inovação, transformação digital, difusão tecnológica, competitividade e sustentabilidade, conforme o art. 1º da Lei nº 11.080/2004, o art. 2º do Decreto nº 5.352/2005 e o Planejamento Estratégico 2024–2029.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        }
+      ]
+    },
+    {
+      "roleId": "cgu-auditoria",
+      "beforeEmpty": 146,
+      "afterEmpty": 130,
+      "beforeDirect": 71,
+      "afterDirect": 86,
+      "items": [
+        {
+          "id": "cgu-2026-estado-democracia-6-1",
+          "number": "6.1",
+          "label": "Abuso do poder confiado e apropriação de decisões públicas em benefício particular; dimensões política, administrativa e público-privada.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-estado-democracia-7",
+          "number": "7",
+          "label": "Mecanismos de reprodução e captura.",
+          "beforeState": "empty",
+          "afterState": "descendants_only",
+          "newQuestionIds": [
+            "993-tce-ac-014-01-q076"
+          ]
+        },
+        {
+          "id": "cgu-2026-estado-democracia-7-1",
+          "number": "7.1",
+          "label": "Assimetrias de poder e informação, incentivos e oportunidades; relações principal-agente e problemas de ação coletiva; normas sociais, tolerância organizacional e redes de favorecimento.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "993-tce-ac-014-01-q076"
+          ]
+        },
+        {
+          "id": "cgu-2026-estado-democracia-7-2",
+          "number": "7.2",
+          "label": "Captura de políticas e influência indevida; distinção entre representação legítima de interesses e favorecimento.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-estado-democracia-8-2",
+          "number": "8.2",
+          "label": "Relações entre prevenção, detecção, responsabilização e reparação; controles democráticos, participação e capacidades estatais.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-estado-democracia-8-3",
+          "number": "8.3",
+          "label": "Avaliação crítica das respostas e de seus efeitos não pretendidos, preservados o devido processo e a continuidade de serviços essenciais.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-estado-democracia-9",
+          "number": "9",
+          "label": "Estado e modelos de desenvolvimento econômico.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-estado-democracia-9-1",
+          "number": "9.1",
+          "label": "Arranjos de desenvolvimento com diferentes combinações de mercado, planejamento, regulação, provisão pública e atuação empresarial do Estado; industrialização, inovação e transformação produtiva.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-estado-democracia-9-2",
+          "number": "9.2",
+          "label": "Papel das empresas estatais no investimento de longo prazo, na infraestrutura, no financiamento e na prestação de serviços públicos.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-estado-democracia-9-3",
+          "number": "9.3",
+          "label": "Relações entre finalidade pública, concorrência, universalização, sustentabilidade fiscal e socioambiental; capacidades estatais, riscos de captura e efeitos distributivos.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-estado-democracia-9-4",
+          "number": "9.4",
+          "label": "Fundamentos constitucionais da atuação econômica do Estado e comparação de alternativas institucionais à luz de objetivos, evidências e resultados.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-sociedade-brasileira-3",
+          "number": "3",
+          "label": "População, território e trabalho.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-sociedade-brasileira-3-1",
+          "number": "3.1",
+          "label": "Transição demográfica, envelhecimento e cuidado; desigualdades regionais, urbanas e rurais; estrutura produtiva, informalidade e mudanças tecnológicas no trabalho.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-sociedade-brasileira-5",
+          "number": "5",
+          "label": "Desenvolvimento e realidade brasileira.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-sociedade-brasileira-5-1",
+          "number": "5.1",
+          "label": "Pobreza, renda e proteção social; educação, saúde, saneamento e habitação como problemas públicos; sustentabilidade e vulnerabilidade climática; leitura contextual de indicadores e desigualdades.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-etica-publica-2-2",
+          "number": "2.2",
+          "label": "Aplicação dos valores e deveres de conduta ética da CGU a situações de trabalho.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-etica-publica-3",
+          "number": "3",
+          "label": "Conflitos de interesses e imparcialidade.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-etica-publica-3-1",
+          "number": "3.1",
+          "label": "Identificação de interesses privados em conflito com a função pública e medidas de prevenção, consulta e encaminhamento, nos termos dos arts. 3º a 5º, 8º e 10 da Lei nº 12.813/2013.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-etica-publica-3-2",
+          "number": "3.2",
+          "label": "Impedimento e suspeição no processo administrativo federal, nos termos dos arts. 18 a 21 da Lei nº 9.784/1999; comunicação e abstenção quando exigidas.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-etica-publica-4",
+          "number": "4",
+          "label": "Relações de trabalho e atendimento.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-etica-publica-4-1",
+          "number": "4.1",
+          "label": "Dignidade, diversidade e relações de poder; reconhecimento e prevenção de assédio e discriminação; respeito, escuta e não retaliação.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-etica-publica-4-2",
+          "number": "4.2",
+          "label": "Distinção entre acolher uma pessoa, verificar fatos e atribuir responsabilidade.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-etica-publica-5",
+          "number": "5",
+          "label": "Integridade como responsabilidade institucional.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-etica-publica-5-1",
+          "number": "5.1",
+          "label": "Coerência entre regras e práticas; ambiente organizacional e incentivos; canais de orientação e relato; papel do exemplo, da confiança e da prestação de contas.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-administracao-publica-4",
+          "number": "4",
+          "label": "Planejamento e recursos.",
+          "beforeState": "empty",
+          "afterState": "descendants_only",
+          "newQuestionIds": [
+            "057-ibama-001-01-q094",
+            "057-ibama-001-01-q096",
+            "896-tcdf-002-01-q134",
+            "993-tce-ac-014-01-q097",
+            "993-tce-ac-014-01-q098",
+            "993-tce-ac-014-01-q100",
+            "993-tce-ac-014-01-q101",
+            "993-tce-ac-016-01-q091",
+            "993-tce-ac-016-01-q098",
+            "993-tce-ac-016-01-q100",
+            "993-tce-ac-016-01-q111",
+            "993-tce-ac-016-01-q112"
+          ]
+        },
+        {
+          "id": "cgu-2026-administracao-publica-4-1",
+          "number": "4.1",
+          "label": "Funções do planejamento e do orçamento; relação entre PPA, LDO e LOA; receita e despesa em nível conceitual; restrições fiscais, escolhas alocativas e sustentabilidade das ações.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "057-ibama-001-01-q094",
+            "057-ibama-001-01-q096",
+            "896-tcdf-002-01-q134",
+            "993-tce-ac-014-01-q097",
+            "993-tce-ac-014-01-q098",
+            "993-tce-ac-014-01-q100",
+            "993-tce-ac-014-01-q101",
+            "993-tce-ac-016-01-q091",
+            "993-tce-ac-016-01-q098",
+            "993-tce-ac-016-01-q100",
+            "993-tce-ac-016-01-q111",
+            "993-tce-ac-016-01-q112"
+          ]
+        },
+        {
+          "id": "cgu-2026-governanca-riscos-integridade-2-2",
+          "number": "2.2",
+          "label": "Identificação de vulnerabilidades e de controles compatíveis com situações usuais, a partir dos dados fornecidos.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-governanca-riscos-integridade-3",
+          "number": "3",
+          "label": "Integridade pública.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-governanca-riscos-integridade-3-1",
+          "number": "3.1",
+          "label": "Finalidades dos programas e medidas de integridade; compromisso da liderança, orientação ética, identificação de riscos, canais de relato e acompanhamento de ações.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-governanca-riscos-integridade-3-2",
+          "number": "3.2",
+          "label": "Prevenção de favorecimento, assédio e discriminação; ambiente seguro e não retaliação.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-governanca-riscos-integridade-4",
+          "number": "4",
+          "label": "Integridade privada.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-governanca-riscos-integridade-4-1",
+          "number": "4.1",
+          "label": "Finalidades dos programas de integridade e sua relação com o poder público; compromisso da direção, registros confiáveis, controles, diligência proporcional sobre terceiros, canais de relato e remediação.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-governanca-riscos-integridade-4-2",
+          "number": "4.2",
+          "label": "Diferença entre existência documental, implementação e efetividade dos mecanismos.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-governanca-riscos-integridade-5",
+          "number": "5",
+          "label": "Prevenção e melhoria institucional.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-governanca-riscos-integridade-5-1",
+          "number": "5.1",
+          "label": "Cultura, incentivos e confiança; diferenças de capacidade entre organizações; orientação e medidas proporcionais.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-governanca-riscos-integridade-5-2",
+          "number": "5.2",
+          "label": "Denúncias e resultados de controle como insumos de melhoria.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-governanca-riscos-integridade-5-3",
+          "number": "5.3",
+          "label": "Distinção entre baixa ocorrência e baixa detecção de problemas; leitura de evidências simples sobre funcionamento e resultados das medidas.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-transparencia-ouvidoria-3",
+          "number": "3",
+          "label": "Ouvidoria e proteção das pessoas.",
+          "beforeState": "empty",
+          "afterState": "descendants_only",
+          "newQuestionIds": [
+            "896-tcdf-ce1-01-q040"
+          ]
+        },
+        {
+          "id": "cgu-2026-transparencia-ouvidoria-3-1",
+          "number": "3.1",
+          "label": "Finalidades das manifestações; acolhimento, encaminhamento e resposta ao usuário; acessibilidade e linguagem cidadã.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "896-tcdf-ce1-01-q040"
+          ]
+        },
+        {
+          "id": "cgu-2026-transparencia-ouvidoria-3-2",
+          "number": "3.2",
+          "label": "Proteção da identidade e prevenção de retaliação.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-transparencia-ouvidoria-3-3",
+          "number": "3.3",
+          "label": "Distinção entre receber um relato, apurar fatos e decidir sobre responsabilidade.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-transparencia-ouvidoria-4-2",
+          "number": "4.2",
+          "label": "Recorrências em manifestações como sinais de problemas.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-transparencia-ouvidoria-4-2-1",
+          "number": "4.2.1",
+          "label": "Subnotificação.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-transparencia-ouvidoria-4-4",
+          "number": "4.4",
+          "label": "Papel da CGU na orientação e no monitoramento da transparência e do acesso à informação, em nível de finalidade institucional.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-transparencia-ouvidoria-5-1",
+          "number": "5.1",
+          "label": "Confiabilidade e contexto das fontes; distinção entre fato, alegação e interpretação.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-transparencia-ouvidoria-5-3",
+          "number": "5.3",
+          "label": "Liberdade de expressão e pluralismo.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-transparencia-ouvidoria-5-3-1",
+          "number": "5.3.1",
+          "label": "Distinção entre crítica legítima e desinformação.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-direito-controle-responsabilizacao-2",
+          "number": "2",
+          "label": "Processo e garantias.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-direito-controle-responsabilizacao-2-1",
+          "number": "2.1",
+          "label": "Devido processo, contraditório, defesa e imparcialidade; finalidade da instrução e da prova.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-direito-controle-responsabilizacao-2-2",
+          "number": "2.2",
+          "label": "Distinção entre procedimento investigativo e processo sancionador; proteção de direitos e necessidade de fundamentar conclusões.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-direito-controle-responsabilizacao-3-4",
+          "number": "3.4",
+          "label": "Distinção entre avaliar a gestão, apurar fatos e aplicar sanções; cooperação e compartilhamento lícito de informações.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-direito-controle-responsabilizacao-4-1",
+          "number": "4.1",
+          "label": "Distinção entre indício, falha de gestão, irregularidade e responsabilidade.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-direito-controle-responsabilizacao-5",
+          "number": "5",
+          "label": "Proteção e encaminhamento.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-direito-controle-responsabilizacao-5-1",
+          "number": "5.1",
+          "label": "Distinção entre acolhimento, medidas de proteção, apuração de fatos e conclusão sancionadora, especialmente diante de assédio e discriminação; finalidades e garantias de cada atuação.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-evidencias-dados-ia-1-1",
+          "number": "1.1",
+          "label": "Relação entre problema, pergunta e informação necessária; fontes documentais, administrativas, estatísticas e de participação social.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-evidencias-dados-ia-2-2",
+          "number": "2.2",
+          "label": "Distinção entre indicadores de percepção, experiência, denúncias, detecção e sanções na análise da corrupção; subnotificação e limites de inferência sobre sua ocorrência.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-evidencias-dados-ia-3-1",
+          "number": "3.1",
+          "label": "Associação e causalidade; seleção e representatividade; explicações alternativas e incerteza.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-evidencias-dados-ia-3-2",
+          "number": "3.2",
+          "label": "Generalizações indevidas, falácia ecológica e viés de confirmação; falsos positivos e falsos negativos.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-evidencias-dados-ia-4-2",
+          "number": "4.2",
+          "label": "Escuta sem indução, confidencialidade e risco de identificação indireta.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-evidencias-dados-ia-4-3",
+          "number": "4.3",
+          "label": "Distinção entre as condições e os regimes de proteção de entrevistados em auditoria, participantes de pesquisa e denunciantes.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-atuacao-integrada-1-1",
+          "number": "1.1",
+          "label": "Contribuição da auditoria para a governança, os riscos, os controles e os resultados.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "896-tcdf-002-01-q116",
+            "896-tcdf-002-01-q123"
+          ]
+        },
+        {
+          "id": "cgu-2026-atuacao-integrada-1-2",
+          "number": "1.2",
+          "label": "Avaliação e consultoria como serviços de auditoria interna governamental; apuração de atos e fatos com indícios de ilegalidade ou irregularidade na utilização de recursos públicos federais como competência do sistema de controle interno.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-atuacao-integrada-1-3",
+          "number": "1.3",
+          "label": "Finalidades e diferenças entre as três formas de atuação da SFC; relação com a gestão, correição e avaliação de políticas.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-atuacao-integrada-2",
+          "number": "2",
+          "label": "Ciclo do trabalho.",
+          "beforeState": "empty",
+          "afterState": "descendants_only",
+          "newQuestionIds": [
+            "896-tcdf-002-01-q114",
+            "896-tcdf-002-01-q121"
+          ]
+        },
+        {
+          "id": "cgu-2026-atuacao-integrada-2-1",
+          "number": "2.1",
+          "label": "Planejamento, execução, comunicação e monitoramento; finalidade de objetivos, escopo, critérios e perguntas.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "896-tcdf-002-01-q114",
+            "896-tcdf-002-01-q121"
+          ]
+        },
+        {
+          "id": "cgu-2026-atuacao-integrada-2-2",
+          "number": "2.2",
+          "label": "Priorização por risco, materialidade e relevância social em nível conceitual; adequação do trabalho às finalidades de avaliação, consultoria ou apuração.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-atuacao-integrada-2-3",
+          "number": "2.3",
+          "label": "Apoio à melhoria da gestão com preservação da autonomia técnica e das responsabilidades de decisão e execução dos gestores.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-atuacao-integrada-3-2",
+          "number": "3.2",
+          "label": "Distinção entre sinal de risco, evidência e conclusão; necessidade de aprofundamento e proporcionalidade da afirmação.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-atuacao-integrada-4-2",
+          "number": "4.2",
+          "label": "Recomendações relacionadas a causas e riscos; distinção entre plano de ação, implementação, resultado e benefício.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-atuacao-integrada-5",
+          "number": "5",
+          "label": "Integração entre funções da CGU.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-atuacao-integrada-5-1",
+          "number": "5.1",
+          "label": "Denúncias e informações de ouvidoria e transparência como insumos de risco; achados como subsídios para admissibilidade correcional e responsabilização de entes privados.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-atuacao-integrada-5-2",
+          "number": "5.2",
+          "label": "Resultados do controle como insumos de integridade e melhoria de serviços; compartilhamento lícito, devolutivas e proteção.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-auditoria-governamental-1-1",
+          "number": "1.1",
+          "label": "Seleção da forma de atuação conforme o problema, objetivos e riscos.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-auditoria-governamental-1-3",
+          "number": "1.3",
+          "label": "Consultoria: análise da demanda, pactuação de objetivos, escopo e produtos; assessoramento, aconselhamento e facilitação; salvaguardas de objetividade e limites à assunção de responsabilidades gerenciais.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-auditoria-governamental-1-4",
+          "number": "1.4",
+          "label": "Apuração: delimitação dos fatos e hipóteses, planejamento de diligências, reunião e preservação de elementos probatórios, análise de possíveis prejuízos e comunicação às instâncias competentes.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-auditoria-governamental-1-5",
+          "number": "1.5",
+          "label": "Distinção entre apuração no controle interno, investigação correcional e processo sancionador; acompanhamento de providências e aprendizado institucional.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-auditoria-governamental-2-2",
+          "number": "2.2",
+          "label": "Relação entre perguntas de auditoria e de avaliação de políticas, respeitadas suas finalidades e seus desenhos.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-auditoria-governamental-6-2",
+          "number": "6.2",
+          "label": "Asseguração e melhoria da qualidade dos trabalhos; avaliação de capacidade da atividade de auditoria a partir de evidências e planos de melhoria.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-1",
+          "number": "1",
+          "label": "Economia e finanças do setor público.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-1-1",
+          "number": "1.1",
+          "label": "Funções alocativa, distributiva e estabilizadora; bens públicos, externalidades e monopólios naturais; financiamento de políticas e federalismo fiscal.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-1-2",
+          "number": "1.2",
+          "label": "Progressividade, regressividade e neutralidade da tributação; resultados primário e nominal, déficit e necessidades de financiamento; restrições, riscos e sustentabilidade fiscal em análise aplicada.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-4-2",
+          "number": "4.2",
+          "label": "Leitura dos balanços orçamentário, financeiro e patrimonial e da demonstração das variações patrimoniais, com notas explicativas pertinentes; conciliação e identificação de inconsistências relevantes para o controle.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "057-ibama-001-01-q103",
+            "896-tcdf-002-01-q143",
+            "896-tcdf-002-01-q144",
+            "993-tce-ac-016-01-q067",
+            "993-tce-ac-016-01-q068"
+          ]
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-5",
+          "number": "5",
+          "label": "Custos e análise da execução.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "057-ibama-001-01-q100",
+            "057-ibama-001-01-q101",
+            "057-ibama-001-01-q102",
+            "057-ibama-001-01-q103",
+            "896-tcdf-002-01-q141",
+            "896-tcdf-002-01-q142",
+            "896-tcdf-002-01-q143",
+            "896-tcdf-002-01-q144",
+            "993-tce-ac-014-01-q101",
+            "993-tce-ac-016-01-q065",
+            "993-tce-ac-016-01-q066",
+            "993-tce-ac-016-01-q067",
+            "993-tce-ac-016-01-q068",
+            "993-tce-ac-016-01-q069",
+            "993-tce-ac-016-01-q070"
+          ]
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-5-1",
+          "number": "5.1",
+          "label": "Comprovação da despesa e conexão físico-financeira; comparação entre recursos, custos e entregas.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-5-2",
+          "number": "5.2",
+          "label": "Interpretação de informações de custos e de indicadores de execução e eficiência, observadas comparabilidade, bases de cálculo e limitações.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-5-3",
+          "number": "5.3",
+          "label": "MCASP 11ª edição e Manual de Informações do Sistema de Custos (MIC).",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "057-ibama-001-01-q100",
+            "057-ibama-001-01-q101",
+            "057-ibama-001-01-q102",
+            "057-ibama-001-01-q103",
+            "896-tcdf-002-01-q141",
+            "896-tcdf-002-01-q142",
+            "896-tcdf-002-01-q143",
+            "896-tcdf-002-01-q144",
+            "993-tce-ac-016-01-q065",
+            "993-tce-ac-016-01-q066",
+            "993-tce-ac-016-01-q067",
+            "993-tce-ac-016-01-q068",
+            "993-tce-ac-016-01-q069",
+            "993-tce-ac-016-01-q070"
+          ]
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-6",
+          "number": "6",
+          "label": "Informação societária de empresas estatais.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-6-1",
+          "number": "6.1",
+          "label": "Distinção entre informação societária e contabilidade aplicada ao setor público.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-6-2",
+          "number": "6.2",
+          "label": "Leitura de balanço patrimonial, demonstração do resultado e notas explicativas; relações entre posição patrimonial, desempenho e caixa.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-6-3",
+          "number": "6.3",
+          "label": "Reconhecimento de efeitos e incertezas de depreciação, redução ao valor recuperável, provisões, contingências e transações com partes relacionadas.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-7",
+          "number": "7",
+          "label": "Governança e finalidade pública de empresas estatais.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-7-1",
+          "number": "7.1",
+          "label": "Papéis e responsabilidades do Estado como proprietário das empresas estatais e gestor de seus administradores, dos conselhos de administração e fiscal e das instâncias de auditoria e fiscalização.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-7-2",
+          "number": "7.2",
+          "label": "Finalidade pública, sustentabilidade econômico-financeira e prestação de contas; conflitos de interesses e controles.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-7-3",
+          "number": "7.3",
+          "label": "Relação entre mandatos de política pública, estratégias empresariais, recursos empregados e resultados sociais e econômicos; custos, riscos e transparência dos compromissos assumidos.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-financas-orcamento-contabilidade-7-4",
+          "number": "7.4",
+          "label": "Coerência entre objetivos, recursos e resultados divulgados; compromissos de políticas públicas e informações da carta anual.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-1-2",
+          "number": "1.2",
+          "label": "Relação entre problema, pressupostos, hipóteses e evidências; explicações alternativas e efeitos não pretendidos.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-1-3",
+          "number": "1.3",
+          "label": "Avaliabilidade e compatibilidade entre pergunta e informação disponível.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-2",
+          "number": "2",
+          "label": "Implementação gestão e coordenação.",
+          "beforeState": "empty",
+          "afterState": "descendants_only",
+          "newQuestionIds": [
+            "896-tcdf-ce1-01-q045"
+          ]
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-2-1",
+          "number": "2.1",
+          "label": "Arranjos federativos e interorganizacionais; parcerias; capacidades, recursos e diferenças territoriais; discricionariedade na linha de frente e barreiras administrativas.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "896-tcdf-ce1-01-q045"
+          ]
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-2-2",
+          "number": "2.2",
+          "label": "Processos e projetos como instrumentos de entrega; responsabilidades, riscos e marcos de execução.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-2-3",
+          "number": "2.3",
+          "label": "Assessoramento, cooperação e adaptação de soluções com preservação de direitos e controles.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-3-4",
+          "number": "3.4",
+          "label": "Pré-teste e estudo-piloto; critérios de julgamento e seleção do desenho adequado à pergunta.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-4-2",
+          "number": "4.2",
+          "label": "Análise de processos e hipóteses de mecanismo; triangulação e integração de evidências quantitativas e qualitativas; limites de generalização.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-5-1",
+          "number": "5.1",
+          "label": "Contrafactual, seleção e confundimento; experimentos e quase experimentos; grupos de comparação e medidas anteriores à intervenção.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-5-2",
+          "number": "5.2",
+          "label": "Diferenças em diferenças, regressão descontínua e pareamento em interpretação aplicada, com hipóteses e ameaças à validade.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-6",
+          "number": "6",
+          "label": "Conclusões, recomendações e uso dos resultados.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-6-1",
+          "number": "6.1",
+          "label": "Validade interna e externa, incerteza e resultados nulos; comparação de alternativas e recomendações proporcionais e exequíveis.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-6-2",
+          "number": "6.2",
+          "label": "Priorização, escuta, adaptação e condições de implementação; acompanhamento de benefícios e efeitos distributivos.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-6-3",
+          "number": "6.3",
+          "label": "Distinção entre plano, implementação e resultados, com evidências adequadas a cada etapa.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-7",
+          "number": "7",
+          "label": "Ética da investigação.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-7-1",
+          "number": "7.1",
+          "label": "Dignidade, privacidade e segurança das pessoas; riscos de coerção, exposição e reidentificação; informação e consentimento quando cabível.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-7-2",
+          "number": "7.2",
+          "label": "Integridade dos registros, autoria e prevenção de plágio, fabricação ou seleção indevida de evidências.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-politicas-investigacao-avaliacao-7-3",
+          "number": "7.3",
+          "label": "Distinção entre auditoria e pesquisa científica envolvendo seres humanos; finalidades, proteção dos participantes e requisitos de apreciação ética.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-contratacoes-transferencias-4",
+          "number": "4",
+          "label": "Testes e sinais de irregularidade.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-contratacoes-transferencias-4-1",
+          "number": "4.1",
+          "label": "Concentração e vínculos entre fornecedores; fracionamento e padrões atípicos; comprovação física e documental; cruzamentos de dados; limites de amostras dirigidas por risco.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-contratacoes-transferencias-5",
+          "number": "5",
+          "label": "Encaminhamentos e resultados.",
+          "beforeState": "empty",
+          "afterState": "descendants_only",
+          "newQuestionIds": [
+            "896-tcdf-002-01-q113"
+          ]
+        },
+        {
+          "id": "cgu-2026-contratacoes-transferencias-5-1",
+          "number": "5.1",
+          "label": "Dano e critérios para sua demonstração; correção de processos, proteção de usuários e recuperação de recursos; interfaces com responsabilização e integridade; recomendações proporcionais.",
+          "beforeState": "empty",
+          "afterState": "direct",
+          "newQuestionIds": [
+            "896-tcdf-002-01-q113"
+          ]
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-1",
+          "number": "1",
+          "label": "Direito público aplicado às respostas de controle.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-1-1",
+          "number": "1.1",
+          "label": "Análise de vulnerabilidades, incentivos, conflitos e capacidades institucionais; articulação entre governança, riscos e controles.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-1-2",
+          "number": "1.2",
+          "label": "Integração de manifestações de ouvidoria, dados de transparência, achados de auditoria e informações correcionais.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-1-3",
+          "number": "1.3",
+          "label": "Definição de prioridades e combinação de respostas preventivas, corretivas e de responsabilização; competências, motivação, proporcionalidade, consequências práticas e condições de atuação.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-2-4",
+          "number": "2.4",
+          "label": "Análise de reclamações, solicitações, sugestões e outras manifestações; escuta de usuários e não usuários, participação, representatividade, barreiras de acesso e subnotificação.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-2-5",
+          "number": "2.5",
+          "label": "Utilização dos resultados para aperfeiçoar serviços e orientar o controle.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-3",
+          "number": "3",
+          "label": "Proteção do denunciante e tratamento seguro dos relatos.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-3-1",
+          "number": "3.1",
+          "label": "Salvaguardas da identidade do denunciante desde o recebimento do relato; pseudonimização, acesso por necessidade de conhecer, rastreabilidade e condições legais de compartilhamento ou revelação.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-3-2",
+          "number": "3.2",
+          "label": "Identificação de riscos e práticas de retaliação; medidas preventivas, protetivas e reparadoras e competências para sua adoção.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-3-3",
+          "number": "3.3",
+          "label": "Acolhimento e prevenção de revitimização em situações de assédio e discriminação.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-3-4",
+          "number": "3.4",
+          "label": "Articulação entre proteção, preservação de evidências, apuração e direitos de defesa.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-4",
+          "number": "4",
+          "label": "Avaliação e aperfeiçoamento da integridade pública e privada.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-4-1",
+          "number": "4.1",
+          "label": "Diagnóstico de riscos e avaliação da existência, implementação e efetividade de programas de integridade.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-4-2",
+          "number": "4.2",
+          "label": "Compromisso da liderança, cultura, incentivos, registros, controles, diligência sobre terceiros, canais de relato e remediação.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-4-3",
+          "number": "4.3",
+          "label": "Avaliação de maturidade e planos de melhoria proporcionais ao contexto e à capacidade institucional.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-4-4",
+          "number": "4.4",
+          "label": "Análise de conflitos de interesses, impedimentos, favorecimento e exercício de atividade privada; medidas de prevenção, orientação e tratamento.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-4-5",
+          "number": "4.5",
+          "label": "Prevenção de assédio e discriminação como dimensão da integridade organizacional.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-5-1",
+          "number": "5.1",
+          "label": "Qualificação de notícias de irregularidade e juízo de admissibilidade; arquivamento fundamentado, investigação e instauração de processo.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-5-3",
+          "number": "5.3",
+          "label": "Responsabilidade objetiva da pessoa jurídica e requisitos de ato lesivo e interesse ou benefício.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-5-4",
+          "number": "5.4",
+          "label": "Licitude, suficiência e valoração da prova; compartilhamento entre instâncias, contraditório, defesa e motivação.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-5-5",
+          "number": "5.5",
+          "label": "Distinção entre achado de controle e imputação de responsabilidade.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-6-2",
+          "number": "6.2",
+          "label": "Aplicação dos marcos prescricionais e dos critérios de dosimetria; fundamentação da sanção e da reparação do dano em casos concretos.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-6-3",
+          "number": "6.3",
+          "label": "Acordo de leniência: requisitos, colaboração, efeitos, obrigações de integridade e limites.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-6-4",
+          "number": "6.4",
+          "label": "Termo de ajustamento de conduta: requisitos, proporcionalidade e acompanhamento.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-6-5",
+          "number": "6.5",
+          "label": "Coordenação entre instâncias, distinção entre sanção e reparação e consideração das sanções relativas ao mesmo fato nos termos legais.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-7-1",
+          "number": "7.1",
+          "label": "Conversão de manifestações, avaliações e apurações em medidas de melhoria da gestão, da integridade e dos serviços.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-7-2",
+          "number": "7.2",
+          "label": "Planos de ação, responsabilidades, indicadores e acompanhamento de compromissos.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-7-3",
+          "number": "7.3",
+          "label": "Avaliação da implementação e dos efeitos das medidas sobre recorrência, acesso a direitos e confiança.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        },
+        {
+          "id": "cgu-2026-integridade-transparencia-responsabilizacao-7-4",
+          "number": "7.4",
+          "label": "Distinção entre redução de ocorrências e redução da detecção.",
+          "beforeState": "empty",
+          "afterState": "empty",
+          "newQuestionIds": []
+        }
+      ]
+    }
+  ]
+}

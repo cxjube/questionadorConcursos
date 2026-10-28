@@ -1,5 +1,7 @@
 # Revisão das diretrizes recebidas — 23/10/2026
 
+> Atualização 28/10: [segundo lote de reservas](reserve-second-batch-release.md),48 novas questões; CGU224C/E e simulado170, ABDI21MC institucionais e simulado60, Câmara396 e simulado180. Mapas atuais: Câmara182diretos/13vazios; ABDI72/18; CGU86/130. Pesos nos textos de ajuda vêm do perfil salvo. Cadernos TCDF comentados só abrem após finalizar o simulado. Varredura editorial e rodada humana permanecem pendentes.
+
 > Atualização de 28/10: [primeiro lote CGU](cgu-first-batch-release.md), 78 novas C/E; 184 questões de treino, simulado real 170 C/E em 40/40/90 disponível. Cobertura 71 direta/49 só descendentes/146 vazios. Reserva única 180 C/E, pequena; MCASP detalhado adiado após 401. Registros de bloqueio abaixo são históricos.
 
 > Atualização: [CGU — Auditoria cadastrada](cgu-intake-release.md) após confirmação explícita do cargo 1. São 266 itens e 106 questões de treino; simulado bloqueado por insuficiência. Os registros de escolha pendente abaixo são históricos.

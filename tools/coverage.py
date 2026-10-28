@@ -183,7 +183,7 @@ def current_artifacts(catalog, review):
              'Direto significa vínculo ao item exato; subárvore reúne o próprio item e seus descendentes, sem duplicar IDs. '
              'Vínculos de pais não são distribuídos aos filhos. Prioridades editoriais: A sem C/E, B com 1–2 C/E, C com 3 ou mais. '
              'Pais e filhos se sobrepõem; as contagens não são pesos oficiais.', '',
-             '[Entrega do 17º lote](seventeenth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)', '',
+             '[Lote atual e reservas](reserve-second-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)', '',
              '## Disciplinas', '', '| Disciplina | Direto / programa | C/E distintos | MC distintos | Folhas vazias |',
              '| --- | ---: | ---: | ---: | ---: |']
     for d in report['disciplines']:
@@ -193,7 +193,7 @@ def current_artifacts(catalog, review):
               '2. Regimento Comum tem agora C/E em Constitucional 8.2 e Processo 6.1/6.3, além de três MC preservadas. Ainda faltam C/E em Constitucional 8.1 (Título I) e Processo 6.2 (Resolução 3/1990).',
               '3. Planejamento de redes (5.1) e colaboração online (5.2) têm C/E; elementos de publicação (5.4) continuam sem questões. Manual de Comunicação da Câmara (8.2) tem duas MC oficiais da ALERJ. Ato 218/2025 e Manual de Linguagem Simples (8.1/10.1) seguem sem questões específicas confirmadas.',
               '4. Cooperação com o terceiro setor tem uma C/E do Ibama; CF 37, § 1º, tem vínculo versionado por vedação de promoção pessoal. Ainda faltam parecerista, Nova Governança Pública e Decreto 9203 específico; os vínculos são amostras parciais.',
-              '5. Ampliar ortografia, coordenação, substituição lexical e história política, iniciadas neste lote. Ainda faltam reescrita por gênero/formalidade e política internacional contemporânea. Inglês, pesquisas e demais itens com poucas amostras precisam de diversidade.', '',
+              '5. Ampliar ortografia, coordenação, substituição lexical e história política, já iniciadas em lotes anteriores. Reescrita por simplificação tem uma MC; ampliar comparação de gêneros e formalidades. Política internacional contemporânea permanece sem questão. Inglês, pesquisas e demais itens com poucas amostras precisam de diversidade.', '',
               '## Inventário completo', '']
     labels = {'direct': 'Direto', 'descendants_only': 'Só descendentes', 'empty': 'Sem questões', 'editorial_umbrella': 'Escopo'}
     for d in report['disciplines']:
@@ -231,7 +231,7 @@ def role_artifacts(catalog, review, role_id):
            f"Revisão: {review['reviewedAt']}. **{len(ids)} questões distintas: {report['distinctMC']} MC e {report['distinctCE']} C/E.**",
            f"Programa: {report['totalItems']} itens; {report['directItems']} com vínculo direto, {report['descendantsOnly']} apenas por descendentes e {report['emptyItems']} subárvores sem questões.", '',
            'A prova exige múltipla escolha. C/E são treino de conteúdo no formato original e não compõem reserva MC. Prioridade A indica ausência de MC; B, uma ou duas MC; C, pelo menos três. Não são pesos oficiais nem domínio do assunto.', '',
-           '[Lote atual e plano de fechamento](abdi-fourth-batch-release.md) · [CSV](coverage-abdi-current.csv)', '',
+           '[Lote atual e plano de fechamento](reserve-second-batch-release.md) · [CSV](coverage-abdi-current.csv)', '',
            '| Área | Questões distintas | MC | C/E |', '| --- | ---: | ---: | ---: |']
     for block,label in [('basic','Gerais'),('institutional','Institucionais'),('specific','Específicos')]:
         selected={q for row in report['items'] if row['block']==block for q in row['directQuestionIds']}
@@ -244,6 +244,8 @@ def role_artifacts(catalog, review, role_id):
         label=row['label'].replace('|','\\|')
         lines.append(f"| {disciplines[row['disciplineId']]} | {row['number']} | {label} | {row['directMC']} | {row['directCE']} | {states[row['state']]} |")
     lines+=['', 'Gerado por `python -m tools coverage --role abdi-comunicacao-marketing`; verificar com `--check`.', '']
+    from tools.readiness import abdi_capacity
+    output['data/reviews/abdi-bank-readiness.json'] = json.dumps(abdi_capacity(catalog, review['reviewedAt']), ensure_ascii=False, indent=2) + '\n'
     output['documentation/'+stem+'.md']='\n'.join(lines)
     return output
 
@@ -280,7 +282,7 @@ def cgu_artifacts(catalog, review):
         lines.append(f"| {b['label']} | {b['required']} | {b['availableCE']} | {b['allocatedCE']} | {b['missingForThisAllocation']} |")
     lines += ['', 'Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos déficits não é única. Quantidade suficiente não garante variedade, cobertura ou dificuldade equivalente à prova.', '',
               '## Prioridades editoriais', '',
-              '1. Finanças, orçamento e contabilidade: PPA/LDO/LOA e execução já têm amostras; ampliar demonstrações, custos, estatais e classificação patrimonial, com conferência da edição vigente do MCASP.',
+              '1. Finanças, orçamento e contabilidade: PPA/LDO/LOA e execução já têm amostras; ampliar demonstrações, custos, estatais e classificação patrimonial, com conferência das seções aplicáveis. MCASP 11 já tem comparação selecionada de PCASP e demonstrações, sem auditoria integral do manual.',
               '2. Auditoria governamental: planejamento, evidências, achados, amostragem, consultoria/apuração e qualidade. Há amostras de planejamento, evidências e relatórios, ainda sem cobertura integral.',
               '3. Métodos de avaliação: desenho causal, contrafactual, impacto, custo-benefício, ética da investigação e limites da inferência.',
               '4. Integridade, correição e proteção: conflitos de interesses, denúncias, leniência, PAR, prescrição e assédio. Não importar regulamentos próprios da ABDI.',
@@ -292,6 +294,6 @@ def cgu_artifacts(catalog, review):
     for row in report['items']:
         label = row['label'].replace('|', '\\|')
         lines.append(f"| {disciplines[row['disciplineId']]} | {row['number']} | {label} | {row['directCE']} | {row['directMC']} | {states[row['state']]} |")
-    lines += ['', '[Entrega e pendências](cgu-first-batch-release.md). Gerado por `python -m tools coverage --role cgu-auditoria`; conferir com `--check`.', '']
+    lines += ['', '[Entrega e pendências](reserve-second-batch-release.md). Gerado por `python -m tools coverage --role cgu-auditoria`; conferir com `--check`.', '']
     output['documentation/coverage-cgu-current.md'] = '\n'.join(lines)
     return output

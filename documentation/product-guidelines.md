@@ -2,7 +2,7 @@
 
 ## Diretrizes de produto, arquitetura, banco de questões e experiência de estudo
 
-**Versão:** 1.27 — revisão integrada ao repositório
+**Versão:** 1.28 — revisão integrada ao repositório
 **Data:** 28/10/2026
 **Projeto:** Questionador Concursos
 **Repositório:** https://github.com/cxjube/questionadorConcursos
@@ -14,7 +14,7 @@
 
 Este documento consolida as sugestões fornecidas pelo usuário e os ajustes de revisão. É uma referência de produto e de aceite por etapa, não autorização para implementar todo o roadmap.
 
-A [CGU — Auditoria](cgu-first-batch-release.md) tem agora 184 questões de treino (180 C/E e quatro MC), com 221 vínculos. O primeiro lote adiciona 78 C/E oficiais e permite o simulado real 40/40/90, 300 minutos, pesos +1/−1 e +2/−2 nas específicas, mínimos independentes 8/12/54 e total 78. A reserva é de apenas dez IDs acima do mínimo; mapa 71/266 direto, 49 só por descendentes, 146 vazios. Normas e fontes têm comparação de cláusulas selecionadas, sem auditoria integral do MCASP. A varredura completa por banco permanece para o encerramento. Programa e regras estão confirmados; não há pendência de escolha de especialidade. Câmara, ABDI e históricos foram preservados. O cadastro anterior e o déficit de 68 C/E permanecem registrados como históricos em [cgu-intake-release.md](cgu-intake-release.md).
+A [entrega atual](reserve-second-batch-release.md) adiciona 48 questões (46 C/E e duas MC) e 16 vínculos aditivos. CGU — Auditoria: 229 questões (224 C/E e cinco MC), 320 vínculos, simulado 40/40/90 com reserva única de 54 acima do mínimo; mapa 86/266 direto, 50 só por descendentes, 130 vazios. ABDI: 240 questões (152 C/E / 88 MC), 21 institucionais e 287 vínculos; mapa 72/97 direto, sete só por descendentes, 18 vazios. Câmara: 396 (378 C/E /18 MC), 405 vínculos, reserva C/E 169/209; 182/228 direto, 32 só descendentes, 13 vazios. Global608 questões/comentários,252contextos,1.012vínculos,194registros documentais. Regras e tentativas antigas permanecem preservadas. Os marcos históricos seguintes não substituem esses números.
 
 O [17º lote](seventeenth-batch-release.md) consolida 395 questões (378 C/E e 17 MC), reserva 169/209 e 14 lacunas registradas. Questões e regras históricas permanecem versionadas.
 

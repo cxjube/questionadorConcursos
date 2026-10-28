@@ -355,7 +355,7 @@ const Study = (() => {
     const date = v => typeof v === 'string' && /^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d\.\d{3}Z$/.test(v) && Number.isFinite(Date.parse(v)) && new Date(v).toISOString() === v;
     const array = (v, max) => Array.isArray(v) && v.length <= max;
     const url = v => {
-      try { const u = new URL(v); return u.protocol === 'https:' && !u.username && !u.password && ['cdn.cebraspe.org.br', 'www.cebraspe.org.br', 'www.camara.leg.br', 'www2.camara.leg.br', 'www.planalto.gov.br', 'conhecimento.fgv.br', 'www2.ibfc.org.br', 'www.abdi.com.br', 'concurso2023.fiotec.fiocruz.br', 'basedeconhecimento.cgu.gov.br', 'www12.senado.leg.br', 'www25.senado.leg.br', 'www.gov.br', 'portal.stf.jus.br', 'bd.camara.leg.br', 'repositorio.enap.gov.br', 'cartilha.cert.br', 'developers.google.com', 'support.microsoft.com', 'learn.microsoft.com', 'dicionario.priberam.org'].includes(u.hostname); } catch (_) { return false; }
+      try { const u = new URL(v); return u.protocol === 'https:' && !u.username && !u.password && ['cdn.cebraspe.org.br', 'www.cebraspe.org.br', 'www.camara.leg.br', 'www2.camara.leg.br', 'www.planalto.gov.br', 'conhecimento.fgv.br', 'www2.ibfc.org.br', 'www.abdi.com.br', 'concurso2023.fiotec.fiocruz.br', 'basedeconhecimento.cgu.gov.br', 'www.tesourotransparente.gov.br', 'www12.senado.leg.br', 'www25.senado.leg.br', 'www.gov.br', 'portal.stf.jus.br', 'bd.camara.leg.br', 'repositorio.enap.gov.br', 'cartilha.cert.br', 'developers.google.com', 'support.microsoft.com', 'learn.microsoft.com', 'dicionario.priberam.org'].includes(u.hostname); } catch (_) { return false; }
     };
     if (!record(progress) || progress.version !== VERSION || progress.bankId !== 'concursos' || !array(progress.history, 500) || !own(progress, 'active')) fail();
     if (progress.active !== null && progress.history.length >= 500) fail();
@@ -425,6 +425,7 @@ const Study = (() => {
             key.questionId !== q.id || key.id !== q.answerKeyId || !identifier(key.id) || !Number.isInteger(key.version) || key.version < 1 || key.stage !== 'definitive' ||
             key.origin !== 'official' || key.status !== 'confirmed' || !['valid', 'annulled', 'withdrawn'].includes(key.result) || !url(key.officialUrl) || !identifier(key.documentId) || !text(key.locator) ||
             paper.id !== q.origin.paperId || !text(paper.title) || !text(paper.provider) || !text(paper.institution) || !text(paper.role) || !Number.isInteger(paper.year) || !text(paper.booklet) || !url(paper.officialUrl)) fail();
+        if (record(paper.inventory) && own(paper.inventory,'containsPreliminaryAnswers') && typeof paper.inventory.containsPreliminaryAnswers !== 'boolean') fail();
         if (session.selection && (session.selection.paperId && session.selection.paperId !== paper.id || session.selection.year && session.selection.year !== paper.year || session.selection.type && session.selection.type !== q.type)) fail();
         const options = new Set();
         for (const o of q.options) { if (!record(o) || !identifier(o.id) || options.has(o.id) || !text(o.text)) fail(); options.add(o.id); }

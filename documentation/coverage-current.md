@@ -1,18 +1,18 @@
 # Mapa atual do banco de questões
 
-Última revisão: 2026-10-27; lote `seventeenth-batch`. São 395 questões e 404 vínculos da Câmara; **181/228 itens com vínculo direto**, 32 atendidos só por descendentes e 14 sem questões na subárvore (14 folhas). O título amplo Ciência Política 1 permanece separado.
+Última revisão: 2026-10-28; lote `reserve-second-batch`. São 396 questões e 405 vínculos da Câmara; **182/228 itens com vínculo direto**, 32 atendidos só por descendentes e 13 sem questões na subárvore (13 folhas). O título amplo Ciência Política 1 permanece separado.
 
 C/E: P1 **169**, P2 **209**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
 
 Direto significa vínculo ao item exato; subárvore reúne o próprio item e seus descendentes, sem duplicar IDs. Vínculos de pais não são distribuídos aos filhos. Prioridades editoriais: A sem C/E, B com 1–2 C/E, C com 3 ou mais. Pais e filhos se sobrepõem; as contagens não são pesos oficiais.
 
-[Entrega do 17º lote](seventeenth-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)
+[Lote atual e reservas](reserve-second-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)
 
 ## Disciplinas
 
 | Disciplina | Direto / programa | C/E distintos | MC distintos | Folhas vazias |
 | --- | ---: | ---: | ---: | ---: |
-| Língua Portuguesa | 16/20 | 40 | 0 | 1 |
+| Língua Portuguesa | 17/20 | 40 | 1 | 0 |
 | Língua Inglesa | 3/3 | 19 | 0 | 0 |
 | Noções de Direito Administrativo e Administração Pública | 35/46 | 55 | 0 | 3 |
 | Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados | 10/14 | 21 | 1 | 2 |
@@ -28,7 +28,7 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 2. Regimento Comum tem agora C/E em Constitucional 8.2 e Processo 6.1/6.3, além de três MC preservadas. Ainda faltam C/E em Constitucional 8.1 (Título I) e Processo 6.2 (Resolução 3/1990).
 3. Planejamento de redes (5.1) e colaboração online (5.2) têm C/E; elementos de publicação (5.4) continuam sem questões. Manual de Comunicação da Câmara (8.2) tem duas MC oficiais da ALERJ. Ato 218/2025 e Manual de Linguagem Simples (8.1/10.1) seguem sem questões específicas confirmadas.
 4. Cooperação com o terceiro setor tem uma C/E do Ibama; CF 37, § 1º, tem vínculo versionado por vedação de promoção pessoal. Ainda faltam parecerista, Nova Governança Pública e Decreto 9203 específico; os vínculos são amostras parciais.
-5. Ampliar ortografia, coordenação, substituição lexical e história política, iniciadas neste lote. Ainda faltam reescrita por gênero/formalidade e política internacional contemporânea. Inglês, pesquisas e demais itens com poucas amostras precisam de diversidade.
+5. Ampliar ortografia, coordenação, substituição lexical e história política, já iniciadas em lotes anteriores. Reescrita por simplificação tem uma MC; ampliar comparação de gêneros e formalidades. Política internacional contemporânea permanece sem questão. Inglês, pesquisas e demais itens com poucas amostras precisam de diversidade.
 
 ## Inventário completo
 
@@ -51,11 +51,11 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 5.6 | Regência verbal e nominal. | 1 | 0 | 1 | 0 | Direto | B |
 | 5.7 | Emprego do sinal indicativo de crase. | 2 | 0 | 2 | 0 | Direto | B |
 | 5.8 | Colocação dos pronomes átonos. | 1 | 0 | 1 | 0 | Direto | B |
-| 6 | Reescrita de frases e parágrafos do texto. | 0 | 0 | 3 | 0 | Só descendentes | C |
+| 6 | Reescrita de frases e parágrafos do texto. | 0 | 0 | 3 | 1 | Só descendentes | C |
 | 6.1 | Significação das palavras. | 1 | 0 | 1 | 0 | Direto | B |
 | 6.2 | Substituição de palavras ou de trechos de texto. | 1 | 0 | 1 | 0 | Direto | B |
 | 6.3 | Reorganização da estrutura de orações e de períodos do texto. | 1 | 0 | 1 | 0 | Direto | B |
-| 6.4 | Reescrita de textos de diferentes gêneros e níveis de formalidade. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 6.4 | Reescrita de textos de diferentes gêneros e níveis de formalidade. | 0 | 1 | 0 | 1 | Direto | A |
 
 ### Língua Inglesa
 

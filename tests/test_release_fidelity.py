@@ -19,6 +19,7 @@ class ReleasedFidelityTests(unittest.TestCase):
     def setUpClass(cls):
         cls.catalog = camara_catalog()
         cls.docs = {d['id']: d for d in cls.catalog['documents']}
+        cls.multi_page_contexts = {r['contextId']: r for r in read_json(ROOT / 'data/reviews/reserve-second-batch.json')['contexts'] if len({g['page'] for g in r['sourceLineGroups']})>1}
         cls.papers = {p['id']: p for p in cls.catalog['papers']}
         cls.pages = {identifier: pdf_text(ROOT / d['file'], '-raw').split('\f')
                      for identifier, d in cls.docs.items() if d['kind'] == 'question_paper'}
@@ -28,7 +29,14 @@ class ReleasedFidelityTests(unittest.TestCase):
     def test_all_published_text_options_and_contexts_match_source_pages(self):
         for ctx in self.catalog['contexts']:
             with self.subTest(context=ctx['id']):
-                page = self.pages[ctx['sourceDocumentId']][ctx['sourcePage'] - 1]
+                pages = self.pages[ctx['sourceDocumentId']]
+                if ctx['id'] in self.multi_page_contexts:
+                    groups = self.multi_page_contexts[ctx['id']]['sourceLineGroups']
+                    for number in sorted({g['page'] for g in groups}):
+                        fragment = ' '.join(g['text'] for g in groups if g['page']==number)
+                        self.assertIn(clean(fragment), clean(pages[number-1]))
+                    continue  # Exact complete groups also checked independently against bbox lines.
+                page = pages[ctx['sourcePage'] - 1]
                 if 'sourceLines' in ctx:
                     page = re.sub(r'(?m)^\d+\s*$', '', page)
                 # -raw can drop inter-word spacing in justified PDF lines. Exact word

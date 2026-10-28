@@ -1,0 +1,5717 @@
+{
+  "id": "reserve-second-batch",
+  "reviewedAt": "2026-10-28",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/reserve-second-batch-release.md",
+  "previousCatalogFile": "data/reviews/pre-reserve-second-batch-catalog.json.gz",
+  "previousCatalogSha256": "3bd30d847e952dd565cd7b17f09422ece2ddd743683961374ee730ef0207e1ba",
+  "items": [
+    {
+      "questionId": "896-tcdf-002-01-q112",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 112,
+      "sourcePage": 3,
+      "contextIds": [
+        "reserve2-td-licit"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q112-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-integridade-transparencia-responsabilizacao-6",
+        "cgu-2026-direito-controle-responsabilizacao-4"
+      ],
+      "referenceDocumentId": "reference-lei-12846-2013",
+      "referenceLocator": "Art. 6º, II e §5º — publicação extraordinária",
+      "groups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 167.3607,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.38,
+              "y": 167.3607,
+              "text": "112 No caso de uma sociedade empresária vir a ser condenada"
+            }
+          ],
+          "text": "112 No caso de uma sociedade empresária vir a ser condenada"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 178.880694,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.26,
+              "y": 178.880694,
+              "text": "por ato contra a administração pública, nacional ou"
+            }
+          ],
+          "text": "por ato contra a administração pública, nacional ou"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 190.400688,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.26,
+              "y": 190.400688,
+              "text": "estrangeira, na forma da Lei n.º 12.846/2013, uma das"
+            }
+          ],
+          "text": "estrangeira, na forma da Lei n.º 12.846/2013, uma das"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 201.860562,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.26,
+              "y": 201.860562,
+              "text": "consequências possíveis é a publicação resumida da decisão"
+            }
+          ],
+          "text": "consequências possíveis é a publicação resumida da decisão"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 213.380556,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.26,
+              "y": 213.380556,
+              "text": "condenatória, a expensas da empresa."
+            }
+          ],
+          "text": "condenatória, a expensas da empresa."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q113",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 113,
+      "sourcePage": 3,
+      "contextIds": [
+        "reserve2-td-licit"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q113-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-contratacoes-transferencias-5-1"
+      ],
+      "referenceDocumentId": "reference-lei-14133-2021",
+      "referenceLocator": "Arts. 147–149 — consequências da nulidade e continuidade",
+      "groups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 351.0207,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.38,
+              "y": 351.0207,
+              "text": "113 Mesmo diante da constatação de nulidade em um contrato"
+            }
+          ],
+          "text": "113 Mesmo diante da constatação de nulidade em um contrato"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 362.540694,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.26,
+              "y": 362.540694,
+              "text": "administrativo, a administração pública pode manter a"
+            }
+          ],
+          "text": "administrativo, a administração pública pode manter a"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 374.060688,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.26,
+              "y": 374.060688,
+              "text": "execução dele e deixar de anulá-lo, se, entre outras razões, a"
+            }
+          ],
+          "text": "execução dele e deixar de anulá-lo, se, entre outras razões, a"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 385.580682,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.26,
+              "y": 385.580682,
+              "text": "anulação gerar riscos sociais, ambientais e à segurança da"
+            }
+          ],
+          "text": "anulação gerar riscos sociais, ambientais e à segurança da"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 397.040556,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.26,
+              "y": 397.040556,
+              "text": "população local."
+            }
+          ],
+          "text": "população local."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q114",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 114,
+      "sourcePage": 3,
+      "contextIds": [
+        "reserve2-td-exec"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q114-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-auditoria-governamental-3-1",
+        "cgu-2026-atuacao-integrada-2-1"
+      ],
+      "referenceDocumentId": "reference-cgu-in3-2017-consolidada",
+      "referenceLocator": "Anexo, itens 138–143 — programa e execução",
+      "groups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 597.3207,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.38,
+              "y": 597.3207,
+              "text": "114 É na fase de execução, durante os trabalhos de campo, que a"
+            }
+          ],
+          "text": "114 É na fase de execução, durante os trabalhos de campo, que a"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 608.780574,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.26,
+              "y": 608.780574,
+              "text": "equipe responsável pelo trabalho aplica os procedimentos e"
+            }
+          ],
+          "text": "equipe responsável pelo trabalho aplica os procedimentos e"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 620.300568,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.26,
+              "y": 620.300568,
+              "text": "as técnicas definidas no planejamento de auditoria."
+            }
+          ],
+          "text": "as técnicas definidas no planejamento de auditoria."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q115",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 115,
+      "sourcePage": 3,
+      "contextIds": [
+        "reserve2-td-exec"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q115-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-auditoria-governamental-3-1",
+        "cgu-2026-atuacao-integrada-3-1"
+      ],
+      "referenceDocumentId": "reference-cgu-in3-2017-consolidada",
+      "referenceLocator": "Anexo, itens 143 e 148–150 — procedimentos e evidências",
+      "groups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 747.6206,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.38,
+              "y": 747.6206,
+              "text": "115 Ao executar a conciliação, o auditor tem o objetivo de"
+            }
+          ],
+          "text": "115 Ao executar a conciliação, o auditor tem o objetivo de"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 759.140594,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.26,
+              "y": 759.140594,
+              "text": "comparar uma amostra do universo com diferentes fontes de"
+            }
+          ],
+          "text": "comparar uma amostra do universo com diferentes fontes de"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 770.600468,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.26,
+              "y": 770.600468,
+              "text": "informação, a fim de se certificar da igualdade entre ambas."
+            }
+          ],
+          "text": "informação, a fim de se certificar da igualdade entre ambas."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q116",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 116,
+      "sourcePage": 3,
+      "contextIds": [
+        "reserve2-td-govern"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q116-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-governanca-riscos-integridade-2-1",
+        "cgu-2026-atuacao-integrada-1-1"
+      ],
+      "referenceDocumentId": "reference-cgu-in3-2017-consolidada",
+      "referenceLocator": "Anexo, seção de controles internos da gestão",
+      "groups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 150.5607,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.3,
+              "y": 150.5607,
+              "text": "116 Nos termos do COSO, o controle interno é considerado um"
+            }
+          ],
+          "text": "116 Nos termos do COSO, o controle interno é considerado um"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 162.080694,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.18,
+              "y": 162.080694,
+              "text": "fim em si mesmo, já que sua estrutura, aplicável a toda"
+            }
+          ],
+          "text": "fim em si mesmo, já que sua estrutura, aplicável a toda"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 173.600688,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.18,
+              "y": 173.600688,
+              "text": "entidade, é capaz de assegurar a governança e fornecer"
+            }
+          ],
+          "text": "entidade, é capaz de assegurar a governança e fornecer"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 185.060562,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.18,
+              "y": 185.060562,
+              "text": "segurança à alta administração da entidade."
+            }
+          ],
+          "text": "segurança à alta administração da entidade."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q117",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 117,
+      "sourcePage": 3,
+      "contextIds": [
+        "reserve2-td-govern"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q117-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-governanca-riscos-integridade-1-1",
+        "cgu-2026-atuacao-integrada-1-4"
+      ],
+      "referenceDocumentId": "reference-cgu-in3-2017-consolidada",
+      "referenceLocator": "Anexo — governança, independência e controles",
+      "groups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 353.7807,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.3,
+              "y": 353.7807,
+              "text": "117 A estrutura de governança e a alta administração devem"
+            }
+          ],
+          "text": "117 A estrutura de governança e a alta administração devem"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 365.300694,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.18,
+              "y": 365.300694,
+              "text": "estabelecer uma estreita relação de dependência e"
+            }
+          ],
+          "text": "estabelecer uma estreita relação de dependência e"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 376.820688,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.18,
+              "y": 376.820688,
+              "text": "subordinação, com vistas ao alinhamento da tomada de"
+            }
+          ],
+          "text": "subordinação, com vistas ao alinhamento da tomada de"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 388.280562,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.18,
+              "y": 388.280562,
+              "text": "decisões em prol da maior eficiência da organização."
+            }
+          ],
+          "text": "decisões em prol da maior eficiência da organização."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q121",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 121,
+      "sourcePage": 4,
+      "contextIds": [
+        "reserve2-td-iia"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q121-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-auditoria-governamental-2-1",
+        "cgu-2026-atuacao-integrada-2-1"
+      ],
+      "referenceDocumentId": "reference-cgu-in3-2017-consolidada",
+      "referenceLocator": "Anexo, itens 128–139 — objetivos, critérios, escopo e programa",
+      "groups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 334.2807,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.38,
+              "y": 334.2807,
+              "text": "121 Os elementos da auditoria operacional no setor público —"
+            }
+          ],
+          "text": "121 Os elementos da auditoria operacional no setor público —"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 345.740574,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.26,
+              "y": 345.740574,
+              "text": "auditor, parte responsável, usuários, objeto e critérios —"
+            }
+          ],
+          "text": "auditor, parte responsável, usuários, objeto e critérios —"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 357.260568,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.26,
+              "y": 357.260568,
+              "text": "devem, em cada auditoria, ser identificados expressamente"
+            }
+          ],
+          "text": "devem, em cada auditoria, ser identificados expressamente"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 368.780562,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.26,
+              "y": 368.780562,
+              "text": "pelos auditores."
+            }
+          ],
+          "text": "pelos auditores."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q122",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 122,
+      "sourcePage": 4,
+      "contextIds": [
+        "reserve2-td-iia"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q122-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-auditoria-governamental-2-1",
+        "cgu-2026-auditoria-governamental-3-1",
+        "cgu-2026-atuacao-integrada-3-1"
+      ],
+      "referenceDocumentId": "reference-cgu-in3-2017-consolidada",
+      "referenceLocator": "Anexo, itens 138–150 — desenho de procedimentos e evidências",
+      "groups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 475.4007,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.38,
+              "y": 475.4007,
+              "text": "122 A natureza da evidência de auditoria necessária à obtenção"
+            }
+          ],
+          "text": "122 A natureza da evidência de auditoria necessária à obtenção"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 486.920694,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.26,
+              "y": 486.920694,
+              "text": "de conclusões na auditoria operacional é determinada pelo"
+            }
+          ],
+          "text": "de conclusões na auditoria operacional é determinada pelo"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 498.380568,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.26,
+              "y": 498.380568,
+              "text": "objeto, pelo objetivo e pelas questões de auditoria."
+            }
+          ],
+          "text": "objeto, pelo objetivo e pelas questões de auditoria."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q123",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 123,
+      "sourcePage": 4,
+      "contextIds": [
+        "reserve2-td-iia"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q123-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-auditoria-governamental-1-2",
+        "cgu-2026-atuacao-integrada-1-1"
+      ],
+      "referenceDocumentId": "reference-cgu-in3-2017-consolidada",
+      "referenceLocator": "Anexo, item 1 e seção de propósito",
+      "groups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 636.0807,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.38,
+              "y": 636.0807,
+              "text": "123 A auditoria interna auxilia a organização a atingir seus"
+            }
+          ],
+          "text": "123 A auditoria interna auxilia a organização a atingir seus"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 647.600694,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.26,
+              "y": 647.600694,
+              "text": "objetivos a partir da aplicação de uma abordagem sistemática"
+            }
+          ],
+          "text": "objetivos a partir da aplicação de uma abordagem sistemática"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 659.060568,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.26,
+              "y": 659.060568,
+              "text": "e disciplinada à avaliação e à melhoria da eficácia dos"
+            }
+          ],
+          "text": "e disciplinada à avaliação e à melhoria da eficácia dos"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 670.580562,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.26,
+              "y": 670.580562,
+              "text": "processos de gerenciamento de riscos, controle e governança."
+            }
+          ],
+          "text": "processos de gerenciamento de riscos, controle e governança."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q125",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 125,
+      "sourcePage": 4,
+      "contextIds": [
+        "reserve2-td-iia"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q125-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-auditoria-governamental-2-1",
+        "cgu-2026-auditoria-governamental-4-1",
+        "cgu-2026-atuacao-integrada-3-1"
+      ],
+      "referenceDocumentId": "reference-cgu-in3-2017-consolidada",
+      "referenceLocator": "Anexo, itens 129–130 e 148–150 — riscos e evidências",
+      "groups": [
+        {
+          "page": 4,
+          "column": "right",
+          "y": 142.0407,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 303.3,
+              "y": 142.0407,
+              "text": "125 A fraude não pode ser considerada material, ainda que"
+            }
+          ],
+          "text": "125 A fraude não pode ser considerada material, ainda que"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 153.560694,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.18,
+              "y": 153.560694,
+              "text": "integre o nível de valor considerado na determinação geral"
+            }
+          ],
+          "text": "integre o nível de valor considerado na determinação geral"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 165.080688,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.18,
+              "y": 165.080688,
+              "text": "da materialidade."
+            }
+          ],
+          "text": "da materialidade."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q127",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 127,
+      "sourcePage": 4,
+      "contextIds": [
+        "reserve2-td-evidence"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q127-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-auditoria-governamental-4-1",
+        "cgu-2026-atuacao-integrada-3-1"
+      ],
+      "referenceDocumentId": "reference-cgu-in3-2017-consolidada",
+      "referenceLocator": "Anexo, itens 131–132 e 148–150 — critérios e análise",
+      "groups": [
+        {
+          "page": 4,
+          "column": "right",
+          "y": 516.8006,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 303.3,
+              "y": 516.8006,
+              "text": "127 A condição e o critério são elementos dos achados de"
+            }
+          ],
+          "text": "127 A condição e o critério são elementos dos achados de"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 528.320594,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.18,
+              "y": 528.320594,
+              "text": "auditoria, em que a condição corresponde à situação ideal"
+            }
+          ],
+          "text": "auditoria, em que a condição corresponde à situação ideal"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 539.780468,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.18,
+              "y": 539.780468,
+              "text": "e esperada do ente auditado (o que deve ser), enquanto o"
+            }
+          ],
+          "text": "e esperada do ente auditado (o que deve ser), enquanto o"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 551.300462,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.18,
+              "y": 551.300462,
+              "text": "critério se refere ao cenário real encontrado pelo auditor"
+            }
+          ],
+          "text": "critério se refere ao cenário real encontrado pelo auditor"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 562.820456,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.18,
+              "y": 562.820456,
+              "text": "(o que é)."
+            }
+          ],
+          "text": "(o que é)."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q134",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 134,
+      "sourcePage": 6,
+      "contextIds": [
+        "reserve2-td-budget"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q134-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-2-1",
+        "cgu-2026-administracao-publica-4-1",
+        "cgu-2026-politicas-investigacao-avaliacao-3-1"
+      ],
+      "referenceDocumentId": "reference-lei-4320-1964",
+      "referenceLocator": "Art. 2º — política econômico-financeira e programa de trabalho",
+      "groups": [
+        {
+          "page": 6,
+          "column": "left",
+          "y": 45.8007,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 28.38,
+              "y": 45.8007,
+              "text": "134 O orçamento de desempenho busca organizar o processo"
+            }
+          ],
+          "text": "134 O orçamento de desempenho busca organizar o processo"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 57.260574,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.26,
+              "y": 57.260574,
+              "text": "alocativo associando a aplicação dos recursos públicos aos"
+            }
+          ],
+          "text": "alocativo associando a aplicação dos recursos públicos aos"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 68.780568,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.26,
+              "y": 68.780568,
+              "text": "resultados gerados em benefício da sociedade."
+            }
+          ],
+          "text": "resultados gerados em benefício da sociedade."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q136",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 136,
+      "sourcePage": 6,
+      "contextIds": [
+        "reserve2-td-budget"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q136-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-2-1",
+        "cgu-2026-contratacoes-transferencias-3"
+      ],
+      "referenceDocumentId": "reference-constitution-1988",
+      "referenceLocator": "Art. 167, I e X — vedações orçamentárias",
+      "groups": [
+        {
+          "page": 6,
+          "column": "left",
+          "y": 545.3606,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 28.38,
+              "y": 545.3606,
+              "text": "136 É absoluta a vedação constitucional de início de programa"
+            }
+          ],
+          "text": "136 É absoluta a vedação constitucional de início de programa"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 556.880594,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.26,
+              "y": 556.880594,
+              "text": "não incluído na lei orçamentária anual, não comportando"
+            }
+          ],
+          "text": "não incluído na lei orçamentária anual, não comportando"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 568.400588,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.26,
+              "y": 568.400588,
+              "text": "exceções; por outro lado, é relativa a proibição de conceder"
+            }
+          ],
+          "text": "exceções; por outro lado, é relativa a proibição de conceder"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 579.920582,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.26,
+              "y": 579.920582,
+              "text": "transferência voluntária para pagamento de despesas com"
+            }
+          ],
+          "text": "transferência voluntária para pagamento de despesas com"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 591.380456,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.26,
+              "y": 591.380456,
+              "text": "pessoal."
+            }
+          ],
+          "text": "pessoal."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q137",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 137,
+      "sourcePage": 6,
+      "contextIds": [
+        "reserve2-td-qual"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q137-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Parte Geral e estrutura conceitual — características qualitativas — MCASP 11, PDF pp. 28–29",
+      "groups": [
+        {
+          "page": 6,
+          "column": "left",
+          "y": 711.1407,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 28.38,
+              "y": 711.1407,
+              "text": "137 É questão de julgamento profissional a definição da"
+            }
+          ],
+          "text": "137 É questão de julgamento profissional a definição da"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 722.660694,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.26,
+              "y": 722.660694,
+              "text": "importância relativa das características qualitativas da"
+            }
+          ],
+          "text": "importância relativa das características qualitativas da"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 734.120568,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.26,
+              "y": 734.120568,
+              "text": "informação contábil em cada situação."
+            }
+          ],
+          "text": "informação contábil em cada situação."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q138",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 138,
+      "sourcePage": 6,
+      "contextIds": [
+        "reserve2-td-qual"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q138-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Estrutura conceitual — materialidade e julgamento — MCASP 11, PDF p. 28",
+      "groups": [
+        {
+          "page": 6,
+          "column": "right",
+          "y": 99.5007,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 303.3,
+              "y": 99.5007,
+              "text": "138 Uma informação contábil se torna material quando é possível"
+            }
+          ],
+          "text": "138 Uma informação contábil se torna material quando é possível"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 111.020694,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 321.18,
+              "y": 111.020694,
+              "text": "se determinar quantitativamente seu efeito sobre as contas"
+            }
+          ],
+          "text": "se determinar quantitativamente seu efeito sobre as contas"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 122.540688,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 321.18,
+              "y": 122.540688,
+              "text": "públicas."
+            }
+          ],
+          "text": "públicas."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q139",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 139,
+      "sourcePage": 6,
+      "contextIds": [
+        "reserve2-td-reval"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q139-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4-1"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Parte II — ativo imobilizado e reavaliação — MCASP 11, PDF pp. 228–229",
+      "groups": [
+        {
+          "page": 6,
+          "column": "right",
+          "y": 303.2007,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 303.3,
+              "y": 303.2007,
+              "text": "139 O registro contábil da reavaliação pode ensejar aumentos ou"
+            }
+          ],
+          "text": "139 O registro contábil da reavaliação pode ensejar aumentos ou"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 314.720694,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 321.18,
+              "y": 314.720694,
+              "text": "diminuições de valores contábeis de ativos."
+            }
+          ],
+          "text": "diminuições de valores contábeis de ativos."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q140",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 140,
+      "sourcePage": 6,
+      "contextIds": [
+        "reserve2-td-reval"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q140-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4-1"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Parte II — redução ao valor recuperável — MCASP 11, PDF p. 172",
+      "groups": [
+        {
+          "page": 6,
+          "column": "right",
+          "y": 421.3407,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 303.3,
+              "y": 421.3407,
+              "text": "140 O valor recuperável é o maior montante entre o valor"
+            }
+          ],
+          "text": "140 O valor recuperável é o maior montante entre o valor"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 432.860694,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 321.18,
+              "y": 432.860694,
+              "text": "histórico das despesas de venda do ativo e o seu valor justo."
+            }
+          ],
+          "text": "histórico das despesas de venda do ativo e o seu valor justo."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q141",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 141,
+      "sourcePage": 6,
+      "contextIds": [
+        "reserve2-td-pcasp"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q141-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4-1",
+        "cgu-2026-financas-orcamento-contabilidade-5-3"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Parte IV — regras de integridade e natureza da informação — MCASP 11, PDF p. 535",
+      "groups": [
+        {
+          "page": 6,
+          "column": "right",
+          "y": 529.5807,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 303.3,
+              "y": 529.5807,
+              "text": "141 Nos lançamentos de controles de atos potenciais, apenas"
+            }
+          ],
+          "text": "141 Nos lançamentos de controles de atos potenciais, apenas"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 541.100694,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 321.18,
+              "y": 541.100694,
+              "text": "podem ser debitadas e creditadas contas correspondentes às"
+            }
+          ],
+          "text": "podem ser debitadas e creditadas contas correspondentes às"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 552.620688,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 321.18,
+              "y": 552.620688,
+              "text": "classes 7 – controles devedores e 8 – controles credores."
+            }
+          ],
+          "text": "classes 7 – controles devedores e 8 – controles credores."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q142",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 142,
+      "sourcePage": 6,
+      "contextIds": [
+        "reserve2-td-pcasp"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q142-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4-1",
+        "cgu-2026-financas-orcamento-contabilidade-5-3"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Parte IV — natureza patrimonial, classes 1 a 4 — MCASP 11, PDF p. 535",
+      "groups": [
+        {
+          "page": 6,
+          "column": "right",
+          "y": 607.4607,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 303.3,
+              "y": 607.4607,
+              "text": "142 É permitido um lançamento na conta créditos tributários a"
+            }
+          ],
+          "text": "142 É permitido um lançamento na conta créditos tributários a"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 618.980694,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 321.18,
+              "y": 618.980694,
+              "text": "receber (classe 1 – ativo) em contrapartida à conta receita de"
+            }
+          ],
+          "text": "receber (classe 1 – ativo) em contrapartida à conta receita de"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 630.500688,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 321.18,
+              "y": 630.500688,
+              "text": "impostos (classe 4 – variação patrimonial aumentativa)."
+            }
+          ],
+          "text": "impostos (classe 4 – variação patrimonial aumentativa)."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q143",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 143,
+      "sourcePage": 7,
+      "contextIds": [
+        "reserve2-td-accounts",
+        "reserve2-td-accounts-command"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q143-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4-2",
+        "cgu-2026-financas-orcamento-contabilidade-5-3"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Parte V — DVP e apuração do resultado patrimonial — MCASP 11, PDF p. 584",
+      "groups": [
+        {
+          "page": 7,
+          "column": "left",
+          "y": 169.7607,
+          "parts": [
+            {
+              "page": 7,
+              "column": "left",
+              "x": 28.38,
+              "y": 169.7607,
+              "text": "143 O resultado patrimonial do período apurado na demonstração"
+            }
+          ],
+          "text": "143 O resultado patrimonial do período apurado na demonstração"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "y": 181.280694,
+          "parts": [
+            {
+              "page": 7,
+              "column": "left",
+              "x": 46.26,
+              "y": 181.280694,
+              "text": "das variações patrimoniais foi deficitário em R$ 20 mil."
+            }
+          ],
+          "text": "das variações patrimoniais foi deficitário em R$ 20 mil."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q144",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 144,
+      "sourcePage": 7,
+      "contextIds": [
+        "reserve2-td-accounts",
+        "reserve2-td-accounts-command"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q144-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4-2",
+        "cgu-2026-financas-orcamento-contabilidade-5-3"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Parte V — balanço orçamentário e resultado da execução — MCASP 11, PDF pp. 553, 555–556",
+      "groups": [
+        {
+          "page": 7,
+          "column": "left",
+          "y": 277.5207,
+          "parts": [
+            {
+              "page": 7,
+              "column": "left",
+              "x": 28.38,
+              "y": 277.5207,
+              "text": "144 O resultado orçamentário do exercício apurado no balanço"
+            }
+          ],
+          "text": "144 O resultado orçamentário do exercício apurado no balanço"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "y": 289.040694,
+          "parts": [
+            {
+              "page": 7,
+              "column": "left",
+              "x": 46.26,
+              "y": 289.040694,
+              "text": "orçamentário foi nulo."
+            }
+          ],
+          "text": "orçamentário foi nulo."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q159",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 159,
+      "sourcePage": 8,
+      "contextIds": [
+        "reserve2-td-lai"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q159-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-transparencia-ouvidoria-1-2",
+        "cgu-2026-integridade-transparencia-responsabilizacao-2-2"
+      ],
+      "referenceDocumentId": "reference-lei-12527-2011",
+      "referenceLocator": "Art. 24 — graus e prazos de classificação",
+      "groups": [
+        {
+          "page": 8,
+          "column": "right",
+          "y": 408.0207,
+          "parts": [
+            {
+              "page": 8,
+              "column": "right",
+              "x": 303.3,
+              "y": 408.0207,
+              "text": "159 Informações classificadas como confidenciais possuem"
+            }
+          ],
+          "text": "159 Informações classificadas como confidenciais possuem"
+        },
+        {
+          "page": 8,
+          "column": "right",
+          "y": 419.480574,
+          "parts": [
+            {
+              "page": 8,
+              "column": "right",
+              "x": 321.18,
+              "y": 419.480574,
+              "text": "restrição de acesso de, no máximo, três anos."
+            }
+          ],
+          "text": "restrição de acesso de, no máximo, três anos."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-002-01-q160",
+      "paperId": "source-896-tcdf-002-01",
+      "number": 160,
+      "sourcePage": 8,
+      "contextIds": [
+        "reserve2-td-lai"
+      ],
+      "answerKeyId": "896-tcdf-002-01-q160-key-v1",
+      "answerDocumentId": "source-896-tcdf-002-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-transparencia-ouvidoria-1-2",
+        "cgu-2026-integridade-transparencia-responsabilizacao-2-2"
+      ],
+      "referenceDocumentId": "reference-lei-12527-2011",
+      "referenceLocator": "Art. 24, §1º, III — informação reservada",
+      "groups": [
+        {
+          "page": 8,
+          "column": "right",
+          "y": 464.0607,
+          "parts": [
+            {
+              "page": 8,
+              "column": "right",
+              "x": 303.3,
+              "y": 464.0607,
+              "text": "160 Informações"
+            },
+            {
+              "page": 8,
+              "column": "right",
+              "x": 382.598592,
+              "y": 464.0607,
+              "text": "classificadas como reservadas"
+            },
+            {
+              "page": 8,
+              "column": "right",
+              "x": 531.797394,
+              "y": 464.0607,
+              "text": "possuem"
+            }
+          ],
+          "text": "160 Informações classificadas como reservadas possuem"
+        },
+        {
+          "page": 8,
+          "column": "right",
+          "y": 475.580694,
+          "parts": [
+            {
+              "page": 8,
+              "column": "right",
+              "x": 321.18,
+              "y": 475.580694,
+              "text": "restrição de acesso de, no máximo, cinco anos."
+            }
+          ],
+          "text": "restrição de acesso de, no máximo, cinco anos."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-ce1-01-q038",
+      "paperId": "source-896-tcdf-ce1-01",
+      "number": 38,
+      "sourcePage": 1,
+      "contextIds": [
+        "reserve2-td-state"
+      ],
+      "answerKeyId": "896-tcdf-ce1-01-q038-key-v1",
+      "answerDocumentId": "source-896-tcdf-ce1-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-evidencias-dados-ia-2-1",
+        "cgu-2026-politicas-investigacao-avaliacao-3-2"
+      ],
+      "referenceDocumentId": "reference-decreto-9203-2017",
+      "referenceLocator": "Art. 4º, III — informação e evidências para decisões",
+      "groups": [
+        {
+          "page": 1,
+          "column": "left",
+          "y": 509.9006,
+          "parts": [
+            {
+              "page": 1,
+              "column": "left",
+              "x": 28.38,
+              "y": 510.8696,
+              "text": "38"
+            },
+            {
+              "page": 1,
+              "column": "left",
+              "x": 46.26,
+              "y": 509.9006,
+              "text": "Considera-se indicador social de alta confiabilidade aquele"
+            }
+          ],
+          "text": "38 Considera-se indicador social de alta confiabilidade aquele"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "y": 521.420594,
+          "parts": [
+            {
+              "page": 1,
+              "column": "left",
+              "x": 46.26,
+              "y": 521.420594,
+              "text": "com maior grau de proximidade entre conceito e medida,"
+            }
+          ],
+          "text": "com maior grau de proximidade entre conceito e medida,"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "y": 532.880468,
+          "parts": [
+            {
+              "page": 1,
+              "column": "left",
+              "x": 46.26,
+              "y": 532.880468,
+              "text": "sendo, consequentemente, um indicador mais sensível e mais"
+            }
+          ],
+          "text": "sendo, consequentemente, um indicador mais sensível e mais"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "y": 544.400462,
+          "parts": [
+            {
+              "page": 1,
+              "column": "left",
+              "x": 46.26,
+              "y": 544.400462,
+              "text": "específico."
+            }
+          ],
+          "text": "específico."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-ce1-01-q039",
+      "paperId": "source-896-tcdf-ce1-01",
+      "number": 39,
+      "sourcePage": 1,
+      "contextIds": [
+        "reserve2-td-state"
+      ],
+      "answerKeyId": "896-tcdf-ce1-01-q039-key-v1",
+      "answerDocumentId": "source-896-tcdf-ce1-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-administracao-publica-3-1",
+        "cgu-2026-politicas-investigacao-avaliacao-1"
+      ],
+      "referenceDocumentId": "reference-decreto-9203-2017",
+      "referenceLocator": "Art. 4º — decisões fundamentadas e resultados públicos",
+      "groups": [
+        {
+          "page": 1,
+          "column": "left",
+          "y": 661.3407,
+          "parts": [
+            {
+              "page": 1,
+              "column": "left",
+              "x": 28.38,
+              "y": 662.3097,
+              "text": "39"
+            },
+            {
+              "page": 1,
+              "column": "left",
+              "x": 46.26,
+              "y": 661.3407,
+              "text": "A movimentação de questões no âmbito da agenda de"
+            }
+          ],
+          "text": "39 A movimentação de questões no âmbito da agenda de"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "y": 672.860694,
+          "parts": [
+            {
+              "page": 1,
+              "column": "left",
+              "x": 46.26,
+              "y": 672.860694,
+              "text": "discussões políticas decorre do atendimento de"
+            }
+          ],
+          "text": "discussões políticas decorre do atendimento de"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "y": 684.380688,
+          "parts": [
+            {
+              "page": 1,
+              "column": "left",
+              "x": 46.26,
+              "y": 684.380688,
+              "text": "características da próxima agenda e ocorre da seguinte"
+            }
+          ],
+          "text": "características da próxima agenda e ocorre da seguinte"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "y": 695.900682,
+          "parts": [
+            {
+              "page": 1,
+              "column": "left",
+              "x": 46.26,
+              "y": 695.900682,
+              "text": "forma: as questões passam pela agenda decisória ou de"
+            }
+          ],
+          "text": "forma: as questões passam pela agenda decisória ou de"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "y": 707.360556,
+          "parts": [
+            {
+              "page": 1,
+              "column": "left",
+              "x": 46.26,
+              "y": 707.360556,
+              "text": "mídia, em seguida pela agenda governamental ou"
+            }
+          ],
+          "text": "mídia, em seguida pela agenda governamental ou"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "y": 718.88055,
+          "parts": [
+            {
+              "page": 1,
+              "column": "left",
+              "x": 46.26,
+              "y": 718.88055,
+              "text": "institucional e, por fim, pela agenda sistêmica ou política."
+            }
+          ],
+          "text": "institucional e, por fim, pela agenda sistêmica ou política."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-ce1-01-q040",
+      "paperId": "source-896-tcdf-ce1-01",
+      "number": 40,
+      "sourcePage": 1,
+      "contextIds": [
+        "reserve2-td-state"
+      ],
+      "answerKeyId": "896-tcdf-ce1-01-q040-key-v1",
+      "answerDocumentId": "source-896-tcdf-ce1-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-transparencia-ouvidoria-3-1",
+        "cgu-2026-transparencia-ouvidoria-4-1",
+        "cgu-2026-estado-democracia-2-1"
+      ],
+      "referenceDocumentId": "reference-lrf-2000",
+      "referenceLocator": "Arts. 48 e 52 — transparência e RREO",
+      "groups": [
+        {
+          "page": 1,
+          "column": "right",
+          "y": 66.1407,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.3,
+              "y": 67.1097,
+              "text": "40"
+            },
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.18,
+              "y": 66.1407,
+              "text": "Ouvidorias são mecanismos de controle social que propiciam"
+            }
+          ],
+          "text": "40 Ouvidorias são mecanismos de controle social que propiciam"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 77.660694,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.18,
+              "y": 77.660694,
+              "text": "o exercício da cidadania e a partir dos quais o cidadão pode,"
+            }
+          ],
+          "text": "o exercício da cidadania e a partir dos quais o cidadão pode,"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 89.180688,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.18,
+              "y": 89.180688,
+              "text": "por exemplo, sugerir aperfeiçoamento dos serviços e das"
+            }
+          ],
+          "text": "por exemplo, sugerir aperfeiçoamento dos serviços e das"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 100.700682,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.18,
+              "y": 100.700682,
+              "text": "políticas públicas ou mesmo fiscalizar ações do"
+            }
+          ],
+          "text": "políticas públicas ou mesmo fiscalizar ações do"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 112.160556,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.18,
+              "y": 112.160556,
+              "text": "administrador público, por meio do relatório resumido da"
+            }
+          ],
+          "text": "administrador público, por meio do relatório resumido da"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 123.68055,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.18,
+              "y": 123.68055,
+              "text": "execução orçamentária (RREO)."
+            }
+          ],
+          "text": "execução orçamentária (RREO)."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-ce1-01-q045",
+      "paperId": "source-896-tcdf-ce1-01",
+      "number": 45,
+      "sourcePage": 2,
+      "contextIds": [
+        "reserve2-td-participation"
+      ],
+      "answerKeyId": "896-tcdf-ce1-01-q045-key-v1",
+      "answerDocumentId": "source-896-tcdf-ce1-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-administracao-publica-1-1",
+        "cgu-2026-politicas-investigacao-avaliacao-2-1",
+        "cgu-2026-contratacoes-transferencias-3-1"
+      ],
+      "referenceDocumentId": null,
+      "referenceLocator": "Enunciado e chave definitiva — cooperação e capacidade de atuação",
+      "groups": [
+        {
+          "page": 2,
+          "column": "left",
+          "y": 45.8007,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 28.38,
+              "y": 46.7697,
+              "text": "45"
+            },
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.26,
+              "y": 45.8007,
+              "text": "As parcerias realizadas entre organizações da sociedade civil"
+            }
+          ],
+          "text": "45 As parcerias realizadas entre organizações da sociedade civil"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 57.260574,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.26,
+              "y": 57.260574,
+              "text": "e o poder público alicerçam essas organizações e aumentam"
+            }
+          ],
+          "text": "e o poder público alicerçam essas organizações e aumentam"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 68.780568,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.26,
+              "y": 68.780568,
+              "text": "sua capacidade de atuação, sendo um mecanismo versátil"
+            }
+          ],
+          "text": "sua capacidade de atuação, sendo um mecanismo versátil"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 80.300562,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.26,
+              "y": 80.300562,
+              "text": "para a atuação do poder público nas demandas sociais."
+            }
+          ],
+          "text": "para a atuação do poder público nas demandas sociais."
+        }
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-014-01-q097",
+      "paperId": "source-993-tce-ac-014-01",
+      "number": 97,
+      "sourcePage": 2,
+      "contextIds": [
+        "reserve2-t14-plans"
+      ],
+      "answerKeyId": "993-tce-ac-014-01-q097-key-v1",
+      "answerDocumentId": "source-993-tce-ac-014-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-administracao-publica-4-1",
+        "cgu-2026-financas-orcamento-contabilidade-2-1"
+      ],
+      "referenceDocumentId": "reference-constitution-1988",
+      "referenceLocator": "Art. 165, §7º — função dos orçamentos fiscal e de investimento",
+      "groups": [
+        {
+          "page": 2,
+          "column": "right",
+          "y": 265.4567,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 265.4567,
+              "text": "97 Na lei orçamentária anual, os orçamentos fiscal, de"
+            }
+          ],
+          "text": "97 Na lei orçamentária anual, os orçamentos fiscal, de"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 276.61688,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 276.61688,
+              "text": "investimento e da seguridade social terão, entre suas funções,"
+            }
+          ],
+          "text": "investimento e da seguridade social terão, entre suas funções,"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 287.77706,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 287.77706,
+              "text": "a de reduzir as desigualdades inter-regionais, segundo"
+            }
+          ],
+          "text": "a de reduzir as desigualdades inter-regionais, segundo"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 298.93724,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 298.93724,
+              "text": "critério populacional, quando forem compatibilizados com o"
+            }
+          ],
+          "text": "critério populacional, quando forem compatibilizados com o"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 310.09742,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 310.09742,
+              "text": "plano plurianual e com a lei de diretrizes orçamentárias."
+            }
+          ],
+          "text": "plano plurianual e com a lei de diretrizes orçamentárias."
+        }
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-014-01-q098",
+      "paperId": "source-993-tce-ac-014-01",
+      "number": 98,
+      "sourcePage": 2,
+      "contextIds": [
+        "reserve2-t14-plans"
+      ],
+      "answerKeyId": "993-tce-ac-014-01-q098-key-v1",
+      "answerDocumentId": "source-993-tce-ac-014-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-administracao-publica-4-1",
+        "cgu-2026-financas-orcamento-contabilidade-2-1"
+      ],
+      "referenceDocumentId": "reference-lei-4320-1964",
+      "referenceLocator": "Arts. 41–44 — créditos adicionais e recursos",
+      "groups": [
+        {
+          "page": 2,
+          "column": "right",
+          "y": 323.1767,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 323.1767,
+              "text": "98 A abertura de créditos adicionais especiais e extraordinários"
+            }
+          ],
+          "text": "98 A abertura de créditos adicionais especiais e extraordinários"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 334.4564,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 334.4564,
+              "text": "depende da existência de recursos disponíveis, sendo"
+            }
+          ],
+          "text": "depende da existência de recursos disponíveis, sendo"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 345.61658,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 345.61658,
+              "text": "possível o uso de superávit financeiro ou do excesso de"
+            }
+          ],
+          "text": "possível o uso de superávit financeiro ou do excesso de"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 356.77676,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 356.77676,
+              "text": "arrecadação apurados em balanço patrimonial do exercício"
+            }
+          ],
+          "text": "arrecadação apurados em balanço patrimonial do exercício"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 367.93694,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 367.93694,
+              "text": "corrente."
+            }
+          ],
+          "text": "corrente."
+        }
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-014-01-q100",
+      "paperId": "source-993-tce-ac-014-01",
+      "number": 100,
+      "sourcePage": 2,
+      "contextIds": [
+        "reserve2-t14-plans"
+      ],
+      "answerKeyId": "993-tce-ac-014-01-q100-key-v1",
+      "answerDocumentId": "source-993-tce-ac-014-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-administracao-publica-4-1",
+        "cgu-2026-financas-orcamento-contabilidade-2-1"
+      ],
+      "referenceDocumentId": "reference-constitution-1988",
+      "referenceLocator": "Art. 165, §§1º–2º — PPA e LDO",
+      "groups": [
+        {
+          "page": 2,
+          "column": "right",
+          "y": 438.8567,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 438.8567,
+              "text": "100 O plano plurianual estabelecerá, de forma regionalizada, as"
+            }
+          ],
+          "text": "100 O plano plurianual estabelecerá, de forma regionalizada, as"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 450.1364,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 450.1364,
+              "text": "diretrizes, os objetivos e as metas da administração pública"
+            }
+          ],
+          "text": "diretrizes, os objetivos e as metas da administração pública"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 461.29658,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 461.29658,
+              "text": "para as despesas de capital e outras delas decorrentes, bem"
+            }
+          ],
+          "text": "para as despesas de capital e outras delas decorrentes, bem"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 472.45676,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 472.45676,
+              "text": "como as diretrizes de política fiscal e respectivas metas, em"
+            }
+          ],
+          "text": "como as diretrizes de política fiscal e respectivas metas, em"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 483.61694,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 483.61694,
+              "text": "consonância com a trajetória sustentável da dívida pública."
+            }
+          ],
+          "text": "consonância com a trajetória sustentável da dívida pública."
+        }
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-014-01-q101",
+      "paperId": "source-993-tce-ac-014-01",
+      "number": 101,
+      "sourcePage": 2,
+      "contextIds": [
+        "reserve2-t14-plans"
+      ],
+      "answerKeyId": "993-tce-ac-014-01-q101-key-v1",
+      "answerDocumentId": "source-993-tce-ac-014-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-administracao-publica-4-1",
+        "cgu-2026-financas-orcamento-contabilidade-2-1",
+        "cgu-2026-financas-orcamento-contabilidade-5"
+      ],
+      "referenceDocumentId": "reference-lrf-2000",
+      "referenceLocator": "Art. 4º, I — conteúdo da LDO",
+      "groups": [
+        {
+          "page": 2,
+          "column": "right",
+          "y": 496.6967,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 496.6967,
+              "text": "101 De acordo com a LRF, a lei de diretrizes orçamentárias deve"
+            }
+          ],
+          "text": "101 De acordo com a LRF, a lei de diretrizes orçamentárias deve"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 507.9764,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 507.9764,
+              "text": "dispor sobre critérios e forma de limitação de empenho,"
+            }
+          ],
+          "text": "dispor sobre critérios e forma de limitação de empenho,"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 519.13658,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 519.13658,
+              "text": "normas relativas ao controle de custos e à avaliação dos"
+            }
+          ],
+          "text": "normas relativas ao controle de custos e à avaliação dos"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 530.29676,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 530.29676,
+              "text": "resultados dos programas financiados com recursos dos"
+            }
+          ],
+          "text": "resultados dos programas financiados com recursos dos"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 541.45694,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 541.45694,
+              "text": "orçamentos e demais condições e exigências para"
+            }
+          ],
+          "text": "orçamentos e demais condições e exigências para"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 552.61712,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 552.61712,
+              "text": "transferências de recursos a entidades públicas e privadas."
+            }
+          ],
+          "text": "transferências de recursos a entidades públicas e privadas."
+        }
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-014-01-q118",
+      "paperId": "source-993-tce-ac-014-01",
+      "number": 118,
+      "sourcePage": 3,
+      "contextIds": [
+        "reserve2-t14-fin-audit"
+      ],
+      "answerKeyId": "993-tce-ac-014-01-q118-key-v1",
+      "answerDocumentId": "source-993-tce-ac-014-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-governanca-riscos-integridade-2-1",
+        "cgu-2026-auditoria-governamental-1-2"
+      ],
+      "referenceDocumentId": "reference-cgu-in3-2017-consolidada",
+      "referenceLocator": "Anexo — componentes dos controles internos da gestão",
+      "groups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 160.3367,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 160.3367,
+              "text": "118 Entre os cinco componentes do sistema de controle interno"
+            }
+          ],
+          "text": "118 Entre os cinco componentes do sistema de controle interno"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 171.136328,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 171.136328,
+              "text": "de uma entidade, incluem-se o processo de avaliação de"
+            }
+          ],
+          "text": "de uma entidade, incluem-se o processo de avaliação de"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 181.816436,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 181.816436,
+              "text": "riscos da entidade e as atividades de controle."
+            }
+          ],
+          "text": "riscos da entidade e as atividades de controle."
+        }
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-014-01-q119",
+      "paperId": "source-993-tce-ac-014-01",
+      "number": 119,
+      "sourcePage": 3,
+      "contextIds": [
+        "reserve2-t14-fin-audit"
+      ],
+      "answerKeyId": "993-tce-ac-014-01-q119-key-v1",
+      "answerDocumentId": "source-993-tce-ac-014-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-auditoria-governamental-3-1"
+      ],
+      "referenceDocumentId": "reference-cgu-in3-2017-consolidada",
+      "referenceLocator": "Anexo, itens 130 e 138–150 — riscos, testes e evidências",
+      "groups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 194.4167,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 194.4167,
+              "text": "119 Em circunstâncias de auditoria nas quais os procedimentos"
+            }
+          ],
+          "text": "119 Em circunstâncias de auditoria nas quais os procedimentos"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 205.096808,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 205.096808,
+              "text": "substantivos isoladamente não sejam suficientes para"
+            }
+          ],
+          "text": "substantivos isoladamente não sejam suficientes para"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 215.776916,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 215.776916,
+              "text": "responder ao risco identificado, o auditor deverá efetuar"
+            }
+          ],
+          "text": "responder ao risco identificado, o auditor deverá efetuar"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 226.576544,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 226.576544,
+              "text": "testes de controle."
+            }
+          ],
+          "text": "testes de controle."
+        }
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-014-01-q120",
+      "paperId": "source-993-tce-ac-014-01",
+      "number": 120,
+      "sourcePage": 3,
+      "contextIds": [
+        "reserve2-t14-fin-audit"
+      ],
+      "answerKeyId": "993-tce-ac-014-01-q120-key-v1",
+      "answerDocumentId": "source-993-tce-ac-014-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-governanca-riscos-integridade-1-1",
+        "cgu-2026-atuacao-integrada-1-4",
+        "cgu-2026-auditoria-governamental-4-1"
+      ],
+      "referenceDocumentId": "reference-cgu-in3-2017-consolidada",
+      "referenceLocator": "Anexo — responsabilidades da gestão e zelo profissional",
+      "groups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 239.1767,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 239.1767,
+              "text": "120 Assim como a administração da entidade e os responsáveis"
+            }
+          ],
+          "text": "120 Assim como a administração da entidade e os responsáveis"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 249.856808,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 249.856808,
+              "text": "pela governança, o auditor também detém responsabilidade"
+            }
+          ],
+          "text": "pela governança, o auditor também detém responsabilidade"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 260.536916,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 260.536916,
+              "text": "primária pela prevenção e detecção de fraudes."
+            }
+          ],
+          "text": "primária pela prevenção e detecção de fraudes."
+        }
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-016-01-q065",
+      "paperId": "source-993-tce-ac-016-01",
+      "number": 65,
+      "sourcePage": 1,
+      "contextIds": [
+        "reserve2-t16-pcasp"
+      ],
+      "answerKeyId": "993-tce-ac-016-01-q065-key-v1",
+      "answerDocumentId": "source-993-tce-ac-016-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4-1",
+        "cgu-2026-financas-orcamento-contabilidade-5-3"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Parte IV — natureza orçamentária, classes 5 e 6 — MCASP 11, PDF p. 535",
+      "groups": [
+        {
+          "page": 1,
+          "column": "right",
+          "y": 116.6568,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.359,
+              "y": 117.5688,
+              "text": "65"
+            },
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 116.6568,
+              "text": "Para realizar o lançamento da previsão de uma receita"
+            }
+          ],
+          "text": "65 Para realizar o lançamento da previsão de uma receita"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 130.696416,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 130.696416,
+              "text": "orçamentária, o débito e o crédito envolverão duas contas da"
+            }
+          ],
+          "text": "orçamentária, o débito e o crédito envolverão duas contas da"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 144.736032,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 144.736032,
+              "text": "classe 6."
+            }
+          ],
+          "text": "classe 6."
+        }
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-016-01-q066",
+      "paperId": "source-993-tce-ac-016-01",
+      "number": 66,
+      "sourcePage": 1,
+      "contextIds": [
+        "reserve2-t16-pcasp"
+      ],
+      "answerKeyId": "993-tce-ac-016-01-q066-key-v1",
+      "answerDocumentId": "source-993-tce-ac-016-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4-1",
+        "cgu-2026-financas-orcamento-contabilidade-5-3"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Parte IV — natureza patrimonial e integridade — MCASP 11, PDF p. 535",
+      "groups": [
+        {
+          "page": 1,
+          "column": "right",
+          "y": 160.8167,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.359,
+              "y": 161.7287,
+              "text": "66"
+            },
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 160.8167,
+              "text": "Lançamentos de natureza patrimonial apenas debitam e"
+            }
+          ],
+          "text": "66 Lançamentos de natureza patrimonial apenas debitam e"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 174.856316,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 174.856316,
+              "text": "creditam contas das classes 1, 2, 3 e 4, de modo que não é"
+            }
+          ],
+          "text": "creditam contas das classes 1, 2, 3 e 4, de modo que não é"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 188.895932,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 188.895932,
+              "text": "permitido um lançamento na conta Clientes (classe 1) em"
+            }
+          ],
+          "text": "permitido um lançamento na conta Clientes (classe 1) em"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 202.935548,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 202.935548,
+              "text": "contrapartida à conta Receita Realizada (classe 6)."
+            }
+          ],
+          "text": "contrapartida à conta Receita Realizada (classe 6)."
+        }
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-016-01-q067",
+      "paperId": "source-993-tce-ac-016-01",
+      "number": 67,
+      "sourcePage": 1,
+      "contextIds": [
+        "reserve2-t16-balanco"
+      ],
+      "answerKeyId": "993-tce-ac-016-01-q067-key-v1",
+      "answerDocumentId": "source-993-tce-ac-016-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4-2",
+        "cgu-2026-financas-orcamento-contabilidade-5-3"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Parte V — elaboração do balanço orçamentário e deduções da receita — MCASP 11, PDF p. 553",
+      "groups": [
+        {
+          "page": 1,
+          "column": "right",
+          "y": 269.5367,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.359,
+              "y": 270.4487,
+              "text": "67"
+            },
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 269.5367,
+              "text": "A despeito do princípio do orçamento bruto, no quadro"
+            }
+          ],
+          "text": "67 A despeito do princípio do orçamento bruto, no quadro"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 283.576316,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 283.576316,
+              "text": "principal do balanço orçamentário, as receitas deverão ser"
+            }
+          ],
+          "text": "principal do balanço orçamentário, as receitas deverão ser"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 297.615932,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 297.615932,
+              "text": "informadas pelos valores líquidos das respectivas deduções,"
+            }
+          ],
+          "text": "informadas pelos valores líquidos das respectivas deduções,"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 311.655548,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 311.655548,
+              "text": "tais como restituições, descontos, retificações e repartições"
+            }
+          ],
+          "text": "tais como restituições, descontos, retificações e repartições"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 325.695164,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 325.695164,
+              "text": "de receita tributária."
+            }
+          ],
+          "text": "de receita tributária."
+        }
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-016-01-q068",
+      "paperId": "source-993-tce-ac-016-01",
+      "number": 68,
+      "sourcePage": 1,
+      "contextIds": [
+        "reserve2-t16-balanco"
+      ],
+      "answerKeyId": "993-tce-ac-016-01-q068-key-v1",
+      "answerDocumentId": "source-993-tce-ac-016-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4-2",
+        "cgu-2026-financas-orcamento-contabilidade-5-3"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Parte V — contas e informações para elaboração do balanço orçamentário — MCASP 11, PDF p. 553",
+      "groups": [
+        {
+          "page": 1,
+          "column": "right",
+          "y": 341.7767,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.359,
+              "y": 341.7767,
+              "text": "68 As"
+            },
+            {
+              "page": 1,
+              "column": "right",
+              "x": 344.631766,
+              "y": 341.7767,
+              "text": "informações para a elaboração do balanço"
+            }
+          ],
+          "text": "68 As informações para a elaboração do balanço"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 355.816316,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 355.816316,
+              "text": "orçamentário têm origem nos saldos das contas do"
+            }
+          ],
+          "text": "orçamentário têm origem nos saldos das contas do"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 369.855932,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 369.855932,
+              "text": "grupo 2 (Realização da Receita e Execução da Despesa)"
+            }
+          ],
+          "text": "grupo 2 (Realização da Receita e Execução da Despesa)"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 383.895548,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 383.895548,
+              "text": "que integram a classe 6 (Execução do Orçamento) do"
+            }
+          ],
+          "text": "que integram a classe 6 (Execução do Orçamento) do"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 397.935164,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 397.935164,
+              "text": "PCASP."
+            }
+          ],
+          "text": "PCASP."
+        }
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-016-01-q069",
+      "paperId": "source-993-tce-ac-016-01",
+      "number": 69,
+      "sourcePage": 1,
+      "contextIds": [
+        "reserve2-t16-despesa-registro"
+      ],
+      "answerKeyId": "993-tce-ac-016-01-q069-key-v1",
+      "answerDocumentId": "source-993-tce-ac-016-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4-1",
+        "cgu-2026-financas-orcamento-contabilidade-5-3"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Partes II e IV — VPD e distinção de naturezas — MCASP 11, PDF pp. 162, 535",
+      "groups": [
+        {
+          "page": 1,
+          "column": "right",
+          "y": 464.5367,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.359,
+              "y": 465.4487,
+              "text": "69"
+            },
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 464.5367,
+              "text": "Tanto as despesas que geram fatos modificativos quanto as"
+            }
+          ],
+          "text": "69 Tanto as despesas que geram fatos modificativos quanto as"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 478.576316,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 478.576316,
+              "text": "que geram fatos permutativos devem ter registro como"
+            }
+          ],
+          "text": "que geram fatos permutativos devem ter registro como"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 492.615932,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 492.615932,
+              "text": "variação patrimonial diminutiva, conforme grupos da"
+            }
+          ],
+          "text": "variação patrimonial diminutiva, conforme grupos da"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 506.655548,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 506.655548,
+              "text": "classe 3 do PCASP."
+            }
+          ],
+          "text": "classe 3 do PCASP."
+        }
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-016-01-q070",
+      "paperId": "source-993-tce-ac-016-01",
+      "number": 70,
+      "sourcePage": 1,
+      "contextIds": [
+        "reserve2-t16-despesa-registro"
+      ],
+      "answerKeyId": "993-tce-ac-016-01-q070-key-v1",
+      "answerDocumentId": "source-993-tce-ac-016-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-3-1",
+        "cgu-2026-financas-orcamento-contabilidade-4-1",
+        "cgu-2026-financas-orcamento-contabilidade-5-3"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Parte I — dispêndios extraorçamentários — MCASP 11, PDF p. 99",
+      "groups": [
+        {
+          "page": 1,
+          "column": "right",
+          "y": 522.7367,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.359,
+              "y": 523.6487,
+              "text": "70"
+            },
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 522.7367,
+              "text": "No registro de um dispêndio extraorçamentário, não há"
+            }
+          ],
+          "text": "70 No registro de um dispêndio extraorçamentário, não há"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 536.776316,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 536.776316,
+              "text": "registro de despesa orçamentária, mas apenas uma"
+            }
+          ],
+          "text": "registro de despesa orçamentária, mas apenas uma"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 550.815932,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 321.239,
+              "y": 550.815932,
+              "text": "desincorporação de passivo ou uma apropriação de ativo."
+            }
+          ],
+          "text": "desincorporação de passivo ou uma apropriação de ativo."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-cb1-01-q032",
+      "paperId": "source-896-tcdf-cb1-01",
+      "number": 32,
+      "sourcePage": 4,
+      "contextIds": [
+        "reserve2-td-logic-symbols",
+        "reserve2-td-logic"
+      ],
+      "answerKeyId": "896-tcdf-cb1-01-q032-key-v1",
+      "answerDocumentId": "source-896-tcdf-cb1-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-1",
+        "abdi-2026-raciocinio-logico-3-2",
+        "abdi-2026-raciocinio-logico-3-3"
+      ],
+      "referenceDocumentId": null,
+      "referenceLocator": "Equivalência demonstrada pelas oito valorações da tabela-verdade",
+      "groups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 618.3807,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.38,
+              "y": 618.3807,
+              "text": "32 A proposição lógica (A⇒(B⇒C)) ⇔ ((A∧B)⇒C) é uma"
+            }
+          ],
+          "text": "32 A proposição lógica (A⇒(B⇒C)) ⇔ ((A∧B)⇒C) é uma"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 629.900694,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.26,
+              "y": 629.900694,
+              "text": "tautologia."
+            }
+          ],
+          "text": "tautologia."
+        }
+      ]
+    },
+    {
+      "questionId": "896-tcdf-cb1-01-q033",
+      "paperId": "source-896-tcdf-cb1-01",
+      "number": 33,
+      "sourcePage": 4,
+      "contextIds": [
+        "reserve2-td-logic-symbols",
+        "reserve2-td-logic"
+      ],
+      "answerKeyId": "896-tcdf-cb1-01-q033-key-v1",
+      "answerDocumentId": "source-896-tcdf-cb1-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-1",
+        "abdi-2026-raciocinio-logico-3-1"
+      ],
+      "referenceDocumentId": null,
+      "referenceLocator": "Texto, legenda de símbolos e chave definitiva da prova",
+      "groups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 685.1607,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.38,
+              "y": 686.1297,
+              "text": "33"
+            },
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.26,
+              "y": 685.1607,
+              "text": "A sentença “A missão dos tribunais de contas é garantir que"
+            }
+          ],
+          "text": "33 A sentença “A missão dos tribunais de contas é garantir que"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 696.680694,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.26,
+              "y": 696.680694,
+              "text": "os recursos públicos sejam aplicados em favor de suprir as"
+            }
+          ],
+          "text": "os recursos públicos sejam aplicados em favor de suprir as"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 708.200688,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.26,
+              "y": 708.200688,
+              "text": "necessidades mais prementes dos contribuintes, por isso a"
+            }
+          ],
+          "text": "necessidades mais prementes dos contribuintes, por isso a"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 719.660562,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.26,
+              "y": 719.660562,
+              "text": "atuação dos auditores públicos na análise dos processos que"
+            }
+          ],
+          "text": "atuação dos auditores públicos na análise dos processos que"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 731.180556,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.26,
+              "y": 731.180556,
+              "text": "envolvem gastos públicos é muito importante” pode ser"
+            }
+          ],
+          "text": "envolvem gastos públicos é muito importante” pode ser"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 742.94103,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.26,
+              "y": 742.94103,
+              "text": "corretamente expressa pela proposição lógica P ⇒ Q."
+            }
+          ],
+          "text": "corretamente expressa pela proposição lógica P ⇒ Q."
+        }
+      ]
+    },
+    {
+      "questionId": "057-ibama-001-01-q100",
+      "paperId": "source-057-ibama-001-01",
+      "number": 100,
+      "sourcePage": 3,
+      "contextIds": [
+        "reserve2-ibama-patrimonio"
+      ],
+      "answerKeyId": "057-ibama-001-01-q100-key-v1",
+      "answerDocumentId": "source-057-ibama-001-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4-1",
+        "cgu-2026-financas-orcamento-contabilidade-5-3"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Parte II — variações patrimoniais aumentativas e enfoque patrimonial — MCASP 11, PDF p. 162",
+      "groups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 293.5367,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.3191,
+              "y": 293.5367,
+              "text": "100 Será denominada variação patrimonial aumentativa (VPA) a"
+            }
+          ],
+          "text": "100 Será denominada variação patrimonial aumentativa (VPA) a"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 307.096244,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.1991,
+              "y": 307.096244,
+              "text": "receita pública sob o enfoque patrimonial."
+            }
+          ],
+          "text": "receita pública sob o enfoque patrimonial."
+        }
+      ]
+    },
+    {
+      "questionId": "057-ibama-001-01-q101",
+      "paperId": "source-057-ibama-001-01",
+      "number": 101,
+      "sourcePage": 3,
+      "contextIds": [
+        "reserve2-ibama-contas"
+      ],
+      "answerKeyId": "057-ibama-001-01-q101-key-v1",
+      "answerDocumentId": "source-057-ibama-001-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4-1",
+        "cgu-2026-financas-orcamento-contabilidade-5-3"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Partes II e IV — desreconhecimento de imobilizado e classes patrimoniais — MCASP 11, PDF pp. 235–236, 535",
+      "groups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 384.9767,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.3191,
+              "y": 384.9767,
+              "text": "101 A baixa de um equipamento de imobilizado considerado"
+            }
+          ],
+          "text": "101 A baixa de um equipamento de imobilizado considerado"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 398.416724,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.1991,
+              "y": 398.416724,
+              "text": "inservível, sob a perspectiva da natureza de informação"
+            }
+          ],
+          "text": "inservível, sob a perspectiva da natureza de informação"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 411.856748,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.1991,
+              "y": 411.856748,
+              "text": "patrimonial, enseja o débito de uma conta de variação"
+            }
+          ],
+          "text": "patrimonial, enseja o débito de uma conta de variação"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 425.296772,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.1991,
+              "y": 425.296772,
+              "text": "patrimonial diminutiva (classe 3) e o crédito de uma conta de"
+            }
+          ],
+          "text": "patrimonial diminutiva (classe 3) e o crédito de uma conta de"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 438.736796,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.1991,
+              "y": 438.736796,
+              "text": "ativo (classe 1)."
+            }
+          ],
+          "text": "ativo (classe 1)."
+        }
+      ]
+    },
+    {
+      "questionId": "057-ibama-001-01-q102",
+      "paperId": "source-057-ibama-001-01",
+      "number": 102,
+      "sourcePage": 3,
+      "contextIds": [
+        "reserve2-ibama-contas"
+      ],
+      "answerKeyId": "057-ibama-001-01-q102-key-v1",
+      "answerDocumentId": "source-057-ibama-001-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4-1",
+        "cgu-2026-financas-orcamento-contabilidade-5-3"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Parte IV — integridade e natureza orçamentária — MCASP 11, PDF p. 535",
+      "groups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 454.2167,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.3191,
+              "y": 454.2167,
+              "text": "102 Em se tratando de recebimento de recursos decorrentes de"
+            }
+          ],
+          "text": "102 Em se tratando de recebimento de recursos decorrentes de"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 467.776244,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.1991,
+              "y": 467.776244,
+              "text": "um empréstimo de longo prazo, sob a perspectiva da"
+            }
+          ],
+          "text": "um empréstimo de longo prazo, sob a perspectiva da"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 481.216268,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.1991,
+              "y": 481.216268,
+              "text": "natureza de informação orçamentária, deve ser debitada uma"
+            }
+          ],
+          "text": "natureza de informação orçamentária, deve ser debitada uma"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 494.656292,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.1991,
+              "y": 494.656292,
+              "text": "conta de ativo (classe 1) e creditada uma conta de receita"
+            }
+          ],
+          "text": "conta de ativo (classe 1) e creditada uma conta de receita"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 508.096316,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.1991,
+              "y": 508.096316,
+              "text": "realizada (classe 6)."
+            }
+          ],
+          "text": "realizada (classe 6)."
+        }
+      ]
+    },
+    {
+      "questionId": "057-ibama-001-01-q103",
+      "paperId": "source-057-ibama-001-01",
+      "number": 103,
+      "sourcePage": 3,
+      "contextIds": [
+        "reserve2-ibama-demonstracoes"
+      ],
+      "answerKeyId": "057-ibama-001-01-q103-key-v1",
+      "answerDocumentId": "source-057-ibama-001-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-4-2",
+        "cgu-2026-financas-orcamento-contabilidade-5-3"
+      ],
+      "referenceDocumentId": "reference-mcasp-11-2025",
+      "referenceLocator": "Parte V, seção 5.1 — DVP, resultado patrimonial e desempenho — MCASP 11, PDF p. 584",
+      "groups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 572.4167,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.3191,
+              "y": 572.4167,
+              "text": "103 O resultado patrimonial apurado na demonstração das"
+            }
+          ],
+          "text": "103 O resultado patrimonial apurado na demonstração das"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 585.976244,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.1991,
+              "y": 585.976244,
+              "text": "variações patrimoniais não"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 185.44523,
+              "y": 585.976244,
+              "text": "constitui"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 232.098825,
+              "y": 585.976244,
+              "text": "indicador"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 282.350693,
+              "y": 585.976244,
+              "text": "de"
+            }
+          ],
+          "text": "variações patrimoniais não constitui indicador de"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 599.416268,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.1991,
+              "y": 599.416268,
+              "text": "desempenho no setor público."
+            }
+          ],
+          "text": "desempenho no setor público."
+        }
+      ]
+    },
+    {
+      "questionId": "abdi-2008-projetos-biotecnologia-q012",
+      "paperId": "source-abdi-2008-projetos-biotecnologia",
+      "number": 12,
+      "sourcePage": 3,
+      "contextIds": [],
+      "answerKeyId": "abdi-2008-projetos-biotecnologia-q012-key-v1",
+      "answerDocumentId": "source-abdi-2008-projetos-biotecnologia-key",
+      "answerValue": "b",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-licitacoes-convenios-3-6"
+      ],
+      "referenceDocumentId": "reference-abdi-convenios-2026",
+      "referenceLocator": "Arts. 1º–2º — interesse recíproco e mútua cooperação",
+      "sourceLines": [
+        {
+          "page": 3,
+          "column": "left",
+          "x": 29.8978,
+          "y": 379.6227,
+          "text": "12) Das afirmações abaixo, são verdadeiras:"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 29.8978,
+          "y": 392.6227,
+          "text": "I. O convênio não constitui modalidade de contrato, embora"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 44.0708,
+          "y": 405.6227,
+          "text": "seja um dos instrumentos de que o Poder Público se"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 44.0708,
+          "y": 418.6227,
+          "text": "utiliza para associar-se com outras entidades públicas"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 44.0708,
+          "y": 431.6227,
+          "text": "ou com entidades privadas."
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 29.8978,
+          "y": 444.6227,
+          "text": "II. Define-se o convênio como forma de ajuste entre o"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 44.0708,
+          "y": 457.6227,
+          "text": "Poder Público somente com entidades privadas para"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 44.0708,
+          "y": 470.6227,
+          "text": "a realização de objetivos de interesse comum, mediante"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 44.0708,
+          "y": 483.6227,
+          "text": "mútua colaboração."
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 29.8978,
+          "y": 496.6227,
+          "text": "III. Quanto ao convênio entre entidades públicas e"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 44.0708,
+          "y": 509.6227,
+          "text": "particulares, ele somente é possível como forma de"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 44.0708,
+          "y": 522.6227,
+          "text": "delegação dos serviços públicos, mas não como uma"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 44.0708,
+          "y": 535.6227,
+          "text": "modalidade de fomento."
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "somente I e III.",
+          "sourceLines": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 29.8978,
+              "y": 551.6227,
+              "text": "a) somente I e III."
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "text": "somente I.",
+          "sourceLines": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 29.8978,
+              "y": 564.6227,
+              "text": "b) somente I."
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "text": " somente I e II.",
+          "sourceLines": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 189.5138,
+              "y": 551.6227,
+              "text": "c)"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 209.9568,
+              "y": 551.6227,
+              "text": "somente I e II."
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "text": " somente II e III.",
+          "sourceLines": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 190.2048,
+              "y": 564.6227,
+              "text": "d)"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 209.9258,
+              "y": 564.6227,
+              "text": "somente II e III."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionId": "128-tcemg-008-01-q044",
+      "paperId": "source-128-tcemg-008-01",
+      "number": 44,
+      "sourcePage": 4,
+      "contextIds": [],
+      "answerKeyId": "128-tcemg-008-01-q044-key-v1",
+      "answerDocumentId": "source-128-tcemg-008-01-key",
+      "answerValue": "e",
+      "syllabusItemIds": [
+        "camara-2026-lingua-portuguesa-6-4",
+        "abdi-2026-lingua-portuguesa-6-4",
+        "cgu-2026-administracao-publica-5-1"
+      ],
+      "referenceDocumentId": null,
+      "referenceLocator": "PDF p. 3 — cenário de revisão de textos institucionais",
+      "sourceLines": [
+        {
+          "page": 4,
+          "column": "left",
+          "x": 70.824,
+          "y": 362.29448,
+          "text": "Questão 44"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 56.664,
+          "y": 378.07564,
+          "text": "Determinado setor de comunicação pública revisou seus"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 28.32,
+          "y": 389.83564,
+          "text": "textos institucionais para torná-los mais compreensíveis,"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 28.32,
+          "y": 401.59564,
+          "text": "reduzindo o uso de siglas e expressões técnicas."
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 28.32,
+          "y": 419.23564,
+          "text": "Nesse caso, a prática exercida pelo setor de comunicação está em"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 28.32,
+          "y": 430.99564,
+          "text": "consonância com os princípios"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "da adequação de gênero e do formato comunicacional.",
+          "sourceLines": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.32,
+              "y": 448.63564,
+              "text": "A da adequação de gênero e do formato comunicacional."
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "text": "da impessoalidade e da neutralidade na comunicação.",
+          "sourceLines": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.32,
+              "y": 460.39564,
+              "text": "B da impessoalidade e da neutralidade na comunicação."
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "text": "da padronização editorial e da clareza de estilos.",
+          "sourceLines": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.32,
+              "y": 472.15564,
+              "text": "C da padronização editorial e da clareza de estilos."
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "text": "da objetividade jornalística e da clareza redacional.",
+          "sourceLines": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.32,
+              "y": 483.79564,
+              "text": "D da objetividade jornalística e da clareza redacional."
+            }
+          ]
+        },
+        {
+          "id": "e",
+          "text": "da linguagem simples e da acessibilidade comunicacional.",
+          "sourceLines": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.32,
+              "y": 495.55564,
+              "text": "E da linguagem simples e da acessibilidade comunicacional."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contexts": [
+    {
+      "contextId": "reserve2-td-licit",
+      "documentId": "source-896-tcdf-002-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 2,
+          "column": "right",
+          "y": 755.300324,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.300186,
+              "y": 755.300324,
+              "text": "No que concerne às licitações e aos contratos administrativos e à"
+            }
+          ],
+          "text": "No que concerne às licitações e aos contratos administrativos e à"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 766.7607,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.3,
+              "y": 766.7607,
+              "text": "responsabilização de pessoas jurídicas por atos contra a"
+            }
+          ],
+          "text": "responsabilização de pessoas jurídicas por atos contra a"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 778.280694,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.3,
+              "y": 778.280694,
+              "text": "administração pública, julgue os itens que se seguem."
+            }
+          ],
+          "text": "administração pública, julgue os itens que se seguem."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-td-exec",
+      "documentId": "source-896-tcdf-002-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 571.280304,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.380186,
+              "y": 571.280304,
+              "text": "No que se refere à execução da auditoria governamental, julgue"
+            }
+          ],
+          "text": "No que se refere à execução da auditoria governamental, julgue"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 582.8007,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.38,
+              "y": 582.8007,
+              "text": "os próximos itens."
+            }
+          ],
+          "text": "os próximos itens."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-td-govern",
+      "documentId": "source-896-tcdf-002-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 136.100424,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.300186,
+              "y": 136.100424,
+              "text": "Acerca da governança no setor público, julgue os próximos itens."
+            }
+          ],
+          "text": "Acerca da governança no setor público, julgue os próximos itens."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-td-iia",
+      "documentId": "source-896-tcdf-002-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 296.780424,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.380186,
+              "y": 296.780424,
+              "text": "Com base no disposto pelo IIA (Institute of Internal Auditors) e"
+            }
+          ],
+          "text": "Com base no disposto pelo IIA (Institute of Internal Auditors) e"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 308.2406,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.38,
+              "y": 308.2406,
+              "text": "pelas Normas Internacionais das Entidades Fiscalizadoras"
+            }
+          ],
+          "text": "pelas Normas Internacionais das Entidades Fiscalizadoras"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 319.760594,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.38,
+              "y": 319.760594,
+              "text": "(ISSAI), julgue os itens a seguir."
+            }
+          ],
+          "text": "(ISSAI), julgue os itens a seguir."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-td-evidence",
+      "documentId": "source-896-tcdf-002-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 4,
+          "column": "right",
+          "y": 360.020424,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 303.300186,
+              "y": 360.020424,
+              "text": "No que se refere a evidências e à comunicação dos resultados no"
+            }
+          ],
+          "text": "No que se refere a evidências e à comunicação dos resultados no"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 371.5407,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 303.3,
+              "y": 371.5407,
+              "text": "âmbito da auditoria, julgue os itens a seguir."
+            }
+          ],
+          "text": "âmbito da auditoria, julgue os itens a seguir."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-td-budget",
+      "documentId": "source-896-tcdf-002-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 5,
+          "column": "right",
+          "y": 760.760304,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 303.300186,
+              "y": 760.760304,
+              "text": "A respeito dos princípios, das normas e das regras da"
+            }
+          ],
+          "text": "A respeito dos princípios, das normas e das regras da"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "y": 772.2807,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 303.3,
+              "y": 772.2807,
+              "text": "administração financeira e orçamentária no Brasil, julgue os itens"
+            }
+          ],
+          "text": "administração financeira e orçamentária no Brasil, julgue os itens"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "y": 783.740574,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 303.3,
+              "y": 783.740574,
+              "text": "que se seguem."
+            }
+          ],
+          "text": "que se seguem."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-td-qual",
+      "documentId": "source-896-tcdf-002-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 6,
+          "column": "left",
+          "y": 662.120304,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 28.380186,
+              "y": 662.120304,
+              "text": "Com base na NBC TSP — Estrutura Conceitual, julgue os"
+            }
+          ],
+          "text": "Com base na NBC TSP — Estrutura Conceitual, julgue os"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 673.6407,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 28.38,
+              "y": 673.6407,
+              "text": "próximos itens, referentes às restrições das informações incluídas"
+            }
+          ],
+          "text": "próximos itens, referentes às restrições das informações incluídas"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 685.160694,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 28.38,
+              "y": 685.160694,
+              "text": "nos relatórios contábeis de produção geral das entidades do setor"
+            }
+          ],
+          "text": "nos relatórios contábeis de produção geral das entidades do setor"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 696.620568,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 28.38,
+              "y": 696.620568,
+              "text": "público."
+            }
+          ],
+          "text": "público."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-td-reval",
+      "documentId": "source-896-tcdf-002-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 6,
+          "column": "right",
+          "y": 265.700204,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 303.300186,
+              "y": 265.700204,
+              "text": "Julgue os itens a seguir, referentes aos procedimentos de"
+            }
+          ],
+          "text": "Julgue os itens a seguir, referentes aos procedimentos de"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 277.2207,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 303.3,
+              "y": 277.2207,
+              "text": "reavaliação e redução ao valor recuperável aplicados aos ativos"
+            }
+          ],
+          "text": "reavaliação e redução ao valor recuperável aplicados aos ativos"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 288.740694,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 303.3,
+              "y": 288.740694,
+              "text": "do setor público."
+            }
+          ],
+          "text": "do setor público."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-td-pcasp",
+      "documentId": "source-896-tcdf-002-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 6,
+          "column": "right",
+          "y": 503.600304,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 303.300186,
+              "y": 503.600304,
+              "text": "Em relação às regras de integridade do plano de contas aplicado"
+            }
+          ],
+          "text": "Em relação às regras de integridade do plano de contas aplicado"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 515.1206,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 303.3,
+              "y": 515.1206,
+              "text": "ao setor público, julgue os itens subsequentes."
+            }
+          ],
+          "text": "ao setor público, julgue os itens subsequentes."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-td-accounts",
+      "documentId": "source-896-tcdf-002-01-paper",
+      "kind": "passage",
+      "sourceLineGroups": [
+        {
+          "page": 6,
+          "column": "right",
+          "y": 690.860304,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 331.670814,
+              "y": 690.860304,
+              "text": "Determinada entidade do setor público registrou, no"
+            }
+          ],
+          "text": "Determinada entidade do setor público registrou, no"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 702.3807,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 303.3,
+              "y": 702.3807,
+              "text": "primeiro exercício financeiro, já encerrado, as seguintes"
+            }
+          ],
+          "text": "primeiro exercício financeiro, já encerrado, as seguintes"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 713.900694,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 303.3,
+              "y": 713.900694,
+              "text": "transações contábeis."
+            }
+          ],
+          "text": "transações contábeis."
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 728.360556,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 303.3,
+              "y": 728.360556,
+              "text": "I Aprovação da Lei Orçamentária Anual no valor de"
+            }
+          ],
+          "text": "I Aprovação da Lei Orçamentária Anual no valor de"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 739.88055,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 317.520384,
+              "y": 739.88055,
+              "text": "R$ 200 mil reais, sendo 50% na categoria econômica"
+            }
+          ],
+          "text": "R$ 200 mil reais, sendo 50% na categoria econômica"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 751.400544,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 317.520384,
+              "y": 751.400544,
+              "text": "corrente e 50% na categoria econômica de capital, tanto"
+            }
+          ],
+          "text": "corrente e 50% na categoria econômica de capital, tanto"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 762.860418,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 317.520384,
+              "y": 762.860418,
+              "text": "para as receitas orçamentárias quanto para as despesas"
+            }
+          ],
+          "text": "para as receitas orçamentárias quanto para as despesas"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "y": 774.380412,
+          "parts": [
+            {
+              "page": 6,
+              "column": "right",
+              "x": 317.520384,
+              "y": 774.380412,
+              "text": "orçamentárias."
+            }
+          ],
+          "text": "orçamentárias."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "y": 45.8007,
+          "parts": [
+            {
+              "page": 7,
+              "column": "left",
+              "x": 28.38,
+              "y": 45.8007,
+              "text": "II Lançamento de impostos no valor de R$ 100 mil, sendo"
+            }
+          ],
+          "text": "II Lançamento de impostos no valor de R$ 100 mil, sendo"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "y": 57.260574,
+          "parts": [
+            {
+              "page": 7,
+              "column": "left",
+              "x": 42.600384,
+              "y": 57.260574,
+              "text": "arrecadado 80% desse valor."
+            }
+          ],
+          "text": "arrecadado 80% desse valor."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "y": 68.780568,
+          "parts": [
+            {
+              "page": 7,
+              "column": "left",
+              "x": 28.38,
+              "y": 68.780568,
+              "text": "III Empenho e liquidação de despesas de custeio no valor de"
+            }
+          ],
+          "text": "III Empenho e liquidação de despesas de custeio no valor de"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "y": 80.300562,
+          "parts": [
+            {
+              "page": 7,
+              "column": "left",
+              "x": 42.600384,
+              "y": 80.300562,
+              "text": "R$ 100 mil, com inscrição de R$ 20 mil em restos a pagar"
+            }
+          ],
+          "text": "R$ 100 mil, com inscrição de R$ 20 mil em restos a pagar"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "y": 91.760436,
+          "parts": [
+            {
+              "page": 7,
+              "column": "left",
+              "x": 42.600384,
+              "y": 91.760436,
+              "text": "processados."
+            }
+          ],
+          "text": "processados."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "y": 103.28043,
+          "parts": [
+            {
+              "page": 7,
+              "column": "left",
+              "x": 28.38,
+              "y": 103.28043,
+              "text": "IV Recebimento de imóvel em doação no valor de R$ 150 mil."
+            }
+          ],
+          "text": "IV Recebimento de imóvel em doação no valor de R$ 150 mil."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-td-accounts-command",
+      "documentId": "source-896-tcdf-002-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 7,
+          "column": "left",
+          "y": 120.8004,
+          "parts": [
+            {
+              "page": 7,
+              "column": "left",
+              "x": 28.38,
+              "y": 120.8004,
+              "text": "Considerando a situação hipotética apresentada, julgue os itens"
+            }
+          ],
+          "text": "Considerando a situação hipotética apresentada, julgue os itens"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "y": 132.260274,
+          "parts": [
+            {
+              "page": 7,
+              "column": "left",
+              "x": 28.38,
+              "y": 132.260274,
+              "text": "subsequentes, relativos às informações constantes nas"
+            }
+          ],
+          "text": "subsequentes, relativos às informações constantes nas"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "y": 143.780268,
+          "parts": [
+            {
+              "page": 7,
+              "column": "left",
+              "x": 28.38,
+              "y": 143.780268,
+              "text": "demonstrações contábeis dessa entidade ao final do período"
+            }
+          ],
+          "text": "demonstrações contábeis dessa entidade ao final do período"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "y": 155.300262,
+          "parts": [
+            {
+              "page": 7,
+              "column": "left",
+              "x": 28.38,
+              "y": 155.300262,
+              "text": "apurado."
+            }
+          ],
+          "text": "apurado."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-td-lai",
+      "documentId": "source-896-tcdf-002-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 8,
+          "column": "right",
+          "y": 359.000304,
+          "parts": [
+            {
+              "page": 8,
+              "column": "right",
+              "x": 303.300186,
+              "y": 359.000304,
+              "text": "Com base na Lei Federal n.º 12.527/2011 (Lei de Acesso à"
+            }
+          ],
+          "text": "Com base na Lei Federal n.º 12.527/2011 (Lei de Acesso à"
+        },
+        {
+          "page": 8,
+          "column": "right",
+          "y": 370.5207,
+          "parts": [
+            {
+              "page": 8,
+              "column": "right",
+              "x": 303.3,
+              "y": 370.5207,
+              "text": "Informação), julgue os itens seguintes acerca dos tipos de"
+            }
+          ],
+          "text": "Informação), julgue os itens seguintes acerca dos tipos de"
+        },
+        {
+          "page": 8,
+          "column": "right",
+          "y": 382.040694,
+          "parts": [
+            {
+              "page": 8,
+              "column": "right",
+              "x": 303.3,
+              "y": 382.040694,
+              "text": "classificação de informação e dos períodos de restrições de"
+            }
+          ],
+          "text": "classificação de informação e dos períodos de restrições de"
+        },
+        {
+          "page": 8,
+          "column": "right",
+          "y": 393.500568,
+          "parts": [
+            {
+              "page": 8,
+              "column": "right",
+              "x": 303.3,
+              "y": 393.500568,
+              "text": "acesso."
+            }
+          ],
+          "text": "acesso."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-td-state",
+      "documentId": "source-896-tcdf-ce1-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 1,
+          "column": "left",
+          "y": 71.6607,
+          "parts": [
+            {
+              "page": 1,
+              "column": "left",
+              "x": 28.38,
+              "y": 71.6607,
+              "text": "No que diz respeito ao Estado como forma complexa de"
+            }
+          ],
+          "text": "No que diz respeito ao Estado como forma complexa de"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "y": 83.1807,
+          "parts": [
+            {
+              "page": 1,
+              "column": "left",
+              "x": 28.38,
+              "y": 83.1807,
+              "text": "organização que produz, gere, controla, formula e implementa"
+            }
+          ],
+          "text": "organização que produz, gere, controla, formula e implementa"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "y": 94.700694,
+          "parts": [
+            {
+              "page": 1,
+              "column": "left",
+              "x": 28.38,
+              "y": 94.700694,
+              "text": "políticas públicas, julgue os itens a seguir."
+            }
+          ],
+          "text": "políticas públicas, julgue os itens a seguir."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-td-participation",
+      "documentId": "source-896-tcdf-ce1-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 1,
+          "column": "right",
+          "y": 776.000424,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.300186,
+              "y": 776.000424,
+              "text": "Acerca dos processos participativos de gestão pública, julgue o"
+            }
+          ],
+          "text": "Acerca dos processos participativos de gestão pública, julgue o"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 787.4607,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.3,
+              "y": 787.4607,
+              "text": "item a seguir."
+            }
+          ],
+          "text": "item a seguir."
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 30.8187,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 47.76342,
+              "y": 30.8187,
+              "text": "896CE10127285"
+            }
+          ],
+          "text": "896CE10127285"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-t14-plans",
+      "documentId": "source-993-tce-ac-014-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 2,
+          "column": "right",
+          "y": 217.8167,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.358587,
+              "y": 217.8167,
+              "text": "Julgue os itens seguintes, no que diz respeito ao sistema de"
+            }
+          ],
+          "text": "Julgue os itens seguintes, no que diz respeito ao sistema de"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 228.9767,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 228.9767,
+              "text": "planejamento e orçamento, ao plano plurianual, à lei de diretrizes"
+            }
+          ],
+          "text": "planejamento e orçamento, ao plano plurianual, à lei de diretrizes"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 240.13688,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 240.13688,
+              "text": "orçamentárias, ao orçamento anual e aos créditos ordinários e"
+            }
+          ],
+          "text": "orçamentárias, ao orçamento anual e aos créditos ordinários e"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 251.29706,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 251.29706,
+              "text": "adicionais."
+            }
+          ],
+          "text": "adicionais."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-t14-fin-audit",
+      "documentId": "source-993-tce-ac-014-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 46.456628,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.360603,
+              "y": 46.456628,
+              "text": "À luz dos princípios de auditoria financeira aplicáveis ao setor"
+            }
+          ],
+          "text": "À luz dos princípios de auditoria financeira aplicáveis ao setor"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 57.2567,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 57.2567,
+              "text": "público, julgue os itens subsequentes."
+            }
+          ],
+          "text": "público, julgue os itens subsequentes."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-t16-pcasp",
+      "documentId": "source-993-tce-ac-016-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 1,
+          "column": "right",
+          "y": 71.656316,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.360603,
+              "y": 71.656316,
+              "text": "Com base nas disposições do Manual de Contabilidade Aplicada"
+            }
+          ],
+          "text": "Com base nas disposições do Manual de Contabilidade Aplicada"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 85.5767,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.359,
+              "y": 85.5767,
+              "text": "ao Setor Público (MCASP) para a aplicação do Plano de Contas"
+            }
+          ],
+          "text": "ao Setor Público (MCASP) para a aplicação do Plano de Contas"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 99.616316,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.359,
+              "y": 99.616316,
+              "text": "Aplicado ao Setor Público (PCASP), julgue os itens a seguir."
+            }
+          ],
+          "text": "Aplicado ao Setor Público (PCASP), julgue os itens a seguir."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-t16-balanco",
+      "documentId": "source-993-tce-ac-016-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 1,
+          "column": "right",
+          "y": 224.5358,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.358587,
+              "y": 224.5358,
+              "text": "Considerando as disposições do MCASP relativas à elaboração"
+            }
+          ],
+          "text": "Considerando as disposições do MCASP relativas à elaboração"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 238.4567,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.359,
+              "y": 238.4567,
+              "text": "das demonstrações contábeis das entidades públicas, julgue os"
+            }
+          ],
+          "text": "das demonstrações contábeis das entidades públicas, julgue os"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 252.496316,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.359,
+              "y": 252.496316,
+              "text": "itens seguintes."
+            }
+          ],
+          "text": "itens seguintes."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-t16-despesa-registro",
+      "documentId": "source-993-tce-ac-016-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 1,
+          "column": "right",
+          "y": 419.535416,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.358587,
+              "y": 419.535416,
+              "text": "A execução da despesa pública é objeto de diversos controles que"
+            }
+          ],
+          "text": "A execução da despesa pública é objeto de diversos controles que"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 433.4567,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.359,
+              "y": 433.4567,
+              "text": "visam assegurar o cumprimento dos princípios norteadores da"
+            }
+          ],
+          "text": "visam assegurar o cumprimento dos princípios norteadores da"
+        },
+        {
+          "page": 1,
+          "column": "right",
+          "y": 447.496316,
+          "parts": [
+            {
+              "page": 1,
+              "column": "right",
+              "x": 303.359,
+              "y": 447.496316,
+              "text": "ação governamental. A esse respeito, julgue os próximos itens."
+            }
+          ],
+          "text": "ação governamental. A esse respeito, julgue os próximos itens."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-td-logic-symbols",
+      "documentId": "source-896-tcdf-cb1-01-paper",
+      "kind": "passage",
+      "sourceLineGroups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 490.4006,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 104.88,
+              "y": 490.4006,
+              "text": "operação lógica"
+            },
+            {
+              "page": 4,
+              "column": "left",
+              "x": 182.04,
+              "y": 490.4006,
+              "text": "símbolo"
+            }
+          ],
+          "text": "operação lógica símbolo"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 502.2807,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 104.88,
+              "y": 502.2807,
+              "text": "conjunção"
+            },
+            {
+              "page": 4,
+              "column": "left",
+              "x": 195.780438,
+              "y": 502.580298,
+              "text": "∧"
+            }
+          ],
+          "text": "conjunção ∧"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 514.5206,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 104.88,
+              "y": 514.5206,
+              "text": "disjunção"
+            },
+            {
+              "page": 4,
+              "column": "left",
+              "x": 195.780438,
+              "y": 514.820198,
+              "text": "∨"
+            }
+          ],
+          "text": "disjunção ∨"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 526.7007,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 104.88,
+              "y": 526.7007,
+              "text": "negação"
+            },
+            {
+              "page": 4,
+              "column": "left",
+              "x": 196.004886,
+              "y": 526.7007,
+              "text": "~"
+            }
+          ],
+          "text": "negação ~"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 538.7007,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 104.88,
+              "y": 538.7007,
+              "text": "condicional"
+            },
+            {
+              "page": 4,
+              "column": "left",
+              "x": 194.399682,
+              "y": 539.000298,
+              "text": "⇒"
+            }
+          ],
+          "text": "condicional ⇒"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 550.9407,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 104.88,
+              "y": 550.9407,
+              "text": "bicondicional"
+            },
+            {
+              "page": 4,
+              "column": "left",
+              "x": 193.499886,
+              "y": 551.240298,
+              "text": "⇔"
+            }
+          ],
+          "text": "bicondicional ⇔"
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-td-logic",
+      "documentId": "source-896-tcdf-cb1-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 569.1806,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.38,
+              "y": 569.1806,
+              "text": "Assumindo que as proposições lógicas simples são representadas"
+            }
+          ],
+          "text": "Assumindo que as proposições lógicas simples são representadas"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 580.640474,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.38,
+              "y": 580.640474,
+              "text": "por letras maiúsculas e que a tabela precedente relaciona os"
+            }
+          ],
+          "text": "por letras maiúsculas e que a tabela precedente relaciona os"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 592.160468,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.38,
+              "y": 592.160468,
+              "text": "símbolos lógicos usuais às operações lógicas que eles"
+            }
+          ],
+          "text": "símbolos lógicos usuais às operações lógicas que eles"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 603.680462,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.38,
+              "y": 603.680462,
+              "text": "representam, julgue os itens a seguir."
+            }
+          ],
+          "text": "representam, julgue os itens a seguir."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-ibama-patrimonio",
+      "documentId": "source-057-ibama-001-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 194.416928,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.318687,
+              "y": 194.416928,
+              "text": "Considerando as especificidades do setor público, julgue os itens"
+            }
+          ],
+          "text": "Considerando as especificidades do setor público, julgue os itens"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 207.8567,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.3191,
+              "y": 207.8567,
+              "text": "a seguir, em relação à receita e despesa sob o enfoque"
+            }
+          ],
+          "text": "a seguir, em relação à receita e despesa sob o enfoque"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 221.296724,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.3191,
+              "y": 221.296724,
+              "text": "patrimonial e à realização da variação patrimonial."
+            }
+          ],
+          "text": "patrimonial e à realização da variação patrimonial."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-ibama-contas",
+      "documentId": "source-057-ibama-001-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 327.976388,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.318687,
+              "y": 327.976388,
+              "text": "Julgue os itens seguintes, referentes às transações no setor"
+            }
+          ],
+          "text": "Julgue os itens seguintes, referentes às transações no setor"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 341.5367,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.3191,
+              "y": 341.5367,
+              "text": "público e seus respectivos registros, com base na relação entre as"
+            }
+          ],
+          "text": "público e seus respectivos registros, com base na relação entre as"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 354.976724,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.3191,
+              "y": 354.976724,
+              "text": "contas e a natureza da informação contábil do plano de contas"
+            }
+          ],
+          "text": "contas e a natureza da informação contábil do plano de contas"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 368.536268,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.3191,
+              "y": 368.536268,
+              "text": "aplicado ao setor público."
+            }
+          ],
+          "text": "aplicado ao setor público."
+        }
+      ],
+      "reused": false
+    },
+    {
+      "contextId": "reserve2-ibama-demonstracoes",
+      "documentId": "source-057-ibama-001-01-paper",
+      "kind": "instruction",
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 528.97646,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.318687,
+              "y": 528.97646,
+              "text": "Julgue os itens subsequentes, relacionados à estrutura e ao"
+            }
+          ],
+          "text": "Julgue os itens subsequentes, relacionados à estrutura e ao"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 542.5367,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.3191,
+              "y": 542.5367,
+              "text": "fechamento das demonstrações contábeis aplicadas ao setor"
+            }
+          ],
+          "text": "fechamento das demonstrações contábeis aplicadas ao setor"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 555.976724,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.3191,
+              "y": 555.976724,
+              "text": "público."
+            }
+          ],
+          "text": "público."
+        }
+      ],
+      "reused": false
+    }
+  ],
+  "mappingAdditions": [
+    {
+      "mapping": {
+        "id": "057-ibama-001-01-q094-reserve2-additional-1",
+        "questionId": "057-ibama-001-01-q094",
+        "syllabusItemId": "cgu-2026-administracao-publica-4-1",
+        "status": "confirmed",
+        "justification": "Correspondência parcial revisada: Funções do planejamento e do orçamento; relação entre PPA, LDO e LOA; receita e despesa em nível conceitual; restrições fiscais, escolhas alocativas e sustentabilidade das ações. Texto, revisão, chave e comentário anteriores permanecem inalterados."
+      },
+      "questionRevision": 1,
+      "answerKeyId": "057-ibama-001-01-q094-key-v1",
+      "answerKeyVersion": 1,
+      "answerValue": false
+    },
+    {
+      "mapping": {
+        "id": "057-ibama-001-01-q096-reserve2-additional-1",
+        "questionId": "057-ibama-001-01-q096",
+        "syllabusItemId": "cgu-2026-administracao-publica-4-1",
+        "status": "confirmed",
+        "justification": "Correspondência parcial revisada: Funções do planejamento e do orçamento; relação entre PPA, LDO e LOA; receita e despesa em nível conceitual; restrições fiscais, escolhas alocativas e sustentabilidade das ações. Texto, revisão, chave e comentário anteriores permanecem inalterados."
+      },
+      "questionRevision": 1,
+      "answerKeyId": "057-ibama-001-01-q096-key-v1",
+      "answerKeyVersion": 1,
+      "answerValue": true
+    },
+    {
+      "mapping": {
+        "id": "993-tce-ac-016-01-q111-reserve2-additional-1",
+        "questionId": "993-tce-ac-016-01-q111",
+        "syllabusItemId": "cgu-2026-administracao-publica-4-1",
+        "status": "confirmed",
+        "justification": "Correspondência parcial revisada: Funções do planejamento e do orçamento; relação entre PPA, LDO e LOA; receita e despesa em nível conceitual; restrições fiscais, escolhas alocativas e sustentabilidade das ações. Texto, revisão, chave e comentário anteriores permanecem inalterados."
+      },
+      "questionRevision": 1,
+      "answerKeyId": "993-tce-ac-016-01-q111-key-v1",
+      "answerKeyVersion": 1,
+      "answerValue": false
+    },
+    {
+      "mapping": {
+        "id": "993-tce-ac-016-01-q112-reserve2-additional-1",
+        "questionId": "993-tce-ac-016-01-q112",
+        "syllabusItemId": "cgu-2026-administracao-publica-4-1",
+        "status": "confirmed",
+        "justification": "Correspondência parcial revisada: Funções do planejamento e do orçamento; relação entre PPA, LDO e LOA; receita e despesa em nível conceitual; restrições fiscais, escolhas alocativas e sustentabilidade das ações. Texto, revisão, chave e comentário anteriores permanecem inalterados."
+      },
+      "questionRevision": 1,
+      "answerKeyId": "993-tce-ac-016-01-q112-key-v1",
+      "answerKeyVersion": 1,
+      "answerValue": true
+    },
+    {
+      "mapping": {
+        "id": "993-tce-ac-016-01-q091-reserve2-additional-1",
+        "questionId": "993-tce-ac-016-01-q091",
+        "syllabusItemId": "cgu-2026-administracao-publica-4-1",
+        "status": "confirmed",
+        "justification": "Correspondência parcial revisada: Funções do planejamento e do orçamento; relação entre PPA, LDO e LOA; receita e despesa em nível conceitual; restrições fiscais, escolhas alocativas e sustentabilidade das ações. Texto, revisão, chave e comentário anteriores permanecem inalterados."
+      },
+      "questionRevision": 1,
+      "answerKeyId": "993-tce-ac-016-01-q091-key-v1",
+      "answerKeyVersion": 1,
+      "answerValue": true
+    },
+    {
+      "mapping": {
+        "id": "993-tce-ac-016-01-q100-reserve2-additional-1",
+        "questionId": "993-tce-ac-016-01-q100",
+        "syllabusItemId": "cgu-2026-administracao-publica-4-1",
+        "status": "confirmed",
+        "justification": "Correspondência parcial revisada: Funções do planejamento e do orçamento; relação entre PPA, LDO e LOA; receita e despesa em nível conceitual; restrições fiscais, escolhas alocativas e sustentabilidade das ações. Texto, revisão, chave e comentário anteriores permanecem inalterados."
+      },
+      "questionRevision": 1,
+      "answerKeyId": "993-tce-ac-016-01-q100-key-v1",
+      "answerKeyVersion": 1,
+      "answerValue": false
+    },
+    {
+      "mapping": {
+        "id": "993-tce-ac-016-01-q098-reserve2-additional-1",
+        "questionId": "993-tce-ac-016-01-q098",
+        "syllabusItemId": "cgu-2026-administracao-publica-4-1",
+        "status": "confirmed",
+        "justification": "Correspondência parcial revisada: Funções do planejamento e do orçamento; relação entre PPA, LDO e LOA; receita e despesa em nível conceitual; restrições fiscais, escolhas alocativas e sustentabilidade das ações. Texto, revisão, chave e comentário anteriores permanecem inalterados."
+      },
+      "questionRevision": 1,
+      "answerKeyId": "993-tce-ac-016-01-q098-key-v1",
+      "answerKeyVersion": 1,
+      "answerValue": true
+    },
+    {
+      "mapping": {
+        "id": "993-tce-ac-014-01-q076-reserve2-additional-1",
+        "questionId": "993-tce-ac-014-01-q076",
+        "syllabusItemId": "cgu-2026-estado-democracia-7-1",
+        "status": "confirmed",
+        "justification": "Correspondência parcial revisada: Assimetrias de poder e informação, incentivos e oportunidades; relações principal-agente e problemas de ação coletiva; normas sociais, tolerância organizacional e redes de favorecimento. Texto, revisão, chave e comentário anteriores permanecem inalterados."
+      },
+      "questionRevision": 1,
+      "answerKeyId": "993-tce-ac-014-01-q076-key-v1",
+      "answerKeyVersion": 1,
+      "answerValue": true
+    },
+    {
+      "mapping": {
+        "id": "142-tcuaufc-cb1-01-q032-reserve2-additional-1",
+        "questionId": "142-tcuaufc-cb1-01-q032",
+        "syllabusItemId": "abdi-2026-raciocinio-logico-2",
+        "status": "confirmed",
+        "justification": "Correspondência parcial revisada: Lógica de argumentação: analogias, inferências, deduções e conclusões. Texto, revisão, chave e comentário anteriores permanecem inalterados."
+      },
+      "questionRevision": 1,
+      "answerKeyId": "142-tcuaufc-cb1-01-q032-key-v1",
+      "answerKeyVersion": 1,
+      "answerValue": true
+    },
+    {
+      "mapping": {
+        "id": "142-tcuaufc-cb1-01-q034-reserve2-additional-1",
+        "questionId": "142-tcuaufc-cb1-01-q034",
+        "syllabusItemId": "abdi-2026-raciocinio-logico-2",
+        "status": "confirmed",
+        "justification": "Correspondência parcial revisada: Lógica de argumentação: analogias, inferências, deduções e conclusões. Texto, revisão, chave e comentário anteriores permanecem inalterados."
+      },
+      "questionRevision": 1,
+      "answerKeyId": "142-tcuaufc-cb1-01-q034-key-v1",
+      "answerKeyVersion": 1,
+      "answerValue": true
+    },
+    {
+      "mapping": {
+        "id": "142-tcuaufc-cb1-01-q035-reserve2-additional-1",
+        "questionId": "142-tcuaufc-cb1-01-q035",
+        "syllabusItemId": "abdi-2026-raciocinio-logico-2",
+        "status": "confirmed",
+        "justification": "Correspondência parcial revisada: Lógica de argumentação: analogias, inferências, deduções e conclusões. Texto, revisão, chave e comentário anteriores permanecem inalterados."
+      },
+      "questionRevision": 1,
+      "answerKeyId": "142-tcuaufc-cb1-01-q035-key-v1",
+      "answerKeyVersion": 1,
+      "answerValue": false
+    },
+    {
+      "mapping": {
+        "id": "142-tcuaufc-cb1-01-q036-reserve2-additional-1",
+        "questionId": "142-tcuaufc-cb1-01-q036",
+        "syllabusItemId": "abdi-2026-raciocinio-logico-2",
+        "status": "confirmed",
+        "justification": "Correspondência parcial revisada: Lógica de argumentação: analogias, inferências, deduções e conclusões. Texto, revisão, chave e comentário anteriores permanecem inalterados."
+      },
+      "questionRevision": 1,
+      "answerKeyId": "142-tcuaufc-cb1-01-q036-key-v1",
+      "answerKeyVersion": 1,
+      "answerValue": true
+    },
+    {
+      "mapping": {
+        "id": "alerj-2026-comunicacao-manha-tipo1-q011-reserve2-additional-1",
+        "questionId": "alerj-2026-comunicacao-manha-tipo1-q011",
+        "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-1",
+        "status": "confirmed",
+        "justification": "Correspondência parcial revisada: Conceitos básicos de Informática: hardware, software, periféricos, dispositivos de entrada, saída e armazenamento, organização de arquivos e pastas e principais extensões de arquivos; Texto, revisão, chave e comentário anteriores permanecem inalterados."
+      },
+      "questionRevision": 1,
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q011-key-v1",
+      "answerKeyVersion": 1,
+      "answerValue": "c"
+    },
+    {
+      "mapping": {
+        "id": "alerj-2026-comunicacao-manha-tipo1-q015-reserve2-additional-1",
+        "questionId": "alerj-2026-comunicacao-manha-tipo1-q015",
+        "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-10",
+        "status": "confirmed",
+        "justification": "Correspondência parcial revisada: Digitalização, impressão, compartilhamento de documentos, teclas de atalho, recursos de acessibilidade e produtividade em sistemas operacionais e aplicativos. Texto, revisão, chave e comentário anteriores permanecem inalterados."
+      },
+      "questionRevision": 1,
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q015-key-v1",
+      "answerKeyVersion": 1,
+      "answerValue": "c"
+    },
+    {
+      "mapping": {
+        "id": "alerj-2026-comunicacao-manha-tipo1-q020-reserve2-additional-1",
+        "questionId": "alerj-2026-comunicacao-manha-tipo1-q020",
+        "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-10",
+        "status": "confirmed",
+        "justification": "Correspondência parcial revisada: Digitalização, impressão, compartilhamento de documentos, teclas de atalho, recursos de acessibilidade e produtividade em sistemas operacionais e aplicativos. Texto, revisão, chave e comentário anteriores permanecem inalterados."
+      },
+      "questionRevision": 1,
+      "answerKeyId": "alerj-2026-comunicacao-manha-tipo1-q020-key-v1",
+      "answerKeyVersion": 1,
+      "answerValue": "b"
+    },
+    {
+      "mapping": {
+        "id": "128-tcemg-008-01-q039-reserve2-additional-1",
+        "questionId": "128-tcemg-008-01-q039",
+        "syllabusItemId": "abdi-2026-abdi-etica-missao-4-2",
+        "status": "confirmed",
+        "justification": "Correspondência parcial revisada: Direitos, deveres e vedações aplicáveis aos profissionais da ABDI (arts. 4º a 6º do Regulamento de Ética e Conduta). Texto, revisão, chave e comentário anteriores permanecem inalterados. Ética/transparência e interesse público: relação conceitual com arts. 3º, V, e 4º do regulamento próprio ABDI; normas do TCE/MG não são importadas."
+      },
+      "questionRevision": 1,
+      "answerKeyId": "128-tcemg-008-01-q039-key-v1",
+      "answerKeyVersion": 1,
+      "answerValue": "a"
+    }
+  ],
+  "excluded": [
+    {
+      "source": "TCDF 2023",
+      "items": "All annulled rows in each final key; own district/court procedural items not chosen.",
+      "reason": "Independent definitive keys govern release; no transfer of own LODF/TCDF rules."
+    },
+    {
+      "source": "ABDI 2008",
+      "items": "Convênio installment percentage question15 and duplicate q12 across other booklets.",
+      "reason": "Current 2026 art.9 requires technical assessment, not the historical 70/80% threshold. Equivalent q12 retained once."
+    },
+    {
+      "source": "Search leads",
+      "items": "Bing queries and FGV TCE/ES listing",
+      "reason": "Search results were unrelated or no complete pair was located; not used as authenticity evidence."
+    },
+    {
+      "source": "Planalto",
+      "items": "Lei12846/Lei12813 fetches returned503",
+      "reason": "Only Lei12846 was subsequently retained from the official Camara consolidated mirror. No Lei12813 question released."
+    },
+    {
+      "source": "Prior deferred TCEAC16",
+      "items": [
+        94,
+        95,
+        101,
+        110
+      ],
+      "reason": "Wording/terminology exceptions remain deferred; not reinstated to increase counts."
+    }
+  ]
+}
