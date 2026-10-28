@@ -33,7 +33,7 @@ Global: **608 questões/comentários, 509 C/E e 99 MC, 252 contextos e 1.012 ví
 | TCE/AC 2024 — Contabilidade, 993_TCE_AC_016_01 | 6 C/E | PCASP, balanço orçamentário e distinção de naturezas, antes adiados. |
 | Ibama 2025 — Administração, 057_IBAMA_001_01 | 4 C/E | Itens 100–103, antes adiados; reconhecimento patrimonial, integridade e DVP. |
 | ABDI/IBFC 2008 — Especialista Projetos Biotecnologia | 1 MC | Item 12, quatro alternativas, chave B após recurso; conceito de convênio confrontado com os arts. 1º–2º do regulamento ABDI 2026. |
-| TCE/MG 2025 — Comunicação, 128_TCEMG_008_01 | 1 MC | Item 44, cinco alternativas, chave E; simplificação e acessibilidade de textos institucionais, compartilhado pelos três objetivos. |
+| TCE/MG — edital 2025, aplicação 2026 — Comunicação, 128_TCEMG_008_01 | 1 MC | Item 44, cinco alternativas, chave E; simplificação e acessibilidade de textos institucionais, compartilhado pelos três objetivos. |
 
 Os quatro novos pares têm **oito PDFs conferidos por segundo download independente idêntico**. As provas TCDF do cargo 2 são de **10/12/2023**. O cargo 3, de TI, foi apenas uma pista da pesquisa e não foi confundido com Auditoria. Foram usados exclusivamente os gabaritos oficiais definitivos separados: os cadernos TCDF contêm justificativas preliminares. Itens anulados, inclusive 124 e 130 no caderno especializado, não entram no banco.
 
