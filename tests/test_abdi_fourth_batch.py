@@ -19,7 +19,7 @@ def pdf(path):return subprocess.check_output(['pdftotext','-layout',str(path),'-
 class AbdiFourthBatchTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c=read_json(ROOT/'data/catalog.json');cls.m=read_json(ROOT/'data/reviews/abdi-fourth-batch.json');cls.d=read_json(ROOT/'data/reviews/abdi-fourth-source-discovery.json');cls.docs={d['id']:d for d in cls.c['documents']};cls.papers={p['id']:p for p in cls.c['papers']};cls.q={q['id']:q for q in cls.c['questions']};cls.cache={}
+        cls.c=json.loads(gzip.decompress((ROOT/'data/reviews/pre-cgu-intake-catalog.json.gz').read_bytes()));cls.m=read_json(ROOT/'data/reviews/abdi-fourth-batch.json');cls.d=read_json(ROOT/'data/reviews/abdi-fourth-source-discovery.json');cls.docs={d['id']:d for d in cls.c['documents']};cls.papers={p['id']:p for p in cls.c['papers']};cls.q={q['id']:q for q in cls.c['questions']};cls.cache={}
 
     group=previous_batch.AbdiSecondBatchTests.group
 

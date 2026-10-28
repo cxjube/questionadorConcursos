@@ -1,5 +1,7 @@
 # Conferência das fontes oficiais — 23/10/2026
 
+> CGU — Auditoria, 28/10/2026: [cadastro confirmado](cgu-intake-release.md), abertura original, retificação nº 2 e abertura atualizada baixadas novamente do CDN com hashes idênticos. Listagem do evento também permanece idêntica. Inventário global: 178 registros (140 PDF/38 HTML); continuam 59 pares, 3.506 números e 153 anulações. Nenhuma questão ou referência legal antiga foi reconferida on-line em massa. Os relatos seguintes são históricos.
+
 > Quarto lote ABDI, 27/10/2026: [14 MC oficiais e simulado disponível](abdi-fourth-batch-release.md). Seis pares, 11 PDFs distintos com segundo download idêntico; Fiocruz usa relatório final compartilhado entre TE23/TE58, retido uma vez. Inventário atual: 175 registros documentais (137 PDF/38 HTML), 59 pares, 3.506 números e 153 anulações. A divergência de data no cabeçalho TJRR foi registrada contra o edital oficial, sem alterar bytes. Os relatos seguintes são históricos.
 
 > Terceiro lote ABDI, 27/10/2026: [17 novas MC oficiais](abdi-third-batch-release.md), quatro novos pares IBFC com oito downloads repetidos idênticos. Inventário atual: **163 fontes (125 PDFs / 38 HTML), 53 pares, 3.216 números e 139 anulações**. Caderno médio e gabarito comum pareados pelo cabeçalho completo CARGOS; não se duplicaram provas comuns. Senado/LGPD/RLC foram reutilizados no escopo registrado. Os relatos abaixo são históricos.

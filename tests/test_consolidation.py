@@ -31,18 +31,18 @@ class ConsolidationTests(unittest.TestCase):
         """Keep Cargo 1 scope, future contests and intake totals explicit."""
         self.assertEqual(validate(self.catalog), [])
         self.assertEqual(self.catalog['schemaVersion'], 3)
-        self.assertEqual(len(self.catalog['disciplines']), 16)
-        self.assertEqual(len(self.catalog['topics']), 325)
-        self.assertEqual(len(self.catalog['syllabusItems']), 325)
+        self.assertEqual(len(self.catalog['disciplines']), 30)
+        self.assertEqual(len(self.catalog['topics']), 591)
+        self.assertEqual(len(self.catalog['syllabusItems']), 591)
         self.assertEqual(len(self.catalog['papers']), 59)
         self.assertEqual(sum(p['inventory']['itemCount'] for p in self.catalog['papers']), 3506)
         self.assertEqual(sum(len(p['inventory']['annulledItems']) for p in self.catalog['papers']), 153)
         self.assertEqual(len(self.catalog['questions']), 482)
         self.assertEqual(len(self.catalog['answerKeys']), 482)
-        self.assertEqual(len(self.catalog['mappings']), 676)
-        self.assertTrue(all(c['status'] == 'planned' for c in self.catalog['contests'][2:]))
-        self.assertEqual({item['roleId'] for item in self.catalog['syllabusItems']}, {'camara-comunicacao-divulgacao', 'abdi-comunicacao-marketing'})
-        self.assertEqual({item['noticeId'] for item in self.catalog['syllabusItems']}, {'camara-2026-edital-01', 'abdi-2026-edital-01'})
+        self.assertEqual(len(self.catalog['mappings']), 798)
+        self.assertEqual(self.catalog['contests'][2]['id'], 'cgu-2026');self.assertEqual(self.catalog['contests'][2]['status'], 'verified')
+        self.assertEqual({item['roleId'] for item in self.catalog['syllabusItems']}, {'camara-comunicacao-divulgacao', 'abdi-comunicacao-marketing', 'cgu-auditoria'})
+        self.assertEqual({item['noticeId'] for item in self.catalog['syllabusItems']}, {'camara-2026-edital-01', 'abdi-2026-edital-01', 'cgu-2026-edital-01'})
 
     def test_reviewed_copy_is_not_a_verified_source(self):
         """Reject downgrading a source while retaining confirmed consumers."""

@@ -18,7 +18,7 @@ from test_consolidation import clean, pdf_text
 class SeventhBatchTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c=read_json(ROOT/'data/catalog.json')
+        cls.c=camara_catalog()
         cls.manifest=read_json(ROOT/'data/reviews/seventh-batch.json')
         cls.questions={q['id']:q for q in cls.c['questions']}
         cls.docs={d['id']:d for d in cls.c['documents']}

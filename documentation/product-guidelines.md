@@ -2,7 +2,7 @@
 
 ## Diretrizes de produto, arquitetura, banco de questões e experiência de estudo
 
-**Versão:** 1.25 — revisão integrada ao repositório
+**Versão:** 1.26 — revisão integrada ao repositório
 **Data:** 28/10/2026
 **Projeto:** Questionador Concursos
 **Repositório:** https://github.com/cxjube/questionadorConcursos
@@ -14,7 +14,7 @@
 
 Este documento consolida as sugestões fornecidas pelo usuário e os ajustes de revisão. É uma referência de produto e de aceite por etapa, não autorização para implementar todo o roadmap.
 
-A [preparação CGU](cgu-common-preparation.md) consolida nove disciplinas e 145 itens comuns no workbench, com fontes autenticadas e comparação das duas aberturas. Contrato/motor passam a suportar o bloco complementar e três blocos C/E com pesos diferentes. A especialidade ainda está pendente: não há programa específico, banco ou simulado CGU publicado. O catálogo e os históricos Câmara/ABDI permanecem preservados.
+A [CGU — Auditoria](cgu-intake-release.md) está confirmada e cadastrada: 14 disciplinas, 266 itens, regras próprias e 106 questões de treino compartilhadas (102 C/E e quatro MC), com 122 vínculos novos. Programa e regras provêm dos PDFs oficiais; as capturas enviadas confirmam a escolha do usuário. O simulado 40/40/90 permanece bloqueado por déficit conjunto mínimo de 68 C/E. Não há nova pendência de escolha de especialidade; os registros anteriores da preparação comum são históricos. Câmara/ABDI e seus históricos foram preservados.
 
 O [17º lote](seventeenth-batch-release.md) consolida 395 questões (378 C/E e 17 MC), reserva 169/209 e 14 lacunas registradas. Questões e regras históricas permanecem versionadas.
 

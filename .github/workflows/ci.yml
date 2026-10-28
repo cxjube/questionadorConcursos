@@ -30,11 +30,13 @@ jobs:
       - run: uv sync --locked
       - run: uv run python -m tools validate
       - run: uv run python -m tools.cgu_intake --check
+      - run: uv run python -m tools.cgu_intake --auditoria --check
       - run: uv run python -m tools audit-sources
       - run: uv run python -m tools review-batch
       - run: uv run python -m unittest discover -s tests -v
       - run: npm test
       - run: uv run python -m tools coverage --check
+      - run: uv run python -m tools coverage --role cgu-auditoria --check
       - run: uv run python -m tools build --check
       - run: uv run python -m tools check-site
       - name: Upload only reviewed static files

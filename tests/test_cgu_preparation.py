@@ -28,7 +28,7 @@ class CGUPreparationTests(unittest.TestCase):
         self.assertTrue(all(d['externalIdentity'] == 'byte_match_official_cdn' for d in self.intake['documents']))
         self.assertNotEqual(self.intake['documents'][0]['sha256'], self.intake['consolidatedOpening']['sha256'])
 
-    def test_preparation_reproduces_all_145_common_items_and_keeps_specialties_pending(self):
+    def test_historical_common_preparation_reproduces_145_items_and_current_specialty_is_confirmed(self):
         p = self.prepared
         self.assertEqual(build_common_intake(), p)
         self.assertFalse(p['canonicalPublication'])
@@ -36,7 +36,7 @@ class CGUPreparationTests(unittest.TestCase):
         self.assertEqual((p['disciplineCount'], p['itemCount']), (9, 145))
         self.assertEqual([sum(len(d['items']) for d in p['disciplines'] if d['block'] == b) for b in ['basic', 'complementary']], [58, 87])
         self.assertFalse(any(d['block'] == 'specific' for d in p['disciplines']))
-        self.assertEqual(self.intake['status'], 'pending_specialty_confirmation')
+        self.assertEqual(self.intake['status'], 'canonical_registered');self.assertEqual(self.intake['confirmedSpecialty'], 'Auditoria')
 
     def test_every_discipline_and_numbered_text_is_complete_and_found_on_recorded_source_pages(self):
         # Independent reconstruction from retained PDF paragraphs, without the parser.
@@ -93,7 +93,7 @@ class CGUPreparationTests(unittest.TestCase):
         self.assertIn('atribuída a todos os candidatos', evidence['8.12.6.1'])
         self.assertTrue(all(b['annulledPolicy'] == 'credit' and b['doubleMarked'] == 0 for b in r['blocks']))
 
-    def test_complementary_contract_and_coverage_keep_existing_blocks_and_do_not_publish_cgu(self):
+    def test_complementary_contract_and_coverage_remain_scoped_to_each_role(self):
         item = copy.deepcopy(self.c['syllabusItems'][0])
         item['block'] = 'complementary'
         schema = read_json(ROOT / 'schemas/syllabus-item.schema.json')
@@ -105,7 +105,7 @@ class CGUPreparationTests(unittest.TestCase):
         self.assertIn('basic', report['blocks'])
         self.assertIn('specific', report['blocks'])
         self.assertEqual(len(self.c['questions']), 482)
-        self.assertEqual(len(self.c['scoringRules']), 2)
-        self.assertFalse(any(s['block'] == 'complementary' for s in self.c['syllabusItems']))
-        self.assertFalse(any(s['roleId'].startswith('cgu-') for s in self.c['syllabusItems']))
+        self.assertEqual(len(self.c['scoringRules']), 3)
+        self.assertTrue(any(s['roleId'] == 'cgu-auditoria' and s['block'] == 'complementary' for s in self.c['syllabusItems']))
+        self.assertTrue(all(s['roleId'] == 'cgu-auditoria' for s in self.c['syllabusItems'] if s['block'] == 'complementary'))
         self.assertFalse(any((ROOT / 'docs').rglob('*.pdf')))

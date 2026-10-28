@@ -1,7 +1,7 @@
 const { chromium } = require('playwright');
 const assert = require('node:assert/strict');
 // Optional maintainer smoke test; requires local Playwright and a static HTTP server.
-const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8765/questionadorConcursos/';
+const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8000/';
 (async () => {
  const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium', headless: true, args: ['--no-sandbox'] });
  const page = await browser.newPage();
@@ -25,8 +25,8 @@ const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8765/questionadorConc
   assert.equal(await page.locator('[role="tab"]').count(), 5);
   assert.equal(await page.locator('[role="tabpanel"]:visible').count(), 1);
   assert.equal(await page.locator('#program-section').isVisible(), true);
-  assert.equal(await page.locator('#inventory li').count(), 21);
-  assert.equal(await page.locator('#inventory a').count(), 42);
+  assert.equal(await page.locator('#inventory li').count(), 42);
+  assert.equal(await page.locator('#inventory a').count(), 84);
   await page.locator('#program summary').first().click();
   assert.equal(await page.locator('#program details').first().getAttribute('open'), '');
   await page.locator('#rules-tab').click();
@@ -35,8 +35,8 @@ const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8765/questionadorConc
   assert.match(await page.locator('#rules').innerText(), /Mínimo total[\s\S]*54 pontos/);
   await page.locator('#consolidation-tab').click();
   const watch=page.locator('#official-watch-links a');
-  assert.equal(await watch.count(),6);
-  assert.deepEqual(await watch.evaluateAll(links=>links.map(a=>new URL(a.href).hostname)),['www2.camara.leg.br','www2.camara.leg.br','www.cebraspe.org.br','www.abdi.com.br','www.gov.br','www.gov.br']);
+  assert.equal(await watch.count(),4);
+  assert.deepEqual(await watch.evaluateAll(links=>links.map(a=>new URL(a.href).hostname)),['www2.camara.leg.br','www2.camara.leg.br','www.cebraspe.org.br','www.gov.br']);
   assert.equal(await watch.evaluateAll(links=>links.every(a=>a.target==='_blank'&&a.relList.contains('noopener'))),true);
   assert.equal(await page.locator('#official-watch-links').evaluate(el=>Boolean(el.compareDocumentPosition(document.getElementById('notices'))&Node.DOCUMENT_POSITION_FOLLOWING)),true);
   for(const theme of ['light','dark']) {
@@ -80,20 +80,14 @@ const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8765/questionadorConc
   assert.equal(await page.evaluate(() => getComputedStyle(document.documentElement).colorScheme), 'light dark');
   await page.locator('[data-theme-choice="light"]').click();
   await page.locator('#questionador-tab').click();
-  await page.selectOption('#contest', 'abdi-futuro');
-  assert.equal(await page.locator('#start-study').isDisabled(), true);
-  await page.locator('#rules-tab').click();
-  assert.equal(await page.locator('#role').isDisabled(), true);
-  assert.match(await page.locator('#contest-status').textContent(), /futuro/);
-  assert.equal(await page.locator('#program-section').isHidden(), true);
-  assert.equal(await page.locator('#rules-section').isVisible(), true);
-  assert.match(await page.locator('#rules').innerText(), /ainda não foram cadastradas/);
-  assert.equal(await page.locator('#consolidation-section').isHidden(), true);
+  await page.selectOption('#contest', 'cgu-2026');
+  assert.equal(await page.locator('#start-study').isDisabled(), false);
+  assert.equal(await page.locator('#role').inputValue(), 'cgu-auditoria');
   await page.locator('#program-tab').click();
-  assert.match(await page.locator('#program-source-note').textContent(), /ainda não foi cadastrado/);
+  assert.match(await page.locator('#program-summary').innerText(), /14 disciplinas · 266/);
+  await page.locator('#rules-tab').click();
+  assert.match(await page.locator('#rules').innerText(), /78 pontos/);
   await page.locator('#questionador-tab').click();
-  await page.selectOption('#contest', 'cgu-futuro');
-  assert.equal(await page.locator('#role').isDisabled(), true);
   await page.selectOption('#contest', 'camara-2026');
   assert.equal(await page.locator('#notices li').count(), 6);
   assert.equal(await page.locator('#questionador-section').isVisible(), true);
@@ -105,5 +99,5 @@ const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8765/questionadorConc
  assert.deepEqual(errors, []);
  assert.deepEqual(external, []);
  await browser.close();
- console.log('Browser smoke passed: 320/1280px, five tabs, arrow/Home/End navigation, light/dark/system, empty contests, persisted theme, keyboard skip link, notices, 228 syllabus items, rules, inventory and zero external runtime requests.');
+ console.log('Browser smoke passed: 320/1280px, five tabs, arrow/Home/End navigation, light/dark/system, confirmed CGU, persisted theme, keyboard skip link, notices, 228 syllabus items, rules, inventory and zero external runtime requests.');
 })().catch(error => { console.error(error); process.exit(1); });

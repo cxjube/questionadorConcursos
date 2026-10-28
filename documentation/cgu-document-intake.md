@@ -1,5 +1,7 @@
 # CGU — leitura inicial dos anexos recebidos
 
+> Atualização: [CGU — Auditoria cadastrada](cgu-intake-release.md) após confirmação explícita do cargo 1. São 266 itens e 106 questões de treino; simulado bloqueado por insuficiência. Os registros de escolha pendente abaixo são históricos.
+
 Em 27/10/2026, o usuário indicou interesse em **Comunicação e Marketing** e enviou duas cópias em PDF:
 
 - Edital nº 1 — CGU/AFFC, de 08/10/2026: abertura, arquivo `cgu.pdf`.

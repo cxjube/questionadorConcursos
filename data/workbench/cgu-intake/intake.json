@@ -1,9 +1,9 @@
 {
   "id": "cgu-upload-intake-2026-10-27",
   "reviewedAt": "2026-10-27",
-  "status": "pending_specialty_confirmation",
+  "status": "canonical_registered",
   "requestedArea": "Comunicação e Marketing",
-  "finding": "User corrected the intended career to AFFC. The supplied opening notice offers Auditoria and three TI specialties; the specific specialty still requires confirmation before canonical program/rule registration.",
+  "finding": "User explicitly confirmed role 1 AFFC — Auditoria. Prepare the complete common and Auditoria-specific program; no TI or Comunicação role is inferred.",
   "documents": [
     {
       "file": "data/workbench/cgu-intake/cgu.pdf",
@@ -12,7 +12,7 @@
       "pages": 69,
       "source": "user_upload",
       "externalIdentity": "byte_match_official_cdn",
-      "canonicalPublication": false,
+      "canonicalPublication": true,
       "officialUrl": "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/C7A60D15CB0DDDFA92233056D728C555505D6B935D7048646D49445EB346F825.pdf",
       "remoteSha256": "d4ccc50d4fdff5345ce197658eb60ba0afa85bc841d9aef1b265900c71653985",
       "verifiedAt": "2026-10-28"
@@ -24,7 +24,7 @@
       "pages": 1,
       "source": "user_upload",
       "externalIdentity": "byte_match_official_cdn",
-      "canonicalPublication": false,
+      "canonicalPublication": true,
       "officialUrl": "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/8CC969EF9F81DD9088CC93655FE2734C95419BE8A9285A887D96D915605D867C.pdf",
       "remoteSha256": "60b757ea292e19ba1bdbb7da06f9deed6d2c6d7db5abc607342b49ab7b98da77",
       "verifiedAt": "2026-10-28"
@@ -72,7 +72,7 @@
     ],
     "roleChanges": false
   },
-  "nextAction": "Confirm only the specialty, then consolidate its specific program, register canonical sources/role/rules, review thematic reuse and form a real 40/40/90 CE reserve. Common preparation is complete; do not ask again for the AFFC career.",
+  "nextAction": "Expand the confirmed Auditoria CE bank using reviewed official pairs. Speciality and career are confirmed; do not ask them again.",
   "confirmedCareer": "Auditor Federal de Finanças e Controle",
   "userCorrectionAt": "2026-10-28",
   "officialListing": {
@@ -135,11 +135,11 @@
     "itemCount": 145,
     "basicItems": 58,
     "complementaryItems": 87,
-    "status": "workbench_only_pending_specialty",
-    "canonicalPublication": false
+    "status": "registered_with_confirmed_auditoria_role",
+    "canonicalPublication": true
   },
   "enginePreparation": {
-    "status": "implemented_with_isolated_synthetic_tests",
+    "status": "implemented_real_profile_blocked_until_capacity",
     "syllabusBlocks": [
       "basic",
       "complementary",
@@ -147,5 +147,14 @@
     ],
     "realCGUSimulatorAvailable": false,
     "reference": "documentation/cgu-common-preparation.md"
+  },
+  "confirmedSpecialty": "Auditoria",
+  "confirmedRoleNumber": 1,
+  "specialtyConfirmedAt": "2026-10-28",
+  "canonicalRegistration": {
+    "contestId": "cgu-2026",
+    "roleId": "cgu-auditoria",
+    "manifest": "data/reviews/cgu-intake.json",
+    "reference": "documentation/cgu-intake-release.md"
   }
 }

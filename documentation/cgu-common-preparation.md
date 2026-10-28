@@ -1,5 +1,7 @@
 # CGU — programa comum e suporte aos três blocos C/E
 
+> Atualização: [CGU — Auditoria cadastrada](cgu-intake-release.md) após confirmação explícita do cargo 1. São 266 itens e 106 questões de treino; simulado bloqueado por insuficiência. Os registros de escolha pendente abaixo são históricos.
+
 Entrega de **28/10/2026**. O objetivo confirmado é Auditor Federal de Finanças e Controle. **A especialidade ainda precisa ser definida entre Auditoria e as três opções de TI.** Esta etapa prepara o que independe dessa escolha; não cadastra uma especialidade presumida, não acrescenta questões e não libera um simulado CGU no site.
 
 ## Documentos e programa

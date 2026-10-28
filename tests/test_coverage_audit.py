@@ -37,6 +37,10 @@ class CoverageAuditTests(unittest.TestCase):
                         change = read_json(ROOT / 'data/reviews/abdi-intake.json')['contestTransition']
                         self.assertEqual(row, change['before'])
                         self.assertEqual(indexed[change['after']['id']], change['after'])
+                    elif section == 'contests' and row['id'] == 'cgu-futuro':
+                        change = read_json(ROOT / 'data/reviews/cgu-intake.json')['contestTransition']
+                        self.assertEqual(row, change['before'])
+                        self.assertEqual(indexed[change['after']['id']], change['after'])
                     else:
                         self.assertEqual(indexed[row['id']], row, (section, row['id']))
             else:

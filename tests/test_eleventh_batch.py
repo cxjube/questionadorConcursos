@@ -162,6 +162,6 @@ class EleventhBatchTests(unittest.TestCase):
         self.assertEqual(len(report['newDirectSyllabusItems']), 22)
         self.assertEqual(len(self.questions), 482)
         self.assertEqual(sum(q['type'] == 'multiple_choice' for q in self.c['questions']), 97)
-        self.assertEqual(len(self.c['documents']), 175)
+        self.assertEqual(len(self.c['documents']), 178)
         self.assertEqual(sum(p['inventory']['itemCount'] for p in self.c['papers']), 3506)
         self.assertEqual(sum(len(p['inventory']['annulledItems']) for p in self.c['papers']), 153)

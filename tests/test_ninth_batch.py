@@ -45,7 +45,7 @@ class NinthBatchTests(unittest.TestCase):
                 doc = self.docs[id]
                 self.assertEqual(hashlib.sha256((ROOT / doc['file']).read_bytes()).hexdigest(), doc['sha256'])
                 self.assertIn(doc['officialUrl'], [row['paperUrl'], row['answerUrl']])
-        self.assertEqual(len(self.c['documents']), 175)
+        self.assertEqual(len(self.c['documents']), 178)
         self.assertEqual(len(self.c['papers']), 59)
         self.assertEqual(sum(p['inventory']['itemCount'] for p in self.c['papers']), 3506)
         self.assertEqual(self.papers['source-038-anm-013-01']['year'], 2025)

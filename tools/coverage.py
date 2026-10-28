@@ -212,6 +212,8 @@ def current_artifacts(catalog, review):
 
 def role_artifacts(catalog, review, role_id):
     """Generate a separate coverage report for the new target, never merge contests."""
+    if role_id == 'cgu-auditoria':
+        return cgu_artifacts(catalog, review)
     role = next(r for r in catalog['roles'] if r['id'] == role_id)
     report = coverage(catalog, role_id=role_id)
     ids = {q for row in report['items'] for q in row['directQuestionIds']}
@@ -243,4 +245,53 @@ def role_artifacts(catalog, review, role_id):
         lines.append(f"| {disciplines[row['disciplineId']]} | {row['number']} | {label} | {row['directMC']} | {row['directCE']} | {states[row['state']]} |")
     lines+=['', 'Gerado por `python -m tools coverage --role abdi-comunicacao-marketing`; verificar com `--check`.', '']
     output['documentation/'+stem+'.md']='\n'.join(lines)
+    return output
+
+
+def cgu_artifacts(catalog, review):
+    """Expose the confirmed Auditoria scope and its real three-block shortage."""
+    from tools.readiness import ce_capacity
+    role_id = 'cgu-auditoria'
+    report = coverage(catalog, role_id=role_id)
+    ids = {q for row in report['items'] for q in row['directQuestionIds']}
+    questions = {q['id']: q for q in catalog['questions']}
+    report.update(roleId=role_id, reviewedAt=review['reviewedAt'], reviewId=review['id'],
+                  distinctQuestions=len(ids), distinctCE=sum(questions[q]['type'] == 'true_false' for q in ids),
+                  distinctMC=sum(questions[q]['type'] == 'multiple_choice' for q in ids))
+    readiness = ce_capacity(catalog, role_id)
+    output = {'data/reviews/coverage-cgu-current.json': json.dumps(report, ensure_ascii=False, indent=2) + '\n',
+              'data/reviews/cgu-bank-readiness.json': json.dumps(readiness, ensure_ascii=False, indent=2) + '\n'}
+    fields = ['id', 'disciplineId', 'block', 'number', 'label', 'state', 'priority', 'directCE', 'directMC', 'subtreeCE', 'subtreeMC']
+    stream = io.StringIO(newline='')
+    writer = csv.DictWriter(stream, fieldnames=fields, lineterminator='\n')
+    writer.writeheader()
+    for row in report['items']:
+        writer.writerow({k: row[k] for k in fields})
+    output['documentation/coverage-cgu-current.csv'] = stream.getvalue()
+    lines = ['# CGU — Auditoria: mapa do banco e lacunas', '',
+             f"Revisão: {review['reviewedAt']}. **{len(ids)} questões distintas: {report['distinctCE']} C/E e {report['distinctMC']} MC.**", '',
+             f"Programa: {report['totalItems']} itens; {report['directItems']} diretos, {report['descendantsOnly']} apenas por descendentes e {report['emptyItems']} subárvores vazias.", '',
+             'Questões compartilhadas preservam texto, contexto, formato e gabarito de origem. MC permanecem no treino, fora da reserva C/E. Pais e filhos são contados separadamente: ter uma amostra não equivale a cobrir todo o item.', '',
+             '## Capacidade do simulado', '',
+             f"São necessários {readiness['requiredCE']} IDs distintos. Há {readiness['distinctCE']} C/E elegíveis e {readiness['allocatableDistinctCE']} alocáveis simultaneamente. **Mínimo quantitativo adicional: {readiness['minimumAdditionalCE']} C/E**, respeitando as compatibilidades por bloco. O simulado continua bloqueado.", '',
+             '| Bloco | Exigidas | C/E elegíveis no filtro | Alocadas sem repetição | Déficit nesta alocação |',
+             '| --- | ---: | ---: | ---: | ---: |']
+    for b in readiness['blocks']:
+        lines.append(f"| {b['label']} | {b['required']} | {b['availableCE']} | {b['allocatedCE']} | {b['missingForThisAllocation']} |")
+    lines += ['', 'Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos déficits não é única. Quantidade suficiente não garante variedade, cobertura ou dificuldade equivalente à prova.', '',
+              '## Prioridades editoriais', '',
+              '1. Finanças, orçamento e contabilidade: disciplina ainda sem questão vinculada; priorizar PPA/LDO/LOA, execução, demonstrações, custos e estatais.',
+              '2. Auditoria governamental: planejamento, evidências, achados, amostragem, consultoria/apuração e qualidade. Os exemplos de IA e comunicação são apenas recortes.',
+              '3. Métodos de avaliação: desenho causal, contrafactual, impacto, custo-benefício, ética da investigação e limites da inferência.',
+              '4. Integridade, correição e proteção: conflitos de interesses, denúncias, leniência, PAR, prescrição e assédio. Não importar regulamentos próprios da ABDI.',
+              '5. Básicos/complementares: ampliar diversidade, sociedade brasileira, ética pública e evidências; a capacidade agregada dos filtros não indica cobertura fina.', '',
+              '| Disciplina | Item | Conteúdo oficial | C/E direto | MC direto | Situação |',
+              '| --- | --- | --- | ---: | ---: | --- |']
+    disciplines = {d['id']: d['label'] for d in catalog['disciplines']}
+    states = {'direct': 'Direto', 'descendants_only': 'Só descendentes', 'empty': 'Sem questões'}
+    for row in report['items']:
+        label = row['label'].replace('|', '\\|')
+        lines.append(f"| {disciplines[row['disciplineId']]} | {row['number']} | {label} | {row['directCE']} | {row['directMC']} | {states[row['state']]} |")
+    lines += ['', '[Entrega e pendências](cgu-intake-release.md). Gerado por `python -m tools coverage --role cgu-auditoria`; conferir com `--check`.', '']
+    output['documentation/coverage-cgu-current.md'] = '\n'.join(lines)
     return output
