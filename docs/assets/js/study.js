@@ -6,7 +6,8 @@ const Study = (() => {
   const MAX_BYTES = 10 * 1024 * 1024;
   const MODES = ['all', 'errors', 'unanswered', 'blank', 'exam'];
   // These are target syllabus blocks, never the blocks printed in a source booklet.
-  const EXAM_BLOCKS = {p1:'basic', p2:'specific', basic:'basic', institutional:'institutional', specific:'specific'};
+  const EXAM_BLOCKS = {p1:'basic', p2:'specific', basic:'basic', complementary:'complementary', institutional:'institutional', specific:'specific'};
+  const SYLLABUS_BLOCKS = ['basic','complementary','institutional','specific'];
   const clone = value => JSON.parse(JSON.stringify(value));
   const own = (object, key) => Object.prototype.hasOwnProperty.call(object, key);
   const id = () => globalThis.crypto.randomUUID();
@@ -99,7 +100,7 @@ const Study = (() => {
   }
   function selection(data, roleId, filters = {}) {
     const disciplineId = filters.disciplineId || null, topicId = filters.topicId || null, block = filters.block || null;
-    if (block && !['basic','institutional','specific'].includes(block)) throw Error('Bloco inválido.');
+    if (block && !SYLLABUS_BLOCKS.includes(block)) throw Error('Bloco inválido.');
     const syllabus = data.syllabusItems.filter(s => s.roleId === roleId && s.status === 'confirmed');
     const topic = topicId && data.topics.find(t => t.id === topicId && syllabus.some(s => s.topicId === t.id));
     const discipline = disciplineId && data.disciplines.find(d => d.id === disciplineId && syllabus.some(s => data.topics.find(t => t.id === s.topicId)?.disciplineId === d.id));
@@ -153,7 +154,9 @@ const Study = (() => {
   function supportedExamRule(rule) {
     if (!rule || rule.status !== 'confirmed' || !Number.isInteger(rule.version) || rule.version < 1 ||
         !Number.isInteger(rule.durationMinutes) || rule.durationMinutes < 1 || rule.durationMinutes > 1440 || !Array.isArray(rule.blocks)) return false;
-    const ce = rule.blocks.length === 2 && rule.blocks.every((b,i)=>b?.id===['p1','p2'][i] && b.questionType==='true_false');
+    const legacyCE = rule.blocks.length === 2 && rule.blocks.every((b,i)=>b?.id===['p1','p2'][i] && b.questionType==='true_false');
+    const threeCE = rule.blocks.length === 3 && rule.blocks.every((b,i)=>b?.id===['basic','complementary','specific'][i] && b.questionType==='true_false');
+    const ce = legacyCE || threeCE;
     const mc = rule.blocks.length === 3 && rule.blocks.every((b,i)=>b?.id===['basic','institutional','specific'][i] && b.questionType==='multiple_choice');
     if (!ce && !mc) return false;
     const count = rule.blocks.reduce((n,b)=>n+b.questionCount,0);
@@ -165,7 +168,8 @@ const Study = (() => {
       if (!Number.isInteger(block.questionCount) || block.questionCount < 1 || block.questionCount > 250 ||
           block.blank !== 0 || block.doubleMarked !== 0 || block.annulledPolicy !== 'credit' || block.annulledPoints !== null ||
           !Number.isFinite(block.minimumScore) || own(block,'minimumScoreExclusive') && typeof block.minimumScoreExclusive !== 'boolean') return false;
-      if (ce) return block.correct === 1 && block.incorrect === -1 && !own(block,'distribution');
+      if (ce) return Number.isFinite(block.correct) && block.correct > 0 && block.incorrect === -block.correct &&
+        (!legacyCE || block.correct === 1) && !own(block,'distribution');
       const distribution = block.distribution;
       return Number.isFinite(block.correct) && block.correct > 0 && block.incorrect === 0 &&
         Array.isArray(distribution) && distribution.length > 0 && distribution.length <= 30 &&
@@ -215,7 +219,9 @@ const Study = (() => {
         questions:d.disciplineId ? pool(data,roleId,empty(),'all',{block:EXAM_BLOCKS[block.id],type:block.questionType,disciplineId:d.disciplineId}).filter(q=>valid.has(q.id)) : block.questions}));
     });
     const distinct = new Set(blocks.flatMap(b=>b.questions.map(q=>q.id))).size;
-    const ceReady = blocks[0].questionType==='true_false' && blocks.every(b=>b.questions.length>=b.questionCount) && distinct>=blocks.reduce((n,b)=>n+b.questionCount,0);
+    // Individual capacities plus union size suffice only for two sets. Three
+    // blocks must also satisfy every joint subset, checked by exact matching.
+    const ceReady = blocks.length===2 && blocks[0].questionType==='true_false' && blocks.every(b=>b.questions.length>=b.questionCount) && distinct>=blocks.reduce((n,b)=>n+b.questionCount,0);
     const allocation = ceReady ? {ready:true,missing:[]} : allocateExam(slots);
     const missing = allocation.missing.map(slot=>({blockId:slot.blockId,disciplineId:slot.disciplineId,count:slot.missing}));
     const detail = blocks.map(b=>({label:b.label,count:missing.filter(m=>m.blockId===b.id).reduce((n,m)=>n+m.count,0)})).filter(b=>b.count).map(b=>b.label+': '+b.count).join('; ');
@@ -228,7 +234,7 @@ const Study = (() => {
     if (!availability.ready) throw Error(availability.reason);
     const {rule,blocks,slots} = availability;
     let allocated;
-    if (blocks[0].questionType === 'true_false') {
+    if (blocks.length === 2 && blocks[0].questionType === 'true_false') {
       // Preserve the existing Câmara draw, including its seeded shuffle order.
       const ids = blocks.map(b=>new Set(b.questions.map(q=>q.id)));
       const shared = randomized(blocks[0].questions.filter(q=>ids[1].has(q.id)),settings.random);
@@ -386,7 +392,7 @@ const Study = (() => {
       if (own(session, 'selection')) {
         const selected = session.selection;
         if (!record(selected)) fail();
-        if (own(selected,'block') && ![null,'basic','institutional','specific'].includes(selected.block)) fail();
+        if (own(selected,'block') && selected.block !== null && !SYLLABUS_BLOCKS.includes(selected.block)) fail();
         if (own(selected,'paperId') && (!(selected.paperId === null || identifier(selected.paperId)) || !(selected.paperLabel === null || text(selected.paperLabel)) || Boolean(selected.paperId) !== Boolean(selected.paperLabel))) fail();
         if (own(selected,'year') && !(selected.year === null || Number.isInteger(selected.year) && selected.year >= 1900 && selected.year <= 2100)) fail();
         if (own(selected,'type') && ![null,'true_false','multiple_choice'].includes(selected.type)) fail();
@@ -436,7 +442,7 @@ const Study = (() => {
         }
         if (contexts.size !== q.contextIds.length || q.contextIds.some(ref => !contexts.has(ref))) fail();
         for (const m of item.mappings) {
-          if (!record(m) || own(m,'block') && !['basic','institutional','specific'].includes(m.block)) fail();
+          if (!record(m) || own(m,'block') && !SYLLABUS_BLOCKS.includes(m.block)) fail();
           if (!record(m) || m.roleId !== session.roleId || !['id','syllabusItemId','noticeId','roleId','topicId','disciplineId'].every(k => identifier(m[k])) || !text(m.topicLabel) || !text(m.disciplineLabel) || !text(m.number)) fail();
         }
         for (const explanation of item.explanations) {

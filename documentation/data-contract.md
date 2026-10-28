@@ -198,6 +198,14 @@ O leitor offline de gabaritos reconhece o cabeçalho completo de cargo, número 
 
 O contrato v3 admite também `syllabusItems[].block = institutional`, além de `basic` e `specific`. Na ABDI, `basic` identifica Conhecimentos Gerais; os nomes visíveis vêm do perfil do cargo. O filtro e os backups de treino aceitam o terceiro bloco sem alterar os snapshots anteriores.
 
+### Preparação CGU — bloco complementar e três provas C/E
+
+O contrato v3 admite `syllabusItems[].block = complementary`, assim como filtros e snapshots opcionais de vínculos nos backups v1. É bloco do edital de destino, independente do inventário do caderno de origem. Os relatórios contabilizam esse bloco somente quando presente. Na CGU preparada, P1/P2/P3 correspondem a `basic/complementary/specific`; os IDs antigos `p1/p2` continuam exclusivamente com o significado Câmara `basic/specific`, preservando seus snapshots e algoritmo de sorteio.
+
+O motor suporta três blocos C/E nessa ordem, com acerto positivo e erro de igual magnitude negativa por bloco, branco/dupla zero, política de anulação credit e mínimos explícitos. Usa alocação exata sem repetir IDs, inclusive quando dois blocos disputam um subconjunto insuficiente apesar de a união e as ofertas individuais parecerem suficientes. Perfil completo, pesos, quatro mínimos, prazo e alocação são validados na restauração, preservando regras anteriores válidas. Não há migração ou recálculo de histórico.
+
+Nesta entrega não existe perfil CGU canônico: apenas a [preparação de fonte](cgu-common-preparation.md), fora do Pages. Confirmar a especialidade, cadastrar o programa e formar a reserva real são etapas anteriores à liberação do simulado. Fixtures de testes não contam como questões oficiais disponíveis.
+
 `scoringRules[].minimumCorrectCount` registra um mínimo de quantidade de acertos independente da pontuação ponderada. `blocks[].minimumScoreExclusive: true` aplica comparação estrita ao `minimumScore` informado (ABDI: nota maior que zero por área). O mínimo exclusivo exige um valor numérico. `blocks[].distribution` lista `disciplineId`/`questionCount`, sem duplicatas, com soma igual ao total do bloco e disciplinas pertencentes àquele cargo e bloco.
 
 Esses campos descrevem o edital; o motor de simulado continua aceitando apenas o perfil C/E P1/P2 já testado. Não inferir 12,5 pontos, copiar mínimos da Câmara ou converter C/E em MC. A entrega ABDI disponibiliza treino de conteúdo. As associações para o novo cargo não alteram a questão nem os vínculos gravados em sessões da Câmara; ambos os históricos usam suas projeções por cargo.

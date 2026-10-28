@@ -82,7 +82,7 @@ async function reflow(page) {
     assert.match(await page.locator('[data-result-block="'+block+'"] dd').first().innerText(),new RegExp('^'+points+' / '));
     assert.equal(await page.locator('[data-result-block="'+block+'"] .exam-minimum').innerText(),'Mínimo atingido');
    }
-   assert.match(await page.locator('.exam-outcome').innerText(),/atingiu os três mínimos/);
+   assert.match(await page.locator('.exam-outcome').innerText(),/atingiu os critérios objetivos/);
    assert.equal(await page.locator('.didactic-comment').count()>0,true);
    await reflow(page);await page.screenshot({path:'/tmp/exam-results-'+width+'.png',fullPage:true});
    await page.locator('#study-history').click();await page.locator('#backup-tools summary').click();

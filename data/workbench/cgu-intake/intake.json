@@ -72,7 +72,7 @@
     ],
     "roleChanges": false
   },
-  "nextAction": "Wait for specialty confirmation, preserving confirmed AFFC career and uploaded notices; do not ask again for the career or fabricate Comunicação.",
+  "nextAction": "Confirm only the specialty, then consolidate its specific program, register canonical sources/role/rules, review thematic reuse and form a real 40/40/90 CE reserve. Common preparation is complete; do not ask again for the AFFC career.",
   "confirmedCareer": "Auditor Federal de Finanças e Controle",
   "userCorrectionAt": "2026-10-28",
   "officialListing": {
@@ -127,5 +127,25 @@
       "8.11.4"
     ],
     "note": "Read from opening; no inherited Câmara/ABDI scoring. CGU would need explicit support for complementary syllabus block and three CE blocks before a complete simulator."
+  },
+  "commonPreparation": {
+    "file": "data/workbench/cgu-intake/common-program.json",
+    "preparedAt": "2026-10-28",
+    "disciplineCount": 9,
+    "itemCount": 145,
+    "basicItems": 58,
+    "complementaryItems": 87,
+    "status": "workbench_only_pending_specialty",
+    "canonicalPublication": false
+  },
+  "enginePreparation": {
+    "status": "implemented_with_isolated_synthetic_tests",
+    "syllabusBlocks": [
+      "basic",
+      "complementary",
+      "specific"
+    ],
+    "realCGUSimulatorAvailable": false,
+    "reference": "documentation/cgu-common-preparation.md"
   }
 }

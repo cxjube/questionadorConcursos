@@ -64,7 +64,8 @@ def coverage(catalog, umbrella_ids=(), role_id='camara-comunicacao-divulgacao'):
                                 questionsCE=sum(questions[q]['type'] == 'true_false' for q in ids),
                                 questionsMC=sum(questions[q]['type'] == 'multiple_choice' for q in ids)))
     blocks = {}
-    for block in (['basic', 'institutional', 'specific'] if any(s['block'] == 'institutional' for s in syllabus) else ['basic', 'specific']):
+    block_order = ['basic', 'complementary', 'institutional', 'specific']
+    for block in (b for b in block_order if b in {'basic', 'specific'} or any(s['block'] == b for s in syllabus)):
         ids = {q for r in rows if r['block'] == block for q in r['directQuestionIds']}
         blocks[block] = dict(total=len(ids), ce=sum(questions[q]['type'] == 'true_false' for q in ids))
     return dict(totalItems=len(rows), directItems=sum(bool(r['directQuestionIds']) for r in rows),

@@ -145,7 +145,10 @@
         const selected = items.filter(item => topicIndex.get(item.topicId)?.disciplineId === discipline.id);
         const details = document.createElement('details');
         details.className = 'syllabus-group';
-        details.append(node('summary', discipline.label + ' — ' + (selected[0]?.block === 'institutional' ? 'Institucionais' : selected[0]?.block === 'basic' ? (data.scoringRules.find(r=>r.roleId===roleId)?.blocks.some(b=>b.id==='basic') ? 'Gerais' : 'Básicos') : 'Específicos')));
+        const block = selected[0]?.block;
+        const label = block === 'basic' ? (data.scoringRules.find(r=>r.roleId===roleId)?.blocks.some(b=>b.id==='institutional') ? 'Gerais' : 'Básicos') :
+          ({complementary:'Complementares',institutional:'Institucionais',specific:'Específicos'})[block];
+        details.append(node('summary', discipline.label + ' — ' + label));
         /** @param {string | null} parentId @returns {HTMLUListElement} */
         function tree(parentId) {
           const list = document.createElement('ul');

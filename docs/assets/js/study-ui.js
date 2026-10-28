@@ -71,12 +71,12 @@ const StudyUI = (() => {
         if (mc) {
           const distribution = b.distribution.map(d=>(data.disciplines.find(x=>x.id===d.disciplineId)?.label || d.disciplineId)+': '+d.questionCount).join(' · ');
           list.append(node('li',distribution + '. Cada acerto vale ' + b.correct.toLocaleString('pt-BR') + ' ponto.'));
-        }
+        } else list.append(node('li',b.label + ': acerto +' + b.correct + ' · erro −' + Math.abs(b.incorrect) + ' · branco ' + b.blank + '.'));
       }
       if (rule.minimumTotalScore !== null) list.append(node('li','Mínimo total: ' + rule.minimumTotalScore + ' pontos.'));
       if (rule.minimumCorrectCount !== undefined) list.append(node('li','Mínimo total: ' + rule.minimumCorrectCount + ' acertos, independentemente da nota ponderada.'));
       list.append(node('li','Duração: ' + rule.durationMinutes + ' minutos. O tempo começa ao iniciar e continua fora da página.'),
-        node('li',mc ? 'Erros e brancos valem zero. É preciso pontuar nas três áreas. Gabaritos e comentários aparecem ao finalizar.' : 'Acerto +1 · erro −1 · branco 0. Gabaritos e comentários aparecem ao finalizar.'));
+        node('li',mc ? 'Erros e brancos valem zero. É preciso pontuar nas três áreas. Gabaritos e comentários aparecem ao finalizar.' : 'Gabaritos e comentários aparecem ao finalizar.'));
       if (mc) list.append(node('li','Questões de provas anteriores em seu formato original; o número de alternativas pode variar em relação à prova FGV.'));
       details.append(list,node('p','Os filtros do treino personalizado não se aplicam ao simulado.', 'review-note'));
       element('exam-bank-note').textContent = available.distinct === rule.blocks.reduce((n,b)=>n+b.questionCount,0) ? 'Com a reserva atual, novos simulados reutilizam as mesmas questões em outra ordem.' : 'O sorteio usa apenas questões elegíveis de cada bloco, sem repetição dentro do simulado.';
@@ -196,12 +196,12 @@ const StudyUI = (() => {
     function blockLabel(roleId, value) {
       if (!value) return 'Todos os blocos';
       const blocks = data.scoringRules.find(r=>r.roleId===roleId)?.blocks || [];
-      return blocks.find(b=>b.id===value || b.id===({basic:'p1',specific:'p2'})[value])?.label || ({basic:'Conhecimentos gerais',institutional:'Conhecimentos institucionais',specific:'Conhecimentos específicos'})[value];
+      return blocks.find(b=>b.id===value || b.id===({basic:'p1',specific:'p2'})[value])?.label || ({basic:'Conhecimentos gerais',complementary:'Conhecimentos complementares',institutional:'Conhecimentos institucionais',specific:'Conhecimentos específicos'})[value];
     }
     function refreshFilters(resetDiscipline = false) {
       const previousBlock = resetDiscipline ? '' : block.value;
       block.replaceChildren(); addOption(block, '', 'Todos os blocos');
-      for (const value of ['basic','institutional','specific']) if (data.syllabusItems.some(s=>s.roleId===selectedRole && s.block===value)) addOption(block,value,blockLabel(selectedRole,value));
+      for (const value of ['basic','complementary','institutional','specific']) if (data.syllabusItems.some(s=>s.roleId===selectedRole && s.block===value)) addOption(block,value,blockLabel(selectedRole,value));
       if ([...block.options].some(o=>o.value===previousBlock)) block.value=previousBlock;
       const previousDiscipline = resetDiscipline ? '' : discipline.value;
       const previousTopic = resetDiscipline ? '' : topic.value;
@@ -514,7 +514,7 @@ const StudyUI = (() => {
       const section = node('section',undefined,'exam-results'); section.id = 'exam-results';
       const mc = session.scoringProfile.rule.blocks[0].questionType === 'multiple_choice';
       section.classList.toggle('mc-exam-results',mc);
-      section.append(node('h3','Resultado do simulado'),node('p',score.meetsMinimums ? mc ? 'Você atingiu os critérios objetivos neste simulado.' : 'Você atingiu os três mínimos objetivos neste simulado.' : 'Você não atingiu todos os mínimos objetivos neste simulado.','exam-outcome'));
+      section.append(node('h3','Resultado do simulado'),node('p',score.meetsMinimums ? 'Você atingiu os critérios objetivos neste simulado.' : 'Você não atingiu todos os mínimos objetivos neste simulado.','exam-outcome'));
       const cards = node('div',undefined,'exam-score-cards');
       const pointText = value=>mc ? value.toLocaleString('pt-BR',{maximumFractionDigits:2}) : String(value);
       for (const block of [...score.blocks,{id:'total',label:'Nota total',...counts,points:score.points,maximum:score.maximum,minimum:score.minimum,met:score.totalMet}]) {

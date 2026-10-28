@@ -1,5 +1,7 @@
 # Questionador Concursos
 
+CGU: [preparação comum e próximos passos](documentation/cgu-common-preparation.md) — nove disciplinas e 145 itens no workbench; suporte técnico a três blocos C/E, sem banco ou simulado CGU publicado enquanto a especialidade estiver pendente. Câmara e ABDI continuam disponíveis.
+
 **ABDI — simulado disponível:** [entrega e pendências](documentation/abdi-fourth-batch-release.md), 14 novas MC oficiais. São **232 questões de treino (146 C/E / 86 MC)** e **20 institucionais**. O banco preenche **60/60**, respeitando as cotas 8/6/6 e 4/4/8/4, com 210 minutos e critérios próprios. A reserva institucional ainda é mínima. Veja [o mapa ABDI](documentation/coverage-abdi-current.md).
 
 Câmara: [17º lote e consolidação](documentation/seventeenth-batch-release.md): **395 questões, 378 C/E, reserva 169/209**, 181/228 itens com vínculo direto e 14 lacunas explícitas. Novo lote de 23 C/E; classificação adicional versionada, sem reclassificar o histórico.

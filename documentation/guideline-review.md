@@ -1,5 +1,7 @@
 # Revisão das diretrizes recebidas — 23/10/2026
 
+> CGU — [preparação de 28/10](cgu-common-preparation.md): nove disciplinas/145 itens comuns fora do Pages; suporte técnico a três blocos C/E e pesos independentes, testado com fixture isolada. Especialidade pendente, sem questões ou simulado CGU publicados. Catálogo global preservado em 482 questões.
+
 > ABDI — [quarto lote](abdi-fourth-batch-release.md): simulado real disponível com 60 IDs em todas as cotas; 232 questões de treino e 20 institucionais. A reserva é mínima, e 28 subárvores continuam sem questões. Varredura completa por banco prevista para o encerramento. Os registros seguintes são históricos.
 
 > ABDI — [segundo lote](abdi-second-batch-release.md): cinco grupos internos confirmados, 201 questões de treino, sete MC institucionais e déficit de 13 pelas cotas. O [motor FGV](abdi-exam-engine-release.md) está implementado/testado e continua bloqueado na base real insuficiente. Os registros anteriores são históricos.
