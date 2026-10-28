@@ -249,7 +249,7 @@ def role_artifacts(catalog, review, role_id):
 
 
 def cgu_artifacts(catalog, review):
-    """Expose the confirmed Auditoria scope and its real three-block shortage."""
+    """Expose the confirmed Auditoria scope and exact three-block capacity."""
     from tools.readiness import ce_capacity
     role_id = 'cgu-auditoria'
     report = coverage(catalog, role_id=role_id)
@@ -273,15 +273,15 @@ def cgu_artifacts(catalog, review):
              f"Programa: {report['totalItems']} itens; {report['directItems']} diretos, {report['descendantsOnly']} apenas por descendentes e {report['emptyItems']} subárvores vazias.", '',
              'Questões compartilhadas preservam texto, contexto, formato e gabarito de origem. MC permanecem no treino, fora da reserva C/E. Pais e filhos são contados separadamente: ter uma amostra não equivale a cobrir todo o item.', '',
              '## Capacidade do simulado', '',
-             f"São necessários {readiness['requiredCE']} IDs distintos. Há {readiness['distinctCE']} C/E elegíveis e {readiness['allocatableDistinctCE']} alocáveis simultaneamente. **Mínimo quantitativo adicional: {readiness['minimumAdditionalCE']} C/E**, respeitando as compatibilidades por bloco. O simulado continua bloqueado.", '',
+             f"São necessários {readiness['requiredCE']} IDs distintos. Há {readiness['distinctCE']} C/E elegíveis e {readiness['allocatableDistinctCE']} alocáveis simultaneamente. **Mínimo quantitativo adicional: {readiness['minimumAdditionalCE']} C/E**, respeitando as compatibilidades por bloco. {('O simulado está disponível.' if readiness['ready'] else 'O simulado continua bloqueado.')}", '',
              '| Bloco | Exigidas | C/E elegíveis no filtro | Alocadas sem repetição | Déficit nesta alocação |',
              '| --- | ---: | ---: | ---: | ---: |']
     for b in readiness['blocks']:
         lines.append(f"| {b['label']} | {b['required']} | {b['availableCE']} | {b['allocatedCE']} | {b['missingForThisAllocation']} |")
     lines += ['', 'Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos déficits não é única. Quantidade suficiente não garante variedade, cobertura ou dificuldade equivalente à prova.', '',
               '## Prioridades editoriais', '',
-              '1. Finanças, orçamento e contabilidade: disciplina ainda sem questão vinculada; priorizar PPA/LDO/LOA, execução, demonstrações, custos e estatais.',
-              '2. Auditoria governamental: planejamento, evidências, achados, amostragem, consultoria/apuração e qualidade. Os exemplos de IA e comunicação são apenas recortes.',
+              '1. Finanças, orçamento e contabilidade: PPA/LDO/LOA e execução já têm amostras; ampliar demonstrações, custos, estatais e classificação patrimonial, com conferência da edição vigente do MCASP.',
+              '2. Auditoria governamental: planejamento, evidências, achados, amostragem, consultoria/apuração e qualidade. Há amostras de planejamento, evidências e relatórios, ainda sem cobertura integral.',
               '3. Métodos de avaliação: desenho causal, contrafactual, impacto, custo-benefício, ética da investigação e limites da inferência.',
               '4. Integridade, correição e proteção: conflitos de interesses, denúncias, leniência, PAR, prescrição e assédio. Não importar regulamentos próprios da ABDI.',
               '5. Básicos/complementares: ampliar diversidade, sociedade brasileira, ética pública e evidências; a capacidade agregada dos filtros não indica cobertura fina.', '',
@@ -292,6 +292,6 @@ def cgu_artifacts(catalog, review):
     for row in report['items']:
         label = row['label'].replace('|', '\\|')
         lines.append(f"| {disciplines[row['disciplineId']]} | {row['number']} | {label} | {row['directCE']} | {row['directMC']} | {states[row['state']]} |")
-    lines += ['', '[Entrega e pendências](cgu-intake-release.md). Gerado por `python -m tools coverage --role cgu-auditoria`; conferir com `--check`.', '']
+    lines += ['', '[Entrega e pendências](cgu-first-batch-release.md). Gerado por `python -m tools coverage --role cgu-auditoria`; conferir com `--check`.', '']
     output['documentation/coverage-cgu-current.md'] = '\n'.join(lines)
     return output

@@ -1,21 +1,21 @@
 {
   "totalItems": 266,
-  "directItems": 47,
-  "descendantsOnly": 39,
-  "emptyItems": 180,
-  "emptyLeaves": 136,
+  "directItems": 71,
+  "descendantsOnly": 49,
+  "emptyItems": 146,
+  "emptyLeaves": 116,
   "blocks": {
     "basic": {
-      "total": 43,
-      "ce": 43
+      "total": 46,
+      "ce": 46
     },
     "complementary": {
-      "total": 44,
-      "ce": 40
+      "total": 69,
+      "ce": 65
     },
     "specific": {
-      "total": 35,
-      "ce": 35
+      "total": 97,
+      "ce": 97
     }
   },
   "disciplines": [
@@ -23,11 +23,11 @@
       "id": "cgu-estado-democracia",
       "label": "ESTADO, DEMOCRACIA, DIREITOS E CIÊNCIA POLÍTICA",
       "totalItems": 25,
-      "directItems": 5,
-      "descendantsOnly": 5,
-      "emptyItems": 15,
-      "emptyLeaves": 11,
-      "questionsCE": 30,
+      "directItems": 7,
+      "descendantsOnly": 7,
+      "emptyItems": 11,
+      "emptyLeaves": 9,
+      "questionsCE": 32,
       "questionsMC": 0
     },
     {
@@ -60,7 +60,7 @@
       "descendantsOnly": 4,
       "emptyItems": 2,
       "emptyLeaves": 1,
-      "questionsCE": 7,
+      "questionsCE": 8,
       "questionsMC": 0
     },
     {
@@ -71,84 +71,84 @@
       "descendantsOnly": 2,
       "emptyItems": 11,
       "emptyLeaves": 8,
-      "questionsCE": 6,
+      "questionsCE": 8,
       "questionsMC": 0
     },
     {
       "id": "cgu-transparencia-ouvidoria",
       "label": "FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL",
       "totalItems": 21,
-      "directItems": 7,
-      "descendantsOnly": 4,
+      "directItems": 8,
+      "descendantsOnly": 3,
       "emptyItems": 10,
       "emptyLeaves": 7,
-      "questionsCE": 10,
+      "questionsCE": 15,
       "questionsMC": 3
     },
     {
       "id": "cgu-direito-controle-responsabilizacao",
       "label": "FUNDAMENTOS DE DIREITO PÚBLICO APLICADO, CONTROLE E RESPONSABILIZAÇÃO",
       "totalItems": 16,
-      "directItems": 4,
+      "directItems": 6,
       "descendantsOnly": 3,
-      "emptyItems": 9,
-      "emptyLeaves": 7,
-      "questionsCE": 8,
+      "emptyItems": 7,
+      "emptyLeaves": 5,
+      "questionsCE": 16,
       "questionsMC": 0
     },
     {
       "id": "cgu-evidencias-dados-ia",
       "label": "FUNDAMENTOS DE EVIDÊNCIAS, DADOS E INTELIGÊNCIA ARTIFICIAL",
       "totalItems": 17,
-      "directItems": 6,
+      "directItems": 7,
       "descendantsOnly": 4,
-      "emptyItems": 7,
+      "emptyItems": 6,
       "emptyLeaves": 6,
-      "questionsCE": 15,
+      "questionsCE": 22,
       "questionsMC": 1
     },
     {
       "id": "cgu-atuacao-integrada",
       "label": "FUNDAMENTOS DE AUDITORIA GOVERNAMENTAL E ATUAÇÃO INTEGRADA DA CGU",
       "totalItems": 18,
-      "directItems": 1,
-      "descendantsOnly": 1,
-      "emptyItems": 16,
-      "emptyLeaves": 12,
-      "questionsCE": 1,
+      "directItems": 3,
+      "descendantsOnly": 3,
+      "emptyItems": 12,
+      "emptyLeaves": 10,
+      "questionsCE": 4,
       "questionsMC": 0
     },
     {
       "id": "cgu-auditoria-governamental",
       "label": "AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO",
       "totalItems": 19,
-      "directItems": 2,
-      "descendantsOnly": 2,
-      "emptyItems": 15,
-      "emptyLeaves": 11,
-      "questionsCE": 3,
+      "directItems": 7,
+      "descendantsOnly": 6,
+      "emptyItems": 6,
+      "emptyLeaves": 6,
+      "questionsCE": 27,
       "questionsMC": 0
     },
     {
       "id": "cgu-financas-orcamento-contabilidade",
       "label": "FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA",
       "totalItems": 25,
-      "directItems": 0,
-      "descendantsOnly": 0,
-      "emptyItems": 25,
-      "emptyLeaves": 18,
-      "questionsCE": 0,
+      "directItems": 5,
+      "descendantsOnly": 3,
+      "emptyItems": 17,
+      "emptyLeaves": 13,
+      "questionsCE": 24,
       "questionsMC": 0
     },
     {
       "id": "cgu-politicas-investigacao-avaliacao",
       "label": "POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO",
       "totalItems": 28,
-      "directItems": 2,
-      "descendantsOnly": 2,
-      "emptyItems": 24,
-      "emptyLeaves": 19,
-      "questionsCE": 4,
+      "directItems": 7,
+      "descendantsOnly": 3,
+      "emptyItems": 18,
+      "emptyLeaves": 15,
+      "questionsCE": 15,
       "questionsMC": 0
     },
     {
@@ -159,18 +159,18 @@
       "descendantsOnly": 3,
       "emptyItems": 4,
       "emptyLeaves": 2,
-      "questionsCE": 11,
+      "questionsCE": 16,
       "questionsMC": 0
     },
     {
       "id": "cgu-integridade-transparencia-responsabilizacao",
       "label": "INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO",
       "totalItems": 39,
-      "directItems": 6,
-      "descendantsOnly": 4,
+      "directItems": 7,
+      "descendantsOnly": 3,
       "emptyItems": 29,
       "emptyLeaves": 26,
-      "questionsCE": 17,
+      "questionsCE": 22,
       "questionsMC": 0
     }
   ],
@@ -458,13 +458,15 @@
       "block": "basic",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "B",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "993-tce-ac-014-01-q075"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -492,13 +494,17 @@
       "block": "basic",
       "parentTopicId": "cgu-2026-estado-democracia-6",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "993-tce-ac-014-01-q075"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "993-tce-ac-014-01-q075"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -560,13 +566,15 @@
       "block": "basic",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "B",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "993-tce-ac-014-01-q056"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -577,13 +585,17 @@
       "block": "basic",
       "parentTopicId": "cgu-2026-estado-democracia-8",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "993-tce-ac-014-01-q056"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "993-tce-ac-014-01-q056"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -1232,9 +1244,10 @@
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-013-01-q119"
+        "038-anm-013-01-q119",
+        "993-tce-ac-014-01-q058"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -1248,14 +1261,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "038-anm-013-01-q119"
+        "038-anm-013-01-q119",
+        "993-tce-ac-014-01-q058"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-013-01-q119"
+        "038-anm-013-01-q119",
+        "993-tce-ac-014-01-q058"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -1350,9 +1365,11 @@
         "072-stm-002-01-q052",
         "072-stm-002-01-q078",
         "153-telebras-003-01-q076",
-        "979-cnj-007-01-q065"
+        "979-cnj-007-01-q065",
+        "993-tce-ac-014-01-q055",
+        "993-tce-ac-014-01-q076"
       ],
-      "subtreeCE": 5,
+      "subtreeCE": 7,
       "subtreeMC": 0
     },
     {
@@ -1370,18 +1387,22 @@
         "072-stm-002-01-q052",
         "072-stm-002-01-q078",
         "153-telebras-003-01-q076",
-        "979-cnj-007-01-q065"
+        "979-cnj-007-01-q065",
+        "993-tce-ac-014-01-q055",
+        "993-tce-ac-014-01-q076"
       ],
-      "directCE": 5,
+      "directCE": 7,
       "directMC": 0,
       "subtreeQuestionIds": [
         "038-anm-013-01-q088",
         "072-stm-002-01-q052",
         "072-stm-002-01-q078",
         "153-telebras-003-01-q076",
-        "979-cnj-007-01-q065"
+        "979-cnj-007-01-q065",
+        "993-tce-ac-014-01-q055",
+        "993-tce-ac-014-01-q076"
       ],
-      "subtreeCE": 5,
+      "subtreeCE": 7,
       "subtreeMC": 0
     },
     {
@@ -1619,19 +1640,23 @@
       "block": "complementary",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "descendants_only",
+      "state": "direct",
       "priority": "C",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "directQuestionIds": [
+        "993-tce-ac-014-01-q078"
+      ],
+      "directCE": 1,
       "directMC": 0,
       "subtreeQuestionIds": [
         "038-anm-013-01-q069",
         "038-anm-cg1-01-q035",
         "057-ibama-001-01-q071",
         "094-pf-cb1-01-q048",
+        "993-tce-ac-014-01-q078",
+        "993-tce-ac-014-01-q080",
         "alerj-2026-comunicacao-manha-tipo1-q068"
       ],
-      "subtreeCE": 4,
+      "subtreeCE": 6,
       "subtreeMC": 1
     },
     {
@@ -1648,17 +1673,19 @@
         "038-anm-013-01-q069",
         "038-anm-cg1-01-q035",
         "057-ibama-001-01-q071",
+        "993-tce-ac-014-01-q080",
         "alerj-2026-comunicacao-manha-tipo1-q068"
       ],
-      "directCE": 3,
+      "directCE": 4,
       "directMC": 1,
       "subtreeQuestionIds": [
         "038-anm-013-01-q069",
         "038-anm-cg1-01-q035",
         "057-ibama-001-01-q071",
+        "993-tce-ac-014-01-q080",
         "alerj-2026-comunicacao-manha-tipo1-q068"
       ],
-      "subtreeCE": 3,
+      "subtreeCE": 4,
       "subtreeMC": 1
     },
     {
@@ -1832,9 +1859,12 @@
         "038-anm-013-01-q053",
         "038-anm-013-01-q119",
         "205-funpresp-26-jud-005-01-q081",
+        "993-tce-ac-014-01-q054",
+        "993-tce-ac-014-01-q077",
+        "993-tce-ac-014-01-q079",
         "camara-2023-tecnica-tarde-tipo1-q034"
       ],
-      "subtreeCE": 3,
+      "subtreeCE": 6,
       "subtreeMC": 1
     },
     {
@@ -1846,18 +1876,20 @@
       "parentTopicId": "cgu-2026-transparencia-ouvidoria-4",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
         "038-anm-013-01-q053",
-        "038-anm-013-01-q119"
+        "038-anm-013-01-q119",
+        "993-tce-ac-014-01-q054"
       ],
-      "directCE": 2,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
         "038-anm-013-01-q053",
-        "038-anm-013-01-q119"
+        "038-anm-013-01-q119",
+        "993-tce-ac-014-01-q054"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -1903,18 +1935,22 @@
       "parentTopicId": "cgu-2026-transparencia-ouvidoria-4",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
         "205-funpresp-26-jud-005-01-q081",
+        "993-tce-ac-014-01-q077",
+        "993-tce-ac-014-01-q079",
         "camara-2023-tecnica-tarde-tipo1-q034"
       ],
-      "directCE": 1,
+      "directCE": 3,
       "directMC": 1,
       "subtreeQuestionIds": [
         "205-funpresp-26-jud-005-01-q081",
+        "993-tce-ac-014-01-q077",
+        "993-tce-ac-014-01-q079",
         "camara-2023-tecnica-tarde-tipo1-q034"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 3,
       "subtreeMC": 1
     },
     {
@@ -2042,10 +2078,12 @@
         "018-stj-cb1-01-q026",
         "038-anm-cg1-01-q021",
         "038-anm-cg1-01-q022",
+        "108-tcutefc-001-01-q109",
+        "108-tcutefc-001-01-q110",
         "803-tj-es-006-01-q101",
         "959-bcb-cb1-01-q038"
       ],
-      "subtreeCE": 5,
+      "subtreeCE": 7,
       "subtreeMC": 0
     },
     {
@@ -2082,18 +2120,22 @@
       "parentTopicId": "cgu-2026-direito-controle-responsabilizacao-1",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
         "018-stj-cb1-01-q026",
-        "038-anm-cg1-01-q021"
+        "038-anm-cg1-01-q021",
+        "108-tcutefc-001-01-q109",
+        "108-tcutefc-001-01-q110"
       ],
-      "directCE": 2,
+      "directCE": 4,
       "directMC": 0,
       "subtreeQuestionIds": [
         "018-stj-cb1-01-q026",
-        "038-anm-cg1-01-q021"
+        "038-anm-cg1-01-q021",
+        "108-tcutefc-001-01-q109",
+        "108-tcutefc-001-01-q110"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 4,
       "subtreeMC": 0
     },
     {
@@ -2156,15 +2198,21 @@
       "parentTopicId": null,
       "isLeaf": false,
       "state": "descendants_only",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
         "094-pf-cb1-01-q040",
+        "108-tcutefc-001-01-q106",
+        "108-tcutefc-001-01-q108",
+        "108-tcutefc-001-01-q117",
+        "108-tcutefc-001-01-q118",
+        "142-tcuaufc-cb1-01-q087",
+        "993-tce-ac-014-01-q059",
         "camara-2014-cb2-03-q075"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 8,
       "subtreeMC": 0
     },
     {
@@ -2175,13 +2223,19 @@
       "block": "complementary",
       "parentTopicId": "cgu-2026-direito-controle-responsabilizacao-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "108-tcutefc-001-01-q108",
+        "993-tce-ac-014-01-q059"
+      ],
+      "directCE": 2,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "108-tcutefc-001-01-q108",
+        "993-tce-ac-014-01-q059"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -2192,13 +2246,17 @@
       "block": "complementary",
       "parentTopicId": "cgu-2026-direito-controle-responsabilizacao-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "108-tcutefc-001-01-q106"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "108-tcutefc-001-01-q106"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -2210,18 +2268,24 @@
       "parentTopicId": "cgu-2026-direito-controle-responsabilizacao-3",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
         "094-pf-cb1-01-q040",
+        "108-tcutefc-001-01-q117",
+        "108-tcutefc-001-01-q118",
+        "142-tcuaufc-cb1-01-q087",
         "camara-2014-cb2-03-q075"
       ],
-      "directCE": 2,
+      "directCE": 5,
       "directMC": 0,
       "subtreeQuestionIds": [
         "094-pf-cb1-01-q040",
+        "108-tcutefc-001-01-q117",
+        "108-tcutefc-001-01-q118",
+        "142-tcuaufc-cb1-01-q087",
         "camara-2014-cb2-03-q075"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 5,
       "subtreeMC": 0
     },
     {
@@ -2341,15 +2405,16 @@
       "parentTopicId": null,
       "isLeaf": false,
       "state": "descendants_only",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
         "038-anm-024-01-q106",
-        "106-pf-cg1-01-q072"
+        "106-pf-cg1-01-q072",
+        "993-tce-ac-014-01-q061"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -2378,18 +2443,20 @@
       "parentTopicId": "cgu-2026-evidencias-dados-ia-1",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
         "038-anm-024-01-q106",
-        "106-pf-cg1-01-q072"
+        "106-pf-cg1-01-q072",
+        "993-tce-ac-014-01-q061"
       ],
-      "directCE": 2,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
         "038-anm-024-01-q106",
-        "106-pf-cg1-01-q072"
+        "106-pf-cg1-01-q072",
+        "993-tce-ac-014-01-q061"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -2460,13 +2527,23 @@
       "block": "complementary",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "142-tcuaufc-cb1-01-q032",
+        "142-tcuaufc-cb1-01-q034",
+        "142-tcuaufc-cb1-01-q035",
+        "142-tcuaufc-cb1-01-q036"
+      ],
+      "directCE": 4,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q032",
+        "142-tcuaufc-cb1-01-q034",
+        "142-tcuaufc-cb1-01-q035",
+        "142-tcuaufc-cb1-01-q036"
+      ],
+      "subtreeCE": 4,
       "subtreeMC": 0
     },
     {
@@ -2512,14 +2589,16 @@
       "parentTopicId": null,
       "isLeaf": false,
       "state": "descendants_only",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-010-01-q101"
+        "038-anm-010-01-q101",
+        "142-tcuaufc-cb1-01-q031",
+        "142-tcuaufc-cb1-01-q033"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -2531,16 +2610,20 @@
       "parentTopicId": "cgu-2026-evidencias-dados-ia-4",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
-        "038-anm-010-01-q101"
+        "038-anm-010-01-q101",
+        "142-tcuaufc-cb1-01-q031",
+        "142-tcuaufc-cb1-01-q033"
       ],
-      "directCE": 1,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-010-01-q101"
+        "038-anm-010-01-q101",
+        "142-tcuaufc-cb1-01-q031",
+        "142-tcuaufc-cb1-01-q033"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -2693,13 +2776,16 @@
       "block": "complementary",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "B",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q092",
+        "993-tce-ac-016-01-q103"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -2761,13 +2847,19 @@
       "block": "complementary",
       "parentTopicId": "cgu-2026-atuacao-integrada-1",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "142-tcuaufc-cb1-01-q092",
+        "993-tce-ac-016-01-q103"
+      ],
+      "directCE": 2,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q092",
+        "993-tce-ac-016-01-q103"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -2846,13 +2938,15 @@
       "block": "complementary",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "B",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q098"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -2863,13 +2957,17 @@
       "block": "complementary",
       "parentTopicId": "cgu-2026-atuacao-integrada-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "142-tcuaufc-cb1-01-q098"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q098"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -3005,13 +3103,23 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "C",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "108-tcutefc-001-01-q117",
+        "108-tcutefc-001-01-q120",
+        "142-tcuaufc-cb1-01-q086",
+        "142-tcuaufc-cb1-01-q089",
+        "142-tcuaufc-cb1-01-q091",
+        "142-tcuaufc-cb1-01-q093",
+        "993-tce-ac-016-01-q102",
+        "993-tce-ac-016-01-q109",
+        "993-tce-ac-016-01-q120"
+      ],
+      "subtreeCE": 9,
       "subtreeMC": 0
     },
     {
@@ -3039,13 +3147,33 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-auditoria-governamental-1",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "108-tcutefc-001-01-q117",
+        "108-tcutefc-001-01-q120",
+        "142-tcuaufc-cb1-01-q086",
+        "142-tcuaufc-cb1-01-q089",
+        "142-tcuaufc-cb1-01-q091",
+        "142-tcuaufc-cb1-01-q093",
+        "993-tce-ac-016-01-q102",
+        "993-tce-ac-016-01-q109",
+        "993-tce-ac-016-01-q120"
+      ],
+      "directCE": 9,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "108-tcutefc-001-01-q117",
+        "108-tcutefc-001-01-q120",
+        "142-tcuaufc-cb1-01-q086",
+        "142-tcuaufc-cb1-01-q089",
+        "142-tcuaufc-cb1-01-q091",
+        "142-tcuaufc-cb1-01-q093",
+        "993-tce-ac-016-01-q102",
+        "993-tce-ac-016-01-q109",
+        "993-tce-ac-016-01-q120"
+      ],
+      "subtreeCE": 9,
       "subtreeMC": 0
     },
     {
@@ -3107,13 +3235,20 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "C",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q090",
+        "142-tcuaufc-cb1-01-q094",
+        "142-tcuaufc-cb1-01-q097",
+        "993-tce-ac-016-01-q105",
+        "993-tce-ac-016-01-q107",
+        "993-tce-ac-016-01-q108"
+      ],
+      "subtreeCE": 6,
       "subtreeMC": 0
     },
     {
@@ -3124,13 +3259,25 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-auditoria-governamental-2",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "142-tcuaufc-cb1-01-q090",
+        "142-tcuaufc-cb1-01-q094",
+        "142-tcuaufc-cb1-01-q097",
+        "993-tce-ac-016-01-q107",
+        "993-tce-ac-016-01-q108"
+      ],
+      "directCE": 5,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q090",
+        "142-tcuaufc-cb1-01-q094",
+        "142-tcuaufc-cb1-01-q097",
+        "993-tce-ac-016-01-q107",
+        "993-tce-ac-016-01-q108"
+      ],
+      "subtreeCE": 5,
       "subtreeMC": 0
     },
     {
@@ -3158,13 +3305,17 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-auditoria-governamental-2",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "993-tce-ac-016-01-q105"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "993-tce-ac-016-01-q105"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -3175,13 +3326,18 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "C",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q095",
+        "142-tcuaufc-cb1-01-q096",
+        "993-tce-ac-016-01-q105",
+        "993-tce-ac-016-01-q106"
+      ],
+      "subtreeCE": 4,
       "subtreeMC": 0
     },
     {
@@ -3192,13 +3348,23 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-auditoria-governamental-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "142-tcuaufc-cb1-01-q095",
+        "142-tcuaufc-cb1-01-q096",
+        "993-tce-ac-016-01-q105",
+        "993-tce-ac-016-01-q106"
+      ],
+      "directCE": 4,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q095",
+        "142-tcuaufc-cb1-01-q096",
+        "993-tce-ac-016-01-q105",
+        "993-tce-ac-016-01-q106"
+      ],
+      "subtreeCE": 4,
       "subtreeMC": 0
     },
     {
@@ -3209,13 +3375,17 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "C",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q092",
+        "142-tcuaufc-cb1-01-q098",
+        "142-tcuaufc-cb1-01-q099"
+      ],
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -3226,13 +3396,21 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-auditoria-governamental-4",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "142-tcuaufc-cb1-01-q092",
+        "142-tcuaufc-cb1-01-q098",
+        "142-tcuaufc-cb1-01-q099"
+      ],
+      "directCE": 3,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q092",
+        "142-tcuaufc-cb1-01-q098",
+        "142-tcuaufc-cb1-01-q099"
+      ],
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -3287,14 +3465,17 @@
       "parentTopicId": null,
       "isLeaf": false,
       "state": "descendants_only",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q031",
+        "142-tcuaufc-cb1-01-q033",
+        "142-tcuaufc-cb1-01-q100",
         "205-funpresp-26-jud-009-01-q081"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 4,
       "subtreeMC": 0
     },
     {
@@ -3306,16 +3487,22 @@
       "parentTopicId": "cgu-2026-auditoria-governamental-6",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
+        "142-tcuaufc-cb1-01-q031",
+        "142-tcuaufc-cb1-01-q033",
+        "142-tcuaufc-cb1-01-q100",
         "205-funpresp-26-jud-009-01-q081"
       ],
-      "directCE": 1,
+      "directCE": 4,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q031",
+        "142-tcuaufc-cb1-01-q033",
+        "142-tcuaufc-cb1-01-q100",
         "205-funpresp-26-jud-009-01-q081"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 4,
       "subtreeMC": 0
     },
     {
@@ -3394,13 +3581,24 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "C",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "057-ibama-001-01-q094",
+        "057-ibama-001-01-q096",
+        "057-ibama-001-01-q097",
+        "993-tce-ac-016-01-q091",
+        "993-tce-ac-016-01-q092",
+        "993-tce-ac-016-01-q093",
+        "993-tce-ac-016-01-q096",
+        "993-tce-ac-016-01-q099",
+        "993-tce-ac-016-01-q111",
+        "993-tce-ac-016-01-q112"
+      ],
+      "subtreeCE": 10,
       "subtreeMC": 0
     },
     {
@@ -3411,13 +3609,33 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-financas-orcamento-contabilidade-2",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "057-ibama-001-01-q094",
+        "057-ibama-001-01-q096",
+        "993-tce-ac-016-01-q091",
+        "993-tce-ac-016-01-q092",
+        "993-tce-ac-016-01-q093",
+        "993-tce-ac-016-01-q096",
+        "993-tce-ac-016-01-q099",
+        "993-tce-ac-016-01-q111",
+        "993-tce-ac-016-01-q112"
+      ],
+      "directCE": 9,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "057-ibama-001-01-q094",
+        "057-ibama-001-01-q096",
+        "993-tce-ac-016-01-q091",
+        "993-tce-ac-016-01-q092",
+        "993-tce-ac-016-01-q093",
+        "993-tce-ac-016-01-q096",
+        "993-tce-ac-016-01-q099",
+        "993-tce-ac-016-01-q111",
+        "993-tce-ac-016-01-q112"
+      ],
+      "subtreeCE": 9,
       "subtreeMC": 0
     },
     {
@@ -3428,13 +3646,17 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-financas-orcamento-contabilidade-2",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "057-ibama-001-01-q097"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "057-ibama-001-01-q097"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -3445,13 +3667,27 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "C",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "057-ibama-001-01-q093",
+        "057-ibama-001-01-q095",
+        "057-ibama-001-01-q097",
+        "057-ibama-001-01-q098",
+        "057-ibama-001-01-q109",
+        "108-tcutefc-001-01-q097",
+        "108-tcutefc-001-01-q098",
+        "108-tcutefc-001-01-q099",
+        "108-tcutefc-001-01-q120",
+        "993-tce-ac-016-01-q098",
+        "993-tce-ac-016-01-q100",
+        "993-tce-ac-016-01-q113",
+        "993-tce-ac-016-01-q115"
+      ],
+      "subtreeCE": 13,
       "subtreeMC": 0
     },
     {
@@ -3462,13 +3698,31 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-financas-orcamento-contabilidade-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "057-ibama-001-01-q093",
+        "057-ibama-001-01-q095",
+        "057-ibama-001-01-q109",
+        "108-tcutefc-001-01-q097",
+        "108-tcutefc-001-01-q098",
+        "108-tcutefc-001-01-q099",
+        "993-tce-ac-016-01-q098",
+        "993-tce-ac-016-01-q100"
+      ],
+      "directCE": 8,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "057-ibama-001-01-q093",
+        "057-ibama-001-01-q095",
+        "057-ibama-001-01-q109",
+        "108-tcutefc-001-01-q097",
+        "108-tcutefc-001-01-q098",
+        "108-tcutefc-001-01-q099",
+        "993-tce-ac-016-01-q098",
+        "993-tce-ac-016-01-q100"
+      ],
+      "subtreeCE": 8,
       "subtreeMC": 0
     },
     {
@@ -3479,13 +3733,25 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-financas-orcamento-contabilidade-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "057-ibama-001-01-q097",
+        "057-ibama-001-01-q098",
+        "108-tcutefc-001-01-q120",
+        "993-tce-ac-016-01-q113",
+        "993-tce-ac-016-01-q115"
+      ],
+      "directCE": 5,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "057-ibama-001-01-q097",
+        "057-ibama-001-01-q098",
+        "108-tcutefc-001-01-q120",
+        "993-tce-ac-016-01-q113",
+        "993-tce-ac-016-01-q115"
+      ],
+      "subtreeCE": 5,
       "subtreeMC": 0
     },
     {
@@ -3496,13 +3762,16 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "B",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q091",
+        "993-tce-ac-016-01-q097"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -3513,13 +3782,19 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-financas-orcamento-contabilidade-4",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "142-tcuaufc-cb1-01-q091",
+        "993-tce-ac-016-01-q097"
+      ],
+      "directCE": 2,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q091",
+        "993-tce-ac-016-01-q097"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -3768,13 +4043,16 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "B",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "993-tce-ac-014-01-q058",
+        "993-tce-ac-014-01-q064"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -3785,13 +4063,19 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-politicas-investigacao-avaliacao-1",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "993-tce-ac-014-01-q058",
+        "993-tce-ac-014-01-q064"
+      ],
+      "directCE": 2,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "993-tce-ac-014-01-q058",
+        "993-tce-ac-014-01-q064"
+      ],
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -3904,15 +4188,25 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "descendants_only",
-      "priority": "B",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "993-tce-ac-014-01-q062"
+      ],
+      "directCE": 1,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "072-stm-002-01-q078"
+        "072-stm-002-01-q078",
+        "142-tcuaufc-cb1-01-q089",
+        "993-tce-ac-014-01-q061",
+        "993-tce-ac-014-01-q062",
+        "993-tce-ac-014-01-q065",
+        "993-tce-ac-014-01-q072",
+        "993-tce-ac-014-01-q073",
+        "993-tce-ac-016-01-q108",
+        "993-tce-ac-016-01-q109"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 9,
       "subtreeMC": 0
     },
     {
@@ -3924,16 +4218,20 @@
       "parentTopicId": "cgu-2026-politicas-investigacao-avaliacao-3",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
-        "072-stm-002-01-q078"
+        "072-stm-002-01-q078",
+        "993-tce-ac-014-01-q072",
+        "993-tce-ac-014-01-q073"
       ],
-      "directCE": 1,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "072-stm-002-01-q078"
+        "072-stm-002-01-q078",
+        "993-tce-ac-014-01-q072",
+        "993-tce-ac-014-01-q073"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -3944,13 +4242,17 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-politicas-investigacao-avaliacao-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "993-tce-ac-014-01-q061"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "993-tce-ac-014-01-q061"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -3961,13 +4263,23 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-politicas-investigacao-avaliacao-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "142-tcuaufc-cb1-01-q089",
+        "993-tce-ac-014-01-q065",
+        "993-tce-ac-016-01-q108",
+        "993-tce-ac-016-01-q109"
+      ],
+      "directCE": 4,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "142-tcuaufc-cb1-01-q089",
+        "993-tce-ac-014-01-q065",
+        "993-tce-ac-016-01-q108",
+        "993-tce-ac-016-01-q109"
+      ],
+      "subtreeCE": 4,
       "subtreeMC": 0
     },
     {
@@ -4058,13 +4370,15 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
-      "priority": "A",
+      "state": "descendants_only",
+      "priority": "B",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "993-tce-ac-014-01-q060"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -4109,13 +4423,17 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-politicas-investigacao-avaliacao-5",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "993-tce-ac-014-01-q060"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "993-tce-ac-014-01-q060"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -4272,9 +4590,13 @@
         "038-anm-010-01-q117",
         "038-anm-cg1-01-q024",
         "057-ibama-001-01-q069",
-        "057-ibama-001-01-q070"
+        "057-ibama-001-01-q070",
+        "142-tcuaufc-cb1-01-q034",
+        "142-tcuaufc-cb1-01-q075",
+        "993-tce-ac-016-01-q116",
+        "993-tce-ac-016-01-q117"
       ],
-      "subtreeCE": 5,
+      "subtreeCE": 9,
       "subtreeMC": 0
     },
     {
@@ -4292,18 +4614,26 @@
         "038-anm-010-01-q117",
         "038-anm-cg1-01-q024",
         "057-ibama-001-01-q069",
-        "057-ibama-001-01-q070"
+        "057-ibama-001-01-q070",
+        "142-tcuaufc-cb1-01-q034",
+        "142-tcuaufc-cb1-01-q075",
+        "993-tce-ac-016-01-q116",
+        "993-tce-ac-016-01-q117"
       ],
-      "directCE": 5,
+      "directCE": 9,
       "directMC": 0,
       "subtreeQuestionIds": [
         "018-stj-cb1-01-q024",
         "038-anm-010-01-q117",
         "038-anm-cg1-01-q024",
         "057-ibama-001-01-q069",
-        "057-ibama-001-01-q070"
+        "057-ibama-001-01-q070",
+        "142-tcuaufc-cb1-01-q034",
+        "142-tcuaufc-cb1-01-q075",
+        "993-tce-ac-016-01-q116",
+        "993-tce-ac-016-01-q117"
       ],
-      "subtreeCE": 5,
+      "subtreeCE": 9,
       "subtreeMC": 0
     },
     {
@@ -4324,9 +4654,10 @@
         "057-ibama-001-01-q067",
         "108-tcutefc-001-01-q087",
         "108-tcutefc-001-01-q088",
-        "989-codevasf-010-01-q120"
+        "989-codevasf-010-01-q120",
+        "993-tce-ac-016-01-q120"
       ],
-      "subtreeCE": 5,
+      "subtreeCE": 6,
       "subtreeMC": 0
     },
     {
@@ -4344,18 +4675,20 @@
         "057-ibama-001-01-q067",
         "108-tcutefc-001-01-q087",
         "108-tcutefc-001-01-q088",
-        "989-codevasf-010-01-q120"
+        "989-codevasf-010-01-q120",
+        "993-tce-ac-016-01-q120"
       ],
-      "directCE": 5,
+      "directCE": 6,
       "directMC": 0,
       "subtreeQuestionIds": [
         "057-ibama-001-01-q064",
         "057-ibama-001-01-q067",
         "108-tcutefc-001-01-q087",
         "108-tcutefc-001-01-q088",
-        "989-codevasf-010-01-q120"
+        "989-codevasf-010-01-q120",
+        "993-tce-ac-016-01-q120"
       ],
-      "subtreeCE": 5,
+      "subtreeCE": 6,
       "subtreeMC": 0
     },
     {
@@ -4542,10 +4875,12 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "descendants_only",
+      "state": "direct",
       "priority": "C",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "directQuestionIds": [
+        "993-tce-ac-014-01-q078"
+      ],
+      "directCE": 1,
       "directMC": 0,
       "subtreeQuestionIds": [
         "038-anm-013-01-q069",
@@ -4553,12 +4888,17 @@
         "038-anm-cg1-01-q035",
         "057-ibama-001-01-q071",
         "057-ibama-001-01-q072",
+        "057-ibama-001-01-q098",
         "094-pf-cb1-01-q048",
         "094-pf-cb1-01-q050",
         "153-telebras-008-01-q083",
-        "153-telebras-008-01-q084"
+        "153-telebras-008-01-q084",
+        "993-tce-ac-014-01-q077",
+        "993-tce-ac-014-01-q078",
+        "993-tce-ac-014-01-q079",
+        "993-tce-ac-014-01-q080"
       ],
-      "subtreeCE": 9,
+      "subtreeCE": 14,
       "subtreeMC": 0
     },
     {
@@ -4578,9 +4918,10 @@
         "057-ibama-001-01-q072",
         "094-pf-cb1-01-q050",
         "153-telebras-008-01-q083",
-        "153-telebras-008-01-q084"
+        "153-telebras-008-01-q084",
+        "993-tce-ac-014-01-q080"
       ],
-      "directCE": 7,
+      "directCE": 8,
       "directMC": 0,
       "subtreeQuestionIds": [
         "038-anm-cg1-01-q034",
@@ -4589,9 +4930,10 @@
         "057-ibama-001-01-q072",
         "094-pf-cb1-01-q050",
         "153-telebras-008-01-q083",
-        "153-telebras-008-01-q084"
+        "153-telebras-008-01-q084",
+        "993-tce-ac-014-01-q080"
       ],
-      "subtreeCE": 7,
+      "subtreeCE": 8,
       "subtreeMC": 0
     },
     {
@@ -4624,16 +4966,22 @@
       "parentTopicId": "cgu-2026-integridade-transparencia-responsabilizacao-2",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
-        "038-anm-013-01-q069"
+        "038-anm-013-01-q069",
+        "057-ibama-001-01-q098",
+        "993-tce-ac-014-01-q077",
+        "993-tce-ac-014-01-q079"
       ],
-      "directCE": 1,
+      "directCE": 4,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "038-anm-013-01-q069"
+        "038-anm-013-01-q069",
+        "057-ibama-001-01-q098",
+        "993-tce-ac-014-01-q077",
+        "993-tce-ac-014-01-q079"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 4,
       "subtreeMC": 0
     },
     {
@@ -5199,8 +5547,8 @@
   ],
   "roleId": "cgu-auditoria",
   "reviewedAt": "2026-10-28",
-  "reviewId": "cgu-auditoria-intake-2026-10-28",
-  "distinctQuestions": 106,
-  "distinctCE": 102,
+  "reviewId": "cgu-first-batch",
+  "distinctQuestions": 184,
+  "distinctCE": 180,
   "distinctMC": 4
 }

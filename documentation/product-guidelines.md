@@ -2,7 +2,7 @@
 
 ## Diretrizes de produto, arquitetura, banco de questões e experiência de estudo
 
-**Versão:** 1.26 — revisão integrada ao repositório
+**Versão:** 1.27 — revisão integrada ao repositório
 **Data:** 28/10/2026
 **Projeto:** Questionador Concursos
 **Repositório:** https://github.com/cxjube/questionadorConcursos
@@ -14,11 +14,11 @@
 
 Este documento consolida as sugestões fornecidas pelo usuário e os ajustes de revisão. É uma referência de produto e de aceite por etapa, não autorização para implementar todo o roadmap.
 
-A [CGU — Auditoria](cgu-intake-release.md) está confirmada e cadastrada: 14 disciplinas, 266 itens, regras próprias e 106 questões de treino compartilhadas (102 C/E e quatro MC), com 122 vínculos novos. Programa e regras provêm dos PDFs oficiais; as capturas enviadas confirmam a escolha do usuário. O simulado 40/40/90 permanece bloqueado por déficit conjunto mínimo de 68 C/E. Não há nova pendência de escolha de especialidade; os registros anteriores da preparação comum são históricos. Câmara/ABDI e seus históricos foram preservados.
+A [CGU — Auditoria](cgu-first-batch-release.md) tem agora 184 questões de treino (180 C/E e quatro MC), com 221 vínculos. O primeiro lote adiciona 78 C/E oficiais e permite o simulado real 40/40/90, 300 minutos, pesos +1/−1 e +2/−2 nas específicas, mínimos independentes 8/12/54 e total 78. A reserva é de apenas dez IDs acima do mínimo; mapa 71/266 direto, 49 só por descendentes, 146 vazios. Normas e fontes têm comparação de cláusulas selecionadas, sem auditoria integral do MCASP. A varredura completa por banco permanece para o encerramento. Programa e regras estão confirmados; não há pendência de escolha de especialidade. Câmara, ABDI e históricos foram preservados. O cadastro anterior e o déficit de 68 C/E permanecem registrados como históricos em [cgu-intake-release.md](cgu-intake-release.md).
 
 O [17º lote](seventeenth-batch-release.md) consolida 395 questões (378 C/E e 17 MC), reserva 169/209 e 14 lacunas registradas. Questões e regras históricas permanecem versionadas.
 
-A [entrega ABDI atual](abdi-fourth-batch-release.md) libera o simulado com 60 MC distintas e todas as cotas oficiais preservadas. Há 232 questões (146 C/E / 86 MC), 20 institucionais e 272 vínculos; mapa 63/97 direto, seis por descendentes e 28 vazios. A reserva institucional é mínima; seis novas MC científicas/ambientais iniciam diversidade sem cobertura integral. Global: 482 questões/comentários, 195 contextos, 676 vínculos e 175 registros de fontes. Regras: 20+20+20, 210 minutos, pesos .30/.30/.65, pelo menos 30 acertos e pontuação positiva em cada área. Questões A–D originais conservam quatro opções; o simulado é treino, sem equivalência histórica. Todos os registros anteriores e a Câmara foram preservados. A varredura completa por banco fica para o encerramento, conforme orientação do usuário.
+A [entrega ABDI atual](abdi-fourth-batch-release.md) libera o simulado com 60 MC distintas e todas as cotas oficiais preservadas. Há 232 questões (146 C/E / 86 MC), 20 institucionais e 272 vínculos; mapa 63/97 direto, seis por descendentes e 28 vazios. A reserva institucional é mínima; seis novas MC científicas/ambientais iniciam diversidade sem cobertura integral. Naquele marco ABDI: 482 questões/comentários, 195 contextos, 676 vínculos e 175 registros de fontes. O marco CGU atual tem 560 questões/comentários, 228 contextos, 897 vínculos e 184 registros documentais. Regras: 20+20+20, 210 minutos, pesos .30/.30/.65, pelo menos 30 acertos e pontuação positiva em cada área. Questões A–D originais conservam quatro opções; o simulado é treino, sem equivalência histórica. Todos os registros anteriores e a Câmara foram preservados. A varredura completa por banco fica para o encerramento, conforme orientação do usuário.
 
 O estado da Câmara após os dezessete lotes (preservado pela expansão ABDI) inclui o catálogo v3: 395 questões oficiais (378 C/E e 17 de múltipla escolha), 189 contextos, 404 vínculos revisados e 395 comentários didáticos com fontes independentes. As nove disciplinas estão iniciadas, sem cobertura integral do edital. Os comentários são assistidos por IA, separados do gabarito definitivo. Naquele marco havia 130 fontes canônicas retidas: 96 PDFs e 34 referências HTML; a revisão de vigência se limita às cláusulas citadas, na data registrada. Continuam o treino personalizado, sessão, retomada, correção ao finalizar, histórico e desempenho locais, revisão de erros/brancos/inéditas e backup exportável/importável com confirmação de substituição.
 

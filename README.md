@@ -1,6 +1,6 @@
 # Questionador Concursos
 
-**CGU — Auditoria disponível para treino:** [cadastro e pendências](documentation/cgu-intake-release.md), 14 disciplinas/266 itens e 106 questões compartilhadas (102 C/E e quatro MC). O simulado permanece bloqueado: faltam pelo menos 68 C/E compatíveis e distintas para completar 40/40/90. Câmara e ABDI continuam preservadas.
+**CGU — Auditoria com simulado disponível:** [primeiro lote e pendências](documentation/cgu-first-batch-release.md), 78 novas C/E e **184 questões de treino (180 C/E e quatro MC)**. O banco permite selecionar **170 distintas em 40/40/90**, com 300 minutos, pesos +1/−1 e +2/−2 nas específicas e mínimos oficiais próprios. A reserva ainda é pequena; cobertura 71/266 direta, 146 subárvores vazias. Câmara e ABDI continuam preservadas.
 
 **ABDI — simulado disponível:** [entrega e pendências](documentation/abdi-fourth-batch-release.md), 14 novas MC oficiais. São **232 questões de treino (146 C/E / 86 MC)** e **20 institucionais**. O banco preenche **60/60**, respeitando as cotas 8/6/6 e 4/4/8/4, com 210 minutos e critérios próprios. A reserva institucional ainda é mínima. Veja [o mapa ABDI](documentation/coverage-abdi-current.md).
 
@@ -24,7 +24,7 @@ Dezesseis itens de Língua Portuguesa preservam texto, autoria e numeração das
 
 As marcações são salvas automaticamente no navegador. Ao voltar à página, **Continuar questões** retoma a sessão. Dentro do estudo, **Histórico** permite consultar sessões, revisar os últimos erros, estudar questões inéditas, revisar brancos e exportar/importar o progresso. A seção **Backup e recuperação** concentra exportação e importação. A importação mostra uma prévia e exige confirmação antes de substituir os dados. Use o [guia de estudo e backup](documentation/study-guide.md).
 
-As quatro abas de referência preservam nove disciplinas e 228 tópicos/subtópicos, regras, editais nº 1 a 6 e provas vinculadas ao objetivo selecionado. O inventário global tem 59 pares e 178 registros documentais (140 PDFs e 38 referências em HTML), com identidade oficial registrada. O inventário cobre 3.506 números de itens e 153 anulações. Veja a [conferência das fontes](documentation/source-verification.md). Somente o lote liberado integra o estudo. PDFs e arquivos de trabalho ficam fora do Pages. ABDI e CGU — Auditoria possuem cargos, programas e regras confirmados. As abas são filtradas pelo objetivo selecionado.
+As quatro abas de referência preservam nove disciplinas e 228 tópicos/subtópicos, regras, editais nº 1 a 6 e provas vinculadas ao objetivo selecionado. O inventário global tem 61 pares e 184 registros documentais (146 PDFs e 38 referências em HTML), com identidade oficial registrada. O inventário cobre 3.646 números de itens e 155 anulações. Veja a [conferência das fontes](documentation/source-verification.md). Somente o lote liberado integra o estudo. PDFs e arquivos de trabalho ficam fora do Pages. ABDI e CGU — Auditoria possuem cargos, programas e regras confirmados. As abas são filtradas pelo objetivo selecionado.
 
 Os ícones de monitor, sol e lua no cabeçalho selecionam os temas automático, claro e escuro. A aba **Editais** começa pelos links oficiais do concurso selecionado e da Imprensa Nacional para acompanhamento manual de publicações. As cinco abas aceitam clique, setas, Home e End. O tema escuro usa azul-marinho; o automático acompanha a preferência do sistema.
 
@@ -32,7 +32,7 @@ O [14º lote](documentation/fourteenth-batch-release.md) acrescenta 33 C/E e tr�
 
 Entrega anterior: O [13º lote](documentation/thirteenth-batch-release.md) acrescenta 12 C/E e dois pares oficiais: STM 2025 / Comunicação Social e CPNUJE 2024 / Estatística. Reserva: **119 C/E em P1 e 135 em P2**. Visualização, desinformação e características de plataformas têm novas amostras; os itens de Power BI do STJ CB2 também foram excluídos por anulação.
 
-O [12º lote](documentation/twelfth-batch-release.md) acrescenta 30 C/E, dois novos pares oficiais e quatro referências legais. O catálogo global atual tem 482 comentários. O [mapa atual](documentation/coverage-current.md) e o [CSV atual](documentation/coverage-current.csv) separam vínculos diretos, descendentes e lacunas. A [conferência dos documentos da Câmara](documentation/camara-reference-review.md) identifica os manuais oficiais de Comunicação (2025) e Linguagem Simples (2024). Os links dos comentários agora aparecem separados e identificados por fonte.
+O [12º lote](documentation/twelfth-batch-release.md) acrescenta 30 C/E, dois novos pares oficiais e quatro referências legais. O catálogo global atual tem 560 comentários. O [mapa atual](documentation/coverage-current.md) e o [CSV atual](documentation/coverage-current.csv) separam vínculos diretos, descendentes e lacunas. A [conferência dos documentos da Câmara](documentation/camara-reference-review.md) identifica os manuais oficiais de Comunicação (2025) e Linguagem Simples (2024). Os links dos comentários agora aparecem separados e identificados por fonte.
 
 Registro histórico: a revisão de 26/10 registra as lacunas dos 228 itens, sete correções de classificação e um comando corrigido com nova versão. Foram reconferidas 85 citações legais de 66 questões, em dez normas. Veja o [mapa completo e prioridades](documentation/coverage-audit-2026-10-26.md) e a [planilha CSV](documentation/coverage-audit-2026-10-26.csv). Nenhuma questão ou gabarito foi adicionado ou alterado; sessões antigas preservam seus snapshots.
 
@@ -81,7 +81,7 @@ README.md
 pyproject.toml / uv.lock   ferramentas do pipeline
 package.json              comando dos testes JavaScript; sem pacotes
 schemas/                  catálogo v3, contextos, entidades, auditoria e lote
-data/catalog.json         fonte canônica; 482 questões únicas, gabaritos, comentários e vínculos
+data/catalog.json         fonte canônica; 560 questões únicas, gabaritos, comentários e vínculos
 data/workbench/           lote de preparação, fora do build
 data/reviews/             evidência da listagem oficial e revisão dos lotes
 sources/                   editais, cadernos e gabaritos; fora do Pages
@@ -128,4 +128,4 @@ Essas ferramentas não integram a aplicação nem são dependências obrigatóri
 
 Ampliar e equilibrar o banco, priorizando tópicos sem questões, para variar o simulado de 180 C/E já disponível. Para treinar somente um bloco, use Personalizar treino, selecione P1/P2, Certo/Errado e quantidade 90. Essa modalidade continua sem mínimos oficiais.
 
-Na ABDI, as cotas mínimas estão completas e o simulado já pode usar 60 IDs reais distintos. Priorizar agora reserva institucional e os 28 ramos ainda vazios; científico/ambiental já tem seis MC, sem cobertura integral. CGU — Auditoria está cadastrada com 106 questões de treino; a prioridade é acrescentar pelo menos 68 C/E compatíveis para viabilizar o simulado, sobretudo finanças e auditoria. Câmara mantém 181/228 itens diretamente vinculados, 14 subárvores vazias e reserva C/E 169/209. A [entrega atual](documentation/abdi-fourth-batch-release.md) lista os limites; a [varredura final separada por banco](documentation/final-bank-review-plan.md) fica para o encerramento do projeto.
+Na ABDI, as cotas mínimas estão completas e o simulado já pode usar 60 IDs reais distintos. Priorizar agora reserva institucional e os 28 ramos ainda vazios; científico/ambiental já tem seis MC, sem cobertura integral. CGU — Auditoria tem 184 questões de treino e simulado 170 C/E disponível; priorizar reserva acima das atuais 180 C/E e os 146 ramos vazios, sobretudo contabilidade, métodos causais e integridade. Câmara mantém 181/228 itens diretamente vinculados, 14 subárvores vazias e reserva C/E 169/209. A [entrega CGU atual](documentation/cgu-first-batch-release.md) lista os limites; a [varredura final separada por banco](documentation/final-bank-review-plan.md) fica para o encerramento do projeto.

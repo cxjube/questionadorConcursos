@@ -15,7 +15,7 @@ from tools.validate import ROOT, read_json, validate
 class CGUIntakeTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c = read_json(ROOT / 'data/catalog.json')
+        cls.c = json.loads(gzip.decompress((ROOT / 'data/reviews/pre-cgu-first-batch-catalog.json.gz').read_bytes()))
         cls.m = read_json(ROOT / 'data/reviews/cgu-intake.json')
         cls.p = read_json(ROOT / 'data/workbench/cgu-intake/auditoria-program.json')
         cls.role = 'cgu-auditoria'
@@ -39,7 +39,7 @@ class CGUIntakeTests(unittest.TestCase):
         for source in self.m['documents']:
             self.assertEqual(hashlib.sha256((ROOT / source['file']).read_bytes()).hexdigest(), source['sha256'])
             self.assertIn(source['officialUrl'].rsplit('/', 1)[1], filenames)
-        self.assertEqual(audit_sources(self.c, read_json(ROOT / 'data/source-verification.json')), [])
+        self.assertEqual(audit_sources(read_json(ROOT / 'data/catalog.json'), read_json(ROOT / 'data/source-verification.json')), [])
 
     def test_all_266_numbered_items_preserve_source_text_hierarchy_and_original_pagination(self):
         syllabus = {i['id']: i for i in self.c['syllabusItems'] if i['roleId'] == self.role}
@@ -123,5 +123,7 @@ class CGUIntakeTests(unittest.TestCase):
         qid = self.m['questions'][0]['questionId']
         next(k for k in withdrawn['answerKeys'] if k['id'] == self.q[qid]['answerKeyId']).update(result='annulled', value=None)
         self.assertEqual(ce_capacity(withdrawn, self.role)['distinctCE'], 101)
-        for filename, content in role_artifacts(self.c, self.m, self.role).items():
+        current = read_json(ROOT / 'data/catalog.json')
+        review = read_json(ROOT / 'data/reviews/cgu-first-batch.json')
+        for filename, content in role_artifacts(current, review, self.role).items():
             self.assertEqual((ROOT / filename).read_text(), content)

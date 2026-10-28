@@ -1,0 +1,109 @@
+{
+  "id": "cgu-first-source-discovery",
+  "checkedAt": "2026-10-28",
+  "pairs": [
+    {
+      "paperId": "source-993-tce-ac-014-01",
+      "booklet": "993_TCE_AC_014_01",
+      "applicationDate": "2024-09-01",
+      "firstItem": 51,
+      "lastItem": 120,
+      "annulledItems": [
+        82
+      ],
+      "documents": [
+        {
+          "documentId": "source-993-tce-ac-014-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/TCE_AC_24/arquivos/993_TCE_AC_014_01.PDF",
+          "sha256": "7d8c21221e6a990c584096cc1bdb1ebb01dec623473b795cb9ec0875d04287d5",
+          "repeatSha256": "7d8c21221e6a990c584096cc1bdb1ebb01dec623473b795cb9ec0875d04287d5",
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-993-tce-ac-014-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/TCE_AC_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_014_01.PDF",
+          "sha256": "ae0f432e4db4c7e964d16c9ed9ed408180c6669db039e7b4481c665c961ce7bb",
+          "repeatSha256": "ae0f432e4db4c7e964d16c9ed9ed408180c6669db039e7b4481c665c961ce7bb",
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ]
+    },
+    {
+      "paperId": "source-993-tce-ac-016-01",
+      "booklet": "993_TCE_AC_016_01",
+      "applicationDate": "2024-09-01",
+      "firstItem": 51,
+      "lastItem": 120,
+      "annulledItems": [
+        82
+      ],
+      "documents": [
+        {
+          "documentId": "source-993-tce-ac-016-01-paper",
+          "url": "https://cdn.cebraspe.org.br/concursos/TCE_AC_24/arquivos/993_TCE_AC_016_01.PDF",
+          "sha256": "5df25ce10e076022a439acef2aa2a93cd7e85c803e752315d564ff7287931fa3",
+          "repeatSha256": "5df25ce10e076022a439acef2aa2a93cd7e85c803e752315d564ff7287931fa3",
+          "method": "independent_second_pdf_download_byte_match"
+        },
+        {
+          "documentId": "source-993-tce-ac-016-01-key",
+          "url": "https://cdn.cebraspe.org.br/concursos/TCE_AC_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_016_01.PDF",
+          "sha256": "009c5397126352b8b00e88873307fd28937392b982cb9960294281e03ff5a443",
+          "repeatSha256": "009c5397126352b8b00e88873307fd28937392b982cb9960294281e03ff5a443",
+          "method": "independent_second_pdf_download_byte_match"
+        }
+      ]
+    }
+  ],
+  "listings": [
+    {
+      "event": "tce_ac_24",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/tce_ac_24",
+      "file": "data/reviews/cgu-first-source-evidence/tce_ac_24.json",
+      "sha256": "be356a5e736cd4e398c8f60e8035bdcb270905888d9717b6af39830741b64a7c"
+    },
+    {
+      "event": "tc_df_23",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/tc_df_23",
+      "file": "data/reviews/cgu-first-source-evidence/tc_df_23.json",
+      "sha256": "f591c5bc32f062ff2cb7bcd28190bd45b65936c8f8c70b4c3003dd7e172b254c"
+    },
+    {
+      "event": "cgu-referencial",
+      "url": "https://repositorio.cgu.gov.br/handle/1/33409",
+      "file": "data/reviews/cgu-first-source-evidence/cgu-referencial.html",
+      "sha256": "f46e7b45d710b4f60398c79311e4f76c42fc92ff4afc37c44846508c09ded53f"
+    },
+    {
+      "event": "cgu-related",
+      "url": "https://basedeconhecimento.cgu.gov.br/handle/1/11990",
+      "file": "data/reviews/cgu-first-source-evidence/cgu-related.html",
+      "sha256": "ae6240fc96daaff41efefc121a12b92e2b0dde0a59352da6810935d72a3ff3c1"
+    }
+  ],
+  "references": [
+    {
+      "documentId": "reference-cgu-in3-2017-consolidada",
+      "name": "in3",
+      "url": "https://basedeconhecimento.cgu.gov.br/bitstreams/1c26b9b8-54dc-4fcf-9fbf-132813fc965e/download",
+      "sha256": "48ebbdaa5d3a9f75176447b8d5ecf80536267559036534d8d23e97834ba203dd",
+      "bytes": 402413,
+      "file": "sources/references/CGU-IN3-2017-consolidada.pdf",
+      "method": "independent_second_pdf_download_byte_match"
+    },
+    {
+      "documentId": "reference-cgu-in7-2017",
+      "name": "in7",
+      "url": "https://basedeconhecimento.cgu.gov.br/bitstreams/7f393745-c21c-4891-9d06-e1c001a738af/download",
+      "sha256": "99aa2ad859447504079ed752a9d775f4283de931828b30cf8afe29ff94afafb3",
+      "bytes": 164652,
+      "file": "sources/references/CGU-IN7-2017.pdf",
+      "method": "independent_second_pdf_download_byte_match"
+    }
+  ],
+  "unregisteredLeads": [
+    "TCDF 2023: official definitive keys and papers with preliminary explanations located; no TCDF question released in this lot.",
+    "TCE/SC 21 and TCE/PR 24 endpoints did not yield readable event JSON.",
+    "Gov.br MCASP landing returned HTTP 401; edition-11 checks deferred, not bypassed."
+  ]
+}
