@@ -118,7 +118,7 @@ test('later catalog rule versions preserve the original exam score and source sn
 });
 test('the larger reserve varies sampled questions while keeping 90+90 and older exams intact',()=>{
   const s=setup(),available=s.Study.examAvailability(s.data,s.role);
-  assert.deepEqual(plain(available.blocks.map(b=>b.questions.length)),[169,209]);assert.equal(available.distinct,378);
+  assert.deepEqual(plain(available.blocks.map(b=>b.questions.length)),[176,210]);assert.equal(available.distinct,386);
   const draw=random=>s.Study.create(s.data,s.role,s.Study.empty(),'exam',{now:start,random});
   const first=draw(()=>0.01),second=draw(()=>0.99);
   const ids=session=>new Set(session.items.map(i=>i.question.id));
@@ -152,7 +152,7 @@ test('pre-audit 180-item exams retain their allocation, context versions and sco
 
 test('later batches preserve real previous-catalog sessions while adding new distinct choices',()=>{
   const s=setup();
-  for(const [snapshot,count,added] of [['content-audit-catalog-2026-10-26.json.gz',224,166],['pre-thirteenth-catalog.json.gz',254,136],['pre-fourteenth-catalog.json.gz',266,124],['pre-fifteenth-catalog.json.gz',302,91],['pre-sixteenth-catalog.json.gz',339,54],['pre-seventeenth-catalog.json.gz',372,23]]) {
+  for(const [snapshot,count,added] of [['content-audit-catalog-2026-10-26.json.gz',224,174],['pre-thirteenth-catalog.json.gz',254,144],['pre-fourteenth-catalog.json.gz',266,132],['pre-fifteenth-catalog.json.gz',302,99],['pre-sixteenth-catalog.json.gz',339,62],['pre-seventeenth-catalog.json.gz',372,31]]) {
   const old=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync(path.join(root,'data/reviews',snapshot))).toString());
   old.revision='d'.repeat(64); // Synthetic revision; all question/key/rule rows are the frozen real catalog.
   assert.equal(old.questions.length,count);
@@ -166,7 +166,7 @@ test('later batches preserve real previous-catalog sessions while adding new dis
   progress=s.Study.finish(restored,end);
   assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(progress),s.data)),plain(progress));
   const current=s.Study.examAvailability(s.data,s.role);
-  assert.deepEqual(plain(current.blocks.map(b=>b.questions.length)),[169,209]);
+  assert.deepEqual(plain(current.blocks.map(b=>b.questions.length)),[176,210]);
   const all=s.Study.pool(s.data,s.role,s.Study.empty(),'all',{type:'true_false'});
   assert.equal(all.filter(q=>!oldIds.has(q.id)).length,added);
   }
@@ -194,6 +194,7 @@ test('the CF promotion-personal mapping is versioned and never retroactively cha
 test('the original seeded Camara CE draw remains identical after adding the FGV allocator',()=>{
  const s=setup(),expected=JSON.parse(fs.readFileSync(path.join(root,'tests/fixtures/camara-exam-draw-v1.json'),'utf8'));let n=expected.seed;
  const random=()=>{n=(1664525*n+1013904223)>>>0;return n/4294967296;};
- const session=s.Study.create(s.data,s.role,s.Study.empty(),'exam',{now:start,id:'legacy-draw-test',random});
+ const frozen=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync(path.join(root,'data/reviews/pre-gaps-fourth-batch-catalog.json.gz'))));frozen.revision='a'.repeat(64);
+ const session=s.Study.create(frozen,s.role,s.Study.empty(),'exam',{now:start,id:'legacy-draw-test',random});
  assert.deepEqual(plain(session.items.map(i=>i.question.id)),expected.questionIds);
 });

@@ -69,3 +69,32 @@ def artifacts(catalog, review, before):
     lines += ['Gerado de catálogos e mapas congelados. A [entrega do lote](gaps-third-batch-release.md) descreve fontes e validação; a varredura editorial completa continua para a etapa posterior definida pelo usuário.', '']
     return {'data/reviews/gaps-third-gap-progress.json': json.dumps(result, ensure_ascii=False, indent=2)+'\n',
             'documentation/gaps-third-gap-progress.md': '\n'.join(lines)}
+
+
+def expansion_artifacts(catalog, review, before):
+    """Compare an explicit frozen baseline; keep older delivery evidence immutable."""
+    previous = artifacts(catalog, review, before)
+    result = json.loads(previous['data/reviews/gaps-third-gap-progress.json'])
+    total = sum(r['beforeEmpty'] for r in result['roles'])
+    result['scope'] = f'Tratamento de {total} subárvores antes vazias. Primeira amostra não certifica cobertura integral. Varredura separada por banco ainda não iniciada.'
+    lines = ['# Ampliação dos recortes pendentes — quarto lote integrado', '', result['scope'], '',
+             '| Objetivo | Antes sem questões | Agora sem questões | Com primeira amostra¹ |',
+             '| --- | ---: | ---: | ---: |']
+    for role in result['roles']:
+        lines.append(f"| {ROLES[role['roleId']][0]} | {role['beforeEmpty']} | {role['afterEmpty']} | {role['newlySampledBranches']} |")
+    lines += ['', '¹ Pais e filhos podem se sobrepor. Amostras apenas em descendentes não são vínculos diretos nem cobertura completa. C/E não substitui MC nas cotas ABDI; MC não aumenta a reserva dos simulados C/E.', '',
+              '## Limites desta ampliação', '',
+              '- Câmara: primeira amostra MC de Nova Governança Pública e C/E de política internacional no contexto histórico de 2024. Normas e manuais próprios continuam com lacunas.',
+              '- ABDI: uma C/E de correio eletrônico e uma MC histórica de política industrial. A última inicia somente a finalidade institucional do item 4.7; não testa o plano 2024–2029 do item 4.6.',
+              '- CGU: novas C/E de contrafactual, seleção, pareamento, diferenças em diferenças, correlação, validade, trabalho e processo administrativo. Regressão descontínua e outros componentes não são considerados atendidos por aproximação.',
+              '- Lei 12.813/2013: os novos casos FGV sobre arts. 6º e 9º foram vinculados ao recorte especializado de conflitos; não à folha de Ética que enumera outros artigos.', '',
+              '## Registro das subárvores antes vazias', '']
+    for role in result['roles']:
+        lines += ['### '+ROLES[role['roleId']][0], '', '| Item | Recorte | Situação | Amostras diretas | Limite / próxima ação |', '| --- | --- | --- | --- | --- |']
+        for row in role['items']:
+            status={'open':'Sem questão','sample_added':'Primeira amostra direta','descendant_sample_added':'Só em descendente'}[row['disposition']]
+            lines.append(f"| {row['disciplineId']} {row['number']} | {row['label'].replace('|','/')} | {status} | {row['directCE']} CE / {row['directMC']} MC | {row['nextAction'] if row['disposition']=='open' else row['remainingScope']} |")
+        lines.append('')
+    lines += ['Ver [fontes, validações e pendências da entrega](gaps-fourth-batch-release.md). A revisão assistida por agente desta seleção não equivale à varredura humana ou editorial integral.', '']
+    return {'data/reviews/gaps-fourth-gap-progress.json': json.dumps(result, ensure_ascii=False, indent=2)+'\n',
+            'documentation/gaps-fourth-gap-progress.md':'\n'.join(lines)}

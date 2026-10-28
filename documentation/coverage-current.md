@@ -1,8 +1,8 @@
 # Mapa atual do banco de questões
 
-Última revisão: 2026-10-28; lote `gaps-third-batch`. São 399 questões e 408 vínculos da Câmara; **185/228 itens com vínculo direto**, 32 atendidos só por descendentes e 10 sem questões na subárvore (10 folhas). O título amplo Ciência Política 1 permanece separado.
+Última revisão: 2026-10-28; lote `gaps-fourth-batch`. São 408 questões e 417 vínculos da Câmara; **187/228 itens com vínculo direto**, 32 atendidos só por descendentes e 8 sem questões na subárvore (8 folhas). O título amplo Ciência Política 1 permanece separado.
 
-C/E: P1 **169**, P2 **209**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
+C/E: P1 **176**, P2 **210**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
 
 Direto significa vínculo ao item exato; subárvore reúne o próprio item e seus descendentes, sem duplicar IDs. Vínculos de pais não são distribuídos aos filhos. Prioridades editoriais: A sem C/E, B com 1–2 C/E, C com 3 ou mais. Pais e filhos se sobrepõem; as contagens não são pesos oficiais.
 
@@ -14,13 +14,13 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | --- | ---: | ---: | ---: | ---: |
 | Língua Portuguesa | 17/20 | 40 | 1 | 0 |
 | Língua Inglesa | 3/3 | 19 | 0 | 0 |
-| Noções de Direito Administrativo e Administração Pública | 35/46 | 55 | 0 | 3 |
+| Noções de Direito Administrativo e Administração Pública | 36/46 | 62 | 1 | 2 |
 | Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados | 10/14 | 21 | 1 | 2 |
 | Tecnologia da Informação e Dados | 17/20 | 34 | 0 | 0 |
 | Comunicação Social | 37/45 | 73 | 7 | 3 |
 | Divulgação Institucional | 33/40 | 66 | 2 | 1 |
 | Processo Legislativo e Regimento Interno | 22/27 | 32 | 9 | 0 |
-| Ciência Política | 11/13 | 39 | 2 | 1 |
+| Ciência Política | 12/13 | 40 | 2 | 0 |
 
 ## Prioridades seguintes
 
@@ -80,24 +80,24 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 3.2 | Cargo, emprego e função pública. | 1 | 0 | 1 | 0 | Direto | B |
 | 3.3 | Requisição. | 1 | 0 | 1 | 0 | Direto | B |
 | 3.4 | Regime jurídico dos servidores públicos federais (Lei 8.112/1990 e suas alterações). | 1 | 0 | 1 | 0 | Direto | B |
-| 4 | Direito administrativo disciplinar. | 0 | 0 | 6 | 0 | Só descendentes | C |
+| 4 | Direito administrativo disciplinar. | 0 | 0 | 8 | 0 | Só descendentes | C |
 | 4.1 | Fontes e princípios. | 1 | 0 | 1 | 0 | Direto | B |
 | 4.2 | Ilícito de direito administrativo disciplinar. | 1 | 0 | 1 | 0 | Direto | B |
 | 4.3 | Procedimentos disciplinares da administração pública. | 2 | 0 | 2 | 0 | Direto | B |
-| 4.4 | Processo Administrativo Federal (Lei nº 9.784/1999 e suas alterações). | 2 | 0 | 2 | 0 | Direto | B |
-| 5 | Poderes administrativos. | 0 | 0 | 3 | 0 | Só descendentes | C |
+| 4.4 | Processo Administrativo Federal (Lei nº 9.784/1999 e suas alterações). | 4 | 0 | 4 | 0 | Direto | C |
+| 5 | Poderes administrativos. | 0 | 0 | 4 | 0 | Só descendentes | C |
 | 5.1 | Discricionário, hierárquico, disciplinar, regulamentar e de polícia. | 2 | 0 | 2 | 0 | Direto | B |
-| 5.2 | Uso e abuso do poder. | 1 | 0 | 1 | 0 | Direto | B |
+| 5.2 | Uso e abuso do poder. | 2 | 0 | 2 | 0 | Direto | B |
 | 6 | Responsabilidade civil do Estado. | 0 | 0 | 4 | 0 | Só descendentes | C |
 | 6.1 | Responsabilidade civil do Estado no direito brasileiro. | 1 | 0 | 1 | 0 | Direto | B |
 | 6.2 | Responsabilidade por ato comissivo do Estado. | 1 | 0 | 1 | 0 | Direto | B |
 | 6.3 | Responsabilidade por omissão do Estado. | 1 | 0 | 1 | 0 | Direto | B |
 | 6.4 | Requisitos para a demonstração da responsabilidade do Estado. | 2 | 0 | 2 | 0 | Direto | B |
 | 6.5 | Causas excludentes e atenuantes da responsabilidade do Estado. | 1 | 0 | 1 | 0 | Direto | B |
-| 7 | Improbidade Administrativa (Lei nº 8.429/1992 e suas alterações). | 4 | 0 | 4 | 0 | Direto | C |
-| 8 | Evolução dos modelos de gestão pública: patrimonialismo, administração burocrática e nova gestão pública (New Public Management). | 2 | 0 | 6 | 0 | Direto | C |
-| 8.1 | Nova Governança Pública (New Public Governance): conceito, fundamentos e evolução. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 8.2 | Ação pública em redes de cooperação, articulação interinstitucional e parcerias com o setor privado e terceiro setor. | 1 | 0 | 1 | 0 | Direto | B |
+| 7 | Improbidade Administrativa (Lei nº 8.429/1992 e suas alterações). | 5 | 0 | 5 | 0 | Direto | C |
+| 8 | Evolução dos modelos de gestão pública: patrimonialismo, administração burocrática e nova gestão pública (New Public Management). | 3 | 0 | 9 | 1 | Direto | C |
+| 8.1 | Nova Governança Pública (New Public Governance): conceito, fundamentos e evolução. | 0 | 1 | 0 | 1 | Direto | A |
+| 8.2 | Ação pública em redes de cooperação, articulação interinstitucional e parcerias com o setor privado e terceiro setor. | 3 | 0 | 3 | 0 | Direto | C |
 | 8.3 | Coprodução do bem público, participação cidadã e transparência ativa. | 2 | 0 | 2 | 0 | Direto | B |
 | 8.4 | Valor Público, cadeia de valor público. | 1 | 0 | 1 | 0 | Direto | B |
 | 9 | Governança na Administração Pública. | 0 | 0 | 6 | 0 | Só descendentes | C |
@@ -300,7 +300,7 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 7 | Sistemas eleitorais. | 4 | 0 | 4 | 0 | Direto | C |
 | 8 | Teoria dos partidos políticos. | 4 | 1 | 4 | 1 | Direto | C |
 | 9 | Organização política brasileira. | 2 | 0 | 2 | 0 | Direto | B |
-| 10 | Política internacional contemporânea. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 10 | Política internacional contemporânea. | 1 | 0 | 1 | 0 | Direto | B |
 | 11 | Teoria do Estado e formação dos Estados nacionais. | 4 | 0 | 4 | 0 | Direto | C |
 | 12 | Formação do Estado brasileiro. | 1 | 0 | 1 | 0 | Direto | B |
 | 13 | História do voto e dos partidos no Brasil. | 1 | 0 | 1 | 0 | Direto | B |

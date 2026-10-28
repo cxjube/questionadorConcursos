@@ -71,10 +71,10 @@ class FoundationTests(unittest.TestCase):
         """Validate retained source bytes without claiming external authentication."""
         real = read_json(ROOT / 'data/catalog.json')
         self.assertEqual(validate(real), [])
-        self.assertEqual(len(real['questions']), 644)
+        self.assertEqual(len(real['questions']), 686)
         self.assertEqual(len(real['scoringRules']), 3)
         self.assertEqual(len(real['syllabusItems']), 591)
-        self.assertEqual(len(real['documents']), 206)
+        self.assertEqual(len(real['documents']), 217)
         self.assertTrue(all(d['status'] in {'received', 'reviewed_copy', 'verified'} for d in real['documents']))
 
     def test_complete_fixture_and_large_question_number(self):

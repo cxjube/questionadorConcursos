@@ -89,7 +89,8 @@ def answer_table(text: str, booklet: str) -> dict[int, str]:
             raise ValueError('No IBFC objective answer rows found')
         return result
     header_pattern = (r'(?m)^[ \t]*((?:(?:Analista|Técnico) (?:Legislativo|Judiciário)[^\n]*TIPO \d+|'
-                      r'Especialista Legislativo[^\n]* - \d+ - Turno (?:Manhã|Tarde|Noite)))[ \t]*$')
+                      r'Especialista Legislativo[^\n]* - \d+ - Turno (?:Manhã|Tarde|Noite)|'
+                      r'Auditor Federal de Controle Externo[^\n]* – Tipo \d+))[ \t]*$')
     headers = list(re.finditer(header_pattern, text))
     if headers:
         matches = [i for i, match in enumerate(headers) if match.group(1).strip() == booklet]

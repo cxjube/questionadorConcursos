@@ -25,7 +25,7 @@ class GapsThirdBatchTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.c = read_json(ROOT/'data/catalog.json')
+        cls.c = json.loads(gzip.decompress((ROOT/'data/reviews/pre-gaps-fourth-batch-catalog.json.gz').read_bytes()))
         cls.m = read_json(ROOT/'data/reviews/gaps-third-batch.json')
         cls.docs = {d['id']:d for d in cls.c['documents']}
         cls.papers = {p['id']:p for p in cls.c['papers']}
@@ -101,7 +101,7 @@ class GapsThirdBatchTests(unittest.TestCase):
         self.assertEqual(len(ids),8)
         self.assertTrue(all(self.q[qid]['type']=='multiple_choice' for qid in ids))
         ready=abdi_capacity(self.c,self.m['reviewedAt'])
-        self.assertEqual(ready,read_json(ROOT/'data/reviews/abdi-bank-readiness.json'))
+        self.assertEqual(ready,read_json(ROOT/'data/reviews/abdi-pre-gaps-fourth-readiness.json'))
         self.assertEqual((ready['institutionalDistinctMC'],ready['minimumAdditionalMC']),(25,0))
         for qid in ids:
             with self.subTest(withdrawn=qid):

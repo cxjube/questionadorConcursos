@@ -3,10 +3,10 @@
   "checkedAt": "2026-10-28",
   "roleId": "abdi-comunicacao-marketing",
   "scope": "Exact distinct-ID matching across all official discipline quotas. CE remain training only. Capacity does not certify coverage or difficulty; later withdrawals can block the simulator.",
-  "distinctTrainingQuestions": 246,
-  "distinctMC": 93,
-  "distinctCE": 153,
-  "institutionalDistinctMC": 25,
+  "distinctTrainingQuestions": 250,
+  "distinctMC": 94,
+  "distinctCE": 156,
+  "institutionalDistinctMC": 26,
   "minimumAdditionalMC": 0,
   "distribution": [
     {
@@ -55,7 +55,7 @@
       "block": "institutional",
       "disciplineId": "abdi-etica-missao",
       "requiredMC": 4,
-      "availableDistinctMC": 8,
+      "availableDistinctMC": 9,
       "missingForMinimum": 0
     },
     {
@@ -141,7 +141,7 @@
       {
         "disciplineId": "abdi-etica-missao",
         "questionIds": [
-          "alerj-2026-comunicacao-manha-tipo1-q053",
+          "abdi-2008-iniciante-licitacoes-contratos-q020",
           "cgu-2022-auditoria-tarde-tipo1-q043",
           "fiocruz-2024-te58-q038",
           "tjrr-2024-direito-tipo1-q019"
@@ -163,13 +163,13 @@
           "abdi-2008-senior-assessor-comunicacao-q013",
           "abdi-2008-senior-assessor-comunicacao-q016",
           "alerj-2026-comunicacao-manha-tipo1-q051",
+          "alerj-2026-comunicacao-manha-tipo1-q053",
           "alerj-2026-comunicacao-manha-tipo1-q056",
           "alerj-2026-comunicacao-manha-tipo1-q058",
           "alerj-2026-comunicacao-manha-tipo1-q059",
           "alerj-2026-comunicacao-manha-tipo1-q060",
           "alerj-2026-comunicacao-manha-tipo1-q061",
-          "alerj-2026-comunicacao-manha-tipo1-q063",
-          "alerj-2026-comunicacao-manha-tipo1-q064"
+          "alerj-2026-comunicacao-manha-tipo1-q063"
         ]
       }
     ]

@@ -1,0 +1,6027 @@
+{
+  "id": "gaps-fourth-batch",
+  "reviewedAt": "2026-10-28",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/gaps-fourth-batch-release.md",
+  "previousCatalogFile": "data/reviews/pre-gaps-fourth-batch-catalog.json.gz",
+  "previousCatalogSha256": "cb812172d6a9242dc869c965f3ed1039635dafc5a3d98d2c6273b38092c4ac53",
+  "items": [
+    {
+      "questionId": "mpo-2024-cg1-01-q034",
+      "paperId": "source-mpo-2024-cg1-01",
+      "number": 34,
+      "sourcePage": 2,
+      "contextIds": [
+        "gaps4-mpo-models"
+      ],
+      "answerKeyId": "mpo-2024-cg1-01-q034-key-v1",
+      "answerDocumentId": "source-mpo-2024-cg1-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-8",
+        "cgu-2026-estado-democracia-6-1"
+      ],
+      "groups": [
+        {
+          "page": 2,
+          "column": "right",
+          "y": 480.7367,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 480.7367,
+              "text": "34 Obtenção de vantagens ilícitas e sobreposição dos interesses"
+            }
+          ],
+          "text": "34 Obtenção de vantagens ilícitas e sobreposição dos interesses"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 492.0164,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 492.0164,
+              "text": "pessoais aos interesses públicos são comportamentos"
+            }
+          ],
+          "text": "pessoais aos interesses públicos são comportamentos"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 503.2961,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 503.2961,
+              "text": "característicos do modelo de gestão patrimonialista."
+            }
+          ],
+          "text": "característicos do modelo de gestão patrimonialista."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-cg1-01-q036",
+      "paperId": "source-mpo-2024-cg1-01",
+      "number": 36,
+      "sourcePage": 2,
+      "contextIds": [
+        "gaps4-mpo-cooperation"
+      ],
+      "answerKeyId": "mpo-2024-cg1-01-q036-key-v1",
+      "answerDocumentId": "source-mpo-2024-cg1-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-8-2",
+        "cgu-2026-politicas-investigacao-avaliacao-2-1"
+      ],
+      "groups": [
+        {
+          "page": 2,
+          "column": "right",
+          "y": 605.8967,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 605.8967,
+              "text": "36 O compartilhamento de conhecimento fica relegado"
+            }
+          ],
+          "text": "36 O compartilhamento de conhecimento fica relegado"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 617.05688,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 617.05688,
+              "text": "a segundo plano na colaboração público-privada, pois os"
+            }
+          ],
+          "text": "a segundo plano na colaboração público-privada, pois os"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 628.33658,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 628.33658,
+              "text": "recursos materiais e financeiros são os fatores determinantes"
+            }
+          ],
+          "text": "recursos materiais e financeiros são os fatores determinantes"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 639.61628,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 639.61628,
+              "text": "para a concretização dessa parceria."
+            }
+          ],
+          "text": "para a concretização dessa parceria."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-cg1-01-q037",
+      "paperId": "source-mpo-2024-cg1-01",
+      "number": 37,
+      "sourcePage": 2,
+      "contextIds": [
+        "gaps4-mpo-cooperation"
+      ],
+      "answerKeyId": "mpo-2024-cg1-01-q037-key-v1",
+      "answerDocumentId": "source-mpo-2024-cg1-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-administracao-publica-2-1",
+        "cgu-2026-politicas-investigacao-avaliacao-2-1"
+      ],
+      "groups": [
+        {
+          "page": 2,
+          "column": "right",
+          "y": 652.9367,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 652.9367,
+              "text": "37 A capacitação e a formação contínua dos servidores públicos"
+            }
+          ],
+          "text": "37 A capacitação e a formação contínua dos servidores públicos"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 664.09688,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 664.09688,
+              "text": "para enfrentar obstáculos às políticas públicas, de maneira"
+            }
+          ],
+          "text": "para enfrentar obstáculos às políticas públicas, de maneira"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 675.37658,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 675.37658,
+              "text": "alinhada às diferentes dimensões do governo, são desafios"
+            }
+          ],
+          "text": "alinhada às diferentes dimensões do governo, são desafios"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 686.65628,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 686.65628,
+              "text": "contemporâneos da administração pública brasileira."
+            }
+          ],
+          "text": "contemporâneos da administração pública brasileira."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-cg1-01-q040",
+      "paperId": "source-mpo-2024-cg1-01",
+      "number": 40,
+      "sourcePage": 3,
+      "contextIds": [
+        "gaps4-mpo-cooperation"
+      ],
+      "answerKeyId": "mpo-2024-cg1-01-q040-key-v1",
+      "answerDocumentId": "source-mpo-2024-cg1-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-8-2",
+        "cgu-2026-politicas-investigacao-avaliacao-2-1"
+      ],
+      "groups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 45.8567,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.4391,
+              "y": 46.769,
+              "text": "40"
+            },
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.3191,
+              "y": 45.8567,
+              "text": "A colaboração público-privada é adequada para o"
+            }
+          ],
+          "text": "40 A colaboração público-privada é adequada para o"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 58.457096,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.3191,
+              "y": 58.457096,
+              "text": "desenvolvimento de projetos quando o governo não dispõe"
+            }
+          ],
+          "text": "desenvolvimento de projetos quando o governo não dispõe"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 71.057492,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.3191,
+              "y": 71.057492,
+              "text": "das capacidades necessárias para tanto, embora possa haver"
+            }
+          ],
+          "text": "das capacidades necessárias para tanto, embora possa haver"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 83.777408,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.3191,
+              "y": 83.777408,
+              "text": "dificuldades advindas do contraste entre o valor da"
+            }
+          ],
+          "text": "dificuldades advindas do contraste entre o valor da"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 96.377804,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.3191,
+              "y": 96.377804,
+              "text": "transparência priorizado pela administração pública e o valor"
+            }
+          ],
+          "text": "transparência priorizado pela administração pública e o valor"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 108.9782,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.3191,
+              "y": 108.9782,
+              "text": "do sigilo predominante no setor privado."
+            }
+          ],
+          "text": "do sigilo predominante no setor privado."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-cg1-01-q054",
+      "paperId": "source-mpo-2024-cg1-01",
+      "number": 54,
+      "sourcePage": 3,
+      "contextIds": [
+        "gaps4-mpo-work"
+      ],
+      "answerKeyId": "mpo-2024-cg1-01-q054-key-v1",
+      "answerDocumentId": "source-mpo-2024-cg1-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-sociedade-brasileira-3-1"
+      ],
+      "groups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 610.9367,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.479,
+              "y": 611.8487,
+              "text": "54"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.359,
+              "y": 610.9367,
+              "text": "No contexto dos fenômenos em questão, o gerenciamento"
+            }
+          ],
+          "text": "54 No contexto dos fenômenos em questão, o gerenciamento"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 625.456388,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.359,
+              "y": 625.456388,
+              "text": "algorítmico corresponde ao conjunto de instruções"
+            }
+          ],
+          "text": "algorítmico corresponde ao conjunto de instruções"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 640.096592,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.359,
+              "y": 640.096592,
+              "text": "automatizadas que, capaz de combinar diversas variáveis que"
+            }
+          ],
+          "text": "automatizadas que, capaz de combinar diversas variáveis que"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 654.736796,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.359,
+              "y": 654.736796,
+              "text": "envolvem relações de trabalho regulares e formais, é"
+            }
+          ],
+          "text": "envolvem relações de trabalho regulares e formais, é"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 669.377,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.359,
+              "y": 669.377,
+              "text": "utilizado para medir a qualidade dos serviços prestados."
+            }
+          ],
+          "text": "utilizado para medir a qualidade dos serviços prestados."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-cg1-01-q055",
+      "paperId": "source-mpo-2024-cg1-01",
+      "number": 55,
+      "sourcePage": 3,
+      "contextIds": [
+        "gaps4-mpo-work"
+      ],
+      "answerKeyId": "mpo-2024-cg1-01-q055-key-v1",
+      "answerDocumentId": "source-mpo-2024-cg1-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-sociedade-brasileira-3-1"
+      ],
+      "groups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 685.9367,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.479,
+              "y": 686.8487,
+              "text": "55"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.359,
+              "y": 685.9367,
+              "text": "A pejotização das relações de trabalho é caracterizada pela"
+            }
+          ],
+          "text": "55 A pejotização das relações de trabalho é caracterizada pela"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 700.576904,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.359,
+              "y": 700.576904,
+              "text": "utilização de plataforma digital por pessoa física para"
+            }
+          ],
+          "text": "utilização de plataforma digital por pessoa física para"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 715.217108,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.359,
+              "y": 715.217108,
+              "text": "oferecer seus serviços a terceiros de forma análoga a uma"
+            }
+          ],
+          "text": "oferecer seus serviços a terceiros de forma análoga a uma"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 729.736796,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.359,
+              "y": 729.736796,
+              "text": "pessoa jurídica."
+            }
+          ],
+          "text": "pessoa jurídica."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-cg1-01-q056",
+      "paperId": "source-mpo-2024-cg1-01",
+      "number": 56,
+      "sourcePage": 3,
+      "contextIds": [
+        "gaps4-mpo-work"
+      ],
+      "answerKeyId": "mpo-2024-cg1-01-q056-key-v1",
+      "answerDocumentId": "source-mpo-2024-cg1-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-sociedade-brasileira-3-1"
+      ],
+      "groups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 746.4167,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.479,
+              "y": 747.3287,
+              "text": "56"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.359,
+              "y": 746.4167,
+              "text": "Esses dois fenômenos são formas contemporâneas de"
+            }
+          ],
+          "text": "56 Esses dois fenômenos são formas contemporâneas de"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 761.056904,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.359,
+              "y": 761.056904,
+              "text": "acumulação capitalista e envolvem relações de trabalho sem"
+            }
+          ],
+          "text": "acumulação capitalista e envolvem relações de trabalho sem"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 775.576592,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.359,
+              "y": 775.576592,
+              "text": "garantia de direitos trabalhistas como férias e décimo"
+            }
+          ],
+          "text": "garantia de direitos trabalhistas como férias e décimo"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 790.216796,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.359,
+              "y": 790.216796,
+              "text": "terceiro salário."
+            }
+          ],
+          "text": "terceiro salário."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-cg1-01-q073",
+      "paperId": "source-mpo-2024-cg1-01",
+      "number": 73,
+      "sourcePage": 5,
+      "contextIds": [
+        "gaps4-mpo-politics"
+      ],
+      "answerKeyId": "mpo-2024-cg1-01-q073-key-v1",
+      "answerDocumentId": "source-mpo-2024-cg1-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-ciencia-politica-10"
+      ],
+      "groups": [
+        {
+          "page": 5,
+          "column": "left",
+          "y": 541.5767,
+          "parts": [
+            {
+              "page": 5,
+              "column": "left",
+              "x": 28.3191,
+              "y": 542.4887,
+              "text": "73"
+            },
+            {
+              "page": 5,
+              "column": "left",
+              "x": 46.1991,
+              "y": 541.5767,
+              "text": "Pela primeira vez na história, o Brasil recentemente assumiu"
+            }
+          ],
+          "text": "73 Pela primeira vez na história, o Brasil recentemente assumiu"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "y": 557.296568,
+          "parts": [
+            {
+              "page": 5,
+              "column": "left",
+              "x": 46.1991,
+              "y": 557.296568,
+              "text": "a Presidência do G20, grupo em cuja liderança permanecerá"
+            }
+          ],
+          "text": "a Presidência do G20, grupo em cuja liderança permanecerá"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "y": 573.136952,
+          "parts": [
+            {
+              "page": 5,
+              "column": "left",
+              "x": 46.1991,
+              "y": 573.136952,
+              "text": "ao longo do mandato de um ano, organizando reuniões de"
+            }
+          ],
+          "text": "ao longo do mandato de um ano, organizando reuniões de"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "y": 588.85682,
+          "parts": [
+            {
+              "page": 5,
+              "column": "left",
+              "x": 46.1991,
+              "y": 588.85682,
+              "text": "grupos de trabalho e reuniões ministeriais."
+            }
+          ],
+          "text": "grupos de trabalho e reuniões ministeriais."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-cg1-01-q075",
+      "paperId": "source-mpo-2024-cg1-01",
+      "number": 75,
+      "sourcePage": 5,
+      "contextIds": [
+        "gaps4-mpo-investment"
+      ],
+      "answerKeyId": "mpo-2024-cg1-01-q075-key-v1",
+      "answerDocumentId": "source-mpo-2024-cg1-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-6-2"
+      ],
+      "groups": [
+        {
+          "page": 5,
+          "column": "left",
+          "y": 743.2967,
+          "parts": [
+            {
+              "page": 5,
+              "column": "left",
+              "x": 28.3191,
+              "y": 744.2087,
+              "text": "75"
+            },
+            {
+              "page": 5,
+              "column": "left",
+              "x": 46.1991,
+              "y": 743.2967,
+              "text": "Obras públicas de infraestrutura abandonadas ou paralisadas"
+            }
+          ],
+          "text": "75 Obras públicas de infraestrutura abandonadas ou paralisadas"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "y": 759.016568,
+          "parts": [
+            {
+              "page": 5,
+              "column": "left",
+              "x": 46.1991,
+              "y": 759.016568,
+              "text": "impactam a geração de melhorias econômicas e a promoção"
+            }
+          ],
+          "text": "impactam a geração de melhorias econômicas e a promoção"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "y": 774.736436,
+          "parts": [
+            {
+              "page": 5,
+              "column": "left",
+              "x": 46.1991,
+              "y": 774.736436,
+              "text": "de mudanças que poderiam diminuir as desigualdades"
+            }
+          ],
+          "text": "de mudanças que poderiam diminuir as desigualdades"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "y": 790.456304,
+          "parts": [
+            {
+              "page": 5,
+              "column": "left",
+              "x": 46.1991,
+              "y": 790.456304,
+              "text": "regionais."
+            }
+          ],
+          "text": "regionais."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-cg1-01-q076",
+      "paperId": "source-mpo-2024-cg1-01",
+      "number": 76,
+      "sourcePage": 5,
+      "contextIds": [
+        "gaps4-mpo-lgpd"
+      ],
+      "answerKeyId": "mpo-2024-cg1-01-q076-key-v1",
+      "answerDocumentId": "source-mpo-2024-cg1-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-25",
+        "cgu-2026-transparencia-ouvidoria-2-1"
+      ],
+      "groups": [
+        {
+          "page": 5,
+          "column": "right",
+          "y": 92.2967,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 303.359,
+              "y": 92.2967,
+              "text": "76 A anonimização consiste no processo de transformação de"
+            }
+          ],
+          "text": "76 A anonimização consiste no processo de transformação de"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "y": 103.936952,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 321.239,
+              "y": 103.936952,
+              "text": "um dado para que não seja possível associá-lo, direta ou"
+            }
+          ],
+          "text": "um dado para que não seja possível associá-lo, direta ou"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "y": 115.577204,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 321.239,
+              "y": 115.577204,
+              "text": "indiretamente, a um indivíduo."
+            }
+          ],
+          "text": "indiretamente, a um indivíduo."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-cg1-01-q077",
+      "paperId": "source-mpo-2024-cg1-01",
+      "number": 77,
+      "sourcePage": 5,
+      "contextIds": [
+        "gaps4-mpo-lgpd"
+      ],
+      "answerKeyId": "mpo-2024-cg1-01-q077-key-v1",
+      "answerDocumentId": "source-mpo-2024-cg1-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-25",
+        "cgu-2026-transparencia-ouvidoria-2-1"
+      ],
+      "groups": [
+        {
+          "page": 5,
+          "column": "right",
+          "y": 129.1367,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 303.359,
+              "y": 129.1367,
+              "text": "77 A identidade e as informações de contato do encarregado"
+            }
+          ],
+          "text": "77 A identidade e as informações de contato do encarregado"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "y": 140.776952,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 321.239,
+              "y": 140.776952,
+              "text": "pelo tratamento de dados pessoais deverão ser mantidas em"
+            }
+          ],
+          "text": "pelo tratamento de dados pessoais deverão ser mantidas em"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "y": 152.296688,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 321.239,
+              "y": 152.296688,
+              "text": "sigilo, para a garantia da segurança e privacidade do"
+            }
+          ],
+          "text": "sigilo, para a garantia da segurança e privacidade do"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "y": 163.93694,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 321.239,
+              "y": 163.93694,
+              "text": "encarregado."
+            }
+          ],
+          "text": "encarregado."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-cg1-01-q089",
+      "paperId": "source-mpo-2024-cg1-01",
+      "number": 89,
+      "sourcePage": 5,
+      "contextIds": [
+        "gaps4-mpo-data"
+      ],
+      "answerKeyId": "mpo-2024-cg1-01-q089-key-v1",
+      "answerDocumentId": "source-mpo-2024-cg1-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-transparencia-ouvidoria-4-3",
+        "cgu-2026-integridade-transparencia-responsabilizacao-2-3"
+      ],
+      "groups": [
+        {
+          "page": 5,
+          "column": "right",
+          "y": 717.7367,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 303.359,
+              "y": 717.7367,
+              "text": "89 Em um portal de dados abertos, como o do governo federal,"
+            }
+          ],
+          "text": "89 Em um portal de dados abertos, como o do governo federal,"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "y": 729.256436,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 321.239,
+              "y": 729.256436,
+              "text": "é o atributo da inclusão que permite aos usuários dos dados"
+            }
+          ],
+          "text": "é o atributo da inclusão que permite aos usuários dos dados"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "y": 740.896688,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 321.239,
+              "y": 740.896688,
+              "text": "abertos incluir e publicar, a qualquer tempo, informações"
+            }
+          ],
+          "text": "abertos incluir e publicar, a qualquer tempo, informações"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "y": 752.53694,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 321.239,
+              "y": 752.53694,
+              "text": "para enriquecer o portal."
+            }
+          ],
+          "text": "para enriquecer o portal."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-cg1-01-q092",
+      "paperId": "source-mpo-2024-cg1-01",
+      "number": 92,
+      "sourcePage": 6,
+      "contextIds": [
+        "gaps4-mpo-ethics"
+      ],
+      "answerKeyId": "mpo-2024-cg1-01-q092-key-v1",
+      "answerDocumentId": "source-mpo-2024-cg1-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-4-4",
+        "cgu-2026-direito-controle-responsabilizacao-1-1"
+      ],
+      "groups": [
+        {
+          "page": 6,
+          "column": "left",
+          "y": 233.1767,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 28.3191,
+              "y": 234.0887,
+              "text": "92"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.1991,
+              "y": 233.1767,
+              "text": "A finalidade, a motivação, a segurança jurídica, a"
+            }
+          ],
+          "text": "92 A finalidade, a motivação, a segurança jurídica, a"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 249.25712,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.1991,
+              "y": 249.25712,
+              "text": "razoabilidade"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 110.841057,
+              "y": 249.25712,
+              "text": "e"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 125.958797,
+              "y": 249.25712,
+              "text": "o"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 141.676249,
+              "y": 249.25712,
+              "text": "interesse"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 187.13142,
+              "y": 249.25712,
+              "text": "público"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 227.790894,
+              "y": 249.25712,
+              "text": "são"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 251.782373,
+              "y": 249.25712,
+              "text": "princípios"
+            }
+          ],
+          "text": "razoabilidade e o interesse público são princípios"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 265.45706,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.1991,
+              "y": 265.45706,
+              "text": "expressamente previstos na Lei n.º 9.784/1999."
+            }
+          ],
+          "text": "expressamente previstos na Lei n.º 9.784/1999."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-cg1-01-q095",
+      "paperId": "source-mpo-2024-cg1-01",
+      "number": 95,
+      "sourcePage": 6,
+      "contextIds": [
+        "gaps4-mpo-ethics"
+      ],
+      "answerKeyId": "mpo-2024-cg1-01-q095-key-v1",
+      "answerDocumentId": "source-mpo-2024-cg1-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-7",
+        "cgu-2026-integridade-transparencia-responsabilizacao-5-2"
+      ],
+      "groups": [
+        {
+          "page": 6,
+          "column": "left",
+          "y": 401.0567,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 28.3191,
+              "y": 401.9687,
+              "text": "95"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.1991,
+              "y": 401.0567,
+              "text": "Os atos de improbidade administrativa que atentem contra os"
+            }
+          ],
+          "text": "95 Os atos de improbidade administrativa que atentem contra os"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 417.2567,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.1991,
+              "y": 417.2567,
+              "text": "princípios"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 96.57091,
+              "y": 417.2567,
+              "text": "da"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 116.485346,
+              "y": 417.2567,
+              "text": "administração"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 182.928438,
+              "y": 417.2567,
+              "text": "pública"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 222.748316,
+              "y": 417.2567,
+              "text": "independem"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 281.755978,
+              "y": 417.2567,
+              "text": "do"
+            }
+          ],
+          "text": "princípios da administração pública independem do"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 433.4567,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.1991,
+              "y": 433.4567,
+              "text": "reconhecimento da produção de danos ao erário e de"
+            }
+          ],
+          "text": "reconhecimento da produção de danos ao erário e de"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 449.6567,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.1991,
+              "y": 449.6567,
+              "text": "enriquecimento ilícito dos agentes públicos, assim como"
+            }
+          ],
+          "text": "enriquecimento ilícito dos agentes públicos, assim como"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 465.8567,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.1991,
+              "y": 465.8567,
+              "text": "exigem lesividade relevante ao bem jurídico tutelado para"
+            }
+          ],
+          "text": "exigem lesividade relevante ao bem jurídico tutelado para"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 482.0567,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 46.1991,
+              "y": 482.0567,
+              "text": "poderem ser sancionados."
+            }
+          ],
+          "text": "poderem ser sancionados."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q041",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 41,
+      "sourcePage": 3,
+      "contextIds": [
+        "gaps4-mpo-evaluation"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q041-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-3-1"
+      ],
+      "groups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 338.1767,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 339.0887,
+              "text": "41"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 338.1767,
+              "text": "As dimensões da efetividade e da equidade utilizadas na"
+            }
+          ],
+          "text": "41 As dimensões da efetividade e da equidade utilizadas na"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 352.816904,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 352.816904,
+              "text": "avaliação de política pública diferenciam-se pelo fato de que"
+            }
+          ],
+          "text": "avaliação de política pública diferenciam-se pelo fato de que"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 367.576628,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 367.576628,
+              "text": "a primeira busca minimizar desigualdades e promover justiça"
+            }
+          ],
+          "text": "a primeira busca minimizar desigualdades e promover justiça"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 382.336352,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 382.336352,
+              "text": "social, enquanto a segunda visa determinar o grau de sucesso"
+            }
+          ],
+          "text": "social, enquanto a segunda visa determinar o grau de sucesso"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 396.976556,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 396.976556,
+              "text": "de uma política pública."
+            }
+          ],
+          "text": "de uma política pública."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q042",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 42,
+      "sourcePage": 3,
+      "contextIds": [
+        "gaps4-mpo-evaluation"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q042-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-3-1"
+      ],
+      "groups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 413.7767,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 414.6887,
+              "text": "42"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 413.7767,
+              "text": "As dimensões da economicidade e da eficiência utilizadas na"
+            }
+          ],
+          "text": "42 As dimensões da economicidade e da eficiência utilizadas na"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 428.416904,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 428.416904,
+              "text": "avaliação de política pública diferenciam-se pelo fato de que"
+            }
+          ],
+          "text": "avaliação de política pública diferenciam-se pelo fato de que"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 443.176628,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 443.176628,
+              "text": "a primeira prioriza a minimização do custo dos insumos,"
+            }
+          ],
+          "text": "a primeira prioriza a minimização do custo dos insumos,"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 457.816832,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 457.816832,
+              "text": "enquanto a segunda enfatiza a relação entre insumos e"
+            }
+          ],
+          "text": "enquanto a segunda enfatiza a relação entre insumos e"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 472.576556,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 472.576556,
+              "text": "resultados."
+            }
+          ],
+          "text": "resultados."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q043",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 43,
+      "sourcePage": 3,
+      "contextIds": [
+        "gaps4-mpo-problem"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q043-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-1-1"
+      ],
+      "groups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 619.6967,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 620.6087,
+              "text": "43"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 619.6967,
+              "text": "No contexto das políticas públicas, a árvore do problema"
+            }
+          ],
+          "text": "43 No contexto das políticas públicas, a árvore do problema"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 634.336904,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 634.336904,
+              "text": "consiste em um diagrama de causa e efeito que contribui"
+            }
+          ],
+          "text": "consiste em um diagrama de causa e efeito que contribui"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 649.096628,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 649.096628,
+              "text": "para a elaboração do diagnóstico de um problema público,"
+            }
+          ],
+          "text": "para a elaboração do diagnóstico de um problema público,"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 663.736832,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 663.736832,
+              "text": "mas que não propicia reflexões a respeito da solução mais"
+            }
+          ],
+          "text": "mas que não propicia reflexões a respeito da solução mais"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 678.496556,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 678.496556,
+              "text": "adequada para sua resolução."
+            }
+          ],
+          "text": "adequada para sua resolução."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q044",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 44,
+      "sourcePage": 3,
+      "contextIds": [
+        "gaps4-mpo-problem"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q044-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-1-1",
+        "cgu-2026-administracao-publica-3-1"
+      ],
+      "groups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 695.2967,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 696.2087,
+              "text": "44"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 695.2967,
+              "text": "A criação e a implementação de políticas públicas são"
+            }
+          ],
+          "text": "44 A criação e a implementação de políticas públicas são"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 709.936904,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 709.936904,
+              "text": "motivadas pelo tratamento ou pela resolução de um"
+            }
+          ],
+          "text": "motivadas pelo tratamento ou pela resolução de um"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 724.577108,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 724.577108,
+              "text": "problema de ordem individual."
+            }
+          ],
+          "text": "problema de ordem individual."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q045",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 45,
+      "sourcePage": 3,
+      "contextIds": [
+        "gaps4-mpo-problem"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q045-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-1-1"
+      ],
+      "groups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 741.3767,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 742.2887,
+              "text": "45"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 741.3767,
+              "text": "Para a definição de políticas públicas, faz-se necessária a"
+            }
+          ],
+          "text": "45 Para a definição de políticas públicas, faz-se necessária a"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 756.016904,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 756.016904,
+              "text": "realização de um diagnóstico, que consiste em uma diretriz"
+            }
+          ],
+          "text": "realização de um diagnóstico, que consiste em uma diretriz"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 770.776628,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 770.776628,
+              "text": "cujos elementos fundamentais são a intencionalidade e o uso"
+            }
+          ],
+          "text": "cujos elementos fundamentais são a intencionalidade e o uso"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 785.416832,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 785.416832,
+              "text": "da burocracia de modo racional."
+            }
+          ],
+          "text": "da burocracia de modo racional."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q046",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 46,
+      "sourcePage": 4,
+      "contextIds": [
+        "gaps4-mpo-methods"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q046-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-3-3"
+      ],
+      "groups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 83.1767,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.3191,
+              "y": 84.0887,
+              "text": "46"
+            },
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 83.1767,
+              "text": "Entende-se por avaliação de governança a que prioriza a"
+            }
+          ],
+          "text": "46 Entende-se por avaliação de governança a que prioriza a"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 99.616676,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 99.616676,
+              "text": "forma como a política foi implementada, avaliando a gestão,"
+            }
+          ],
+          "text": "forma como a política foi implementada, avaliando a gestão,"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 116.056652,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 116.056652,
+              "text": "a administração e os processos; avaliação executiva, por sua"
+            }
+          ],
+          "text": "a administração e os processos; avaliação executiva, por sua"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 132.617144,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 132.617144,
+              "text": "vez, é aquela em que se examinam a qualidade da gestão e a"
+            }
+          ],
+          "text": "vez, é aquela em que se examinam a qualidade da gestão e a"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 149.05712,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 149.05712,
+              "text": "capacidade institucional envolvida na política pública, com"
+            }
+          ],
+          "text": "capacidade institucional envolvida na política pública, com"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 165.497096,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 165.497096,
+              "text": "foco na transparência e na participação cidadã."
+            }
+          ],
+          "text": "foco na transparência e na participação cidadã."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q047",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 47,
+      "sourcePage": 4,
+      "contextIds": [
+        "gaps4-mpo-methods"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q047-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-3-3",
+        "cgu-2026-politicas-investigacao-avaliacao-5-3"
+      ],
+      "groups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 184.0967,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.3191,
+              "y": 185.0087,
+              "text": "47"
+            },
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 184.0967,
+              "text": "Por definição, avaliação econômica é a que dá ênfase na"
+            }
+          ],
+          "text": "47 Por definição, avaliação econômica é a que dá ênfase na"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 200.536676,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 200.536676,
+              "text": "relação custo-benefício da política pública, avaliando se os"
+            }
+          ],
+          "text": "relação custo-benefício da política pública, avaliando se os"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 216.976652,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 216.976652,
+              "text": "benefícios justificam os custos envolvidos, ao passo que a"
+            }
+          ],
+          "text": "benefícios justificam os custos envolvidos, ao passo que a"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 233.416628,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 233.416628,
+              "text": "avaliação de impacto é a que avalia os resultados, buscando"
+            }
+          ],
+          "text": "avaliação de impacto é a que avalia os resultados, buscando"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 249.97712,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 249.97712,
+              "text": "medir o impacto real da política no seu público-alvo e na"
+            }
+          ],
+          "text": "medir o impacto real da política no seu público-alvo e na"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 266.417096,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 266.417096,
+              "text": "sociedade como um todo."
+            }
+          ],
+          "text": "sociedade como um todo."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q049",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 49,
+      "sourcePage": 4,
+      "contextIds": [
+        "gaps4-mpo-methods"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q049-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-3-3"
+      ],
+      "groups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 352.9367,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.3191,
+              "y": 353.8487,
+              "text": "49"
+            },
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 352.9367,
+              "text": "A avaliação ex-ante é crucial para o governo que estiver em"
+            }
+          ],
+          "text": "49 A avaliação ex-ante é crucial para o governo que estiver em"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 369.376676,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 369.376676,
+              "text": "curso, pois, por meio dela, o governante consegue verificar"
+            }
+          ],
+          "text": "curso, pois, por meio dela, o governante consegue verificar"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 385.816652,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 385.816652,
+              "text": "se o problema foi solucionado de acordo com os objetivos e"
+            }
+          ],
+          "text": "se o problema foi solucionado de acordo com os objetivos e"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 402.256628,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 402.256628,
+              "text": "as metas previamente definidos, visando à economicidade do"
+            }
+          ],
+          "text": "as metas previamente definidos, visando à economicidade do"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 418.81712,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 418.81712,
+              "text": "gasto público."
+            }
+          ],
+          "text": "gasto público."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q050",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 50,
+      "sourcePage": 4,
+      "contextIds": [
+        "gaps4-mpo-collaboration"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q050-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-2-3"
+      ],
+      "groups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 478.6967,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.3191,
+              "y": 479.6087,
+              "text": "50"
+            },
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 478.6967,
+              "text": "A colaboração é um elemento central dessas teorias, na"
+            }
+          ],
+          "text": "50 A colaboração é um elemento central dessas teorias, na"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 495.136676,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 495.136676,
+              "text": "medida em que a eficácia de políticas públicas é maximizada"
+            }
+          ],
+          "text": "medida em que a eficácia de políticas públicas é maximizada"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 511.697168,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 511.697168,
+              "text": "quando há uma participação ativa e um compromisso de"
+            }
+          ],
+          "text": "quando há uma participação ativa e um compromisso de"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 528.137144,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 528.137144,
+              "text": "todos os stakeholders envolvidos, pois isso facilita a criação"
+            }
+          ],
+          "text": "todos os stakeholders envolvidos, pois isso facilita a criação"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 544.697636,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 544.697636,
+              "text": "de soluções inovadoras, a identificação e mitigação de riscos"
+            }
+          ],
+          "text": "de soluções inovadoras, a identificação e mitigação de riscos"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 561.137612,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 561.137612,
+              "text": "e a implementação de intervenções mais efetivas e"
+            }
+          ],
+          "text": "e a implementação de intervenções mais efetivas e"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 577.577588,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 577.577588,
+              "text": "sustentáveis."
+            }
+          ],
+          "text": "sustentáveis."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q051",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 51,
+      "sourcePage": 4,
+      "contextIds": [
+        "gaps4-mpo-goals"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q051-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-3-1",
+        "cgu-2026-politicas-investigacao-avaliacao-3-2"
+      ],
+      "groups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 637.5767,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.3191,
+              "y": 638.4887,
+              "text": "51"
+            },
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 637.5767,
+              "text": "A classificação dos indicadores quanto ao desempenho foca"
+            }
+          ],
+          "text": "51 A classificação dos indicadores quanto ao desempenho foca"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 654.016676,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 654.016676,
+              "text": "a alocação de recursos e o alcance de resultados nas políticas"
+            }
+          ],
+          "text": "a alocação de recursos e o alcance de resultados nas políticas"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 670.456652,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 670.456652,
+              "text": "públicas a partir de critérios como economicidade, eficiência,"
+            }
+          ],
+          "text": "públicas a partir de critérios como economicidade, eficiência,"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 687.017144,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 687.017144,
+              "text": "eficácia e efetividade."
+            }
+          ],
+          "text": "eficácia e efetividade."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q052",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 52,
+      "sourcePage": 4,
+      "contextIds": [
+        "gaps4-mpo-goals"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q052-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-3-2"
+      ],
+      "groups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 705.4967,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.3191,
+              "y": 706.4087,
+              "text": "52"
+            },
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 705.4967,
+              "text": "De acordo com a técnica SMART, as metas das políticas"
+            }
+          ],
+          "text": "52 De acordo com a técnica SMART, as metas das políticas"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 721.936676,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 721.936676,
+              "text": "públicas e seus indicadores de monitoramento devem ser"
+            }
+          ],
+          "text": "públicas e seus indicadores de monitoramento devem ser"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 738.497168,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 738.497168,
+              "text": "embasados em métricas de curto, médio e longo prazos,"
+            }
+          ],
+          "text": "embasados em métricas de curto, médio e longo prazos,"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 754.937144,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 754.937144,
+              "text": "rotineiramente acompanhados por instrumentos específicos"
+            }
+          ],
+          "text": "rotineiramente acompanhados por instrumentos específicos"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 771.37712,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 771.37712,
+              "text": "de coleta de dados e ferramentas digitais de inteligência"
+            }
+          ],
+          "text": "de coleta de dados e ferramentas digitais de inteligência"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 787.937612,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 787.937612,
+              "text": "artificial."
+            }
+          ],
+          "text": "artificial."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q053",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 53,
+      "sourcePage": 4,
+      "contextIds": [
+        "gaps4-mpo-causal"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q053-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-5-1",
+        "cgu-2026-politicas-investigacao-avaliacao-6-1"
+      ],
+      "groups": [
+        {
+          "page": 4,
+          "column": "right",
+          "y": 80.0567,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 303.359,
+              "y": 80.9687,
+              "text": "53"
+            },
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 80.0567,
+              "text": "Na construção dos grupos de controle e de tratamento, a"
+            }
+          ],
+          "text": "53 Na construção dos grupos de controle e de tratamento, a"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 94.93694,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 94.93694,
+              "text": "randomização é utilizada em avaliações de impacto"
+            }
+          ],
+          "text": "randomização é utilizada em avaliações de impacto"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 109.9367,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 109.9367,
+              "text": "experimentais com vistas a assegurar a validade interna dos"
+            }
+          ],
+          "text": "experimentais com vistas a assegurar a validade interna dos"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 124.81694,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 124.81694,
+              "text": "resultados obtidos, mas não se relaciona ao quesito de"
+            }
+          ],
+          "text": "resultados obtidos, mas não se relaciona ao quesito de"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 139.69718,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 139.69718,
+              "text": "validade externa da avaliação, que deriva do emprego de"
+            }
+          ],
+          "text": "validade externa da avaliação, que deriva do emprego de"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 154.57742,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 154.57742,
+              "text": "métodos econométricos de pareamento."
+            }
+          ],
+          "text": "métodos econométricos de pareamento."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q054",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 54,
+      "sourcePage": 4,
+      "contextIds": [
+        "gaps4-mpo-causal"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q054-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-evidencias-dados-ia-3-1"
+      ],
+      "groups": [
+        {
+          "page": 4,
+          "column": "right",
+          "y": 171.3767,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 303.359,
+              "y": 172.2887,
+              "text": "54"
+            },
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 171.3767,
+              "text": "O coeficiente de correlação de Pearson, que varia entre − 1 e 1,"
+            }
+          ],
+          "text": "54 O coeficiente de correlação de Pearson, que varia entre − 1 e 1,"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 186.37646,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.238,
+              "y": 186.37646,
+              "text": "é uma medida estatística de causalidade, derivada da"
+            }
+          ],
+          "text": "é uma medida estatística de causalidade, derivada da"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 201.2567,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.238,
+              "y": 201.2567,
+              "text": "associação linear entre duas variáveis independentes."
+            }
+          ],
+          "text": "associação linear entre duas variáveis independentes."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q055",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 55,
+      "sourcePage": 4,
+      "contextIds": [
+        "gaps4-mpo-causal"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q055-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-5-1"
+      ],
+      "groups": [
+        {
+          "page": 4,
+          "column": "right",
+          "y": 218.0567,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 303.359,
+              "y": 218.9687,
+              "text": "55"
+            },
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 218.0567,
+              "text": "Como nem sempre é possível implementar experimentos"
+            }
+          ],
+          "text": "55 Como nem sempre é possível implementar experimentos"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 233.05646,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 233.05646,
+              "text": "aleatórios controlados para as avaliações de impacto das"
+            }
+          ],
+          "text": "aleatórios controlados para as avaliações de impacto das"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 247.9367,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 247.9367,
+              "text": "políticas públicas, os modelos quasi experimentais, que"
+            }
+          ],
+          "text": "políticas públicas, os modelos quasi experimentais, que"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 262.93646,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 262.93646,
+              "text": "utilizam hipóteses, técnicas estatísticas e dados"
+            }
+          ],
+          "text": "utilizam hipóteses, técnicas estatísticas e dados"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 277.8167,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 277.8167,
+              "text": "observacionais, podem ser utilizados para a construção de"
+            }
+          ],
+          "text": "observacionais, podem ser utilizados para a construção de"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 292.69694,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 292.69694,
+              "text": "grupos de comparação válidos e para o estabelecimento da"
+            }
+          ],
+          "text": "grupos de comparação válidos e para o estabelecimento da"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 307.57718,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 307.57718,
+              "text": "inferência causal entre determinada política e os impactos"
+            }
+          ],
+          "text": "inferência causal entre determinada política e os impactos"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 322.45742,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 322.45742,
+              "text": "verificados."
+            }
+          ],
+          "text": "verificados."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q056",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 56,
+      "sourcePage": 4,
+      "contextIds": [
+        "gaps4-mpo-causal"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q056-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-5-2"
+      ],
+      "groups": [
+        {
+          "page": 4,
+          "column": "right",
+          "y": 339.3767,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 303.359,
+              "y": 340.2887,
+              "text": "56"
+            },
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 339.3767,
+              "text": "O pareamento é um método utilizado nas avaliações quasi"
+            }
+          ],
+          "text": "56 O pareamento é um método utilizado nas avaliações quasi"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 354.25694,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 354.25694,
+              "text": "experimentais de impacto das políticas públicas, o qual"
+            }
+          ],
+          "text": "experimentais de impacto das políticas públicas, o qual"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 369.2567,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 369.2567,
+              "text": "inclui o pareamento por escore de propensão"
+            }
+          ],
+          "text": "inclui o pareamento por escore de propensão"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 384.13694,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 384.13694,
+              "text": "PSM (propensity score matching) e se baseia na imputação"
+            }
+          ],
+          "text": "PSM (propensity score matching) e se baseia na imputação"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 399.01718,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.24,
+              "y": 399.01718,
+              "text": "de variáveis observáveis e não observáveis obtidas após a"
+            }
+          ],
+          "text": "de variáveis observáveis e não observáveis obtidas após a"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 413.89742,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.24,
+              "y": 413.89742,
+              "text": "linha de base da intervenção para ambos os grupos pareados."
+            }
+          ],
+          "text": "linha de base da intervenção para ambos os grupos pareados."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q057",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 57,
+      "sourcePage": 4,
+      "contextIds": [
+        "gaps4-mpo-causal"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q057-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-6-1"
+      ],
+      "groups": [
+        {
+          "page": 4,
+          "column": "right",
+          "y": 430.6967,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 303.359,
+              "y": 431.6087,
+              "text": "57"
+            },
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 430.6967,
+              "text": "Intervalo de confiança é um parâmetro arbitrariamente"
+            }
+          ],
+          "text": "57 Intervalo de confiança é um parâmetro arbitrariamente"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 445.69646,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 445.69646,
+              "text": "definido"
+            },
+            {
+              "page": 4,
+              "column": "right",
+              "x": 371.615808,
+              "y": 445.69646,
+              "text": "em"
+            },
+            {
+              "page": 4,
+              "column": "right",
+              "x": 401.009692,
+              "y": 445.69646,
+              "text": "95%"
+            },
+            {
+              "page": 4,
+              "column": "right",
+              "x": 436.647577,
+              "y": 445.69646,
+              "text": "nas"
+            },
+            {
+              "page": 4,
+              "column": "right",
+              "x": 467.120943,
+              "y": 445.69646,
+              "text": "avaliações"
+            },
+            {
+              "page": 4,
+              "column": "right",
+              "x": 525.892719,
+              "y": 445.69646,
+              "text": "amostrais,"
+            }
+          ],
+          "text": "definido em 95% nas avaliações amostrais,"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 460.5767,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 460.5767,
+              "text": "independentemente do tamanho da população."
+            }
+          ],
+          "text": "independentemente do tamanho da população."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q058",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 58,
+      "sourcePage": 4,
+      "contextIds": [
+        "gaps4-mpo-causal"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q058-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-5-2"
+      ],
+      "groups": [
+        {
+          "page": 4,
+          "column": "right",
+          "y": 477.3767,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 303.359,
+              "y": 478.2887,
+              "text": "58"
+            },
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 477.3767,
+              "text": "O objetivo da técnica diferença-em-diferenças (DiD) é isolar"
+            }
+          ],
+          "text": "58 O objetivo da técnica diferença-em-diferenças (DiD) é isolar"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 492.37646,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 492.37646,
+              "text": "os impactos de determinada intervenção a partir das"
+            }
+          ],
+          "text": "os impactos de determinada intervenção a partir das"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 507.2567,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 507.2567,
+              "text": "diferenças de pareamento entre dois grupos comparáveis"
+            }
+          ],
+          "text": "diferenças de pareamento entre dois grupos comparáveis"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 522.25646,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 522.25646,
+              "text": "igualmente expostos a ela."
+            }
+          ],
+          "text": "igualmente expostos a ela."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q059",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 59,
+      "sourcePage": 4,
+      "contextIds": [
+        "gaps4-mpo-counterfactual"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q059-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-5-1"
+      ],
+      "groups": [
+        {
+          "page": 4,
+          "column": "right",
+          "y": 577.4567,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 303.359,
+              "y": 578.3687,
+              "text": "59"
+            },
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 577.4567,
+              "text": "A avaliação de impacto pode ser representada pela fórmula"
+            }
+          ],
+          "text": "59 A avaliação de impacto pode ser representada pela fórmula"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 592.33694,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 592.33694,
+              "text": "Δ = (Y | P = 1) − (Y | P = 0), em que o impacto causal (Δ)"
+            }
+          ],
+          "text": "Δ = (Y | P = 1) − (Y | P = 0), em que o impacto causal (Δ)"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 607.21718,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.24,
+              "y": 607.21718,
+              "text": "de um programa (P) sobre uma variável de resultado (Y) é"
+            }
+          ],
+          "text": "de um programa (P) sobre uma variável de resultado (Y) é"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 622.09742,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.24,
+              "y": 622.09742,
+              "text": "igual à diferença entre o resultado (Y) com a incidência do"
+            }
+          ],
+          "text": "igual à diferença entre o resultado (Y) com a incidência do"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 636.97766,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.24,
+              "y": 636.97766,
+              "text": "programa (ou seja, quando P = 1) e o mesmo resultado (Y)"
+            }
+          ],
+          "text": "programa (ou seja, quando P = 1) e o mesmo resultado (Y)"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 651.97742,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.24,
+              "y": 651.97742,
+              "text": "na ausência do programa (isto é, quando P = 0, que"
+            }
+          ],
+          "text": "na ausência do programa (isto é, quando P = 0, que"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 666.85766,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.24,
+              "y": 666.85766,
+              "text": "representa o contrafactual)."
+            }
+          ],
+          "text": "representa o contrafactual)."
+        }
+      ]
+    },
+    {
+      "questionId": "mpo-2024-001-01-q060",
+      "paperId": "source-mpo-2024-001-01",
+      "number": 60,
+      "sourcePage": 4,
+      "contextIds": [
+        "gaps4-mpo-counterfactual"
+      ],
+      "answerKeyId": "mpo-2024-001-01-q060-key-v1",
+      "answerDocumentId": "source-mpo-2024-001-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-5-1",
+        "cgu-2026-evidencias-dados-ia-3-1"
+      ],
+      "groups": [
+        {
+          "page": 4,
+          "column": "right",
+          "y": 683.6567,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 303.359,
+              "y": 684.5687,
+              "text": "60"
+            },
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 683.6567,
+              "text": "Em uma avaliação de impacto experimental de um programa"
+            }
+          ],
+          "text": "60 Em uma avaliação de impacto experimental de um programa"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 698.65646,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 698.65646,
+              "text": "que oferece cursos de qualificação profissional para jovens"
+            }
+          ],
+          "text": "que oferece cursos de qualificação profissional para jovens"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 713.5367,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 713.5367,
+              "text": "de 18 a 24 anos de idade, o contrafactual pode ser"
+            }
+          ],
+          "text": "de 18 a 24 anos de idade, o contrafactual pode ser"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 728.41694,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 728.41694,
+              "text": "diretamente observado por meio da comparação entre a taxa"
+            }
+          ],
+          "text": "diretamente observado por meio da comparação entre a taxa"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 743.29718,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 743.29718,
+              "text": "de desemprego observada entre os indivíduos que se"
+            }
+          ],
+          "text": "de desemprego observada entre os indivíduos que se"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 758.17742,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 758.17742,
+              "text": "inscreveram nos cursos oferecidos (grupo de tratamento) e"
+            }
+          ],
+          "text": "inscreveram nos cursos oferecidos (grupo de tratamento) e"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 773.17718,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 773.17718,
+              "text": "aqueles que, mesmo sendo elegíveis, deixaram de se"
+            }
+          ],
+          "text": "aqueles que, mesmo sendo elegíveis, deixaram de se"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 788.05742,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 321.239,
+              "y": 788.05742,
+              "text": "inscrever (grupo de controle)."
+            }
+          ],
+          "text": "inscrever (grupo de controle)."
+        }
+      ]
+    },
+    {
+      "questionId": "inss-2022-cb1-01-q015",
+      "paperId": "source-inss-2022-cb1-01",
+      "number": 15,
+      "sourcePage": 2,
+      "contextIds": [
+        "gaps4-inss-ethics"
+      ],
+      "answerKeyId": "inss-2022-cb1-01-q015-key-v1",
+      "answerDocumentId": "source-inss-2022-cb1-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "cgu-2026-etica-publica-5-1",
+        "cgu-2026-estado-democracia-6-1"
+      ],
+      "groups": [
+        {
+          "page": 2,
+          "column": "left",
+          "y": 86.0567,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 28.3191,
+              "y": 86.0567,
+              "text": "15 Situação hipotética: Carlos, servidor público federal, com o"
+            }
+          ],
+          "text": "15 Situação hipotética: Carlos, servidor público federal, com o"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 98.056508,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.1991,
+              "y": 98.056508,
+              "text": "objetivo de realizar uma doação a uma instituição de"
+            }
+          ],
+          "text": "objetivo de realizar uma doação a uma instituição de"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 110.056316,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.1991,
+              "y": 110.056316,
+              "text": "caridade que se encontrava em péssima situação financeira,"
+            }
+          ],
+          "text": "caridade que se encontrava em péssima situação financeira,"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 122.056124,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.1991,
+              "y": 122.056124,
+              "text": "pleiteou auxílio financeiro do representante de uma empresa"
+            }
+          ],
+          "text": "pleiteou auxílio financeiro do representante de uma empresa"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 134.055932,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.1991,
+              "y": 134.055932,
+              "text": "multinacional como condição para cumprir sua missão. Ao"
+            }
+          ],
+          "text": "multinacional como condição para cumprir sua missão. Ao"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 145.93622,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.1991,
+              "y": 145.93622,
+              "text": "ser atendido em seu pleito pela empresa, Carlos prontamente"
+            }
+          ],
+          "text": "ser atendido em seu pleito pela empresa, Carlos prontamente"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 157.936028,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.1991,
+              "y": 157.936028,
+              "text": "concretizou a doação no valor integral que havia recebido."
+            }
+          ],
+          "text": "concretizou a doação no valor integral que havia recebido."
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 169.935836,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.1991,
+              "y": 169.935836,
+              "text": "Assertiva: Nessa situação, tendo em vista que Carlos não"
+            }
+          ],
+          "text": "Assertiva: Nessa situação, tendo em vista que Carlos não"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 181.935644,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.1991,
+              "y": 181.935644,
+              "text": "reteve para si qualquer quantia da doação recebida, sua"
+            }
+          ],
+          "text": "reteve para si qualquer quantia da doação recebida, sua"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 193.935452,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.1991,
+              "y": 193.935452,
+              "text": "atitude encontra respaldo no CEPSPC."
+            }
+          ],
+          "text": "atitude encontra respaldo no CEPSPC."
+        }
+      ]
+    },
+    {
+      "questionId": "inss-2022-cb1-01-q016",
+      "paperId": "source-inss-2022-cb1-01",
+      "number": 16,
+      "sourcePage": 2,
+      "contextIds": [
+        "gaps4-inss-ethics"
+      ],
+      "answerKeyId": "inss-2022-cb1-01-q016-key-v1",
+      "answerDocumentId": "source-inss-2022-cb1-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-etica-publica-5-1"
+      ],
+      "groups": [
+        {
+          "page": 2,
+          "column": "left",
+          "y": 207.9767,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 28.3191,
+              "y": 207.9767,
+              "text": "16 O servidor público não poderá, em hipótese alguma,"
+            }
+          ],
+          "text": "16 O servidor público não poderá, em hipótese alguma,"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 219.856988,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.1991,
+              "y": 219.856988,
+              "text": "desprezar o elemento ético da sua conduta. Assim, ele não"
+            }
+          ],
+          "text": "desprezar o elemento ético da sua conduta. Assim, ele não"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 231.856796,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.1991,
+              "y": 231.856796,
+              "text": "terá apenas que decidir entre o legal e o ilegal, o conveniente"
+            }
+          ],
+          "text": "terá apenas que decidir entre o legal e o ilegal, o conveniente"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 243.856604,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.1991,
+              "y": 243.856604,
+              "text": "e o inconveniente, mas principalmente entre o honesto e o"
+            }
+          ],
+          "text": "e o inconveniente, mas principalmente entre o honesto e o"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 255.736892,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 46.1991,
+              "y": 255.736892,
+              "text": "desonesto, à luz das regras constitucionais."
+            }
+          ],
+          "text": "desonesto, à luz das regras constitucionais."
+        }
+      ]
+    },
+    {
+      "questionId": "inss-2022-cb1-01-q032",
+      "paperId": "source-inss-2022-cb1-01",
+      "number": 32,
+      "sourcePage": 2,
+      "contextIds": [
+        "gaps4-inss-administration"
+      ],
+      "answerKeyId": "inss-2022-cb1-01-q032-key-v1",
+      "answerDocumentId": "source-inss-2022-cb1-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-5-2",
+        "cgu-2026-direito-controle-responsabilizacao-1-2"
+      ],
+      "groups": [
+        {
+          "page": 2,
+          "column": "right",
+          "y": 597.4967,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 597.4967,
+              "text": "32 O abuso de poder é tratado pela doutrina majoritária como"
+            }
+          ],
+          "text": "32 O abuso de poder é tratado pela doutrina majoritária como"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 609.136952,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 609.136952,
+              "text": "gênero cujas espécies são: o excesso de poder, que ocorre"
+            }
+          ],
+          "text": "gênero cujas espécies são: o excesso de poder, que ocorre"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 620.656688,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 620.656688,
+              "text": "quando o agente público atua nos limites de sua competência"
+            }
+          ],
+          "text": "quando o agente público atua nos limites de sua competência"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 632.29694,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 632.29694,
+              "text": "legalmente definida, mas visando a um fim diverso da"
+            }
+          ],
+          "text": "legalmente definida, mas visando a um fim diverso da"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 643.937192,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 643.937192,
+              "text": "consecução do interesse público; e o desvio de poder, que se"
+            }
+          ],
+          "text": "consecução do interesse público; e o desvio de poder, que se"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 655.456928,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 655.456928,
+              "text": "dá quando o agente público exorbita da competência que lhe"
+            }
+          ],
+          "text": "dá quando o agente público exorbita da competência que lhe"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 667.09718,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 321.239,
+              "y": 667.09718,
+              "text": "foi legalmente atribuída."
+            }
+          ],
+          "text": "foi legalmente atribuída."
+        }
+      ]
+    },
+    {
+      "questionId": "inss-2022-cb1-01-q038",
+      "paperId": "source-inss-2022-cb1-01",
+      "number": 38,
+      "sourcePage": 3,
+      "contextIds": [
+        "gaps4-inss-acts"
+      ],
+      "answerKeyId": "inss-2022-cb1-01-q038-key-v1",
+      "answerDocumentId": "source-inss-2022-cb1-01-key",
+      "answerValue": true,
+      "syllabusItemIds": [
+        "cgu-2026-etica-publica-3-2",
+        "camara-2026-direito-administrativo-administracao-publica-4-4"
+      ],
+      "groups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 211.6967,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.4391,
+              "y": 211.6967,
+              "text": "38 Será impedido de atuar em processo administrativo o"
+            }
+          ],
+          "text": "38 Será impedido de atuar em processo administrativo o"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 222.9764,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.3191,
+              "y": 222.9764,
+              "text": "servidor público que tiver interesse direto ou indireto na"
+            }
+          ],
+          "text": "servidor público que tiver interesse direto ou indireto na"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 234.13658,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.3191,
+              "y": 234.13658,
+              "text": "matéria. Além disso, poderá ser arguida a suspeição de"
+            }
+          ],
+          "text": "matéria. Além disso, poderá ser arguida a suspeição de"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 245.41628,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.3191,
+              "y": 245.41628,
+              "text": "autoridade que tenha amizade íntima ou inimizade notória"
+            }
+          ],
+          "text": "autoridade que tenha amizade íntima ou inimizade notória"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 256.69598,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.3191,
+              "y": 256.69598,
+              "text": "com algum dos interessados nesse processo."
+            }
+          ],
+          "text": "com algum dos interessados nesse processo."
+        }
+      ]
+    },
+    {
+      "questionId": "icmbio-2022-cb1-01-q040",
+      "paperId": "source-icmbio-2022-cb1-01",
+      "number": 40,
+      "sourcePage": 3,
+      "contextIds": [
+        "gaps4-icmbio-office"
+      ],
+      "answerKeyId": "icmbio-2022-cb1-01-q040-key-v1",
+      "answerDocumentId": "source-icmbio-2022-cb1-01-key",
+      "answerValue": false,
+      "syllabusItemIds": [
+        "abdi-2026-abdi-nocoes-informatica-6"
+      ],
+      "groups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 143.6007,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.38,
+              "y": 143.6007,
+              "text": "40 Para enviar uma mensagem em cópia a diversos destinatários de correio eletrônico, de modo que todos eles possam conhecer os"
+            }
+          ],
+          "text": "40 Para enviar uma mensagem em cópia a diversos destinatários de correio eletrônico, de modo que todos eles possam conhecer os"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 155.120694,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 46.26,
+              "y": 155.120694,
+              "text": "endereços dos demais, deve-se incluir os endereços na opção Cco do cabeçalho da mensagem."
+            }
+          ],
+          "text": "endereços dos demais, deve-se incluir os endereços na opção Cco do cabeçalho da mensagem."
+        }
+      ]
+    },
+    {
+      "questionId": "tcu-2022-aufc-tipo1-q028",
+      "paperId": "source-tcu-2022-aufc-tipo1",
+      "number": 28,
+      "sourcePage": 10,
+      "contextIds": [],
+      "answerKeyId": "tcu-2022-aufc-tipo1-q028-key-v1",
+      "answerDocumentId": "source-tcu-2022-aufc-tipo1-key",
+      "answerValue": "c",
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-8-1",
+        "cgu-2026-administracao-publica-2-1"
+      ],
+      "sourceLines": [
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.69,
+          "y": 395.78,
+          "text": "28"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.69,
+          "y": 410.66,
+          "text": "A Nova Governança Pública (NGP) é um modelo de gestão"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.69,
+          "y": 421.7,
+          "text": "marcado pela participação e emerge como uma opção aos"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.69,
+          "y": 432.62,
+          "text": "tradicionais modelos de mercado e de justiça social na prestação"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.69,
+          "y": 443.66,
+          "text": "do serviço público. Essa nova forma de gestão busca promover a"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.69,
+          "y": 454.7,
+          "text": "expansão de redes de serviços cujos beneficiários participem da"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.69,
+          "y": 465.64,
+          "text": "formulação das políticas públicas a eles direcionadas."
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.69,
+          "y": 478.6,
+          "text": "Sobre a NGP e a participação de redes locais na formulação de"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.69,
+          "y": 489.64,
+          "text": "serviços, é correto afirmar que:"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "sourceLines": [
+            {
+              "page": 10,
+              "column": "right",
+              "x": 311.69,
+              "y": 501.64,
+              "text": "(A) é significativamente menos eficiente do que modelos"
+            },
+            {
+              "page": 10,
+              "column": "right",
+              "x": 325.85,
+              "y": 512.56,
+              "text": "anteriores, dada a morosidade na negociação, formulação e"
+            },
+            {
+              "page": 10,
+              "column": "right",
+              "x": 325.85,
+              "y": 523.6,
+              "text": "distribuição de serviços;"
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "sourceLines": [
+            {
+              "page": 10,
+              "column": "right",
+              "x": 311.69,
+              "y": 535.6,
+              "text": "(B) é igualmente eficiente a modelos anteriores apesar da"
+            },
+            {
+              "page": 10,
+              "column": "right",
+              "x": 325.85,
+              "y": 546.52,
+              "text": "morosidade na negociação, formulação e distribuição de"
+            },
+            {
+              "page": 10,
+              "column": "right",
+              "x": 325.85,
+              "y": 557.56,
+              "text": "serviços;"
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "sourceLines": [
+            {
+              "page": 10,
+              "column": "right",
+              "x": 311.69,
+              "y": 569.56,
+              "text": "(C) a participação social garante maior adesão e efetividade na"
+            },
+            {
+              "page": 10,
+              "column": "right",
+              "x": 325.85,
+              "y": 580.48,
+              "text": "implementação do serviço, reduzindo custos para a"
+            },
+            {
+              "page": 10,
+              "column": "right",
+              "x": 325.85,
+              "y": 591.52,
+              "text": "comunidade e para o Estado;"
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "sourceLines": [
+            {
+              "page": 10,
+              "column": "right",
+              "x": 311.69,
+              "y": 603.52,
+              "text": "(D) a participação social não garante maior compreensão de"
+            },
+            {
+              "page": 10,
+              "column": "right",
+              "x": 325.85,
+              "y": 614.44,
+              "text": "fenômenos sociais, sendo incerta a efetividade das políticas"
+            },
+            {
+              "page": 10,
+              "column": "right",
+              "x": 325.85,
+              "y": 625.48,
+              "text": "públicas assim desenvolvidas;"
+            }
+          ]
+        },
+        {
+          "id": "e",
+          "sourceLines": [
+            {
+              "page": 10,
+              "column": "right",
+              "x": 311.69,
+              "y": 637.48,
+              "text": "(E) a participação social não garante maior adesão e efetividade"
+            },
+            {
+              "page": 10,
+              "column": "right",
+              "x": 325.85,
+              "y": 648.4,
+              "text": "na implementação do serviço, mesmo que reduza custos para"
+            },
+            {
+              "page": 10,
+              "column": "right",
+              "x": 325.85,
+              "y": 659.47,
+              "text": "a comunidade e para o Estado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q021",
+      "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+      "number": 21,
+      "sourcePage": 9,
+      "contextIds": [],
+      "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q021-key-v1",
+      "answerDocumentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "answerValue": "c",
+      "syllabusItemIds": [
+        "cgu-2026-integridade-transparencia-responsabilizacao-4-4"
+      ],
+      "sourceLines": [
+        {
+          "page": 9,
+          "column": "right",
+          "x": 311.69,
+          "y": 57.81,
+          "text": "21"
+        },
+        {
+          "page": 9,
+          "column": "right",
+          "x": 311.69,
+          "y": 72.69,
+          "text": "João exerceu o cargo de presidente da autarquia federal Alfa e,"
+        },
+        {
+          "page": 9,
+          "column": "right",
+          "x": 311.69,
+          "y": 83.75,
+          "text": "em dezembro de 2021, foi exonerado. No mês de fevereiro de"
+        },
+        {
+          "page": 9,
+          "column": "right",
+          "x": 311.69,
+          "y": 94.79,
+          "text": "2022, João foi convidado pela sociedade empresária Beta para"
+        },
+        {
+          "page": 9,
+          "column": "right",
+          "x": 311.69,
+          "y": 105.71,
+          "text": "ocupar cargo de conselheiro e, portanto, estabelecer vínculo"
+        },
+        {
+          "page": 9,
+          "column": "right",
+          "x": 311.69,
+          "y": 116.75,
+          "text": "profissional com tal pessoa jurídica, que desempenha atividade"
+        },
+        {
+          "page": 9,
+          "column": "right",
+          "x": 311.69,
+          "y": 127.67,
+          "text": "relacionada à área de competência do anterior cargo que ocupou"
+        },
+        {
+          "page": 9,
+          "column": "right",
+          "x": 311.69,
+          "y": 138.71,
+          "text": "na autarquia Alfa."
+        },
+        {
+          "page": 9,
+          "column": "right",
+          "x": 311.69,
+          "y": 149.63,
+          "text": "No caso em tela, consoante dispõe a Lei nº 12.813/2013, se João"
+        },
+        {
+          "page": 9,
+          "column": "right",
+          "x": 311.69,
+          "y": 160.67,
+          "text": "aceitar a proposta em fevereiro de 2022:"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "sourceLines": [
+            {
+              "page": 9,
+              "column": "right",
+              "x": 311.69,
+              "y": 171.59,
+              "text": "(A) não estará, a princípio, configurado conflito de interesses,"
+            },
+            {
+              "page": 9,
+              "column": "right",
+              "x": 325.85,
+              "y": 182.63,
+              "text": "salvo se fizer uso efetivo de informação privilegiada obtida"
+            },
+            {
+              "page": 9,
+              "column": "right",
+              "x": 325.85,
+              "y": 193.55,
+              "text": "em razão das atividades anteriormente exercidas;"
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "sourceLines": [
+            {
+              "page": 9,
+              "column": "right",
+              "x": 311.69,
+              "y": 204.59,
+              "text": "(B) estará configurado conflito de interesses, pois ainda não"
+            },
+            {
+              "page": 9,
+              "column": "right",
+              "x": 325.85,
+              "y": 215.63,
+              "text": "transcorreu o prazo de quarentena de dois anos, contado da"
+            },
+            {
+              "page": 9,
+              "column": "right",
+              "x": 325.85,
+              "y": 226.55,
+              "text": "data de sua exoneração, salvo quando expressamente"
+            },
+            {
+              "page": 9,
+              "column": "right",
+              "x": 325.85,
+              "y": 237.59,
+              "text": "autorizado pela Controladoria-Geral da União;"
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "sourceLines": [
+            {
+              "page": 9,
+              "column": "right",
+              "x": 311.69,
+              "y": 248.51,
+              "text": "(C) estará configurado conflito de interesses, pois ainda não"
+            },
+            {
+              "page": 9,
+              "column": "right",
+              "x": 325.85,
+              "y": 259.55,
+              "text": "transcorreu o prazo de quarentena de seis meses, contado da"
+            },
+            {
+              "page": 9,
+              "column": "right",
+              "x": 325.85,
+              "y": 270.5,
+              "text": "data de sua exoneração, salvo quando expressamente"
+            },
+            {
+              "page": 9,
+              "column": "right",
+              "x": 325.85,
+              "y": 281.54,
+              "text": "autorizado pela Comissão de Ética Pública;"
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "sourceLines": [
+            {
+              "page": 9,
+              "column": "right",
+              "x": 311.69,
+              "y": 292.46,
+              "text": "(D) estará configurado conflito de interesses, pois ainda não"
+            },
+            {
+              "page": 9,
+              "column": "right",
+              "x": 325.85,
+              "y": 303.5,
+              "text": "transcorreu o prazo de quarentena de noventa dias, contado"
+            },
+            {
+              "page": 9,
+              "column": "right",
+              "x": 325.85,
+              "y": 314.54,
+              "text": "da data de sua exoneração, salvo quando expressamente"
+            },
+            {
+              "page": 9,
+              "column": "right",
+              "x": 325.85,
+              "y": 325.46,
+              "text": "autorizado pela Controladoria-Geral da União;"
+            }
+          ]
+        },
+        {
+          "id": "e",
+          "sourceLines": [
+            {
+              "page": 9,
+              "column": "right",
+              "x": 311.69,
+              "y": 336.5,
+              "text": "(E) não estará, a princípio, configurado conflito de interesses,"
+            },
+            {
+              "page": 9,
+              "column": "right",
+              "x": 325.85,
+              "y": 347.42,
+              "text": "salvo se a Controladoria-Geral da União, mediante regular"
+            },
+            {
+              "page": 9,
+              "column": "right",
+              "x": 325.85,
+              "y": 358.46,
+              "text": "processo administrativo, impuser quarentena específica para"
+            },
+            {
+              "page": 9,
+              "column": "right",
+              "x": 325.85,
+              "y": 369.38,
+              "text": "João, observadas as especificidades do caso e o limite"
+            },
+            {
+              "page": 9,
+              "column": "right",
+              "x": 325.85,
+              "y": 380.42,
+              "text": "máximo de impedimento de dois anos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q051",
+      "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+      "number": 51,
+      "sourcePage": 17,
+      "contextIds": [],
+      "answerKeyId": "cgu-2022-correicao-tarde-tipo1-q051-key-v1",
+      "answerDocumentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+      "answerValue": "c",
+      "syllabusItemIds": [
+        "cgu-2026-integridade-transparencia-responsabilizacao-4-4"
+      ],
+      "sourceLines": [
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 57.81,
+          "text": "51"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 72.69,
+          "text": "Márcio, servidor público federal, lotado no Ministério da"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 83.75,
+          "text": "Economia, atualmente não ocupa qualquer cargo em comissão"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 94.79,
+          "text": "ou exerce função de confiança. Não obstante, o cargo efetivo e a"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 105.71,
+          "text": "lotação de Márcio fazem com que o exercício de seu cargo"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 116.75,
+          "text": "proporcione inegável acesso a informação privilegiada capaz de"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 127.67,
+          "text": "lhe trazer vantagem econômica ou financeira, conforme definido"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 138.71,
+          "text": "em regulamento."
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 149.63,
+          "text": "No caso em tela, de acordo com a Lei de Conflito de Interesses"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 160.67,
+          "text": "(Lei nº 12.813/2013), Márcio deve anualmente enviar declaração"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 171.59,
+          "text": "com informações sobre situação patrimonial, participações"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 182.63,
+          "text": "societárias, atividades econômicas ou profissionais:"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "sourceLines": [
+            {
+              "page": 17,
+              "column": "right",
+              "x": 311.69,
+              "y": 193.55,
+              "text": "(A) à Comissão de Ética Pública, assim como indicação sobre a"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 204.59,
+              "text": "existência, em qualquer situação, de cônjuge, companheiro"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 215.63,
+              "text": "ou parente, por consanguinidade ou afinidade, em linha reta"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 226.55,
+              "text": "ou colateral, até o terceiro grau, ainda que Márcio se"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 237.59,
+              "text": "encontre em gozo de licença ou em período de afastamento;"
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "sourceLines": [
+            {
+              "page": 17,
+              "column": "right",
+              "x": 311.69,
+              "y": 248.51,
+              "text": "(B) à Controladoria-Geral da União, salvo se se encontrar em"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 259.55,
+              "text": "gozo de licença ou em período de afastamento, ocasião em"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 270.5,
+              "text": "que o prazo para envio será automaticamente prorrogado,"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 281.54,
+              "text": "sendo desnecessária a remessa de informações sobre"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 292.46,
+              "text": "cônjuges e parentes, pelo princípio da intranscendência"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 303.5,
+              "text": "subjetiva do cargo;"
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "sourceLines": [
+            {
+              "page": 17,
+              "column": "right",
+              "x": 311.69,
+              "y": 314.54,
+              "text": "(C) à Controladoria-Geral da União, assim como indicação sobre"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 325.46,
+              "text": "a existência de cônjuge, companheiro ou parente, por"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 336.5,
+              "text": "consanguinidade ou afinidade, em linha reta ou colateral, até"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 347.42,
+              "text": "o terceiro grau, no exercício de atividades que possam"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 358.46,
+              "text": "suscitar conflito de interesses, ainda que Márcio se encontre"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 369.38,
+              "text": "em gozo de licença ou em período de afastamento;"
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "sourceLines": [
+            {
+              "page": 17,
+              "column": "right",
+              "x": 311.69,
+              "y": 380.42,
+              "text": "(D) à Comissão de Ética Pública, salvo se se encontrar em gozo de"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 391.34,
+              "text": "licença ou em período de afastamento, ocasião em que o"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 402.38,
+              "text": "prazo para envio será automaticamente prorrogado, sendo"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 413.42,
+              "text": "desnecessária a remessa de informações sobre cônjuges e"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 424.34,
+              "text": "parentes, pelo princípio da intranscendência subjetiva do"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 435.38,
+              "text": "cargo;"
+            }
+          ]
+        },
+        {
+          "id": "e",
+          "sourceLines": [
+            {
+              "page": 17,
+              "column": "right",
+              "x": 311.69,
+              "y": 446.3,
+              "text": "(E) ao Ministério da Economia, salvo se se encontrar em gozo de"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 457.34,
+              "text": "licença ou em período de afastamento, ocasião em que o"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 468.28,
+              "text": "prazo para envio será automaticamente prorrogado, sendo"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 479.32,
+              "text": "desnecessária a remessa de informações sobre cônjuges e"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 490.24,
+              "text": "parentes, pelo princípio da intranscendência subjetiva do"
+            },
+            {
+              "page": 17,
+              "column": "right",
+              "x": 325.85,
+              "y": 501.28,
+              "text": "cargo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionId": "abdi-2008-iniciante-licitacoes-contratos-q020",
+      "paperId": "source-abdi-2008-iniciante-licitacoes-contratos",
+      "number": 20,
+      "sourcePage": 3,
+      "contextIds": [],
+      "answerKeyId": "abdi-2008-iniciante-licitacoes-contratos-q020-key-v1",
+      "answerDocumentId": "source-abdi-2008-iniciante-licitacoes-contratos-key",
+      "answerValue": "b",
+      "syllabusItemIds": [
+        "abdi-2026-abdi-etica-missao-4-7"
+      ],
+      "sourceLines": [
+        {
+          "page": 3,
+          "column": "right",
+          "x": 304.6021,
+          "y": 461.6227,
+          "text": "20) Assinale a alternativa que descreve corretamente"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 304.6021,
+          "y": 474.1227,
+          "text": "conceito inerente à Política de Desenvolvimento Industrial:"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "sourceLines": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 304.6021,
+              "y": 486.6227,
+              "text": "a) Um dos traços fundamentais da Política de"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 499.1227,
+              "text": "Desenvolvimento Industrial é seu pragmatismo, que"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 511.6227,
+              "text": "deve se traduzir em medidas concretas de"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 524.1227,
+              "text": "implementação a longo prazo, articuladas"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 536.6227,
+              "text": "primordialmente em cooperação com os demais entes"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 549.1227,
+              "text": "públicos e direcionadas para enfrentar os principais"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 561.6227,
+              "text": "entraves que afetam seu desempenho."
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "sourceLines": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 304.6021,
+              "y": 574.1227,
+              "text": "b) A Política de Desenvolvimento Industrial tem por objetivo"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 586.6227,
+              "text": "estabelecer um diálogo com a diversidade da estrutura"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 599.1227,
+              "text": "produtiva doméstica, partindo do estágio de"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 611.6227,
+              "text": "desenvolvimento dos diversos sistemas produtivos e"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 624.1227,
+              "text": "das empresas, tanto no que se refere às suas"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 636.6227,
+              "text": "necessidades quanto no que respeita às"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 649.1227,
+              "text": "suas oportunidades."
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "sourceLines": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 304.6021,
+              "y": 661.6227,
+              "text": "c) A estratégia de conquista de mercados da Política de"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 674.1227,
+              "text": "Desenvolvimento Industrial reflete o objetivo de manter"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 686.6227,
+              "text": "ou posicionar um determinado sistema produtivo entre"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 699.1227,
+              "text": "os principais importadores mundiais, combinando-se"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 711.6227,
+              "text": "uma participação significativa nos fluxos de comércio"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 724.1227,
+              "text": "internacional com a preservação de posição mínima no"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 736.6227,
+              "text": "mercado doméstico."
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "sourceLines": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 304.6021,
+              "y": 749.1227,
+              "text": "d) Para inserção internacional do Brasil, a Política de"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 761.6227,
+              "text": "Desenvolvimento Industrial busca o atendimento de"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 774.1227,
+              "text": "mercados externos, por meio de significativas"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 786.6227,
+              "text": "importações, ou o investimento direto no exterior para"
+            },
+            {
+              "page": 3,
+              "column": "right",
+              "x": 318.7751,
+              "y": 799.1227,
+              "text": "instalação de representações comerciais."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contexts": [
+    {
+      "contextId": "gaps4-mpo-models",
+      "documentId": "source-mpo-2024-cg1-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 2,
+          "column": "right",
+          "y": 314.0567,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 314.0567,
+              "text": "Acerca da evolução do Estado moderno, dos modelos de gestão"
+            }
+          ],
+          "text": "Acerca da evolução do Estado moderno, dos modelos de gestão"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 325.3364,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 325.3364,
+              "text": "pública e do contexto de atuação política e gestão pública, julgue"
+            }
+          ],
+          "text": "pública e do contexto de atuação política e gestão pública, julgue"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 336.6161,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 336.6161,
+              "text": "os itens seguintes."
+            }
+          ],
+          "text": "os itens seguintes."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-mpo-cooperation",
+      "documentId": "source-mpo-2024-cg1-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 2,
+          "column": "right",
+          "y": 569.176616,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.358587,
+              "y": 569.176616,
+              "text": "Julgue os próximos itens, relativos a aspectos evolutivos da"
+            }
+          ],
+          "text": "Julgue os próximos itens, relativos a aspectos evolutivos da"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 580.3367,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 580.3367,
+              "text": "administração pública brasileira, à burocracia e às interfaces da"
+            }
+          ],
+          "text": "administração pública brasileira, à burocracia e às interfaces da"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 591.6164,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 591.6164,
+              "text": "administração pública com a administração privada."
+            }
+          ],
+          "text": "administração pública com a administração privada."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-mpo-work",
+      "documentId": "source-mpo-2024-cg1-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 578.777048,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.478587,
+              "y": 578.777048,
+              "text": "Em relação aos fenômenos conhecidos como uberização e"
+            }
+          ],
+          "text": "Em relação aos fenômenos conhecidos como uberização e"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 593.2967,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.479,
+              "y": 593.2967,
+              "text": "pejotização, julgue os itens que se seguem."
+            }
+          ],
+          "text": "pejotização, julgue os itens que se seguem."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-mpo-politics",
+      "documentId": "source-mpo-2024-cg1-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 5,
+          "column": "left",
+          "y": 248.776808,
+          "parts": [
+            {
+              "page": 5,
+              "column": "left",
+              "x": 28.318687,
+              "y": 248.776808,
+              "text": "Em referência ao contexto interno e externo da realidade política,"
+            }
+          ],
+          "text": "Em referência ao contexto interno e externo da realidade política,"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "y": 264.6167,
+          "parts": [
+            {
+              "page": 5,
+              "column": "left",
+              "x": 28.3191,
+              "y": 264.6167,
+              "text": "econômica e ambiental do Brasil, julgue os itens subsequentes."
+            }
+          ],
+          "text": "econômica e ambiental do Brasil, julgue os itens subsequentes."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-mpo-investment",
+      "documentId": "source-mpo-2024-cg1-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 5,
+          "column": "left",
+          "y": 612.016808,
+          "parts": [
+            {
+              "page": 5,
+              "column": "left",
+              "x": 28.318687,
+              "y": 612.016808,
+              "text": "No que se refere à dinâmica e aos desafios do investimento"
+            }
+          ],
+          "text": "No que se refere à dinâmica e aos desafios do investimento"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "y": 627.8567,
+          "parts": [
+            {
+              "page": 5,
+              "column": "left",
+              "x": 28.3191,
+              "y": 627.8567,
+              "text": "público no Brasil e aos impactos da pandemia de covid-19 na"
+            }
+          ],
+          "text": "público no Brasil e aos impactos da pandemia de covid-19 na"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "y": 643.697084,
+          "parts": [
+            {
+              "page": 5,
+              "column": "left",
+              "x": 28.3191,
+              "y": 643.697084,
+              "text": "administração pública, julgue os próximos itens."
+            }
+          ],
+          "text": "administração pública, julgue os próximos itens."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-mpo-lgpd",
+      "documentId": "source-mpo-2024-cg1-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 5,
+          "column": "right",
+          "y": 66.1368,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 303.359,
+              "y": 66.1368,
+              "text": "Com base na Lei Geral de Proteção de Dados Pessoais (LGPD),"
+            }
+          ],
+          "text": "Com base na Lei Geral de Proteção de Dados Pessoais (LGPD),"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "y": 77.777052,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 303.359,
+              "y": 77.777052,
+              "text": "julgue os itens seguintes."
+            }
+          ],
+          "text": "julgue os itens seguintes."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-mpo-data",
+      "documentId": "source-mpo-2024-cg1-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 5,
+          "column": "right",
+          "y": 654.856328,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 303.358587,
+              "y": 654.856328,
+              "text": "Julgue os itens a seguir, a respeito de conceitos e fundamentos de"
+            }
+          ],
+          "text": "Julgue os itens a seguir, a respeito de conceitos e fundamentos de"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "y": 666.3767,
+          "parts": [
+            {
+              "page": 5,
+              "column": "right",
+              "x": 303.359,
+              "y": 666.3767,
+              "text": "dados."
+            }
+          ],
+          "text": "dados."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-mpo-ethics",
+      "documentId": "source-mpo-2024-cg1-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 6,
+          "column": "left",
+          "y": 66.1368,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 28.3191,
+              "y": 66.1368,
+              "text": "Com"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 57.947871,
+              "y": 66.1368,
+              "text": "fundamento"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 114.558685,
+              "y": 66.1368,
+              "text": "nas"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 138.070394,
+              "y": 66.1368,
+              "text": "Leis"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 165.301317,
+              "y": 66.1368,
+              "text": "n.º 8.112/1990,"
+            },
+            {
+              "page": 6,
+              "column": "left",
+              "x": 233.900374,
+              "y": 66.1368,
+              "text": "n.º 8.429/1992,"
+            }
+          ],
+          "text": "Com fundamento nas Leis n.º 8.112/1990, n.º 8.429/1992,"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 82.33674,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 28.3191,
+              "y": 82.33674,
+              "text": "n.º 9.784/1999, no Decreto n.º 1.171/1994 e no Plano de Integridade"
+            }
+          ],
+          "text": "n.º 9.784/1999, no Decreto n.º 1.171/1994 e no Plano de Integridade"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 98.53668,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 28.3191,
+              "y": 98.53668,
+              "text": "do Ministério do Planejamento e Orçamento 2024-2025, julgue os"
+            }
+          ],
+          "text": "do Ministério do Planejamento e Orçamento 2024-2025, julgue os"
+        },
+        {
+          "page": 6,
+          "column": "left",
+          "y": 114.73662,
+          "parts": [
+            {
+              "page": 6,
+              "column": "left",
+              "x": 28.3191,
+              "y": 114.73662,
+              "text": "itens a seguir."
+            }
+          ],
+          "text": "itens a seguir."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-mpo-evaluation",
+      "documentId": "source-mpo-2024-001-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 66.1368,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 331.799342,
+              "y": 66.1368,
+              "text": "Estudos mostram que o Brasil adota uma abordagem"
+            }
+          ],
+          "text": "Estudos mostram que o Brasil adota uma abordagem"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 80.896524,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 80.896524,
+              "text": "abrangente para a avaliação de políticas públicas, considerando"
+            }
+          ],
+          "text": "abrangente para a avaliação de políticas públicas, considerando"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 95.536728,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 95.536728,
+              "text": "várias dimensões de desempenho para assegurar uma análise"
+            }
+          ],
+          "text": "várias dimensões de desempenho para assegurar uma análise"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 110.296452,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 110.296452,
+              "text": "detalhada e multifacetada. Essas dimensões são fundamentais"
+            }
+          ],
+          "text": "detalhada e multifacetada. Essas dimensões são fundamentais"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 125.056176,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 125.056176,
+              "text": "para compreender a eficácia, a eficiência e o impacto das"
+            }
+          ],
+          "text": "para compreender a eficácia, a eficiência e o impacto das"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 139.69638,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 139.69638,
+              "text": "políticas públicas. Além disso, refletem o compromisso das"
+            }
+          ],
+          "text": "políticas públicas. Além disso, refletem o compromisso das"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 154.456104,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 154.456104,
+              "text": "instituições com uma avaliação que adota uma visão sistêmica"
+            }
+          ],
+          "text": "instituições com uma avaliação que adota uma visão sistêmica"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 169.096308,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 169.096308,
+              "text": "das políticas públicas, buscando não apenas medir resultados,"
+            }
+          ],
+          "text": "das políticas públicas, buscando não apenas medir resultados,"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 183.856032,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 183.856032,
+              "text": "mas também promover a transparência, a responsabilidade e o"
+            }
+          ],
+          "text": "mas também promover a transparência, a responsabilidade e o"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 198.496236,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 198.496236,
+              "text": "desenvolvimento sustentável."
+            }
+          ],
+          "text": "desenvolvimento sustentável."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 213.25596,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 331.799342,
+              "y": 213.25596,
+              "text": "É por meio dessa abordagem que as instituições buscam"
+            }
+          ],
+          "text": "É por meio dessa abordagem que as instituições buscam"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 228.015684,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 228.015684,
+              "text": "contribuir para a melhoria contínua da gestão pública e para o"
+            }
+          ],
+          "text": "contribuir para a melhoria contínua da gestão pública e para o"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 242.655888,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 242.655888,
+              "text": "aprimoramento das políticas públicas no Brasil, garantindo que"
+            }
+          ],
+          "text": "aprimoramento das políticas públicas no Brasil, garantindo que"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 257.415612,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 257.415612,
+              "text": "elas atendam efetivamente às necessidades da população."
+            }
+          ],
+          "text": "elas atendam efetivamente às necessidades da população."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 278.2187,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 463.319,
+              "y": 278.2187,
+              "text": "TCU. Manual de Auditoria Operacional."
+            }
+          ],
+          "text": "TCU. Manual de Auditoria Operacional."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 287.0987,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 422.758462,
+              "y": 287.0987,
+              "text": "Brasília: SEGECEX/SEMEC/TCU, 2018 (com adaptações)."
+            }
+          ],
+          "text": "Brasília: SEGECEX/SEMEC/TCU, 2018 (com adaptações)."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 305.7767,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 305.7767,
+              "text": "Considerando o texto anterior e os conceitos de cada uma das"
+            }
+          ],
+          "text": "Considerando o texto anterior e os conceitos de cada uma das"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 320.416904,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 320.416904,
+              "text": "dimensões citadas, julgue os itens a seguir."
+            }
+          ],
+          "text": "dimensões citadas, julgue os itens a seguir."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-mpo-problem",
+      "documentId": "source-mpo-2024-001-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 494.7764,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 331.798929,
+              "y": 494.7764,
+              "text": "A identificação do problema e da população-alvo constitui"
+            }
+          ],
+          "text": "A identificação do problema e da população-alvo constitui"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 509.4167,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 509.4167,
+              "text": "um passo crucial na avaliação de políticas públicas, exigindo um"
+            }
+          ],
+          "text": "um passo crucial na avaliação de políticas públicas, exigindo um"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 524.176424,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 524.176424,
+              "text": "método sistemático para assegurar a eficácia e o direcionamento"
+            }
+          ],
+          "text": "método sistemático para assegurar a eficácia e o direcionamento"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 538.936148,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 538.936148,
+              "text": "adequado das políticas públicas."
+            }
+          ],
+          "text": "adequado das políticas públicas."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 559.7387,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 382.5591,
+              "y": 559.7387,
+              "text": "IPEA. Avaliação de políticas públicas: guia prático de análise ex-ante, v. 1."
+            }
+          ],
+          "text": "IPEA. Avaliação de políticas públicas: guia prático de análise ex-ante, v. 1."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 568.6187,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 488.158958,
+              "y": 568.6187,
+              "text": "Brasília, 2018 (com adaptações)."
+            }
+          ],
+          "text": "Brasília, 2018 (com adaptações)."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 587.2967,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 587.2967,
+              "text": "Acerca de conceitos afetos à política pública e do diagnóstico do"
+            }
+          ],
+          "text": "Acerca de conceitos afetos à política pública e do diagnóstico do"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 601.936904,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 601.936904,
+              "text": "problema público, julgue os itens seguintes."
+            }
+          ],
+          "text": "problema público, julgue os itens seguintes."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-mpo-methods",
+      "documentId": "source-mpo-2024-001-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 47.0567,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.3191,
+              "y": 47.0567,
+              "text": "No que se refere às metodologias de avaliação de políticas"
+            }
+          ],
+          "text": "No que se refere às metodologias de avaliação de políticas"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 63.6167,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.3191,
+              "y": 63.6167,
+              "text": "públicas, julgue os itens subsecutivos."
+            }
+          ],
+          "text": "públicas, julgue os itens subsecutivos."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-mpo-collaboration",
+      "documentId": "source-mpo-2024-001-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 442.697216,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.318687,
+              "y": 442.697216,
+              "text": "Com relação às teorias do modelo lógico, da mudança e do"
+            }
+          ],
+          "text": "Com relação às teorias do modelo lógico, da mudança e do"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 459.2567,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.3191,
+              "y": 459.2567,
+              "text": "programa, julgue o item a seguir."
+            }
+          ],
+          "text": "programa, julgue o item a seguir."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-mpo-goals",
+      "documentId": "source-mpo-2024-001-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 601.577204,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.318687,
+              "y": 601.577204,
+              "text": "Julgue os próximos itens, relativos à definição de metas e"
+            }
+          ],
+          "text": "Julgue os próximos itens, relativos à definição de metas e"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 618.0167,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.3191,
+              "y": 618.0167,
+              "text": "indicadores para as políticas públicas."
+            }
+          ],
+          "text": "indicadores para as políticas públicas."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-mpo-causal",
+      "documentId": "source-mpo-2024-001-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 4,
+          "column": "right",
+          "y": 47.177552,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 303.360603,
+              "y": 47.177552,
+              "text": "Considerando os conceitos básicos e as técnicas de inferência"
+            }
+          ],
+          "text": "Considerando os conceitos básicos e as técnicas de inferência"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 62.1767,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 303.359,
+              "y": 62.1767,
+              "text": "causal, julgue os itens a seguir."
+            }
+          ],
+          "text": "causal, julgue os itens a seguir."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-mpo-counterfactual",
+      "documentId": "source-mpo-2024-001-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 4,
+          "column": "right",
+          "y": 544.57682,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 303.358587,
+              "y": 544.57682,
+              "text": "Tendo em vista o conceito de contrafactual nas avaliações de"
+            }
+          ],
+          "text": "Tendo em vista o conceito de contrafactual nas avaliações de"
+        },
+        {
+          "page": 4,
+          "column": "right",
+          "y": 559.4567,
+          "parts": [
+            {
+              "page": 4,
+              "column": "right",
+              "x": 303.359,
+              "y": 559.4567,
+              "text": "impacto, julgue os itens que se seguem."
+            }
+          ],
+          "text": "impacto, julgue os itens que se seguem."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-inss-ethics",
+      "documentId": "source-inss-2022-cb1-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 2,
+          "column": "left",
+          "y": 47.1767,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 28.3191,
+              "y": 47.1767,
+              "text": "Com base no Código de Ética Profissional do Servidor Público"
+            }
+          ],
+          "text": "Com base no Código de Ética Profissional do Servidor Público"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 59.1767,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 28.3191,
+              "y": 59.1767,
+              "text": "Civil do Poder Executivo Federal (CEPSPC), julgue os itens que"
+            }
+          ],
+          "text": "Civil do Poder Executivo Federal (CEPSPC), julgue os itens que"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "y": 71.176508,
+          "parts": [
+            {
+              "page": 2,
+              "column": "left",
+              "x": 28.3191,
+              "y": 71.176508,
+              "text": "se seguem."
+            }
+          ],
+          "text": "se seguem."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-inss-administration",
+      "documentId": "source-inss-2022-cb1-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 2,
+          "column": "right",
+          "y": 475.336412,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.358587,
+              "y": 475.336412,
+              "text": "No que diz respeito à administração pública, às fontes do direito"
+            }
+          ],
+          "text": "No que diz respeito à administração pública, às fontes do direito"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 486.0167,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 486.0167,
+              "text": "administrativo, à organização administrativa da União, à Lei"
+            }
+          ],
+          "text": "administrativo, à organização administrativa da União, à Lei"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 496.576292,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 496.576292,
+              "text": "n.º 8.112/1990 e aos poderes administrativos, julgue os itens que"
+            }
+          ],
+          "text": "n.º 8.112/1990 e aos poderes administrativos, julgue os itens que"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "y": 507.2564,
+          "parts": [
+            {
+              "page": 2,
+              "column": "right",
+              "x": 303.359,
+              "y": 507.2564,
+              "text": "se seguem."
+            }
+          ],
+          "text": "se seguem."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-inss-acts",
+      "documentId": "source-inss-2022-cb1-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 47.0567,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.4391,
+              "y": 47.0567,
+              "text": "Julgue os próximos itens, referentes ao ato administrativo, aos"
+            }
+          ],
+          "text": "Julgue os próximos itens, referentes ao ato administrativo, aos"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 58.3367,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.4391,
+              "y": 58.3367,
+              "text": "serviços públicos, à responsabilidade civil do Estado e às Leis"
+            }
+          ],
+          "text": "serviços públicos, à responsabilidade civil do Estado e às Leis"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "y": 69.6164,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.4391,
+              "y": 69.6164,
+              "text": "n.º 8.429/1992 e n.º 9.784/1999."
+            }
+          ],
+          "text": "n.º 8.429/1992 e n.º 9.784/1999."
+        }
+      ]
+    },
+    {
+      "contextId": "gaps4-icmbio-office",
+      "documentId": "source-icmbio-2022-cb1-01-paper",
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "left",
+          "y": 55.7007,
+          "parts": [
+            {
+              "page": 3,
+              "column": "left",
+              "x": 28.38,
+              "y": 55.7007,
+              "text": "Com relação a ambientes Microsoft Office, redes de computadores e segurança da informação, julgue os próximos itens."
+            }
+          ],
+          "text": "Com relação a ambientes Microsoft Office, redes de computadores e segurança da informação, julgue os próximos itens."
+        }
+      ]
+    }
+  ],
+  "mappingAdditions": [],
+  "normalization": "Only original question/option markers removed, physical wraps joined; original words, numbers, formulae, accents and punctuation retained. No old text, keys or comments revised.",
+  "roleReferenceAdditions": {
+    "cgu-auditoria": [
+      "reference-lei-12813-2013"
+    ]
+  },
+  "historicalEvidenceCorrections": [
+    {
+      "file": "data/reviews/gaps-third-batch.json",
+      "entry": "excluded CGU tarde20 quarantine",
+      "correction": "The quarantine item is Auditoria afternoon type1 q21; q20 concerns procurement. Historical report retained unchanged. Q21 is now released after selected Lei12813 verification."
+    }
+  ],
+  "excluded": [
+    {
+      "source": "MPO2024",
+      "reason": "Anulada específica48 excluída; gerais51–53 e57–62 dependem de figuras/cartogramas não representados pelo contrato textual. Não extrair apenas a assertiva."
+    },
+    {
+      "source": "TCUFGV2022",
+      "reason": "Arquivo com area_controle_externo é discursivo; somente o objetivo area_de_controle_externo foi pareado. Anuladas52/72 fora."
+    },
+    {
+      "source": "ABDI2008",
+      "reason": "Não reintroduzidas regras próprias obsoletas, nem q16 da antiga Lei8666. Política industrial20 é conceito histórico, não plano2024–2029."
+    },
+    {
+      "source": "Outros candidatos",
+      "reason": "TCDF2021 e INSS2015 sem recortes prioritários confirmados nesta seleção; CAESB anotado sem par definitivo conferido; TCEAC societário adiado sem referência CPC confirmada. Nenhum liberado por aproximação."
+    },
+    {
+      "source": "Busca pública",
+      "reason": "Buscador retornou429; pesquisas suspensas sem contornar limite."
+    }
+  ]
+}

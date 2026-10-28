@@ -407,7 +407,7 @@ const StudyUI = (() => {
           content.append(section);
         }
       }
-      if (q.review.temporalScope === 'historical_excerpt') content.append(node('p', q.review.temporalNote, 'review-note historical-note'));
+      if (['historical_excerpt', 'historical_question'].includes(q.review.temporalScope)) content.append(node('p', q.review.temporalNote, 'review-note historical-note'));
       const stem = node('p',q.stem,'question-stem'); stem.lang = q.language || 'pt-BR'; content.append(stem);
       const choices = q.type === 'true_false' ? [{id: true, text: 'Certo'}, {id: false, text: 'Errado'}] : q.options.map(o => ({id: o.id, text: o.id.toUpperCase() + '. ' + o.text}));
       if (!completed) {

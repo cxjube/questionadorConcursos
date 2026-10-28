@@ -150,9 +150,9 @@ class EleventhBatchTests(unittest.TestCase):
         report = read_json(ROOT / 'data/reviews/eleventh-coverage.json')
         syllabus = {s['id']: s for s in self.c['syllabusItems']}
         pools = {block: {m['questionId'] for m in self.c['mappings'] if syllabus[m['syllabusItemId']]['block'] == block and self.questions[m['questionId']]['type'] == 'true_false'} for block in ['basic', 'specific']}
-        self.assertEqual({k: len(v) for k, v in pools.items()}, {'basic': 169, 'specific': 209})
+        self.assertEqual({k: len(v) for k, v in pools.items()}, {'basic': 176, 'specific': 210})
         self.assertFalse(pools['basic'] & pools['specific'])
-        self.assertEqual(len(pools['basic'] | pools['specific']), 378)
+        self.assertEqual(len(pools['basic'] | pools['specific']), 386)
         prior_mappings = historical_mappings(self.c)
         mapped = {m['syllabusItemId'] for m in prior_mappings}
         added = {row['questionId'] for row in self.review['items']}
@@ -160,8 +160,8 @@ class EleventhBatchTests(unittest.TestCase):
         self.assertEqual((len(before), len(mapped)), (81, 103))
         self.assertEqual({row['id'] for row in report['newDirectSyllabusItems']}, mapped - before)
         self.assertEqual(len(report['newDirectSyllabusItems']), 22)
-        self.assertEqual(len(self.questions), 644)
-        self.assertEqual(sum(q['type'] == 'multiple_choice' for q in self.c['questions']), 133)
-        self.assertEqual(len(self.c['documents']), 206)
-        self.assertEqual(sum(p['inventory']['itemCount'] for p in self.c['papers']), 4126)
-        self.assertEqual(sum(len(p['inventory']['annulledItems']) for p in self.c['papers']), 175)
+        self.assertEqual(len(self.questions), 686)
+        self.assertEqual(sum(q['type'] == 'multiple_choice' for q in self.c['questions']), 137)
+        self.assertEqual(len(self.c['documents']), 217)
+        self.assertEqual(sum(p['inventory']['itemCount'] for p in self.c['papers']), 4516)
+        self.assertEqual(sum(len(p['inventory']['annulledItems']) for p in self.c['papers']), 193)

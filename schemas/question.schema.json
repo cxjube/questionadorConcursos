@@ -173,7 +173,8 @@
         "temporalScope": {
           "enum": [
             "conceptual",
-            "historical_excerpt"
+            "historical_excerpt",
+            "historical_question"
           ]
         },
         "temporalNote": {

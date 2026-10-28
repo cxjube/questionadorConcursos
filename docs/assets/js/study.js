@@ -421,7 +421,7 @@ const Study = (() => {
         if (!identifier(q.id) || questions.has(q.id) || q.bankId !== 'concursos' || !Number.isInteger(q.revision) || q.revision < 1 || !text(q.stem) ||
             !['true_false', 'multiple_choice'].includes(q.type) || !array(q.options, 10) || !array(q.contextIds, 20) || !record(q.origin) || q.origin.kind !== 'official' ||
             !identifier(q.origin.paperId) || !Number.isInteger(q.origin.number) || q.origin.number < 1 || !text(q.origin.locator) ||
-            !record(q.review) || q.review.status !== 'released' || !['conceptual', 'historical_excerpt'].includes(q.review.temporalScope) || !text(q.review.temporalNote) ||
+            !record(q.review) || q.review.status !== 'released' || !['conceptual', 'historical_excerpt', 'historical_question'].includes(q.review.temporalScope) || !text(q.review.temporalNote) ||
             key.questionId !== q.id || key.id !== q.answerKeyId || !identifier(key.id) || !Number.isInteger(key.version) || key.version < 1 || key.stage !== 'definitive' ||
             key.origin !== 'official' || key.status !== 'confirmed' || !['valid', 'annulled', 'withdrawn'].includes(key.result) || !url(key.officialUrl) || !identifier(key.documentId) || !text(key.locator) ||
             paper.id !== q.origin.paperId || !text(paper.title) || !text(paper.provider) || !text(paper.institution) || !text(paper.role) || !Number.isInteger(paper.year) || !text(paper.booklet) || !url(paper.officialUrl)) fail();

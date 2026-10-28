@@ -1,0 +1,227 @@
+{
+  "id": "gaps-fourth-source-discovery",
+  "checkedAt": "2026-10-28",
+  "scope": "Five complete official pairs / ten distinct PDF binaries downloaded twice with identical bytes. Existing ABDI/CGU pairs retain historical verification. One new law publisher HTML, selected provisions only.",
+  "pairs": [
+    {
+      "paperId": "source-mpo-2024-cg1-01",
+      "booklet": "958_MPO_ANALISTA_CG1_01",
+      "documents": [
+        {
+          "documentId": "source-mpo-2024-cg1-01-paper",
+          "file": "sources/papers/mpo-2024-cg1-01.pdf",
+          "url": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_CG1_01.PDF",
+          "sha256": "0f507fed95bdb203fb436c5628084b03c024beb70a12ffd9da8482c578df1623",
+          "bytes": 317546,
+          "independentRepeatSha256": "0f507fed95bdb203fb436c5628084b03c024beb70a12ffd9da8482c578df1623",
+          "repeatCheckedAt": "2026-10-28T22:55:08.104690+00:00"
+        },
+        {
+          "documentId": "source-mpo-2024-cg1-01-key",
+          "file": "sources/answer-keys/mpo-2024-cg1-01-key.pdf",
+          "url": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_CG1_01.PDF",
+          "sha256": "13f90769e4bad4f332a625b0aea7049270583b4b7f64a49c4f59b2de6a5ba9f6",
+          "bytes": 49196,
+          "independentRepeatSha256": "13f90769e4bad4f332a625b0aea7049270583b4b7f64a49c4f59b2de6a5ba9f6",
+          "repeatCheckedAt": "2026-10-28T22:55:08.796031+00:00"
+        }
+      ],
+      "answerKeyPage": 1,
+      "annulledItems": [
+        5,
+        21,
+        57,
+        71,
+        100
+      ]
+    },
+    {
+      "paperId": "source-mpo-2024-001-01",
+      "booklet": "958_MPO_ANALISTA_001_01",
+      "documents": [
+        {
+          "documentId": "source-mpo-2024-001-01-paper",
+          "file": "sources/papers/mpo-2024-001-01.pdf",
+          "url": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+          "sha256": "c94ad562197c07e27f209b049b25338d02de7dc8d9e82dd90c66326b6083de27",
+          "bytes": 109078,
+          "independentRepeatSha256": "c94ad562197c07e27f209b049b25338d02de7dc8d9e82dd90c66326b6083de27",
+          "repeatCheckedAt": "2026-10-28T22:55:08.213998+00:00"
+        },
+        {
+          "documentId": "source-mpo-2024-001-01-key",
+          "file": "sources/answer-keys/mpo-2024-001-01-key.pdf",
+          "url": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+          "sha256": "4df433cff5824e18caa3efd59ed26d38ccfb4e35fe4024d050698b232e200751",
+          "bytes": 48858,
+          "independentRepeatSha256": "4df433cff5824e18caa3efd59ed26d38ccfb4e35fe4024d050698b232e200751",
+          "repeatCheckedAt": "2026-10-28T22:55:08.031388+00:00"
+        }
+      ],
+      "answerKeyPage": 1,
+      "annulledItems": [
+        6,
+        48,
+        61,
+        62,
+        63,
+        64,
+        65,
+        88,
+        90
+      ]
+    },
+    {
+      "paperId": "source-inss-2022-cb1-01",
+      "booklet": "760_INSS_CB1_01",
+      "documents": [
+        {
+          "documentId": "source-inss-2022-cb1-01-paper",
+          "file": "sources/papers/inss-2022-cb1-01.pdf",
+          "url": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_CB1_01.PDF",
+          "sha256": "ecacf7fd88d0f3f2842a355519bc6c7f4b37cb96593cb78ab042b61719030901",
+          "bytes": 121484,
+          "independentRepeatSha256": "ecacf7fd88d0f3f2842a355519bc6c7f4b37cb96593cb78ab042b61719030901",
+          "repeatCheckedAt": "2026-10-28T22:55:07.641640+00:00"
+        },
+        {
+          "documentId": "source-inss-2022-cb1-01-key",
+          "file": "sources/answer-keys/inss-2022-cb1-01-key.pdf",
+          "url": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_CB1_01.PDF",
+          "sha256": "19ed952b1b10b9960a3eca4a2f2930029acd8298d52f07f58ca7bbf5831effee",
+          "bytes": 46545,
+          "independentRepeatSha256": "19ed952b1b10b9960a3eca4a2f2930029acd8298d52f07f58ca7bbf5831effee",
+          "repeatCheckedAt": "2026-10-28T22:55:07.618546+00:00"
+        }
+      ],
+      "answerKeyPage": 1,
+      "annulledItems": [
+        49
+      ]
+    },
+    {
+      "paperId": "source-icmbio-2022-cb1-01",
+      "booklet": "CONHECIMENTOS BÁSICOS PARA O CARGO DE NÍVEL SUPERIOR",
+      "documents": [
+        {
+          "documentId": "source-icmbio-2022-cb1-01-paper",
+          "file": "sources/papers/icmbio-2022-cb1-01.pdf",
+          "url": "https://cdn.cebraspe.org.br/concursos/icmbio_21/arquivos/654_ICMBIO_CB1_01.PDF",
+          "sha256": "eb7733297a10a043d0068874dc8909ca89aa3c258d9671f8e799baa236857209",
+          "bytes": 68457,
+          "independentRepeatSha256": "eb7733297a10a043d0068874dc8909ca89aa3c258d9671f8e799baa236857209",
+          "repeatCheckedAt": "2026-10-28T22:55:07.494318+00:00"
+        },
+        {
+          "documentId": "source-icmbio-2022-cb1-01-key",
+          "file": "sources/answer-keys/icmbio-2022-cb1-01-key.pdf",
+          "url": "https://cdn.cebraspe.org.br/concursos/icmbio_21/arquivos/GAB_DEFINITIVO_654_ICMBIO_CB1_01.PDF",
+          "sha256": "4d22de7b74ad18bab8670d2e66948c90b10b40750e37ae4968e32e2eac6bee55",
+          "bytes": 47776,
+          "independentRepeatSha256": "4d22de7b74ad18bab8670d2e66948c90b10b40750e37ae4968e32e2eac6bee55",
+          "repeatCheckedAt": "2026-10-28T22:55:07.415427+00:00"
+        }
+      ],
+      "answerKeyPage": 1,
+      "annulledItems": [
+        19
+      ]
+    },
+    {
+      "paperId": "source-tcu-2022-aufc-tipo1",
+      "booklet": "Auditor Federal de Controle Externo - Área Controle Externo (AUFC-CE) – Tipo 1",
+      "documents": [
+        {
+          "documentId": "source-tcu-2022-aufc-tipo1-paper",
+          "file": "sources/papers/tcu-2022-aufc-tipo1.pdf",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/auditor_federal_de_controle_externo_-_area_de_controle_externoaufc-ce_tipo_1.pdf",
+          "sha256": "1d84da2458ed6055e7254b244feb8c052d9bbe701f84c1609c8fd74dff32e09e",
+          "bytes": 1063584,
+          "independentRepeatSha256": "1d84da2458ed6055e7254b244feb8c052d9bbe701f84c1609c8fd74dff32e09e",
+          "repeatCheckedAt": "2026-10-28T22:55:08.232137+00:00"
+        },
+        {
+          "documentId": "source-tcu-2022-aufc-tipo1-key",
+          "file": "sources/answer-keys/tcu-2022-aufc-tipo1-key.pdf",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tcu2021_gabarito_definitivo_0.pdf",
+          "sha256": "be49ac29f5252a1dc9dbb5d2e61db14a64ef4107fe15230089284a3d6457a993",
+          "bytes": 81605,
+          "independentRepeatSha256": "be49ac29f5252a1dc9dbb5d2e61db14a64ef4107fe15230089284a3d6457a993",
+          "repeatCheckedAt": "2026-10-28T22:55:06.941048+00:00"
+        }
+      ],
+      "answerKeyPage": 1,
+      "annulledItems": [
+        52,
+        72
+      ]
+    }
+  ],
+  "listings": [
+    {
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/MPO_24",
+      "file": "data/reviews/gaps-fourth-source-evidence/MPO_24.json",
+      "sha256": "5ebcfd16603a0f875b1e0b207a0808f1392ce544ac38ed941ed56fdc6a23a068"
+    },
+    {
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/INSS_22",
+      "file": "data/reviews/gaps-fourth-source-evidence/INSS_22.json",
+      "sha256": "b278ac710eeecca7a55c1df5948ee3a190d33c6e0063eaf26d4032036c6db751"
+    },
+    {
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/ICMBIO_21",
+      "file": "data/reviews/gaps-fourth-source-evidence/ICMBIO_21.json",
+      "sha256": "b659b8433dddcde9c5f634867c6077f28e15ffc10ae162e7bdcc843d0c53adf5"
+    },
+    {
+      "url": "https://conhecimento.fgv.br/concursos/tcu21",
+      "file": "data/reviews/gaps-fourth-source-evidence/tcu-list.html",
+      "sha256": "0e6417fe73c70d90deca2ba1303cc146f2d5e2fe880087ac2d4cba41519ad157"
+    }
+  ],
+  "reference": {
+    "id": "reference-lei-12813-2013",
+    "bankId": "concursos",
+    "kind": "reference",
+    "title": "Lei nº 12.813/2013 — conflitos de interesses no Poder Executivo federal",
+    "issuer": "Câmara dos Deputados — legislação informatizada",
+    "status": "verified",
+    "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2013/lei-12813-16-maio-2013-776005-normaatualizada-pl.html",
+    "file": "sources/references/lei-12813-2013.html",
+    "sha256": "2c41a9252c36f4bb42e019e43fc9669c0ca86633f16998efad75365627c11813",
+    "publicationDate": "2013-05-16",
+    "paperId": null,
+    "scope": "Initial publisher response; selected arts.2,6,8,9 checked. No independent HTML repeat claimed."
+  },
+  "dateDiscrepancy": {
+    "paperId": "source-icmbio-2022-cb1-01",
+    "keyPrint": "Aplicação: 6/2/2021",
+    "applicationDate": "2022-02-06",
+    "evidenceFile": "data/reviews/gaps-fourth-source-evidence/icmbio-opening.pdf",
+    "evidenceSha256": "2d4f3f966370456602d3cebc8d5b4b801ab76c72d6ee2bd6133679722ae02a18",
+    "evidenceUrl": "https://cdn.cebraspe.org.br/concursos/icmbio_21/arquivos/ED_1_ICMBIO_21_ABERTURA.PDF",
+    "reason": "Official opening schedule and March2022 key listing confirm6Feb2022; key printed2021 precedes its own November2021 notice. Original bytes untouched."
+  },
+  "excluded": [
+    {
+      "source": "MPO2024",
+      "reason": "Anulada específica48 excluída; gerais51–53 e57–62 dependem de figuras/cartogramas não representados pelo contrato textual. Não extrair apenas a assertiva."
+    },
+    {
+      "source": "TCUFGV2022",
+      "reason": "Arquivo com area_controle_externo é discursivo; somente o objetivo area_de_controle_externo foi pareado. Anuladas52/72 fora."
+    },
+    {
+      "source": "ABDI2008",
+      "reason": "Não reintroduzidas regras próprias obsoletas, nem q16 da antiga Lei8666. Política industrial20 é conceito histórico, não plano2024–2029."
+    },
+    {
+      "source": "Outros candidatos",
+      "reason": "TCDF2021 e INSS2015 sem recortes prioritários confirmados nesta seleção; CAESB anotado sem par definitivo conferido; TCEAC societário adiado sem referência CPC confirmada. Nenhum liberado por aproximação."
+    },
+    {
+      "source": "Busca pública",
+      "reason": "Buscador retornou429; pesquisas suspensas sem contornar limite."
+    }
+  ]
+}

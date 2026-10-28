@@ -28,7 +28,7 @@ class ReleasedFidelityTests(unittest.TestCase):
         new = read_json(ROOT / 'data/reviews/gaps-third-batch.json')
         cls.fiocruz_typography.update(new['fiocruzTypography'])
         cls.visual_restorations = new['fiocruzVisualRestorations']
-        cls.bbox_verified = {r['questionId'] for r in new['items']}
+        cls.bbox_verified = {r['questionId'] for r in new['items']} | {r['questionId'] for r in read_json(ROOT/'data/reviews/gaps-fourth-batch.json')['items']}
 
 
     def test_all_published_text_options_and_contexts_match_source_pages(self):

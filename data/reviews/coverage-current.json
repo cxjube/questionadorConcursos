@@ -1,21 +1,21 @@
 {
   "reviewedAt": "2026-10-28",
-  "latestBatchId": "gaps-third-batch",
-  "catalogSha256": "cb812172d6a9242dc869c965f3ed1039635dafc5a3d98d2c6273b38092c4ac53",
+  "latestBatchId": "gaps-fourth-batch",
+  "catalogSha256": "a20b7ecc1497d1bf54107402c9d5d5015d931de031e40ec55680800dc6d33525",
   "scope": "Oferta de questões distintas, sem inferência de domínio ou peso de prova.",
   "totalItems": 228,
-  "directItems": 185,
+  "directItems": 187,
   "descendantsOnly": 32,
-  "emptyItems": 10,
-  "emptyLeaves": 10,
+  "emptyItems": 8,
+  "emptyLeaves": 8,
   "blocks": {
     "basic": {
-      "total": 171,
-      "ce": 169
+      "total": 179,
+      "ce": 176
     },
     "specific": {
-      "total": 229,
-      "ce": 209
+      "total": 230,
+      "ce": 210
     }
   },
   "disciplines": [
@@ -45,12 +45,12 @@
       "id": "direito-administrativo-administracao-publica",
       "label": "Noções de Direito Administrativo e Administração Pública",
       "totalItems": 46,
-      "directItems": 35,
+      "directItems": 36,
       "descendantsOnly": 8,
-      "emptyItems": 3,
-      "emptyLeaves": 3,
-      "questionsCE": 55,
-      "questionsMC": 0
+      "emptyItems": 2,
+      "emptyLeaves": 2,
+      "questionsCE": 62,
+      "questionsMC": 1
     },
     {
       "id": "direito-constitucional-regimento",
@@ -111,11 +111,11 @@
       "id": "ciencia-politica",
       "label": "Ciência Política",
       "totalItems": 13,
-      "directItems": 11,
+      "directItems": 12,
       "descendantsOnly": 0,
-      "emptyItems": 1,
-      "emptyLeaves": 1,
-      "questionsCE": 39,
+      "emptyItems": 0,
+      "emptyLeaves": 0,
+      "questionsCE": 40,
       "questionsMC": 2
     }
   ],
@@ -950,9 +950,11 @@
         "142-tcuaufc-cb1-01-q079",
         "142-tcuaufc-cb1-01-q080",
         "142-tcuaufc-cb1-01-q081",
-        "959-bcb-cb1-01-q037"
+        "959-bcb-cb1-01-q037",
+        "inss-2022-cb1-01-q038",
+        "mpo-2024-cg1-01-q092"
       ],
-      "subtreeCE": 6,
+      "subtreeCE": 8,
       "subtreeMC": 0
     },
     {
@@ -1029,18 +1031,22 @@
       "parentTopicId": "direito-administrativo-administracao-publica-4",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
         "038-anm-cg1-01-q022",
-        "094-pf-cb1-01-q049"
+        "094-pf-cb1-01-q049",
+        "inss-2022-cb1-01-q038",
+        "mpo-2024-cg1-01-q092"
       ],
-      "directCE": 2,
+      "directCE": 4,
       "directMC": 0,
       "subtreeQuestionIds": [
         "038-anm-cg1-01-q022",
-        "094-pf-cb1-01-q049"
+        "094-pf-cb1-01-q049",
+        "inss-2022-cb1-01-q038",
+        "mpo-2024-cg1-01-q092"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 4,
       "subtreeMC": 0
     },
     {
@@ -1059,9 +1065,10 @@
       "subtreeQuestionIds": [
         "153-telebras-003-01-q070",
         "803-tj-es-006-01-q101",
-        "993-tce-ac-cb3-01-q032"
+        "993-tce-ac-cb3-01-q032",
+        "inss-2022-cb1-01-q032"
       ],
-      "subtreeCE": 3,
+      "subtreeCE": 4,
       "subtreeMC": 0
     },
     {
@@ -1098,14 +1105,16 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "803-tj-es-006-01-q101"
+        "803-tj-es-006-01-q101",
+        "inss-2022-cb1-01-q032"
       ],
-      "directCE": 1,
+      "directCE": 2,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "803-tj-es-006-01-q101"
+        "803-tj-es-006-01-q101",
+        "inss-2022-cb1-01-q032"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -1251,17 +1260,19 @@
         "018-stj-cb1-01-q040",
         "018-stj-cb1-01-q041",
         "018-stj-cb1-01-q042",
-        "018-stj-cb1-01-q043"
+        "018-stj-cb1-01-q043",
+        "mpo-2024-cg1-01-q095"
       ],
-      "directCE": 4,
+      "directCE": 5,
       "directMC": 0,
       "subtreeQuestionIds": [
         "018-stj-cb1-01-q040",
         "018-stj-cb1-01-q041",
         "018-stj-cb1-01-q042",
-        "018-stj-cb1-01-q043"
+        "018-stj-cb1-01-q043",
+        "mpo-2024-cg1-01-q095"
       ],
-      "subtreeCE": 4,
+      "subtreeCE": 5,
       "subtreeMC": 0
     },
     {
@@ -1276,9 +1287,10 @@
       "priority": "C",
       "directQuestionIds": [
         "979-cnj-007-01-q052",
-        "979-cnj-007-01-q054"
+        "979-cnj-007-01-q054",
+        "mpo-2024-cg1-01-q034"
       ],
-      "directCE": 2,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
         "038-anm-013-01-q053",
@@ -1286,10 +1298,14 @@
         "057-ibama-cb1-01-q044",
         "153-telebras-003-01-q076",
         "979-cnj-007-01-q052",
-        "979-cnj-007-01-q054"
+        "979-cnj-007-01-q054",
+        "mpo-2024-cg1-01-q034",
+        "mpo-2024-cg1-01-q036",
+        "mpo-2024-cg1-01-q040",
+        "tcu-2022-aufc-tipo1-q028"
       ],
-      "subtreeCE": 6,
-      "subtreeMC": 0
+      "subtreeCE": 9,
+      "subtreeMC": 1
     },
     {
       "id": "camara-2026-direito-administrativo-administracao-publica-8-1",
@@ -1299,14 +1315,18 @@
       "block": "basic",
       "parentTopicId": "direito-administrativo-administracao-publica-8",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
+      "directQuestionIds": [
+        "tcu-2022-aufc-tipo1-q028"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "tcu-2022-aufc-tipo1-q028"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "camara-2026-direito-administrativo-administracao-publica-8-2",
@@ -1317,16 +1337,20 @@
       "parentTopicId": "direito-administrativo-administracao-publica-8",
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
-        "057-ibama-cb1-01-q044"
+        "057-ibama-cb1-01-q044",
+        "mpo-2024-cg1-01-q036",
+        "mpo-2024-cg1-01-q040"
       ],
-      "directCE": 1,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "057-ibama-cb1-01-q044"
+        "057-ibama-cb1-01-q044",
+        "mpo-2024-cg1-01-q036",
+        "mpo-2024-cg1-01-q040"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -5411,13 +5435,17 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "mpo-2024-cg1-01-q073"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "mpo-2024-cg1-01-q073"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
