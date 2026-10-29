@@ -1,20 +1,20 @@
 # CGU — Auditoria: mapa do banco e lacunas
 
-Revisão: 2026-10-29. **298 questões distintas: 262 C/E e 36 MC.**
+Revisão: 2026-10-29. **305 questões distintas: 267 C/E e 38 MC.**
 
-Programa: 266 itens; 124 diretos, 62 apenas por descendentes e 80 subárvores vazias.
+Programa: 266 itens; 128 diretos, 64 apenas por descendentes e 74 subárvores vazias.
 
 Questões compartilhadas preservam texto, contexto, formato e gabarito de origem. MC permanecem no treino, fora da reserva C/E. Pais e filhos são contados separadamente: ter uma amostra não equivale a cobrir todo o item.
 
 ## Capacidade do simulado
 
-São necessários 170 IDs distintos. Há 262 C/E elegíveis e 170 alocáveis simultaneamente. **Mínimo quantitativo adicional: 0 C/E**, respeitando as compatibilidades por bloco. O simulado está disponível.
+São necessários 170 IDs distintos. Há 267 C/E elegíveis e 170 alocáveis simultaneamente. **Mínimo quantitativo adicional: 0 C/E**, respeitando as compatibilidades por bloco. O simulado está disponível.
 
 | Bloco | Exigidas | C/E elegíveis no filtro | Alocadas sem repetição | Déficit nesta alocação |
 | --- | ---: | ---: | ---: | ---: |
 | Conhecimentos básicos | 40 | 71 | 40 | 0 |
 | Conhecimentos complementares | 40 | 90 | 40 | 0 |
-| Conhecimentos específicos | 90 | 161 | 90 | 0 |
+| Conhecimentos específicos | 90 | 166 | 90 | 0 |
 
 Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos déficits não é única. Quantidade suficiente não garante variedade, cobertura ou dificuldade equivalente à prova.
 
@@ -94,9 +94,9 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 3 | Integridade pública. | 0 | 0 | Sem questões |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 3.1 | Finalidades dos programas e medidas de integridade; compromisso da liderança, orientação ética, identificação de riscos, canais de relato e acompanhamento de ações. | 0 | 0 | Sem questões |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 3.2 | Prevenção de favorecimento, assédio e discriminação; ambiente seguro e não retaliação. | 0 | 0 | Sem questões |
-| FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 4 | Integridade privada. | 0 | 0 | Sem questões |
+| FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 4 | Integridade privada. | 0 | 0 | Só descendentes |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 4.1 | Finalidades dos programas de integridade e sua relação com o poder público; compromisso da direção, registros confiáveis, controles, diligência proporcional sobre terceiros, canais de relato e remediação. | 0 | 0 | Sem questões |
-| FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 4.2 | Diferença entre existência documental, implementação e efetividade dos mecanismos. | 0 | 0 | Sem questões |
+| FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 4.2 | Diferença entre existência documental, implementação e efetividade dos mecanismos. | 0 | 1 | Direto |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 5 | Prevenção e melhoria institucional. | 0 | 0 | Sem questões |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 5.1 | Cultura, incentivos e confiança; diferenças de capacidade entre organizações; orientação e medidas proporcionais. | 0 | 0 | Sem questões |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 5.2 | Denúncias e resultados de controle como insumos de melhoria. | 0 | 0 | Sem questões |
@@ -206,12 +206,12 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 4.2 | Leitura dos balanços orçamentário, financeiro e patrimonial e da demonstração das variações patrimoniais, com notas explicativas pertinentes; conciliação e identificação de inconsistências relevantes para o controle. | 5 | 0 | Direto |
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 5 | Custos e análise da execução. | 1 | 0 | Direto |
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 5.1 | Comprovação da despesa e conexão físico-financeira; comparação entre recursos, custos e entregas. | 0 | 0 | Sem questões |
-| FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 5.2 | Interpretação de informações de custos e de indicadores de execução e eficiência, observadas comparabilidade, bases de cálculo e limitações. | 0 | 0 | Sem questões |
+| FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 5.2 | Interpretação de informações de custos e de indicadores de execução e eficiência, observadas comparabilidade, bases de cálculo e limitações. | 2 | 0 | Direto |
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 5.3 | MCASP 11ª edição e Manual de Informações do Sistema de Custos (MIC). | 14 | 0 | Direto |
-| FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 6 | Informação societária de empresas estatais. | 0 | 0 | Sem questões |
+| FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 6 | Informação societária de empresas estatais. | 0 | 0 | Só descendentes |
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 6.1 | Distinção entre informação societária e contabilidade aplicada ao setor público. | 0 | 0 | Sem questões |
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 6.2 | Leitura de balanço patrimonial, demonstração do resultado e notas explicativas; relações entre posição patrimonial, desempenho e caixa. | 0 | 0 | Sem questões |
-| FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 6.3 | Reconhecimento de efeitos e incertezas de depreciação, redução ao valor recuperável, provisões, contingências e transações com partes relacionadas. | 0 | 0 | Sem questões |
+| FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 6.3 | Reconhecimento de efeitos e incertezas de depreciação, redução ao valor recuperável, provisões, contingências e transações com partes relacionadas. | 3 | 0 | Direto |
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 7 | Governança e finalidade pública de empresas estatais. | 0 | 0 | Sem questões |
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 7.1 | Papéis e responsabilidades do Estado como proprietário das empresas estatais e gestor de seus administradores, dos conselhos de administração e fiscal e das instâncias de auditoria e fiscalização. | 0 | 0 | Sem questões |
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 7.2 | Finalidade pública, sustentabilidade econômico-financeira e prestação de contas; conflitos de interesses e controles. | 0 | 0 | Sem questões |
@@ -271,7 +271,7 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 3.3 | Acolhimento e prevenção de revitimização em situações de assédio e discriminação. | 0 | 0 | Sem questões |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 3.4 | Articulação entre proteção, preservação de evidências, apuração e direitos de defesa. | 0 | 0 | Sem questões |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 4 | Avaliação e aperfeiçoamento da integridade pública e privada. | 0 | 0 | Só descendentes |
-| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 4.1 | Diagnóstico de riscos e avaliação da existência, implementação e efetividade de programas de integridade. | 0 | 0 | Sem questões |
+| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 4.1 | Diagnóstico de riscos e avaliação da existência, implementação e efetividade de programas de integridade. | 0 | 1 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 4.2 | Compromisso da liderança, cultura, incentivos, registros, controles, diligência sobre terceiros, canais de relato e remediação. | 0 | 0 | Sem questões |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 4.3 | Avaliação de maturidade e planos de melhoria proporcionais ao contexto e à capacidade institucional. | 0 | 0 | Sem questões |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 4.4 | Análise de conflitos de interesses, impedimentos, favorecimento e exercício de atividade privada; medidas de prevenção, orientação e tratamento. | 0 | 2 | Direto |
@@ -283,7 +283,7 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 5.4 | Licitude, suficiência e valoração da prova; compartilhamento entre instâncias, contraditório, defesa e motivação. | 0 | 1 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 5.5 | Distinção entre achado de controle e imputação de responsabilidade. | 0 | 0 | Sem questões |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6 | Instrumentos de responsabilização e soluções consensuais. | 1 | 0 | Direto |
-| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.1 | Processo administrativo disciplinar e processo administrativo de responsabilização de pessoas jurídicas: cabimento, instrução, garantias e decisão. | 3 | 0 | Direto |
+| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.1 | Processo administrativo disciplinar e processo administrativo de responsabilização de pessoas jurídicas: cabimento, instrução, garantias e decisão. | 3 | 1 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.2 | Aplicação dos marcos prescricionais e dos critérios de dosimetria; fundamentação da sanção e da reparação do dano em casos concretos. | 0 | 0 | Sem questões |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.3 | Acordo de leniência: requisitos, colaboração, efeitos, obrigações de integridade e limites. | 0 | 1 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.4 | Termo de ajustamento de conduta: requisitos, proporcionalidade e acompanhamento. | 0 | 0 | Sem questões |

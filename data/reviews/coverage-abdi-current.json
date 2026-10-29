@@ -1,13 +1,13 @@
 {
   "totalItems": 97,
-  "directItems": 77,
+  "directItems": 78,
   "descendantsOnly": 7,
-  "emptyItems": 13,
-  "emptyLeaves": 13,
+  "emptyItems": 12,
+  "emptyLeaves": 12,
   "blocks": {
     "basic": {
-      "total": 112,
-      "ce": 72
+      "total": 113,
+      "ce": 73
     },
     "institutional": {
       "total": 26,
@@ -34,11 +34,11 @@
       "id": "raciocinio-logico",
       "label": "Raciocínio Lógico",
       "totalItems": 9,
-      "directItems": 6,
+      "directItems": 7,
       "descendantsOnly": 1,
-      "emptyItems": 2,
-      "emptyLeaves": 2,
-      "questionsCE": 6,
+      "emptyItems": 1,
+      "emptyLeaves": 1,
+      "questionsCE": 7,
       "questionsMC": 15
     },
     {
@@ -772,13 +772,17 @@
       "block": "basic",
       "parentTopicId": null,
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "directQuestionIds": [
+        "232funprespexe-cb1-01-q050"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "232funprespexe-cb1-01-q050"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -2578,8 +2582,8 @@
   ],
   "roleId": "abdi-comunicacao-marketing",
   "reviewedAt": "2026-10-29",
-  "reviewId": "bank-sweep-2026-10-29",
-  "distinctQuestions": 250,
-  "distinctCE": 156,
+  "reviewId": "norms-gap-fifth",
+  "distinctQuestions": 251,
+  "distinctCE": 157,
   "distinctMC": 94
 }

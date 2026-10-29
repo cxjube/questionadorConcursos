@@ -1,6 +1,6 @@
 # Mapa atual do banco de questões
 
-Última revisão: 2026-10-29; lote `bank-sweep-2026-10-29`. São 408 questões e 417 vínculos da Câmara; **187/228 itens com vínculo direto**, 32 atendidos só por descendentes e 8 sem questões na subárvore (8 folhas). O título amplo Ciência Política 1 permanece separado.
+Última revisão: 2026-10-29; lote `norms-gap-fifth`. São 409 questões e 418 vínculos da Câmara; **188/228 itens com vínculo direto**, 32 atendidos só por descendentes e 7 sem questões na subárvore (7 folhas). O título amplo Ciência Política 1 permanece separado.
 
 C/E: P1 **176**, P2 **210**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
 
@@ -14,7 +14,7 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | --- | ---: | ---: | ---: | ---: |
 | Língua Portuguesa | 17/20 | 40 | 1 | 0 |
 | Língua Inglesa | 3/3 | 19 | 0 | 0 |
-| Noções de Direito Administrativo e Administração Pública | 36/46 | 62 | 1 | 2 |
+| Noções de Direito Administrativo e Administração Pública | 37/46 | 62 | 2 | 1 |
 | Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados | 10/14 | 21 | 1 | 2 |
 | Tecnologia da Informação e Dados | 17/20 | 34 | 0 | 0 |
 | Comunicação Social | 37/45 | 73 | 7 | 3 |
@@ -100,11 +100,11 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 8.2 | Ação pública em redes de cooperação, articulação interinstitucional e parcerias com o setor privado e terceiro setor. | 3 | 0 | 3 | 0 | Direto | C |
 | 8.3 | Coprodução do bem público, participação cidadã e transparência ativa. | 2 | 0 | 2 | 0 | Direto | B |
 | 8.4 | Valor Público, cadeia de valor público. | 1 | 0 | 1 | 0 | Direto | B |
-| 9 | Governança na Administração Pública. | 0 | 0 | 6 | 0 | Só descendentes | C |
+| 9 | Governança na Administração Pública. | 0 | 0 | 6 | 1 | Só descendentes | C |
 | 9.1 | Governança pública: conceito, distinção entre governança e governabilidade e alinhamento estratégico. | 2 | 0 | 2 | 0 | Direto | B |
 | 9.2 | Mecanismos de governança: liderança, estratégia e controle. | 3 | 0 | 3 | 0 | Direto | C |
 | 9.3 | Conceito de valor público: geração de valor para a sociedade, entrega de resultados, sustentabilidade e avaliação de impactos de políticas públicas. | 1 | 0 | 1 | 0 | Direto | B |
-| 9.4 | Decreto Federal nº 9.203/2017 e suas alterações (política de governança da administração pública federal direta, autárquica e fundacional). | 0 | 0 | 0 | 0 | Sem questões | A |
+| 9.4 | Decreto Federal nº 9.203/2017 e suas alterações (política de governança da administração pública federal direta, autárquica e fundacional). | 0 | 1 | 0 | 1 | Direto | A |
 | 10 | Noções de Licitações e Contratos (Lei nº 14.133/2021 e suas alterações). | 0 | 0 | 10 | 0 | Só descendentes | C |
 | 10.1 | Licitação Pública: conceito, princípios, finalidade do procedimento licitatório, modalidades, dispensa e inexigibilidade de licitação. | 3 | 0 | 3 | 0 | Direto | C |
 | 10.2 | Contratos administrativos. | 1 | 0 | 1 | 0 | Direto | B |

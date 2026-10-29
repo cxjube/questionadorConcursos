@@ -4,7 +4,7 @@ import hashlib
 import io
 import json
 
-CURRENT_REVIEW_PATH = 'data/reviews/bank-sweep-2026-10-29.json'
+CURRENT_REVIEW_PATH = 'data/reviews/norms-gap-fifth.json'
 
 JSON_PATH = 'data/reviews/coverage-audit-2026-10-26.json'
 CSV_PATH = 'documentation/coverage-audit-2026-10-26.csv'

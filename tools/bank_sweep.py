@@ -1,5 +1,6 @@
 """Reproduce separately scoped bank reviews without changing canonical content."""
 import argparse
+import gzip
 import hashlib
 import json
 import re
@@ -12,6 +13,7 @@ from tools.readiness import abdi_capacity, ce_capacity
 from tools.validate import ROOT, read_json, validate
 
 MANIFEST = 'data/reviews/bank-sweep-2026-10-29.json'
+REVIEWED_CATALOG = 'data/reviews/pre-norms-gap-fifth-catalog.json.gz'
 ROLES = {
     'camara-comunicacao-divulgacao': ('camara', 'Câmara'),
     'abdi-comunicacao-marketing': ('abdi', 'ABDI'),
@@ -129,18 +131,22 @@ def artifacts(catalog, review, technical):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--check',action='store_true');args=parser.parse_args()
-    catalog=read_json(ROOT/'data/catalog.json');review=read_json(ROOT/MANIFEST);technical=technical_audit(catalog,review)
+    # Reports describe the completed sweep, not subsequent editorial releases.
+    catalog=json.loads(gzip.decompress((ROOT/REVIEWED_CATALOG).read_bytes()))
+    review=read_json(ROOT/MANIFEST);technical=technical_audit(catalog,review)
     if technical['errors']:
         for error in technical['errors']:print(error)
         return 1
     errors=[]
+    current=technical_audit(read_json(ROOT/'data/catalog.json'),review)
+    errors.extend(current['errors'])
     for file,text in artifacts(catalog,review,technical).items():
         p=ROOT/file
         if args.check:
             if not p.exists() or p.read_text()!=text:errors.append(file+' is stale')
         else:p.write_text(text)
     for error in errors:print(error)
-    if not errors:print(f"bank-sweep: OK ({len(catalog['questions'])} retained questions; three separate reports; no source/key discrepancies)")
+    if not errors:print(f"bank-sweep: OK ({len(catalog['questions'])} historical / {len(current['questions'])} current questions; three frozen reports; no source/key discrepancies)")
     return bool(errors)
 
 

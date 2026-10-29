@@ -4,7 +4,7 @@
   "ruleVersion": 1,
   "ready": true,
   "requiredCE": 170,
-  "distinctCE": 262,
+  "distinctCE": 267,
   "allocatableDistinctCE": 170,
   "minimumAdditionalCE": 0,
   "blocks": [
@@ -354,9 +354,14 @@
         "mpo-2024-001-01-q057",
         "mpo-2024-001-01-q058",
         "mpo-2024-001-01-q059",
-        "mpo-2024-001-01-q060"
+        "mpo-2024-001-01-q060",
+        "993-tce-ac-016-01-q056",
+        "993-tce-ac-016-01-q061",
+        "993-tce-ac-016-01-q062",
+        "993-tce-ac-016-01-q063",
+        "993-tce-ac-016-01-q064"
       ],
-      "availableCE": 161,
+      "availableCE": 166,
       "allocatedCE": 90,
       "missingForThisAllocation": 0
     }

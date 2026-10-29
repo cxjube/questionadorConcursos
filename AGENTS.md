@@ -68,6 +68,11 @@ Latest delivery supersedes earlier current-state paragraphs: read documentation/
 
 CGU/FGV Correição afternoon type 1 q045 cites Decreto 8420/2015. Its single study mapping was removed pending confirmation of current Decreto 11129/2022. Do not call its official A key annulled, withdrawn or wrong: keep text, options and key unchanged and accept old session snapshots. Two corrected explanations use new comment-v2 IDs and incremented question revisions. Visible historical notices also cover TCLE/CEP-Conep 2024 and MPO 2024 uberização/pejotização; do not present them as universal current-law claims. All 217 retained document hashes, 75 exact definitive tables, 686 texts/keys and 272 contexts pass tools.bank_sweep. Eighteen targeted normative references had 17 remote byte confirmations, including official legislative mirrors. Fresh Lei 14133 and the full Decreto 11129 remain unavailable. This is full automated integrity checking, per-goal thematic triage and risk-directed comment/reference review, not human acceptance or whole-law currency certification. Remaining gaps and the student usability round stay explicit.
 
+
+Latest delivery supersedes prior current-state paragraphs: read documentation/norms-gap-fifth-release.md and norms-gap-fifth-progress.md. Eight new official items (six CE/two MC) and restored CGU Correição45:694 distinct active questions,555CE/139MC,694comments,276contexts,1133mappings,222documents(178PDF/44HTML),75pairs unchanged. Câmara409(386CE/23MC),188direct/32desc/7empty; ABDI251(157CE/94MC),78direct/7desc/12empty,26institutional and9Ethics MC unchanged; CGU305(267CE/38MC),128direct/64desc/74empty,CE71/90/166 and97unique reserve. All native quotas/rules remain version1. New first-order logic is CE training only, not an MC quota or diagram sample. Corporate q56/61/62 starts contingencies/impairment; q63/64 starts cost classification/maturity, not the full MIC. Private closed-company q79 is not mapped to SOE governance. Qualitative/mixed methods4.2 stays empty.
+
+Decreto11129 full official Senate publication36078814 and metadata obtained; repeated bytes identical. Art17I concurrent instate/judge versus II exclusive avocation and §1III justify restoring original45keyA; art70 revokes8420. Preserve original stem/options/key, revision2→3/commentv3, historical notice before stem. Existing sweep reports/manifest remain unchanged historical decisions; tools.bank_sweep now reproduces them with frozen post-sweep pre-norms-gap-fifth-catalog.json.gz AND audits every current source/key. Never overwrite that baseline or older reviews. New tools.norms_gap --check reproduces101formerlyempty branches;8first samples including overlapping parents are not full coverage. Lei14133 HTML200 contains504error; official updatedDOCX repeated bytes retained as review evidence, selected clauses for17comments checked, canonical historicalHTML unchanged. New references CFC TSP34/TG25R2/TG01R4 and current Lei6404art140§2 repeated identically. Exact legis.senado.leg.br/www1.cfc.org.br allowed only for user-opened links/backups, reject lookalikes and credentials. Do not revive ABDI2008control13/14 or CGU46/78 by approximation: current definitions/parameters differ, microenterprise evaluation needs its separate implementing rule. No new paper/key downloads claimed for retained pairs. Human user acceptance and remaining93empty subtrees remain explicit.
+
 ## Verification
 
 Python >=3.12, Node >=22 and Poppler pdftotext for source-fidelity tests. Install Python tooling with `uv sync --locked`; there are no Node package dependencies. Run:
@@ -78,6 +83,7 @@ npm test
 uv run python -m tools validate
 uv run python -m tools audit-sources
 uv run python -m tools.bank_sweep --check
+uv run python -m tools.norms_gap --check
 uv run python -m tools review-batch
 uv run python -m tools coverage --check
 uv run python -m tools build --check

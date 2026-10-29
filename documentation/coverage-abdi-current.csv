@@ -26,7 +26,7 @@ abdi-2026-raciocinio-logico-3-1,raciocinio-logico,basic,3.1,Proposições simple
 abdi-2026-raciocinio-logico-3-2,raciocinio-logico,basic,3.2,Tabelas-verdade.,direct,A,1,0,1,0
 abdi-2026-raciocinio-logico-3-3,raciocinio-logico,basic,3.3,Equivalências.,direct,A,1,0,1,0
 abdi-2026-raciocinio-logico-3-4,raciocinio-logico,basic,3.4,Diagramas lógicos.,empty,A,0,0,0,0
-abdi-2026-raciocinio-logico-4,raciocinio-logico,basic,4,Lógica de primeira ordem.,empty,A,0,0,0,0
+abdi-2026-raciocinio-logico-4,raciocinio-logico,basic,4,Lógica de primeira ordem.,direct,A,1,0,1,0
 abdi-2026-raciocinio-logico-5,raciocinio-logico,basic,5,"Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais.",direct,C,0,15,0,15
 abdi-2026-abdi-nocoes-informatica-1,abdi-nocoes-informatica,basic,1,"Conceitos básicos de Informática: hardware, software, periféricos, dispositivos de entrada, saída e armazenamento, organização de arquivos e pastas e principais extensões de arquivos;",direct,B,0,1,0,1
 abdi-2026-abdi-nocoes-informatica-2,abdi-nocoes-informatica,basic,2,"Sistemas operacionais Microsoft Windows 10 e Microsoft Windows 11, em português (Brasil): área de trabalho, gerenciamento de arquivos e pastas, configurações, pesquisa, impressão, compartilhamento e principais recursos;",direct,C,0,3,0,3

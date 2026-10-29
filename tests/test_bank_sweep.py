@@ -4,7 +4,7 @@ import gzip
 import hashlib
 import json
 import unittest
-from tools.bank_sweep import MANIFEST, ROLES, artifacts, technical_audit
+from tools.bank_sweep import MANIFEST, REVIEWED_CATALOG, ROLES, artifacts, technical_audit
 from tools.coverage import coverage
 from tools.readiness import ce_capacity, abdi_capacity
 from tools.validate import ROOT, read_json, validate
@@ -13,7 +13,7 @@ from tools.validate import ROOT, read_json, validate
 class BankSweepTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c=read_json(ROOT/'data/catalog.json');cls.m=read_json(ROOT/MANIFEST)
+        cls.c=json.loads(gzip.decompress((ROOT/REVIEWED_CATALOG).read_bytes()));cls.m=read_json(ROOT/MANIFEST)
         cls.raw=gzip.decompress((ROOT/cls.m['previousCatalogFile']).read_bytes());cls.before=json.loads(cls.raw)
         cls.technical=technical_audit(cls.c,cls.m)
 

@@ -2,8 +2,8 @@
 
 Analista de Produtividade e Inovação — Comunicação e Marketing
 
-Revisão: 2026-10-29. **250 questões distintas: 94 MC e 156 C/E.**
-Programa: 97 itens; 77 com vínculo direto, 7 apenas por descendentes e 13 subárvores sem questões.
+Revisão: 2026-10-29. **251 questões distintas: 94 MC e 157 C/E.**
+Programa: 97 itens; 78 com vínculo direto, 7 apenas por descendentes e 12 subárvores sem questões.
 
 A prova exige múltipla escolha. C/E são treino de conteúdo no formato original e não compõem reserva MC. Prioridade A indica ausência de MC; B, uma ou duas MC; C, pelo menos três. Não são pesos oficiais nem domínio do assunto.
 
@@ -11,7 +11,7 @@ A prova exige múltipla escolha. C/E são treino de conteúdo no formato origina
 
 | Área | Questões distintas | MC | C/E |
 | --- | ---: | ---: | ---: |
-| Gerais | 112 | 40 | 72 |
+| Gerais | 113 | 40 | 73 |
 | Institucionais | 26 | 26 | 0 |
 | Específicos | 130 | 40 | 90 |
 
@@ -46,7 +46,7 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | Raciocínio Lógico | 3.2 | Tabelas-verdade. | 0 | 1 | Direto |
 | Raciocínio Lógico | 3.3 | Equivalências. | 0 | 1 | Direto |
 | Raciocínio Lógico | 3.4 | Diagramas lógicos. | 0 | 0 | Sem questões |
-| Raciocínio Lógico | 4 | Lógica de primeira ordem. | 0 | 0 | Sem questões |
+| Raciocínio Lógico | 4 | Lógica de primeira ordem. | 0 | 1 | Direto |
 | Raciocínio Lógico | 5 | Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais. | 15 | 0 | Direto |
 | Noções de Informática | 1 | Conceitos básicos de Informática: hardware, software, periféricos, dispositivos de entrada, saída e armazenamento, organização de arquivos e pastas e principais extensões de arquivos; | 1 | 0 | Direto |
 | Noções de Informática | 2 | Sistemas operacionais Microsoft Windows 10 e Microsoft Windows 11, em português (Brasil): área de trabalho, gerenciamento de arquivos e pastas, configurações, pesquisa, impressão, compartilhamento e principais recursos; | 3 | 0 | Direto |

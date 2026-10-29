@@ -1,16 +1,16 @@
 {
   "reviewedAt": "2026-10-29",
-  "latestBatchId": "bank-sweep-2026-10-29",
-  "catalogSha256": "d74f0cd918f903fb00a54996d783a5ea89bddab26fece5ad626d683c16e11620",
+  "latestBatchId": "norms-gap-fifth",
+  "catalogSha256": "178292298ec03f104eda6434bf1a6a7b572ab539e3b59229bcafae928ec3cbac",
   "scope": "Oferta de questões distintas, sem inferência de domínio ou peso de prova.",
   "totalItems": 228,
-  "directItems": 187,
+  "directItems": 188,
   "descendantsOnly": 32,
-  "emptyItems": 8,
-  "emptyLeaves": 8,
+  "emptyItems": 7,
+  "emptyLeaves": 7,
   "blocks": {
     "basic": {
-      "total": 179,
+      "total": 180,
       "ce": 176
     },
     "specific": {
@@ -45,12 +45,12 @@
       "id": "direito-administrativo-administracao-publica",
       "label": "Noções de Direito Administrativo e Administração Pública",
       "totalItems": 46,
-      "directItems": 36,
+      "directItems": 37,
       "descendantsOnly": 8,
-      "emptyItems": 2,
-      "emptyLeaves": 2,
+      "emptyItems": 1,
+      "emptyLeaves": 1,
       "questionsCE": 62,
-      "questionsMC": 1
+      "questionsMC": 2
     },
     {
       "id": "direito-constitucional-regimento",
@@ -1416,10 +1416,11 @@
         "072-stm-002-01-q078",
         "072-stm-002-01-q084",
         "979-cnj-007-01-q062",
-        "979-cnj-007-01-q065"
+        "979-cnj-007-01-q065",
+        "camara-2023-tecnica-tarde-tipo1-q054"
       ],
       "subtreeCE": 6,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "camara-2026-direito-administrativo-administracao-publica-9-1",
@@ -1498,14 +1499,18 @@
       "block": "basic",
       "parentTopicId": "direito-administrativo-administracao-publica-9",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
+      "directQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q054"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "camara-2023-tecnica-tarde-tipo1-q054"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "camara-2026-direito-administrativo-administracao-publica-10",

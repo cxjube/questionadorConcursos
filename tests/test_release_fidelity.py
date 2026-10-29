@@ -30,7 +30,8 @@ class ReleasedFidelityTests(unittest.TestCase):
         cls.visual_restorations = new['fiocruzVisualRestorations']
         sweep=read_json(ROOT/'data/reviews/bank-sweep-2026-10-29.json')
         for qid, fixes in sweep['visualRestorations'].items():cls.visual_restorations.setdefault(qid,{}).update(fixes)
-        cls.bbox_verified = {r['questionId'] for r in new['items']} | {r['questionId'] for r in read_json(ROOT/'data/reviews/gaps-fourth-batch.json')['items']}
+        cls.new_batch = read_json(ROOT/'data/reviews/norms-gap-fifth.json')
+        cls.bbox_verified = {r['questionId'] for r in cls.new_batch['items']} | {r['questionId'] for r in new['items']} | {r['questionId'] for r in read_json(ROOT/'data/reviews/gaps-fourth-batch.json')['items']}
 
 
     def test_all_published_text_options_and_contexts_match_source_pages(self):
@@ -162,7 +163,7 @@ class ReleasedFidelityTests(unittest.TestCase):
                 self.assertEqual([m['syllabusItemId'] for m in self.catalog['mappings'] if m['questionId']==q['id']],row['syllabusItemIds'])
 
     def test_didactic_comments_have_separate_identity_and_source_evidence(self):
-        comments = [c for c in self.catalog['explanations'] if c['questionId'].startswith('232funprespexe-cb1-01-')]
+        comments = [c for c in self.catalog['explanations'] if c['questionId'] in {f'232funprespexe-cb1-01-q{n:03d}' for n in range(1,17)}]
         self.assertEqual(len(comments),16)
         self.assertEqual({c['questionId'] for c in comments},{f'232funprespexe-cb1-01-q{n:03d}' for n in list(range(1,17))})
         questions = {q['id']:q for q in self.catalog['questions']}

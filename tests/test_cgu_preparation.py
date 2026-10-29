@@ -104,7 +104,7 @@ class CGUPreparationTests(unittest.TestCase):
         self.assertIn('complementary', report['blocks'])
         self.assertIn('basic', report['blocks'])
         self.assertIn('specific', report['blocks'])
-        self.assertEqual(len(self.c['questions']), 686)
+        self.assertEqual(len(self.c['questions']), 694)
         self.assertEqual(len(self.c['scoringRules']), 3)
         self.assertTrue(any(s['roleId'] == 'cgu-auditoria' and s['block'] == 'complementary' for s in self.c['syllabusItems']))
         self.assertTrue(all(s['roleId'] == 'cgu-auditoria' for s in self.c['syllabusItems'] if s['block'] == 'complementary'))

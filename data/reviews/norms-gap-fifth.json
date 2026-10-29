@@ -1,0 +1,1016 @@
+{
+  "id": "norms-gap-fifth",
+  "reviewedAt": "2026-10-29",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/norms-gap-fifth-release.md",
+  "previousCatalogFile": "data/reviews/pre-norms-gap-fifth-catalog.json.gz",
+  "previousCatalogSha256": "d74f0cd918f903fb00a54996d783a5ea89bddab26fece5ad626d683c16e11620",
+  "items": [
+    {
+      "questionId": "camara-2023-tecnica-tarde-tipo1-q054",
+      "paperId": "source-camara-2023-tecnica-tarde-tipo1",
+      "number": 54,
+      "sourcePage": 14,
+      "sourceLineGroups": [
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.7,
+          "y": 213.5,
+          "text": "A governança pública tem papel fundamental na garantia de que"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.7,
+          "y": 224.5,
+          "text": "o poder público atue de maneira transparente, responsável e"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.7,
+          "y": 235.5,
+          "text": "eficiente."
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.7,
+          "y": 248.5,
+          "text": "Em relação à governança pública, avalie as afirmativas a seguir."
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.7,
+          "y": 261.3,
+          "text": "I. Integridade é um princípio da governança pública."
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.7,
+          "y": 273.33,
+          "text": "II. Liderança é um mecanismo para o exercício da governança"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 325.9,
+          "y": 284.33,
+          "text": "pública."
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.7,
+          "y": 296.33,
+          "text": "III. Controle é um princípio da governança pública."
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.7,
+          "y": 309.33,
+          "text": "Está correto o que se afirma em"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.7,
+          "y": 322.33,
+          "text": "(A) II, apenas."
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.7,
+          "y": 334.32,
+          "text": "(B) I e II, apenas."
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.7,
+          "y": 346.33,
+          "text": "(C) I e III, apenas."
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.7,
+          "y": 358.33,
+          "text": "(D) II e III, apenas."
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.7,
+          "y": 370.32,
+          "text": "(E) I, II e III."
+        }
+      ],
+      "contextIds": [],
+      "answerKeyId": "camara-2023-tecnica-tarde-tipo1-q054-key-v1",
+      "answerValue": "b",
+      "answerKeyPage": 1,
+      "syllabusItemIds": [
+        "camara-2026-direito-administrativo-administracao-publica-9-4"
+      ]
+    },
+    {
+      "questionId": "232funprespexe-cb1-01-q050",
+      "paperId": "source-232funprespexe-cb1-01",
+      "number": 50,
+      "sourcePage": 3,
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "right",
+          "x": 322.799,
+          "y": 153.48662,
+          "text": "O raciocínio Nenhum peixe é ave. Logo, nenhuma ave é peixe"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 322.799,
+          "y": 165.24662,
+          "text": "é válido."
+        }
+      ],
+      "contextIds": [
+        "norms5-funpresp-logica"
+      ],
+      "answerKeyId": "232funprespexe-cb1-01-q050-key-v1",
+      "answerValue": true,
+      "answerKeyPage": 1,
+      "syllabusItemIds": [
+        "abdi-2026-raciocinio-logico-4"
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-016-01-q056",
+      "paperId": "source-993-tce-ac-016-01",
+      "number": 56,
+      "sourcePage": 1,
+      "sourceLineGroups": [
+        {
+          "page": 1,
+          "column": "left",
+          "x": 28.3191,
+          "y": 370.6967,
+          "text": "56 A mensuração de passivos contingentes deve ser realizada ao"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 381.496328,
+          "text": "valor presente das saídas de caixa esperadas para liquidar a"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 392.295956,
+          "text": "obrigação."
+        }
+      ],
+      "contextIds": [
+        "norms5-tceac-registros"
+      ],
+      "answerKeyId": "993-tce-ac-016-01-q056-key-v1",
+      "answerValue": false,
+      "answerKeyPage": 1,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-6-3"
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-016-01-q061",
+      "paperId": "source-993-tce-ac-016-01",
+      "number": 61,
+      "sourcePage": 1,
+      "sourceLineGroups": [
+        {
+          "page": 1,
+          "column": "left",
+          "x": 28.3191,
+          "y": 561.7367,
+          "text": "61 O valor recuperável de um ativo é passível de apuração pelo"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 572.536328,
+          "text": "confronto entre o seu custo de aquisição e seu valor"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 583.335956,
+          "text": "realizável líquido, dos dois o menor."
+        }
+      ],
+      "contextIds": [
+        "norms5-tceac-ativos"
+      ],
+      "answerKeyId": "993-tce-ac-016-01-q061-key-v1",
+      "answerValue": false,
+      "answerKeyPage": 1,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-6-3"
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-016-01-q062",
+      "paperId": "source-993-tce-ac-016-01",
+      "number": 62,
+      "sourcePage": 1,
+      "sourceLineGroups": [
+        {
+          "page": 1,
+          "column": "left",
+          "x": 28.3191,
+          "y": 596.0567,
+          "text": "62 Ao adotar o conceito de valor em uso de um ativo, uma"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 606.856328,
+          "text": "entidade deve considerá-lo um valor presente não observável"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 617.655956,
+          "text": "no mercado."
+        }
+      ],
+      "contextIds": [
+        "norms5-tceac-ativos"
+      ],
+      "answerKeyId": "993-tce-ac-016-01-q062-key-v1",
+      "answerValue": true,
+      "answerKeyPage": 1,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-6-3"
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-016-01-q063",
+      "paperId": "source-993-tce-ac-016-01",
+      "number": 63,
+      "sourcePage": 1,
+      "sourceLineGroups": [
+        {
+          "page": 1,
+          "column": "left",
+          "x": 28.3191,
+          "y": 720.3767,
+          "text": "63 Os objetos de custos podem ser finais ou intermediários, e os"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 731.176328,
+          "text": "projetos que representam o esforço para o alcance da missão"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 741.975956,
+          "text": "institucional exemplificam um objeto de custo intermediário."
+        }
+      ],
+      "contextIds": [
+        "norms5-tceac-custos"
+      ],
+      "answerKeyId": "993-tce-ac-016-01-q063-key-v1",
+      "answerValue": true,
+      "answerKeyPage": 1,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-5-2"
+      ]
+    },
+    {
+      "questionId": "993-tce-ac-016-01-q064",
+      "paperId": "source-993-tce-ac-016-01",
+      "number": 64,
+      "sourcePage": 1,
+      "sourceLineGroups": [
+        {
+          "page": 1,
+          "column": "left",
+          "x": 28.3191,
+          "y": 754.8167,
+          "text": "64 No estágio inicial de um modelo de gerenciamento de custos"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 765.496808,
+          "text": "com menor grau de maturidade, recomenda-se que a entidade"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 776.296436,
+          "text": "utilize o custeio baseado em atividades, com a identificação"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 787.096064,
+          "text": "de direcionadores de custos."
+        }
+      ],
+      "contextIds": [
+        "norms5-tceac-custos"
+      ],
+      "answerKeyId": "993-tce-ac-016-01-q064-key-v1",
+      "answerValue": false,
+      "answerKeyPage": 1,
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-5-2"
+      ]
+    },
+    {
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q079",
+      "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+      "number": 79,
+      "sourcePage": 26,
+      "sourceLineGroups": [
+        {
+          "page": 26,
+          "column": "right",
+          "x": 311.69,
+          "y": 72.69,
+          "text": "Na análise do programa de integridade de uma companhia"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 311.69,
+          "y": 83.75,
+          "text": "fechada, sem participação de pessoa jurídica de direito público"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 311.69,
+          "y": 94.79,
+          "text": "no quadro acionário, foi constatada a ausência de disposição"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 311.69,
+          "y": 105.71,
+          "text": "sobre a participação de conselheiros independentes no Conselho"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 311.69,
+          "y": 116.75,
+          "text": "de Administração."
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 311.69,
+          "y": 127.67,
+          "text": "Em relação a essa omissão e considerando as disposições da Lei"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 311.69,
+          "y": 138.71,
+          "text": "de Sociedades por Ações, é correto afirmar que a ausência da"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 311.69,
+          "y": 149.63,
+          "text": "participação de conselheiros independentes:"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 311.69,
+          "y": 160.67,
+          "text": "(A) não revela, por si só, falha nos mecanismos de integridade da"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 325.85,
+          "y": 171.59,
+          "text": "sociedade, haja vista que a obrigatoriedade de conselheiros"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 325.85,
+          "y": 182.63,
+          "text": "independentes se aplica às companhias abertas;"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 311.69,
+          "y": 193.55,
+          "text": "(B) revela, por si só, falha nos mecanismos de integridade da"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 325.85,
+          "y": 204.59,
+          "text": "sociedade, porque a participação de conselheiros"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 325.85,
+          "y": 215.63,
+          "text": "independentes é obrigatória em qualquer sociedade"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 325.85,
+          "y": 226.55,
+          "text": "anônima, seja aberta ou fechada;"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 311.69,
+          "y": 237.59,
+          "text": "(C) não revela, por si só, falha nos mecanismos de integridade da"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 325.85,
+          "y": 248.51,
+          "text": "sociedade, haja vista que a obrigatoriedade de conselheiros"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 325.85,
+          "y": 259.55,
+          "text": "independentes é restrita às companhias abertas de economia"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 325.85,
+          "y": 270.5,
+          "text": "mista;"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 311.69,
+          "y": 281.54,
+          "text": "(D) revela, por si só, falha nos mecanismos de integridade da"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 325.85,
+          "y": 292.46,
+          "text": "sociedade, uma vez que é vedada a constituição de Conselho"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 325.85,
+          "y": 303.5,
+          "text": "de Administração em companhias fechadas;"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 311.69,
+          "y": 314.54,
+          "text": "(E) não revela, por si só, falha nos mecanismos de integridade da"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 325.85,
+          "y": 325.46,
+          "text": "sociedade, uma vez que tal exigência é restrita às sociedades"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 325.85,
+          "y": 336.5,
+          "text": "com participação de pessoa jurídica de direito público no"
+        },
+        {
+          "page": 26,
+          "column": "right",
+          "x": 325.85,
+          "y": 347.42,
+          "text": "capital."
+        }
+      ],
+      "contextIds": [],
+      "answerKeyId": "cgu-2022-correicao-tarde-tipo1-q079-key-v1",
+      "answerValue": "a",
+      "answerKeyPage": 25,
+      "syllabusItemIds": [
+        "cgu-2026-governanca-riscos-integridade-4-2",
+        "cgu-2026-integridade-transparencia-responsabilizacao-4-1"
+      ]
+    }
+  ],
+  "contexts": [
+    {
+      "contextId": "norms5-funpresp-logica",
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "left",
+          "x": 28.3191,
+          "y": 595.80662,
+          "text": "Considerando as características do raciocínio analítico e a estrutura"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 28.3191,
+          "y": 607.686908,
+          "text": "da argumentação, julgue os itens a seguir."
+        }
+      ]
+    },
+    {
+      "contextId": "norms5-tceac-registros",
+      "sourceLineGroups": [
+        {
+          "page": 1,
+          "column": "left",
+          "x": 28.318687,
+          "y": 335.415332,
+          "text": "Acerca dos registros, mensuração e evidenciação contábeis e seus"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 28.3191,
+          "y": 346.2167,
+          "text": "reflexos no patrimônio das organizações, julgue os itens"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 28.3191,
+          "y": 357.016328,
+          "text": "seguintes."
+        }
+      ]
+    },
+    {
+      "contextId": "norms5-tceac-ativos",
+      "sourceLineGroups": [
+        {
+          "page": 1,
+          "column": "left",
+          "x": 28.318687,
+          "y": 548.05622,
+          "text": "Em relação à mensuração de ativos, julgue os itens a seguir."
+        }
+      ]
+    },
+    {
+      "contextId": "norms5-tceac-custos",
+      "sourceLineGroups": [
+        {
+          "page": 1,
+          "column": "left",
+          "x": 56.759029,
+          "y": 636.01622,
+          "text": "Uma entidade pública elegeu como uma das suas metas"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 28.3191,
+          "y": 646.6967,
+          "text": "estratégicas a adoção de um sistema de informação de custos que"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 28.3191,
+          "y": 657.496328,
+          "text": "subsidiasse a gestão da entidade na tomada de decisões."
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 28.3191,
+          "y": 668.295956,
+          "text": "A entidade adotou o arcabouço da NBC TSP 34 – Custos no"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 28.3191,
+          "y": 678.976064,
+          "text": "Setor Público."
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 28.3191,
+          "y": 695.775596,
+          "text": "Tendo a situação hipotética apresentada como referência inicial,"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 28.3191,
+          "y": 706.575224,
+          "text": "julgue os itens a seguir."
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "section": "roles",
+      "id": "cgu-auditoria",
+      "before": {
+        "id": "cgu-auditoria",
+        "contestId": "cgu-2026",
+        "title": "Auditor Federal de Finanças e Controle — Auditoria",
+        "status": "verified",
+        "referenceDocumentIds": [
+          "cgu-2026-abertura-atualizada",
+          "reference-cgu-in3-2017-consolidada",
+          "reference-cgu-in7-2017",
+          "reference-mcasp-11-2025",
+          "reference-lei-12846-2013",
+          "reference-cns-510-2016",
+          "reference-lei-12813-2013"
+        ]
+      },
+      "after": {
+        "id": "cgu-auditoria",
+        "contestId": "cgu-2026",
+        "title": "Auditor Federal de Finanças e Controle — Auditoria",
+        "status": "verified",
+        "referenceDocumentIds": [
+          "cgu-2026-abertura-atualizada",
+          "reference-cgu-in3-2017-consolidada",
+          "reference-cgu-in7-2017",
+          "reference-mcasp-11-2025",
+          "reference-lei-12846-2013",
+          "reference-cns-510-2016",
+          "reference-lei-12813-2013",
+          "reference-decreto-11129-2022",
+          "reference-nbc-tsp-34",
+          "reference-nbc-tg-25-r2",
+          "reference-nbc-tg-01-r4",
+          "reference-lei-6404-1976"
+        ]
+      },
+      "reason": "Leituras normativas do novo lote, sem alterar programa ou regras."
+    },
+    {
+      "section": "questions",
+      "id": "cgu-2022-correicao-tarde-tipo1-q045",
+      "before": {
+        "id": "cgu-2022-correicao-tarde-tipo1-q045",
+        "bankId": "concursos",
+        "revision": 2,
+        "type": "multiple_choice",
+        "stem": "O Ministro de Estado do Ministério Alfa instaurou processo administrativo de responsabilização (PAR) para apuração da responsabilidade administrativa da pessoa jurídica Beta, que pode resultar na aplicação das sanções administrativas previstas na Lei Anticorrupção, pela eventual prática de ato lesivo à Administração Pública Federal, em razão da notícia de ilegalidades graves relacionadas à fraude em licitação. No curso do PAR, constatou-se a complexidade, a repercussão e a relevância da matéria. No caso em tela, de acordo com o Decreto nº 8.420/2015, que regulamenta a Lei nº 12.846/2013, a Controladoria-Geral da União possui competência:",
+        "options": [
+          {
+            "id": "a",
+            "text": "exclusiva para avocar o PAR para exame de sua regularidade ou para corrigir-lhe o andamento, inclusive promovendo a aplicação da penalidade administrativa cabível;"
+          },
+          {
+            "id": "b",
+            "text": "instrutória para colaborar na coleta da prova do PAR, caso inexistam condições objetivas para sua instrução no Ministério Alfa, mas lhe é vedado o julgamento do PAR, sob pena de supressão de instância administrativa;"
+          },
+          {
+            "id": "c",
+            "text": "para avocar o PAR para fins de sua instrução, caso seja caracterizada omissão da autoridade originariamente competente, mas lhe é vedada a aplicação da penalidade administrativa cabível;"
+          },
+          {
+            "id": "d",
+            "text": "para julgar recurso de decisão do Ministério Alfa que, após regular tramitação do PAR, aplicar sanções administrativas à pessoa jurídica Beta, que pode recorrer no prazo de vinte dias, após a ciência da decisão;"
+          },
+          {
+            "id": "e",
+            "text": "suplementar para sanar vícios procedimentais no PAR, caso inexistam condições objetivas para sua instrução no Ministério Alfa, mas lhe é vedado o julgamento do PAR, sob pena de supressão de instância administrativa."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+          "number": 45,
+          "locator": "PDF p. 15"
+        },
+        "answerKeyId": "cgu-2022-correicao-tarde-tipo1-q045-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-29",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "historical_question",
+          "temporalNote": "Questão histórica da prova de 20/03/2022, expressamente baseada no Decreto 8420/2015. Fora das novas sessões CGU até confirmar o dispositivo da regulamentação atual. Gabarito A histórico preservado.",
+          "decisionReference": "documentation/bank-sweep-release.md"
+        }
+      },
+      "after": {
+        "id": "cgu-2022-correicao-tarde-tipo1-q045",
+        "bankId": "concursos",
+        "revision": 3,
+        "type": "multiple_choice",
+        "stem": "O Ministro de Estado do Ministério Alfa instaurou processo administrativo de responsabilização (PAR) para apuração da responsabilidade administrativa da pessoa jurídica Beta, que pode resultar na aplicação das sanções administrativas previstas na Lei Anticorrupção, pela eventual prática de ato lesivo à Administração Pública Federal, em razão da notícia de ilegalidades graves relacionadas à fraude em licitação. No curso do PAR, constatou-se a complexidade, a repercussão e a relevância da matéria. No caso em tela, de acordo com o Decreto nº 8.420/2015, que regulamenta a Lei nº 12.846/2013, a Controladoria-Geral da União possui competência:",
+        "options": [
+          {
+            "id": "a",
+            "text": "exclusiva para avocar o PAR para exame de sua regularidade ou para corrigir-lhe o andamento, inclusive promovendo a aplicação da penalidade administrativa cabível;"
+          },
+          {
+            "id": "b",
+            "text": "instrutória para colaborar na coleta da prova do PAR, caso inexistam condições objetivas para sua instrução no Ministério Alfa, mas lhe é vedado o julgamento do PAR, sob pena de supressão de instância administrativa;"
+          },
+          {
+            "id": "c",
+            "text": "para avocar o PAR para fins de sua instrução, caso seja caracterizada omissão da autoridade originariamente competente, mas lhe é vedada a aplicação da penalidade administrativa cabível;"
+          },
+          {
+            "id": "d",
+            "text": "para julgar recurso de decisão do Ministério Alfa que, após regular tramitação do PAR, aplicar sanções administrativas à pessoa jurídica Beta, que pode recorrer no prazo de vinte dias, após a ciência da decisão;"
+          },
+          {
+            "id": "e",
+            "text": "suplementar para sanar vícios procedimentais no PAR, caso inexistam condições objetivas para sua instrução no Ministério Alfa, mas lhe é vedado o julgamento do PAR, sob pena de supressão de instância administrativa."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+          "number": 45,
+          "locator": "PDF p. 15"
+        },
+        "answerKeyId": "cgu-2022-correicao-tarde-tipo1-q045-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-29",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "historical_question",
+          "temporalNote": "Prova de 2022, anterior ao Decreto nº 11.129/2022: o enunciado cita o Decreto nº 8.420/2015, revogado. O recorte de competências foi reconferido no art. 17 da regulamentação posterior e conserva a alternativa A. Não usar esta questão para presumir identidade de todos os dispositivos dos dois decretos.",
+          "decisionReference": "documentation/norms-gap-fifth-release.md"
+        }
+      },
+      "reason": "Reintrodução após conferir Decreto11129art17I/II§1III e70 no Senado."
+    },
+    {
+      "section": "explanations",
+      "id": "cgu-2022-correicao-tarde-tipo1-q045-comment-v2",
+      "before": {
+        "id": "cgu-2022-correicao-tarde-tipo1-q045-comment-v2",
+        "questionId": "cgu-2022-correicao-tarde-tipo1-q045",
+        "text": "A chave A pertence à prova de 20/03/2022 e ao Decreto 8.420/2015 expressamente indicado no enunciado. O art. 8º, §2º, da Lei 12.846/2013 atribui à CGU atuação na instauração e na avocação de processos federais; isso não dispensa conferir a distinção regulamentar entre competência concorrente e exclusiva. A listagem atual da CGU indica o Decreto 11.129/2022. Como seu dispositivo integral não pôde ser reconfirmado nesta varredura, a questão foi retirada das novas sessões CGU. A chave histórica não foi alterada nem houve anulação oficial.",
+        "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+        "status": "reviewed",
+        "references": [
+          {
+            "documentId": "source-cgu-2022-correicao-tarde-tipo1-paper",
+            "locator": "PDF p. 15, questão 45"
+          },
+          {
+            "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+            "locator": "PDF p. 25, questão 45"
+          },
+          {
+            "documentId": "reference-lei-12846-2013",
+            "locator": "Art. 8º, § 2º"
+          }
+        ]
+      },
+      "after": {
+        "id": "cgu-2022-correicao-tarde-tipo1-q045-comment-v3",
+        "questionId": "cgu-2022-correicao-tarde-tipo1-q045",
+        "text": "A alternativa A é a correta. No Decreto nº 11.129/2022, art. 17, I, a CGU tem competência concorrente para instaurar e julgar PAR; a competência exclusiva do inciso II é para avocar processos. Complexidade, repercussão e relevância justificam o exercício dessas competências (§1º, III), sem transformar a instauração em exclusiva. O art. 70 revogou o Decreto nº 8.420/2015 citado na prova de 2022. O recorte permanece compatível com a regulamentação posterior; texto e gabarito definitivo A foram preservados. Esta conferência não estende a compatibilidade a todas as regras do decreto revogado.",
+        "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+        "status": "reviewed",
+        "references": [
+          {
+            "documentId": "source-cgu-2022-correicao-tarde-tipo1-paper",
+            "locator": "PDF p. 15, questão 45"
+          },
+          {
+            "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+            "locator": "PDF p. 25, questão 45"
+          },
+          {
+            "documentId": "reference-lei-12846-2013",
+            "locator": "Art. 8º, § 2º"
+          },
+          {
+            "documentId": "reference-decreto-11129-2022",
+            "locator": "Art. 17, I e II, §1º, III; art. 70"
+          }
+        ]
+      },
+      "reason": "Comentário v3 distingue competência concorrente e exclusiva, com base posterior independente do gabarito."
+    }
+  ],
+  "referenceRechecks": [
+    {
+      "documentId": "reference-decreto-11129-2022",
+      "outcome": "byte_match",
+      "url": "https://legis.senado.leg.br/norma/36077824/publicacao/36078814",
+      "file": "sources/references/decreto-11129-2022.html",
+      "sha256": "d3d892d5d3ee652f40d1d12e21b385b169a745ba38875c5cd5102b4a58f12215",
+      "repeatCheckedAt": "2026-10-29T13:18:14.179453+00:00",
+      "repeatSha256": "d3d892d5d3ee652f40d1d12e21b385b169a745ba38875c5cd5102b4a58f12215",
+      "scope": "Acesso ao documento integral e leitura dos dispositivos citados nos comentários; não é certificação de toda a norma."
+    },
+    {
+      "documentId": "reference-nbc-tsp-34",
+      "outcome": "byte_match",
+      "url": "https://www1.cfc.org.br/sisweb/SRE/docs/NBCTSP34.pdf",
+      "file": "sources/references/nbc-tsp-34.pdf",
+      "sha256": "6e1fb920e9af0167bb300a7d82f9455d6d3a49f0c19e152decf6621d2dfb1419",
+      "repeatCheckedAt": "2026-10-29T13:18:14.180383+00:00",
+      "repeatSha256": "6e1fb920e9af0167bb300a7d82f9455d6d3a49f0c19e152decf6621d2dfb1419",
+      "scope": "Acesso ao documento integral e leitura dos dispositivos citados nos comentários; não é certificação de toda a norma."
+    },
+    {
+      "documentId": "reference-nbc-tg-25-r2",
+      "outcome": "byte_match",
+      "url": "https://www1.cfc.org.br/sisweb/SRE/docs/NBCTG25(R2).pdf",
+      "file": "sources/references/nbc-tg-25-r2.pdf",
+      "sha256": "f7a1f794e0ac929083ff12cb79729ffee0eb22cd1b529e68096bc04110928c0a",
+      "repeatCheckedAt": "2026-10-29T13:18:14.181050+00:00",
+      "repeatSha256": "f7a1f794e0ac929083ff12cb79729ffee0eb22cd1b529e68096bc04110928c0a",
+      "scope": "Acesso ao documento integral e leitura dos dispositivos citados nos comentários; não é certificação de toda a norma."
+    },
+    {
+      "documentId": "reference-nbc-tg-01-r4",
+      "outcome": "byte_match",
+      "url": "https://www1.cfc.org.br/sisweb/SRE/docs/NBCTG01(R4).pdf",
+      "file": "sources/references/nbc-tg-01-r4.pdf",
+      "sha256": "053537b55ebc6cd89f3cba0501a6dd4b97ad20410605a185958d037df97d61ca",
+      "repeatCheckedAt": "2026-10-29T13:20:50.748800+00:00",
+      "repeatSha256": "053537b55ebc6cd89f3cba0501a6dd4b97ad20410605a185958d037df97d61ca",
+      "scope": "Acesso ao documento integral e leitura dos dispositivos citados nos comentários; não é certificação de toda a norma."
+    },
+    {
+      "documentId": "reference-lei-6404-1976",
+      "outcome": "byte_match",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1970-1979/lei-6404-15-dezembro-1976-368447-normaatualizada-pl.html",
+      "file": "sources/references/lei-6404-1976.html",
+      "sha256": "ee3f76848ce42def5e758ed77b994d2a5d05598c4e9dc8b43771c801aa4a854c",
+      "repeatCheckedAt": "2026-10-29T13:20:01.268218+00:00",
+      "repeatSha256": "ee3f76848ce42def5e758ed77b994d2a5d05598c4e9dc8b43771c801aa4a854c",
+      "scope": "Acesso ao documento integral e leitura dos dispositivos citados nos comentários; não é certificação de toda a norma."
+    },
+    {
+      "file": "data/reviews/norms-gap-fifth-evidence/senado11129-metadata.html",
+      "sha256": "9bf9974a16c6005f2ca1ce8d0273a7fc80a2c922f51a48869a3dddad36287fdb",
+      "scope": "Evidência de descoberta/publicação ou formato alternativo; não substitui o documento canônico histórico."
+    },
+    {
+      "file": "data/reviews/norms-gap-fifth-evidence/14133-metadata.html",
+      "sha256": "3f4075f009b1146c8ef429583455af90b2037bc1ad538daee2db8bbd47014591",
+      "scope": "Evidência de descoberta/publicação ou formato alternativo; não substitui o documento canônico histórico."
+    },
+    {
+      "file": "data/reviews/norms-gap-fifth-evidence/camara14133-current.html",
+      "sha256": "c9c89d274726b86306e1c97d80360f820bce86042c34c9bb2487aac4ada6d606",
+      "scope": "Evidência de pesquisa; HTML 160 bytes contém erro 504 e NÃO é texto de lei."
+    },
+    {
+      "file": "data/reviews/norms-gap-fifth-evidence/lei14133-current-docx.docx",
+      "sha256": "52c07732e02484309ae084ddfacb474a5b7241bc49651c0e8ae21967ec9bd279",
+      "scope": "Evidência de descoberta/publicação ou formato alternativo; não substitui o documento canônico histórico."
+    },
+    {
+      "file": "data/reviews/norms-gap-fifth-evidence/senado14133.html",
+      "sha256": "1f7354fb655906788a87397059a766ae8a2dcac36096dc927835c74108f1e2d1",
+      "scope": "Evidência de descoberta/publicação ou formato alternativo; não substitui o documento canônico histórico."
+    },
+    {
+      "file": "data/reviews/norms-gap-fifth-evidence/lexml11129.html",
+      "sha256": "34a040c534ff159896bea9db39ea8015558443f838040adab5f5a061e32a3afe",
+      "scope": "Evidência de descoberta/publicação ou formato alternativo; não substitui o documento canônico histórico."
+    },
+    {
+      "file": "data/reviews/norms-gap-fifth-evidence/lexml14133.html",
+      "sha256": "f3f2c81250249501b9b40287b7825053483532d90443fc4f55b472506c819e46",
+      "scope": "Evidência de descoberta/publicação ou formato alternativo; não substitui o documento canônico histórico."
+    },
+    {
+      "documentId": "reference-lei-14133-2021",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.docx",
+      "outcome": "alternate_official_format_verified",
+      "file": "data/reviews/norms-gap-fifth-evidence/lei14133-current-docx.docx",
+      "sha256": "52c07732e02484309ae084ddfacb474a5b7241bc49651c0e8ae21967ec9bd279",
+      "repeatSha256": "52c07732e02484309ae084ddfacb474a5b7241bc49651c0e8ae21967ec9bd279",
+      "repeatCheckedAt": "2026-10-29T13:20:01.268830+00:00",
+      "selectedArticles": [
+        5,
+        6,
+        18,
+        26,
+        28,
+        67,
+        74,
+        82,
+        91,
+        117,
+        118,
+        147,
+        148,
+        149,
+        151,
+        186
+      ],
+      "scope": "DOCX atualizado da Câmara; 17 comentários com remissão à Lei14133 reconferidos nos dispositivos citados, sem modificar chaves ou declarar revisão jurídica integral. ETP da ANM continua dependente da IN58, não apenas da lei."
+    },
+    {
+      "documentId": "reference-decreto-9203-2017",
+      "outcome": "byte_match",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.html",
+      "file": "sources/references/camara-decreto-9203-2017.html",
+      "sha256": "cc9e9c5356e5c1578af402f769c80ee2dd831facae27b0cbb9a5a971d9b38f2a",
+      "checkedAt": "2026-10-29T13:18:16.689756+00:00",
+      "selectedArticles": [
+        3,
+        5
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "source": "ABDI2008 ControleInterno q13/14",
+      "reason": "q13 inclui AcordoCooperaçãoTécnica cujo enquadramento difere do atual regulamento, restrito a transferência de recursos; q14 tem chave oficial D, mas definições atuais de interveniente e concedente não reproduzem as históricas. Não publicar nem alterar gabarito."
+    },
+    {
+      "source": "CGU2022 Correição q46",
+      "reason": "Chave histórica E; alternativa A sobre doações requer comparação temporal específica, pois art57posterior não repete antigoXVII. Não presumir compatibilidade integral por o itemE continuar verdadeiro."
+    },
+    {
+      "source": "CGU2022 Correição q78",
+      "reason": "Regra antiga de dispensa de parâmetros ME/EPP não se repete no art57; art67III remete avaliação simplificada a disciplina própria. Sem validação dessa disciplina nesta entrega, não liberar."
+    },
+    {
+      "source": "TCEAC16 q51–55/57–60",
+      "reason": "Recortes não selecionados: requerem revisão específica ou referências adicionais; chave histórica preservada no inventário, sem preencher lacunas por aproximação."
+    }
+  ],
+  "scope": "Ampliação dirigida após varredura assistida; amostras parciais, sem certificação de cobertura integral ou atualização normativa universal.",
+  "restoration": {
+    "questionId": "cgu-2022-correicao-tarde-tipo1-q045",
+    "previousRevision": 2,
+    "revision": 3,
+    "officialKeyUnchanged": "a",
+    "mappingId": "cgu-2022-correicao-tarde-tipo1-q045-norms5-restored",
+    "previousDecisionManifest": "data/reviews/bank-sweep-2026-10-29.json",
+    "currentBasis": "reference-decreto-11129-2022",
+    "currentClauses": "Art.17 I/II §1ºIII; art.70",
+    "status": "restored_to_current_role"
+  }
+}
