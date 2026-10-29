@@ -9,6 +9,7 @@ from tools.readiness import abdi_capacity, ce_capacity
 from tools.validate import ROOT, read_json
 
 MANIFEST = 'data/reviews/norms-gap-fifth.json'
+REVIEWED_CATALOG = 'data/reviews/pre-completion-sixth-catalog.json.gz'
 ROLES = {'camara-comunicacao-divulgacao': 'Câmara',
          'abdi-comunicacao-marketing': 'ABDI', 'cgu-auditoria': 'CGU'}
 
@@ -63,7 +64,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check', action='store_true')
     args = parser.parse_args()
-    outputs = artifacts(read_json(ROOT / 'data/catalog.json'), read_json(ROOT / MANIFEST))
+    catalog = json.loads(gzip.decompress((ROOT / REVIEWED_CATALOG).read_bytes()))
+    outputs = artifacts(catalog, read_json(ROOT / MANIFEST))
     stale = []
     for file, text in outputs.items():
         path = ROOT / file

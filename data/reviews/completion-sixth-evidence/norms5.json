@@ -1,0 +1,17 @@
+[
+  {
+    "name": "portaria27-bitstreams",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/core/bundles/ae8984cf-0365-4597-b571-f1ec89d44dec/bitstreams?size=100",
+    "checkedAt": "2026-10-29T16:06:29.794931+00:00",
+    "status": 200,
+    "file": "/tmp/remainder6/portaria27-bitstreams.json",
+    "bytes": 2399,
+    "sha256": "d8f6fcf1ffdd16a7bb7d22cfcbb606c6c15f7668a22f0c55b6e3ce61ccf615b7"
+  },
+  {
+    "name": "2279-pdf",
+    "url": "https://www.gov.br/cgu/pt-br/centrais-de-conteudo/publicacoes/integridade/arquivos/portariaconjunta2279.pdf",
+    "checkedAt": "2026-10-29T16:06:29.795588+00:00",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

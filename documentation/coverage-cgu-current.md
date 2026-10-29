@@ -1,20 +1,20 @@
 # CGU — Auditoria: mapa do banco e lacunas
 
-Revisão: 2026-10-29. **305 questões distintas: 267 C/E e 38 MC.**
+Revisão: 2026-10-29. **320 questões distintas: 273 C/E e 47 MC.**
 
-Programa: 266 itens; 127 diretos, 63 apenas por descendentes e 76 subárvores vazias.
+Programa: 266 itens; 135 diretos, 64 apenas por descendentes e 67 subárvores vazias.
 
 Questões compartilhadas preservam texto, contexto, formato e gabarito de origem. MC permanecem no treino, fora da reserva C/E. Pais e filhos são contados separadamente: ter uma amostra não equivale a cobrir todo o item.
 
 ## Capacidade do simulado
 
-São necessários 170 IDs distintos. Há 267 C/E elegíveis e 170 alocáveis simultaneamente. **Mínimo quantitativo adicional: 0 C/E**, respeitando as compatibilidades por bloco. O simulado está disponível.
+São necessários 170 IDs distintos. Há 273 C/E elegíveis e 170 alocáveis simultaneamente. **Mínimo quantitativo adicional: 0 C/E**, respeitando as compatibilidades por bloco. O simulado está disponível.
 
 | Bloco | Exigidas | C/E elegíveis no filtro | Alocadas sem repetição | Déficit nesta alocação |
 | --- | ---: | ---: | ---: | ---: |
 | Conhecimentos básicos | 40 | 71 | 40 | 0 |
-| Conhecimentos complementares | 40 | 90 | 40 | 0 |
-| Conhecimentos específicos | 90 | 166 | 90 | 0 |
+| Conhecimentos complementares | 40 | 92 | 40 | 0 |
+| Conhecimentos específicos | 90 | 172 | 90 | 0 |
 
 Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos déficits não é única. Quantidade suficiente não garante variedade, cobertura ou dificuldade equivalente à prova.
 
@@ -109,7 +109,7 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 2.2 | Diferença entre dados pessoais e dados pessoais sensíveis; noções de tarjamento, anonimização e risco de reidentificação. | 1 | 1 | Direto |
 | FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 3 | Ouvidoria e proteção das pessoas. | 0 | 0 | Só descendentes |
 | FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 3.1 | Finalidades das manifestações; acolhimento, encaminhamento e resposta ao usuário; acessibilidade e linguagem cidadã. | 1 | 0 | Direto |
-| FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 3.2 | Proteção da identidade e prevenção de retaliação. | 0 | 0 | Sem questões |
+| FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 3.2 | Proteção da identidade e prevenção de retaliação. | 1 | 0 | Direto |
 | FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 3.3 | Distinção entre receber um relato, apurar fatos e decidir sobre responsabilidade. | 0 | 0 | Sem questões |
 | FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 4 | Participação e melhoria de serviços. | 0 | 0 | Só descendentes |
 | FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 4.1 | Participação e controle social; conselhos, consultas e escuta de usuários; representatividade e barreiras à participação. | 4 | 0 | Direto |
@@ -127,7 +127,7 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | FUNDAMENTOS DE DIREITO PÚBLICO APLICADO, CONTROLE E RESPONSABILIZAÇÃO | 1.2 | Dever de fundamentação e limites ao exercício do poder e à revisão de decisões. | 5 | 0 | Direto |
 | FUNDAMENTOS DE DIREITO PÚBLICO APLICADO, CONTROLE E RESPONSABILIZAÇÃO | 2 | Processo e garantias. | 0 | 0 | Só descendentes |
 | FUNDAMENTOS DE DIREITO PÚBLICO APLICADO, CONTROLE E RESPONSABILIZAÇÃO | 2.1 | Devido processo, contraditório, defesa e imparcialidade; finalidade da instrução e da prova. | 0 | 2 | Direto |
-| FUNDAMENTOS DE DIREITO PÚBLICO APLICADO, CONTROLE E RESPONSABILIZAÇÃO | 2.2 | Distinção entre procedimento investigativo e processo sancionador; proteção de direitos e necessidade de fundamentar conclusões. | 0 | 0 | Sem questões |
+| FUNDAMENTOS DE DIREITO PÚBLICO APLICADO, CONTROLE E RESPONSABILIZAÇÃO | 2.2 | Distinção entre procedimento investigativo e processo sancionador; proteção de direitos e necessidade de fundamentar conclusões. | 1 | 0 | Direto |
 | FUNDAMENTOS DE DIREITO PÚBLICO APLICADO, CONTROLE E RESPONSABILIZAÇÃO | 3 | Funções de controle e melhoria da gestão. | 0 | 0 | Só descendentes |
 | FUNDAMENTOS DE DIREITO PÚBLICO APLICADO, CONTROLE E RESPONSABILIZAÇÃO | 3.1 | Finalidades do controle interno, externo e social; inserção institucional da CGU no Poder Executivo federal. | 2 | 0 | Direto |
 | FUNDAMENTOS DE DIREITO PÚBLICO APLICADO, CONTROLE E RESPONSABILIZAÇÃO | 3.2 | Avaliação da ação governamental e apoio ao aprimoramento da gestão, da governança, dos controles e dos resultados das políticas públicas; prevenção, detecção e correção de irregularidades. | 1 | 0 | Direto |
@@ -177,7 +177,7 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 1.1 | Seleção da forma de atuação conforme o problema, objetivos e riscos. | 0 | 0 | Sem questões |
 | AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 1.2 | Avaliação: critérios de desempenho e conformidade, exame de evidências e conclusões independentes sobre governança, controles e resultados. | 11 | 0 | Direto |
 | AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 1.3 | Consultoria: análise da demanda, pactuação de objetivos, escopo e produtos; assessoramento, aconselhamento e facilitação; salvaguardas de objetividade e limites à assunção de responsabilidades gerenciais. | 0 | 1 | Direto |
-| AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 1.4 | Apuração: delimitação dos fatos e hipóteses, planejamento de diligências, reunião e preservação de elementos probatórios, análise de possíveis prejuízos e comunicação às instâncias competentes. | 0 | 0 | Sem questões |
+| AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 1.4 | Apuração: delimitação dos fatos e hipóteses, planejamento de diligências, reunião e preservação de elementos probatórios, análise de possíveis prejuízos e comunicação às instâncias competentes. | 1 | 0 | Direto |
 | AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 1.5 | Distinção entre apuração no controle interno, investigação correcional e processo sancionador; acompanhamento de providências e aprendizado institucional. | 0 | 0 | Sem questões |
 | AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 2 | Planejamento técnico do trabalho. | 0 | 0 | Só descendentes |
 | AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 2.1 | Universo, seleção e priorização; risco de auditoria; objetivos, escopo, critérios e questões; matriz de planejamento, programa de trabalho e desenho de evidências. | 8 | 1 | Direto |
@@ -210,10 +210,10 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 5.3 | MCASP 11ª edição e Manual de Informações do Sistema de Custos (MIC). | 14 | 0 | Direto |
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 6 | Informação societária de empresas estatais. | 0 | 0 | Só descendentes |
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 6.1 | Distinção entre informação societária e contabilidade aplicada ao setor público. | 0 | 0 | Sem questões |
-| FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 6.2 | Leitura de balanço patrimonial, demonstração do resultado e notas explicativas; relações entre posição patrimonial, desempenho e caixa. | 0 | 0 | Sem questões |
-| FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 6.3 | Reconhecimento de efeitos e incertezas de depreciação, redução ao valor recuperável, provisões, contingências e transações com partes relacionadas. | 3 | 0 | Direto |
-| FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 7 | Governança e finalidade pública de empresas estatais. | 0 | 0 | Sem questões |
-| FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 7.1 | Papéis e responsabilidades do Estado como proprietário das empresas estatais e gestor de seus administradores, dos conselhos de administração e fiscal e das instâncias de auditoria e fiscalização. | 0 | 0 | Sem questões |
+| FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 6.2 | Leitura de balanço patrimonial, demonstração do resultado e notas explicativas; relações entre posição patrimonial, desempenho e caixa. | 0 | 6 | Direto |
+| FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 6.3 | Reconhecimento de efeitos e incertezas de depreciação, redução ao valor recuperável, provisões, contingências e transações com partes relacionadas. | 3 | 1 | Direto |
+| FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 7 | Governança e finalidade pública de empresas estatais. | 0 | 0 | Só descendentes |
+| FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 7.1 | Papéis e responsabilidades do Estado como proprietário das empresas estatais e gestor de seus administradores, dos conselhos de administração e fiscal e das instâncias de auditoria e fiscalização. | 0 | 1 | Direto |
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 7.2 | Finalidade pública, sustentabilidade econômico-financeira e prestação de contas; conflitos de interesses e controles. | 0 | 0 | Sem questões |
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 7.3 | Relação entre mandatos de política pública, estratégias empresariais, recursos empregados e resultados sociais e econômicos; custos, riscos e transparência dos compromissos assumidos. | 0 | 0 | Sem questões |
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 7.4 | Coerência entre objetivos, recursos e resultados divulgados; compromissos de políticas públicas e informações da carta anual. | 0 | 0 | Sem questões |
@@ -223,7 +223,7 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 1.3 | Avaliabilidade e compatibilidade entre pergunta e informação disponível. | 0 | 0 | Sem questões |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 2 | Implementação gestão e coordenação. | 0 | 0 | Só descendentes |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 2.1 | Arranjos federativos e interorganizacionais; parcerias; capacidades, recursos e diferenças territoriais; discricionariedade na linha de frente e barreiras administrativas. | 4 | 1 | Direto |
-| POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 2.2 | Processos e projetos como instrumentos de entrega; responsabilidades, riscos e marcos de execução. | 0 | 0 | Sem questões |
+| POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 2.2 | Processos e projetos como instrumentos de entrega; responsabilidades, riscos e marcos de execução. | 0 | 1 | Direto |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 2.3 | Assessoramento, cooperação e adaptação de soluções com preservação de direitos e controles. | 1 | 0 | Direto |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 3 | Monitoramento e desenhos de avaliação. | 1 | 0 | Direto |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 3.1 | Insumos, atividades, produtos, resultados e impactos; eficiência, eficácia, efetividade e equidade. | 7 | 1 | Direto |
@@ -277,7 +277,7 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 4.4 | Análise de conflitos de interesses, impedimentos, favorecimento e exercício de atividade privada; medidas de prevenção, orientação e tratamento. | 0 | 2 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 4.5 | Prevenção de assédio e discriminação como dimensão da integridade organizacional. | 0 | 0 | Sem questões |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 5 | Admissibilidade, prova e requisitos da responsabilização. | 0 | 0 | Só descendentes |
-| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 5.1 | Qualificação de notícias de irregularidade e juízo de admissibilidade; arquivamento fundamentado, investigação e instauração de processo. | 0 | 0 | Sem questões |
+| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 5.1 | Qualificação de notícias de irregularidade e juízo de admissibilidade; arquivamento fundamentado, investigação e instauração de processo. | 3 | 0 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 5.2 | Regimes de agentes públicos e de pessoas jurídicas; materialidade, autoria quando exigível, nexo, enquadramento e elemento subjetivo conforme o regime aplicável. | 5 | 0 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 5.3 | Responsabilidade objetiva da pessoa jurídica e requisitos de ato lesivo e interesse ou benefício. | 0 | 1 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 5.4 | Licitude, suficiência e valoração da prova; compartilhamento entre instâncias, contraditório, defesa e motivação. | 0 | 1 | Direto |
@@ -285,9 +285,9 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6 | Instrumentos de responsabilização e soluções consensuais. | 1 | 0 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.1 | Processo administrativo disciplinar e processo administrativo de responsabilização de pessoas jurídicas: cabimento, instrução, garantias e decisão. | 3 | 1 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.2 | Aplicação dos marcos prescricionais e dos critérios de dosimetria; fundamentação da sanção e da reparação do dano em casos concretos. | 0 | 0 | Sem questões |
-| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.3 | Acordo de leniência: requisitos, colaboração, efeitos, obrigações de integridade e limites. | 0 | 1 | Direto |
+| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.3 | Acordo de leniência: requisitos, colaboração, efeitos, obrigações de integridade e limites. | 1 | 1 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.4 | Termo de ajustamento de conduta: requisitos, proporcionalidade e acompanhamento. | 0 | 0 | Sem questões |
-| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.5 | Coordenação entre instâncias, distinção entre sanção e reparação e consideração das sanções relativas ao mesmo fato nos termos legais. | 0 | 0 | Sem questões |
+| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.5 | Coordenação entre instâncias, distinção entre sanção e reparação e consideração das sanções relativas ao mesmo fato nos termos legais. | 1 | 0 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 7 | Resultados, comunicação e aprendizagem institucional. | 0 | 0 | Só descendentes |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 7.1 | Conversão de manifestações, avaliações e apurações em medidas de melhoria da gestão, da integridade e dos serviços. | 0 | 0 | Sem questões |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 7.2 | Planos de ação, responsabilidades, indicadores e acompanhamento de compromissos. | 0 | 0 | Sem questões |

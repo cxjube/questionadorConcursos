@@ -37,11 +37,11 @@ test('every previous Camara study snapshot and the old 180-question exam survive
  for(const mode of ['all','exam']){
   let p={...s.Study.empty(),active:s.Study.create(old,camara,s.Study.empty(),mode,{now:start,random:()=>.4})};
   assert.equal(p.active.items.length,mode==='all'?395:180);
-  assert.equal(s.Study.matches(s.data,p.active),true);
+  assert.equal(s.Study.matches(s.data,p.active),!p.active.items.some(i=>i.question.id==='camara-2014-cb2-03-q084'));
   assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(p),s.data)),plain(p));
   if(mode==='all'){
    const current=s.Study.create(s.data,camara,s.Study.empty(),'all',{now:start});
-   assert.deepEqual(plain(current.items.slice(0,p.active.items.length)),plain(p.active.items));assert.deepEqual(plain(current.items.slice(p.active.items.length).map(i=>i.question.id)),['128-tcemg-008-01-q044','fiocruz-2024-te15-q002','539-alce-016-01-q050','senado-2022-processo-tipo1-q054',...JSON.parse(fs.readFileSync(path.join(root,'data/reviews/gaps-fourth-batch.json'))).items.filter(r=>r.syllabusItemIds.some(id=>id.startsWith('camara-2026-'))).map(r=>r.questionId),...JSON.parse(fs.readFileSync(path.join(root,'data/reviews/norms-gap-fifth.json'))).items.filter(r=>r.syllabusItemIds.some(id=>id.startsWith('camara-2026-'))).map(r=>r.questionId)]);
+   const priorIds=new Set(p.active.items.map(i=>i.question.id));assert.deepEqual(plain(current.items.slice(0,p.active.items.length).filter(i=>i.question.id!=='camara-2014-cb2-03-q084')),plain(p.active.items.filter(i=>i.question.id!=='camara-2014-cb2-03-q084')));const revised=current.items.find(i=>i.question.id==='camara-2014-cb2-03-q084');assert.equal(revised.question.revision,2);assert.equal(revised.key.value,p.active.items.find(i=>i.question.id===revised.question.id).key.value);assert.equal(priorIds.size,p.active.items.length);assert.deepEqual(plain(current.items.slice(p.active.items.length).map(i=>i.question.id)),['128-tcemg-008-01-q044','fiocruz-2024-te15-q002','539-alce-016-01-q050','senado-2022-processo-tipo1-q054',...JSON.parse(fs.readFileSync(path.join(root,'data/reviews/gaps-fourth-batch.json'))).items.filter(r=>r.syllabusItemIds.some(id=>id.startsWith('camara-2026-'))).map(r=>r.questionId),...JSON.parse(fs.readFileSync(path.join(root,'data/reviews/norms-gap-fifth.json'))).items.filter(r=>r.syllabusItemIds.some(id=>id.startsWith('camara-2026-'))).map(r=>r.questionId)]);
   }
   p=s.Study.finish(p,end);assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(p),s.data)),plain(p));
  }

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "search-cgdf",
+    "url": "https://www.google.com/search?q=site%3Acebraspe.org.br%2Fconcursos+CGDF+2023+provas+gabaritos",
+    "checkedAt": "2026-10-29T15:47:16.987260+00:00",
+    "status": 200,
+    "bytes": 92942,
+    "sha256": "5989659227dcccb44ffb1a38bd1bab56e56e2d3774232667f1ff90be735cd93d",
+    "file": "/tmp/remainder6/search-cgdf.html"
+  },
+  {
+    "name": "search-simplificada",
+    "url": "https://www.google.com/search?q=site%3Agov.br%2Fcgu+%22simplificada%22+%22integridade%22+portaria",
+    "checkedAt": "2026-10-29T15:47:16.987944+00:00",
+    "status": 200,
+    "bytes": 92819,
+    "sha256": "ee9d871e746aaedf02ec924c3f7890dcd5246f8366b748969070b1ec424673fe",
+    "file": "/tmp/remainder6/search-simplificada.html"
+  },
+  {
+    "name": "fgv-cgesc",
+    "url": "https://conhecimento.fgv.br/concursos/cgesc22",
+    "checkedAt": "2026-10-29T15:47:16.988556+00:00",
+    "status": 200,
+    "bytes": 97431,
+    "sha256": "1c56d9a8894343086ca512c02ebc88673d12634639045d4168438aa9c9f20fc3",
+    "file": "/tmp/remainder6/fgv-cgesc.html"
+  },
+  {
+    "name": "fgv-cge-sp",
+    "url": "https://conhecimento.fgv.br/concursos/cgesp25",
+    "checkedAt": "2026-10-29T15:47:17.223975+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "control-MPO24",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/MPO_24",
+    "checkedAt": "2026-10-29T15:47:17.240857+00:00",
+    "status": 200,
+    "bytes": 27113,
+    "sha256": "5ebcfd16603a0f875b1e0b207a0808f1392ce544ac38ed941ed56fdc6a23a068",
+    "file": "/tmp/remainder6/control-MPO24.html"
+  }
+]

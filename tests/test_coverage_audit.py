@@ -42,7 +42,12 @@ class CoverageAuditTests(unittest.TestCase):
                         self.assertEqual(row, change['before'])
                         self.assertEqual(indexed[change['after']['id']], change['after'])
                     else:
-                        self.assertEqual(indexed[row['id']], row, (section, row['id']))
+                        declared = next((c for c in read_json(ROOT / 'data/reviews/completion-sixth.json')['changes'] if c['section'] == section and c['id'] == row['id']), None)
+                        if declared:
+                            self.assertEqual(row, declared['before'])
+                            self.assertEqual(indexed[row['id']], declared['after'])
+                        else:
+                            self.assertEqual(indexed[row['id']], row, (section, row['id']))
             else:
                 self.assertEqual(current[section], rows)
 

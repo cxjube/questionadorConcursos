@@ -1,13 +1,13 @@
 {
   "reviewedAt": "2026-10-29",
-  "latestBatchId": "norms-gap-fifth",
-  "catalogSha256": "8feda7826eb6f2d504ebf0749c540ed91b6a7083fa83292e90a5687c6453a45c",
+  "latestBatchId": "completion-sixth",
+  "catalogSha256": "c5e953a85c82a4c61510e5ada8296a9ac6367cf16ff3961462b15c213f6b5296",
   "scope": "Oferta de questões distintas, sem inferência de domínio ou peso de prova.",
   "totalItems": 228,
-  "directItems": 188,
+  "directItems": 189,
   "descendantsOnly": 32,
-  "emptyItems": 7,
-  "emptyLeaves": 7,
+  "emptyItems": 6,
+  "emptyLeaves": 6,
   "blocks": {
     "basic": {
       "total": 180,
@@ -56,10 +56,10 @@
       "id": "direito-constitucional-regimento",
       "label": "Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados",
       "totalItems": 14,
-      "directItems": 10,
+      "directItems": 11,
       "descendantsOnly": 2,
-      "emptyItems": 2,
-      "emptyLeaves": 2,
+      "emptyItems": 1,
+      "emptyLeaves": 1,
       "questionsCE": 21,
       "questionsMC": 1
     },
@@ -1903,12 +1903,13 @@
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "camara-2014-cb2-03-q084",
         "camara-2014-cb2-03-q097",
         "camara-2014-cb2-03-q100",
         "camara-2023-tecnica-tarde-tipo1-q017",
         "camara14-cb1-01-q092"
       ],
-      "subtreeCE": 3,
+      "subtreeCE": 4,
       "subtreeMC": 1
     },
     {
@@ -1963,13 +1964,17 @@
       "block": "basic",
       "parentTopicId": "direito-constitucional-regimento-7",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "camara-2014-cb2-03-q084"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "camara-2014-cb2-03-q084"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {

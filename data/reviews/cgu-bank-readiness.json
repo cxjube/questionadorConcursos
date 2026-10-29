@@ -4,7 +4,7 @@
   "ruleVersion": 1,
   "ready": true,
   "requiredCE": 170,
-  "distinctCE": 267,
+  "distinctCE": 273,
   "allocatableDistinctCE": 170,
   "minimumAdditionalCE": 0,
   "blocks": [
@@ -183,9 +183,11 @@
         "mpo-2024-cg1-01-q092",
         "mpo-2024-001-01-q054",
         "mpo-2024-001-01-q060",
-        "inss-2022-cb1-01-q032"
+        "inss-2022-cb1-01-q032",
+        "038-anm-005-01-q116",
+        "038-anm-005-01-q117"
       ],
-      "availableCE": 90,
+      "availableCE": 92,
       "allocatedCE": 40,
       "missingForThisAllocation": 0
     },
@@ -359,9 +361,15 @@
         "993-tce-ac-016-01-q061",
         "993-tce-ac-016-01-q062",
         "993-tce-ac-016-01-q063",
-        "993-tce-ac-016-01-q064"
+        "993-tce-ac-016-01-q064",
+        "038-anm-005-01-q115",
+        "038-anm-005-01-q116",
+        "038-anm-005-01-q117",
+        "038-anm-005-01-q118",
+        "038-anm-005-01-q119",
+        "038-anm-005-01-q120"
       ],
-      "availableCE": 166,
+      "availableCE": 172,
       "allocatedCE": 90,
       "missingForThisAllocation": 0
     }

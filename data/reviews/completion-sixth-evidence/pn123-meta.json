@@ -1,0 +1,213 @@
+{
+  "id" : "0de4854f-0a6c-460c-b094-9e2267d1f86a",
+  "uuid" : "0de4854f-0a6c-460c-b094-9e2267d1f86a",
+  "name" : "Portaria Normativa n. 123, de 22 de abril de 2024",
+  "handle" : "1/18805",
+  "metadata" : {
+    "dc.contributor.author" : [ {
+      "value" : "Brasil. Controladoria-Geral da União (CGU). Gabinete do Ministro (GM)",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.contributor.reviewer" : [ {
+      "value" : "Maria Eduarda Pacheco da Silva Olcha",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2024-04-26T20:19:38Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.available" : [ {
+      "value" : "2024-04-26T20:19:38Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2024-04-22",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.started" : [ {
+      "value" : "2024-04-23",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Altera a Portaria Normativa CGU nº 27, de 11 de outubro de 2022, que dispõe sobreo Sistema de Correição do Poder Executivo Federal.",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.additionalinformation" : [ {
+      "value" : "Esta Portaria altera a Portaria Normativa n. 27, de 11 de outubro de 2022, disponível no campo \"Publicações Relacionadas\"",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "https://basedeconhecimento.cgu.gov.br/handle/1/18805",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.location" : [ {
+      "value" : "Distrito Federal (DF)",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.references" : [ {
+      "value" : "https://repositorio.cgu.gov.br/handle/1/68802",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "https://basedeconhecimento.cgu.gov.br/handle/1/15172",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.rights.holder" : [ {
+      "value" : "Controladoria-Geral da União (CGU)",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.license" : [ {
+      "value" : "Licenças::Domínio Público::Condição jurídica para as obras que não possuem o elemento do direito real ou de propriedade que tem o direito autoral, não havendo restrições de uso por qualquer um que queira utilizá-la, desde que estejam em conformidade com o artigo 45 da Lei nº 9.610/1998.",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.source" : [ {
+      "value" : "Diário Oficial da União (DOU) de 23/04/2024, seção 1, página 82",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject.areas" : [ {
+      "value" : "UNIDADE::CORREGEDORIA-GERAL DA UNIÃO (CRG)",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject.classification" : [ {
+      "value" : "Correição",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject.keyword" : [ {
+      "value" : "Cargos em comissão",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Funções",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Denúncias",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Irregularidades",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    } ],
+    "dc.subject.vccgu" : [ {
+      "value" : "ASSUNTO::Correição::Sistema de Correição do Poder Executivo Federal (SISCOR)",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title" : [ {
+      "value" : "Portaria Normativa n. 123, de 22 de abril de 2024",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Portaria Normativa",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2024-04-27T06:00:11.002Z",
+  "entityType" : null,
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/0de4854f-0a6c-460c-b094-9e2267d1f86a/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/0de4854f-0a6c-460c-b094-9e2267d1f86a/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/0de4854f-0a6c-460c-b094-9e2267d1f86a/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/0de4854f-0a6c-460c-b094-9e2267d1f86a/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/0de4854f-0a6c-460c-b094-9e2267d1f86a/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/0de4854f-0a6c-460c-b094-9e2267d1f86a/relationships"
+    },
+    "version" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/0de4854f-0a6c-460c-b094-9e2267d1f86a/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/0de4854f-0a6c-460c-b094-9e2267d1f86a/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/0de4854f-0a6c-460c-b094-9e2267d1f86a/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/0de4854f-0a6c-460c-b094-9e2267d1f86a/submitter"
+    },
+    "self" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/0de4854f-0a6c-460c-b094-9e2267d1f86a"
+    }
+  }
+}

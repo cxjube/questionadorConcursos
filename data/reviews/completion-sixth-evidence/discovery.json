@@ -1,0 +1,52 @@
+[
+  {
+    "name": "cgu-integridade",
+    "url": "https://www.gov.br/cgu/pt-br/assuntos/integridade-privada/avaliacao-e-promocao-da-integridade-privada",
+    "checkedAt": "2026-10-29T15:43:40.909192+00:00",
+    "status": 200,
+    "finalUrl": "https://www.gov.br/cgu/pt-br/assuntos/integridade-privada/avaliacao-e-promocao-da-integridade-privada",
+    "file": "/tmp/remainder6/cgu-integridade.html",
+    "bytes": 96213,
+    "sha256": "0380789934d3e4f1bd8dd6bf5d833c5c78346c21bcffafd8e69dc71a36c4d33c"
+  },
+  {
+    "name": "cgu-search",
+    "url": "https://www.gov.br/cgu/pt-br/search?SearchableText=avalia%C3%A7%C3%A3o+simplificada+programa+integridade+microempresas",
+    "checkedAt": "2026-10-29T15:43:40.909933+00:00",
+    "status": 200,
+    "finalUrl": "https://www.gov.br/cgu/pt-br/search?SearchableText=avalia%C3%A7%C3%A3o+simplificada+programa+integridade+microempresas",
+    "file": "/tmp/remainder6/cgu-search.html",
+    "bytes": 76851,
+    "sha256": "944e83b931a817f8a92cf43af2b3cdb839d088005faa7ac00a4784ffe259bdd2"
+  },
+  {
+    "name": "cebraspe-cgu2012",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CGU_12",
+    "checkedAt": "2026-10-29T15:43:40.910470+00:00",
+    "status": 204,
+    "finalUrl": "https://apis.cebraspe.org.br/cebraspe/eventos/CGU_12",
+    "file": "/tmp/remainder6/cebraspe-cgu2012.html",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "cebraspe-camara2014",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CAMARA_14",
+    "checkedAt": "2026-10-29T15:43:42.392360+00:00",
+    "status": 204,
+    "finalUrl": "https://apis.cebraspe.org.br/cebraspe/eventos/CAMARA_14",
+    "file": "/tmp/remainder6/cebraspe-camara2014.html",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "cebraspe-ipea",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/IPEA_23",
+    "checkedAt": "2026-10-29T15:43:42.919954+00:00",
+    "status": 204,
+    "finalUrl": "https://apis.cebraspe.org.br/cebraspe/eventos/IPEA_23",
+    "file": "/tmp/remainder6/cebraspe-ipea.html",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

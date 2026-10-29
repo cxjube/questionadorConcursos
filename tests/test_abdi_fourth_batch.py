@@ -102,7 +102,7 @@ class AbdiFourthBatchTests(unittest.TestCase):
         self.assertEqual(len(used),len(set(used)));self.assertEqual(len(used),60)
         byid={x['id']:x for x in report['items']};self.assertEqual(byid['abdi-2026-abdi-comunicacao-marketing-22']['directMC'],6);self.assertEqual(byid['abdi-2026-abdi-comunicacao-marketing-25']['directMC'],2)
         old=json.loads(gzip.decompress((ROOT/'data/reviews/pre-abdi-fourth-batch-catalog.json.gz').read_bytes()));before=coverage(old,role_id='abdi-comunicacao-marketing');progress=read_json(ROOT/'data/reviews/abdi-fourth-gap-progress.json');self.assertEqual({x['id'] for x in progress['items']},{x['id'] for x in before['items'] if x['state']=='empty'});self.assertEqual((progress['beforeEmpty'],progress['afterEmpty']),(30,28))
-        for path,content in role_artifacts(read_json(ROOT/'data/catalog.json'),read_json(ROOT/'data/reviews/norms-gap-fifth.json'),'abdi-comunicacao-marketing').items():self.assertEqual((ROOT/path).read_text(),content)
+        for path,content in role_artifacts(read_json(ROOT/'data/catalog.json'),read_json(ROOT/'data/reviews/completion-sixth.json'),'abdi-comunicacao-marketing').items():self.assertEqual((ROOT/path).read_text(),content)
 
 
 if __name__=='__main__':unittest.main()

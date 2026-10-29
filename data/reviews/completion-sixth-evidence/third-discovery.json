@@ -1,0 +1,32 @@
+[
+  {
+    "name": "cgu-legislacao",
+    "url": "https://www.gov.br/cgu/pt-br/assuntos/integridade-privada/legislacao",
+    "checkedAt": "2026-10-29T15:46:39.402087+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "cgu-private",
+    "url": "https://www.gov.br/cgu/pt-br/assuntos/integridade-privada",
+    "checkedAt": "2026-10-29T15:46:39.402847+00:00",
+    "status": 200,
+    "bytes": 241261,
+    "sha256": "a96f18cf365c7e2093e2cd081f986634607ba543c50f3854a210ca3fb7dcf6ad",
+    "file": "/tmp/remainder6/cgu-private.html"
+  },
+  {
+    "name": "knowledge-search",
+    "url": "https://basedeconhecimento.cgu.gov.br/discover?query=2279",
+    "checkedAt": "2026-10-29T15:46:39.403453+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "cgdf-site",
+    "url": "https://www.cebraspe.org.br/concursos/cg_df_22",
+    "checkedAt": "2026-10-29T15:46:39.629863+00:00",
+    "status": 200,
+    "bytes": 16788,
+    "sha256": "c03806f99b5ab2b0abfd002412ae0245f143bb532a55f01bb36b8edf7e9b7353",
+    "file": "/tmp/remainder6/cgdf-site.html"
+  }
+]

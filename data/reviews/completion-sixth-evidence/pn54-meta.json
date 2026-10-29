@@ -1,0 +1,212 @@
+{
+  "id" : "e4e65b3e-163b-4653-99fb-a24ef46b0002",
+  "uuid" : "e4e65b3e-163b-4653-99fb-a24ef46b0002",
+  "name" : "Portaria Normativa n. 54, de 14 de fevereiro de 2023 [Retificada]",
+  "handle" : "1/16225",
+  "metadata" : {
+    "dc.contributor.author" : [ {
+      "value" : "Brasil. Controladoria-Geral da União (CGU). Gabinete do Ministro (GM)",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.contributor.reviewer" : [ {
+      "value" : "Maria Eduarda Pacheco da Silva Olcha",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2023-02-27T14:36:23Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.available" : [ {
+      "value" : "2023-02-27T14:36:23Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "202-02-14",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.started" : [ {
+      "value" : "2023-02-16",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Altera a Instrução Normativa nº 13, de 8 de agosto de 2019, que define os procedimentos para apuração da responsabilidade administrativa de pessoas jurídicas de que trata a Lei nº 12.846, de 1º de agosto de 2013; a Portaria CGU nº 1.214, de 8 de junho de 2020, que regulamenta os requisitos e o procedimento de reabilitação de que tratam o inciso IV e o § 3º do art. 87 da Lei nº 8.666, de 21 de junho de 1993; a Portaria Normativa CGU nº 19, de 22 de julho de 2022, que trata do julgamento antecipado; a Portaria Normativa n° 27, de 11 de outubro de 2022, que dispõe sobre a atividade correcional, e confere competência ao Secretário de Integridade Privada praticar os atos relativos à negociação, celebração e acompanhamento dos acordos de leniência.",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.additionalinformation" : [ {
+      "value" : "A presente Portaria altera os seguintes documentos: Instrução Normativa n. 13, de 8 de agosto de 2019; a Portaria n. 1.214, de 8 de junho de 2020; a Portaria Normativa n. 19, de 22 de julho de 2022; a Portaria Normativa n. 27, de 11 de outubro de 2022.",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Esta Portaria foi retificada pela Portaria n. 1348, de 22 de março de 2023. Disponibilizada no campo \"Publicações Relacionadas\".",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "https://basedeconhecimento.cgu.gov.br/handle/1/16225",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.location" : [ {
+      "value" : "Distrito Federal (DF)",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.references" : [ {
+      "value" : "https://basedeconhecimento.cgu.gov.br/handle/1/6074",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "https://basedeconhecimento.cgu.gov.br/handle/1/9058",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "https://basedeconhecimento.cgu.gov.br/handle/1/14802",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "https://basedeconhecimento.cgu.gov.br/handle/1/15172",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "https://basedeconhecimento.cgu.gov.br/handle/1/16851",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    } ],
+    "dc.rights.holder" : [ {
+      "value" : "Controladoria-Geral da União (CGU)",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.license" : [ {
+      "value" : "Licenças::Domínio Público::Condição jurídica para as obras que não possuem o elemento do direito real ou de propriedade que tem o direito autoral, não havendo restrições de uso por qualquer um que queira utilizá-la, desde que estejam em conformidade com o artigo 45 da Lei nº 9.610/1998.",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.source" : [ {
+      "value" : "Diário Oficial da União (DOU)",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject.areas" : [ {
+      "value" : "UNIDADE::SECRETARIA DE TRANSPARÊNCIA E PREVENÇÃO DA CORRUPÇÃO (STPC)::DIRETORIA DE PROMOÇÃO DA INTEGRIDADE (DPI)::Coordenação-Geral de Integridade Privada (CGIPRIV)",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject.classification" : [ {
+      "value" : "Gestão Interna",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject.vccgu" : [ {
+      "value" : "ASSUNTO::Prevenção da Corrupção, Integridade e Transparência Pública::Acordo de leniência",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title" : [ {
+      "value" : "Portaria Normativa n. 54, de 14 de fevereiro de 2023 [Retificada]",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Portaria",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2023-04-24T18:30:02.505Z",
+  "entityType" : null,
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/e4e65b3e-163b-4653-99fb-a24ef46b0002/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/e4e65b3e-163b-4653-99fb-a24ef46b0002/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/e4e65b3e-163b-4653-99fb-a24ef46b0002/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/e4e65b3e-163b-4653-99fb-a24ef46b0002/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/e4e65b3e-163b-4653-99fb-a24ef46b0002/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/e4e65b3e-163b-4653-99fb-a24ef46b0002/relationships"
+    },
+    "version" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/e4e65b3e-163b-4653-99fb-a24ef46b0002/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/e4e65b3e-163b-4653-99fb-a24ef46b0002/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/e4e65b3e-163b-4653-99fb-a24ef46b0002/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/e4e65b3e-163b-4653-99fb-a24ef46b0002/submitter"
+    },
+    "self" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/e4e65b3e-163b-4653-99fb-a24ef46b0002"
+    }
+  }
+}

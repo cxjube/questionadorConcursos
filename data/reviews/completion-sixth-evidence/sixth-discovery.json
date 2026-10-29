@@ -1,0 +1,26 @@
+[
+  {
+    "name": "events-index",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos",
+    "checkedAt": "2026-10-29T15:50:49.847072+00:00",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "name": "knowledge2279",
+    "url": "https://repositorio.cgu.gov.br/simple-search?query=2279",
+    "checkedAt": "2026-10-29T15:50:49.848253+00:00",
+    "status": 200,
+    "file": "/tmp/remainder6/knowledge2279.html",
+    "bytes": 442128,
+    "sha256": "1f9a044c45b4498b48de7074a0c0f6ddda64415dcc64648ba3f1acddd52873aa"
+  },
+  {
+    "name": "knowledge2279new",
+    "url": "https://repositorio.cgu.gov.br/server/api/discover/search/objects?query=2279",
+    "checkedAt": "2026-10-29T15:50:49.849085+00:00",
+    "status": 200,
+    "file": "/tmp/remainder6/knowledge2279new.html",
+    "bytes": 442128,
+    "sha256": "1f9a044c45b4498b48de7074a0c0f6ddda64415dcc64648ba3f1acddd52873aa"
+  }
+]

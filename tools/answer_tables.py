@@ -90,7 +90,8 @@ def answer_table(text: str, booklet: str) -> dict[int, str]:
         return result
     header_pattern = (r'(?m)^[ \t]*((?:(?:Analista|Técnico) (?:Legislativo|Judiciário)[^\n]*TIPO \d+|'
                       r'Especialista Legislativo[^\n]* - \d+ - Turno (?:Manhã|Tarde|Noite)|'
-                      r'Auditor Federal de Controle Externo[^\n]* – Tipo \d+))[ \t]*$')
+                      r'Auditor Federal de Controle Externo[^\n]* – Tipo \d+|'
+                      r'Auditor do Estado - [^\n]+ - TIPO \d+ \((?:Manhã|Tarde)\)))[ \t]*$')
     headers = list(re.finditer(header_pattern, text))
     if headers:
         matches = [i for i, match in enumerate(headers) if match.group(1).strip() == booklet]

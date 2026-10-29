@@ -1,0 +1,41 @@
+[
+  {
+    "name": "portaria27-bundles",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/core/items/513f48bd-3746-4998-b17f-0798ca8fb138/bundles?size=20",
+    "checkedAt": "2026-10-29T16:03:14.398913+00:00",
+    "status": 200,
+    "file": "/tmp/remainder6/portaria27-bundles.json",
+    "bytes": 3383,
+    "sha256": "7e069d7a7b64711ee8c94143f458577e8677d7abdb43b2eadca3d488d76a975c"
+  },
+  {
+    "name": "small-search",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/discover/search/objects?query=%22SMPE%22&size=30",
+    "checkedAt": "2026-10-29T16:03:14.399586+00:00",
+    "status": 200,
+    "file": "/tmp/remainder6/small-search.json",
+    "bytes": 231732,
+    "sha256": "98b46c28b89a2055dcce962440c8301d2497d4ccf27a37088d802d3a6ce3e8c6"
+  },
+  {
+    "name": "13869-original",
+    "url": "https://legis.senado.leg.br/norma/31300615/publicacao/31306101",
+    "checkedAt": "2026-10-29T16:03:14.400086+00:00",
+    "status": 200,
+    "file": "/tmp/remainder6/13869-original.html",
+    "bytes": 71990,
+    "sha256": "a4d798dc15fcdefd324a36e0e92223b0be959329419aafab0d819b0c4b5885bd"
+  },
+  {
+    "name": "abdi25",
+    "url": "https://conhecimento.fgv.br/concursos/abdi25",
+    "checkedAt": "2026-10-29T16:03:15.511439+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "abdi24",
+    "url": "https://conhecimento.fgv.br/concursos/abdi24",
+    "checkedAt": "2026-10-29T16:03:16.199669+00:00",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

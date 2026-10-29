@@ -1,0 +1,2031 @@
+{
+  "id": "completion-sixth",
+  "reviewedAt": "2026-10-29",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/completion-sixth-release.md",
+  "previousCatalogFile": "data/reviews/pre-completion-sixth-catalog.json.gz",
+  "previousCatalogSha256": "8feda7826eb6f2d504ebf0749c540ed91b6a7083fa83292e90a5687c6453a45c",
+  "scope": "Tratamento das pendências com pares oficiais e leituras normativas dirigidas; amostras não certificam cobertura integral. Sem aceite humano simulado.",
+  "items": [
+    {
+      "questionId": "038-anm-005-01-q115",
+      "paperId": "source-038-anm-005-01",
+      "number": 115,
+      "sourcePage": 3,
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "right",
+          "y": 744.2567,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 303.359,
+              "y": 744.2567,
+              "text": "115 A denúncia formulada pela empresa mineradora X será"
+            }
+          ],
+          "text": "115 A denúncia formulada pela empresa mineradora X será"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 755.5364,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 755.5364,
+              "text": "remetida ao Órgão Central do Sistema de Correição do"
+            }
+          ],
+          "text": "remetida ao Órgão Central do Sistema de Correição do"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 766.69658,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 766.69658,
+              "text": "Poder Executivo Federal (SISCOR), para a apreciação da sua"
+            }
+          ],
+          "text": "Poder Executivo Federal (SISCOR), para a apreciação da sua"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 777.85676,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 777.85676,
+              "text": "admissibilidade, e, havendo juízo positivo, ela retornará à"
+            }
+          ],
+          "text": "admissibilidade, e, havendo juízo positivo, ela retornará à"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "y": 789.01694,
+          "parts": [
+            {
+              "page": 3,
+              "column": "right",
+              "x": 321.239,
+              "y": 789.01694,
+              "text": "unidade setorial da ANM para o devido processamento."
+            }
+          ],
+          "text": "unidade setorial da ANM para o devido processamento."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": false,
+      "contextIds": [
+        "completion6-anm-denuncia"
+      ],
+      "syllabusItemIds": [
+        "cgu-2026-integridade-transparencia-responsabilizacao-5-1"
+      ]
+    },
+    {
+      "questionId": "038-anm-005-01-q116",
+      "paperId": "source-038-anm-005-01",
+      "number": 116,
+      "sourcePage": 4,
+      "sourceLineGroups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 46.9367,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.3191,
+              "y": 46.9367,
+              "text": "116 Admitida a denúncia apresentada pela empresa mineradora X, será instaurado procedimento investigativo prévio, o qual, a"
+            }
+          ],
+          "text": "116 Admitida a denúncia apresentada pela empresa mineradora X, será instaurado procedimento investigativo prévio, o qual, a"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 57.736328,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 57.736328,
+              "text": "depender do seu resultado, poderá ser convertido em processo correcional em desfavor de João."
+            }
+          ],
+          "text": "depender do seu resultado, poderá ser convertido em processo correcional em desfavor de João."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": false,
+      "contextIds": [
+        "completion6-anm-denuncia"
+      ],
+      "syllabusItemIds": [
+        "cgu-2026-direito-controle-responsabilizacao-2-2",
+        "cgu-2026-integridade-transparencia-responsabilizacao-5-1"
+      ]
+    },
+    {
+      "questionId": "038-anm-005-01-q117",
+      "paperId": "source-038-anm-005-01",
+      "number": 117,
+      "sourcePage": 4,
+      "sourceLineGroups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 70.3367,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.3191,
+              "y": 70.3367,
+              "text": "117 Caso a empresa mineradora X quisesse evitar novas retaliações de João, ela poderia legitimamente valer-se da denúncia anônima,"
+            }
+          ],
+          "text": "117 Caso a empresa mineradora X quisesse evitar novas retaliações de João, ela poderia legitimamente valer-se da denúncia anônima,"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 81.136328,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 81.136328,
+              "text": "que se submete aos mesmos requisitos e procedimentos da denúncia com autor identificado."
+            }
+          ],
+          "text": "que se submete aos mesmos requisitos e procedimentos da denúncia com autor identificado."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": true,
+      "contextIds": [
+        "completion6-anm-denuncia"
+      ],
+      "syllabusItemIds": [
+        "cgu-2026-transparencia-ouvidoria-3-2",
+        "cgu-2026-integridade-transparencia-responsabilizacao-5-1"
+      ]
+    },
+    {
+      "questionId": "038-anm-005-01-q118",
+      "paperId": "source-038-anm-005-01",
+      "number": 118,
+      "sourcePage": 4,
+      "sourceLineGroups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 123.6167,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.3191,
+              "y": 123.6167,
+              "text": "118 No curso do processo administrativo de responsabilização (PAR), o acordo de leniência pode decorrer de proposta inicial"
+            }
+          ],
+          "text": "118 No curso do processo administrativo de responsabilização (PAR), o acordo de leniência pode decorrer de proposta inicial"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 134.296808,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 134.296808,
+              "text": "apresentada pela autoridade do órgão competente ou da manifestação da pessoa jurídica sobre seu interesse em cooperar para a"
+            }
+          ],
+          "text": "apresentada pela autoridade do órgão competente ou da manifestação da pessoa jurídica sobre seu interesse em cooperar para a"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 145.096436,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 145.096436,
+              "text": "apuração do ato ilícito."
+            }
+          ],
+          "text": "apuração do ato ilícito."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": false,
+      "contextIds": [
+        "completion6-anm-par"
+      ],
+      "syllabusItemIds": [
+        "cgu-2026-integridade-transparencia-responsabilizacao-6-3"
+      ]
+    },
+    {
+      "questionId": "038-anm-005-01-q119",
+      "paperId": "source-038-anm-005-01",
+      "number": 119,
+      "sourcePage": 4,
+      "sourceLineGroups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 157.6967,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.3191,
+              "y": 157.6967,
+              "text": "119 No âmbito do processo administrativo de responsabilização (PAR), dependem de autorização judicial a medida de busca e"
+            }
+          ],
+          "text": "119 No âmbito do processo administrativo de responsabilização (PAR), dependem de autorização judicial a medida de busca e"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 168.376808,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 168.376808,
+              "text": "apreensão necessária para a investigação e o processamento das infrações, bem como a utilização de prova emprestada, quando"
+            }
+          ],
+          "text": "apreensão necessária para a investigação e o processamento das infrações, bem como a utilização de prova emprestada, quando"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 179.056916,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 179.056916,
+              "text": "oriunda de processo judicial."
+            }
+          ],
+          "text": "oriunda de processo judicial."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": true,
+      "contextIds": [
+        "completion6-anm-par"
+      ],
+      "syllabusItemIds": [
+        "cgu-2026-auditoria-governamental-1-4"
+      ]
+    },
+    {
+      "questionId": "038-anm-005-01-q120",
+      "paperId": "source-038-anm-005-01",
+      "number": 120,
+      "sourcePage": 4,
+      "sourceLineGroups": [
+        {
+          "page": 4,
+          "column": "left",
+          "y": 191.6567,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 28.3191,
+              "y": 191.6567,
+              "text": "120 No processo administrativo de responsabilização (PAR), é possível a apuração conjunta de ato lesivo previsto na Lei"
+            }
+          ],
+          "text": "120 No processo administrativo de responsabilização (PAR), é possível a apuração conjunta de ato lesivo previsto na Lei"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 202.456328,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 202.456328,
+              "text": "n.º 12.846/2013 e de infração administrativa praticada em licitações, desde que ela também seja tipificada como ato lesivo na"
+            }
+          ],
+          "text": "n.º 12.846/2013 e de infração administrativa praticada em licitações, desde que ela também seja tipificada como ato lesivo na"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "y": 213.136436,
+          "parts": [
+            {
+              "page": 4,
+              "column": "left",
+              "x": 46.1991,
+              "y": 213.136436,
+              "text": "referida lei e a autoridade competente para o julgamento das duas infrações seja a mesma."
+            }
+          ],
+          "text": "referida lei e a autoridade competente para o julgamento das duas infrações seja a mesma."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": false,
+      "contextIds": [
+        "completion6-anm-par"
+      ],
+      "syllabusItemIds": [
+        "cgu-2026-integridade-transparencia-responsabilizacao-6-5"
+      ]
+    },
+    {
+      "questionId": "cge-sc-2023-contabeis-tarde-tipo1-q001",
+      "paperId": "source-cge-sc-2023-contabeis-tarde-tipo1",
+      "number": 1,
+      "sourcePage": 2,
+      "sourceLineGroups": [
+        {
+          "page": 2,
+          "column": "left",
+          "x": 42.625,
+          "y": 104.88,
+          "text": "Uma sociedade empresária mantinha internamente uma conta"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "x": 42.625,
+          "y": 115.88,
+          "text": "bancária de livre movimentação especial para pagamentos"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "x": 42.625,
+          "y": 126.88,
+          "text": "específicos relacionados à distribuição de dividendos aos"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "x": 42.625,
+          "y": 137.88,
+          "text": "acionistas. Em 31/01/X0 o saldo da conta era de R$30.000."
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "x": 42.625,
+          "y": 150.88,
+          "text": "Assinale a opção que indica a contabilização deste montante no"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "x": 42.625,
+          "y": 161.9,
+          "text": "ativo circulante da sociedade empresária."
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "x": 42.625,
+          "y": 174.9,
+          "text": "(A) Contas a pagar."
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "x": 42.625,
+          "y": 186.9,
+          "text": "(B) Disponibilidades."
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "x": 42.625,
+          "y": 198.9,
+          "text": "(C) Despesas a pagar."
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "x": 42.625,
+          "y": 210.9,
+          "text": "(D) Dividendos a receber."
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "x": 42.625,
+          "y": 222.9,
+          "text": "(E) Despesas antecipadas."
+        }
+      ],
+      "answerKeyPage": 3,
+      "answerValue": "b",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-6-2"
+      ]
+    },
+    {
+      "questionId": "cge-sc-2023-contabeis-tarde-tipo1-q004",
+      "paperId": "source-cge-sc-2023-contabeis-tarde-tipo1",
+      "number": 4,
+      "sourcePage": 2,
+      "sourceLineGroups": [
+        {
+          "page": 2,
+          "column": "right",
+          "x": 311.7,
+          "y": 72.67,
+          "text": "A Cia A produz navios e tem ciclo operacional de dezoito meses."
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 311.7,
+          "y": 85.47,
+          "text": "Já a Cia B produz móveis para encomenda e tem ciclo operacional"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 311.7,
+          "y": 96.47,
+          "text": "de dez meses."
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 311.7,
+          "y": 109.47,
+          "text": "O prazo para classificação das exigibilidades das Cias A e B,"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 311.7,
+          "y": 120.47,
+          "text": "respectivamente, em Passivo Circulante e Passivo não Circulante,"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 311.7,
+          "y": 131.48,
+          "text": "considerando que as empresas optam por adotar o prazo do"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 311.7,
+          "y": 142.47,
+          "text": "exercício social de acordo com o ciclo operacional, é de"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 311.7,
+          "y": 155.47,
+          "text": "(A) doze meses e dez meses."
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 311.7,
+          "y": 167.5,
+          "text": "(B) doze meses e doze meses."
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 311.7,
+          "y": 179.5,
+          "text": "(C) quinze meses e onze meses."
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 311.7,
+          "y": 191.5,
+          "text": "(D) dezoito meses e dez meses."
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 311.7,
+          "y": 203.5,
+          "text": "(E) dezoito meses e doze meses."
+        }
+      ],
+      "answerKeyPage": 3,
+      "answerValue": "e",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-6-2"
+      ]
+    },
+    {
+      "questionId": "cge-sc-2023-contabeis-tarde-tipo1-q007",
+      "paperId": "source-cge-sc-2023-contabeis-tarde-tipo1",
+      "number": 7,
+      "sourcePage": 3,
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 72.67,
+          "text": "Em 01/01/X1, ao adquirir participação em uma sociedade"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 83.47,
+          "text": "empresária, uma entidade reconheceu ágio, que foi justificado"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 94.47,
+          "text": "por expectativa de rentabilidade futura (goodwill) de R$20.000."
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 105.47,
+          "text": "A entidade realiza o teste de recuperabilidade de seus ativos"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 116.47,
+          "text": "anualmente, de acordo com o Pronunciamento Técnico CPC 01"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 127.48,
+          "text": "(R1) - Redução ao Valor Recuperável de Ativos."
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 140.48,
+          "text": "A entidade verificou que, em 31/12/X1 e em 31/12/X2, o valor"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 151.47,
+          "text": "recuperável do ágio era, respectivamente, de R$18.000 e de"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 162.5,
+          "text": "R$22.000."
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 175.5,
+          "text": "Em relação ao reconhecimento contábil do efeito do teste de"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 186.5,
+          "text": "recuperabilidade em 31/12/X2 na Demonstração do Resultado do"
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 197.5,
+          "text": "Exercício da entidade, assinale a afirmativa correta."
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 210.5,
+          "text": "(A) Receita de R$2.000."
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 222.5,
+          "text": "(B) Receita de R$4.000."
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 234.5,
+          "text": "(C) Reversão da despesa de R$2.000."
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 246.3,
+          "text": "(D) Reversão da despesa de R$4.000."
+        },
+        {
+          "page": 3,
+          "column": "left",
+          "x": 42.625,
+          "y": 258.3,
+          "text": "(E) Não há reconhecimento."
+        }
+      ],
+      "answerKeyPage": 3,
+      "answerValue": "e",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-6-3"
+      ]
+    },
+    {
+      "questionId": "cge-sc-2023-contabeis-tarde-tipo1-q011",
+      "paperId": "source-cge-sc-2023-contabeis-tarde-tipo1",
+      "number": 11,
+      "sourcePage": 3,
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 248.5,
+          "text": "De acordo com o Pronunciamento Técnico CPC 03 (R2) -"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 259.3,
+          "text": "Demonstração dos Fluxos de Caixa, os fluxos de caixa agregados"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 270.3,
+          "text": "advindos da obtenção e da perda de controle de controladas"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 281.33,
+          "text": "devem ser apresentados separadamente e classificados,"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 292.33,
+          "text": "respectivamente, nas atividades"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 305.33,
+          "text": "(A) operacional e operacional."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 317.33,
+          "text": "(B) de investimento e de investimento."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 329.33,
+          "text": "(C) de investimento e de financiamento."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 341.32,
+          "text": "(D) de financiamento e de investimento."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 353.33,
+          "text": "(E) de financiamento e de financiamento."
+        }
+      ],
+      "answerKeyPage": 3,
+      "answerValue": "b",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-6-2"
+      ]
+    },
+    {
+      "questionId": "cge-sc-2023-contabeis-tarde-tipo1-q012",
+      "paperId": "source-cge-sc-2023-contabeis-tarde-tipo1",
+      "number": 12,
+      "sourcePage": 3,
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 387.35,
+          "text": "De acordo com o Pronunciamento Técnico CPC 26 (R1)-"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 398.35,
+          "text": "Apresentação das Demonstrações Contábeis, no processo de"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 409.35,
+          "text": "aplicação das políticas contábeis de uma entidade, a"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 420.35,
+          "text": "administração exerce diversos julgamentos, além dos que"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 431.35,
+          "text": "envolvem estimativas que podem afetar significativamente os"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 442.15,
+          "text": "montantes reconhecidos em suas demonstrações contábeis."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 455.15,
+          "text": "A entidade deve divulgar, nas notas explicativas, informação"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 466.15,
+          "text": "acerca dos pressupostos relativos ao futuro e outras fontes"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 477.15,
+          "text": "principais de incerteza nas estimativas ao término do período de"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 488.15,
+          "text": "reporte que possuam risco significativo de provocar ajuste"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 499.18,
+          "text": "material nos valores contábeis de ativos e passivos ao longo do"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 510.17,
+          "text": "exercício social seguinte."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 523.17,
+          "text": "A respeito desses ativos e passivos, segundo o pronunciamento,"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 534.17,
+          "text": "as notas explicativas devem incluir detalhes elucidativos acerca"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 547.17,
+          "text": "(A) da sua natureza e da sua função."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 559.17,
+          "text": "(B) da sua função e das expectativas iniciais em relação a ele."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 571.17,
+          "text": "(C) do seu valor contábil no início e ao término do período de"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 325.9,
+          "y": 582.17,
+          "text": "reporte."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 594.18,
+          "text": "(D) da sua natureza e do seu valor contábil ao término do"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 325.9,
+          "y": 604.97,
+          "text": "período de reporte."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 311.7,
+          "y": 617.0,
+          "text": "(E) do seu valor contábil no início do período de reporte e das"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 325.9,
+          "y": 628.0,
+          "text": "expectativas iniciais em relação a ele."
+        }
+      ],
+      "answerKeyPage": 3,
+      "answerValue": "d",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-6-2"
+      ]
+    },
+    {
+      "questionId": "cge-sc-2023-contabeis-tarde-tipo1-q013",
+      "paperId": "source-cge-sc-2023-contabeis-tarde-tipo1",
+      "number": 13,
+      "sourcePage": 4,
+      "sourceLineGroups": [
+        {
+          "page": 4,
+          "column": "left",
+          "x": 42.625,
+          "y": 72.67,
+          "text": "De acordo com o Pronunciamento Técnico CPC 26 (R1)-"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 42.625,
+          "y": 83.47,
+          "text": "Apresentação das Demonstrações Contábeis, a entidade deve"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 42.625,
+          "y": 94.47,
+          "text": "divulgar algumas informações que não tenham sido divulgadas"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 42.625,
+          "y": 105.47,
+          "text": "em outro local entre as informações publicadas com as"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 42.625,
+          "y": 116.47,
+          "text": "demonstrações contábeis."
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 42.625,
+          "y": 129.48,
+          "text": "Avalie se tais informações incluem:"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 42.625,
+          "y": 142.47,
+          "text": "I. o domicílio e a forma jurídica da entidade, o seu país de"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 56.825,
+          "y": 153.48,
+          "text": "registro e o endereço da sede registrada ou o local principal"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 56.825,
+          "y": 164.5,
+          "text": "dos negócios."
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 42.625,
+          "y": 176.5,
+          "text": "II. a descrição da natureza das operações da entidade e das suas"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 56.825,
+          "y": 187.5,
+          "text": "principais atividades."
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 42.625,
+          "y": 199.5,
+          "text": "III. o nome da entidade controladora e a entidade controladora"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 56.825,
+          "y": 210.5,
+          "text": "do grupo em última instância."
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 42.625,
+          "y": 223.5,
+          "text": "Está correto o que se afirma em"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 42.625,
+          "y": 236.5,
+          "text": "(A) I, somente."
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 42.625,
+          "y": 248.3,
+          "text": "(B) I e II, somente."
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 42.625,
+          "y": 260.3,
+          "text": "(C) I e III, somente."
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 42.625,
+          "y": 272.33,
+          "text": "(D) II e III, somente."
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 42.625,
+          "y": 284.33,
+          "text": "(E) I, II e III."
+        }
+      ],
+      "answerKeyPage": 3,
+      "answerValue": "e",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-6-2"
+      ]
+    },
+    {
+      "questionId": "cge-sc-2023-contabeis-tarde-tipo1-q021",
+      "paperId": "source-cge-sc-2023-contabeis-tarde-tipo1",
+      "number": 21,
+      "sourcePage": 5,
+      "sourceLineGroups": [
+        {
+          "page": 5,
+          "column": "left",
+          "x": 42.625,
+          "y": 695.2,
+          "text": "Na análise econômico-financeira, os indicadores que necessitam"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 42.625,
+          "y": 706.0,
+          "text": "dos dados da Demonstração do Resultado do Exercício para"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 42.625,
+          "y": 717.0,
+          "text": "serem calculados são"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 42.625,
+          "y": 728.03,
+          "text": "(A) rentabilidade e liquidez."
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 42.625,
+          "y": 739.025,
+          "text": "(B) liquidez e endividamento."
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 42.625,
+          "y": 750.025,
+          "text": "(C) lucratividade e rentabilidade."
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 42.625,
+          "y": 761.025,
+          "text": "(D) endividamento e lucratividade."
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 42.625,
+          "y": 772.025,
+          "text": "(E) rentabilidade e endividamento."
+        }
+      ],
+      "answerKeyPage": 3,
+      "answerValue": "c",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-6-2"
+      ]
+    },
+    {
+      "questionId": "cge-sc-2023-administracao-tarde-tipo1-q016",
+      "paperId": "source-cge-sc-2023-administracao-tarde-tipo1",
+      "number": 16,
+      "sourcePage": 6,
+      "sourceLineGroups": [
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 362.33,
+          "text": "Pesquisas demonstram que entre os principais fatores de sucesso"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 373.33,
+          "text": "de projetos encontra-se uma estrutura organizacional adequada"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 384.33,
+          "text": "e correta. Alguns projetos são sensíveis a mudanças externas em"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 395.35,
+          "text": "função da sua natureza e de suas relações com o ambiente,"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 406.35,
+          "text": "como, por exemplo, acontecimentos políticos, econômicos ou"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 417.35,
+          "text": "ambientais. Esses fatores devem ser levados em conta na"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 428.15,
+          "text": "avaliação do projeto."
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 441.15,
+          "text": "Sobre a avaliação de projetos, analise os itens a seguir:"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 454.15,
+          "text": "I. Benchmarking é o termo correntemente aplicado à atividade"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 325.9,
+          "y": 465.15,
+          "text": "de comparação entre as melhores práticas e resultados; é"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 325.9,
+          "y": 476.15,
+          "text": "definido como “a busca das melhores práticas em um setor"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 325.9,
+          "y": 487.15,
+          "text": "de atividades que resultam em desempenho superior”."
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 499.18,
+          "text": "II. O relatório de implantação do projeto normalmente é um"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 325.9,
+          "y": 510.17,
+          "text": "detalhado enunciado da situação que confirma que as"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 325.9,
+          "y": 521.17,
+          "text": "instalações são adequadas e que o projeto foi estabelecido"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 325.9,
+          "y": 532.17,
+          "text": "com sucesso, recomendando mudanças maiores que possam"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 325.9,
+          "y": 543.17,
+          "text": "ser desejáveis e estabelecendo acordo quanto a seguir"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 325.9,
+          "y": 554.17,
+          "text": "adiante."
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 566.17,
+          "text": "III. As inspeções de marcos (milestones) são semelhantes às"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 325.9,
+          "y": 577.17,
+          "text": "inspeções periódicas, exceto pelo fato de que a atenção"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 325.9,
+          "y": 587.98,
+          "text": "concentra-se na consecução de uma determinada meta,"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 325.9,
+          "y": 598.98,
+          "text": "ponto de progresso ou no efeito do evento especial que"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 325.9,
+          "y": 610.0,
+          "text": "tornou necessária a inspeção."
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 623.0,
+          "text": "Está correto o que se afirma em"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 636.0,
+          "text": "(A) I, II e III."
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 648.0,
+          "text": "(B) I e II, apenas."
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 660.0,
+          "text": "(C) I e III, apenas."
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 672.0,
+          "text": "(D) II e III apenas."
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 311.7,
+          "y": 684.0,
+          "text": "(E) I, apenas."
+        }
+      ],
+      "answerKeyPage": 2,
+      "answerValue": "c",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-2-2"
+      ]
+    },
+    {
+      "questionId": "cgu-2022-auditoria-tarde-tipo1-q042",
+      "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+      "number": 42,
+      "sourcePage": 14,
+      "sourceLineGroups": [
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 532.0,
+          "text": "Suponha que determinada empresa pública vinculada ao"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 542.92,
+          "text": "Ministério da Defesa conte com auditoria interna diretamente"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 553.96,
+          "text": "vinculada ao Conselho de Administração."
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 564.88,
+          "text": "A unidade de auditoria interna dessa empresa:"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 575.92,
+          "text": "(A) elabora a prestação de contas anual da empresa;"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 586.84,
+          "text": "(B) tem seu desempenho avaliado pela Controladoria-Geral da"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 597.88,
+          "text": "União;"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 608.92,
+          "text": "(C) deve apresentar seu plano de trabalho do exercício seguinte"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 619.84,
+          "text": "ao órgão setorial de controle interno do Ministério da Defesa;"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 630.88,
+          "text": "(D) está sujeita à orientação normativa e supervisão técnica da"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 641.8,
+          "text": "Secretaria de Controle Interno da Presidência da República;"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 652.87,
+          "text": "(E) pode ter seu titular dispensado pelo dirigente máximo da"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 663.79,
+          "text": "empresa após aprovação do Conselho de Administração, sem"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 674.83,
+          "text": "necessidade de consulta à Controladoria-Geral da União."
+        }
+      ],
+      "answerKeyPage": 17,
+      "answerValue": "c",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-financas-orcamento-contabilidade-7-1"
+      ]
+    }
+  ],
+  "contexts": [
+    {
+      "contextId": "completion6-anm-denuncia",
+      "sourceLineGroups": [
+        {
+          "page": 3,
+          "column": "right",
+          "x": 331.798929,
+          "y": 467.41778,
+          "text": "João é servidor público efetivo da ANM e desempenha a"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 303.359,
+          "y": 478.5767,
+          "text": "função de fiscalização da exploração e do aproveitamento de"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 303.359,
+          "y": 489.73688,
+          "text": "recursos minerais. No exercício dessa função, João solicitou à"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 303.359,
+          "y": 500.89706,
+          "text": "empresa mineradora X o pagamento de propina, em dinheiro,"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 303.359,
+          "y": 512.05724,
+          "text": "para não fiscalizar as atividades minerárias da referida empresa, a"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 303.359,
+          "y": 523.21742,
+          "text": "qual, por sua vez, não cedeu ao assédio de João e recusou-se a"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 303.359,
+          "y": 534.3776,
+          "text": "efetuar o pagamento da propina solicitada. Mesmo sabendo da"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 303.359,
+          "y": 545.53778,
+          "text": "regularidade das atividades da empresa mineradora X, e sem que"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 303.359,
+          "y": 556.69796,
+          "text": "houvesse justa causa fundamentada, João decidiu, em retaliação,"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 303.359,
+          "y": 567.85814,
+          "text": "instaurar processo administrativo fiscalizatório, com escopo"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 303.359,
+          "y": 579.01832,
+          "text": "amplo e irrestrito, contra a empresa. Em razão desses fatos, a"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 303.359,
+          "y": 590.1785,
+          "text": "empresa formalizou denúncia à unidade setorial de correição"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 303.359,
+          "y": 601.33868,
+          "text": "da ANM, expondo o ocorrido. A denúncia foi devidamente"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 303.359,
+          "y": 612.61838,
+          "text": "acompanhada dos indícios de autoria e materialidade dos fatos."
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 303.359,
+          "y": 626.778512,
+          "text": "Considerando essa situação hipotética, julgue os itens a seguir, à"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 303.359,
+          "y": 637.938692,
+          "text": "luz das Leis n.º 8.429/1992, n.º 12.813/2013 e n.º 13.869/2019 e"
+        },
+        {
+          "page": 3,
+          "column": "right",
+          "x": 303.359,
+          "y": 649.098872,
+          "text": "da Portaria Normativa CGU n.º 27/2022."
+        }
+      ]
+    },
+    {
+      "contextId": "completion6-anm-par",
+      "sourceLineGroups": [
+        {
+          "page": 4,
+          "column": "left",
+          "x": 28.318687,
+          "y": 99.256556,
+          "text": "Acerca da responsabilização administrativa e civil de pessoas jurídicas pela prática de atos contra a administração pública, julgue os"
+        },
+        {
+          "page": 4,
+          "column": "left",
+          "x": 28.3191,
+          "y": 109.9367,
+          "text": "itens subsequentes, com base na Lei n.º 12.846/2013, na Portaria Normativa CGU n.º 27/2022 e no Decreto n.º 11.129/2022."
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "section": "roles",
+      "id": "cgu-auditoria",
+      "before": {
+        "id": "cgu-auditoria",
+        "contestId": "cgu-2026",
+        "title": "Auditor Federal de Finanças e Controle — Auditoria",
+        "status": "verified",
+        "referenceDocumentIds": [
+          "cgu-2026-abertura-atualizada",
+          "reference-cgu-in3-2017-consolidada",
+          "reference-cgu-in7-2017",
+          "reference-mcasp-11-2025",
+          "reference-lei-12846-2013",
+          "reference-cns-510-2016",
+          "reference-lei-12813-2013",
+          "reference-decreto-11129-2022",
+          "reference-nbc-tsp-34",
+          "reference-nbc-tg-25-r2",
+          "reference-nbc-tg-01-r4",
+          "reference-lei-6404-1976"
+        ]
+      },
+      "after": {
+        "id": "cgu-auditoria",
+        "contestId": "cgu-2026",
+        "title": "Auditor Federal de Finanças e Controle — Auditoria",
+        "status": "verified",
+        "referenceDocumentIds": [
+          "cgu-2026-abertura-atualizada",
+          "reference-cgu-in3-2017-consolidada",
+          "reference-cgu-in7-2017",
+          "reference-mcasp-11-2025",
+          "reference-lei-12846-2013",
+          "reference-cns-510-2016",
+          "reference-lei-12813-2013",
+          "reference-decreto-11129-2022",
+          "reference-nbc-tsp-34",
+          "reference-nbc-tg-25-r2",
+          "reference-nbc-tg-01-r4",
+          "reference-lei-6404-1976",
+          "reference-cgu-pn27-2022",
+          "reference-cgu-pn54-2023",
+          "reference-cgu-pn123-2024",
+          "reference-nbc-tg26-r5",
+          "reference-nbc-tg03-r3"
+        ]
+      },
+      "reason": "Apenas apêndice de cinco referências do lote; regras e programa preservados."
+    },
+    {
+      "section": "questions",
+      "id": "camara-2014-cb2-03-q084",
+      "before": {
+        "id": "camara-2014-cb2-03-q084",
+        "bankId": "concursos",
+        "revision": 1,
+        "type": "true_false",
+        "stem": "O deputado federal que acusar, em discurso, outro parlamentar da prática de crime contra a administração pública responderá perante o STF pelo crime de difamação.",
+        "options": [],
+        "contextIds": [
+          "camara-2014-parliamentary-status-command"
+        ],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-camara-2014-consultor-cb2-03",
+          "number": 84,
+          "locator": "PDF p. 9"
+        },
+        "answerKeyId": "camara-2014-cb2-03-q084-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-23",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados.",
+          "decisionReference": "documentation/tenth-batch-release.md"
+        }
+      },
+      "after": {
+        "id": "camara-2014-cb2-03-q084",
+        "bankId": "concursos",
+        "revision": 2,
+        "type": "true_false",
+        "stem": "O deputado federal que acusar, em discurso, outro parlamentar da prática de crime contra a administração pública responderá perante o STF pelo crime de difamação.",
+        "options": [],
+        "contextIds": [
+          "camara-2014-parliamentary-status-command"
+        ],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-camara-2014-consultor-cb2-03",
+          "number": 84,
+          "locator": "PDF p. 9"
+        },
+        "answerKeyId": "camara-2014-cb2-03-q084-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-29",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Dispositivos ativos citados cotejados com os textos oficiais retidos em 23/10/2026; enunciado e gabarito originais preservados. Vínculo adicional ao RICD art.231, §1º, conferido em29/10/2026; amostra de inviolabilidade, não de todos os arts.226–251.",
+          "decisionReference": "documentation/tenth-batch-release.md"
+        }
+      },
+      "reason": "Reuso da garantia já avaliada, agora vinculada também ao RICD231§1; enunciado, contexto, chave e comentário originais intactos."
+    }
+  ],
+  "referenceRechecks": [
+    {
+      "documentId": "reference-cgu-pn27-2022",
+      "url": "https://basedeconhecimento.cgu.gov.br/server/api/core/bitstreams/9fde4761-4b40-4fae-9e37-33ff337640a1/content",
+      "file": "sources/references/CGU-PN27-2022-original.pdf",
+      "sha256": "69ebf0d0d7e013eaf74947adef4fe5631f95531485a1106a80c81b07f8093dc3",
+      "repeatSha256": "69ebf0d0d7e013eaf74947adef4fe5631f95531485a1106a80c81b07f8093dc3",
+      "repeatCheckedAt": "2026-10-29T16:12:12.919668+00:00",
+      "scope": "Somente dispositivos dos comentários. PN27 conserva texto original, alterações PN54/123 retidas separadamente; PN123 é PDF digitalizado, conferido também visualmente."
+    },
+    {
+      "documentId": "reference-cgu-pn54-2023",
+      "url": "https://basedeconhecimento.cgu.gov.br/server/api/core/bitstreams/ecfc0801-601a-424e-90db-8a455582a8bb/content",
+      "file": "sources/references/CGU-PN54-2023.pdf",
+      "sha256": "5c57bcd31348669fda1b08824419a4f0b600fa9c475ac78b15f79818ed22af86",
+      "repeatSha256": "5c57bcd31348669fda1b08824419a4f0b600fa9c475ac78b15f79818ed22af86",
+      "repeatCheckedAt": "2026-10-29T16:12:11.232878+00:00",
+      "scope": "Somente dispositivos dos comentários. PN27 conserva texto original, alterações PN54/123 retidas separadamente; PN123 é PDF digitalizado, conferido também visualmente."
+    },
+    {
+      "documentId": "reference-cgu-pn123-2024",
+      "url": "https://basedeconhecimento.cgu.gov.br/server/api/core/bitstreams/ac1d389f-bae5-4e1b-bb64-9ef813b73794/content",
+      "file": "sources/references/CGU-PN123-2024.pdf",
+      "sha256": "c9173efc96730c35ed35c2cc436e8fbeb24c359f7d0eabbea2a3f7b0c7796287",
+      "repeatSha256": "c9173efc96730c35ed35c2cc436e8fbeb24c359f7d0eabbea2a3f7b0c7796287",
+      "repeatCheckedAt": "2026-10-29T16:12:11.044345+00:00",
+      "scope": "Somente dispositivos dos comentários. PN27 conserva texto original, alterações PN54/123 retidas separadamente; PN123 é PDF digitalizado, conferido também visualmente."
+    },
+    {
+      "documentId": "reference-nbc-tg26-r5",
+      "url": "https://www1.cfc.org.br/sisweb/SRE/docs/NBCTG26(R5).pdf",
+      "file": "sources/references/NBC-TG26-R5.pdf",
+      "sha256": "50b1682316e04346475f2ee1d079e396fb31cc5915cfc1c07d28cdb7257b647a",
+      "repeatSha256": "50b1682316e04346475f2ee1d079e396fb31cc5915cfc1c07d28cdb7257b647a",
+      "repeatCheckedAt": "2026-10-29T16:07:53.699551+00:00",
+      "scope": "Somente dispositivos dos comentários. PN27 conserva texto original, alterações PN54/123 retidas separadamente; PN123 é PDF digitalizado, conferido também visualmente."
+    },
+    {
+      "documentId": "reference-nbc-tg03-r3",
+      "url": "https://www1.cfc.org.br/sisweb/SRE/docs/NBCTG03(R3).pdf",
+      "file": "sources/references/NBC-TG03-R3.pdf",
+      "sha256": "00b2e520706d3f9e293182824cd757bcc7c0eae551cad40911234c853ca7374f",
+      "repeatSha256": "00b2e520706d3f9e293182824cd757bcc7c0eae551cad40911234c853ca7374f",
+      "repeatCheckedAt": "2026-10-29T16:07:53.852404+00:00",
+      "scope": "Somente dispositivos dos comentários. PN27 conserva texto original, alterações PN54/123 retidas separadamente; PN123 é PDF digitalizado, conferido também visualmente."
+    }
+  ],
+  "sourcePairs": [
+    {
+      "paperId": "source-cge-sc-2023-administracao-tarde-tipo1",
+      "booklet": "Auditor do Estado - Administração - TIPO 1 (Tarde)",
+      "documents": [
+        {
+          "documentId": "source-cge-sc-2023-administracao-tarde-tipo1-paper",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cns201_-_auditor_do_estado_-_administracao_tardecns201_tipo_1_0.pdf",
+          "file": "sources/papers/cge-sc-2023-administracao-tarde-tipo1.pdf",
+          "sha256": "9cdb565adc648b742c6f3b5ffae1e981d2ae08c8c014799e9c68a57db7773f5c",
+          "repeatSha256": "9cdb565adc648b742c6f3b5ffae1e981d2ae08c8c014799e9c68a57db7773f5c",
+          "repeatCheckedAt": "2026-10-29T16:07:52.866759+00:00"
+        },
+        {
+          "documentId": "source-cge-sc-2023-administracao-tarde-tipo1-key",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cgesc2022_gabarito_definitivo_retificado_20230327.pdf",
+          "file": "sources/answer-keys/cge-sc-2023-definitivo-retificado.pdf",
+          "sha256": "b153e92d6a76fb853064f7b1ece8b02c306df1a15adfa71da36f1c99a118fd84",
+          "repeatSha256": "b153e92d6a76fb853064f7b1ece8b02c306df1a15adfa71da36f1c99a118fd84",
+          "repeatCheckedAt": "2026-10-29T16:07:51.864940+00:00"
+        }
+      ],
+      "annulledItems": [
+        42,
+        43
+      ],
+      "keyVersion": "Gabarito oficial definitivo retificado em28/03/2023; sessão e área exatas; não usar tabela manhã."
+    },
+    {
+      "paperId": "source-cge-sc-2023-contabeis-tarde-tipo1",
+      "booklet": "Auditor do Estado - Ciências Contábeis - TIPO 1 (Tarde)",
+      "documents": [
+        {
+          "documentId": "source-cge-sc-2023-contabeis-tarde-tipo1-paper",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cns203_-_auditor_do_estado_-_ciencias_contabeis_tardecns203_tipo_1_0.pdf",
+          "file": "sources/papers/cge-sc-2023-contabeis-tarde-tipo1.pdf",
+          "sha256": "5de5f73573f89a4fd32c2a600584e20e61a21cb35f47c7f63f95fb45f335549f",
+          "repeatSha256": "5de5f73573f89a4fd32c2a600584e20e61a21cb35f47c7f63f95fb45f335549f",
+          "repeatCheckedAt": "2026-10-29T16:07:53.154042+00:00"
+        },
+        {
+          "documentId": "source-cge-sc-2023-contabeis-tarde-tipo1-key",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cgesc2022_gabarito_definitivo_retificado_20230327.pdf",
+          "file": "sources/answer-keys/cge-sc-2023-definitivo-retificado.pdf",
+          "sha256": "b153e92d6a76fb853064f7b1ece8b02c306df1a15adfa71da36f1c99a118fd84",
+          "repeatSha256": "b153e92d6a76fb853064f7b1ece8b02c306df1a15adfa71da36f1c99a118fd84",
+          "repeatCheckedAt": "2026-10-29T16:07:51.864940+00:00"
+        }
+      ],
+      "annulledItems": [],
+      "keyVersion": "Gabarito oficial definitivo retificado em28/03/2023; sessão e área exatas; não usar tabela manhã."
+    }
+  ],
+  "excluded": [
+    {
+      "source": "CGU2022 Correição78",
+      "reason": "Texto primário da PortariaConjunta2279/2015 não obtido. Listagem oficial não valida os parâmetros; item permanece fora, sem alteração de chave."
+    },
+    {
+      "source": "CGE-SC manhã29 e37",
+      "reason": "29 requer confronto do decreto estadual com proteção federal; falta texto estadual primário confirmado. 37 é anulada no definitivo. Nenhuma liberada."
+    },
+    {
+      "source": "ABDI2008 e buscasFGV24/25",
+      "reason": "Sem novo par oficial com regras atuais dos12ramos próprios. Não reintroduzir princípios/instrumentos obsoletos, clonar cadernos ou criar questões para normas2024–2029."
+    },
+    {
+      "source": "Métodos qualitativos/mistos CGU4.2",
+      "reason": "Não usar simples coexistência ou reconhecimento de métodos para afirmar que a questão testa triangulação e integração de evidências. Sem novo caso confirmado nesta seleção."
+    },
+    {
+      "source": "TelebrasCB36",
+      "reason": "O comando remete a regimento próprio e a vedação absoluta exige leitura desse texto, sem substituir pelo item49 da IN3 que prevê salvaguardas em situações específicas."
+    },
+    {
+      "source": "Demais itens não selecionados",
+      "reason": "Figuras e tabelas que não têm representação integral, preliminares, anuladas e regras específicas não reconferidas não foram liberadas."
+    }
+  ],
+  "researchEvidence": [
+    {
+      "file": "data/reviews/completion-sixth-evidence/cgu-normativos.html",
+      "sha256": "7d7f74b6fa410804c6c3702d909f7d0df648e91b1fc1615edaf74e01e259714d"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/discovery.json",
+      "sha256": "7a0617756cc0e7d47c4db96429f6c3e23afec1639cb047c425aa7c72451601e2"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/events.json",
+      "sha256": "4deb42a241c4e5ea188716ac48debdcf56636b8b9d04e79af6712d5d3511a3c5"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/fgv-cgesc.html",
+      "sha256": "1c56d9a8894343086ca512c02ebc88673d12634639045d4168438aa9c9f20fc3"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/fifth-discovery.json",
+      "sha256": "b3a346447bf7685010fd26259dc01ef89a093ed19f03dc379d0a4d0e0dc2469e"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/fourth-discovery.json",
+      "sha256": "3bf05a1f5b79635890e844b3d2206b197f61cd93236c5ab95c0577e85c424e29"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/next.json",
+      "sha256": "ec1be11f657ea2cb7234418199107322d8a9810e0f1cb15cc61a89d7a74a7931"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/norms3.json",
+      "sha256": "a081af8e9c62275e8cbecb71405a830c05c6989fe3638f4cfe403cdd3dd6b1ff"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/norms4.json",
+      "sha256": "c511bf66a0cf36cd21b370f3ced05fb5a4a62141b29dae00571e51f8138328a8"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/norms5.json",
+      "sha256": "a5ebf0cf994d12da2e9860729669459c3274a74318baef63120cff8e679ffb78"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/norms6.json",
+      "sha256": "991f78100c326e642ba4e0d707e5f187e1207f61378a9961d7e4659b796657f4"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/pn123-meta.json",
+      "sha256": "e754ebaf243cedbc0a68646362c0f3d422e8e13b055410318d4430b31440fae2"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/pn123-ocr.txt",
+      "sha256": "be0e9b1bba92b840ef093ee189a401146bb9b2e8e8ff7e6557dacb57cf4091b0"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/pn123-page-3.png",
+      "sha256": "4d856cb06c6ea910a2751e853f5ebbf44f9423585fcb0d15b87c6b361ada6ac2"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/pn54-meta.json",
+      "sha256": "6497c6a476fe1d3943926942cb638bf6250c630f3e30cdd1dcfd56ea49c5a950"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/portaria27-item.json",
+      "sha256": "b0f962e467bf4db2403f9a278442fb288240c5c5f34e09867b88e21da6bfe1e6"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/portarias.json",
+      "sha256": "aaed64a24cc37964f851ed5d75e5fefcee993d6c238f0691403b2c90920a2783"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/sixth-discovery.json",
+      "sha256": "699b09e6fccb3446ee02c2fae6d1f1f019d25870fb6022c2b73f5b7faee52a36"
+    },
+    {
+      "file": "data/reviews/completion-sixth-evidence/third-discovery.json",
+      "sha256": "16f8c78300cf76164e12429e20036ef14d075a20b3472dc4ea7934a7d8870a7d"
+    }
+  ],
+  "legalScope": {
+    "portaria27": {
+      "originalDocumentId": "reference-cgu-pn27-2022",
+      "selectedArticles": [
+        16,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        119
+      ],
+      "amendments": [
+        {
+          "documentId": "reference-cgu-pn54-2023",
+          "scope": "Art4 altera PN27art45; fora dos recortes liberados."
+        },
+        {
+          "documentId": "reference-cgu-pn123-2024",
+          "scope": "Altera PN27art16 e36§1/§2; caput36 preservado e arts37–42 não alterados. Documento digitalizado lido com OCR como apoio e página3 visualmente conferida."
+        }
+      ],
+      "unresolvedLinks": [
+        "1/69865",
+        "1/92837"
+      ],
+      "limit": "Duas relações antigas do repositório retornaram404; não se declara auditoria de toda a portaria ou ausência de qualquer alteração posterior."
+    },
+    "microenterprise": {
+      "status": "primary_text_unavailable",
+      "listing": "https://www.gov.br/cgu/pt-br/assuntos/integridade-privada/materiaisdeorientacao/normativos",
+      "identifiedAct": "Portaria Conjunta CGU/SMPE2279/2015",
+      "officialDou": "https://www.in.gov.br/web/dou/-/portaria-conjunta-n-2-279-de-9-de-setembro-de-2015-30172271",
+      "outcome": "DOU503, PDF candidato404, busca oficial sem texto integral da portaria. Listagem não confirma conteúdo nem compatibilidade atual. CGU Correição78 continua fora."
+    },
+    "retainedReadings": [
+      {
+        "documentId": "reference-ricd-res17-1989",
+        "scope": "Art231§1 comparado à garantia já testada pela Câmara84; não alegar nova obtenção remota."
+      },
+      {
+        "documentId": "reference-lei-6404-1976",
+        "scope": "Art175 distingue exercício social do ciclo operacional; texto oficial retido nesta data."
+      },
+      {
+        "documentId": "reference-cgu-in3-2017-consolidada",
+        "scope": "Itens96–99 lidos para papéis de conselho/auditoria e órgãos de controle do casoCGU42; verificação remota anterior preservada."
+      }
+    ]
+  },
+  "mappingAdditions": [
+    {
+      "mapping": {
+        "id": "camara-2014-cb2-03-q084-completion6-ricd-mapping",
+        "questionId": "camara-2014-cb2-03-q084",
+        "syllabusItemId": "camara-2026-direito-constitucional-regimento-7-3",
+        "status": "confirmed",
+        "justification": "A inviolabilidade parlamentar avaliada no enunciado é reproduzida no RICDart231§1 (reference-ricd-res17-1989). Vínculo adicional restrito à garantia material, sem cobrir demais arts226–251."
+      },
+      "sourceDocumentId": "reference-ricd-res17-1989",
+      "locator": "Art.231, §1º"
+    }
+  ]
+}

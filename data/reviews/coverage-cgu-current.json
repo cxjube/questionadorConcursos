@@ -1,21 +1,21 @@
 {
   "totalItems": 266,
-  "directItems": 127,
-  "descendantsOnly": 63,
-  "emptyItems": 76,
-  "emptyLeaves": 66,
+  "directItems": 135,
+  "descendantsOnly": 64,
+  "emptyItems": 67,
+  "emptyLeaves": 58,
   "blocks": {
     "basic": {
       "total": 76,
       "ce": 71
     },
     "complementary": {
-      "total": 105,
-      "ce": 90
+      "total": 107,
+      "ce": 92
     },
     "specific": {
-      "total": 189,
-      "ce": 166
+      "total": 204,
+      "ce": 172
     }
   },
   "disciplines": [
@@ -78,22 +78,22 @@
       "id": "cgu-transparencia-ouvidoria",
       "label": "FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL",
       "totalItems": 21,
-      "directItems": 10,
+      "directItems": 11,
       "descendantsOnly": 4,
-      "emptyItems": 7,
-      "emptyLeaves": 5,
-      "questionsCE": 21,
+      "emptyItems": 6,
+      "emptyLeaves": 4,
+      "questionsCE": 22,
       "questionsMC": 4
     },
     {
       "id": "cgu-direito-controle-responsabilizacao",
       "label": "FUNDAMENTOS DE DIREITO PÚBLICO APLICADO, CONTROLE E RESPONSABILIZAÇÃO",
       "totalItems": 16,
-      "directItems": 9,
+      "directItems": 10,
       "descendantsOnly": 3,
-      "emptyItems": 4,
-      "emptyLeaves": 3,
-      "questionsCE": 19,
+      "emptyItems": 3,
+      "emptyLeaves": 2,
+      "questionsCE": 20,
       "questionsMC": 3
     },
     {
@@ -122,34 +122,34 @@
       "id": "cgu-auditoria-governamental",
       "label": "AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO",
       "totalItems": 19,
-      "directItems": 8,
+      "directItems": 9,
       "descendantsOnly": 6,
-      "emptyItems": 5,
-      "emptyLeaves": 5,
-      "questionsCE": 36,
+      "emptyItems": 4,
+      "emptyLeaves": 4,
+      "questionsCE": 37,
       "questionsMC": 3
     },
     {
       "id": "cgu-financas-orcamento-contabilidade",
       "label": "FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA",
       "totalItems": 25,
-      "directItems": 13,
-      "descendantsOnly": 4,
-      "emptyItems": 8,
-      "emptyLeaves": 7,
+      "directItems": 15,
+      "descendantsOnly": 5,
+      "emptyItems": 5,
+      "emptyLeaves": 5,
       "questionsCE": 53,
-      "questionsMC": 4
+      "questionsMC": 12
     },
     {
       "id": "cgu-politicas-investigacao-avaliacao",
       "label": "POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO",
       "totalItems": 28,
-      "directItems": 18,
+      "directItems": 19,
       "descendantsOnly": 5,
-      "emptyItems": 5,
-      "emptyLeaves": 5,
+      "emptyItems": 4,
+      "emptyLeaves": 4,
       "questionsCE": 41,
-      "questionsMC": 8
+      "questionsMC": 9
     },
     {
       "id": "cgu-contratacoes-transferencias",
@@ -166,11 +166,11 @@
       "id": "cgu-integridade-transparencia-responsabilizacao",
       "label": "INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO",
       "totalItems": 39,
-      "directItems": 13,
+      "directItems": 15,
       "descendantsOnly": 3,
-      "emptyItems": 23,
-      "emptyLeaves": 21,
-      "questionsCE": 27,
+      "emptyItems": 21,
+      "emptyLeaves": 19,
+      "questionsCE": 32,
       "questionsMC": 8
     }
   ],
@@ -1936,9 +1936,10 @@
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "038-anm-005-01-q117",
         "896-tcdf-ce1-01-q040"
       ],
-      "subtreeCE": 1,
+      "subtreeCE": 2,
       "subtreeMC": 0
     },
     {
@@ -1970,13 +1971,17 @@
       "block": "complementary",
       "parentTopicId": "cgu-2026-transparencia-ouvidoria-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-005-01-q117"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "038-anm-005-01-q117"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -2318,15 +2323,16 @@
       "parentTopicId": null,
       "isLeaf": false,
       "state": "descendants_only",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "038-anm-005-01-q116",
         "cgu-2022-auditoria-tarde-tipo1-q014",
         "cgu-2022-correicao-tarde-tipo1-q073"
       ],
-      "subtreeCE": 0,
+      "subtreeCE": 1,
       "subtreeMC": 2
     },
     {
@@ -2360,13 +2366,17 @@
       "block": "complementary",
       "parentTopicId": "cgu-2026-direito-controle-responsabilizacao-2",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-005-01-q116"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "038-anm-005-01-q116"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -3396,6 +3406,7 @@
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "038-anm-005-01-q119",
         "108-tcutefc-001-01-q117",
         "108-tcutefc-001-01-q120",
         "142-tcuaufc-cb1-01-q086",
@@ -3409,7 +3420,7 @@
         "993-tce-ac-016-01-q120",
         "cgu-2022-auditoria-tarde-tipo1-q041"
       ],
-      "subtreeCE": 11,
+      "subtreeCE": 12,
       "subtreeMC": 1
     },
     {
@@ -3499,13 +3510,17 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-auditoria-governamental-1",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-005-01-q119"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "038-anm-005-01-q119"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -4378,10 +4393,17 @@
       "subtreeQuestionIds": [
         "993-tce-ac-016-01-q056",
         "993-tce-ac-016-01-q061",
-        "993-tce-ac-016-01-q062"
+        "993-tce-ac-016-01-q062",
+        "cge-sc-2023-contabeis-tarde-tipo1-q001",
+        "cge-sc-2023-contabeis-tarde-tipo1-q004",
+        "cge-sc-2023-contabeis-tarde-tipo1-q007",
+        "cge-sc-2023-contabeis-tarde-tipo1-q011",
+        "cge-sc-2023-contabeis-tarde-tipo1-q012",
+        "cge-sc-2023-contabeis-tarde-tipo1-q013",
+        "cge-sc-2023-contabeis-tarde-tipo1-q021"
       ],
       "subtreeCE": 3,
-      "subtreeMC": 0
+      "subtreeMC": 7
     },
     {
       "id": "cgu-2026-financas-orcamento-contabilidade-6-1",
@@ -4408,14 +4430,28 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-financas-orcamento-contabilidade-6",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
+      "directQuestionIds": [
+        "cge-sc-2023-contabeis-tarde-tipo1-q001",
+        "cge-sc-2023-contabeis-tarde-tipo1-q004",
+        "cge-sc-2023-contabeis-tarde-tipo1-q011",
+        "cge-sc-2023-contabeis-tarde-tipo1-q012",
+        "cge-sc-2023-contabeis-tarde-tipo1-q013",
+        "cge-sc-2023-contabeis-tarde-tipo1-q021"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 6,
+      "subtreeQuestionIds": [
+        "cge-sc-2023-contabeis-tarde-tipo1-q001",
+        "cge-sc-2023-contabeis-tarde-tipo1-q004",
+        "cge-sc-2023-contabeis-tarde-tipo1-q011",
+        "cge-sc-2023-contabeis-tarde-tipo1-q012",
+        "cge-sc-2023-contabeis-tarde-tipo1-q013",
+        "cge-sc-2023-contabeis-tarde-tipo1-q021"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 6
     },
     {
       "id": "cgu-2026-financas-orcamento-contabilidade-6-3",
@@ -4430,17 +4466,19 @@
       "directQuestionIds": [
         "993-tce-ac-016-01-q056",
         "993-tce-ac-016-01-q061",
-        "993-tce-ac-016-01-q062"
+        "993-tce-ac-016-01-q062",
+        "cge-sc-2023-contabeis-tarde-tipo1-q007"
       ],
       "directCE": 3,
-      "directMC": 0,
+      "directMC": 1,
       "subtreeQuestionIds": [
         "993-tce-ac-016-01-q056",
         "993-tce-ac-016-01-q061",
-        "993-tce-ac-016-01-q062"
+        "993-tce-ac-016-01-q062",
+        "cge-sc-2023-contabeis-tarde-tipo1-q007"
       ],
       "subtreeCE": 3,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-financas-orcamento-contabilidade-7",
@@ -4450,14 +4488,16 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "empty",
+      "state": "descendants_only",
       "priority": "A",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [],
+      "subtreeQuestionIds": [
+        "cgu-2022-auditoria-tarde-tipo1-q042"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-financas-orcamento-contabilidade-7-1",
@@ -4467,14 +4507,18 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-financas-orcamento-contabilidade-7",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
+      "directQuestionIds": [
+        "cgu-2022-auditoria-tarde-tipo1-q042"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "cgu-2022-auditoria-tarde-tipo1-q042"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-financas-orcamento-contabilidade-7-2",
@@ -4634,6 +4678,7 @@
       "directMC": 0,
       "subtreeQuestionIds": [
         "896-tcdf-ce1-01-q045",
+        "cge-sc-2023-administracao-tarde-tipo1-q016",
         "cgu-2022-auditoria-manha-tipo1-q026",
         "mpo-2024-001-01-q050",
         "mpo-2024-cg1-01-q036",
@@ -4641,7 +4686,7 @@
         "mpo-2024-cg1-01-q040"
       ],
       "subtreeCE": 5,
-      "subtreeMC": 1
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-2-1",
@@ -4680,14 +4725,18 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-politicas-investigacao-avaliacao-2",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
+      "directQuestionIds": [
+        "cge-sc-2023-administracao-tarde-tipo1-q016"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "cge-sc-2023-administracao-tarde-tipo1-q016"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-2-3",
@@ -5896,12 +5945,15 @@
         "018-stj-cb1-01-q040",
         "018-stj-cb1-01-q041",
         "018-stj-cb1-01-q043",
+        "038-anm-005-01-q115",
+        "038-anm-005-01-q116",
+        "038-anm-005-01-q117",
         "038-anm-cg1-01-q019",
         "cgu-2022-correicao-tarde-tipo1-q073",
         "cgu-2022-correicao-tarde-tipo1-q075",
         "mpo-2024-cg1-01-q095"
       ],
-      "subtreeCE": 5,
+      "subtreeCE": 8,
       "subtreeMC": 2
     },
     {
@@ -5912,13 +5964,21 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-integridade-transparencia-responsabilizacao-5",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "038-anm-005-01-q115",
+        "038-anm-005-01-q116",
+        "038-anm-005-01-q117"
+      ],
+      "directCE": 3,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "038-anm-005-01-q115",
+        "038-anm-005-01-q116",
+        "038-anm-005-01-q117"
+      ],
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -6025,6 +6085,8 @@
       "directCE": 1,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "038-anm-005-01-q118",
+        "038-anm-005-01-q120",
         "142-tcuaufc-cb1-01-q079",
         "142-tcuaufc-cb1-01-q081",
         "896-tcdf-002-01-q112",
@@ -6032,7 +6094,7 @@
         "cgu-2022-correicao-tarde-tipo1-q043",
         "cgu-2022-correicao-tarde-tipo1-q045"
       ],
-      "subtreeCE": 4,
+      "subtreeCE": 6,
       "subtreeMC": 2
     },
     {
@@ -6088,16 +6150,18 @@
       "parentTopicId": "cgu-2026-integridade-transparencia-responsabilizacao-6",
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
+        "038-anm-005-01-q118",
         "cgu-2022-correicao-tarde-tipo1-q043"
       ],
-      "directCE": 0,
+      "directCE": 1,
       "directMC": 1,
       "subtreeQuestionIds": [
+        "038-anm-005-01-q118",
         "cgu-2022-correicao-tarde-tipo1-q043"
       ],
-      "subtreeCE": 0,
+      "subtreeCE": 1,
       "subtreeMC": 1
     },
     {
@@ -6125,13 +6189,17 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-integridade-transparencia-responsabilizacao-6",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "038-anm-005-01-q120"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "038-anm-005-01-q120"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -6245,8 +6313,8 @@
   ],
   "roleId": "cgu-auditoria",
   "reviewedAt": "2026-10-29",
-  "reviewId": "norms-gap-fifth",
-  "distinctQuestions": 305,
-  "distinctCE": 267,
-  "distinctMC": 38
+  "reviewId": "completion-sixth",
+  "distinctQuestions": 320,
+  "distinctCE": 273,
+  "distinctMC": 47
 }

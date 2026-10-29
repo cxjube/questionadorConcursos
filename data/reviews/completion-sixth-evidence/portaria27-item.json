@@ -1,0 +1,230 @@
+{
+  "id" : "513f48bd-3746-4998-b17f-0798ca8fb138",
+  "uuid" : "513f48bd-3746-4998-b17f-0798ca8fb138",
+  "name" : "Portaria Normativa n. 27, de 11 de outubro de 2022 [Alterada]",
+  "handle" : "1/15172",
+  "metadata" : {
+    "dc.contributor.author" : [ {
+      "value" : "Brasil. Controladoria-Geral da União (CGU). Corregedoria-Geral da União (CRG)",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.contributor.reviewer" : [ {
+      "value" : "Romilson Barbosa de Lima",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2022-10-14T21:43:23Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.available" : [ {
+      "value" : "2022-10-14T21:43:23Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2022-10-11",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.started" : [ {
+      "value" : "2022-10-14",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Dispõe sobre o Sistema de Correição do Poder Executivo Federal de que trata o Decreto nº 5.480, de 30 de junho de 2005, e sobre a atividade correcional nos órgãos e entidades do Poder Executivo Federal.",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.additionalinformation" : [ {
+      "value" : "No campo \"Publicações Relacionadas\" o usuário tem acesso ao Decreto nº 5.480, de 30 de junho de 2005",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Este documento foi alterado pela Portaria Normativa n. 54, de 14 de fevereiro de 2023, disponibilizada no campo \"publicações relacionadas\"",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Esta Portaria foi alterada pela Portaria Normativa n. 123, de 22 de abril de 2024. O Acesso a essa Portaria está disponível no campo \"Publicações Relacionadas\"",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "https://basedeconhecimento.cgu.gov.br/handle/1/15172",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.location" : [ {
+      "value" : "Distrito Federal (DF)",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.references" : [ {
+      "value" : "https://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2005/Decreto/D5480.htm",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "https://basedeconhecimento.cgu.gov.br/handle/1/16225",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "https://basedeconhecimento.cgu.gov.br/handle/1/18805",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "https://repositorio.cgu.gov.br/handle/1/69865",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "https://repositorio.cgu.gov.br/handle/1/92837",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    } ],
+    "dc.rights.holder" : [ {
+      "value" : "Controladoria-Geral da União (CGU)",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.license" : [ {
+      "value" : "Licenças::Domínio Público::Condição jurídica para as obras que não possuem o elemento do direito real ou de propriedade que tem o direito autoral, não havendo restrições de uso por qualquer um que queira utilizá-la, desde que estejam em conformidade com o artigo 45 da Lei nº 9.610/1998.",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.source" : [ {
+      "value" : "Diário Oficial da União, Seção 1, pág. 143. De 14/10/2022",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject.areas" : [ {
+      "value" : "UNIDADE::CORREGEDORIA-GERAL DA UNIÃO (CRG)::GAB/CRG::Coordenação-Geral de Uniformização de Entendimentos (CGUNE)",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject.classification" : [ {
+      "value" : "Correição",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject.vccgu" : [ {
+      "value" : "ASSUNTO::Correição::Cadastros e sistemas correcionais",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "ASSUNTO::Correição::Sistema de Correição do Poder Executivo Federal (SISCOR)",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "ASSUNTO::Correição::Integridade",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    } ],
+    "dc.title" : [ {
+      "value" : "Portaria Normativa n. 27, de 11 de outubro de 2022 [Alterada]",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Portaria",
+      "language" : "pt_BR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2024-10-07T14:51:23.252Z",
+  "entityType" : null,
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/513f48bd-3746-4998-b17f-0798ca8fb138/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/513f48bd-3746-4998-b17f-0798ca8fb138/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/513f48bd-3746-4998-b17f-0798ca8fb138/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/513f48bd-3746-4998-b17f-0798ca8fb138/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/513f48bd-3746-4998-b17f-0798ca8fb138/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/513f48bd-3746-4998-b17f-0798ca8fb138/relationships"
+    },
+    "version" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/513f48bd-3746-4998-b17f-0798ca8fb138/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/513f48bd-3746-4998-b17f-0798ca8fb138/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/513f48bd-3746-4998-b17f-0798ca8fb138/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/513f48bd-3746-4998-b17f-0798ca8fb138/submitter"
+    },
+    "self" : {
+      "href" : "https://basedeconhecimento.cgu.gov.br/server/api/core/items/513f48bd-3746-4998-b17f-0798ca8fb138"
+    }
+  }
+}

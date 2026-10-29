@@ -1,0 +1,66 @@
+[
+  {
+    "name": "CGDF_22",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CGDF_22",
+    "checkedAt": "2026-10-29T15:44:45.301669+00:00",
+    "status": 204,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "CGDF_23",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CGDF_23",
+    "checkedAt": "2026-10-29T15:44:45.302392+00:00",
+    "status": 204,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "CGE_CE_24",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CGE_CE_24",
+    "checkedAt": "2026-10-29T15:44:45.302968+00:00",
+    "status": 204,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "CGE_AL_25",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CGE_AL_25",
+    "checkedAt": "2026-10-29T15:44:45.304005+00:00",
+    "status": 204,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "CGE_RO_24",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CGE_RO_24",
+    "checkedAt": "2026-10-29T15:44:46.485230+00:00",
+    "status": 204,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "TCDF_23",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/TCDF_23",
+    "checkedAt": "2026-10-29T15:44:46.543607+00:00",
+    "status": 204,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "TCDF_24",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/TCDF_24",
+    "checkedAt": "2026-10-29T15:44:46.677541+00:00",
+    "status": 204,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "CAMARA_12",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CAMARA_12",
+    "checkedAt": "2026-10-29T15:44:46.733447+00:00",
+    "status": 204,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

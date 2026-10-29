@@ -1,0 +1,29 @@
+[
+  {
+    "name": "portaria27-search",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/discover/search/objects?query=%22Portaria+Normativa%22+%2227%22+%222022%22&size=30",
+    "checkedAt": "2026-10-29T15:59:54.671647+00:00",
+    "status": 200,
+    "file": "/tmp/remainder6/portaria27-search.json",
+    "bytes": 276967,
+    "sha256": "f63398a79f7bbc07f8d3ee8ed25595c721007ec666ffa48157fff9e6aadf56a4"
+  },
+  {
+    "name": "2279-title",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/discover/search/objects?query=dc.title%3A%222279%22+OR+dc.title%3A%222.279%22&size=30",
+    "checkedAt": "2026-10-29T15:59:54.672343+00:00",
+    "status": 200,
+    "file": "/tmp/remainder6/2279-title.json",
+    "bytes": 50114,
+    "sha256": "3da2fc940188d8118386b6367163ea56c44cadfd2b7833725dd14e3e1df8ffa8"
+  },
+  {
+    "name": "lei13869-lexml",
+    "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2019-09-05;13869",
+    "checkedAt": "2026-10-29T15:59:54.672896+00:00",
+    "status": 200,
+    "file": "/tmp/remainder6/lei13869-lexml.html",
+    "bytes": 15624,
+    "sha256": "2d5cfccb74774743a0b653df863014e16d8ce3ce09e29d3a3ddfb7ee31acda91"
+  }
+]

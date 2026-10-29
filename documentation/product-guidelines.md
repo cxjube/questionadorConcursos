@@ -2,7 +2,7 @@
 
 ## Diretrizes de produto, arquitetura, banco de questões e experiência de estudo
 
-**Versão:** 1.32 — revisão integrada ao repositório
+**Versão:** 1.33 — revisão integrada ao repositório
 **Data:** 29/10/2026
 **Projeto:** Questionador Concursos
 **Repositório:** https://github.com/cxjube/questionadorConcursos
@@ -11,6 +11,8 @@
 ---
 
 # 0. ESTADO E ESCOPO DESTA REFERÊNCIA
+
+Atualização atual de 29/10/2026: [continuação revisada](completion-sixth-release.md), com 709 questões únicas (561 C/E e 148 MC), 15 novas e um vínculo reaproveitado. Câmara 409, ABDI 251 e CGU 320; lacunas 6/12/67. A PN 27 original é lida com as alterações selecionadas das PN 54/2023 e 123/2024, separadamente preservadas. A Portaria Conjunta 2.279/2015 continua sem texto primário obtido; Correição 78 fica excluída. Nenhuma amostra é apresentada como cobertura integral. Regras e históricos permanecem preservados. Os relatos seguintes são históricos.
 
 Atualização posterior à varredura: [reconferência normativa e ampliação](norms-gap-fifth-release.md). Oito novas questões e reinclusão do PAR após conferir Decreto11.129art17;694 questões disponíveis. Câmara409, ABDI251 e CGU305; lacunas7/12/76. MC não substitui C/E nem C/E preenche cotasMC. O HTML da Lei14.133 continua falhando, mas o DOCX atualizado oficial permitiu conferir dispositivos selecionados. A varredura abaixo conserva seu estado histórico, inclusive a retirada então decidida. Regras e tentativas antigas continuam preservadas.
 

@@ -13,6 +13,10 @@ def revised_syllabus_ids(question_id, historical_ids):
             old = change['before']['syllabusItemId']
             assert old in expected, 'correction must apply to the exact historical target'
             expected[expected.index(old)] = change['after']['syllabusItemId']
+    for change in read_json(ROOT / 'data/reviews/completion-sixth.json')['mappingAdditions']:
+        m = change['mapping']
+        if m['questionId'] == question_id and m['syllabusItemId'] not in expected:
+            expected.append(m['syllabusItemId'])
     return expected
 
 
@@ -27,7 +31,8 @@ def historical_mappings(catalog):
     """Reconstruct the pre-audit taxonomy without rewriting immutable batch evidence."""
     corrections = {c['after']['id']: c['before'] for c in AUDIT['mappingCorrections']}
     reviewed = set(AUDIT['reviewedQuestionIds'])
-    return [corrections.get(m['id'], m) for m in catalog['mappings'] if m['questionId'] in reviewed]
+    added = {c['mapping']['id'] for c in read_json(ROOT / 'data/reviews/completion-sixth.json')['mappingAdditions']}
+    return [corrections.get(m['id'], m) for m in catalog['mappings'] if m['questionId'] in reviewed and m['id'] not in added]
 
 
 def audit_catalog():

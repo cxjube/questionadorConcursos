@@ -1,0 +1,50 @@
+[
+  {
+    "name": "CG_DF_22",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CG_DF_22",
+    "checkedAt": "2026-10-29T15:45:59.861515+00:00",
+    "status": 204,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "file": "/tmp/remainder6/CG_DF_22.html"
+  },
+  {
+    "name": "TC_DF_24",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/TC_DF_24",
+    "checkedAt": "2026-10-29T15:45:59.862251+00:00",
+    "status": 204,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "file": "/tmp/remainder6/TC_DF_24.html"
+  },
+  {
+    "name": "CG_E_CE_24",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CGE_CE_24",
+    "checkedAt": "2026-10-29T15:45:59.862775+00:00",
+    "status": 204,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "file": "/tmp/remainder6/CG_E_CE_24.html"
+  },
+  {
+    "name": "cgu-nested",
+    "url": "https://www.gov.br/cgu/pt-br/assuntos/integridade-privada/avaliacao-e-promocao-da-integridade-privada/avaliacao-e-promocao-da-integridade-privada",
+    "checkedAt": "2026-10-29T15:46:00.788598+00:00",
+    "status": 200,
+    "bytes": 96213,
+    "sha256": "0380789934d3e4f1bd8dd6bf5d833c5c78346c21bcffafd8e69dc71a36c4d33c",
+    "file": "/tmp/remainder6/cgu-nested.html"
+  },
+  {
+    "name": "cgu-normas",
+    "url": "https://www.gov.br/cgu/pt-br/assuntos/integridade-privada/avaliacao-e-promocao-da-integridade-privada/avaliacao-do-programa-de-integridade",
+    "checkedAt": "2026-10-29T15:46:01.001354+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "abdi-processos",
+    "url": "https://www.abdi.com.br/transparencia/processo-seletivo/",
+    "checkedAt": "2026-10-29T15:46:01.001862+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

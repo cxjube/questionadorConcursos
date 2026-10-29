@@ -37,6 +37,7 @@ jobs:
       - run: npm test
       - run: uv run python -m tools.bank_sweep --check
       - run: uv run python -m tools.norms_gap --check
+      - run: uv run python -m tools.completion --check
       - run: uv run python -m tools coverage --check
       - run: uv run python -m tools coverage --role abdi-comunicacao-marketing --check
       - run: uv run python -m tools coverage --role cgu-auditoria --check

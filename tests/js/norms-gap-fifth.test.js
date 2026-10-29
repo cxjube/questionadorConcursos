@@ -1,7 +1,7 @@
 'use strict';
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),zlib=require('node:zlib'),{webcrypto}=require('node:crypto');
 const root=path.resolve(__dirname,'../..'),plain=x=>JSON.parse(JSON.stringify(x)),now='2026-10-29T14:00:00.000Z',roles=['camara-comunicacao-divulgacao','abdi-comunicacao-marketing','cgu-auditoria'];
-function setup(){const s={window:{},URL,TextEncoder,crypto:webcrypto};vm.createContext(s);for(const f of ['assets/js/study.js','data/catalog.js'])vm.runInContext(fs.readFileSync(path.join(root,'docs',f),'utf8'),s);s.c=s.window.CONCURSOS_CATALOG;s.old=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(root,'data/reviews/pre-norms-gap-fifth-catalog.json.gz'))));s.old.revision='a'.repeat(64);return s;}
+function setup(){const s={window:{},URL,TextEncoder,crypto:webcrypto};vm.createContext(s);for(const f of ['assets/js/study.js','data/catalog.js'])vm.runInContext(fs.readFileSync(path.join(root,'docs',f),'utf8'),s);s.c=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(root,'data/reviews/pre-completion-sixth-catalog.json.gz'))));s.c.revision='f'.repeat(64);s.old=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(root,'data/reviews/pre-norms-gap-fifth-catalog.json.gz'))));s.old.revision='a'.repeat(64);return s;}
 test('new questions and restored PAR preserve original formats, quotas, keys and previous snapshots',()=>{
  const s=setup(),p=s.Study.empty(),qid='cgu-2022-correicao-tarde-tipo1-q045';
  assert.equal(s.c.questions.length,694);assert.deepEqual(roles.map(r=>s.Study.pool(s.c,r,p).length),[409,251,305]);assert.equal(new Set(roles.flatMap(r=>s.Study.pool(s.c,r,p).map(q=>q.id))).size,694);

@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 import zipfile
 
 from tools.bank_sweep import MANIFEST as SWEEP, technical_audit
-from tools.norms_gap import MANIFEST, artifacts
+from tools.norms_gap import MANIFEST, REVIEWED_CATALOG, artifacts
 from tools.reference_text import reference_text
 from tools.source_audit import OFFICIAL_HOSTS, audit_sources
 from tools.validate import ROOT, read_json, validate
@@ -18,7 +18,7 @@ from tools.validate import ROOT, read_json, validate
 class NormsGapFifthTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c = read_json(ROOT / 'data/catalog.json')
+        cls.c = json.loads(gzip.decompress((ROOT / REVIEWED_CATALOG).read_bytes()))
         cls.m = read_json(ROOT / MANIFEST)
         cls.raw = gzip.decompress((ROOT / cls.m['previousCatalogFile']).read_bytes())
         cls.before = json.loads(cls.raw)
@@ -46,7 +46,7 @@ class NormsGapFifthTests(unittest.TestCase):
         audit = technical_audit(self.c, read_json(ROOT / SWEEP))
         self.assertEqual(audit['errors'], [])
         self.assertEqual((len(audit['questions']), audit['checkedPapers'], audit['checkedContexts'], audit['checkedDocuments']), (694,75,276,222))
-        self.assertEqual(audit_sources(self.c, read_json(ROOT/'data/source-verification.json')), [])
+        self.assertEqual(audit_sources(self.c, read_json(ROOT/'data/reviews/pre-completion-sixth-sources.json')), [])
 
     def test_new_bounded_lines_are_literal_and_preserve_commands_without_next_question(self):
         docs = {d['id']: d for d in self.c['documents']}

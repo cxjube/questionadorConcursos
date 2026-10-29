@@ -1,14 +1,14 @@
 # Questionador Concursos
 
-**Reconferência normativa e ampliação:** [entrega e pendências](documentation/norms-gap-fifth-release.md). Oito novas questões oficiais e reinclusão de uma MC da CGU após confirmar o Decreto 11.129/2022. Textos, gabaritos e histórico preservados; a [varredura anterior](documentation/bank-sweep-release.md) permanece reproduzível.
+**Continuação revisada — 29/10/2026:** [entrega e limitações](documentation/completion-sixth-release.md). Foram acrescentadas 15 questões oficiais (6 C/E e 9 MC) e um vínculo reutilizado, sem duplicar a questão. Textos e gabaritos anteriores, histórico e regras dos três simulados permanecem preservados.
 
-**Câmara — Comunicação/Divulgação:** **409 questões (386 C/E / 23 MC)**; mapa 188/228 direto,32 só por descendentes e **sete** subárvores sem questões. Simulado 180 C/E, conjuntos 176/210.
+**Câmara — Comunicação/Divulgação:** **409 questões (386 C/E / 23 MC)**; mapa 189/228 direto, 32 só por descendentes e **6** subárvores sem questões. Simulado 180 C/E, conjuntos 176/210.
 
-**ABDI — Comunicação e Marketing:** **251 questões (157 C/E / 94 MC)**; mapa 78/97 direto, sete só por descendentes e **12** subárvores sem questões. São 26 MC institucionais, nove em Ética e Missão; simulado 60 MC com todas as cotas preservadas.
+**ABDI — Comunicação e Marketing:** **251 questões (157 C/E / 94 MC)**; mapa 78/97 direto, sete só por descendentes e **12** subárvores sem questões. São 26 MC institucionais, nove em Ética e Missão; simulado 60 MC com todas as cotas preservadas. Consulte o [roteiro de leitura dos recortes pendentes](documentation/abdi-remaining-reading.md).
 
-**CGU — Auditoria:** **305 questões (267 C/E / 38 MC)**; mapa 127/266 direto,63 só por descendentes e **76** subárvores sem questões. Simulado 170 C/E, conjuntos 71/90/166 e reserva única 97. Métodos qualitativos/mistos permanece lacuna explícita.
+**CGU — Auditoria:** **320 questões (273 C/E / 47 MC)**; mapa 135/266 direto, 64 só por descendentes e **67** subárvores sem questões. Simulado 170 C/E, conjuntos sobrepostos 71/92/172 e reserva única 103. Métodos qualitativos/mistos permanece lacuna explícita.
 
-O catálogo tem **694 questões distintas disponíveis**,555 C/E e 139 MC, com reutilização entre objetivos. O PAR reincluído mantém a chave oficial A e aviso histórico; a compatibilidade foi conferida apenas no recorte de competências. Primeira amostra não significa cobertura integral.
+O catálogo tem **709 questões distintas disponíveis**, 561 C/E e 148 MC, com reutilização entre objetivos. O [mapa de pendências](documentation/completion-sixth-progress.md) distingue primeiras amostras de cobertura integral. A Portaria Conjunta 2.279/2015 ainda depende de texto primário e confronto; Correição 78 permanece fora. A [varredura anterior](documentation/bank-sweep-release.md) e a [reconferência anterior](documentation/norms-gap-fifth-release.md) continuam reproduzíveis.
 
 Aplicação estática para estudos de concursos públicos, baseada na arquitetura do [Questionador](https://github.com/mugubr/questionador), de Miguel Muniz e Rubens Braz. Veja [créditos e autorização](CREDITS.md).
 
@@ -28,7 +28,7 @@ Dezesseis itens de Língua Portuguesa preservam texto, autoria e numeração das
 
 As marcações são salvas automaticamente no navegador. Ao voltar à página, **Continuar questões** retoma a sessão. Dentro do estudo, **Histórico** permite consultar sessões, revisar os últimos erros, estudar questões inéditas, revisar brancos e exportar/importar o progresso. A seção **Backup e recuperação** concentra exportação e importação. A importação mostra uma prévia e exige confirmação antes de substituir os dados. Use o [guia de estudo e backup](documentation/study-guide.md).
 
-As quatro abas de referência preservam nove disciplinas e 228 tópicos/subtópicos, regras, editais nº 1 a 6 e provas vinculadas ao objetivo selecionado. O inventário global tem 75 pares e 222 registros documentais (178 PDFs e 44 referências em HTML), com identidade oficial registrada. O inventário cobre 4.516 números de itens e 193 anulações. Veja a [conferência das fontes](documentation/source-verification.md). Somente o lote liberado integra o estudo. PDFs e arquivos de trabalho ficam fora do Pages. ABDI e CGU — Auditoria possuem cargos, programas e regras confirmados. As abas são filtradas pelo objetivo selecionado.
+As quatro abas de referência preservam nove disciplinas e 228 tópicos/subtópicos, regras, editais nº 1 a 6 e provas vinculadas ao objetivo selecionado. O inventário global tem 77 pares e 231 registros documentais (187 PDFs e 44 referências em HTML), com identidade oficial registrada. O inventário cobre 4.636 números de itens e 195 anulações. Veja a [conferência das fontes](documentation/source-verification.md). Somente o lote liberado integra o estudo. PDFs e arquivos de trabalho ficam fora do Pages. ABDI e CGU — Auditoria possuem cargos, programas e regras confirmados. As abas são filtradas pelo objetivo selecionado.
 
 Os ícones de monitor, sol e lua no cabeçalho selecionam os temas automático, claro e escuro. A aba **Editais** começa pelos links oficiais do concurso selecionado e da Imprensa Nacional para acompanhamento manual de publicações. As cinco abas aceitam clique, setas, Home e End. O tema escuro usa azul-marinho; o automático acompanha a preferência do sistema.
 
@@ -36,7 +36,7 @@ O [14º lote](documentation/fourteenth-batch-release.md) acrescenta 33 C/E e tr�
 
 Entrega anterior: O [13º lote](documentation/thirteenth-batch-release.md) acrescenta 12 C/E e dois pares oficiais: STM 2025 / Comunicação Social e CPNUJE 2024 / Estatística. Reserva: **119 C/E em P1 e 135 em P2**. Visualização, desinformação e características de plataformas têm novas amostras; os itens de Power BI do STJ CB2 também foram excluídos por anulação.
 
-O [12º lote](documentation/twelfth-batch-release.md) acrescenta 30 C/E, dois novos pares oficiais e quatro referências legais. O catálogo conserva 694 comentários versionados para as questões retidas. O [mapa atual](documentation/coverage-current.md) e o [CSV atual](documentation/coverage-current.csv) separam vínculos diretos, descendentes e lacunas. A [conferência dos documentos da Câmara](documentation/camara-reference-review.md) identifica os manuais oficiais de Comunicação (2025) e Linguagem Simples (2024). Os links dos comentários agora aparecem separados e identificados por fonte.
+O [12º lote](documentation/twelfth-batch-release.md) acrescenta 30 C/E, dois novos pares oficiais e quatro referências legais. O catálogo conserva 709 comentários versionados para as questões retidas. O [mapa atual](documentation/coverage-current.md) e o [CSV atual](documentation/coverage-current.csv) separam vínculos diretos, descendentes e lacunas. A [conferência dos documentos da Câmara](documentation/camara-reference-review.md) identifica os manuais oficiais de Comunicação (2025) e Linguagem Simples (2024). Os links dos comentários agora aparecem separados e identificados por fonte.
 
 Registro histórico: a revisão de 26/10 registra as lacunas dos 228 itens, sete correções de classificação e um comando corrigido com nova versão. Foram reconferidas 85 citações legais de 66 questões, em dez normas. Veja o [mapa completo e prioridades](documentation/coverage-audit-2026-10-26.md) e a [planilha CSV](documentation/coverage-audit-2026-10-26.csv). Nenhuma questão ou gabarito foi adicionado ou alterado; sessões antigas preservam seus snapshots.
 
@@ -62,6 +62,7 @@ uv run python -m tools validate
 uv run python -m tools audit-sources
 uv run python -m tools review-batch
 uv run python -m tools build
+uv run python -m tools.completion --check
 uv run python -m tools coverage --check
 uv run python -m tools build --check
 uv run python -m tools check-site
@@ -85,7 +86,7 @@ README.md
 pyproject.toml / uv.lock   ferramentas do pipeline
 package.json              comando dos testes JavaScript; sem pacotes
 schemas/                  catálogo v3, contextos, entidades, auditoria e lote
-data/catalog.json         fonte canônica; 694 questões únicas, gabaritos, comentários e vínculos
+data/catalog.json         fonte canônica; 709 questões únicas, gabaritos, comentários e vínculos
 data/workbench/           lote de preparação, fora do build
 data/reviews/             evidência da listagem oficial e revisão dos lotes
 sources/                   editais, cadernos e gabaritos; fora do Pages
