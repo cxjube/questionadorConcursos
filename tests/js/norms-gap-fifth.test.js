@@ -13,7 +13,7 @@ test('new questions and restored PAR preserve original formats, quotas, keys and
   const old={...p,active:s.Study.create(s.old,roles[i],p,'exam',{now,random:()=>.4})};assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(old),s.c)),plain(old));
  }
  assert.deepEqual(plain(s.Study.examAvailability(s.c,roles[2]).blocks.map(b=>b.questions.length)),[71,90,166]);
- const logic=s.Study.pool(s.c,roles[1],p,'all',{syllabusItemId:'abdi-2026-raciocinio-logico-4'});assert.ok(logic.some(q=>q.id==='232funprespexe-cb1-01-q050'));assert.equal(s.Study.pool(s.c,roles[1],p,'all',{block:'institutional',type:'multiple_choice'}).length,26);
+ const logic=s.Study.pool(s.c,roles[1],p,'all',{topicId:s.c.syllabusItems.find(i=>i.id==='abdi-2026-raciocinio-logico-4').topicId});assert.ok(logic.some(q=>q.id==='232funprespexe-cb1-01-q050'));assert.equal(s.Study.pool(s.c,roles[1],p,'all',{block:'institutional',type:'multiple_choice'}).length,26);
  // A pre-withdrawal attempt still carries revision1/keyA and imports unchanged.
  const prior=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(root,'data/reviews/pre-bank-sweep-catalog.json.gz'))));prior.revision='b'.repeat(64);const legacy={...p,active:s.Study.create(prior,roles[2],p,'all',{paperId:'source-cgu-2022-correicao-tarde-tipo1',now})};assert.equal(legacy.active.items.find(i=>i.question.id===qid).question.revision,1);assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(legacy),s.c)),plain(legacy));
 });
@@ -23,4 +23,11 @@ test('Senado and CFC source references survive backups while spoofed hosts and c
   const active={...p,active:s.Study.create(s.c,roles[2],p,'all',{paperId:paper,now})};const refs=x=>x.active.items.flatMap(i=>i.explanations.flatMap(e=>e.references));assert.ok(refs(active).some(r=>r.officialUrl?.startsWith('https://'+host+'/')));assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(active),s.c)),plain(active));
   for(const url of ['https://'+host+'.evil.invalid/','https://user:secret@'+host+'/','http://'+host+'/']){const bad=plain(active);refs(bad).find(r=>r.officialUrl?.includes(host)).officialUrl=url;assert.throws(()=>s.Study.importBackup(s.Study.exportBackup(bad),s.c));}
  }
+});
+test('the narrow final classification preserves the first draft snapshot without claiming implementation coverage',()=>{
+ const s=setup(),p=s.Study.empty(),m=JSON.parse(fs.readFileSync(path.join(root,'data/reviews/norms-gap-fifth.json'))),d=m.draftCorrections[0],draft=plain(s.c);draft.revision='d'.repeat(64);
+ draft.questions[draft.questions.findIndex(q=>q.id===d.questionId)]=d.previousQuestion;
+ draft.explanations[draft.explanations.findIndex(e=>e.questionId===d.questionId)]=d.previousExplanation;draft.mappings.push(d.removedMapping);
+ const saved={...p,active:s.Study.create(draft,roles[2],p,'all',{paperId:'source-cgu-2022-correicao-tarde-tipo1',now})};const old=saved.active.items.find(i=>i.question.id===d.questionId);assert.equal(old.question.revision,1);assert.ok(old.mappings.some(i=>i.syllabusItemId===d.removedMapping.syllabusItemId));assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(saved),s.c)),plain(saved));
+ assert.equal(s.Study.pool(s.c,roles[2],p,'all',{topicId:s.c.syllabusItems.find(i=>i.id===d.removedMapping.syllabusItemId).topicId}).length,0);const current=s.Study.create(s.c,roles[2],p,'all',{paperId:'source-cgu-2022-correicao-tarde-tipo1',now}).items.find(i=>i.question.id===d.questionId);assert.equal(current.question.revision,2);assert.equal(current.key.value,'a');assert.ok(current.mappings.every(i=>i.syllabusItemId!==d.removedMapping.syllabusItemId));
 });

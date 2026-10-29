@@ -542,7 +542,6 @@
       "answerValue": "a",
       "answerKeyPage": 25,
       "syllabusItemIds": [
-        "cgu-2026-governanca-riscos-integridade-4-2",
         "cgu-2026-integridade-transparencia-responsabilizacao-4-1"
       ]
     }
@@ -1012,5 +1011,161 @@
     "currentBasis": "reference-decreto-11129-2022",
     "currentClauses": "Art.17 I/II §1ºIII; art.70",
     "status": "restored_to_current_role"
-  }
+  },
+  "draftCorrections": [
+    {
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q079",
+      "previousDraftCommit": "74d0d59",
+      "previousDraftRevision": 1,
+      "revision": 2,
+      "removedMapping": {
+        "id": "cgu-2022-correicao-tarde-tipo1-q079-norms5-mapping-1",
+        "questionId": "cgu-2022-correicao-tarde-tipo1-q079",
+        "syllabusItemId": "cgu-2026-governanca-riscos-integridade-4-2",
+        "status": "confirmed",
+        "justification": "Amostra parcial de Diferença entre existência documental, implementação e efetividade dos mecanismos. Limites explicitados no comentário; não certifica cobertura integral."
+      },
+      "reason": "Exigibilidade legal de conselheiros na companhia fechada não testa a distinção entre existência documental, implementação e efetividade. Manter governanca4 e4.2 vazios; vínculo parcial apenas ao diagnóstico especializado4.1. Preservar eventual snapshot do primeiro rascunho publicado.",
+      "previousQuestion": {
+        "id": "cgu-2022-correicao-tarde-tipo1-q079",
+        "bankId": "concursos",
+        "revision": 1,
+        "type": "multiple_choice",
+        "stem": "Na análise do programa de integridade de uma companhia fechada, sem participação de pessoa jurídica de direito público no quadro acionário, foi constatada a ausência de disposição sobre a participação de conselheiros independentes no Conselho de Administração. Em relação a essa omissão e considerando as disposições da Lei de Sociedades por Ações, é correto afirmar que a ausência da participação de conselheiros independentes:",
+        "options": [
+          {
+            "id": "a",
+            "text": "não revela, por si só, falha nos mecanismos de integridade da sociedade, haja vista que a obrigatoriedade de conselheiros independentes se aplica às companhias abertas;"
+          },
+          {
+            "id": "b",
+            "text": "revela, por si só, falha nos mecanismos de integridade da sociedade, porque a participação de conselheiros independentes é obrigatória em qualquer sociedade anônima, seja aberta ou fechada;"
+          },
+          {
+            "id": "c",
+            "text": "não revela, por si só, falha nos mecanismos de integridade da sociedade, haja vista que a obrigatoriedade de conselheiros independentes é restrita às companhias abertas de economia mista;"
+          },
+          {
+            "id": "d",
+            "text": "revela, por si só, falha nos mecanismos de integridade da sociedade, uma vez que é vedada a constituição de Conselho de Administração em companhias fechadas;"
+          },
+          {
+            "id": "e",
+            "text": "não revela, por si só, falha nos mecanismos de integridade da sociedade, uma vez que tal exigência é restrita às sociedades com participação de pessoa jurídica de direito público no capital."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+          "number": 79,
+          "locator": "PDF p. 26"
+        },
+        "answerKeyId": "cgu-2022-correicao-tarde-tipo1-q079-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-29",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Amostra temática parcial; texto, contexto e gabarito definitivo comparados com o par oficial. Referências conferidas somente no alcance indicado no comentário.",
+          "decisionReference": "documentation/norms-gap-fifth-release.md"
+        }
+      },
+      "question": {
+        "id": "cgu-2022-correicao-tarde-tipo1-q079",
+        "bankId": "concursos",
+        "revision": 2,
+        "type": "multiple_choice",
+        "stem": "Na análise do programa de integridade de uma companhia fechada, sem participação de pessoa jurídica de direito público no quadro acionário, foi constatada a ausência de disposição sobre a participação de conselheiros independentes no Conselho de Administração. Em relação a essa omissão e considerando as disposições da Lei de Sociedades por Ações, é correto afirmar que a ausência da participação de conselheiros independentes:",
+        "options": [
+          {
+            "id": "a",
+            "text": "não revela, por si só, falha nos mecanismos de integridade da sociedade, haja vista que a obrigatoriedade de conselheiros independentes se aplica às companhias abertas;"
+          },
+          {
+            "id": "b",
+            "text": "revela, por si só, falha nos mecanismos de integridade da sociedade, porque a participação de conselheiros independentes é obrigatória em qualquer sociedade anônima, seja aberta ou fechada;"
+          },
+          {
+            "id": "c",
+            "text": "não revela, por si só, falha nos mecanismos de integridade da sociedade, haja vista que a obrigatoriedade de conselheiros independentes é restrita às companhias abertas de economia mista;"
+          },
+          {
+            "id": "d",
+            "text": "revela, por si só, falha nos mecanismos de integridade da sociedade, uma vez que é vedada a constituição de Conselho de Administração em companhias fechadas;"
+          },
+          {
+            "id": "e",
+            "text": "não revela, por si só, falha nos mecanismos de integridade da sociedade, uma vez que tal exigência é restrita às sociedades com participação de pessoa jurídica de direito público no capital."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+          "number": 79,
+          "locator": "PDF p. 26"
+        },
+        "answerKeyId": "cgu-2022-correicao-tarde-tipo1-q079-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-29",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Amostra temática parcial; texto, contexto e gabarito definitivo comparados com o par oficial. Referências conferidas somente no alcance indicado no comentário.",
+          "decisionReference": "documentation/norms-gap-fifth-release.md"
+        }
+      },
+      "previousExplanation": {
+        "id": "cgu-2022-correicao-tarde-tipo1-q079-comment-v1",
+        "questionId": "cgu-2022-correicao-tarde-tipo1-q079",
+        "text": "A alternativa A é a correta. A Lei nº 6.404/1976, art. 140, §2º, exige conselheiros independentes nas companhias abertas nos termos e prazos da CVM. A situação descrita é de companhia fechada sem participação pública: essa ausência, isoladamente, não demonstra falha de integridade. O diagnóstico exige considerar o contexto e os requisitos aplicáveis, sem presumir efetividade a partir de documentos. Amostra parcial de avaliação de mecanismos; não testa governança de empresa estatal nem certifica toda a efetividade de um programa.",
+        "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+        "status": "reviewed",
+        "references": [
+          {
+            "documentId": "source-cgu-2022-correicao-tarde-tipo1-paper",
+            "locator": "PDF p. 26, questão 79"
+          },
+          {
+            "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+            "locator": "PDF p. 25, questão 79"
+          },
+          {
+            "documentId": "reference-lei-6404-1976",
+            "locator": "Art. 140, §2º"
+          }
+        ]
+      },
+      "explanation": {
+        "id": "cgu-2022-correicao-tarde-tipo1-q079-comment-v2",
+        "questionId": "cgu-2022-correicao-tarde-tipo1-q079",
+        "text": "A alternativa A é a correta. A Lei nº 6.404/1976, art. 140, §2º, exige conselheiros independentes nas companhias abertas nos termos e prazos da CVM. A situação descrita é de companhia fechada sem participação pública: essa ausência, isoladamente, não demonstra falha de integridade. O diagnóstico deve considerar os requisitos aplicáveis à organização. O caso testa a exigibilidade do mecanismo; não compara implementação prática e efetividade do programa. Amostra parcial de avaliação de mecanismos; não testa governança de empresa estatal nem certifica toda a efetividade de um programa.",
+        "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+        "status": "reviewed",
+        "references": [
+          {
+            "documentId": "source-cgu-2022-correicao-tarde-tipo1-paper",
+            "locator": "PDF p. 26, questão 79"
+          },
+          {
+            "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+            "locator": "PDF p. 25, questão 79"
+          },
+          {
+            "documentId": "reference-lei-6404-1976",
+            "locator": "Art. 140, §2º"
+          }
+        ]
+      }
+    }
+  ]
 }

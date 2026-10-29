@@ -65,9 +65,9 @@ cgu-2026-governanca-riscos-integridade-2-2,cgu-governanca-riscos-integridade,com
 cgu-2026-governanca-riscos-integridade-3,cgu-governanca-riscos-integridade,complementary,3,Integridade pública.,empty,A,0,0,0,0
 cgu-2026-governanca-riscos-integridade-3-1,cgu-governanca-riscos-integridade,complementary,3.1,"Finalidades dos programas e medidas de integridade; compromisso da liderança, orientação ética, identificação de riscos, canais de relato e acompanhamento de ações.",empty,A,0,0,0,0
 cgu-2026-governanca-riscos-integridade-3-2,cgu-governanca-riscos-integridade,complementary,3.2,"Prevenção de favorecimento, assédio e discriminação; ambiente seguro e não retaliação.",empty,A,0,0,0,0
-cgu-2026-governanca-riscos-integridade-4,cgu-governanca-riscos-integridade,complementary,4,Integridade privada.,descendants_only,A,0,0,0,1
+cgu-2026-governanca-riscos-integridade-4,cgu-governanca-riscos-integridade,complementary,4,Integridade privada.,empty,A,0,0,0,0
 cgu-2026-governanca-riscos-integridade-4-1,cgu-governanca-riscos-integridade,complementary,4.1,"Finalidades dos programas de integridade e sua relação com o poder público; compromisso da direção, registros confiáveis, controles, diligência proporcional sobre terceiros, canais de relato e remediação.",empty,A,0,0,0,0
-cgu-2026-governanca-riscos-integridade-4-2,cgu-governanca-riscos-integridade,complementary,4.2,"Diferença entre existência documental, implementação e efetividade dos mecanismos.",direct,A,0,1,0,1
+cgu-2026-governanca-riscos-integridade-4-2,cgu-governanca-riscos-integridade,complementary,4.2,"Diferença entre existência documental, implementação e efetividade dos mecanismos.",empty,A,0,0,0,0
 cgu-2026-governanca-riscos-integridade-5,cgu-governanca-riscos-integridade,complementary,5,Prevenção e melhoria institucional.,empty,A,0,0,0,0
 cgu-2026-governanca-riscos-integridade-5-1,cgu-governanca-riscos-integridade,complementary,5.1,"Cultura, incentivos e confiança; diferenças de capacidade entre organizações; orientação e medidas proporcionais.",empty,A,0,0,0,0
 cgu-2026-governanca-riscos-integridade-5-2,cgu-governanca-riscos-integridade,complementary,5.2,Denúncias e resultados de controle como insumos de melhoria.,empty,A,0,0,0,0

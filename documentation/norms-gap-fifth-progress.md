@@ -6,7 +6,7 @@ Primeiras amostras e reforços parciais após a varredura assistida. Pais e filh
 | --- | ---: | ---: | ---: | ---: |
 | Câmara | 8 | 7 | 1 | 409 |
 | ABDI | 13 | 12 | 1 | 251 |
-| CGU | 80 | 74 | 6 | 305 |
+| CGU | 80 | 76 | 4 | 305 |
 
 ¹ Inclui subárvores que passam a ter apenas descendentes com questões. Uma mesma questão pode iniciar pai e filho. As contagens não representam assuntos independentes nem domínio do edital.
 
@@ -63,9 +63,9 @@ A CGU conserva a lacuna de métodos qualitativos/mistos: avaliação de implemen
 | `cgu-2026-governanca-riscos-integridade-3` | Integridade pública. | Sem questão compatível liberada |
 | `cgu-2026-governanca-riscos-integridade-3-1` | Finalidades dos programas e medidas de integridade; compromisso da liderança, orientação ética, identificação de riscos, canais de relato e acompanhamento de ações. | Sem questão compatível liberada |
 | `cgu-2026-governanca-riscos-integridade-3-2` | Prevenção de favorecimento, assédio e discriminação; ambiente seguro e não retaliação. | Sem questão compatível liberada |
-| `cgu-2026-governanca-riscos-integridade-4` | Integridade privada. | Somente amostra em descendente |
+| `cgu-2026-governanca-riscos-integridade-4` | Integridade privada. | Sem questão compatível liberada |
 | `cgu-2026-governanca-riscos-integridade-4-1` | Finalidades dos programas de integridade e sua relação com o poder público; compromisso da direção, registros confiáveis, controles, diligência proporcional sobre terceiros, canais de relato e remediação. | Sem questão compatível liberada |
-| `cgu-2026-governanca-riscos-integridade-4-2` | Diferença entre existência documental, implementação e efetividade dos mecanismos. | Primeira amostra direta |
+| `cgu-2026-governanca-riscos-integridade-4-2` | Diferença entre existência documental, implementação e efetividade dos mecanismos. | Sem questão compatível liberada |
 | `cgu-2026-governanca-riscos-integridade-5` | Prevenção e melhoria institucional. | Sem questão compatível liberada |
 | `cgu-2026-governanca-riscos-integridade-5-1` | Cultura, incentivos e confiança; diferenças de capacidade entre organizações; orientação e medidas proporcionais. | Sem questão compatível liberada |
 | `cgu-2026-governanca-riscos-integridade-5-2` | Denúncias e resultados de controle como insumos de melhoria. | Sem questão compatível liberada |

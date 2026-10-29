@@ -816,9 +816,9 @@
     {
       "roleId": "cgu-auditoria",
       "beforeEmpty": 80,
-      "afterEmpty": 74,
-      "directItems": 128,
-      "descendantsOnly": 64,
+      "afterEmpty": 76,
+      "directItems": 127,
+      "descendantsOnly": 63,
       "questions": 305,
       "formats": {
         "multiple_choice": 38,
@@ -925,10 +925,8 @@
           "syllabusItemId": "cgu-2026-governanca-riscos-integridade-4",
           "label": "Integridade privada.",
           "previousState": "empty",
-          "currentState": "descendants_only",
-          "questionIds": [
-            "cgu-2022-correicao-tarde-tipo1-q079"
-          ],
+          "currentState": "empty",
+          "questionIds": [],
           "fullCoverageCertified": false
         },
         {
@@ -943,10 +941,8 @@
           "syllabusItemId": "cgu-2026-governanca-riscos-integridade-4-2",
           "label": "Diferença entre existência documental, implementação e efetividade dos mecanismos.",
           "previousState": "empty",
-          "currentState": "direct",
-          "questionIds": [
-            "cgu-2022-correicao-tarde-tipo1-q079"
-          ],
+          "currentState": "empty",
+          "questionIds": [],
           "fullCoverageCertified": false
         },
         {

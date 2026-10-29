@@ -1,6 +1,6 @@
 # Reconferência normativa e ampliação após a varredura — 29/10/2026
 
-Foram acrescentadas **oito questões oficiais**, com seis C/E e duas MC, e reincluída uma MC anteriormente sem vínculo de estudo. O catálogo passa a **694 questões distintas disponíveis**, 555 C/E e 139 MC, com 694 comentários, 276 comandos/textos de apoio e 1.133 vínculos. Nenhum gabarito oficial foi alterado. A revisão é assistida por agente; não equivale a aceite humano ou certificação jurídica integral.
+Foram acrescentadas **oito questões oficiais**, com seis C/E e duas MC, e reincluída uma MC anteriormente sem vínculo de estudo. O catálogo passa a **694 questões distintas disponíveis**, 555 C/E e 139 MC, com 694 comentários, 276 comandos/textos de apoio e 1.132 vínculos. Nenhum gabarito oficial foi alterado. A revisão é assistida por agente; não equivale a aceite humano ou certificação jurídica integral.
 
 ## Resultado por objetivo
 
@@ -8,9 +8,9 @@ Foram acrescentadas **oito questões oficiais**, com seis C/E e duas MC, e reinc
 | --- | ---: | --- | ---: |
 | Câmara — Comunicação/Divulgação | 409: 386 C/E e 23 MC | 188 / 32 / 7, mais um título abrangente separado | **8 → 7** |
 | ABDI — Comunicação e Marketing | 251: 157 C/E e 94 MC | 78 / 7 / 12 | **13 → 12** |
-| CGU — Auditoria | 305: 267 C/E e 38 MC | 128 / 64 / 74 | **80 → 74** |
+| CGU — Auditoria | 305: 267 C/E e 38 MC | 127 / 63 / 76 | **80 → 76** |
 
-Questões compartilhadas mantêm um único ID. Os totais por objetivo se sobrepõem. O [mapa das 101 subárvores antes vazias](norms-gap-fifth-progress.md) identifica a situação de cada uma. Oito deixam de estar vazias, incluindo pais atendidos apenas por descendentes; isso não representa oito assuntos independentes totalmente cobertos. Permanecem 93 subárvores vazias no conjunto dos três programas.
+Questões compartilhadas mantêm um único ID. Os totais por objetivo se sobrepõem. O [mapa das 101 subárvores antes vazias](norms-gap-fifth-progress.md) identifica a situação de cada uma. Seis deixam de estar vazias, incluindo pais atendidos apenas por descendentes; isso não representa seis assuntos independentes totalmente cobertos. Permanecem 95 subárvores vazias no conjunto dos três programas.
 
 ## Decreto 11.129/2022 e questão reincluída
 
@@ -31,7 +31,7 @@ A decisão de retirada da varredura permanece no seu manifesto e nos seus relat�
 
 **Decreto 9.203/2017:** nova obtenção no portal da Câmara correspondeu ao SHA-256 já retido; arts. 3º e 5º sustentam a nova amostra de princípios/mecanismos.
 
-**Lei 6.404/1976:** redação atualizada da Câmara obtida duas vezes; art. 140, §2º, conferido para a nova questão de companhia fechada. Não se transfere essa situação para empresas estatais.
+**Lei 6.404/1976:** redação atualizada da Câmara obtida duas vezes; art. 140, §2º, conferido para a nova questão de companhia fechada. Não se transfere essa situação para empresas estatais. A revisão final retirou o vínculo de rascunho com Governança4.2: exigibilidade legal não demonstra comparação entre implementação e efetividade. Esse item e seu pai permanecem vazios; a revisão2 da questão e o comentáriov2 preservam eventual histórico do rascunho.
 
 **CFC:** retidas as normas oficiais NBC TSP 34, NBC TG 25(R 2) e NBC TG 01(R 4), com obtenções independentes idênticas. Foram lidos os dispositivos dos comentários, não declarada revisão de todas as normas contábeis. São PDFs normativos, fora do artefato publicado; não foram acrescentados livros ou manuais integrais ao site. O histórico das referências anteriores conserva suas datas de verificação.
 
@@ -67,12 +67,12 @@ Simulados mantidos: Câmara 180 C/E (90+90; conjuntos 176/210), ABDI 60 MC (cota
 
 ### Testes da entrega
 
-**227 testes Python e 93 testes JavaScript passaram.** As verificações incluem: validação canônica, fontes, reprodução da varredura, mapa novo, cobertura dos três objetivos, build e artefato estático. A suíte Python cobre todas as questões/chaves/fontes e as alterações autorizadas; JavaScript cobre filtros, cotas, backups antigos e novos hosts. O roteiro de navegador passa pelas oito questões novas e pelo PAR reincluído em 320/1280 px, com reflow a 200%, correção e persistência. Também são exercitados os três simulados reais e o isolamento das abas por objetivo.
+**227 testes Python e 94 testes JavaScript passaram.** As verificações incluem: validação canônica, fontes, reprodução da varredura, mapa novo, cobertura dos três objetivos, build e artefato estático. A suíte Python cobre todas as questões/chaves/fontes e as alterações autorizadas; JavaScript cobre filtros, cotas, backups antigos e novos hosts. O roteiro de navegador passa pelas oito questões novas e pelo PAR reincluído em 320/1280 px, com reflow a 200%, correção e persistência. Também são exercitados os três simulados reais e o isolamento das abas por objetivo.
 
 ## O que resta
 
 1. **Câmara —7 subárvores:** responsabilidade de parecerista, RICD Deputados, Título I do Regimento Comum, elementos de publicações em redes, Política de Comunicação da Câmara, Manual de Linguagem Simples e equipes em publicidade. Questões de princípios gerais não substituem esses recortes próprios.
 2. **ABDI —12:** diagramas lógicos, autonomia/pessoal, criação legal e decreto, princípios e fases de contratos, sanções, celebração/execução/prestação de contas de convênios, medidas do código próprio e planejamento 2024–2029. Há apenas nove MC em Licitações/Convênios para oito vagas; ampliar reserva compatível continua prioritário.
-3. **CGU —74:** priorizar proteção do denunciante e retaliação, métodos qualitativos/triangulação, governança e finalidade de estatais, integração das funções de controle e casos aplicados de integridade. Novas amostras de custos/contingências não esgotam custos, demonstrações ou todo o MIC.
+3. **CGU —76:** priorizar proteção do denunciante e retaliação, métodos qualitativos/triangulação, governança e finalidade de estatais, integração das funções de controle e casos aplicados de integridade. Novas amostras de custos/contingências não esgotam custos, demonstrações ou todo o MIC.
 4. Conferir a regulamentação de avaliação simplificada de integridade antes de reconsiderar a questão 78; evitar reintroduções apenas porque parte do enunciado permanece verdadeira.
 5. Ampliar variedade dos recortes iniciados e realizar a rodada de uso humano dos três objetivos. A verificação automatizada e a revisão assistida já feitas permanecem distintas desse aceite.

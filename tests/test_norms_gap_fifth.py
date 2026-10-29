@@ -111,14 +111,15 @@ class NormsGapFifthTests(unittest.TestCase):
         for file,text in artifacts(self.c,self.m).items():
             self.assertEqual((ROOT/file).read_text(),text)
         report=read_json(ROOT/'data/reviews/norms-gap-fifth-progress.json')
-        self.assertEqual([(r['beforeEmpty'],r['afterEmpty']) for r in report['roles']],[(8,7),(13,12),(80,74)])
+        self.assertEqual([(r['beforeEmpty'],r['afterEmpty']) for r in report['roles']],[(8,7),(13,12),(80,76)])
         self.assertEqual(sum(len(r['items']) for r in report['roles']),101)
         self.assertTrue(all(not i['fullCoverageCertified'] for r in report['roles'] for i in r['items']))
         cgu=report['roles'][2]['readiness']
         self.assertTrue(cgu['ready']);self.assertEqual(cgu['distinctCE'],267)
         self.assertEqual([b['availableCE'] for b in cgu['blocks']],[71,90,166])
         self.assertEqual(report['roles'][1]['readiness']['quotaCheck']['allocatableDistinctMC'],60)
-        self.assertFalse(any(m['syllabusItemId']=='cgu-2026-politicas-investigacao-avaliacao-4-2' for m in self.c['mappings']))
+        for sid in ['cgu-2026-politicas-investigacao-avaliacao-4-2','cgu-2026-governanca-riscos-integridade-4-2']:
+            self.assertFalse(any(m['syllabusItemId']==sid for m in self.c['mappings']))
         q=next(q for q in self.c['questions'] if q['id']=='232funprespexe-cb1-01-q050')
         self.assertEqual(q['type'],'true_false')
         for id in ['cgu-2022-correicao-tarde-tipo1-q046','cgu-2022-correicao-tarde-tipo1-q078','abdi-2008-especialista-controle-interno-auditoria-q014']:

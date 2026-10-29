@@ -6,7 +6,7 @@
 
 **ABDI — Comunicação e Marketing:** **251 questões (157 C/E / 94 MC)**; mapa 78/97 direto, sete só por descendentes e **12** subárvores sem questões. São 26 MC institucionais, nove em Ética e Missão; simulado 60 MC com todas as cotas preservadas.
 
-**CGU — Auditoria:** **305 questões (267 C/E / 38 MC)**; mapa 128/266 direto,64 só por descendentes e **74** subárvores sem questões. Simulado 170 C/E, conjuntos 71/90/166 e reserva única 97. Métodos qualitativos/mistos permanece lacuna explícita.
+**CGU — Auditoria:** **305 questões (267 C/E / 38 MC)**; mapa 127/266 direto,63 só por descendentes e **76** subárvores sem questões. Simulado 170 C/E, conjuntos 71/90/166 e reserva única 97. Métodos qualitativos/mistos permanece lacuna explícita.
 
 O catálogo tem **694 questões distintas disponíveis**,555 C/E e 139 MC, com reutilização entre objetivos. O PAR reincluído mantém a chave oficial A e aviso histórico; a compatibilidade foi conferida apenas no recorte de competências. Primeira amostra não significa cobertura integral.
 

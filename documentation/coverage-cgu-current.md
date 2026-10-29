@@ -2,7 +2,7 @@
 
 Revisão: 2026-10-29. **305 questões distintas: 267 C/E e 38 MC.**
 
-Programa: 266 itens; 128 diretos, 64 apenas por descendentes e 74 subárvores vazias.
+Programa: 266 itens; 127 diretos, 63 apenas por descendentes e 76 subárvores vazias.
 
 Questões compartilhadas preservam texto, contexto, formato e gabarito de origem. MC permanecem no treino, fora da reserva C/E. Pais e filhos são contados separadamente: ter uma amostra não equivale a cobrir todo o item.
 
@@ -94,9 +94,9 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 3 | Integridade pública. | 0 | 0 | Sem questões |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 3.1 | Finalidades dos programas e medidas de integridade; compromisso da liderança, orientação ética, identificação de riscos, canais de relato e acompanhamento de ações. | 0 | 0 | Sem questões |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 3.2 | Prevenção de favorecimento, assédio e discriminação; ambiente seguro e não retaliação. | 0 | 0 | Sem questões |
-| FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 4 | Integridade privada. | 0 | 0 | Só descendentes |
+| FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 4 | Integridade privada. | 0 | 0 | Sem questões |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 4.1 | Finalidades dos programas de integridade e sua relação com o poder público; compromisso da direção, registros confiáveis, controles, diligência proporcional sobre terceiros, canais de relato e remediação. | 0 | 0 | Sem questões |
-| FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 4.2 | Diferença entre existência documental, implementação e efetividade dos mecanismos. | 0 | 1 | Direto |
+| FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 4.2 | Diferença entre existência documental, implementação e efetividade dos mecanismos. | 0 | 0 | Sem questões |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 5 | Prevenção e melhoria institucional. | 0 | 0 | Sem questões |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 5.1 | Cultura, incentivos e confiança; diferenças de capacidade entre organizações; orientação e medidas proporcionais. | 0 | 0 | Sem questões |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 5.2 | Denúncias e resultados de controle como insumos de melhoria. | 0 | 0 | Sem questões |

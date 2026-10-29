@@ -1,16 +1,16 @@
 {
   "totalItems": 266,
-  "directItems": 128,
-  "descendantsOnly": 64,
-  "emptyItems": 74,
-  "emptyLeaves": 65,
+  "directItems": 127,
+  "descendantsOnly": 63,
+  "emptyItems": 76,
+  "emptyLeaves": 66,
   "blocks": {
     "basic": {
       "total": 76,
       "ce": 71
     },
     "complementary": {
-      "total": 106,
+      "total": 105,
       "ce": 90
     },
     "specific": {
@@ -67,12 +67,12 @@
       "id": "cgu-governanca-riscos-integridade",
       "label": "FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA",
       "totalItems": 15,
-      "directItems": 4,
-      "descendantsOnly": 3,
-      "emptyItems": 8,
-      "emptyLeaves": 6,
+      "directItems": 3,
+      "descendantsOnly": 2,
+      "emptyItems": 10,
+      "emptyLeaves": 7,
       "questionsCE": 12,
-      "questionsMC": 2
+      "questionsMC": 1
     },
     {
       "id": "cgu-transparencia-ouvidoria",
@@ -1657,16 +1657,14 @@
       "block": "complementary",
       "parentTopicId": null,
       "isLeaf": false,
-      "state": "descendants_only",
+      "state": "empty",
       "priority": "A",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
-      "subtreeQuestionIds": [
-        "cgu-2022-correicao-tarde-tipo1-q079"
-      ],
+      "subtreeQuestionIds": [],
       "subtreeCE": 0,
-      "subtreeMC": 1
+      "subtreeMC": 0
     },
     {
       "id": "cgu-2026-governanca-riscos-integridade-4-1",
@@ -1693,18 +1691,14 @@
       "block": "complementary",
       "parentTopicId": "cgu-2026-governanca-riscos-integridade-4",
       "isLeaf": true,
-      "state": "direct",
+      "state": "empty",
       "priority": "A",
-      "directQuestionIds": [
-        "cgu-2022-correicao-tarde-tipo1-q079"
-      ],
+      "directQuestionIds": [],
       "directCE": 0,
-      "directMC": 1,
-      "subtreeQuestionIds": [
-        "cgu-2022-correicao-tarde-tipo1-q079"
-      ],
+      "directMC": 0,
+      "subtreeQuestionIds": [],
       "subtreeCE": 0,
-      "subtreeMC": 1
+      "subtreeMC": 0
     },
     {
       "id": "cgu-2026-governanca-riscos-integridade-5",
