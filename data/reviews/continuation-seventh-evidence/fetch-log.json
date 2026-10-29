@@ -1,0 +1,686 @@
+[
+  {
+    "name": "search-0",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/discover/search/objects?query=2279&size=100",
+    "checkedAt": "2026-10-29T18:07:39.068988+00:00",
+    "status": 200,
+    "contentType": "application/hal+json;charset=UTF-8",
+    "bytes": 386155,
+    "sha256": "3484d16f0ddea37c7b52a8a6efd4de588a8c3c089063fda305a534f5aa7c0df7"
+  },
+  {
+    "name": "search-1",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/discover/search/objects?query=2.279&size=100",
+    "checkedAt": "2026-10-29T18:07:39.069896+00:00",
+    "status": 200,
+    "contentType": "application/hal+json;charset=UTF-8",
+    "bytes": 928679,
+    "sha256": "af52fdd78dd22f8314da8d384608f93724fdfe0f22ccb343a1b2a77beab544ae"
+  },
+  {
+    "name": "search-2",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/discover/search/objects?query=Portaria+Conjunta+SMPE&size=100",
+    "checkedAt": "2026-10-29T18:07:39.070533+00:00",
+    "status": 200,
+    "contentType": "application/hal+json;charset=UTF-8",
+    "bytes": 49491,
+    "sha256": "2f897737e5614bbca9bceb33a412bcda4b8960be0b9d5d7552e2bfe73727290e"
+  },
+  {
+    "name": "search-3",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/discover/search/objects?query=integridade+microempresas&size=100",
+    "checkedAt": "2026-10-29T18:07:39.071050+00:00",
+    "status": 200,
+    "contentType": "application/hal+json;charset=UTF-8",
+    "bytes": 976046,
+    "sha256": "604ac8914fcc37156c13fa18bc93d93e8a49f8d55f2f014efc602fb593ba5c6b"
+  },
+  {
+    "name": "search-4",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/discover/search/objects?query=avalia%C3%A7%C3%A3o+programa+integridade&size=100",
+    "checkedAt": "2026-10-29T18:07:39.071627+00:00",
+    "status": 200,
+    "contentType": "application/hal+json;charset=UTF-8",
+    "bytes": 961479,
+    "sha256": "bb9de7a03b383e92ca6b9addadebb649b75c6200213dbaf25d9c3ff12643b32c"
+  },
+  {
+    "name": "search-5",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/discover/search/objects?query=integridade+efetividade&size=100",
+    "checkedAt": "2026-10-29T18:07:40.552582+00:00",
+    "status": 200,
+    "contentType": "application/hal+json;charset=UTF-8",
+    "bytes": 983780,
+    "sha256": "eacb5ca9d64d834fcb57ca1cd2f16643ba876c7cf5bd1ddd1cfe068ea33c1996"
+  },
+  {
+    "name": "dou-2279",
+    "url": "https://www.in.gov.br/web/dou/-/portaria-conjunta-n-2-279-de-9-de-setembro-de-2015-30172271",
+    "checkedAt": "2026-10-29T18:07:41.730616+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "abdi-site",
+    "url": "https://www.abdi.com.br/processo-seletivo/",
+    "checkedAt": "2026-10-29T18:07:42.900417+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 752755,
+    "sha256": "1471b7f1b6c10e31af45fa226925337ee294faba0a10e53cf6d02a3de8f47542"
+  },
+  {
+    "name": "fgv-camara",
+    "url": "https://conhecimento.fgv.br/concursos/cdeputados23",
+    "checkedAt": "2026-10-29T18:07:44.530448+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 28987,
+    "sha256": "611607599fc54969fdf31a88507fb3853daacd806af480c83b9f24b421df4e8a"
+  },
+  {
+    "name": "decreto11529-camara",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/2023/decreto-11529-16-maio-2023-794189-publicacaooriginal-167832-pe.html",
+    "checkedAt": "2026-10-29T18:20:31.010301+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 63673,
+    "sha256": "0fc3834d39dbe3d2a5e17b61ae416ad0d81bad9b6c87c2340ef2e5b527105b13"
+  },
+  {
+    "name": "decreto11529-senado",
+    "url": "https://legis.senado.leg.br/norma/37049199/publicacao/37049585",
+    "checkedAt": "2026-10-29T18:20:31.011145+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 75796,
+    "sha256": "bd23b5a6af4dd0bf596919949dd7e67f8972b757dc3871d7c431583973be98b0"
+  },
+  {
+    "name": "enap-search-pretest",
+    "url": "https://repositorio.enap.gov.br/server/api/discover/search/objects?query=%22pr%C3%A9-teste%22&size=20",
+    "checkedAt": "2026-10-29T18:20:31.011732+00:00",
+    "status": 200,
+    "contentType": "application/hal+json;charset=UTF-8",
+    "bytes": 249492,
+    "sha256": "5cc40af7c65a822700b1b7136744d0d29ea023e097acf54dc817aee4bcb9629d"
+  },
+  {
+    "name": "enap-search-tecnicas",
+    "url": "https://repositorio.enap.gov.br/server/api/discover/search/objects?query=t%C3%A9cnicas+pesquisa+auditoria&size=20",
+    "checkedAt": "2026-10-29T18:20:31.012938+00:00",
+    "status": 200,
+    "contentType": "application/hal+json;charset=UTF-8",
+    "bytes": 249055,
+    "sha256": "46cf2ef4afaea371452a3bec5cf0f016530557f7d8d6617b6e5d4782b9cdcb54"
+  },
+  {
+    "name": "decreto9830-camara",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/2019/decreto-9830-10-junho-2019-788287-publicacaooriginal-158117-pe.html",
+    "checkedAt": "2026-10-29T18:20:31.014083+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 65103,
+    "sha256": "58863dc536f2d4606e5a8b6382d83b0df72694cc9a3e4cdfa014a291a2766b7a"
+  },
+  {
+    "name": "lei13460-camara",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13460-26-junho-2017-785098-publicacaooriginal-153203-pl.html",
+    "checkedAt": "2026-10-29T18:20:32.837335+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 62999,
+    "sha256": "cac7ce5654f30045574b608c7ab8d66d90425de71cc5f200073faafd2c33933f"
+  },
+  {
+    "name": "abdi23-answers",
+    "url": "https://www.abdi.com.br/wp-content/uploads/2023/11/2-fase-Direito-a%CC%81rea_-Cie%CC%82ncia-Tecnologia-Pesquisa-Desenvolvimento-e-Inovac%CC%A7a%CC%83o-co%CC%81d.-001-23-Provas-respondidas.pdf",
+    "checkedAt": "2026-10-29T18:09:05.889531+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 53502,
+    "sha256": "5d32955e5294c55cf68f77db22fa544108b4fecca9a4e61c1f360de82cec2029"
+  },
+  {
+    "name": "abdi23-key",
+    "url": "https://www.abdi.com.br/wp-content/uploads/2023/11/2.-GABARITO-DA-PROVA-DE-RACIOCINIO-LOGICO-001-2023-Comunicado-8-DIREITO.pdf",
+    "checkedAt": "2026-10-29T18:09:05.890532+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 247032,
+    "sha256": "9dd6082f9bb8278b141b35fce61fe96b81d4d52975a921a2bac70c9f7dd4a76f"
+  },
+  {
+    "name": "abdi23-retif",
+    "url": "https://www.abdi.com.br/wp-content/uploads/2023/11/Comunicado-09-Direito-Retificac%CC%A7a%CC%83o-Gabartito.pdf",
+    "checkedAt": "2026-10-29T18:09:05.891113+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 163509,
+    "sha256": "0e272ecc153074b515f14f1961dcdbf2c17dc9b5ae6d7cb1badea502a4e45751"
+  },
+  {
+    "name": "abdi23-open",
+    "url": "https://www.abdi.com.br/wp-content/uploads/2023/11/Comunicado-de-Abertura-Processo-Seletivo-001_2023-Direito-01-11.pdf",
+    "checkedAt": "2026-10-29T18:09:05.891695+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 218200,
+    "sha256": "3180910578b472bfe33dba085f26d4a478089067605228322a431d5ffc7bfb94"
+  },
+  {
+    "name": "micro-thesis-meta",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/core/items/dd750fb7-b3e6-472b-bb72-7c42116d2117",
+    "checkedAt": "2026-10-29T18:09:06.587764+00:00",
+    "status": 200,
+    "contentType": "application/hal+json;charset=UTF-8",
+    "bytes": 6210,
+    "sha256": "164e78b6b95e498dd9476ae177e73e2c77add0c0d7a011d4d022658f6a24f97d"
+  },
+  {
+    "name": "par-manual-meta",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/core/items/bc94168f-f538-4330-ba99-7e6b2af62af9",
+    "checkedAt": "2026-10-29T18:09:06.602720+00:00",
+    "status": 200,
+    "contentType": "application/hal+json;charset=UTF-8",
+    "bytes": 6506,
+    "sha256": "3dccc6b5c5e2db4ddcbb771444742d66a4a7310855e0b4b5b7f6bdd8c4870ca8"
+  },
+  {
+    "name": "fgv-abdi",
+    "url": "https://conhecimento.fgv.br/concursos/psabdi",
+    "checkedAt": "2026-10-29T18:09:06.662027+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 32647,
+    "sha256": "1a295af082b5a25b86461e8cfaeb4b95c80c2a39b14a779505d2741d9041f6f7"
+  },
+  {
+    "name": "fgv-camara-ed1",
+    "url": "https://conhecimento.fgv.br/concursos/cdeputados23/1",
+    "checkedAt": "2026-10-29T18:10:18.732430+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 91607,
+    "sha256": "b9b552b486c27098b2314ceec92fcd96f0905ac9492e970804916ec957cf950a"
+  },
+  {
+    "name": "fgv-camara-ed2",
+    "url": "https://conhecimento.fgv.br/concursos/cdeputados23/2",
+    "checkedAt": "2026-10-29T18:10:18.732894+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 98517,
+    "sha256": "f6f8b9488257e178e7c3e6db2acc506ca3cc0380823c65c43c246e2beaa3af4f"
+  },
+  {
+    "name": "fgv-camara-ed3",
+    "url": "https://conhecimento.fgv.br/concursos/cdeputados23/3",
+    "checkedAt": "2026-10-29T18:10:18.733488+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 93467,
+    "sha256": "580255ceb671e694c67a8c4507dcb3e6cb96e3bd0adc143c6071bce008d879ac"
+  },
+  {
+    "name": "micro-thesis-bundles-repeat",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/core/items/dd750fb7-b3e6-472b-bb72-7c42116d2117/bundles?size=20",
+    "checkedAt": "2026-10-29T18:10:18.734172+00:00",
+    "status": 200,
+    "contentType": "application/hal+json;charset=UTF-8",
+    "bytes": 3383,
+    "sha256": "901287dcac4c48fe93dc76a5579949a7b70b262c0e53ee3df063b67317ea293d"
+  },
+  {
+    "name": "micro-thesis",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/core/bitstreams/bdc2db78-869f-470d-8c42-2f74005fe69f/content",
+    "checkedAt": "2026-10-29T18:10:19.580995+00:00",
+    "status": 200,
+    "contentType": "application/pdf;charset=UTF-8",
+    "bytes": 2189119,
+    "sha256": "7680f154c1c91e09dae4c98dc7bb2df430b288bc76e37b4722e500b62ae4a47d"
+  },
+  {
+    "name": "par-manual-bundles-repeat",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/core/items/bc94168f-f538-4330-ba99-7e6b2af62af9/bundles?size=20",
+    "checkedAt": "2026-10-29T18:10:19.615447+00:00",
+    "status": 200,
+    "contentType": "application/hal+json;charset=UTF-8",
+    "bytes": 3383,
+    "sha256": "26dcf29b53b4c0216d07d3eced3a67c6ae8328590df98ba36513a12f8b33784b"
+  },
+  {
+    "name": "par-manual",
+    "url": "https://basedeconhecimento.cgu.gov.br/server/api/core/bitstreams/ef54ba99-ec0f-4e28-ac2f-733ffa7e5a1a/content",
+    "checkedAt": "2026-10-29T18:10:19.961495+00:00",
+    "status": 200,
+    "contentType": "application/pdf;charset=UTF-8",
+    "bytes": 1948563,
+    "sha256": "6f1bf9f3c56e8792e9004b623e8feb53b58f533ba7f99c7e1831b8624c8abc97"
+  },
+  {
+    "name": "dou-legacy",
+    "url": "https://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/30172275/do1-2015-09-10-portaria-conjunta-n-2-279-de-9-de-setembro-de-2015-30172271",
+    "checkedAt": "2026-10-29T18:11:46.131248+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "dou-content-id",
+    "url": "https://www.in.gov.br/web/dou/-/30172275",
+    "checkedAt": "2026-10-29T18:11:46.132128+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "dou-issue",
+    "url": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=10/09/2015&jornal=1&pagina=2",
+    "checkedAt": "2026-10-29T18:11:46.132945+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=ISO-8859-1",
+    "bytes": 1128,
+    "sha256": "0533077b80a5a1fb12aa510303e18a74dabd43746b3fa69276ec8392056c89bc"
+  },
+  {
+    "name": "stf-786",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=786",
+    "checkedAt": "2026-10-29T18:11:46.133700+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 60826,
+    "sha256": "34d8ce06ddc5d3d5b877b3bb283761fecad572c722be3c5a71a84e46d9a69d7d"
+  },
+  {
+    "name": "cgdf-event",
+    "url": "https://www.cebraspe.org.br/concursos/CG_DF_22",
+    "checkedAt": "2026-10-29T18:11:46.134426+00:00",
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 16788,
+    "sha256": "c03806f99b5ab2b0abfd002412ae0245f143bb532a55f01bb36b8edf7e9b7353"
+  },
+  {
+    "name": "cgu-cgu2026-event",
+    "url": "https://www.cebraspe.org.br/concursos/CGU_26",
+    "checkedAt": "2026-10-29T18:11:47.380210+00:00",
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 16788,
+    "sha256": "c03806f99b5ab2b0abfd002412ae0245f143bb532a55f01bb36b8edf7e9b7353"
+  },
+  {
+    "name": "event-CG_DF_22",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CG_DF_22",
+    "checkedAt": "2026-10-29T18:12:09.561007+00:00",
+    "status": 204,
+    "contentType": null,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "event-TC_DF_24",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/TC_DF_24",
+    "checkedAt": "2026-10-29T18:12:09.561882+00:00",
+    "status": 204,
+    "contentType": null,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "event-CGE_CE_24",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CGE_CE_24",
+    "checkedAt": "2026-10-29T18:12:09.562433+00:00",
+    "status": 204,
+    "contentType": null,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "event-CGE_AL_25",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CGE_AL_25",
+    "checkedAt": "2026-10-29T18:12:09.563051+00:00",
+    "status": 204,
+    "contentType": null,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "event-CGE_SP_25",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CGE_SP_25",
+    "checkedAt": "2026-10-29T18:12:09.563546+00:00",
+    "status": 204,
+    "contentType": null,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "event-CGE_CE_18",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CGE_CE_18",
+    "checkedAt": "2026-10-29T18:12:10.846862+00:00",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "bytes": 17288,
+    "sha256": "462d3ac0b7b3c11751fdf638f45890ffde725d48a1a3fb156e174f0c3c7ad6dc"
+  },
+  {
+    "name": "event-TCU_25_AUFC",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/TCU_25_AUFC",
+    "checkedAt": "2026-10-29T18:12:11.039847+00:00",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "bytes": 24423,
+    "sha256": "cab6a9cd2e70645fc8596654c1c3195ccbcbf93aa55f2ad656eff1ed617974be"
+  },
+  {
+    "name": "event-TCU_21_AUFC",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/TCU_21_AUFC",
+    "checkedAt": "2026-10-29T18:12:11.094908+00:00",
+    "status": 204,
+    "contentType": null,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "event-CAMARA_12",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CAMARA_12",
+    "checkedAt": "2026-10-29T18:12:11.232177+00:00",
+    "status": 204,
+    "contentType": null,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "portaria-archive-gov",
+    "url": "https://www.gov.br/cgu/pt-br/assuntos/noticias/2015/09/cgu-regulamenta-programas-de-integridade-para-pequenas-empresas",
+    "checkedAt": "2026-10-29T18:12:11.262194+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "portaria-archive-cgu",
+    "url": "https://www.gov.br/cgu/pt-br/assuntos/responsabilizacao-de-empresas/legislacao/portaria-conjunta-2279-2015.pdf",
+    "checkedAt": "2026-10-29T18:12:11.471246+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "dou-page2",
+    "url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=1&pagina=2&data=10/09/2015&captchafield=firstAccess",
+    "checkedAt": "2026-10-29T18:12:51.443928+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 117151,
+    "sha256": "d3b60199d5cd03beb601816da7eb42313b130f75d10f3c18478a24e0c1cf0640"
+  },
+  {
+    "name": "dou-page3",
+    "url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=1&pagina=3&data=10/09/2015&captchafield=firstAccess",
+    "checkedAt": "2026-10-29T18:12:51.444802+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 50591,
+    "sha256": "bb7a27854492b8f31b88a664cf32244c9abea52e9cecee4eb3cd509439d401a7"
+  },
+  {
+    "name": "stf-786-process",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5091603&numeroProcesso=1010606&classeProcesso=RE&numeroTema=786",
+    "checkedAt": "2026-10-29T18:12:51.445413+00:00",
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 198061,
+    "sha256": "7a55380a7544b5f6707ada31a694d35a5229173fdf67b617dc1c70fb0aa5b713"
+  },
+  {
+    "name": "dou-page4",
+    "url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=1&pagina=4&data=10/09/2015&captchafield=firstAccess",
+    "checkedAt": "2026-10-29T18:14:03.696874+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 47222,
+    "sha256": "c1b362895f63317116dff4ebd79f18b73364293b5a254bb9a8e3449cbe40e8de"
+  },
+  {
+    "name": "CGE_CE_18-1_GAB_DEFINITIVO_MATRIZ_441_CGECECB1_PAG_7",
+    "url": "https://cdn.cebraspe.org.br/concursos/cge_ce_18/arquivos/1_GAB_DEFINITIVO_MATRIZ_441_CGECECB1_PAG_7.PDF",
+    "checkedAt": "2026-10-29T18:14:03.697787+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 105935,
+    "sha256": "243b4817c5f6e083bc97e00dc61465fa8998cc8bd01426c22ad3cd37f351526e"
+  },
+  {
+    "name": "CGE_CE_18-2_GAB_DEFINITIVO_MATRIZ_441_CGECECE1_PAG_5",
+    "url": "https://cdn.cebraspe.org.br/concursos/cge_ce_18/arquivos/2_GAB_DEFINITIVO_MATRIZ_441_CGECECE1_PAG_5.PDF",
+    "checkedAt": "2026-10-29T18:14:03.698500+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 104661,
+    "sha256": "40a8b0652e92e4c19f4d957dd8789b4cd1268c42a189db52cdc7dfbf6afc72ca"
+  },
+  {
+    "name": "CGE_CE_18-3_GAB_DEFINITIVO_MATRIZ_441_CGECE001_PAG_7",
+    "url": "https://cdn.cebraspe.org.br/concursos/cge_ce_18/arquivos/3_GAB_DEFINITIVO_MATRIZ_441_CGECE001_PAG_7.PDF",
+    "checkedAt": "2026-10-29T18:14:03.699199+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 105075,
+    "sha256": "d0d3a7ee0e0cf1c4c869d2540bb5af8327a3904ebf260d8f0908bce47c3d5ebe"
+  },
+  {
+    "name": "CGE_CE_18-5_GAB_DEFINITIVO_MATRIZ_441_CGECE003_PAG_6",
+    "url": "https://cdn.cebraspe.org.br/concursos/cge_ce_18/arquivos/5_GAB_DEFINITIVO_MATRIZ_441_CGECE003_PAG_6.PDF",
+    "checkedAt": "2026-10-29T18:14:03.699741+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 105738,
+    "sha256": "088254c45bdd24fb1ac2b1fc3055132937a65144c0b4df4fa15383761f8aa32f"
+  },
+  {
+    "name": "CGE_CE_18-7_GAB_DEFINITIVO_MATRIZ_441_CGECE005_PAG_7",
+    "url": "https://cdn.cebraspe.org.br/concursos/cge_ce_18/arquivos/7_GAB_DEFINITIVO_MATRIZ_441_CGECE005_PAG_7.PDF",
+    "checkedAt": "2026-10-29T18:14:04.514142+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 105319,
+    "sha256": "9540785178e21d440e59eb51d1fe5e7a62a8887ea885d9703a69ee3133485546"
+  },
+  {
+    "name": "CGE_CE_18-MATRIZ_441_CGECECB1_PAG_7",
+    "url": "https://cdn.cebraspe.org.br/concursos/cge_ce_18/arquivos/MATRIZ_441_CGECECB1_PAG_7.PDF",
+    "checkedAt": "2026-10-29T18:14:04.758353+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 98587,
+    "sha256": "7f2390ab23a921482f70b8e511a4655a8d22f8bd78734fec4d3f3d96fcf4fd19"
+  },
+  {
+    "name": "CGE_CE_18-MATRIZ_441_CGECECE1_PAG_5",
+    "url": "https://cdn.cebraspe.org.br/concursos/cge_ce_18/arquivos/MATRIZ_441_CGECECE1_PAG_5.PDF",
+    "checkedAt": "2026-10-29T18:14:04.776017+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 64191,
+    "sha256": "152f8acb1db8525d36d7516ae46b8079f68fe8e0eca773dfa8623c31d9aa3705"
+  },
+  {
+    "name": "CGE_CE_18-MATRIZ_441_CGECE001_PAG_7",
+    "url": "https://cdn.cebraspe.org.br/concursos/cge_ce_18/arquivos/MATRIZ_441_CGECE001_PAG_7.PDF",
+    "checkedAt": "2026-10-29T18:14:04.952169+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 94873,
+    "sha256": "898f47ac3bc2e5462d906ea90d667f83ba8a4c722c16f0c09b3b995482559dd2"
+  },
+  {
+    "name": "CGE_CE_18-MATRIZ_441_CGECE003_PAG_6",
+    "url": "https://cdn.cebraspe.org.br/concursos/cge_ce_18/arquivos/MATRIZ_441_CGECE003_PAG_6.PDF",
+    "checkedAt": "2026-10-29T18:14:05.175798+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 85015,
+    "sha256": "9a291933bbf61082f3e6422d1c1428cff20a2ab8fd14f7038751ef6536980bd1"
+  },
+  {
+    "name": "CGE_CE_18-MATRIZ_441_CGECE005_PAG_7",
+    "url": "https://cdn.cebraspe.org.br/concursos/cge_ce_18/arquivos/MATRIZ_441_CGECE005_PAG_7.PDF",
+    "checkedAt": "2026-10-29T18:14:05.326352+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 72258,
+    "sha256": "e7becc2f16b8b7d8b0cceba8f4e28fd3d84e9c81a4be3669375ad9ce96721ca7"
+  },
+  {
+    "name": "TCU_25_AUFC-D599023DB31F3467DB9CC03BE3D58BFE91CD7351624DDF045C0FDB71B3569A51",
+    "url": "https://cdn.cebraspe.org.br/concursos/tcu_25_aufc/arquivos/D599023DB31F3467DB9CC03BE3D58BFE91CD7351624DDF045C0FDB71B3569A51.pdf",
+    "checkedAt": "2026-10-29T18:14:05.361424+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 208256,
+    "sha256": "2cb8e3be32a148b12466369fa7654124d7d566ff0e772ea580e9cdc65d50924b"
+  },
+  {
+    "name": "TCU_25_AUFC-9546624AF77A5D0A72692C2ACF3725FAF5033C9A8889BFC43D6665194D880172",
+    "url": "https://cdn.cebraspe.org.br/concursos/tcu_25_aufc/arquivos/9546624AF77A5D0A72692C2ACF3725FAF5033C9A8889BFC43D6665194D880172.pdf",
+    "checkedAt": "2026-10-29T18:14:05.366764+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 157664,
+    "sha256": "c21bb3e6dc41d964edb7429171f2a5fbe42911a1b42279e87d6d3fe506169b23"
+  },
+  {
+    "name": "decreto11529",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11529.htm",
+    "checkedAt": "2026-10-29T18:18:13.940179+00:00",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "name": "decreto9830",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9830.htm",
+    "checkedAt": "2026-10-29T18:18:13.941205+00:00",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "name": "lei13460",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm",
+    "checkedAt": "2026-10-29T18:18:13.941809+00:00",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "name": "enap-survey",
+    "url": "https://repositorio.enap.gov.br/handle/1/3218",
+    "checkedAt": "2026-10-29T18:18:13.942554+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 511651,
+    "sha256": "6ccca92f293aeb5d71313150146dce00ba3526afdd81f408245b0cc2ed64d4d5"
+  },
+  {
+    "name": "lexml11529",
+    "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2023-05-16;11529",
+    "checkedAt": "2026-10-29T18:18:13.943644+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 12240,
+    "sha256": "df1443c186bd41fec627c54b0597a189d4a90dbaf0ce954fc0220f4ccd35bdba"
+  },
+  {
+    "name": "lexml9830",
+    "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2019-06-10;9830",
+    "checkedAt": "2026-10-29T18:19:48.204008+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 12188,
+    "sha256": "16a01aec236f66eb6b6c94e3955442d76348e241543c3ea025b1b903003cb6ef"
+  },
+  {
+    "name": "lexml13460",
+    "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2017-06-26;13460",
+    "checkedAt": "2026-10-29T18:19:48.205036+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 13005,
+    "sha256": "8f912c9097020523bdaaad9a43f82ff99ebcbc3cb08354df8b09b84f137934a3"
+  },
+  {
+    "name": "senado11529",
+    "url": "https://legis.senado.leg.br/norma/pesquisar?tipo=DEC&numero=11529&ano=2023",
+    "checkedAt": "2026-10-29T18:19:48.205658+00:00",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "name": "decreto11529-camara-repeat",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/2023/decreto-11529-16-maio-2023-794189-publicacaooriginal-167832-pe.html",
+    "checkedAt": "2026-10-29T18:22:43.336648+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 63673,
+    "sha256": "0fc3834d39dbe3d2a5e17b61ae416ad0d81bad9b6c87c2340ef2e5b527105b13"
+  },
+  {
+    "name": "decreto9830-camara-repeat",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/2019/decreto-9830-10-junho-2019-788287-publicacaooriginal-158117-pe.html",
+    "checkedAt": "2026-10-29T18:22:43.337750+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 65103,
+    "sha256": "58863dc536f2d4606e5a8b6382d83b0df72694cc9a3e4cdfa014a291a2766b7a"
+  },
+  {
+    "name": "lei13460-camara-repeat",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13460-26-junho-2017-785098-publicacaooriginal-153203-pl.html",
+    "checkedAt": "2026-10-29T18:22:43.338422+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 62999,
+    "sha256": "cac7ce5654f30045574b608c7ab8d66d90425de71cc5f200073faafd2c33933f"
+  },
+  {
+    "name": "stf-786-process-repeat",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5091603&numeroProcesso=1010606&classeProcesso=RE&numeroTema=786",
+    "checkedAt": "2026-10-29T18:22:43.338982+00:00",
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 198061,
+    "sha256": "7a55380a7544b5f6707ada31a694d35a5229173fdf67b617dc1c70fb0aa5b713"
+  },
+  {
+    "name": "dou-page2-repeat",
+    "url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=1&pagina=2&data=10/09/2015&captchafield=firstAccess",
+    "checkedAt": "2026-10-29T18:27:32.452058+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 117151,
+    "sha256": "d3b60199d5cd03beb601816da7eb42313b130f75d10f3c18478a24e0c1cf0640"
+  },
+  {
+    "name": "dou-page3-repeat",
+    "url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=1&pagina=3&data=10/09/2015&captchafield=firstAccess",
+    "checkedAt": "2026-10-29T18:22:44.619931+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 50591,
+    "sha256": "bb7a27854492b8f31b88a664cf32244c9abea52e9cecee4eb3cd509439d401a7"
+  },
+  {
+    "name": "dou-page4-repeat",
+    "url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=1&pagina=4&data=10/09/2015&captchafield=firstAccess",
+    "checkedAt": "2026-10-29T18:22:44.782726+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 47222,
+    "sha256": "c1b362895f63317116dff4ebd79f18b73364293b5a254bb9a8e3449cbe40e8de"
+  },
+  {
+    "name": "CGE_CE_18-7_GAB_DEFINITIVO_MATRIZ_441_CGECE005_PAG_7-repeat",
+    "url": "https://cdn.cebraspe.org.br/concursos/cge_ce_18/arquivos/7_GAB_DEFINITIVO_MATRIZ_441_CGECE005_PAG_7.PDF",
+    "checkedAt": "2026-10-29T18:22:45.044322+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 105319,
+    "sha256": "9540785178e21d440e59eb51d1fe5e7a62a8887ea885d9703a69ee3133485546"
+  },
+  {
+    "name": "CGE_CE_18-MATRIZ_441_CGECE005_PAG_7-repeat",
+    "url": "https://cdn.cebraspe.org.br/concursos/cge_ce_18/arquivos/MATRIZ_441_CGECE005_PAG_7.PDF",
+    "checkedAt": "2026-10-29T18:22:46.122001+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 72258,
+    "sha256": "e7becc2f16b8b7d8b0cceba8f4e28fd3d84e9c81a4be3669375ad9ce96721ca7"
+  }
+]

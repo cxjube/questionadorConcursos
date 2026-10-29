@@ -15,8 +15,8 @@ test('all forty official MC preserve five alternatives, independent keys and exp
   assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(finished),s.data)),plain(finished));
  }
  assert.deepEqual([...seen].sort(),[...wanted].sort());
- const progress=s.Study.empty();assert.equal(s.Study.pool(s.data,role,progress).length,251);assert.equal(s.Study.pool(s.data,role,progress,'all',{type:'multiple_choice'}).length,94);
- assert.equal(s.Study.pool(s.data,role,progress,'all',{block:'institutional'}).length,26);assert.equal(s.Study.pool(s.data,'camara-comunicacao-divulgacao',progress).length,409);
+ const progress=s.Study.empty();assert.equal(s.Study.pool(s.data,role,progress).length,258);assert.equal(s.Study.pool(s.data,role,progress,'all',{type:'multiple_choice'}).length,100);
+ assert.equal(s.Study.pool(s.data,role,progress,'all',{block:'institutional'}).length,26);assert.equal(s.Study.pool(s.data,'camara-comunicacao-divulgacao',progress).length,415);
  assert.equal(s.Study.examAvailability(s.data,role).ready,true);
 });
 
@@ -27,7 +27,7 @@ test('the 145-item ABDI history remains unchanged and the newly released items b
  assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(p),s.data)),plain(p));assert.equal(s.Study.matches(s.data,p.history[0]),true);
  const newIds=new Set(['abdi-first-batch','abdi-second-batch','abdi-third-batch','abdi-fourth-batch'].flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,'data/reviews/'+name+'.json'))).items.map(i=>i.questionId)));
  const oldIds=new Set(session.items.map(i=>i.question.id));
- for(const name of ['reserve-second-batch','gaps-third-batch','gaps-fourth-batch','norms-gap-fifth']){const lot=JSON.parse(fs.readFileSync(path.join(root,'data/reviews/'+name+'.json')));
+ for(const name of ['reserve-second-batch','gaps-third-batch','gaps-fourth-batch','norms-gap-fifth','continuation-seventh']){const lot=JSON.parse(fs.readFileSync(path.join(root,'data/reviews/'+name+'.json')));
  for(const row of lot.items)if(row.syllabusItemIds.some(id=>id.startsWith('abdi-2026-'))&&!oldIds.has(row.questionId))newIds.add(row.questionId);
  for(const {mapping:m} of (lot.mappingAdditions||[]))if(m.syllabusItemId.startsWith('abdi-2026-')&&!oldIds.has(m.questionId))newIds.add(m.questionId);}
  assert.deepEqual(new Set(s.Study.pool(s.data,role,p,'unanswered').map(q=>q.id)),newIds);

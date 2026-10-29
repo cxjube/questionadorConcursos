@@ -187,7 +187,7 @@ class FourteenthBatchTests(unittest.TestCase):
         report = coverage(self.c, ['camara-2026-ciencia-politica-1'])
         self.assertEqual((report['directItems'], report['descendantsOnly'], report['emptyItems'], report['emptyLeaves']), (142, 31, 54, 53))
         self.assertEqual(report['blocks'], {'basic': {'total': 141, 'ce': 140}, 'specific': {'total': 162, 'ce': 147}})
-        for path, content in current_artifacts(read_json(ROOT / 'data/catalog.json'), read_json(ROOT / 'data/reviews/completion-sixth.json')).items():
+        for path, content in current_artifacts(read_json(ROOT / 'data/catalog.json'), read_json(ROOT / 'data/reviews/continuation-seventh.json')).items():
             self.assertEqual((ROOT / path).read_text(), content)
         class Links(HTMLParser):
             def __init__(self):

@@ -14,8 +14,8 @@
       "ce": 0
     },
     "specific": {
-      "total": 130,
-      "ce": 90
+      "total": 137,
+      "ce": 91
     }
   },
   "disciplines": [
@@ -104,8 +104,8 @@
       "descendantsOnly": 0,
       "emptyItems": 0,
       "emptyLeaves": 0,
-      "questionsCE": 90,
-      "questionsMC": 40
+      "questionsCE": 91,
+      "questionsMC": 46
     }
   ],
   "items": [
@@ -1833,17 +1833,19 @@
       "directQuestionIds": [
         "128-tcemg-008-01-q031",
         "539-alce-016-01-q027",
+        "cge-ce-2019-cargo5-q098",
         "fiocruz-2024-te58-q022"
       ],
       "directCE": 0,
-      "directMC": 3,
+      "directMC": 4,
       "subtreeQuestionIds": [
         "128-tcemg-008-01-q031",
         "539-alce-016-01-q027",
+        "cge-ce-2019-cargo5-q098",
         "fiocruz-2024-te58-q022"
       ],
       "subtreeCE": 0,
-      "subtreeMC": 3
+      "subtreeMC": 4
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-3",
@@ -2064,16 +2066,18 @@
       "priority": "B",
       "directQuestionIds": [
         "153-telebras-008-01-q106",
-        "alerj-2026-comunicacao-manha-tipo1-q060"
+        "alerj-2026-comunicacao-manha-tipo1-q060",
+        "cge-ce-2019-cargo5-q097"
       ],
       "directCE": 1,
-      "directMC": 1,
+      "directMC": 2,
       "subtreeQuestionIds": [
         "153-telebras-008-01-q106",
-        "alerj-2026-comunicacao-manha-tipo1-q060"
+        "alerj-2026-comunicacao-manha-tipo1-q060",
+        "cge-ce-2019-cargo5-q097"
       ],
       "subtreeCE": 1,
-      "subtreeMC": 1
+      "subtreeMC": 2
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-11",
@@ -2326,31 +2330,37 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
         "038-anm-010-01-q073",
         "038-anm-010-01-q083",
         "153-telebras-008-01-q067",
         "153-telebras-008-01-q098",
         "205-funpresp-26-jud-005-01-q072",
+        "539-alce-016-01-q058",
         "803-tj-es-006-01-q067",
         "893-dataprev-005-01-q104",
-        "alerj-2026-comunicacao-manha-tipo1-q073"
+        "alerj-2026-comunicacao-manha-tipo1-q073",
+        "cge-ce-2019-cargo5-q088",
+        "cge-ce-2019-cargo5-q090"
       ],
       "directCE": 7,
-      "directMC": 1,
+      "directMC": 4,
       "subtreeQuestionIds": [
         "038-anm-010-01-q073",
         "038-anm-010-01-q083",
         "153-telebras-008-01-q067",
         "153-telebras-008-01-q098",
         "205-funpresp-26-jud-005-01-q072",
+        "539-alce-016-01-q058",
         "803-tj-es-006-01-q067",
         "893-dataprev-005-01-q104",
-        "alerj-2026-comunicacao-manha-tipo1-q073"
+        "alerj-2026-comunicacao-manha-tipo1-q073",
+        "cge-ce-2019-cargo5-q088",
+        "cge-ce-2019-cargo5-q090"
       ],
       "subtreeCE": 7,
-      "subtreeMC": 1
+      "subtreeMC": 4
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-20",
@@ -2491,23 +2501,27 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
         "038-anm-013-01-q069",
+        "038-anm-cg1-01-q017",
         "205-funpresp-26-jud-005-01-q081",
         "alerj-2026-comunicacao-manha-tipo1-q068",
-        "alerj-2026-comunicacao-manha-tipo1-q071"
+        "alerj-2026-comunicacao-manha-tipo1-q071",
+        "cge-ce-2019-cargo5-q096"
       ],
-      "directCE": 2,
-      "directMC": 2,
+      "directCE": 3,
+      "directMC": 3,
       "subtreeQuestionIds": [
         "038-anm-013-01-q069",
+        "038-anm-cg1-01-q017",
         "205-funpresp-26-jud-005-01-q081",
         "alerj-2026-comunicacao-manha-tipo1-q068",
-        "alerj-2026-comunicacao-manha-tipo1-q071"
+        "alerj-2026-comunicacao-manha-tipo1-q071",
+        "cge-ce-2019-cargo5-q096"
       ],
-      "subtreeCE": 2,
-      "subtreeMC": 2
+      "subtreeCE": 3,
+      "subtreeMC": 3
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-25",
@@ -2582,8 +2596,8 @@
   ],
   "roleId": "abdi-comunicacao-marketing",
   "reviewedAt": "2026-10-29",
-  "reviewId": "completion-sixth",
-  "distinctQuestions": 251,
-  "distinctCE": 157,
-  "distinctMC": 94
+  "reviewId": "continuation-seventh",
+  "distinctQuestions": 258,
+  "distinctCE": 158,
+  "distinctMC": 100
 }

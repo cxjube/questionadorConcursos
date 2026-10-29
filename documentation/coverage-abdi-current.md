@@ -2,7 +2,7 @@
 
 Analista de Produtividade e Inovação — Comunicação e Marketing
 
-Revisão: 2026-10-29. **251 questões distintas: 94 MC e 157 C/E.**
+Revisão: 2026-10-29. **258 questões distintas: 100 MC e 158 C/E.**
 Programa: 97 itens; 78 com vínculo direto, 7 apenas por descendentes e 12 subárvores sem questões.
 
 A prova exige múltipla escolha. C/E são treino de conteúdo no formato original e não compõem reserva MC. Prioridade A indica ausência de MC; B, uma ou duas MC; C, pelo menos três. Não são pesos oficiais nem domínio do assunto.
@@ -13,7 +13,7 @@ A prova exige múltipla escolha. C/E são treino de conteúdo no formato origina
 | --- | ---: | ---: | ---: |
 | Gerais | 113 | 40 | 73 |
 | Institucionais | 26 | 26 | 0 |
-| Específicos | 130 | 40 | 90 |
+| Específicos | 137 | 46 | 91 |
 
 As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter questões únicas.
 
@@ -91,7 +91,7 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.6 | Missão, visão, valores, diretrizes e objetivos estratégicos da ABDI, conforme o Planejamento Estratégico 2024–2029, aprovado pela Resolução do Conselho Deliberativo nº 008/2023. | 0 | 0 | Sem questões |
 | ÉTICA E CONDUTA FUNCIONAL; MISSÃO E ATUAÇÃO INSTITUCIONAL DA ABDI | 4.7 | Atuação institucional da ABDI: promoção do desenvolvimento industrial, inovação, transformação digital, difusão tecnológica, competitividade e sustentabilidade, conforme o art. 1º da Lei nº 11.080/2004, o art. 2º do Decreto nº 5.352/2005 e o Planejamento Estratégico 2024–2029. | 1 | 0 | Direto |
 | Comunicação e Marketing | 1 | Teorias da comunicação. | 3 | 2 | Direto |
-| Comunicação e Marketing | 2 | Processos, elementos, modelos e funções da comunicação. | 3 | 0 | Direto |
+| Comunicação e Marketing | 2 | Processos, elementos, modelos e funções da comunicação. | 4 | 0 | Direto |
 | Comunicação e Marketing | 3 | Comunicação social, institucional, organizacional e pública. | 2 | 9 | Direto |
 | Comunicação e Marketing | 4 | Planejamento estratégico de comunicação. | 0 | 7 | Direto |
 | Comunicação e Marketing | 5 | Comunicação integrada. | 1 | 0 | Direto |
@@ -99,7 +99,7 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | Comunicação e Marketing | 7 | Assessoria de comunicação e assessoria de imprensa. | 2 | 1 | Direto |
 | Comunicação e Marketing | 8 | Relacionamento com a imprensa e fontes de informação. | 2 | 2 | Direto |
 | Comunicação e Marketing | 9 | Gêneros jornalísticos. | 2 | 1 | Direto |
-| Comunicação e Marketing | 10 | Técnicas de redação jornalística: notícia, reportagem, entrevista, nota, release, artigo e texto institucional. | 1 | 1 | Direto |
+| Comunicação e Marketing | 10 | Técnicas de redação jornalística: notícia, reportagem, entrevista, nota, release, artigo e texto institucional. | 2 | 1 | Direto |
 | Comunicação e Marketing | 11 | Edição e revisão de conteúdos. | 0 | 1 | Direto |
 | Comunicação e Marketing | 12 | Comunicação interna e relacionamento com públicos internos. | 1 | 14 | Direto |
 | Comunicação e Marketing | 13 | Comunicação digital e produção de conteúdo para ambientes digitais. | 0 | 4 | Direto |
@@ -108,12 +108,12 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | Comunicação e Marketing | 16 | Comunicação audiovisual: fundamentos de fotografia, vídeo e áudio. | 0 | 4 | Direto |
 | Comunicação e Marketing | 17 | Comunicação visual: fundamentos de design, identidade visual e produção gráfica. | 0 | 3 | Direto |
 | Comunicação e Marketing | 18 | Planejamento e organização de eventos. | 1 | 0 | Direto |
-| Comunicação e Marketing | 19 | Pesquisa de opinião e avaliação de resultados de comunicação. | 1 | 7 | Direto |
+| Comunicação e Marketing | 19 | Pesquisa de opinião e avaliação de resultados de comunicação. | 4 | 7 | Direto |
 | Comunicação e Marketing | 20 | Gestão de crises e comunicação de risco. | 3 | 4 | Direto |
 | Comunicação e Marketing | 21 | Relacionamento com públicos de interesse e comunidades. | 0 | 2 | Direto |
 | Comunicação e Marketing | 22 | Comunicação científica, tecnológica e ambiental. | 6 | 1 | Direto |
 | Comunicação e Marketing | 23 | Ética e legislação aplicadas à comunicação. | 7 | 4 | Direto |
-| Comunicação e Marketing | 24 | Direito à informação, transparência e acesso à informação. | 2 | 2 | Direto |
+| Comunicação e Marketing | 24 | Direito à informação, transparência e acesso à informação. | 3 | 3 | Direto |
 | Comunicação e Marketing | 25 | Proteção de dados pessoais aplicada às atividades de comunicação. | 2 | 8 | Direto |
 | Comunicação e Marketing | 26 | Acessibilidade, inclusão e linguagem simples na comunicação. | 6 | 0 | Direto |
 

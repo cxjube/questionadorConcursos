@@ -3,9 +3,9 @@
   "checkedAt": "2026-10-29",
   "roleId": "abdi-comunicacao-marketing",
   "scope": "Exact distinct-ID matching across all official discipline quotas. CE remain training only. Capacity does not certify coverage or difficulty; later withdrawals can block the simulator.",
-  "distinctTrainingQuestions": 251,
-  "distinctMC": 94,
-  "distinctCE": 157,
+  "distinctTrainingQuestions": 258,
+  "distinctMC": 100,
+  "distinctCE": 158,
   "institutionalDistinctMC": 26,
   "minimumAdditionalMC": 0,
   "distribution": [
@@ -62,7 +62,7 @@
       "block": "specific",
       "disciplineId": "abdi-comunicacao-marketing",
       "requiredMC": 20,
-      "availableDistinctMC": 40,
+      "availableDistinctMC": 46,
       "missingForMinimum": 0
     }
   ],
@@ -160,6 +160,7 @@
           "539-alce-016-01-q025",
           "539-alce-016-01-q026",
           "539-alce-016-01-q027",
+          "539-alce-016-01-q058",
           "abdi-2008-senior-assessor-comunicacao-q013",
           "abdi-2008-senior-assessor-comunicacao-q016",
           "alerj-2026-comunicacao-manha-tipo1-q051",
@@ -168,8 +169,7 @@
           "alerj-2026-comunicacao-manha-tipo1-q058",
           "alerj-2026-comunicacao-manha-tipo1-q059",
           "alerj-2026-comunicacao-manha-tipo1-q060",
-          "alerj-2026-comunicacao-manha-tipo1-q061",
-          "alerj-2026-comunicacao-manha-tipo1-q063"
+          "alerj-2026-comunicacao-manha-tipo1-q061"
         ]
       }
     ]

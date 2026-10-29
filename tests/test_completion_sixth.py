@@ -9,7 +9,7 @@ import unittest
 import xml.etree.ElementTree as ET
 from tools.answer_tables import answer_table
 from tools.bank_sweep import technical_audit, MANIFEST as SWEEP
-from tools.completion import MANIFEST, artifacts
+from tools.completion import MANIFEST, REVIEWED_CATALOG, artifacts
 from tools.reference_text import reference_text
 from tools.source_audit import audit_sources
 from tools.validate import ROOT, read_json, validate
@@ -18,7 +18,7 @@ from tools.validate import ROOT, read_json, validate
 class CompletionSixthTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c=read_json(ROOT/'data/catalog.json');cls.m=read_json(ROOT/MANIFEST)
+        cls.c=json.loads(gzip.decompress((ROOT/REVIEWED_CATALOG).read_bytes()));cls.m=read_json(ROOT/MANIFEST)
         cls.raw=gzip.decompress((ROOT/cls.m['previousCatalogFile']).read_bytes());cls.before=json.loads(cls.raw)
         cls.docs={d['id']:d for d in cls.c['documents']};cls.papers={p['id']:p for p in cls.c['papers']}
 
@@ -40,7 +40,7 @@ class CompletionSixthTests(unittest.TestCase):
     def test_every_current_official_text_option_key_context_and_hash_is_verified(self):
         a=technical_audit(self.c,read_json(ROOT/SWEEP));self.assertEqual(a['errors'],[])
         self.assertEqual((len(a['questions']),a['checkedPapers'],a['checkedContexts'],a['checkedDocuments']),(709,77,278,231))
-        self.assertEqual(audit_sources(self.c,read_json(ROOT/'data/source-verification.json')),[])
+        self.assertEqual(audit_sources(self.c,read_json(ROOT/'data/reviews/pre-continuation-seventh-sources.json')),[])
 
     def test_new_bounded_lines_are_independent_original_pdf_lines(self):
         pages={};ns={'x':'http://www.w3.org/1999/xhtml'};ctx={x['id']:x for x in self.c['contexts']}

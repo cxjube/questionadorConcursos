@@ -1,0 +1,1638 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-29T16:12:12.919668+00:00",
+  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23. Comment completion: two Priberam entries retain the initial official publisher download bytes; no independent second download is claimed. Ninth source discovery: 16 new paper/key PDFs independently re-downloaded with byte equality; two Microsoft Learn HTML references retain initial publisher bytes. Complete source inventory is separate from individually released questions. Existing matches are historical evidence; not every old source was downloaded again. Tenth batch: one PF 2025 Bloco II pair independently re-downloaded with identical bytes; three Câmara current legal HTML references retain initial official download bytes. Compatibility is limited to cited active clauses as of 2026-10-23. Other prior sources were not all downloaded again. Eleventh batch: SERPRO 2023 and STJ 2024 basic paper/definitive-key PDFs independently re-downloaded byte-identically. Initial Câmara improbity-law and Microsoft Teams HTML downloads retained. Current review is limited to cited clauses and technical conditions; older evidence remains historical. Resumed on 2026-10-26: IPv6 and DNS initial Microsoft Learn reference bytes retained; seven legal items rechecked against cited active official clauses and Teams conditions rechecked, with separate evidence in data/reviews/eleventh-reference-rechecks.json. No new questions use annulled STJ Power BI items. Twelfth batch: two complete CNJ/TCEAC paper and definitive-key pairs independently downloaded twice with matching bytes; historical records are not repeated downloads. Four initial official Câmara legal HTML downloads retained; no second binary download is claimed for HTML. Compatibility is limited to cited active clauses as of 2026-10-26. ABDI intake 2026-10-27: the user-provided 48-page opening notice is byte-identical to the PDF linked on the FGV psabdi page; its download hash is retained. Other rows retain their original verification dates and scopes; no fresh re-download of all sources is claimed. ABDI first batch 2026-10-27: three complete Senado/TCE-MG pairs independently downloaded twice with matching bytes. Three official Câmara legislative HTML references retain initial publisher bytes. Only the selected clauses are reviewed; five internal ABDI documents remain inaccessible/unverified. Other sources were not freshly re-downloaded. See abdi-first-source-discovery.json and abdi-first-reference-review.json. ABDI second batch: seven internal/reference PDFs (including original CD 008/2023 plan and distinct CD 009/2024 adjustment) and four official IBFC 2008 objective/post-appeal pairs independently re-downloaded byte-identically. New official Câmara LGPD HTML retains initial bytes; Planalto returned HTTP 503. No fresh re-download of all older sources is claimed. ABDI third batch: four additional IBFC 2008 paper/definitive post-appeal pairs, eight independent repeated byte matches. Existing Senate/LGPD/RLC sources reused with selected-clause checks; no whole-bank re-audit. ABDI fourth batch: six additional official pairs, eleven unique PDFs repeated byte-identically; shared Fiocruz final report retained once for two exact profiles. TJRR key header date discrepancy recorded against official notice. Older legal sources reused only at selected clauses. CGU Auditoria intake: original opening, rectification nº2 and updated opening independently re-downloaded byte-identically on 28/10/2026; event listing unchanged. Other evidence is historical. No new paper/key pairs or question texts. CGU first batch: two new TCEAC objective/definitive pairs and two CGU normative PDFs independently re-downloaded byte-identically. IN3 consolidated preserves partial revocation of 4(d) and 5 by IN7; selected clauses only. Lei4320/LRF same-day rechecks retained separately. No full MCASP11 verification; HTTP401 not bypassed. Older source matches retain historical scope. Reserve second batch: six annotated TCDF Auditoria question/final-key PDFs and two ABDI Biotecnologia PDFs independently repeated byte-identically. Preliminary annotations never grade questions. MCASP11 full PDF/change-summary matched twice but remain outside repository; official HTML landing and Lei12846 consolidated HTML retain initial downloaded bytes. Selected MCASP pages/clauses only, not an exhaustive manual audit. Gaps third batch: five complete official pairs/eight unique PDF binaries compared with independent repeated downloads; CGU uses retified20Apr2022 report and exact role/type/session, not preliminary or superseded tables. CNS510 and FENAJ initial publisher bytes retained; selected provisions only. Other source verification remains historical. Gaps fourth batch: five complete official pairs/ten unique repeated byte-identical PDFs. One new Lei12813 publisher HTML with selected-clause review; old source checks remain historical. ICMBio date discrepancy explicitly retained. Norms-gap fifth: five normative references independently repeated; Lei14133 alternate official DOCX checked at selected clauses. Existing paper/key verification dates retained; no fresh PDF download claim for existing pairs. Completion sixth: two complete CGE-SC role/session/type pairs, three unique PDFs repeated identically; five normative PDFs independently repeated, selected clauses/amendments only. Old dates/evidence remain historical.",
+  "documents": [
+    {
+      "documentId": "camara-2026-edital-01-documento",
+      "localSha256": "065cb0eb179e91107dd2edb1d92f0d0a86c0feb359fedd6e0b44329fc4b096e3",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades",
+      "remoteSha256": "065cb0eb179e91107dd2edb1d92f0d0a86c0feb359fedd6e0b44329fc4b096e3"
+    },
+    {
+      "documentId": "camara-2026-edital-05-documento",
+      "localSha256": "1685ed892c8ae00c57cfca14b6c91cd5227b801df7f2a574f0f1d7286c810c87",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-n-5-cd-analista-especialidades-de-15-de-outubro-de-2026",
+      "remoteSha256": "1685ed892c8ae00c57cfca14b6c91cd5227b801df7f2a574f0f1d7286c810c87"
+    },
+    {
+      "documentId": "camara-2026-edital-06-documento",
+      "localSha256": "0bdab0b074444077a3b3c38a9f492f119537e7437bf4d28f10b5e042a1764122",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-n-6-cd-especialidades-de-21-de-outubro-de-2026",
+      "remoteSha256": "0bdab0b074444077a3b3c38a9f492f119537e7437bf4d28f10b5e042a1764122"
+    },
+    {
+      "documentId": "source-232funprespexe-cb1-01-paper",
+      "localSha256": "c8604cb8ff215b848e10327140e60a72fbe8adadac66c23ce35c242d3761d73f",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_15/arquivos/232FUNPRESPEXE_CB1_01.PDF",
+      "remoteSha256": "c8604cb8ff215b848e10327140e60a72fbe8adadac66c23ce35c242d3761d73f"
+    },
+    {
+      "documentId": "source-232funprespexe-cb1-01-key",
+      "localSha256": "33448aec7403003f8f7bbc6390facffd245a2142eef416ace35087280b1fbfe4",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_15/arquivos/GAB_DEFINITIVO_232FUNPRESPEXE_CB1_01.PDF",
+      "remoteSha256": "33448aec7403003f8f7bbc6390facffd245a2142eef416ace35087280b1fbfe4"
+    },
+    {
+      "documentId": "source-232funprespexe-002-01-paper",
+      "localSha256": "55488e51fdd824a03f06083527a94fbfbe296378f21866d69ae0cb389184a96e",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_15/arquivos/232FUNPRESPEXE_002_01.PDF",
+      "remoteSha256": "55488e51fdd824a03f06083527a94fbfbe296378f21866d69ae0cb389184a96e"
+    },
+    {
+      "documentId": "source-232funprespexe-002-01-key",
+      "localSha256": "6bd16422a18dde8bb80a188ca0ac8704dd3d23a1635a6081a17bdafacf59ba5d",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_15/arquivos/GAB_DEFINITIVO_232FUNPRESPEXE_002_01.PDF",
+      "remoteSha256": "6bd16422a18dde8bb80a188ca0ac8704dd3d23a1635a6081a17bdafacf59ba5d"
+    },
+    {
+      "documentId": "source-038-anm-010-01-paper",
+      "localSha256": "ea76f07905a3e89245b9e23c97330141329f244e9d4cbb312076eb46fb580335",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_010_01.PDF",
+      "remoteSha256": "ea76f07905a3e89245b9e23c97330141329f244e9d4cbb312076eb46fb580335"
+    },
+    {
+      "documentId": "source-038-anm-010-01-key",
+      "localSha256": "ece3cbfce39de2418fdb1f021dc029cfd85af399efa061db27a816b2a3159a16",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/GAB_DEFINITIVO_038_ANM_010_01.PDF",
+      "remoteSha256": "ece3cbfce39de2418fdb1f021dc029cfd85af399efa061db27a816b2a3159a16"
+    },
+    {
+      "documentId": "source-042-embrapa-analista-072-01-paper",
+      "localSha256": "9a0441eae514cebcba3a4178e46fca032b5a235e4e6da7fa57e99c12344416ca",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/EMBRAPA_24/arquivos/042_EMBRAPA_ANALISTA_072_01.PDF",
+      "remoteSha256": "9a0441eae514cebcba3a4178e46fca032b5a235e4e6da7fa57e99c12344416ca"
+    },
+    {
+      "documentId": "source-042-embrapa-analista-072-01-key",
+      "localSha256": "a56cb02e99af451a60333509246deaf7a4193be203d4508760a055b3f57bedb1",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/EMBRAPA_24/arquivos/GAB_DEFINITIVO_042_EMBRAPA_ANALISTA_072_01.PDF",
+      "remoteSha256": "a56cb02e99af451a60333509246deaf7a4193be203d4508760a055b3f57bedb1"
+    },
+    {
+      "documentId": "source-539-alce-016-01-paper",
+      "localSha256": "190db36dd81e6346d9869f4afc227b0a14df99a966631aa4fa0c2f5c41edfc66",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/AL_CE_20/arquivos/539_ALCE_016_01.PDF",
+      "remoteSha256": "190db36dd81e6346d9869f4afc227b0a14df99a966631aa4fa0c2f5c41edfc66"
+    },
+    {
+      "documentId": "source-539-alce-016-01-key",
+      "localSha256": "8586fcd84266fb7c3ed401f8449684509ae7fe35536a26c0424447cdd939ef9e",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/AL_CE_20/arquivos/GAB_DEFINITIVO_539_ALCE_016_01.PDF",
+      "remoteSha256": "8586fcd84266fb7c3ed401f8449684509ae7fe35536a26c0424447cdd939ef9e"
+    },
+    {
+      "documentId": "source-989-codevasf-010-01-paper",
+      "localSha256": "27361c116b0b9cfec8d31b094b1f9e1160858920928eaf7c8d65af27a3ba55f0",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CODEVASF_24/arquivos/989_CODEVASF_010_01.PDF",
+      "remoteSha256": "27361c116b0b9cfec8d31b094b1f9e1160858920928eaf7c8d65af27a3ba55f0"
+    },
+    {
+      "documentId": "source-989-codevasf-010-01-key",
+      "localSha256": "d252d71d15186ee356ea2d564433d8acb82e9440a929c95ba50059e0b1cd13c7",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CODEVASF_24/arquivos/GAB_DEFINITIVO_989_CODEVASF_010_01.PDF",
+      "remoteSha256": "d252d71d15186ee356ea2d564433d8acb82e9440a929c95ba50059e0b1cd13c7"
+    },
+    {
+      "documentId": "camara-2026-edital-02-documento",
+      "localSha256": "e36a0d3056dbd4023c0b265faf7ea1dcc11378053dd71df7df57b143134a9c18",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/B4CC8387742A0FCD9975D7DC2F3D752A3E6FB75E362960AF0664C8C799209D33.pdf",
+      "remoteSha256": "e36a0d3056dbd4023c0b265faf7ea1dcc11378053dd71df7df57b143134a9c18"
+    },
+    {
+      "documentId": "camara-2026-edital-03-documento",
+      "localSha256": "ab19d4030d7bdc37c52848f28328c1919ee8d27cc1d82302c134c6f4deee2b8f",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/133EDBEE591578369AA5117750F230D729D489E329F51213760D28D5EF367A0D.pdf",
+      "remoteSha256": "ab19d4030d7bdc37c52848f28328c1919ee8d27cc1d82302c134c6f4deee2b8f"
+    },
+    {
+      "documentId": "camara-2026-edital-04-documento",
+      "localSha256": "6f62c229b72613cd87e3e546e2c8aeca4ddaf10f60707b02ddba0cc9187ac4ee",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/787E713B1C1573FD3B8D4C17D9145E440429F317ADFFC8A07D92594D961D3830.pdf",
+      "remoteSha256": "6f62c229b72613cd87e3e546e2c8aeca4ddaf10f60707b02ddba0cc9187ac4ee"
+    },
+    {
+      "documentId": "camara-2026-abertura-atualizada-documento",
+      "localSha256": "07c9951012a976479692a87c08026b8fdd1648d84b7cd5858508dc27f4adc274",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/D0A680C4506DD7153722F50B4F05038D9C80FE7BAD36D52A5E65DA395F75A94B.pdf",
+      "remoteSha256": "07c9951012a976479692a87c08026b8fdd1648d84b7cd5858508dc27f4adc274"
+    },
+    {
+      "documentId": "camara-2026-ata-sorteio-documento",
+      "localSha256": "ef6b4cd7d748189bc23584e33a67a3f12c1202fd2771ba632a9c9cb5401f7fcb",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/3997D83E84019AD83E6039836490D4F0CF955180AC5F620B78436717E578A32A.pdf",
+      "remoteSha256": "ef6b4cd7d748189bc23584e33a67a3f12c1202fd2771ba632a9c9cb5401f7fcb"
+    },
+    {
+      "documentId": "source-038-anm-cg1-01-paper",
+      "localSha256": "a86426b880166b6dd99bcfd5b80cbb36f68b2eef431f94e5770682f714e08b87",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_CG1_01.PDF",
+      "remoteSha256": "a86426b880166b6dd99bcfd5b80cbb36f68b2eef431f94e5770682f714e08b87"
+    },
+    {
+      "documentId": "source-038-anm-cg1-01-key",
+      "localSha256": "509c0196725bee12055d699b2584632c65bab621c39a88f6035eee75a90ab338",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_CG1_01.PDF",
+      "remoteSha256": "509c0196725bee12055d699b2584632c65bab621c39a88f6035eee75a90ab338"
+    },
+    {
+      "documentId": "reference-constitution-1988",
+      "localSha256": "bfcf4ff3177fedb13db963a2a05109d7520c01dff8257e83007a9e50ba51841e",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "remoteSha256": "bfcf4ff3177fedb13db963a2a05109d7520c01dff8257e83007a9e50ba51841e"
+    },
+    {
+      "documentId": "reference-lei-9784-1999",
+      "localSha256": "0252507e0e6394f79d4f4cf68fe3677af2176f9d252c711e738824d163e0f152",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+      "remoteSha256": "0252507e0e6394f79d4f4cf68fe3677af2176f9d252c711e738824d163e0f152"
+    },
+    {
+      "documentId": "reference-lei-14133-2021",
+      "localSha256": "e2e59f1cd0b413a6ea6c26ffb2cc9cbccbe108fcfd41b4b6394f4157c33f0de8",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+      "remoteSha256": "e2e59f1cd0b413a6ea6c26ffb2cc9cbccbe108fcfd41b4b6394f4157c33f0de8"
+    },
+    {
+      "documentId": "reference-lei-13709-2018",
+      "localSha256": "feebdbb3988cbe9e29b1c034b4721e9ae4337095ba9e617a58ca3057bc5f22ce",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "remoteSha256": "feebdbb3988cbe9e29b1c034b4721e9ae4337095ba9e617a58ca3057bc5f22ce"
+    },
+    {
+      "documentId": "reference-lei-12527-2011",
+      "localSha256": "1d2e5473cac63e692323d21815340f8bd30cb6897cacafa59da8b8b94f72f33c",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+      "remoteSha256": "1d2e5473cac63e692323d21815340f8bd30cb6897cacafa59da8b8b94f72f33c"
+    },
+    {
+      "documentId": "reference-ricd-res17-1989",
+      "localSha256": "e95d7b34dd5fdfeae4892cc4e3893c56eb9f1c28cb418af22639a8c7846639d9",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+      "remoteSha256": "e95d7b34dd5fdfeae4892cc4e3893c56eb9f1c28cb418af22639a8c7846639d9"
+    },
+    {
+      "documentId": "source-camara-2023-tecnica-tarde-tipo1-paper",
+      "localSha256": "f3caf136e6dd117ce077883d33527eafdf3628ce8f9e4839966f04d664db43fc",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns301-analista-legislativo-tecnica-legislativacns301-tipo-1_0.pdf",
+      "remoteSha256": "f3caf136e6dd117ce077883d33527eafdf3628ce8f9e4839966f04d664db43fc"
+    },
+    {
+      "documentId": "source-camara-2023-tecnica-tarde-tipo1-key",
+      "localSha256": "2449f4024c25e31c20ea9d83885ec06296a3a93217d2f0c22c9e4bdc10c7d5e8",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivos-para-publicacao-edital-3-tarde.pdf",
+      "remoteSha256": "2449f4024c25e31c20ea9d83885ec06296a3a93217d2f0c22c9e4bdc10c7d5e8"
+    },
+    {
+      "documentId": "source-camara-2014-consultor-cb2-03-paper",
+      "localSha256": "08f8b15a4e08cbd1546f6318b2dae3cd7d0f8629e40e8d029a9fd38d3f87d4a7",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/area-i/conhecimentos-basicos-p1",
+      "remoteSha256": "08f8b15a4e08cbd1546f6318b2dae3cd7d0f8629e40e8d029a9fd38d3f87d4a7"
+    },
+    {
+      "documentId": "source-camara-2014-consultor-cb2-03-key",
+      "localSha256": "b3e29c271c67e89ad2d318e33657999b438eba4f5131ea491d35cc2c945549e4",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/area-i/gabarito-conhecimentos-basicos-p1",
+      "remoteSha256": "b3e29c271c67e89ad2d318e33657999b438eba4f5131ea491d35cc2c945549e4"
+    },
+    {
+      "documentId": "source-camara-2014-consultor-area-xix-paper",
+      "localSha256": "a5441ae000a63929364cf634117ca0e22da4e0cacc8817adfc2731971b304289",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/area-xix/prova-objetiva-p2",
+      "remoteSha256": "a5441ae000a63929364cf634117ca0e22da4e0cacc8817adfc2731971b304289"
+    },
+    {
+      "documentId": "source-camara-2014-consultor-area-xix-key",
+      "localSha256": "09402dd9d78b6c874314272c180a52bc1c62994cc24c0ebcebd573fb23b72438",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/area-xix/gabarito-p2",
+      "remoteSha256": "09402dd9d78b6c874314272c180a52bc1c62994cc24c0ebcebd573fb23b72438"
+    },
+    {
+      "documentId": "reference-enap-comunicacao-2015",
+      "localSha256": "9c385c9644c9b8974f0f4fab45ee413c97cd548679356cfc70ee0ed7189501c0",
+      "outcome": "byte_match",
+      "officialUrl": "https://repositorio.enap.gov.br/server/api/core/bitstreams/60e4e75c-3215-4c8f-9650-f48087aca831/content",
+      "remoteSha256": "9c385c9644c9b8974f0f4fab45ee413c97cd548679356cfc70ee0ed7189501c0"
+    },
+    {
+      "documentId": "reference-certbr-cartilha",
+      "localSha256": "49ff9c787b8d81b5c512fd1b81ed84fd7c69ce5b67855fefafb677555b757cab",
+      "outcome": "byte_match",
+      "officialUrl": "https://cartilha.cert.br/livro/cartilha-seguranca-internet.pdf",
+      "remoteSha256": "49ff9c787b8d81b5c512fd1b81ed84fd7c69ce5b67855fefafb677555b757cab"
+    },
+    {
+      "documentId": "reference-google-ml",
+      "localSha256": "c6168372401f8ae44a9a660326a26316735c06b2e0bfd5d483f7654e2350b164",
+      "outcome": "byte_match",
+      "officialUrl": "https://developers.google.com/machine-learning/intro-to-ml/what-is-ml?hl=pt-br",
+      "remoteSha256": "c6168372401f8ae44a9a660326a26316735c06b2e0bfd5d483f7654e2350b164"
+    },
+    {
+      "documentId": "reference-microsoft-onedrive",
+      "localSha256": "768b81b3344a537909384870dc1703dde55742292977752d7ff14a3b07ec913e",
+      "outcome": "byte_match",
+      "officialUrl": "https://support.microsoft.com/pt-br/onedrive/what-is-onedrive-for-work-or-school",
+      "remoteSha256": "768b81b3344a537909384870dc1703dde55742292977752d7ff14a3b07ec913e"
+    },
+    {
+      "documentId": "reference-senado-relacionamento-com-os-publicos",
+      "localSha256": "0f696e1ce9becfae1a88a7c781bd5425c9579c9633de62a16804e0b9ef54bad0",
+      "outcome": "byte_match",
+      "officialUrl": "https://www12.senado.leg.br/manualdecomunicacao/diretrizes/relacionamento-com-os-publicos",
+      "remoteSha256": "0f696e1ce9becfae1a88a7c781bd5425c9579c9633de62a16804e0b9ef54bad0"
+    },
+    {
+      "documentId": "reference-senado-cobertura-e-divulgacao-institucional-interna",
+      "localSha256": "30d0f6036fd226a1d77e17de7788d705323e8848323669bdc8ca06265ca2e844",
+      "outcome": "byte_match",
+      "officialUrl": "https://www12.senado.leg.br/manualdecomunicacao/diretrizes/cobertura-e-divulgacao-institucional-interna",
+      "remoteSha256": "30d0f6036fd226a1d77e17de7788d705323e8848323669bdc8ca06265ca2e844"
+    },
+    {
+      "documentId": "reference-senado-integracao",
+      "localSha256": "cac426e48b9a53c6cc8009beabadac773b8abab747d5d99092f20f8dd879e1fb",
+      "outcome": "byte_match",
+      "officialUrl": "https://www12.senado.leg.br/manualdecomunicacao/diretrizes/integracao",
+      "remoteSha256": "cac426e48b9a53c6cc8009beabadac773b8abab747d5d99092f20f8dd879e1fb"
+    },
+    {
+      "documentId": "reference-senado-acoes-institucionais",
+      "localSha256": "e879b9579a82fa2af092177121453a42136b077645249f5bb0ddd3f27616114e",
+      "outcome": "byte_match",
+      "officialUrl": "https://www12.senado.leg.br/manualdecomunicacao/diretrizes/acoes-institucionais",
+      "remoteSha256": "e879b9579a82fa2af092177121453a42136b077645249f5bb0ddd3f27616114e"
+    },
+    {
+      "documentId": "reference-priberam-publicidade",
+      "localSha256": "68837f381ccada060f22a158eef153104220081b591fa6ea013d9a46e07461ca",
+      "outcome": "byte_match",
+      "officialUrl": "https://dicionario.priberam.org/pt-pt/publicidade",
+      "remoteSha256": "68837f381ccada060f22a158eef153104220081b591fa6ea013d9a46e07461ca"
+    },
+    {
+      "documentId": "reference-priberam-propaganda",
+      "localSha256": "4f70fec7df87f1158de49f262555fc7b940b372f6a089a12d2f69d176467e1e9",
+      "outcome": "byte_match",
+      "officialUrl": "https://dicionario.priberam.org/pt-pt/propaganda",
+      "remoteSha256": "4f70fec7df87f1158de49f262555fc7b940b372f6a089a12d2f69d176467e1e9"
+    },
+    {
+      "documentId": "source-038-anm-008-01-paper",
+      "localSha256": "3827773733eab82c542444e790cf649f153db3e34ee47acbaabdd36d15d8f53d",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_008_01.PDF",
+      "remoteSha256": "3827773733eab82c542444e790cf649f153db3e34ee47acbaabdd36d15d8f53d"
+    },
+    {
+      "documentId": "source-038-anm-008-01-key",
+      "localSha256": "9437db8ae98463dd3d3264f2aff87dffe0135579b8e793d75171684d12c7db9d",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_008_01.PDF",
+      "remoteSha256": "9437db8ae98463dd3d3264f2aff87dffe0135579b8e793d75171684d12c7db9d"
+    },
+    {
+      "documentId": "source-038-anm-012-01-paper",
+      "localSha256": "04d04d062fe842886f55cfcafdf60c7e4d3fc716bb18b7e12a2c4506ab17deb4",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_012_01.PDF",
+      "remoteSha256": "04d04d062fe842886f55cfcafdf60c7e4d3fc716bb18b7e12a2c4506ab17deb4"
+    },
+    {
+      "documentId": "source-038-anm-012-01-key",
+      "localSha256": "04bf68b4d90a9a16064a7933ee4d08fffd1ca6c706fc50392e1e3f9f0d8a1f96",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_012_01.PDF",
+      "remoteSha256": "04bf68b4d90a9a16064a7933ee4d08fffd1ca6c706fc50392e1e3f9f0d8a1f96"
+    },
+    {
+      "documentId": "source-038-anm-013-01-paper",
+      "localSha256": "fad0ff0160950e230ea7def858541ce7cab79eb1b7e35bd1236cb603c0a26068",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_013_01.PDF",
+      "remoteSha256": "fad0ff0160950e230ea7def858541ce7cab79eb1b7e35bd1236cb603c0a26068"
+    },
+    {
+      "documentId": "source-038-anm-013-01-key",
+      "localSha256": "eec3e29b6bb7a05895c572017c906ae39e36ed3c1dbcf5a7dc7fe14b26ca6310",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_013_01.PDF",
+      "remoteSha256": "eec3e29b6bb7a05895c572017c906ae39e36ed3c1dbcf5a7dc7fe14b26ca6310"
+    },
+    {
+      "documentId": "source-959-bcb-cb1-01-paper",
+      "localSha256": "ba25e4ed70a5a2eb021b3e25cff4138705a8de035dd03d243e8d1f980aa9e01a",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/BCB_24/arquivos/959_BCB_CB1_01.PDF",
+      "remoteSha256": "ba25e4ed70a5a2eb021b3e25cff4138705a8de035dd03d243e8d1f980aa9e01a"
+    },
+    {
+      "documentId": "source-959-bcb-cb1-01-key",
+      "localSha256": "a49786674b8bf9c615748c57940509e2f2f7a7d226271864a15ebcc6218c1141",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/BCB_24/arquivos/GAB_DEFINITIVO_959_BCB_CB1_01.PDF",
+      "remoteSha256": "a49786674b8bf9c615748c57940509e2f2f7a7d226271864a15ebcc6218c1141"
+    },
+    {
+      "documentId": "source-057-ibama-cb1-01-paper",
+      "localSha256": "7cd6e4b6dbc39656edf76a841697906adc4eb0773960c09e3d83c02cb3587cda",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/IBAMA_25/arquivos/057_IBAMA_CB1_01.pdf",
+      "remoteSha256": "7cd6e4b6dbc39656edf76a841697906adc4eb0773960c09e3d83c02cb3587cda"
+    },
+    {
+      "documentId": "source-057-ibama-cb1-01-key",
+      "localSha256": "d4ea8843df95133c87d2bd4f41f3dd921215377d1019cabe95507a2452bcaa7f",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/IBAMA_25/arquivos/Gab_Definitivo_057_IBAMA_CB1_01.PDF",
+      "remoteSha256": "d4ea8843df95133c87d2bd4f41f3dd921215377d1019cabe95507a2452bcaa7f"
+    },
+    {
+      "documentId": "source-057-ibama-001-01-paper",
+      "localSha256": "597a8deb760c0cbb6a8fc25edfc490f2c88a2518d8bb883388184b59838d9849",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/IBAMA_25/arquivos/057_IBAMA_001_01.pdf",
+      "remoteSha256": "597a8deb760c0cbb6a8fc25edfc490f2c88a2518d8bb883388184b59838d9849"
+    },
+    {
+      "documentId": "source-057-ibama-001-01-key",
+      "localSha256": "0461e69fa22a3eaeb9df344685933059bc54c69c8ddb6718143a8b1e865c7e6f",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/IBAMA_25/arquivos/Gab_Definitivo_057_IBAMA_001_01.PDF",
+      "remoteSha256": "0461e69fa22a3eaeb9df344685933059bc54c69c8ddb6718143a8b1e865c7e6f"
+    },
+    {
+      "documentId": "source-961-anatel-cb1-01-paper",
+      "localSha256": "aaca98177aaf581d47f84d94aff9326528c903d5fc7f6380215a8bd93b083a6b",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANATEL_24/arquivos/961_ANATEL_CB1_01.PDF",
+      "remoteSha256": "aaca98177aaf581d47f84d94aff9326528c903d5fc7f6380215a8bd93b083a6b"
+    },
+    {
+      "documentId": "source-961-anatel-cb1-01-key",
+      "localSha256": "c1edf7edfbeaf92cea80a678ed9953135bcea84e1e81d66e79f63de48cff4047",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANATEL_24/arquivos/GAB_DEFINITIVO_961_ANATEL_CB1_01.PDF",
+      "remoteSha256": "c1edf7edfbeaf92cea80a678ed9953135bcea84e1e81d66e79f63de48cff4047"
+    },
+    {
+      "documentId": "source-094-pf-cb1-01-paper",
+      "localSha256": "282659632592cb616425e4f15a6c22a6f86d5d47869893e9b81489d73291ba72",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_CB1_01.pdf",
+      "remoteSha256": "282659632592cb616425e4f15a6c22a6f86d5d47869893e9b81489d73291ba72"
+    },
+    {
+      "documentId": "source-094-pf-cb1-01-key",
+      "localSha256": "affbca13cf0309a1bf782f46a00292621e512b9e39233ccdb96a1c18a71ba69d",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/Gab_Definitivo_094_PF_CB1_01.pdf",
+      "remoteSha256": "affbca13cf0309a1bf782f46a00292621e512b9e39233ccdb96a1c18a71ba69d"
+    },
+    {
+      "documentId": "reference-microsoft-smartscreen",
+      "localSha256": "90a78f97ff895c05b1a467bad1151a977ef7a8c00409a2b8a1a29a088f8ffe72",
+      "outcome": "byte_match",
+      "officialUrl": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/virus-and-threat-protection/microsoft-defender-smartscreen/",
+      "remoteSha256": "90a78f97ff895c05b1a467bad1151a977ef7a8c00409a2b8a1a29a088f8ffe72"
+    },
+    {
+      "documentId": "reference-microsoft-pua",
+      "localSha256": "c2398ba1d648657354bdca32a212ef7c01819f52ed2ae7cf3a8e499055d29de0",
+      "outcome": "byte_match",
+      "officialUrl": "https://learn.microsoft.com/en-us/defender-endpoint/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus",
+      "remoteSha256": "c2398ba1d648657354bdca32a212ef7c01819f52ed2ae7cf3a8e499055d29de0"
+    },
+    {
+      "documentId": "source-106-pf-cg1-01-paper",
+      "localSha256": "25c6783ccbfc3d72fbb0913da58372e344ba45fc6e1ba74250727fa3e56e51f3",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_CG1_01.pdf",
+      "remoteSha256": "25c6783ccbfc3d72fbb0913da58372e344ba45fc6e1ba74250727fa3e56e51f3"
+    },
+    {
+      "documentId": "source-106-pf-cg1-01-key",
+      "localSha256": "f4f075f7e42dacfa04727f291e2b55c15b50ce1bd51930e7773169cc3b33c783",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/A78F5BA07173AF0B8A5E611A1D7AAB166B7BD473E5D7AC2220F0F1B7DDB641E9.pdf",
+      "remoteSha256": "f4f075f7e42dacfa04727f291e2b55c15b50ce1bd51930e7773169cc3b33c783"
+    },
+    {
+      "documentId": "reference-code-ethics-camara-2001",
+      "localSha256": "2a6e1344209f4c5d76502a31f0e3c99c2c1fcd3b03577be063e7cf04a7f9b80a",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html",
+      "remoteSha256": "2a6e1344209f4c5d76502a31f0e3c99c2c1fcd3b03577be063e7cf04a7f9b80a"
+    },
+    {
+      "documentId": "reference-lei-8112-1990",
+      "localSha256": "2ceed7c5d4c9ef2b466ccba6e37abf93425285cc71afbe9e8641ceb28b9d44cb",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "remoteSha256": "2ceed7c5d4c9ef2b466ccba6e37abf93425285cc71afbe9e8641ceb28b9d44cb"
+    },
+    {
+      "documentId": "reference-codigo-civil-2002",
+      "localSha256": "6ed7c19586b21355e998746a0620cea5c2f3e6a24036d7f3743b7d30330e5d90",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
+      "remoteSha256": "6ed7c19586b21355e998746a0620cea5c2f3e6a24036d7f3743b7d30330e5d90"
+    },
+    {
+      "documentId": "source-846-serpro-23-cb1-01-paper",
+      "localSha256": "2cbdd08d37c9ee9f37a667aa988315075c3541b2688ba2cf29913561662c0d0f",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/SERPRO_23/arquivos/846_SERPRO_23_CB1_01.PDF",
+      "remoteSha256": "2cbdd08d37c9ee9f37a667aa988315075c3541b2688ba2cf29913561662c0d0f"
+    },
+    {
+      "documentId": "source-846-serpro-23-cb1-01-key",
+      "localSha256": "1c351b687563a9b7bbb624e271d3f332ca088cd814bb3fc54afb2be7163a70c2",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/SERPRO_23/arquivos/GAB_DEFINITIVO_846_SERPRO_23_CB1_01.PDF",
+      "remoteSha256": "1c351b687563a9b7bbb624e271d3f332ca088cd814bb3fc54afb2be7163a70c2"
+    },
+    {
+      "documentId": "source-018-stj-cb1-01-paper",
+      "localSha256": "4de19f387fecc954d82a39c32a58e8750dfe7217807f0214bc9d11c20230f989",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/018_STJ_CB1_01.PDF",
+      "remoteSha256": "4de19f387fecc954d82a39c32a58e8750dfe7217807f0214bc9d11c20230f989"
+    },
+    {
+      "documentId": "source-018-stj-cb1-01-key",
+      "localSha256": "05cb676c1b5b27f21e7589282f96d698992a27422ddf642557d8f41c799433e8",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/GAB_DEFINITIVO_018_STJ_CB1_01.PDF",
+      "remoteSha256": "05cb676c1b5b27f21e7589282f96d698992a27422ddf642557d8f41c799433e8"
+    },
+    {
+      "documentId": "reference-lei-8429-1992",
+      "localSha256": "ac5ffb8bcb800556b9cd9563bcffe957c81c3170fe455c1da526013a4ee89010",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.html",
+      "remoteSha256": "ac5ffb8bcb800556b9cd9563bcffe957c81c3170fe455c1da526013a4ee89010"
+    },
+    {
+      "documentId": "reference-microsoft-teams-recording",
+      "localSha256": "3a54d4ab31c866e6131dee40e8013d2943a6408ad9448aa65249b1745b53fc8d",
+      "outcome": "byte_match",
+      "officialUrl": "https://learn.microsoft.com/en-us/microsoftteams/tmr-meeting-recording-change",
+      "remoteSha256": "3a54d4ab31c866e6131dee40e8013d2943a6408ad9448aa65249b1745b53fc8d"
+    },
+    {
+      "documentId": "reference-microsoft-ipv6",
+      "localSha256": "096acec44ed4a347d83ecea3168e91d7d3861b9277e92e59a40f753a321b57e0",
+      "outcome": "byte_match",
+      "officialUrl": "https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/ipv6-overview",
+      "remoteSha256": "096acec44ed4a347d83ecea3168e91d7d3861b9277e92e59a40f753a321b57e0"
+    },
+    {
+      "documentId": "reference-microsoft-dns",
+      "localSha256": "a2346c530f0c174cd5589430c485d51f9670c16a6b9e587f6a4a8421212624e0",
+      "outcome": "byte_match",
+      "officialUrl": "https://learn.microsoft.com/en-us/windows-server/networking/dns/dns-overview",
+      "remoteSha256": "a2346c530f0c174cd5589430c485d51f9670c16a6b9e587f6a4a8421212624e0"
+    },
+    {
+      "documentId": "source-979-cnj-007-01-paper",
+      "localSha256": "21ae6a54865e95f3bee2307116a73287784aa7244969e738ff4f4646b31322b2",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CNJ_24/arquivos/979_CNJ_007_01.PDF",
+      "remoteSha256": "21ae6a54865e95f3bee2307116a73287784aa7244969e738ff4f4646b31322b2"
+    },
+    {
+      "documentId": "source-979-cnj-007-01-key",
+      "localSha256": "0f297e43b48c4331b4bccb44e02a9488f44268022a791997ddd4b43a2bda1c26",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CNJ_24/arquivos/GAB_DEFINITIVO_979_CNJ_007_01.PDF",
+      "remoteSha256": "0f297e43b48c4331b4bccb44e02a9488f44268022a791997ddd4b43a2bda1c26"
+    },
+    {
+      "documentId": "source-993-tce-ac-cb3-01-paper",
+      "localSha256": "c52c9a32df8a9fd3b6674356fecf6b827a8d3401eb76ad129b12304bd4b7f31a",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCE_AC_24/arquivos/993_TCE_AC_CB3_01.PDF",
+      "remoteSha256": "c52c9a32df8a9fd3b6674356fecf6b827a8d3401eb76ad129b12304bd4b7f31a"
+    },
+    {
+      "documentId": "source-993-tce-ac-cb3-01-key",
+      "localSha256": "5a509e9e394f84ea4c6fc170173ee817cf9c6cae13d206c32c6af3416c7d1dec",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCE_AC_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_CB3_01.PDF",
+      "remoteSha256": "5a509e9e394f84ea4c6fc170173ee817cf9c6cae13d206c32c6af3416c7d1dec"
+    },
+    {
+      "documentId": "reference-lei-12232-2010",
+      "localSha256": "7ac5ce924d75c6e448e6e757dcbe9dc73982d0439bbb3ca1f8219f049c32c65f",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.html",
+      "outcome": "byte_match",
+      "remoteSha256": "7ac5ce924d75c6e448e6e757dcbe9dc73982d0439bbb3ca1f8219f049c32c65f"
+    },
+    {
+      "documentId": "reference-decreto-9203-2017",
+      "localSha256": "cc9e9c5356e5c1578af402f769c80ee2dd831facae27b0cbb9a5a971d9b38f2a",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.html",
+      "outcome": "byte_match",
+      "remoteSha256": "cc9e9c5356e5c1578af402f769c80ee2dd831facae27b0cbb9a5a971d9b38f2a"
+    },
+    {
+      "documentId": "reference-decreto-1171-1994",
+      "localSha256": "c6d7b4872af6517619fdf7db149333331d9bfc452d4001b88e80a53fe065864b",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/decret/1994/decreto-1171-22-junho-1994-449441-normaatualizada-pe.html",
+      "outcome": "byte_match",
+      "remoteSha256": "c6d7b4872af6517619fdf7db149333331d9bfc452d4001b88e80a53fe065864b"
+    },
+    {
+      "documentId": "reference-lei-5172-1966",
+      "localSha256": "dc32f69ddba5b4c0cdd7952091c74d755c1e0e699a444aa3566819b94422b650",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html",
+      "outcome": "byte_match",
+      "remoteSha256": "dc32f69ddba5b4c0cdd7952091c74d755c1e0e699a444aa3566819b94422b650"
+    },
+    {
+      "documentId": "source-072-stm-004-01-paper",
+      "localSha256": "d9d1f6051b2d2154f8f283676a523f2fd3f51010737158888c4a63fc739abeff",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/072_STM_004_01.pdf",
+      "remoteSha256": "d9d1f6051b2d2154f8f283676a523f2fd3f51010737158888c4a63fc739abeff"
+    },
+    {
+      "documentId": "source-072-stm-004-01-key",
+      "localSha256": "854e34de0320e55ec4af4feb421ba540ae1f17898e67e41bc6363eda533b787f",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/Gab_Definitivo_072_STM_004_01.pdf",
+      "remoteSha256": "854e34de0320e55ec4af4feb421ba540ae1f17898e67e41bc6363eda533b787f"
+    },
+    {
+      "documentId": "source-988-cpnuje-010-01-paper",
+      "localSha256": "9b4c724faf61eae28fb7a384d0378dba44339def4ae24199a46f514f06a98aa2",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CPNUJE_24/arquivos/988_CPNUJE_010_01.PDF",
+      "remoteSha256": "9b4c724faf61eae28fb7a384d0378dba44339def4ae24199a46f514f06a98aa2"
+    },
+    {
+      "documentId": "source-988-cpnuje-010-01-key",
+      "localSha256": "cecae54e8c453f708cd03be9efbd144c7472b64c1197c71cd167ccd3a5d0eb5d",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CPNUJE_24/arquivos/GAB_DEFINITIVO_988_CPNUJE_010_01.PDF",
+      "remoteSha256": "cecae54e8c453f708cd03be9efbd144c7472b64c1197c71cd167ccd3a5d0eb5d"
+    },
+    {
+      "documentId": "source-038-anm-024-01-paper",
+      "localSha256": "8f38b53e9b553ad852b19f6654af483454a76134b657becb9200b8f5ae5a7ba5",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_024_01.PDF",
+      "remoteSha256": "8f38b53e9b553ad852b19f6654af483454a76134b657becb9200b8f5ae5a7ba5"
+    },
+    {
+      "documentId": "source-038-anm-024-01-key",
+      "localSha256": "e7f7f5e1fed4d12621ffd0bf41becdf435c9ad36c5d40aedd07664f6b1bed203",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_024_01.PDF",
+      "remoteSha256": "e7f7f5e1fed4d12621ffd0bf41becdf435c9ad36c5d40aedd07664f6b1bed203"
+    },
+    {
+      "documentId": "source-050-trt10-011-01-paper",
+      "localSha256": "b57a0cabfbd831b1210795a3e942f9cc09666b58b6420f6f0e82d33706bef266",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TRT10_24/arquivos/050_TRT10_011_01.pdf",
+      "remoteSha256": "b57a0cabfbd831b1210795a3e942f9cc09666b58b6420f6f0e82d33706bef266"
+    },
+    {
+      "documentId": "source-050-trt10-011-01-key",
+      "localSha256": "137cfadcf7bbffb4f5b1b91f01bd41884fa5dd4f86313402d17c7e902c40f0dd",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TRT10_24/arquivos/Gab_Definitivo_050_TRT10_011_01.pdf",
+      "remoteSha256": "137cfadcf7bbffb4f5b1b91f01bd41884fa5dd4f86313402d17c7e902c40f0dd"
+    },
+    {
+      "documentId": "source-018-stj-006-01-paper",
+      "localSha256": "39c130c464c98775497254d43872b1b060a1c65aac77381666d485f721d34668",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/018_STJ_006_01.PDF",
+      "remoteSha256": "39c130c464c98775497254d43872b1b060a1c65aac77381666d485f721d34668"
+    },
+    {
+      "documentId": "source-018-stj-006-01-key",
+      "localSha256": "6a63b4d0580327885f00519b6e5a45e28e77c1ab6a5551013cf3716825894e00",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STJ_24/arquivos/GAB_DEFINITIVO_018_STJ_006_01.PDF",
+      "remoteSha256": "6a63b4d0580327885f00519b6e5a45e28e77c1ab6a5551013cf3716825894e00"
+    },
+    {
+      "documentId": "source-142-tcuaufc-cb1-01-paper",
+      "localSha256": "e85c35039244f7f0b90c3fb5230d568d6a65ac04aaebc50540642c901aaff059",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCU_25_AUFC/arquivos/E853346980B6093207C3ECF8630F11E71C8F39D74F9D7881E2AB5DE760FB5366.pdf",
+      "remoteSha256": "e85c35039244f7f0b90c3fb5230d568d6a65ac04aaebc50540642c901aaff059"
+    },
+    {
+      "documentId": "source-142-tcuaufc-cb1-01-key",
+      "localSha256": "4f544f68f75a0867ce73407b743ce8fab537888405d5972ddb69f2ece9c897e4",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCU_25_AUFC/arquivos/FC2383E92E294F91C8C350498AC15C7A00B7B145773F86084285F93A425AC852.pdf",
+      "remoteSha256": "4f544f68f75a0867ce73407b743ce8fab537888405d5972ddb69f2ece9c897e4"
+    },
+    {
+      "documentId": "reference-regimento-comum-2025",
+      "localSha256": "723077332d3f1f068093eee842ad4142c20ad5efcb5a57e9b9e50341f37cf856",
+      "outcome": "byte_match",
+      "officialUrl": "https://www25.senado.leg.br/documents/59501/97171143/RCCN.pdf/933b504d-a653-4df5-9329-d4f38c42f64f",
+      "remoteSha256": "723077332d3f1f068093eee842ad4142c20ad5efcb5a57e9b9e50341f37cf856"
+    },
+    {
+      "documentId": "reference-microsoft-powerbi-embedded",
+      "localSha256": "e28d62909ced1f627b059029f5298d5e1cce26c60d3de110cbfbfb5505da2c38",
+      "outcome": "byte_match",
+      "officialUrl": "https://learn.microsoft.com/pt-br/power-bi/developer/embedded/embedded-analytics-power-bi",
+      "remoteSha256": "e28d62909ced1f627b059029f5298d5e1cce26c60d3de110cbfbfb5505da2c38"
+    },
+    {
+      "documentId": "reference-microsoft-prompt-engineering",
+      "localSha256": "0be4cd5f2874f28057f2713a2f928fcc681ba52f3d54f9989891d4dfa51c3a96",
+      "outcome": "byte_match",
+      "officialUrl": "https://learn.microsoft.com/pt-br/azure/foundry/openai/concepts/prompt-engineering",
+      "remoteSha256": "0be4cd5f2874f28057f2713a2f928fcc681ba52f3d54f9989891d4dfa51c3a96"
+    },
+    {
+      "documentId": "source-camara14-cb1-01-paper",
+      "localSha256": "79e09d74319bb470f4a9a075f9417fc6c1bd227e63cb788d4ea52f078041ac73",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/conteudo-basico",
+      "remoteSha256": "79e09d74319bb470f4a9a075f9417fc6c1bd227e63cb788d4ea52f078041ac73"
+    },
+    {
+      "documentId": "source-camara14-cb1-01-key",
+      "localSha256": "85ba8e03fd988ea1233d2c81d1b0412ed8106333d704405dae0f2fd0243bcb31",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/gabarito-conteudo-basico",
+      "remoteSha256": "85ba8e03fd988ea1233d2c81d1b0412ed8106333d704405dae0f2fd0243bcb31"
+    },
+    {
+      "documentId": "source-camara14-001-01-paper",
+      "localSha256": "b0ad6de8724a0a4ad67f820f015859d8581a6f36a45ef62dc7b1bc54e37e4864",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/conteudo-especifico",
+      "remoteSha256": "b0ad6de8724a0a4ad67f820f015859d8581a6f36a45ef62dc7b1bc54e37e4864"
+    },
+    {
+      "documentId": "source-camara14-001-01-key",
+      "localSha256": "6d05f7d6995db76398c2d74eb954c7fc7e9c821cc9513676f8e9b469e9686ebf",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/2014/provas/consultor-de-orcamento-e-fiscalizacao-financeira/gabarito-p2",
+      "remoteSha256": "6d05f7d6995db76398c2d74eb954c7fc7e9c821cc9513676f8e9b469e9686ebf"
+    },
+    {
+      "documentId": "source-893-dataprev-005-01-paper",
+      "localSha256": "6d3f3d4fcd141618cf9303726b49a8b6096a7654e93393ccaca3b49fff79ca37",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/DATAPREV_23/arquivos/893_DATAPREV_005_01.PDF",
+      "remoteSha256": "6d3f3d4fcd141618cf9303726b49a8b6096a7654e93393ccaca3b49fff79ca37"
+    },
+    {
+      "documentId": "source-893-dataprev-005-01-key",
+      "localSha256": "83b06f91be62ae9404ddd888d0239b2af65e21155a76b0c3e34bef179480212c",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/DATAPREV_23/arquivos/GAB_DEFINITIVO_893_DATAPREV_005_01.PDF",
+      "remoteSha256": "83b06f91be62ae9404ddd888d0239b2af65e21155a76b0c3e34bef179480212c"
+    },
+    {
+      "documentId": "source-803-tj-es-006-01-paper",
+      "localSha256": "9edfe6202c7980cdb30b738c14826ef5e9596e09f405aa75257225311fda1402",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TJ_ES_23/arquivos/803_TJ_ES_006_01.PDF",
+      "remoteSha256": "9edfe6202c7980cdb30b738c14826ef5e9596e09f405aa75257225311fda1402"
+    },
+    {
+      "documentId": "source-803-tj-es-006-01-key",
+      "localSha256": "d1ea80c138dbd1cd982806965d9b71a339202fb1555713df22ee24e48fdf6a00",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TJ_ES_23/arquivos/GAB_DEFINITIVO_803_TJ_ES_006_01.PDF",
+      "remoteSha256": "d1ea80c138dbd1cd982806965d9b71a339202fb1555713df22ee24e48fdf6a00"
+    },
+    {
+      "documentId": "source-108-tcutefc-001-01-paper",
+      "localSha256": "e21da3b873b7e6efee58b28295789cbd93e5ab8fcf87c020883905d94415145b",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCU_25_TEFC/arquivos/108_TCUTEFC_001_01.pdf",
+      "remoteSha256": "e21da3b873b7e6efee58b28295789cbd93e5ab8fcf87c020883905d94415145b"
+    },
+    {
+      "documentId": "source-108-tcutefc-001-01-key",
+      "localSha256": "0e0bfef8488d419bba2769df86b7889f5e3778daf26564acd08cb4c0b09fdbd0",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCU_25_TEFC/arquivos/E53AB5C65454510E881F7667E620F44B6DDD1C083D5175412CF8725A3C9B9C9F.pdf",
+      "remoteSha256": "0e0bfef8488d419bba2769df86b7889f5e3778daf26564acd08cb4c0b09fdbd0"
+    },
+    {
+      "documentId": "source-038-anm-005-01-paper",
+      "localSha256": "287c1dea6191d3e7100fc61750e157d72067638dd27e8f55579815c07c308ff7",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_005_01.PDF",
+      "remoteSha256": "287c1dea6191d3e7100fc61750e157d72067638dd27e8f55579815c07c308ff7"
+    },
+    {
+      "documentId": "source-038-anm-005-01-key",
+      "localSha256": "336f33d329b38037193d408fc34c8ce196045a933497e939c5a1ae03e8757f42",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/Gab_Definitivo_038_ANM_005_01.PDF",
+      "remoteSha256": "336f33d329b38037193d408fc34c8ce196045a933497e939c5a1ae03e8757f42"
+    },
+    {
+      "documentId": "reference-lei-4320-1964",
+      "localSha256": "44366eeb6c615a57b8244a2e36e323a04936a73cb9d25d86e6b074d5db1a4791",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+      "remoteSha256": "44366eeb6c615a57b8244a2e36e323a04936a73cb9d25d86e6b074d5db1a4791"
+    },
+    {
+      "documentId": "reference-lrf-2000",
+      "localSha256": "9e178a491fd3ba44c4956316bc9ef602a5d544b2fa5d8a52abaa2e6bac3de691",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html",
+      "remoteSha256": "9e178a491fd3ba44c4956316bc9ef602a5d544b2fa5d8a52abaa2e6bac3de691"
+    },
+    {
+      "documentId": "reference-in-seges-58-2022",
+      "localSha256": "fa816b6ef795c469c8e85e31645549355525035361357dad3972fc830b9a0b39",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-no-58-de-8-de-agosto-de-2022",
+      "remoteSha256": "fa816b6ef795c469c8e85e31645549355525035361357dad3972fc830b9a0b39"
+    },
+    {
+      "documentId": "reference-stf-tema-1237",
+      "localSha256": "00b231048a4f7793c7e4cda74e93967c7c9f04d03938d8913d86e0aea4be8c9b",
+      "outcome": "byte_match",
+      "officialUrl": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=6411925&numeroProcesso=1385315&classeProcesso=ARE&numeroTema=1237",
+      "remoteSha256": "00b231048a4f7793c7e4cda74e93967c7c9f04d03938d8913d86e0aea4be8c9b"
+    },
+    {
+      "documentId": "source-153-telebras-cb1-01-paper",
+      "localSha256": "34e82b995d5f135b1d04413971219eaf11cbbf0734b053194804c5b25b4c6393",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+      "remoteSha256": "34e82b995d5f135b1d04413971219eaf11cbbf0734b053194804c5b25b4c6393"
+    },
+    {
+      "documentId": "source-153-telebras-cb1-01-key",
+      "localSha256": "db466efbcdc976d07c8ccae04640ef6a642d2ad0dfa3d3cec8ed67520d9d1716",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/374364890113AA9043F5CFCB1F6D6D6BDA5D587A62B89219DFC71B40BA5F948E.pdf",
+      "remoteSha256": "db466efbcdc976d07c8ccae04640ef6a642d2ad0dfa3d3cec8ed67520d9d1716"
+    },
+    {
+      "documentId": "source-153-telebras-008-01-paper",
+      "localSha256": "caadb5285994505629eb14ced86cb7c7b1cf13a0b463f4d267b09c17edae0b84",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/E745E981210ACFFB4253484290CCDA28BDD29A946F7EAADA73A5B6899C2A2327.pdf",
+      "remoteSha256": "caadb5285994505629eb14ced86cb7c7b1cf13a0b463f4d267b09c17edae0b84"
+    },
+    {
+      "documentId": "source-153-telebras-008-01-key",
+      "localSha256": "a935f49638e4e4cbd45696d93dd155954229010f02af1d7b1576507f17f58e19",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/4138A1702D3E4697BE26B8BE9AD2FE1605A687A3BE5D171C97C3359FBFA2E5B1.pdf",
+      "remoteSha256": "a935f49638e4e4cbd45696d93dd155954229010f02af1d7b1576507f17f58e19"
+    },
+    {
+      "documentId": "source-153-telebras-003-01-paper",
+      "localSha256": "cce01320ae74f9543dbb82eafcce190988cd9d39fb558d9fec3c8b05aed4add3",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/02A841CD7E3B256A0F85C4096A481C4BE5C82237B440909486D211B69F01732E.pdf",
+      "remoteSha256": "cce01320ae74f9543dbb82eafcce190988cd9d39fb558d9fec3c8b05aed4add3"
+    },
+    {
+      "documentId": "source-153-telebras-003-01-key",
+      "localSha256": "2a194faf3167157e27f8c6cb09f95aa9132b51776b56adc23fc65ad8aac57bb7",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TELEBRAS_25/arquivos/3586BBD69D6FCE74C2B891E0942C1654AE304F4BBDD7130BB311AFBDD5BAF3EA.pdf",
+      "remoteSha256": "2a194faf3167157e27f8c6cb09f95aa9132b51776b56adc23fc65ad8aac57bb7"
+    },
+    {
+      "documentId": "source-072-stm-002-01-paper",
+      "localSha256": "fc535e5b778a797a37e472e5f09ef6b23b0dd0a789b22a49404e3ca62d96b9a2",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/072_STM_002_01.pdf",
+      "remoteSha256": "fc535e5b778a797a37e472e5f09ef6b23b0dd0a789b22a49404e3ca62d96b9a2"
+    },
+    {
+      "documentId": "source-072-stm-002-01-key",
+      "localSha256": "f8edfd128b65fa2d72e859510dbc9add99a33e32acfb665d1b082a61b4898786",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/Gab_Definitivo_072_STM_002_01.pdf",
+      "remoteSha256": "f8edfd128b65fa2d72e859510dbc9add99a33e32acfb665d1b082a61b4898786"
+    },
+    {
+      "documentId": "source-205-funpresp-26-jud-009-01-paper",
+      "localSha256": "777f678732cac3a043f8d202b1445036ea813b5c0b87331463bb5229f5a6dc62",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_26_JUD/arquivos/7E92AF127EDC1384FBB1947BDFA3C6AE05877B614EC4ADBEDDF4F8CF7BEC6EB7.pdf",
+      "remoteSha256": "777f678732cac3a043f8d202b1445036ea813b5c0b87331463bb5229f5a6dc62"
+    },
+    {
+      "documentId": "source-205-funpresp-26-jud-009-01-key",
+      "localSha256": "addbf9ccaa9420cff7904dd7795292804b731041f982b37aeac5a180c8486803",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_26_JUD/arquivos/E13E2B3833C356EA314B5FC41D3C8C9A8E4CEFC21FFC2E4420C69DB9843C7802.pdf",
+      "remoteSha256": "addbf9ccaa9420cff7904dd7795292804b731041f982b37aeac5a180c8486803"
+    },
+    {
+      "documentId": "source-205-funpresp-26-jud-005-01-paper",
+      "localSha256": "9c9dbd074669c17df13c3c42360ec893a503e0b68416140685d74f5b1b627b4e",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_26_JUD/arquivos/C4A6B006AE90243DAC8E8FC725C598DFE1545DA10B31B9C85EABBC33A4F41E42.pdf",
+      "remoteSha256": "9c9dbd074669c17df13c3c42360ec893a503e0b68416140685d74f5b1b627b4e"
+    },
+    {
+      "documentId": "source-205-funpresp-26-jud-005-01-key",
+      "localSha256": "236f8a83111b80bce6a8d354278a2a1b5ad05fca44458dd5b3b87da671a8f89c",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/FUNPRESP_26_JUD/arquivos/AEE58581EE3C00C2BA0E78DC2C5C62365F48C3A9485BF3F2EEF602AB45F76737.pdf",
+      "remoteSha256": "236f8a83111b80bce6a8d354278a2a1b5ad05fca44458dd5b3b87da671a8f89c"
+    },
+    {
+      "documentId": "source-alerj-2026-comunicacao-manha-tipo1-paper",
+      "localSha256": "a50ad97d853e1e1b309ed6c0b2f41269039259730c21d0acae36d2b9c97b2843",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns106-especialista-legislativo-nivel-iv-comunicacao-social-cns106-tipo-1.pdf",
+      "remoteSha256": "a50ad97d853e1e1b309ed6c0b2f41269039259730c21d0acae36d2b9c97b2843"
+    },
+    {
+      "documentId": "source-alerj-2026-comunicacao-manha-tipo1-key",
+      "localSha256": "4b9c907a58e2abfe40635839091f9f9f335b3d5e1ce57cbd165d54336f8e69d5",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/especialista-alerj-gabarito-definitivo.pdf",
+      "remoteSha256": "4b9c907a58e2abfe40635839091f9f9f335b3d5e1ce57cbd165d54336f8e69d5"
+    },
+    {
+      "documentId": "reference-camara-communication-manual-2025-library",
+      "localSha256": "105a752649acfa288e1fba9d70eb24857731c41b369dccb736a1612da0fb7335",
+      "outcome": "byte_match",
+      "officialUrl": "https://bd.camara.leg.br/bd/handle/bdcamara/57184",
+      "remoteSha256": "105a752649acfa288e1fba9d70eb24857731c41b369dccb736a1612da0fb7335"
+    },
+    {
+      "documentId": "abdi-2026-edital-01-documento",
+      "localSha256": "d6224edfe4d38f31cf1852879c7079be656e56f98f1bf9ad6d5e4210eb6043ff",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-01-2026-abertura-do-processo-seletivo-abdi-1.pdf",
+      "remoteSha256": "d6224edfe4d38f31cf1852879c7079be656e56f98f1bf9ad6d5e4210eb6043ff"
+    },
+    {
+      "documentId": "source-senado-2022-administracao-tipo1-paper",
+      "localSha256": "ef989d985539e44ad74bf649a0823af1336676cd355869f8e05b947b8ceaf346",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/e1cns01_-_analista_legislativo_-_administracaoe1cns01_tipo_1.pdf",
+      "remoteSha256": "ef989d985539e44ad74bf649a0823af1336676cd355869f8e05b947b8ceaf346"
+    },
+    {
+      "documentId": "source-senado-2022-administracao-tipo1-key",
+      "localSha256": "97bc7116a56bdb4688c259749a0c5e068c701b9cd0c21bb7380587431ee047c2",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/senado2022_gabarito_definitivo_edital01.pdf",
+      "remoteSha256": "97bc7116a56bdb4688c259749a0c5e068c701b9cd0c21bb7380587431ee047c2"
+    },
+    {
+      "documentId": "source-senado-2022-policial-tipo1-paper",
+      "localSha256": "1d49fd705710ffc5508fb36f2c379a605301db0a99495dbced5f1ce1b20dadf2",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico_legislativo_-_policial_legislativoe5cns01_tipo_1.pdf",
+      "remoteSha256": "1d49fd705710ffc5508fb36f2c379a605301db0a99495dbced5f1ce1b20dadf2"
+    },
+    {
+      "documentId": "source-senado-2022-policial-tipo1-key",
+      "localSha256": "d61fe999fc291c032ce71bf53ca2122ee3e5b0164303292c720b5a119321eb9e",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/senado2022_gabarito_definitivo_edital05.pdf",
+      "remoteSha256": "d61fe999fc291c032ce71bf53ca2122ee3e5b0164303292c720b5a119321eb9e"
+    },
+    {
+      "documentId": "source-128-tcemg-008-01-paper",
+      "localSha256": "b67d340496bd4fc7da85d43b83e77506c018a0761eaae227997c6ffc100fe123",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCE_MG_25/arquivos/A1559974E62EFEE70A476728E778E766A05DAD5986180CD64DCE4634728CF0A4.pdf",
+      "remoteSha256": "b67d340496bd4fc7da85d43b83e77506c018a0761eaae227997c6ffc100fe123"
+    },
+    {
+      "documentId": "source-128-tcemg-008-01-key",
+      "localSha256": "7ab2e780dbc79dcf295b97dd03592766e22fed5b39ea8e23da3fcb9a347ece89",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCE_MG_25/arquivos/A35044DF07E64EA13ED9971F6468D99857F94A6E731A03FF9D21324F8EC69485.pdf",
+      "remoteSha256": "7ab2e780dbc79dcf295b97dd03592766e22fed5b39ea8e23da3fcb9a347ece89"
+    },
+    {
+      "documentId": "reference-abdi-lei-11080-2004",
+      "localSha256": "387cb9e784b490952003c9851e091ad9ceae52651e48a3b79a988e57bce3ac73",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2004/lei-11080-30-dezembro-2004-535280-normaatualizada-pl.html",
+      "remoteSha256": "387cb9e784b490952003c9851e091ad9ceae52651e48a3b79a988e57bce3ac73"
+    },
+    {
+      "documentId": "reference-abdi-decreto-5352-2005",
+      "localSha256": "48c007019c2bc1154343599279c9dc276856067a27a0085e98cc558c42d98c17",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/decret/2005/decreto-5352-24-janeiro-2005-535482-normaatualizada-pe.html",
+      "remoteSha256": "48c007019c2bc1154343599279c9dc276856067a27a0085e98cc558c42d98c17"
+    },
+    {
+      "documentId": "reference-abdi-lei-14440-2022",
+      "localSha256": "df7f85d07492416b4c3f340b9d217c2d55b72ea6aa9be5962363c9657bf3cf94",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2022/lei-14440-2-setembro-2022-793185-publicacaooriginal-166030-pl.html",
+      "remoteSha256": "df7f85d07492416b4c3f340b9d217c2d55b72ea6aa9be5962363c9657bf3cf94"
+    },
+    {
+      "documentId": "reference-abdi-estatuto-2024",
+      "localSha256": "ee40999e5d45cb19ceaebc2589c8a98f98d7af44946f9ad3c47a7e41e8c6db20",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2025/01/Estatuto-Social-2024-Registrado.pdf",
+      "remoteSha256": "ee40999e5d45cb19ceaebc2589c8a98f98d7af44946f9ad3c47a7e41e8c6db20"
+    },
+    {
+      "documentId": "reference-abdi-licitacoes-2021",
+      "localSha256": "b1bda6ea5e6e66f80cf9a38bac5a7fa5ccb3313872bf442b97ea6be13026b6a6",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Licitacoes-e-Contratos-2021_compressed-1.pdf",
+      "remoteSha256": "b1bda6ea5e6e66f80cf9a38bac5a7fa5ccb3313872bf442b97ea6be13026b6a6"
+    },
+    {
+      "documentId": "reference-abdi-convenios-2026",
+      "localSha256": "93f27fde78d9cbf77b1b0bbf5e60f363da117efbf0ed79fdd9af2fce3cdd4eea",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2026/07/Regulamento_de_convenios_15JUL2026.pdf",
+      "remoteSha256": "93f27fde78d9cbf77b1b0bbf5e60f363da117efbf0ed79fdd9af2fce3cdd4eea"
+    },
+    {
+      "documentId": "reference-abdi-etica-2022",
+      "localSha256": "cc4d98a93fd317296dd07fa77305f545fd840465276b3b25b4aaacf2b5166ed7",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Etica-e-Conduta.pdf",
+      "remoteSha256": "cc4d98a93fd317296dd07fa77305f545fd840465276b3b25b4aaacf2b5166ed7"
+    },
+    {
+      "documentId": "reference-abdi-planejamento-2024-2029",
+      "localSha256": "501b72f66b023155996e00555f247a83a14f1082d2de7f2ec7e78dca4a9f6837",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2024/01/Caderno-Planejamento-Estrategico-ABDI-20242029_VF.pdf",
+      "remoteSha256": "501b72f66b023155996e00555f247a83a14f1082d2de7f2ec7e78dca4a9f6837"
+    },
+    {
+      "documentId": "reference-abdi-resolucao-008-2023",
+      "localSha256": "1b9462f47bc48cd3cdbb83b52b43849a717602eff7701b9808462020c78cdb99",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2023/12/008-2023-Resolucao-CD-ABDI-aprova-planejamento-estrategico-2024-2029-assinada.pdf",
+      "remoteSha256": "1b9462f47bc48cd3cdbb83b52b43849a717602eff7701b9808462020c78cdb99"
+    },
+    {
+      "documentId": "reference-abdi-planejamento-ajustado-2024",
+      "localSha256": "162b7af25e598adb73eb0cb7c9430f2b13e73cac673a8a3a9ea782de56949528",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.abdi.com.br/wp-content/uploads/2026/04/Planejamento-Estrategico-ABDI-2024-2029.pdf",
+      "remoteSha256": "162b7af25e598adb73eb0cb7c9430f2b13e73cac673a8a3a9ea782de56949528"
+    },
+    {
+      "documentId": "reference-lgpd-camara-consolidada",
+      "localSha256": "5ade20f12d206504f3beb13a0595d144efc891229ad0e6badcebfa97a8a83596",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "remoteSha256": "5ade20f12d206504f3beb13a0595d144efc891229ad0e6badcebfa97a8a83596"
+    },
+    {
+      "documentId": "source-abdi-2008-especialista-juridico-paper",
+      "localSha256": "0705140b75d4328c03ebc8d539fa35973b7a5a98c1d6e52ed96ed78b1e525813",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/especialista-juridico.pdf",
+      "remoteSha256": "0705140b75d4328c03ebc8d539fa35973b7a5a98c1d6e52ed96ed78b1e525813"
+    },
+    {
+      "documentId": "source-abdi-2008-especialista-juridico-key",
+      "localSha256": "dafeceb56a11daba85d428663935aa158e4f639f8d3c10aadd8efc7cf018c2ab",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/especialista-juridico.pdf",
+      "remoteSha256": "dafeceb56a11daba85d428663935aa158e4f639f8d3c10aadd8efc7cf018c2ab"
+    },
+    {
+      "documentId": "source-abdi-2008-especialista-controle-interno-auditoria-paper",
+      "localSha256": "827dab445e6ef73b406c1177bac3c94d6e9e968c118313ed0c629bc4cca08402",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/especialista-controle-interno-auditoria.pdf",
+      "remoteSha256": "827dab445e6ef73b406c1177bac3c94d6e9e968c118313ed0c629bc4cca08402"
+    },
+    {
+      "documentId": "source-abdi-2008-especialista-controle-interno-auditoria-key",
+      "localSha256": "f937a8b7e64e575d378e511449d3b1b8b11f528c05987d3e7ceb503db1270e9a",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/especialista-controle-interno-auditoria.pdf",
+      "remoteSha256": "f937a8b7e64e575d378e511449d3b1b8b11f528c05987d3e7ceb503db1270e9a"
+    },
+    {
+      "documentId": "source-abdi-2008-senior-juridico-paper",
+      "localSha256": "47e579bd8c908bb30f82debb5e044e2a1870b94a1393ff8ee63132ca25cf2b71",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/senior-juridico.pdf",
+      "remoteSha256": "47e579bd8c908bb30f82debb5e044e2a1870b94a1393ff8ee63132ca25cf2b71"
+    },
+    {
+      "documentId": "source-abdi-2008-senior-juridico-key",
+      "localSha256": "f602e3010173080974085a8018af5ac36715b43c93df8fb28779cd514103c11d",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/senior-juridico.pdf",
+      "remoteSha256": "f602e3010173080974085a8018af5ac36715b43c93df8fb28779cd514103c11d"
+    },
+    {
+      "documentId": "source-abdi-2008-senior-assessor-comunicacao-paper",
+      "localSha256": "e47217e0061718438e3c9c82797c2f904bf67e93d9a3cdf603ce692f6d5eacf9",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/senior-assessor-de-comunicacao.pdf",
+      "remoteSha256": "e47217e0061718438e3c9c82797c2f904bf67e93d9a3cdf603ce692f6d5eacf9"
+    },
+    {
+      "documentId": "source-abdi-2008-senior-assessor-comunicacao-key",
+      "localSha256": "0f9fc74ffb48466ad63301b1afb01e45345b5294b9ade6b796c23afcae28b1ca",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/senior-assessor-de-comunicacao.pdf",
+      "remoteSha256": "0f9fc74ffb48466ad63301b1afb01e45345b5294b9ade6b796c23afcae28b1ca"
+    },
+    {
+      "documentId": "source-abdi-2008-especialista-administrativo-financeiro-paper",
+      "localSha256": "0019d09272e62f7044c7a7c321ecb660e2ed100ebcd3dc6719f5631a998a22b4",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/especialista-administrativo-e-financeiro.pdf",
+      "remoteSha256": "0019d09272e62f7044c7a7c321ecb660e2ed100ebcd3dc6719f5631a998a22b4"
+    },
+    {
+      "documentId": "source-abdi-2008-especialista-administrativo-financeiro-key",
+      "localSha256": "2ada8103ca657cea2b618d484efe7a2771ac23517d4de6a0ebd74636e6db084a",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/especialista-administrativo-e-financeiro.pdf",
+      "remoteSha256": "2ada8103ca657cea2b618d484efe7a2771ac23517d4de6a0ebd74636e6db084a"
+    },
+    {
+      "documentId": "source-abdi-2008-iniciante-licitacoes-contratos-paper",
+      "localSha256": "75cf56320373ba8e05c6b6574c34cdd2f7ae3dd066dba326c720d075236851e2",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/iniciante-licitacoes-e-contratos.pdf",
+      "remoteSha256": "75cf56320373ba8e05c6b6574c34cdd2f7ae3dd066dba326c720d075236851e2"
+    },
+    {
+      "documentId": "source-abdi-2008-iniciante-licitacoes-contratos-key",
+      "localSha256": "07db87b23f54693813c05cd1624e56aa959ebd1a5d33ddd006614bf8c861921a",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/iniciante-licitacoes-e-contratos.pdf",
+      "remoteSha256": "07db87b23f54693813c05cd1624e56aa959ebd1a5d33ddd006614bf8c861921a"
+    },
+    {
+      "documentId": "source-abdi-2008-pleno-servicos-gerais-paper",
+      "localSha256": "5608f37a662cbb5a5fba9fc3673d38582699b8582ffc3e3c3374a59bf76e3148",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/pleno-servicos-gerais.pdf",
+      "remoteSha256": "5608f37a662cbb5a5fba9fc3673d38582699b8582ffc3e3c3374a59bf76e3148"
+    },
+    {
+      "documentId": "source-abdi-2008-pleno-servicos-gerais-key",
+      "localSha256": "fbd89cba0e98cfa586ac72577ace1982159fdfcb8cd839fa288d6a163b8e7c65",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/pleno-servicos-gerais.pdf",
+      "remoteSha256": "fbd89cba0e98cfa586ac72577ace1982159fdfcb8cd839fa288d6a163b8e7c65"
+    },
+    {
+      "documentId": "source-abdi-2008-assistente-compras-servicos-paper",
+      "localSha256": "94cf8ada3f4cfb1eb3c87853d16467a01583af7ade906d78398965a758410ecb",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-medio/compras-e-servicos.pdf",
+      "remoteSha256": "94cf8ada3f4cfb1eb3c87853d16467a01583af7ade906d78398965a758410ecb"
+    },
+    {
+      "documentId": "source-abdi-2008-assistente-compras-servicos-key",
+      "localSha256": "8fdabb67c5c7481fb3c155e163a79e330ac0ffca2f27f8053d2bdf05617bcf3f",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-medio/medio-assistente.pdf",
+      "remoteSha256": "8fdabb67c5c7481fb3c155e163a79e330ac0ffca2f27f8053d2bdf05617bcf3f"
+    },
+    {
+      "documentId": "source-abdi-2008-especialista-analise-economica-paper",
+      "localSha256": "b7386fbd03c409ee7def131756929733ad7ba02df8a0fb6c872db2b60229aebb",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/especialista-projetos-analise-economica.pdf",
+      "remoteSha256": "b7386fbd03c409ee7def131756929733ad7ba02df8a0fb6c872db2b60229aebb"
+    },
+    {
+      "documentId": "source-abdi-2008-especialista-analise-economica-key",
+      "localSha256": "ac366cdc8e6b2a5820952243d7704a803497ec9e1163d4da2f3938e2c808c9c6",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/especialista-projetos-analise-economica.pdf",
+      "remoteSha256": "ac366cdc8e6b2a5820952243d7704a803497ec9e1163d4da2f3938e2c808c9c6"
+    },
+    {
+      "documentId": "source-abdi-2008-iniciante-processos-paper",
+      "localSha256": "08d83d4b7acc6f087ac67bed3dc7ab44797ee4ea4f38ac5169d8f7fa17507a5f",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/iniciante-processos.pdf",
+      "remoteSha256": "08d83d4b7acc6f087ac67bed3dc7ab44797ee4ea4f38ac5169d8f7fa17507a5f"
+    },
+    {
+      "documentId": "source-abdi-2008-iniciante-processos-key",
+      "localSha256": "a3a222e74d6b02f93469df11751efdf3deaf7cf26025cd8ee0c292e5010b732a",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/iniciante-processos.pdf",
+      "remoteSha256": "a3a222e74d6b02f93469df11751efdf3deaf7cf26025cd8ee0c292e5010b732a"
+    },
+    {
+      "documentId": "source-344-dpeal-001-01-paper",
+      "localSha256": "e3cc3f000b02b386078a8562bb349bfe7246cd7f42a3c8af464a42798886739b",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/DPE_AL_17_DEFENSOR/arquivos/344_DPEAL_001_01.PDF",
+      "remoteSha256": "e3cc3f000b02b386078a8562bb349bfe7246cd7f42a3c8af464a42798886739b"
+    },
+    {
+      "documentId": "source-344-dpeal-001-01-key",
+      "localSha256": "0e7e3bc8ee7a38c3d5d6b8274d2e3c8f4b2a6f0223562308e02df15c3e60a889",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/DPE_AL_17_DEFENSOR/arquivos/GAB_DEFINITIVO_344_DPEAL_001_01.PDF",
+      "remoteSha256": "0e7e3bc8ee7a38c3d5d6b8274d2e3c8f4b2a6f0223562308e02df15c3e60a889"
+    },
+    {
+      "documentId": "source-tjrr-2024-direito-tipo1-paper",
+      "localSha256": "8cda95cfb953796da5df7792d19b991cf2cbaa1828ba99640fb09ad6df087358",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns107t01-analista-judiciario-advogado.pdf",
+      "remoteSha256": "8cda95cfb953796da5df7792d19b991cf2cbaa1828ba99640fb09ad6df087358"
+    },
+    {
+      "documentId": "source-tjrr-2024-direito-tipo1-key",
+      "localSha256": "f36773ab48f52039f52bd5da2f8d8a14407d8c619427e834f9dc927a9688ce95",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tjrr_gabarito_definitivo_v3.pdf",
+      "remoteSha256": "f36773ab48f52039f52bd5da2f8d8a14407d8c619427e834f9dc927a9688ce95"
+    },
+    {
+      "documentId": "source-fiocruz-2024-te23-paper",
+      "localSha256": "abe74ff25a4866a237a6c70fa5be96f16029618b9d818ba830ecf66e2811bb3a",
+      "outcome": "byte_match",
+      "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE23.pdf",
+      "remoteSha256": "abe74ff25a4866a237a6c70fa5be96f16029618b9d818ba830ecf66e2811bb3a"
+    },
+    {
+      "documentId": "source-fiocruz-2024-te23-key",
+      "localSha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4",
+      "outcome": "byte_match",
+      "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-Gabaritos-Finais-Tecnologistas.pdf",
+      "remoteSha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4"
+    },
+    {
+      "documentId": "source-fiocruz-2024-te58-paper",
+      "localSha256": "2f4ab848f9fda3873ab44099166988185ae0790605b92ce1944ac06e6cf93b01",
+      "outcome": "byte_match",
+      "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE58.pdf",
+      "remoteSha256": "2f4ab848f9fda3873ab44099166988185ae0790605b92ce1944ac06e6cf93b01"
+    },
+    {
+      "documentId": "source-fiocruz-2024-te58-key",
+      "localSha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4",
+      "outcome": "byte_match",
+      "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-Gabaritos-Finais-Tecnologistas.pdf",
+      "remoteSha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4"
+    },
+    {
+      "documentId": "cgu-2026-edital-01-documento",
+      "localSha256": "d4ccc50d4fdff5345ce197658eb60ba0afa85bc841d9aef1b265900c71653985",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/C7A60D15CB0DDDFA92233056D728C555505D6B935D7048646D49445EB346F825.pdf",
+      "remoteSha256": "d4ccc50d4fdff5345ce197658eb60ba0afa85bc841d9aef1b265900c71653985"
+    },
+    {
+      "documentId": "cgu-2026-edital-02-documento",
+      "localSha256": "60b757ea292e19ba1bdbb7da06f9deed6d2c6d7db5abc607342b49ab7b98da77",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/8CC969EF9F81DD9088CC93655FE2734C95419BE8A9285A887D96D915605D867C.pdf",
+      "remoteSha256": "60b757ea292e19ba1bdbb7da06f9deed6d2c6d7db5abc607342b49ab7b98da77"
+    },
+    {
+      "documentId": "cgu-2026-abertura-atualizada",
+      "localSha256": "1edab4a121dcdd92a553a27c132f154e86c0dcd4a0b0518af35061f32aa34eaf",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/FDEEFB41D8ACD48AB369A9915EA1A48C67389EC91427E98F6F264E19B1F63FB9.pdf",
+      "remoteSha256": "1edab4a121dcdd92a553a27c132f154e86c0dcd4a0b0518af35061f32aa34eaf"
+    },
+    {
+      "documentId": "source-993-tce-ac-014-01-paper",
+      "localSha256": "7d8c21221e6a990c584096cc1bdb1ebb01dec623473b795cb9ec0875d04287d5",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCE_AC_24/arquivos/993_TCE_AC_014_01.PDF",
+      "remoteSha256": "7d8c21221e6a990c584096cc1bdb1ebb01dec623473b795cb9ec0875d04287d5"
+    },
+    {
+      "documentId": "source-993-tce-ac-014-01-key",
+      "localSha256": "ae0f432e4db4c7e964d16c9ed9ed408180c6669db039e7b4481c665c961ce7bb",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCE_AC_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_014_01.PDF",
+      "remoteSha256": "ae0f432e4db4c7e964d16c9ed9ed408180c6669db039e7b4481c665c961ce7bb"
+    },
+    {
+      "documentId": "source-993-tce-ac-016-01-paper",
+      "localSha256": "5df25ce10e076022a439acef2aa2a93cd7e85c803e752315d564ff7287931fa3",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCE_AC_24/arquivos/993_TCE_AC_016_01.PDF",
+      "remoteSha256": "5df25ce10e076022a439acef2aa2a93cd7e85c803e752315d564ff7287931fa3"
+    },
+    {
+      "documentId": "source-993-tce-ac-016-01-key",
+      "localSha256": "009c5397126352b8b00e88873307fd28937392b982cb9960294281e03ff5a443",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TCE_AC_24/arquivos/GAB_DEFINITIVO_993_TCE_AC_016_01.PDF",
+      "remoteSha256": "009c5397126352b8b00e88873307fd28937392b982cb9960294281e03ff5a443"
+    },
+    {
+      "documentId": "reference-cgu-in3-2017-consolidada",
+      "localSha256": "48ebbdaa5d3a9f75176447b8d5ecf80536267559036534d8d23e97834ba203dd",
+      "outcome": "byte_match",
+      "officialUrl": "https://basedeconhecimento.cgu.gov.br/bitstreams/1c26b9b8-54dc-4fcf-9fbf-132813fc965e/download",
+      "remoteSha256": "48ebbdaa5d3a9f75176447b8d5ecf80536267559036534d8d23e97834ba203dd"
+    },
+    {
+      "documentId": "reference-cgu-in7-2017",
+      "localSha256": "99aa2ad859447504079ed752a9d775f4283de931828b30cf8afe29ff94afafb3",
+      "outcome": "byte_match",
+      "officialUrl": "https://basedeconhecimento.cgu.gov.br/bitstreams/7f393745-c21c-4891-9d06-e1c001a738af/download",
+      "remoteSha256": "99aa2ad859447504079ed752a9d775f4283de931828b30cf8afe29ff94afafb3"
+    },
+    {
+      "documentId": "source-896-tcdf-cb1-01-paper",
+      "localSha256": "609ed8f0b5c8871859968519cce6d9afed1def4c2a5c54319f218c0c0e5d5c44",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TC_DF_23/arquivos/896_TCDF_CB1_01_COMJUSTIFICATIVA.PDF",
+      "remoteSha256": "609ed8f0b5c8871859968519cce6d9afed1def4c2a5c54319f218c0c0e5d5c44"
+    },
+    {
+      "documentId": "source-896-tcdf-cb1-01-key",
+      "localSha256": "9b25e03581d20559fb632d667d8e68ebc2cc2354929653aae12d7c479a46ca52",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TC_DF_23/arquivos/GAB_DEFINITIVO_896_TCDF_CB1_01.PDF",
+      "remoteSha256": "9b25e03581d20559fb632d667d8e68ebc2cc2354929653aae12d7c479a46ca52"
+    },
+    {
+      "documentId": "source-896-tcdf-ce1-01-paper",
+      "localSha256": "25a6833b3a8c4705255bec3c4c69149aadb9233519b41ee4e01bfc95cb549154",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TC_DF_23/arquivos/896_TCDF_CE1_01_COMJUSTIFICATIVA.PDF",
+      "remoteSha256": "25a6833b3a8c4705255bec3c4c69149aadb9233519b41ee4e01bfc95cb549154"
+    },
+    {
+      "documentId": "source-896-tcdf-ce1-01-key",
+      "localSha256": "1a993027792a6467b0f3aab4f709388215ddac2d368da883c259f85aef0274b6",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TC_DF_23/arquivos/GAB_DEFINITIVO_896_TCDF_CE1_01.PDF",
+      "remoteSha256": "1a993027792a6467b0f3aab4f709388215ddac2d368da883c259f85aef0274b6"
+    },
+    {
+      "documentId": "source-896-tcdf-002-01-paper",
+      "localSha256": "9694411e9d896285f39ead98dfa0e366caeab2aaa7daf4c3f4f91634a0b03b60",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TC_DF_23/arquivos/896_TCDF_002_01_COMJUSTIFICATIVA.PDF",
+      "remoteSha256": "9694411e9d896285f39ead98dfa0e366caeab2aaa7daf4c3f4f91634a0b03b60"
+    },
+    {
+      "documentId": "source-896-tcdf-002-01-key",
+      "localSha256": "d46d51fd39c2fd97b8784c211e90aea8262bb55f27c3f57d52e76ef327d43bb3",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/TC_DF_23/arquivos/GAB_DEFINITIVO_896_TCDF_002_01.PDF",
+      "remoteSha256": "d46d51fd39c2fd97b8784c211e90aea8262bb55f27c3f57d52e76ef327d43bb3"
+    },
+    {
+      "documentId": "source-abdi-2008-projetos-biotecnologia-paper",
+      "localSha256": "a0f7f69aa298aa85e334cbb01ee4933e3027248c957358f5e5dd81128069965a",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/provas/nivel-superior/especialista-projetos-biotecnologia.pdf",
+      "remoteSha256": "a0f7f69aa298aa85e334cbb01ee4933e3027248c957358f5e5dd81128069965a"
+    },
+    {
+      "documentId": "source-abdi-2008-projetos-biotecnologia-key",
+      "localSha256": "ce8d0814a4408fd5aeb7749d281f045b17a8f4e60596426eb35af919f23d04f5",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.ibfc.org.br/concurso/abdi-0814/docs/gabaritos-pos/nivel-superior/especialista-projetos-biotecnologia.pdf",
+      "remoteSha256": "ce8d0814a4408fd5aeb7749d281f045b17a8f4e60596426eb35af919f23d04f5"
+    },
+    {
+      "documentId": "reference-mcasp-11-2025",
+      "localSha256": "641e8c2e8b16c6efa6c246f799b5f81ba9014640d9744bb8b3b41a516b7e930f",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2025/26",
+      "remoteSha256": "641e8c2e8b16c6efa6c246f799b5f81ba9014640d9744bb8b3b41a516b7e930f"
+    },
+    {
+      "documentId": "reference-lei-12846-2013",
+      "localSha256": "9afe6e1ce1afec52ebbd6ef579f3e8b24f2eaadb238e3d1e6aa9477ec4837301",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2013/lei-12846-1-agosto-2013-776664-normaatualizada-pl.html",
+      "remoteSha256": "9afe6e1ce1afec52ebbd6ef579f3e8b24f2eaadb238e3d1e6aa9477ec4837301"
+    },
+    {
+      "documentId": "source-cgu-2022-auditoria-manha-tipo1-paper",
+      "localSha256": "754334fccdad35ede08a3a8b7ed5d7b365c2cdbf9de3cb33b042117843e556b7",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controleaffc_tipo_1_manha.pdf",
+      "remoteSha256": "754334fccdad35ede08a3a8b7ed5d7b365c2cdbf9de3cb33b042117843e556b7"
+    },
+    {
+      "documentId": "source-cgu-2022-auditoria-manha-tipo1-key",
+      "localSha256": "1b908040aff014df0fcbc0070f7cc96584ebd95334819663b39eda83a9fc3e70",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu2021_gabarito_definitivo_retificado_20.04.2022.pdf",
+      "remoteSha256": "1b908040aff014df0fcbc0070f7cc96584ebd95334819663b39eda83a9fc3e70"
+    },
+    {
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+      "localSha256": "f0857b431ba18d899fa161ccc66fe74f4b74cc914a974ab508b9fe757801d4b1",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controle_-_area_auditoria_e_fiscalizacaoaffc-af_tipo_1_tarde.pdf",
+      "remoteSha256": "f0857b431ba18d899fa161ccc66fe74f4b74cc914a974ab508b9fe757801d4b1"
+    },
+    {
+      "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+      "localSha256": "1b908040aff014df0fcbc0070f7cc96584ebd95334819663b39eda83a9fc3e70",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu2021_gabarito_definitivo_retificado_20.04.2022.pdf",
+      "remoteSha256": "1b908040aff014df0fcbc0070f7cc96584ebd95334819663b39eda83a9fc3e70"
+    },
+    {
+      "documentId": "source-cgu-2022-correicao-tarde-tipo1-paper",
+      "localSha256": "1c070ac39a71d543008f7024e0c8f7e77b9fc11f05b266670b22e866e9817567",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controle_-_area_correicao_e_combate_a_corrupcaoaffc-cc_tipo_1_tarde.pdf",
+      "remoteSha256": "1c070ac39a71d543008f7024e0c8f7e77b9fc11f05b266670b22e866e9817567"
+    },
+    {
+      "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+      "localSha256": "1b908040aff014df0fcbc0070f7cc96584ebd95334819663b39eda83a9fc3e70",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu2021_gabarito_definitivo_retificado_20.04.2022.pdf",
+      "remoteSha256": "1b908040aff014df0fcbc0070f7cc96584ebd95334819663b39eda83a9fc3e70"
+    },
+    {
+      "documentId": "source-senado-2022-processo-tipo1-paper",
+      "localSha256": "0c4358cec5eefe5e145b218799494f0fe0ae2c3009002333c0e6b9c2e3a70e10",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/e1cns08_-_analista_legislativo_-_processo_legislativoe1cns08_tipo_1.pdf",
+      "remoteSha256": "0c4358cec5eefe5e145b218799494f0fe0ae2c3009002333c0e6b9c2e3a70e10"
+    },
+    {
+      "documentId": "source-senado-2022-processo-tipo1-key",
+      "localSha256": "97bc7116a56bdb4688c259749a0c5e068c701b9cd0c21bb7380587431ee047c2",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/senado2022_gabarito_definitivo_edital01.pdf",
+      "remoteSha256": "97bc7116a56bdb4688c259749a0c5e068c701b9cd0c21bb7380587431ee047c2"
+    },
+    {
+      "documentId": "source-fiocruz-2024-te15-paper",
+      "localSha256": "2c1edcbf009392716afaa7c6391eefce37c59b9534f62d1675c10cf7b9e9851a",
+      "outcome": "byte_match",
+      "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Vista.Provas/TE15.pdf",
+      "remoteSha256": "2c1edcbf009392716afaa7c6391eefce37c59b9534f62d1675c10cf7b9e9851a"
+    },
+    {
+      "documentId": "source-fiocruz-2024-te15-key",
+      "localSha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4",
+      "outcome": "byte_match",
+      "officialUrl": "https://concurso2023.fiotec.fiocruz.br/Divulgacao/Relatorio-Gabaritos-Finais-Tecnologistas.pdf",
+      "remoteSha256": "d4644ac401946f3cf09f6909a8d40d3f72c0fad597edda2d016c574d55ff82a4"
+    },
+    {
+      "documentId": "reference-cns-510-2016",
+      "localSha256": "a131326799170b33c4043e0ea39799c8c55437e76f8a6fb40cf1c41e20399ca0",
+      "outcome": "byte_match",
+      "officialUrl": "https://bvsms.saude.gov.br/bvs/saudelegis/cns/2016/res0510_07_04_2016.html",
+      "remoteSha256": "a131326799170b33c4043e0ea39799c8c55437e76f8a6fb40cf1c41e20399ca0"
+    },
+    {
+      "documentId": "reference-fenaj-etica-2007",
+      "localSha256": "243bccc9a71db5adfb2012adbb4a43af265de572c4c346b6c9533793f05298f3",
+      "outcome": "byte_match",
+      "officialUrl": "https://fenaj.org.br/wp-content/uploads/2016/08/codigo_de_etica_dos_jornalistas_brasileiros-1.pdf",
+      "remoteSha256": "243bccc9a71db5adfb2012adbb4a43af265de572c4c346b6c9533793f05298f3"
+    },
+    {
+      "documentId": "source-mpo-2024-cg1-01-paper",
+      "localSha256": "0f507fed95bdb203fb436c5628084b03c024beb70a12ffd9da8482c578df1623",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_CG1_01.PDF",
+      "remoteSha256": "0f507fed95bdb203fb436c5628084b03c024beb70a12ffd9da8482c578df1623"
+    },
+    {
+      "documentId": "source-mpo-2024-cg1-01-key",
+      "localSha256": "13f90769e4bad4f332a625b0aea7049270583b4b7f64a49c4f59b2de6a5ba9f6",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_CG1_01.PDF",
+      "remoteSha256": "13f90769e4bad4f332a625b0aea7049270583b4b7f64a49c4f59b2de6a5ba9f6"
+    },
+    {
+      "documentId": "source-mpo-2024-001-01-paper",
+      "localSha256": "c94ad562197c07e27f209b049b25338d02de7dc8d9e82dd90c66326b6083de27",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_001_01.PDF",
+      "remoteSha256": "c94ad562197c07e27f209b049b25338d02de7dc8d9e82dd90c66326b6083de27"
+    },
+    {
+      "documentId": "source-mpo-2024-001-01-key",
+      "localSha256": "4df433cff5824e18caa3efd59ed26d38ccfb4e35fe4024d050698b232e200751",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_001_01.PDF",
+      "remoteSha256": "4df433cff5824e18caa3efd59ed26d38ccfb4e35fe4024d050698b232e200751"
+    },
+    {
+      "documentId": "source-inss-2022-cb1-01-paper",
+      "localSha256": "ecacf7fd88d0f3f2842a355519bc6c7f4b37cb96593cb78ab042b61719030901",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_CB1_01.PDF",
+      "remoteSha256": "ecacf7fd88d0f3f2842a355519bc6c7f4b37cb96593cb78ab042b61719030901"
+    },
+    {
+      "documentId": "source-inss-2022-cb1-01-key",
+      "localSha256": "19ed952b1b10b9960a3eca4a2f2930029acd8298d52f07f58ca7bbf5831effee",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_CB1_01.PDF",
+      "remoteSha256": "19ed952b1b10b9960a3eca4a2f2930029acd8298d52f07f58ca7bbf5831effee"
+    },
+    {
+      "documentId": "source-icmbio-2022-cb1-01-paper",
+      "localSha256": "eb7733297a10a043d0068874dc8909ca89aa3c258d9671f8e799baa236857209",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/icmbio_21/arquivos/654_ICMBIO_CB1_01.PDF",
+      "remoteSha256": "eb7733297a10a043d0068874dc8909ca89aa3c258d9671f8e799baa236857209"
+    },
+    {
+      "documentId": "source-icmbio-2022-cb1-01-key",
+      "localSha256": "4d22de7b74ad18bab8670d2e66948c90b10b40750e37ae4968e32e2eac6bee55",
+      "outcome": "byte_match",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/icmbio_21/arquivos/GAB_DEFINITIVO_654_ICMBIO_CB1_01.PDF",
+      "remoteSha256": "4d22de7b74ad18bab8670d2e66948c90b10b40750e37ae4968e32e2eac6bee55"
+    },
+    {
+      "documentId": "source-tcu-2022-aufc-tipo1-paper",
+      "localSha256": "1d84da2458ed6055e7254b244feb8c052d9bbe701f84c1609c8fd74dff32e09e",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/auditor_federal_de_controle_externo_-_area_de_controle_externoaufc-ce_tipo_1.pdf",
+      "remoteSha256": "1d84da2458ed6055e7254b244feb8c052d9bbe701f84c1609c8fd74dff32e09e"
+    },
+    {
+      "documentId": "source-tcu-2022-aufc-tipo1-key",
+      "localSha256": "be49ac29f5252a1dc9dbb5d2e61db14a64ef4107fe15230089284a3d6457a993",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tcu2021_gabarito_definitivo_0.pdf",
+      "remoteSha256": "be49ac29f5252a1dc9dbb5d2e61db14a64ef4107fe15230089284a3d6457a993"
+    },
+    {
+      "documentId": "reference-lei-12813-2013",
+      "localSha256": "2c41a9252c36f4bb42e019e43fc9669c0ca86633f16998efad75365627c11813",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/2013/lei-12813-16-maio-2013-776005-normaatualizada-pl.html",
+      "remoteSha256": "2c41a9252c36f4bb42e019e43fc9669c0ca86633f16998efad75365627c11813"
+    },
+    {
+      "documentId": "reference-decreto-11129-2022",
+      "localSha256": "d3d892d5d3ee652f40d1d12e21b385b169a745ba38875c5cd5102b4a58f12215",
+      "outcome": "byte_match",
+      "officialUrl": "https://legis.senado.leg.br/norma/36077824/publicacao/36078814",
+      "remoteSha256": "d3d892d5d3ee652f40d1d12e21b385b169a745ba38875c5cd5102b4a58f12215"
+    },
+    {
+      "documentId": "reference-nbc-tsp-34",
+      "localSha256": "6e1fb920e9af0167bb300a7d82f9455d6d3a49f0c19e152decf6621d2dfb1419",
+      "outcome": "byte_match",
+      "officialUrl": "https://www1.cfc.org.br/sisweb/SRE/docs/NBCTSP34.pdf",
+      "remoteSha256": "6e1fb920e9af0167bb300a7d82f9455d6d3a49f0c19e152decf6621d2dfb1419"
+    },
+    {
+      "documentId": "reference-nbc-tg-25-r2",
+      "localSha256": "f7a1f794e0ac929083ff12cb79729ffee0eb22cd1b529e68096bc04110928c0a",
+      "outcome": "byte_match",
+      "officialUrl": "https://www1.cfc.org.br/sisweb/SRE/docs/NBCTG25(R2).pdf",
+      "remoteSha256": "f7a1f794e0ac929083ff12cb79729ffee0eb22cd1b529e68096bc04110928c0a"
+    },
+    {
+      "documentId": "reference-nbc-tg-01-r4",
+      "localSha256": "053537b55ebc6cd89f3cba0501a6dd4b97ad20410605a185958d037df97d61ca",
+      "outcome": "byte_match",
+      "officialUrl": "https://www1.cfc.org.br/sisweb/SRE/docs/NBCTG01(R4).pdf",
+      "remoteSha256": "053537b55ebc6cd89f3cba0501a6dd4b97ad20410605a185958d037df97d61ca"
+    },
+    {
+      "documentId": "reference-lei-6404-1976",
+      "localSha256": "ee3f76848ce42def5e758ed77b994d2a5d05598c4e9dc8b43771c801aa4a854c",
+      "outcome": "byte_match",
+      "officialUrl": "https://www2.camara.leg.br/legin/fed/lei/1970-1979/lei-6404-15-dezembro-1976-368447-normaatualizada-pl.html",
+      "remoteSha256": "ee3f76848ce42def5e758ed77b994d2a5d05598c4e9dc8b43771c801aa4a854c"
+    },
+    {
+      "documentId": "reference-cgu-pn27-2022",
+      "localSha256": "69ebf0d0d7e013eaf74947adef4fe5631f95531485a1106a80c81b07f8093dc3",
+      "outcome": "byte_match",
+      "officialUrl": "https://basedeconhecimento.cgu.gov.br/server/api/core/bitstreams/9fde4761-4b40-4fae-9e37-33ff337640a1/content",
+      "remoteSha256": "69ebf0d0d7e013eaf74947adef4fe5631f95531485a1106a80c81b07f8093dc3"
+    },
+    {
+      "documentId": "reference-cgu-pn54-2023",
+      "localSha256": "5c57bcd31348669fda1b08824419a4f0b600fa9c475ac78b15f79818ed22af86",
+      "outcome": "byte_match",
+      "officialUrl": "https://basedeconhecimento.cgu.gov.br/server/api/core/bitstreams/ecfc0801-601a-424e-90db-8a455582a8bb/content",
+      "remoteSha256": "5c57bcd31348669fda1b08824419a4f0b600fa9c475ac78b15f79818ed22af86"
+    },
+    {
+      "documentId": "reference-cgu-pn123-2024",
+      "localSha256": "c9173efc96730c35ed35c2cc436e8fbeb24c359f7d0eabbea2a3f7b0c7796287",
+      "outcome": "byte_match",
+      "officialUrl": "https://basedeconhecimento.cgu.gov.br/server/api/core/bitstreams/ac1d389f-bae5-4e1b-bb64-9ef813b73794/content",
+      "remoteSha256": "c9173efc96730c35ed35c2cc436e8fbeb24c359f7d0eabbea2a3f7b0c7796287"
+    },
+    {
+      "documentId": "reference-nbc-tg26-r5",
+      "localSha256": "50b1682316e04346475f2ee1d079e396fb31cc5915cfc1c07d28cdb7257b647a",
+      "outcome": "byte_match",
+      "officialUrl": "https://www1.cfc.org.br/sisweb/SRE/docs/NBCTG26(R5).pdf",
+      "remoteSha256": "50b1682316e04346475f2ee1d079e396fb31cc5915cfc1c07d28cdb7257b647a"
+    },
+    {
+      "documentId": "reference-nbc-tg03-r3",
+      "localSha256": "00b2e520706d3f9e293182824cd757bcc7c0eae551cad40911234c853ca7374f",
+      "outcome": "byte_match",
+      "officialUrl": "https://www1.cfc.org.br/sisweb/SRE/docs/NBCTG03(R3).pdf",
+      "remoteSha256": "00b2e520706d3f9e293182824cd757bcc7c0eae551cad40911234c853ca7374f"
+    },
+    {
+      "documentId": "source-cge-sc-2023-administracao-tarde-tipo1-paper",
+      "localSha256": "9cdb565adc648b742c6f3b5ffae1e981d2ae08c8c014799e9c68a57db7773f5c",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns201_-_auditor_do_estado_-_administracao_tardecns201_tipo_1_0.pdf",
+      "remoteSha256": "9cdb565adc648b742c6f3b5ffae1e981d2ae08c8c014799e9c68a57db7773f5c"
+    },
+    {
+      "documentId": "source-cge-sc-2023-administracao-tarde-tipo1-key",
+      "localSha256": "b153e92d6a76fb853064f7b1ece8b02c306df1a15adfa71da36f1c99a118fd84",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgesc2022_gabarito_definitivo_retificado_20230327.pdf",
+      "remoteSha256": "b153e92d6a76fb853064f7b1ece8b02c306df1a15adfa71da36f1c99a118fd84"
+    },
+    {
+      "documentId": "source-cge-sc-2023-contabeis-tarde-tipo1-paper",
+      "localSha256": "5de5f73573f89a4fd32c2a600584e20e61a21cb35f47c7f63f95fb45f335549f",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns203_-_auditor_do_estado_-_ciencias_contabeis_tardecns203_tipo_1_0.pdf",
+      "remoteSha256": "5de5f73573f89a4fd32c2a600584e20e61a21cb35f47c7f63f95fb45f335549f"
+    },
+    {
+      "documentId": "source-cge-sc-2023-contabeis-tarde-tipo1-key",
+      "localSha256": "b153e92d6a76fb853064f7b1ece8b02c306df1a15adfa71da36f1c99a118fd84",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cgesc2022_gabarito_definitivo_retificado_20230327.pdf",
+      "remoteSha256": "b153e92d6a76fb853064f7b1ece8b02c306df1a15adfa71da36f1c99a118fd84"
+    }
+  ],
+  "corroboration": [
+    {
+      "url": "https://www.camara.leg.br/noticias/1308132-CAMARA-DIVULGA-EDITAL-DE-NOVO-CONCURSO-PARA-ANALISTA-LEGISLATIVO",
+      "publisher": "Agência Câmara",
+      "title": "Câmara divulga edital de novo concurso para Analista Legislativo",
+      "observedFacts": [
+        "Notícia publicada em 02/10/2026.",
+        "Inscrições de 15 de outubro a 17 de novembro.",
+        "Provas objetivas e discursivas previstas para 17 de janeiro de 2027."
+      ],
+      "limitation": "Corrobora informações gerais; não autentica os três PDFs fornecidos nem certifica inexistência de retificações posteriores."
+    }
+  ],
+  "pendingEndpoints": []
+}

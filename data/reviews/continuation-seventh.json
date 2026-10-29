@@ -1,0 +1,1747 @@
+{
+  "id": "continuation-seventh",
+  "reviewedAt": "2026-10-29",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/continuation-seventh-release.md",
+  "previousCatalogFile": "data/reviews/pre-continuation-seventh-catalog.json.gz",
+  "previousCatalogSha256": "c5e953a85c82a4c61510e5ada8296a9ac6367cf16ff3961462b15c213f6b5296",
+  "scope": "Novo lote oficial e reconferência primária; primeiras amostras não são cobertura integral. Aceite humano adiado pelo usuário para o final.",
+  "items": [
+    {
+      "questionId": "cge-ce-2019-cargo5-q070",
+      "paperId": "source-cge-ce-2019-cargo5",
+      "number": 70,
+      "sourcePage": 2,
+      "sourceLineGroups": [
+        {
+          "page": 2,
+          "column": "right",
+          "x": 304.4391,
+          "y": 628.8167,
+          "text": "A avaliação de efetividade"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 444.565807,
+          "y": 628.8167,
+          "text": "de"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 464.119417,
+          "y": 628.8167,
+          "text": "políticas"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 508.013337,
+          "y": 628.8167,
+          "text": "públicas"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 551.309545,
+          "y": 628.8167,
+          "text": "está"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 304.4391,
+          "y": 643.576424,
+          "text": "intrinsecamente associada com"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 304.4391,
+          "y": 673.096868,
+          "text": "A a relação entre metas e instrumentos explícitos de dado"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 322.799283,
+          "y": 687.856592,
+          "text": "programa e os resultados alcançados."
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 304.4391,
+          "y": 704.056532,
+          "text": "B a otimização do desempenho de instituições e programas."
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 304.4391,
+          "y": 720.256472,
+          "text": "C o exame da relação entre a implementação de determinado"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 322.799283,
+          "y": 735.016196,
+          "text": "programa e os seus impactos."
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 304.4391,
+          "y": 751.216136,
+          "text": "D a relação entre o programado e o realizado."
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 304.4391,
+          "y": 767.416076,
+          "text": "E o funcionamento de uma política pública e as estratégias"
+        },
+        {
+          "page": 2,
+          "column": "right",
+          "x": 322.799283,
+          "y": 782.1758,
+          "text": "utilizadas para o alcance de resultados."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": "c",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-3-3"
+      ]
+    },
+    {
+      "questionId": "cge-ce-2019-cargo5-q085",
+      "paperId": "source-cge-ce-2019-cargo5",
+      "number": 85,
+      "sourcePage": 5,
+      "sourceLineGroups": [
+        {
+          "page": 5,
+          "column": "left",
+          "x": 28.3191,
+          "y": 683.5367,
+          "text": "Assinale a opção que indica fator que favorece a incidência de"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 28.3191,
+          "y": 696.976724,
+          "text": "corrupção."
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 28.3191,
+          "y": 723.976292,
+          "text": "A"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 46.679283,
+          "y": 723.976292,
+          "text": "participação cidadã na política"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 28.3191,
+          "y": 738.856532,
+          "text": "B"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 46.679283,
+          "y": 738.856532,
+          "text": "falta de transparência"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 28.3191,
+          "y": 753.616256,
+          "text": "C"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 46.679283,
+          "y": 753.616256,
+          "text": "graus elevados de liberdade de imprensa"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 28.3191,
+          "y": 768.496496,
+          "text": "D"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 46.679283,
+          "y": 768.496496,
+          "text": "processos coletivos de tomada de decisão"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 28.3191,
+          "y": 783.25622,
+          "text": "E"
+        },
+        {
+          "page": 5,
+          "column": "left",
+          "x": 46.679283,
+          "y": 783.25622,
+          "text": "existência de órgãos de controle interno e externo"
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": "b",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-integridade-transparencia-responsabilizacao-1-1"
+      ]
+    },
+    {
+      "questionId": "cge-ce-2019-cargo5-q087",
+      "paperId": "source-cge-ce-2019-cargo5",
+      "number": 87,
+      "sourcePage": 5,
+      "sourceLineGroups": [
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 237.2567,
+          "text": "O modelo de avaliação com foco específico na identificação"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 249.496544,
+          "text": "e eliminação de erros de formulação e de desenho em políticas"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 261.736388,
+          "text": "públicas, antes de sua implementação, é denominado avaliação"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 286.216076,
+          "text": "A"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 322.799283,
+          "y": 286.216076,
+          "text": "ex-post."
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 299.6561,
+          "text": "B"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 322.799283,
+          "y": 299.6561,
+          "text": "de processos."
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 313.096124,
+          "text": "C"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 322.799283,
+          "y": 313.096124,
+          "text": "de custo-efetividade."
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 326.536148,
+          "text": "D"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 322.799283,
+          "y": 326.536148,
+          "text": "de desempenho."
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 339.976172,
+          "text": "E"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 322.799283,
+          "y": 339.976172,
+          "text": "ex-ante."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": "e",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-3-3"
+      ]
+    },
+    {
+      "questionId": "cge-ce-2019-cargo5-q088",
+      "paperId": "source-cge-ce-2019-cargo5",
+      "number": 88,
+      "sourcePage": 5,
+      "sourceLineGroups": [
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 376.5767,
+          "text": "Uma questão de determinado questionário que ofereça como"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 388.816544,
+          "text": "possíveis respostas apenas as opções “sim” ou “não” é uma"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 401.056388,
+          "text": "pergunta"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 425.536076,
+          "text": "A"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 322.799283,
+          "y": 425.536076,
+          "text": "aberta no formato de texto."
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 438.9761,
+          "text": "B"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 322.799283,
+          "y": 438.9761,
+          "text": "fechada e escalonada."
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 452.416124,
+          "text": "C"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 322.799283,
+          "y": 452.416124,
+          "text": "aberta de escala ordinal."
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 465.856148,
+          "text": "D"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 322.799283,
+          "y": 465.856148,
+          "text": "fechada e dicotômica."
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 479.296172,
+          "text": "E"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 322.799283,
+          "y": 479.296172,
+          "text": "fechada de múltipla escolha."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": "d",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-3-1",
+        "abdi-2026-abdi-comunicacao-marketing-19"
+      ]
+    },
+    {
+      "questionId": "cge-ce-2019-cargo5-q090",
+      "paperId": "source-cge-ce-2019-cargo5",
+      "number": 90,
+      "sourcePage": 5,
+      "sourceLineGroups": [
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 667.4567,
+          "text": "O instrumento de pesquisa qualitativa que se baseia em um"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 679.696544,
+          "text": "protocolo inicial formado por um conjunto de perguntas ou temas"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 691.936388,
+          "text": "que pode ser adaptado ao longo do processo de coleta de dados,"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 704.176232,
+          "text": "conforme o interesse do(a) pesquisador(a), é chamado de"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 728.65592,
+          "text": "A"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 322.799283,
+          "y": 728.65592,
+          "text": "relatório de análise de redes."
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 742.095944,
+          "text": "B"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 322.799283,
+          "y": 742.095944,
+          "text": "entrevista semiestruturada."
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 755.535968,
+          "text": "C"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 322.799283,
+          "y": 755.535968,
+          "text": "questionário estruturado."
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 768.975992,
+          "text": "D"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 322.799283,
+          "y": 768.975992,
+          "text": "observação participativa."
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 304.4391,
+          "y": 782.416016,
+          "text": "E"
+        },
+        {
+          "page": 5,
+          "column": "right",
+          "x": 322.799283,
+          "y": 782.416016,
+          "text": "questionário de survey."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": "b",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-3-1",
+        "abdi-2026-abdi-comunicacao-marketing-19",
+        "cgu-2026-politicas-investigacao-avaliacao-4-1"
+      ]
+    },
+    {
+      "questionId": "cge-ce-2019-cargo5-q096",
+      "paperId": "source-cge-ce-2019-cargo5",
+      "number": 96,
+      "sourcePage": 6,
+      "sourceLineGroups": [
+        {
+          "page": 6,
+          "column": "right",
+          "x": 304.4391,
+          "y": 632.5367,
+          "text": "O Brasil é signatário da Declaração Universal dos Direitos"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 304.4391,
+          "y": 646.936868,
+          "text": "Humanos e integrou ao seu ordenamento o art. 19 dessa declaração,"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 304.4391,
+          "y": 661.456556,
+          "text": "que trata do direito a informação. No Brasil, esse direito"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 304.4391,
+          "y": 690.376412,
+          "text": "A será submetido a censura prévia."
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 304.4391,
+          "y": 706.216796,
+          "text": "B será protegido mesmo que a informação incitar crime."
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 304.4391,
+          "y": 722.1767,
+          "text": "C é regulamentado, no que se refere à transparência de"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 322.799283,
+          "y": 736.576868,
+          "text": "informações públicas, pela Lei de Acesso a Informação."
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 304.4391,
+          "y": 752.536772,
+          "text": "D é garantido pela complementaridade exclusiva dos sistemas"
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 322.799283,
+          "y": 766.93694,
+          "text": "privado e estatal."
+        },
+        {
+          "page": 6,
+          "column": "right",
+          "x": 304.4391,
+          "y": 782.896844,
+          "text": "E é restrito ao acesso a informações dentro do território nacional."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": "c",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-6",
+        "abdi-2026-abdi-comunicacao-marketing-24",
+        "cgu-2026-transparencia-ouvidoria-1-1"
+      ]
+    },
+    {
+      "questionId": "cge-ce-2019-cargo5-q097",
+      "paperId": "source-cge-ce-2019-cargo5",
+      "number": 97,
+      "sourcePage": 7,
+      "sourceLineGroups": [
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.3191,
+          "y": 74.7768,
+          "text": "Com relação à imparcialidade e à objetividade na comunicação,"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.3191,
+          "y": 88.216824,
+          "text": "assinale a opção correta."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.3191,
+          "y": 115.216392,
+          "text": "A O conceito de objetividade é essencialmente mais concreto"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 46.679283,
+          "y": 128.775936,
+          "text": "e de entendimento mais fácil que o da imparcialidade."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.3191,
+          "y": 143.53566,
+          "text": "B A pirâmide invertida e o lide foram criados para conferir"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 46.679283,
+          "y": 157.0962,
+          "text": "objetividade à construção das notícias."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.3191,
+          "y": 171.855924,
+          "text": "C A distinção entre notícia e opinião é considerada o fundamento"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 46.679283,
+          "y": 185.415468,
+          "text": "da objetividade."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.3191,
+          "y": 200.175192,
+          "text": "D Imparcialidade e pluralismo são suficientes para garantir"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 46.679283,
+          "y": 213.734736,
+          "text": "a objetividade de uma notícia, na medida em que colaboram"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 46.679283,
+          "y": 227.17476,
+          "text": "para exprimir um fato como ele realmente aconteceu."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.3191,
+          "y": 242.055,
+          "text": "E A objetividade permite que os fatos comunicados convertam-se"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 46.679283,
+          "y": 255.495024,
+          "text": "em uma expressão integral da realidade."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": "b",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "abdi-2026-abdi-comunicacao-marketing-10"
+      ]
+    },
+    {
+      "questionId": "cge-ce-2019-cargo5-q098",
+      "paperId": "source-cge-ce-2019-cargo5",
+      "number": 98,
+      "sourcePage": 7,
+      "sourceLineGroups": [
+        {
+          "page": 7,
+          "column": "left",
+          "x": 63.5991,
+          "y": 294.7367,
+          "text": "As mensagens passadas pela mídia aos receptores"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.319043,
+          "y": 308.296244,
+          "text": "são recebidas de maneira uniforme e esses estímulos provocam"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.319043,
+          "y": 321.736268,
+          "text": "respostas diretas e imediatas de cada um dos membros da massa."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.319043,
+          "y": 348.735836,
+          "text": "A frase precedente corresponde ao pensamento preconizado"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.319043,
+          "y": 375.735404,
+          "text": "A pelo modelo da agulha hipodérmica, de Lasswell."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.319043,
+          "y": 390.615644,
+          "text": "B pelo modelo de usos e gratificações, de Berelson."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.319043,
+          "y": 405.375368,
+          "text": "C pela pesquisa da comunicação interpessoal dos grupos"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 46.679225,
+          "y": 418.934912,
+          "text": "primários, de Riley e Riley."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.319043,
+          "y": 433.694636,
+          "text": "D pela teoria da diferenciação social, de Durkheim."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.319043,
+          "y": 448.574876,
+          "text": "E pelo modelo do agenda-setting, de McCombs e Shaw."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": "a",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "camara-2026-comunicacao-social-1-1",
+        "abdi-2026-abdi-comunicacao-marketing-2"
+      ]
+    },
+    {
+      "questionId": "539-alce-016-01-q058",
+      "paperId": "source-539-alce-016-01",
+      "number": 58,
+      "sourcePage": 7,
+      "sourceLineGroups": [
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.4391,
+          "y": 222.27602,
+          "text": "A pesquisa de opinião é um instrumento valioso para"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.4391,
+          "y": 234.876416,
+          "text": "compreender pensamentos e expressões do público que se quer"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.4391,
+          "y": 247.596332,
+          "text": "analisar. A comunicação social utiliza-se de métodos de pesquisa"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.4391,
+          "y": 260.196728,
+          "text": "qualitativos para compreender a opinião pública e direcionar a"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.4391,
+          "y": 272.916644,
+          "text": "melhor forma de se comunicar com essas pessoas."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.4391,
+          "y": 291.516944,
+          "text": "A esse respeito, julgue os próximos itens."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.4391,
+          "y": 310.117244,
+          "text": "I"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.581308,
+          "y": 310.117244,
+          "text": "Os problemas de pesquisa não se apresentam de forma clara e"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.5993,
+          "y": 322.83716,
+          "text": "direta. Para definir o escopo do estudo, é necessário solicitar"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.5993,
+          "y": 335.437556,
+          "text": "e receber bem todos os pontos de vistas dos entrevistados"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.5993,
+          "y": 348.157472,
+          "text": "sobre o tema em questão."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.4391,
+          "y": 360.757868,
+          "text": "II Na técnica de coleta de dados, a entrevista pessoal é a de"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.5993,
+          "y": 373.358264,
+          "text": "valor mais baixo de todos os métodos, sendo as entrevistas"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.5993,
+          "y": 386.07818,
+          "text": "por telefone e as por correio as que mais impactam no"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.5993,
+          "y": 398.678576,
+          "text": "orçamento."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.4391,
+          "y": 411.398492,
+          "text": "III Após se identificar o universo da pesquisa, é preciso decidir"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.5993,
+          "y": 423.998888,
+          "text": "se a pesquisa vai englobar a totalidade de seus componentes"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.5993,
+          "y": 436.599284,
+          "text": "ou apenas parte desse universo, caracterizando como pesquisa"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.5993,
+          "y": 449.3192,
+          "text": "por amostragem."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.4391,
+          "y": 461.919596,
+          "text": "IV O pré-testes do instrumento de pesquisa visa corrigir"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.5993,
+          "y": 474.639512,
+          "text": "possíveis distorções no questionário e deve ser feito com um"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.5993,
+          "y": 487.239908,
+          "text": "grupo diferente daquele no qual será aplicada a pesquisa,"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.5993,
+          "y": 499.959824,
+          "text": "abrangendo o maior número possível de pessoas."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.4391,
+          "y": 518.560124,
+          "text": "Estão certos apenas os itens"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.4391,
+          "y": 534.8567,
+          "text": "A I e II."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.4391,
+          "y": 547.457096,
+          "text": "B I e III."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.4391,
+          "y": 560.177012,
+          "text": "C II e IV."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.4391,
+          "y": 572.777408,
+          "text": "D III e IV."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 28.4391,
+          "y": 585.497324,
+          "text": "E II, III e IV."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": "b",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "camara-2026-divulgacao-institucional-3-3",
+        "abdi-2026-abdi-comunicacao-marketing-19",
+        "cgu-2026-politicas-investigacao-avaliacao-3-4"
+      ]
+    },
+    {
+      "questionId": "038-anm-cg1-01-q017",
+      "paperId": "source-038-anm-cg1-01",
+      "number": 17,
+      "sourcePage": 2,
+      "sourceLineGroups": [
+        {
+          "page": 2,
+          "column": "left",
+          "x": 28.3191,
+          "y": 564.0167,
+          "text": "17 O direito de liberdade de informação não é absoluto e deve"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "x": 46.1991,
+          "y": 575.536436,
+          "text": "ser compatibilizado com o direito ao esquecimento, o qual é"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "x": 46.1991,
+          "y": 587.056172,
+          "text": "entendido como o poder de obstar, em razão da passagem do"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "x": 46.1991,
+          "y": 598.575908,
+          "text": "tempo, a divulgação de fatos ou dados verídicos e"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "x": 46.1991,
+          "y": 609.976124,
+          "text": "licitamente obtidos e publicados em meios de comunicação"
+        },
+        {
+          "page": 2,
+          "column": "left",
+          "x": 46.1991,
+          "y": 621.49586,
+          "text": "social analógicos ou digitais."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": false,
+      "contextIds": [
+        "anm-cg1-constitutional-command"
+      ],
+      "syllabusItemIds": [
+        "camara-2026-direito-constitucional-regimento-2",
+        "abdi-2026-abdi-comunicacao-marketing-24",
+        "cgu-2026-estado-democracia-4-1",
+        "cgu-2026-transparencia-ouvidoria-5-3"
+      ]
+    },
+    {
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q037",
+      "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+      "number": 37,
+      "sourcePage": 13,
+      "sourceLineGroups": [
+        {
+          "page": 13,
+          "column": "left",
+          "x": 42.6,
+          "y": 437.9,
+          "text": "Segundo a Organização para a Cooperação e Desenvolvimento"
+        },
+        {
+          "page": 13,
+          "column": "left",
+          "x": 42.6,
+          "y": 448.94,
+          "text": "Econômico (OCDE), a integridade é uma pedra fundamental da"
+        },
+        {
+          "page": 13,
+          "column": "left",
+          "x": 42.6,
+          "y": 460.0,
+          "text": "boa governança, uma condição para que todas as outras"
+        },
+        {
+          "page": 13,
+          "column": "left",
+          "x": 42.6,
+          "y": 470.92,
+          "text": "atividades do governo não só tenham confiança e legitimidade,"
+        },
+        {
+          "page": 13,
+          "column": "left",
+          "x": 42.6,
+          "y": 481.96,
+          "text": "mas também sejam efetivas."
+        },
+        {
+          "page": 13,
+          "column": "left",
+          "x": 42.6,
+          "y": 492.88,
+          "text": "Considerando que o Decreto nº 10.756, de 27 de julho de 2021,"
+        },
+        {
+          "page": 13,
+          "column": "left",
+          "x": 42.6,
+          "y": 503.92,
+          "text": "instituiu o Sistema de Integridade Pública do Poder Executivo"
+        },
+        {
+          "page": 13,
+          "column": "left",
+          "x": 42.6,
+          "y": 514.84,
+          "text": "Federal, compete à Controladoria-Geral da União, na condição de"
+        },
+        {
+          "page": 13,
+          "column": "left",
+          "x": 42.6,
+          "y": 525.88,
+          "text": "órgão central:"
+        },
+        {
+          "page": 13,
+          "column": "left",
+          "x": 42.6,
+          "y": 536.8,
+          "text": "(A) formular os planos nacionais, setoriais e regionais de"
+        },
+        {
+          "page": 13,
+          "column": "left",
+          "x": 56.76,
+          "y": 547.84,
+          "text": "desenvolvimento econômico e social;"
+        },
+        {
+          "page": 13,
+          "column": "left",
+          "x": 42.6,
+          "y": 558.88,
+          "text": "(B) acompanhar a celebração dos acordos de leniência;"
+        },
+        {
+          "page": 13,
+          "column": "left",
+          "x": 42.6,
+          "y": 569.8,
+          "text": "(C) manter e aprimorar o Plano de Contas da União;"
+        },
+        {
+          "page": 13,
+          "column": "left",
+          "x": 42.6,
+          "y": 580.84,
+          "text": "(D) monitorar e avaliar a atuação das unidades setoriais;"
+        },
+        {
+          "page": 13,
+          "column": "left",
+          "x": 42.6,
+          "y": 591.76,
+          "text": "(E) formular o planejamento estratégico nacional."
+        }
+      ],
+      "answerKeyPage": 25,
+      "answerValue": "d",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-governanca-riscos-integridade-3-1"
+      ]
+    },
+    {
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q041",
+      "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+      "number": 41,
+      "sourcePage": 14,
+      "sourceLineGroups": [
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 139.31,
+          "text": "Pedro, servidor público federal, no exercício de sua competência"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 150.23,
+          "text": "funcional, observando o princípio da autotutela, precisa decidir,"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 161.27,
+          "text": "no bojo de processo administrativo, sobre a declaração de"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 172.19,
+          "text": "invalidade de determinado ato administrativo. Pedro constatou"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 183.23,
+          "text": "que, de fato, o ato administrativo analisado foi praticado com"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 194.15,
+          "text": "desrespeito a dispositivos legais."
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 205.19,
+          "text": "De acordo com o Decreto nº 9.830/2019, que regulamenta o"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 216.23,
+          "text": "disposto nos Arts. 20 a 30 do Decreto-Lei nº 4.657/1942 (Lei de"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 227.15,
+          "text": "Introdução às Normas do Direito Brasileiro), consideradas as"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 238.19,
+          "text": "consequências jurídicas e administrativas da decisão para a"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 249.11,
+          "text": "administração pública e para o administrado, em tese, Pedro:"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 260.15,
+          "text": "(A) deverá declarar a invalidade do ato administrativo com"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 271.1,
+          "text": "efeitos ex tunc, porque atos nulos não podem produzir"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 282.14,
+          "text": "efeitos, em respeito ao princípio da administração pública da"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 293.06,
+          "text": "legalidade, vedada a modulação administrativa de efeitos;"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 304.1,
+          "text": "(B) poderá restringir os efeitos da declaração de invalidade do"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 315.14,
+          "text": "ato, mas não decidir que sua eficácia se iniciará em momento"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 326.06,
+          "text": "posteriormente definido, pois a modulação dos efeitos da"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 337.1,
+          "text": "decisão administrativa é admitida para aspectos materiais e"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 348.02,
+          "text": "não temporais;"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 359.06,
+          "text": "(C) deverá declarar a invalidade do ato administrativo com"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 369.98,
+          "text": "efeitos ex nunc, em respeito ao princípio da administração"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 381.02,
+          "text": "pública da segurança jurídica, desde que não haja prejuízo"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 391.94,
+          "text": "para a administração pública, sem necessidade de se sopesar"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 402.98,
+          "text": "eventual prejuízo para o administrado ou terceiro, pela"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 414.02,
+          "text": "supremacia do interesse público;"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 424.94,
+          "text": "(D) poderá decidir que a eficácia da declaração de nulidade se"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 435.98,
+          "text": "iniciará em momento posteriormente definido, mas não"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 446.9,
+          "text": "poderá restringir seus efeitos, pois a decisão de modulação"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 457.94,
+          "text": "de efeitos administrativos deve se basear exclusivamente em"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 468.88,
+          "text": "valores jurídicos abstratos, considerados aqueles previstos"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 479.92,
+          "text": "em normas jurídicas com alto grau de indeterminação e"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 490.84,
+          "text": "abstração;"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 42.6,
+          "y": 501.88,
+          "text": "(E) poderá restringir os efeitos da declaração de invalidade do"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 512.92,
+          "text": "ato ou decidir que sua eficácia se iniciará em momento"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 523.84,
+          "text": "posteriormente definido, pois a modulação dos efeitos da"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 534.88,
+          "text": "decisão buscará a mitigação dos ônus ou das perdas dos"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 545.8,
+          "text": "administrados ou da administração pública que sejam"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 556.84,
+          "text": "anormais ou excessivos em função das peculiaridades do"
+        },
+        {
+          "page": 14,
+          "column": "left",
+          "x": 56.76,
+          "y": 567.76,
+          "text": "caso."
+        }
+      ],
+      "answerKeyPage": 25,
+      "answerValue": "e",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-integridade-transparencia-responsabilizacao-1-3"
+      ]
+    }
+  ],
+  "contexts": [],
+  "changes": [
+    {
+      "section": "roles",
+      "id": "cgu-auditoria",
+      "before": {
+        "id": "cgu-auditoria",
+        "contestId": "cgu-2026",
+        "title": "Auditor Federal de Finanças e Controle — Auditoria",
+        "status": "verified",
+        "referenceDocumentIds": [
+          "cgu-2026-abertura-atualizada",
+          "reference-cgu-in3-2017-consolidada",
+          "reference-cgu-in7-2017",
+          "reference-mcasp-11-2025",
+          "reference-lei-12846-2013",
+          "reference-cns-510-2016",
+          "reference-lei-12813-2013",
+          "reference-decreto-11129-2022",
+          "reference-nbc-tsp-34",
+          "reference-nbc-tg-25-r2",
+          "reference-nbc-tg-01-r4",
+          "reference-lei-6404-1976",
+          "reference-cgu-pn27-2022",
+          "reference-cgu-pn54-2023",
+          "reference-cgu-pn123-2024",
+          "reference-nbc-tg26-r5",
+          "reference-nbc-tg03-r3"
+        ]
+      },
+      "after": {
+        "id": "cgu-auditoria",
+        "contestId": "cgu-2026",
+        "title": "Auditor Federal de Finanças e Controle — Auditoria",
+        "status": "verified",
+        "referenceDocumentIds": [
+          "cgu-2026-abertura-atualizada",
+          "reference-cgu-in3-2017-consolidada",
+          "reference-cgu-in7-2017",
+          "reference-mcasp-11-2025",
+          "reference-lei-12846-2013",
+          "reference-cns-510-2016",
+          "reference-lei-12813-2013",
+          "reference-decreto-11129-2022",
+          "reference-nbc-tsp-34",
+          "reference-nbc-tg-25-r2",
+          "reference-nbc-tg-01-r4",
+          "reference-lei-6404-1976",
+          "reference-cgu-pn27-2022",
+          "reference-cgu-pn54-2023",
+          "reference-cgu-pn123-2024",
+          "reference-nbc-tg26-r5",
+          "reference-nbc-tg03-r3",
+          "reference-stf-tema-786",
+          "reference-decreto-11529-2023",
+          "reference-decreto-9830-2019"
+        ]
+      },
+      "reason": "Apêndice de três referências; programa e regras intactos."
+    }
+  ],
+  "sourcePairs": [
+    {
+      "paperId": "source-cge-ce-2019-cargo5",
+      "booklet": "Matriz_441_CGECE005_Pag 7",
+      "documents": [
+        {
+          "file": "sources/papers/cge-ce-2019-cargo5.pdf",
+          "url": "https://cdn.cebraspe.org.br/concursos/cge_ce_18/arquivos/MATRIZ_441_CGECE005_PAG_7.PDF",
+          "sha256": "e7becc2f16b8b7d8b0cceba8f4e28fd3d84e9c81a4be3669375ad9ce96721ca7",
+          "repeatSha256": "e7becc2f16b8b7d8b0cceba8f4e28fd3d84e9c81a4be3669375ad9ce96721ca7",
+          "checkedAt": "2026-10-29T18:14:05.326352+00:00",
+          "repeatCheckedAt": "2026-10-29T18:22:46.122001+00:00",
+          "documentId": "source-cge-ce-2019-cargo5-paper"
+        },
+        {
+          "file": "sources/answer-keys/cge-ce-2019-cargo5-definitivo.pdf",
+          "url": "https://cdn.cebraspe.org.br/concursos/cge_ce_18/arquivos/7_GAB_DEFINITIVO_MATRIZ_441_CGECE005_PAG_7.PDF",
+          "sha256": "9540785178e21d440e59eb51d1fe5e7a62a8887ea885d9703a69ee3133485546",
+          "repeatSha256": "9540785178e21d440e59eb51d1fe5e7a62a8887ea885d9703a69ee3133485546",
+          "checkedAt": "2026-10-29T18:14:04.514142+00:00",
+          "repeatCheckedAt": "2026-10-29T18:22:45.044322+00:00",
+          "documentId": "source-cge-ce-2019-cargo5-key"
+        }
+      ],
+      "keyVersion": "Gabarito oficial definitivo divulgado24/05/2019, aplicação28/04/2019; códigoMatriz_441_CGECE005_Pag7, cargo5.",
+      "annulledItems": [
+        63,
+        65
+      ]
+    }
+  ],
+  "referenceRechecks": [
+    {
+      "file": "sources/references/stf-tema-786.html",
+      "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5091603&numeroProcesso=1010606&classeProcesso=RE&numeroTema=786",
+      "sha256": "7a55380a7544b5f6707ada31a694d35a5229173fdf67b617dc1c70fb0aa5b713",
+      "repeatSha256": "7a55380a7544b5f6707ada31a694d35a5229173fdf67b617dc1c70fb0aa5b713",
+      "checkedAt": "2026-10-29T18:12:51.445413+00:00",
+      "repeatCheckedAt": "2026-10-29T18:22:43.338982+00:00",
+      "documentId": "reference-stf-tema-786",
+      "scope": "Somente tese ou dispositivos citados nos comentários; sem certificação de vigência integral."
+    },
+    {
+      "file": "sources/references/decreto-11529-2023.html",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2023/decreto-11529-16-maio-2023-794189-publicacaooriginal-167832-pe.html",
+      "sha256": "0fc3834d39dbe3d2a5e17b61ae416ad0d81bad9b6c87c2340ef2e5b527105b13",
+      "repeatSha256": "0fc3834d39dbe3d2a5e17b61ae416ad0d81bad9b6c87c2340ef2e5b527105b13",
+      "checkedAt": "2026-10-29T18:20:31.010301+00:00",
+      "repeatCheckedAt": "2026-10-29T18:22:43.336648+00:00",
+      "documentId": "reference-decreto-11529-2023",
+      "scope": "Somente tese ou dispositivos citados nos comentários; sem certificação de vigência integral."
+    },
+    {
+      "file": "sources/references/decreto-9830-2019.html",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2019/decreto-9830-10-junho-2019-788287-publicacaooriginal-158117-pe.html",
+      "sha256": "58863dc536f2d4606e5a8b6382d83b0df72694cc9a3e4cdfa014a291a2766b7a",
+      "repeatSha256": "58863dc536f2d4606e5a8b6382d83b0df72694cc9a3e4cdfa014a291a2766b7a",
+      "checkedAt": "2026-10-29T18:20:31.014083+00:00",
+      "repeatCheckedAt": "2026-10-29T18:22:43.337750+00:00",
+      "documentId": "reference-decreto-9830-2019",
+      "scope": "Somente tese ou dispositivos citados nos comentários; sem certificação de vigência integral."
+    }
+  ],
+  "excluded": [
+    {
+      "source": "CGE/CE2019 cargo5 questões63 e65",
+      "reason": "Anuladas no quadro definitivo."
+    },
+    {
+      "source": "CGE/CE2019 cargo5 questão93",
+      "reason": "Carta de Serviços não tem recorte específico confirmado neste programa; não a classificar artificialmente como análise de denúncias ou resultados de manifestações."
+    },
+    {
+      "source": "ABDI2023 documento nomeado Provas-respondidas",
+      "reason": "É lista de notas, não caderno; não importar resultados individuais."
+    },
+    {
+      "source": "ABDI2023 gabarito de raciocínio lógico",
+      "reason": "Contém enunciados e respostas, com figuras e itens compostos de V/F. Sem confirmação de par completo e caráter definitivo pós-recursos; manter como pista, não banco liberado."
+    },
+    {
+      "source": "TCU2026 conhecimentos específicos",
+      "reason": "Área de TI; não converter qualidade de software em asseguração da auditoria ou maturidade da integridade."
+    },
+    {
+      "source": "CGU Correição46 e78",
+      "reason": "Não transportar automaticamente parâmetros do Decreto8420 para o atual Decreto11129;78 tem fonte primária agora obtida, mas compatibilidade atual pendente."
+    }
+  ],
+  "mappingAdditions": [],
+  "humanAcceptance": {
+    "status": "deferred_by_user",
+    "reason": "Usuário: faremos o teste apenas no final de tudo pronto. Não solicitar nova rodada durante os lotes."
+  },
+  "microenterprise": {
+    "status": "primary_obtained_current_compatibility_unconfirmed",
+    "questionId": "cgu-2022-correicao-tarde-tipo1-q078",
+    "officialAnswer": "b",
+    "primaryAct": "Portaria Conjunta CGU/SMPE2.279/2015, DOU10/09/2015, seção1,páginas2–4",
+    "documents": [
+      {
+        "file": "data/reviews/continuation-seventh-evidence/DOU-2015-09-10-p2.pdf",
+        "url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=1&pagina=2&data=10/09/2015&captchafield=firstAccess",
+        "sha256": "d3b60199d5cd03beb601816da7eb42313b130f75d10f3c18478a24e0c1cf0640",
+        "repeatSha256": "d3b60199d5cd03beb601816da7eb42313b130f75d10f3c18478a24e0c1cf0640",
+        "checkedAt": "2026-10-29T18:12:51.443928+00:00",
+        "repeatCheckedAt": "2026-10-29T18:27:32.452058+00:00"
+      },
+      {
+        "file": "data/reviews/continuation-seventh-evidence/DOU-2015-09-10-p3.pdf",
+        "url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=1&pagina=3&data=10/09/2015&captchafield=firstAccess",
+        "sha256": "bb7a27854492b8f31b88a664cf32244c9abea52e9cecee4eb3cd509439d401a7",
+        "repeatSha256": "bb7a27854492b8f31b88a664cf32244c9abea52e9cecee4eb3cd509439d401a7",
+        "checkedAt": "2026-10-29T18:12:51.444802+00:00",
+        "repeatCheckedAt": "2026-10-29T18:22:44.619931+00:00"
+      },
+      {
+        "file": "data/reviews/continuation-seventh-evidence/DOU-2015-09-10-p4.pdf",
+        "url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=1&pagina=4&data=10/09/2015&captchafield=firstAccess",
+        "sha256": "c1b362895f63317116dff4ebd79f18b73364293b5a254bb9a8e3449cbe40e8de",
+        "repeatSha256": "c1b362895f63317116dff4ebd79f18b73364293b5a254bb9a8e3449cbe40e8de",
+        "checkedAt": "2026-10-29T18:14:03.696874+00:00",
+        "repeatCheckedAt": "2026-10-29T18:22:44.782726+00:00"
+      }
+    ],
+    "selectedFindings": [
+      "Art1§3 e anexo listam parâmetros simplificados; a coluna do anexo incluiII(código) eVIII(interação com setor público), nãoX(canais), no referencial do Decreto8420/2015.",
+      "Art4 exige demonstração de funcionamento e contribuição à prevenção/detecção/remediação; artigo5 condiciona máximo de atenuação à atuação efetiva.",
+      "Decreto11129/2022art57X inclui canais e proteção de denunciantes; §§1–2 consideram porte e efetividade e não repetem a antiga dispensa expressa do art42§3 do Decreto8420. A listagem oficial ainda contém a portaria, sem resolver sozinha sua compatibilidade atual.",
+      "O cabeçalho do anexo apresenta parâmetros orientativos e diz não ser exigida demonstração de cumprimento de todos na avaliação. A presença deII/VIII na tabela, isoladamente, não comprova a literal obrigatoriedade de todo parâmetro no caso da questão; a chaveB continua sendo a da prova, sem certificação de aplicação atual."
+    ],
+    "decision": "Manter78 fora. A obtenção da fonte primária resolve a indisponibilidade documental, mas não autoriza transportar automaticamente a dispensa antiga para a regra atual. A chave originalB não é alterada nem chamada de anulação."
+  },
+  "researchEvidence": [
+    {
+      "file": "data/reviews/continuation-seventh-evidence/abdi-site.html",
+      "url": "https://www.abdi.com.br/processo-seletivo/",
+      "sha256": "1471b7f1b6c10e31af45fa226925337ee294faba0a10e53cf6d02a3de8f47542"
+    },
+    {
+      "file": "data/reviews/continuation-seventh-evidence/fgv-abdi.html",
+      "url": "https://conhecimento.fgv.br/concursos/psabdi",
+      "sha256": "1a295af082b5a25b86461e8cfaeb4b95c80c2a39b14a779505d2741d9041f6f7"
+    },
+    {
+      "file": "data/reviews/continuation-seventh-evidence/event-CGE_CE_18.json",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CGE_CE_18",
+      "sha256": "462d3ac0b7b3c11751fdf638f45890ffde725d48a1a3fb156e174f0c3c7ad6dc"
+    },
+    {
+      "file": "data/reviews/continuation-seventh-evidence/stf-786.html",
+      "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=786",
+      "sha256": "34d8ce06ddc5d3d5b877b3bb283761fecad572c722be3c5a71a84e46d9a69d7d"
+    },
+    {
+      "file": "data/reviews/continuation-seventh-evidence/lexml11529.html",
+      "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2023-05-16;11529",
+      "sha256": "df1443c186bd41fec627c54b0597a189d4a90dbaf0ce954fc0220f4ccd35bdba"
+    },
+    {
+      "file": "data/reviews/continuation-seventh-evidence/lexml9830.html",
+      "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2019-06-10;9830",
+      "sha256": "16a01aec236f66eb6b6c94e3955442d76348e241543c3ea025b1b903003cb6ef"
+    },
+    {
+      "file": "data/reviews/continuation-seventh-evidence/fetch-log.json",
+      "sha256": "3d84d59bb20bdfc812209d6ff24859d485c8252e0bdd458241bf9363a54d0388",
+      "scope": "URLs, hashes e resultados das consultas; PDFs de resultados individuais não são cadernos nem entram no catálogo."
+    }
+  ]
+}

@@ -5,8 +5,8 @@ cgu-2026-estado-democracia-2,cgu-estado-democracia,basic,2,Democracia e represen
 cgu-2026-estado-democracia-2-1,cgu-estado-democracia,basic,2.1,"Representação e participação; responsabilização democrática; relações entre Executivo, Legislativo e Judiciário; governabilidade e controles recíprocos.",direct,C,15,0,15,0
 cgu-2026-estado-democracia-3,cgu-estado-democracia,basic,3,Federalismo e capacidades estatais.,descendants_only,C,0,0,6,0
 cgu-2026-estado-democracia-3-1,cgu-estado-democracia,basic,3.1,"Autonomia, coordenação e cooperação federativa; capacidades administrativas e políticas; burocracia, discricionariedade e implementação de direitos.",direct,C,6,0,6,0
-cgu-2026-estado-democracia-4,cgu-estado-democracia,basic,4,Ordem constitucional e direitos.,descendants_only,C,0,0,3,0
-cgu-2026-estado-democracia-4-1,cgu-estado-democracia,basic,4.1,"Fundamentos e objetivos da República; direitos fundamentais, sociais e políticos; igualdade, devido processo e limites ao exercício do poder; princípios da administração pública.",direct,C,3,0,3,0
+cgu-2026-estado-democracia-4,cgu-estado-democracia,basic,4,Ordem constitucional e direitos.,descendants_only,C,0,0,4,0
+cgu-2026-estado-democracia-4-1,cgu-estado-democracia,basic,4.1,"Fundamentos e objetivos da República; direitos fundamentais, sociais e políticos; igualdade, devido processo e limites ao exercício do poder; princípios da administração pública.",direct,C,4,0,4,0
 cgu-2026-estado-democracia-5,cgu-estado-democracia,basic,5,Valor público e controle.,descendants_only,C,0,0,3,0
 cgu-2026-estado-democracia-5-1,cgu-estado-democracia,basic,5.1,"Resultados socialmente relevantes; legitimidade, confiança e direitos; controle interno, externo e social em perspectiva institucional; tensões entre eficiência, equidade e garantias.",direct,C,3,0,3,0
 cgu-2026-estado-democracia-6,cgu-estado-democracia,basic,6,Corrupção como fenômeno político e social.,descendants_only,C,0,0,3,0
@@ -62,8 +62,8 @@ cgu-2026-governanca-riscos-integridade-1-1,cgu-governanca-riscos-integridade,com
 cgu-2026-governanca-riscos-integridade-2,cgu-governanca-riscos-integridade,complementary,2,Riscos e controles essenciais.,descendants_only,C,0,0,3,1
 cgu-2026-governanca-riscos-integridade-2-1,cgu-governanca-riscos-integridade,complementary,2.1,"Risco, causa, consequência e controle; prevenção e detecção; proporcionalidade dos controles, segregação de funções e risco residual.",direct,C,3,0,3,0
 cgu-2026-governanca-riscos-integridade-2-2,cgu-governanca-riscos-integridade,complementary,2.2,"Identificação de vulnerabilidades e de controles compatíveis com situações usuais, a partir dos dados fornecidos.",direct,A,0,1,0,1
-cgu-2026-governanca-riscos-integridade-3,cgu-governanca-riscos-integridade,complementary,3,Integridade pública.,empty,A,0,0,0,0
-cgu-2026-governanca-riscos-integridade-3-1,cgu-governanca-riscos-integridade,complementary,3.1,"Finalidades dos programas e medidas de integridade; compromisso da liderança, orientação ética, identificação de riscos, canais de relato e acompanhamento de ações.",empty,A,0,0,0,0
+cgu-2026-governanca-riscos-integridade-3,cgu-governanca-riscos-integridade,complementary,3,Integridade pública.,descendants_only,A,0,0,0,1
+cgu-2026-governanca-riscos-integridade-3-1,cgu-governanca-riscos-integridade,complementary,3.1,"Finalidades dos programas e medidas de integridade; compromisso da liderança, orientação ética, identificação de riscos, canais de relato e acompanhamento de ações.",direct,A,0,1,0,1
 cgu-2026-governanca-riscos-integridade-3-2,cgu-governanca-riscos-integridade,complementary,3.2,"Prevenção de favorecimento, assédio e discriminação; ambiente seguro e não retaliação.",empty,A,0,0,0,0
 cgu-2026-governanca-riscos-integridade-4,cgu-governanca-riscos-integridade,complementary,4,Integridade privada.,empty,A,0,0,0,0
 cgu-2026-governanca-riscos-integridade-4-1,cgu-governanca-riscos-integridade,complementary,4.1,"Finalidades dos programas de integridade e sua relação com o poder público; compromisso da direção, registros confiáveis, controles, diligência proporcional sobre terceiros, canais de relato e remediação.",empty,A,0,0,0,0
@@ -72,8 +72,8 @@ cgu-2026-governanca-riscos-integridade-5,cgu-governanca-riscos-integridade,compl
 cgu-2026-governanca-riscos-integridade-5-1,cgu-governanca-riscos-integridade,complementary,5.1,"Cultura, incentivos e confiança; diferenças de capacidade entre organizações; orientação e medidas proporcionais.",empty,A,0,0,0,0
 cgu-2026-governanca-riscos-integridade-5-2,cgu-governanca-riscos-integridade,complementary,5.2,Denúncias e resultados de controle como insumos de melhoria.,empty,A,0,0,0,0
 cgu-2026-governanca-riscos-integridade-5-3,cgu-governanca-riscos-integridade,complementary,5.3,Distinção entre baixa ocorrência e baixa detecção de problemas; leitura de evidências simples sobre funcionamento e resultados das medidas.,empty,A,0,0,0,0
-cgu-2026-transparencia-ouvidoria-1,cgu-transparencia-ouvidoria,complementary,1,Acesso à informação.,direct,C,1,0,8,1
-cgu-2026-transparencia-ouvidoria-1-1,cgu-transparencia-ouvidoria,complementary,1.1,Transparência ativa e passiva; finalidade de pedidos e recursos; publicidade como regra e motivação das restrições.,direct,C,4,1,4,1
+cgu-2026-transparencia-ouvidoria-1,cgu-transparencia-ouvidoria,complementary,1,Acesso à informação.,direct,C,1,0,8,2
+cgu-2026-transparencia-ouvidoria-1-1,cgu-transparencia-ouvidoria,complementary,1.1,Transparência ativa e passiva; finalidade de pedidos e recursos; publicidade como regra e motivação das restrições.,direct,C,4,2,4,2
 cgu-2026-transparencia-ouvidoria-1-2,cgu-transparencia-ouvidoria,complementary,1.2,"Distinção conceitual entre informação classificada, sigilos previstos em lei, informação pessoal e documento preparatório; acesso parcial e comunicação clara da decisão.",direct,C,3,0,3,0
 cgu-2026-transparencia-ouvidoria-2,cgu-transparencia-ouvidoria,complementary,2,Transparência e proteção de dados.,descendants_only,C,0,0,4,1
 cgu-2026-transparencia-ouvidoria-2-1,cgu-transparencia-ouvidoria,complementary,2.1,"Compatibilização entre acesso à informação e proteção de dados pessoais; finalidade, necessidade e salvaguardas.",direct,C,3,0,3,0
@@ -88,10 +88,10 @@ cgu-2026-transparencia-ouvidoria-4-2,cgu-transparencia-ouvidoria,complementary,4
 cgu-2026-transparencia-ouvidoria-4-2-1,cgu-transparencia-ouvidoria,complementary,4.2.1,Subnotificação.,empty,A,0,0,0,0
 cgu-2026-transparencia-ouvidoria-4-3,cgu-transparencia-ouvidoria,complementary,4.3,"Transparência ativa, dados abertos e Portal da Transparência como meios de acesso e controle; qualidade, atualização, cobertura e limites da informação.",direct,C,4,1,4,1
 cgu-2026-transparencia-ouvidoria-4-4,cgu-transparencia-ouvidoria,complementary,4.4,"Papel da CGU na orientação e no monitoramento da transparência e do acesso à informação, em nível de finalidade institucional.",empty,A,0,0,0,0
-cgu-2026-transparencia-ouvidoria-5,cgu-transparencia-ouvidoria,complementary,5,Integridade da informação e comunicação.,descendants_only,B,0,0,1,1
+cgu-2026-transparencia-ouvidoria-5,cgu-transparencia-ouvidoria,complementary,5,Integridade da informação e comunicação.,descendants_only,B,0,0,2,1
 cgu-2026-transparencia-ouvidoria-5-1,cgu-transparencia-ouvidoria,complementary,5.1,"Confiabilidade e contexto das fontes; distinção entre fato, alegação e interpretação.",direct,A,0,1,0,1
 cgu-2026-transparencia-ouvidoria-5-2,cgu-transparencia-ouvidoria,complementary,5.2,Desinformação e efeitos sobre políticas públicas; comunicação de incertezas e correção de erros.,direct,B,1,0,1,0
-cgu-2026-transparencia-ouvidoria-5-3,cgu-transparencia-ouvidoria,complementary,5.3,Liberdade de expressão e pluralismo.,empty,A,0,0,0,0
+cgu-2026-transparencia-ouvidoria-5-3,cgu-transparencia-ouvidoria,complementary,5.3,Liberdade de expressão e pluralismo.,direct,B,1,0,1,0
 cgu-2026-transparencia-ouvidoria-5-3-1,cgu-transparencia-ouvidoria,complementary,5.3.1,Distinção entre crítica legítima e desinformação.,empty,A,0,0,0,0
 cgu-2026-direito-controle-responsabilizacao-1,cgu-direito-controle-responsabilizacao,complementary,1,Decisão administrativa.,descendants_only,C,0,0,9,0
 cgu-2026-direito-controle-responsabilizacao-1-1,cgu-direito-controle-responsabilizacao,complementary,1.1,"Competência, finalidade, motivação, proporcionalidade e segurança jurídica; consideração das consequências e das condições de atuação.",direct,C,4,0,4,0
@@ -196,13 +196,13 @@ cgu-2026-politicas-investigacao-avaliacao-2,cgu-politicas-investigacao-avaliacao
 cgu-2026-politicas-investigacao-avaliacao-2-1,cgu-politicas-investigacao-avaliacao,specific,2.1,"Arranjos federativos e interorganizacionais; parcerias; capacidades, recursos e diferenças territoriais; discricionariedade na linha de frente e barreiras administrativas.",direct,C,4,1,4,1
 cgu-2026-politicas-investigacao-avaliacao-2-2,cgu-politicas-investigacao-avaliacao,specific,2.2,"Processos e projetos como instrumentos de entrega; responsabilidades, riscos e marcos de execução.",direct,A,0,1,0,1
 cgu-2026-politicas-investigacao-avaliacao-2-3,cgu-politicas-investigacao-avaliacao,specific,2.3,"Assessoramento, cooperação e adaptação de soluções com preservação de direitos e controles.",direct,B,1,0,1,0
-cgu-2026-politicas-investigacao-avaliacao-3,cgu-politicas-investigacao-avaliacao,specific,3,Monitoramento e desenhos de avaliação.,direct,C,1,0,18,3
+cgu-2026-politicas-investigacao-avaliacao-3,cgu-politicas-investigacao-avaliacao,specific,3,Monitoramento e desenhos de avaliação.,direct,C,1,0,18,6
 cgu-2026-politicas-investigacao-avaliacao-3-1,cgu-politicas-investigacao-avaliacao,specific,3.1,"Insumos, atividades, produtos, resultados e impactos; eficiência, eficácia, efetividade e equidade.",direct,C,7,1,7,1
 cgu-2026-politicas-investigacao-avaliacao-3-2,cgu-politicas-investigacao-avaliacao,specific,3.2,"Indicadores, fontes e periodicidade.",direct,C,4,0,4,0
-cgu-2026-politicas-investigacao-avaliacao-3-3,cgu-politicas-investigacao-avaliacao,specific,3.3,"Avaliações ex ante e ex post, de desenho, implementação, resultados, impacto e eficiência.",direct,C,7,2,7,2
-cgu-2026-politicas-investigacao-avaliacao-3-4,cgu-politicas-investigacao-avaliacao,specific,3.4,Pré-teste e estudo-piloto; critérios de julgamento e seleção do desenho adequado à pergunta.,empty,A,0,0,0,0
-cgu-2026-politicas-investigacao-avaliacao-4,cgu-politicas-investigacao-avaliacao,specific,4,Estratégias qualitativas e mistas.,descendants_only,C,0,0,3,0
-cgu-2026-politicas-investigacao-avaliacao-4-1,cgu-politicas-investigacao-avaliacao,specific,4.1,"Estudos de caso, entrevistas, grupos focais e observação; seleção de casos e participantes, perguntas e controle de indução.",direct,C,3,0,3,0
+cgu-2026-politicas-investigacao-avaliacao-3-3,cgu-politicas-investigacao-avaliacao,specific,3.3,"Avaliações ex ante e ex post, de desenho, implementação, resultados, impacto e eficiência.",direct,C,7,4,7,4
+cgu-2026-politicas-investigacao-avaliacao-3-4,cgu-politicas-investigacao-avaliacao,specific,3.4,Pré-teste e estudo-piloto; critérios de julgamento e seleção do desenho adequado à pergunta.,direct,A,0,1,0,1
+cgu-2026-politicas-investigacao-avaliacao-4,cgu-politicas-investigacao-avaliacao,specific,4,Estratégias qualitativas e mistas.,descendants_only,C,0,0,3,1
+cgu-2026-politicas-investigacao-avaliacao-4-1,cgu-politicas-investigacao-avaliacao,specific,4.1,"Estudos de caso, entrevistas, grupos focais e observação; seleção de casos e participantes, perguntas e controle de indução.",direct,C,3,1,3,1
 cgu-2026-politicas-investigacao-avaliacao-4-2,cgu-politicas-investigacao-avaliacao,specific,4.2,Análise de processos e hipóteses de mecanismo; triangulação e integração de evidências quantitativas e qualitativas; limites de generalização.,empty,A,0,0,0,0
 cgu-2026-politicas-investigacao-avaliacao-5,cgu-politicas-investigacao-avaliacao,specific,5,Identificação causal e análise econômica.,descendants_only,C,0,0,8,0
 cgu-2026-politicas-investigacao-avaliacao-5-1,cgu-politicas-investigacao-avaliacao,specific,5.1,"Contrafactual, seleção e confundimento; experimentos e quase experimentos; grupos de comparação e medidas anteriores à intervenção.",direct,C,4,0,4,0
@@ -226,10 +226,10 @@ cgu-2026-contratacoes-transferencias-4,cgu-contratacoes-transferencias,specific,
 cgu-2026-contratacoes-transferencias-4-1,cgu-contratacoes-transferencias,specific,4.1,Concentração e vínculos entre fornecedores; fracionamento e padrões atípicos; comprovação física e documental; cruzamentos de dados; limites de amostras dirigidas por risco.,direct,A,0,1,0,1
 cgu-2026-contratacoes-transferencias-5,cgu-contratacoes-transferencias,specific,5,Encaminhamentos e resultados.,descendants_only,B,0,0,1,0
 cgu-2026-contratacoes-transferencias-5-1,cgu-contratacoes-transferencias,specific,5.1,"Dano e critérios para sua demonstração; correção de processos, proteção de usuários e recuperação de recursos; interfaces com responsabilização e integridade; recomendações proporcionais.",direct,B,1,0,1,0
-cgu-2026-integridade-transparencia-responsabilizacao-1,cgu-integridade-transparencia-responsabilizacao,specific,1,Direito público aplicado às respostas de controle.,empty,A,0,0,0,0
-cgu-2026-integridade-transparencia-responsabilizacao-1-1,cgu-integridade-transparencia-responsabilizacao,specific,1.1,"Análise de vulnerabilidades, incentivos, conflitos e capacidades institucionais; articulação entre governança, riscos e controles.",empty,A,0,0,0,0
+cgu-2026-integridade-transparencia-responsabilizacao-1,cgu-integridade-transparencia-responsabilizacao,specific,1,Direito público aplicado às respostas de controle.,descendants_only,A,0,0,0,2
+cgu-2026-integridade-transparencia-responsabilizacao-1-1,cgu-integridade-transparencia-responsabilizacao,specific,1.1,"Análise de vulnerabilidades, incentivos, conflitos e capacidades institucionais; articulação entre governança, riscos e controles.",direct,A,0,1,0,1
 cgu-2026-integridade-transparencia-responsabilizacao-1-2,cgu-integridade-transparencia-responsabilizacao,specific,1.2,"Integração de manifestações de ouvidoria, dados de transparência, achados de auditoria e informações correcionais.",empty,A,0,0,0,0
-cgu-2026-integridade-transparencia-responsabilizacao-1-3,cgu-integridade-transparencia-responsabilizacao,specific,1.3,"Definição de prioridades e combinação de respostas preventivas, corretivas e de responsabilização; competências, motivação, proporcionalidade, consequências práticas e condições de atuação.",empty,A,0,0,0,0
+cgu-2026-integridade-transparencia-responsabilizacao-1-3,cgu-integridade-transparencia-responsabilizacao,specific,1.3,"Definição de prioridades e combinação de respostas preventivas, corretivas e de responsabilização; competências, motivação, proporcionalidade, consequências práticas e condições de atuação.",direct,A,0,1,0,1
 cgu-2026-integridade-transparencia-responsabilizacao-2,cgu-integridade-transparencia-responsabilizacao,specific,2,"Informação, participação e qualidade dos serviços.",direct,C,1,0,17,1
 cgu-2026-integridade-transparencia-responsabilizacao-2-1,cgu-integridade-transparencia-responsabilizacao,specific,2.1,Análise de pedidos e recursos de acesso à informação; aplicação articulada da LAI e da LGPD.,direct,C,8,0,8,0
 cgu-2026-integridade-transparencia-responsabilizacao-2-2,cgu-integridade-transparencia-responsabilizacao,specific,2.2,"Informação classificada, sigilos legais, informação pessoal e documentos preparatórios; acesso parcial, motivação e revisão de restrições.",direct,C,3,1,3,1

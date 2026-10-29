@@ -1,19 +1,19 @@
 # CGU — Auditoria: mapa do banco e lacunas
 
-Revisão: 2026-10-29. **320 questões distintas: 273 C/E e 47 MC.**
+Revisão: 2026-10-29. **329 questões distintas: 274 C/E e 55 MC.**
 
-Programa: 266 itens; 135 diretos, 64 apenas por descendentes e 67 subárvores vazias.
+Programa: 266 itens; 140 diretos, 66 apenas por descendentes e 60 subárvores vazias.
 
 Questões compartilhadas preservam texto, contexto, formato e gabarito de origem. MC permanecem no treino, fora da reserva C/E. Pais e filhos são contados separadamente: ter uma amostra não equivale a cobrir todo o item.
 
 ## Capacidade do simulado
 
-São necessários 170 IDs distintos. Há 273 C/E elegíveis e 170 alocáveis simultaneamente. **Mínimo quantitativo adicional: 0 C/E**, respeitando as compatibilidades por bloco. O simulado está disponível.
+São necessários 170 IDs distintos. Há 274 C/E elegíveis e 170 alocáveis simultaneamente. **Mínimo quantitativo adicional: 0 C/E**, respeitando as compatibilidades por bloco. O simulado está disponível.
 
 | Bloco | Exigidas | C/E elegíveis no filtro | Alocadas sem repetição | Déficit nesta alocação |
 | --- | ---: | ---: | ---: | ---: |
-| Conhecimentos básicos | 40 | 71 | 40 | 0 |
-| Conhecimentos complementares | 40 | 92 | 40 | 0 |
+| Conhecimentos básicos | 40 | 72 | 40 | 0 |
+| Conhecimentos complementares | 40 | 93 | 40 | 0 |
 | Conhecimentos específicos | 90 | 172 | 90 | 0 |
 
 Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos déficits não é única. Quantidade suficiente não garante variedade, cobertura ou dificuldade equivalente à prova.
@@ -35,7 +35,7 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | ESTADO, DEMOCRACIA, DIREITOS E CIÊNCIA POLÍTICA | 3 | Federalismo e capacidades estatais. | 0 | 0 | Só descendentes |
 | ESTADO, DEMOCRACIA, DIREITOS E CIÊNCIA POLÍTICA | 3.1 | Autonomia, coordenação e cooperação federativa; capacidades administrativas e políticas; burocracia, discricionariedade e implementação de direitos. | 6 | 0 | Direto |
 | ESTADO, DEMOCRACIA, DIREITOS E CIÊNCIA POLÍTICA | 4 | Ordem constitucional e direitos. | 0 | 0 | Só descendentes |
-| ESTADO, DEMOCRACIA, DIREITOS E CIÊNCIA POLÍTICA | 4.1 | Fundamentos e objetivos da República; direitos fundamentais, sociais e políticos; igualdade, devido processo e limites ao exercício do poder; princípios da administração pública. | 3 | 0 | Direto |
+| ESTADO, DEMOCRACIA, DIREITOS E CIÊNCIA POLÍTICA | 4.1 | Fundamentos e objetivos da República; direitos fundamentais, sociais e políticos; igualdade, devido processo e limites ao exercício do poder; princípios da administração pública. | 4 | 0 | Direto |
 | ESTADO, DEMOCRACIA, DIREITOS E CIÊNCIA POLÍTICA | 5 | Valor público e controle. | 0 | 0 | Só descendentes |
 | ESTADO, DEMOCRACIA, DIREITOS E CIÊNCIA POLÍTICA | 5.1 | Resultados socialmente relevantes; legitimidade, confiança e direitos; controle interno, externo e social em perspectiva institucional; tensões entre eficiência, equidade e garantias. | 3 | 0 | Direto |
 | ESTADO, DEMOCRACIA, DIREITOS E CIÊNCIA POLÍTICA | 6 | Corrupção como fenômeno político e social. | 0 | 0 | Só descendentes |
@@ -91,8 +91,8 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 2 | Riscos e controles essenciais. | 0 | 0 | Só descendentes |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 2.1 | Risco, causa, consequência e controle; prevenção e detecção; proporcionalidade dos controles, segregação de funções e risco residual. | 3 | 0 | Direto |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 2.2 | Identificação de vulnerabilidades e de controles compatíveis com situações usuais, a partir dos dados fornecidos. | 0 | 1 | Direto |
-| FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 3 | Integridade pública. | 0 | 0 | Sem questões |
-| FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 3.1 | Finalidades dos programas e medidas de integridade; compromisso da liderança, orientação ética, identificação de riscos, canais de relato e acompanhamento de ações. | 0 | 0 | Sem questões |
+| FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 3 | Integridade pública. | 0 | 0 | Só descendentes |
+| FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 3.1 | Finalidades dos programas e medidas de integridade; compromisso da liderança, orientação ética, identificação de riscos, canais de relato e acompanhamento de ações. | 0 | 1 | Direto |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 3.2 | Prevenção de favorecimento, assédio e discriminação; ambiente seguro e não retaliação. | 0 | 0 | Sem questões |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 4 | Integridade privada. | 0 | 0 | Sem questões |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 4.1 | Finalidades dos programas de integridade e sua relação com o poder público; compromisso da direção, registros confiáveis, controles, diligência proporcional sobre terceiros, canais de relato e remediação. | 0 | 0 | Sem questões |
@@ -102,7 +102,7 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 5.2 | Denúncias e resultados de controle como insumos de melhoria. | 0 | 0 | Sem questões |
 | FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA | 5.3 | Distinção entre baixa ocorrência e baixa detecção de problemas; leitura de evidências simples sobre funcionamento e resultados das medidas. | 0 | 0 | Sem questões |
 | FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 1 | Acesso à informação. | 1 | 0 | Direto |
-| FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 1.1 | Transparência ativa e passiva; finalidade de pedidos e recursos; publicidade como regra e motivação das restrições. | 4 | 1 | Direto |
+| FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 1.1 | Transparência ativa e passiva; finalidade de pedidos e recursos; publicidade como regra e motivação das restrições. | 4 | 2 | Direto |
 | FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 1.2 | Distinção conceitual entre informação classificada, sigilos previstos em lei, informação pessoal e documento preparatório; acesso parcial e comunicação clara da decisão. | 3 | 0 | Direto |
 | FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 2 | Transparência e proteção de dados. | 0 | 0 | Só descendentes |
 | FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 2.1 | Compatibilização entre acesso à informação e proteção de dados pessoais; finalidade, necessidade e salvaguardas. | 3 | 0 | Direto |
@@ -120,7 +120,7 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 5 | Integridade da informação e comunicação. | 0 | 0 | Só descendentes |
 | FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 5.1 | Confiabilidade e contexto das fontes; distinção entre fato, alegação e interpretação. | 0 | 1 | Direto |
 | FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 5.2 | Desinformação e efeitos sobre políticas públicas; comunicação de incertezas e correção de erros. | 1 | 0 | Direto |
-| FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 5.3 | Liberdade de expressão e pluralismo. | 0 | 0 | Sem questões |
+| FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 5.3 | Liberdade de expressão e pluralismo. | 1 | 0 | Direto |
 | FUNDAMENTOS DE TRANSPARÊNCIA, OUVIDORIA E PARTICIPAÇÃO SOCIAL | 5.3.1 | Distinção entre crítica legítima e desinformação. | 0 | 0 | Sem questões |
 | FUNDAMENTOS DE DIREITO PÚBLICO APLICADO, CONTROLE E RESPONSABILIZAÇÃO | 1 | Decisão administrativa. | 0 | 0 | Só descendentes |
 | FUNDAMENTOS DE DIREITO PÚBLICO APLICADO, CONTROLE E RESPONSABILIZAÇÃO | 1.1 | Competência, finalidade, motivação, proporcionalidade e segurança jurídica; consideração das consequências e das condições de atuação. | 4 | 0 | Direto |
@@ -228,10 +228,10 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 3 | Monitoramento e desenhos de avaliação. | 1 | 0 | Direto |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 3.1 | Insumos, atividades, produtos, resultados e impactos; eficiência, eficácia, efetividade e equidade. | 7 | 1 | Direto |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 3.2 | Indicadores, fontes e periodicidade. | 4 | 0 | Direto |
-| POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 3.3 | Avaliações ex ante e ex post, de desenho, implementação, resultados, impacto e eficiência. | 7 | 2 | Direto |
-| POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 3.4 | Pré-teste e estudo-piloto; critérios de julgamento e seleção do desenho adequado à pergunta. | 0 | 0 | Sem questões |
+| POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 3.3 | Avaliações ex ante e ex post, de desenho, implementação, resultados, impacto e eficiência. | 7 | 4 | Direto |
+| POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 3.4 | Pré-teste e estudo-piloto; critérios de julgamento e seleção do desenho adequado à pergunta. | 0 | 1 | Direto |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 4 | Estratégias qualitativas e mistas. | 0 | 0 | Só descendentes |
-| POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 4.1 | Estudos de caso, entrevistas, grupos focais e observação; seleção de casos e participantes, perguntas e controle de indução. | 3 | 0 | Direto |
+| POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 4.1 | Estudos de caso, entrevistas, grupos focais e observação; seleção de casos e participantes, perguntas e controle de indução. | 3 | 1 | Direto |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 4.2 | Análise de processos e hipóteses de mecanismo; triangulação e integração de evidências quantitativas e qualitativas; limites de generalização. | 0 | 0 | Sem questões |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 5 | Identificação causal e análise econômica. | 0 | 0 | Só descendentes |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 5.1 | Contrafactual, seleção e confundimento; experimentos e quase experimentos; grupos de comparação e medidas anteriores à intervenção. | 4 | 0 | Direto |
@@ -255,10 +255,10 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | AUDITORIA DE CONTRATAÇÕES, TRANSFERÊNCIAS E EXECUÇÃO DE RECURSOS | 4.1 | Concentração e vínculos entre fornecedores; fracionamento e padrões atípicos; comprovação física e documental; cruzamentos de dados; limites de amostras dirigidas por risco. | 0 | 1 | Direto |
 | AUDITORIA DE CONTRATAÇÕES, TRANSFERÊNCIAS E EXECUÇÃO DE RECURSOS | 5 | Encaminhamentos e resultados. | 0 | 0 | Só descendentes |
 | AUDITORIA DE CONTRATAÇÕES, TRANSFERÊNCIAS E EXECUÇÃO DE RECURSOS | 5.1 | Dano e critérios para sua demonstração; correção de processos, proteção de usuários e recuperação de recursos; interfaces com responsabilização e integridade; recomendações proporcionais. | 1 | 0 | Direto |
-| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 1 | Direito público aplicado às respostas de controle. | 0 | 0 | Sem questões |
-| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 1.1 | Análise de vulnerabilidades, incentivos, conflitos e capacidades institucionais; articulação entre governança, riscos e controles. | 0 | 0 | Sem questões |
+| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 1 | Direito público aplicado às respostas de controle. | 0 | 0 | Só descendentes |
+| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 1.1 | Análise de vulnerabilidades, incentivos, conflitos e capacidades institucionais; articulação entre governança, riscos e controles. | 0 | 1 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 1.2 | Integração de manifestações de ouvidoria, dados de transparência, achados de auditoria e informações correcionais. | 0 | 0 | Sem questões |
-| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 1.3 | Definição de prioridades e combinação de respostas preventivas, corretivas e de responsabilização; competências, motivação, proporcionalidade, consequências práticas e condições de atuação. | 0 | 0 | Sem questões |
+| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 1.3 | Definição de prioridades e combinação de respostas preventivas, corretivas e de responsabilização; competências, motivação, proporcionalidade, consequências práticas e condições de atuação. | 0 | 1 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 2 | Informação, participação e qualidade dos serviços. | 1 | 0 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 2.1 | Análise de pedidos e recursos de acesso à informação; aplicação articulada da LAI e da LGPD. | 8 | 0 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 2.2 | Informação classificada, sigilos legais, informação pessoal e documentos preparatórios; acesso parcial, motivação e revisão de restrições. | 3 | 1 | Direto |

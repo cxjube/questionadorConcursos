@@ -4,6 +4,12 @@ import re
 
 def answer_table(text: str, booklet: str) -> dict[int, str]:
     """Select the exact FGV booklet or labelled Cebraspe rows and reject ambiguity."""
+    if 'CONTROLADORIA E OUVIDORIA GERAL DO ESTADO DO CEARÁ (CGE/CE)' in text:
+        codes = re.findall(r'Matriz_441_CGECE\d{3}_Pag \d+', text)
+        if codes != [booklet] or 'GABARITOS OFICIAIS DEFINITIVOS' not in text:
+            raise ValueError('CGE/CE key requires its exact code and definitive header')
+        if booklet == 'Matriz_441_CGECE005_Pag 7' and 'Cargo 5: AUDITOR DE CONTROLE INTERNO – ÁREA DE FOMENTO AO CONTROLE SOCIAL' not in ' '.join(text.split()):
+            raise ValueError('CGE/CE code does not match the full original role')
     if 'Controladoria Geral da União' in text and 'CONCURSO PÚBLICO 2021' in text:
         # CGU repeats the same role/type heading in both sessions. Neither a
         # substring match nor the first matching heading identifies a key.

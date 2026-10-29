@@ -1,6 +1,6 @@
 # Roteiro de aceite com estudantes
 
-Objetivos confirmados: Câmara — Comunicação/Divulgação; ABDI — Comunicação e Marketing; CGU — Auditoria. Este é um roteiro para a rodada humana, ainda pendente, separado dos testes automatizados.
+Objetivos confirmados: Câmara — Comunicação/Divulgação; ABDI — Comunicação e Marketing; CGU — Auditoria. Este é um roteiro para a rodada humana, separado dos testes automatizados. Em 29/10/2026, o usuário determinou realizá-la apenas ao final de tudo pronto. A rodada permanece adiada; não solicitar nova rodada durante os lotes nem registrar aceite sem os resultados dos estudantes.
 
 Abra <https://cxjube.github.io/questionadorConcursos/>. Antes de testar importação ou apagar dados, exporte o histórico em **Histórico e desempenho → Backup e recuperação**. Para explorar sem alterar seu estudo habitual, use uma janela privada.
 

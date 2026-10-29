@@ -1,8 +1,8 @@
 # Mapa atual do banco de questões
 
-Última revisão: 2026-10-29; lote `completion-sixth`. São 409 questões e 419 vínculos da Câmara; **189/228 itens com vínculo direto**, 32 atendidos só por descendentes e 6 sem questões na subárvore (6 folhas). O título amplo Ciência Política 1 permanece separado.
+Última revisão: 2026-10-29; lote `continuation-seventh`. São 415 questões e 425 vínculos da Câmara; **189/228 itens com vínculo direto**, 32 atendidos só por descendentes e 6 sem questões na subárvore (6 folhas). O título amplo Ciência Política 1 permanece separado.
 
-C/E: P1 **176**, P2 **210**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
+C/E: P1 **177**, P2 **210**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
 
 Direto significa vínculo ao item exato; subárvore reúne o próprio item e seus descendentes, sem duplicar IDs. Vínculos de pais não são distribuídos aos filhos. Prioridades editoriais: A sem C/E, B com 1–2 C/E, C com 3 ou mais. Pais e filhos se sobrepõem; as contagens não são pesos oficiais.
 
@@ -15,10 +15,10 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | Língua Portuguesa | 17/20 | 40 | 1 | 0 |
 | Língua Inglesa | 3/3 | 19 | 0 | 0 |
 | Noções de Direito Administrativo e Administração Pública | 37/46 | 62 | 2 | 1 |
-| Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados | 11/14 | 21 | 1 | 1 |
+| Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados | 11/14 | 22 | 1 | 1 |
 | Tecnologia da Informação e Dados | 17/20 | 34 | 0 | 0 |
-| Comunicação Social | 37/45 | 73 | 7 | 3 |
-| Divulgação Institucional | 33/40 | 66 | 2 | 1 |
+| Comunicação Social | 37/45 | 73 | 9 | 3 |
+| Divulgação Institucional | 33/40 | 66 | 5 | 1 |
 | Processo Legislativo e Regimento Interno | 22/27 | 32 | 9 | 0 |
 | Ciência Política | 12/13 | 40 | 2 | 0 |
 
@@ -121,7 +121,7 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | Item | Conteúdo oficial | C/E direto | MC direto | C/E subárvore | MC subárvore | Situação | Prioridade |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
 | 1 | Constituição Federal de 1988: conceito, contexto histórico, características, estrutura do texto. | 1 | 0 | 1 | 0 | Direto | B |
-| 2 | Princípios fundamentais. Direitos e garantias fundamentais: direitos e deveres individuais e coletivos, direitos sociais, nacionalidade, direitos políticos e partidos políticos. | 2 | 0 | 2 | 0 | Direto | B |
+| 2 | Princípios fundamentais. Direitos e garantias fundamentais: direitos e deveres individuais e coletivos, direitos sociais, nacionalidade, direitos políticos e partidos políticos. | 3 | 0 | 3 | 0 | Direto | C |
 | 3 | Organização do Estado: organização político-administrativa, União, estados, municípios, Distrito Federal e territórios. Intervenção Federal. | 5 | 0 | 5 | 0 | Direto | C |
 | 4 | Administração pública: disposições gerais, servidores públicos civis e militares. | 4 | 0 | 4 | 0 | Direto | C |
 | 5 | Poder Legislativo: o Congresso Nacional e suas Casas (atribuições, competências, reuniões e comissões). | 2 | 0 | 2 | 0 | Direto | B |
@@ -164,8 +164,8 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 
 | Item | Conteúdo oficial | C/E direto | MC direto | C/E subárvore | MC subárvore | Situação | Prioridade |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 1 | Teorias da Comunicação. | 0 | 1 | 9 | 2 | Direto | C |
-| 1.1 | Escolas, paradigmas, correntes, modelos, principais pensadores. | 2 | 0 | 2 | 0 | Direto | B |
+| 1 | Teorias da Comunicação. | 0 | 1 | 9 | 3 | Direto | C |
+| 1.1 | Escolas, paradigmas, correntes, modelos, principais pensadores. | 2 | 1 | 2 | 1 | Direto | B |
 | 1.2 | Comunicação e opinião pública. | 2 | 1 | 2 | 1 | Direto | B |
 | 1.3 | Midiatização e plataformização. | 2 | 0 | 2 | 0 | Direto | B |
 | 1.4 | Desinformação e integridade da informação. | 3 | 0 | 3 | 0 | Direto | C |
@@ -195,7 +195,7 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 5.2 | Postagens e colaborações. | 2 | 0 | 2 | 0 | Direto | B |
 | 5.3 | Características das principais plataformas de mídias sociais: diferenças de públicos, linguagem, formatos (4:5, 3:4, 9:16) e conteúdos (cards, carrossel, vídeos, stories, lives). | 4 | 0 | 4 | 0 | Direto | C |
 | 5.4 | Elementos fundamentais de publicações em redes sociais: capa, legenda, marcação, palavras-chave, call to action. | 0 | 0 | 0 | 0 | Sem questões | A |
-| 6 | Transparência pública. | 2 | 0 | 2 | 0 | Direto | B |
+| 6 | Transparência pública. | 2 | 1 | 2 | 1 | Direto | B |
 | 7 | Comunicação Pública. | 0 | 0 | 6 | 2 | Só descendentes | C |
 | 7.1 | Conceitos, fundamentos e especificidades da comunicação pública. | 5 | 2 | 5 | 2 | Direto | C |
 | 7.2 | Comunicação pública versus comunicação governamental e comunicação político-partidária. | 1 | 0 | 1 | 0 | Direto | B |
@@ -230,10 +230,10 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 2.5 | Segmentação. | 1 | 0 | 1 | 0 | Direto | B |
 | 2.6 | Marketing digital. | 1 | 0 | 1 | 0 | Direto | B |
 | 2.7 | Comportamento do consumidor. | 2 | 0 | 2 | 0 | Direto | B |
-| 3 | Pesquisa Aplicada à Comunicação. | 0 | 0 | 13 | 0 | Só descendentes | C |
-| 3.1 | Pesquisas qualitativas e quantitativas. | 4 | 0 | 4 | 0 | Direto | C |
+| 3 | Pesquisa Aplicada à Comunicação. | 0 | 0 | 13 | 3 | Só descendentes | C |
+| 3.1 | Pesquisas qualitativas e quantitativas. | 4 | 2 | 4 | 2 | Direto | C |
 | 3.2 | Pesquisa de mercado. | 3 | 0 | 3 | 0 | Direto | C |
-| 3.3 | Pesquisa de opinião pública. | 3 | 0 | 3 | 0 | Direto | C |
+| 3.3 | Pesquisa de opinião pública. | 3 | 1 | 3 | 1 | Direto | C |
 | 3.4 | Pesquisa de imagem. | 1 | 0 | 1 | 0 | Direto | B |
 | 3.5 | Pesquisa de mídia. | 2 | 0 | 2 | 0 | Direto | B |
 | 3.6 | Métricas de avaliação na publicidade digital. | 1 | 0 | 1 | 0 | Direto | B |

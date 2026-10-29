@@ -1,0 +1,825 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="apple-itunes-app" content="app-id=1049343067" />
+    <meta name="google-play-app" content="app-id=br.leg.camara.infolegmovel" />
+    <script>
+      (function () {
+        let initialized = false;
+        let loading = false;
+
+        function ensureBody(callback) {
+          if (document.body) {
+            callback();
+          } else {
+            setTimeout(() => ensureBody(callback), 50);
+          }
+        }
+
+        function loadScript() {
+          if (loading || window.VLibras) return;
+          loading = true;
+
+          ensureBody(() => {
+            const s = document.createElement("script");
+            s.src = "https://vlibras.gov.br/app/vlibras-plugin.js";
+            s.onload = initVLibras;
+            document.body.appendChild(s);
+          });
+        }
+
+        function initVLibras() {
+          if (initialized || !window.VLibras) return;
+
+          ensureBody(() => {
+            if (!document.querySelector("[vw]")) {
+              const container = document.createElement("div");
+              container.innerHTML = `
+              <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                  <div class="vw-plugin-top-wrapper"></div>
+                </div>
+              </div>
+            `;
+              document.body.appendChild(container);
+            }
+
+            (new window.VLibras.Widget(
+              "https://vlibras.gov.br/app",
+              "https://vlibras.gov.br/config/camara.json",
+            ),
+              $("body").append(
+                '<aside><div vw class="enabled"><div vw-access-button class="active"></div><div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div></div></aside>',
+              ));
+            initialized = true;
+
+            injectCSS();
+            if (!window.location.pathname.includes("/comissoes")) {
+              bindButton();
+            }
+          });
+        }
+
+        function injectCSS() {
+          if (document.getElementById("vlibras-style")) return;
+          const style = document.createElement("style");
+          style.id = "vlibras-style";
+          style.innerHTML = `
+          [vw-access-button] { display: none !important; }
+          div[vw] { z-index: 999999 !important; }
+        `;
+          document.head.appendChild(style);
+        }
+
+        function bindButton() {
+          const btn = document.getElementById("meu-botao-vlibras");
+          if (!btn) {
+            setTimeout(bindButton, 300);
+            return;
+          }
+
+          btn.onclick = function (e) {
+            e.preventDefault();
+            const original = document.querySelector("[vw-access-button]");
+            if (original) original.click();
+          };
+        }
+
+        // OBSERVA MUTA&#199;&#213;ES DO DOM (ESSENCIAL NO PLONE)
+        const observer = new MutationObserver(() => {
+          if (!document.querySelector("[vw]") && !initialized) {
+            loadScript();
+          }
+        });
+
+        observer.observe(document.documentElement, {
+          childList: true,
+          subtree: true,
+        });
+
+        window.addEventListener("load", loadScript);
+      })();
+    </script>
+
+    <title>Portal da Câmara dos Deputados</title>
+  <style type="text/css">@import url(https://www2.camara.leg.br/portal_css/camara_leg_viradadigital/member-cachekey-46bb2e0fc9968a457e63f356c0ff3900.css);</style><style type="text/css">@import url(https://www2.camara.leg.br/portal_css/camara_leg_viradadigital/portlets-cachekey-8a45f49b338591ae0c9c8a91f261dc78.css);</style><style type="text/css" media="screen">@import url(https://www2.camara.leg.br/portal_css/camara_leg_viradadigital/deprecated-cachekey-32595b622b36f2eee9478f07796d4f67.css);</style><style type="text/css" media="screen">@import url(https://www2.camara.leg.br/portal_css/camara_leg_viradadigital/resourceplone.app.discussion.stylesheetsdiscussion-cachekey-5b23f388acd88bdb65020b51a5a278fb.css);</style><style type="text/css">@import url(https://www2.camara.leg.br/portal_css/camara_leg_viradadigital/elements-cachekey-57e40a70bd8192a6f63782abff5c2748.css);</style><style type="text/css" media="all">@import url(https://www2.camara.leg.br/portal_css/camara_leg_viradadigital/ploneCustom-cachekey-7fb44e17264e070fccf4e31d9f2ada1c.css);</style><link rel="stylesheet" type="text/css" href="https://www2.camara.leg.br/portal_css/camara_leg_viradadigital/themecamara.leg.viradadigitalcsslibsbootstrap-datetimepicker.min-cachekey-ab2d257c1b49d2d194633e2ecb4564a2.css" /><link rel="stylesheet" type="text/css" href="https://www.camara.leg.br/tema/global/camara-custom.css" /><link rel="stylesheet" type="text/css" href="https://www2.camara.leg.br/portal_css/camara_leg_viradadigital/++theme++camara.leg.viradadigital/css/all.min.css" /><link rel="apple-touch-icon" sizes="180x180" href="https://www.camara.leg.br/tema/apple-touch-icon.png" /><link rel="icon" type="image/png" sizes="32x32" href="https://www.camara.leg.br/tema/favicon-32x32.png" /><link rel="icon" type="image/png" sizes="16x16" href="https://www.camara.leg.br/tema/favicon-16x16.png" /><link rel="manifest" href="https://www.camara.leg.br/tema/site.webmanifest" /><link rel="mask-icon" href="https://www.camara.leg.br/tema/safari-pinned-tab.svg" color="#009e49" /><link rel="search" href="http://www2.camara.leg.br/busca-geral" title="Buscar neste site" /><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/resourceplone.app.jquery-cachekey-3fa72abea58e1799bd3b0bc237335d45.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/styleswitcher-cachekey-9178d2d1bc80488214ac8d40a46c7bdf.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/impressaoIframes-cachekey-7de901cf3c737563606c12fa53b7a321.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/GoogleAnalyticsTracker.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/kss-bbb-cachekey-df10a37e7aa4176c3b122c2e3b0ee128.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/inline_validation-cachekey-35d4d75a94cdb17b403a636871dd92cb.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitaljsbootstrap.min-cachekey-c15df71e2ec454087fe4c4eab0ce9d3e.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitaljslibsmoment.min-cachekey-860514b918ea422f7e82fa48125015c4.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitaljslibsmoment-pt-br-cachekey-0aafba4fb000126f1ed0f6701186de00.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitaljslibsbootstrap-datetimepicker.min-cachekey-fac2884b384d9c99236b26d0746facc4.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitaljslibsjquery.maskedinput.min-cachekey-e2f8b2523378532cc132594675b6dc6f.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitaljsacoes-tema-cachekey-a0084cf69f1785571a18f6a58a4986ac.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitaljscorrecoes-bootstrap-tema-cachekey-bd4c19550531506aa59d8b0aa7e8d6c5.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitalviradadigitalvendorjquery.mmenu.all-cachekey-f0e297313e30d6b2b2c2588ef23b5ef2.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitalviradadigitaljsvd_correcoes-cachekey-52a3614631388ad9e07bf35264bc73d5.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitalviradadigitaljsmmenu-correcoes-cachekey-8e45cc1e451978774afbfe2f5f1e95cf.js"></script><script type="text/javascript" src="https://www2.camara.leg.br/portal_javascripts/camara_leg_viradadigital/themecamara.leg.viradadigitalviradadigitaljsselecao-idioma-cachekey-998dbb210e1353a5d7f94011740ee16c.js"></script><meta name="msapplication-TileColor" content="#00a300" /><meta name="msapplication-TileImage" content="https://www.camara.leg.br/tema/mstile-144x144.png" /><meta name="theme-color" content="#009e49" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><link rel="canonical" href="" /><script type="text/javascript">
+          $("link[rel='canonical']").attr("href", window.location.href);
+        </script>
+
+
+
+
+
+
+
+<title>DECRETO Nº 9.830, DE 10 DE JUNHO DE 2019 - Publicação Original - Portal Câmara dos Deputados</title>
+
+<meta name="description" content="Publicação de Decreto: Regulamenta o disposto nos art. 20 ao art. 30 do Decreto-Lei nº 4.657, de 4 de setembro de 1942, que institui a Lei de Introdução às normas do Direito brasileiro. " />
+
+<!-- Coloque aqui sua referência ao CSS local -->
+<link rel="stylesheet" type="text/css" href="../../../_css/legislacao-v1.css" />
+
+<!-- Coloque aqui seu javascript -->
+<!-- script type="text/javascript" src="caminho-e-nome-do-arquivo.js"></script -->
+
+</head>
+<body>
+    <header class="l-cabecalho-portal" role="banner" id="portal-header">
+        <ul aria-label="Acesso direto" class="acesso-direto">
+          <!-- Links para saltar diretamente para &#225;reas importantes da p&#225;gina accesskey 2 = conte&#250;do e 3 = navega&#231;&#227;o -->
+          <li>
+            <a class="acesso-direto__link" href="#main-content" accesskey="2">Ir ao conteúdo</a>
+          </li>
+          <li>
+            <a class="acesso-direto__link" href="#main-nav" accesskey="3">Ir à navegação principal</a>
+          </li>
+        </ul>
+
+        <!--[if lte IE 9]>
+          <p class="browserupgrade">
+            Voc&#234; est&#225; usando um navegador <strong>defasado</strong>. Por favor,
+            <a href="https://browsehappy.com/">atualize seu navegador</a> para
+            melhorar sua experi&#234;ncia e sua seguran&#231;a.
+          </p>
+        <![endif]-->
+
+        <div class="nav-top">
+          <div class="container nav-top--container">
+            <a href="https://www2.camara.leg.br" class="logo-camara" accesskey="1"><span class="sr-only">Página inicial</span></a>
+
+            <div class="nav-top__palacio"></div>
+
+            <div class="nav-top__menu-superior">
+              <ul aria-label="Ferramentas de apoio" class="links-apoio">
+                <li class="links-apoio__item links-apoio__item--vlibras">
+                  <a id="meu-botao-vlibras" href="javascript:void(0);">
+                    <span>
+                      <img src="https://www.camara.leg.br/tema/assets/images/ico-vlibras-branco.png" alt="Ativar VLibras" width="28px" height="30px" />
+                    </span>
+                  </a>
+                </li>
+                <li class="links-apoio__item links-apoio__item--acessibilidade">
+                  <a href="https://www2.camara.leg.br/acessibilidade/recursos-de-acessibilidade" accesskey="0">Acessibilidade</a>
+                </li>
+                <li class="links-apoio__item links-apoio__item--faleconosco">
+                  <a href="https://www.camara.leg.br/fale-conosco" accesskey="9">Fale Conosco</a>
+                </li>
+              </ul>
+
+              <ul class="orgaos-parceiros" aria-label="Órgãos parceiros">
+                <li class="orgaos-parceiros__item orgaos-parceiros__item--congresso">
+                  <a href="http://www.congressonacional.leg.br"><span>Congresso</span></a>
+                </li>
+                <li class="orgaos-parceiros__item orgaos-parceiros__item--senado">
+                  <a href="http://www.senado.leg.br"><span>Senado</span></a>
+                </li>
+              </ul>
+
+              <div class="lista-idiomas">
+                <button class="botao-idioma-topo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="4,0">
+                  <span class="botao-idioma-topo__sigla">PT</span>
+                </button>
+
+                <ul class="dropdown-menu dropdown-menu-right l-lista-idiomas" aria-label="Idioma">
+                  <li class="l-lista-idiomas__item">
+                    <a href="https://www2.camara.leg.br/english" class="idioma-topo">
+                      <span class="idioma-topo__bandeira idioma-topo__bandeira--ingles" aria-hidden="true"></span>
+                      <span class="idioma-topo__nome">English</span>
+                      <span class="idioma-topo__sigla">EN</span>
+                    </a>
+                  </li>
+                  <li class="l-lista-idiomas__item">
+                    <a href="https://www2.camara.leg.br/espanol" class="idioma-topo">
+                      <span class="idioma-topo__bandeira idioma-topo__bandeira--espanhol" aria-hidden="true"></span>
+                      <span class="idioma-topo__nome">Español</span>
+                      <span class="idioma-topo__sigla">ES</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="home-camara-menu">
+    <nav class="menu-global navbar navbar-expand-lg" role="navigation" aria-label="Navegação principal" id="menuglobal">
+      <div class="container menu-global--container">
+      
+
+        <a href="https://www.camara.leg.br" class="logo-camara" accesskey="1">
+          <span class="sr-only">Página inicial</span>
+        </a>
+
+      
+        
+        <!-- icone menu -->
+        <button class="menu-global--btnmenu navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarportal" aria-controls="navbarportal" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="menu-global--icon"></span>
+        </button>
+
+        <!-- icone busca -->
+        <button class="menu-global--btnsearch" type="button" data-toggle="collapse" data-target="#buscaportal" aria-controls="buscaportal" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fa fa-search"></span>
+        </button>
+
+        <div class="navbar-collapse hidden-sm hidden-md hidden-xs" id="navbarportal">
+          <ul title="Navegação Principal" id="main-nav" class="navbar-nav">
+            
+              
+                <li class="nav-item dropdown">
+                  <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="menu-global__item-temas nav-link dropdown-toggle" id="temas">Assuntos</a>
+
+                  
+                    <ul class="dropdown-menu" aria-labelledby="temas">
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/agropecuaria">Agropecuária</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/cidades-e-transportes">Cidades e transportes</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/ciencia-tecnologia-e-comunicacoes">Ciência, tecnologia e comunicações</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/consumidor">Consumidor</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/direitos-humanos">Direitos humanos</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/economia">Economia</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/educacao-cultura-e-esportes">Educação, cultura e esportes</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/meio-ambiente-e-energia">Meio ambiente e energia</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/politica-e-administracao-publica">Política e administração pública</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/relacoes-exteriores">Relações exteriores</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/saude">Saúde</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/seguranca">Segurança</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assuntos/trabalho-previdencia-e-assistencia">Trabalho, previdência e assistência</a>
+                      </li>
+                    </ul>
+                  
+                </li>
+              
+            
+            
+              
+                <li class="nav-item dropdown">
+                  <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="menu-global__item-institucional nav-link dropdown-toggle" id="institucional">Institucional</a>
+
+                  
+                    <ul class="dropdown-menu" aria-labelledby="institucional">
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/agenda">Agenda</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www2.camara.leg.br/transparencia/servicos-ao-cidadao">Serviços</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www2.camara.leg.br/a-camara/estruturaadm/mesa/presidencia">Presidência</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/biblioteca-e-publicacoes/">Biblioteca e publicações</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/escola-da-camara/">Escola da Câmara</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/papel-e-estrutura/">Papel e estrutura</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/historia-e-arquivo/">História e arquivo</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www2.camara.leg.br/a-camara/visiteacamara">Visite</a>
+                      </li>
+                    </ul>
+                  
+                </li>
+              
+            
+            
+              
+                <li class="nav-item dropdown">
+                  <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="menu-global__item-deputados nav-link dropdown-toggle" id="deputados">Deputados</a>
+
+                  
+                    <ul class="dropdown-menu" aria-labelledby="deputados">
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/deputados/quem-sao">Quem são</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/deputados/liderancas-e-bancadas-partidarias">Lideranças e bancadas</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www2.camara.leg.br/deputados/frentes-e-grupos-parlamentares">Frentes e grupos parlamentares</a>
+                      </li>
+                    </ul>
+                  
+                </li>
+              
+            
+            
+              
+                <li class="nav-item dropdown">
+                  <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="menu-global__item-atvlegislativa nav-link dropdown-toggle" id="atvlegislativa">Atividade Legislativa</a>
+
+                  
+                    <ul class="dropdown-menu" aria-labelledby="atvlegislativa">
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/busca-portal/proposicoes/pesquisa-simplificada">Propostas legislativas</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/plenario">Plenário</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/comissoes">Comissões</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/sessoesereunioes">Sessões e reuniões</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www2.camara.leg.br/atividade-legislativa/estudos-e-notas-tecnicas">Estudos legislativos</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www2.camara.leg.br/atividade-legislativa/orcamento-da-uniao">Orçamento da União</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/legislacao">Legislação</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/entenda-o-processo-legislativo/">Entenda o processo legislativo</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www2.camara.leg.br/atividade-legislativa/participe">Participe</a>
+                      </li>
+                    </ul>
+                  
+                </li>
+              
+            
+            
+              
+                <li class="nav-item dropdown">
+                  <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="menu-global__item-comunicacao nav-link dropdown-toggle" id="comunicacao">Comunicação</a>
+
+                  
+                    <ul class="dropdown-menu" aria-labelledby="comunicacao">
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/noticias">Agência Câmara de Notícias</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/radio">Rádio Câmara</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/tv">TV Câmara</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/banco-imagens">Banco de Imagens</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/assessoria-de-imprensa">Assessoria de Imprensa</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/comprove">Comprove uma notícia</a>
+                      </li>
+                    </ul>
+                  
+                </li>
+              
+            
+            
+              
+                <li class="nav-item dropdown">
+                  <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="menu-global__item-transprestcontas nav-link dropdown-toggle" id="transprestcontas">Transparência e prestação de contas</a>
+
+                  
+                    <ul class="dropdown-menu" aria-labelledby="transprestcontas">
+                      <li class="dropdown-item">
+                        <a href="https://www.camara.leg.br/transparencia/">Transparência</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://www2.camara.leg.br/transparencia/prestacao-de-contas">Prestação de contas</a>
+                      </li>
+                      <li class="dropdown-item">
+                        <a href="https://dadosabertos.camara.leg.br/">Dados abertos</a>
+                      </li>
+                    </ul>
+                  
+                </li>
+              
+            
+          </ul>
+          <div class="outras-opcoes-menu-usuario hidden-md hidden-lg">
+            <ul aria-label="Ferramentas de apoio" class="links-apoio links-apoio--menu-mobile">
+              <li class="links-apoio__item links-apoio__item--acessibilidade">
+                <a href="https://www2.camara.leg.br/acessibilidade/recursos-de-acessibilidade" accesskey="0">Acessibilidade</a>
+              </li>
+              <li class="links-apoio__item links-apoio__item--faleconosco">
+                <a href="https://www.camara.leg.br/fale-conosco" accesskey="9">Fale Conosco</a>
+              </li>
+            </ul>
+          </div>
+          <div class="lista-idiomas hidden-md hidden-lg">
+            <button id="botao-idioma-topo" class="botao-idioma-topo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="4,0">
+                <span class="botao-idioma-topo__sigla">PT</span>
+            </button>
+        
+            <ul class="dropdown-menu-right l-lista-idiomas " aria-label="Idioma">
+                <li class="l-lista-idiomas__item">
+                    <a href="https://www2.camara.leg.br/english" class="idioma-topo">
+                        <span class="idioma-topo__bandeira idioma-topo__bandeira--ingles" aria-hidden="true"></span>
+                        <span class="idioma-topo__nome">English</span>
+                        <span class="idioma-topo__sigla">EN</span>
+                    </a>
+                </li>
+                <li class="l-lista-idiomas__item">
+                    <a href="https://www2.camara.leg.br/espanol" class="idioma-topo">
+                        <span class="idioma-topo__bandeira idioma-topo__bandeira--espanhol" aria-hidden="true"></span>
+                        <span class="idioma-topo__nome">Español</span>
+                        <span class="idioma-topo__sigla">ES</span>            
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
+
+
+        <div class="collapse box-search" id="buscaportal">
+          <form role="search" accesskey="4" class="box-search__busca form-inline" action="https://www.camara.leg.br/busca-geral">
+            <label for="termo" class="sr-only box-search__label">Pesquise no Portal da Câmara</label>
+            <input class="form-control box-search__campo" type="search" name="termo" id="termo" placeholder="Buscar" aria-label="Search" />
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+      </header>
+
+    <div class="breadcrumbs-marcacao">
+        <div class="container">
+            <nav aria-label="Onde estou">
+                <ol class="breadcrumb portal-breadcrumbs">
+                    <li class="breadcrumb-item"><a href="//www.camara.leg.br">Início</a></li>
+                    
+	<li class='breadcrumb-item'><a href='http://www2.camara.gov.br/atividade-legislativa'>Atividade Legislativa</a></li>
+    <li class='breadcrumb-item'><a href='http://www2.camara.gov.br/atividade-legislativa/legislacao'>Legislação</a></li>
+
+                    <li class="breadcrumb-item active" aria-current="page">Esta página</li>
+                </ol>
+            </nav>
+        </div>
+        
+        <div class="container-fluid p-0">
+            <div id="menu-secoes-internas" class="menu-secoes-internass">
+                <div id="portal-mainsection">
+                    <div class="l-identificacao-landing">
+                        <div class="container">
+                            <h1 class="titulo-landing">Legislação</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="marcacao-conteudo-portal" class="conteudo-portal container nopadding-right nopadding-left">
+        <div class="coluna-centro col-md-12">
+
+
+<div id="portal-column-content">
+	<div id="portal-content-wrapper">
+		<div class="documentContent">
+			<div id="content">
+	
+				<h2 class="documentFirstHeading">Legislação Informatizada - DECRETO Nº 9.830, DE 10 DE JUNHO DE 2019 - Publicação Original</h2>
+				<div class="vejaTambem">
+			    	<p>Veja também:</p>
+			    	<ul>
+                                        <li>
+
+
+                                                <a href="decreto-9830-10-junho-2019-788287-normaatualizada-pe.html" target="_blank">Texto Atualizado <span class="descricaoArquivo">(HTML)</span></a>&nbsp;
+                                                (<a href="decreto-9830-10-junho-2019-788287-normaatualizada-pe.doc">formato doc</a>)
+                                                &nbsp;
+                                                    (<a href="decreto-9830-10-junho-2019-788287-normaatualizada-pe.pdf">formato pdf</a>)
+
+                                            
+                                        </li>
+                                    <li>
+                                        <a href="decreto-9830-10-junho-2019-788287-norma-pe.html">Dados da Norma</a>
+                                    </li>
+                                </ul>
+			    </div>	
+                                
+
+					<h1>DECRETO Nº 9.830, DE 10 DE JUNHO DE 2019</h1>
+				
+				<div class="textoNorma">
+				
+						<p class="ementa">
+							Regulamenta o disposto nos art. 20 ao art. 30 do Decreto-Lei nº 4.657, de 4 de setembro de 1942, que institui a Lei de Introdução às normas do Direito brasileiro. 
+						</p>
+				
+						<div class="texto">
+							<P>&nbsp;&nbsp;&nbsp;&nbsp; <STRONG>O PRESIDENTE DA REPÚBLICA</STRONG>, no uso das atribuições que lhe confere o art. 84, <I>caput</I>, incisos IV e VI, alínea "<EM>a</EM>", da Constituição, e tendo em vista o disposto nos art. 20 ao art. 30 do Decreto-Lei nº 4.657, de 4 de setembro de 1942, </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp; <STRONG>DECRETA:</STRONG> <BR><BR></P>
+<CENTER>CAPÍTULO I<BR>DISPOSIÇÕES PRELIMINARES <BR></CENTER>
+<DIV align=left><STRONG>Objeto&nbsp;<BR></STRONG><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 1º&nbsp;Este Decreto regulamenta o disposto nos art. 20 ao art. 30 do Decreto- Lei nº 4.657, de 4 de setembro de 1942, que institui a Lei de Introdução às normas do Direito brasileiro. <BR><BR></DIV>
+<CENTER>CAPÍTULO II <BR>DA DECISÃO<STRONG> </STRONG></CENTER>
+<DIV align=left><B>&nbsp;</DIV></B>
+<DIV align=left><B>Motivação e decisão&nbsp;</B><BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 2º&nbsp;A decisão será motivada com a contextualização dos fatos, quando cabível, e com a indicação dos fundamentos de mérito e jurídicos. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 1º A motivação da decisão conterá os seus fundamentos e apresentará a congruência entre as normas e os fatos que a embasaram, de forma argumentativa. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 2º A motivação indicará as normas, a interpretação jurídica, a jurisprudência ou a doutrina que a embasaram. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 3º A motivação poderá ser constituída por declaração de concordância com o conteúdo de notas técnicas, pareceres, informações, decisões ou propostas que precederam a decisão. </DIV>
+<P><STRONG>Motivação e decisão baseadas em valores jurídicos abstratos</STRONG> </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 3º A decisão que se basear exclusivamente em valores jurídicos abstratos observará o disposto no art. 2º e as consequências práticas da decisão. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 1º Para fins do disposto neste Decreto, consideram-se valores jurídicos abstratos aqueles previstos em normas jurídicas com alto grau de indeterminação e abstração. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 2º Na indicação das consequências práticas da decisão, o decisor apresentará apenas aquelas consequências práticas que, no exercício diligente de sua atuação, consiga vislumbrar diante dos fatos e fundamentos de mérito e jurídicos. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 3º A motivação demonstrará a necessidade e a adequação da medida imposta, inclusive consideradas as possíveis alternativas e observados os critérios de adequação, proporcionalidade e de razoabilidade. </P>
+<P><STRONG>Motivação e decisão na invalidação</STRONG> </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 4º A decisão que decretar invalidação de atos, contratos, ajustes, processos ou normas administrativos observará o disposto no art. 2º e indicará, de modo expresso, as suas consequências jurídicas e administrativas. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 1º A consideração das consequências jurídicas e administrativas é limitada aos fatos e fundamentos de mérito e jurídicos que se espera do decisor no exercício diligente de sua atuação. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 2º A motivação demonstrará a necessidade e a adequação da medida imposta, consideradas as possíveis alternativas e observados os critérios de proporcionalidade e de razoabilidade. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 3º Quando cabível, a decisão a que se refere o <I>caput</I> indicará, na modulação de seus efeitos, as condições para que a regularização ocorra de forma proporcional e equânime e sem prejuízo aos interesses gerais. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 4º Na declaração de invalidade de atos, contratos, ajustes, processos ou normas administrativos, o decisor poderá, consideradas as consequências jurídicas e administrativas da decisão para a administração pública e para o administrado: <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I - restringir os efeitos da declaração; ou <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II - decidir que sua eficácia se iniciará em momento posteriormente definido. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 5º A modulação dos efeitos da decisão buscará a mitigação dos ônus ou das perdas dos administrados ou da administração pública que sejam anormais ou excessivos em função das peculiaridades do caso. </P>
+<P><STRONG>Revisão quanto à validade por mudança de orientação geral</STRONG> </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 5º A decisão que determinar a revisão quanto à validade de atos, contratos, ajustes, processos ou normas administrativos cuja produção de efeitos esteja em curso ou que tenha sido concluída levará em consideração as orientações gerais da época. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 1º É vedado declarar inválida situação plenamente constituída devido à mudança posterior de orientação geral. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 2º O disposto no § 1º não exclui a possibilidade de suspensão de efeitos futuros de relação em curso. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 3º Para fins do disposto neste artigo, consideram-se orientações gerais as interpretações e as especificações contidas em atos públicos de caráter geral ou em jurisprudência judicial ou administrativa majoritária e as adotadas por prática administrativa reiterada e de amplo conhecimento público. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 4º A decisão a que se refere o <I>caput</I> será motivada na forma do disposto nos art. 2º, art. 3º ou art. 4º. </P>
+<P><STRONG>Motivação e decisão na nova interpretação de norma de conteúdo indeterminado</STRONG> </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 6º A decisão administrativa que estabelecer interpretação ou orientação nova sobre norma de conteúdo indeterminado e impuser novo dever ou novo condicionamento de direito, preverá regime de transição, quando indispensável para que o novo dever ou o novo condicionamento de direito seja cumprido de modo proporcional, equânime e eficiente e sem prejuízo aos interesses gerais. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 1º A instituição do regime de transição será motivada na forma do disposto nos art. 2º, art. 3º ou art. 4º. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 2º A motivação considerará as condições e o tempo necessário para o cumprimento proporcional, equânime e eficiente do novo dever ou do novo condicionamento de direito e os eventuais prejuízos aos interesses gerais. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 3º Considera-se nova interpretação ou nova orientação aquela que altera o entendimento anterior consolidado. </P>
+<P><STRONG>Regime de transição</STRONG> </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 7º Quando cabível, o regime de transição preverá: <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I - os órgãos e as entidades da administração pública e os terceiros destinatários; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II - as medidas administrativas a serem adotadas para adequação à interpretação ou à nova orientação sobre norma de conteúdo indeterminado; e <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III - o prazo e o modo para que o novo dever ou novo condicionamento de direito seja cumprido.</P>
+<P><STRONG>Interpretação de normas sobre gestão pública</STRONG></P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 8º Na interpretação de normas sobre gestão pública, serão considerados os obstáculos, as dificuldades reais do agente público e as exigências das políticas públicas a seu cargo, sem prejuízo dos direitos dos administrados. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 1º Na decisão sobre a regularidade de conduta ou a validade de atos, contratos, ajustes, processos ou normas administrativos, serão consideradas as circunstâncias práticas que impuseram, limitaram ou condicionaram a ação do agente público. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 2º A decisão a que se refere o § 1º observará o disposto nos art. 2º, art. 3º ou art. 4º. </P>
+<P><STRONG>Compensação </STRONG></P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 9º A decisão do processo administrativo poderá impor diretamente à pessoa obrigada compensação por benefícios indevidos ou prejuízos anormais ou injustos resultantes do processo ou da conduta dos envolvidos, com a finalidade de evitar procedimentos contenciosos de ressarcimento de danos. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 1º A decisão do processo administrativo é de competência da autoridade pública, que poderá exigir compensação por benefícios indevidamente fruídos pelo particular ou por prejuízos resultantes do processo ou da conduta do particular. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 2º A compensação prevista no <I>caput</I> será motivada na forma do disposto nos art. 2º, art. 3º ou art. 4º e será precedida de manifestação das partes obrigadas sobre seu cabimento, sua forma e, se for o caso, seu valor. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 3º A compensação poderá ser efetivada por meio do compromisso com os interessados a que se refere o art. 10. <BR><BR></P>
+<CENTER>CAPÍTULO III <BR>DOS INSTRUMENTOS </CENTER>
+<CENTER><B>&nbsp;</CENTER></B>
+<DIV align=left><B>Compromisso&nbsp;</B><BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 10.&nbsp;Na hipótese de a autoridade entender conveniente para eliminar irregularidade, incerteza jurídica ou situações contenciosas na aplicação do direito público, poderá celebrar compromisso com os interessados, observada a legislação aplicável e as seguintes condições: <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I - após oitiva do órgão jurídico; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II - após realização de consulta pública, caso seja cabível; e <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III - presença de razões de relevante interesse geral. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 1º A decisão de celebrar o compromisso a que se refere o <I>caput</I> será motivada na forma do disposto no art. 2º. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 2º O compromisso: <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I - buscará solução proporcional, equânime, eficiente e compatível com os interesses gerais; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II - não poderá conferir desoneração permanente de dever ou condicionamento de direito reconhecido por orientação geral; e <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III - preverá: <BR><BR>
+<TABLE>
+<TBODY>
+<TR>
+<TD width=20></TD>
+<TD vAlign=UP width=30 align=right><I>a)</I></TD>
+<TD>as obrigações das partes; </TD></TR></TBODY></TABLE>
+<TABLE>
+<TBODY>
+<TR>
+<TD width=20></TD>
+<TD vAlign=UP width=30 align=right><I>b)</I></TD>
+<TD>o prazo e o modo para seu cumprimento; </TD></TR></TBODY></TABLE>
+<TABLE>
+<TBODY>
+<TR>
+<TD width=20></TD>
+<TD vAlign=UP width=30 align=right><I>c)</I></TD>
+<TD>a forma de fiscalização quanto a sua observância; </TD></TR></TBODY></TABLE>
+<TABLE>
+<TBODY>
+<TR>
+<TD width=20></TD>
+<TD vAlign=UP width=30 align=right><I>d)</I></TD>
+<TD>os fundamentos de fato e de direito; </TD></TR></TBODY></TABLE>
+<TABLE>
+<TBODY>
+<TR>
+<TD width=20></TD>
+<TD vAlign=UP width=30 align=right><I>e)</I></TD>
+<TD>a sua eficácia de título executivo extrajudicial; e </TD></TR></TBODY></TABLE>
+<TABLE>
+<TBODY>
+<TR>
+<TD width=20></TD>
+<TD vAlign=UP width=30 align=right><I>f)</I></TD>
+<TD>as sanções aplicáveis em caso de descumprimento. </TD></TR></TBODY></TABLE></DIV>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 3º O compromisso firmado somente produzirá efeitos a partir de sua publicação. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 4º O processo que subsidiar a decisão de celebrar o compromisso será instruído com: <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I - o parecer técnico conclusivo do órgão competente sobre a viabilidade técnica, operacional e, quando for o caso, sobre as obrigações orçamentário-financeiras a serem assumidas; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II - o parecer conclusivo do órgão jurídico sobre a viabilidade jurídica do compromisso, que conterá a análise da minuta proposta; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III - a minuta do compromisso, que conterá as alterações decorrentes das análises técnica e jurídica previstas nos incisos I e II; e <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IV - a cópia de outros documentos que possam auxiliar na decisão de celebrar o compromisso. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 5º Na hipótese de o compromisso depender de autorização do Advogado- Geral da União e de Ministro de Estado, nos termos do disposto no § 4º do art. 1º ou no art. 4º-A da Lei nº 9.469, de 10 de julho de 1997, ou ser firmado pela Advocacia-Geral da União, o processo de que trata o § 3º será acompanhado de manifestação de interesse da autoridade máxima do órgão ou da entidade da administração pública na celebração do compromisso. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 6º Na hipótese de que trata o § 5º, a decisão final quanto à celebração do compromisso será do Advogado-Geral da União, nos termos do disposto no parágrafo único do art. 4º-A da Lei nº 9.469, de 1997. </P>
+<P><STRONG>Termo de ajustamento de gestão</STRONG> </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 11. Poderá ser celebrado termo de ajustamento de gestão entre os agentes públicos e os órgãos de controle interno da administração pública com a finalidade de corrigir falhas apontadas em ações de controle, aprimorar procedimentos, assegurar a continuidade da execução do objeto, sempre que possível, e garantir o atendimento do interesse geral. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 1º A decisão de celebrar o termo de ajustamento de gestão será motivada na forma do disposto no art. 2º. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 2º Não será celebrado termo de ajustamento de gestão na hipótese de ocorrência de dano ao erário praticado por agentes públicos que agirem com dolo ou erro grosseiro. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 3º A assinatura de termo de ajustamento de gestão será comunicada ao órgão central do sistema de controle interno. <BR><BR></P>
+<CENTER>CAPÍTULO IV <BR>DA RESPONSABILIZAÇÃO DO AGENTE PÚBLICO </CENTER>
+<CENTER><B>&nbsp;</CENTER></B>
+<DIV align=left><B>Responsabilização na hipótese de dolo ou erro grosseiro&nbsp;</B><BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 12.&nbsp;O agente público somente poderá ser responsabilizado por suas decisões ou opiniões técnicas se agir ou se omitir com dolo, direto ou eventual, ou cometer erro grosseiro, no desempenho de suas funções. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 1º Considera-se erro grosseiro aquele manifesto, evidente e inescusável praticado com culpa grave, caracterizado por ação ou omissão com elevado grau de negligência, imprudência ou imperícia. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 2º Não será configurado dolo ou erro grosseiro do agente público se não restar comprovada, nos autos do processo de responsabilização, situação ou circunstância fática capaz de caracterizar o dolo ou o erro grosseiro. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 3º O mero nexo de causalidade entre a conduta e o resultado danoso não implica responsabilização, exceto se comprovado o dolo ou o erro grosseiro do agente público. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 4º A complexidade da matéria e das atribuições exercidas pelo agente público serão consideradas em eventual responsabilização do agente público. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 5º O montante do dano ao erário, ainda que expressivo, não poderá, por si só, ser elemento para caracterizar o erro grosseiro ou o dolo. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 6º A responsabilização pela opinião técnica não se estende de forma automática ao decisor que a adotou como fundamento de decidir e somente se configurará se estiverem presentes elementos suficientes para o decisor aferir o dolo ou o erro grosseiro da opinião técnica ou se houver conluio entre os agentes. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 7º No exercício do poder hierárquico, só responderá por culpa in vigilando aquele cuja omissão caracterizar erro grosseiro ou dolo. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 8º O disposto neste artigo não exime o agente público de atuar de forma diligente e eficiente no cumprimento dos seus deveres constitucionais e legais. </DIV>
+<P><STRONG>Análise de regularidade da decisão</STRONG> </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 13. A análise da regularidade da decisão não poderá substituir a atribuição do agente público, dos órgãos ou das entidades da administração pública no exercício de suas atribuições e competências, inclusive quanto à definição de políticas públicas. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 1º A atução de órgãos de controle privilegiará ações de prevenção antes de processos sancionadores. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 2º A eventual estimativa de prejuízo causado ao erário não poderá ser considerada isolada e exclusivamente como motivação para se concluir pela irregularidade de atos, contratos, ajustes, processos ou normas administrativos. </P>
+<P><STRONG>Direito de regresso, defesa judicial e extrajudicial</STRONG> </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 14. No âmbito do Poder Executivo federal, o direito de regresso previsto no&nbsp;§ 6º do art. 37 da Constituição somente será exercido na hipótese de o agente público ter agido com dolo ou erro grosseiro em suas decisões ou opiniões técnicas, nos termos do disposto no art. 28 do Decreto-Lei nº 4.657, de 1942, e com observância aos princípios constitucionais da proporcionalidade e da razoabilidade. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 15.&nbsp;O agente público federal que tiver que se defender, judicial ou extrajudicialmente, por ato ou conduta praticada no exercício regular de suas atribuições institucionais, poderá solicitar à Advocacia-Geral da União que avalie a verossimilhança de suas alegações e a consequente possibilidade de realizar sua defesa, nos termos do disposto no art. 22 da Lei nº 9.028, de 12 de abril de 1995, e nas demais normas de regência. </P>
+<P><STRONG>Decisão que impuser sanção ao agente público</STRONG> </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 16. A decisão que impuser sanção ao agente público considerará: <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I - a natureza e a gravidade da infração cometida; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II - os danos que dela provierem para a administração pública; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III - as circunstâncias agravantes ou atenuantes; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IV - os antecedentes do agente; <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V - o nexo de causalidade; e <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VI - a culpabilidade do agente. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 1º A motivação da decisão a que se refere o <I>caput</I> observará o disposto neste Decreto. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 2º As sanções aplicadas ao agente público serão levadas em conta na dosimetria das demais sanções da mesma natureza e relativas ao mesmo fato. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 17.&nbsp;O disposto no art. 12 não afasta a possibilidade de aplicação de sanções previstas em normas disciplinares, inclusive nos casos de ação ou de omissão culposas de natureza leve. <BR><BR></P>
+<CENTER>CAPÍTULO V <BR>DA SEGURANÇA JURÍDICA NA APLICAÇÃO DAS NORMAS </CENTER>
+<CENTER><B>&nbsp;</CENTER></B>
+<DIV align=left><B>Consulta pública para edição de atos normativos&nbsp;<BR></B><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 18.&nbsp;A edição de atos normativos por autoridade administrativa poderá ser precedida de consulta pública para manifestação de interessados, preferencialmente por meio eletrônico. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 1º A decisão pela convocação de consulta pública será motivada na forma do disposto no art. 3º. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 2º A convocação de consulta pública conterá a minuta do ato normativo, disponibilizará a motivação do ato e fixará o prazo e as demais condições. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 3º A autoridade decisora não será obrigada a comentar ou considerar individualmente as manifestações apresentadas e poderá agrupar manifestações por conexão e eliminar aquelas repetitivas ou de conteúdo não conexo ou irrelevante para a matéria em apreciação. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 4º As propostas de consulta pública que envolverem atos normativos sujeitos a despacho presidencial serão formuladas nos termos do disposto no Decreto nº 9.191, de 1º de novembro de 2017. </DIV>
+<P><STRONG>Segurança jurídica na aplicação das normas</STRONG> </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 19. As autoridades públicas atuarão com vistas a aumentar a segurança jurídica na aplicação das normas, inclusive por meio de normas complementares, orientações normativas, súmulas, enunciados e respostas a consultas. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<I>Parágrafo único. </I>Os instrumentos previstos no <I>caput</I> terão caráter vinculante em relação ao órgão ou à entidade da administração pública a que se destinarem, até ulterior revisão. </P>
+<P><STRONG>Parecer do Advogado-Geral da União e de consultorias jurídicas e súmulas da Advocacia-Geral da União</STRONG> </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 20. O parecer do Advogado-Geral da União de que tratam os art. 40 e art. 41 da Lei Complementar nº 73, 10 de fevereiro de 1993, aprovado pelo Presidente da República e publicado no Diário Oficial da União juntamente com o despacho presidencial, vincula os órgãos e as entidades da administração pública federal, que ficam obrigados a lhe dar fiel cumprimento. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 1º O parecer do Advogado-Geral da União aprovado pelo Presidente da República, mas não publicado, obriga apenas as repartições interessadas, a partir do momento em que dele tenham ciência. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 2º Os pareceres de que tratam o <I>caput</I> e o § 1º têm prevalência sobre outros mecanismos de uniformização de entendimento. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 21.&nbsp;Os pareceres das consultorias jurídicas e dos órgãos de assessoramento jurídico, de que trata o art. 42 da Lei Complementar nº 73, de 1993, aprovados pelo respectivo Ministro de Estado, vinculam o órgão e as respectivas entidades vinculadas. </P>
+<P><STRONG>Orientações normativas</STRONG> </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 22. A autoridade que representa órgão central de sistema poderá editar orientações normativas ou enunciados que vincularão os órgãos setoriais e seccionais. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 1º As controvérsias jurídicas sobre a interpretação de norma, instrução ou orientação de órgão central de sistema poderão ser submetidas à Advocacia-Geral da União. <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;§ 2º A submissão à Advocacia-Geral da União de que trata o § 1º será instruída com a posição do órgão jurídico do órgão central de sistema, do órgão jurídico que divergiu e dos outros órgãos que se pronunciaram sobre o caso. </P>
+<P><STRONG>Enunciados </STRONG></P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 23. A autoridade máxima de órgão ou da entidade da administração pública poderá editar enunciados que vinculem o próprio órgão ou a entidade e os seus órgãos subordinados. </P>
+<P><STRONG>Transparência </STRONG></P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 24. Compete aos órgãos e às entidades da administração pública manter atualizados, em seus sítios eletrônicos, as normas complementares, as orientações normativas, as súmulas e os enunciados a que se referem os art. 19 ao art. 23. </P>
+<P><STRONG>Vigência</STRONG></P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art. 25. Este Decreto entra em vigor na data de sua publicação. </P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brasília, 10 de junho de 2019; 198º da Independência e 131º da República. </P>
+<P>JAIR MESSIAS BOLSONARO<BR>Paulo Guedes<BR>Wagner de Campos Rosário<BR>André Luiz de Almeida Mendonça </P>
+						</div>
+					    
+				</div>
+				
+
+                                            <br>
+                                            <div class="rodapeTexto">
+                                                <div class="texto">
+                                                    Este texto não substitui o original publicado no Diário Oficial da União - Seção 1 de 11/06/2019
+                                                </div>
+                                            </div>
+
+					<br><br>
+					<div class="publicacoesTI">
+                                            <strong>Publicação:</strong>
+                                            <ul class="listaMarcada">
+                                                    <li>
+                                                        
+                                                        Diário Oficial da União - Seção 1
+                                                         - 11/6/2019, Página 4 
+                                                        
+                                                        (Publicação Original)
+                                                        
+                                                    </li>
+                                            </ul>
+					</div>
+
+
+
+			</div> <!-- content // -->
+		</div> <!-- documentContent // -->
+	</div> <!-- portal-content-wrapper // -->
+</div> <!-- portal-column-content // --> 
+</div></div>
+<div class="js-mmenu-container">
+      
+
+      
+      
+
+      
+
+      <footer role="contentinfo" class="rodape-portal">
+        <!-- Coloque aqui o endere&#231;o e demais informa&#231;&#245;es de assinatura -->
+        <address class="rodape-portal-info">
+          <div class="container">
+            <div class="rodape-portal-info__nome">
+              <p>
+                <strong id="legislaturaRodape">57ª Legislatura - 4ª Sessão Legislativa Ordinária</strong>
+              </p>
+            </div>
+
+            <div class="l-rodape-info">
+              <div class="l-rodape-info__local rodape-portal-info__texto">
+                <span class="rodape-info">Câmara dos Deputados - Palácio do Congresso Nacional - Praça
+                  dos Três Poderes</span>
+                <span class="rodape-info">Brasília - DF - Brasil - CEP 70160-900</span>
+                <span class="rodape-info"><span class="rodape-info__destaque">CNPJ:</span>
+                  00.530.352/0001-59</span>
+              </div>
+
+              <div class="l-rodape-info__telefones rodape-portal-info__texto">
+                <ul class="list-unstyled" aria-label="Número para contato e horário de atendimento">
+                  <li>
+                    <span class="rodape-info__destaque">Disque-Câmara:</span>
+                    <a href="tel:0800-0-619-619">0800-0-619-619</a>, das 8h às
+                    20h
+                  </li>
+                  <li>
+                    <span class="rodape-info__destaque">Atendimento por WhatsApp:</span>
+                    <a href="https://wa.me//556132160000?text">(61) 3216-0000</a>, das 8h às 19h
+                  </li>
+                  <li>
+                    <span class="rodape-info__destaque">Atendimento presencial:</span>
+                    das 9h às 19h
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="acesso-provedor text-right">
+              <a title="Autenticar-se no site" href="/login_form">
+                <i class="fas fa-lock" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </address>
+        <!-- Coloque aqui a lista de redes sociais da C&#226;mara -->
+        <div class="rodape-portal-links rodape-portal-links--redes-sociais">
+          <div class="container">
+            <ul class="rodape-portal-links__lista" aria-label="Câmara nas redes sociais">
+              <li class="rodape-portal-links__item">
+                <a href="https://whatsapp.com/channel/0029Va2fexI3gvWgfMs6Fv31" class="rodape-portal-links__link">
+                  <span class="g-social-icon-outline g-social-icon-outline--whatsapp" aria-hidden="true"></span>
+                  <span class="sr-only">Whatsapp</span>
+                </a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://t.me/CamaradosDeputados" class="rodape-portal-links__link">
+                  <span class="g-social-icon-outline g-social-icon-outline--telegram" aria-hidden="true"></span>
+                  <span class="sr-only">Telegram</span>
+                </a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://www.facebook.com/camaradeputados" class="rodape-portal-links__link">
+                  <span class="g-social-icon-outline g-social-icon-outline--facebook" aria-hidden="true"></span>
+                  <span class="sr-only">Facebook</span>
+                </a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://twitter.com/camaradeputados" class="rodape-portal-links__link">
+                  <span class="g-social-icon-outline g-social-icon-outline--twitter" aria-hidden="true"></span>
+                  <span class="sr-only">X</span>
+                </a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://www.youtube.com/channel/UC-ZkSRh-7UEuwXJQ9UMCFJA" class="rodape-portal-links__link">
+                  <span class="g-social-icon-outline g-social-icon-outline--youtube" aria-hidden="true"></span>
+                  <span class="sr-only">Youtube</span>
+                </a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://tiktok.com/@camaradosdeputados" class="rodape-portal-links__link">
+                  <span class="g-social-icon-outline g-social-icon-outline--tiktok" aria-hidden="true"></span>
+                  <span class="sr-only">Tiktok</span>
+                </a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://www.instagram.com/camaradeputados" class="rodape-portal-links__link">
+                  <span class="g-social-icon-outline g-social-icon-outline--instagram" aria-hidden="true"></span>
+                  <span class="sr-only">Instagram</span>
+                </a>
+              </li>
+              <li class="rodape-portal-links__item">
+                  <a href="https://www.threads.com/@camaradosdeputados" class="rodape-portal-links__link">
+                      <span class="g-social-icon-outline g-social-icon-outline--threads" aria-hidden="true"></span>
+                      <span class="sr-only">Threads</span>
+                  </a>
+              </li>
+              <li class="rodape-portal-links__item">
+                  <a href="https://bsky.app/profile/camara.leg.br" class="rodape-portal-links__link">
+                      <span class="g-social-icon-outline g-social-icon-outline--bluesky" aria-hidden="true"></span>
+                      <span class="sr-only">Bluesky</span>
+                  </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Coloque aqui a lista de links de apoio do rodap&#233; -->
+        <div class="rodape-portal-links rodape-portal-links--apoio">
+          <div class="container">
+            <ul class="rodape-portal-links__lista" aria-label="Links de apoio">
+              <li class="rodape-portal-links__item">
+                <a href="https://www2.camara.leg.br/sobre-o-portal" class="rodape-portal-links__link">Sobre o portal</a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://www2.camara.leg.br/termo-de-uso-e-politica-de-privacidade" class="rodape-portal-links__link">Termos de uso</a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://www2.camara.leg.br/aplicativos/" class="rodape-portal-links__link">Aplicativos</a>
+              </li>
+
+              <li class="rodape-portal-links__item">
+                <a href="https://www.camara.leg.br/extranet" class="rodape-portal-links__link">Extranet</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <div class="barra-carregando" style="display: none">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Carregando</h5>
+            </div>
+            <div class="modal-body">
+              <p>Por favor, aguarde.</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                  <span class="sr-only"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

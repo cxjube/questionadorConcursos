@@ -11,13 +11,13 @@ test('ABDI shares canonical items while keeping role pools, original formats and
  const s=setup(),p=s.Study.empty();
  assert.equal(s.Catalog.rolesFor(s.data,'abdi-2026')[0].id,role);
  assert.equal(s.Catalog.syllabusFor(s.data,role).length,97);
- const all=s.Study.pool(s.data,role,p);assert.equal(all.length,251);assert.equal(new Set(all.map(q=>q.id)).size,251);
- assert.equal(s.Study.pool(s.data,role,p,'all',{type:'multiple_choice'}).length,94);
- assert.equal(s.Study.pool(s.data,role,p,'all',{type:'true_false'}).length,157);
+ const all=s.Study.pool(s.data,role,p);assert.equal(all.length,258);assert.equal(new Set(all.map(q=>q.id)).size,258);
+ assert.equal(s.Study.pool(s.data,role,p,'all',{type:'multiple_choice'}).length,100);
+ assert.equal(s.Study.pool(s.data,role,p,'all',{type:'true_false'}).length,158);
  assert.equal(s.Study.pool(s.data,role,p,'all',{block:'basic'}).length,113);
  assert.equal(s.Study.pool(s.data,role,p,'all',{block:'institutional'}).length,26);
- assert.equal(s.Study.pool(s.data,role,p,'all',{block:'specific'}).length,130);
- assert.equal(s.Study.pool(s.data,camara,p).length,409);
+ assert.equal(s.Study.pool(s.data,role,p,'all',{block:'specific'}).length,137);
+ assert.equal(s.Study.pool(s.data,camara,p).length,415);
  assert.throws(()=>s.Study.pool(s.data,role,p,'all',{topicId:'processo-legislativo-regimento-6-1'}));
  assert.throws(()=>s.Study.pool(s.data,role,p,'all',{block:'unconfirmed-block'}));
 });
@@ -41,7 +41,7 @@ test('every previous Camara study snapshot and the old 180-question exam survive
   assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(p),s.data)),plain(p));
   if(mode==='all'){
    const current=s.Study.create(s.data,camara,s.Study.empty(),'all',{now:start});
-   const priorIds=new Set(p.active.items.map(i=>i.question.id));assert.deepEqual(plain(current.items.slice(0,p.active.items.length).filter(i=>i.question.id!=='camara-2014-cb2-03-q084')),plain(p.active.items.filter(i=>i.question.id!=='camara-2014-cb2-03-q084')));const revised=current.items.find(i=>i.question.id==='camara-2014-cb2-03-q084');assert.equal(revised.question.revision,2);assert.equal(revised.key.value,p.active.items.find(i=>i.question.id===revised.question.id).key.value);assert.equal(priorIds.size,p.active.items.length);assert.deepEqual(plain(current.items.slice(p.active.items.length).map(i=>i.question.id)),['128-tcemg-008-01-q044','fiocruz-2024-te15-q002','539-alce-016-01-q050','senado-2022-processo-tipo1-q054',...JSON.parse(fs.readFileSync(path.join(root,'data/reviews/gaps-fourth-batch.json'))).items.filter(r=>r.syllabusItemIds.some(id=>id.startsWith('camara-2026-'))).map(r=>r.questionId),...JSON.parse(fs.readFileSync(path.join(root,'data/reviews/norms-gap-fifth.json'))).items.filter(r=>r.syllabusItemIds.some(id=>id.startsWith('camara-2026-'))).map(r=>r.questionId)]);
+   const priorIds=new Set(p.active.items.map(i=>i.question.id));assert.deepEqual(plain(current.items.slice(0,p.active.items.length).filter(i=>i.question.id!=='camara-2014-cb2-03-q084')),plain(p.active.items.filter(i=>i.question.id!=='camara-2014-cb2-03-q084')));const revised=current.items.find(i=>i.question.id==='camara-2014-cb2-03-q084');assert.equal(revised.question.revision,2);assert.equal(revised.key.value,p.active.items.find(i=>i.question.id===revised.question.id).key.value);assert.equal(priorIds.size,p.active.items.length);assert.deepEqual(plain(current.items.slice(p.active.items.length).map(i=>i.question.id)),['128-tcemg-008-01-q044','fiocruz-2024-te15-q002','539-alce-016-01-q050','senado-2022-processo-tipo1-q054',...JSON.parse(fs.readFileSync(path.join(root,'data/reviews/gaps-fourth-batch.json'))).items.filter(r=>r.syllabusItemIds.some(id=>id.startsWith('camara-2026-'))).map(r=>r.questionId),...JSON.parse(fs.readFileSync(path.join(root,'data/reviews/norms-gap-fifth.json'))).items.filter(r=>r.syllabusItemIds.some(id=>id.startsWith('camara-2026-'))).map(r=>r.questionId),...JSON.parse(fs.readFileSync(path.join(root,'data/reviews/continuation-seventh.json'))).items.filter(r=>r.syllabusItemIds.some(id=>id.startsWith('camara-2026-'))).map(r=>r.questionId)]);
   }
   p=s.Study.finish(p,end);assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(p),s.data)),plain(p));
  }
@@ -52,7 +52,7 @@ test('answering a shared question for Camara does not create an ABDI attempt or 
  const a=s.Study.create(s.data,camara,s.Study.empty(),'all',filters);a.answers.push({questionId:a.items[0].question.id,value:a.items[0].key.value});
  const p=s.Study.finish({...s.Study.empty(),active:a},end);
  assert.equal(s.Study.performance(p.history,role).attempts,0);
- assert.equal(s.Study.pool(s.data,role,p,'unanswered').length,251);
+ assert.equal(s.Study.pool(s.data,role,p,'unanswered').length,258);
  const b=s.Study.create(s.data,role,p,'all',filters);assert.equal(b.items[0].question.id,a.items[0].question.id);
  assert.ok(b.items[0].mappings.every(m=>m.roleId===role));assert.ok(a.items[0].mappings.every(m=>m.roleId===camara));
  assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup({...p,active:b}),s.data)),plain({...p,active:b}));

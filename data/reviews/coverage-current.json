@@ -1,7 +1,7 @@
 {
   "reviewedAt": "2026-10-29",
-  "latestBatchId": "completion-sixth",
-  "catalogSha256": "c5e953a85c82a4c61510e5ada8296a9ac6367cf16ff3961462b15c213f6b5296",
+  "latestBatchId": "continuation-seventh",
+  "catalogSha256": "ddf5260091a6baee78a6e1a3c1e43d050848b5e9814596435b1f7f16d0d3d12a",
   "scope": "Oferta de questões distintas, sem inferência de domínio ou peso de prova.",
   "totalItems": 228,
   "directItems": 189,
@@ -10,11 +10,11 @@
   "emptyLeaves": 6,
   "blocks": {
     "basic": {
-      "total": 180,
-      "ce": 176
+      "total": 181,
+      "ce": 177
     },
     "specific": {
-      "total": 230,
+      "total": 235,
       "ce": 210
     }
   },
@@ -60,7 +60,7 @@
       "descendantsOnly": 2,
       "emptyItems": 1,
       "emptyLeaves": 1,
-      "questionsCE": 21,
+      "questionsCE": 22,
       "questionsMC": 1
     },
     {
@@ -83,7 +83,7 @@
       "emptyItems": 3,
       "emptyLeaves": 3,
       "questionsCE": 73,
-      "questionsMC": 7
+      "questionsMC": 9
     },
     {
       "id": "divulgacao-institucional",
@@ -94,7 +94,7 @@
       "emptyItems": 1,
       "emptyLeaves": 1,
       "questionsCE": 66,
-      "questionsMC": 2
+      "questionsMC": 5
     },
     {
       "id": "processo-legislativo-regimento",
@@ -1773,18 +1773,20 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "B",
+      "priority": "C",
       "directQuestionIds": [
+        "038-anm-cg1-01-q017",
         "038-anm-cg1-01-q018",
         "094-pf-cb1-01-q036"
       ],
-      "directCE": 2,
+      "directCE": 3,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "038-anm-cg1-01-q017",
         "038-anm-cg1-01-q018",
         "094-pf-cb1-01-q036"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {
@@ -2556,10 +2558,11 @@
         "153-telebras-008-01-q106",
         "205-funpresp-26-jud-005-01-q096",
         "539-alce-016-01-q021",
-        "539-alce-016-01-q023"
+        "539-alce-016-01-q023",
+        "cge-ce-2019-cargo5-q098"
       ],
       "subtreeCE": 9,
-      "subtreeMC": 2
+      "subtreeMC": 3
     },
     {
       "id": "camara-2026-comunicacao-social-1-1",
@@ -2573,16 +2576,18 @@
       "priority": "B",
       "directQuestionIds": [
         "038-anm-008-01-q054",
-        "072-stm-004-01-q085"
+        "072-stm-004-01-q085",
+        "cge-ce-2019-cargo5-q098"
       ],
       "directCE": 2,
-      "directMC": 0,
+      "directMC": 1,
       "subtreeQuestionIds": [
         "038-anm-008-01-q054",
-        "072-stm-004-01-q085"
+        "072-stm-004-01-q085",
+        "cge-ce-2019-cargo5-q098"
       ],
       "subtreeCE": 2,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "camara-2026-comunicacao-social-1-2",
@@ -3303,16 +3308,18 @@
       "priority": "B",
       "directQuestionIds": [
         "038-anm-013-01-q069",
-        "205-funpresp-26-jud-005-01-q081"
+        "205-funpresp-26-jud-005-01-q081",
+        "cge-ce-2019-cargo5-q096"
       ],
       "directCE": 2,
-      "directMC": 0,
+      "directMC": 1,
       "subtreeQuestionIds": [
         "038-anm-013-01-q069",
-        "205-funpresp-26-jud-005-01-q081"
+        "205-funpresp-26-jud-005-01-q081",
+        "cge-ce-2019-cargo5-q096"
       ],
       "subtreeCE": 2,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "camara-2026-comunicacao-social-7",
@@ -4032,11 +4039,14 @@
         "232funprespexe-002-01-q078",
         "232funprespexe-002-01-q079",
         "232funprespexe-002-01-q080",
+        "539-alce-016-01-q058",
         "803-tj-es-006-01-q067",
-        "893-dataprev-005-01-q104"
+        "893-dataprev-005-01-q104",
+        "cge-ce-2019-cargo5-q088",
+        "cge-ce-2019-cargo5-q090"
       ],
       "subtreeCE": 13,
-      "subtreeMC": 0
+      "subtreeMC": 3
     },
     {
       "id": "camara-2026-divulgacao-institucional-3-1",
@@ -4052,18 +4062,22 @@
         "038-anm-008-01-q063",
         "153-telebras-008-01-q066",
         "232funprespexe-002-01-q078",
-        "232funprespexe-002-01-q080"
+        "232funprespexe-002-01-q080",
+        "cge-ce-2019-cargo5-q088",
+        "cge-ce-2019-cargo5-q090"
       ],
       "directCE": 4,
-      "directMC": 0,
+      "directMC": 2,
       "subtreeQuestionIds": [
         "038-anm-008-01-q063",
         "153-telebras-008-01-q066",
         "232funprespexe-002-01-q078",
-        "232funprespexe-002-01-q080"
+        "232funprespexe-002-01-q080",
+        "cge-ce-2019-cargo5-q088",
+        "cge-ce-2019-cargo5-q090"
       ],
       "subtreeCE": 4,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "camara-2026-divulgacao-institucional-3-2",
@@ -4103,17 +4117,19 @@
       "directQuestionIds": [
         "153-telebras-008-01-q067",
         "153-telebras-008-01-q098",
+        "539-alce-016-01-q058",
         "803-tj-es-006-01-q067"
       ],
       "directCE": 3,
-      "directMC": 0,
+      "directMC": 1,
       "subtreeQuestionIds": [
         "153-telebras-008-01-q067",
         "153-telebras-008-01-q098",
+        "539-alce-016-01-q058",
         "803-tj-es-006-01-q067"
       ],
       "subtreeCE": 3,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "camara-2026-divulgacao-institucional-3-4",
