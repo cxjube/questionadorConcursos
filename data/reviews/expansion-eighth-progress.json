@@ -1,0 +1,3946 @@
+{
+  "id": "expansion-eighth",
+  "reviewedAt": "2026-10-29",
+  "scope": "78 subárvores anteriormente vazias e aprofundamento dos recortes com uma ou duas questões diretas. Pais e filhos podem se sobrepor; nenhuma amostra certifica cobertura integral. Revisão assistida por agente, sem aceite humano.",
+  "newQuestions": 34,
+  "retainedQuestions": 755,
+  "activeQuestions": 755,
+  "roles": [
+    {
+      "roleId": "camara-comunicacao-divulgacao",
+      "beforeEmpty": 6,
+      "afterEmpty": 3,
+      "directItems": 192,
+      "descendantsOnly": 32,
+      "questions": 421,
+      "formats": {
+        "multiple_choice": 30,
+        "true_false": 391
+      },
+      "items": [
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-2-2",
+          "label": "Parecer: responsabilidade do emissor do parecer.",
+          "previousState": "empty",
+          "currentState": "direct",
+          "questionIds": [
+            "cgesp-2025-cor-pm-q012"
+          ],
+          "fullCoverageCertified": false,
+          "disposition": "first_partial_sample",
+          "nextAction": "Ampliar componentes e variedade; conferir os limites no comentário."
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-constitucional-regimento-8-1",
+          "label": "Título I.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "own_document_pair_not_confirmed",
+          "nextAction": "Buscar par oficial que examine o documento próprio atual. Leitura oficial disponível não equivale a questão liberada."
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-5-4",
+          "label": "Elementos fundamentais de publicações em redes sociais: capa, legenda, marcação, palavras-chave, call to action.",
+          "previousState": "empty",
+          "currentState": "direct",
+          "questionIds": [
+            "fiocruz-2024-te58-q013"
+          ],
+          "fullCoverageCertified": false,
+          "disposition": "first_partial_sample",
+          "nextAction": "Ampliar componentes e variedade; conferir os limites no comentário."
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-8-1",
+          "label": "Política de comunicação da Câmara dos Deputados (Ato da Mesa nº 218/2025).",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "own_document_pair_not_confirmed",
+          "nextAction": "Buscar par oficial que examine o documento próprio atual. Leitura oficial disponível não equivale a questão liberada."
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-10-1",
+          "label": "Manual de linguagem simples da Câmara dos Deputados.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "own_document_pair_not_confirmed",
+          "nextAction": "Buscar par oficial que examine o documento próprio atual. Leitura oficial disponível não equivale a questão liberada."
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-7",
+          "label": "Gestão de equipes em publicidade.",
+          "previousState": "empty",
+          "currentState": "direct",
+          "questionIds": [
+            "tcdf-2024-psicologia-002-01-q150",
+            "tcdf-2024-psicologia-002-01-q152",
+            "tcdf-2024-psicologia-002-01-q154"
+          ],
+          "fullCoverageCertified": false,
+          "disposition": "first_partial_sample",
+          "nextAction": "Ampliar componentes e variedade; conferir os limites no comentário."
+        }
+      ],
+      "thinSamples": [
+        {
+          "syllabusItemId": "camara-2026-lingua-portuguesa-2",
+          "label": "Reconhecimento de tipos e gêneros textuais.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-lingua-portuguesa-3",
+          "label": "Domínio da ortografia.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-lingua-portuguesa-4-2",
+          "label": "Emprego de tempos e modos verbais.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-lingua-portuguesa-5-1",
+          "label": "Emprego das classes de palavras.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-lingua-portuguesa-5-2",
+          "label": "Relações de coordenação entre orações e entre termos da oração.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-lingua-portuguesa-5-3",
+          "label": "Relações de subordinação entre orações e entre termos da oração.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-lingua-portuguesa-5-6",
+          "label": "Regência verbal e nominal.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-lingua-portuguesa-5-7",
+          "label": "Emprego do sinal indicativo de crase.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-lingua-portuguesa-5-8",
+          "label": "Colocação dos pronomes átonos.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-lingua-portuguesa-6-1",
+          "label": "Significação das palavras.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-lingua-portuguesa-6-2",
+          "label": "Substituição de palavras ou de trechos de texto.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-lingua-portuguesa-6-3",
+          "label": "Reorganização da estrutura de orações e de períodos do texto.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-lingua-portuguesa-6-4",
+          "label": "Reescrita de textos de diferentes gêneros e níveis de formalidade.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-lingua-inglesa-2",
+          "label": "Itens gramaticais relevantes para compreensão de conteúdos semânticos.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-lingua-inglesa-3",
+          "label": "Conhecimento e uso das formas contemporâneas da linguagem inglesa.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-1-1",
+          "label": "Princípios constitucionais e doutrinários da Administração Pública.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-1-2",
+          "label": "Organização administrativa: administração direta e indireta; centralização, descentralização, concentração e desconcentração.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-2-1",
+          "label": "Conceito, requisitos, atributos, classificação e espécies, extinção, nulidades e revogação.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-3-1",
+          "label": "Disposições constitucionais aplicáveis.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-3-2",
+          "label": "Cargo, emprego e função pública.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-3-3",
+          "label": "Requisição.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-3-4",
+          "label": "Regime jurídico dos servidores públicos federais (Lei 8.112/1990 e suas alterações).",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-4-1",
+          "label": "Fontes e princípios.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-4-2",
+          "label": "Ilícito de direito administrativo disciplinar.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-4-3",
+          "label": "Procedimentos disciplinares da administração pública.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-5-1",
+          "label": "Discricionário, hierárquico, disciplinar, regulamentar e de polícia.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-5-2",
+          "label": "Uso e abuso do poder.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-6-1",
+          "label": "Responsabilidade civil do Estado no direito brasileiro.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-6-2",
+          "label": "Responsabilidade por ato comissivo do Estado.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-6-3",
+          "label": "Responsabilidade por omissão do Estado.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-6-4",
+          "label": "Requisitos para a demonstração da responsabilidade do Estado.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-6-5",
+          "label": "Causas excludentes e atenuantes da responsabilidade do Estado.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-8-1",
+          "label": "Nova Governança Pública (New Public Governance): conceito, fundamentos e evolução.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-8-3",
+          "label": "Coprodução do bem público, participação cidadã e transparência ativa.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-8-4",
+          "label": "Valor Público, cadeia de valor público.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-9-1",
+          "label": "Governança pública: conceito, distinção entre governança e governabilidade e alinhamento estratégico.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-9-3",
+          "label": "Conceito de valor público: geração de valor para a sociedade, entrega de resultados, sustentabilidade e avaliação de impactos de políticas públicas.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-9-4",
+          "label": "Decreto Federal nº 9.203/2017 e suas alterações (política de governança da administração pública federal direta, autárquica e fundacional).",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-2",
+          "label": "Contratos administrativos.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-3",
+          "label": "Características do contrato administrativo.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-4",
+          "label": "Formalização, gestão e fiscalização do contrato.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-5",
+          "label": "Planejamento e fiscalização contratual.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-6",
+          "label": "Papel do fiscalizador do contrato.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-10-7",
+          "label": "Estudo Técnico Preliminar e Termo de Referência.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-constitucional-regimento-1",
+          "label": "Constituição Federal de 1988: conceito, contexto histórico, características, estrutura do texto.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-constitucional-regimento-5",
+          "label": "Poder Legislativo: o Congresso Nacional e suas Casas (atribuições, competências, reuniões e comissões).",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-constitucional-regimento-6",
+          "label": "Regime jurídico-constitucional dos parlamentares.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-constitucional-regimento-7-1",
+          "label": "Disposições preliminares e Órgãos da Câmara (arts. 1º a 24 e suas alterações).",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-constitucional-regimento-7-2",
+          "label": "Sessões da Câmara (arts. 65 a 94 e suas alterações).",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-constitucional-regimento-7-3",
+          "label": "Deputados (arts. 226 a 251 e suas alterações).",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-constitucional-regimento-7-4",
+          "label": "Administração e economia interna (arts. 262 a 273 e suas alterações).",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-direito-constitucional-regimento-8-2",
+          "label": "Título IV, Capítulo II e Capítulo III (até art. 103).",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-tecnologia-informacao-dados-1",
+          "label": "MSOffice 365 (Word, Excel, PowerPoint e OneDrive).",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-tecnologia-informacao-dados-2",
+          "label": "Redes de computadores.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-tecnologia-informacao-dados-2-1",
+          "label": "Conceitos básicos, ferramentas, aplicativos e procedimentos de Internet e intranet.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-tecnologia-informacao-dados-3",
+          "label": "Ferramentas de comunicação e colaboração: correio eletrônico (webmail, cliente de e-mail), aplicativos de comunicação (Microsoft Teams, Google Meet).",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-tecnologia-informacao-dados-4-1",
+          "label": "Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-tecnologia-informacao-dados-4-3",
+          "label": "Ameaças digitais (phishing, pharming).",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-tecnologia-informacao-dados-5-1",
+          "label": "Engenharia de prompts.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-tecnologia-informacao-dados-5-2",
+          "label": "Aprendizado supervisionado, não supervisionado e por reforço.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-tecnologia-informacao-dados-6",
+          "label": "Ética e responsabilidade digital no serviço público.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-tecnologia-informacao-dados-8-1",
+          "label": "Princípios de visualização de dados.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-tecnologia-informacao-dados-8-2",
+          "label": "Tipos de gráficos (histograma, linha, barra, dispersão, box plot).",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-tecnologia-informacao-dados-8-3",
+          "label": "Ferramentas de visualização de dados (Power BI, Tableau e Data Studio).",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-tecnologia-informacao-dados-8-4",
+          "label": "Storytelling para visualização de dados.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-1",
+          "label": "Teorias da Comunicação.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-1-3",
+          "label": "Midiatização e plataformização.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-2-4",
+          "label": "Comunicação e cultura organizacional.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-2-5",
+          "label": "Gestão do clima organizacional por meio da comunicação.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-3-1",
+          "label": "Conceito e objetivos da comunicação institucional.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-3-2",
+          "label": "Gestão da imagem, identidade e reputação corporativa/institucional.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-3-3",
+          "label": "Gerenciamento de crises.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-4-1",
+          "label": "Conceito, objetivos e dimensões da comunicação organizacional.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-4-2",
+          "label": "O composto da comunicação integrada (comunicação institucional, mercadológica, interna e administrativa).",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-4-4",
+          "label": "Fluxos comunicativos (descendentes, ascendentes, horizontais e transversais).",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-4-5",
+          "label": "Comunicação formal e informal nas organizações.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-4-6",
+          "label": "Definição de públicos-alvo: pesquisa, segmentação, canais de interação.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-4-7",
+          "label": "Definição de indicadores de resultados em comunicação.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-4-9",
+          "label": "Gestão de projetos de comunicação.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-5",
+          "label": "Redes sociais digitais oficiais.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-5-2",
+          "label": "Postagens e colaborações.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-7-2",
+          "label": "Comunicação pública versus comunicação governamental e comunicação político-partidária.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-8",
+          "label": "Políticas de comunicação.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-8-2",
+          "label": "Manual de comunicação da Câmara dos Deputados.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-9-1",
+          "label": "Aplicações da IA na comunicação.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-9-2",
+          "label": "Ética no uso de IA na comunicação.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-10",
+          "label": "Linguagem simples e usabilidade.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-comunicacao-social-11",
+          "label": "Princípios constitucionais da administração pública aplicados à comunicação (Art. 37, § 1º da CF/88 e suas alterações).",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-1-3",
+          "label": "Criação publicitária.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-1-4",
+          "label": "Atendimento.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-1-6",
+          "label": "Produção de campanhas publicitárias.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-2-1",
+          "label": "Conceitos de marketing.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-2-2",
+          "label": "Planejamento de marketing.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-2-3",
+          "label": "Marketing institucional.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-2-5",
+          "label": "Segmentação.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-2-6",
+          "label": "Marketing digital.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-2-7",
+          "label": "Comportamento do consumidor.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-3-4",
+          "label": "Pesquisa de imagem.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-3-5",
+          "label": "Pesquisa de mídia.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-3-6",
+          "label": "Métricas de avaliação na publicidade digital.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-4-1",
+          "label": "Conceito de marca.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-4-3",
+          "label": "Gerenciamento de marca.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-5-1",
+          "label": "Design gráfico.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-5-2",
+          "label": "Produção gráfica.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-5-4",
+          "label": "Produção para rádio, televisão e redes sociais.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-5-5",
+          "label": "Criação e produção de projetos gráficos.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-5-6",
+          "label": "Criação e produção de projetos audiovisuais.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-5-7",
+          "label": "Criação e produção de publicações: definição de objetivos, público-alvo, linha editorial, identidade, estratégia de distribuição, indicadores e avaliação.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-divulgacao-institucional-8-1",
+          "label": "Ética publicitária – código brasileiro de autoregulamentação publicitária.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-1-1",
+          "label": "Tipos de procedimento, ordinário, abreviado, sumário, sumaríssimo, especial e concentrado.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-1-2",
+          "label": "Etapas e noções básicas.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-2-1",
+          "label": "Projeto de lei ordinária, complementar e delegada.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-2-2",
+          "label": "Medida provisória.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-2-3",
+          "label": "Projeto de decreto legislativo e projeto de resolução.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-2-4",
+          "label": "Proposta de Emenda à Constituição (PEC).",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-2-5",
+          "label": "Indicações, pareceres, requerimentos e vetos.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-2-6",
+          "label": "Iniciativa Legislativa: Presidência da República, Congresso Nacional, tribunais e cidadãos.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-3",
+          "label": "Fiscalização Contábil, Financeira e Orçamentária.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-1",
+          "label": "Plano Plurianual (PPA).",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-2",
+          "label": "Lei de Diretrizes Orçamentárias (LDO).",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-3",
+          "label": "Lei Orçamentária Anual (LOA).",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-4",
+          "label": "As interfaces entre LDO, LOA, Lei nº 4.320/1964 e suas alterações e Lei Complementar nº 101/2000 e suas alterações (Lei de Responsabilidade Fiscal).",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-5",
+          "label": "Elaboração e aprovação das leis de matéria orçamentária.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-6",
+          "label": "Proposta orçamentária e sua integração com PPA e LDO.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-4-7",
+          "label": "Execução financeira e créditos.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-processo-legislativo-regimento-6-2",
+          "label": "Resolução nº 3/1990 – CN.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-ciencia-politica-4",
+          "label": "Sistemas e formas de governo.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-ciencia-politica-5",
+          "label": "Representação política.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-ciencia-politica-6",
+          "label": "Poderes e relações entre poderes: Executivo, Legislativo e Judiciário.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-ciencia-politica-9",
+          "label": "Organização política brasileira.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-ciencia-politica-10",
+          "label": "Política internacional contemporânea.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-ciencia-politica-12",
+          "label": "Formação do Estado brasileiro.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "camara-2026-ciencia-politica-13",
+          "label": "História do voto e dos partidos no Brasil.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        }
+      ],
+      "deepenedThinSamples": 0,
+      "readiness": {
+        "roleId": "camara-comunicacao-divulgacao",
+        "ruleId": "camara-2026-cargo-1-objetivas",
+        "ruleVersion": 1,
+        "ready": true,
+        "requiredCE": 180,
+        "distinctCE": 391,
+        "allocatableDistinctCE": 180,
+        "minimumAdditionalCE": 0,
+        "blocks": [
+          {
+            "blockId": "p1",
+            "label": "P1 — Conhecimentos básicos",
+            "required": 90,
+            "questionIds": [
+              "232funprespexe-cb1-01-q009",
+              "232funprespexe-cb1-01-q010",
+              "232funprespexe-cb1-01-q011",
+              "232funprespexe-cb1-01-q012",
+              "232funprespexe-cb1-01-q013",
+              "232funprespexe-cb1-01-q014",
+              "232funprespexe-cb1-01-q015",
+              "232funprespexe-cb1-01-q016",
+              "232funprespexe-cb1-01-q001",
+              "232funprespexe-cb1-01-q002",
+              "232funprespexe-cb1-01-q003",
+              "232funprespexe-cb1-01-q004",
+              "232funprespexe-cb1-01-q005",
+              "232funprespexe-cb1-01-q006",
+              "232funprespexe-cb1-01-q007",
+              "232funprespexe-cb1-01-q008",
+              "038-anm-cg1-01-q011",
+              "038-anm-cg1-01-q012",
+              "038-anm-cg1-01-q013",
+              "038-anm-cg1-01-q014",
+              "038-anm-cg1-01-q026",
+              "038-anm-cg1-01-q029",
+              "038-anm-cg1-01-q030",
+              "038-anm-cg1-01-q005",
+              "038-anm-cg1-01-q008",
+              "038-anm-cg1-01-q010",
+              "038-anm-cg1-01-q018",
+              "038-anm-cg1-01-q019",
+              "038-anm-cg1-01-q020",
+              "038-anm-cg1-01-q021",
+              "038-anm-cg1-01-q022",
+              "038-anm-cg1-01-q024",
+              "038-anm-cg1-01-q034",
+              "038-anm-cg1-01-q035",
+              "camara-2014-cb2-03-q097",
+              "camara-2014-cb2-03-q100",
+              "038-anm-cg1-01-q001",
+              "038-anm-cg1-01-q002",
+              "038-anm-cg1-01-q003",
+              "038-anm-cg1-01-q004",
+              "038-anm-cg1-01-q006",
+              "038-anm-cg1-01-q009",
+              "camara-2014-cb2-03-q071",
+              "camara-2014-cb2-03-q075",
+              "camara-2014-cb2-03-q078",
+              "camara-2014-cb2-03-q101",
+              "camara-2014-cb2-03-q102",
+              "camara-2014-cb2-03-q105",
+              "961-anatel-cb1-01-q016",
+              "961-anatel-cb1-01-q017",
+              "961-anatel-cb1-01-q018",
+              "961-anatel-cb1-01-q020",
+              "961-anatel-cb1-01-q021",
+              "961-anatel-cb1-01-q022",
+              "961-anatel-cb1-01-q023",
+              "094-pf-cb1-01-q028",
+              "094-pf-cb1-01-q029",
+              "094-pf-cb1-01-q032",
+              "094-pf-cb1-01-q034",
+              "057-ibama-cb1-01-q017",
+              "057-ibama-001-01-q064",
+              "057-ibama-001-01-q067",
+              "057-ibama-001-01-q069",
+              "057-ibama-001-01-q070",
+              "057-ibama-001-01-q071",
+              "057-ibama-001-01-q072",
+              "959-bcb-cb1-01-q001",
+              "959-bcb-cb1-01-q002",
+              "959-bcb-cb1-01-q003",
+              "959-bcb-cb1-01-q004",
+              "959-bcb-cb1-01-q005",
+              "959-bcb-cb1-01-q006",
+              "094-pf-cb1-01-q043",
+              "094-pf-cb1-01-q047",
+              "094-pf-cb1-01-q048",
+              "094-pf-cb1-01-q049",
+              "094-pf-cb1-01-q050",
+              "959-bcb-cb1-01-q036",
+              "959-bcb-cb1-01-q037",
+              "959-bcb-cb1-01-q038",
+              "094-pf-cb1-01-q035",
+              "094-pf-cb1-01-q036",
+              "094-pf-cb1-01-q038",
+              "094-pf-cb1-01-q039",
+              "094-pf-cb1-01-q040",
+              "106-pf-cg1-01-q064",
+              "106-pf-cg1-01-q071",
+              "106-pf-cg1-01-q080",
+              "106-pf-cg1-01-q088",
+              "camara-2014-cb2-03-q084",
+              "camara-2014-cb2-03-q085",
+              "846-serpro-23-cb1-01-q022",
+              "846-serpro-23-cb1-01-q027",
+              "846-serpro-23-cb1-01-q029",
+              "846-serpro-23-cb1-01-q030",
+              "106-pf-cg1-01-q061",
+              "106-pf-cg1-01-q065",
+              "106-pf-cg1-01-q072",
+              "106-pf-cg1-01-q083",
+              "018-stj-cb1-01-q048",
+              "018-stj-cb1-01-q023",
+              "018-stj-cb1-01-q024",
+              "018-stj-cb1-01-q026",
+              "018-stj-cb1-01-q040",
+              "018-stj-cb1-01-q041",
+              "018-stj-cb1-01-q042",
+              "018-stj-cb1-01-q043",
+              "038-anm-013-01-q053",
+              "038-anm-013-01-q088",
+              "038-anm-013-01-q119",
+              "094-pf-cb1-01-q022",
+              "979-cnj-007-01-q052",
+              "979-cnj-007-01-q054",
+              "979-cnj-007-01-q062",
+              "979-cnj-007-01-q065",
+              "993-tce-ac-cb3-01-q032",
+              "993-tce-ac-cb3-01-q035",
+              "988-cpnuje-010-01-q051",
+              "988-cpnuje-010-01-q056",
+              "038-anm-024-01-q090",
+              "038-anm-024-01-q091",
+              "038-anm-024-01-q093",
+              "038-anm-024-01-q097",
+              "038-anm-024-01-q106",
+              "038-anm-024-01-q110",
+              "038-anm-024-01-q111",
+              "038-anm-024-01-q112",
+              "038-anm-024-01-q116",
+              "038-anm-024-01-q120",
+              "050-trt10-011-01-q063",
+              "050-trt10-011-01-q069",
+              "959-bcb-cb1-01-q007",
+              "959-bcb-cb1-01-q009",
+              "959-bcb-cb1-01-q010",
+              "959-bcb-cb1-01-q011",
+              "959-bcb-cb1-01-q013",
+              "142-tcuaufc-cb1-01-q022",
+              "142-tcuaufc-cb1-01-q023",
+              "142-tcuaufc-cb1-01-q024",
+              "142-tcuaufc-cb1-01-q025",
+              "camara14-cb1-01-q092",
+              "camara14-cb1-01-q096",
+              "camara14-cb1-01-q099",
+              "camara14-001-01-q204",
+              "108-tcutefc-001-01-q066",
+              "108-tcutefc-001-01-q069",
+              "108-tcutefc-001-01-q087",
+              "108-tcutefc-001-01-q088",
+              "803-tj-es-006-01-q099",
+              "803-tj-es-006-01-q100",
+              "803-tj-es-006-01-q101",
+              "803-tj-es-006-01-q103",
+              "038-anm-005-01-q063",
+              "038-anm-024-01-q073",
+              "153-telebras-cb1-01-q008",
+              "153-telebras-cb1-01-q013",
+              "153-telebras-003-01-q070",
+              "153-telebras-003-01-q076",
+              "072-stm-002-01-q052",
+              "072-stm-002-01-q078",
+              "072-stm-002-01-q084",
+              "205-funpresp-26-jud-009-01-q071",
+              "205-funpresp-26-jud-009-01-q081",
+              "959-bcb-cb1-01-q019",
+              "959-bcb-cb1-01-q021",
+              "142-tcuaufc-cb1-01-q079",
+              "142-tcuaufc-cb1-01-q080",
+              "142-tcuaufc-cb1-01-q081",
+              "057-ibama-cb1-01-q044",
+              "mpo-2024-cg1-01-q034",
+              "mpo-2024-cg1-01-q036",
+              "mpo-2024-cg1-01-q040",
+              "mpo-2024-cg1-01-q092",
+              "mpo-2024-cg1-01-q095",
+              "inss-2022-cb1-01-q032",
+              "inss-2022-cb1-01-q038",
+              "038-anm-cg1-01-q017"
+            ],
+            "availableCE": 177,
+            "allocatedCE": 90,
+            "missingForThisAllocation": 0
+          },
+          {
+            "blockId": "p2",
+            "label": "P2 — Conhecimentos específicos",
+            "required": 90,
+            "questionIds": [
+              "038-anm-010-01-q051",
+              "038-anm-010-01-q053",
+              "038-anm-010-01-q054",
+              "038-anm-010-01-q055",
+              "038-anm-010-01-q056",
+              "038-anm-010-01-q057",
+              "038-anm-010-01-q058",
+              "038-anm-010-01-q061",
+              "038-anm-010-01-q062",
+              "989-codevasf-010-01-q051",
+              "989-codevasf-010-01-q052",
+              "989-codevasf-010-01-q053",
+              "989-codevasf-010-01-q054",
+              "989-codevasf-010-01-q056",
+              "989-codevasf-010-01-q058",
+              "232funprespexe-002-01-q062",
+              "232funprespexe-002-01-q084",
+              "232funprespexe-002-01-q085",
+              "232funprespexe-002-01-q090",
+              "232funprespexe-002-01-q091",
+              "232funprespexe-002-01-q092",
+              "232funprespexe-002-01-q093",
+              "232funprespexe-002-01-q096",
+              "232funprespexe-002-01-q097",
+              "232funprespexe-002-01-q098",
+              "232funprespexe-002-01-q099",
+              "232funprespexe-002-01-q100",
+              "camara-2014-cb2-03-q079",
+              "camara-2014-cb2-03-q080",
+              "camara-2014-cb2-03-q089",
+              "camara-2014-cb2-03-q090",
+              "camara-2014-cb2-03-q091",
+              "camara-2014-cb2-03-q092",
+              "camara-2014-cb2-03-q099",
+              "camara-2014-area-xix-q113",
+              "camara-2014-area-xix-q134",
+              "camara-2014-area-xix-q135",
+              "camara-2014-area-xix-q138",
+              "camara-2014-area-xix-q140",
+              "camara-2014-area-xix-q142",
+              "camara-2014-area-xix-q143",
+              "camara-2014-area-xix-q145",
+              "camara-2014-area-xix-q111",
+              "camara-2014-area-xix-q115",
+              "camara-2014-area-xix-q116",
+              "camara-2014-area-xix-q126",
+              "camara-2014-area-xix-q128",
+              "camara-2014-area-xix-q136",
+              "camara-2014-area-xix-q137",
+              "038-anm-008-01-q054",
+              "038-anm-008-01-q072",
+              "038-anm-012-01-q061",
+              "038-anm-012-01-q065",
+              "038-anm-013-01-q061",
+              "038-anm-013-01-q063",
+              "094-pf-cb1-01-q041",
+              "camara-2014-area-xix-q112",
+              "camara-2014-area-xix-q114",
+              "camara-2014-area-xix-q117",
+              "camara-2014-area-xix-q118",
+              "camara-2014-area-xix-q119",
+              "camara-2014-area-xix-q120",
+              "camara-2014-area-xix-q121",
+              "camara-2014-area-xix-q122",
+              "camara-2014-area-xix-q127",
+              "camara-2014-area-xix-q129",
+              "camara-2014-area-xix-q130",
+              "camara-2014-area-xix-q133",
+              "camara-2014-area-xix-q139",
+              "camara-2014-area-xix-q141",
+              "camara-2014-area-xix-q144",
+              "camara-2014-area-xix-q151",
+              "camara-2014-area-xix-q152",
+              "camara-2014-area-xix-q153",
+              "camara-2014-area-xix-q155",
+              "camara-2014-area-xix-q156",
+              "camara-2014-cb2-03-q076",
+              "camara-2014-cb2-03-q086",
+              "camara-2014-cb2-03-q087",
+              "camara-2014-cb2-03-q088",
+              "camara-2014-cb2-03-q096",
+              "camara-2014-cb2-03-q098",
+              "camara-2014-cb2-03-q108",
+              "camara-2014-cb2-03-q109",
+              "038-anm-010-01-q079",
+              "038-anm-010-01-q083",
+              "038-anm-010-01-q100",
+              "038-anm-010-01-q101",
+              "038-anm-010-01-q102",
+              "038-anm-010-01-q064",
+              "038-anm-010-01-q066",
+              "038-anm-010-01-q069",
+              "038-anm-010-01-q070",
+              "038-anm-010-01-q071",
+              "038-anm-010-01-q073",
+              "038-anm-010-01-q084",
+              "038-anm-010-01-q088",
+              "038-anm-010-01-q089",
+              "038-anm-010-01-q092",
+              "038-anm-010-01-q093",
+              "038-anm-010-01-q094",
+              "038-anm-012-01-q079",
+              "038-anm-012-01-q108",
+              "038-anm-012-01-q112",
+              "038-anm-008-01-q063",
+              "038-anm-010-01-q059",
+              "038-anm-010-01-q075",
+              "038-anm-010-01-q076",
+              "038-anm-010-01-q077",
+              "038-anm-010-01-q117",
+              "989-codevasf-010-01-q059",
+              "989-codevasf-010-01-q102",
+              "989-codevasf-010-01-q118",
+              "989-codevasf-010-01-q119",
+              "989-codevasf-010-01-q120",
+              "042-embrapa-analista-072-01-q084",
+              "042-embrapa-analista-072-01-q086",
+              "042-embrapa-analista-072-01-q087",
+              "042-embrapa-analista-072-01-q094",
+              "042-embrapa-analista-072-01-q096",
+              "042-embrapa-analista-072-01-q097",
+              "038-anm-013-01-q064",
+              "038-anm-013-01-q069",
+              "979-cnj-007-01-q067",
+              "979-cnj-007-01-q073",
+              "072-stm-004-01-q079",
+              "072-stm-004-01-q082",
+              "072-stm-004-01-q083",
+              "072-stm-004-01-q085",
+              "072-stm-004-01-q112",
+              "072-stm-004-01-q113",
+              "072-stm-004-01-q114",
+              "072-stm-004-01-q116",
+              "072-stm-004-01-q119",
+              "072-stm-004-01-q120",
+              "018-stj-006-01-q053",
+              "018-stj-006-01-q055",
+              "018-stj-006-01-q061",
+              "018-stj-006-01-q062",
+              "018-stj-006-01-q077",
+              "018-stj-006-01-q079",
+              "018-stj-006-01-q082",
+              "018-stj-006-01-q083",
+              "018-stj-006-01-q085",
+              "232funprespexe-002-01-q078",
+              "232funprespexe-002-01-q079",
+              "232funprespexe-002-01-q080",
+              "camara14-cb1-01-q079",
+              "camara14-cb1-01-q080",
+              "camara14-cb1-01-q081",
+              "camara14-cb1-01-q082",
+              "camara14-cb1-01-q083",
+              "camara14-cb1-01-q084",
+              "camara14-cb1-01-q097",
+              "camara14-cb1-01-q098",
+              "camara14-001-01-q126",
+              "camara14-001-01-q128",
+              "camara14-001-01-q129",
+              "camara14-001-01-q132",
+              "camara14-001-01-q197",
+              "108-tcutefc-001-01-q095",
+              "108-tcutefc-001-01-q096",
+              "803-tj-es-006-01-q067",
+              "803-tj-es-006-01-q072",
+              "893-dataprev-005-01-q104",
+              "893-dataprev-005-01-q107",
+              "893-dataprev-005-01-q108",
+              "893-dataprev-005-01-q109",
+              "893-dataprev-005-01-q110",
+              "893-dataprev-005-01-q114",
+              "153-telebras-008-01-q053",
+              "153-telebras-008-01-q061",
+              "153-telebras-008-01-q062",
+              "153-telebras-008-01-q095",
+              "153-telebras-008-01-q099",
+              "153-telebras-008-01-q101",
+              "153-telebras-008-01-q105",
+              "153-telebras-008-01-q106",
+              "205-funpresp-26-jud-009-01-q077",
+              "205-funpresp-26-jud-005-01-q053",
+              "205-funpresp-26-jud-005-01-q060",
+              "205-funpresp-26-jud-005-01-q076",
+              "205-funpresp-26-jud-005-01-q082",
+              "205-funpresp-26-jud-005-01-q108",
+              "camara-2014-area-xix-q131",
+              "camara-2014-area-xix-q165",
+              "camara-2014-area-xix-q196",
+              "153-telebras-008-01-q055",
+              "153-telebras-008-01-q066",
+              "153-telebras-008-01-q067",
+              "153-telebras-008-01-q072",
+              "153-telebras-008-01-q075",
+              "153-telebras-008-01-q096",
+              "153-telebras-008-01-q098",
+              "153-telebras-008-01-q104",
+              "205-funpresp-26-jud-005-01-q057",
+              "205-funpresp-26-jud-005-01-q065",
+              "205-funpresp-26-jud-005-01-q067",
+              "205-funpresp-26-jud-005-01-q071",
+              "205-funpresp-26-jud-005-01-q072",
+              "205-funpresp-26-jud-005-01-q080",
+              "205-funpresp-26-jud-005-01-q081",
+              "205-funpresp-26-jud-005-01-q094",
+              "205-funpresp-26-jud-005-01-q095",
+              "205-funpresp-26-jud-005-01-q096",
+              "205-funpresp-26-jud-005-01-q106",
+              "205-funpresp-26-jud-005-01-q107",
+              "205-funpresp-26-jud-005-01-q110",
+              "205-funpresp-26-jud-009-01-q076",
+              "mpo-2024-cg1-01-q073",
+              "tcdf-2024-psicologia-002-01-q146",
+              "tcdf-2024-psicologia-002-01-q150",
+              "tcdf-2024-psicologia-002-01-q152",
+              "tcdf-2024-psicologia-002-01-q154"
+            ],
+            "availableCE": 214,
+            "allocatedCE": 90,
+            "missingForThisAllocation": 0
+          }
+        ],
+        "scope": "Déficits por bloco descrevem esta correspondência máxima, não uma distribuição única. O mínimo adicional pressupõe novas questões compatíveis e distintas; não garante cobertura temática."
+      }
+    },
+    {
+      "roleId": "abdi-comunicacao-marketing",
+      "beforeEmpty": 12,
+      "afterEmpty": 12,
+      "directItems": 78,
+      "descendantsOnly": 7,
+      "questions": 261,
+      "formats": {
+        "multiple_choice": 101,
+        "true_false": 160
+      },
+      "items": [
+        {
+          "syllabusItemId": "abdi-2026-raciocinio-logico-3-4",
+          "label": "Diagramas lógicos.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-servicos-sociais-autonomos-1-3",
+          "label": "Autonomia administrativa e gestão de pessoal. Lei nº 11.080/2004, art. 11, §§ 1º a 4º.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "own_document_pair_not_confirmed",
+          "nextAction": "Buscar par oficial que examine o documento próprio atual. Leitura oficial disponível não equivale a questão liberada."
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-criacao-estatuto-2-1",
+          "label": "Lei nº 11.080/2004 e suas alterações, especialmente a Lei nº 14.440/2022.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "own_document_pair_not_confirmed",
+          "nextAction": "Buscar par oficial que examine o documento próprio atual. Leitura oficial disponível não equivale a questão liberada."
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-criacao-estatuto-2-2",
+          "label": "Decreto nº 5.352/2005 e suas alterações.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "own_document_pair_not_confirmed",
+          "nextAction": "Buscar par oficial que examine o documento próprio atual. Leitura oficial disponível não equivale a questão liberada."
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-licitacoes-convenios-3-1",
+          "label": "Regulamento de Licitações e Contratos da ABDI: princípios e disposições gerais.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "own_document_pair_not_confirmed",
+          "nextAction": "Buscar par oficial que examine o documento próprio atual. Leitura oficial disponível não equivale a questão liberada."
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-licitacoes-convenios-3-4",
+          "label": "Formalização, execução, fiscalização, alteração e extinção dos contratos.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "own_document_pair_not_confirmed",
+          "nextAction": "Buscar par oficial que examine o documento próprio atual. Leitura oficial disponível não equivale a questão liberada."
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-licitacoes-convenios-3-5",
+          "label": "Sanções e responsabilidades contratuais.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "own_document_pair_not_confirmed",
+          "nextAction": "Buscar par oficial que examine o documento próprio atual. Leitura oficial disponível não equivale a questão liberada."
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-licitacoes-convenios-3-7",
+          "label": "Celebração de convênios, plano de trabalho, habilitação e contrapartidas.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "own_document_pair_not_confirmed",
+          "nextAction": "Buscar par oficial que examine o documento próprio atual. Leitura oficial disponível não equivale a questão liberada."
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-licitacoes-convenios-3-8",
+          "label": "Execução, acompanhamento, fiscalização e alterações dos convênios.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "own_document_pair_not_confirmed",
+          "nextAction": "Buscar par oficial que examine o documento próprio atual. Leitura oficial disponível não equivale a questão liberada."
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-licitacoes-convenios-3-9",
+          "label": "Prestação de contas, responsabilidades e disposições finais.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "own_document_pair_not_confirmed",
+          "nextAction": "Buscar par oficial que examine o documento próprio atual. Leitura oficial disponível não equivale a questão liberada."
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-etica-missao-4-5",
+          "label": "Descumprimento das normas, medidas disciplinares, comunicação de irregularidades, denúncias e gestão do Regulamento de Ética e Conduta (arts. 18 a 25).",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "own_document_pair_not_confirmed",
+          "nextAction": "Buscar par oficial que examine o documento próprio atual. Leitura oficial disponível não equivale a questão liberada."
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-etica-missao-4-6",
+          "label": "Missão, visão, valores, diretrizes e objetivos estratégicos da ABDI, conforme o Planejamento Estratégico 2024–2029, aprovado pela Resolução do Conselho Deliberativo nº 008/2023.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "own_document_pair_not_confirmed",
+          "nextAction": "Buscar par oficial que examine o documento próprio atual. Leitura oficial disponível não equivale a questão liberada."
+        }
+      ],
+      "thinSamples": [
+        {
+          "syllabusItemId": "abdi-2026-lingua-portuguesa-2",
+          "label": "Reconhecimento de tipos e gêneros textuais.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-lingua-portuguesa-3",
+          "label": "Domínio da ortografia oficial.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-lingua-portuguesa-4-2",
+          "label": "Emprego de tempos e modos verbais.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-lingua-portuguesa-5",
+          "label": "Domínio da estrutura morfossintática do período.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-lingua-portuguesa-5-2",
+          "label": "Relações de coordenação entre orações e entre termos da oração.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-lingua-portuguesa-5-3",
+          "label": "Relações de subordinação entre orações e entre termos da oração.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-lingua-portuguesa-5-6",
+          "label": "Regência verbal e nominal.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-lingua-portuguesa-5-7",
+          "label": "Emprego do sinal indicativo de crase.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-lingua-portuguesa-5-8",
+          "label": "Colocação dos pronomes átonos.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-lingua-portuguesa-6-1",
+          "label": "Significação das palavras.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-lingua-portuguesa-6-2",
+          "label": "Substituição de palavras ou de trechos de texto.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-lingua-portuguesa-6-3",
+          "label": "Reorganização da estrutura de orações e de períodos do texto.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-lingua-portuguesa-6-4",
+          "label": "Reescrita de textos de diferentes gêneros e níveis de formalidade.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-raciocinio-logico-1",
+          "label": "Estruturas lógicas.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-raciocinio-logico-3-1",
+          "label": "Proposições simples e compostas.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-raciocinio-logico-3-2",
+          "label": "Tabelas-verdade.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-raciocinio-logico-3-3",
+          "label": "Equivalências.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-raciocinio-logico-4",
+          "label": "Lógica de primeira ordem.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-1",
+          "label": "Conceitos básicos de Informática: hardware, software, periféricos, dispositivos de entrada, saída e armazenamento, organização de arquivos e pastas e principais extensões de arquivos;",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-4",
+          "label": "LibreOffice 7.x ou superior, em português (Brasil): Writer, Calc e Impress;",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-5",
+          "label": "Internet e Intranet: conceitos, navegação, navegadores Google Chrome, Mozilla Firefox e Microsoft Edge, mecanismos de busca, webmail e demais serviços da Internet;",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-6",
+          "label": "Correio eletrônico: envio, recebimento, organização de mensagens, anexos, contatos e calendários;",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-8",
+          "label": "Computação em nuvem: armazenamento, sincronização, compartilhamento de arquivos e colaboração;",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-nocoes-informatica-10",
+          "label": "Digitalização, impressão, compartilhamento de documentos, teclas de atalho, recursos de acessibilidade e produtividade em sistemas operacionais e aplicativos.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-servicos-sociais-autonomos-1-1",
+          "label": "Conceito, características, natureza jurídica e finalidade dos Serviços Sociais Autônomos. Lei nº 11.080/2004, art. 1º, caput e § 1º, com redação dada pela Lei nº 14.440/2022; Decreto nº 5.352/2005, arts. 1º e 2º.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-servicos-sociais-autonomos-1-2",
+          "label": "Personalidade jurídica de direito privado, ausência de fins lucrativos, interesse coletivo e utilidade pública. Lei nº 11.080/2004, art. 1º, § 1º; Decreto nº 5.352/2005, art. 1º.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-servicos-sociais-autonomos-1-4",
+          "label": "Regime jurídico e relações com o Poder Público. Contrato de gestão, princípios aplicáveis e responsabilidades institucionais. Lei nº 11.080/2004, arts. 8º a 12; Decreto nº 5.352/2005, art. 10.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-criacao-estatuto-2-3",
+          "label": "Estatuto Social da ABDI: natureza, finalidade, princípios e competências institucionais.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-criacao-estatuto-2-4",
+          "label": "Organização administrativa e estrutura de governança.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-criacao-estatuto-2-5",
+          "label": "Conselho Deliberativo, Conselho Fiscal e Diretoria-Executiva: composição, competências e atribuições.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-licitacoes-convenios-3-3",
+          "label": "Contratação direta: dispensa e inexigibilidade.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-licitacoes-convenios-3-6",
+          "label": "Regulamento de Convênios da ABDI: disposições gerais, conceitos e modalidades.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-etica-missao-4-3",
+          "label": "Critérios de conduta profissional: mídias sociais, confidencialidade de informações, propriedade intelectual, utilização de recursos institucionais, doações e patrocínios (arts. 7º a 11 do Regulamento de Ética e Conduta).",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-etica-missao-4-4",
+          "label": "Conflito de interesses: atividades paralelas, atividades políticas, sindicais e religiosas, relacionamento entre profissionais, brindes, presentes, favores, participação em eventos e utilização de informações privilegiadas (arts. 12 a 17 do Regulamento de Ética e Conduta).",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-etica-missao-4-7",
+          "label": "Atuação institucional da ABDI: promoção do desenvolvimento industrial, inovação, transformação digital, difusão tecnológica, competitividade e sustentabilidade, conforme o art. 1º da Lei nº 11.080/2004, o art. 2º do Decreto nº 5.352/2005 e o Planejamento Estratégico 2024–2029.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-5",
+          "label": "Comunicação integrada.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-11",
+          "label": "Edição e revisão de conteúdos.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-15",
+          "label": "Produção e gestão de conteúdo multimídia.",
+          "beforeDirect": 1,
+          "afterDirect": 2,
+          "newQuestionIds": [
+            "fiocruz-2024-te58-q013"
+          ],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-18",
+          "label": "Planejamento e organização de eventos.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-21",
+          "label": "Relacionamento com públicos de interesse e comunidades.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        }
+      ],
+      "deepenedThinSamples": 1,
+      "readiness": {
+        "reviewedAt": "2026-10-29",
+        "checkedAt": "2026-10-29",
+        "roleId": "abdi-comunicacao-marketing",
+        "scope": "Exact distinct-ID matching across all official discipline quotas. CE remain training only. Capacity does not certify coverage or difficulty; later withdrawals can block the simulator.",
+        "distinctTrainingQuestions": 261,
+        "distinctMC": 101,
+        "distinctCE": 160,
+        "institutionalDistinctMC": 26,
+        "minimumAdditionalMC": 0,
+        "distribution": [
+          {
+            "block": "basic",
+            "disciplineId": "lingua-portuguesa",
+            "requiredMC": 8,
+            "availableDistinctMC": 10,
+            "missingForMinimum": 0
+          },
+          {
+            "block": "basic",
+            "disciplineId": "raciocinio-logico",
+            "requiredMC": 6,
+            "availableDistinctMC": 15,
+            "missingForMinimum": 0
+          },
+          {
+            "block": "basic",
+            "disciplineId": "abdi-nocoes-informatica",
+            "requiredMC": 6,
+            "availableDistinctMC": 15,
+            "missingForMinimum": 0
+          },
+          {
+            "block": "institutional",
+            "disciplineId": "abdi-servicos-sociais-autonomos",
+            "requiredMC": 4,
+            "availableDistinctMC": 7,
+            "missingForMinimum": 0
+          },
+          {
+            "block": "institutional",
+            "disciplineId": "abdi-criacao-estatuto",
+            "requiredMC": 4,
+            "availableDistinctMC": 6,
+            "missingForMinimum": 0
+          },
+          {
+            "block": "institutional",
+            "disciplineId": "abdi-licitacoes-convenios",
+            "requiredMC": 8,
+            "availableDistinctMC": 9,
+            "missingForMinimum": 0
+          },
+          {
+            "block": "institutional",
+            "disciplineId": "abdi-etica-missao",
+            "requiredMC": 4,
+            "availableDistinctMC": 9,
+            "missingForMinimum": 0
+          },
+          {
+            "block": "specific",
+            "disciplineId": "abdi-comunicacao-marketing",
+            "requiredMC": 20,
+            "availableDistinctMC": 47,
+            "missingForMinimum": 0
+          }
+        ],
+        "quotaCheck": {
+          "method": "Bipartite matching of distinct canonical MC IDs to every discipline quota slot, each ID assigned once.",
+          "requiredDistinctMC": 60,
+          "allocatableDistinctMC": 60,
+          "unfilledSlots": 0,
+          "assignments": [
+            {
+              "disciplineId": "lingua-portuguesa",
+              "questionIds": [
+                "128-tcemg-008-01-q044",
+                "alerj-2026-comunicacao-manha-tipo1-q001",
+                "alerj-2026-comunicacao-manha-tipo1-q002",
+                "alerj-2026-comunicacao-manha-tipo1-q003",
+                "alerj-2026-comunicacao-manha-tipo1-q004",
+                "alerj-2026-comunicacao-manha-tipo1-q005",
+                "alerj-2026-comunicacao-manha-tipo1-q006",
+                "alerj-2026-comunicacao-manha-tipo1-q008"
+              ]
+            },
+            {
+              "disciplineId": "raciocinio-logico",
+              "questionIds": [
+                "abdi-2008-assistente-compras-servicos-q021",
+                "abdi-2008-assistente-compras-servicos-q023",
+                "abdi-2008-assistente-compras-servicos-q024",
+                "abdi-2008-assistente-compras-servicos-q025",
+                "abdi-2008-assistente-compras-servicos-q026",
+                "abdi-2008-assistente-compras-servicos-q027"
+              ]
+            },
+            {
+              "disciplineId": "abdi-nocoes-informatica",
+              "questionIds": [
+                "alerj-2026-comunicacao-manha-tipo1-q011",
+                "alerj-2026-comunicacao-manha-tipo1-q012",
+                "alerj-2026-comunicacao-manha-tipo1-q013",
+                "alerj-2026-comunicacao-manha-tipo1-q014",
+                "alerj-2026-comunicacao-manha-tipo1-q015",
+                "alerj-2026-comunicacao-manha-tipo1-q016"
+              ]
+            },
+            {
+              "disciplineId": "abdi-servicos-sociais-autonomos",
+              "questionIds": [
+                "344-dpeal-001-01-q009",
+                "abdi-2008-iniciante-processos-q020",
+                "abdi-2008-senior-juridico-q018",
+                "tjrr-2024-direito-tipo1-q050"
+              ]
+            },
+            {
+              "disciplineId": "abdi-criacao-estatuto",
+              "questionIds": [
+                "abdi-2008-especialista-analise-economica-q014",
+                "abdi-2008-especialista-controle-interno-auditoria-q018",
+                "abdi-2008-especialista-juridico-q019",
+                "abdi-2008-especialista-juridico-q020"
+              ]
+            },
+            {
+              "disciplineId": "abdi-licitacoes-convenios",
+              "questionIds": [
+                "abdi-2008-especialista-administrativo-financeiro-q012",
+                "abdi-2008-especialista-analise-economica-q012",
+                "abdi-2008-iniciante-licitacoes-contratos-q011",
+                "abdi-2008-iniciante-licitacoes-contratos-q013",
+                "abdi-2008-iniciante-licitacoes-contratos-q014",
+                "abdi-2008-pleno-servicos-gerais-q011",
+                "abdi-2008-pleno-servicos-gerais-q012",
+                "abdi-2008-projetos-biotecnologia-q012"
+              ]
+            },
+            {
+              "disciplineId": "abdi-etica-missao",
+              "questionIds": [
+                "abdi-2008-iniciante-licitacoes-contratos-q020",
+                "cgu-2022-auditoria-tarde-tipo1-q043",
+                "fiocruz-2024-te58-q038",
+                "tjrr-2024-direito-tipo1-q019"
+              ]
+            },
+            {
+              "disciplineId": "abdi-comunicacao-marketing",
+              "questionIds": [
+                "128-tcemg-008-01-q031",
+                "128-tcemg-008-01-q039",
+                "128-tcemg-008-01-q043",
+                "128-tcemg-008-01-q045",
+                "539-alce-016-01-q021",
+                "539-alce-016-01-q022",
+                "539-alce-016-01-q023",
+                "539-alce-016-01-q025",
+                "539-alce-016-01-q026",
+                "539-alce-016-01-q027",
+                "539-alce-016-01-q058",
+                "abdi-2008-senior-assessor-comunicacao-q013",
+                "abdi-2008-senior-assessor-comunicacao-q016",
+                "alerj-2026-comunicacao-manha-tipo1-q051",
+                "alerj-2026-comunicacao-manha-tipo1-q053",
+                "alerj-2026-comunicacao-manha-tipo1-q056",
+                "alerj-2026-comunicacao-manha-tipo1-q058",
+                "alerj-2026-comunicacao-manha-tipo1-q059",
+                "alerj-2026-comunicacao-manha-tipo1-q060",
+                "alerj-2026-comunicacao-manha-tipo1-q061"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "roleId": "cgu-auditoria",
+      "beforeEmpty": 60,
+      "afterEmpty": 52,
+      "directItems": 148,
+      "descendantsOnly": 66,
+      "questions": 358,
+      "formats": {
+        "multiple_choice": 80,
+        "true_false": 278
+      },
+      "items": [
+        {
+          "syllabusItemId": "cgu-2026-estado-democracia-7-2",
+          "label": "Captura de políticas e influência indevida; distinção entre representação legítima de interesses e favorecimento.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-estado-democracia-8-2",
+          "label": "Relações entre prevenção, detecção, responsabilização e reparação; controles democráticos, participação e capacidades estatais.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-estado-democracia-8-3",
+          "label": "Avaliação crítica das respostas e de seus efeitos não pretendidos, preservados o devido processo e a continuidade de serviços essenciais.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-estado-democracia-9-2",
+          "label": "Papel das empresas estatais no investimento de longo prazo, na infraestrutura, no financiamento e na prestação de serviços públicos.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-estado-democracia-9-3",
+          "label": "Relações entre finalidade pública, concorrência, universalização, sustentabilidade fiscal e socioambiental; capacidades estatais, riscos de captura e efeitos distributivos.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-estado-democracia-9-4",
+          "label": "Fundamentos constitucionais da atuação econômica do Estado e comparação de alternativas institucionais à luz de objetivos, evidências e resultados.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-etica-publica-2-2",
+          "label": "Aplicação dos valores e deveres de conduta ética da CGU a situações de trabalho.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-etica-publica-3-1",
+          "label": "Identificação de interesses privados em conflito com a função pública e medidas de prevenção, consulta e encaminhamento, nos termos dos arts. 3º a 5º, 8º e 10 da Lei nº 12.813/2013.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-etica-publica-4-2",
+          "label": "Distinção entre acolher uma pessoa, verificar fatos e atribuir responsabilidade.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-governanca-riscos-integridade-3-2",
+          "label": "Prevenção de favorecimento, assédio e discriminação; ambiente seguro e não retaliação.",
+          "previousState": "empty",
+          "currentState": "direct",
+          "questionIds": [
+            "tcdf-2024-psicologia-002-01-q160"
+          ],
+          "fullCoverageCertified": false,
+          "disposition": "first_partial_sample",
+          "nextAction": "Ampliar componentes e variedade; conferir os limites no comentário."
+        },
+        {
+          "syllabusItemId": "cgu-2026-governanca-riscos-integridade-4",
+          "label": "Integridade privada.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-governanca-riscos-integridade-4-1",
+          "label": "Finalidades dos programas de integridade e sua relação com o poder público; compromisso da direção, registros confiáveis, controles, diligência proporcional sobre terceiros, canais de relato e remediação.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-governanca-riscos-integridade-4-2",
+          "label": "Diferença entre existência documental, implementação e efetividade dos mecanismos.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-governanca-riscos-integridade-5",
+          "label": "Prevenção e melhoria institucional.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-governanca-riscos-integridade-5-1",
+          "label": "Cultura, incentivos e confiança; diferenças de capacidade entre organizações; orientação e medidas proporcionais.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-governanca-riscos-integridade-5-2",
+          "label": "Denúncias e resultados de controle como insumos de melhoria.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-governanca-riscos-integridade-5-3",
+          "label": "Distinção entre baixa ocorrência e baixa detecção de problemas; leitura de evidências simples sobre funcionamento e resultados das medidas.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-transparencia-ouvidoria-3-3",
+          "label": "Distinção entre receber um relato, apurar fatos e decidir sobre responsabilidade.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-transparencia-ouvidoria-4-2",
+          "label": "Recorrências em manifestações como sinais de problemas.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-transparencia-ouvidoria-4-2-1",
+          "label": "Subnotificação.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-transparencia-ouvidoria-4-4",
+          "label": "Papel da CGU na orientação e no monitoramento da transparência e do acesso à informação, em nível de finalidade institucional.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-transparencia-ouvidoria-5-3-1",
+          "label": "Distinção entre crítica legítima e desinformação.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-direito-controle-responsabilizacao-3-4",
+          "label": "Distinção entre avaliar a gestão, apurar fatos e aplicar sanções; cooperação e compartilhamento lícito de informações.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-direito-controle-responsabilizacao-5",
+          "label": "Proteção e encaminhamento.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-direito-controle-responsabilizacao-5-1",
+          "label": "Distinção entre acolhimento, medidas de proteção, apuração de fatos e conclusão sancionadora, especialmente diante de assédio e discriminação; finalidades e garantias de cada atuação.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-evidencias-dados-ia-2-2",
+          "label": "Distinção entre indicadores de percepção, experiência, denúncias, detecção e sanções na análise da corrupção; subnotificação e limites de inferência sobre sua ocorrência.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-atuacao-integrada-1-3",
+          "label": "Finalidades e diferenças entre as três formas de atuação da SFC; relação com a gestão, correição e avaliação de políticas.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-atuacao-integrada-5",
+          "label": "Integração entre funções da CGU.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-atuacao-integrada-5-1",
+          "label": "Denúncias e informações de ouvidoria e transparência como insumos de risco; achados como subsídios para admissibilidade correcional e responsabilização de entes privados.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-atuacao-integrada-5-2",
+          "label": "Resultados do controle como insumos de integridade e melhoria de serviços; compartilhamento lícito, devolutivas e proteção.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-auditoria-governamental-1-1",
+          "label": "Seleção da forma de atuação conforme o problema, objetivos e riscos.",
+          "previousState": "empty",
+          "currentState": "direct",
+          "questionIds": [
+            "cgesp-2025-audit-am-q023"
+          ],
+          "fullCoverageCertified": false,
+          "disposition": "first_partial_sample",
+          "nextAction": "Ampliar componentes e variedade; conferir os limites no comentário."
+        },
+        {
+          "syllabusItemId": "cgu-2026-auditoria-governamental-1-5",
+          "label": "Distinção entre apuração no controle interno, investigação correcional e processo sancionador; acompanhamento de providências e aprendizado institucional.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-auditoria-governamental-2-2",
+          "label": "Relação entre perguntas de auditoria e de avaliação de políticas, respeitadas suas finalidades e seus desenhos.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-auditoria-governamental-6-2",
+          "label": "Asseguração e melhoria da qualidade dos trabalhos; avaliação de capacidade da atividade de auditoria a partir de evidências e planos de melhoria.",
+          "previousState": "empty",
+          "currentState": "direct",
+          "questionIds": [
+            "cgesp-2025-audit-am-q030",
+            "cgesp-2025-audit-pm-q006"
+          ],
+          "fullCoverageCertified": false,
+          "disposition": "first_partial_sample",
+          "nextAction": "Ampliar componentes e variedade; conferir os limites no comentário."
+        },
+        {
+          "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-5-1",
+          "label": "Comprovação da despesa e conexão físico-financeira; comparação entre recursos, custos e entregas.",
+          "previousState": "empty",
+          "currentState": "direct",
+          "questionIds": [
+            "cgesp-2025-fin-pm-q023"
+          ],
+          "fullCoverageCertified": false,
+          "disposition": "first_partial_sample",
+          "nextAction": "Ampliar componentes e variedade; conferir os limites no comentário."
+        },
+        {
+          "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-6-1",
+          "label": "Distinção entre informação societária e contabilidade aplicada ao setor público.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-7-2",
+          "label": "Finalidade pública, sustentabilidade econômico-financeira e prestação de contas; conflitos de interesses e controles.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-7-3",
+          "label": "Relação entre mandatos de política pública, estratégias empresariais, recursos empregados e resultados sociais e econômicos; custos, riscos e transparência dos compromissos assumidos.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-7-4",
+          "label": "Coerência entre objetivos, recursos e resultados divulgados; compromissos de políticas públicas e informações da carta anual.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-1-2",
+          "label": "Relação entre problema, pressupostos, hipóteses e evidências; explicações alternativas e efeitos não pretendidos.",
+          "previousState": "empty",
+          "currentState": "direct",
+          "questionIds": [
+            "cgesp-2025-audit-pm-q042"
+          ],
+          "fullCoverageCertified": false,
+          "disposition": "first_partial_sample",
+          "nextAction": "Ampliar componentes e variedade; conferir os limites no comentário."
+        },
+        {
+          "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-1-3",
+          "label": "Avaliabilidade e compatibilidade entre pergunta e informação disponível.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-4-2",
+          "label": "Análise de processos e hipóteses de mecanismo; triangulação e integração de evidências quantitativas e qualitativas; limites de generalização.",
+          "previousState": "empty",
+          "currentState": "direct",
+          "questionIds": [
+            "cgesp-2025-fin-pm-q057"
+          ],
+          "fullCoverageCertified": false,
+          "disposition": "first_partial_sample",
+          "nextAction": "Ampliar componentes e variedade; conferir os limites no comentário."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-1-2",
+          "label": "Integração de manifestações de ouvidoria, dados de transparência, achados de auditoria e informações correcionais.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-2-4",
+          "label": "Análise de reclamações, solicitações, sugestões e outras manifestações; escuta de usuários e não usuários, participação, representatividade, barreiras de acesso e subnotificação.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-2-5",
+          "label": "Utilização dos resultados para aperfeiçoar serviços e orientar o controle.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-3",
+          "label": "Proteção do denunciante e tratamento seguro dos relatos.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-3-1",
+          "label": "Salvaguardas da identidade do denunciante desde o recebimento do relato; pseudonimização, acesso por necessidade de conhecer, rastreabilidade e condições legais de compartilhamento ou revelação.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-3-2",
+          "label": "Identificação de riscos e práticas de retaliação; medidas preventivas, protetivas e reparadoras e competências para sua adoção.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-3-3",
+          "label": "Acolhimento e prevenção de revitimização em situações de assédio e discriminação.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-3-4",
+          "label": "Articulação entre proteção, preservação de evidências, apuração e direitos de defesa.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-4-2",
+          "label": "Compromisso da liderança, cultura, incentivos, registros, controles, diligência sobre terceiros, canais de relato e remediação.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-4-3",
+          "label": "Avaliação de maturidade e planos de melhoria proporcionais ao contexto e à capacidade institucional.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-4-5",
+          "label": "Prevenção de assédio e discriminação como dimensão da integridade organizacional.",
+          "previousState": "empty",
+          "currentState": "direct",
+          "questionIds": [
+            "tcdf-2024-psicologia-002-01-q160"
+          ],
+          "fullCoverageCertified": false,
+          "disposition": "first_partial_sample",
+          "nextAction": "Ampliar componentes e variedade; conferir os limites no comentário."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-5-5",
+          "label": "Distinção entre achado de controle e imputação de responsabilidade.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-6-2",
+          "label": "Aplicação dos marcos prescricionais e dos critérios de dosimetria; fundamentação da sanção e da reparação do dano em casos concretos.",
+          "previousState": "empty",
+          "currentState": "direct",
+          "questionIds": [
+            "cgesp-2025-cor-pm-q002"
+          ],
+          "fullCoverageCertified": false,
+          "disposition": "first_partial_sample",
+          "nextAction": "Ampliar componentes e variedade; conferir os limites no comentário."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-6-4",
+          "label": "Termo de ajustamento de conduta: requisitos, proporcionalidade e acompanhamento.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-7-1",
+          "label": "Conversão de manifestações, avaliações e apurações em medidas de melhoria da gestão, da integridade e dos serviços.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-7-2",
+          "label": "Planos de ação, responsabilidades, indicadores e acompanhamento de compromissos.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-7-3",
+          "label": "Avaliação da implementação e dos efeitos das medidas sobre recorrência, acesso a direitos e confiança.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-7-4",
+          "label": "Distinção entre redução de ocorrências e redução da detecção.",
+          "previousState": "empty",
+          "currentState": "empty",
+          "questionIds": [],
+          "fullCoverageCertified": false,
+          "disposition": "compatible_pair_not_released",
+          "nextAction": "Buscar par oficial completo com gabarito definitivo, texto/contexto e componente diretamente compatíveis."
+        }
+      ],
+      "thinSamples": [
+        {
+          "syllabusItemId": "cgu-2026-estado-democracia-6-1",
+          "label": "Abuso do poder confiado e apropriação de decisões públicas em benefício particular; dimensões política, administrativa e público-privada.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-estado-democracia-6-2",
+          "label": "Distinções entre corrupção, falha de gestão, conflito de interesses e ilícitos específicos; relações e diferenças entre clientelismo, patronagem, nepotismo e captura.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-estado-democracia-7-1",
+          "label": "Assimetrias de poder e informação, incentivos e oportunidades; relações principal-agente e problemas de ação coletiva; normas sociais, tolerância organizacional e redes de favorecimento.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-estado-democracia-8-1",
+          "label": "Efeitos sobre direitos, desigualdades, competição, alocação de recursos, qualidade dos serviços e confiança institucional.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-estado-democracia-9-1",
+          "label": "Arranjos de desenvolvimento com diferentes combinações de mercado, planejamento, regulação, provisão pública e atuação empresarial do Estado; industrialização, inovação e transformação produtiva.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-sociedade-brasileira-1-1",
+          "label": "Instituições, socialização e ação coletiva; estratificação e mobilidade social; redes, poder, discriminação e reprodução das desigualdades.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-sociedade-brasileira-2-1",
+          "label": "Heranças da escravidão, hierarquias sociais e construção da cidadania; transformações nas relações entre Estado e sociedade; mecanismos de inclusão e exclusão institucional.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-sociedade-brasileira-4-1",
+          "label": "Relações étnico- raciais, gênero e sexualidade; pessoas com deficiência; idade; povos indígenas e comunidades tradicionais. Interseccionalidade, acessibilidade e barreiras administrativas e digitais.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-sociedade-brasileira-5-1",
+          "label": "Pobreza, renda e proteção social; educação, saúde, saneamento e habitação como problemas públicos; sustentabilidade e vulnerabilidade climática; leitura contextual de indicadores e desigualdades.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-etica-publica-1-1",
+          "label": "Interesse público, dignidade, justiça e responsabilidade; relações entre deveres, consequências e virtudes profissionais; conflitos entre valores em decisões públicas.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-etica-publica-2-1",
+          "label": "Imparcialidade, probidade, diligência e respeito; autonomia técnica e responsabilidade; limites da obediência hierárquica; uso adequado de informação e recursos públicos.",
+          "beforeDirect": 1,
+          "afterDirect": 2,
+          "newQuestionIds": [
+            "cgesp-2025-audit-am-q022"
+          ],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-etica-publica-3-2",
+          "label": "Impedimento e suspeição no processo administrativo federal, nos termos dos arts. 18 a 21 da Lei nº 9.784/1999; comunicação e abstenção quando exigidas.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-etica-publica-4-1",
+          "label": "Dignidade, diversidade e relações de poder; reconhecimento e prevenção de assédio e discriminação; respeito, escuta e não retaliação.",
+          "beforeDirect": 1,
+          "afterDirect": 3,
+          "newQuestionIds": [
+            "cgesp-2025-audit-am-q022",
+            "tcdf-2024-psicologia-002-01-q160"
+          ],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-etica-publica-5-1",
+          "label": "Coerência entre regras e práticas; ambiente organizacional e incentivos; canais de orientação e relato; papel do exemplo, da confiança e da prestação de contas.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-administracao-publica-5-1",
+          "label": "Orientação ao usuário; simplificação e acessibilidade; coordenação de serviços; oportunidades e riscos da automação e da inteligência artificial na administração.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-governanca-riscos-integridade-2-2",
+          "label": "Identificação de vulnerabilidades e de controles compatíveis com situações usuais, a partir dos dados fornecidos.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-governanca-riscos-integridade-3-1",
+          "label": "Finalidades dos programas e medidas de integridade; compromisso da liderança, orientação ética, identificação de riscos, canais de relato e acompanhamento de ações.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-transparencia-ouvidoria-1",
+          "label": "Acesso à informação.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-transparencia-ouvidoria-2-2",
+          "label": "Diferença entre dados pessoais e dados pessoais sensíveis; noções de tarjamento, anonimização e risco de reidentificação.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-transparencia-ouvidoria-3-1",
+          "label": "Finalidades das manifestações; acolhimento, encaminhamento e resposta ao usuário; acessibilidade e linguagem cidadã.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-transparencia-ouvidoria-3-2",
+          "label": "Proteção da identidade e prevenção de retaliação.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-transparencia-ouvidoria-5-1",
+          "label": "Confiabilidade e contexto das fontes; distinção entre fato, alegação e interpretação.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-transparencia-ouvidoria-5-2",
+          "label": "Desinformação e efeitos sobre políticas públicas; comunicação de incertezas e correção de erros.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-transparencia-ouvidoria-5-3",
+          "label": "Liberdade de expressão e pluralismo.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-direito-controle-responsabilizacao-2-1",
+          "label": "Devido processo, contraditório, defesa e imparcialidade; finalidade da instrução e da prova.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-direito-controle-responsabilizacao-2-2",
+          "label": "Distinção entre procedimento investigativo e processo sancionador; proteção de direitos e necessidade de fundamentar conclusões.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-direito-controle-responsabilizacao-3-1",
+          "label": "Finalidades do controle interno, externo e social; inserção institucional da CGU no Poder Executivo federal.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-direito-controle-responsabilizacao-3-2",
+          "label": "Avaliação da ação governamental e apoio ao aprimoramento da gestão, da governança, dos controles e dos resultados das políticas públicas; prevenção, detecção e correção de irregularidades.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-direito-controle-responsabilizacao-4",
+          "label": "Responsabilização em nível introdutório.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-direito-controle-responsabilizacao-4-1",
+          "label": "Distinção entre indício, falha de gestão, irregularidade e responsabilidade.",
+          "beforeDirect": 1,
+          "afterDirect": 2,
+          "newQuestionIds": [
+            "cgesp-2025-cor-pm-q012"
+          ],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-direito-controle-responsabilizacao-4-2",
+          "label": "Finalidades e diferenças entre responsabilização de agentes públicos e de pessoas jurídicas; noções de admissibilidade, processo disciplinar, processo administrativo de responsabilização e acordo de leniência.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-evidencias-dados-ia-1-1",
+          "label": "Relação entre problema, pergunta e informação necessária; fontes documentais, administrativas, estatísticas e de participação social.",
+          "beforeDirect": 2,
+          "afterDirect": 3,
+          "newQuestionIds": [
+            "tcdf-2024-psicologia-002-01-q145"
+          ],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-evidencias-dados-ia-3-1",
+          "label": "Associação e causalidade; seleção e representatividade; explicações alternativas e incerteza.",
+          "beforeDirect": 2,
+          "afterDirect": 4,
+          "newQuestionIds": [
+            "cgesp-2025-audit-pm-q051",
+            "cgesp-2025-fin-pm-q059"
+          ],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-evidencias-dados-ia-3-2",
+          "label": "Generalizações indevidas, falácia ecológica e viés de confirmação; falsos positivos e falsos negativos.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-evidencias-dados-ia-4-2",
+          "label": "Escuta sem indução, confidencialidade e risco de identificação indireta.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-evidencias-dados-ia-4-3",
+          "label": "Distinção entre as condições e os regimes de proteção de entrevistados em auditoria, participantes de pesquisa e denunciantes.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-evidencias-dados-ia-5-3",
+          "label": "Verificação de fontes e limites da automação de decisões que afetam direitos.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-atuacao-integrada-1-1",
+          "label": "Contribuição da auditoria para a governança, os riscos, os controles e os resultados.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-atuacao-integrada-1-2",
+          "label": "Avaliação e consultoria como serviços de auditoria interna governamental; apuração de atos e fatos com indícios de ilegalidade ou irregularidade na utilização de recursos públicos federais como competência do sistema de controle interno.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-atuacao-integrada-2-1",
+          "label": "Planejamento, execução, comunicação e monitoramento; finalidade de objetivos, escopo, critérios e perguntas.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-atuacao-integrada-2-2",
+          "label": "Priorização por risco, materialidade e relevância social em nível conceitual; adequação do trabalho às finalidades de avaliação, consultoria ou apuração.",
+          "beforeDirect": 1,
+          "afterDirect": 2,
+          "newQuestionIds": [
+            "cgesp-2025-audit-am-q023"
+          ],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-atuacao-integrada-2-3",
+          "label": "Apoio à melhoria da gestão com preservação da autonomia técnica e das responsabilidades de decisão e execução dos gestores.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-atuacao-integrada-3-2",
+          "label": "Distinção entre sinal de risco, evidência e conclusão; necessidade de aprofundamento e proporcionalidade da afirmação.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-atuacao-integrada-4-1",
+          "label": "Clareza, contexto e utilidade dos resultados; publicidade e proteção de pessoas e informações.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-atuacao-integrada-4-2",
+          "label": "Recomendações relacionadas a causas e riscos; distinção entre plano de ação, implementação, resultado e benefício.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-auditoria-governamental-1-3",
+          "label": "Consultoria: análise da demanda, pactuação de objetivos, escopo e produtos; assessoramento, aconselhamento e facilitação; salvaguardas de objetividade e limites à assunção de responsabilidades gerenciais.",
+          "beforeDirect": 1,
+          "afterDirect": 2,
+          "newQuestionIds": [
+            "cgesp-2025-audit-am-q023"
+          ],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-auditoria-governamental-1-4",
+          "label": "Apuração: delimitação dos fatos e hipóteses, planejamento de diligências, reunião e preservação de elementos probatórios, análise de possíveis prejuízos e comunicação às instâncias competentes.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-auditoria-governamental-2-3",
+          "label": "Coordenação de equipes e mudanças de escopo sem comprometer a inferência conjunta; seleção aleatória e por risco e seus propósitos.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-auditoria-governamental-5-1",
+          "label": "Testes sobre qualidade de dados, controles e rastreabilidade; desenho de validações independentes; riscos de viés, erro e mudança de desempenho; supervisão e governança de sistemas automatizados; limites do uso de IA como evidência.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-1-1",
+          "label": "Funções alocativa, distributiva e estabilizadora; bens públicos, externalidades e monopólios naturais; financiamento de políticas e federalismo fiscal.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-1-2",
+          "label": "Progressividade, regressividade e neutralidade da tributação; resultados primário e nominal, déficit e necessidades de financiamento; restrições, riscos e sustentabilidade fiscal em análise aplicada.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-2-2",
+          "label": "Programação orçamentária e financeira; limites de empenho e pagamento, contingenciamento e bloqueio no escopo do programa.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-4",
+          "label": "Informação contábil aplicada ao controle.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-5",
+          "label": "Custos e análise da execução.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-5-2",
+          "label": "Interpretação de informações de custos e de indicadores de execução e eficiência, observadas comparabilidade, bases de cálculo e limitações.",
+          "beforeDirect": 2,
+          "afterDirect": 3,
+          "newQuestionIds": [
+            "cgesp-2025-audit-pm-q050"
+          ],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-7-1",
+          "label": "Papéis e responsabilidades do Estado como proprietário das empresas estatais e gestor de seus administradores, dos conselhos de administração e fiscal e das instâncias de auditoria e fiscalização.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-1",
+          "label": "Problema, desenho e avaliabilidade.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-2-2",
+          "label": "Processos e projetos como instrumentos de entrega; responsabilidades, riscos e marcos de execução.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-2-3",
+          "label": "Assessoramento, cooperação e adaptação de soluções com preservação de direitos e controles.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3",
+          "label": "Monitoramento e desenhos de avaliação.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-4",
+          "label": "Pré-teste e estudo-piloto; critérios de julgamento e seleção do desenho adequado à pergunta.",
+          "beforeDirect": 1,
+          "afterDirect": 4,
+          "newQuestionIds": [
+            "cgesp-2025-audit-pm-q049",
+            "cgesp-2025-fin-pm-q057",
+            "tcdf-2024-psicologia-002-01-q146"
+          ],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-5-2",
+          "label": "Diferenças em diferenças, regressão descontínua e pareamento em interpretação aplicada, com hipóteses e ameaças à validade.",
+          "beforeDirect": 2,
+          "afterDirect": 4,
+          "newQuestionIds": [
+            "cgesp-2025-audit-pm-q049",
+            "cgesp-2025-fin-pm-q059"
+          ],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-5-3",
+          "label": "Custo-efetividade e custo-benefício, custo de oportunidade e sensibilidade; heterogeneidade de efeitos, equidade e impactos territoriais.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-6-1",
+          "label": "Validade interna e externa, incerteza e resultados nulos; comparação de alternativas e recomendações proporcionais e exequíveis.",
+          "beforeDirect": 2,
+          "afterDirect": 4,
+          "newQuestionIds": [
+            "cgesp-2025-fin-pm-q058",
+            "cgesp-2025-fin-pm-q059"
+          ],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-6-2",
+          "label": "Priorização, escuta, adaptação e condições de implementação; acompanhamento de benefícios e efeitos distributivos.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-6-3",
+          "label": "Distinção entre plano, implementação e resultados, com evidências adequadas a cada etapa.",
+          "beforeDirect": 1,
+          "afterDirect": 3,
+          "newQuestionIds": [
+            "cgesp-2025-fin-pm-q055",
+            "cgesp-2025-fin-pm-q060"
+          ],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-7-1",
+          "label": "Dignidade, privacidade e segurança das pessoas; riscos de coerção, exposição e reidentificação; informação e consentimento quando cabível.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-7-2",
+          "label": "Integridade dos registros, autoria e prevenção de plágio, fabricação ou seleção indevida de evidências.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-7-3",
+          "label": "Distinção entre auditoria e pesquisa científica envolvendo seres humanos; finalidades, proteção dos participantes e requisitos de apreciação ética.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-contratacoes-transferencias-3",
+          "label": "Transferências e parcerias.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-contratacoes-transferencias-3-1",
+          "label": "Objetivos, instrumentos, planos de trabalho e obrigações; seleção e execução; acompanhamento e prestação de contas; capacidades locais e responsabilidades dos participantes.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-contratacoes-transferencias-4-1",
+          "label": "Concentração e vínculos entre fornecedores; fracionamento e padrões atípicos; comprovação física e documental; cruzamentos de dados; limites de amostras dirigidas por risco.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-contratacoes-transferencias-5-1",
+          "label": "Dano e critérios para sua demonstração; correção de processos, proteção de usuários e recuperação de recursos; interfaces com responsabilização e integridade; recomendações proporcionais.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-1-1",
+          "label": "Análise de vulnerabilidades, incentivos, conflitos e capacidades institucionais; articulação entre governança, riscos e controles.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-1-3",
+          "label": "Definição de prioridades e combinação de respostas preventivas, corretivas e de responsabilização; competências, motivação, proporcionalidade, consequências práticas e condições de atuação.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-2",
+          "label": "Informação, participação e qualidade dos serviços.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-4-1",
+          "label": "Diagnóstico de riscos e avaliação da existência, implementação e efetividade de programas de integridade.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-4-4",
+          "label": "Análise de conflitos de interesses, impedimentos, favorecimento e exercício de atividade privada; medidas de prevenção, orientação e tratamento.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-5-3",
+          "label": "Responsabilidade objetiva da pessoa jurídica e requisitos de ato lesivo e interesse ou benefício.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-5-4",
+          "label": "Licitude, suficiência e valoração da prova; compartilhamento entre instâncias, contraditório, defesa e motivação.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-6",
+          "label": "Instrumentos de responsabilização e soluções consensuais.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-6-3",
+          "label": "Acordo de leniência: requisitos, colaboração, efeitos, obrigações de integridade e limites.",
+          "beforeDirect": 2,
+          "afterDirect": 2,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-6-5",
+          "label": "Coordenação entre instâncias, distinção entre sanção e reparação e consideração das sanções relativas ao mesmo fato nos termos legais.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        },
+        {
+          "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-7-5",
+          "label": "Comunicação pública de resultados, contextualização de informações, proteção de pessoas e prestação de contas.",
+          "beforeDirect": 1,
+          "afterDirect": 1,
+          "newQuestionIds": [],
+          "fullCoverageCertified": false
+        }
+      ],
+      "deepenedThinSamples": 12,
+      "readiness": {
+        "roleId": "cgu-auditoria",
+        "ruleId": "cgu-2026-auditoria-objetivas",
+        "ruleVersion": 1,
+        "ready": true,
+        "requiredCE": 170,
+        "distinctCE": 278,
+        "allocatableDistinctCE": 170,
+        "minimumAdditionalCE": 0,
+        "blocks": [
+          {
+            "blockId": "basic",
+            "label": "Conhecimentos básicos",
+            "required": 40,
+            "questionIds": [
+              "038-anm-cg1-01-q018",
+              "camara-2014-area-xix-q113",
+              "camara-2014-area-xix-q134",
+              "camara-2014-area-xix-q135",
+              "camara-2014-area-xix-q138",
+              "camara-2014-area-xix-q140",
+              "camara-2014-cb2-03-q071",
+              "camara-2014-cb2-03-q101",
+              "camara-2014-cb2-03-q105",
+              "camara-2014-area-xix-q111",
+              "camara-2014-area-xix-q115",
+              "camara-2014-area-xix-q116",
+              "camara-2014-area-xix-q126",
+              "camara-2014-area-xix-q136",
+              "094-pf-cb1-01-q043",
+              "094-pf-cb1-01-q047",
+              "959-bcb-cb1-01-q038",
+              "094-pf-cb1-01-q036",
+              "094-pf-cb1-01-q039",
+              "094-pf-cb1-01-q040",
+              "094-pf-cb1-01-q041",
+              "camara-2014-area-xix-q112",
+              "camara-2014-area-xix-q118",
+              "camara-2014-area-xix-q119",
+              "camara-2014-area-xix-q120",
+              "camara-2014-area-xix-q121",
+              "camara-2014-area-xix-q122",
+              "camara-2014-area-xix-q129",
+              "camara-2014-area-xix-q130",
+              "camara-2014-area-xix-q155",
+              "camara-2014-area-xix-q156",
+              "018-stj-cb1-01-q023",
+              "038-anm-013-01-q053",
+              "038-anm-013-01-q119",
+              "094-pf-cb1-01-q022",
+              "979-cnj-007-01-q052",
+              "979-cnj-007-01-q054",
+              "979-cnj-007-01-q062",
+              "803-tj-es-006-01-q099",
+              "803-tj-es-006-01-q100",
+              "153-telebras-003-01-q076",
+              "camara-2014-area-xix-q165",
+              "camara-2014-area-xix-q196",
+              "993-tce-ac-014-01-q056",
+              "993-tce-ac-014-01-q058",
+              "993-tce-ac-014-01-q075",
+              "993-tce-ac-014-01-q076",
+              "993-tce-ac-016-01-q091",
+              "993-tce-ac-016-01-q098",
+              "993-tce-ac-016-01-q100",
+              "993-tce-ac-016-01-q111",
+              "993-tce-ac-016-01-q112",
+              "057-ibama-001-01-q094",
+              "057-ibama-001-01-q096",
+              "896-tcdf-002-01-q134",
+              "896-tcdf-ce1-01-q039",
+              "896-tcdf-ce1-01-q040",
+              "896-tcdf-ce1-01-q045",
+              "993-tce-ac-014-01-q097",
+              "993-tce-ac-014-01-q098",
+              "993-tce-ac-014-01-q100",
+              "993-tce-ac-014-01-q101",
+              "mpo-2024-cg1-01-q034",
+              "mpo-2024-cg1-01-q037",
+              "mpo-2024-cg1-01-q054",
+              "mpo-2024-cg1-01-q055",
+              "mpo-2024-cg1-01-q056",
+              "mpo-2024-001-01-q044",
+              "inss-2022-cb1-01-q015",
+              "inss-2022-cb1-01-q016",
+              "inss-2022-cb1-01-q038",
+              "038-anm-cg1-01-q017",
+              "tcdf-2024-psicologia-002-01-q160"
+            ],
+            "availableCE": 73,
+            "allocatedCE": 40,
+            "missingForThisAllocation": 0
+          },
+          {
+            "blockId": "complementary",
+            "label": "Conhecimentos complementares",
+            "required": 40,
+            "questionIds": [
+              "038-anm-cg1-01-q026",
+              "038-anm-cg1-01-q021",
+              "038-anm-cg1-01-q022",
+              "038-anm-cg1-01-q035",
+              "camara-2014-cb2-03-q075",
+              "057-ibama-cb1-01-q017",
+              "057-ibama-001-01-q071",
+              "057-ibama-001-01-q072",
+              "094-pf-cb1-01-q048",
+              "094-pf-cb1-01-q050",
+              "959-bcb-cb1-01-q038",
+              "094-pf-cb1-01-q040",
+              "106-pf-cg1-01-q080",
+              "038-anm-010-01-q101",
+              "106-pf-cg1-01-q072",
+              "018-stj-cb1-01-q026",
+              "038-anm-013-01-q053",
+              "038-anm-013-01-q069",
+              "038-anm-013-01-q088",
+              "038-anm-013-01-q119",
+              "094-pf-cb1-01-q022",
+              "979-cnj-007-01-q065",
+              "988-cpnuje-010-01-q051",
+              "988-cpnuje-010-01-q056",
+              "038-anm-024-01-q091",
+              "038-anm-024-01-q106",
+              "038-anm-024-01-q112",
+              "038-anm-024-01-q116",
+              "018-stj-006-01-q077",
+              "018-stj-006-01-q082",
+              "018-stj-006-01-q083",
+              "018-stj-006-01-q085",
+              "803-tj-es-006-01-q101",
+              "153-telebras-003-01-q070",
+              "153-telebras-003-01-q076",
+              "072-stm-002-01-q052",
+              "072-stm-002-01-q078",
+              "072-stm-002-01-q084",
+              "205-funpresp-26-jud-009-01-q081",
+              "205-funpresp-26-jud-005-01-q081",
+              "993-tce-ac-014-01-q054",
+              "993-tce-ac-014-01-q055",
+              "993-tce-ac-014-01-q059",
+              "993-tce-ac-014-01-q061",
+              "993-tce-ac-014-01-q076",
+              "993-tce-ac-014-01-q077",
+              "993-tce-ac-014-01-q078",
+              "993-tce-ac-014-01-q079",
+              "993-tce-ac-014-01-q080",
+              "993-tce-ac-016-01-q103",
+              "142-tcuaufc-cb1-01-q031",
+              "142-tcuaufc-cb1-01-q032",
+              "142-tcuaufc-cb1-01-q033",
+              "142-tcuaufc-cb1-01-q034",
+              "142-tcuaufc-cb1-01-q035",
+              "142-tcuaufc-cb1-01-q036",
+              "142-tcuaufc-cb1-01-q087",
+              "142-tcuaufc-cb1-01-q092",
+              "142-tcuaufc-cb1-01-q098",
+              "108-tcutefc-001-01-q106",
+              "108-tcutefc-001-01-q108",
+              "108-tcutefc-001-01-q109",
+              "108-tcutefc-001-01-q110",
+              "108-tcutefc-001-01-q117",
+              "108-tcutefc-001-01-q118",
+              "896-tcdf-002-01-q112",
+              "896-tcdf-002-01-q114",
+              "896-tcdf-002-01-q115",
+              "896-tcdf-002-01-q116",
+              "896-tcdf-002-01-q117",
+              "896-tcdf-002-01-q121",
+              "896-tcdf-002-01-q122",
+              "896-tcdf-002-01-q123",
+              "896-tcdf-002-01-q125",
+              "896-tcdf-002-01-q127",
+              "896-tcdf-002-01-q159",
+              "896-tcdf-002-01-q160",
+              "896-tcdf-ce1-01-q038",
+              "896-tcdf-ce1-01-q040",
+              "993-tce-ac-014-01-q118",
+              "993-tce-ac-014-01-q120",
+              "106-pf-cg1-01-q073",
+              "106-pf-cg1-01-q074",
+              "mpo-2024-cg1-01-q076",
+              "mpo-2024-cg1-01-q077",
+              "mpo-2024-cg1-01-q089",
+              "mpo-2024-cg1-01-q092",
+              "mpo-2024-001-01-q054",
+              "mpo-2024-001-01-q060",
+              "inss-2022-cb1-01-q032",
+              "038-anm-005-01-q116",
+              "038-anm-005-01-q117",
+              "038-anm-cg1-01-q017",
+              "tcdf-2024-psicologia-002-01-q145",
+              "tcdf-2024-psicologia-002-01-q160"
+            ],
+            "availableCE": 95,
+            "allocatedCE": 40,
+            "missingForThisAllocation": 0
+          },
+          {
+            "blockId": "specific",
+            "label": "Conhecimentos específicos",
+            "required": 90,
+            "questionIds": [
+              "038-anm-cg1-01-q019",
+              "038-anm-cg1-01-q024",
+              "038-anm-cg1-01-q034",
+              "038-anm-cg1-01-q035",
+              "057-ibama-001-01-q064",
+              "057-ibama-001-01-q067",
+              "057-ibama-001-01-q069",
+              "057-ibama-001-01-q070",
+              "057-ibama-001-01-q071",
+              "057-ibama-001-01-q072",
+              "094-pf-cb1-01-q048",
+              "094-pf-cb1-01-q050",
+              "959-bcb-cb1-01-q037",
+              "018-stj-cb1-01-q024",
+              "018-stj-cb1-01-q040",
+              "018-stj-cb1-01-q041",
+              "018-stj-cb1-01-q043",
+              "038-anm-010-01-q117",
+              "989-codevasf-010-01-q120",
+              "038-anm-013-01-q069",
+              "038-anm-024-01-q116",
+              "038-anm-024-01-q120",
+              "232funprespexe-002-01-q079",
+              "108-tcutefc-001-01-q087",
+              "108-tcutefc-001-01-q088",
+              "072-stm-002-01-q078",
+              "205-funpresp-26-jud-009-01-q081",
+              "142-tcuaufc-cb1-01-q079",
+              "142-tcuaufc-cb1-01-q081",
+              "057-ibama-cb1-01-q044",
+              "153-telebras-008-01-q098",
+              "205-funpresp-26-jud-005-01-q065",
+              "205-funpresp-26-jud-005-01-q081",
+              "153-telebras-008-01-q083",
+              "153-telebras-008-01-q084",
+              "993-tce-ac-014-01-q058",
+              "993-tce-ac-014-01-q060",
+              "993-tce-ac-014-01-q061",
+              "993-tce-ac-014-01-q062",
+              "993-tce-ac-014-01-q064",
+              "993-tce-ac-014-01-q065",
+              "993-tce-ac-014-01-q072",
+              "993-tce-ac-014-01-q073",
+              "993-tce-ac-014-01-q077",
+              "993-tce-ac-014-01-q078",
+              "993-tce-ac-014-01-q079",
+              "993-tce-ac-014-01-q080",
+              "993-tce-ac-016-01-q091",
+              "993-tce-ac-016-01-q092",
+              "993-tce-ac-016-01-q093",
+              "993-tce-ac-016-01-q096",
+              "993-tce-ac-016-01-q097",
+              "993-tce-ac-016-01-q098",
+              "993-tce-ac-016-01-q099",
+              "993-tce-ac-016-01-q100",
+              "993-tce-ac-016-01-q102",
+              "993-tce-ac-016-01-q105",
+              "993-tce-ac-016-01-q106",
+              "993-tce-ac-016-01-q107",
+              "993-tce-ac-016-01-q108",
+              "993-tce-ac-016-01-q109",
+              "993-tce-ac-016-01-q111",
+              "993-tce-ac-016-01-q112",
+              "993-tce-ac-016-01-q113",
+              "993-tce-ac-016-01-q115",
+              "993-tce-ac-016-01-q116",
+              "993-tce-ac-016-01-q117",
+              "993-tce-ac-016-01-q120",
+              "142-tcuaufc-cb1-01-q031",
+              "142-tcuaufc-cb1-01-q033",
+              "142-tcuaufc-cb1-01-q034",
+              "142-tcuaufc-cb1-01-q075",
+              "142-tcuaufc-cb1-01-q086",
+              "142-tcuaufc-cb1-01-q089",
+              "142-tcuaufc-cb1-01-q090",
+              "142-tcuaufc-cb1-01-q091",
+              "142-tcuaufc-cb1-01-q093",
+              "142-tcuaufc-cb1-01-q094",
+              "142-tcuaufc-cb1-01-q095",
+              "142-tcuaufc-cb1-01-q096",
+              "142-tcuaufc-cb1-01-q097",
+              "142-tcuaufc-cb1-01-q098",
+              "142-tcuaufc-cb1-01-q099",
+              "142-tcuaufc-cb1-01-q100",
+              "108-tcutefc-001-01-q097",
+              "108-tcutefc-001-01-q098",
+              "108-tcutefc-001-01-q099",
+              "108-tcutefc-001-01-q117",
+              "108-tcutefc-001-01-q120",
+              "057-ibama-001-01-q093",
+              "057-ibama-001-01-q094",
+              "057-ibama-001-01-q095",
+              "057-ibama-001-01-q096",
+              "057-ibama-001-01-q097",
+              "057-ibama-001-01-q098",
+              "057-ibama-001-01-q109",
+              "896-tcdf-002-01-q112",
+              "896-tcdf-002-01-q113",
+              "896-tcdf-002-01-q114",
+              "896-tcdf-002-01-q115",
+              "896-tcdf-002-01-q121",
+              "896-tcdf-002-01-q122",
+              "896-tcdf-002-01-q123",
+              "896-tcdf-002-01-q125",
+              "896-tcdf-002-01-q127",
+              "896-tcdf-002-01-q134",
+              "896-tcdf-002-01-q136",
+              "896-tcdf-002-01-q137",
+              "896-tcdf-002-01-q138",
+              "896-tcdf-002-01-q139",
+              "896-tcdf-002-01-q140",
+              "896-tcdf-002-01-q141",
+              "896-tcdf-002-01-q142",
+              "896-tcdf-002-01-q143",
+              "896-tcdf-002-01-q144",
+              "896-tcdf-002-01-q159",
+              "896-tcdf-002-01-q160",
+              "896-tcdf-ce1-01-q038",
+              "896-tcdf-ce1-01-q039",
+              "896-tcdf-ce1-01-q045",
+              "993-tce-ac-014-01-q097",
+              "993-tce-ac-014-01-q098",
+              "993-tce-ac-014-01-q100",
+              "993-tce-ac-014-01-q101",
+              "993-tce-ac-014-01-q118",
+              "993-tce-ac-014-01-q119",
+              "993-tce-ac-014-01-q120",
+              "993-tce-ac-016-01-q065",
+              "993-tce-ac-016-01-q066",
+              "993-tce-ac-016-01-q067",
+              "993-tce-ac-016-01-q068",
+              "993-tce-ac-016-01-q069",
+              "993-tce-ac-016-01-q070",
+              "057-ibama-001-01-q100",
+              "057-ibama-001-01-q101",
+              "057-ibama-001-01-q102",
+              "057-ibama-001-01-q103",
+              "mpo-2024-cg1-01-q036",
+              "mpo-2024-cg1-01-q037",
+              "mpo-2024-cg1-01-q040",
+              "mpo-2024-cg1-01-q075",
+              "mpo-2024-cg1-01-q089",
+              "mpo-2024-cg1-01-q095",
+              "mpo-2024-001-01-q041",
+              "mpo-2024-001-01-q042",
+              "mpo-2024-001-01-q043",
+              "mpo-2024-001-01-q044",
+              "mpo-2024-001-01-q045",
+              "mpo-2024-001-01-q046",
+              "mpo-2024-001-01-q047",
+              "mpo-2024-001-01-q049",
+              "mpo-2024-001-01-q050",
+              "mpo-2024-001-01-q051",
+              "mpo-2024-001-01-q052",
+              "mpo-2024-001-01-q053",
+              "mpo-2024-001-01-q055",
+              "mpo-2024-001-01-q056",
+              "mpo-2024-001-01-q057",
+              "mpo-2024-001-01-q058",
+              "mpo-2024-001-01-q059",
+              "mpo-2024-001-01-q060",
+              "993-tce-ac-016-01-q056",
+              "993-tce-ac-016-01-q061",
+              "993-tce-ac-016-01-q062",
+              "993-tce-ac-016-01-q063",
+              "993-tce-ac-016-01-q064",
+              "038-anm-005-01-q115",
+              "038-anm-005-01-q116",
+              "038-anm-005-01-q117",
+              "038-anm-005-01-q118",
+              "038-anm-005-01-q119",
+              "038-anm-005-01-q120",
+              "tcdf-2024-psicologia-002-01-q146",
+              "tcdf-2024-psicologia-002-01-q149",
+              "tcdf-2024-psicologia-002-01-q160"
+            ],
+            "availableCE": 175,
+            "allocatedCE": 90,
+            "missingForThisAllocation": 0
+          }
+        ],
+        "scope": "Déficits por bloco descrevem esta correspondência máxima, não uma distribuição única. O mínimo adicional pressupõe novas questões compatíveis e distintas; não garante cobertura temática."
+      }
+    }
+  ],
+  "humanAcceptance": {
+    "status": "deferred_by_user",
+    "reason": "Teste com estudantes somente ao final de tudo pronto, conforme solicitado pelo usuário."
+  }
+}

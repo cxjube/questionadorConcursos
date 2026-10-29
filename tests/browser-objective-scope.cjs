@@ -12,7 +12,7 @@ async function reflow(page){for(const size of ['', '200%']){await page.evaluate(
    await page.locator('#questionador-tab').click();await page.locator('#contest').selectOption(contest);
    const camara=contest==='camara-2026',abdi=contest==='abdi-2026',role=await page.locator('#role').inputValue();
    const expected=await page.evaluate(role=>{const d=window.CONCURSOS_CATALOG,pool=Study.pool(d,role,Study.empty()),ids=new Set(pool.map(q=>q.origin.paperId));return {pool:pool.length,documents:d.papers.filter(p=>ids.has(p.id)).map(p=>d.documents.find(x=>x.id===p.documentId).officialUrl).sort()};},role);
-   assert.equal(expected.pool,camara?415:abdi?258:329);assert.equal(await page.locator('#start-study').isDisabled(),false);
+   assert.equal(expected.pool,camara?421:abdi?261:358);assert.equal(await page.locator('#start-study').isDisabled(),false);
    if(camara){const left=await page.locator('#customize-study').boundingBox(),right=await page.locator('#start-study').boundingBox();if(width===1280)assert.ok(left.x+left.width<=right.x);else assert.ok(left.y+left.height<=right.y);}
    await reflow(page);
    await page.locator('#program-tab').click();assert.match(await page.locator('#program-summary').innerText(),new RegExp(camara?'9 disciplinas · 228':abdi?'8 disciplinas · 97':'14 disciplinas · 266'));await reflow(page);

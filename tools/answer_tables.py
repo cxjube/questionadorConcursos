@@ -4,6 +4,13 @@ import re
 
 def answer_table(text: str, booklet: str) -> dict[int, str]:
     """Select the exact FGV booklet or labelled Cebraspe rows and reject ambiguity."""
+    if booklet.startswith('Auditor Estadual de Controle CGE - '):
+        if not re.search(r'GABARITO DEFINIT(?:IVO|VO)', text) or '(provas aplicadas no dia 14/12/2025)' not in text:
+            raise ValueError('CGE/SP key requires the definitive header and application date')
+    if booklet.startswith('012_TCDF_AUDITOR_'):
+        codes = re.findall(r'012_TCDF_AUDITOR_\d{3}_\d{2}', text)
+        if codes != [booklet] or 'GABARITOS OFICIAIS DEFINITIVOS' not in text:
+            raise ValueError('TCDF 2024 key requires its exact code and definitive header')
     if 'CONTROLADORIA E OUVIDORIA GERAL DO ESTADO DO CEARÁ (CGE/CE)' in text:
         codes = re.findall(r'Matriz_441_CGECE\d{3}_Pag \d+', text)
         if codes != [booklet] or 'GABARITOS OFICIAIS DEFINITIVOS' not in text:
@@ -96,6 +103,7 @@ def answer_table(text: str, booklet: str) -> dict[int, str]:
         return result
     header_pattern = (r'(?m)^[ \t]*((?:(?:Analista|Técnico) (?:Legislativo|Judiciário)[^\n]*TIPO \d+|'
                       r'Especialista Legislativo[^\n]* - \d+ - Turno (?:Manhã|Tarde|Noite)|'
+                      r'Auditor Estadual de Controle CGE - [^\n]+ - \d+ - Turno (?:Manhã|Tarde)|'
                       r'Auditor Federal de Controle Externo[^\n]* – Tipo \d+|'
                       r'Auditor do Estado - [^\n]+ - TIPO \d+ \((?:Manhã|Tarde)\)))[ \t]*$')
     headers = list(re.finditer(header_pattern, text))

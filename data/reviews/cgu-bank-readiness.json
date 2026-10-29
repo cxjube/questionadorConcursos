@@ -4,7 +4,7 @@
   "ruleVersion": 1,
   "ready": true,
   "requiredCE": 170,
-  "distinctCE": 274,
+  "distinctCE": 278,
   "allocatableDistinctCE": 170,
   "minimumAdditionalCE": 0,
   "blocks": [
@@ -84,9 +84,10 @@
         "inss-2022-cb1-01-q015",
         "inss-2022-cb1-01-q016",
         "inss-2022-cb1-01-q038",
-        "038-anm-cg1-01-q017"
+        "038-anm-cg1-01-q017",
+        "tcdf-2024-psicologia-002-01-q160"
       ],
-      "availableCE": 72,
+      "availableCE": 73,
       "allocatedCE": 40,
       "missingForThisAllocation": 0
     },
@@ -187,9 +188,11 @@
         "inss-2022-cb1-01-q032",
         "038-anm-005-01-q116",
         "038-anm-005-01-q117",
-        "038-anm-cg1-01-q017"
+        "038-anm-cg1-01-q017",
+        "tcdf-2024-psicologia-002-01-q145",
+        "tcdf-2024-psicologia-002-01-q160"
       ],
-      "availableCE": 93,
+      "availableCE": 95,
       "allocatedCE": 40,
       "missingForThisAllocation": 0
     },
@@ -369,9 +372,12 @@
         "038-anm-005-01-q117",
         "038-anm-005-01-q118",
         "038-anm-005-01-q119",
-        "038-anm-005-01-q120"
+        "038-anm-005-01-q120",
+        "tcdf-2024-psicologia-002-01-q146",
+        "tcdf-2024-psicologia-002-01-q149",
+        "tcdf-2024-psicologia-002-01-q160"
       ],
-      "availableCE": 172,
+      "availableCE": 175,
       "allocatedCE": 90,
       "missingForThisAllocation": 0
     }

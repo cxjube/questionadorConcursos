@@ -27,13 +27,15 @@ class ReleasedFidelityTests(unittest.TestCase):
             ROOT / 'data/reviews/abdi-fourth-batch.json')['items'] if r['fiocruzTypography']}
         new = read_json(ROOT / 'data/reviews/gaps-third-batch.json')
         cls.fiocruz_typography.update(new['fiocruzTypography'])
+        cls.expansion=read_json(ROOT/'data/reviews/expansion-eighth.json')
+        cls.fiocruz_typography.update(cls.expansion['fiocruzTypography'])
         cls.visual_restorations = new['fiocruzVisualRestorations']
         sweep=read_json(ROOT/'data/reviews/bank-sweep-2026-10-29.json')
         for qid, fixes in sweep['visualRestorations'].items():cls.visual_restorations.setdefault(qid,{}).update(fixes)
         cls.new_batch = read_json(ROOT/'data/reviews/norms-gap-fifth.json')
         cls.completion = read_json(ROOT/'data/reviews/completion-sixth.json')
         cls.continuation = read_json(ROOT/'data/reviews/continuation-seventh.json')
-        cls.bbox_verified = {r['questionId'] for r in cls.continuation['items']} | {r['questionId'] for r in cls.completion['items']} |  {r['questionId'] for r in cls.new_batch['items']} | {r['questionId'] for r in new['items']} | {r['questionId'] for r in read_json(ROOT/'data/reviews/gaps-fourth-batch.json')['items']}
+        cls.bbox_verified = {r['questionId'] for r in cls.expansion['items']} | {r['questionId'] for r in cls.continuation['items']} | {r['questionId'] for r in cls.completion['items']} |  {r['questionId'] for r in cls.new_batch['items']} | {r['questionId'] for r in new['items']} | {r['questionId'] for r in read_json(ROOT/'data/reviews/gaps-fourth-batch.json')['items']}
 
 
     def test_all_published_text_options_and_contexts_match_source_pages(self):

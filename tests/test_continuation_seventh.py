@@ -18,7 +18,7 @@ from tools.validate import ROOT, read_json, validate
 class ContinuationSeventhTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c=read_json(ROOT/'data/catalog.json');cls.m=read_json(ROOT/MANIFEST)
+        cls.c=json.loads(gzip.decompress((ROOT/'data/reviews/pre-expansion-eighth-catalog.json.gz').read_bytes()));cls.m=read_json(ROOT/MANIFEST)
         cls.raw=gzip.decompress((ROOT/cls.m['previousCatalogFile']).read_bytes());cls.before=json.loads(cls.raw)
         cls.docs={d['id']:d for d in cls.c['documents']};cls.papers={p['id']:p for p in cls.c['papers']}
 
@@ -38,7 +38,7 @@ class ContinuationSeventhTests(unittest.TestCase):
     def test_current_whole_catalog_texts_contexts_keys_and_sources_are_faithful(self):
         a=technical_audit(self.c,read_json(ROOT/SWEEP));self.assertEqual(a['errors'],[])
         self.assertEqual((len(a['questions']),a['checkedPapers'],a['checkedContexts'],a['checkedDocuments']),(721,78,278,236))
-        self.assertEqual(audit_sources(self.c,read_json(ROOT/'data/source-verification.json')),[])
+        self.assertEqual(audit_sources(self.c,read_json(ROOT/'data/reviews/pre-expansion-eighth-sources.json')),[])
 
     def test_new_bounded_lines_and_complete_roman_items_are_independent_original_lines(self):
         pages={};ns={'x':'http://www.w3.org/1999/xhtml'}

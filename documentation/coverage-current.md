@@ -1,8 +1,8 @@
 # Mapa atual do banco de questões
 
-Última revisão: 2026-10-29; lote `continuation-seventh`. São 415 questões e 425 vínculos da Câmara; **189/228 itens com vínculo direto**, 32 atendidos só por descendentes e 6 sem questões na subárvore (6 folhas). O título amplo Ciência Política 1 permanece separado.
+Última revisão: 2026-10-29; lote `expansion-eighth`. São 421 questões e 431 vínculos da Câmara; **192/228 itens com vínculo direto**, 32 atendidos só por descendentes e 3 sem questões na subárvore (3 folhas). O título amplo Ciência Política 1 permanece separado.
 
-C/E: P1 **177**, P2 **210**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
+C/E: P1 **177**, P2 **214**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
 
 Direto significa vínculo ao item exato; subárvore reúne o próprio item e seus descendentes, sem duplicar IDs. Vínculos de pais não são distribuídos aos filhos. Prioridades editoriais: A sem C/E, B com 1–2 C/E, C com 3 ou mais. Pais e filhos se sobrepõem; as contagens não são pesos oficiais.
 
@@ -14,11 +14,11 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | --- | ---: | ---: | ---: | ---: |
 | Língua Portuguesa | 17/20 | 40 | 1 | 0 |
 | Língua Inglesa | 3/3 | 19 | 0 | 0 |
-| Noções de Direito Administrativo e Administração Pública | 37/46 | 62 | 2 | 1 |
+| Noções de Direito Administrativo e Administração Pública | 38/46 | 62 | 3 | 0 |
 | Noções de Direito Constitucional e de Regimento Interno da Câmara dos Deputados | 11/14 | 22 | 1 | 1 |
 | Tecnologia da Informação e Dados | 17/20 | 34 | 0 | 0 |
-| Comunicação Social | 37/45 | 73 | 9 | 3 |
-| Divulgação Institucional | 33/40 | 66 | 5 | 1 |
+| Comunicação Social | 38/45 | 73 | 10 | 2 |
+| Divulgação Institucional | 34/40 | 70 | 5 | 0 |
 | Processo Legislativo e Regimento Interno | 22/27 | 32 | 9 | 0 |
 | Ciência Política | 12/13 | 40 | 2 | 0 |
 
@@ -72,9 +72,9 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 1 | Estado, governo e Administração Pública: conceito, elementos, poderes e organização do Estado. | 0 | 0 | 3 | 0 | Só descendentes | C |
 | 1.1 | Princípios constitucionais e doutrinários da Administração Pública. | 2 | 0 | 2 | 0 | Direto | B |
 | 1.2 | Organização administrativa: administração direta e indireta; centralização, descentralização, concentração e desconcentração. | 1 | 0 | 1 | 0 | Direto | B |
-| 2 | Ato administrativo. | 0 | 0 | 2 | 0 | Só descendentes | B |
+| 2 | Ato administrativo. | 0 | 0 | 2 | 1 | Só descendentes | B |
 | 2.1 | Conceito, requisitos, atributos, classificação e espécies, extinção, nulidades e revogação. | 2 | 0 | 2 | 0 | Direto | B |
-| 2.2 | Parecer: responsabilidade do emissor do parecer. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 2.2 | Parecer: responsabilidade do emissor do parecer. | 0 | 1 | 0 | 1 | Direto | A |
 | 3 | Agentes públicos. | 0 | 0 | 5 | 0 | Só descendentes | C |
 | 3.1 | Disposições constitucionais aplicáveis. | 2 | 0 | 2 | 0 | Direto | B |
 | 3.2 | Cargo, emprego e função pública. | 1 | 0 | 1 | 0 | Direto | B |
@@ -190,11 +190,11 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 4.7 | Definição de indicadores de resultados em comunicação. | 1 | 0 | 1 | 0 | Direto | B |
 | 4.8 | Plano de comunicação. | 4 | 0 | 4 | 0 | Direto | C |
 | 4.9 | Gestão de projetos de comunicação. | 2 | 0 | 2 | 0 | Direto | B |
-| 5 | Redes sociais digitais oficiais. | 2 | 0 | 12 | 0 | Direto | C |
+| 5 | Redes sociais digitais oficiais. | 2 | 0 | 12 | 1 | Direto | C |
 | 5.1 | Planejamento e produção de conteúdo. | 4 | 0 | 4 | 0 | Direto | C |
 | 5.2 | Postagens e colaborações. | 2 | 0 | 2 | 0 | Direto | B |
 | 5.3 | Características das principais plataformas de mídias sociais: diferenças de públicos, linguagem, formatos (4:5, 3:4, 9:16) e conteúdos (cards, carrossel, vídeos, stories, lives). | 4 | 0 | 4 | 0 | Direto | C |
-| 5.4 | Elementos fundamentais de publicações em redes sociais: capa, legenda, marcação, palavras-chave, call to action. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 5.4 | Elementos fundamentais de publicações em redes sociais: capa, legenda, marcação, palavras-chave, call to action. | 0 | 1 | 0 | 1 | Direto | A |
 | 6 | Transparência pública. | 2 | 1 | 2 | 1 | Direto | B |
 | 7 | Comunicação Pública. | 0 | 0 | 6 | 2 | Só descendentes | C |
 | 7.1 | Conceitos, fundamentos e especificidades da comunicação pública. | 5 | 2 | 5 | 2 | Direto | C |
@@ -230,8 +230,8 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 2.5 | Segmentação. | 1 | 0 | 1 | 0 | Direto | B |
 | 2.6 | Marketing digital. | 1 | 0 | 1 | 0 | Direto | B |
 | 2.7 | Comportamento do consumidor. | 2 | 0 | 2 | 0 | Direto | B |
-| 3 | Pesquisa Aplicada à Comunicação. | 0 | 0 | 13 | 3 | Só descendentes | C |
-| 3.1 | Pesquisas qualitativas e quantitativas. | 4 | 2 | 4 | 2 | Direto | C |
+| 3 | Pesquisa Aplicada à Comunicação. | 0 | 0 | 14 | 3 | Só descendentes | C |
+| 3.1 | Pesquisas qualitativas e quantitativas. | 5 | 2 | 5 | 2 | Direto | C |
 | 3.2 | Pesquisa de mercado. | 3 | 0 | 3 | 0 | Direto | C |
 | 3.3 | Pesquisa de opinião pública. | 3 | 1 | 3 | 1 | Direto | C |
 | 3.4 | Pesquisa de imagem. | 1 | 0 | 1 | 0 | Direto | B |
@@ -250,7 +250,7 @@ Direto significa vínculo ao item exato; subárvore reúne o próprio item e seu
 | 5.6 | Criação e produção de projetos audiovisuais. | 2 | 0 | 2 | 0 | Direto | B |
 | 5.7 | Criação e produção de publicações: definição de objetivos, público-alvo, linha editorial, identidade, estratégia de distribuição, indicadores e avaliação. | 1 | 0 | 1 | 0 | Direto | B |
 | 6 | Ética na comunicação. | 3 | 0 | 3 | 0 | Direto | C |
-| 7 | Gestão de equipes em publicidade. | 0 | 0 | 0 | 0 | Sem questões | A |
+| 7 | Gestão de equipes em publicidade. | 3 | 0 | 3 | 0 | Direto | C |
 | 8 | Legislação profissional de publicidade. | 0 | 0 | 5 | 0 | Só descendentes | C |
 | 8.1 | Ética publicitária – código brasileiro de autoregulamentação publicitária. | 1 | 0 | 1 | 0 | Direto | B |
 | 8.2 | Normas gerais para contratação de serviços de publicidade (Lei nº 12.232/2010 e suas alterações). | 4 | 0 | 4 | 0 | Direto | C |

@@ -1,21 +1,21 @@
 {
   "totalItems": 266,
-  "directItems": 140,
+  "directItems": 148,
   "descendantsOnly": 66,
-  "emptyItems": 60,
-  "emptyLeaves": 54,
+  "emptyItems": 52,
+  "emptyLeaves": 46,
   "blocks": {
     "basic": {
-      "total": 77,
-      "ce": 72
+      "total": 79,
+      "ce": 73
     },
     "complementary": {
-      "total": 110,
-      "ce": 93
+      "total": 116,
+      "ce": 95
     },
     "specific": {
-      "total": 210,
-      "ce": 172
+      "total": 236,
+      "ce": 175
     }
   },
   "disciplines": [
@@ -49,8 +49,8 @@
       "descendantsOnly": 5,
       "emptyItems": 3,
       "emptyLeaves": 3,
-      "questionsCE": 5,
-      "questionsMC": 1
+      "questionsCE": 6,
+      "questionsMC": 2
     },
     {
       "id": "cgu-administracao-publica",
@@ -67,11 +67,11 @@
       "id": "cgu-governanca-riscos-integridade",
       "label": "FUNDAMENTOS DE GOVERNANÇA, RISCOS E INTEGRIDADE PÚBLICA E PRIVADA",
       "totalItems": 15,
-      "directItems": 4,
+      "directItems": 5,
       "descendantsOnly": 3,
-      "emptyItems": 8,
-      "emptyLeaves": 6,
-      "questionsCE": 12,
+      "emptyItems": 7,
+      "emptyLeaves": 5,
+      "questionsCE": 13,
       "questionsMC": 2
     },
     {
@@ -94,7 +94,7 @@
       "emptyItems": 3,
       "emptyLeaves": 2,
       "questionsCE": 20,
-      "questionsMC": 3
+      "questionsMC": 4
     },
     {
       "id": "cgu-evidencias-dados-ia",
@@ -104,8 +104,8 @@
       "descendantsOnly": 4,
       "emptyItems": 1,
       "emptyLeaves": 1,
-      "questionsCE": 27,
-      "questionsMC": 5
+      "questionsCE": 28,
+      "questionsMC": 7
     },
     {
       "id": "cgu-atuacao-integrada",
@@ -116,40 +116,40 @@
       "emptyItems": 4,
       "emptyLeaves": 3,
       "questionsCE": 14,
-      "questionsMC": 4
+      "questionsMC": 5
     },
     {
       "id": "cgu-auditoria-governamental",
       "label": "AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO",
       "totalItems": 19,
-      "directItems": 9,
+      "directItems": 11,
       "descendantsOnly": 6,
-      "emptyItems": 4,
-      "emptyLeaves": 4,
+      "emptyItems": 2,
+      "emptyLeaves": 2,
       "questionsCE": 37,
-      "questionsMC": 3
+      "questionsMC": 7
     },
     {
       "id": "cgu-financas-orcamento-contabilidade",
       "label": "FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA",
       "totalItems": 25,
-      "directItems": 15,
+      "directItems": 16,
       "descendantsOnly": 5,
-      "emptyItems": 5,
-      "emptyLeaves": 5,
+      "emptyItems": 4,
+      "emptyLeaves": 4,
       "questionsCE": 53,
-      "questionsMC": 12
+      "questionsMC": 16
     },
     {
       "id": "cgu-politicas-investigacao-avaliacao",
       "label": "POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO",
       "totalItems": 28,
-      "directItems": 20,
+      "directItems": 22,
       "descendantsOnly": 5,
-      "emptyItems": 3,
-      "emptyLeaves": 3,
-      "questionsCE": 41,
-      "questionsMC": 13
+      "emptyItems": 1,
+      "emptyLeaves": 1,
+      "questionsCE": 43,
+      "questionsMC": 29
     },
     {
       "id": "cgu-contratacoes-transferencias",
@@ -166,12 +166,12 @@
       "id": "cgu-integridade-transparencia-responsabilizacao",
       "label": "INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO",
       "totalItems": 39,
-      "directItems": 17,
+      "directItems": 19,
       "descendantsOnly": 4,
-      "emptyItems": 18,
-      "emptyLeaves": 17,
-      "questionsCE": 32,
-      "questionsMC": 10
+      "emptyItems": 16,
+      "emptyLeaves": 15,
+      "questionsCE": 33,
+      "questionsMC": 11
     }
   ],
   "items": [
@@ -1006,10 +1006,11 @@
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "094-pf-cb1-01-q022"
+        "094-pf-cb1-01-q022",
+        "cgesp-2025-audit-am-q022"
       ],
       "subtreeCE": 1,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-etica-publica-2-1",
@@ -1022,15 +1023,17 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
-        "094-pf-cb1-01-q022"
+        "094-pf-cb1-01-q022",
+        "cgesp-2025-audit-am-q022"
       ],
       "directCE": 1,
-      "directMC": 0,
+      "directMC": 1,
       "subtreeQuestionIds": [
-        "094-pf-cb1-01-q022"
+        "094-pf-cb1-01-q022",
+        "cgesp-2025-audit-am-q022"
       ],
       "subtreeCE": 1,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-etica-publica-2-2",
@@ -1115,15 +1118,17 @@
       "parentTopicId": null,
       "isLeaf": false,
       "state": "descendants_only",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "fiocruz-2024-te58-q038"
+        "cgesp-2025-audit-am-q022",
+        "fiocruz-2024-te58-q038",
+        "tcdf-2024-psicologia-002-01-q160"
       ],
-      "subtreeCE": 0,
-      "subtreeMC": 1
+      "subtreeCE": 1,
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-etica-publica-4-1",
@@ -1134,17 +1139,21 @@
       "parentTopicId": "cgu-2026-etica-publica-4",
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
-        "fiocruz-2024-te58-q038"
+        "cgesp-2025-audit-am-q022",
+        "fiocruz-2024-te58-q038",
+        "tcdf-2024-psicologia-002-01-q160"
       ],
-      "directCE": 0,
-      "directMC": 1,
+      "directCE": 1,
+      "directMC": 2,
       "subtreeQuestionIds": [
-        "fiocruz-2024-te58-q038"
+        "cgesp-2025-audit-am-q022",
+        "fiocruz-2024-te58-q038",
+        "tcdf-2024-psicologia-002-01-q160"
       ],
-      "subtreeCE": 0,
-      "subtreeMC": 1
+      "subtreeCE": 1,
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-etica-publica-4-2",
@@ -1610,14 +1619,15 @@
       "parentTopicId": null,
       "isLeaf": false,
       "state": "descendants_only",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "cgu-2022-correicao-tarde-tipo1-q037"
+        "cgu-2022-correicao-tarde-tipo1-q037",
+        "tcdf-2024-psicologia-002-01-q160"
       ],
-      "subtreeCE": 0,
+      "subtreeCE": 1,
       "subtreeMC": 1
     },
     {
@@ -1649,13 +1659,17 @@
       "block": "complementary",
       "parentTopicId": "cgu-2026-governanca-riscos-integridade-3",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "tcdf-2024-psicologia-002-01-q160"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "tcdf-2024-psicologia-002-01-q160"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -2530,10 +2544,11 @@
       "subtreeQuestionIds": [
         "153-telebras-003-01-q070",
         "896-tcdf-002-01-q112",
+        "cgesp-2025-cor-pm-q012",
         "cgu-2022-correicao-tarde-tipo1-q044"
       ],
       "subtreeCE": 2,
-      "subtreeMC": 1
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-direito-controle-responsabilizacao-4-1",
@@ -2546,15 +2561,17 @@
       "state": "direct",
       "priority": "A",
       "directQuestionIds": [
+        "cgesp-2025-cor-pm-q012",
         "cgu-2022-correicao-tarde-tipo1-q044"
       ],
       "directCE": 0,
-      "directMC": 1,
+      "directMC": 2,
       "subtreeQuestionIds": [
+        "cgesp-2025-cor-pm-q012",
         "cgu-2022-correicao-tarde-tipo1-q044"
       ],
       "subtreeCE": 0,
-      "subtreeMC": 1
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-direito-controle-responsabilizacao-4-2",
@@ -2629,9 +2646,10 @@
         "106-pf-cg1-01-q072",
         "993-tce-ac-014-01-q061",
         "fiocruz-2024-te58-q031",
-        "fiocruz-2024-te58-q032"
+        "fiocruz-2024-te58-q032",
+        "tcdf-2024-psicologia-002-01-q145"
       ],
-      "subtreeCE": 3,
+      "subtreeCE": 4,
       "subtreeMC": 2
     },
     {
@@ -2643,18 +2661,20 @@
       "parentTopicId": "cgu-2026-evidencias-dados-ia-1",
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
         "fiocruz-2024-te58-q031",
-        "fiocruz-2024-te58-q032"
+        "fiocruz-2024-te58-q032",
+        "tcdf-2024-psicologia-002-01-q145"
       ],
-      "directCE": 0,
+      "directCE": 1,
       "directMC": 2,
       "subtreeQuestionIds": [
         "fiocruz-2024-te58-q031",
-        "fiocruz-2024-te58-q032"
+        "fiocruz-2024-te58-q032",
+        "tcdf-2024-psicologia-002-01-q145"
       ],
-      "subtreeCE": 0,
+      "subtreeCE": 1,
       "subtreeMC": 2
     },
     {
@@ -2770,11 +2790,13 @@
         "142-tcuaufc-cb1-01-q034",
         "142-tcuaufc-cb1-01-q035",
         "142-tcuaufc-cb1-01-q036",
+        "cgesp-2025-audit-pm-q051",
+        "cgesp-2025-fin-pm-q059",
         "mpo-2024-001-01-q054",
         "mpo-2024-001-01-q060"
       ],
       "subtreeCE": 8,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-evidencias-dados-ia-3-1",
@@ -2787,17 +2809,21 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
+        "cgesp-2025-audit-pm-q051",
+        "cgesp-2025-fin-pm-q059",
         "mpo-2024-001-01-q054",
         "mpo-2024-001-01-q060"
       ],
       "directCE": 2,
-      "directMC": 0,
+      "directMC": 2,
       "subtreeQuestionIds": [
+        "cgesp-2025-audit-pm-q051",
+        "cgesp-2025-fin-pm-q059",
         "mpo-2024-001-01-q054",
         "mpo-2024-001-01-q060"
       ],
       "subtreeCE": 2,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-evidencias-dados-ia-3-2",
@@ -3149,10 +3175,11 @@
       "subtreeQuestionIds": [
         "896-tcdf-002-01-q114",
         "896-tcdf-002-01-q121",
+        "cgesp-2025-audit-am-q023",
         "cgu-2022-auditoria-tarde-tipo1-q041"
       ],
       "subtreeCE": 2,
-      "subtreeMC": 1
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-atuacao-integrada-2-1",
@@ -3188,15 +3215,17 @@
       "state": "direct",
       "priority": "A",
       "directQuestionIds": [
+        "cgesp-2025-audit-am-q023",
         "cgu-2022-auditoria-tarde-tipo1-q041"
       ],
       "directCE": 0,
-      "directMC": 1,
+      "directMC": 2,
       "subtreeQuestionIds": [
+        "cgesp-2025-audit-am-q023",
         "cgu-2022-auditoria-tarde-tipo1-q041"
       ],
       "subtreeCE": 0,
-      "subtreeMC": 1
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-atuacao-integrada-2-3",
@@ -3435,10 +3464,11 @@
         "993-tce-ac-016-01-q102",
         "993-tce-ac-016-01-q109",
         "993-tce-ac-016-01-q120",
+        "cgesp-2025-audit-am-q023",
         "cgu-2022-auditoria-tarde-tipo1-q041"
       ],
       "subtreeCE": 12,
-      "subtreeMC": 1
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-auditoria-governamental-1-1",
@@ -3448,14 +3478,18 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-auditoria-governamental-1",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
+      "directQuestionIds": [
+        "cgesp-2025-audit-am-q023"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "cgesp-2025-audit-am-q023"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-auditoria-governamental-1-2",
@@ -3509,15 +3543,17 @@
       "state": "direct",
       "priority": "A",
       "directQuestionIds": [
+        "cgesp-2025-audit-am-q023",
         "cgu-2022-auditoria-tarde-tipo1-q041"
       ],
       "directCE": 0,
-      "directMC": 1,
+      "directMC": 2,
       "subtreeQuestionIds": [
+        "cgesp-2025-audit-am-q023",
         "cgu-2022-auditoria-tarde-tipo1-q041"
       ],
       "subtreeCE": 0,
-      "subtreeMC": 1
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-auditoria-governamental-1-4",
@@ -3681,10 +3717,11 @@
         "896-tcdf-002-01-q122",
         "993-tce-ac-014-01-q119",
         "993-tce-ac-016-01-q105",
-        "993-tce-ac-016-01-q106"
+        "993-tce-ac-016-01-q106",
+        "cgesp-2025-fin-pm-q023"
       ],
       "subtreeCE": 8,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-auditoria-governamental-3-1",
@@ -3704,10 +3741,11 @@
         "896-tcdf-002-01-q122",
         "993-tce-ac-014-01-q119",
         "993-tce-ac-016-01-q105",
-        "993-tce-ac-016-01-q106"
+        "993-tce-ac-016-01-q106",
+        "cgesp-2025-fin-pm-q023"
       ],
       "directCE": 8,
-      "directMC": 0,
+      "directMC": 1,
       "subtreeQuestionIds": [
         "142-tcuaufc-cb1-01-q095",
         "142-tcuaufc-cb1-01-q096",
@@ -3716,10 +3754,11 @@
         "896-tcdf-002-01-q122",
         "993-tce-ac-014-01-q119",
         "993-tce-ac-016-01-q105",
-        "993-tce-ac-016-01-q106"
+        "993-tce-ac-016-01-q106",
+        "cgesp-2025-fin-pm-q023"
       ],
       "subtreeCE": 8,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-auditoria-governamental-4",
@@ -3834,10 +3873,12 @@
         "142-tcuaufc-cb1-01-q033",
         "142-tcuaufc-cb1-01-q100",
         "205-funpresp-26-jud-009-01-q081",
+        "cgesp-2025-audit-am-q030",
+        "cgesp-2025-audit-pm-q006",
         "cgu-2022-auditoria-tarde-tipo1-q035"
       ],
       "subtreeCE": 4,
-      "subtreeMC": 1
+      "subtreeMC": 3
     },
     {
       "id": "cgu-2026-auditoria-governamental-6-1",
@@ -3876,14 +3917,20 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-auditoria-governamental-6",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
+      "directQuestionIds": [
+        "cgesp-2025-audit-am-q030",
+        "cgesp-2025-audit-pm-q006"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 2,
+      "subtreeQuestionIds": [
+        "cgesp-2025-audit-am-q030",
+        "cgesp-2025-audit-pm-q006"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-financas-orcamento-contabilidade-1",
@@ -4302,10 +4349,13 @@
         "993-tce-ac-016-01-q067",
         "993-tce-ac-016-01-q068",
         "993-tce-ac-016-01-q069",
-        "993-tce-ac-016-01-q070"
+        "993-tce-ac-016-01-q070",
+        "cgesp-2025-audit-pm-q050",
+        "cgesp-2025-fin-pm-q023",
+        "cgesp-2025-fin-pm-q035"
       ],
       "subtreeCE": 17,
-      "subtreeMC": 0
+      "subtreeMC": 3
     },
     {
       "id": "cgu-2026-financas-orcamento-contabilidade-5-1",
@@ -4315,14 +4365,18 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-financas-orcamento-contabilidade-5",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
+      "directQuestionIds": [
+        "cgesp-2025-fin-pm-q023"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "cgesp-2025-fin-pm-q023"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-financas-orcamento-contabilidade-5-2",
@@ -4336,16 +4390,18 @@
       "priority": "B",
       "directQuestionIds": [
         "993-tce-ac-016-01-q063",
-        "993-tce-ac-016-01-q064"
+        "993-tce-ac-016-01-q064",
+        "cgesp-2025-audit-pm-q050"
       ],
       "directCE": 2,
-      "directMC": 0,
+      "directMC": 1,
       "subtreeQuestionIds": [
         "993-tce-ac-016-01-q063",
-        "993-tce-ac-016-01-q064"
+        "993-tce-ac-016-01-q064",
+        "cgesp-2025-audit-pm-q050"
       ],
       "subtreeCE": 2,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-financas-orcamento-contabilidade-5-3",
@@ -4371,10 +4427,11 @@
         "993-tce-ac-016-01-q067",
         "993-tce-ac-016-01-q068",
         "993-tce-ac-016-01-q069",
-        "993-tce-ac-016-01-q070"
+        "993-tce-ac-016-01-q070",
+        "cgesp-2025-fin-pm-q035"
       ],
       "directCE": 14,
-      "directMC": 0,
+      "directMC": 1,
       "subtreeQuestionIds": [
         "057-ibama-001-01-q100",
         "057-ibama-001-01-q101",
@@ -4389,10 +4446,11 @@
         "993-tce-ac-016-01-q067",
         "993-tce-ac-016-01-q068",
         "993-tce-ac-016-01-q069",
-        "993-tce-ac-016-01-q070"
+        "993-tce-ac-016-01-q070",
+        "cgesp-2025-fin-pm-q035"
       ],
       "subtreeCE": 14,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-financas-orcamento-contabilidade-6",
@@ -4417,10 +4475,11 @@
         "cge-sc-2023-contabeis-tarde-tipo1-q011",
         "cge-sc-2023-contabeis-tarde-tipo1-q012",
         "cge-sc-2023-contabeis-tarde-tipo1-q013",
-        "cge-sc-2023-contabeis-tarde-tipo1-q021"
+        "cge-sc-2023-contabeis-tarde-tipo1-q021",
+        "cgesp-2025-fin-pm-q041"
       ],
       "subtreeCE": 3,
-      "subtreeMC": 7
+      "subtreeMC": 8
     },
     {
       "id": "cgu-2026-financas-orcamento-contabilidade-6-1",
@@ -4455,20 +4514,22 @@
         "cge-sc-2023-contabeis-tarde-tipo1-q011",
         "cge-sc-2023-contabeis-tarde-tipo1-q012",
         "cge-sc-2023-contabeis-tarde-tipo1-q013",
-        "cge-sc-2023-contabeis-tarde-tipo1-q021"
+        "cge-sc-2023-contabeis-tarde-tipo1-q021",
+        "cgesp-2025-fin-pm-q041"
       ],
       "directCE": 0,
-      "directMC": 6,
+      "directMC": 7,
       "subtreeQuestionIds": [
         "cge-sc-2023-contabeis-tarde-tipo1-q001",
         "cge-sc-2023-contabeis-tarde-tipo1-q004",
         "cge-sc-2023-contabeis-tarde-tipo1-q011",
         "cge-sc-2023-contabeis-tarde-tipo1-q012",
         "cge-sc-2023-contabeis-tarde-tipo1-q013",
-        "cge-sc-2023-contabeis-tarde-tipo1-q021"
+        "cge-sc-2023-contabeis-tarde-tipo1-q021",
+        "cgesp-2025-fin-pm-q041"
       ],
       "subtreeCE": 0,
-      "subtreeMC": 6
+      "subtreeMC": 7
     },
     {
       "id": "cgu-2026-financas-orcamento-contabilidade-6-3",
@@ -4607,13 +4668,14 @@
         "896-tcdf-ce1-01-q039",
         "993-tce-ac-014-01-q058",
         "993-tce-ac-014-01-q064",
+        "cgesp-2025-audit-pm-q042",
         "cgu-2022-auditoria-tarde-tipo1-q066",
         "mpo-2024-001-01-q043",
         "mpo-2024-001-01-q044",
         "mpo-2024-001-01-q045"
       ],
       "subtreeCE": 6,
-      "subtreeMC": 1
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-1-1",
@@ -4628,23 +4690,25 @@
       "directQuestionIds": [
         "993-tce-ac-014-01-q058",
         "993-tce-ac-014-01-q064",
+        "cgesp-2025-audit-pm-q042",
         "cgu-2022-auditoria-tarde-tipo1-q066",
         "mpo-2024-001-01-q043",
         "mpo-2024-001-01-q044",
         "mpo-2024-001-01-q045"
       ],
       "directCE": 5,
-      "directMC": 1,
+      "directMC": 2,
       "subtreeQuestionIds": [
         "993-tce-ac-014-01-q058",
         "993-tce-ac-014-01-q064",
+        "cgesp-2025-audit-pm-q042",
         "cgu-2022-auditoria-tarde-tipo1-q066",
         "mpo-2024-001-01-q043",
         "mpo-2024-001-01-q044",
         "mpo-2024-001-01-q045"
       ],
       "subtreeCE": 5,
-      "subtreeMC": 1
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-1-2",
@@ -4654,14 +4718,18 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-politicas-investigacao-avaliacao-1",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
+      "directQuestionIds": [
+        "cgesp-2025-audit-pm-q042"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "cgesp-2025-audit-pm-q042"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-1-3",
@@ -4806,6 +4874,16 @@
         "993-tce-ac-016-01-q109",
         "cge-ce-2019-cargo5-q070",
         "cge-ce-2019-cargo5-q087",
+        "cgesp-2025-audit-pm-q041",
+        "cgesp-2025-audit-pm-q043",
+        "cgesp-2025-audit-pm-q044",
+        "cgesp-2025-audit-pm-q045",
+        "cgesp-2025-audit-pm-q046",
+        "cgesp-2025-audit-pm-q047",
+        "cgesp-2025-audit-pm-q049",
+        "cgesp-2025-audit-pm-q050",
+        "cgesp-2025-fin-pm-q057",
+        "cgesp-2025-fin-pm-q058",
         "cgu-2022-auditoria-tarde-tipo1-q064",
         "cgu-2022-auditoria-tarde-tipo1-q066",
         "cgu-2022-auditoria-tarde-tipo1-q067",
@@ -4815,10 +4893,11 @@
         "mpo-2024-001-01-q047",
         "mpo-2024-001-01-q049",
         "mpo-2024-001-01-q051",
-        "mpo-2024-001-01-q052"
+        "mpo-2024-001-01-q052",
+        "tcdf-2024-psicologia-002-01-q146"
       ],
-      "subtreeCE": 18,
-      "subtreeMC": 6
+      "subtreeCE": 19,
+      "subtreeMC": 16
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-3-1",
@@ -4835,25 +4914,31 @@
         "896-tcdf-002-01-q134",
         "993-tce-ac-014-01-q072",
         "993-tce-ac-014-01-q073",
+        "cgesp-2025-audit-pm-q043",
+        "cgesp-2025-audit-pm-q050",
+        "cgesp-2025-fin-pm-q058",
         "cgu-2022-auditoria-tarde-tipo1-q066",
         "mpo-2024-001-01-q041",
         "mpo-2024-001-01-q042",
         "mpo-2024-001-01-q051"
       ],
       "directCE": 7,
-      "directMC": 1,
+      "directMC": 4,
       "subtreeQuestionIds": [
         "072-stm-002-01-q078",
         "896-tcdf-002-01-q134",
         "993-tce-ac-014-01-q072",
         "993-tce-ac-014-01-q073",
+        "cgesp-2025-audit-pm-q043",
+        "cgesp-2025-audit-pm-q050",
+        "cgesp-2025-fin-pm-q058",
         "cgu-2022-auditoria-tarde-tipo1-q066",
         "mpo-2024-001-01-q041",
         "mpo-2024-001-01-q042",
         "mpo-2024-001-01-q051"
       ],
       "subtreeCE": 7,
-      "subtreeMC": 1
+      "subtreeMC": 4
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-3-2",
@@ -4868,19 +4953,23 @@
       "directQuestionIds": [
         "896-tcdf-ce1-01-q038",
         "993-tce-ac-014-01-q061",
+        "cgesp-2025-audit-pm-q045",
+        "cgesp-2025-audit-pm-q046",
         "mpo-2024-001-01-q051",
         "mpo-2024-001-01-q052"
       ],
       "directCE": 4,
-      "directMC": 0,
+      "directMC": 2,
       "subtreeQuestionIds": [
         "896-tcdf-ce1-01-q038",
         "993-tce-ac-014-01-q061",
+        "cgesp-2025-audit-pm-q045",
+        "cgesp-2025-audit-pm-q046",
         "mpo-2024-001-01-q051",
         "mpo-2024-001-01-q052"
       ],
       "subtreeCE": 4,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-3-3",
@@ -4899,6 +4988,9 @@
         "993-tce-ac-016-01-q109",
         "cge-ce-2019-cargo5-q070",
         "cge-ce-2019-cargo5-q087",
+        "cgesp-2025-audit-pm-q041",
+        "cgesp-2025-audit-pm-q044",
+        "cgesp-2025-audit-pm-q047",
         "cgu-2022-auditoria-tarde-tipo1-q064",
         "cgu-2022-auditoria-tarde-tipo1-q067",
         "mpo-2024-001-01-q046",
@@ -4906,7 +4998,7 @@
         "mpo-2024-001-01-q049"
       ],
       "directCE": 7,
-      "directMC": 4,
+      "directMC": 7,
       "subtreeQuestionIds": [
         "142-tcuaufc-cb1-01-q089",
         "993-tce-ac-014-01-q065",
@@ -4914,6 +5006,9 @@
         "993-tce-ac-016-01-q109",
         "cge-ce-2019-cargo5-q070",
         "cge-ce-2019-cargo5-q087",
+        "cgesp-2025-audit-pm-q041",
+        "cgesp-2025-audit-pm-q044",
+        "cgesp-2025-audit-pm-q047",
         "cgu-2022-auditoria-tarde-tipo1-q064",
         "cgu-2022-auditoria-tarde-tipo1-q067",
         "mpo-2024-001-01-q046",
@@ -4921,7 +5016,7 @@
         "mpo-2024-001-01-q049"
       ],
       "subtreeCE": 7,
-      "subtreeMC": 4
+      "subtreeMC": 7
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-3-4",
@@ -4932,17 +5027,23 @@
       "parentTopicId": "cgu-2026-politicas-investigacao-avaliacao-3",
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
-        "539-alce-016-01-q058"
+        "539-alce-016-01-q058",
+        "cgesp-2025-audit-pm-q049",
+        "cgesp-2025-fin-pm-q057",
+        "tcdf-2024-psicologia-002-01-q146"
       ],
-      "directCE": 0,
-      "directMC": 1,
+      "directCE": 1,
+      "directMC": 3,
       "subtreeQuestionIds": [
-        "539-alce-016-01-q058"
+        "539-alce-016-01-q058",
+        "cgesp-2025-audit-pm-q049",
+        "cgesp-2025-fin-pm-q057",
+        "tcdf-2024-psicologia-002-01-q146"
       ],
-      "subtreeCE": 0,
-      "subtreeMC": 1
+      "subtreeCE": 1,
+      "subtreeMC": 3
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-4",
@@ -4961,10 +5062,13 @@
         "153-telebras-008-01-q098",
         "205-funpresp-26-jud-005-01-q065",
         "232funprespexe-002-01-q079",
-        "cge-ce-2019-cargo5-q090"
+        "cge-ce-2019-cargo5-q090",
+        "cgesp-2025-audit-pm-q048",
+        "cgesp-2025-fin-pm-q057",
+        "tcdf-2024-psicologia-002-01-q149"
       ],
-      "subtreeCE": 3,
-      "subtreeMC": 1
+      "subtreeCE": 4,
+      "subtreeMC": 3
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-4-1",
@@ -4980,18 +5084,22 @@
         "153-telebras-008-01-q098",
         "205-funpresp-26-jud-005-01-q065",
         "232funprespexe-002-01-q079",
-        "cge-ce-2019-cargo5-q090"
+        "cge-ce-2019-cargo5-q090",
+        "cgesp-2025-audit-pm-q048",
+        "tcdf-2024-psicologia-002-01-q149"
       ],
-      "directCE": 3,
-      "directMC": 1,
+      "directCE": 4,
+      "directMC": 2,
       "subtreeQuestionIds": [
         "153-telebras-008-01-q098",
         "205-funpresp-26-jud-005-01-q065",
         "232funprespexe-002-01-q079",
-        "cge-ce-2019-cargo5-q090"
+        "cge-ce-2019-cargo5-q090",
+        "cgesp-2025-audit-pm-q048",
+        "tcdf-2024-psicologia-002-01-q149"
       ],
-      "subtreeCE": 3,
-      "subtreeMC": 1
+      "subtreeCE": 4,
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-4-2",
@@ -5001,14 +5109,18 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-politicas-investigacao-avaliacao-4",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
+      "directQuestionIds": [
+        "cgesp-2025-fin-pm-q057"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "cgesp-2025-fin-pm-q057"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-5",
@@ -5025,6 +5137,10 @@
       "directMC": 0,
       "subtreeQuestionIds": [
         "993-tce-ac-014-01-q060",
+        "cgesp-2025-audit-pm-q046",
+        "cgesp-2025-audit-pm-q049",
+        "cgesp-2025-audit-pm-q051",
+        "cgesp-2025-fin-pm-q059",
         "mpo-2024-001-01-q047",
         "mpo-2024-001-01-q053",
         "mpo-2024-001-01-q055",
@@ -5034,7 +5150,7 @@
         "mpo-2024-001-01-q060"
       ],
       "subtreeCE": 8,
-      "subtreeMC": 0
+      "subtreeMC": 4
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-5-1",
@@ -5047,21 +5163,25 @@
       "state": "direct",
       "priority": "C",
       "directQuestionIds": [
+        "cgesp-2025-audit-pm-q046",
+        "cgesp-2025-audit-pm-q051",
         "mpo-2024-001-01-q053",
         "mpo-2024-001-01-q055",
         "mpo-2024-001-01-q059",
         "mpo-2024-001-01-q060"
       ],
       "directCE": 4,
-      "directMC": 0,
+      "directMC": 2,
       "subtreeQuestionIds": [
+        "cgesp-2025-audit-pm-q046",
+        "cgesp-2025-audit-pm-q051",
         "mpo-2024-001-01-q053",
         "mpo-2024-001-01-q055",
         "mpo-2024-001-01-q059",
         "mpo-2024-001-01-q060"
       ],
       "subtreeCE": 4,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-5-2",
@@ -5074,17 +5194,21 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
+        "cgesp-2025-audit-pm-q049",
+        "cgesp-2025-fin-pm-q059",
         "mpo-2024-001-01-q056",
         "mpo-2024-001-01-q058"
       ],
       "directCE": 2,
-      "directMC": 0,
+      "directMC": 2,
       "subtreeQuestionIds": [
+        "cgesp-2025-audit-pm-q049",
+        "cgesp-2025-fin-pm-q059",
         "mpo-2024-001-01-q056",
         "mpo-2024-001-01-q058"
       ],
       "subtreeCE": 2,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-5-3",
@@ -5123,6 +5247,10 @@
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "cgesp-2025-fin-pm-q055",
+        "cgesp-2025-fin-pm-q058",
+        "cgesp-2025-fin-pm-q059",
+        "cgesp-2025-fin-pm-q060",
         "cgu-2022-auditoria-tarde-tipo1-q063",
         "cgu-2022-auditoria-tarde-tipo1-q068",
         "mpo-2024-001-01-q053",
@@ -5130,7 +5258,7 @@
         "mpo-2024-cg1-01-q075"
       ],
       "subtreeCE": 3,
-      "subtreeMC": 2
+      "subtreeMC": 6
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-6-1",
@@ -5143,17 +5271,21 @@
       "state": "direct",
       "priority": "B",
       "directQuestionIds": [
+        "cgesp-2025-fin-pm-q058",
+        "cgesp-2025-fin-pm-q059",
         "mpo-2024-001-01-q053",
         "mpo-2024-001-01-q057"
       ],
       "directCE": 2,
-      "directMC": 0,
+      "directMC": 2,
       "subtreeQuestionIds": [
+        "cgesp-2025-fin-pm-q058",
+        "cgesp-2025-fin-pm-q059",
         "mpo-2024-001-01-q053",
         "mpo-2024-001-01-q057"
       ],
       "subtreeCE": 2,
-      "subtreeMC": 0
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-6-2",
@@ -5189,15 +5321,19 @@
       "state": "direct",
       "priority": "A",
       "directQuestionIds": [
+        "cgesp-2025-fin-pm-q055",
+        "cgesp-2025-fin-pm-q060",
         "cgu-2022-auditoria-tarde-tipo1-q063"
       ],
       "directCE": 0,
-      "directMC": 1,
+      "directMC": 3,
       "subtreeQuestionIds": [
+        "cgesp-2025-fin-pm-q055",
+        "cgesp-2025-fin-pm-q060",
         "cgu-2022-auditoria-tarde-tipo1-q063"
       ],
       "subtreeCE": 0,
-      "subtreeMC": 1
+      "subtreeMC": 3
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-7",
@@ -5863,16 +5999,17 @@
       "parentTopicId": null,
       "isLeaf": false,
       "state": "descendants_only",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [],
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
         "cgu-2022-auditoria-tarde-tipo1-q021",
         "cgu-2022-correicao-tarde-tipo1-q051",
-        "cgu-2022-correicao-tarde-tipo1-q079"
+        "cgu-2022-correicao-tarde-tipo1-q079",
+        "tcdf-2024-psicologia-002-01-q160"
       ],
-      "subtreeCE": 0,
+      "subtreeCE": 1,
       "subtreeMC": 3
     },
     {
@@ -5961,13 +6098,17 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-integridade-transparencia-responsabilizacao-4",
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "B",
+      "directQuestionIds": [
+        "tcdf-2024-psicologia-002-01-q160"
+      ],
+      "directCE": 1,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "tcdf-2024-psicologia-002-01-q160"
+      ],
+      "subtreeCE": 1,
       "subtreeMC": 0
     },
     {
@@ -6133,11 +6274,12 @@
         "142-tcuaufc-cb1-01-q081",
         "896-tcdf-002-01-q112",
         "959-bcb-cb1-01-q037",
+        "cgesp-2025-cor-pm-q002",
         "cgu-2022-correicao-tarde-tipo1-q043",
         "cgu-2022-correicao-tarde-tipo1-q045"
       ],
       "subtreeCE": 6,
-      "subtreeMC": 2
+      "subtreeMC": 3
     },
     {
       "id": "cgu-2026-integridade-transparencia-responsabilizacao-6-1",
@@ -6174,14 +6316,18 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-integridade-transparencia-responsabilizacao-6",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
+      "directQuestionIds": [
+        "cgesp-2025-cor-pm-q002"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "cgesp-2025-cor-pm-q002"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-integridade-transparencia-responsabilizacao-6-3",
@@ -6355,8 +6501,8 @@
   ],
   "roleId": "cgu-auditoria",
   "reviewedAt": "2026-10-29",
-  "reviewId": "continuation-seventh",
-  "distinctQuestions": 329,
-  "distinctCE": 274,
-  "distinctMC": 55
+  "reviewId": "expansion-eighth",
+  "distinctQuestions": 358,
+  "distinctCE": 278,
+  "distinctMC": 80
 }

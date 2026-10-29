@@ -6933,6 +6933,136 @@
       "sha256": "9540785178e21d440e59eb51d1fe5e7a62a8887ea885d9703a69ee3133485546",
       "publicationDate": null,
       "paperId": "source-cge-ce-2019-cargo5"
+    },
+    {
+      "id": "source-cgesp-2025-audit-am-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "CGE/SP 2025 — Auditor Estadual de Controle — Auditoria — Manhã — tipo 1",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns1a01-auditor-estadual-de-controle-cge-auditoria-cns1a01-tipo-1.pdf",
+      "file": "sources/papers/cgesp-2025-audit-am-tipo1.pdf",
+      "sha256": "6fe9cd8a59f4a5eac2c544319c54c707ade9bd1e7895f4385f45b08217d4a232",
+      "publicationDate": null,
+      "paperId": "source-cgesp-2025-audit-am"
+    },
+    {
+      "id": "source-cgesp-2025-audit-am-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "CGE/SP 2025 — gabarito definitivo retificado em 04/02/2026 — Auditoria — Manhã",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/auditor-estadual-de-controle-cge-definitivo.pdf",
+      "file": "sources/answer-keys/cgesp-2025-definitivo-retificado.pdf",
+      "sha256": "40baa08c678867495597191765a7cb985defbb2dc5b9b2b9767d054f61677f77",
+      "publicationDate": null,
+      "paperId": "source-cgesp-2025-audit-am"
+    },
+    {
+      "id": "source-cgesp-2025-audit-pm-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "CGE/SP 2025 — Auditor Estadual de Controle — Auditoria — Tarde — tipo 1",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns2a01-auditor-estadual-de-controle-cge-auditoria-cns2a01-tipo-1.pdf",
+      "file": "sources/papers/cgesp-2025-audit-pm-tipo1.pdf",
+      "sha256": "a54300e3df58ab9e337d9f1685a08cb4442c0d7fb86ff1020e90a1ee076c39f1",
+      "publicationDate": null,
+      "paperId": "source-cgesp-2025-audit-pm"
+    },
+    {
+      "id": "source-cgesp-2025-audit-pm-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "CGE/SP 2025 — gabarito definitivo retificado em 04/02/2026 — Auditoria — Tarde",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/auditor-estadual-de-controle-cge-definitivo.pdf",
+      "file": "sources/answer-keys/cgesp-2025-definitivo-retificado.pdf",
+      "sha256": "40baa08c678867495597191765a7cb985defbb2dc5b9b2b9767d054f61677f77",
+      "publicationDate": null,
+      "paperId": "source-cgesp-2025-audit-pm"
+    },
+    {
+      "id": "source-cgesp-2025-fin-pm-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "CGE/SP 2025 — Auditor Estadual de Controle — Contabilidade Pública e Finanças — Tarde — tipo 1",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns2a05-auditor-estadual-de-controle-cge-contabilidade-publica-e-financas-cns2a05-tipo-1.pdf",
+      "file": "sources/papers/cgesp-2025-fin-pm-tipo1.pdf",
+      "sha256": "8bb4ae832e03064fddc77108516215dc50345188b5578314cc785849a370bbc0",
+      "publicationDate": null,
+      "paperId": "source-cgesp-2025-fin-pm"
+    },
+    {
+      "id": "source-cgesp-2025-fin-pm-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "CGE/SP 2025 — gabarito definitivo retificado em 04/02/2026 — Contabilidade Pública e Finanças — Tarde",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/auditor-estadual-de-controle-cge-definitivo.pdf",
+      "file": "sources/answer-keys/cgesp-2025-definitivo-retificado.pdf",
+      "sha256": "40baa08c678867495597191765a7cb985defbb2dc5b9b2b9767d054f61677f77",
+      "publicationDate": null,
+      "paperId": "source-cgesp-2025-fin-pm"
+    },
+    {
+      "id": "source-cgesp-2025-cor-pm-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "CGE/SP 2025 — Auditor Estadual de Controle — Correição e Combate à Corrupção — Tarde — tipo 1",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns2a03-auditor-estadual-de-controle-cge-correicao-e-combate-a-corrupcao-cns2a03-tipo-1.pdf",
+      "file": "sources/papers/cgesp-2025-cor-pm-tipo1.pdf",
+      "sha256": "2c23342f8221ea72d43055294760f247d5a2e1cda0d4dbdb055592a971f14ab3",
+      "publicationDate": null,
+      "paperId": "source-cgesp-2025-cor-pm"
+    },
+    {
+      "id": "source-cgesp-2025-cor-pm-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "CGE/SP 2025 — gabarito definitivo retificado em 04/02/2026 — Correição e Combate à Corrupção — Tarde",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/auditor-estadual-de-controle-cge-definitivo.pdf",
+      "file": "sources/answer-keys/cgesp-2025-definitivo-retificado.pdf",
+      "sha256": "40baa08c678867495597191765a7cb985defbb2dc5b9b2b9767d054f61677f77",
+      "publicationDate": null,
+      "paperId": "source-cgesp-2025-cor-pm"
+    },
+    {
+      "id": "source-tcdf-2024-psicologia-002-01-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "TCDF 2024 — Auditor de Controle Externo — Psicologia — conhecimentos especializados",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/tc_df_24_auditor/arquivos/012_TCDF_AUDITOR_002_01.PDF",
+      "file": "sources/papers/tcdf-2024-psicologia-002-01.pdf",
+      "sha256": "c98b8492874e34236ba6accdee371c1f781e489eb3496622b44d87c8916d0920",
+      "publicationDate": null,
+      "paperId": "source-tcdf-2024-psicologia-002-01"
+    },
+    {
+      "id": "source-tcdf-2024-psicologia-002-01-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "TCDF 2024 — conhecimentos especializados — código 012_TCDF_AUDITOR_002_01 — definitivo",
+      "issuer": "Cebraspe",
+      "status": "verified",
+      "officialUrl": "https://cdn.cebraspe.org.br/concursos/tc_df_24_auditor/arquivos/GAB_DEFINITIVO_012_TCDF_AUDITOR_002_01.PDF",
+      "file": "sources/answer-keys/tcdf-2024-psicologia-002-01-definitivo.pdf",
+      "sha256": "5649728943a7143f583352eafbad2bc0f874a0ab0155f483fd22159ddd02a0a9",
+      "publicationDate": null,
+      "paperId": "source-tcdf-2024-psicologia-002-01"
     }
   ],
   "papers": [
@@ -9072,6 +9202,135 @@
         "answerKeyDocumentId": "source-cge-ce-2019-cargo5-key",
         "pairingStatus": "matched_by_filename_and_range",
         "externalVerification": true
+      }
+    },
+    {
+      "id": "source-cgesp-2025-audit-am",
+      "bankId": "concursos",
+      "title": "CGE/SP 2025 — Auditor Estadual de Controle — Auditoria — Manhã — tipo 1",
+      "institution": "Controladoria Geral do Estado de São Paulo",
+      "provider": "FGV",
+      "role": "Auditor Estadual de Controle — Auditoria",
+      "year": 2025,
+      "booklet": "Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Manhã",
+      "documentId": "source-cgesp-2025-audit-am-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-12-14",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 60,
+        "itemCount": 60,
+        "questionType": "multiple_choice",
+        "annulledItems": [],
+        "answerKeyDocumentId": "source-cgesp-2025-audit-am-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-cgesp-2025-audit-pm",
+      "bankId": "concursos",
+      "title": "CGE/SP 2025 — Auditor Estadual de Controle — Auditoria — Tarde — tipo 1",
+      "institution": "Controladoria Geral do Estado de São Paulo",
+      "provider": "FGV",
+      "role": "Auditor Estadual de Controle — Auditoria",
+      "year": 2025,
+      "booklet": "Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Tarde",
+      "documentId": "source-cgesp-2025-audit-pm-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-12-14",
+        "block": "specific",
+        "firstItem": 1,
+        "lastItem": 60,
+        "itemCount": 60,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          3,
+          14,
+          16,
+          33
+        ],
+        "answerKeyDocumentId": "source-cgesp-2025-audit-pm-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-cgesp-2025-fin-pm",
+      "bankId": "concursos",
+      "title": "CGE/SP 2025 — Auditor Estadual de Controle — Contabilidade Pública e Finanças — Tarde — tipo 1",
+      "institution": "Controladoria Geral do Estado de São Paulo",
+      "provider": "FGV",
+      "role": "Auditor Estadual de Controle — Contabilidade Pública e Finanças",
+      "year": 2025,
+      "booklet": "Auditor Estadual de Controle CGE - Contabilidade Pública e Finanças - 1 - Turno Tarde",
+      "documentId": "source-cgesp-2025-fin-pm-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-12-14",
+        "block": "specific",
+        "firstItem": 1,
+        "lastItem": 60,
+        "itemCount": 60,
+        "questionType": "multiple_choice",
+        "annulledItems": [],
+        "answerKeyDocumentId": "source-cgesp-2025-fin-pm-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-cgesp-2025-cor-pm",
+      "bankId": "concursos",
+      "title": "CGE/SP 2025 — Auditor Estadual de Controle — Correição e Combate à Corrupção — Tarde — tipo 1",
+      "institution": "Controladoria Geral do Estado de São Paulo",
+      "provider": "FGV",
+      "role": "Auditor Estadual de Controle — Correição e Combate à Corrupção",
+      "year": 2025,
+      "booklet": "Auditor Estadual de Controle CGE - Correição e Combate à Corrupção - 1 - Turno Tarde",
+      "documentId": "source-cgesp-2025-cor-pm-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-12-14",
+        "block": "specific",
+        "firstItem": 1,
+        "lastItem": 60,
+        "itemCount": 60,
+        "questionType": "multiple_choice",
+        "annulledItems": [],
+        "answerKeyDocumentId": "source-cgesp-2025-cor-pm-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-tcdf-2024-psicologia-002-01",
+      "bankId": "concursos",
+      "title": "TCDF 2024 — Auditor de Controle Externo — Psicologia — conhecimentos especializados",
+      "institution": "Tribunal de Contas do Distrito Federal",
+      "provider": "Cebraspe",
+      "role": "Especialidade 2 — Auditor de Controle Externo — Área Especializada — Psicologia",
+      "year": 2024,
+      "booklet": "012_TCDF_AUDITOR_002_01",
+      "documentId": "source-tcdf-2024-psicologia-002-01-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2024-11-17",
+        "block": "specific",
+        "firstItem": 96,
+        "lastItem": 160,
+        "itemCount": 65,
+        "questionType": "true_false",
+        "annulledItems": [
+          107,
+          111
+        ],
+        "answerKeyDocumentId": "source-tcdf-2024-psicologia-002-01-key",
+        "pairingStatus": "matched_by_filename_and_range",
+        "externalVerification": true,
+        "containsPreliminaryAnswers": true
       }
     }
   ],
@@ -33752,6 +34011,1520 @@
         "temporalNote": "Amostra parcial, com alcance delimitado no comentário; texto, alternativas, contexto e gabarito definitivo conferidos.",
         "decisionReference": "documentation/continuation-seventh-release.md"
       }
+    },
+    {
+      "id": "cgesp-2025-audit-am-q022",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Os auditores internos governamentais devem se comportar com cortesia e respeito no trato com pessoas, mesmo em situações de divergência de opinião, abstendo-se de emitir juízo ou adotar práticas que indiquem qualquer tipo de discriminação ou preconceito.\n\nAssinale a opção que indica o princípio fundamental para a prática da atividade de Auditoria Interna Governamental que exige esse comportamento dos auditores internos.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Carisma."
+        },
+        {
+          "id": "b",
+          "text": "Eficiência."
+        },
+        {
+          "id": "c",
+          "text": "Integridade."
+        },
+        {
+          "id": "d",
+          "text": "Zelo profissional."
+        },
+        {
+          "id": "e",
+          "text": "Independência funcional."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-audit-am",
+        "number": 22,
+        "locator": "PDF p. 6"
+      },
+      "answerKeyId": "cgesp-2025-audit-am-q022-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-audit-am-q023",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Uma equipe de auditores foi designada para realizar um trabalho que exigia a utilização de seus conhecimentos relativos à governança, ao gerenciamento de riscos e aos controles internos. Dentre outras atividades, o trabalho consistia em apoiar a unidade organizacional no processo de redesenho de controles e de procedimentos para uma nova área e na criação, expansão e aperfeiçoamento de políticas públicas que ficariam sob responsabilidade desta nova área.\n\nAssinale a opção que indica corretamente o tipo de trabalho realizado pela equipe de auditoria interna governamental.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Apuração."
+        },
+        {
+          "id": "b",
+          "text": "Avaliação."
+        },
+        {
+          "id": "c",
+          "text": "Capacitação."
+        },
+        {
+          "id": "d",
+          "text": "Orientação."
+        },
+        {
+          "id": "e",
+          "text": "Facilitação."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-audit-am",
+        "number": 23,
+        "locator": "PDF p. 6"
+      },
+      "answerKeyId": "cgesp-2025-audit-am-q023-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-audit-am-q030",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Acerca da supervisão da atividade de auditoria interna governamental, avalie as afirmativas a seguir.\n\nI. O Responsável pela Unidade de Auditoria Interna Governamental tem a responsabilidade geral e indelegável pela supervisão dos trabalhos de auditoria interna.\n\nII. A supervisão deve ser exercida durante todo o trabalho, desde o planejamento até o monitoramento das recomendações emitidas.\n\nIII. A intensidade da supervisão independe da proficiência e da experiência dos auditores internos governamentais, sendo uma responsabilidade profissional decorrente do controle de qualidade da atividade de auditoria.\n\nEstá correto o que se afirma em",
+      "options": [
+        {
+          "id": "a",
+          "text": "II, apenas."
+        },
+        {
+          "id": "b",
+          "text": "I e II, apenas."
+        },
+        {
+          "id": "c",
+          "text": "I e III, apenas."
+        },
+        {
+          "id": "d",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "e",
+          "text": "I, II e III."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-audit-am",
+        "number": 30,
+        "locator": "PDF p. 8"
+      },
+      "answerKeyId": "cgesp-2025-audit-am-q030-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q006",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "A UAIG deve instituir e manter um Programa de Gestão e Melhoria da Qualidade (PGMQ) com o objetivo de promover a avaliação e a melhoria contínua dos seus processos de trabalho. Sobre o PGMQ, analise as afirmativas a seguir.\n\nI. O PGMQ deve estabelecer a frequência de realização das atividades de avaliação e da comunicação de resultados do Programa.\n\nII. O PGMQ deve ser implementado por meio de avaliações internas e externas, que devem ser devidamente documentadas.\n\nIII. Os resultados das avaliações realizadas devem ser periodicamente consolidados com a finalidade de identificar necessidades de capacitação de auditores internos.\n\nEstá correto o que se afirma em",
+      "options": [
+        {
+          "id": "a",
+          "text": "I, apenas."
+        },
+        {
+          "id": "b",
+          "text": "I e II, apenas."
+        },
+        {
+          "id": "c",
+          "text": "I e III, apenas."
+        },
+        {
+          "id": "d",
+          "text": "II e III, apenas"
+        },
+        {
+          "id": "e",
+          "text": "I, II e III."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-audit-pm",
+        "number": 6,
+        "locator": "PDF p. 2"
+      },
+      "answerKeyId": "cgesp-2025-audit-pm-q006-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q041",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Leia o trecho a seguir. Uma equipe da Controladoria-Geral do Estado de São Paulo (CGESP) irá apoiar a Secretaria da Educação do Estado de São Paulo na decisão sobre implantar, no próximo ano letivo, um programa de bolsas de permanência para reduzir a evasão no Ensino Médio.\n\nAssinale a opção que apresenta, de forma mais adequada, um produto típico da análise ex ante.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Matriz de riscos."
+        },
+        {
+          "id": "b",
+          "text": "Pesquisa de satisfação dos beneficiários ao final do primeiro ano, com entrevistas semiestruturadas."
+        },
+        {
+          "id": "c",
+          "text": "Auditoria de conformidade dos processos de pagamento executados no primeiro semestre do programa."
+        },
+        {
+          "id": "d",
+          "text": "Estimativa do impacto causal sobre evasão dos alunos com dados observados 24 meses após a implantação do programa."
+        },
+        {
+          "id": "e",
+          "text": "Medição da efetividade do programa por comparação das taxas observadas de conclusão após o primeiro ano com a linha de base."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-audit-pm",
+        "number": 41,
+        "locator": "PDF p. 12"
+      },
+      "answerKeyId": "cgesp-2025-audit-pm-q041-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q042",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Sobre a Teoria da Mudança no contexto de análise ex ante, avalie as afirmativas a seguir.\n\nI. A Teoria da Mudança, na fase ex ante, deve tornar explícitas as relações causais pretendidas (atividades → produtos → resultados → impactos) e os pressupostos/riscos que condicionam essas relações, servindo de base para comparar alternativas de desenho da política.\n\nII. A Teoria da Mudança, para fins de análise ex ante, deve restringir-se ao Modelo Lógico, sem explicitar pressupostos, riscos ou mecanismos relacionados aos elos causais, pois tais elementos introduzem subjetividade e não agregam valor à decisão.\n\nIII. A Teoria da Mudança, diferentemente do Quadro Lógico, busca explicitar o porquê dos elos causais, sendo especialmente útil na fase ex ante para testar a plausibilidade da intervenção.\n\nEstá correto o que se afirma em",
+      "options": [
+        {
+          "id": "a",
+          "text": "I, apenas."
+        },
+        {
+          "id": "b",
+          "text": "I e II, apenas."
+        },
+        {
+          "id": "c",
+          "text": "I e III, apenas."
+        },
+        {
+          "id": "d",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "e",
+          "text": "I, II e III."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-audit-pm",
+        "number": 42,
+        "locator": "PDF p. 12"
+      },
+      "answerKeyId": "cgesp-2025-audit-pm-q042-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q043",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Associe os elementos do Modelo Lógico listados a seguir às respectivas descrições.\n\n1. Atividades\n\n2. Insumos\n\n3. Produtos (outputs)\n\n4. Resultados (outcomes)\n\n5. Impactos\n\n( ) Recursos financeiros, humanos, materiais e normativos que viabilizam a execução.\n\n( ) Mudanças de curto/médio prazo no comportamento, capacidades ou condições dos públicos-alvo, decorrentes das entregas dos produtos.\n\n( ) Entregas verificáveis produzidas diretamente pelas atividades (quantidade/qualidade de bens, serviços, produtos).\n\n( ) Efeitos de longo prazo na sociedade/sistema, associados à missão da política (bem-estar, desenvolvimento, sustentabilidade).\n\n( ) Processos e tarefas executadas pela intervenção (operacionalização: selecionar, capacitar, atender, fiscalizar etc.).\n\nAssinale a opção que apresenta a associação correta, na ordem apresentada.",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 – 3 – 4 – 5 – 1."
+        },
+        {
+          "id": "b",
+          "text": "2 – 4 – 3 – 5 – 1."
+        },
+        {
+          "id": "c",
+          "text": "1 – 2 – 3 – 4 – 5."
+        },
+        {
+          "id": "d",
+          "text": "3 – 2 – 4 – 5 – 1."
+        },
+        {
+          "id": "e",
+          "text": "2 – 4 – 5 – 3 – 1."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-audit-pm",
+        "number": 43,
+        "locator": "PDF p. 12"
+      },
+      "answerKeyId": "cgesp-2025-audit-pm-q043-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q044",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Assinale a opção que corresponde a um tipo de avaliação ex post.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Estudo de viabilidade técnico-econômica."
+        },
+        {
+          "id": "b",
+          "text": "Avaliação de necessidades que mapeia problemas e público- alvo."
+        },
+        {
+          "id": "c",
+          "text": "Teoria da mudança que explicita o encadeamento causal da intervenção."
+        },
+        {
+          "id": "d",
+          "text": "Avaliação de impacto que estima o efeito causal após a implementação de um programa."
+        },
+        {
+          "id": "e",
+          "text": "Avaliação de prontidão que checa capacidades e riscos antes do início da implementação de uma política."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-audit-pm",
+        "number": 44,
+        "locator": "PDF p. 13"
+      },
+      "answerKeyId": "cgesp-2025-audit-pm-q044-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q045",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "O Programa “Tempo Certo” busca elevar a proficiência em Matemática de alunos do 9º ano com defasagem na disciplina, oferecendo: 1. Aulas de reforço (2h/semana); 2. Material didático modular; 3. Formação de 8h para professores. Resultado direto pretendido: elevação da proficiência em Matemática dos alunos elegíveis ao final do ano letivo.\n\nAssinale a opção que apresenta um indicador de resultado do programa e não um indicador de processo/entrega/aderência.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Taxa de presença dos alunos elegíveis nas aulas de reforço."
+        },
+        {
+          "id": "b",
+          "text": "Percentual de alunos elegíveis que receberam os cadernos didáticos."
+        },
+        {
+          "id": "c",
+          "text": "Percentual de alunos que cumpriram integralmente a carga horária de reforço."
+        },
+        {
+          "id": "d",
+          "text": "Percentual de professores de Matemática certificados na formação de 8 horas."
+        },
+        {
+          "id": "e",
+          "text": "Percentual de alunos elegíveis que atingem, ao final do ano, nível “adequado” de proficiência em Matemática em uma avaliação externa."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-audit-pm",
+        "number": 45,
+        "locator": "PDF p. 13"
+      },
+      "answerKeyId": "cgesp-2025-audit-pm-q045-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q046",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Acerca de avaliação de processos e resultados, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n\n( ) Indicadores de processo mensuram a execução e a aderência de uma intervenção (ex.: cobertura, carga horária cumprida, conformidade a protocolos).\n\n( ) Indicadores de resultado mensuram mudanças diretas no público-alvo decorrentes das entregas (ex.: variação de proficiência, redução do tempo de espera).\n\n( ) Para aferir resultados de curto prazo, é apropriado definir uma linha de base (baseline) e medir a diferença entre essa linha de base e o final do período desejado para as variáveis de interesse; isso pode indicar desempenho, mas não configura uma avaliação de impacto (causal).\n\nAs afirmativas são, respectivamente,",
+      "options": [
+        {
+          "id": "a",
+          "text": "V – V – V."
+        },
+        {
+          "id": "b",
+          "text": "V – F – V."
+        },
+        {
+          "id": "c",
+          "text": "V – V – F."
+        },
+        {
+          "id": "d",
+          "text": "F – V – V."
+        },
+        {
+          "id": "e",
+          "text": "F – F – V."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-audit-pm",
+        "number": 46,
+        "locator": "PDF p. 13"
+      },
+      "answerKeyId": "cgesp-2025-audit-pm-q046-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q047",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "O Município X iniciará um programa para melhorar o controle glicêmico de adultos com diabetes tipo 2 na atenção básica. Principais componentes: triagem padronizada, grupos educativos mensais, mensagens de lembrete de consulta/medicação, kit de autoteste domiciliar para casos de maior risco, acompanhamento laboratorial trimestral do controle glicêmico, protocolo clínico para ajuste de tratamento, formação da equipe e registro eletrônico. Piloto de 12 meses em unidades selecionadas. A partir do caso exposto, avalie os itens a seguir e classifique-os de acordo com os códigos abaixo. • EA = Análise ex ante (antes da implementação). • EP-PROC = Avaliação ex post de processos/implementação. • EP-RES = Avaliação ex post de resultados (outcomes).\n\n( ) Estudo de custo-efetividade com cenários e matriz de riscos para subsidiar a decisão sobre implantar o programa.\n\n( ) Proporção de pacientes com consulta de retorno realizada até 30 dias após a triagem inicial, conforme o protocolo.\n\n( ) Variação do controle glicêmico médio (medido por exame laboratorial de glicemia de longo prazo) entre a linha de base (baseline) e 12 meses dos pacientes elegíveis nas unidades piloto.\n\n( ) Auditoria do estoque de insumos de autoteste e da conformidade dos registros eletrônicos no primeiro semestre de execução.\n\nAssinale a opção que apresenta a classificação correta, na ordem apresentada.",
+      "options": [
+        {
+          "id": "a",
+          "text": "EA – EP-RES – EP-PROC – EP-PROC"
+        },
+        {
+          "id": "b",
+          "text": "EA – EP-PROC – EP-RES – EP-PROC"
+        },
+        {
+          "id": "c",
+          "text": "EP-PROC – EA – EP-RES – EP-PROC"
+        },
+        {
+          "id": "d",
+          "text": "EA – EP-PROC – EP-PROC – EP-RES"
+        },
+        {
+          "id": "e",
+          "text": "EP-RES – EP-PROC – EA – EP-PROC"
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-audit-pm",
+        "number": 47,
+        "locator": "PDF p. 13"
+      },
+      "answerKeyId": "cgesp-2025-audit-pm-q047-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q048",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Para os objetivos listados a seguir, classifique a abordagem mais adequada como quantitativa (QNT) ou qualitativa (QLT).\n\nI. Compreender por que equipes de campo não seguem integralmente um protocolo de atendimento, identificando barreiras, percepções e contextos.\n\nII. Estimar o efeito de um programa na taxa de conclusão do ensino médio, utilizando dados administrativos de diversos municípios ao longo de vários anos.\n\nIII. Explorar com entrevistas como a intervenção afeta perfis distintos de beneficiários, para ajustar a teoria do programa em campo.\n\nAs afirmativas são, respectivamente,",
+      "options": [
+        {
+          "id": "a",
+          "text": "QNT – QLT – QNT."
+        },
+        {
+          "id": "b",
+          "text": "QNT – QNT – QLT."
+        },
+        {
+          "id": "c",
+          "text": "QLT – QNT – QLT."
+        },
+        {
+          "id": "d",
+          "text": "QLT – QLT – QNT."
+        },
+        {
+          "id": "e",
+          "text": "QNT – QLT – QLT."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-audit-pm",
+        "number": 48,
+        "locator": "PDF p. 13"
+      },
+      "answerKeyId": "cgesp-2025-audit-pm-q048-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q049",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Acerca da avaliação de processos e resultados, avalie as finalidades a seguir.\n\nI. Antes da implantação: apoiar a decisão entre alternativas de desenho.\n\nII. Durante a execução (6 primeiros meses): verificar a fidelidade/cobertura da implementação.\n\nIII. Ao final de 12 meses: estimar o efeito atribuível à intervenção.\n\nAssinale a opção que apresenta corretamente a combinação mais adequada a cada finalidade.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I: Análise ex ante: teoria da mudança + matriz de riscos + custo-benefício. II: Avaliação de processo: taxa de cobertura e checklist de fidelidade. III: Avaliação de resultados: diferenças-em-diferenças (diff-in-diff) para estimar o efeito causal."
+        },
+        {
+          "id": "b",
+          "text": "I: Análise ex ante: entrevistas com beneficiários após 1 ano. II: Avaliação de processo: custo-benefício. III: Avaliação de resultados: auditoria de conformidade."
+        },
+        {
+          "id": "c",
+          "text": "I: Análise ex ante: ensaio randomizado com dados após 12 meses. II: Avaliação de processo: pesquisa de satisfação ao final do ciclo de implementação. III: Avaliação de resultados: análise prospectiva de riscos."
+        },
+        {
+          "id": "d",
+          "text": "I: Análise ex ante: teoria da mudança + estudo de viabilidade. II: Avaliação de processo: grupos focais para discutir barreiras à implementação de uma política. III: Avaliação de resultados: matriz de riscos."
+        },
+        {
+          "id": "e",
+          "text": "I: Análise ex ante: monitoramento operacional da execução. II: Avaliação de processo: avaliação sobre o aprendizado de alunos após um ano de implementação de um programa educacional. III: Avaliação de resultados: inspeção documental de pagamentos necessários para que uma política possa ser conduzida."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-audit-pm",
+        "number": 49,
+        "locator": "PDF p. 14"
+      },
+      "answerKeyId": "cgesp-2025-audit-pm-q049-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q050",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Leia o trecho a seguir. Um programa pode ser eficaz e ineficiente ao mesmo tempo. PORQUE eficácia refere-se ao alcance das metas/objetivos do programa, enquanto eficiência avalia a relação entre entregas e recursos empregados (custo), podendo haver, por exemplo, alcance de metas com uso excessivo de recursos. Sobre o trecho, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A afirmativa e a razão são falsas."
+        },
+        {
+          "id": "b",
+          "text": "A afirmativa é falsa e a razão é verdadeira."
+        },
+        {
+          "id": "c",
+          "text": "A afirmativa é verdadeira e a razão é falsa."
+        },
+        {
+          "id": "d",
+          "text": "A afirmativa e a razão são verdadeiras, mas a razão não é a justificativa da afirmativa."
+        },
+        {
+          "id": "e",
+          "text": "A afirmativa e a razão são verdadeiras, e a razão é uma justificativa correta da afirmativa."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-audit-pm",
+        "number": 50,
+        "locator": "PDF p. 14"
+      },
+      "answerKeyId": "cgesp-2025-audit-pm-q050-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q051",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Leia o fragmento a seguir. A Faixa Azul, uma sinalização que cria um espaço preferencial para motocicletas em vias da cidade de São Paulo, demonstrou um impacto significativo na segurança viária. Dados da Companhia de Engenharia de Tráfego (CET) revelam uma redução de 47,2% no número de mortes de motociclistas, caindo de 36, em 2023, para 19, em 2024. https://prefeitura.sp.gov.br/web/pinheiros/w/faixa-azul-em-s%C3%A3o-paulo- redu%C3%A7%C3%A3o-de-47-nas-mortes-de-motociclistas. Acesso em: 18 out. 2025. A partir desse tipo de evidência (comparação antes–depois no mesmo conjunto de vias), assinale a opção que expressa a conclusão metodologicamente correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A comparação antes–depois é suficiente para afirmar que a Faixa Azul causou a redução observada."
+        },
+        {
+          "id": "b",
+          "text": "Ajustar sazonalidade no mesmo local já substitui a necessidade de grupo de comparação."
+        },
+        {
+          "id": "c",
+          "text": "A proximidade temporal entre a implantação e a queda garante causalidade."
+        },
+        {
+          "id": "d",
+          "text": "A evidência é correlacional; sem um contrafactual adequado não se pode inferir causalidade."
+        },
+        {
+          "id": "e",
+          "text": "A magnitude do percentual (47,2%) dispensa contrafactual e comprova causalidade."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-audit-pm",
+        "number": 51,
+        "locator": "PDF p. 14"
+      },
+      "answerKeyId": "cgesp-2025-audit-pm-q051-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_question",
+        "temporalNote": "Texto e dados citados pela prova de14/12/2025, com acesso à notícia em18/10/2025. Não são estatísticas atuais nem confirmação de efeito causal da Faixa Azul.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q023",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Ao realizar uma auditoria financeira, a equipe de auditoria analisou os registros contábeis da realização de uma despesa contratual para aquisição de bens permanentes. Ato contínuo, analisaram a respectivas notas de empenho e de liquidação, os relatórios de fiscalização e os atos de recebimento provisório e definitivo dos bens contratados e, com base nesta documentação, buscaram confirmar a efetiva entrega dos bens objetos da pactuação. Nesta situação, a equipe usou a técnica de auditoria denominada",
+      "options": [
+        {
+          "id": "a",
+          "text": "vouching."
+        },
+        {
+          "id": "b",
+          "text": "circularização."
+        },
+        {
+          "id": "c",
+          "text": "comprovação."
+        },
+        {
+          "id": "d",
+          "text": "rastreamento."
+        },
+        {
+          "id": "e",
+          "text": "análise documental."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-fin-pm",
+        "number": 23,
+        "locator": "PDF p. 6"
+      },
+      "answerKeyId": "cgesp-2025-fin-pm-q023-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q035",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "A Contabilidade Aplicada ao Setor Público (CASP), conforme o Manual de Contabilidade Aplicada ao Setor Público (MCASP), tem como objetivo principal fornecer informações úteis para fins de prestação de contas e responsabilização (accountability) e para a tomada de decisão. Contudo, o MCASP estabelece que a utilidade da informação está sujeita a fatores que atuam como restrições inerentes. Em muitos casos, essas restrições exigem um julgamento profissional para equilibrar atributos conflitantes. Com base na estrutura conceitual CASP, assinale a opção que apresenta corretamente as três restrições que limitam o alcance da máxima utilidade dos indicadores qualitativos da informação contábil.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A necessidade de consistência, a observância do regime de competência e a demonstração da continuidade da entidade."
+        },
+        {
+          "id": "b",
+          "text": "A necessidade de equilíbrio, a verificabilidade da mensuração e o princípio da materialidade."
+        },
+        {
+          "id": "c",
+          "text": "O cumprimento da materialidade, a avaliação do custo- benefício e o alcance do equilíbrio apropriado entre as características qualitativas."
+        },
+        {
+          "id": "d",
+          "text": "A análise da capacidade de pagamento (CAPAG), o risco de crédito e o equilíbrio entre os aspectos orçamentário, patrimonial e fiscal."
+        },
+        {
+          "id": "e",
+          "text": "O efeito da variação cambial, a complexidade dos custos de transação e a inobservância do método da equivalência patrimonial."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-fin-pm",
+        "number": 35,
+        "locator": "PDF p. 8"
+      },
+      "answerKeyId": "cgesp-2025-fin-pm-q035-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q041",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Conforme o disposto no Art. 176 da Lei Federal nº 6.404/1976 (Lei das S.A.), em seu Capítulo XV (Exercício Social e Demonstrações Financeiras), assinale a opção que indica a demonstração financeira cuja elaboração e publicação é obrigatória para todas as companhias abertas, mas da qual a legislação dispensa as companhias fechadas que apresentarem, na data do balanço, um patrimônio líquido inferior a R$ 2.000.000,00 (dois milhões de reais).",
+      "options": [
+        {
+          "id": "a",
+          "text": "Demonstração do Resultado do Exercício (DRE), que deve discriminar o lucro ou prejuízo líquido por ação do capital social."
+        },
+        {
+          "id": "b",
+          "text": "Balanço Patrimonial (BP), que deve classificar as contas do ativo em ordem decrescente de grau de liquidez."
+        },
+        {
+          "id": "c",
+          "text": "Demonstração dos Fluxos de Caixa (DFC), que segrega as alterações do saldo de caixa em, no mínimo, três fluxos: das operações, dos investimentos e dos financiamentos."
+        },
+        {
+          "id": "d",
+          "text": "Demonstração de Lucros ou Prejuízos Acumulados (DLPA), que discrimina o saldo do início do período, os ajustes de exercícios anteriores e as transferências para reservas."
+        },
+        {
+          "id": "e",
+          "text": "Demonstração do Valor Adicionado (DVA), que registra os elementos que contribuíram para a geração da riqueza e sua distribuição, como empregados, financiadores e acionistas."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-fin-pm",
+        "number": 41,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "cgesp-2025-fin-pm-q041-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q055",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Uma Secretaria Municipal vai implementar o programa “Transporte Escolar Seguro” para reduzir faltas de estudantes por dificuldade de locomoção. A equipe de monitoramento e avaliação listou três ações necessárias:\n\nI. Construir a Matriz de Riscos antes de iniciar o programa.\n\nII. Estimar o impacto do programa sobre a taxa de faltas dos alunos após 12 meses de execução, utilizando metodologia causal.\n\nIII. Planejar que fatores serão medidos antes e depois da implementação. Classifique cada ação como ex ante ou ex post. Assinale a sequência correta, segundo a ordem apresentada.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ex post – ex ante – ex post."
+        },
+        {
+          "id": "b",
+          "text": "ex ante – ex post – ex ante."
+        },
+        {
+          "id": "c",
+          "text": "ex ante – ex ante – ex post."
+        },
+        {
+          "id": "d",
+          "text": "ex post – ex post – ex ante."
+        },
+        {
+          "id": "e",
+          "text": "ex post – ex ante – ex ante."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-fin-pm",
+        "number": 55,
+        "locator": "PDF p. 15"
+      },
+      "answerKeyId": "cgesp-2025-fin-pm-q055-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q057",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "O município lançou o programa Fila Zero Digital, que introduziu agendamento por aplicativo para consultas de atenção básica de saúde. Perguntas da avaliação: P1. O aplicativo reduziu o tempo médio de espera para a primeira consulta? P2. Por que parte dos usuários não utiliza o aplicativo, mesmo tendo acesso ao celular? Assinale a alternativa que apresenta, nesta ordem (P1; P2), a abordagem principal mais adequada para responder a cada pergunta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aplicar questionário para avaliar a satisfação dos usuários com o aplicativo; formulário aberto nas redes sociais do município."
+        },
+        {
+          "id": "b",
+          "text": "Uso de diferenças-em-diferenças (DiD) entre unidades com e sem o aplicativo (verificando tendências prévias); grupos focais/entrevistas para explorar barreiras de uso."
+        },
+        {
+          "id": "c",
+          "text": "Pesquisa de satisfação online; regressão com efeitos fixos sem grupo de comparação."
+        },
+        {
+          "id": "d",
+          "text": "Comparar, no mesmo período, o tempo médio de espera em unidades com aplicativo e unidades sem aplicativo; auditoria de prontuários."
+        },
+        {
+          "id": "e",
+          "text": "Avaliação comparando o antes e o depois nas unidades com o aplicativo; entrevistas semiestruturadas com usuários e profissionais."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-fin-pm",
+        "number": 57,
+        "locator": "PDF p. 15"
+      },
+      "answerKeyId": "cgesp-2025-fin-pm-q057-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q058",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Considere os critérios a seguir. • Eficiência = relação recursos/entregas (ex.: custo por unidade abaixo do benchmark esperado). • Eficácia = cumprimento de metas/objetivos do programa (ex.: meta de cobertura atingida/superada). • Efetividade = mudança observada no problema/público (ex.: estimativa de efeito causal estatisticamente significativa).\n\nAssinale a opção que descreve um programa eficiente e eficaz, mas sem evidência de efetividade.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Meta de cobertura atingida; custo por unidade abaixo do benchmark; estimativa estatisticamente não significativa do efeito causal do programa."
+        },
+        {
+          "id": "b",
+          "text": "Meta de cobertura atingida; custo por unidade acima do benchmark; estimativa estatisticamente significativa do efeito causal do programa."
+        },
+        {
+          "id": "c",
+          "text": "Meta de cobertura não atingida; custo por unidade abaixo do benchmark; estimativa estatisticamente significativa do efeito causal do programa."
+        },
+        {
+          "id": "d",
+          "text": "Meta de cobertura atingida; custo por unidade acima do benchmark; estimativa estatisticamente não significativa do efeito causal do programa."
+        },
+        {
+          "id": "e",
+          "text": "Meta de cobertura não atingida; custo por unidade abaixo do benchmark; estimativa estatisticamente não significativa do efeito causal do programa."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-fin-pm",
+        "number": 58,
+        "locator": "PDF p. 15"
+      },
+      "answerKeyId": "cgesp-2025-fin-pm-q058-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q059",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Dados da Companhia de Engenharia de Tráfego (CET) revelam uma redução de 47,2% no número de mortes de motociclistas, caindo de 36, em 2023, para 19, em 2024. Disponível em: https://prefeitura.sp.gov.br/web/pinheiros/w/faixa-azul-em- s%C3%A3o-paulo-redu%C3%A7%C3%A3o-de-47-nas-mortes-de-motociclistas. A análise (…) aplica modelos de Diferença-em-Diferenças específicos de adoção escalonada para estimar os efeitos da intervenção. Em todas as especificações, os impactos estimados foram pequenos e estatisticamente indistintos de zero. LOUREIRO, Michele. Estudo não encontra relação direta entre Faixa Azul e redução de sinistros em São Paulo. Centro de Estudos das Cidades – Insper. São Paulo. Sobre a natureza da evidência e a conclusão cabível, à luz do enunciado, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "PMSP: evidência causal; Insper: o estudo é apenas descritivo por causa da metodologia empregada."
+        },
+        {
+          "id": "b",
+          "text": "PMSP: comparação antes–depois é correlacional, sem contrafactual; Insper: avaliação causal com contrafactual (DiD de adoção escalonada) que não detectou efeito significativo, portanto não se pode afirmar causalidade."
+        },
+        {
+          "id": "c",
+          "text": "Ambos apresentam evidências causais."
+        },
+        {
+          "id": "d",
+          "text": "As estimativas “indistintas de zero” significam que o efeito da Faixa Azul é negativo; logo a Faixa Azul piora os sinistros."
+        },
+        {
+          "id": "e",
+          "text": "A divergência se explica porque a PMSP mediu eficácia e o Insper mediu eficiência; portanto, não há conflito metodológico."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-fin-pm",
+        "number": 59,
+        "locator": "PDF p. 16"
+      },
+      "answerKeyId": "cgesp-2025-fin-pm-q059-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_question",
+        "temporalNote": "Comparação de duas fontes reproduzida na prova de14/12/2025 sobre dados de2023/2024. O comentário interpreta o enunciado; não certifica os resultados integrais do estudo nem a situação atual da política.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q060",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Leia o trecho a seguir. Declarar que um programa foi efetivo exige evidência de que mudanças no problema/público-alvo ocorreram em condições reais e são atribuíveis à intervenção; cumprir metas operacionais (eficácia) não é suficiente. PORQUE Eficácia refere-se ao grau de alcance das metas/objetivos pactuados no desenho (outputs/resultados intermediários), enquanto efetividade diz respeito às mudanças finais no problema/público em contexto real; por isso, julgar efetividade requer vincular a mudança observada à intervenção, e não apenas registrar metas cumpridas. Sobre o trecho, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A assertiva e a razão são verdadeiras, e a razão é uma justificativa correta da assertiva."
+        },
+        {
+          "id": "b",
+          "text": "A assertiva e a razão são verdadeiras, mas a razão não justifica a assertiva."
+        },
+        {
+          "id": "c",
+          "text": "A assertiva é verdadeira, e a razão é falsa."
+        },
+        {
+          "id": "d",
+          "text": "A assertiva é falsa, e a razão é verdadeira."
+        },
+        {
+          "id": "e",
+          "text": "A assertiva e a razão são falsas."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-fin-pm",
+        "number": 60,
+        "locator": "PDF p. 16"
+      },
+      "answerKeyId": "cgesp-2025-fin-pm-q060-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-cor-pm-q002",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Após a observância do contraditório e da ampla defesa, como consectários do devido processo legal, a sociedade empresária Alfa foi condenada, na esfera administrativa, pela prática de ato ilícito descrito na Lei Anticorrupção. Considerando as disposições da Lei nº 12.846/2013, as opções a seguir apresentam os fatores que serão levados em consideração na aplicação das sanções à sociedade empresária Alfa, a exceção de uma. Assinale-a.",
+      "options": [
+        {
+          "id": "a",
+          "text": "O tempo dos contratos mantidos pela pessoa jurídica com o órgão público lesado."
+        },
+        {
+          "id": "b",
+          "text": "A cooperação da pessoa jurídica para a apuração das infrações."
+        },
+        {
+          "id": "c",
+          "text": "A vantagem auferida ou pretendida pelo infrator."
+        },
+        {
+          "id": "d",
+          "text": "O grau de lesão ou perigo de lesão."
+        },
+        {
+          "id": "e",
+          "text": "A consumação ou não da infração."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-cor-pm",
+        "number": 2,
+        "locator": "PDF p. 3"
+      },
+      "answerKeyId": "cgesp-2025-cor-pm-q002-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-cor-pm-q012",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Nos termos do Decreto nº 9.830/2019, que regulamenta a Lei de Introdução às Normas do Direito Brasileiro, o agente público somente poderá ser responsabilizado por suas decisões ou opiniões técnicas se agir ou se omitir com dolo, direto ou eventual, ou cometer erro grosseiro, no desempenho de suas funções. Nesse cenário, considerando as disposições do Decreto nº 9.830/2019, assinale a afirmativa incorreta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Não será configurado dolo ou erro grosseiro do agente público se não restar comprovada, nos autos do processo de responsabilização, situação ou circunstância fática capaz de caracterizar o dolo ou o erro grosseiro."
+        },
+        {
+          "id": "b",
+          "text": "O erro evidente e inescusável, praticado com culpa grave, por ação ou omissão com elevado grau de negligência, imprudência ou imperícia, é considerado erro grosseiro."
+        },
+        {
+          "id": "c",
+          "text": "O mero nexo de causalidade entre a conduta e o resultado danoso não implica responsabilização, exceto se comprovado o dolo ou o erro grosseiro do agente público."
+        },
+        {
+          "id": "d",
+          "text": "A complexidade da matéria e das atribuições exercidas pelo agente público serão consideradas em eventual responsabilização do agente público."
+        },
+        {
+          "id": "e",
+          "text": "O montante do dano ao erário, salvo se expressivo, não poderá, por si só, ser elemento para caracterizar o erro grosseiro ou o dolo."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-cor-pm",
+        "number": 12,
+        "locator": "PDF p. 5"
+      },
+      "answerKeyId": "cgesp-2025-cor-pm-q012-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "fiocruz-2024-te58-q013",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "O gerenciamento das redes sociais de uma instituição é parte importante da tarefa de muitos comunicadores. Para isso, é fundamental conhecer bem as plataformas, suas características e o cenário macro no qual estão inseridas. No que diz respeito às plataformas de redes sociais, é correto afirmar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "apesar da perda de relevância do Facebook nos últimos anos no Brasil, a rede social ainda é a melhor alternativa para alcançar o público de forma orgânica, enquanto outras redes priorizam o conteúdo pago e impulsionado."
+        },
+        {
+          "id": "b",
+          "text": "após mudar de nome, o Twitter, agora conhecido como X, deixou de ser uma das ferramentas digitais mais usadas por jornalistas para divulgação de notícias e para formulação de pautas, pela dificuldade de acesso a contas verificadas na nova plataforma."
+        },
+        {
+          "id": "c",
+          "text": "para produzir Reels, formato de vídeos curtos do Instagram, é fundamental conhecer os recursos e ferramentas disponibilizados pela plataforma e também por app terceiros, além de ficar de olho nas trends mais populares da rede e fazer bom uso de hashtags."
+        },
+        {
+          "id": "d",
+          "text": "por seu grande foco na criação e compartilhamento de vídeos muito curtos, de alto apelo comercial e de promoção pessoal, com pouca profundidade de conteúdos, o TikTok caracteriza-se como uma rede que não se presta a atividades de divulgação da ciência e tecnologia."
+        },
+        {
+          "id": "e",
+          "text": "para ganhar relevância na rede e chegar a um público amplo rapidamente, em especial quando se trata de um perfil novo no Instagram, uma boa estratégia é a aquisição de pacotes de seguidores, pois o aumento dos números acaba induzindo o crescimento orgânico."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-fiocruz-2024-te58",
+        "number": 13,
+        "locator": "PDF p. 5"
+      },
+      "answerKeyId": "fiocruz-2024-te58-q013-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_question",
+        "temporalNote": "Questão aplicada em28/04/2024. Nomes, recursos e afirmações sobre plataformas pertencem ao contexto original; não constituem garantia de alcance ou descrição atual dos algoritmos.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q145",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A gestão baseada em evidências é um conjunto de práticas para a tomada de decisão embasadas no pensamento científico e nas melhores evidências disponíveis para a sustentação de decisões organizacionais.",
+      "options": [],
+      "contextIds": [
+        "expansion8-tcdf-research"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-tcdf-2024-psicologia-002-01",
+        "number": 145,
+        "locator": "PDF p. 6"
+      },
+      "answerKeyId": "tcdf-2024-psicologia-002-01-q145-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q146",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Define-se a validade de um instrumento como a sua capacidade de reproduzir um resultado de forma consistente, no tempo e no espaço.",
+      "options": [],
+      "contextIds": [
+        "expansion8-tcdf-research"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-tcdf-2024-psicologia-002-01",
+        "number": 146,
+        "locator": "PDF p. 6"
+      },
+      "answerKeyId": "tcdf-2024-psicologia-002-01-q146-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q149",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Pesquisas sobre assédio moral requerem necessariamente o uso de entrevistas em profundidade.",
+      "options": [],
+      "contextIds": [
+        "expansion8-tcdf-research"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-tcdf-2024-psicologia-002-01",
+        "number": 149,
+        "locator": "PDF p. 6"
+      },
+      "answerKeyId": "tcdf-2024-psicologia-002-01-q149-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q150",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "No âmbito do gerenciamento de conflitos, a capacidade de gestão consiste em lograr a superação das tensões existentes nos grupos, canalizando-as para objetivos coletivos concatenados com os objetivos organizacionais.",
+      "options": [],
+      "contextIds": [
+        "expansion8-tcdf-groups"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-tcdf-2024-psicologia-002-01",
+        "number": 150,
+        "locator": "PDF p. 6"
+      },
+      "answerKeyId": "tcdf-2024-psicologia-002-01-q150-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q151",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "Respeito e informações claras são elementos suficientes para uma relação negocial positiva.",
+      "options": [],
+      "contextIds": [
+        "expansion8-tcdf-groups"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-tcdf-2024-psicologia-002-01",
+        "number": 151,
+        "locator": "PDF p. 6"
+      },
+      "answerKeyId": "tcdf-2024-psicologia-002-01-q151-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q152",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A solução dos conflitos no trabalho está diretamente associada à capacidade de negociação dos gestores.",
+      "options": [],
+      "contextIds": [
+        "expansion8-tcdf-groups"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-tcdf-2024-psicologia-002-01",
+        "number": 152,
+        "locator": "PDF p. 6"
+      },
+      "answerKeyId": "tcdf-2024-psicologia-002-01-q152-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q154",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "A fase do conflito interpessoal é um componente dos estágios de funcionamento de grupos.",
+      "options": [],
+      "contextIds": [
+        "expansion8-tcdf-groups"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-tcdf-2024-psicologia-002-01",
+        "number": 154,
+        "locator": "PDF p. 6"
+      },
+      "answerKeyId": "tcdf-2024-psicologia-002-01-q154-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q160",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "As práticas gerenciais de gestão por estresse visam essencialmente ao bem-estar dos trabalhadores e ao aumento do seu envolvimento no trabalho.",
+      "options": [],
+      "contextIds": [
+        "expansion8-tcdf-health"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-tcdf-2024-psicologia-002-01",
+        "number": 160,
+        "locator": "PDF p. 7"
+      },
+      "answerKeyId": "tcdf-2024-psicologia-002-01-q160-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+        "decisionReference": "documentation/expansion-eighth-release.md"
+      }
     }
   ],
   "answerKeys": [
@@ -43127,6 +44900,448 @@
       "locator": "PDF p. 25 — Auditor Federal de Finanças e Controle - Correição e Combate à Corrupção – Tipo 1 | Tarde",
       "result": "valid",
       "value": "e"
+    },
+    {
+      "id": "cgesp-2025-audit-am-q022-key-v1",
+      "questionId": "cgesp-2025-audit-am-q022",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-audit-am-key",
+      "author": null,
+      "locator": "PDF p. 12 — Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Manhã",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "cgesp-2025-audit-am-q023-key-v1",
+      "questionId": "cgesp-2025-audit-am-q023",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-audit-am-key",
+      "author": null,
+      "locator": "PDF p. 12 — Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Manhã",
+      "result": "valid",
+      "value": "e"
+    },
+    {
+      "id": "cgesp-2025-audit-am-q030-key-v1",
+      "questionId": "cgesp-2025-audit-am-q030",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-audit-am-key",
+      "author": null,
+      "locator": "PDF p. 12 — Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Manhã",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q006-key-v1",
+      "questionId": "cgesp-2025-audit-pm-q006",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-audit-pm-key",
+      "author": null,
+      "locator": "PDF p. 14 — Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "e"
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q041-key-v1",
+      "questionId": "cgesp-2025-audit-pm-q041",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-audit-pm-key",
+      "author": null,
+      "locator": "PDF p. 14 — Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q042-key-v1",
+      "questionId": "cgesp-2025-audit-pm-q042",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-audit-pm-key",
+      "author": null,
+      "locator": "PDF p. 14 — Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q043-key-v1",
+      "questionId": "cgesp-2025-audit-pm-q043",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-audit-pm-key",
+      "author": null,
+      "locator": "PDF p. 14 — Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q044-key-v1",
+      "questionId": "cgesp-2025-audit-pm-q044",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-audit-pm-key",
+      "author": null,
+      "locator": "PDF p. 14 — Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q045-key-v1",
+      "questionId": "cgesp-2025-audit-pm-q045",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-audit-pm-key",
+      "author": null,
+      "locator": "PDF p. 14 — Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "e"
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q046-key-v1",
+      "questionId": "cgesp-2025-audit-pm-q046",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-audit-pm-key",
+      "author": null,
+      "locator": "PDF p. 14 — Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q047-key-v1",
+      "questionId": "cgesp-2025-audit-pm-q047",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-audit-pm-key",
+      "author": null,
+      "locator": "PDF p. 14 — Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q048-key-v1",
+      "questionId": "cgesp-2025-audit-pm-q048",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-audit-pm-key",
+      "author": null,
+      "locator": "PDF p. 14 — Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q049-key-v1",
+      "questionId": "cgesp-2025-audit-pm-q049",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-audit-pm-key",
+      "author": null,
+      "locator": "PDF p. 14 — Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q050-key-v1",
+      "questionId": "cgesp-2025-audit-pm-q050",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-audit-pm-key",
+      "author": null,
+      "locator": "PDF p. 14 — Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "e"
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q051-key-v1",
+      "questionId": "cgesp-2025-audit-pm-q051",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-audit-pm-key",
+      "author": null,
+      "locator": "PDF p. 14 — Auditor Estadual de Controle CGE - Auditoria - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q023-key-v1",
+      "questionId": "cgesp-2025-fin-pm-q023",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-fin-pm-key",
+      "author": null,
+      "locator": "PDF p. 1 — Auditor Estadual de Controle CGE - Contabilidade Pública e Finanças - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q035-key-v1",
+      "questionId": "cgesp-2025-fin-pm-q035",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-fin-pm-key",
+      "author": null,
+      "locator": "PDF p. 1 — Auditor Estadual de Controle CGE - Contabilidade Pública e Finanças - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q041-key-v1",
+      "questionId": "cgesp-2025-fin-pm-q041",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-fin-pm-key",
+      "author": null,
+      "locator": "PDF p. 1 — Auditor Estadual de Controle CGE - Contabilidade Pública e Finanças - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q055-key-v1",
+      "questionId": "cgesp-2025-fin-pm-q055",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-fin-pm-key",
+      "author": null,
+      "locator": "PDF p. 1 — Auditor Estadual de Controle CGE - Contabilidade Pública e Finanças - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q057-key-v1",
+      "questionId": "cgesp-2025-fin-pm-q057",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-fin-pm-key",
+      "author": null,
+      "locator": "PDF p. 1 — Auditor Estadual de Controle CGE - Contabilidade Pública e Finanças - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q058-key-v1",
+      "questionId": "cgesp-2025-fin-pm-q058",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-fin-pm-key",
+      "author": null,
+      "locator": "PDF p. 1 — Auditor Estadual de Controle CGE - Contabilidade Pública e Finanças - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q059-key-v1",
+      "questionId": "cgesp-2025-fin-pm-q059",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-fin-pm-key",
+      "author": null,
+      "locator": "PDF p. 1 — Auditor Estadual de Controle CGE - Contabilidade Pública e Finanças - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q060-key-v1",
+      "questionId": "cgesp-2025-fin-pm-q060",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-fin-pm-key",
+      "author": null,
+      "locator": "PDF p. 1 — Auditor Estadual de Controle CGE - Contabilidade Pública e Finanças - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "cgesp-2025-cor-pm-q002-key-v1",
+      "questionId": "cgesp-2025-cor-pm-q002",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-cor-pm-key",
+      "author": null,
+      "locator": "PDF p. 2 — Auditor Estadual de Controle CGE - Correição e Combate à Corrupção - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "cgesp-2025-cor-pm-q012-key-v1",
+      "questionId": "cgesp-2025-cor-pm-q012",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-cor-pm-key",
+      "author": null,
+      "locator": "PDF p. 2 — Auditor Estadual de Controle CGE - Correição e Combate à Corrupção - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "e"
+    },
+    {
+      "id": "fiocruz-2024-te58-q013-key-v1",
+      "questionId": "fiocruz-2024-te58-q013",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-fiocruz-2024-te58-key",
+      "author": null,
+      "locator": "PDF p. 58 — TE58 - Jornalista Web- Rio de Janeiro",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q145-key-v1",
+      "questionId": "tcdf-2024-psicologia-002-01-q145",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-tcdf-2024-psicologia-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 012_TCDF_AUDITOR_002_01",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q146-key-v1",
+      "questionId": "tcdf-2024-psicologia-002-01-q146",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-tcdf-2024-psicologia-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 012_TCDF_AUDITOR_002_01",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q149-key-v1",
+      "questionId": "tcdf-2024-psicologia-002-01-q149",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-tcdf-2024-psicologia-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 012_TCDF_AUDITOR_002_01",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q150-key-v1",
+      "questionId": "tcdf-2024-psicologia-002-01-q150",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-tcdf-2024-psicologia-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 012_TCDF_AUDITOR_002_01",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q151-key-v1",
+      "questionId": "tcdf-2024-psicologia-002-01-q151",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-tcdf-2024-psicologia-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 012_TCDF_AUDITOR_002_01",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q152-key-v1",
+      "questionId": "tcdf-2024-psicologia-002-01-q152",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-tcdf-2024-psicologia-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 012_TCDF_AUDITOR_002_01",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q154-key-v1",
+      "questionId": "tcdf-2024-psicologia-002-01-q154",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-tcdf-2024-psicologia-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 012_TCDF_AUDITOR_002_01",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q160-key-v1",
+      "questionId": "tcdf-2024-psicologia-002-01-q160",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-tcdf-2024-psicologia-002-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 012_TCDF_AUDITOR_002_01",
+      "result": "valid",
+      "value": false
     }
   ],
   "explanations": [
@@ -56572,6 +58787,608 @@
         {
           "documentId": "reference-decreto-9830-2019",
           "locator": "Art.4º,§§1º–5º"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-audit-am-q022-comment-v1",
+      "questionId": "cgesp-2025-audit-am-q022",
+      "text": "Alternativa C. Cortesia, respeito e abstenção de discriminação integram a integridade na prática de auditoria. O dever permanece diante de divergências de opinião. A IN SFC 3/2017, item 43, prevê esse comportamento no referencial federal. É uma amostra de conduta profissional; não reproduz nem substitui o Código de Ética próprio da CGU.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-audit-am-paper",
+          "locator": "PDF p. 6, questão 22"
+        },
+        {
+          "documentId": "source-cgesp-2025-audit-am-key",
+          "locator": "PDF p. 12, questão 22"
+        },
+        {
+          "documentId": "reference-cgu-in3-2017-consolidada",
+          "locator": "Item43, integridade e comportamento respeitoso"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-audit-am-q023-comment-v1",
+      "questionId": "cgesp-2025-audit-am-q023",
+      "text": "Alternativa E. Apoiar o redesenho de controles e procedimentos ou a criação/expansão de políticas caracteriza facilitação, modalidade de consultoria. O auditor ajuda a gestão a construir soluções, preservando sua objetividade e sem assumir decisões gerenciais. A questão inicia o recorte de seleção da forma de atuação; não cobre todas as hipóteses de avaliação e apuração.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-audit-am-paper",
+          "locator": "PDF p. 6, questão 23"
+        },
+        {
+          "documentId": "source-cgesp-2025-audit-am-key",
+          "locator": "PDF p. 12, questão 23"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-audit-am-q030-comment-v1",
+      "questionId": "cgesp-2025-audit-am-q030",
+      "text": "Alternativa A: apenas II. A supervisão acompanha o trabalho do planejamento ao monitoramento. A IN SFC 3/2017, item 156, permite delegar a supervisão a integrante qualificado, sem afastar a responsabilidade do responsável pela UAIG. O item 158 determina que a intensidade varie com proficiência, experiência e complexidade, contrariando III. Não confundir delegação da supervisão com exoneração da responsabilidade.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-audit-am-paper",
+          "locator": "PDF p. 8, questão 30"
+        },
+        {
+          "documentId": "source-cgesp-2025-audit-am-key",
+          "locator": "PDF p. 12, questão 30"
+        },
+        {
+          "documentId": "reference-cgu-in3-2017-consolidada",
+          "locator": "Itens156–158"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q006-comment-v1",
+      "questionId": "cgesp-2025-audit-pm-q006",
+      "text": "Alternativa E: I, II e III. O programa de qualidade organiza avaliações internas e externas, sua periodicidade, documentação e comunicação, para identificar melhorias, inclusive necessidades de capacitação. No referencial federal, a IN SFC 3/2017, itens 105–115, disciplina o PGMQ. São primeiras amostras de asseguração da qualidade, não uma avaliação completa da capacidade de uma UAIG.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-audit-pm-paper",
+          "locator": "PDF p. 2, questão 6"
+        },
+        {
+          "documentId": "source-cgesp-2025-audit-pm-key",
+          "locator": "PDF p. 14, questão 6"
+        },
+        {
+          "documentId": "reference-cgu-in3-2017-consolidada",
+          "locator": "Itens105–115, PGMQ"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q041-comment-v1",
+      "questionId": "cgesp-2025-audit-pm-q041",
+      "text": "Alternativa A. A matriz de riscos pode apoiar a decisão antes da implantação. As demais alternativas descrevem atividades posteriores à execução. Comparar apenas a taxa final com a linha de base não assegura identificação causal; para impacto, é necessário um desenho de comparação defensável.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-audit-pm-paper",
+          "locator": "PDF p. 12, questão 41"
+        },
+        {
+          "documentId": "source-cgesp-2025-audit-pm-key",
+          "locator": "PDF p. 14, questão 41"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q042-comment-v1",
+      "questionId": "cgesp-2025-audit-pm-q042",
+      "text": "Alternativa C: I e III. A teoria da mudança explicita os elos causais esperados, seus pressupostos, riscos e mecanismos. Esses elementos permitem testar a plausibilidade e comparar alternativas de desenho; restringir-se a uma sequência de caixas sem hipóteses não cumpre essa função. É a primeira amostra do recorte de pressupostos e hipóteses; efeitos não pretendidos ainda exigem aprofundamento.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-audit-pm-paper",
+          "locator": "PDF p. 12, questão 42"
+        },
+        {
+          "documentId": "source-cgesp-2025-audit-pm-key",
+          "locator": "PDF p. 14, questão 42"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q043-comment-v1",
+      "questionId": "cgesp-2025-audit-pm-q043",
+      "text": "Alternativa B: 2–4–3–5–1. Insumos são os recursos; resultados são mudanças diretas no público; produtos são entregas; impactos são efeitos de longo prazo; atividades são os processos executados. A sequência do modelo lógico não demonstra, por si só, atribuição causal.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-audit-pm-paper",
+          "locator": "PDF p. 12, questão 43"
+        },
+        {
+          "documentId": "source-cgesp-2025-audit-pm-key",
+          "locator": "PDF p. 14, questão 43"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q044-comment-v1",
+      "questionId": "cgesp-2025-audit-pm-q044",
+      "text": "Alternativa D. A avaliação de impacto realizada após a implementação é ex post. Viabilidade, necessidades, teoria da mudança e prontidão podem orientar decisões ex ante. O momento da avaliação e o desenho utilizado são dimensões distintas: nem todo estudo posterior é avaliação de impacto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-audit-pm-paper",
+          "locator": "PDF p. 13, questão 44"
+        },
+        {
+          "documentId": "source-cgesp-2025-audit-pm-key",
+          "locator": "PDF p. 14, questão 44"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q045-comment-v1",
+      "questionId": "cgesp-2025-audit-pm-q045",
+      "text": "Alternativa E. A proficiência atingida no final do ano representa o resultado direto pretendido. Presença, entrega de materiais e formação de professores medem execução, entrega ou aderência. O indicador de resultado isolado não identifica quanto da mudança pode ser atribuído ao programa.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-audit-pm-paper",
+          "locator": "PDF p. 13, questão 45"
+        },
+        {
+          "documentId": "source-cgesp-2025-audit-pm-key",
+          "locator": "PDF p. 14, questão 45"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q046-comment-v1",
+      "questionId": "cgesp-2025-audit-pm-q046",
+      "text": "Alternativa A: V–V–V. Indicadores de processo acompanham a execução; indicadores de resultado observam mudanças no público. A variação antes–depois informa desempenho, mas também pode refletir tendências, outras intervenções e mudanças de composição. Ela não constitui automaticamente estimativa causal.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-audit-pm-paper",
+          "locator": "PDF p. 13, questão 46"
+        },
+        {
+          "documentId": "source-cgesp-2025-audit-pm-key",
+          "locator": "PDF p. 14, questão 46"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q047-comment-v1",
+      "questionId": "cgesp-2025-audit-pm-q047",
+      "text": "Alternativa B: EA–EP-PROC–EP-RES–EP-PROC. Cenários e riscos subsidiam a decisão ex ante. Retorno conforme protocolo e conformidade dos registros são implementação. Variação do controle glicêmico é resultado. A comparação de resultado com a linha de base não elimina, sozinha, explicações alternativas.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-audit-pm-paper",
+          "locator": "PDF p. 13, questão 47"
+        },
+        {
+          "documentId": "source-cgesp-2025-audit-pm-key",
+          "locator": "PDF p. 14, questão 47"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q048-comment-v1",
+      "questionId": "cgesp-2025-audit-pm-q048",
+      "text": "Alternativa C: QLT–QNT–QLT. Barreiras, percepções e contexto e entrevistas exploratórias pedem abordagem qualitativa; estimar um efeito com dados administrativos longitudinais pede abordagem quantitativa. O item escolhe abordagens para objetivos distintos: não demonstra integração ou triangulação de evidências por si só.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-audit-pm-paper",
+          "locator": "PDF p. 13, questão 48"
+        },
+        {
+          "documentId": "source-cgesp-2025-audit-pm-key",
+          "locator": "PDF p. 14, questão 48"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q049-comment-v1",
+      "questionId": "cgesp-2025-audit-pm-q049",
+      "text": "Alternativa A. A teoria da mudança, riscos e custo-benefício apoiam alternativas antes da implantação. Cobertura e checklist verificam implementação. Diferenças-em-diferenças pode estimar efeito atribuível com um desenho válido, grupo de comparação e hipóteses como tendências paralelas. A simples escolha do nome do método não garante sua validade.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-audit-pm-paper",
+          "locator": "PDF p. 14, questão 49"
+        },
+        {
+          "documentId": "source-cgesp-2025-audit-pm-key",
+          "locator": "PDF p. 14, questão 49"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q050-comment-v1",
+      "questionId": "cgesp-2025-audit-pm-q050",
+      "text": "Alternativa E. As duas proposições são verdadeiras e a razão explica a afirmação: cumprir metas pode coexistir com custo elevado. Eficácia trata das metas; eficiência relaciona recursos e entregas. Não se deve concluir efetividade causal apenas porque a meta foi atingida.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-audit-pm-paper",
+          "locator": "PDF p. 14, questão 50"
+        },
+        {
+          "documentId": "source-cgesp-2025-audit-pm-key",
+          "locator": "PDF p. 14, questão 50"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q051-comment-v1",
+      "questionId": "cgesp-2025-audit-pm-q051",
+      "text": "Alternativa D. A queda observada antes–depois é evidência descritiva/correlacional; faltam elementos para afastar tendências e outros fatores. Proximidade temporal, tamanho da queda ou ajuste sazonal não substituem um contrafactual adequado. Os números e a notícia pertencem ao recorte histórico da prova.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-audit-pm-paper",
+          "locator": "PDF p. 14, questão 51"
+        },
+        {
+          "documentId": "source-cgesp-2025-audit-pm-key",
+          "locator": "PDF p. 14, questão 51"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q023-comment-v1",
+      "questionId": "cgesp-2025-fin-pm-q023",
+      "text": "Alternativa A. No vouching, parte-se dos registros para examinar os documentos de suporte da operação. O caso confronta notas de empenho e liquidação, fiscalização e recebimento com a entrega contratada. É a primeira amostra de comprovação da despesa e conexão com a entrega; examinar documentos não equivale automaticamente a realizar inspeção física independente nem esgota a análise físico-financeira.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-fin-pm-paper",
+          "locator": "PDF p. 6, questão 23"
+        },
+        {
+          "documentId": "source-cgesp-2025-fin-pm-key",
+          "locator": "PDF p. 1, questão 23"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q035-comment-v1",
+      "questionId": "cgesp-2025-fin-pm-q035",
+      "text": "Alternativa C. Materialidade, custo-benefício e equilíbrio entre características qualitativas são restrições à informação contábil útil na estrutura conceitual adotada pelo MCASP. O julgamento pondera a utilidade da informação; esta amostra não abrange todo o MCASP 11 nem o Manual de Informações do Sistema de Custos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-fin-pm-paper",
+          "locator": "PDF p. 8, questão 35"
+        },
+        {
+          "documentId": "source-cgesp-2025-fin-pm-key",
+          "locator": "PDF p. 1, questão 35"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q041-comment-v1",
+      "questionId": "cgesp-2025-fin-pm-q041",
+      "text": "Alternativa C. O art.176, §6º, da Lei 6.404/1976 dispensa a companhia fechada com patrimônio líquido inferior a R$ 2 milhões de elaborar e publicar a DFC. A alternativa não se refere à DVA. O limite não é uma dispensa geral das demonstrações nem regra aplicável automaticamente à CASP ou às empresas estatais.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-fin-pm-paper",
+          "locator": "PDF p. 10, questão 41"
+        },
+        {
+          "documentId": "source-cgesp-2025-fin-pm-key",
+          "locator": "PDF p. 1, questão 41"
+        },
+        {
+          "documentId": "reference-lei-6404-1976",
+          "locator": "Art.176,VI e§6º"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q055-comment-v1",
+      "questionId": "cgesp-2025-fin-pm-q055",
+      "text": "Alternativa B: ex ante–ex post–ex ante. A matriz de riscos e o planejamento das medidas anteriores e posteriores devem anteceder a implantação. Estimar o impacto com resultados após 12 meses é ex post. Planejar a coleta não é executar nem comprovar o resultado da política.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-fin-pm-paper",
+          "locator": "PDF p. 15, questão 55"
+        },
+        {
+          "documentId": "source-cgesp-2025-fin-pm-key",
+          "locator": "PDF p. 1, questão 55"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q057-comment-v1",
+      "questionId": "cgesp-2025-fin-pm-q057",
+      "text": "Alternativa B. A pergunta sobre redução da espera pede estimativa quantitativa com comparação, como diferenças-em-diferenças com exame de tendências prévias. A pergunta sobre não uso pede investigar mecanismos e barreiras por entrevistas ou grupos focais. O mesmo programa é examinado por evidências quantitativas e qualitativas com funções complementares. É uma primeira amostra dessa articulação; não demonstra triangulação do mesmo achado, protocolo de integração completo ou generalização automática. Comparação entre unidades no mesmo período e antes–depois simples não oferecem, por si, o controle causal indicado.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-fin-pm-paper",
+          "locator": "PDF p. 15, questão 57"
+        },
+        {
+          "documentId": "source-cgesp-2025-fin-pm-key",
+          "locator": "PDF p. 1, questão 57"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q058-comment-v1",
+      "questionId": "cgesp-2025-fin-pm-q058",
+      "text": "Alternativa A. No caso, a meta foi atingida e o custo ficou abaixo da referência: eficácia e eficiência. A estimativa causal estatisticamente não significativa não constitui evidência suficiente de efetividade. Ausência de significância não prova efeito exatamente zero nem inefetividade em qualquer contexto.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-fin-pm-paper",
+          "locator": "PDF p. 15, questão 58"
+        },
+        {
+          "documentId": "source-cgesp-2025-fin-pm-key",
+          "locator": "PDF p. 1, questão 58"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q059-comment-v1",
+      "questionId": "cgesp-2025-fin-pm-q059",
+      "text": "Alternativa B. A notícia apresenta antes–depois sem contrafactual; o estudo descrito usa diferenças-em-diferenças com adoção escalonada e não detecta efeito estatisticamente significativo. O resultado não prova efeito nulo, negativo ou dano. A conclusão depende do desenho e de suas hipóteses, não apenas da redução bruta. As fontes e números são os citados pela prova.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-fin-pm-paper",
+          "locator": "PDF p. 16, questão 59"
+        },
+        {
+          "documentId": "source-cgesp-2025-fin-pm-key",
+          "locator": "PDF p. 1, questão 59"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q060-comment-v1",
+      "questionId": "cgesp-2025-fin-pm-q060",
+      "text": "Alternativa A. A assertiva e a razão são verdadeiras, e a razão explica a assertiva. Cumprir metas operacionais não demonstra, sozinho, a mudança final atribuível à intervenção. A conclusão de efetividade exige evidência adequada para conectar a intervenção à mudança, além de registrar a execução.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-fin-pm-paper",
+          "locator": "PDF p. 16, questão 60"
+        },
+        {
+          "documentId": "source-cgesp-2025-fin-pm-key",
+          "locator": "PDF p. 1, questão 60"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-cor-pm-q002-comment-v1",
+      "questionId": "cgesp-2025-cor-pm-q002",
+      "text": "Alternativa A é a exceção. O art.7º da Lei 12.846/2013 inclui gravidade, vantagem, consumação, lesão/perigo, efeito negativo, situação econômica, cooperação, mecanismos de integridade e valor dos contratos. Não lista o tempo de duração dos contratos como esse fator. A questão inicia critérios de dosimetria, sem cobrir cálculos de multa, prescrição ou todos os requisitos da reparação.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-cor-pm-paper",
+          "locator": "PDF p. 3, questão 2"
+        },
+        {
+          "documentId": "source-cgesp-2025-cor-pm-key",
+          "locator": "PDF p. 2, questão 2"
+        },
+        {
+          "documentId": "reference-lei-12846-2013",
+          "locator": "Art.7º,I–IX"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-cor-pm-q012-comment-v1",
+      "questionId": "cgesp-2025-cor-pm-q012",
+      "text": "Alternativa E é a incorreta. O art.12, §5º, do Decreto 9.830/2019 estabelece que o montante do dano, ainda que expressivo, não caracteriza por si dolo ou erro grosseiro. A apuração exige prova e consideração do contexto, inclusive complexidade e atribuições. O item inicia o recorte de responsabilidade por decisões e opiniões técnicas, pertinente ao parecerista; não esgota a jurisprudência sobre pareceres nem afasta regimes específicos de responsabilização. A questão federal é usada como amostra conceitual; o decreto não é apresentado como regulamento interno da Câmara.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-cor-pm-paper",
+          "locator": "PDF p. 5, questão 12"
+        },
+        {
+          "documentId": "source-cgesp-2025-cor-pm-key",
+          "locator": "PDF p. 2, questão 12"
+        },
+        {
+          "documentId": "reference-decreto-9830-2019",
+          "locator": "Art.12,caput e§§1º–6º"
+        }
+      ]
+    },
+    {
+      "id": "fiocruz-2024-te58-q013-comment-v1",
+      "questionId": "fiocruz-2024-te58-q013",
+      "text": "Alternativa C no gabarito definitivo. Produzir Reels envolve conhecer recursos de produção e a linguagem da plataforma, inclusive tendências e hashtags. Hashtags são um componente de marcação/descoberta do post: esta é uma primeira amostra do item Câmara 5.4, sem cobrir capa, legenda e chamada para ação. Comprar seguidores não assegura alcance orgânico qualificado, e vídeos curtos podem servir à divulgação científica. O item preserva o cenário de 2024; não afirma que a plataforma ou seus algoritmos mantêm hoje os mesmos recursos e efeitos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-fiocruz-2024-te58-paper",
+          "locator": "PDF p. 5, questão 13"
+        },
+        {
+          "documentId": "source-fiocruz-2024-te58-key",
+          "locator": "PDF p. 58, questão 13"
+        }
+      ]
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q145-comment-v1",
+      "questionId": "tcdf-2024-psicologia-002-01-q145",
+      "text": "Certo. A gestão baseada em evidências utiliza pensamento científico e as melhores evidências disponíveis para fundamentar decisões organizacionais. Isso requer considerar qualidade, contexto e limites da informação, sem transformar uma fonte isolada em certeza automática.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-tcdf-2024-psicologia-002-01-paper",
+          "locator": "PDF p. 6, questão 145"
+        },
+        {
+          "documentId": "source-tcdf-2024-psicologia-002-01-key",
+          "locator": "PDF p. 1, questão 145"
+        }
+      ]
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q146-comment-v1",
+      "questionId": "tcdf-2024-psicologia-002-01-q146",
+      "text": "Errado. Reprodutibilidade consistente no tempo e no espaço descreve confiabilidade. Validade trata de medir adequadamente o construto pretendido. Um instrumento pode ser consistente e medir sistematicamente outra coisa; pré-teste e avaliação do instrumento devem examinar ambos os aspectos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-tcdf-2024-psicologia-002-01-paper",
+          "locator": "PDF p. 6, questão 146"
+        },
+        {
+          "documentId": "source-tcdf-2024-psicologia-002-01-key",
+          "locator": "PDF p. 1, questão 146"
+        }
+      ]
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q149-comment-v1",
+      "questionId": "tcdf-2024-psicologia-002-01-q149",
+      "text": "Errado. Entrevistas em profundidade podem contribuir, mas não são obrigatórias para toda pesquisa sobre assédio. Questionários, documentos e outros métodos podem ser adequados à pergunta e às condições de proteção das pessoas. O item não demonstra triangulação ou integração de métodos por si só.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-tcdf-2024-psicologia-002-01-paper",
+          "locator": "PDF p. 6, questão 149"
+        },
+        {
+          "documentId": "source-tcdf-2024-psicologia-002-01-key",
+          "locator": "PDF p. 1, questão 149"
+        }
+      ]
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q150-comment-v1",
+      "questionId": "tcdf-2024-psicologia-002-01-q150",
+      "text": "Certo. A gestão de conflitos procura orientar tensões e interesses para objetivos coletivos alinhados aos da organização. O vínculo com gestão de equipes em publicidade é uma amostra de fundamento geral de trabalho em equipe: não trata especificamente de criação publicitária, agência, briefing ou relacionamento com fornecedores e não certifica o recorte inteiro.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-tcdf-2024-psicologia-002-01-paper",
+          "locator": "PDF p. 6, questão 150"
+        },
+        {
+          "documentId": "source-tcdf-2024-psicologia-002-01-key",
+          "locator": "PDF p. 1, questão 150"
+        }
+      ]
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q151-comment-v1",
+      "questionId": "tcdf-2024-psicologia-002-01-q151",
+      "text": "Errado. Respeito e informações claras são importantes, mas não bastam: a negociação também depende de comunicação que permita escuta, compreensão e construção de alternativas. O vínculo é limitado à comunicação nas relações entre pessoas no trabalho; não é uma questão sobre estratégia completa de comunicação interna.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-tcdf-2024-psicologia-002-01-paper",
+          "locator": "PDF p. 6, questão 151"
+        },
+        {
+          "documentId": "source-tcdf-2024-psicologia-002-01-key",
+          "locator": "PDF p. 1, questão 151"
+        }
+      ]
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q152-comment-v1",
+      "questionId": "tcdf-2024-psicologia-002-01-q152",
+      "text": "Certo. A capacidade de negociação dos gestores contribui para tratar conflitos e coordenar interesses e objetivos da equipe. Esta é uma amostra conceitual geral aplicável à gestão de equipes de publicidade, sem examinar práticas específicas do setor nem assegurar que todo conflito tenha solução apenas pela atuação do gestor.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-tcdf-2024-psicologia-002-01-paper",
+          "locator": "PDF p. 6, questão 152"
+        },
+        {
+          "documentId": "source-tcdf-2024-psicologia-002-01-key",
+          "locator": "PDF p. 1, questão 152"
+        }
+      ]
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q154-comment-v1",
+      "questionId": "tcdf-2024-psicologia-002-01-q154",
+      "text": "Certo. No modelo de desenvolvimento de grupos referido pela prova, o conflito interpessoal integra os estágios de funcionamento. Reconhecê-lo ajuda a gestão a orientar normas e cooperação. O modelo é referência conceitual, não uma sequência obrigatória observável em toda equipe de publicidade; práticas específicas do setor continuam pendentes.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-tcdf-2024-psicologia-002-01-paper",
+          "locator": "PDF p. 6, questão 154"
+        },
+        {
+          "documentId": "source-tcdf-2024-psicologia-002-01-key",
+          "locator": "PDF p. 1, questão 154"
+        }
+      ]
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q160-comment-v1",
+      "questionId": "tcdf-2024-psicologia-002-01-q160",
+      "text": "Errado. Gestão por estresse, no contexto da questão, utiliza pressão, constrangimento e ameaça como instrumentos de gestão, e não tem o bem-estar como finalidade essencial. O item permite reconhecer práticas organizacionais abusivas como problema de integridade. É uma primeira amostra sobre ambiente de trabalho; não cobre proteção de denunciantes, procedimentos de acolhimento ou apuração, nem torna toda cobrança de desempenho automaticamente assédio.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-tcdf-2024-psicologia-002-01-paper",
+          "locator": "PDF p. 7, questão 160"
+        },
+        {
+          "documentId": "source-tcdf-2024-psicologia-002-01-key",
+          "locator": "PDF p. 1, questão 160"
         }
       ]
     }
@@ -71881,6 +74698,384 @@
       "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-1-3",
       "status": "confirmed",
       "justification": "Amostra parcial de Definição de prioridades e combinação de respostas preventivas, corretivas e de responsabilização; competências, motivação, proporcionalidade, consequências práticas e condições de atuação. O comentário delimita o componente efetivamente avaliado; sem cobertura integral ou extensão a recortes vizinhos."
+    },
+    {
+      "id": "cgesp-2025-audit-am-q022-expansion8-mapping-1",
+      "questionId": "cgesp-2025-audit-am-q022",
+      "syllabusItemId": "cgu-2026-etica-publica-2-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Imparcialidade, probidade, diligência e respeito; autonomia técnica e responsabilidade; limites da obediência hierárquica; uso adequado de informação e recursos públicos. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-am-q022-expansion8-mapping-2",
+      "questionId": "cgesp-2025-audit-am-q022",
+      "syllabusItemId": "cgu-2026-etica-publica-4-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Dignidade, diversidade e relações de poder; reconhecimento e prevenção de assédio e discriminação; respeito, escuta e não retaliação. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-am-q023-expansion8-mapping-1",
+      "questionId": "cgesp-2025-audit-am-q023",
+      "syllabusItemId": "cgu-2026-auditoria-governamental-1-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Seleção da forma de atuação conforme o problema, objetivos e riscos. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-am-q023-expansion8-mapping-2",
+      "questionId": "cgesp-2025-audit-am-q023",
+      "syllabusItemId": "cgu-2026-auditoria-governamental-1-3",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Consultoria: análise da demanda, pactuação de objetivos, escopo e produtos; assessoramento, aconselhamento e facilitação; salvaguardas de objetividade e limites à assunção de responsabilidades gerenciais. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-am-q023-expansion8-mapping-3",
+      "questionId": "cgesp-2025-audit-am-q023",
+      "syllabusItemId": "cgu-2026-atuacao-integrada-2-2",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Priorização por risco, materialidade e relevância social em nível conceitual; adequação do trabalho às finalidades de avaliação, consultoria ou apuração. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-am-q030-expansion8-mapping-1",
+      "questionId": "cgesp-2025-audit-am-q030",
+      "syllabusItemId": "cgu-2026-auditoria-governamental-6-2",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Asseguração e melhoria da qualidade dos trabalhos; avaliação de capacidade da atividade de auditoria a partir de evidências e planos de melhoria. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q006-expansion8-mapping-1",
+      "questionId": "cgesp-2025-audit-pm-q006",
+      "syllabusItemId": "cgu-2026-auditoria-governamental-6-2",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Asseguração e melhoria da qualidade dos trabalhos; avaliação de capacidade da atividade de auditoria a partir de evidências e planos de melhoria. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q041-expansion8-mapping-1",
+      "questionId": "cgesp-2025-audit-pm-q041",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-3",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Avaliações ex ante e ex post, de desenho, implementação, resultados, impacto e eficiência. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q042-expansion8-mapping-1",
+      "questionId": "cgesp-2025-audit-pm-q042",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-1-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Causas e manifestações do problema público; população elegível e público atendido; instrumentos, incentivos, teoria da mudança e modelo lógico. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q042-expansion8-mapping-2",
+      "questionId": "cgesp-2025-audit-pm-q042",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-1-2",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Relação entre problema, pressupostos, hipóteses e evidências; explicações alternativas e efeitos não pretendidos. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q043-expansion8-mapping-1",
+      "questionId": "cgesp-2025-audit-pm-q043",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Insumos, atividades, produtos, resultados e impactos; eficiência, eficácia, efetividade e equidade. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q044-expansion8-mapping-1",
+      "questionId": "cgesp-2025-audit-pm-q044",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-3",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Avaliações ex ante e ex post, de desenho, implementação, resultados, impacto e eficiência. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q045-expansion8-mapping-1",
+      "questionId": "cgesp-2025-audit-pm-q045",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-2",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Indicadores, fontes e periodicidade. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q046-expansion8-mapping-1",
+      "questionId": "cgesp-2025-audit-pm-q046",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-2",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Indicadores, fontes e periodicidade. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q046-expansion8-mapping-2",
+      "questionId": "cgesp-2025-audit-pm-q046",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-5-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Contrafactual, seleção e confundimento; experimentos e quase experimentos; grupos de comparação e medidas anteriores à intervenção. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q047-expansion8-mapping-1",
+      "questionId": "cgesp-2025-audit-pm-q047",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-3",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Avaliações ex ante e ex post, de desenho, implementação, resultados, impacto e eficiência. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q048-expansion8-mapping-1",
+      "questionId": "cgesp-2025-audit-pm-q048",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-4-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Estudos de caso, entrevistas, grupos focais e observação; seleção de casos e participantes, perguntas e controle de indução. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q049-expansion8-mapping-1",
+      "questionId": "cgesp-2025-audit-pm-q049",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-4",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Pré-teste e estudo-piloto; critérios de julgamento e seleção do desenho adequado à pergunta. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q049-expansion8-mapping-2",
+      "questionId": "cgesp-2025-audit-pm-q049",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-5-2",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Diferenças em diferenças, regressão descontínua e pareamento em interpretação aplicada, com hipóteses e ameaças à validade. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q050-expansion8-mapping-1",
+      "questionId": "cgesp-2025-audit-pm-q050",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Insumos, atividades, produtos, resultados e impactos; eficiência, eficácia, efetividade e equidade. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q050-expansion8-mapping-2",
+      "questionId": "cgesp-2025-audit-pm-q050",
+      "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-5-2",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Interpretação de informações de custos e de indicadores de execução e eficiência, observadas comparabilidade, bases de cálculo e limitações. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q051-expansion8-mapping-1",
+      "questionId": "cgesp-2025-audit-pm-q051",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-5-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Contrafactual, seleção e confundimento; experimentos e quase experimentos; grupos de comparação e medidas anteriores à intervenção. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-audit-pm-q051-expansion8-mapping-2",
+      "questionId": "cgesp-2025-audit-pm-q051",
+      "syllabusItemId": "cgu-2026-evidencias-dados-ia-3-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Associação e causalidade; seleção e representatividade; explicações alternativas e incerteza. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q023-expansion8-mapping-1",
+      "questionId": "cgesp-2025-fin-pm-q023",
+      "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-5-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Comprovação da despesa e conexão físico-financeira; comparação entre recursos, custos e entregas. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q023-expansion8-mapping-2",
+      "questionId": "cgesp-2025-fin-pm-q023",
+      "syllabusItemId": "cgu-2026-auditoria-governamental-3-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Testes de controles e substantivos; inspeção, confirmação, observação, procedimentos analíticos e recálculo; amostragem estatística e por julgamento; tamanho, seleção, limitações e desenho de procedimentos para riscos identificados. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q035-expansion8-mapping-1",
+      "questionId": "cgesp-2025-fin-pm-q035",
+      "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-5-3",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em MCASP 11ª edição e Manual de Informações do Sistema de Custos (MIC). Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q041-expansion8-mapping-1",
+      "questionId": "cgesp-2025-fin-pm-q041",
+      "syllabusItemId": "cgu-2026-financas-orcamento-contabilidade-6-2",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Leitura de balanço patrimonial, demonstração do resultado e notas explicativas; relações entre posição patrimonial, desempenho e caixa. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q055-expansion8-mapping-1",
+      "questionId": "cgesp-2025-fin-pm-q055",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-6-3",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Distinção entre plano, implementação e resultados, com evidências adequadas a cada etapa. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q057-expansion8-mapping-1",
+      "questionId": "cgesp-2025-fin-pm-q057",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-4-2",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Análise de processos e hipóteses de mecanismo; triangulação e integração de evidências quantitativas e qualitativas; limites de generalização. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q057-expansion8-mapping-2",
+      "questionId": "cgesp-2025-fin-pm-q057",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-4",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Pré-teste e estudo-piloto; critérios de julgamento e seleção do desenho adequado à pergunta. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q058-expansion8-mapping-1",
+      "questionId": "cgesp-2025-fin-pm-q058",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-6-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Validade interna e externa, incerteza e resultados nulos; comparação de alternativas e recomendações proporcionais e exequíveis. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q058-expansion8-mapping-2",
+      "questionId": "cgesp-2025-fin-pm-q058",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Insumos, atividades, produtos, resultados e impactos; eficiência, eficácia, efetividade e equidade. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q059-expansion8-mapping-1",
+      "questionId": "cgesp-2025-fin-pm-q059",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-5-2",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Diferenças em diferenças, regressão descontínua e pareamento em interpretação aplicada, com hipóteses e ameaças à validade. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q059-expansion8-mapping-2",
+      "questionId": "cgesp-2025-fin-pm-q059",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-6-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Validade interna e externa, incerteza e resultados nulos; comparação de alternativas e recomendações proporcionais e exequíveis. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q059-expansion8-mapping-3",
+      "questionId": "cgesp-2025-fin-pm-q059",
+      "syllabusItemId": "cgu-2026-evidencias-dados-ia-3-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Associação e causalidade; seleção e representatividade; explicações alternativas e incerteza. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-fin-pm-q060-expansion8-mapping-1",
+      "questionId": "cgesp-2025-fin-pm-q060",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-6-3",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Distinção entre plano, implementação e resultados, com evidências adequadas a cada etapa. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-cor-pm-q002-expansion8-mapping-1",
+      "questionId": "cgesp-2025-cor-pm-q002",
+      "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-6-2",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Aplicação dos marcos prescricionais e dos critérios de dosimetria; fundamentação da sanção e da reparação do dano em casos concretos. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-cor-pm-q012-expansion8-mapping-1",
+      "questionId": "cgesp-2025-cor-pm-q012",
+      "syllabusItemId": "camara-2026-direito-administrativo-administracao-publica-2-2",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Parecer: responsabilidade do emissor do parecer. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "cgesp-2025-cor-pm-q012-expansion8-mapping-2",
+      "questionId": "cgesp-2025-cor-pm-q012",
+      "syllabusItemId": "cgu-2026-direito-controle-responsabilizacao-4-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Distinção entre indício, falha de gestão, irregularidade e responsabilidade. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "fiocruz-2024-te58-q013-expansion8-mapping-1",
+      "questionId": "fiocruz-2024-te58-q013",
+      "syllabusItemId": "camara-2026-comunicacao-social-5-4",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Elementos fundamentais de publicações em redes sociais: capa, legenda, marcação, palavras-chave, call to action. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "fiocruz-2024-te58-q013-expansion8-mapping-2",
+      "questionId": "fiocruz-2024-te58-q013",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-14",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Redes sociais: planejamento, produção, publicação, monitoramento e métricas. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "fiocruz-2024-te58-q013-expansion8-mapping-3",
+      "questionId": "fiocruz-2024-te58-q013",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-15",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Produção e gestão de conteúdo multimídia. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q145-expansion8-mapping-1",
+      "questionId": "tcdf-2024-psicologia-002-01-q145",
+      "syllabusItemId": "cgu-2026-evidencias-dados-ia-1-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Relação entre problema, pergunta e informação necessária; fontes documentais, administrativas, estatísticas e de participação social. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q146-expansion8-mapping-1",
+      "questionId": "tcdf-2024-psicologia-002-01-q146",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-3-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Pesquisas qualitativas e quantitativas. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q146-expansion8-mapping-2",
+      "questionId": "tcdf-2024-psicologia-002-01-q146",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-19",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Pesquisa de opinião e avaliação de resultados de comunicação. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q146-expansion8-mapping-3",
+      "questionId": "tcdf-2024-psicologia-002-01-q146",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-4",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Pré-teste e estudo-piloto; critérios de julgamento e seleção do desenho adequado à pergunta. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q149-expansion8-mapping-1",
+      "questionId": "tcdf-2024-psicologia-002-01-q149",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-4-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Estudos de caso, entrevistas, grupos focais e observação; seleção de casos e participantes, perguntas e controle de indução. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q150-expansion8-mapping-1",
+      "questionId": "tcdf-2024-psicologia-002-01-q150",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-7",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Gestão de equipes em publicidade. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q151-expansion8-mapping-1",
+      "questionId": "tcdf-2024-psicologia-002-01-q151",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Comunicação interna e relacionamento com públicos internos. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q152-expansion8-mapping-1",
+      "questionId": "tcdf-2024-psicologia-002-01-q152",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-7",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Gestão de equipes em publicidade. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q154-expansion8-mapping-1",
+      "questionId": "tcdf-2024-psicologia-002-01-q154",
+      "syllabusItemId": "camara-2026-divulgacao-institucional-7",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Gestão de equipes em publicidade. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q160-expansion8-mapping-1",
+      "questionId": "tcdf-2024-psicologia-002-01-q160",
+      "syllabusItemId": "cgu-2026-governanca-riscos-integridade-3-2",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Prevenção de favorecimento, assédio e discriminação; ambiente seguro e não retaliação. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q160-expansion8-mapping-2",
+      "questionId": "tcdf-2024-psicologia-002-01-q160",
+      "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-4-5",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Prevenção de assédio e discriminação como dimensão da integridade organizacional. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "tcdf-2024-psicologia-002-01-q160-expansion8-mapping-3",
+      "questionId": "tcdf-2024-psicologia-002-01-q160",
+      "syllabusItemId": "cgu-2026-etica-publica-4-1",
+      "status": "confirmed",
+      "justification": "Amostra do componente efetivamente testado em Dignidade, diversidade e relações de poder; reconhecimento e prevenção de assédio e discriminação; respeito, escuta e não retaliação. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
     }
   ],
   "scoringRules": [
@@ -75110,6 +78305,33 @@
       "text": "Acerca da responsabilização administrativa e civil de pessoas jurídicas pela prática de atos contra a administração pública, julgue os itens subsequentes, com base na Lei n.º 12.846/2013, na Portaria Normativa CGU n.º 27/2022 e no Decreto n.º 11.129/2022.",
       "sourceDocumentId": "source-038-anm-005-01-paper",
       "sourcePage": 4,
+      "revision": 1
+    },
+    {
+      "id": "expansion8-tcdf-research",
+      "kind": "instruction",
+      "label": "Comando da prova",
+      "text": "Julgue os itens que se seguem, relativos a pesquisa e intervenção nas organizações.",
+      "sourceDocumentId": "source-tcdf-2024-psicologia-002-01-paper",
+      "sourcePage": 6,
+      "revision": 1
+    },
+    {
+      "id": "expansion8-tcdf-groups",
+      "kind": "instruction",
+      "label": "Comando da prova",
+      "text": "Julgue os seguintes itens, referentes à relação entre o indivíduo e o contexto organizacional, bem como à gestão de comportamento nas organizações.",
+      "sourceDocumentId": "source-tcdf-2024-psicologia-002-01-paper",
+      "sourcePage": 6,
+      "revision": 1
+    },
+    {
+      "id": "expansion8-tcdf-health",
+      "kind": "instruction",
+      "label": "Comando da prova",
+      "text": "No que diz respeito à saúde no trabalho, à atuação do psicólogo e ao assédio moral e sexual, julgue os itens subsequentes.",
+      "sourceDocumentId": "source-tcdf-2024-psicologia-002-01-paper",
+      "sourcePage": 7,
       "revision": 1
     }
   ]

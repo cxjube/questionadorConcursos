@@ -27,8 +27,8 @@ class EighthBatchTests(unittest.TestCase):
         released = {q['id'] for q in self.c['questions'] if q['review']['decisionReference'] == self.manifest['decisionReference']}
         self.assertEqual(ids, released)
         self.assertEqual(len(ids), 19)
-        self.assertEqual(len(self.c['questions']), 721)
-        self.assertEqual(sum(q['type'] == 'true_false' for q in self.q.values()), 562)
+        self.assertEqual(len(self.c['questions']), 755)
+        self.assertEqual(sum(q['type'] == 'true_false' for q in self.q.values()), 570)
         comments = {e['questionId']: e for e in self.c['explanations']}
         self.assertEqual(set(comments), set(self.q))
         for id in ids:

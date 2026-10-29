@@ -3,9 +3,9 @@
   "checkedAt": "2026-10-29",
   "roleId": "abdi-comunicacao-marketing",
   "scope": "Exact distinct-ID matching across all official discipline quotas. CE remain training only. Capacity does not certify coverage or difficulty; later withdrawals can block the simulator.",
-  "distinctTrainingQuestions": 258,
-  "distinctMC": 100,
-  "distinctCE": 158,
+  "distinctTrainingQuestions": 261,
+  "distinctMC": 101,
+  "distinctCE": 160,
   "institutionalDistinctMC": 26,
   "minimumAdditionalMC": 0,
   "distribution": [
@@ -62,7 +62,7 @@
       "block": "specific",
       "disciplineId": "abdi-comunicacao-marketing",
       "requiredMC": 20,
-      "availableDistinctMC": 46,
+      "availableDistinctMC": 47,
       "missingForMinimum": 0
     }
   ],

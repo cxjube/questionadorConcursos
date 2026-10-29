@@ -1,21 +1,21 @@
 {
   "reviewedAt": "2026-10-29",
-  "latestBatchId": "continuation-seventh",
-  "catalogSha256": "ddf5260091a6baee78a6e1a3c1e43d050848b5e9814596435b1f7f16d0d3d12a",
+  "latestBatchId": "expansion-eighth",
+  "catalogSha256": "f3cffbc57ce63a787d66b655baddd6a6e0b2d973e8709429724fb16acb01f460",
   "scope": "Oferta de questões distintas, sem inferência de domínio ou peso de prova.",
   "totalItems": 228,
-  "directItems": 189,
+  "directItems": 192,
   "descendantsOnly": 32,
-  "emptyItems": 6,
-  "emptyLeaves": 6,
+  "emptyItems": 3,
+  "emptyLeaves": 3,
   "blocks": {
     "basic": {
-      "total": 181,
+      "total": 182,
       "ce": 177
     },
     "specific": {
-      "total": 235,
-      "ce": 210
+      "total": 240,
+      "ce": 214
     }
   },
   "disciplines": [
@@ -45,12 +45,12 @@
       "id": "direito-administrativo-administracao-publica",
       "label": "Noções de Direito Administrativo e Administração Pública",
       "totalItems": 46,
-      "directItems": 37,
+      "directItems": 38,
       "descendantsOnly": 8,
-      "emptyItems": 1,
-      "emptyLeaves": 1,
+      "emptyItems": 0,
+      "emptyLeaves": 0,
       "questionsCE": 62,
-      "questionsMC": 2
+      "questionsMC": 3
     },
     {
       "id": "direito-constitucional-regimento",
@@ -78,22 +78,22 @@
       "id": "comunicacao-social",
       "label": "Comunicação Social",
       "totalItems": 45,
-      "directItems": 37,
+      "directItems": 38,
       "descendantsOnly": 5,
-      "emptyItems": 3,
-      "emptyLeaves": 3,
+      "emptyItems": 2,
+      "emptyLeaves": 2,
       "questionsCE": 73,
-      "questionsMC": 9
+      "questionsMC": 10
     },
     {
       "id": "divulgacao-institucional",
       "label": "Divulgação Institucional",
       "totalItems": 40,
-      "directItems": 33,
+      "directItems": 34,
       "descendantsOnly": 6,
-      "emptyItems": 1,
-      "emptyLeaves": 1,
-      "questionsCE": 66,
+      "emptyItems": 0,
+      "emptyLeaves": 0,
+      "questionsCE": 70,
       "questionsMC": 5
     },
     {
@@ -777,10 +777,11 @@
       "directMC": 0,
       "subtreeQuestionIds": [
         "018-stj-cb1-01-q026",
-        "038-anm-cg1-01-q021"
+        "038-anm-cg1-01-q021",
+        "cgesp-2025-cor-pm-q012"
       ],
       "subtreeCE": 2,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "camara-2026-direito-administrativo-administracao-publica-2-1",
@@ -813,14 +814,18 @@
       "block": "basic",
       "parentTopicId": "direito-administrativo-administracao-publica-2",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
+      "directQuestionIds": [
+        "cgesp-2025-cor-pm-q012"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "cgesp-2025-cor-pm-q012"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "camara-2026-direito-administrativo-administracao-publica-3",
@@ -3197,10 +3202,11 @@
         "893-dataprev-005-01-q107",
         "893-dataprev-005-01-q108",
         "893-dataprev-005-01-q109",
-        "893-dataprev-005-01-q110"
+        "893-dataprev-005-01-q110",
+        "fiocruz-2024-te58-q013"
       ],
       "subtreeCE": 12,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "camara-2026-comunicacao-social-5-1",
@@ -3287,14 +3293,18 @@
       "block": "specific",
       "parentTopicId": "comunicacao-social-5",
       "isLeaf": true,
-      "state": "empty",
+      "state": "direct",
       "priority": "A",
-      "directQuestionIds": [],
+      "directQuestionIds": [
+        "fiocruz-2024-te58-q013"
+      ],
       "directCE": 0,
-      "directMC": 0,
-      "subtreeQuestionIds": [],
+      "directMC": 1,
+      "subtreeQuestionIds": [
+        "fiocruz-2024-te58-q013"
+      ],
       "subtreeCE": 0,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "camara-2026-comunicacao-social-6",
@@ -4043,9 +4053,10 @@
         "803-tj-es-006-01-q067",
         "893-dataprev-005-01-q104",
         "cge-ce-2019-cargo5-q088",
-        "cge-ce-2019-cargo5-q090"
+        "cge-ce-2019-cargo5-q090",
+        "tcdf-2024-psicologia-002-01-q146"
       ],
-      "subtreeCE": 13,
+      "subtreeCE": 14,
       "subtreeMC": 3
     },
     {
@@ -4064,9 +4075,10 @@
         "232funprespexe-002-01-q078",
         "232funprespexe-002-01-q080",
         "cge-ce-2019-cargo5-q088",
-        "cge-ce-2019-cargo5-q090"
+        "cge-ce-2019-cargo5-q090",
+        "tcdf-2024-psicologia-002-01-q146"
       ],
-      "directCE": 4,
+      "directCE": 5,
       "directMC": 2,
       "subtreeQuestionIds": [
         "038-anm-008-01-q063",
@@ -4074,9 +4086,10 @@
         "232funprespexe-002-01-q078",
         "232funprespexe-002-01-q080",
         "cge-ce-2019-cargo5-q088",
-        "cge-ce-2019-cargo5-q090"
+        "cge-ce-2019-cargo5-q090",
+        "tcdf-2024-psicologia-002-01-q146"
       ],
-      "subtreeCE": 4,
+      "subtreeCE": 5,
       "subtreeMC": 2
     },
     {
@@ -4506,13 +4519,21 @@
       "block": "specific",
       "parentTopicId": null,
       "isLeaf": true,
-      "state": "empty",
-      "priority": "A",
-      "directQuestionIds": [],
-      "directCE": 0,
+      "state": "direct",
+      "priority": "C",
+      "directQuestionIds": [
+        "tcdf-2024-psicologia-002-01-q150",
+        "tcdf-2024-psicologia-002-01-q152",
+        "tcdf-2024-psicologia-002-01-q154"
+      ],
+      "directCE": 3,
       "directMC": 0,
-      "subtreeQuestionIds": [],
-      "subtreeCE": 0,
+      "subtreeQuestionIds": [
+        "tcdf-2024-psicologia-002-01-q150",
+        "tcdf-2024-psicologia-002-01-q152",
+        "tcdf-2024-psicologia-002-01-q154"
+      ],
+      "subtreeCE": 3,
       "subtreeMC": 0
     },
     {

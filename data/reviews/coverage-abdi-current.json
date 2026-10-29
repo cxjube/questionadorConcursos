@@ -14,8 +14,8 @@
       "ce": 0
     },
     "specific": {
-      "total": 137,
-      "ce": 91
+      "total": 140,
+      "ce": 93
     }
   },
   "disciplines": [
@@ -104,8 +104,8 @@
       "descendantsOnly": 0,
       "emptyItems": 0,
       "emptyLeaves": 0,
-      "questionsCE": 91,
-      "questionsMC": 46
+      "questionsCE": 93,
+      "questionsMC": 47
     }
   ],
   "items": [
@@ -2125,9 +2125,10 @@
         "232funprespexe-002-01-q091",
         "232funprespexe-002-01-q092",
         "232funprespexe-002-01-q096",
-        "alerj-2026-comunicacao-manha-tipo1-q065"
+        "alerj-2026-comunicacao-manha-tipo1-q065",
+        "tcdf-2024-psicologia-002-01-q151"
       ],
-      "directCE": 14,
+      "directCE": 15,
       "directMC": 1,
       "subtreeQuestionIds": [
         "018-stj-006-01-q061",
@@ -2144,9 +2145,10 @@
         "232funprespexe-002-01-q091",
         "232funprespexe-002-01-q092",
         "232funprespexe-002-01-q096",
-        "alerj-2026-comunicacao-manha-tipo1-q065"
+        "alerj-2026-comunicacao-manha-tipo1-q065",
+        "tcdf-2024-psicologia-002-01-q151"
       ],
-      "subtreeCE": 14,
+      "subtreeCE": 15,
       "subtreeMC": 1
     },
     {
@@ -2202,10 +2204,11 @@
         "alerj-2026-comunicacao-manha-tipo1-q064",
         "alerj-2026-comunicacao-manha-tipo1-q067",
         "alerj-2026-comunicacao-manha-tipo1-q072",
-        "alerj-2026-comunicacao-manha-tipo1-q073"
+        "alerj-2026-comunicacao-manha-tipo1-q073",
+        "fiocruz-2024-te58-q013"
       ],
       "directCE": 12,
-      "directMC": 4,
+      "directMC": 5,
       "subtreeQuestionIds": [
         "018-stj-006-01-q053",
         "018-stj-006-01-q079",
@@ -2222,10 +2225,11 @@
         "alerj-2026-comunicacao-manha-tipo1-q064",
         "alerj-2026-comunicacao-manha-tipo1-q067",
         "alerj-2026-comunicacao-manha-tipo1-q072",
-        "alerj-2026-comunicacao-manha-tipo1-q073"
+        "alerj-2026-comunicacao-manha-tipo1-q073",
+        "fiocruz-2024-te58-q013"
       ],
       "subtreeCE": 12,
-      "subtreeMC": 4
+      "subtreeMC": 5
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-15",
@@ -2236,17 +2240,19 @@
       "parentTopicId": null,
       "isLeaf": true,
       "state": "direct",
-      "priority": "A",
+      "priority": "B",
       "directQuestionIds": [
-        "042-embrapa-analista-072-01-q087"
+        "042-embrapa-analista-072-01-q087",
+        "fiocruz-2024-te58-q013"
       ],
       "directCE": 1,
-      "directMC": 0,
+      "directMC": 1,
       "subtreeQuestionIds": [
-        "042-embrapa-analista-072-01-q087"
+        "042-embrapa-analista-072-01-q087",
+        "fiocruz-2024-te58-q013"
       ],
       "subtreeCE": 1,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-16",
@@ -2342,9 +2348,10 @@
         "893-dataprev-005-01-q104",
         "alerj-2026-comunicacao-manha-tipo1-q073",
         "cge-ce-2019-cargo5-q088",
-        "cge-ce-2019-cargo5-q090"
+        "cge-ce-2019-cargo5-q090",
+        "tcdf-2024-psicologia-002-01-q146"
       ],
-      "directCE": 7,
+      "directCE": 8,
       "directMC": 4,
       "subtreeQuestionIds": [
         "038-anm-010-01-q073",
@@ -2357,9 +2364,10 @@
         "893-dataprev-005-01-q104",
         "alerj-2026-comunicacao-manha-tipo1-q073",
         "cge-ce-2019-cargo5-q088",
-        "cge-ce-2019-cargo5-q090"
+        "cge-ce-2019-cargo5-q090",
+        "tcdf-2024-psicologia-002-01-q146"
       ],
-      "subtreeCE": 7,
+      "subtreeCE": 8,
       "subtreeMC": 4
     },
     {
@@ -2596,8 +2604,8 @@
   ],
   "roleId": "abdi-comunicacao-marketing",
   "reviewedAt": "2026-10-29",
-  "reviewId": "continuation-seventh",
-  "distinctQuestions": 258,
-  "distinctCE": 158,
-  "distinctMC": 100
+  "reviewId": "expansion-eighth",
+  "distinctQuestions": 261,
+  "distinctCE": 160,
+  "distinctMC": 101
 }

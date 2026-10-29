@@ -2,7 +2,7 @@
 
 Analista de Produtividade e Inovação — Comunicação e Marketing
 
-Revisão: 2026-10-29. **258 questões distintas: 100 MC e 158 C/E.**
+Revisão: 2026-10-29. **261 questões distintas: 101 MC e 160 C/E.**
 Programa: 97 itens; 78 com vínculo direto, 7 apenas por descendentes e 12 subárvores sem questões.
 
 A prova exige múltipla escolha. C/E são treino de conteúdo no formato original e não compõem reserva MC. Prioridade A indica ausência de MC; B, uma ou duas MC; C, pelo menos três. Não são pesos oficiais nem domínio do assunto.
@@ -13,7 +13,7 @@ A prova exige múltipla escolha. C/E são treino de conteúdo no formato origina
 | --- | ---: | ---: | ---: |
 | Gerais | 113 | 40 | 73 |
 | Institucionais | 26 | 26 | 0 |
-| Específicos | 137 | 46 | 91 |
+| Específicos | 140 | 47 | 93 |
 
 As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter questões únicas.
 
@@ -101,14 +101,14 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | Comunicação e Marketing | 9 | Gêneros jornalísticos. | 2 | 1 | Direto |
 | Comunicação e Marketing | 10 | Técnicas de redação jornalística: notícia, reportagem, entrevista, nota, release, artigo e texto institucional. | 2 | 1 | Direto |
 | Comunicação e Marketing | 11 | Edição e revisão de conteúdos. | 0 | 1 | Direto |
-| Comunicação e Marketing | 12 | Comunicação interna e relacionamento com públicos internos. | 1 | 14 | Direto |
+| Comunicação e Marketing | 12 | Comunicação interna e relacionamento com públicos internos. | 1 | 15 | Direto |
 | Comunicação e Marketing | 13 | Comunicação digital e produção de conteúdo para ambientes digitais. | 0 | 4 | Direto |
-| Comunicação e Marketing | 14 | Redes sociais: planejamento, produção, publicação, monitoramento e métricas. | 4 | 12 | Direto |
-| Comunicação e Marketing | 15 | Produção e gestão de conteúdo multimídia. | 0 | 1 | Direto |
+| Comunicação e Marketing | 14 | Redes sociais: planejamento, produção, publicação, monitoramento e métricas. | 5 | 12 | Direto |
+| Comunicação e Marketing | 15 | Produção e gestão de conteúdo multimídia. | 1 | 1 | Direto |
 | Comunicação e Marketing | 16 | Comunicação audiovisual: fundamentos de fotografia, vídeo e áudio. | 0 | 4 | Direto |
 | Comunicação e Marketing | 17 | Comunicação visual: fundamentos de design, identidade visual e produção gráfica. | 0 | 3 | Direto |
 | Comunicação e Marketing | 18 | Planejamento e organização de eventos. | 1 | 0 | Direto |
-| Comunicação e Marketing | 19 | Pesquisa de opinião e avaliação de resultados de comunicação. | 4 | 7 | Direto |
+| Comunicação e Marketing | 19 | Pesquisa de opinião e avaliação de resultados de comunicação. | 4 | 8 | Direto |
 | Comunicação e Marketing | 20 | Gestão de crises e comunicação de risco. | 3 | 4 | Direto |
 | Comunicação e Marketing | 21 | Relacionamento com públicos de interesse e comunidades. | 0 | 2 | Direto |
 | Comunicação e Marketing | 22 | Comunicação científica, tecnológica e ambiental. | 6 | 1 | Direto |
