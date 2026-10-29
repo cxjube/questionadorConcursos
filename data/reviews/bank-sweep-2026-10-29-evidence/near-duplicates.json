@@ -1,0 +1,14 @@
+[
+  {
+    "a": "896-tcdf-002-01-q159",
+    "b": "896-tcdf-002-01-q160",
+    "ratio": 0.8617021276595744,
+    "sameRoles": [
+      "cgu-auditoria"
+    ],
+    "aText": "Informações classificadas como confidenciais possuem restrição de acesso de, no máximo, três anos.",
+    "bText": "Informações classificadas como reservadas possuem restrição de acesso de, no máximo, cinco anos.",
+    "aKey": false,
+    "bKey": true
+  }
+]

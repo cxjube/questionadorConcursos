@@ -270,7 +270,6 @@
         "142-tcuaufc-cb1-01-q089",
         "142-tcuaufc-cb1-01-q090",
         "142-tcuaufc-cb1-01-q091",
-        "142-tcuaufc-cb1-01-q092",
         "142-tcuaufc-cb1-01-q093",
         "142-tcuaufc-cb1-01-q094",
         "142-tcuaufc-cb1-01-q095",
@@ -357,7 +356,7 @@
         "mpo-2024-001-01-q059",
         "mpo-2024-001-01-q060"
       ],
-      "availableCE": 162,
+      "availableCE": 161,
       "allocatedCE": 90,
       "missingForThisAllocation": 0
     }

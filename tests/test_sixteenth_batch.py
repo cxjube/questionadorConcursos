@@ -177,5 +177,5 @@ class SixteenthBatchTests(unittest.TestCase):
         for n in [51,97]: self.assertNotIn(f'205-funpresp-26-jud-005-01-q{n:03}', self.q)
         self.assertNotIn('camara-2014-area-xix-q132', self.q)
         self.assertNotIn('camara-2014-area-xix-q194', self.q)
-        for path, content in current_artifacts(read_json(ROOT / 'data/catalog.json'), read_json(ROOT / 'data/reviews/gaps-fourth-batch.json')).items():
+        for path, content in current_artifacts(read_json(ROOT / 'data/catalog.json'), read_json(ROOT / 'data/reviews/bank-sweep-2026-10-29.json')).items():
             self.assertEqual((ROOT / path).read_text(), content)

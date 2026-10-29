@@ -20,7 +20,7 @@ class GapsFourthBatchTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.c=read_json(ROOT/'data/catalog.json')
+        cls.c=json.loads(gzip.decompress((ROOT/'data/reviews/pre-bank-sweep-catalog.json.gz').read_bytes()))
         cls.m=read_json(ROOT/'data/reviews/gaps-fourth-batch.json')
         cls.docs={d['id']:d for d in cls.c['documents']}
         cls.papers={p['id']:p for p in cls.c['papers']}
@@ -133,7 +133,7 @@ class GapsFourthBatchTests(unittest.TestCase):
             self.assertTrue(text.startswith('Certo' if row['answerValue'] else 'Errado') if type(row['answerValue']) is bool else f"alternativa {row['answerValue'].upper()}" in text)
         self.assertIn('tendências paralelas',es['mpo-2024-001-01-q058']['text'])
         self.assertIn('não observadas',es['mpo-2024-001-01-q056']['text'])
-        self.assertEqual(abdi_capacity(self.c,self.m['reviewedAt']),read_json(ROOT/'data/reviews/abdi-bank-readiness.json'))
-        cgu=ce_capacity(self.c,'cgu-auditoria');self.assertEqual(cgu,read_json(ROOT/'data/reviews/cgu-bank-readiness.json'))
+        self.assertEqual(abdi_capacity(self.c,self.m['reviewedAt']),read_json(ROOT/'data/reviews/abdi-pre-bank-sweep-readiness.json'))
+        cgu=ce_capacity(self.c,'cgu-auditoria');self.assertEqual(cgu,read_json(ROOT/'data/reviews/cgu-pre-bank-sweep-readiness.json'))
         self.assertEqual((cgu['distinctCE'],[b['availableCE'] for b in cgu['blocks']]),(262,[71,90,162]))
         self.assertEqual([b['availableCE'] for b in ce_capacity(self.c,'camara-comunicacao-divulgacao')['blocks']],[176,210])

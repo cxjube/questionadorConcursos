@@ -22940,7 +22940,7 @@
     {
       "id": "128-tcemg-008-01-q045",
       "bankId": "concursos",
-      "revision": 1,
+      "revision": 2,
       "type": "multiple_choice",
       "stem": "O boletim eletrônico distribuído regularmente por email com o objetivo de divulgar informações institucionais, atualizações e notícias segmentadas caracteriza o gênero",
       "options": [
@@ -22977,13 +22977,13 @@
         "status": "released",
         "method": "agent_assisted",
         "reviewer": "Codex",
-        "reviewedAt": "2026-10-27",
+        "reviewedAt": "2026-10-29",
         "sourceCompared": true,
         "contextCompared": true,
         "answerKeyCompared": true,
         "temporalScope": "conceptual",
-        "temporalNote": "Questão, alternativas e chave definitivos preservados. Vínculo temático parcial ao edital ABDI; não transfere regulamento de outra instituição. Normas citadas têm escopo de leitura e evidência registrado neste lote.",
-        "decisionReference": "documentation/abdi-first-batch-release.md"
+        "temporalNote": "Varredura 29/10/2026: vínculo limitado ao gênero newsletter; o enunciado não informa público interno.",
+        "decisionReference": "documentation/bank-sweep-release.md"
       }
     },
     {
@@ -26632,7 +26632,7 @@
     {
       "id": "142-tcuaufc-cb1-01-q092",
       "bankId": "concursos",
-      "revision": 1,
+      "revision": 2,
       "type": "true_false",
       "stem": "A NBASP-100 estabelece que a atuação das instituições superiores de controle deve ser pautada pelos princípios de independência, transparência, responsabilidade e integridade.",
       "options": [],
@@ -26650,13 +26650,13 @@
         "status": "released",
         "method": "agent_assisted",
         "reviewer": "Codex",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-10-29",
         "sourceCompared": true,
         "contextCompared": true,
         "answerKeyCompared": true,
         "temporalScope": "conceptual",
-        "temporalNote": "Texto, comando, apoio e chave definitiva preservados. Vínculo parcial com CGU Auditoria. Conceitos e cláusulas selecionadas conferidos no escopo do lote; não há revisão integral do MCASP 11 ou do banco. Normas do controle externo não são automaticamente regras internas da CGU.",
-        "decisionReference": "documentation/cgu-first-batch-release.md"
+        "temporalNote": "Varredura 29/10/2026: princípios de independência e integridade, sem vínculo presumido a elementos do achado.",
+        "decisionReference": "documentation/bank-sweep-release.md"
       }
     },
     {
@@ -29039,7 +29039,7 @@
     {
       "id": "cgu-2022-auditoria-tarde-tipo1-q035",
       "bankId": "concursos",
-      "revision": 1,
+      "revision": 2,
       "type": "multiple_choice",
       "stem": "Durante a execução de um trabalho de avaliação, não foi possível observar algumas das diretrizes do Referencial Técnico da Atividade de Auditoria Interna Governamental do Poder Executivo Federal, em razão de limitações operacionais. Em virtude disso, houve impactos moderados sobre os resultados da auditoria. A equipe de auditoria deve:",
       "options": [
@@ -29076,13 +29076,13 @@
         "status": "released",
         "method": "agent_assisted",
         "reviewer": "Codex",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-10-29",
         "sourceCompared": true,
         "contextCompared": true,
         "answerKeyCompared": true,
         "temporalScope": "conceptual",
-        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
-        "decisionReference": "documentation/gaps-third-batch-release.md"
+        "temporalNote": "Varredura 29/10/2026: transparência sobre limitações e relatório, sem presumir conteúdo de IA.",
+        "decisionReference": "documentation/bank-sweep-release.md"
       }
     },
     {
@@ -29480,7 +29480,7 @@
     {
       "id": "cgu-2022-auditoria-tarde-tipo1-q067",
       "bankId": "concursos",
-      "revision": 1,
+      "revision": 2,
       "type": "multiple_choice",
       "stem": "As avaliações de desempenho das políticas públicas são peça essencial para o aperfeiçoamento dos programas, com vistas à racionalização do gasto público e à maximização dos benefícios à população. É, portanto, fundamental tanto para gestores quanto para decisores entender como as diferentes formas de avaliação impactam as políticas públicas. Diferentes métodos de análise focam em diferentes componentes da intervenção estatal e produzem insumos que permitem avaliar e aprimorar os programas. Sobre as diversas linhas de análise de políticas públicas, é correto afirmar que o método de avaliação:",
       "options": [
@@ -29517,13 +29517,13 @@
         "status": "released",
         "method": "agent_assisted",
         "reviewer": "Codex",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-10-29",
         "sourceCompared": true,
         "contextCompared": true,
         "answerKeyCompared": true,
         "temporalScope": "conceptual",
-        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
-        "decisionReference": "documentation/gaps-third-batch-release.md"
+        "temporalNote": "Varredura 29/10/2026: avaliação de implementação; não certifica métodos qualitativos ou triangulação.",
+        "decisionReference": "documentation/bank-sweep-release.md"
       }
     },
     {
@@ -29823,7 +29823,7 @@
     {
       "id": "cgu-2022-correicao-tarde-tipo1-q045",
       "bankId": "concursos",
-      "revision": 1,
+      "revision": 2,
       "type": "multiple_choice",
       "stem": "O Ministro de Estado do Ministério Alfa instaurou processo administrativo de responsabilização (PAR) para apuração da responsabilidade administrativa da pessoa jurídica Beta, que pode resultar na aplicação das sanções administrativas previstas na Lei Anticorrupção, pela eventual prática de ato lesivo à Administração Pública Federal, em razão da notícia de ilegalidades graves relacionadas à fraude em licitação. No curso do PAR, constatou-se a complexidade, a repercussão e a relevância da matéria. No caso em tela, de acordo com o Decreto nº 8.420/2015, que regulamenta a Lei nº 12.846/2013, a Controladoria-Geral da União possui competência:",
       "options": [
@@ -29860,13 +29860,13 @@
         "status": "released",
         "method": "agent_assisted",
         "reviewer": "Codex",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-10-29",
         "sourceCompared": true,
         "contextCompared": true,
         "answerKeyCompared": true,
-        "temporalScope": "conceptual",
-        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
-        "decisionReference": "documentation/gaps-third-batch-release.md"
+        "temporalScope": "historical_question",
+        "temporalNote": "Questão histórica da prova de 20/03/2022, expressamente baseada no Decreto 8420/2015. Fora das novas sessões CGU até confirmar o dispositivo da regulamentação atual. Gabarito A histórico preservado.",
+        "decisionReference": "documentation/bank-sweep-release.md"
       }
     },
     {
@@ -30019,7 +30019,7 @@
     {
       "id": "fiocruz-2024-te58-q025",
       "bankId": "concursos",
-      "revision": 1,
+      "revision": 2,
       "type": "multiple_choice",
       "stem": "No Brasil, o controle da ética na pesquisa é atribuição da Comissão Nacional de Ética em Pesquisa (Conep), que conta com um sistema de Comitês de Ética em Pesquisa, os chamados “CEP”. Sua principal atribuição é avaliar os aspectos éticos das pesquisas que envolvem seres humanos. Um dos documentos fundamentais a serem avaliados, nesse processo, é o Termo de Consentimento Livre e Esclarecido (TCLE). Sobre esse documento, é INCORRETO afirmar que:",
       "options": [
@@ -30056,13 +30056,13 @@
         "status": "released",
         "method": "agent_assisted",
         "reviewer": "Codex",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-10-29",
         "sourceCompared": true,
         "contextCompared": true,
         "answerKeyCompared": true,
-        "temporalScope": "conceptual",
-        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
-        "decisionReference": "documentation/gaps-third-batch-release.md"
+        "temporalScope": "historical_question",
+        "temporalNote": "Contexto da prova de 28/04/2024: sistema CEP/Conep e consentimento em pesquisa. Não descreve integralmente a regulação posterior nem equipara entrevista de auditoria a pesquisa com seres humanos.",
+        "decisionReference": "documentation/bank-sweep-release.md"
       }
     },
     {
@@ -30264,9 +30264,9 @@
     {
       "id": "fiocruz-2024-te15-q002",
       "bankId": "concursos",
-      "revision": 1,
+      "revision": 2,
       "type": "multiple_choice",
-      "stem": "Kathryn Best (2012) em seu livro “Fundamentos da Gestão de Design” explica que “As marcas conectam visível e experiencialmente os mecanismos internos que fazem conectar uma organização (sua visão, seus valores e seus propósitos) ao mundo externo dos públicos, interessados, consumidores e usuários”. Segundo a autora, o modo como as marcas se ligam às necessidades e desejos emocionais das pessoas é conhecido como branding emocional. Sobre marcas e branding, analise as afirmativas abaixo, considerando-as como falsas (F) ou verdadeiras (V).\n\nI. O branding não visa influenciar toda a organização, porém tem como objetivo atingir seus públicos-alvo.\n\nII. Construir uma “imagem de marca” positiva na mente do consumidor é uma das funções mais importantes de uma marca.\n\nIII. Marcas são capazes de suscitar emoções como confiança e, assim, estimular a lealdade de compradores, usuários e seguidores. As afirma vas I, II e III são, respectivamente:",
+      "stem": "Kathryn Best (2012) em seu livro “Fundamentos da Gestão de Design” explica que “As marcas conectam visível e experiencialmente os mecanismos internos que fazem conectar uma organização (sua visão, seus valores e seus propósitos) ao mundo externo dos públicos, interessados, consumidores e usuários”. Segundo a autora, o modo como as marcas se ligam às necessidades e desejos emocionais das pessoas é conhecido como branding emocional. Sobre marcas e branding, analise as afirmativas abaixo, considerando-as como falsas (F) ou verdadeiras (V).\n\nI. O branding não visa influenciar toda a organização, porém tem como objetivo atingir seus públicos-alvo.\n\nII. Construir uma “imagem de marca” positiva na mente do consumidor é uma das funções mais importantes de uma marca.\n\nIII. Marcas são capazes de suscitar emoções como confiança e, assim, estimular a lealdade de compradores, usuários e seguidores. As afirmativas I, II e III são, respectivamente:",
       "options": [
         {
           "id": "a",
@@ -30301,13 +30301,13 @@
         "status": "released",
         "method": "agent_assisted",
         "reviewer": "Codex",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-10-29",
         "sourceCompared": true,
         "contextCompared": true,
         "answerKeyCompared": true,
         "temporalScope": "conceptual",
-        "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
-        "decisionReference": "documentation/gaps-third-batch-release.md"
+        "temporalNote": "Varredura 29/10/2026: restauração visual do glifo ti em “afirmativas”, conferida no caderno oficial PDF p. 3. Chave D e alternativas preservadas.",
+        "decisionReference": "documentation/bank-sweep-release.md"
       }
     },
     {
@@ -30798,7 +30798,7 @@
     {
       "id": "mpo-2024-cg1-01-q056",
       "bankId": "concursos",
-      "revision": 1,
+      "revision": 2,
       "type": "true_false",
       "stem": "Esses dois fenômenos são formas contemporâneas de acumulação capitalista e envolvem relações de trabalho sem garantia de direitos trabalhistas como férias e décimo terceiro salário.",
       "options": [],
@@ -30816,13 +30816,13 @@
         "status": "released",
         "method": "agent_assisted",
         "reviewer": "Codex",
-        "reviewedAt": "2026-10-28",
+        "reviewedAt": "2026-10-29",
         "sourceCompared": true,
         "contextCompared": true,
         "answerKeyCompared": true,
-        "temporalScope": "conceptual",
-        "temporalNote": "Conferência assistida individual de texto, contexto e chave definitiva; vínculo parcial. Varredura integral por banco posterior.",
-        "decisionReference": "documentation/gaps-fourth-batch-release.md"
+        "temporalScope": "historical_question",
+        "temporalNote": "Enquadramento sociológico da prova de 28/04/2024 sobre uberização e pejotização. Não afirma ausência universal de direitos trabalhistas nem decide vínculo de emprego em casos atuais.",
+        "decisionReference": "documentation/bank-sweep-release.md"
       }
     },
     {
@@ -52390,9 +52390,9 @@
       ]
     },
     {
-      "id": "cgu-2022-auditoria-tarde-tipo1-q067-comment-v1",
+      "id": "cgu-2022-auditoria-tarde-tipo1-q067-comment-v2",
       "questionId": "cgu-2022-auditoria-tarde-tipo1-q067",
-      "text": "A alternativa B examina se a implementação segue o desenho e transforma insumos em produtos. É uma amostra de análise de processos. Não equivale a avaliação de impacto causal e não cobre, sozinha, triangulação, integração de métodos ou generalização. A questão mantém sua classificação e chave originais de avaliação de políticas.",
+      "text": "A alternativa B identifica a avaliação de implementação: examina se a execução segue o desenho e transforma insumos em produtos. O vínculo é com os tipos de avaliação do item 3.3. O enunciado não demonstra triangulação, integração de métodos ou análise de mecanismos causais; por isso, não sustenta o vínculo anterior com o item 4.2. Chave oficial B preservada.",
       "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
       "status": "reviewed",
       "references": [
@@ -52517,9 +52517,9 @@
       ]
     },
     {
-      "id": "cgu-2022-correicao-tarde-tipo1-q045-comment-v1",
+      "id": "cgu-2022-correicao-tarde-tipo1-q045-comment-v2",
       "questionId": "cgu-2022-correicao-tarde-tipo1-q045",
-      "text": "A chave A corresponde ao art. 8º, § 2º, da Lei 12.846/2013: a CGU possui competência concorrente para instaurar PAR ou avocar processos para examinar regularidade ou corrigir andamento, no âmbito do Poder Executivo federal. Não se trata de poder recursal com os prazos inventados nas demais opções nem de atuação somente suplementar.",
+      "text": "A chave A pertence à prova de 20/03/2022 e ao Decreto 8.420/2015 expressamente indicado no enunciado. O art. 8º, §2º, da Lei 12.846/2013 atribui à CGU atuação na instauração e na avocação de processos federais; isso não dispensa conferir a distinção regulamentar entre competência concorrente e exclusiva. A listagem atual da CGU indica o Decreto 11.129/2022. Como seu dispositivo integral não pôde ser reconfirmado nesta varredura, a questão foi retirada das novas sessões CGU. A chave histórica não foi alterada nem houve anulação oficial.",
       "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
       "status": "reviewed",
       "references": [
@@ -64920,13 +64920,6 @@
       "status": "confirmed"
     },
     {
-      "id": "128-tcemg-008-01-q045-abdi-mapping-2",
-      "questionId": "128-tcemg-008-01-q045",
-      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
-      "justification": "Correspondência parcial revisada entre conteúdo avaliado e item do Anexo II ABDI. Fonte, formato e contexto institucionais originais permanecem identificados; não cria uma questão de prova da ABDI.",
-      "status": "confirmed"
-    },
-    {
       "id": "abdi-2008-especialista-juridico-q019-abdi-mapping-1",
       "questionId": "abdi-2008-especialista-juridico-q019",
       "syllabusItemId": "abdi-2026-abdi-servicos-sociais-autonomos-1-1",
@@ -66754,13 +66747,6 @@
       "justification": "Correspondência parcial com o conceito efetivamente avaliado: Independência, objetividade, diligência e ceticismo; papéis de gestão, supervisão e auditoria no modelo das três linhas. O formato, a origem e a chave definitiva são preservados."
     },
     {
-      "id": "142-tcuaufc-cb1-01-q092-cgu-mapping-2",
-      "questionId": "142-tcuaufc-cb1-01-q092",
-      "syllabusItemId": "cgu-2026-auditoria-governamental-4-1",
-      "status": "confirmed",
-      "justification": "Correspondência parcial com o conceito efetivamente avaliado: Critério, condição, causas e efeitos; suficiência e adequação da evidência; papéis de trabalho, trilha de revisão e supervisão; contradita técnica e exame de evidências divergentes; indícios de fraude e aprofundamento compatível com o mandato. O formato, a origem e a chave definitiva são preservados."
-    },
-    {
       "id": "142-tcuaufc-cb1-01-q093-cgu-mapping-1",
       "questionId": "142-tcuaufc-cb1-01-q093",
       "syllabusItemId": "cgu-2026-auditoria-governamental-1-2",
@@ -67806,9 +67792,9 @@
     {
       "id": "cgu-2022-auditoria-tarde-tipo1-q035-gaps3-mapping-2",
       "questionId": "cgu-2022-auditoria-tarde-tipo1-q035",
-      "syllabusItemId": "cgu-2026-auditoria-governamental-5-1",
+      "syllabusItemId": "cgu-2026-auditoria-governamental-6-1",
       "status": "confirmed",
-      "justification": "Amostra parcial do recorte efetivamente avaliado: Testes sobre qualidade de dados, controles e rastreabilidade; desenho de validações independentes; riscos de viés, erro e mudança de desempenho; supervisão e governança de sistemas automatizados; limites do uso de IA como evidência. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+      "justification": "Comunicar limitações operacionais da auditoria não testa validação de sistemas automatizados ou IA. Vincular a relatório proporcional às evidências. Amostra parcial, sem cobertura integral."
     },
     {
       "id": "cgu-2022-auditoria-tarde-tipo1-q041-gaps3-mapping-1",
@@ -67911,9 +67897,9 @@
     {
       "id": "cgu-2022-auditoria-tarde-tipo1-q067-gaps3-mapping-1",
       "questionId": "cgu-2022-auditoria-tarde-tipo1-q067",
-      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-4-2",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-3",
       "status": "confirmed",
-      "justification": "Amostra parcial do recorte efetivamente avaliado: Análise de processos e hipóteses de mecanismo; triangulação e integração de evidências quantitativas e qualitativas; limites de generalização. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+      "justification": "Objeto direto é avaliação de implementação; não inferir métodos qualitativos, triangulação ou hipóteses de mecanismo de uma classificação geral de avaliação. Amostra parcial, sem cobertura integral."
     },
     {
       "id": "cgu-2022-auditoria-tarde-tipo1-q068-gaps3-mapping-1",
@@ -67956,13 +67942,6 @@
       "syllabusItemId": "cgu-2026-direito-controle-responsabilizacao-4-1",
       "status": "confirmed",
       "justification": "Amostra parcial do recorte efetivamente avaliado: Distinção entre indício, falha de gestão, irregularidade e responsabilidade. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
-    },
-    {
-      "id": "cgu-2022-correicao-tarde-tipo1-q045-gaps3-mapping-1",
-      "questionId": "cgu-2022-correicao-tarde-tipo1-q045",
-      "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-6-1",
-      "status": "confirmed",
-      "justification": "Amostra parcial do recorte efetivamente avaliado: Processo administrativo disciplinar e processo administrativo de responsabilização de pessoas jurídicas: cabimento, instrução, garantias e decisão. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
     },
     {
       "id": "cgu-2022-correicao-tarde-tipo1-q073-gaps3-mapping-1",

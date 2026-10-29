@@ -2,12 +2,12 @@
 
 Analista de Produtividade e Inovação — Comunicação e Marketing
 
-Revisão: 2026-10-28. **250 questões distintas: 94 MC e 156 C/E.**
+Revisão: 2026-10-29. **250 questões distintas: 94 MC e 156 C/E.**
 Programa: 97 itens; 77 com vínculo direto, 7 apenas por descendentes e 13 subárvores sem questões.
 
 A prova exige múltipla escolha. C/E são treino de conteúdo no formato original e não compõem reserva MC. Prioridade A indica ausência de MC; B, uma ou duas MC; C, pelo menos três. Não são pesos oficiais nem domínio do assunto.
 
-[Lote atual e plano de fechamento](gaps-third-batch-release.md) · [CSV](coverage-abdi-current.csv)
+[Varredura atual e pendências](bank-sweep-release.md) · [CSV](coverage-abdi-current.csv)
 
 | Área | Questões distintas | MC | C/E |
 | --- | ---: | ---: | ---: |
@@ -101,7 +101,7 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | Comunicação e Marketing | 9 | Gêneros jornalísticos. | 2 | 1 | Direto |
 | Comunicação e Marketing | 10 | Técnicas de redação jornalística: notícia, reportagem, entrevista, nota, release, artigo e texto institucional. | 1 | 1 | Direto |
 | Comunicação e Marketing | 11 | Edição e revisão de conteúdos. | 0 | 1 | Direto |
-| Comunicação e Marketing | 12 | Comunicação interna e relacionamento com públicos internos. | 2 | 14 | Direto |
+| Comunicação e Marketing | 12 | Comunicação interna e relacionamento com públicos internos. | 1 | 14 | Direto |
 | Comunicação e Marketing | 13 | Comunicação digital e produção de conteúdo para ambientes digitais. | 0 | 4 | Direto |
 | Comunicação e Marketing | 14 | Redes sociais: planejamento, produção, publicação, monitoramento e métricas. | 4 | 12 | Direto |
 | Comunicação e Marketing | 15 | Produção e gestão de conteúdo multimídia. | 0 | 1 | Direto |

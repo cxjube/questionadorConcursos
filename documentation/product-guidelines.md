@@ -2,7 +2,7 @@
 
 ## Diretrizes de produto, arquitetura, banco de questões e experiência de estudo
 
-**Versão:** 1.30 — revisão integrada ao repositório
+**Versão:** 1.31 — revisão integrada ao repositório
 **Data:** 28/10/2026
 **Projeto:** Questionador Concursos
 **Repositório:** https://github.com/cxjube/questionadorConcursos
@@ -12,7 +12,7 @@
 
 # 0. ESTADO E ESCOPO DESTA REFERÊNCIA
 
-Atualização de 28/10/2026: [quarto lote integrado](gaps-fourth-batch-release.md), 686 questões (549 C/E / 137 MC). Câmara 408, ABDI 250 e CGU 299; subárvores vazias 8/13/79. Ética e Missão ABDI tem nove MC, incluindo uma nova de finalidade industrial, e o institucional tem 26. Contrafactual, seleção, pareamento, diferenças em diferenças e validade recebem novas C/E; não se presume regressão descontínua atendida. O [mapa dos 118 ramos anteriores](gaps-fourth-gap-progress.md) preserva limites individuais. Simulados e regras mantidos; avisos históricos explícitos para G20/2024 e política industrial/2008. Varredura editorial e rodada humana continuam pendentes. Os estados seguintes são históricos.
+Atualização de 29/10/2026: [varredura separada dos três bancos](bank-sweep-release.md). Câmara 408, ABDI 250 e CGU 298 disponíveis; catálogo conserva 686 questões e 685 IDs distintos são elegíveis para novas sessões. Oito questões receberam nova revisão: uma restauração visual de transcrição, quatro ajustes temáticos e três avisos/tratamentos históricos, com sobreposição de intervenções por questão. Uma MC CGU que cita Decreto 8.420/2015 está sem vínculo de treino até conferir a regulamentação atual, preservando sua chave A. Lacunas 8/13/80; o aumento da CGU é correção de classificação, não perda de questões de métodos causais. Os simulados e regras versão 1 permanecem. Relatórios por questão, referência anterior congelada e verificações automáticas integrais não substituem aceite humano nem auditoria jurídica integral. Estados abaixo são históricos.
 
 
 Este documento consolida as sugestões fornecidas pelo usuário e os ajustes de revisão. É uma referência de produto e de aceite por etapa, não autorização para implementar todo o roadmap.

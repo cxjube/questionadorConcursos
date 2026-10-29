@@ -39,7 +39,7 @@ class ConsolidationTests(unittest.TestCase):
         self.assertEqual(sum(len(p['inventory']['annulledItems']) for p in self.catalog['papers']), 193)
         self.assertEqual(len(self.catalog['questions']), 686)
         self.assertEqual(len(self.catalog['answerKeys']), 686)
-        self.assertEqual(len(self.catalog['mappings']), 1126)
+        self.assertEqual(len(self.catalog['mappings']), 1123)
         self.assertEqual(self.catalog['contests'][2]['id'], 'cgu-2026');self.assertEqual(self.catalog['contests'][2]['status'], 'verified')
         self.assertEqual({item['roleId'] for item in self.catalog['syllabusItems']}, {'camara-comunicacao-divulgacao', 'abdi-comunicacao-marketing', 'cgu-auditoria'})
         self.assertEqual({item['noticeId'] for item in self.catalog['syllabusItems']}, {'camara-2026-edital-01', 'abdi-2026-edital-01', 'cgu-2026-edital-01'})

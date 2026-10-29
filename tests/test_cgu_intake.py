@@ -124,6 +124,6 @@ class CGUIntakeTests(unittest.TestCase):
         next(k for k in withdrawn['answerKeys'] if k['id'] == self.q[qid]['answerKeyId']).update(result='annulled', value=None)
         self.assertEqual(ce_capacity(withdrawn, self.role)['distinctCE'], 101)
         current = read_json(ROOT / 'data/catalog.json')
-        review = read_json(ROOT / 'data/reviews/gaps-fourth-batch.json')
+        review = read_json(ROOT / 'data/reviews/bank-sweep-2026-10-29.json')
         for filename, content in role_artifacts(current, review, self.role).items():
             self.assertEqual((ROOT / filename).read_text(), content)

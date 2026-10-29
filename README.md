@@ -1,12 +1,14 @@
 # Questionador Concursos
 
-**Recortes ampliados:** [entrega e pendências](documentation/gaps-fourth-batch-release.md), **42 novas questões oficiais — 38 C/E e quatro MC**. O catálogo tem 686 questões (549 C/E / 137 MC). Os três simulados preservam regras próprias. O [mapa dos 118 ramos antes vazios](documentation/gaps-fourth-gap-progress.md) distingue primeira amostra de cobertura integral.
+**Varredura separada concluída:** [resultado e pendências](documentation/bank-sweep-release.md). Câmara, ABDI e CGU têm relatórios por questão, com conferência automática integral de textos/chaves e triagem temática separada. Foram corrigidas transcrição, classificações e avisos históricos; uma MC antiga da CGU foi retirada das novas sessões até reconferência normativa. Os gabaritos oficiais e o histórico anterior foram preservados.
 
-**ABDI — Comunicação e Marketing:** **250 questões (156 C/E / 94 MC)**, 26 MC institucionais. Ética e Missão tem nove MC, incluindo uma nova sobre finalidade industrial; as oito anteriores de conduta/princípios permanecem. Mapa 77/97 direto, sete só por descendentes e 13 subárvores vazias. Correio eletrônico começa com uma C/E, sem preencher cota MC.
+**Câmara — Comunicação/Divulgação:** **408 questões (386 C/E / 22 MC)**; 407 mantidas e uma transcrição corrigida. Mapa 187/228 direto, 32 só por descendentes e oito subárvores sem questões. Simulado 180 C/E preservado, conjuntos 176/210.
 
-**CGU — Auditoria:** **299 questões (262 C/E / 37 MC)**; simulado de 170 C/E em 40/40/90 e reserva única de 92. Mapa 125/266 direto, 62 só por descendentes e 79 subárvores vazias. Entram métodos causais, validade, processo administrativo e conflitos, com limites explícitos.
+**ABDI — Comunicação e Marketing:** **250 questões (156 C/E / 94 MC)**; 248 mantidas e duas corrigidas (uma compartilhada com a Câmara). Mapa 77/97 direto, sete só por descendentes e 13 subárvores sem questões. São 26 MC institucionais; Ética e Missão mantém nove. Simulado 60 MC com todas as cotas preservado.
 
-**Câmara — Comunicação/Divulgação:** **408 questões (386 C/E / 22 MC)**, capacidade C/E 176/210. Mapa 187/228 direto, 32 só por descendentes e oito lacunas. Nova Governança Pública e política internacional recebem primeiras amostras; G20 conserva seu contexto histórico de 2024.
+**CGU — Auditoria:** **298 questões disponíveis (262 C/E / 36 MC)**; 293 mantidas, cinco corrigidas e uma retirada do treino. Mapa 124/266 direto, 62 só por descendentes e 80 subárvores sem questões. O item de métodos qualitativos/mistos voltou a aparecer como lacuna após corrigir uma classificação ampla demais. Simulado 170 C/E preservado, conjuntos 71/90/161 e reserva única de 92.
+
+O catálogo conserva 686 registros históricos de questões; **685 IDs distintos estão disponíveis nas novas sessões**, com reutilização entre objetivos. A MC retirada conserva seu gabarito A original, sem declaração de anulação pela banca.
 
 Aplicação estática para estudos de concursos públicos, baseada na arquitetura do [Questionador](https://github.com/mugubr/questionador), de Miguel Muniz e Rubens Braz. Veja [créditos e autorização](CREDITS.md).
 
@@ -34,7 +36,7 @@ O [14º lote](documentation/fourteenth-batch-release.md) acrescenta 33 C/E e tr�
 
 Entrega anterior: O [13º lote](documentation/thirteenth-batch-release.md) acrescenta 12 C/E e dois pares oficiais: STM 2025 / Comunicação Social e CPNUJE 2024 / Estatística. Reserva: **119 C/E em P1 e 135 em P2**. Visualização, desinformação e características de plataformas têm novas amostras; os itens de Power BI do STJ CB2 também foram excluídos por anulação.
 
-O [12º lote](documentation/twelfth-batch-release.md) acrescenta 30 C/E, dois novos pares oficiais e quatro referências legais. O catálogo global atual tem 686 comentários. O [mapa atual](documentation/coverage-current.md) e o [CSV atual](documentation/coverage-current.csv) separam vínculos diretos, descendentes e lacunas. A [conferência dos documentos da Câmara](documentation/camara-reference-review.md) identifica os manuais oficiais de Comunicação (2025) e Linguagem Simples (2024). Os links dos comentários agora aparecem separados e identificados por fonte.
+O [12º lote](documentation/twelfth-batch-release.md) acrescenta 30 C/E, dois novos pares oficiais e quatro referências legais. O catálogo conserva 686 comentários versionados para as questões retidas. O [mapa atual](documentation/coverage-current.md) e o [CSV atual](documentation/coverage-current.csv) separam vínculos diretos, descendentes e lacunas. A [conferência dos documentos da Câmara](documentation/camara-reference-review.md) identifica os manuais oficiais de Comunicação (2025) e Linguagem Simples (2024). Os links dos comentários agora aparecem separados e identificados por fonte.
 
 Registro histórico: a revisão de 26/10 registra as lacunas dos 228 itens, sete correções de classificação e um comando corrigido com nova versão. Foram reconferidas 85 citações legais de 66 questões, em dez normas. Veja o [mapa completo e prioridades](documentation/coverage-audit-2026-10-26.md) e a [planilha CSV](documentation/coverage-audit-2026-10-26.csv). Nenhuma questão ou gabarito foi adicionado ou alterado; sessões antigas preservam seus snapshots.
 
@@ -120,7 +122,7 @@ Questões compartilhadas são relacionadas a itens de editais por vínculos, sem
 Com Playwright e Chromium já disponíveis na máquina, sirva `docs/` e execute:
 
 ```sh
-APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-gaps-fourth-batch.cjs
+APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-bank-sweep.cjs
 APP_BASE_URL=http://127.0.0.1:8000/ CHROMIUM_PATH=/usr/bin/chromium node tests/browser-exam.cjs
 ```
 
@@ -128,6 +130,6 @@ Essas ferramentas não integram a aplicação nem são dependências obrigatóri
 
 ## Próxima etapa
 
-Revisar separadamente cada banco e registrar correções, retiradas e pendências com recontagem da capacidade. Para treinar somente um bloco, use Personalizar treino, selecione P1/P2, Certo/Errado e quantidade 90. Essa modalidade continua sem mínimos oficiais.
+Resolver a pendência normativa registrada, ampliar os recortes prioritários e realizar o aceite com estudantes. Para treinar somente um bloco, use Personalizar treino, selecione P1/P2, Certo/Errado e quantidade 90. Essa modalidade continua sem mínimos oficiais.
 
-Os três simulados estão funcionais. Permanecem 8/13/79 subárvores vazias em Câmara/ABDI/CGU, com limites e prioridades no [mapa individual](documentation/gaps-fourth-gap-progress.md). A próxima etapa é a [varredura editorial separada por banco](documentation/final-bank-review-plan.md), seguida do [aceite com estudantes](documentation/acceptance-three-goals.md). A [entrega atual](documentation/gaps-fourth-batch-release.md) detalha fontes, referências, contexto histórico e verificações.
+Os três simulados estão funcionais. Permanecem 8/13/80 subárvores vazias em Câmara/ABDI/CGU, com limites e prioridades no [mapa individual](documentation/gaps-fourth-gap-progress.md). A varredura assistida foi registrada [separadamente por banco](documentation/bank-sweep-release.md). Restam a reconferência normativa da MC retirada, a ampliação dirigida das lacunas e o [aceite com estudantes](documentation/acceptance-three-goals.md).

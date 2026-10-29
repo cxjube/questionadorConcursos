@@ -1,0 +1,49 @@
+{
+  "reviewedAt": "2026-10-29",
+  "catalogRetainedQuestions": 686,
+  "activeDistinctQuestions": 685,
+  "sourceChecks": {
+    "checkedDocuments": 217,
+    "checkedPapers": 75,
+    "checkedContexts": 272,
+    "errors": []
+  },
+  "roles": [
+    {
+      "roleId": "camara-comunicacao-divulgacao",
+      "before": 408,
+      "after": 408,
+      "counts": {
+        "manter": 407,
+        "corrigir": 1,
+        "retirar_vinculo": 0
+      },
+      "emptyItems": 8,
+      "ready": true
+    },
+    {
+      "roleId": "abdi-comunicacao-marketing",
+      "before": 250,
+      "after": 250,
+      "counts": {
+        "manter": 248,
+        "corrigir": 2,
+        "retirar_vinculo": 0
+      },
+      "emptyItems": 13,
+      "ready": true
+    },
+    {
+      "roleId": "cgu-auditoria",
+      "before": 299,
+      "after": 298,
+      "counts": {
+        "manter": 293,
+        "corrigir": 5,
+        "retirar_vinculo": 1
+      },
+      "emptyItems": 80,
+      "ready": true
+    }
+  ]
+}

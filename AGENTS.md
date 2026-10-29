@@ -64,6 +64,10 @@ Preserve pre-gaps-fourth-batch-catalog.json.gz and all old 644 rows; the only de
 
 The new FGV quarantine case is Auditoria afternoon 21, not 20 as mistakenly labelled in the old exclusion. Record the correction without rewriting that historical report. Lei 12813 cases on arts. 6/9 map to specialized conflicts 4.4, not Ethics 3.1's restricted article list. Only selected normative clauses were checked; no fresh remote check of other old norms is claimed. tools.gap_progress.expansion_artifacts tracks the 118 previously empty branches; historical third-batch artifacts remain immutable. Full separate bank sweeps and human acceptance remain pending by user direction.
 
+Latest delivery supersedes earlier current-state paragraphs: read documentation/bank-sweep-release.md and the separate bank-sweep-camara/abdi/cgu reports. The 29 Oct 2026 agent-assisted sweep retains 686 question records and all original 686 definitive keys; 685 unique IDs remain eligible. Câmara has 408 (386 CE / 22 MC), ABDI 250 (156 CE / 94 MC), CGU 298 (262 CE / 36 MC). Eight question revisions incremented. Only one original stem changes: Fiocruz TE15 q002 “As afirma vas” → “As afirmativas”, visually confirmed on PDF p. 3. Four mapping corrections remove newsletter → internal audience and general NBASP principles → findings, relocate reporting limitations from digital auditing to reports, and implementation evaluation from qualitative methods 4.2 to evaluation types 3.3. The last exposes the real CGU gap: 80 empty (124 direct / 62 descendants-only); Câmara 8 and ABDI 13 remain unchanged. CGU has 262 unique CE, overlapping block pools 71/90/161, and 170 native slots. All three engines retain version 1 rules. Preserve pre-bank-sweep-catalog.json.gz and explicit before/after changes in bank-sweep-2026-10-29.json. Do not rewrite historical batch manifests; historical fourth-lot tests now read that frozen 686-item catalog.
+
+CGU/FGV Correição afternoon type 1 q045 cites Decreto 8420/2015. Its single study mapping was removed pending confirmation of current Decreto 11129/2022. Do not call its official A key annulled, withdrawn or wrong: keep text, options and key unchanged and accept old session snapshots. Two corrected explanations use new comment-v2 IDs and incremented question revisions. Visible historical notices also cover TCLE/CEP-Conep 2024 and MPO 2024 uberização/pejotização; do not present them as universal current-law claims. All 217 retained document hashes, 75 exact definitive tables, 686 texts/keys and 272 contexts pass tools.bank_sweep. Eighteen targeted normative references had 17 remote byte confirmations, including official legislative mirrors. Fresh Lei 14133 and the full Decreto 11129 remain unavailable. This is full automated integrity checking, per-goal thematic triage and risk-directed comment/reference review, not human acceptance or whole-law currency certification. Remaining gaps and the student usability round stay explicit.
+
 ## Verification
 
 Python >=3.12, Node >=22 and Poppler pdftotext for source-fidelity tests. Install Python tooling with `uv sync --locked`; there are no Node package dependencies. Run:
@@ -73,6 +77,7 @@ uv run python -m unittest discover -s tests -v
 npm test
 uv run python -m tools validate
 uv run python -m tools audit-sources
+uv run python -m tools.bank_sweep --check
 uv run python -m tools review-batch
 uv run python -m tools coverage --check
 uv run python -m tools build --check

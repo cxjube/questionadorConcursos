@@ -1,9 +1,9 @@
 {
   "totalItems": 266,
-  "directItems": 125,
+  "directItems": 124,
   "descendantsOnly": 62,
-  "emptyItems": 79,
-  "emptyLeaves": 68,
+  "emptyItems": 80,
+  "emptyLeaves": 69,
   "blocks": {
     "basic": {
       "total": 76,
@@ -14,8 +14,8 @@
       "ce": 90
     },
     "specific": {
-      "total": 184,
-      "ce": 162
+      "total": 182,
+      "ce": 161
     }
   },
   "disciplines": [
@@ -126,7 +126,7 @@
       "descendantsOnly": 6,
       "emptyItems": 5,
       "emptyLeaves": 5,
-      "questionsCE": 37,
+      "questionsCE": 36,
       "questionsMC": 3
     },
     {
@@ -144,10 +144,10 @@
       "id": "cgu-politicas-investigacao-avaliacao",
       "label": "POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO",
       "totalItems": 28,
-      "directItems": 19,
+      "directItems": 18,
       "descendantsOnly": 5,
-      "emptyItems": 4,
-      "emptyLeaves": 4,
+      "emptyItems": 5,
+      "emptyLeaves": 5,
       "questionsCE": 41,
       "questionsMC": 8
     },
@@ -171,7 +171,7 @@
       "emptyItems": 24,
       "emptyLeaves": 22,
       "questionsCE": 27,
-      "questionsMC": 7
+      "questionsMC": 6
     }
   ],
   "items": [
@@ -3703,14 +3703,13 @@
       "directCE": 0,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "142-tcuaufc-cb1-01-q092",
         "142-tcuaufc-cb1-01-q098",
         "142-tcuaufc-cb1-01-q099",
         "896-tcdf-002-01-q125",
         "896-tcdf-002-01-q127",
         "993-tce-ac-014-01-q120"
       ],
-      "subtreeCE": 6,
+      "subtreeCE": 5,
       "subtreeMC": 0
     },
     {
@@ -3724,24 +3723,22 @@
       "state": "direct",
       "priority": "C",
       "directQuestionIds": [
-        "142-tcuaufc-cb1-01-q092",
         "142-tcuaufc-cb1-01-q098",
         "142-tcuaufc-cb1-01-q099",
         "896-tcdf-002-01-q125",
         "896-tcdf-002-01-q127",
         "993-tce-ac-014-01-q120"
       ],
-      "directCE": 6,
+      "directCE": 5,
       "directMC": 0,
       "subtreeQuestionIds": [
-        "142-tcuaufc-cb1-01-q092",
         "142-tcuaufc-cb1-01-q098",
         "142-tcuaufc-cb1-01-q099",
         "896-tcdf-002-01-q125",
         "896-tcdf-002-01-q127",
         "993-tce-ac-014-01-q120"
       ],
-      "subtreeCE": 6,
+      "subtreeCE": 5,
       "subtreeMC": 0
     },
     {
@@ -3759,11 +3756,10 @@
       "directMC": 0,
       "subtreeQuestionIds": [
         "038-anm-024-01-q116",
-        "038-anm-024-01-q120",
-        "cgu-2022-auditoria-tarde-tipo1-q035"
+        "038-anm-024-01-q120"
       ],
       "subtreeCE": 2,
-      "subtreeMC": 1
+      "subtreeMC": 0
     },
     {
       "id": "cgu-2026-auditoria-governamental-5-1",
@@ -3777,18 +3773,16 @@
       "priority": "B",
       "directQuestionIds": [
         "038-anm-024-01-q116",
-        "038-anm-024-01-q120",
-        "cgu-2022-auditoria-tarde-tipo1-q035"
+        "038-anm-024-01-q120"
       ],
       "directCE": 2,
-      "directMC": 1,
+      "directMC": 0,
       "subtreeQuestionIds": [
         "038-anm-024-01-q116",
-        "038-anm-024-01-q120",
-        "cgu-2022-auditoria-tarde-tipo1-q035"
+        "038-anm-024-01-q120"
       ],
       "subtreeCE": 2,
-      "subtreeMC": 1
+      "subtreeMC": 0
     },
     {
       "id": "cgu-2026-auditoria-governamental-6",
@@ -3807,10 +3801,11 @@
         "142-tcuaufc-cb1-01-q031",
         "142-tcuaufc-cb1-01-q033",
         "142-tcuaufc-cb1-01-q100",
-        "205-funpresp-26-jud-009-01-q081"
+        "205-funpresp-26-jud-009-01-q081",
+        "cgu-2022-auditoria-tarde-tipo1-q035"
       ],
       "subtreeCE": 4,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-auditoria-governamental-6-1",
@@ -3826,18 +3821,20 @@
         "142-tcuaufc-cb1-01-q031",
         "142-tcuaufc-cb1-01-q033",
         "142-tcuaufc-cb1-01-q100",
-        "205-funpresp-26-jud-009-01-q081"
+        "205-funpresp-26-jud-009-01-q081",
+        "cgu-2022-auditoria-tarde-tipo1-q035"
       ],
       "directCE": 4,
-      "directMC": 0,
+      "directMC": 1,
       "subtreeQuestionIds": [
         "142-tcuaufc-cb1-01-q031",
         "142-tcuaufc-cb1-01-q033",
         "142-tcuaufc-cb1-01-q100",
-        "205-funpresp-26-jud-009-01-q081"
+        "205-funpresp-26-jud-009-01-q081",
+        "cgu-2022-auditoria-tarde-tipo1-q035"
       ],
       "subtreeCE": 4,
-      "subtreeMC": 0
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-auditoria-governamental-6-2",
@@ -4722,6 +4719,7 @@
         "993-tce-ac-016-01-q109",
         "cgu-2022-auditoria-tarde-tipo1-q064",
         "cgu-2022-auditoria-tarde-tipo1-q066",
+        "cgu-2022-auditoria-tarde-tipo1-q067",
         "mpo-2024-001-01-q041",
         "mpo-2024-001-01-q042",
         "mpo-2024-001-01-q046",
@@ -4731,7 +4729,7 @@
         "mpo-2024-001-01-q052"
       ],
       "subtreeCE": 18,
-      "subtreeMC": 2
+      "subtreeMC": 3
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-3-1",
@@ -4811,24 +4809,26 @@
         "993-tce-ac-016-01-q108",
         "993-tce-ac-016-01-q109",
         "cgu-2022-auditoria-tarde-tipo1-q064",
+        "cgu-2022-auditoria-tarde-tipo1-q067",
         "mpo-2024-001-01-q046",
         "mpo-2024-001-01-q047",
         "mpo-2024-001-01-q049"
       ],
       "directCE": 7,
-      "directMC": 1,
+      "directMC": 2,
       "subtreeQuestionIds": [
         "142-tcuaufc-cb1-01-q089",
         "993-tce-ac-014-01-q065",
         "993-tce-ac-016-01-q108",
         "993-tce-ac-016-01-q109",
         "cgu-2022-auditoria-tarde-tipo1-q064",
+        "cgu-2022-auditoria-tarde-tipo1-q067",
         "mpo-2024-001-01-q046",
         "mpo-2024-001-01-q047",
         "mpo-2024-001-01-q049"
       ],
       "subtreeCE": 7,
-      "subtreeMC": 1
+      "subtreeMC": 2
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-3-4",
@@ -4863,11 +4863,10 @@
       "subtreeQuestionIds": [
         "153-telebras-008-01-q098",
         "205-funpresp-26-jud-005-01-q065",
-        "232funprespexe-002-01-q079",
-        "cgu-2022-auditoria-tarde-tipo1-q067"
+        "232funprespexe-002-01-q079"
       ],
       "subtreeCE": 3,
-      "subtreeMC": 1
+      "subtreeMC": 0
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-4-1",
@@ -4902,18 +4901,14 @@
       "block": "specific",
       "parentTopicId": "cgu-2026-politicas-investigacao-avaliacao-4",
       "isLeaf": true,
-      "state": "direct",
+      "state": "empty",
       "priority": "A",
-      "directQuestionIds": [
-        "cgu-2022-auditoria-tarde-tipo1-q067"
-      ],
+      "directQuestionIds": [],
       "directCE": 0,
-      "directMC": 1,
-      "subtreeQuestionIds": [
-        "cgu-2022-auditoria-tarde-tipo1-q067"
-      ],
+      "directMC": 0,
+      "subtreeQuestionIds": [],
       "subtreeCE": 0,
-      "subtreeMC": 1
+      "subtreeMC": 0
     },
     {
       "id": "cgu-2026-politicas-investigacao-avaliacao-5",
@@ -6009,11 +6004,10 @@
         "142-tcuaufc-cb1-01-q081",
         "896-tcdf-002-01-q112",
         "959-bcb-cb1-01-q037",
-        "cgu-2022-correicao-tarde-tipo1-q043",
-        "cgu-2022-correicao-tarde-tipo1-q045"
+        "cgu-2022-correicao-tarde-tipo1-q043"
       ],
       "subtreeCE": 4,
-      "subtreeMC": 2
+      "subtreeMC": 1
     },
     {
       "id": "cgu-2026-integridade-transparencia-responsabilizacao-6-1",
@@ -6028,19 +6022,17 @@
       "directQuestionIds": [
         "142-tcuaufc-cb1-01-q079",
         "142-tcuaufc-cb1-01-q081",
-        "959-bcb-cb1-01-q037",
-        "cgu-2022-correicao-tarde-tipo1-q045"
+        "959-bcb-cb1-01-q037"
       ],
       "directCE": 3,
-      "directMC": 1,
+      "directMC": 0,
       "subtreeQuestionIds": [
         "142-tcuaufc-cb1-01-q079",
         "142-tcuaufc-cb1-01-q081",
-        "959-bcb-cb1-01-q037",
-        "cgu-2022-correicao-tarde-tipo1-q045"
+        "959-bcb-cb1-01-q037"
       ],
       "subtreeCE": 3,
-      "subtreeMC": 1
+      "subtreeMC": 0
     },
     {
       "id": "cgu-2026-integridade-transparencia-responsabilizacao-6-2",
@@ -6224,9 +6216,9 @@
     }
   ],
   "roleId": "cgu-auditoria",
-  "reviewedAt": "2026-10-28",
-  "reviewId": "gaps-fourth-batch",
-  "distinctQuestions": 299,
+  "reviewedAt": "2026-10-29",
+  "reviewId": "bank-sweep-2026-10-29",
+  "distinctQuestions": 298,
   "distinctCE": 262,
-  "distinctMC": 37
+  "distinctMC": 36
 }

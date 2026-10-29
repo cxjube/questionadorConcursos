@@ -1,7 +1,7 @@
 'use strict';
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),zlib=require('node:zlib'),{webcrypto}=require('node:crypto');
 const root=path.resolve(__dirname,'../..'),plain=x=>JSON.parse(JSON.stringify(x)),date='2026-10-28T12:00:00.000Z';
-function setup(){const s={window:{},URL,TextEncoder,crypto:webcrypto};vm.createContext(s);for(const f of ['assets/js/study.js','data/catalog.js'])vm.runInContext(fs.readFileSync(path.join(root,'docs',f),'utf8'),s);s.c=s.window.CONCURSOS_CATALOG;return s;}
+function setup(){const s={window:{},URL,TextEncoder,crypto:webcrypto};vm.createContext(s);for(const f of ['assets/js/study.js','data/catalog.js'])vm.runInContext(fs.readFileSync(path.join(root,'docs',f),'utf8'),s);s.c=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(root,'data/reviews/pre-bank-sweep-catalog.json.gz'))));s.c.revision='b'.repeat(64);return s;}
 test('42 real additions preserve original CE and MC formats, new historical-item notices and backups',()=>{
  const s=setup(),p=s.Study.empty(),manifest=JSON.parse(fs.readFileSync(path.join(root,'data/reviews/gaps-fourth-batch.json'))),seen=new Set();
  for(const role of ['camara-comunicacao-divulgacao','abdi-comunicacao-marketing','cgu-auditoria']){

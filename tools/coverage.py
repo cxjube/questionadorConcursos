@@ -4,7 +4,7 @@ import hashlib
 import io
 import json
 
-CURRENT_REVIEW_PATH = 'data/reviews/gaps-fourth-batch.json'
+CURRENT_REVIEW_PATH = 'data/reviews/bank-sweep-2026-10-29.json'
 
 JSON_PATH = 'data/reviews/coverage-audit-2026-10-26.json'
 CSV_PATH = 'documentation/coverage-audit-2026-10-26.csv'
@@ -185,7 +185,7 @@ def current_artifacts(catalog, review):
              'Direto significa vínculo ao item exato; subárvore reúne o próprio item e seus descendentes, sem duplicar IDs. '
              'Vínculos de pais não são distribuídos aos filhos. Prioridades editoriais: A sem C/E, B com 1–2 C/E, C com 3 ou mais. '
              'Pais e filhos se sobrepõem; as contagens não são pesos oficiais.', '',
-             '[Lote atual e reservas](gaps-third-batch-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)', '',
+             '[Varredura atual e reservas](bank-sweep-release.md) · [Auditoria anterior preservada](coverage-audit-2026-10-26.md) · [CSV atual](coverage-current.csv)', '',
              '## Disciplinas', '', '| Disciplina | Direto / programa | C/E distintos | MC distintos | Folhas vazias |',
              '| --- | ---: | ---: | ---: | ---: |']
     for d in report['disciplines']:
@@ -194,8 +194,8 @@ def current_artifacts(catalog, review):
               '1. Prompts e IA generativa foram iniciados com itens válidos da ANM/TRT10. Power BI/Tableau 8.3 têm duas amostras válidas e storytelling de dados 8.4 tem uma da Funpresp-Jud. Ampliar diversidade de gráficos, ferramentas e narrativas. Itens anulados do STJ/ANM continuam excluídos.',
               '2. Regimento Comum tem agora C/E em Constitucional 8.2 e Processo 6.1/6.3, além de três MC preservadas. Ainda faltam C/E em Constitucional 8.1 (Título I) e Processo 6.2 (Resolução 3/1990).',
               '3. Planejamento de redes (5.1) e colaboração online (5.2) têm C/E; elementos de publicação (5.4) continuam sem questões. Manual de Comunicação da Câmara (8.2) tem duas MC oficiais da ALERJ. Ato 218/2025 e Manual de Linguagem Simples (8.1/10.1) seguem sem questões específicas confirmadas.',
-              '4. Cooperação com o terceiro setor tem uma C/E do Ibama; CF 37, § 1º, tem vínculo versionado por vedação de promoção pessoal. Ainda faltam parecerista, Nova Governança Pública e Decreto 9203 específico; os vínculos são amostras parciais.',
-              '5. Ampliar ortografia, coordenação, substituição lexical e história política, já iniciadas em lotes anteriores. Reescrita por simplificação tem uma MC; ampliar comparação de gêneros e formalidades. Política internacional contemporânea permanece sem questão. Inglês, pesquisas e demais itens com poucas amostras precisam de diversidade.', '',
+              '4. Cooperação com o terceiro setor tem uma C/E do Ibama; CF 37, § 1º, tem vínculo versionado por vedação de promoção pessoal. Nova Governança Pública tem uma MC do TCU; parecerista e Decreto 9203 específico continuam sem questão. Os vínculos são amostras parciais.',
+              '5. Ampliar ortografia, coordenação, substituição lexical e história política, já iniciadas em lotes anteriores. Reescrita por simplificação tem uma MC; ampliar comparação de gêneros e formalidades. Política internacional tem uma C/E do G20 no contexto histórico de 2024; ampliar diversidade e atualidade. Inglês, pesquisas e demais itens com poucas amostras precisam de diversidade.', '',
               '## Inventário completo', '']
     labels = {'direct': 'Direto', 'descendants_only': 'Só descendentes', 'empty': 'Sem questões', 'editorial_umbrella': 'Escopo'}
     for d in report['disciplines']:
@@ -233,7 +233,7 @@ def role_artifacts(catalog, review, role_id):
            f"Revisão: {review['reviewedAt']}. **{len(ids)} questões distintas: {report['distinctMC']} MC e {report['distinctCE']} C/E.**",
            f"Programa: {report['totalItems']} itens; {report['directItems']} com vínculo direto, {report['descendantsOnly']} apenas por descendentes e {report['emptyItems']} subárvores sem questões.", '',
            'A prova exige múltipla escolha. C/E são treino de conteúdo no formato original e não compõem reserva MC. Prioridade A indica ausência de MC; B, uma ou duas MC; C, pelo menos três. Não são pesos oficiais nem domínio do assunto.', '',
-           '[Lote atual e plano de fechamento](gaps-third-batch-release.md) · [CSV](coverage-abdi-current.csv)', '',
+           '[Varredura atual e pendências](bank-sweep-release.md) · [CSV](coverage-abdi-current.csv)', '',
            '| Área | Questões distintas | MC | C/E |', '| --- | ---: | ---: | ---: |']
     for block,label in [('basic','Gerais'),('institutional','Institucionais'),('specific','Específicos')]:
         selected={q for row in report['items'] if row['block']==block for q in row['directQuestionIds']}
@@ -296,6 +296,6 @@ def cgu_artifacts(catalog, review):
     for row in report['items']:
         label = row['label'].replace('|', '\\|')
         lines.append(f"| {disciplines[row['disciplineId']]} | {row['number']} | {label} | {row['directCE']} | {row['directMC']} | {states[row['state']]} |")
-    lines += ['', '[Entrega e pendências](gaps-third-batch-release.md). Gerado por `python -m tools coverage --role cgu-auditoria`; conferir com `--check`.', '']
+    lines += ['', '[Varredura e pendências](bank-sweep-release.md). Gerado por `python -m tools coverage --role cgu-auditoria`; conferir com `--check`.', '']
     output['documentation/coverage-cgu-current.md'] = '\n'.join(lines)
     return output

@@ -1,0 +1,1296 @@
+{
+  "id": "bank-sweep-2026-10-29",
+  "reviewedAt": "2026-10-29",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/bank-sweep-release.md",
+  "previousCatalogFile": "data/reviews/pre-bank-sweep-catalog.json.gz",
+  "previousCatalogSha256": "a20b7ecc1497d1bf54107402c9d5d5015d931de031e40ec55680800dc6d33525",
+  "scope": "Separately scoped technical/editorial sweep of Câmara, ABDI and CGU. Original stems/options triaged by goal; all source texts/keys and retained document hashes checked automatically. Comments and normative references re-read by risk; not a human review or exhaustive fresh currency check of every reference.",
+  "changes": [
+    {
+      "section": "mappings",
+      "id": "128-tcemg-008-01-q045-abdi-mapping-2",
+      "before": {
+        "id": "128-tcemg-008-01-q045-abdi-mapping-2",
+        "questionId": "128-tcemg-008-01-q045",
+        "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-12",
+        "justification": "Correspondência parcial revisada entre conteúdo avaliado e item do Anexo II ABDI. Fonte, formato e contexto institucionais originais permanecem identificados; não cria uma questão de prova da ABDI.",
+        "status": "confirmed"
+      },
+      "after": null,
+      "reason": "Newsletter periódica não identifica público interno no enunciado. Manter gênero jornalístico (item 9), sem presumir comunicação interna (item 12)."
+    },
+    {
+      "section": "mappings",
+      "id": "142-tcuaufc-cb1-01-q092-cgu-mapping-2",
+      "before": {
+        "id": "142-tcuaufc-cb1-01-q092-cgu-mapping-2",
+        "questionId": "142-tcuaufc-cb1-01-q092",
+        "syllabusItemId": "cgu-2026-auditoria-governamental-4-1",
+        "status": "confirmed",
+        "justification": "Correspondência parcial com o conceito efetivamente avaliado: Critério, condição, causas e efeitos; suficiência e adequação da evidência; papéis de trabalho, trilha de revisão e supervisão; contradita técnica e exame de evidências divergentes; indícios de fraude e aprofundamento compatível com o mandato. O formato, a origem e a chave definitiva são preservados."
+      },
+      "after": null,
+      "reason": "Princípios NBASP de independência, transparência e integridade não testam elementos do achado ou papéis de trabalho. Mantido vínculo próprio de independência e ceticismo em Atuação Integrada1.4."
+    },
+    {
+      "section": "mappings",
+      "id": "cgu-2022-correicao-tarde-tipo1-q045-gaps3-mapping-1",
+      "before": {
+        "id": "cgu-2022-correicao-tarde-tipo1-q045-gaps3-mapping-1",
+        "questionId": "cgu-2022-correicao-tarde-tipo1-q045",
+        "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-6-1",
+        "status": "confirmed",
+        "justification": "Amostra parcial do recorte efetivamente avaliado: Processo administrativo disciplinar e processo administrativo de responsabilização de pessoas jurídicas: cabimento, instrução, garantias e decisão. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+      },
+      "after": null,
+      "reason": "Questão cita Decreto8420/2015. A CGU indica Decreto11129/2022 como regulamentação atual, mas o texto integral atual não foi obtido após503/timeout. Retirada de novas sessões até conferir a disciplina vigente; gabarito A original não é alterado nem declarado anulado."
+    },
+    {
+      "section": "mappings",
+      "id": "cgu-2022-auditoria-tarde-tipo1-q067-gaps3-mapping-1",
+      "before": {
+        "id": "cgu-2022-auditoria-tarde-tipo1-q067-gaps3-mapping-1",
+        "questionId": "cgu-2022-auditoria-tarde-tipo1-q067",
+        "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-4-2",
+        "status": "confirmed",
+        "justification": "Amostra parcial do recorte efetivamente avaliado: Análise de processos e hipóteses de mecanismo; triangulação e integração de evidências quantitativas e qualitativas; limites de generalização. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+      },
+      "after": {
+        "id": "cgu-2022-auditoria-tarde-tipo1-q067-gaps3-mapping-1",
+        "questionId": "cgu-2022-auditoria-tarde-tipo1-q067",
+        "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-3",
+        "status": "confirmed",
+        "justification": "Objeto direto é avaliação de implementação; não inferir métodos qualitativos, triangulação ou hipóteses de mecanismo de uma classificação geral de avaliação. Amostra parcial, sem cobertura integral."
+      },
+      "reason": "Objeto direto é avaliação de implementação; não inferir métodos qualitativos, triangulação ou hipóteses de mecanismo de uma classificação geral de avaliação."
+    },
+    {
+      "section": "mappings",
+      "id": "cgu-2022-auditoria-tarde-tipo1-q035-gaps3-mapping-2",
+      "before": {
+        "id": "cgu-2022-auditoria-tarde-tipo1-q035-gaps3-mapping-2",
+        "questionId": "cgu-2022-auditoria-tarde-tipo1-q035",
+        "syllabusItemId": "cgu-2026-auditoria-governamental-5-1",
+        "status": "confirmed",
+        "justification": "Amostra parcial do recorte efetivamente avaliado: Testes sobre qualidade de dados, controles e rastreabilidade; desenho de validações independentes; riscos de viés, erro e mudança de desempenho; supervisão e governança de sistemas automatizados; limites do uso de IA como evidência. Não certifica cobertura integral. Quando a origem usa norma de outra instituição/profissão, o vínculo limita-se ao princípio comum explicitado no comentário."
+      },
+      "after": {
+        "id": "cgu-2022-auditoria-tarde-tipo1-q035-gaps3-mapping-2",
+        "questionId": "cgu-2022-auditoria-tarde-tipo1-q035",
+        "syllabusItemId": "cgu-2026-auditoria-governamental-6-1",
+        "status": "confirmed",
+        "justification": "Comunicar limitações operacionais da auditoria não testa validação de sistemas automatizados ou IA. Vincular a relatório proporcional às evidências. Amostra parcial, sem cobertura integral."
+      },
+      "reason": "Comunicar limitações operacionais da auditoria não testa validação de sistemas automatizados ou IA. Vincular a relatório proporcional às evidências."
+    },
+    {
+      "section": "questions",
+      "id": "fiocruz-2024-te15-q002",
+      "before": {
+        "id": "fiocruz-2024-te15-q002",
+        "bankId": "concursos",
+        "revision": 1,
+        "type": "multiple_choice",
+        "stem": "Kathryn Best (2012) em seu livro “Fundamentos da Gestão de Design” explica que “As marcas conectam visível e experiencialmente os mecanismos internos que fazem conectar uma organização (sua visão, seus valores e seus propósitos) ao mundo externo dos públicos, interessados, consumidores e usuários”. Segundo a autora, o modo como as marcas se ligam às necessidades e desejos emocionais das pessoas é conhecido como branding emocional. Sobre marcas e branding, analise as afirmativas abaixo, considerando-as como falsas (F) ou verdadeiras (V).\n\nI. O branding não visa influenciar toda a organização, porém tem como objetivo atingir seus públicos-alvo.\n\nII. Construir uma “imagem de marca” positiva na mente do consumidor é uma das funções mais importantes de uma marca.\n\nIII. Marcas são capazes de suscitar emoções como confiança e, assim, estimular a lealdade de compradores, usuários e seguidores. As afirma vas I, II e III são, respectivamente:",
+        "options": [
+          {
+            "id": "a",
+            "text": "V, V e F."
+          },
+          {
+            "id": "b",
+            "text": "F, V e F."
+          },
+          {
+            "id": "c",
+            "text": "V, F e V."
+          },
+          {
+            "id": "d",
+            "text": "F, V e V."
+          },
+          {
+            "id": "e",
+            "text": "V, V e V."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-fiocruz-2024-te15",
+          "number": 2,
+          "locator": "PDF p. 3"
+        },
+        "answerKeyId": "fiocruz-2024-te15-q002-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-28",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+          "decisionReference": "documentation/gaps-third-batch-release.md"
+        }
+      },
+      "after": {
+        "id": "fiocruz-2024-te15-q002",
+        "bankId": "concursos",
+        "revision": 2,
+        "type": "multiple_choice",
+        "stem": "Kathryn Best (2012) em seu livro “Fundamentos da Gestão de Design” explica que “As marcas conectam visível e experiencialmente os mecanismos internos que fazem conectar uma organização (sua visão, seus valores e seus propósitos) ao mundo externo dos públicos, interessados, consumidores e usuários”. Segundo a autora, o modo como as marcas se ligam às necessidades e desejos emocionais das pessoas é conhecido como branding emocional. Sobre marcas e branding, analise as afirmativas abaixo, considerando-as como falsas (F) ou verdadeiras (V).\n\nI. O branding não visa influenciar toda a organização, porém tem como objetivo atingir seus públicos-alvo.\n\nII. Construir uma “imagem de marca” positiva na mente do consumidor é uma das funções mais importantes de uma marca.\n\nIII. Marcas são capazes de suscitar emoções como confiança e, assim, estimular a lealdade de compradores, usuários e seguidores. As afirmativas I, II e III são, respectivamente:",
+        "options": [
+          {
+            "id": "a",
+            "text": "V, V e F."
+          },
+          {
+            "id": "b",
+            "text": "F, V e F."
+          },
+          {
+            "id": "c",
+            "text": "V, F e V."
+          },
+          {
+            "id": "d",
+            "text": "F, V e V."
+          },
+          {
+            "id": "e",
+            "text": "V, V e V."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-fiocruz-2024-te15",
+          "number": 2,
+          "locator": "PDF p. 3"
+        },
+        "answerKeyId": "fiocruz-2024-te15-q002-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-29",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Varredura 29/10/2026: restauração visual do glifo ti em “afirmativas”, conferida no caderno oficial PDF p. 3. Chave D e alternativas preservadas.",
+          "decisionReference": "documentation/bank-sweep-release.md"
+        }
+      },
+      "reason": "Varredura 29/10/2026: restauração visual do glifo ti em “afirmativas”, conferida no caderno oficial PDF p. 3. Chave D e alternativas preservadas."
+    },
+    {
+      "section": "questions",
+      "id": "128-tcemg-008-01-q045",
+      "before": {
+        "id": "128-tcemg-008-01-q045",
+        "bankId": "concursos",
+        "revision": 1,
+        "type": "multiple_choice",
+        "stem": "O boletim eletrônico distribuído regularmente por email com o objetivo de divulgar informações institucionais, atualizações e notícias segmentadas caracteriza o gênero",
+        "options": [
+          {
+            "id": "a",
+            "text": "nota oficial."
+          },
+          {
+            "id": "b",
+            "text": "newsletter."
+          },
+          {
+            "id": "c",
+            "text": "informativo interno."
+          },
+          {
+            "id": "d",
+            "text": "comunicado."
+          },
+          {
+            "id": "e",
+            "text": "release."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-128-tcemg-008-01",
+          "number": 45,
+          "locator": "PDF p. 4"
+        },
+        "answerKeyId": "128-tcemg-008-01-q045-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-27",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Questão, alternativas e chave definitivos preservados. Vínculo temático parcial ao edital ABDI; não transfere regulamento de outra instituição. Normas citadas têm escopo de leitura e evidência registrado neste lote.",
+          "decisionReference": "documentation/abdi-first-batch-release.md"
+        }
+      },
+      "after": {
+        "id": "128-tcemg-008-01-q045",
+        "bankId": "concursos",
+        "revision": 2,
+        "type": "multiple_choice",
+        "stem": "O boletim eletrônico distribuído regularmente por email com o objetivo de divulgar informações institucionais, atualizações e notícias segmentadas caracteriza o gênero",
+        "options": [
+          {
+            "id": "a",
+            "text": "nota oficial."
+          },
+          {
+            "id": "b",
+            "text": "newsletter."
+          },
+          {
+            "id": "c",
+            "text": "informativo interno."
+          },
+          {
+            "id": "d",
+            "text": "comunicado."
+          },
+          {
+            "id": "e",
+            "text": "release."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-128-tcemg-008-01",
+          "number": 45,
+          "locator": "PDF p. 4"
+        },
+        "answerKeyId": "128-tcemg-008-01-q045-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-29",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Varredura 29/10/2026: vínculo limitado ao gênero newsletter; o enunciado não informa público interno.",
+          "decisionReference": "documentation/bank-sweep-release.md"
+        }
+      },
+      "reason": "Varredura 29/10/2026: vínculo limitado ao gênero newsletter; o enunciado não informa público interno."
+    },
+    {
+      "section": "questions",
+      "id": "142-tcuaufc-cb1-01-q092",
+      "before": {
+        "id": "142-tcuaufc-cb1-01-q092",
+        "bankId": "concursos",
+        "revision": 1,
+        "type": "true_false",
+        "stem": "A NBASP-100 estabelece que a atuação das instituições superiores de controle deve ser pautada pelos princípios de independência, transparência, responsabilidade e integridade.",
+        "options": [],
+        "contextIds": [
+          "cgu-batch1-tcu-auditoria"
+        ],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-142-tcuaufc-cb1-01",
+          "number": 92,
+          "locator": "PDF p. 6"
+        },
+        "answerKeyId": "142-tcuaufc-cb1-01-q092-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-28",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Texto, comando, apoio e chave definitiva preservados. Vínculo parcial com CGU Auditoria. Conceitos e cláusulas selecionadas conferidos no escopo do lote; não há revisão integral do MCASP 11 ou do banco. Normas do controle externo não são automaticamente regras internas da CGU.",
+          "decisionReference": "documentation/cgu-first-batch-release.md"
+        }
+      },
+      "after": {
+        "id": "142-tcuaufc-cb1-01-q092",
+        "bankId": "concursos",
+        "revision": 2,
+        "type": "true_false",
+        "stem": "A NBASP-100 estabelece que a atuação das instituições superiores de controle deve ser pautada pelos princípios de independência, transparência, responsabilidade e integridade.",
+        "options": [],
+        "contextIds": [
+          "cgu-batch1-tcu-auditoria"
+        ],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-142-tcuaufc-cb1-01",
+          "number": 92,
+          "locator": "PDF p. 6"
+        },
+        "answerKeyId": "142-tcuaufc-cb1-01-q092-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-29",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Varredura 29/10/2026: princípios de independência e integridade, sem vínculo presumido a elementos do achado.",
+          "decisionReference": "documentation/bank-sweep-release.md"
+        }
+      },
+      "reason": "Varredura 29/10/2026: princípios de independência e integridade, sem vínculo presumido a elementos do achado."
+    },
+    {
+      "section": "questions",
+      "id": "cgu-2022-auditoria-tarde-tipo1-q067",
+      "before": {
+        "id": "cgu-2022-auditoria-tarde-tipo1-q067",
+        "bankId": "concursos",
+        "revision": 1,
+        "type": "multiple_choice",
+        "stem": "As avaliações de desempenho das políticas públicas são peça essencial para o aperfeiçoamento dos programas, com vistas à racionalização do gasto público e à maximização dos benefícios à população. É, portanto, fundamental tanto para gestores quanto para decisores entender como as diferentes formas de avaliação impactam as políticas públicas. Diferentes métodos de análise focam em diferentes componentes da intervenção estatal e produzem insumos que permitem avaliar e aprimorar os programas. Sobre as diversas linhas de análise de políticas públicas, é correto afirmar que o método de avaliação:",
+        "options": [
+          {
+            "id": "a",
+            "text": "de resultados consiste no confronto dos pressupostos assumidos na formulação do programa com as evidências mais recentes, enfatizando quais insumos, processos ou produtos são mais eficazes para alcançar as metas pretendidas;"
+          },
+          {
+            "id": "b",
+            "text": "de implementação consiste em uma análise aprofundada que identifica se a execução da política obedece ao desenho formulado e atenta para a transformação de insumos em produtos para a população;"
+          },
+          {
+            "id": "c",
+            "text": "de desenho se debruça sobre os indicadores utilizados para construção das metas do programa para compreender se os efeitos estão alinhados com o planejamento inicial;"
+          },
+          {
+            "id": "d",
+            "text": "econômica lida com o conceito de escassez de recursos públicos e visa encontrar maneiras mais eficientes de aplicá-los por meio de sofisticadas técnicas estatísticas;"
+          },
+          {
+            "id": "e",
+            "text": "de eficiência busca compreender a relação entre os custos e os benefícios das políticas públicas por meio da comparação de programas já em execução."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+          "number": 67,
+          "locator": "PDF p. 20"
+        },
+        "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q067-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-28",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+          "decisionReference": "documentation/gaps-third-batch-release.md"
+        }
+      },
+      "after": {
+        "id": "cgu-2022-auditoria-tarde-tipo1-q067",
+        "bankId": "concursos",
+        "revision": 2,
+        "type": "multiple_choice",
+        "stem": "As avaliações de desempenho das políticas públicas são peça essencial para o aperfeiçoamento dos programas, com vistas à racionalização do gasto público e à maximização dos benefícios à população. É, portanto, fundamental tanto para gestores quanto para decisores entender como as diferentes formas de avaliação impactam as políticas públicas. Diferentes métodos de análise focam em diferentes componentes da intervenção estatal e produzem insumos que permitem avaliar e aprimorar os programas. Sobre as diversas linhas de análise de políticas públicas, é correto afirmar que o método de avaliação:",
+        "options": [
+          {
+            "id": "a",
+            "text": "de resultados consiste no confronto dos pressupostos assumidos na formulação do programa com as evidências mais recentes, enfatizando quais insumos, processos ou produtos são mais eficazes para alcançar as metas pretendidas;"
+          },
+          {
+            "id": "b",
+            "text": "de implementação consiste em uma análise aprofundada que identifica se a execução da política obedece ao desenho formulado e atenta para a transformação de insumos em produtos para a população;"
+          },
+          {
+            "id": "c",
+            "text": "de desenho se debruça sobre os indicadores utilizados para construção das metas do programa para compreender se os efeitos estão alinhados com o planejamento inicial;"
+          },
+          {
+            "id": "d",
+            "text": "econômica lida com o conceito de escassez de recursos públicos e visa encontrar maneiras mais eficientes de aplicá-los por meio de sofisticadas técnicas estatísticas;"
+          },
+          {
+            "id": "e",
+            "text": "de eficiência busca compreender a relação entre os custos e os benefícios das políticas públicas por meio da comparação de programas já em execução."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+          "number": 67,
+          "locator": "PDF p. 20"
+        },
+        "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q067-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-29",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Varredura 29/10/2026: avaliação de implementação; não certifica métodos qualitativos ou triangulação.",
+          "decisionReference": "documentation/bank-sweep-release.md"
+        }
+      },
+      "reason": "Varredura 29/10/2026: avaliação de implementação; não certifica métodos qualitativos ou triangulação."
+    },
+    {
+      "section": "questions",
+      "id": "cgu-2022-auditoria-tarde-tipo1-q035",
+      "before": {
+        "id": "cgu-2022-auditoria-tarde-tipo1-q035",
+        "bankId": "concursos",
+        "revision": 1,
+        "type": "multiple_choice",
+        "stem": "Durante a execução de um trabalho de avaliação, não foi possível observar algumas das diretrizes do Referencial Técnico da Atividade de Auditoria Interna Governamental do Poder Executivo Federal, em razão de limitações operacionais. Em virtude disso, houve impactos moderados sobre os resultados da auditoria. A equipe de auditoria deve:",
+        "options": [
+          {
+            "id": "a",
+            "text": "suspender a execução dos trabalhos e comunicar ao responsável pela unidade auditada que não será emitido relatório;"
+          },
+          {
+            "id": "b",
+            "text": "solicitar alteração do Plano de Auditoria Interna, de modo a compatibilizá-lo com as restrições ocorridas;"
+          },
+          {
+            "id": "c",
+            "text": "reduzir o escopo do trabalho, após autorização do coordenador da equipe de auditoria;"
+          },
+          {
+            "id": "d",
+            "text": "registrar no relatório as razões e o impacto da não observância das diretrizes sobre o trabalho de avaliação e os seus resultados;"
+          },
+          {
+            "id": "e",
+            "text": "deixar de emitir opinião sobre o objeto auditado, limitando-se a relatar os procedimentos adotados na execução da auditoria."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+          "number": 35,
+          "locator": "PDF p. 12"
+        },
+        "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q035-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-28",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+          "decisionReference": "documentation/gaps-third-batch-release.md"
+        }
+      },
+      "after": {
+        "id": "cgu-2022-auditoria-tarde-tipo1-q035",
+        "bankId": "concursos",
+        "revision": 2,
+        "type": "multiple_choice",
+        "stem": "Durante a execução de um trabalho de avaliação, não foi possível observar algumas das diretrizes do Referencial Técnico da Atividade de Auditoria Interna Governamental do Poder Executivo Federal, em razão de limitações operacionais. Em virtude disso, houve impactos moderados sobre os resultados da auditoria. A equipe de auditoria deve:",
+        "options": [
+          {
+            "id": "a",
+            "text": "suspender a execução dos trabalhos e comunicar ao responsável pela unidade auditada que não será emitido relatório;"
+          },
+          {
+            "id": "b",
+            "text": "solicitar alteração do Plano de Auditoria Interna, de modo a compatibilizá-lo com as restrições ocorridas;"
+          },
+          {
+            "id": "c",
+            "text": "reduzir o escopo do trabalho, após autorização do coordenador da equipe de auditoria;"
+          },
+          {
+            "id": "d",
+            "text": "registrar no relatório as razões e o impacto da não observância das diretrizes sobre o trabalho de avaliação e os seus resultados;"
+          },
+          {
+            "id": "e",
+            "text": "deixar de emitir opinião sobre o objeto auditado, limitando-se a relatar os procedimentos adotados na execução da auditoria."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-cgu-2022-auditoria-tarde-tipo1",
+          "number": 35,
+          "locator": "PDF p. 12"
+        },
+        "answerKeyId": "cgu-2022-auditoria-tarde-tipo1-q035-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-29",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Varredura 29/10/2026: transparência sobre limitações e relatório, sem presumir conteúdo de IA.",
+          "decisionReference": "documentation/bank-sweep-release.md"
+        }
+      },
+      "reason": "Varredura 29/10/2026: transparência sobre limitações e relatório, sem presumir conteúdo de IA."
+    },
+    {
+      "section": "questions",
+      "id": "cgu-2022-correicao-tarde-tipo1-q045",
+      "before": {
+        "id": "cgu-2022-correicao-tarde-tipo1-q045",
+        "bankId": "concursos",
+        "revision": 1,
+        "type": "multiple_choice",
+        "stem": "O Ministro de Estado do Ministério Alfa instaurou processo administrativo de responsabilização (PAR) para apuração da responsabilidade administrativa da pessoa jurídica Beta, que pode resultar na aplicação das sanções administrativas previstas na Lei Anticorrupção, pela eventual prática de ato lesivo à Administração Pública Federal, em razão da notícia de ilegalidades graves relacionadas à fraude em licitação. No curso do PAR, constatou-se a complexidade, a repercussão e a relevância da matéria. No caso em tela, de acordo com o Decreto nº 8.420/2015, que regulamenta a Lei nº 12.846/2013, a Controladoria-Geral da União possui competência:",
+        "options": [
+          {
+            "id": "a",
+            "text": "exclusiva para avocar o PAR para exame de sua regularidade ou para corrigir-lhe o andamento, inclusive promovendo a aplicação da penalidade administrativa cabível;"
+          },
+          {
+            "id": "b",
+            "text": "instrutória para colaborar na coleta da prova do PAR, caso inexistam condições objetivas para sua instrução no Ministério Alfa, mas lhe é vedado o julgamento do PAR, sob pena de supressão de instância administrativa;"
+          },
+          {
+            "id": "c",
+            "text": "para avocar o PAR para fins de sua instrução, caso seja caracterizada omissão da autoridade originariamente competente, mas lhe é vedada a aplicação da penalidade administrativa cabível;"
+          },
+          {
+            "id": "d",
+            "text": "para julgar recurso de decisão do Ministério Alfa que, após regular tramitação do PAR, aplicar sanções administrativas à pessoa jurídica Beta, que pode recorrer no prazo de vinte dias, após a ciência da decisão;"
+          },
+          {
+            "id": "e",
+            "text": "suplementar para sanar vícios procedimentais no PAR, caso inexistam condições objetivas para sua instrução no Ministério Alfa, mas lhe é vedado o julgamento do PAR, sob pena de supressão de instância administrativa."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+          "number": 45,
+          "locator": "PDF p. 15"
+        },
+        "answerKeyId": "cgu-2022-correicao-tarde-tipo1-q045-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-28",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+          "decisionReference": "documentation/gaps-third-batch-release.md"
+        }
+      },
+      "after": {
+        "id": "cgu-2022-correicao-tarde-tipo1-q045",
+        "bankId": "concursos",
+        "revision": 2,
+        "type": "multiple_choice",
+        "stem": "O Ministro de Estado do Ministério Alfa instaurou processo administrativo de responsabilização (PAR) para apuração da responsabilidade administrativa da pessoa jurídica Beta, que pode resultar na aplicação das sanções administrativas previstas na Lei Anticorrupção, pela eventual prática de ato lesivo à Administração Pública Federal, em razão da notícia de ilegalidades graves relacionadas à fraude em licitação. No curso do PAR, constatou-se a complexidade, a repercussão e a relevância da matéria. No caso em tela, de acordo com o Decreto nº 8.420/2015, que regulamenta a Lei nº 12.846/2013, a Controladoria-Geral da União possui competência:",
+        "options": [
+          {
+            "id": "a",
+            "text": "exclusiva para avocar o PAR para exame de sua regularidade ou para corrigir-lhe o andamento, inclusive promovendo a aplicação da penalidade administrativa cabível;"
+          },
+          {
+            "id": "b",
+            "text": "instrutória para colaborar na coleta da prova do PAR, caso inexistam condições objetivas para sua instrução no Ministério Alfa, mas lhe é vedado o julgamento do PAR, sob pena de supressão de instância administrativa;"
+          },
+          {
+            "id": "c",
+            "text": "para avocar o PAR para fins de sua instrução, caso seja caracterizada omissão da autoridade originariamente competente, mas lhe é vedada a aplicação da penalidade administrativa cabível;"
+          },
+          {
+            "id": "d",
+            "text": "para julgar recurso de decisão do Ministério Alfa que, após regular tramitação do PAR, aplicar sanções administrativas à pessoa jurídica Beta, que pode recorrer no prazo de vinte dias, após a ciência da decisão;"
+          },
+          {
+            "id": "e",
+            "text": "suplementar para sanar vícios procedimentais no PAR, caso inexistam condições objetivas para sua instrução no Ministério Alfa, mas lhe é vedado o julgamento do PAR, sob pena de supressão de instância administrativa."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+          "number": 45,
+          "locator": "PDF p. 15"
+        },
+        "answerKeyId": "cgu-2022-correicao-tarde-tipo1-q045-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-29",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "historical_question",
+          "temporalNote": "Questão histórica da prova de 20/03/2022, expressamente baseada no Decreto 8420/2015. Fora das novas sessões CGU até confirmar o dispositivo da regulamentação atual. Gabarito A histórico preservado.",
+          "decisionReference": "documentation/bank-sweep-release.md"
+        }
+      },
+      "reason": "Questão histórica da prova de 20/03/2022, expressamente baseada no Decreto 8420/2015. Fora das novas sessões CGU até confirmar o dispositivo da regulamentação atual. Gabarito A histórico preservado."
+    },
+    {
+      "section": "questions",
+      "id": "fiocruz-2024-te58-q025",
+      "before": {
+        "id": "fiocruz-2024-te58-q025",
+        "bankId": "concursos",
+        "revision": 1,
+        "type": "multiple_choice",
+        "stem": "No Brasil, o controle da ética na pesquisa é atribuição da Comissão Nacional de Ética em Pesquisa (Conep), que conta com um sistema de Comitês de Ética em Pesquisa, os chamados “CEP”. Sua principal atribuição é avaliar os aspectos éticos das pesquisas que envolvem seres humanos. Um dos documentos fundamentais a serem avaliados, nesse processo, é o Termo de Consentimento Livre e Esclarecido (TCLE). Sobre esse documento, é INCORRETO afirmar que:",
+        "options": [
+          {
+            "id": "a",
+            "text": "deve abranger o detalhamento dos direitos, dos procedimentos, dos riscos e dos benefícios associados à escolha de uma pessoa em participar de determinada pesquisa."
+          },
+          {
+            "id": "b",
+            "text": "só é exigido em pesquisas que envolvam coleta de material biológico."
+          },
+          {
+            "id": "c",
+            "text": "a forma de registro escolhida pelo pesquisador, no TCLE, deve levar em consideração características individuais, sociais, linguísticas, econômicas e culturais do participante da pesquisa."
+          },
+          {
+            "id": "d",
+            "text": "pesquisas que envolvem menores de 18 anos devem ter TCLE e também TALE, Termo de Assentimento Livre e Esclarecido."
+          },
+          {
+            "id": "e",
+            "text": "pode ser elaborado em qualquer meio, formato ou mídia, adaptando-se às características dos participantes da pesquisa e das abordagens metodológicas aplicadas."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-fiocruz-2024-te58",
+          "number": 25,
+          "locator": "PDF p. 8"
+        },
+        "answerKeyId": "fiocruz-2024-te58-q025-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-28",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Conferência individual de texto, opções e chave definitiva independente. CGU/FGV: relatório retificado20/04/2022; MC permanece MC. Vínculos são amostras parciais, sem importar normas próprias de outro órgão/profissão. Pesquisa: contexto2024, sem declaração de revisão integral da regulação posterior. Varredura completa por banco adiada por decisão do usuário.",
+          "decisionReference": "documentation/gaps-third-batch-release.md"
+        }
+      },
+      "after": {
+        "id": "fiocruz-2024-te58-q025",
+        "bankId": "concursos",
+        "revision": 2,
+        "type": "multiple_choice",
+        "stem": "No Brasil, o controle da ética na pesquisa é atribuição da Comissão Nacional de Ética em Pesquisa (Conep), que conta com um sistema de Comitês de Ética em Pesquisa, os chamados “CEP”. Sua principal atribuição é avaliar os aspectos éticos das pesquisas que envolvem seres humanos. Um dos documentos fundamentais a serem avaliados, nesse processo, é o Termo de Consentimento Livre e Esclarecido (TCLE). Sobre esse documento, é INCORRETO afirmar que:",
+        "options": [
+          {
+            "id": "a",
+            "text": "deve abranger o detalhamento dos direitos, dos procedimentos, dos riscos e dos benefícios associados à escolha de uma pessoa em participar de determinada pesquisa."
+          },
+          {
+            "id": "b",
+            "text": "só é exigido em pesquisas que envolvam coleta de material biológico."
+          },
+          {
+            "id": "c",
+            "text": "a forma de registro escolhida pelo pesquisador, no TCLE, deve levar em consideração características individuais, sociais, linguísticas, econômicas e culturais do participante da pesquisa."
+          },
+          {
+            "id": "d",
+            "text": "pesquisas que envolvem menores de 18 anos devem ter TCLE e também TALE, Termo de Assentimento Livre e Esclarecido."
+          },
+          {
+            "id": "e",
+            "text": "pode ser elaborado em qualquer meio, formato ou mídia, adaptando-se às características dos participantes da pesquisa e das abordagens metodológicas aplicadas."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-fiocruz-2024-te58",
+          "number": 25,
+          "locator": "PDF p. 8"
+        },
+        "answerKeyId": "fiocruz-2024-te58-q025-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-29",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "historical_question",
+          "temporalNote": "Contexto da prova de 28/04/2024: sistema CEP/Conep e consentimento em pesquisa. Não descreve integralmente a regulação posterior nem equipara entrevista de auditoria a pesquisa com seres humanos.",
+          "decisionReference": "documentation/bank-sweep-release.md"
+        }
+      },
+      "reason": "Contexto da prova de 28/04/2024: sistema CEP/Conep e consentimento em pesquisa. Não descreve integralmente a regulação posterior nem equipara entrevista de auditoria a pesquisa com seres humanos."
+    },
+    {
+      "section": "questions",
+      "id": "mpo-2024-cg1-01-q056",
+      "before": {
+        "id": "mpo-2024-cg1-01-q056",
+        "bankId": "concursos",
+        "revision": 1,
+        "type": "true_false",
+        "stem": "Esses dois fenômenos são formas contemporâneas de acumulação capitalista e envolvem relações de trabalho sem garantia de direitos trabalhistas como férias e décimo terceiro salário.",
+        "options": [],
+        "contextIds": [
+          "gaps4-mpo-work"
+        ],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-mpo-2024-cg1-01",
+          "number": 56,
+          "locator": "PDF p. 3"
+        },
+        "answerKeyId": "mpo-2024-cg1-01-q056-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-28",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Conferência assistida individual de texto, contexto e chave definitiva; vínculo parcial. Varredura integral por banco posterior.",
+          "decisionReference": "documentation/gaps-fourth-batch-release.md"
+        }
+      },
+      "after": {
+        "id": "mpo-2024-cg1-01-q056",
+        "bankId": "concursos",
+        "revision": 2,
+        "type": "true_false",
+        "stem": "Esses dois fenômenos são formas contemporâneas de acumulação capitalista e envolvem relações de trabalho sem garantia de direitos trabalhistas como férias e décimo terceiro salário.",
+        "options": [],
+        "contextIds": [
+          "gaps4-mpo-work"
+        ],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-mpo-2024-cg1-01",
+          "number": 56,
+          "locator": "PDF p. 3"
+        },
+        "answerKeyId": "mpo-2024-cg1-01-q056-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-29",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "historical_question",
+          "temporalNote": "Enquadramento sociológico da prova de 28/04/2024 sobre uberização e pejotização. Não afirma ausência universal de direitos trabalhistas nem decide vínculo de emprego em casos atuais.",
+          "decisionReference": "documentation/bank-sweep-release.md"
+        }
+      },
+      "reason": "Enquadramento sociológico da prova de 28/04/2024 sobre uberização e pejotização. Não afirma ausência universal de direitos trabalhistas nem decide vínculo de emprego em casos atuais."
+    },
+    {
+      "section": "explanations",
+      "id": "cgu-2022-auditoria-tarde-tipo1-q067-comment-v1",
+      "before": {
+        "id": "cgu-2022-auditoria-tarde-tipo1-q067-comment-v1",
+        "questionId": "cgu-2022-auditoria-tarde-tipo1-q067",
+        "text": "A alternativa B examina se a implementação segue o desenho e transforma insumos em produtos. É uma amostra de análise de processos. Não equivale a avaliação de impacto causal e não cobre, sozinha, triangulação, integração de métodos ou generalização. A questão mantém sua classificação e chave originais de avaliação de políticas.",
+        "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+        "status": "reviewed",
+        "references": [
+          {
+            "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+            "locator": "PDF p. 20, questão 67"
+          },
+          {
+            "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+            "locator": "PDF p. 17, questão 67"
+          }
+        ]
+      },
+      "after": {
+        "id": "cgu-2022-auditoria-tarde-tipo1-q067-comment-v2",
+        "questionId": "cgu-2022-auditoria-tarde-tipo1-q067",
+        "text": "A alternativa B identifica a avaliação de implementação: examina se a execução segue o desenho e transforma insumos em produtos. O vínculo é com os tipos de avaliação do item 3.3. O enunciado não demonstra triangulação, integração de métodos ou análise de mecanismos causais; por isso, não sustenta o vínculo anterior com o item 4.2. Chave oficial B preservada.",
+        "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+        "status": "reviewed",
+        "references": [
+          {
+            "documentId": "source-cgu-2022-auditoria-tarde-tipo1-paper",
+            "locator": "PDF p. 20, questão 67"
+          },
+          {
+            "documentId": "source-cgu-2022-auditoria-tarde-tipo1-key",
+            "locator": "PDF p. 17, questão 67"
+          }
+        ]
+      },
+      "reason": "Comentário alinhado ao objeto direto, sem contabilizar avaliação de implementação como método qualitativo/misto."
+    },
+    {
+      "section": "explanations",
+      "id": "cgu-2022-correicao-tarde-tipo1-q045-comment-v1",
+      "before": {
+        "id": "cgu-2022-correicao-tarde-tipo1-q045-comment-v1",
+        "questionId": "cgu-2022-correicao-tarde-tipo1-q045",
+        "text": "A chave A corresponde ao art. 8º, § 2º, da Lei 12.846/2013: a CGU possui competência concorrente para instaurar PAR ou avocar processos para examinar regularidade ou corrigir andamento, no âmbito do Poder Executivo federal. Não se trata de poder recursal com os prazos inventados nas demais opções nem de atuação somente suplementar.",
+        "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+        "status": "reviewed",
+        "references": [
+          {
+            "documentId": "source-cgu-2022-correicao-tarde-tipo1-paper",
+            "locator": "PDF p. 15, questão 45"
+          },
+          {
+            "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+            "locator": "PDF p. 25, questão 45"
+          },
+          {
+            "documentId": "reference-lei-12846-2013",
+            "locator": "Art. 8º, § 2º"
+          }
+        ]
+      },
+      "after": {
+        "id": "cgu-2022-correicao-tarde-tipo1-q045-comment-v2",
+        "questionId": "cgu-2022-correicao-tarde-tipo1-q045",
+        "text": "A chave A pertence à prova de 20/03/2022 e ao Decreto 8.420/2015 expressamente indicado no enunciado. O art. 8º, §2º, da Lei 12.846/2013 atribui à CGU atuação na instauração e na avocação de processos federais; isso não dispensa conferir a distinção regulamentar entre competência concorrente e exclusiva. A listagem atual da CGU indica o Decreto 11.129/2022. Como seu dispositivo integral não pôde ser reconfirmado nesta varredura, a questão foi retirada das novas sessões CGU. A chave histórica não foi alterada nem houve anulação oficial.",
+        "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+        "status": "reviewed",
+        "references": [
+          {
+            "documentId": "source-cgu-2022-correicao-tarde-tipo1-paper",
+            "locator": "PDF p. 15, questão 45"
+          },
+          {
+            "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+            "locator": "PDF p. 25, questão 45"
+          },
+          {
+            "documentId": "reference-lei-12846-2013",
+            "locator": "Art. 8º, § 2º"
+          }
+        ]
+      },
+      "reason": "Comentário anterior omitia o regime temporal e misturava competência concorrente/exclusiva. Retirada preventiva do vínculo atual; preservados texto e gabarito originais."
+    }
+  ],
+  "referenceRechecks": [
+    {
+      "documentId": "reference-constitution-1988",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "checkedAt": "2026-10-28T23:42:35.123877+00:00",
+      "previousSha256": "bfcf4ff3177fedb13db963a2a05109d7520c01dff8257e83007a9e50ba51841e",
+      "outcome": "unavailable",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "documentId": "reference-ricd-res17-1989",
+      "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+      "checkedAt": "2026-10-28T23:42:35.124801+00:00",
+      "previousSha256": "e95d7b34dd5fdfeae4892cc4e3893c56eb9f1c28cb418af22639a8c7846639d9",
+      "status": 200,
+      "finalUrl": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+      "file": "sources/references/ricd-res17-1989.html",
+      "sha256": "e95d7b34dd5fdfeae4892cc4e3893c56eb9f1c28cb418af22639a8c7846639d9",
+      "bytes": 1007742,
+      "outcome": "byte_match"
+    },
+    {
+      "documentId": "reference-regimento-comum-2025",
+      "url": "https://www25.senado.leg.br/documents/59501/97171143/RCCN.pdf/933b504d-a653-4df5-9329-d4f38c42f64f",
+      "checkedAt": "2026-10-28T23:42:35.125583+00:00",
+      "previousSha256": "723077332d3f1f068093eee842ad4142c20ad5efcb5a57e9b9e50341f37cf856",
+      "status": 200,
+      "finalUrl": "https://www25.senado.leg.br/documents/59501/97171143/RCCN.pdf/933b504d-a653-4df5-9329-d4f38c42f64f",
+      "file": "sources/references/Regimento-Comum-Senado.pdf",
+      "sha256": "723077332d3f1f068093eee842ad4142c20ad5efcb5a57e9b9e50341f37cf856",
+      "bytes": 5931829,
+      "outcome": "byte_match"
+    },
+    {
+      "documentId": "reference-lei-8112-1990",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "checkedAt": "2026-10-28T23:42:35.126230+00:00",
+      "previousSha256": "2ceed7c5d4c9ef2b466ccba6e37abf93425285cc71afbe9e8641ceb28b9d44cb",
+      "status": 200,
+      "finalUrl": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+      "file": "sources/references/camara-lei-8112-1990.html",
+      "sha256": "2ceed7c5d4c9ef2b466ccba6e37abf93425285cc71afbe9e8641ceb28b9d44cb",
+      "bytes": 455311,
+      "outcome": "byte_match"
+    },
+    {
+      "documentId": "reference-lei-8429-1992",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.html",
+      "checkedAt": "2026-10-28T23:42:36.973989+00:00",
+      "previousSha256": "ac5ffb8bcb800556b9cd9563bcffe957c81c3170fe455c1da526013a4ee89010",
+      "status": 200,
+      "finalUrl": "https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.html",
+      "file": "sources/references/camara-lei-8429-1992.html",
+      "sha256": "ac5ffb8bcb800556b9cd9563bcffe957c81c3170fe455c1da526013a4ee89010",
+      "bytes": 175594,
+      "outcome": "byte_match"
+    },
+    {
+      "documentId": "reference-lei-9784-1999",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+      "checkedAt": "2026-10-28T23:42:37.153496+00:00",
+      "previousSha256": "0252507e0e6394f79d4f4cf68fe3677af2176f9d252c711e738824d163e0f152",
+      "outcome": "unavailable",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "documentId": "reference-lei-14133-2021",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+      "checkedAt": "2026-10-28T23:42:37.849619+00:00",
+      "previousSha256": "e2e59f1cd0b413a6ea6c26ffb2cc9cbccbe108fcfd41b4b6394f4157c33f0de8",
+      "outcome": "unavailable",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "documentId": "reference-lei-13709-2018",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "checkedAt": "2026-10-28T23:42:38.333211+00:00",
+      "previousSha256": "feebdbb3988cbe9e29b1c034b4721e9ae4337095ba9e617a58ca3057bc5f22ce",
+      "outcome": "unavailable",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "documentId": "reference-lei-12527-2011",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+      "checkedAt": "2026-10-28T23:42:38.516960+00:00",
+      "previousSha256": "1d2e5473cac63e692323d21815340f8bd30cb6897cacafa59da8b8b94f72f33c",
+      "outcome": "unavailable",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "documentId": "reference-abdi-estatuto-2024",
+      "url": "https://www.abdi.com.br/wp-content/uploads/2025/01/Estatuto-Social-2024-Registrado.pdf",
+      "checkedAt": "2026-10-28T23:42:39.033472+00:00",
+      "previousSha256": "ee40999e5d45cb19ceaebc2589c8a98f98d7af44946f9ad3c47a7e41e8c6db20",
+      "status": 200,
+      "finalUrl": "https://www.abdi.com.br/wp-content/uploads/2025/01/Estatuto-Social-2024-Registrado.pdf",
+      "outcome": "unavailable",
+      "error": "maximum size exceeded"
+    },
+    {
+      "documentId": "reference-abdi-licitacoes-2021",
+      "url": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Licitacoes-e-Contratos-2021_compressed-1.pdf",
+      "checkedAt": "2026-10-28T23:42:39.237421+00:00",
+      "previousSha256": "b1bda6ea5e6e66f80cf9a38bac5a7fa5ccb3313872bf442b97ea6be13026b6a6",
+      "status": 200,
+      "finalUrl": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Licitacoes-e-Contratos-2021_compressed-1.pdf",
+      "outcome": "unavailable",
+      "error": "maximum size exceeded"
+    },
+    {
+      "documentId": "reference-abdi-convenios-2026",
+      "url": "https://www.abdi.com.br/wp-content/uploads/2026/07/Regulamento_de_convenios_15JUL2026.pdf",
+      "checkedAt": "2026-10-28T23:42:39.626810+00:00",
+      "previousSha256": "93f27fde78d9cbf77b1b0bbf5e60f363da117efbf0ed79fdd9af2fce3cdd4eea",
+      "status": 200,
+      "finalUrl": "https://www.abdi.com.br/wp-content/uploads/2026/07/Regulamento_de_convenios_15JUL2026.pdf",
+      "file": "sources/references/ABDI-Convenios-2026.pdf",
+      "sha256": "93f27fde78d9cbf77b1b0bbf5e60f363da117efbf0ed79fdd9af2fce3cdd4eea",
+      "bytes": 1343778,
+      "outcome": "byte_match"
+    },
+    {
+      "documentId": "reference-abdi-etica-2022",
+      "url": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Etica-e-Conduta.pdf",
+      "checkedAt": "2026-10-28T23:42:40.033563+00:00",
+      "previousSha256": "cc4d98a93fd317296dd07fa77305f545fd840465276b3b25b4aaacf2b5166ed7",
+      "status": 200,
+      "finalUrl": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Etica-e-Conduta.pdf",
+      "file": "sources/references/ABDI-Etica-CD004-2022.pdf",
+      "sha256": "cc4d98a93fd317296dd07fa77305f545fd840465276b3b25b4aaacf2b5166ed7",
+      "bytes": 4460206,
+      "outcome": "byte_match"
+    },
+    {
+      "documentId": "reference-abdi-planejamento-ajustado-2024",
+      "url": "https://www.abdi.com.br/wp-content/uploads/2026/04/Planejamento-Estrategico-ABDI-2024-2029.pdf",
+      "checkedAt": "2026-10-28T23:42:40.055248+00:00",
+      "previousSha256": "162b7af25e598adb73eb0cb7c9430f2b13e73cac673a8a3a9ea782de56949528",
+      "status": 200,
+      "finalUrl": "https://www.abdi.com.br/wp-content/uploads/2026/04/Planejamento-Estrategico-ABDI-2024-2029.pdf",
+      "file": "sources/references/ABDI-Planejamento-ajustado-CD009-2024.pdf",
+      "sha256": "162b7af25e598adb73eb0cb7c9430f2b13e73cac673a8a3a9ea782de56949528",
+      "bytes": 1871236,
+      "outcome": "byte_match"
+    },
+    {
+      "documentId": "reference-cgu-in3-2017-consolidada",
+      "url": "https://basedeconhecimento.cgu.gov.br/bitstreams/1c26b9b8-54dc-4fcf-9fbf-132813fc965e/download",
+      "checkedAt": "2026-10-28T23:42:40.213489+00:00",
+      "previousSha256": "48ebbdaa5d3a9f75176447b8d5ecf80536267559036534d8d23e97834ba203dd",
+      "status": 200,
+      "finalUrl": "https://basedeconhecimento.cgu.gov.br/server/api/core/bitstreams/1c26b9b8-54dc-4fcf-9fbf-132813fc965e/content",
+      "file": "sources/references/CGU-IN3-2017-consolidada.pdf",
+      "sha256": "48ebbdaa5d3a9f75176447b8d5ecf80536267559036534d8d23e97834ba203dd",
+      "bytes": 402413,
+      "outcome": "byte_match"
+    },
+    {
+      "documentId": "reference-cgu-in7-2017",
+      "url": "https://basedeconhecimento.cgu.gov.br/bitstreams/7f393745-c21c-4891-9d06-e1c001a738af/download",
+      "checkedAt": "2026-10-28T23:42:40.374604+00:00",
+      "previousSha256": "99aa2ad859447504079ed752a9d775f4283de931828b30cf8afe29ff94afafb3",
+      "status": 200,
+      "finalUrl": "https://basedeconhecimento.cgu.gov.br/server/api/core/bitstreams/7f393745-c21c-4891-9d06-e1c001a738af/content",
+      "file": "sources/references/CGU-IN7-2017.pdf",
+      "sha256": "99aa2ad859447504079ed752a9d775f4283de931828b30cf8afe29ff94afafb3",
+      "bytes": 164652,
+      "outcome": "byte_match"
+    },
+    {
+      "documentId": "reference-lei-12813-2013",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2013/lei-12813-16-maio-2013-776005-normaatualizada-pl.html",
+      "checkedAt": "2026-10-28T23:42:40.532018+00:00",
+      "previousSha256": "2c41a9252c36f4bb42e019e43fc9669c0ca86633f16998efad75365627c11813",
+      "status": 200,
+      "finalUrl": "https://www2.camara.leg.br/legin/fed/lei/2013/lei-12813-16-maio-2013-776005-normaatualizada-pl.html",
+      "file": "sources/references/lei-12813-2013.html",
+      "sha256": "2c41a9252c36f4bb42e019e43fc9669c0ca86633f16998efad75365627c11813",
+      "bytes": 49645,
+      "outcome": "byte_match"
+    },
+    {
+      "documentId": "reference-lei-12846-2013",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2013/lei-12846-1-agosto-2013-776664-normaatualizada-pl.html",
+      "checkedAt": "2026-10-28T23:42:40.591661+00:00",
+      "previousSha256": "9afe6e1ce1afec52ebbd6ef579f3e8b24f2eaadb238e3d1e6aa9477ec4837301",
+      "status": 200,
+      "finalUrl": "https://www2.camara.leg.br/legin/fed/lei/2013/lei-12846-1-agosto-2013-776664-normaatualizada-pl.html",
+      "file": "sources/references/lei12846-consolidada.html",
+      "sha256": "9afe6e1ce1afec52ebbd6ef579f3e8b24f2eaadb238e3d1e6aa9477ec4837301",
+      "bytes": 54362,
+      "outcome": "byte_match"
+    },
+    {
+      "documentId": "reference-abdi-estatuto-2024",
+      "url": "https://www.abdi.com.br/wp-content/uploads/2025/01/Estatuto-Social-2024-Registrado.pdf",
+      "checkedAt": "2026-10-28T23:44:27.525144+00:00",
+      "status": 200,
+      "finalUrl": "https://www.abdi.com.br/wp-content/uploads/2025/01/Estatuto-Social-2024-Registrado.pdf",
+      "file": "sources/references/ABDI-Estatuto-2024.pdf",
+      "sha256": "ee40999e5d45cb19ceaebc2589c8a98f98d7af44946f9ad3c47a7e41e8c6db20",
+      "bytes": 22010818,
+      "outcome": "byte_match",
+      "previousSha256": "ee40999e5d45cb19ceaebc2589c8a98f98d7af44946f9ad3c47a7e41e8c6db20"
+    },
+    {
+      "documentId": "reference-abdi-licitacoes-2021",
+      "url": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Licitacoes-e-Contratos-2021_compressed-1.pdf",
+      "checkedAt": "2026-10-28T23:44:27.526211+00:00",
+      "status": 200,
+      "finalUrl": "https://www.abdi.com.br/wp-content/uploads/2024/03/Regulamento-de-Licitacoes-e-Contratos-2021_compressed-1.pdf",
+      "file": "sources/references/ABDI-Licitacoes-2021.pdf",
+      "sha256": "b1bda6ea5e6e66f80cf9a38bac5a7fa5ccb3313872bf442b97ea6be13026b6a6",
+      "bytes": 23931156,
+      "outcome": "byte_match",
+      "previousSha256": "b1bda6ea5e6e66f80cf9a38bac5a7fa5ccb3313872bf442b97ea6be13026b6a6"
+    },
+    {
+      "documentId": "reference-constitution-1988",
+      "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "checkedAt": "2026-10-28T23:44:27.526756+00:00",
+      "status": 200,
+      "finalUrl": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+      "file": "data/reviews/eleventh-reference-rechecks/reference-constitution-1988.html",
+      "sha256": "a8de1643589cf9fb199bb58a0cf4a6acd63c35ed377843d8240ca500b7e1f2c1",
+      "bytes": 1730139,
+      "outcome": "retained_official_mirror_byte_match",
+      "previousSha256": "bfcf4ff3177fedb13db963a2a05109d7520c01dff8257e83007a9e50ba51841e",
+      "matchedRetainedFile": "data/reviews/eleventh-reference-rechecks/reference-constitution-1988.html"
+    },
+    {
+      "documentId": "reference-lei-12527-2011",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "checkedAt": "2026-10-28T23:44:28.172131+00:00",
+      "status": 200,
+      "finalUrl": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+      "file": "data/reviews/content-reference-rechecks/reference-lei-12527-2011.html",
+      "sha256": "879f1f2a828e39d6928786f523957b5c71f68b04c4132a0d541e0b65a8f51130",
+      "bytes": 109893,
+      "outcome": "retained_official_mirror_byte_match",
+      "previousSha256": "1d2e5473cac63e692323d21815340f8bd30cb6897cacafa59da8b8b94f72f33c",
+      "matchedRetainedFile": "data/reviews/content-reference-rechecks/reference-lei-12527-2011.html"
+    },
+    {
+      "documentId": "reference-lei-13709-2018",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "checkedAt": "2026-10-28T23:44:28.335482+00:00",
+      "status": 200,
+      "finalUrl": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "file": "data/reviews/content-reference-rechecks/reference-lei-13709-2018.html",
+      "sha256": "5ade20f12d206504f3beb13a0595d144efc891229ad0e6badcebfa97a8a83596",
+      "bytes": 223813,
+      "outcome": "retained_official_mirror_byte_match",
+      "previousSha256": "feebdbb3988cbe9e29b1c034b4721e9ae4337095ba9e617a58ca3057bc5f22ce",
+      "matchedRetainedFile": "data/reviews/content-reference-rechecks/reference-lei-13709-2018.html"
+    },
+    {
+      "documentId": "reference-lei-9784-1999",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "checkedAt": "2026-10-28T23:44:29.122213+00:00",
+      "status": 200,
+      "finalUrl": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "file": "data/reviews/eleventh-reference-rechecks/reference-lei-9784-1999.html",
+      "sha256": "87cd4730fda84e28bdfc490c4cd6635b8eb86c98a4ab2daf29e380eb62c0a80b",
+      "bytes": 96407,
+      "outcome": "retained_official_mirror_byte_match",
+      "previousSha256": "0252507e0e6394f79d4f4cf68fe3677af2176f9d252c711e738824d163e0f152",
+      "matchedRetainedFile": "data/reviews/eleventh-reference-rechecks/reference-lei-9784-1999.html"
+    },
+    {
+      "documentId": "cgu-legislation",
+      "url": "https://www.gov.br/cgu/pt-br/assuntos/responsabilizacao-de-empresas/legislacao",
+      "checkedAt": "2026-10-28T23:44:29.314129+00:00",
+      "outcome": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11129.htm",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/_Ato2019-2022/2022/Decreto/D11129.htm",
+      "error": "The read operation timed out"
+    }
+  ],
+  "unresolved": [
+    {
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q045",
+      "status": "removed_from_current_role",
+      "nextAction": "Obter o texto oficial integral do Decreto11129/2022 e confrontar as competências de instaurar/julgar e avocar antes de reintroduzir a questão."
+    },
+    {
+      "scope": "reference-lei-14133-2021",
+      "status": "fresh_remote_check_unavailable",
+      "nextAction": "Planalto503; preservados texto e trechos oficiais previamente conferidos. Não alegar nova consulta bem-sucedida nesta data."
+    },
+    {
+      "scope": "all_goals",
+      "status": "human_acceptance_pending",
+      "nextAction": "Executar o roteiro com estudantes; esta varredura é assistida por agente."
+    }
+  ],
+  "manualDecisions": [
+    {
+      "candidatePair": [
+        "896-tcdf-002-01-q159",
+        "896-tcdf-002-01-q160"
+      ],
+      "decision": "keep_distinct",
+      "reason": "Semelhança lexical de86%, mas classificação, prazo e chave diferem: confidencial/três anos (E) versus reservada/cinco anos (C). Não são clones."
+    },
+    {
+      "scope": "original_source_typos",
+      "decision": "keep_original",
+      "reason": "Défict e que forma usados constam no original Fiocruz; preservados. O glifo ti de afirmativas, ao contrário, está visível no PDF e perdido apenas na extração."
+    }
+  ],
+  "visualRestorations": {
+    "fiocruz-2024-te15-q002": {
+      "afirma vas": "afirmativas"
+    }
+  },
+  "visualEvidence": {
+    "file": "data/reviews/bank-sweep-2026-10-29-evidence/fiocruz-te15-p3.png",
+    "sha256": "db7951307ce6cb7ec6e805bb639adc0c59f09e92b1301bc3d284bc2d17b59603",
+    "documentId": "source-fiocruz-2024-te15-paper",
+    "page": 3,
+    "method": "pdftoppm render of retained original PDF; visual comparison, not inference from the key"
+  },
+  "regulationListing": {
+    "url": "https://www.gov.br/cgu/pt-br/assuntos/integridade-privada/materiaisdeorientacao/normativos",
+    "file": "data/reviews/bank-sweep-2026-10-29-evidence/cgu-normas.html",
+    "sha256": "7d7f74b6fa410804c6c3702d909f7d0df648e91b1fc1615edaf74e01e259714d",
+    "scope": "CGU official list points to Decreto11129/2022; not proof of the text of its avocation clause."
+  },
+  "referenceSummary": {
+    "selectedCanonicalReferences": 18,
+    "confirmedRemoteReferences": 17,
+    "confirmedDocumentIds": [
+      "reference-abdi-convenios-2026",
+      "reference-abdi-estatuto-2024",
+      "reference-abdi-etica-2022",
+      "reference-abdi-licitacoes-2021",
+      "reference-abdi-planejamento-ajustado-2024",
+      "reference-cgu-in3-2017-consolidada",
+      "reference-cgu-in7-2017",
+      "reference-constitution-1988",
+      "reference-lei-12527-2011",
+      "reference-lei-12813-2013",
+      "reference-lei-12846-2013",
+      "reference-lei-13709-2018",
+      "reference-lei-8112-1990",
+      "reference-lei-8429-1992",
+      "reference-lei-9784-1999",
+      "reference-regimento-comum-2025",
+      "reference-ricd-res17-1989"
+    ],
+    "unavailableDocumentIds": [
+      "reference-lei-14133-2021"
+    ],
+    "scope": "Reconsultas de 18 referências normativas selecionadas por risco. Correspondência de bytes com fonte canônica ou espelho legislativo oficial anteriormente conferido; não representa auditoria integral das normas nem de todas as referências técnicas."
+  },
+  "nearDuplicateScreen": {
+    "file": "data/reviews/bank-sweep-2026-10-29-evidence/near-duplicates.json",
+    "sha256": "b202ea07d2f4ec646496e57ea36ebe495d95f926eb3d21ddf5e98dca7aab9881",
+    "normalization": "NFKD/accent-fold, lowercase and non-alphanumeric separators; stem plus original alternatives. Same response format only.",
+    "lengthRatioMinimum": 0.78,
+    "wordOverlapMinimum": 0.75,
+    "sequenceRatioMinimum": 0.82,
+    "algorithm": "difflib.SequenceMatcher(autojunk=False)",
+    "candidateCount": 1,
+    "scope": "Candidate triage, not semantic equivalence certification; the only candidate was kept after manual comparison of classification, duration and official answers."
+  }
+}

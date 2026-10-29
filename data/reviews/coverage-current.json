@@ -1,7 +1,7 @@
 {
-  "reviewedAt": "2026-10-28",
-  "latestBatchId": "gaps-fourth-batch",
-  "catalogSha256": "a20b7ecc1497d1bf54107402c9d5d5015d931de031e40ec55680800dc6d33525",
+  "reviewedAt": "2026-10-29",
+  "latestBatchId": "bank-sweep-2026-10-29",
+  "catalogSha256": "d74f0cd918f903fb00a54996d783a5ea89bddab26fece5ad626d683c16e11620",
   "scope": "Oferta de questões distintas, sem inferência de domínio ou peso de prova.",
   "totalItems": 228,
   "directItems": 187,

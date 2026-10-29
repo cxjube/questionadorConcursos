@@ -2110,7 +2110,6 @@
         "038-anm-012-01-q108",
         "072-stm-004-01-q079",
         "072-stm-004-01-q082",
-        "128-tcemg-008-01-q045",
         "153-telebras-008-01-q075",
         "205-funpresp-26-jud-005-01-q106",
         "205-funpresp-26-jud-005-01-q107",
@@ -2121,7 +2120,7 @@
         "alerj-2026-comunicacao-manha-tipo1-q065"
       ],
       "directCE": 14,
-      "directMC": 2,
+      "directMC": 1,
       "subtreeQuestionIds": [
         "018-stj-006-01-q061",
         "038-anm-010-01-q088",
@@ -2130,7 +2129,6 @@
         "038-anm-012-01-q108",
         "072-stm-004-01-q079",
         "072-stm-004-01-q082",
-        "128-tcemg-008-01-q045",
         "153-telebras-008-01-q075",
         "205-funpresp-26-jud-005-01-q106",
         "205-funpresp-26-jud-005-01-q107",
@@ -2141,7 +2139,7 @@
         "alerj-2026-comunicacao-manha-tipo1-q065"
       ],
       "subtreeCE": 14,
-      "subtreeMC": 2
+      "subtreeMC": 1
     },
     {
       "id": "abdi-2026-abdi-comunicacao-marketing-13",
@@ -2579,8 +2577,8 @@
     }
   ],
   "roleId": "abdi-comunicacao-marketing",
-  "reviewedAt": "2026-10-28",
-  "reviewId": "gaps-fourth-batch",
+  "reviewedAt": "2026-10-29",
+  "reviewId": "bank-sweep-2026-10-29",
   "distinctQuestions": 250,
   "distinctCE": 156,
   "distinctMC": 94

@@ -28,6 +28,8 @@ class ReleasedFidelityTests(unittest.TestCase):
         new = read_json(ROOT / 'data/reviews/gaps-third-batch.json')
         cls.fiocruz_typography.update(new['fiocruzTypography'])
         cls.visual_restorations = new['fiocruzVisualRestorations']
+        sweep=read_json(ROOT/'data/reviews/bank-sweep-2026-10-29.json')
+        for qid, fixes in sweep['visualRestorations'].items():cls.visual_restorations.setdefault(qid,{}).update(fixes)
         cls.bbox_verified = {r['questionId'] for r in new['items']} | {r['questionId'] for r in read_json(ROOT/'data/reviews/gaps-fourth-batch.json')['items']}
 
 

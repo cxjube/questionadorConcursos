@@ -1,8 +1,8 @@
 # CGU — Auditoria: mapa do banco e lacunas
 
-Revisão: 2026-10-28. **299 questões distintas: 262 C/E e 37 MC.**
+Revisão: 2026-10-29. **298 questões distintas: 262 C/E e 36 MC.**
 
-Programa: 266 itens; 125 diretos, 62 apenas por descendentes e 79 subárvores vazias.
+Programa: 266 itens; 124 diretos, 62 apenas por descendentes e 80 subárvores vazias.
 
 Questões compartilhadas preservam texto, contexto, formato e gabarito de origem. MC permanecem no treino, fora da reserva C/E. Pais e filhos são contados separadamente: ter uma amostra não equivale a cobrir todo o item.
 
@@ -14,7 +14,7 @@ São necessários 170 IDs distintos. Há 262 C/E elegíveis e 170 alocáveis sim
 | --- | ---: | ---: | ---: | ---: |
 | Conhecimentos básicos | 40 | 71 | 40 | 0 |
 | Conhecimentos complementares | 40 | 90 | 40 | 0 |
-| Conhecimentos específicos | 90 | 162 | 90 | 0 |
+| Conhecimentos específicos | 90 | 161 | 90 | 0 |
 
 Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos déficits não é única. Quantidade suficiente não garante variedade, cobertura ou dificuldade equivalente à prova.
 
@@ -186,11 +186,11 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 3 | Testes e amostragem. | 0 | 0 | Só descendentes |
 | AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 3.1 | Testes de controles e substantivos; inspeção, confirmação, observação, procedimentos analíticos e recálculo; amostragem estatística e por julgamento; tamanho, seleção, limitações e desenho de procedimentos para riscos identificados. | 8 | 0 | Direto |
 | AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 4 | Achados documentação e revisão. | 0 | 0 | Só descendentes |
-| AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 4.1 | Critério, condição, causas e efeitos; suficiência e adequação da evidência; papéis de trabalho, trilha de revisão e supervisão; contradita técnica e exame de evidências divergentes; indícios de fraude e aprofundamento compatível com o mandato. | 6 | 0 | Direto |
+| AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 4.1 | Critério, condição, causas e efeitos; suficiência e adequação da evidência; papéis de trabalho, trilha de revisão e supervisão; contradita técnica e exame de evidências divergentes; indícios de fraude e aprofundamento compatível com o mandato. | 5 | 0 | Direto |
 | AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 5 | Auditoria de dados e IA. | 0 | 0 | Só descendentes |
-| AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 5.1 | Testes sobre qualidade de dados, controles e rastreabilidade; desenho de validações independentes; riscos de viés, erro e mudança de desempenho; supervisão e governança de sistemas automatizados; limites do uso de IA como evidência. | 2 | 1 | Direto |
+| AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 5.1 | Testes sobre qualidade de dados, controles e rastreabilidade; desenho de validações independentes; riscos de viés, erro e mudança de desempenho; supervisão e governança de sistemas automatizados; limites do uso de IA como evidência. | 2 | 0 | Direto |
 | AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 6 | Comunicação monitoramento e qualidade. | 0 | 0 | Só descendentes |
-| AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 6.1 | Construção de relatórios e recomendações sustentados por evidências; avaliação de soluções alternativas; testes de implementação e resultado; benefícios e monitoramento. | 4 | 0 | Direto |
+| AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 6.1 | Construção de relatórios e recomendações sustentados por evidências; avaliação de soluções alternativas; testes de implementação e resultado; benefícios e monitoramento. | 4 | 1 | Direto |
 | AUDITORIA GOVERNAMENTAL: AVALIAÇÃO, CONSULTORIA E APURAÇÃO | 6.2 | Asseguração e melhoria da qualidade dos trabalhos; avaliação de capacidade da atividade de auditoria a partir de evidências e planos de melhoria. | 0 | 0 | Sem questões |
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 1 | Economia e finanças do setor público. | 0 | 0 | Só descendentes |
 | FINANÇAS PÚBLICAS, ORÇAMENTO E CONTABILIDADE PÚBLICA | 1.1 | Funções alocativa, distributiva e estabilizadora; bens públicos, externalidades e monopólios naturais; financiamento de políticas e federalismo fiscal. | 0 | 2 | Direto |
@@ -228,11 +228,11 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 3 | Monitoramento e desenhos de avaliação. | 1 | 0 | Direto |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 3.1 | Insumos, atividades, produtos, resultados e impactos; eficiência, eficácia, efetividade e equidade. | 7 | 1 | Direto |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 3.2 | Indicadores, fontes e periodicidade. | 4 | 0 | Direto |
-| POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 3.3 | Avaliações ex ante e ex post, de desenho, implementação, resultados, impacto e eficiência. | 7 | 1 | Direto |
+| POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 3.3 | Avaliações ex ante e ex post, de desenho, implementação, resultados, impacto e eficiência. | 7 | 2 | Direto |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 3.4 | Pré-teste e estudo-piloto; critérios de julgamento e seleção do desenho adequado à pergunta. | 0 | 0 | Sem questões |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 4 | Estratégias qualitativas e mistas. | 0 | 0 | Só descendentes |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 4.1 | Estudos de caso, entrevistas, grupos focais e observação; seleção de casos e participantes, perguntas e controle de indução. | 3 | 0 | Direto |
-| POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 4.2 | Análise de processos e hipóteses de mecanismo; triangulação e integração de evidências quantitativas e qualitativas; limites de generalização. | 0 | 1 | Direto |
+| POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 4.2 | Análise de processos e hipóteses de mecanismo; triangulação e integração de evidências quantitativas e qualitativas; limites de generalização. | 0 | 0 | Sem questões |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 5 | Identificação causal e análise econômica. | 0 | 0 | Só descendentes |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 5.1 | Contrafactual, seleção e confundimento; experimentos e quase experimentos; grupos de comparação e medidas anteriores à intervenção. | 4 | 0 | Direto |
 | POLÍTICAS PÚBLICAS E MÉTODOS DE INVESTIGAÇÃO E AVALIAÇÃO | 5.2 | Diferenças em diferenças, regressão descontínua e pareamento em interpretação aplicada, com hipóteses e ameaças à validade. | 2 | 0 | Direto |
@@ -283,7 +283,7 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 5.4 | Licitude, suficiência e valoração da prova; compartilhamento entre instâncias, contraditório, defesa e motivação. | 0 | 1 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 5.5 | Distinção entre achado de controle e imputação de responsabilidade. | 0 | 0 | Sem questões |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6 | Instrumentos de responsabilização e soluções consensuais. | 1 | 0 | Direto |
-| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.1 | Processo administrativo disciplinar e processo administrativo de responsabilização de pessoas jurídicas: cabimento, instrução, garantias e decisão. | 3 | 1 | Direto |
+| INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.1 | Processo administrativo disciplinar e processo administrativo de responsabilização de pessoas jurídicas: cabimento, instrução, garantias e decisão. | 3 | 0 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.2 | Aplicação dos marcos prescricionais e dos critérios de dosimetria; fundamentação da sanção e da reparação do dano em casos concretos. | 0 | 0 | Sem questões |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.3 | Acordo de leniência: requisitos, colaboração, efeitos, obrigações de integridade e limites. | 0 | 1 | Direto |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 6.4 | Termo de ajustamento de conduta: requisitos, proporcionalidade e acompanhamento. | 0 | 0 | Sem questões |
@@ -295,4 +295,4 @@ Os filtros compartilham IDs; não somar suas ofertas. A distribuição dos défi
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 7.4 | Distinção entre redução de ocorrências e redução da detecção. | 0 | 0 | Sem questões |
 | INTEGRIDADE, TRANSPARÊNCIA E RESPONSABILIZAÇÃO APLICADAS AO CONTROLE PÚBLICO | 7.5 | Comunicação pública de resultados, contextualização de informações, proteção de pessoas e prestação de contas. | 1 | 0 | Direto |
 
-[Entrega e pendências](gaps-third-batch-release.md). Gerado por `python -m tools coverage --role cgu-auditoria`; conferir com `--check`.
+[Varredura e pendências](bank-sweep-release.md). Gerado por `python -m tools coverage --role cgu-auditoria`; conferir com `--check`.
