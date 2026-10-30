@@ -1,0 +1,1110 @@
+[
+  {
+    "name": "lei13608-senado-original-repeat",
+    "url": "https://legis.senado.leg.br/norma/26341985/publicacao/26342105",
+    "checkedAt": "2026-10-29T23:57:48.767320+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 49086,
+    "sha256": "24a5b91c8be81ef12014006a60f8d1718ef2d501a7876502a2a2548d08d29fe8"
+  },
+  {
+    "name": "lei13964-senado-original",
+    "url": "https://legis.senado.leg.br/norma/31865675/publicacao/31866001",
+    "checkedAt": "2026-10-29T23:57:48.768195+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 186633,
+    "sha256": "d616f03c6abbc61b2d4a05e8999be9316d5e052fc6aa56c920a8cee07ae31064"
+  },
+  {
+    "name": "lei13964-senado-original-repeat",
+    "url": "https://legis.senado.leg.br/norma/31865675/publicacao/31866001",
+    "checkedAt": "2026-10-29T23:57:51.172120+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 186633,
+    "sha256": "d616f03c6abbc61b2d4a05e8999be9316d5e052fc6aa56c920a8cee07ae31064"
+  },
+  {
+    "name": "lei13303-senado-atual-repeat",
+    "url": "https://legis.senado.leg.br/norma/602528/publicacao/43060879",
+    "checkedAt": "2026-10-29T23:55:16.351995+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 266054,
+    "sha256": "3a5676190a3fbf1714969f4e73e55807ae93c975ded8f2adb1f15af0d289da90"
+  },
+  {
+    "name": "lei13608-senado-atual-repeat",
+    "url": "https://legis.senado.leg.br/norma/26341985/publicacao/34619181",
+    "checkedAt": "2026-10-29T23:55:16.352887+00:00",
+    "status": 200,
+    "contentType": "application/pdf;charset=UTF-8",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "lexml-lei13964",
+    "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2019-12-24;13964",
+    "checkedAt": "2026-10-29T23:55:16.353738+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 14391,
+    "sha256": "42cdb2e54d32ec9e8a043567769834f7ec4b81f4057bf34a80f5e926cb5dbdf7"
+  },
+  {
+    "name": "lei13303-senado-atual",
+    "url": "https://legis.senado.leg.br/norma/602528/publicacao/43060879",
+    "checkedAt": "2026-10-29T23:53:37.569652+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 266054,
+    "sha256": "3a5676190a3fbf1714969f4e73e55807ae93c975ded8f2adb1f15af0d289da90"
+  },
+  {
+    "name": "lei13608-senado-atual",
+    "url": "https://legis.senado.leg.br/norma/26341985/publicacao/34619181",
+    "checkedAt": "2026-10-29T23:53:37.570507+00:00",
+    "status": 200,
+    "contentType": "application/pdf;charset=UTF-8",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "decreto10153-senado-original-repeat",
+    "url": "https://legis.senado.leg.br/norma/31787194/publicacao/31787205",
+    "checkedAt": "2026-10-29T23:53:37.571152+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 55354,
+    "sha256": "76f58baf1ca0ae00823d69cccd83384b82577ef21e4fc550b292fefe95b2c0b4"
+  },
+  {
+    "name": "lei13460-senado-original-repeat",
+    "url": "https://legis.senado.leg.br/norma/17711251/publicacao/17711260",
+    "checkedAt": "2026-10-29T23:53:37.572012+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 75071,
+    "sha256": "15e6fec212c95c5f10b0b8aca459ea8ef6392b7dc85c74f499d2f5a6a7ec66d3"
+  },
+  {
+    "name": "lei13303-senado-meta",
+    "url": "https://legis.senado.leg.br/norma/602528",
+    "checkedAt": "2026-10-29T23:52:26.792124+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 83120,
+    "sha256": "01286f93c08f0a11f51aac483997d193c6da675a9230974119ec5e551d61336c"
+  },
+  {
+    "name": "lei13303-senado-original",
+    "url": "https://legis.senado.leg.br/norma/602528/publicacao/15636229",
+    "checkedAt": "2026-10-29T23:52:26.793660+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 230556,
+    "sha256": "362d16ff78d7c7b8fcabecae788fb203b6de60bc332411105ca4ac4a330d7e20"
+  },
+  {
+    "name": "lei13608-senado-meta",
+    "url": "https://legis.senado.leg.br/norma/26341985",
+    "checkedAt": "2026-10-29T23:52:26.794626+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 54967,
+    "sha256": "42c240ae2a41d34c6856c53d663f48f24e3ae3cc571fe0f9419dab13c19a4d1e"
+  },
+  {
+    "name": "lei13608-senado-original",
+    "url": "https://legis.senado.leg.br/norma/26341985/publicacao/26342105",
+    "checkedAt": "2026-10-29T23:52:26.795528+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 49086,
+    "sha256": "24a5b91c8be81ef12014006a60f8d1718ef2d501a7876502a2a2548d08d29fe8"
+  },
+  {
+    "name": "decreto10153-senado-meta",
+    "url": "https://legis.senado.leg.br/norma/31787194",
+    "checkedAt": "2026-10-29T23:52:28.699165+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 72266,
+    "sha256": "bb334abdd12ed45a7f36436e71762d2cf54b7449c11a6601f96455799cea9c5c"
+  },
+  {
+    "name": "decreto10153-senado-original",
+    "url": "https://legis.senado.leg.br/norma/31787194/publicacao/31787205",
+    "checkedAt": "2026-10-29T23:52:28.747160+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 55354,
+    "sha256": "76f58baf1ca0ae00823d69cccd83384b82577ef21e4fc550b292fefe95b2c0b4"
+  },
+  {
+    "name": "lei13460-senado-meta",
+    "url": "https://legis.senado.leg.br/norma/17711251",
+    "checkedAt": "2026-10-29T23:52:29.117859+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 70242,
+    "sha256": "531629aee8f5b5e0fe6bfc4b6ed367a8e4f0060132a65966ed022ca200a6d508"
+  },
+  {
+    "name": "lei13460-senado-original",
+    "url": "https://legis.senado.leg.br/norma/17711251/publicacao/17711260",
+    "checkedAt": "2026-10-29T23:52:29.562470+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 75071,
+    "sha256": "15e6fec212c95c5f10b0b8aca459ea8ef6392b7dc85c74f499d2f5a6a7ec66d3"
+  },
+  {
+    "name": "lexml-lei13303",
+    "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2016-06-30;13303",
+    "checkedAt": "2026-10-29T23:51:32.272845+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 27202,
+    "sha256": "b0a0d0fcc362c41a0a6079de0fbccd64d058ba6001c3e1a3d4e67ebe0a288fb7"
+  },
+  {
+    "name": "lexml-lei13608",
+    "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2018-01-10;13608",
+    "checkedAt": "2026-10-29T23:51:32.273879+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 12733,
+    "sha256": "a07b5cbf10a8d44a387d93bfaa461a45312a3c3c81a1376be583756e5f2f888f"
+  },
+  {
+    "name": "lexml-decreto10153",
+    "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2019-12-03;10153",
+    "checkedAt": "2026-10-29T23:51:32.274658+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 12289,
+    "sha256": "8f3fee343021cd555ff60d69dfa1d0d49e3025d5f47d1589a54ffb0965405444"
+  },
+  {
+    "name": "lexml-lei13460",
+    "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2017-06-26;13460",
+    "checkedAt": "2026-10-29T23:51:32.275456+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 13005,
+    "sha256": "8f912c9097020523bdaaad9a43f82ff99ebcbc3cb08354df8b09b84f137934a3"
+  },
+  {
+    "name": "cpnu2-opening",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital_concurso-publico-nacional-unificado-2_6aret_29.09.25.pdf",
+    "checkedAt": "2026-10-29T23:48:18.490764+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 722068,
+    "sha256": "020c232034728fb9c7edc077747d950296d879b463fdefcd8922a880dac3797f"
+  },
+  {
+    "name": "cnu-obj-b1-repeat",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/b1101.pdf",
+    "checkedAt": "2026-10-29T23:47:37.984328+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 1032798,
+    "sha256": "71334f040bc744a143b05e79a5a9cd2a577e919f9a5180a751e4d86f372a857f"
+  },
+  {
+    "name": "cnu-obj-b5-repeat",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/b5501.pdf",
+    "checkedAt": "2026-10-29T23:47:37.985145+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 631140,
+    "sha256": "281a09a5104734a2ceb3a0ee939e143ed07ed5032fa4eb1b9e492b963576ee25"
+  },
+  {
+    "name": "cnu-obj-b6-repeat",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/b6601.pdf",
+    "checkedAt": "2026-10-29T23:47:37.985906+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 620041,
+    "sha256": "056ac61709553d2f8c3c2e8ded8cb4affab90bdad3aa817355ba66876cad5cd1"
+  },
+  {
+    "name": "cpnu2-key-repeat",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf",
+    "checkedAt": "2026-10-29T23:47:37.986543+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 560073,
+    "sha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d"
+  },
+  {
+    "name": "tcepe-law-repeat",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cns004-auditor-fiscal-de-controle-externo-direito-cns004-tipo-1.pdf",
+    "checkedAt": "2026-10-29T23:47:37.987076+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 651573,
+    "sha256": "240240478ee31d378854982e508053423d0052cb2a596f5c3440cdc35652022b"
+  },
+  {
+    "name": "tcesc26-final-key-repeat",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tce-sc_0.pdf",
+    "checkedAt": "2026-10-29T23:47:37.988187+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 443292,
+    "sha256": "c5827260782ce64e64226ff3de3c51ce8a7608ae010c4d04188ce99823eebc8a"
+  },
+  {
+    "name": "cgu-code-current-repeat",
+    "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/governanca/comissao-de-etica/arquivos/codigo-de-conduta-cgu.pdf",
+    "checkedAt": "2026-10-29T23:47:38.622871+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 314775,
+    "sha256": "27f946e3311d61da9cdf2811c98e18f4148a93cc0249de0716e2d73f479c7b5f"
+  },
+  {
+    "name": "uncac-repeat",
+    "url": "https://www.gov.br/cgu/pt-br/assuntos/articulacao-internacional-1/convencao-da-onu/arquivos/cartilha-onu-2016.pdf",
+    "checkedAt": "2026-10-29T23:47:38.783975+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 2715735,
+    "sha256": "d61f95370757695119ed8aea860e650d5360ddd4a9304bceef75d87e5c42f195"
+  },
+  {
+    "name": "lei13303-planalto",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm",
+    "checkedAt": "2026-10-29T23:47:38.791540+00:00",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "name": "lei13608-planalto",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13608.htm",
+    "checkedAt": "2026-10-29T23:47:38.834422+00:00",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "name": "decreto10153-planalto",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/D10153.htm",
+    "checkedAt": "2026-10-29T23:47:38.898729+00:00",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "name": "lei13460-planalto",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm",
+    "checkedAt": "2026-10-29T23:47:39.013301+00:00",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "name": "google-protecao",
+    "url": "https://www.google.com/search?gbv=1&q=site%3Acdn.cebraspe.org.br%20%22denunciante%22%20%22pseudonimiza%C3%A7%C3%A3o%22",
+    "checkedAt": "2026-10-29T23:42:17.201706+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=ISO-8859-1",
+    "bytes": 92513,
+    "sha256": "cb18e5a013b3f34f484649ed867b894862bd85395b0a7485d8b7a85d3291da5f",
+    "query": "site:cdn.cebraspe.org.br \"denunciante\" \"pseudonimização\""
+  },
+  {
+    "name": "google-subnotificacao",
+    "url": "https://www.google.com/search?gbv=1&q=%22subnotifica%C3%A7%C3%A3o%22%20%22corrup%C3%A7%C3%A3o%22%20%22prova%22",
+    "checkedAt": "2026-10-29T23:42:17.202515+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=ISO-8859-1",
+    "bytes": 92724,
+    "sha256": "97608caa6898603482868e3a63720fb83bb88650268b646cad39260ac585a0bd",
+    "query": "\"subnotificação\" \"corrupção\" \"prova\""
+  },
+  {
+    "name": "google-privada-efetividade",
+    "url": "https://www.google.com/search?gbv=1&q=%22programa%20de%20integridade%22%20%22efetividade%22%20%22gabarito%20definitivo%22",
+    "checkedAt": "2026-10-29T23:42:17.203145+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=ISO-8859-1",
+    "bytes": 92513,
+    "sha256": "bbc882e2c27bf910a3c28846b0c29c3b7df3841895d8b7f1fa39cb45d3700ef8",
+    "query": "\"programa de integridade\" \"efetividade\" \"gabarito definitivo\""
+  },
+  {
+    "name": "google-integridade-maturidade",
+    "url": "https://www.google.com/search?gbv=1&q=%22maturidade%22%20%22integridade%22%20%22prova%22",
+    "checkedAt": "2026-10-29T23:42:17.204449+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=ISO-8859-1",
+    "bytes": 92514,
+    "sha256": "94283dd375ee508ce91d9226706be4151c18082c8cbe9c87d387cd52672b9ccf",
+    "query": "\"maturidade\" \"integridade\" \"prova\""
+  },
+  {
+    "name": "google-estatais-carta",
+    "url": "https://www.google.com/search?gbv=1&q=%22carta%20anual%22%20%22gabarito%22",
+    "checkedAt": "2026-10-29T23:42:17.445164+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=ISO-8859-1",
+    "bytes": 92580,
+    "sha256": "efbb84dbdf25eb35d6858e80128f2491a5d7b201617335b6a9cf4979a5764128",
+    "query": "\"carta anual\" \"gabarito\""
+  },
+  {
+    "name": "google-avaliabilidade",
+    "url": "https://www.google.com/search?gbv=1&q=%22avaliabilidade%22%20%22gabarito%22",
+    "checkedAt": "2026-10-29T23:42:17.456736+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=ISO-8859-1",
+    "bytes": 92842,
+    "sha256": "bc157e7f946a74b9b67fad61ed79abb33f7a7ec89006c0b41bd5fc9e6a13b535",
+    "query": "\"avaliabilidade\" \"gabarito\""
+  },
+  {
+    "name": "google-tac-federal",
+    "url": "https://www.google.com/search?gbv=1&q=%22Portaria%20Normativa%22%20%2227/2022%22%20%22TAC%22%20%22quest%C3%A3o%22",
+    "checkedAt": "2026-10-29T23:42:17.470446+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=ISO-8859-1",
+    "bytes": 92698,
+    "sha256": "ec9d9576d068fed7f0092d0431cb911c508196f9b1e1dee5eb161300ea3857f8",
+    "query": "\"Portaria Normativa\" \"27/2022\" \"TAC\" \"questão\""
+  },
+  {
+    "name": "google-ouvidoria-melhoria",
+    "url": "https://www.google.com/search?gbv=1&q=%22ouvidoria%22%20%22recorr%C3%AAncias%22%20%22gabarito%22",
+    "checkedAt": "2026-10-29T23:42:17.476102+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=ISO-8859-1",
+    "bytes": 92812,
+    "sha256": "d8677775e8133091ebfb0f02a760375f23a3bd805cc22cc4e2d594cfa202a8ed",
+    "query": "\"ouvidoria\" \"recorrências\" \"gabarito\""
+  },
+  {
+    "name": "google-critica-desinformacao",
+    "url": "https://www.google.com/search?gbv=1&q=%22cr%C3%ADtica%20leg%C3%ADtima%22%20%22desinforma%C3%A7%C3%A3o%22%20%22prova%22",
+    "checkedAt": "2026-10-29T23:42:17.675624+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=ISO-8859-1",
+    "bytes": 92675,
+    "sha256": "093cc2abc0dc9cfc7a505b9b136c9d5dd255d683e3fc9cfea17fbb312d8a858c",
+    "query": "\"crítica legítima\" \"desinformação\" \"prova\""
+  },
+  {
+    "name": "google-abdi-etica-estrategia",
+    "url": "https://www.google.com/search?gbv=1&q=%22ABDI%22%20%222024%E2%80%932029%22%20%22quest%C3%A3o%22",
+    "checkedAt": "2026-10-29T23:42:17.688729+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=ISO-8859-1",
+    "bytes": 92613,
+    "sha256": "59e69b0a83efccf0729f83266b531bc424b032faf1e5d6298f7da2c06627a64d",
+    "query": "\"ABDI\" \"2024–2029\" \"questão\""
+  },
+  {
+    "name": "google-abdi-regulamento",
+    "url": "https://www.google.com/search?gbv=1&q=%22ABDI%22%20%22conv%C3%AAnios%22%20%22gabarito%20definitivo%22",
+    "checkedAt": "2026-10-29T23:42:17.689938+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=ISO-8859-1",
+    "bytes": 92609,
+    "sha256": "c6accc26524e610b8980c69560615706b3951a4c521be577dac6a9488a54d43e",
+    "query": "\"ABDI\" \"convênios\" \"gabarito definitivo\""
+  },
+  {
+    "name": "google-camara-titulo1",
+    "url": "https://www.google.com/search?gbv=1&q=%22Regimento%20Comum%22%20%22T%C3%ADtulo%20I%22%20%22prova%22",
+    "checkedAt": "2026-10-29T23:42:17.700244+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=ISO-8859-1",
+    "bytes": 92608,
+    "sha256": "1919970b5ebfac86c029520dc0cd7687bda0f9acca63ed37b3f06572859ea7f2",
+    "query": "\"Regimento Comum\" \"Título I\" \"prova\""
+  },
+  {
+    "name": "google-camara-manual-oficial",
+    "url": "https://www.google.com/search?gbv=1&q=%22Manual%20de%20linguagem%20simples%22%20%22C%C3%A2mara%22%20%22gabarito%20definitivo%22",
+    "checkedAt": "2026-10-29T23:42:17.818032+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=ISO-8859-1",
+    "bytes": 92607,
+    "sha256": "c3da6da287e055d79664be67a3fbeebe218910b844431e6ef11d1f7c9864ea23",
+    "query": "\"Manual de linguagem simples\" \"Câmara\" \"gabarito definitivo\""
+  },
+  {
+    "name": "tcesc26-final-key",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tce-sc_0.pdf",
+    "checkedAt": "2026-10-29T23:39:17.029458+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 443292,
+    "sha256": "c5827260782ce64e64226ff3de3c51ce8a7608ae010c4d04188ce99823eebc8a"
+  },
+  {
+    "name": "690_SECONT_ES_CB1_01",
+    "url": "https://cdn.cebraspe.org.br/concursos/secont_es_22/arquivos/690_SECONT_ES_CB1_01.PDF",
+    "checkedAt": "2026-10-29T23:38:12.887989+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 72153,
+    "sha256": "7ae48803652b7d8a36dd4fcae1bc01e234287e785c4bb648f7ad8b32bd5f8b21"
+  },
+  {
+    "name": "690_SECONT_ES_001_01",
+    "url": "https://cdn.cebraspe.org.br/concursos/secont_es_22/arquivos/690_SECONT_ES_001_01.PDF",
+    "checkedAt": "2026-10-29T23:38:12.888882+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 56645,
+    "sha256": "42de79f6bc7502d748b88579266e73d401a9e3868db117f4820aa91a9ff7aab5"
+  },
+  {
+    "name": "GAB_DEFINITIVO_690_SECONT_ES_CB1_01",
+    "url": "https://cdn.cebraspe.org.br/concursos/secont_es_22/arquivos/GAB_DEFINITIVO_690_SECONT_ES_CB1_01.PDF",
+    "checkedAt": "2026-10-29T23:38:12.889927+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 47121,
+    "sha256": "28b125e2c25403cef6f23e28e0776c26ea58988b516fd3125cea3a12d0d523f2"
+  },
+  {
+    "name": "GAB_DEFINITIVO_690_SECONT_ES_001_01",
+    "url": "https://cdn.cebraspe.org.br/concursos/secont_es_22/arquivos/GAB_DEFINITIVO_690_SECONT_ES_001_01.PDF",
+    "checkedAt": "2026-10-29T23:38:12.890754+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 47219,
+    "sha256": "9b1b73dd58e9c69fb24e51295641499dc79db74885a7b575890843dbf0356b41"
+  },
+  {
+    "name": "tcesc26-index",
+    "url": "https://conhecimento.fgv.br/concursos/tcesc26",
+    "checkedAt": "2026-10-29T23:38:12.891787+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 81653,
+    "sha256": "7b1db583a8ebed2122b136de9af1577c919ef464d62dca4757750c6a34410e18"
+  },
+  {
+    "name": "tcepe-index",
+    "url": "https://conhecimento.fgv.br/concursos/tcepe25",
+    "checkedAt": "2026-10-29T23:35:51.700271+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "tcepe-law",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cns004-auditor-fiscal-de-controle-externo-direito-cns004-tipo-1.pdf",
+    "checkedAt": "2026-10-29T23:35:51.701169+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 651573,
+    "sha256": "240240478ee31d378854982e508053423d0052cb2a596f5c3440cdc35652022b"
+  },
+  {
+    "name": "secont-event",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/SECONT_ES_22",
+    "checkedAt": "2026-10-29T23:35:51.701895+00:00",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "bytes": 15851,
+    "sha256": "c650b2a6c65fd664d00c1c3f8467a1a0362a3fd181affa08d2f579f9ab23dee8"
+  },
+  {
+    "name": "cgeal-event",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/CGE_AL_23",
+    "checkedAt": "2026-10-29T23:35:51.703336+00:00",
+    "status": 204,
+    "contentType": null,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "ouvidorias-portal",
+    "url": "https://www.gov.br/ouvidorias/pt-br/ouvidorias/publicacoes",
+    "checkedAt": "2026-10-29T23:35:51.704410+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "lilas-portal",
+    "url": "https://www.gov.br/cgu/pt-br/centrais-de-conteudo/publicacoes/institucionais/guia-lilas",
+    "checkedAt": "2026-10-29T23:35:51.705032+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "privada-guias",
+    "url": "https://www.gov.br/cgu/pt-br/centrais-de-conteudo/publicacoes/integridade",
+    "checkedAt": "2026-10-29T23:35:52.753248+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=utf-8",
+    "bytes": 85714,
+    "sha256": "e71eae1ba09a2892921db5a408febc98fde831f19ca3ad9c395ab9d5c183f484"
+  },
+  {
+    "name": "cnu-obj-b1",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/b1101.pdf",
+    "checkedAt": "2026-10-29T23:33:47.712481+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 1032798,
+    "sha256": "71334f040bc744a143b05e79a5a9cd2a577e919f9a5180a751e4d86f372a857f"
+  },
+  {
+    "name": "cnu-obj-b5",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/b5501.pdf",
+    "checkedAt": "2026-10-29T23:33:47.713289+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 631140,
+    "sha256": "281a09a5104734a2ceb3a0ee939e143ed07ed5032fa4eb1b9e492b963576ee25"
+  },
+  {
+    "name": "cnu-obj-b6",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/b6601.pdf",
+    "checkedAt": "2026-10-29T23:33:47.713937+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 620041,
+    "sha256": "056ac61709553d2f8c3c2e8ded8cb4affab90bdad3aa817355ba66876cad5cd1"
+  },
+  {
+    "name": "guia-lilas",
+    "url": "https://www.gov.br/cgu/pt-br/centrais-de-conteudo/publicacoes/institucionais/arquivos/guia-lilas-2024.pdf",
+    "checkedAt": "2026-10-29T23:33:47.714616+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "manual-ouvidoria",
+    "url": "https://www.gov.br/ouvidorias/pt-br/ouvidorias/publicacoes/manual-de-ouvidoria-publica.pdf",
+    "checkedAt": "2026-10-29T23:33:47.715286+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "privada-portal",
+    "url": "https://www.gov.br/cgu/pt-br/assuntos/integridade-privada",
+    "checkedAt": "2026-10-29T23:33:47.716867+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=utf-8",
+    "bytes": 241261,
+    "sha256": "a96f18cf365c7e2093e2cd081f986634607ba543c50f3854a210ca3fb7dcf6ad"
+  },
+  {
+    "name": "quadrix2013classic",
+    "url": "https://www.quadrix.org.br/concursopublico2013abdi.aspx",
+    "checkedAt": "2026-10-29T23:33:48.975797+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "quadrix2013ps",
+    "url": "https://www.quadrix.org.br/processoseletivo2013abdi.aspx",
+    "checkedAt": "2026-10-29T23:33:49.082419+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "quadrix-abdi-slug",
+    "url": "https://www.quadrix.org.br/todos-os-concursos/encerrados/abdi.aspx",
+    "checkedAt": "2026-10-29T23:33:49.174361+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "cpnu2-b1",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/bloco-tematico-1-seguridade-social-saude-assistencia-social-e-previdencia-social-bl1-tipo-1.pdf",
+    "checkedAt": "2026-10-29T23:32:35.229086+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 293863,
+    "sha256": "41bf1424a5e37d0008d478b0b86621ff9d0dbb541b66c196eb773b25f2f95fd5"
+  },
+  {
+    "name": "cpnu2-b5",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/bloco-tematico-5-administracao-bl5-tipo-1.pdf",
+    "checkedAt": "2026-10-29T23:32:35.230007+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 297673,
+    "sha256": "0df914e0d5d7ac6b834dbad1e70a057e62885fab4477b4ca79fa4655072f20cc"
+  },
+  {
+    "name": "cpnu2-b6",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/bloco-tematico-6-desenvolvimento-socioeconomico-bl6-tipo-1.pdf",
+    "checkedAt": "2026-10-29T23:32:35.230708+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 331205,
+    "sha256": "7523bd5ff3ad65ee49d8ddedd2e8c983181033b88c1939d0bb082c3b0fd7736e"
+  },
+  {
+    "name": "cpnu2-key",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf",
+    "checkedAt": "2026-10-29T23:32:35.231402+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 560073,
+    "sha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d"
+  },
+  {
+    "name": "fgv-cpnu2",
+    "url": "https://conhecimento.fgv.br/cpnu2",
+    "checkedAt": "2026-10-29T23:31:55.319698+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 160000,
+    "sha256": "984f45925befeef70b73323683740a3212092e91d2aa23222cf8b173eae4c9a9"
+  },
+  {
+    "name": "fgv-cnu25",
+    "url": "https://conhecimento.fgv.br/concursos/cpnu2",
+    "checkedAt": "2026-10-29T23:31:55.320641+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "fgv-cpnu25",
+    "url": "https://conhecimento.fgv.br/concursos/cpnu25",
+    "checkedAt": "2026-10-29T23:31:55.321217+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "norm13608",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13608-10-janeiro-2018-786092-normaatualizada-pl.html",
+    "checkedAt": "2026-10-29T23:31:55.321822+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "cpnu-fontes",
+    "url": "https://search.brave.com/search?q=site%3Aconhecimento.fgv.br%20%22bloco%205%22%20%22gabarito%20definitivo%22%20%222025%22",
+    "checkedAt": "2026-10-29T23:31:55.322480+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "rccn-original",
+    "url": "https://search.brave.com/search?q=%22C%C3%A2mara%22%20%222014%22%20%22sess%C3%A3o%20conjunta%22%20%22promulgar%22",
+    "checkedAt": "2026-10-29T23:31:55.322905+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "ouvidoria-prova-oficial",
+    "url": "https://search.brave.com/search?q=site%3Aconhecimento.fgv.br%20%22pseudonimiza%C3%A7%C3%A3o%22%20%22TIPO%22",
+    "checkedAt": "2026-10-29T23:31:55.671555+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "estatais-prova",
+    "url": "https://search.brave.com/search?q=site%3Aconhecimento.fgv.br%20%22carta%20anual%22%20%22TIPO%22",
+    "checkedAt": "2026-10-29T23:31:55.685464+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "cgu-tac-prova",
+    "url": "https://search.brave.com/search?q=site%3Acdn.cebraspe.org.br%20%22ajustamento%20de%20conduta%22%20%22CGU%22%20%22CONHECIMENTOS%22",
+    "checkedAt": "2026-10-29T23:31:55.939493+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "GAB_DEFINITIVO_798_SEPLAD_DF_CB1_00_CARGO_1",
+    "url": "https://cdn.cebraspe.org.br/concursos/seplad_df_22_auditor/arquivos/GAB_DEFINITIVO_798_SEPLAD_DF_CB1_00_CARGO_1.PDF",
+    "checkedAt": "2026-10-29T23:30:49.446768+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 57812,
+    "sha256": "77da85460fa8a247f8aedba13334f3fc60c38540bf32532caafdbd79edb090f9"
+  },
+  {
+    "name": "GAB_DEFINITIVO_798_SEPLAD_DF_001_00_CARGO_1",
+    "url": "https://cdn.cebraspe.org.br/concursos/seplad_df_22_auditor/arquivos/GAB_DEFINITIVO_798_SEPLAD_DF_001_00_CARGO_1.PDF",
+    "checkedAt": "2026-10-29T23:30:49.447746+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 56845,
+    "sha256": "a08fa3d01c8870d24497be93ec2f76d3e34ad1695c355731c7fc85baab5531ed"
+  },
+  {
+    "name": "GAB_DEFINITIVO_798_SEPLAD_DF_CC1_00_CARGO_1",
+    "url": "https://cdn.cebraspe.org.br/concursos/seplad_df_22_auditor/arquivos/GAB_DEFINITIVO_798_SEPLAD_DF_CC1_00_CARGO_1.PDF",
+    "checkedAt": "2026-10-29T23:30:49.448555+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 119404,
+    "sha256": "f6eb48cb27407ca8f0bc48c87ced35dad519a66522b0016823fc04b52d1d69cf"
+  },
+  {
+    "name": "798_SEPLAD_DFCB1_CE1_COM_JUSTIFICATIVAS",
+    "url": "https://cdn.cebraspe.org.br/concursos/seplad_df_22_auditor/arquivos/798_SEPLAD_DFCB1_CE1_COM_JUSTIFICATIVAS.PDF",
+    "checkedAt": "2026-10-29T23:30:49.449550+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 1323766,
+    "sha256": "a07c4e9433cad1e85060c892b48d09e6fd36ee47bce10a53541d7802c0dbd75f"
+  },
+  {
+    "name": "798_SEPLAD_DFCC1_COM_JUSTIFICATIVAS",
+    "url": "https://cdn.cebraspe.org.br/concursos/seplad_df_22_auditor/arquivos/798_SEPLAD_DFCC1_COM_JUSTIFICATIVAS.PDF",
+    "checkedAt": "2026-10-29T23:30:49.450273+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 521547,
+    "sha256": "b9e5081d8ea9b2e30a6d86fd04662cfa9046c3b34e6998333ef8cb75462c6147"
+  },
+  {
+    "name": "GAB_DEFINITIVO_800SEPLAD_DFCB1_CARGO_2",
+    "url": "https://cdn.cebraspe.org.br/concursos/seplad_df_22_auditor/arquivos/GAB_DEFINITIVO_800SEPLAD_DFCB1_CARGO_2.PDF",
+    "checkedAt": "2026-10-29T23:30:49.451172+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 57203,
+    "sha256": "fb7f83bea3f27f810fac3fe67c167b385f96d2fa52016c452b3b033e6bfd5b3e"
+  },
+  {
+    "name": "GAB_DEFINITIVO_800SEPLAD_DF002_CARGO_2",
+    "url": "https://cdn.cebraspe.org.br/concursos/seplad_df_22_auditor/arquivos/GAB_DEFINITIVO_800SEPLAD_DF002_CARGO_2.PDF",
+    "checkedAt": "2026-10-29T23:30:50.496615+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 57075,
+    "sha256": "0f432a0695adcb40f92f631706c05eb304db9f54277a8fa8e2ece9dbc06c84f9"
+  },
+  {
+    "name": "GAB_DEFINITIVO_800SEPLAD_DFCC1_CARGO2",
+    "url": "https://cdn.cebraspe.org.br/concursos/seplad_df_22_auditor/arquivos/GAB_DEFINITIVO_800SEPLAD_DFCC1_CARGO2.PDF",
+    "checkedAt": "2026-10-29T23:30:50.510182+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 57023,
+    "sha256": "ecf34636c1f292524c2e484ee9f9d9313de0f7addb4b34e2f9c72b22925cfce0"
+  },
+  {
+    "name": "BONECA_800_SEPLAD_DF_002_CB1_CE1_MANH_COMJUSTIFICATIVA",
+    "url": "https://cdn.cebraspe.org.br/concursos/seplad_df_22_auditor/arquivos/BONECA_800_SEPLAD_DF_002_CB1_CE1_MANH_COMJUSTIFICATIVA.PDF",
+    "checkedAt": "2026-10-29T23:30:50.548839+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 1244465,
+    "sha256": "a1642cc67700e849b596d32aa6a170a5fc1ea4a6c018f8819f09f3ae99ef9b16"
+  },
+  {
+    "name": "MATRIZ_800SEPLAD_DFCC1_JUSTIFICATIVA_ATUALIZADO",
+    "url": "https://cdn.cebraspe.org.br/concursos/seplad_df_22_auditor/arquivos/MATRIZ_800SEPLAD_DFCC1_JUSTIFICATIVA_ATUALIZADO.PDF",
+    "checkedAt": "2026-10-29T23:30:50.659817+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 802242,
+    "sha256": "3e2f44fe8266954ca5d845267219d443b91893ee2a738c6c8fec401c8edc1750"
+  },
+  {
+    "name": "seplad-auditor-event",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/SEPLAD_DF_22_AUDITOR",
+    "checkedAt": "2026-10-29T23:30:07.161034+00:00",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "bytes": 29220,
+    "sha256": "5d7fcb827a2958f0def9db7b020fc4323ae7a020ad087a61ec04b3996dd2161a"
+  },
+  {
+    "name": "cgu-code-current",
+    "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/governanca/comissao-de-etica/arquivos/codigo-de-conduta-cgu.pdf",
+    "checkedAt": "2026-10-29T23:30:07.161970+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 314775,
+    "sha256": "27f946e3311d61da9cdf2811c98e18f4148a93cc0249de0716e2d73f479c7b5f"
+  },
+  {
+    "name": "cgu-code-collection",
+    "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/governanca/comissao-de-etica/arquivos/colecao/codigo-de-conduta-profissional-do-servidor-da-cgu.pdf",
+    "checkedAt": "2026-10-29T23:30:07.162556+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 717372,
+    "sha256": "9b02116178ae3a89924188adf2bae5d048bf455c7397de71a632b9b1cf4d52c5"
+  },
+  {
+    "name": "uncac",
+    "url": "https://www.gov.br/cgu/pt-br/assuntos/articulacao-internacional-1/convencao-da-onu/arquivos/cartilha-onu-2016.pdf",
+    "checkedAt": "2026-10-29T23:30:07.163099+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 2715735,
+    "sha256": "d61f95370757695119ed8aea860e650d5360ddd4a9304bceef75d87e5c42f195"
+  },
+  {
+    "name": "cgu-ethics-portal",
+    "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/governanca/comissao-de-etica",
+    "checkedAt": "2026-10-29T23:30:07.164623+00:00",
+    "status": 200,
+    "contentType": "text/html;charset=utf-8",
+    "bytes": 101353,
+    "sha256": "d075f3d8e4303085b722fbcce18cd5ffe375679ca31cdef3981b8add651fd5e4"
+  },
+  {
+    "name": "cgu-ethics-case",
+    "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/governanca/comissao-de-etica/pareceres/arquivos/sei_cgu-2163606-parecer-20-2021-pdf.pdf",
+    "checkedAt": "2026-10-29T23:30:07.165223+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 922841,
+    "sha256": "9ebf4c406bce7c9d452754259eb6ecbbfc370cd30ee67f824d4dc98137100fab"
+  },
+  {
+    "name": "cgu-code",
+    "url": "https://search.brave.com/search?q=site%3Agov.br/cgu%20%22C%C3%B3digo%22%20%22Conduta%22%20%22Portaria%22",
+    "checkedAt": "2026-10-29T23:29:07.134703+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 160477,
+    "sha256": "aefc93ddac8ccc58b55f5e895078d2034b263c6352014cc28016b98b811dedfd"
+  },
+  {
+    "name": "cgu-ouvidoria",
+    "url": "https://search.brave.com/search?q=site%3Acdn.cebraspe.org.br%20%22denunciante%22%20%22identidade%22%20%222025%22",
+    "checkedAt": "2026-10-29T23:29:07.135507+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 168248,
+    "sha256": "d0cdbf6d52bbc518c11c1d7eeca66aa3228533ed3eab13c8f534f1b7a05440d7"
+  },
+  {
+    "name": "cgu-integridade-official",
+    "url": "https://search.brave.com/search?q=site%3Aconhecimento.fgv.br%20%22programa%20de%20integridade%22%20%222025%22",
+    "checkedAt": "2026-10-29T23:29:07.136141+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 180573,
+    "sha256": "6fa23c0006522dedc88adc5f71a0393bf4159593ed293f74c27b36abc6344cb6"
+  },
+  {
+    "name": "abdi-convenios-quadrix",
+    "url": "https://search.brave.com/search?q=site%3Aquadrix.org.br%20%22abdi%22%20%222013%22",
+    "checkedAt": "2026-10-29T23:29:07.137099+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "rccn-quest",
+    "url": "https://search.brave.com/search?q=%22Regimento%20Comum%22%20%22promulgar%22%20%22quest%C3%A3o%22",
+    "checkedAt": "2026-10-29T23:29:07.137830+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 127348,
+    "sha256": "3bd35e939eff8f6bea670085f342c47fe2d699f7384839b41fad2b46be977c4c"
+  },
+  {
+    "name": "cgu-etica-prova",
+    "url": "https://search.brave.com/search?q=%22CGU%22%20%22c%C3%B3digo%20de%20conduta%22%20%22quest%C3%A3o%22",
+    "checkedAt": "2026-10-29T23:29:07.138656+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 190316,
+    "sha256": "dbceaf171268485e643a853152a1f716848ab5be2356b59632a4834af11b6f56"
+  },
+  {
+    "name": "cgu-index",
+    "url": "https://conhecimento.fgv.br/concursos/cgu2021",
+    "checkedAt": "2026-10-29T23:29:07.496715+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "cgu-ethics",
+    "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/institucional/comissao-de-etica",
+    "checkedAt": "2026-10-29T23:29:07.914266+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "quadrix-abdi2013",
+    "url": "https://www.quadrix.org.br/todos-os-concursos/encerrados/abdi-2013.aspx",
+    "checkedAt": "2026-10-29T23:29:07.928733+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "fgv-cgu-official",
+    "url": "https://conhecimento.fgv.br/concursos/cgu",
+    "checkedAt": "2026-10-29T23:27:40.554605+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "quadrix-home",
+    "url": "https://www.quadrix.org.br/",
+    "checkedAt": "2026-10-29T23:27:40.555867+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 43053,
+    "sha256": "4d12033e622a0e6b5e08bc862fa29f716b32b25d0335740e13ee66535ccf40c7"
+  },
+  {
+    "name": "quadrix-abdi-old",
+    "url": "https://www.quadrix.org.br/concursos/2013/abdi/",
+    "checkedAt": "2026-10-29T23:27:40.556529+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "quadrix-abdi-index",
+    "url": "https://www.quadrix.org.br/concursos-concluidos/2013/abdi-agencia-brasileira-de-desenvolvimento-industrial.aspx",
+    "checkedAt": "2026-10-29T23:27:40.557038+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "cgdf-official",
+    "url": "https://www.cebraspe.org.br/concursos/SEPLAD_DF_22_AUDITOR",
+    "checkedAt": "2026-10-29T23:27:40.557624+00:00",
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 16788,
+    "sha256": "c03806f99b5ab2b0abfd002412ae0245f143bb532a55f01bb36b8edf7e9b7353"
+  },
+  {
+    "name": "cgm-key",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-cgm-gabarito-definitivo.pdf",
+    "checkedAt": "2026-10-29T23:27:40.558113+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 599748,
+    "sha256": "218e8538d371832e5d10a20bf838940ad0ced71c5723270104e241ff7f8d7af9"
+  },
+  {
+    "name": "cgm-paper",
+    "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-de-controle-internocgm-tci-tipo-1.pdf",
+    "checkedAt": "2026-10-29T23:27:41.376707+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 1335574,
+    "sha256": "5a2549bf4db69794fa0eb5153b6203791c9897acb47304caee4e112759e3118d"
+  },
+  {
+    "name": "abdi2013",
+    "url": "https://search.brave.com/search?q=ABDI%202013%20Quadrix%20provas%20gabaritos%20definitivos%20conv%C3%AAnios",
+    "checkedAt": "2026-10-29T23:27:41.456867+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 235746,
+    "sha256": "89a54c874acd8088f3539467be6842b54b862a5b1483440e98571bd034e5772f"
+  },
+  {
+    "name": "cgdf23",
+    "url": "https://search.brave.com/search?q=CGDF%202023%20Cebraspe%20SEPLAD%20prova%20gabarito",
+    "checkedAt": "2026-10-29T23:27:41.630020+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 223942,
+    "sha256": "a467ee315d70336060893aa5fc8b94bab197bd6a9ad453a5e7ef3e4da4475bba"
+  },
+  {
+    "name": "cgu-denunciante",
+    "url": "https://search.brave.com/search?q=%22denunciante%22%20%22Decreto%22%20%22prova%22%20Cebraspe",
+    "checkedAt": "2026-10-29T23:27:41.636520+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 109012,
+    "sha256": "aa8a5fbf03fd7eb17b5e7b545795b15dd934456c9a36c1de3c639e307da80aa5"
+  },
+  {
+    "name": "camara218",
+    "url": "https://search.brave.com/search?q=%22218/2025%22%20%22gabarito%22",
+    "checkedAt": "2026-10-29T23:27:41.698159+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 199494,
+    "sha256": "c7bba73191a3b5f8d1779dc0667d5594ab6558e6a48f927e249bb923242ba215"
+  },
+  {
+    "name": "fgv-cgu",
+    "url": "https://conhecimento.fgv.br/concursos/cgu21",
+    "checkedAt": "2026-10-29T23:25:53.480412+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "fgv-cgmrj",
+    "url": "https://conhecimento.fgv.br/concursos/cgmrj23",
+    "checkedAt": "2026-10-29T23:25:53.481210+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 81161,
+    "sha256": "72a5b9189d673a68a890aeed4fae5e7c399b527b28bc5118a890db7dbd064a26"
+  },
+  {
+    "name": "seplad22",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/SEPLAD_DF_22",
+    "checkedAt": "2026-10-29T23:25:53.481862+00:00",
+    "status": 204,
+    "contentType": null,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "seplad23",
+    "url": "https://apis.cebraspe.org.br/cebraspe/eventos/SEPLAD_DF_23",
+    "checkedAt": "2026-10-29T23:25:53.482555+00:00",
+    "status": 204,
+    "contentType": null,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "abdi-processos",
+    "url": "https://www.abdi.com.br/processo-seletivo/",
+    "checkedAt": "2026-10-29T23:25:53.483658+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 752755,
+    "sha256": "581fa4d2da7def362bfcb3e3423dc32e2a6956d43ccad93805fc4cb3ced09be8"
+  },
+  {
+    "name": "camara-ato",
+    "url": "https://html.duckduckgo.com/html/?q=%22Ato%22%20%22218/2025%22%20%22quest%C3%A3o%22",
+    "checkedAt": "2026-10-29T23:25:53.484278+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 9398,
+    "sha256": "7540239a1cfbc088337d888f2afe58b0b874c8d8680d61ecf532e62db8daa4b3"
+  },
+  {
+    "name": "camara-manual",
+    "url": "https://html.duckduckgo.com/html/?q=%22Manual%20de%20Linguagem%20Simples%22%20%22C%C3%A2mara%22%20%22gabarito%22",
+    "checkedAt": "2026-10-29T23:25:54.516995+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 9467,
+    "sha256": "ec9c62dd26d9b428d96a67361e133cbf4dd71eff92cb037138c6644f5833f62d"
+  },
+  {
+    "name": "abdi-convenios",
+    "url": "https://html.duckduckgo.com/html/?q=%22ABDI%22%20%22conv%C3%AAnios%22%20%22gabarito%22",
+    "checkedAt": "2026-10-29T23:25:54.572492+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 11949,
+    "sha256": "703ac749dc7094532512b9dda5ec396cc5673c8b2ab72684d519b1a127f4b47e"
+  },
+  {
+    "name": "abdi-etica",
+    "url": "https://html.duckduckgo.com/html/?q=%22ABDI%22%20%22%C3%A9tica%22%20%22prova%22%20%222024%22",
+    "checkedAt": "2026-10-29T23:25:54.968769+00:00",
+    "status": 202,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 14317,
+    "sha256": "3955e98d42582cf61a4102b52d9d5a5a045f2b66124bcb5d1fc2a8269e306a82"
+  },
+  {
+    "name": "cgu-protecao",
+    "url": "https://html.duckduckgo.com/html/?q=%22denunciante%22%20%22gabarito%20definitivo%22%20Cebraspe",
+    "checkedAt": "2026-10-29T23:25:54.995427+00:00",
+    "status": 202,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 14293,
+    "sha256": "4fc1890598ae917491257c1b6cb7b6954c4559d41f7bd5ce1635f5788e47d6c2"
+  },
+  {
+    "name": "cgu-integridade",
+    "url": "https://html.duckduckgo.com/html/?q=%22programa%20de%20integridade%22%20%22gabarito%22%20%222025%22",
+    "checkedAt": "2026-10-29T23:25:55.089855+00:00",
+    "status": 202,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 14317,
+    "sha256": "be1e20cf7c673b1831e4cf8778b72c80f0e0682b39823f8a5fdadd62d881ea72"
+  },
+  {
+    "name": "camara-rccn",
+    "url": "https://html.duckduckgo.com/html/?q=%22Regimento%20Comum%22%20%22sess%C3%B5es%20conjuntas%22%20%22gabarito%22",
+    "checkedAt": "2026-10-29T23:25:55.124512+00:00",
+    "status": 202,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 14323,
+    "sha256": "fedefd75b7f60cfa565f090554deda70a841ba07c8a6bd5831d27b0763bc98b2"
+  }
+]

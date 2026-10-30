@@ -11,12 +11,12 @@ test('ABDI shares canonical items while keeping role pools, original formats and
  const s=setup(),p=s.Study.empty();
  assert.equal(s.Catalog.rolesFor(s.data,'abdi-2026')[0].id,role);
  assert.equal(s.Catalog.syllabusFor(s.data,role).length,97);
- const all=s.Study.pool(s.data,role,p);assert.equal(all.length,261);assert.equal(new Set(all.map(q=>q.id)).size,261);
+ const all=s.Study.pool(s.data,role,p);assert.equal(all.length,263);assert.equal(new Set(all.map(q=>q.id)).size,263);
  assert.equal(s.Study.pool(s.data,role,p,'all',{type:'multiple_choice'}).length,101);
- assert.equal(s.Study.pool(s.data,role,p,'all',{type:'true_false'}).length,160);
+ assert.equal(s.Study.pool(s.data,role,p,'all',{type:'true_false'}).length,162);
  assert.equal(s.Study.pool(s.data,role,p,'all',{block:'basic'}).length,113);
  assert.equal(s.Study.pool(s.data,role,p,'all',{block:'institutional'}).length,26);
- assert.equal(s.Study.pool(s.data,role,p,'all',{block:'specific'}).length,140);
+ assert.equal(s.Study.pool(s.data,role,p,'all',{block:'specific'}).length,142);
  assert.equal(s.Study.pool(s.data,camara,p).length,421);
  assert.throws(()=>s.Study.pool(s.data,role,p,'all',{topicId:'processo-legislativo-regimento-6-1'}));
  assert.throws(()=>s.Study.pool(s.data,role,p,'all',{block:'unconfirmed-block'}));
@@ -52,7 +52,7 @@ test('answering a shared question for Camara does not create an ABDI attempt or 
  const a=s.Study.create(s.data,camara,s.Study.empty(),'all',filters);a.answers.push({questionId:a.items[0].question.id,value:a.items[0].key.value});
  const p=s.Study.finish({...s.Study.empty(),active:a},end);
  assert.equal(s.Study.performance(p.history,role).attempts,0);
- assert.equal(s.Study.pool(s.data,role,p,'unanswered').length,261);
+ assert.equal(s.Study.pool(s.data,role,p,'unanswered').length,263);
  const b=s.Study.create(s.data,role,p,'all',filters);assert.equal(b.items[0].question.id,a.items[0].question.id);
  assert.ok(b.items[0].mappings.every(m=>m.roleId===role));assert.ok(a.items[0].mappings.every(m=>m.roleId===camara));
  assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup({...p,active:b}),s.data)),plain({...p,active:b}));

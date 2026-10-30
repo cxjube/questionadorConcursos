@@ -1,7 +1,7 @@
 {
   "reviewedAt": "2026-10-29",
-  "latestBatchId": "expansion-eighth",
-  "catalogSha256": "5a1640934121389e984cf7e97ac59371c1b490dbb1b7b12f7570711ff1d27258",
+  "latestBatchId": "official-closure",
+  "catalogSha256": "4ba9253fd5feacd05b3b422be8fbdd7201f660b95d4a30f60ae0b3983b4423b3",
   "scope": "Oferta de questões distintas, sem inferência de domínio ou peso de prova.",
   "totalItems": 228,
   "directItems": 192,

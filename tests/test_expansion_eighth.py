@@ -17,7 +17,7 @@ from tools.validate import ROOT, read_json, validate
 class ExpansionEighthTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c=read_json(ROOT/'data/catalog.json');cls.m=read_json(ROOT/MANIFEST)
+        cls.c=json.loads(gzip.decompress((ROOT/'data/reviews/pre-official-closure-catalog.json.gz').read_bytes()));cls.m=read_json(ROOT/MANIFEST)
         cls.raw=gzip.decompress((ROOT/cls.m['previousCatalogFile']).read_bytes());cls.old=json.loads(cls.raw)
         cls.papers={p['id']:p for p in cls.c['papers']};cls.docs={d['id']:d for d in cls.c['documents']};cls.qs={q['id']:q for q in cls.c['questions']}
 
@@ -32,7 +32,7 @@ class ExpansionEighthTests(unittest.TestCase):
     def test_whole_current_catalog_text_context_key_and_source_integrity(self):
         a=technical_audit(self.c,read_json(ROOT/SWEEP));self.assertEqual(a['errors'],[])
         self.assertEqual((len(a['questions']),a['checkedContexts'],a['checkedPapers'],a['checkedDocuments']),(755,281,83,246))
-        self.assertEqual(audit_sources(self.c,read_json(ROOT/'data/source-verification.json')),[])
+        self.assertEqual(audit_sources(self.c,read_json(ROOT/'data/reviews/pre-official-closure-sources.json')),[])
 
     def test_bounded_original_lines_include_all_options_and_exclude_preliminary_justifications(self):
         ns={'x':'http://www.w3.org/1999/xhtml'};pages={}

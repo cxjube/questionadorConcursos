@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-29T20:54:44.912421+00:00",
-  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23. Comment completion: two Priberam entries retain the initial official publisher download bytes; no independent second download is claimed. Ninth source discovery: 16 new paper/key PDFs independently re-downloaded with byte equality; two Microsoft Learn HTML references retain initial publisher bytes. Complete source inventory is separate from individually released questions. Existing matches are historical evidence; not every old source was downloaded again. Tenth batch: one PF 2025 Bloco II pair independently re-downloaded with identical bytes; three Câmara current legal HTML references retain initial official download bytes. Compatibility is limited to cited active clauses as of 2026-10-23. Other prior sources were not all downloaded again. Eleventh batch: SERPRO 2023 and STJ 2024 basic paper/definitive-key PDFs independently re-downloaded byte-identically. Initial Câmara improbity-law and Microsoft Teams HTML downloads retained. Current review is limited to cited clauses and technical conditions; older evidence remains historical. Resumed on 2026-10-26: IPv6 and DNS initial Microsoft Learn reference bytes retained; seven legal items rechecked against cited active official clauses and Teams conditions rechecked, with separate evidence in data/reviews/eleventh-reference-rechecks.json. No new questions use annulled STJ Power BI items. Twelfth batch: two complete CNJ/TCEAC paper and definitive-key pairs independently downloaded twice with matching bytes; historical records are not repeated downloads. Four initial official Câmara legal HTML downloads retained; no second binary download is claimed for HTML. Compatibility is limited to cited active clauses as of 2026-10-26. ABDI intake 2026-10-27: the user-provided 48-page opening notice is byte-identical to the PDF linked on the FGV psabdi page; its download hash is retained. Other rows retain their original verification dates and scopes; no fresh re-download of all sources is claimed. ABDI first batch 2026-10-27: three complete Senado/TCE-MG pairs independently downloaded twice with matching bytes. Three official Câmara legislative HTML references retain initial publisher bytes. Only the selected clauses are reviewed; five internal ABDI documents remain inaccessible/unverified. Other sources were not freshly re-downloaded. See abdi-first-source-discovery.json and abdi-first-reference-review.json. ABDI second batch: seven internal/reference PDFs (including original CD 008/2023 plan and distinct CD 009/2024 adjustment) and four official IBFC 2008 objective/post-appeal pairs independently re-downloaded byte-identically. New official Câmara LGPD HTML retains initial bytes; Planalto returned HTTP 503. No fresh re-download of all older sources is claimed. ABDI third batch: four additional IBFC 2008 paper/definitive post-appeal pairs, eight independent repeated byte matches. Existing Senate/LGPD/RLC sources reused with selected-clause checks; no whole-bank re-audit. ABDI fourth batch: six additional official pairs, eleven unique PDFs repeated byte-identically; shared Fiocruz final report retained once for two exact profiles. TJRR key header date discrepancy recorded against official notice. Older legal sources reused only at selected clauses. CGU Auditoria intake: original opening, rectification nº2 and updated opening independently re-downloaded byte-identically on 28/10/2026; event listing unchanged. Other evidence is historical. No new paper/key pairs or question texts. CGU first batch: two new TCEAC objective/definitive pairs and two CGU normative PDFs independently re-downloaded byte-identically. IN3 consolidated preserves partial revocation of 4(d) and 5 by IN7; selected clauses only. Lei4320/LRF same-day rechecks retained separately. No full MCASP11 verification; HTTP401 not bypassed. Older source matches retain historical scope. Reserve second batch: six annotated TCDF Auditoria question/final-key PDFs and two ABDI Biotecnologia PDFs independently repeated byte-identically. Preliminary annotations never grade questions. MCASP11 full PDF/change-summary matched twice but remain outside repository; official HTML landing and Lei12846 consolidated HTML retain initial downloaded bytes. Selected MCASP pages/clauses only, not an exhaustive manual audit. Gaps third batch: five complete official pairs/eight unique PDF binaries compared with independent repeated downloads; CGU uses retified20Apr2022 report and exact role/type/session, not preliminary or superseded tables. CNS510 and FENAJ initial publisher bytes retained; selected provisions only. Other source verification remains historical. Gaps fourth batch: five complete official pairs/ten unique repeated byte-identical PDFs. One new Lei12813 publisher HTML with selected-clause review; old source checks remain historical. ICMBio date discrepancy explicitly retained. Norms-gap fifth: five normative references independently repeated; Lei14133 alternate official DOCX checked at selected clauses. Existing paper/key verification dates retained; no fresh PDF download claim for existing pairs. Completion sixth: two complete CGE-SC role/session/type pairs, three unique PDFs repeated identically; five normative PDFs independently repeated, selected clauses/amendments only. Old dates/evidence remain historical. Seventh continuation: one CGE/CE2019 original MC pair and three official reference pages independently repeated byte-identically; selected-clause review only. DOU2279 pages2–4 are research evidence, not automatic permission to reuse an old exemption. Eighth expansion: five official complete pairs, independently repeated byte-identically; FGV current rectified key and TCDF002 explicit header discrepancy retained; selected normative clauses rechecked only.",
+  "checkedAt": "2026-10-29T23:57:51.172120+00:00",
+  "scope": "Recorded official source matches. The sixth batch adds an independently re-downloaded FGV afternoon/type-1 pair and six official legal HTML references. Each initial official download matches its retained file by SHA-256. Planalto HTML rechecks differ in embedded scripts but have identical active visible text; separate recheck files and hashes are in data/reviews/legal-reference-rechecks.json. Older matches remain retained evidence, not fresh downloads. Active cited clauses reviewed as of 2026-10-23; no guarantee about future amendments. Seventh batch: four Câmara 2014 paper/key PDFs, the Enap communication plan and CERT.br reference were independently re-downloaded with identical bytes. Six publisher HTML references match their initial official downloads; no repeated binary comparison is claimed for them. Legal compatibility uses the cited official snapshots retained on 2026-10-23. Comment completion: two Priberam entries retain the initial official publisher download bytes; no independent second download is claimed. Ninth source discovery: 16 new paper/key PDFs independently re-downloaded with byte equality; two Microsoft Learn HTML references retain initial publisher bytes. Complete source inventory is separate from individually released questions. Existing matches are historical evidence; not every old source was downloaded again. Tenth batch: one PF 2025 Bloco II pair independently re-downloaded with identical bytes; three Câmara current legal HTML references retain initial official download bytes. Compatibility is limited to cited active clauses as of 2026-10-23. Other prior sources were not all downloaded again. Eleventh batch: SERPRO 2023 and STJ 2024 basic paper/definitive-key PDFs independently re-downloaded byte-identically. Initial Câmara improbity-law and Microsoft Teams HTML downloads retained. Current review is limited to cited clauses and technical conditions; older evidence remains historical. Resumed on 2026-10-26: IPv6 and DNS initial Microsoft Learn reference bytes retained; seven legal items rechecked against cited active official clauses and Teams conditions rechecked, with separate evidence in data/reviews/eleventh-reference-rechecks.json. No new questions use annulled STJ Power BI items. Twelfth batch: two complete CNJ/TCEAC paper and definitive-key pairs independently downloaded twice with matching bytes; historical records are not repeated downloads. Four initial official Câmara legal HTML downloads retained; no second binary download is claimed for HTML. Compatibility is limited to cited active clauses as of 2026-10-26. ABDI intake 2026-10-27: the user-provided 48-page opening notice is byte-identical to the PDF linked on the FGV psabdi page; its download hash is retained. Other rows retain their original verification dates and scopes; no fresh re-download of all sources is claimed. ABDI first batch 2026-10-27: three complete Senado/TCE-MG pairs independently downloaded twice with matching bytes. Three official Câmara legislative HTML references retain initial publisher bytes. Only the selected clauses are reviewed; five internal ABDI documents remain inaccessible/unverified. Other sources were not freshly re-downloaded. See abdi-first-source-discovery.json and abdi-first-reference-review.json. ABDI second batch: seven internal/reference PDFs (including original CD 008/2023 plan and distinct CD 009/2024 adjustment) and four official IBFC 2008 objective/post-appeal pairs independently re-downloaded byte-identically. New official Câmara LGPD HTML retains initial bytes; Planalto returned HTTP 503. No fresh re-download of all older sources is claimed. ABDI third batch: four additional IBFC 2008 paper/definitive post-appeal pairs, eight independent repeated byte matches. Existing Senate/LGPD/RLC sources reused with selected-clause checks; no whole-bank re-audit. ABDI fourth batch: six additional official pairs, eleven unique PDFs repeated byte-identically; shared Fiocruz final report retained once for two exact profiles. TJRR key header date discrepancy recorded against official notice. Older legal sources reused only at selected clauses. CGU Auditoria intake: original opening, rectification nº2 and updated opening independently re-downloaded byte-identically on 28/10/2026; event listing unchanged. Other evidence is historical. No new paper/key pairs or question texts. CGU first batch: two new TCEAC objective/definitive pairs and two CGU normative PDFs independently re-downloaded byte-identically. IN3 consolidated preserves partial revocation of 4(d) and 5 by IN7; selected clauses only. Lei4320/LRF same-day rechecks retained separately. No full MCASP11 verification; HTTP401 not bypassed. Older source matches retain historical scope. Reserve second batch: six annotated TCDF Auditoria question/final-key PDFs and two ABDI Biotecnologia PDFs independently repeated byte-identically. Preliminary annotations never grade questions. MCASP11 full PDF/change-summary matched twice but remain outside repository; official HTML landing and Lei12846 consolidated HTML retain initial downloaded bytes. Selected MCASP pages/clauses only, not an exhaustive manual audit. Gaps third batch: five complete official pairs/eight unique PDF binaries compared with independent repeated downloads; CGU uses retified20Apr2022 report and exact role/type/session, not preliminary or superseded tables. CNS510 and FENAJ initial publisher bytes retained; selected provisions only. Other source verification remains historical. Gaps fourth batch: five complete official pairs/ten unique repeated byte-identical PDFs. One new Lei12813 publisher HTML with selected-clause review; old source checks remain historical. ICMBio date discrepancy explicitly retained. Norms-gap fifth: five normative references independently repeated; Lei14133 alternate official DOCX checked at selected clauses. Existing paper/key verification dates retained; no fresh PDF download claim for existing pairs. Completion sixth: two complete CGE-SC role/session/type pairs, three unique PDFs repeated identically; five normative PDFs independently repeated, selected clauses/amendments only. Old dates/evidence remain historical. Seventh continuation: one CGE/CE2019 original MC pair and three official reference pages independently repeated byte-identically; selected-clause review only. DOU2279 pages2–4 are research evidence, not automatic permission to reuse an old exemption. Eighth expansion: five official complete pairs, independently repeated byte-identically; FGV current rectified key and TCDF002 explicit header discrepancy retained; selected normative clauses rechecked only. Official-only closure: four complete official pairs and two references repeated byte-identically; all unresolved question gaps remain explicit by user decision. Five legislative references independently repeated on Senate mirrors; original versions explicitly labelled; empty current-text response rejected.",
   "documents": [
     {
       "documentId": "camara-2026-edital-01-documento",
@@ -1724,6 +1724,111 @@
       "outcome": "byte_match",
       "officialUrl": "https://cdn.cebraspe.org.br/concursos/tc_df_24_auditor/arquivos/GAB_DEFINITIVO_012_TCDF_AUDITOR_002_01.PDF",
       "remoteSha256": "5649728943a7143f583352eafbad2bc0f874a0ab0155f483fd22159ddd02a0a9"
+    },
+    {
+      "documentId": "reference-cgu-codigo-conduta-2009",
+      "localSha256": "27f946e3311d61da9cdf2811c98e18f4148a93cc0249de0716e2d73f479c7b5f",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/governanca/comissao-de-etica/arquivos/codigo-de-conduta-cgu.pdf",
+      "remoteSha256": "27f946e3311d61da9cdf2811c98e18f4148a93cc0249de0716e2d73f479c7b5f"
+    },
+    {
+      "documentId": "reference-uncac-cartilha-2016",
+      "localSha256": "d61f95370757695119ed8aea860e650d5360ddd4a9304bceef75d87e5c42f195",
+      "outcome": "byte_match",
+      "officialUrl": "https://www.gov.br/cgu/pt-br/assuntos/articulacao-internacional-1/convencao-da-onu/arquivos/cartilha-onu-2016.pdf",
+      "remoteSha256": "d61f95370757695119ed8aea860e650d5360ddd4a9304bceef75d87e5c42f195"
+    },
+    {
+      "documentId": "source-cpnu2-2025-b1-tipo1-paper",
+      "localSha256": "71334f040bc744a143b05e79a5a9cd2a577e919f9a5180a751e4d86f372a857f",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/b1101.pdf",
+      "remoteSha256": "71334f040bc744a143b05e79a5a9cd2a577e919f9a5180a751e4d86f372a857f"
+    },
+    {
+      "documentId": "source-cpnu2-2025-b1-tipo1-key",
+      "localSha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf",
+      "remoteSha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d"
+    },
+    {
+      "documentId": "source-cpnu2-2025-b5-tipo1-paper",
+      "localSha256": "281a09a5104734a2ceb3a0ee939e143ed07ed5032fa4eb1b9e492b963576ee25",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/b5501.pdf",
+      "remoteSha256": "281a09a5104734a2ceb3a0ee939e143ed07ed5032fa4eb1b9e492b963576ee25"
+    },
+    {
+      "documentId": "source-cpnu2-2025-b5-tipo1-key",
+      "localSha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf",
+      "remoteSha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d"
+    },
+    {
+      "documentId": "source-cpnu2-2025-b6-tipo1-paper",
+      "localSha256": "056ac61709553d2f8c3c2e8ded8cb4affab90bdad3aa817355ba66876cad5cd1",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/b6601.pdf",
+      "remoteSha256": "056ac61709553d2f8c3c2e8ded8cb4affab90bdad3aa817355ba66876cad5cd1"
+    },
+    {
+      "documentId": "source-cpnu2-2025-b6-tipo1-key",
+      "localSha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf",
+      "remoteSha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d"
+    },
+    {
+      "documentId": "source-tcesc-2026-direito-tipo1-paper",
+      "localSha256": "240240478ee31d378854982e508053423d0052cb2a596f5c3440cdc35652022b",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns004-auditor-fiscal-de-controle-externo-direito-cns004-tipo-1.pdf",
+      "remoteSha256": "240240478ee31d378854982e508053423d0052cb2a596f5c3440cdc35652022b"
+    },
+    {
+      "documentId": "source-tcesc-2026-direito-tipo1-key",
+      "localSha256": "c5827260782ce64e64226ff3de3c51ce8a7608ae010c4d04188ce99823eebc8a",
+      "outcome": "byte_match",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tce-sc_0.pdf",
+      "remoteSha256": "c5827260782ce64e64226ff3de3c51ce8a7608ae010c4d04188ce99823eebc8a"
+    },
+    {
+      "documentId": "reference-lei-13303-2016",
+      "localSha256": "3a5676190a3fbf1714969f4e73e55807ae93c975ded8f2adb1f15af0d289da90",
+      "outcome": "byte_match",
+      "officialUrl": "https://legis.senado.leg.br/norma/602528/publicacao/43060879",
+      "remoteSha256": "3a5676190a3fbf1714969f4e73e55807ae93c975ded8f2adb1f15af0d289da90"
+    },
+    {
+      "documentId": "reference-lei-13608-2018",
+      "localSha256": "24a5b91c8be81ef12014006a60f8d1718ef2d501a7876502a2a2548d08d29fe8",
+      "outcome": "byte_match",
+      "officialUrl": "https://legis.senado.leg.br/norma/26341985/publicacao/26342105",
+      "remoteSha256": "24a5b91c8be81ef12014006a60f8d1718ef2d501a7876502a2a2548d08d29fe8"
+    },
+    {
+      "documentId": "reference-lei-13964-2019",
+      "localSha256": "d616f03c6abbc61b2d4a05e8999be9316d5e052fc6aa56c920a8cee07ae31064",
+      "outcome": "byte_match",
+      "officialUrl": "https://legis.senado.leg.br/norma/31865675/publicacao/31866001",
+      "remoteSha256": "d616f03c6abbc61b2d4a05e8999be9316d5e052fc6aa56c920a8cee07ae31064"
+    },
+    {
+      "documentId": "reference-decreto-10153-2019",
+      "localSha256": "76f58baf1ca0ae00823d69cccd83384b82577ef21e4fc550b292fefe95b2c0b4",
+      "outcome": "byte_match",
+      "officialUrl": "https://legis.senado.leg.br/norma/31787194/publicacao/31787205",
+      "remoteSha256": "76f58baf1ca0ae00823d69cccd83384b82577ef21e4fc550b292fefe95b2c0b4"
+    },
+    {
+      "documentId": "reference-lei-13460-2017",
+      "localSha256": "15e6fec212c95c5f10b0b8aca459ea8ef6392b7dc85c74f499d2f5a6a7ec66d3",
+      "outcome": "byte_match",
+      "officialUrl": "https://legis.senado.leg.br/norma/17711251/publicacao/17711260",
+      "remoteSha256": "15e6fec212c95c5f10b0b8aca459ea8ef6392b7dc85c74f499d2f5a6a7ec66d3"
     }
   ],
   "corroboration": [

@@ -2,7 +2,7 @@
 
 Analista de Produtividade e Inovação — Comunicação e Marketing
 
-Revisão: 2026-10-29. **261 questões distintas: 101 MC e 160 C/E.**
+Revisão: 2026-10-29. **263 questões distintas: 101 MC e 162 C/E.**
 Programa: 97 itens; 78 com vínculo direto, 7 apenas por descendentes e 12 subárvores sem questões.
 
 A prova exige múltipla escolha. C/E são treino de conteúdo no formato original e não compõem reserva MC. Prioridade A indica ausência de MC; B, uma ou duas MC; C, pelo menos três. Não são pesos oficiais nem domínio do assunto.
@@ -13,7 +13,7 @@ A prova exige múltipla escolha. C/E são treino de conteúdo no formato origina
 | --- | ---: | ---: | ---: |
 | Gerais | 113 | 40 | 73 |
 | Institucionais | 26 | 26 | 0 |
-| Específicos | 140 | 47 | 93 |
+| Específicos | 142 | 47 | 95 |
 
 As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter questões únicas.
 
@@ -110,7 +110,7 @@ As áreas e os assuntos podem compartilhar IDs: não somar subtotais para obter 
 | Comunicação e Marketing | 18 | Planejamento e organização de eventos. | 1 | 0 | Direto |
 | Comunicação e Marketing | 19 | Pesquisa de opinião e avaliação de resultados de comunicação. | 4 | 8 | Direto |
 | Comunicação e Marketing | 20 | Gestão de crises e comunicação de risco. | 3 | 4 | Direto |
-| Comunicação e Marketing | 21 | Relacionamento com públicos de interesse e comunidades. | 0 | 2 | Direto |
+| Comunicação e Marketing | 21 | Relacionamento com públicos de interesse e comunidades. | 0 | 4 | Direto |
 | Comunicação e Marketing | 22 | Comunicação científica, tecnológica e ambiental. | 6 | 1 | Direto |
 | Comunicação e Marketing | 23 | Ética e legislação aplicadas à comunicação. | 7 | 4 | Direto |
 | Comunicação e Marketing | 24 | Direito à informação, transparência e acesso à informação. | 3 | 3 | Direto |

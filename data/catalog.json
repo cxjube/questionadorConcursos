@@ -72,7 +72,14 @@
         "reference-nbc-tg03-r3",
         "reference-stf-tema-786",
         "reference-decreto-11529-2023",
-        "reference-decreto-9830-2019"
+        "reference-decreto-9830-2019",
+        "reference-cgu-codigo-conduta-2009",
+        "reference-uncac-cartilha-2016",
+        "reference-lei-13303-2016",
+        "reference-lei-13608-2018",
+        "reference-lei-13964-2019",
+        "reference-decreto-10153-2019",
+        "reference-lei-13460-2017"
       ]
     }
   ],
@@ -7063,6 +7070,201 @@
       "sha256": "5649728943a7143f583352eafbad2bc0f874a0ab0155f483fd22159ddd02a0a9",
       "publicationDate": null,
       "paperId": "source-tcdf-2024-psicologia-002-01"
+    },
+    {
+      "id": "reference-cgu-codigo-conduta-2009",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Código de Conduta Profissional do Servidor da CGU — edição2010, Portaria2425/2009",
+      "issuer": "Controladoria-Geral da União",
+      "status": "verified",
+      "officialUrl": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/governanca/comissao-de-etica/arquivos/codigo-de-conduta-cgu.pdf",
+      "file": "sources/references/CGU-Codigo-Conduta-2009-ed2010.pdf",
+      "sha256": "27f946e3311d61da9cdf2811c98e18f4148a93cc0249de0716e2d73f479c7b5f",
+      "publicationDate": "2009-11-23",
+      "paperId": null
+    },
+    {
+      "id": "reference-uncac-cartilha-2016",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "CGU — Convenção das Nações Unidas contra a Corrupção — cartilha2016, texto da Convenção",
+      "issuer": "Controladoria-Geral da União",
+      "status": "verified",
+      "officialUrl": "https://www.gov.br/cgu/pt-br/assuntos/articulacao-internacional-1/convencao-da-onu/arquivos/cartilha-onu-2016.pdf",
+      "file": "sources/references/CGU-UNCAC-2016.pdf",
+      "sha256": "d61f95370757695119ed8aea860e650d5360ddd4a9304bceef75d87e5c42f195",
+      "publicationDate": null,
+      "paperId": null
+    },
+    {
+      "id": "source-cpnu2-2025-b1-tipo1-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "CNU2 2025 — Bloco1 — Seguridade Social: Saúde, Assistência Social e Previdência Social — tipo1",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/b1101.pdf",
+      "file": "sources/papers/cpnu2-2025-b1-tipo1.pdf",
+      "sha256": "71334f040bc744a143b05e79a5a9cd2a577e919f9a5180a751e4d86f372a857f",
+      "publicationDate": null,
+      "paperId": "source-cpnu2-2025-b1-tipo1"
+    },
+    {
+      "id": "source-cpnu2-2025-b1-tipo1-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "CNU2 — Bloco1 tipo1 — definitivo retificado21/11/2025",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf",
+      "file": "sources/answer-keys/CPNU2-2025-definitivo-retificado-2111.pdf",
+      "sha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d",
+      "publicationDate": "2025-11-21",
+      "paperId": "source-cpnu2-2025-b1-tipo1"
+    },
+    {
+      "id": "source-cpnu2-2025-b5-tipo1-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "CNU2 2025 — Bloco5 — Administração — tipo1",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/b5501.pdf",
+      "file": "sources/papers/cpnu2-2025-b5-tipo1.pdf",
+      "sha256": "281a09a5104734a2ceb3a0ee939e143ed07ed5032fa4eb1b9e492b963576ee25",
+      "publicationDate": null,
+      "paperId": "source-cpnu2-2025-b5-tipo1"
+    },
+    {
+      "id": "source-cpnu2-2025-b5-tipo1-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "CNU2 — Bloco5 tipo1 — definitivo retificado21/11/2025",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf",
+      "file": "sources/answer-keys/CPNU2-2025-definitivo-retificado-2111.pdf",
+      "sha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d",
+      "publicationDate": "2025-11-21",
+      "paperId": "source-cpnu2-2025-b5-tipo1"
+    },
+    {
+      "id": "source-cpnu2-2025-b6-tipo1-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "CNU2 2025 — Bloco6 — Desenvolvimento Socioeconômico — tipo1",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/b6601.pdf",
+      "file": "sources/papers/cpnu2-2025-b6-tipo1.pdf",
+      "sha256": "056ac61709553d2f8c3c2e8ded8cb4affab90bdad3aa817355ba66876cad5cd1",
+      "publicationDate": null,
+      "paperId": "source-cpnu2-2025-b6-tipo1"
+    },
+    {
+      "id": "source-cpnu2-2025-b6-tipo1-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "CNU2 — Bloco6 tipo1 — definitivo retificado21/11/2025",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf",
+      "file": "sources/answer-keys/CPNU2-2025-definitivo-retificado-2111.pdf",
+      "sha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d",
+      "publicationDate": "2025-11-21",
+      "paperId": "source-cpnu2-2025-b6-tipo1"
+    },
+    {
+      "id": "source-tcesc-2026-direito-tipo1-paper",
+      "bankId": "concursos",
+      "kind": "question_paper",
+      "title": "TCE/SC2026 — Auditor Fiscal de Controle Externo — Direito — tipo1",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns004-auditor-fiscal-de-controle-externo-direito-cns004-tipo-1.pdf",
+      "file": "sources/papers/tcesc-2026-direito-tipo1.pdf",
+      "sha256": "240240478ee31d378854982e508053423d0052cb2a596f5c3440cdc35652022b",
+      "publicationDate": null,
+      "paperId": "source-tcesc-2026-direito-tipo1"
+    },
+    {
+      "id": "source-tcesc-2026-direito-tipo1-key",
+      "bankId": "concursos",
+      "kind": "answer_key",
+      "title": "TCE/SC2026 — Direito tipo1 — gabarito definitivo",
+      "issuer": "FGV",
+      "status": "verified",
+      "officialUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tce-sc_0.pdf",
+      "file": "sources/answer-keys/tcesc-2026-definitivo.pdf",
+      "sha256": "c5827260782ce64e64226ff3de3c51ce8a7608ae010c4d04188ce99823eebc8a",
+      "publicationDate": null,
+      "paperId": "source-tcesc-2026-direito-tipo1"
+    },
+    {
+      "id": "reference-lei-13303-2016",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Lei13.303/2016 — texto disponibilizado no Senado; conferir cadastro de alterações",
+      "issuer": "Senado Federal — legislação",
+      "status": "verified",
+      "officialUrl": "https://legis.senado.leg.br/norma/602528/publicacao/43060879",
+      "file": "sources/references/lei-13303-2016-senado.html",
+      "sha256": "3a5676190a3fbf1714969f4e73e55807ae93c975ded8f2adb1f15af0d289da90",
+      "publicationDate": "2016-06-30",
+      "paperId": null
+    },
+    {
+      "id": "reference-lei-13608-2018",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Lei13.608/2018 — texto original; ler com a alteração do art.15 da Lei13.964/2019",
+      "issuer": "Senado Federal — legislação",
+      "status": "verified",
+      "officialUrl": "https://legis.senado.leg.br/norma/26341985/publicacao/26342105",
+      "file": "sources/references/lei-13608-2018-original.html",
+      "sha256": "24a5b91c8be81ef12014006a60f8d1718ef2d501a7876502a2a2548d08d29fe8",
+      "publicationDate": "2018-01-10",
+      "paperId": null
+    },
+    {
+      "id": "reference-lei-13964-2019",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Lei13.964/2019 — publicação original; art.15, proteção ao informante/denunciante",
+      "issuer": "Senado Federal — legislação",
+      "status": "verified",
+      "officialUrl": "https://legis.senado.leg.br/norma/31865675/publicacao/31866001",
+      "file": "sources/references/lei-13964-2019-original.html",
+      "sha256": "d616f03c6abbc61b2d4a05e8999be9316d5e052fc6aa56c920a8cee07ae31064",
+      "publicationDate": "2019-12-24",
+      "paperId": null
+    },
+    {
+      "id": "reference-decreto-10153-2019",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Decreto10.153/2019 — texto original; consultar alterações no cadastro oficial",
+      "issuer": "Senado Federal — legislação",
+      "status": "verified",
+      "officialUrl": "https://legis.senado.leg.br/norma/31787194/publicacao/31787205",
+      "file": "sources/references/decreto-10153-2019-original.html",
+      "sha256": "76f58baf1ca0ae00823d69cccd83384b82577ef21e4fc550b292fefe95b2c0b4",
+      "publicationDate": "2019-12-03",
+      "paperId": null
+    },
+    {
+      "id": "reference-lei-13460-2017",
+      "bankId": "concursos",
+      "kind": "reference",
+      "title": "Lei13.460/2017 — publicação original; direitos dos usuários e avaliação de serviços",
+      "issuer": "Senado Federal — legislação",
+      "status": "verified",
+      "officialUrl": "https://legis.senado.leg.br/norma/17711251/publicacao/17711260",
+      "file": "sources/references/lei-13460-2017-original.html",
+      "sha256": "15e6fec212c95c5f10b0b8aca459ea8ef6392b7dc85c74f499d2f5a6a7ec66d3",
+      "publicationDate": "2017-06-26",
+      "paperId": null
     }
   ],
   "papers": [
@@ -9331,6 +9533,110 @@
         "pairingStatus": "matched_by_filename_and_range",
         "externalVerification": true,
         "containsPreliminaryAnswers": true
+      }
+    },
+    {
+      "id": "source-cpnu2-2025-b1-tipo1",
+      "bankId": "concursos",
+      "title": "CNU2 2025 — Bloco1 — Seguridade Social: Saúde, Assistência Social e Previdência Social — tipo1",
+      "institution": "Ministério da Gestão e da Inovação em Serviços Públicos / Enap",
+      "provider": "FGV",
+      "role": "Bloco Temático1 — Seguridade Social: Saúde, Assistência Social e Previdência Social",
+      "year": 2025,
+      "booklet": "Bloco 1 - Seguridade Social: Saúde, Assistência Social e Previdência Social - TIPO 1",
+      "documentId": "source-cpnu2-2025-b1-tipo1-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-10-05",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 90,
+        "itemCount": 90,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          63
+        ],
+        "answerKeyDocumentId": "source-cpnu2-2025-b1-tipo1-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-cpnu2-2025-b5-tipo1",
+      "bankId": "concursos",
+      "title": "CNU2 2025 — Bloco5 — Administração — tipo1",
+      "institution": "Ministério da Gestão e da Inovação em Serviços Públicos / Enap",
+      "provider": "FGV",
+      "role": "Bloco Temático5 — Administração",
+      "year": 2025,
+      "booklet": "Bloco 5 - Administração - TIPO 1",
+      "documentId": "source-cpnu2-2025-b5-tipo1-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-10-05",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 90,
+        "itemCount": 90,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          46
+        ],
+        "answerKeyDocumentId": "source-cpnu2-2025-b5-tipo1-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-cpnu2-2025-b6-tipo1",
+      "bankId": "concursos",
+      "title": "CNU2 2025 — Bloco6 — Desenvolvimento Socioeconômico — tipo1",
+      "institution": "Ministério da Gestão e da Inovação em Serviços Públicos / Enap",
+      "provider": "FGV",
+      "role": "Bloco Temático6 — Desenvolvimento Socioeconômico",
+      "year": 2025,
+      "booklet": "Bloco 6 - Desenvolvimento Socioeconômico - TIPO 1",
+      "documentId": "source-cpnu2-2025-b6-tipo1-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2025-10-05",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 90,
+        "itemCount": 90,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          35
+        ],
+        "answerKeyDocumentId": "source-cpnu2-2025-b6-tipo1-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
+      }
+    },
+    {
+      "id": "source-tcesc-2026-direito-tipo1",
+      "bankId": "concursos",
+      "title": "TCE/SC2026 — Auditor Fiscal de Controle Externo — Direito — tipo1",
+      "institution": "Tribunal de Contas do Estado de Santa Catarina",
+      "provider": "FGV",
+      "role": "Auditor Fiscal de Controle Externo — Direito",
+      "year": 2026,
+      "booklet": "Auditor Fiscal de Controle Externo - Direito - 1",
+      "documentId": "source-tcesc-2026-direito-tipo1-paper",
+      "status": "verified",
+      "inventory": {
+        "applicationDate": "2026-05-24",
+        "block": "mixed",
+        "firstItem": 1,
+        "lastItem": 100,
+        "itemCount": 100,
+        "questionType": "multiple_choice",
+        "annulledItems": [
+          46
+        ],
+        "answerKeyDocumentId": "source-tcesc-2026-direito-tipo1-key",
+        "pairingStatus": "matched_by_role_type_and_session",
+        "externalVerification": true
       }
     }
   ],
@@ -34015,7 +34321,7 @@
     {
       "id": "cgesp-2025-audit-am-q022",
       "bankId": "concursos",
-      "revision": 1,
+      "revision": 2,
       "type": "multiple_choice",
       "stem": "Os auditores internos governamentais devem se comportar com cortesia e respeito no trato com pessoas, mesmo em situações de divergência de opinião, abstendo-se de emitir juízo ou adotar práticas que indiquem qualquer tipo de discriminação ou preconceito.\n\nAssinale a opção que indica o princípio fundamental para a prática da atividade de Auditoria Interna Governamental que exige esse comportamento dos auditores internos.",
       "options": [
@@ -35524,6 +35830,850 @@
         "temporalScope": "conceptual",
         "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
         "decisionReference": "documentation/expansion-eighth-release.md"
+      }
+    },
+    {
+      "id": "038-anm-012-01-q057",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O lobby pode ser definido como qualquer ação destinada a influenciar instituições governamentais nos níveis federal, estadual ou municipal, exercida por um grupo de interesse com o objetivo de ser ouvido pelo poder público.",
+      "options": [],
+      "contextIds": [
+        "closure-anm-lobby"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-012-01",
+        "number": 57,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-012-01-q057-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "038-anm-012-01-q059",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "true_false",
+      "stem": "O lobista (lobbyist) representa externamente a empresa perante o governo e a comunidade, visando à dinamização de negócios, analisando fatores ambientais específicos e facilitando a tramitação de medidas pela troca de favores e distribuição de presentes.",
+      "options": [],
+      "contextIds": [
+        "closure-anm-lobby"
+      ],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-038-anm-012-01",
+        "number": 59,
+        "locator": "PDF p. 1"
+      },
+      "answerKeyId": "038-anm-012-01-q059-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q054",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Em tema de medidas preventivas à corrupção, a Convenção das Nações Unidas contra a Corrupção, promulgada por meio do Decreto nº 5.687/2006, estabelece que cada Estado Parte adotará medidas adequadas, no limite de suas possibilidades e em conformidade com os princípios fundamentais de sua legislação interna, para:",
+      "options": [
+        {
+          "id": "a",
+          "text": "estabelecer sistemas apropriados de contratação pública, baseados na transparência, na competência e em critérios subjetivos de adoção de decisões, que sejam eficazes, entre outras coisas, para prevenir a corrupção em licitações e contratos administrativos;"
+        },
+        {
+          "id": "b",
+          "text": "limitar a transparência proporcionalmente em sua administração pública, com o objetivo de diminuir o risco de oferecimento de propina ao gestor público e promover a simplificação dos procedimentos administrativos, para facilitar o acesso do público às autoridades encarregadas da adoção de decisões;"
+        },
+        {
+          "id": "c",
+          "text": "promover a integridade, a honestidade e a responsabilidade entre seus funcionários públicos, assim como aplicar, em seus próprios ordenamentos institucionais e jurídicos, códigos ou normas de conduta para o correto, honroso e devido cumprimento das funções públicas, mediante imposição de sanções administrativas aos infratores, desde que precedida de decisão judicial;"
+        },
+        {
+          "id": "d",
+          "text": "fomentar a participação ativa de pessoas e grupos que não pertençam ao setor público, como a sociedade civil, as organizações não governamentais e as organizações com base na comunidade, na prevenção e na luta contra a corrupção, e para sensibilizar a opinião pública a respeito da existência, das causas e da gravidade da corrupção, assim como da ameaça que esta representa;"
+        },
+        {
+          "id": "e",
+          "text": "garantir a existência de um único órgão, encarregado de prevenir a corrupção com medidas tais como a formulação, a aplicação e a manutenção em vigor de políticas coordenadas e eficazes contra a corrupção que promovam a participação da sociedade e reflitam os princípios do estado de direito, a devida gestão dos assuntos e bens públicos, a integridade, a transparência e a obrigação de render contas."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+        "number": 54,
+        "locator": "PDF p. 18"
+      },
+      "answerKeyId": "cgu-2022-correicao-tarde-tipo1-q054-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q070",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "A Controladoria-Geral da União, por meio da sua Secretaria Federal de Controle Interno, tem competência para fiscalizar e avaliar a execução de programas de governo, inclusive ações descentralizadas com recursos dos orçamentos da União, realizar auditorias e avaliar os resultados da gestão dos administradores públicos, apurar denúncias e executar atividades de apoio ao controle externo. Caso a CGU aponte a existência de fundados indícios de que houve superfaturamento e irregularidade na execução de determinado contrato público, resultando em desvio de verba pública, do ponto de vista probatório, é correto afirmar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "a perícia realizada pelos órgãos estatais de controle serve apenas para a deflagração da investigação preliminar, não podendo ser valorada pelo juiz na sentença;"
+        },
+        {
+          "id": "b",
+          "text": "a materialidade de delitos praticados contra a Administração Pública deve ser demonstrada por perícia realizada pelos órgãos estatais de natureza policial;"
+        },
+        {
+          "id": "c",
+          "text": "a perícia realizada pelos órgãos estatais de controle serve apenas para embasar decisões judiciais sumárias, dependendo de prova de reforço para ter validade;"
+        },
+        {
+          "id": "d",
+          "text": "a materialidade de delitos praticados contra a Administração Pública pode ser demonstrada por perícia realizada pelos órgãos estatais de controle;"
+        },
+        {
+          "id": "e",
+          "text": "a perícia realizada pelos órgãos estatais de controle serve apenas para embasar a formação da opinio delicti ministerial, dependendo de prova de reforço para ter validade."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+        "number": 70,
+        "locator": "PDF p. 23"
+      },
+      "answerKeyId": "cgu-2022-correicao-tarde-tipo1-q070-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "historical_question",
+        "temporalNote": "Questão aplicada em2022: preserva seu enquadramento jurisprudencial e chaveD. O comentário delimita o valor probatório; não certifica todos os julgados posteriores ou a suficiência de qualquer relatório para condenação.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "cgesp-2025-cor-pm-q019",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Cada Estado-parte, de conformidade com os princípios fundamentais de seu ordenamento jurídico, formulará, aplicará ou manterá em vigor políticas coordenadas e eficazes contra a corrupção que reflitam os princípios do Estado de Direito, a devida gestão dos assuntos e bens públicos, a integridade, a transparência e a obrigação de render contas. Nesse cenário, considerando as disposições da Convenção das Nações Unidas contra a Corrupção, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Os Estados-parte, em conformidade com os princípios fundamentais de seu ordenamento jurídico, colaborarão entre si e com as organizações internacionais e regionais pertinentes na promoção e formulação das medidas contra a corrupção. Essa colaboração deverá compreender a participação em programas e projetos internacionais destinados a prevenir a corrupção. ( ) Cada Estado-parte procurará avaliar, semestralmente, os instrumentos jurídicos e as medidas administrativas pertinentes, a fim de promover a participação da sociedade ( ) Cada Estado-parte procurará estabelecer e fomentar práticas eficazes para prevenir a corrupção. As afirmativas são, respectivamente,",
+      "options": [
+        {
+          "id": "a",
+          "text": "F – V – F."
+        },
+        {
+          "id": "b",
+          "text": "F – F – V."
+        },
+        {
+          "id": "c",
+          "text": "V – V – V."
+        },
+        {
+          "id": "d",
+          "text": "V – V – F."
+        },
+        {
+          "id": "e",
+          "text": "V – F – V."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cgesp-2025-cor-pm",
+        "number": 19,
+        "locator": "PDF p. 7"
+      },
+      "answerKeyId": "cgesp-2025-cor-pm-q019-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "cge-sc-2023-administracao-tarde-tipo1-q038",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Um gerente atua em uma determinada política pública e precisa desenvolver um sistema de avaliação visando a determinar a relevância e a realização dos seus objetivos e sua eficiência, eficácia, impactos e sustentabilidade. Entretanto, o gerente instruiu sua equipe no sentido de pensar em ações que levantem a adequação dos controles gerenciais e sistemas, bem como a conformidade com regulamentos, regras e procedimentos definidos no âmbito da política. É muito comum confundir a ação de avaliação com outras ações empreendidas nas organizações, no sentido de aprimorar diferentes dimensões de gestão, ou a partir de diferentes métodos. Ao dar essa instrução, o gerente confundiu o conceito de avaliação com a noção de",
+      "options": [
+        {
+          "id": "a",
+          "text": "appraisal."
+        },
+        {
+          "id": "b",
+          "text": "auditoria."
+        },
+        {
+          "id": "c",
+          "text": "consultoria interna."
+        },
+        {
+          "id": "d",
+          "text": "monitoramento."
+        },
+        {
+          "id": "e",
+          "text": "pesquisa temática."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cge-sc-2023-administracao-tarde-tipo1",
+        "number": 38,
+        "locator": "PDF p. 10"
+      },
+      "answerKeyId": "cge-sc-2023-administracao-tarde-tipo1-q038-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q014",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "No estudo da ética para a Administração Pública, costuma-se, na literatura internacional, pensar a integridade não apenas como virtude do agente público como profissional que atua na Administração Pública, como também do próprio sistema organizacional. Essa perspectiva leva à indicação de elementos essenciais de políticas de integridade no setor público, dentre os quais se incluiriam a definição de códigos de conduta, a formação em ética como parte da estratégia anticorrupção, a existência de comissões de ética independentes que apoiem a implementação efetiva do código e, finalmente, a prevenção e a regulação dos conflitos de interesses. Com relação à experiência brasileira, é correto afirmar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "o aprimoramento do sistema de prevenção e regulação do conflito de interesses é importante, o que pode envolver novas restrições ao exercício de empregos adicionais ao principal emprego público, a apresentação de declarações de renda e patrimônio do agente público e de seus familiares e o aperfeiçoamento da quarentena;"
+        },
+        {
+          "id": "b",
+          "text": "as comissões de ética são obrigatórias na estrutura da Administração Federal, tendo um decreto estabelecido a sua criação, com atribuições atinentes à aplicação do Código de Ética, como parte do programa de integridade; no entanto, não há controle do cumprimento de tal exigência;"
+        },
+        {
+          "id": "c",
+          "text": "existe, em nível federal, um Código de Ética aplicável a todos os servidores públicos, não sendo possível o estabelecimento de códigos de ética setoriais que levem em conta as peculiaridades de cada instituição;"
+        },
+        {
+          "id": "d",
+          "text": "os programas de mentoria e de desenvolvimento profissional são muito relevantes, mas não têm qualquer relação com as políticas de integridade no serviço público;"
+        },
+        {
+          "id": "e",
+          "text": "a formação em ética compreende a adoção de vários métodos de ensino, devendo ser prevista exclusivamente para os novos servidores empossados."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cpnu2-2025-b5-tipo1",
+        "number": 14,
+        "locator": "PDF p. 7"
+      },
+      "answerKeyId": "cpnu2-2025-b5-tipo1-q014-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q043",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Em um órgão público federal, foi identificado que um setor responsável por contratos não possui segregação adequada de funções, facilitando a manipulação de documentos e pagamentos indevidos a fornecedores fictícios. A controladoria interna recomendou a implementação de um programa de compliance com foco em governança, gestão de riscos e canais de denúncia. Considerando as melhores práticas e a legislação brasileira, a principal vantagem da implantação desse programa será:",
+      "options": [
+        {
+          "id": "a",
+          "text": "reduzir a burocracia e acelerar a aprovação de contratos, mesmo que com menor controle, para garantir agilidade na Administração Pública;"
+        },
+        {
+          "id": "b",
+          "text": "aumentar a transparência e a responsabilização, dificultando a ocorrência e a ocultação de fraudes, por meio de controles internos eficazes;"
+        },
+        {
+          "id": "c",
+          "text": "permitir a fiscalização pelos órgãos externos, como tribunais de contas, que têm maior autoridade;"
+        },
+        {
+          "id": "d",
+          "text": "garantir que todos os pagamentos sejam realizados, independentemente da documentação apresentada, para evitar atrasos;"
+        },
+        {
+          "id": "e",
+          "text": "evitar a necessidade de auditorias internas, pois o programa de compliance substitui os controles tradicionais."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cpnu2-2025-b5-tipo1",
+        "number": 43,
+        "locator": "PDF p. 14"
+      },
+      "answerKeyId": "cpnu2-2025-b5-tipo1-q043-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q051",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Everaldo foi aprovado em um concurso para um órgão da Administração Pública federal para atuar na área de Auditoria Interna. Ao assumir o cargo, ele foi informado de que o órgão adota o Modelo das Três Linhas, uma estrutura voltada ao fortalecimento dos controles internos por meio de linhas de defesa, na qual as linhas, embora tenham responsabilidades distintas, devem atuar de forma coordenada entre si. Diante desse cenário, e considerando as diretrizes do Modelo das Três Linhas, as atribuições que competem a Everaldo em sua função estão no âmbito da:",
+      "options": [
+        {
+          "id": "a",
+          "text": "primeira linha, responsável por identificar, avaliar, controlar e mitigar riscos diretamente nas atividades operacionais do órgão;"
+        },
+        {
+          "id": "b",
+          "text": "segunda linha, garantindo a conformidade das ações com as expectativas legais, regulatórias, de compliance e éticas;"
+        },
+        {
+          "id": "c",
+          "text": "segunda linha, assegurando a adequação e eficácia dos controles internos e sua integração ao processo de gestão, considerando as complexidades;"
+        },
+        {
+          "id": "d",
+          "text": "terceira linha, prestando serviços de avaliação e assessoria independentes, a fim de verificar a efetividade dos controles e da governança organizacional;"
+        },
+        {
+          "id": "e",
+          "text": "terceira linha, atuando na implantação e manutenção permanente dos controles internos finalísticos, durante a execução das políticas públicas in loco."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cpnu2-2025-b5-tipo1",
+        "number": 51,
+        "locator": "PDF p. 16"
+      },
+      "answerKeyId": "cpnu2-2025-b5-tipo1-q051-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q056",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "A implementação de políticas públicas frequentemente envolve diferentes níveis e esferas de governo, exigindo mecanismos de coordenação e cooperação interinstitucional. Essa complexidade se intensifica em contextos federativos, com desigualdades regionais e capacidades administrativas heterogêneas. Em um contexto federativo marcado por assimetrias institucionais, como o brasileiro, a implementação de políticas públicas tende a ser efetiva quando:",
+      "options": [
+        {
+          "id": "a",
+          "text": "é exercido controle hierárquico rígido sobre os entes locais, por parte do governo central, evitando-se desvios de objetivos e garantindo-se alinhamento técnico e político das ações;"
+        },
+        {
+          "id": "b",
+          "text": "são estabelecidos arranjos cooperativos entre os entes locais para uma atuação autônoma e independente das diretrizes nacionais;"
+        },
+        {
+          "id": "c",
+          "text": "são estabelecidos arranjos cooperativos articulados com as políticas nacionais e com a capacidade dos governos locais;"
+        },
+        {
+          "id": "d",
+          "text": "são estabelecidos arranjos cooperativos consultivos locais e se prioriza a transferência de competências para o setor privado, com base em contratos de desempenho;"
+        },
+        {
+          "id": "e",
+          "text": "são estabelecidos arranjos cooperativos locais, mas a implementação permanece centralizada, garantindo alinhamento técnico e político das ações."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cpnu2-2025-b5-tipo1",
+        "number": 56,
+        "locator": "PDF p. 17"
+      },
+      "answerKeyId": "cpnu2-2025-b5-tipo1-q056-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q057",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Servidores públicos que atuam na linha de frente da implementação, como “burocratas de nível de rua” (Lotta, 2012), exercem discricionariedade no momento de aplicar políticas, lidando com conflitos de interesse, escassez de recursos e demandas diversas. A gestão dessa discricionariedade é crucial para garantir equidade, eficiência e legitimidade das ações. A atuação dos “burocratas de nível de rua” contribui para a efetividade da implementação de políticas públicas quando esses servidores:",
+      "options": [
+        {
+          "id": "a",
+          "text": "aplicam estritamente as normas vigentes, minimizando a margem para interpretações e julgamentos subjetivos;"
+        },
+        {
+          "id": "b",
+          "text": "atuam com base em regras, exercendo discricionariedade com base em critérios pessoais, valorizando soluções práticas e informais;"
+        },
+        {
+          "id": "c",
+          "text": "atuam com base em regras, mas com espaço para julgamento contextualizado e mecanismos de prestação de contas;"
+        },
+        {
+          "id": "d",
+          "text": "atuam com base em regras e são supervisionados por superiores hierárquicos, com punições associadas ao desempenho;"
+        },
+        {
+          "id": "e",
+          "text": "possuem liberdade de decisão, pois são os que melhor conhecem a realidade dos usuários das políticas."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cpnu2-2025-b5-tipo1",
+        "number": 57,
+        "locator": "PDF p. 18"
+      },
+      "answerKeyId": "cpnu2-2025-b5-tipo1-q057-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q061",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "O ciclo das políticas públicas compreende etapas interdependentes que raramente ocorrem de forma linear. Para que os resultados da avaliação sejam úteis, tempestivos e politicamente relevantes, é fundamental que as estratégias adotadas estejam coerentes com a etapa específica em que se encontra a política. De acordo com os critérios da OCDE e do Banco Mundial, uma estratégia avaliativa com validade metodológica para monitorar a implementação de políticas intersetoriais de redução da pobreza deve priorizar:",
+      "options": [
+        {
+          "id": "a",
+          "text": "avaliação de impacto baseada em grupos de controle, voltada à estimativa de efeitos de longo prazo sobre a renda das famílias;"
+        },
+        {
+          "id": "b",
+          "text": "análise de conformidade jurídica, com foco na aderência da política às normas constitucionais e orçamentárias;"
+        },
+        {
+          "id": "c",
+          "text": "monitoramento contínuo de indicadores operacionais e qualitativos, com foco em ajustes de processo e fluxos de execução;"
+        },
+        {
+          "id": "d",
+          "text": "avaliação ex ante, centrada na comparação de modelos alternativos de desenho institucional antes da execução;"
+        },
+        {
+          "id": "e",
+          "text": "auditoria de resultados, voltada à análise retrospectiva da eficiência e economicidade da política."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cpnu2-2025-b5-tipo1",
+        "number": 61,
+        "locator": "PDF p. 18"
+      },
+      "answerKeyId": "cpnu2-2025-b5-tipo1-q061-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q063",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "A retroalimentação é uma etapa crítica no ciclo das políticas públicas, pois permite que os resultados da avaliação e do monitoramento influenciem a reformulação de objetivos, estratégias e instrumentos. Trata-se de um processo que depende da capacidade institucional de aprendizagem, da disposição política para mudanças e da existência de mecanismos que integrem evidências ao processo decisório. No ciclo das políticas públicas, a retroalimentação:",
+      "options": [
+        {
+          "id": "a",
+          "text": "garante que a política mantenha seus objetivos originais, evitando desvios estratégicos ao longo do tempo;"
+        },
+        {
+          "id": "b",
+          "text": "permite a continuidade da implementação das ações mesmo quando os resultados se mostram insatisfatórios, reforçando a estabilidade institucional;"
+        },
+        {
+          "id": "c",
+          "text": "consiste na incorporação de informações geradas ao longo da implementação, com o propósito de promover ajustes técnicos e estratégicos no desenho e condução da política;"
+        },
+        {
+          "id": "d",
+          "text": "consiste na formalização jurídica de programas governamentais já executados e avaliados, com vistas à sua perenização;"
+        },
+        {
+          "id": "e",
+          "text": "substitui o processo de avaliação e de monitoramento por mecanismos automatizados de análise de desempenho institucional."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cpnu2-2025-b5-tipo1",
+        "number": 63,
+        "locator": "PDF p. 19"
+      },
+      "answerKeyId": "cpnu2-2025-b5-tipo1-q063-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "cpnu2-2025-b6-tipo1-q056",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Com o intuito de melhorar a articulação entre sua estratégia institucional e a execução de programas prioritários pelas unidades regionais, uma empresa pública de infraestrutura adotou o método Balanced Scorecard (BSC), de Kaplan e Norton, para desdobramento de objetivos estratégicos e elaboração de planos de ação. A diretoria determinou que o mapa estratégico central aprovado pelo conselho fosse desdobrado para cada uma das unidades regionais. Nesse contexto, é correto afirmar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "o método oferece estrutura de gestão que garante os resultados definidos pelo conselho;"
+        },
+        {
+          "id": "b",
+          "text": "cada unidade regional deve elaborar seu mapa estratégico considerando apenas os resultados do workshop com sua equipe;"
+        },
+        {
+          "id": "c",
+          "text": "cada unidade deve elaborar seu mapa estratégico a partir do mapa central com objetivos, indicadores, metas e iniciativas estratégicas;"
+        },
+        {
+          "id": "d",
+          "text": "os objetivos estratégicos das perspectivas externas (financeira e mercado) requerem indicadores, mas as metas são reservadas para as perspectivas internas (aprendizado e crescimento e processos internos);"
+        },
+        {
+          "id": "e",
+          "text": "cada unidade deve elaborar seu mapa estratégico a partir do mapa central com objetivos, indicadores e metas. As iniciativas estratégicas devem ser definidas ao longo do período de planejamento, dependendo da condição orçamentária."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cpnu2-2025-b6-tipo1",
+        "number": 56,
+        "locator": "PDF p. 17"
+      },
+      "answerKeyId": "cpnu2-2025-b6-tipo1-q056-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "cpnu2-2025-b6-tipo1-q064",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "A respeito do risco de captura de um agente regulador por agente regulado, há relação proporcional do risco com:",
+      "options": [
+        {
+          "id": "a",
+          "text": "a presença de mecanismos institucionais de interação entre regulador e interessados;"
+        },
+        {
+          "id": "b",
+          "text": "a duração do mandato do corpo diretivo das agências, pois favorece a criação de vínculos com os regulados;"
+        },
+        {
+          "id": "c",
+          "text": "o baixo volume de estoque regulatório, já que a produção de normas indica funcionamento adequado da agência;"
+        },
+        {
+          "id": "d",
+          "text": "a ausência de sistemas auditáveis de compartilhamento de dados, pois aumenta-se a assimetria de informações;"
+        },
+        {
+          "id": "e",
+          "text": "a ausência de normas punitivas, visto que a previsão normativa de sanções é suficiente para coibir desvios de conduta."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cpnu2-2025-b6-tipo1",
+        "number": 64,
+        "locator": "PDF p. 19"
+      },
+      "answerKeyId": "cpnu2-2025-b6-tipo1-q064-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "cpnu2-2025-b6-tipo1-q065",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Em um modelo contratual de concessão de serviço público, o Estado delega a prestação à iniciativa privada, mantendo a responsabilidade de regulação e fiscalização. Considerando a perspectiva dos aspectos informacionais, a alternativa que descreve com maior precisão um risco típico associado à presença de informações privadas do concessionário e uma medida eficaz para mitigá-lo é a seguinte:",
+      "options": [
+        {
+          "id": "a",
+          "text": "risco de seleção adversa, mitigado por cláusulas que permitam renegociação automática em função de flutuações de demanda;"
+        },
+        {
+          "id": "b",
+          "text": "risco de captura regulatória, mitigado pela redução da transparência pública dos relatórios da concessionária;"
+        },
+        {
+          "id": "c",
+          "text": "risco de assimetria técnica, mitigado por contratos incompletos com discricionariedade ampliada ao concessionário;"
+        },
+        {
+          "id": "d",
+          "text": "risco moral, mitigado por incentivos explícitos atrelados a metas verificáveis e monitoramento independente de desempenho;"
+        },
+        {
+          "id": "e",
+          "text": "risco de falha de mercado, mitigado por transferência total das decisões operacionais para o poder concedente."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cpnu2-2025-b6-tipo1",
+        "number": 65,
+        "locator": "PDF p. 19"
+      },
+      "answerKeyId": "cpnu2-2025-b6-tipo1-q065-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "cpnu2-2025-b1-tipo1-q086",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "Observe o seguinte depoimento de um jornal local: “Durante sete anos, trabalhei em uma clínica privada da cidade. Os últimos três anos foram horríveis; inclusive, já não queria ir trabalhar. Me levantar ao acordar era um martírio. Fui vítima de gritos e insultos por parte de minha chefe imediata. Meus companheiros também passavam frequentemente por isso. Por exemplo, se ela (a chefe) tinha qualquer indisposição com alguém de sua equipe, ela convocava uma reunião com todos, mas não chamava a pessoa com quem teve a discórdia. E nessa reunião, falava mal da pessoa, pressionava todos os companheiros para que a deixássemos à margem. E, se alguém negava, era uma perseguição indireta eterna. Era comum também que pedisse para fazermos horas extras na última hora, e havia muito maltrato quando alguém se negava. Muitas vezes passei a noite trabalhando para evitar situações embaraçosas. Ao solicitar ao departamento de Recursos Humanos para mudar de área, a chefe do departamento pediu que eu aguardasse, porque certamente era passageira a situação”. A responsabilidade pelo assédio cabe:",
+      "options": [
+        {
+          "id": "a",
+          "text": "à chefe imediata (como agressora ativa), apenas;"
+        },
+        {
+          "id": "b",
+          "text": "à chefe imediata (como agressora ativa) e à chefe de Recursos Humanos (como sustento);"
+        },
+        {
+          "id": "c",
+          "text": "à chefe imediata (como agressora ativa) e aos companheiros da vítima (que sustentam a situação);"
+        },
+        {
+          "id": "d",
+          "text": "à chefe imediata (como agressora ativa), aos companheiros da vítima (como apoiadores) e à chefe de Recursos Humanos (como sustento);"
+        },
+        {
+          "id": "e",
+          "text": "à chefe imediata (como agressora ativa), aos companheiros da vítima (como seguidores) e à chefe de Recursos Humanos (como sustento)."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-cpnu2-2025-b1-tipo1",
+        "number": 86,
+        "locator": "PDF p. 25"
+      },
+      "answerKeyId": "cpnu2-2025-b1-tipo1-q086-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
+      }
+    },
+    {
+      "id": "tcesc-2026-direito-tipo1-q043",
+      "bankId": "concursos",
+      "revision": 1,
+      "type": "multiple_choice",
+      "stem": "O programa de integridade é um instrumento de compliance que consiste, no âmbito de uma pessoa jurídica, no conjunto de mecanismos e procedimentos internos de integridade, auditoria e incentivo à denúncia de irregularidades e na aplicação efetiva de códigos de ética e de conduta, políticas e diretrizes organizacionais. Sobre os programas de integridade, considere as afirmativas a seguir:\n\nI. A consulta prévia ao Cadastro de Empresas Punidas (CNEO) é uma ação de Due Diligence adotada no setor público.\n\nII. As políticas de controle adotadas por outras organizações podem ser reproduzidas, desde que se apliquem aos mesmos processos de trabalho.\n\nIII. Um sistema de punições pode não ser adequado na implementação de um programa de integridade e de gestão de riscos.\n\nEstá correto o que se afirma em",
+      "options": [
+        {
+          "id": "a",
+          "text": "I, apenas."
+        },
+        {
+          "id": "b",
+          "text": "II, apenas."
+        },
+        {
+          "id": "c",
+          "text": "II e III, apenas."
+        },
+        {
+          "id": "d",
+          "text": "I e III, apenas."
+        },
+        {
+          "id": "e",
+          "text": "I, II e III."
+        }
+      ],
+      "contextIds": [],
+      "origin": {
+        "kind": "official",
+        "paperId": "source-tcesc-2026-direito-tipo1",
+        "number": 43,
+        "locator": "PDF p. 11"
+      },
+      "answerKeyId": "tcesc-2026-direito-tipo1-q043-key-v1",
+      "review": {
+        "status": "released",
+        "method": "agent_assisted",
+        "reviewer": "Codex",
+        "reviewedAt": "2026-10-29",
+        "sourceCompared": true,
+        "contextCompared": true,
+        "answerKeyCompared": true,
+        "temporalScope": "conceptual",
+        "temporalNote": "Questão oficial, gabarito definitivo e contexto conferidos. Vínculo parcial delimitado no comentário; não certifica domínio integral.",
+        "decisionReference": "documentation/official-bank-closure.md"
       }
     }
   ],
@@ -45342,6 +46492,240 @@
       "locator": "PDF p. 1 — 012_TCDF_AUDITOR_002_01",
       "result": "valid",
       "value": false
+    },
+    {
+      "id": "038-anm-012-01-q057-key-v1",
+      "questionId": "038-anm-012-01-q057",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-012-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 038_ANM_012_01",
+      "result": "valid",
+      "value": true
+    },
+    {
+      "id": "038-anm-012-01-q059-key-v1",
+      "questionId": "038-anm-012-01-q059",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-038-anm-012-01-key",
+      "author": null,
+      "locator": "PDF p. 1 — 038_ANM_012_01",
+      "result": "valid",
+      "value": false
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q054-key-v1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q054",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 25 — Auditor Federal de Finanças e Controle - Correição e Combate à Corrupção – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q070-key-v1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q070",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 25 — Auditor Federal de Finanças e Controle - Correição e Combate à Corrupção – Tipo 1 | Tarde",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "cgesp-2025-cor-pm-q019-key-v1",
+      "questionId": "cgesp-2025-cor-pm-q019",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cgesp-2025-cor-pm-key",
+      "author": null,
+      "locator": "PDF p. 2 — Auditor Estadual de Controle CGE - Correição e Combate à Corrupção - 1 - Turno Tarde",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "cge-sc-2023-administracao-tarde-tipo1-q038-key-v1",
+      "questionId": "cge-sc-2023-administracao-tarde-tipo1-q038",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cge-sc-2023-administracao-tarde-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 2 — Auditor do Estado - Administração - TIPO 1 (Tarde)",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q014-key-v1",
+      "questionId": "cpnu2-2025-b5-tipo1-q014",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cpnu2-2025-b5-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 9 — Bloco 5 - Administração - TIPO 1",
+      "result": "valid",
+      "value": "a"
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q043-key-v1",
+      "questionId": "cpnu2-2025-b5-tipo1-q043",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cpnu2-2025-b5-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 9 — Bloco 5 - Administração - TIPO 1",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q051-key-v1",
+      "questionId": "cpnu2-2025-b5-tipo1-q051",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cpnu2-2025-b5-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 9 — Bloco 5 - Administração - TIPO 1",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q056-key-v1",
+      "questionId": "cpnu2-2025-b5-tipo1-q056",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cpnu2-2025-b5-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 9 — Bloco 5 - Administração - TIPO 1",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q057-key-v1",
+      "questionId": "cpnu2-2025-b5-tipo1-q057",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cpnu2-2025-b5-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 9 — Bloco 5 - Administração - TIPO 1",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q061-key-v1",
+      "questionId": "cpnu2-2025-b5-tipo1-q061",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cpnu2-2025-b5-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 9 — Bloco 5 - Administração - TIPO 1",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q063-key-v1",
+      "questionId": "cpnu2-2025-b5-tipo1-q063",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cpnu2-2025-b5-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 9 — Bloco 5 - Administração - TIPO 1",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "cpnu2-2025-b6-tipo1-q056-key-v1",
+      "questionId": "cpnu2-2025-b6-tipo1-q056",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cpnu2-2025-b6-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 11 — Bloco 6 - Desenvolvimento Socioeconômico - TIPO 1",
+      "result": "valid",
+      "value": "c"
+    },
+    {
+      "id": "cpnu2-2025-b6-tipo1-q064-key-v1",
+      "questionId": "cpnu2-2025-b6-tipo1-q064",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cpnu2-2025-b6-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 11 — Bloco 6 - Desenvolvimento Socioeconômico - TIPO 1",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "cpnu2-2025-b6-tipo1-q065-key-v1",
+      "questionId": "cpnu2-2025-b6-tipo1-q065",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cpnu2-2025-b6-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 11 — Bloco 6 - Desenvolvimento Socioeconômico - TIPO 1",
+      "result": "valid",
+      "value": "d"
+    },
+    {
+      "id": "cpnu2-2025-b1-tipo1-q086-key-v1",
+      "questionId": "cpnu2-2025-b1-tipo1-q086",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-cpnu2-2025-b1-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 1 — Bloco 1 - Seguridade Social: Saúde, Assistência Social e Previdência Social - TIPO 1",
+      "result": "valid",
+      "value": "b"
+    },
+    {
+      "id": "tcesc-2026-direito-tipo1-q043-key-v1",
+      "questionId": "tcesc-2026-direito-tipo1-q043",
+      "version": 1,
+      "origin": "official",
+      "stage": "definitive",
+      "status": "confirmed",
+      "documentId": "source-tcesc-2026-direito-tipo1-key",
+      "author": null,
+      "locator": "PDF p. 4 — Auditor Fiscal de Controle Externo - Direito - 1",
+      "result": "valid",
+      "value": "a"
     }
   ],
   "explanations": [
@@ -58791,9 +60175,9 @@
       ]
     },
     {
-      "id": "cgesp-2025-audit-am-q022-comment-v1",
+      "id": "cgesp-2025-audit-am-q022-comment-v2",
       "questionId": "cgesp-2025-audit-am-q022",
-      "text": "Alternativa C. Cortesia, respeito e abstenção de discriminação integram a integridade na prática de auditoria. O dever permanece diante de divergências de opinião. A IN SFC 3/2017, item 43, prevê esse comportamento no referencial federal. É uma amostra de conduta profissional; não reproduz nem substitui o Código de Ética próprio da CGU.",
+      "text": "Alternativa C. A cortesia e o respeito, inclusive na divergência, integram a integridade na prática da auditoria (IN SFC 3/2017,item 43). O Código de Conduta Profissional da CGU disponibilizado pela Comissão de Ética também exige civilidade, respeito e igualdade (art.1º,parágrafo único) e veda preconceitos no convívio funcional (art.3º,II eVII), além de exigir respeito aos interlocutores (XIV). É primeira amostra desses valores aplicados ao comportamento profissional na CGU; não cobre todo o código, assédio, consulta ética ou processo de responsabilização.",
       "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
       "status": "reviewed",
       "references": [
@@ -58808,6 +60192,10 @@
         {
           "documentId": "reference-cgu-in3-2017-consolidada",
           "locator": "Item43, integridade e comportamento respeitoso"
+        },
+        {
+          "documentId": "reference-cgu-codigo-conduta-2009",
+          "locator": "Arts.1º,parágrafo único, e3º,II,VII,XIV"
         }
       ]
     },
@@ -59389,6 +60777,328 @@
         {
           "documentId": "source-tcdf-2024-psicologia-002-01-key",
           "locator": "PDF p. 1, questão 160"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-012-01-q057-comment-v1",
+      "questionId": "038-anm-012-01-q057",
+      "text": "Certo. O item define lobby como atuação de um grupo de interesses para ser ouvido e influenciar decisões governamentais. Representação de interesses não é, por si só, troca de favores ou corrupção. É amostra do componente de representação legítima, não de todos os mecanismos de captura. Para a ABDI, o vínculo se limita ao relacionamento com o governo como um dos públicos de interesse.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-012-01-paper",
+          "locator": "PDF p. 1, questão 57"
+        },
+        {
+          "documentId": "source-038-anm-012-01-key",
+          "locator": "PDF p. 1, questão 57"
+        }
+      ]
+    },
+    {
+      "id": "038-anm-012-01-q059-comment-v1",
+      "questionId": "038-anm-012-01-q059",
+      "text": "Errado. O lobby não se define pela troca de favores e distribuição de presentes. A interlocução legítima de interesses deve ser distinguida de influência indevida e favorecimento. A questão inicia essa distinção sem certificar todas as normas de presentes, agendas ou representação de interesses; o vínculo ABDI é apenas o público governamental.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-038-anm-012-01-paper",
+          "locator": "PDF p. 1, questão 59"
+        },
+        {
+          "documentId": "source-038-anm-012-01-key",
+          "locator": "PDF p. 1, questão 59"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q054-comment-v1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q054",
+      "text": "Alternativa D. O art.13 da Convenção da ONU prevê participação ativa de pessoas e grupos fora do setor público na prevenção e luta contra a corrupção e na sensibilização sobre suas causas e gravidade. Não exige órgão único, critérios subjetivos de contratação nem decisão judicial prévia para toda sanção administrativa. Amostra do componente de prevenção e participação, não de toda reparação ou responsabilização.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-correicao-tarde-tipo1-paper",
+          "locator": "PDF p. 18, questão 54"
+        },
+        {
+          "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+          "locator": "PDF p. 25, questão 54"
+        },
+        {
+          "documentId": "reference-uncac-cartilha-2016",
+          "locator": "Convenção, arts.6,8,9,10 e13"
+        }
+      ]
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q070-comment-v1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q070",
+      "text": "Alternativa D no gabarito definitivo. A materialidade de delitos contra a Administração pode ser demonstrada por perícia produzida por órgãos estatais de controle; não há exclusividade automática da perícia policial. Esse aproveitamento probatório não equivale a condenação: licitude, contraditório, defesa e valoração motivada continuam necessários. É amostra da cooperação e do aproveitamento de evidências de controle, sem transferir competências sancionatórias ao auditor.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgu-2022-correicao-tarde-tipo1-paper",
+          "locator": "PDF p. 23, questão 70"
+        },
+        {
+          "documentId": "source-cgu-2022-correicao-tarde-tipo1-key",
+          "locator": "PDF p. 25, questão 70"
+        }
+      ]
+    },
+    {
+      "id": "cgesp-2025-cor-pm-q019-comment-v1",
+      "questionId": "cgesp-2025-cor-pm-q019",
+      "text": "Alternativa B: F–F–V. No art.5º da Convenção da ONU, a colaboração poderá compreender programas e projetos internacionais; a primeira assertiva transforma essa possibilidade em dever. A revisão dos instrumentos é periódica, não obrigatoriamente semestral. A promoção de práticas eficazes de prevenção está prevista. Amostra de cooperação e prevenção, não cobertura integral das respostas à corrupção.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cgesp-2025-cor-pm-paper",
+          "locator": "PDF p. 7, questão 19"
+        },
+        {
+          "documentId": "source-cgesp-2025-cor-pm-key",
+          "locator": "PDF p. 2, questão 19"
+        },
+        {
+          "documentId": "reference-uncac-cartilha-2016",
+          "locator": "Convenção, art.5º,§§2º–4º"
+        }
+      ]
+    },
+    {
+      "id": "cge-sc-2023-administracao-tarde-tipo1-q038-comment-v1",
+      "questionId": "cge-sc-2023-administracao-tarde-tipo1-q038",
+      "text": "Alternativa B. O caso contrasta a avaliação da relevância, objetivos e efeitos da política com o exame da adequação de controles e conformidade a regras, identificado como auditoria na questão. Isso não significa que toda auditoria se restrinja à conformidade: auditorias operacionais também examinam desempenho. A amostra distingue perguntas e finalidades no caso apresentado, sem separar de modo absoluto avaliação de políticas e auditoria.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cge-sc-2023-administracao-tarde-tipo1-paper",
+          "locator": "PDF p. 10, questão 38"
+        },
+        {
+          "documentId": "source-cge-sc-2023-administracao-tarde-tipo1-key",
+          "locator": "PDF p. 2, questão 38"
+        }
+      ]
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q014-comment-v1",
+      "questionId": "cpnu2-2025-b5-tipo1-q014",
+      "text": "Alternativa A. Integridade institucional envolve prevenção de conflitos, formação, códigos e mecanismos de orientação, para além da virtude individual. Códigos setoriais são possíveis; formação ética não deve ficar restrita aos recém-ingressos e mentoria pode contribuir para a integridade. O item discute aperfeiçoamentos e não altera por si os requisitos legais de quarentena. Amostra de cultura e orientação, não de todo o programa de integridade.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cpnu2-2025-b5-tipo1-paper",
+          "locator": "PDF p. 7, questão 14"
+        },
+        {
+          "documentId": "source-cpnu2-2025-b5-tipo1-key",
+          "locator": "PDF p. 9, questão 14"
+        }
+      ]
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q043-comment-v1",
+      "questionId": "cpnu2-2025-b5-tipo1-q043",
+      "text": "Alternativa B. O achado de ausência de segregação de funções orienta uma medida de melhoria: controles eficazes e um programa que favoreça transparência e responsabilização. Compliance não dispensa auditoria nem autoriza pagar sem documentação. O vínculo cobre resultados de controle como insumo de melhoria; não demonstra implementação ou redução de fraudes já observada, nem cobre todo tratamento de denúncias.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cpnu2-2025-b5-tipo1-paper",
+          "locator": "PDF p. 14, questão 43"
+        },
+        {
+          "documentId": "source-cpnu2-2025-b5-tipo1-key",
+          "locator": "PDF p. 9, questão 43"
+        }
+      ]
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q051-comment-v1",
+      "questionId": "cpnu2-2025-b5-tipo1-q051",
+      "text": "Alternativa D. Auditoria interna integra a terceira linha e presta avaliação e assessoria independentes. A gestão continua responsável por riscos e controles operacionais; implantar permanentemente os controles finalísticos não é função do auditor. O Modelo das Três Linhas não equivale, por si só, à integração de todas as funções específicas da CGU.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cpnu2-2025-b5-tipo1-paper",
+          "locator": "PDF p. 16, questão 51"
+        },
+        {
+          "documentId": "source-cpnu2-2025-b5-tipo1-key",
+          "locator": "PDF p. 9, questão 51"
+        }
+      ]
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q056-comment-v1",
+      "questionId": "cpnu2-2025-b5-tipo1-q056",
+      "text": "Alternativa C. A implementação em contexto federativo requer cooperação e coordenação entre níveis de governo, considerando capacidades institucionais heterogêneas. A descentralização, isoladamente, não garante capacidade ou equidade de entrega; arranjos devem considerar recursos e responsabilidades concretos.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cpnu2-2025-b5-tipo1-paper",
+          "locator": "PDF p. 17, questão 56"
+        },
+        {
+          "documentId": "source-cpnu2-2025-b5-tipo1-key",
+          "locator": "PDF p. 9, questão 56"
+        }
+      ]
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q057-comment-v1",
+      "questionId": "cpnu2-2025-b5-tipo1-q057",
+      "text": "Alternativa C. A discricionariedade dos agentes de linha de frente pode permitir ajustes diante das condições reais e necessidades dos usuários. Ela precisa de critérios, orientação e controle para não se transformar em arbitrariedade ou desigualdade. A questão não elimina a vinculação à lei e às competências do agente.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cpnu2-2025-b5-tipo1-paper",
+          "locator": "PDF p. 18, questão 57"
+        },
+        {
+          "documentId": "source-cpnu2-2025-b5-tipo1-key",
+          "locator": "PDF p. 9, questão 57"
+        }
+      ]
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q061-comment-v1",
+      "questionId": "cpnu2-2025-b5-tipo1-q061",
+      "text": "Alternativa C. Durante a implementação, monitorar indicadores operacionais e qualitativos orienta ajustes em processos e fluxos. Avaliação ex ante e impacto de longo prazo respondem a outras finalidades e momentos. A menção a indicadores qualitativos não demonstra, por si, triangulação de evidências ou estudo completo de avaliabilidade.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cpnu2-2025-b5-tipo1-paper",
+          "locator": "PDF p. 18, questão 61"
+        },
+        {
+          "documentId": "source-cpnu2-2025-b5-tipo1-key",
+          "locator": "PDF p. 9, questão 61"
+        }
+      ]
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q063-comment-v1",
+      "questionId": "cpnu2-2025-b5-tipo1-q063",
+      "text": "Alternativa C. Retroalimentação incorpora informações produzidas na implementação para ajustar desenho e condução da política. Depende de aprendizagem institucional e uso das evidências, sem garantir permanência dos objetivos nem dispensar avaliação. O vínculo com aprendizagem institucional se limita ao uso de avaliações para melhoria; não cobre todo encaminhamento de denúncias ou apurações.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cpnu2-2025-b5-tipo1-paper",
+          "locator": "PDF p. 19, questão 63"
+        },
+        {
+          "documentId": "source-cpnu2-2025-b5-tipo1-key",
+          "locator": "PDF p. 9, questão 63"
+        }
+      ]
+    },
+    {
+      "id": "cpnu2-2025-b6-tipo1-q056-comment-v1",
+      "questionId": "cpnu2-2025-b6-tipo1-q056",
+      "text": "Alternativa C. O desdobramento do mapa central deve manter objetivos, indicadores, metas e iniciativas estratégicas nas unidades regionais. O método não garante resultados nem permite que cada unidade se desligue do mapa aprovado. Trata-se de planejamento e coordenação de entregas; não é amostra da carta anual de estatais ou de todos os seus mandatos de política pública.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cpnu2-2025-b6-tipo1-paper",
+          "locator": "PDF p. 17, questão 56"
+        },
+        {
+          "documentId": "source-cpnu2-2025-b6-tipo1-key",
+          "locator": "PDF p. 11, questão 56"
+        }
+      ]
+    },
+    {
+      "id": "cpnu2-2025-b6-tipo1-q064-comment-v1",
+      "questionId": "cpnu2-2025-b6-tipo1-q064",
+      "text": "Alternativa D. A ausência de sistemas auditáveis de compartilhamento de dados aumenta a assimetria informacional e pode favorecer captura. Mecanismos legítimos de interação e duração de mandatos não são, isoladamente, medidas suficientes para concluir captura. A mera existência de sanções também não garante prevenção eficaz.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cpnu2-2025-b6-tipo1-paper",
+          "locator": "PDF p. 19, questão 64"
+        },
+        {
+          "documentId": "source-cpnu2-2025-b6-tipo1-key",
+          "locator": "PDF p. 11, questão 64"
+        }
+      ]
+    },
+    {
+      "id": "cpnu2-2025-b6-tipo1-q065-comment-v1",
+      "questionId": "cpnu2-2025-b6-tipo1-q065",
+      "text": "Alternativa D. O caso descreve risco moral: o concessionário pode tomar decisões não observáveis pelo poder concedente após a contratação. Incentivos atrelados a metas verificáveis e monitoramento independente de desempenho ajudam a alinhar os interesses. A existência de informação privada não torna toda situação seleção adversa ou captura, e reduzir a transparência não mitiga o problema.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cpnu2-2025-b6-tipo1-paper",
+          "locator": "PDF p. 19, questão 65"
+        },
+        {
+          "documentId": "source-cpnu2-2025-b6-tipo1-key",
+          "locator": "PDF p. 11, questão 65"
+        }
+      ]
+    },
+    {
+      "id": "cpnu2-2025-b1-tipo1-q086-comment-v1",
+      "questionId": "cpnu2-2025-b1-tipo1-q086",
+      "text": "Alternativa B no gabarito definitivo: a chefe imediata é a agressora ativa e a chefia de Recursos Humanos sustenta a situação ao minimizá-la. A tipologia usada pela prova mostra como práticas institucionais podem sustentar abusos. Não cria responsabilidade jurídica automática de toda testemunha, nem atribui culpa à vítima. É amostra de cultura e incentivos organizacionais, sem cobrir protocolos de acolhimento e proteção.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-cpnu2-2025-b1-tipo1-paper",
+          "locator": "PDF p. 25, questão 86"
+        },
+        {
+          "documentId": "source-cpnu2-2025-b1-tipo1-key",
+          "locator": "PDF p. 1, questão 86"
+        }
+      ]
+    },
+    {
+      "id": "tcesc-2026-direito-tipo1-q043-comment-v1",
+      "questionId": "tcesc-2026-direito-tipo1-q043",
+      "text": "Alternativa A: apenas I. Consultar o cadastro de empresas punidas é medida de diligência. Controles não devem ser copiados mecanicamente apenas porque processos parecem iguais; exigem contexto e riscos. Medidas disciplinares integram os parâmetros do programa. O impresso usa a sigla “CNEO”, preservada; a denominação legal é CNEP (Lei 12.846,art.22). O Decreto 11.129,arts.56–57, destaca adequação aos riscos, medidas disciplinares e diligências. É primeira amostra do componente de diligência e controles, sem certificar a existência ou efetividade de um programa privado.",
+      "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+      "status": "reviewed",
+      "references": [
+        {
+          "documentId": "source-tcesc-2026-direito-tipo1-paper",
+          "locator": "PDF p. 11, questão 43"
+        },
+        {
+          "documentId": "source-tcesc-2026-direito-tipo1-key",
+          "locator": "PDF p. 4, questão 43"
+        },
+        {
+          "documentId": "reference-lei-12846-2013",
+          "locator": "Art.22, CNEP"
+        },
+        {
+          "documentId": "reference-decreto-11129-2022",
+          "locator": "Arts.56 e57,V,XI,XIII"
         }
       ]
     }
@@ -75076,6 +76786,188 @@
       "syllabusItemId": "cgu-2026-etica-publica-4-1",
       "status": "confirmed",
       "justification": "Amostra do componente efetivamente testado em Dignidade, diversidade e relações de poder; reconhecimento e prevenção de assédio e discriminação; respeito, escuta e não retaliação. Limites explicitados no comentário; sem cobertura integral ou extensão automática a normas de outro órgão."
+    },
+    {
+      "id": "038-anm-012-01-q057-closure-mapping-1",
+      "questionId": "038-anm-012-01-q057",
+      "syllabusItemId": "cgu-2026-estado-democracia-7-2",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Captura de políticas e influência indevida; distinção entre representação legítima de interesses e favorecimento. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "038-anm-012-01-q057-closure-mapping-2",
+      "questionId": "038-anm-012-01-q057",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-21",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Relacionamento com públicos de interesse e comunidades. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "038-anm-012-01-q059-closure-mapping-1",
+      "questionId": "038-anm-012-01-q059",
+      "syllabusItemId": "cgu-2026-estado-democracia-7-2",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Captura de políticas e influência indevida; distinção entre representação legítima de interesses e favorecimento. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "038-anm-012-01-q059-closure-mapping-2",
+      "questionId": "038-anm-012-01-q059",
+      "syllabusItemId": "abdi-2026-abdi-comunicacao-marketing-21",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Relacionamento com públicos de interesse e comunidades. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q054-closure-mapping-1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q054",
+      "syllabusItemId": "cgu-2026-estado-democracia-8-2",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Relações entre prevenção, detecção, responsabilização e reparação; controles democráticos, participação e capacidades estatais. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cgu-2022-correicao-tarde-tipo1-q070-closure-mapping-1",
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q070",
+      "syllabusItemId": "cgu-2026-direito-controle-responsabilizacao-3-4",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Distinção entre avaliar a gestão, apurar fatos e aplicar sanções; cooperação e compartilhamento lícito de informações. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cgesp-2025-cor-pm-q019-closure-mapping-1",
+      "questionId": "cgesp-2025-cor-pm-q019",
+      "syllabusItemId": "cgu-2026-estado-democracia-8-2",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Relações entre prevenção, detecção, responsabilização e reparação; controles democráticos, participação e capacidades estatais. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cge-sc-2023-administracao-tarde-tipo1-q038-closure-mapping-1",
+      "questionId": "cge-sc-2023-administracao-tarde-tipo1-q038",
+      "syllabusItemId": "cgu-2026-auditoria-governamental-2-2",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Relação entre perguntas de auditoria e de avaliação de políticas, respeitadas suas finalidades e seus desenhos. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q014-closure-mapping-1",
+      "questionId": "cpnu2-2025-b5-tipo1-q014",
+      "syllabusItemId": "cgu-2026-etica-publica-5-1",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Coerência entre regras e práticas; ambiente organizacional e incentivos; canais de orientação e relato; papel do exemplo, da confiança e da prestação de contas. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q014-closure-mapping-2",
+      "questionId": "cpnu2-2025-b5-tipo1-q014",
+      "syllabusItemId": "cgu-2026-governanca-riscos-integridade-5-1",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Cultura, incentivos e confiança; diferenças de capacidade entre organizações; orientação e medidas proporcionais. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q043-closure-mapping-1",
+      "questionId": "cpnu2-2025-b5-tipo1-q043",
+      "syllabusItemId": "cgu-2026-governanca-riscos-integridade-5-2",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Denúncias e resultados de controle como insumos de melhoria. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q043-closure-mapping-2",
+      "questionId": "cpnu2-2025-b5-tipo1-q043",
+      "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-7-1",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Conversão de manifestações, avaliações e apurações em medidas de melhoria da gestão, da integridade e dos serviços. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q051-closure-mapping-1",
+      "questionId": "cpnu2-2025-b5-tipo1-q051",
+      "syllabusItemId": "cgu-2026-atuacao-integrada-1-1",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Contribuição da auditoria para a governança, os riscos, os controles e os resultados. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q056-closure-mapping-1",
+      "questionId": "cpnu2-2025-b5-tipo1-q056",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-2-1",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Arranjos federativos e interorganizacionais; parcerias; capacidades, recursos e diferenças territoriais; discricionariedade na linha de frente e barreiras administrativas. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q057-closure-mapping-1",
+      "questionId": "cpnu2-2025-b5-tipo1-q057",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-2-1",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Arranjos federativos e interorganizacionais; parcerias; capacidades, recursos e diferenças territoriais; discricionariedade na linha de frente e barreiras administrativas. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q061-closure-mapping-1",
+      "questionId": "cpnu2-2025-b5-tipo1-q061",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-3-3",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Avaliações ex ante e ex post, de desenho, implementação, resultados, impacto e eficiência. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q063-closure-mapping-1",
+      "questionId": "cpnu2-2025-b5-tipo1-q063",
+      "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-7-1",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Conversão de manifestações, avaliações e apurações em medidas de melhoria da gestão, da integridade e dos serviços. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cpnu2-2025-b5-tipo1-q063-closure-mapping-2",
+      "questionId": "cpnu2-2025-b5-tipo1-q063",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-6-2",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Priorização, escuta, adaptação e condições de implementação; acompanhamento de benefícios e efeitos distributivos. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cpnu2-2025-b6-tipo1-q056-closure-mapping-1",
+      "questionId": "cpnu2-2025-b6-tipo1-q056",
+      "syllabusItemId": "cgu-2026-politicas-investigacao-avaliacao-2-2",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Processos e projetos como instrumentos de entrega; responsabilidades, riscos e marcos de execução. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cpnu2-2025-b6-tipo1-q064-closure-mapping-1",
+      "questionId": "cpnu2-2025-b6-tipo1-q064",
+      "syllabusItemId": "cgu-2026-estado-democracia-7-2",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Captura de políticas e influência indevida; distinção entre representação legítima de interesses e favorecimento. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cpnu2-2025-b6-tipo1-q064-closure-mapping-2",
+      "questionId": "cpnu2-2025-b6-tipo1-q064",
+      "syllabusItemId": "cgu-2026-estado-democracia-7-1",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Assimetrias de poder e informação, incentivos e oportunidades; relações principal-agente e problemas de ação coletiva; normas sociais, tolerância organizacional e redes de favorecimento. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cpnu2-2025-b6-tipo1-q065-closure-mapping-1",
+      "questionId": "cpnu2-2025-b6-tipo1-q065",
+      "syllabusItemId": "cgu-2026-estado-democracia-7-1",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Assimetrias de poder e informação, incentivos e oportunidades; relações principal-agente e problemas de ação coletiva; normas sociais, tolerância organizacional e redes de favorecimento. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cpnu2-2025-b1-tipo1-q086-closure-mapping-1",
+      "questionId": "cpnu2-2025-b1-tipo1-q086",
+      "syllabusItemId": "cgu-2026-governanca-riscos-integridade-5-1",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Cultura, incentivos e confiança; diferenças de capacidade entre organizações; orientação e medidas proporcionais. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cpnu2-2025-b1-tipo1-q086-closure-mapping-2",
+      "questionId": "cpnu2-2025-b1-tipo1-q086",
+      "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-4-5",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Prevenção de assédio e discriminação como dimensão da integridade organizacional. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "tcesc-2026-direito-tipo1-q043-closure-mapping-1",
+      "questionId": "tcesc-2026-direito-tipo1-q043",
+      "syllabusItemId": "cgu-2026-integridade-transparencia-responsabilizacao-4-2",
+      "status": "confirmed",
+      "justification": "Amostra delimitada do componente testado em Compromisso da liderança, cultura, incentivos, registros, controles, diligência sobre terceiros, canais de relato e remediação. Sem presumir cobertura integral, regras de outra instituição ou transferência de competência."
+    },
+    {
+      "id": "cgesp-2025-audit-am-q022-closure-cgu-conduta",
+      "questionId": "cgesp-2025-audit-am-q022",
+      "syllabusItemId": "cgu-2026-etica-publica-2-2",
+      "status": "confirmed",
+      "justification": "Comportamento respeitoso diante de divergências: componente de aplicação dos valores expressos no Código próprio da CGU, arts.1º e3º; não cobertura integral."
     }
   ],
   "scoringRules": [
@@ -78332,6 +80224,15 @@
       "text": "No que diz respeito à saúde no trabalho, à atuação do psicólogo e ao assédio moral e sexual, julgue os itens subsequentes.",
       "sourceDocumentId": "source-tcdf-2024-psicologia-002-01-paper",
       "sourcePage": 7,
+      "revision": 1
+    },
+    {
+      "id": "closure-anm-lobby",
+      "kind": "instruction",
+      "label": "Comando da prova",
+      "text": "Acerca do lobby, julgue os itens que se seguem.",
+      "sourceDocumentId": "source-038-anm-012-01-paper",
+      "sourcePage": 1,
       "revision": 1
     }
   ]

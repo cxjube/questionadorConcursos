@@ -14,8 +14,8 @@
       "ce": 0
     },
     "specific": {
-      "total": 140,
-      "ce": 93
+      "total": 142,
+      "ce": 95
     }
   },
   "disciplines": [
@@ -104,7 +104,7 @@
       "descendantsOnly": 0,
       "emptyItems": 0,
       "emptyLeaves": 0,
-      "questionsCE": 93,
+      "questionsCE": 95,
       "questionsMC": 47
     }
   ],
@@ -2414,16 +2414,20 @@
       "state": "direct",
       "priority": "A",
       "directQuestionIds": [
+        "038-anm-012-01-q057",
+        "038-anm-012-01-q059",
         "038-anm-012-01-q061",
         "072-stm-004-01-q114"
       ],
-      "directCE": 2,
+      "directCE": 4,
       "directMC": 0,
       "subtreeQuestionIds": [
+        "038-anm-012-01-q057",
+        "038-anm-012-01-q059",
         "038-anm-012-01-q061",
         "072-stm-004-01-q114"
       ],
-      "subtreeCE": 2,
+      "subtreeCE": 4,
       "subtreeMC": 0
     },
     {
@@ -2604,8 +2608,8 @@
   ],
   "roleId": "abdi-comunicacao-marketing",
   "reviewedAt": "2026-10-29",
-  "reviewId": "expansion-eighth",
-  "distinctQuestions": 261,
-  "distinctCE": 160,
+  "reviewId": "official-closure",
+  "distinctQuestions": 263,
+  "distinctCE": 162,
   "distinctMC": 101
 }

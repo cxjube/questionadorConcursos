@@ -131,7 +131,7 @@ class TwelfthBatchTests(unittest.TestCase):
         old_mapped = {r['id'] for r in prior['items'] if r['directQuestionIds']}
         self.assertEqual(len(mapped - old_mapped), 20)
         self.assertTrue(old_mapped <= mapped)
-        for filename, content in current_artifacts(read_json(ROOT / 'data/catalog.json'), read_json(ROOT / 'data/reviews/expansion-eighth.json')).items():
+        for filename, content in current_artifacts(read_json(ROOT / 'data/catalog.json'), read_json(ROOT / 'data/reviews/official-closure.json')).items():
             self.assertEqual((ROOT / filename).read_text(), content)
         basic = {q for r in report['items'] if r['block'] == 'basic' for q in r['directQuestionIds'] if self.questions[q]['type'] == 'true_false'}
         specific = {q for r in report['items'] if r['block'] == 'specific' for q in r['directQuestionIds'] if self.questions[q]['type'] == 'true_false'}

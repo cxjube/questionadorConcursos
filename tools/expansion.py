@@ -8,6 +8,7 @@ from tools.readiness import ce_capacity, abdi_capacity
 from tools.validate import ROOT, read_json
 
 MANIFEST='data/reviews/expansion-eighth.json'
+REVIEWED_CATALOG='data/reviews/pre-official-closure-catalog.json.gz'
 ROLES={'camara-comunicacao-divulgacao':'Câmara','abdi-comunicacao-marketing':'ABDI','cgu-auditoria':'CGU'}
 
 
@@ -55,7 +56,7 @@ def artifacts(catalog,manifest):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--check',action='store_true');args=p.parse_args();errors=[]
-    for file,text in artifacts(read_json(ROOT/'data/catalog.json'),read_json(ROOT/MANIFEST)).items():
+    for file,text in artifacts(json.loads(gzip.decompress((ROOT/REVIEWED_CATALOG).read_bytes())),read_json(ROOT/MANIFEST)).items():
         path=ROOT/file
         if args.check:
             if not path.exists() or path.read_text()!=text:errors.append(file+' is stale')

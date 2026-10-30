@@ -4,7 +4,7 @@
   "ruleVersion": 1,
   "ready": true,
   "requiredCE": 170,
-  "distinctCE": 278,
+  "distinctCE": 280,
   "allocatableDistinctCE": 170,
   "minimumAdditionalCE": 0,
   "blocks": [
@@ -85,9 +85,11 @@
         "inss-2022-cb1-01-q016",
         "inss-2022-cb1-01-q038",
         "038-anm-cg1-01-q017",
-        "tcdf-2024-psicologia-002-01-q160"
+        "tcdf-2024-psicologia-002-01-q160",
+        "038-anm-012-01-q057",
+        "038-anm-012-01-q059"
       ],
-      "availableCE": 73,
+      "availableCE": 75,
       "allocatedCE": 40,
       "missingForThisAllocation": 0
     },

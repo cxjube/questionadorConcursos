@@ -1,6 +1,6 @@
 # Mapa atual do banco de questões
 
-Última revisão: 2026-10-29; lote `expansion-eighth`. São 421 questões e 431 vínculos da Câmara; **192/228 itens com vínculo direto**, 32 atendidos só por descendentes e 3 sem questões na subárvore (3 folhas). O título amplo Ciência Política 1 permanece separado.
+Última revisão: 2026-10-29; lote `official-closure`. São 421 questões e 431 vínculos da Câmara; **192/228 itens com vínculo direto**, 32 atendidos só por descendentes e 3 sem questões na subárvore (3 folhas). O título amplo Ciência Política 1 permanece separado.
 
 C/E: P1 **177**, P2 **214**. O simulado mantém 90+90 distintos e as regras versionadas. Oferta não é cobertura integral nem domínio.
 

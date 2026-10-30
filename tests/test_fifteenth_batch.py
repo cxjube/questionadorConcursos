@@ -151,5 +151,5 @@ class FifteenthBatchTests(unittest.TestCase):
         report = coverage(self.c, ['camara-2026-ciencia-politica-1'])
         self.assertEqual((report['directItems'], report['descendantsOnly'], report['emptyItems'], report['emptyLeaves']), (165, 32, 30, 30))
         self.assertEqual(report['blocks'], {'basic': {'total': 155, 'ce': 154}, 'specific': {'total': 185, 'ce': 170}})
-        for path, content in current_artifacts(read_json(ROOT / 'data/catalog.json'), read_json(ROOT / 'data/reviews/expansion-eighth.json')).items():
+        for path, content in current_artifacts(read_json(ROOT / 'data/catalog.json'), read_json(ROOT / 'data/reviews/official-closure.json')).items():
             self.assertEqual((ROOT / path).read_text(), content)

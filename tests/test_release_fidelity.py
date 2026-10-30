@@ -35,7 +35,8 @@ class ReleasedFidelityTests(unittest.TestCase):
         cls.new_batch = read_json(ROOT/'data/reviews/norms-gap-fifth.json')
         cls.completion = read_json(ROOT/'data/reviews/completion-sixth.json')
         cls.continuation = read_json(ROOT/'data/reviews/continuation-seventh.json')
-        cls.bbox_verified = {r['questionId'] for r in cls.expansion['items']} | {r['questionId'] for r in cls.continuation['items']} | {r['questionId'] for r in cls.completion['items']} |  {r['questionId'] for r in cls.new_batch['items']} | {r['questionId'] for r in new['items']} | {r['questionId'] for r in read_json(ROOT/'data/reviews/gaps-fourth-batch.json')['items']}
+        cls.closure=read_json(ROOT/'data/reviews/official-closure.json')
+        cls.bbox_verified = {r['questionId'] for r in cls.closure['items']} | {r['questionId'] for r in cls.expansion['items']} | {r['questionId'] for r in cls.continuation['items']} | {r['questionId'] for r in cls.completion['items']} |  {r['questionId'] for r in cls.new_batch['items']} | {r['questionId'] for r in new['items']} | {r['questionId'] for r in read_json(ROOT/'data/reviews/gaps-fourth-batch.json')['items']}
 
 
     def test_all_published_text_options_and_contexts_match_source_pages(self):

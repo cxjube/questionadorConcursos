@@ -1,0 +1,3668 @@
+{
+  "id": "official-closure",
+  "reviewedAt": "2026-10-29",
+  "method": "agent_assisted",
+  "reviewer": "Codex",
+  "decisionReference": "documentation/official-bank-closure.md",
+  "previousCatalogFile": "data/reviews/pre-official-closure-catalog.json.gz",
+  "previousCatalogSha256": "5a1640934121389e984cf7e97ac59371c1b490dbb1b7b12f7570711ff1d27258",
+  "scope": "Encerramento da busca dirigida dos67recortes. Questões oficiais apenas; exceções documentadas não são cobertura fictícia.",
+  "items": [
+    {
+      "questionId": "038-anm-012-01-q057",
+      "paperId": "source-038-anm-012-01",
+      "number": 57,
+      "sourcePage": 1,
+      "sourceLineGroups": [
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 543.8567,
+          "text": "O lobby pode ser definido como qualquer ação destinada a"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 558.85646,
+          "text": "influenciar instituições governamentais nos níveis federal,"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 573.85622,
+          "text": "estadual ou municipal, exercida por um grupo de interesse"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 588.85598,
+          "text": "com o objetivo de ser ouvido pelo poder público."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": true,
+      "contextIds": [
+        "closure-anm-lobby"
+      ],
+      "syllabusItemIds": [
+        "cgu-2026-estado-democracia-7-2",
+        "abdi-2026-abdi-comunicacao-marketing-21"
+      ]
+    },
+    {
+      "questionId": "038-anm-012-01-q059",
+      "paperId": "source-038-anm-012-01",
+      "number": 59,
+      "sourcePage": 1,
+      "sourceLineGroups": [
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 682.8167,
+          "text": "O lobista (lobbyist) representa externamente a empresa"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 697.81646,
+          "text": "perante o governo e a comunidade, visando à dinamização de"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 712.81622,
+          "text": "negócios, analisando fatores ambientais específicos e"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 727.81598,
+          "text": "facilitando a tramitação de medidas pela troca de favores e"
+        },
+        {
+          "page": 1,
+          "column": "left",
+          "x": 46.1991,
+          "y": 742.81574,
+          "text": "distribuição de presentes."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": false,
+      "contextIds": [
+        "closure-anm-lobby"
+      ],
+      "syllabusItemIds": [
+        "cgu-2026-estado-democracia-7-2",
+        "abdi-2026-abdi-comunicacao-marketing-21"
+      ]
+    },
+    {
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q054",
+      "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+      "number": 54,
+      "sourcePage": 18,
+      "sourceLineGroups": [
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 72.69,
+          "text": "Em tema de medidas preventivas à corrupção, a Convenção das"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 83.75,
+          "text": "Nações Unidas contra a Corrupção, promulgada por meio do"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 94.79,
+          "text": "Decreto nº 5.687/2006, estabelece que cada Estado Parte"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 105.71,
+          "text": "adotará medidas adequadas, no limite de suas possibilidades e"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 116.75,
+          "text": "em conformidade com os princípios fundamentais de sua"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 127.67,
+          "text": "legislação interna, para:"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 138.71,
+          "text": "(A) estabelecer sistemas apropriados de contratação pública,"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 149.63,
+          "text": "baseados na transparência, na competência e em critérios"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 160.67,
+          "text": "subjetivos de adoção de decisões, que sejam eficazes, entre"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 171.59,
+          "text": "outras coisas, para prevenir a corrupção em licitações e"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 182.63,
+          "text": "contratos administrativos;"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 193.55,
+          "text": "(B) limitar a transparência proporcionalmente em sua"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 204.59,
+          "text": "administração pública, com o objetivo de diminuir o risco de"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 215.63,
+          "text": "oferecimento de propina ao gestor público e promover a"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 226.55,
+          "text": "simplificação dos procedimentos administrativos, para"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 237.59,
+          "text": "facilitar o acesso do público às autoridades encarregadas da"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 248.51,
+          "text": "adoção de decisões;"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 259.55,
+          "text": "(C) promover a integridade, a honestidade e a responsabilidade"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 270.5,
+          "text": "entre seus funcionários públicos, assim como aplicar, em seus"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 281.54,
+          "text": "próprios ordenamentos institucionais e jurídicos, códigos ou"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 292.46,
+          "text": "normas de conduta para o correto, honroso e devido"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 303.5,
+          "text": "cumprimento das funções públicas, mediante imposição de"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 314.54,
+          "text": "sanções administrativas aos infratores, desde que precedida"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 325.46,
+          "text": "de decisão judicial;"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 336.5,
+          "text": "(D) fomentar a participação ativa de pessoas e grupos que não"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 347.42,
+          "text": "pertençam ao setor público, como a sociedade civil, as"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 358.46,
+          "text": "organizações não governamentais e as organizações com"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 369.38,
+          "text": "base na comunidade, na prevenção e na luta contra a"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 380.42,
+          "text": "corrupção, e para sensibilizar a opinião pública a respeito da"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 391.34,
+          "text": "existência, das causas e da gravidade da corrupção, assim"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 402.38,
+          "text": "como da ameaça que esta representa;"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 413.42,
+          "text": "(E) garantir a existência de um único órgão, encarregado de"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 424.34,
+          "text": "prevenir a corrupção com medidas tais como a formulação, a"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 435.38,
+          "text": "aplicação e a manutenção em vigor de políticas coordenadas"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 446.3,
+          "text": "e eficazes contra a corrupção que promovam a participação"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 457.34,
+          "text": "da sociedade e reflitam os princípios do estado de direito, a"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 468.28,
+          "text": "devida gestão dos assuntos e bens públicos, a integridade, a"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 479.32,
+          "text": "transparência e a obrigação de render contas."
+        }
+      ],
+      "answerKeyPage": 25,
+      "answerValue": "d",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-estado-democracia-8-2"
+      ]
+    },
+    {
+      "questionId": "cgu-2022-correicao-tarde-tipo1-q070",
+      "paperId": "source-cgu-2022-correicao-tarde-tipo1",
+      "number": 70,
+      "sourcePage": 23,
+      "sourceLineGroups": [
+        {
+          "page": 23,
+          "column": "right",
+          "x": 311.69,
+          "y": 72.69,
+          "text": "A Controladoria-Geral da União, por meio da sua Secretaria"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 311.69,
+          "y": 83.75,
+          "text": "Federal de Controle Interno, tem competência para fiscalizar e"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 311.69,
+          "y": 94.79,
+          "text": "avaliar a execução de programas de governo, inclusive ações"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 311.69,
+          "y": 105.71,
+          "text": "descentralizadas com recursos dos orçamentos da União, realizar"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 311.69,
+          "y": 116.75,
+          "text": "auditorias e avaliar os resultados da gestão dos administradores"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 311.69,
+          "y": 127.67,
+          "text": "públicos, apurar denúncias e executar atividades de apoio ao"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 311.69,
+          "y": 138.71,
+          "text": "controle externo."
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 311.69,
+          "y": 149.63,
+          "text": "Caso a CGU aponte a existência de fundados indícios de que"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 311.69,
+          "y": 160.67,
+          "text": "houve superfaturamento e irregularidade na execução de"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 311.69,
+          "y": 171.59,
+          "text": "determinado contrato público, resultando em desvio de verba"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 311.69,
+          "y": 182.63,
+          "text": "pública, do ponto de vista probatório, é correto afirmar que:"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 311.69,
+          "y": 193.55,
+          "text": "(A) a perícia realizada pelos órgãos estatais de controle serve"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 325.85,
+          "y": 204.59,
+          "text": "apenas para a deflagração da investigação preliminar, não"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 325.85,
+          "y": 215.63,
+          "text": "podendo ser valorada pelo juiz na sentença;"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 311.69,
+          "y": 226.55,
+          "text": "(B) a materialidade de delitos praticados contra a Administração"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 325.85,
+          "y": 237.59,
+          "text": "Pública deve ser demonstrada por perícia realizada pelos"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 325.85,
+          "y": 248.51,
+          "text": "órgãos estatais de natureza policial;"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 311.69,
+          "y": 259.55,
+          "text": "(C) a perícia realizada pelos órgãos estatais de controle serve"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 325.85,
+          "y": 270.5,
+          "text": "apenas para embasar decisões judiciais sumárias,"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 325.85,
+          "y": 281.54,
+          "text": "dependendo de prova de reforço para ter validade;"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 311.69,
+          "y": 292.46,
+          "text": "(D) a materialidade de delitos praticados contra a Administração"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 325.85,
+          "y": 303.5,
+          "text": "Pública pode ser demonstrada por perícia realizada pelos"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 325.85,
+          "y": 314.54,
+          "text": "órgãos estatais de controle;"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 311.69,
+          "y": 325.46,
+          "text": "(E) a perícia realizada pelos órgãos estatais de controle serve"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 325.85,
+          "y": 336.5,
+          "text": "apenas para embasar a formação da opinio delicti ministerial,"
+        },
+        {
+          "page": 23,
+          "column": "right",
+          "x": 325.85,
+          "y": 347.42,
+          "text": "dependendo de prova de reforço para ter validade."
+        }
+      ],
+      "answerKeyPage": 25,
+      "answerValue": "d",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-direito-controle-responsabilizacao-3-4"
+      ]
+    },
+    {
+      "questionId": "cgesp-2025-cor-pm-q019",
+      "paperId": "source-cgesp-2025-cor-pm",
+      "number": 19,
+      "sourcePage": 7,
+      "sourceLineGroups": [
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 71.63,
+          "text": "Cada Estado-parte, de conformidade com os princípios"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 82.55,
+          "text": "fundamentais de seu ordenamento jurídico, formulará, aplicará"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 93.59,
+          "text": "ou manterá em vigor políticas coordenadas e eficazes contra a"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 104.51,
+          "text": "corrupção que reflitam os princípios do Estado de Direito, a"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 115.55,
+          "text": "devida gestão dos assuntos e bens públicos, a integridade, a"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 126.47,
+          "text": "transparência e a obrigação de render contas."
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 139.55,
+          "text": "Nesse cenário, considerando as disposições da Convenção das"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 150.47,
+          "text": "Nações Unidas contra a Corrupção, avalie as afirmativas a seguir"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 161.39,
+          "text": "e assinale (V) para a verdadeira e (F) para a falsa."
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 174.47,
+          "text": "( ) Os Estados-parte, em conformidade com os princípios"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 325.87,
+          "y": 185.51,
+          "text": "fundamentais de seu ordenamento jurídico, colaborarão"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 325.87,
+          "y": 196.43,
+          "text": "entre si e com as organizações internacionais e regionais"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 325.87,
+          "y": 207.47,
+          "text": "pertinentes na promoção e formulação das medidas contra a"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 325.87,
+          "y": 218.39,
+          "text": "corrupção. Essa colaboração deverá compreender a"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 325.87,
+          "y": 229.46,
+          "text": "participação em programas e projetos internacionais"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 325.87,
+          "y": 240.5,
+          "text": "destinados a prevenir a corrupção."
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 252.38,
+          "text": "( ) Cada Estado-parte procurará avaliar, semestralmente, os"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 325.87,
+          "y": 263.42,
+          "text": "instrumentos jurídicos e as medidas administrativas"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 325.87,
+          "y": 274.46,
+          "text": "pertinentes, a fim de promover a participação da sociedade"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 286.34,
+          "text": "( ) Cada Estado-parte procurará estabelecer e fomentar práticas"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 325.87,
+          "y": 297.38,
+          "text": "eficazes para prevenir a corrupção."
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 310.34,
+          "text": "As afirmativas são, respectivamente,"
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 323.42,
+          "text": "(A) F – V – F."
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 335.42,
+          "text": "(B) F – F – V."
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 347.42,
+          "text": "(C) V – V – V."
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 359.3,
+          "text": "(D) V – V – F."
+        },
+        {
+          "page": 7,
+          "column": "right",
+          "x": 311.71,
+          "y": 371.3,
+          "text": "(E) V – F – V."
+        }
+      ],
+      "answerKeyPage": 2,
+      "answerValue": "b",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-estado-democracia-8-2"
+      ]
+    },
+    {
+      "questionId": "cge-sc-2023-administracao-tarde-tipo1-q038",
+      "paperId": "source-cge-sc-2023-administracao-tarde-tipo1",
+      "number": 38,
+      "sourcePage": 10,
+      "sourceLineGroups": [
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 276.52,
+          "text": "Um gerente atua em uma determinada política pública e precisa"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 287.53,
+          "text": "desenvolver um sistema de avaliação visando a determinar a"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 298.52,
+          "text": "relevância e a realização dos seus objetivos e sua eficiência,"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 309.52,
+          "text": "eficácia, impactos e sustentabilidade. Entretanto, o gerente"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 320.52,
+          "text": "instruiu sua equipe no sentido de pensar em ações que levantem"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 331.53,
+          "text": "a adequação dos controles gerenciais e sistemas, bem como a"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 342.53,
+          "text": "conformidade com regulamentos, regras e procedimentos"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 353.33,
+          "text": "definidos no âmbito da política. É muito comum confundir a ação"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 364.33,
+          "text": "de avaliação com outras ações empreendidas nas organizações,"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 375.33,
+          "text": "no sentido de aprimorar diferentes dimensões de gestão, ou a"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 386.35,
+          "text": "partir de diferentes métodos."
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 399.35,
+          "text": "Ao dar essa instrução, o gerente confundiu o conceito de"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 410.35,
+          "text": "avaliação com a noção de"
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 423.35,
+          "text": "(A) appraisal."
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 435.35,
+          "text": "(B) auditoria."
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 447.35,
+          "text": "(C) consultoria interna."
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 459.35,
+          "text": "(D) monitoramento."
+        },
+        {
+          "page": 10,
+          "column": "right",
+          "x": 311.7,
+          "y": 471.35,
+          "text": "(E) pesquisa temática."
+        }
+      ],
+      "answerKeyPage": 2,
+      "answerValue": "b",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-auditoria-governamental-2-2"
+      ]
+    },
+    {
+      "questionId": "cpnu2-2025-b5-tipo1-q014",
+      "paperId": "source-cpnu2-2025-b5-tipo1",
+      "number": 14,
+      "sourcePage": 7,
+      "sourceLineGroups": [
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 72.69,
+          "text": "No estudo da ética para a Administração Pública, costuma-se, na"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 83.75,
+          "text": "literatura internacional, pensar a integridade não apenas como"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 94.79,
+          "text": "virtude do agente público como profissional que atua na"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 105.71,
+          "text": "Administração Pública, como também do próprio sistema"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 116.75,
+          "text": "organizacional. Essa perspectiva leva à indicação de elementos"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 127.67,
+          "text": "essenciais de políticas de integridade no setor público, dentre os"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 138.71,
+          "text": "quais se incluiriam a definição de códigos de conduta, a formação"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 149.63,
+          "text": "em ética como parte da estratégia anticorrupção, a existência de"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 160.67,
+          "text": "comissões de ética independentes que apoiem a implementação"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 171.59,
+          "text": "efetiva do código e, finalmente, a prevenção e a regulação dos"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 182.63,
+          "text": "conflitos de interesses."
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 193.55,
+          "text": "Com relação à experiência brasileira, é correto afirmar que:"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 204.59,
+          "text": "(A) o aprimoramento do sistema de prevenção e regulação do"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 56.76,
+          "y": 215.63,
+          "text": "conflito de interesses é importante, o que pode envolver"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 56.76,
+          "y": 226.55,
+          "text": "novas restrições ao exercício de empregos adicionais ao"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 56.76,
+          "y": 237.59,
+          "text": "principal emprego público, a apresentação de declarações de"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 56.76,
+          "y": 248.51,
+          "text": "renda e patrimônio do agente público e de seus familiares e o"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 56.76,
+          "y": 259.55,
+          "text": "aperfeiçoamento da quarentena;"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 270.5,
+          "text": "(B) as comissões de ética são obrigatórias na estrutura da"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 56.76,
+          "y": 281.54,
+          "text": "Administração Federal, tendo um decreto estabelecido a sua"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 56.76,
+          "y": 292.46,
+          "text": "criação, com atribuições atinentes à aplicação do Código de"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 56.76,
+          "y": 303.5,
+          "text": "Ética, como parte do programa de integridade; no entanto,"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 56.76,
+          "y": 314.54,
+          "text": "não há controle do cumprimento de tal exigência;"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 325.46,
+          "text": "(C) existe, em nível federal, um Código de Ética aplicável a todos"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 56.76,
+          "y": 336.5,
+          "text": "os servidores públicos, não sendo possível o estabelecimento"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 56.76,
+          "y": 347.42,
+          "text": "de códigos de ética setoriais que levem em conta as"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 56.76,
+          "y": 358.46,
+          "text": "peculiaridades de cada instituição;"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 369.38,
+          "text": "(D) os programas de mentoria e de desenvolvimento profissional"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 56.76,
+          "y": 380.42,
+          "text": "são muito relevantes, mas não têm qualquer relação com as"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 56.76,
+          "y": 391.34,
+          "text": "políticas de integridade no serviço público;"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 42.6,
+          "y": 402.38,
+          "text": "(E) a formação em ética compreende a adoção de vários"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 56.76,
+          "y": 413.42,
+          "text": "métodos de ensino, devendo ser prevista exclusivamente"
+        },
+        {
+          "page": 7,
+          "column": "left",
+          "x": 56.76,
+          "y": 424.34,
+          "text": "para os novos servidores empossados."
+        }
+      ],
+      "answerKeyPage": 9,
+      "answerValue": "a",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-etica-publica-5-1",
+        "cgu-2026-governanca-riscos-integridade-5-1"
+      ]
+    },
+    {
+      "questionId": "cpnu2-2025-b5-tipo1-q043",
+      "paperId": "source-cpnu2-2025-b5-tipo1",
+      "number": 43,
+      "sourcePage": 14,
+      "sourceLineGroups": [
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.69,
+          "y": 139.31,
+          "text": "Em um órgão público federal, foi identificado que um setor"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.69,
+          "y": 150.23,
+          "text": "responsável por contratos não possui segregação adequada de"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.69,
+          "y": 161.27,
+          "text": "funções, facilitando a manipulação de documentos e pagamentos"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.69,
+          "y": 172.19,
+          "text": "indevidos a fornecedores fictícios. A controladoria interna"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.69,
+          "y": 183.23,
+          "text": "recomendou a implementação de um programa de compliance"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.69,
+          "y": 194.15,
+          "text": "com foco em governança, gestão de riscos e canais de denúncia."
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.69,
+          "y": 205.19,
+          "text": "Considerando as melhores práticas e a legislação brasileira, a"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.69,
+          "y": 216.23,
+          "text": "principal vantagem da implantação desse programa será:"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.69,
+          "y": 227.15,
+          "text": "(A) reduzir a burocracia e acelerar a aprovação de contratos,"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 325.85,
+          "y": 238.19,
+          "text": "mesmo que com menor controle, para garantir agilidade na"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 325.85,
+          "y": 249.11,
+          "text": "Administração Pública;"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.69,
+          "y": 260.15,
+          "text": "(B) aumentar a transparência e a responsabilização, dificultando"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 325.85,
+          "y": 271.1,
+          "text": "a ocorrência e a ocultação de fraudes, por meio de controles"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 325.85,
+          "y": 282.14,
+          "text": "internos eficazes;"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.69,
+          "y": 293.06,
+          "text": "(C) permitir a fiscalização pelos órgãos externos, como tribunais"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 325.85,
+          "y": 304.1,
+          "text": "de contas, que têm maior autoridade;"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.69,
+          "y": 315.14,
+          "text": "(D) garantir que todos os pagamentos sejam realizados,"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 325.85,
+          "y": 326.06,
+          "text": "independentemente da documentação apresentada, para"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 325.85,
+          "y": 337.1,
+          "text": "evitar atrasos;"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 311.69,
+          "y": 348.02,
+          "text": "(E) evitar a necessidade de auditorias internas, pois o programa"
+        },
+        {
+          "page": 14,
+          "column": "right",
+          "x": 325.85,
+          "y": 359.06,
+          "text": "de compliance substitui os controles tradicionais."
+        }
+      ],
+      "answerKeyPage": 9,
+      "answerValue": "b",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-governanca-riscos-integridade-5-2",
+        "cgu-2026-integridade-transparencia-responsabilizacao-7-1"
+      ]
+    },
+    {
+      "questionId": "cpnu2-2025-b5-tipo1-q051",
+      "paperId": "source-cpnu2-2025-b5-tipo1",
+      "number": 51,
+      "sourcePage": 16,
+      "sourceLineGroups": [
+        {
+          "page": 16,
+          "column": "right",
+          "x": 311.69,
+          "y": 72.69,
+          "text": "Everaldo foi aprovado em um concurso para um órgão da"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 311.69,
+          "y": 83.75,
+          "text": "Administração Pública federal para atuar na área de Auditoria"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 311.69,
+          "y": 94.79,
+          "text": "Interna. Ao assumir o cargo, ele foi informado de que o órgão"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 311.69,
+          "y": 105.71,
+          "text": "adota o Modelo das Três Linhas, uma estrutura voltada ao"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 311.69,
+          "y": 116.75,
+          "text": "fortalecimento dos controles internos por meio de linhas de"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 311.69,
+          "y": 127.67,
+          "text": "defesa, na qual as linhas, embora tenham responsabilidades"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 311.69,
+          "y": 138.71,
+          "text": "distintas, devem atuar de forma coordenada entre si."
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 311.69,
+          "y": 149.63,
+          "text": "Diante desse cenário, e considerando as diretrizes do Modelo das"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 311.69,
+          "y": 160.67,
+          "text": "Três Linhas, as atribuições que competem a Everaldo em sua"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 311.69,
+          "y": 171.59,
+          "text": "função estão no âmbito da:"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 311.69,
+          "y": 182.63,
+          "text": "(A) primeira linha, responsável por identificar, avaliar, controlar e"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 325.85,
+          "y": 193.55,
+          "text": "mitigar riscos diretamente nas atividades operacionais do"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 325.85,
+          "y": 204.59,
+          "text": "órgão;"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 311.69,
+          "y": 215.63,
+          "text": "(B) segunda linha, garantindo a conformidade das ações com as"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 325.85,
+          "y": 226.55,
+          "text": "expectativas legais, regulatórias, de compliance e éticas;"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 311.69,
+          "y": 237.59,
+          "text": "(C) segunda linha, assegurando a adequação e eficácia dos"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 325.85,
+          "y": 248.51,
+          "text": "controles internos e sua integração ao processo de gestão,"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 325.85,
+          "y": 259.55,
+          "text": "considerando as complexidades;"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 311.69,
+          "y": 270.5,
+          "text": "(D) terceira linha, prestando serviços de avaliação e assessoria"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 325.85,
+          "y": 281.54,
+          "text": "independentes, a fim de verificar a efetividade dos controles"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 325.85,
+          "y": 292.46,
+          "text": "e da governança organizacional;"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 311.69,
+          "y": 303.5,
+          "text": "(E) terceira linha, atuando na implantação e manutenção"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 325.85,
+          "y": 314.54,
+          "text": "permanente dos controles internos finalísticos, durante a"
+        },
+        {
+          "page": 16,
+          "column": "right",
+          "x": 325.85,
+          "y": 325.46,
+          "text": "execução das políticas públicas in loco."
+        }
+      ],
+      "answerKeyPage": 9,
+      "answerValue": "d",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-atuacao-integrada-1-1"
+      ]
+    },
+    {
+      "questionId": "cpnu2-2025-b5-tipo1-q056",
+      "paperId": "source-cpnu2-2025-b5-tipo1",
+      "number": 56,
+      "sourcePage": 17,
+      "sourceLineGroups": [
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 348.86,
+          "text": "A implementação de políticas públicas frequentemente envolve"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 359.78,
+          "text": "diferentes níveis e esferas de governo, exigindo mecanismos de"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 370.82,
+          "text": "coordenação e cooperação interinstitucional. Essa complexidade"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 381.74,
+          "text": "se intensifica em contextos federativos, com desigualdades"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 392.78,
+          "text": "regionais e capacidades administrativas heterogêneas."
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 403.82,
+          "text": "Em um contexto federativo marcado por assimetrias"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 414.74,
+          "text": "institucionais, como o brasileiro, a implementação de políticas"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 425.78,
+          "text": "públicas tende a ser efetiva quando:"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 436.7,
+          "text": "(A) é exercido controle hierárquico rígido sobre os entes locais,"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 325.85,
+          "y": 447.74,
+          "text": "por parte do governo central, evitando-se desvios de"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 325.85,
+          "y": 458.66,
+          "text": "objetivos e garantindo-se alinhamento técnico e político das"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 325.85,
+          "y": 469.72,
+          "text": "ações;"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 480.64,
+          "text": "(B) são estabelecidos arranjos cooperativos entre os entes locais"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 325.85,
+          "y": 491.68,
+          "text": "para uma atuação autônoma e independente das diretrizes"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 325.85,
+          "y": 502.72,
+          "text": "nacionais;"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 513.64,
+          "text": "(C) são estabelecidos arranjos cooperativos articulados com as"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 325.85,
+          "y": 524.68,
+          "text": "políticas nacionais e com a capacidade dos governos locais;"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 535.6,
+          "text": "(D) são estabelecidos arranjos cooperativos consultivos locais e"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 325.85,
+          "y": 546.64,
+          "text": "se prioriza a transferência de competências para o setor"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 325.85,
+          "y": 557.56,
+          "text": "privado, com base em contratos de desempenho;"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 311.69,
+          "y": 568.6,
+          "text": "(E) são estabelecidos arranjos cooperativos locais, mas a"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 325.85,
+          "y": 579.52,
+          "text": "implementação"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 396.86,
+          "y": 579.52,
+          "text": "permanece"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 452.039,
+          "y": 579.52,
+          "text": "centralizada,"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 512.6,
+          "y": 579.52,
+          "text": "garantindo"
+        },
+        {
+          "page": 17,
+          "column": "right",
+          "x": 325.85,
+          "y": 590.56,
+          "text": "alinhamento técnico e político das ações."
+        }
+      ],
+      "answerKeyPage": 9,
+      "answerValue": "c",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-2-1"
+      ]
+    },
+    {
+      "questionId": "cpnu2-2025-b5-tipo1-q057",
+      "paperId": "source-cpnu2-2025-b5-tipo1",
+      "number": 57,
+      "sourcePage": 18,
+      "sourceLineGroups": [
+        {
+          "page": 18,
+          "column": "left",
+          "x": 42.6,
+          "y": 72.69,
+          "text": "Servidores públicos que atuam na linha de frente da"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 42.6,
+          "y": 83.75,
+          "text": "implementação, como “burocratas de nível de rua” (Lotta, 2012),"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 42.6,
+          "y": 94.79,
+          "text": "exercem discricionariedade no momento de aplicar políticas,"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 42.6,
+          "y": 105.71,
+          "text": "lidando com conflitos de interesse, escassez de recursos e"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 42.6,
+          "y": 116.75,
+          "text": "demandas diversas. A gestão dessa discricionariedade é crucial"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 42.6,
+          "y": 127.67,
+          "text": "para garantir equidade, eficiência e legitimidade das ações."
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 42.6,
+          "y": 138.71,
+          "text": "A atuação dos “burocratas de nível de rua” contribui para a"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 42.6,
+          "y": 149.63,
+          "text": "efetividade da implementação de políticas públicas quando esses"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 42.6,
+          "y": 160.67,
+          "text": "servidores:"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 42.6,
+          "y": 171.59,
+          "text": "(A) aplicam estritamente as normas vigentes, minimizando a"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 56.76,
+          "y": 182.63,
+          "text": "margem para interpretações e julgamentos subjetivos;"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 42.6,
+          "y": 193.55,
+          "text": "(B) atuam com base em regras, exercendo discricionariedade"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 56.76,
+          "y": 204.59,
+          "text": "com base em critérios pessoais, valorizando soluções práticas"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 56.76,
+          "y": 215.63,
+          "text": "e informais;"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 42.6,
+          "y": 226.55,
+          "text": "(C) atuam com base em regras, mas com espaço para julgamento"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 56.76,
+          "y": 237.59,
+          "text": "contextualizado e mecanismos de prestação de contas;"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 42.6,
+          "y": 248.51,
+          "text": "(D) atuam com base em regras e são supervisionados por"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 56.76,
+          "y": 259.55,
+          "text": "superiores hierárquicos, com punições associadas ao"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 56.76,
+          "y": 270.5,
+          "text": "desempenho;"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 42.6,
+          "y": 281.54,
+          "text": "(E) possuem liberdade de decisão, pois são os que melhor"
+        },
+        {
+          "page": 18,
+          "column": "left",
+          "x": 56.76,
+          "y": 292.46,
+          "text": "conhecem a realidade dos usuários das políticas."
+        }
+      ],
+      "answerKeyPage": 9,
+      "answerValue": "c",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-2-1"
+      ]
+    },
+    {
+      "questionId": "cpnu2-2025-b5-tipo1-q061",
+      "paperId": "source-cpnu2-2025-b5-tipo1",
+      "number": 61,
+      "sourcePage": 18,
+      "sourceLineGroups": [
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 316.46,
+          "text": "O ciclo das políticas públicas compreende etapas"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 327.5,
+          "text": "interdependentes que raramente ocorrem de forma linear. Para"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 338.42,
+          "text": "que os resultados da avaliação sejam úteis, tempestivos e"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 349.46,
+          "text": "politicamente relevantes, é fundamental que as estratégias"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 360.5,
+          "text": "adotadas estejam coerentes com a etapa específica em que se"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 371.42,
+          "text": "encontra a política."
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 382.46,
+          "text": "De acordo com os critérios da OCDE e do Banco Mundial, uma"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 393.38,
+          "text": "estratégia avaliativa com validade metodológica para monitorar a"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 404.42,
+          "text": "implementação de políticas intersetoriais de redução da pobreza"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 415.34,
+          "text": "deve priorizar:"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 426.38,
+          "text": "(A) avaliação de impacto baseada em grupos de controle, voltada"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 437.3,
+          "text": "à estimativa de efeitos de longo prazo sobre a renda das"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 448.34,
+          "text": "famílias;"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 459.4,
+          "text": "(B) análise de conformidade jurídica, com foco na aderência da"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 470.32,
+          "text": "política às normas constitucionais e orçamentárias;"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 481.36,
+          "text": "(C) monitoramento contínuo de indicadores operacionais e"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 492.28,
+          "text": "qualitativos, com foco em ajustes de processo e fluxos de"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 503.32,
+          "text": "execução;"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 514.24,
+          "text": "(D) avaliação ex ante, centrada na comparação de modelos"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 525.28,
+          "text": "alternativos de desenho institucional antes da execução;"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 311.69,
+          "y": 536.2,
+          "text": "(E) auditoria de resultados, voltada à análise retrospectiva da"
+        },
+        {
+          "page": 18,
+          "column": "right",
+          "x": 325.85,
+          "y": 547.24,
+          "text": "eficiência e economicidade da política."
+        }
+      ],
+      "answerKeyPage": 9,
+      "answerValue": "c",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-3-3"
+      ]
+    },
+    {
+      "questionId": "cpnu2-2025-b5-tipo1-q063",
+      "paperId": "source-cpnu2-2025-b5-tipo1",
+      "number": 63,
+      "sourcePage": 19,
+      "sourceLineGroups": [
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 349.46,
+          "text": "A retroalimentação é uma etapa crítica no ciclo das políticas"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 360.5,
+          "text": "públicas, pois permite que os resultados da avaliação e do"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 371.42,
+          "text": "monitoramento influenciem a reformulação de objetivos,"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 382.46,
+          "text": "estratégias e instrumentos. Trata-se de um processo que"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 393.38,
+          "text": "depende da capacidade institucional de aprendizagem, da"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 404.42,
+          "text": "disposição política para mudanças e da existência de mecanismos"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 415.34,
+          "text": "que integrem evidências ao processo decisório."
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 426.38,
+          "text": "No ciclo das políticas públicas, a retroalimentação:"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 437.3,
+          "text": "(A) garante que a política mantenha seus objetivos originais,"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 56.76,
+          "y": 448.34,
+          "text": "evitando desvios estratégicos ao longo do tempo;"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 459.4,
+          "text": "(B) permite a continuidade da implementação das ações mesmo"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 56.76,
+          "y": 470.32,
+          "text": "quando os resultados se mostram insatisfatórios, reforçando"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 56.76,
+          "y": 481.36,
+          "text": "a estabilidade institucional;"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 492.28,
+          "text": "(C) consiste na incorporação de informações geradas ao longo da"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 56.76,
+          "y": 503.32,
+          "text": "implementação, com o propósito de promover ajustes"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 56.76,
+          "y": 514.24,
+          "text": "técnicos e estratégicos no desenho e condução da política;"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 525.28,
+          "text": "(D) consiste na formalização jurídica de programas"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 56.76,
+          "y": 536.2,
+          "text": "governamentais já executados e avaliados, com vistas à sua"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 56.76,
+          "y": 547.24,
+          "text": "perenização;"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 558.16,
+          "text": "(E) substitui o processo de avaliação e de monitoramento por"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 56.76,
+          "y": 569.2,
+          "text": "mecanismos automatizados de análise de desempenho"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 56.76,
+          "y": 580.24,
+          "text": "institucional."
+        }
+      ],
+      "answerKeyPage": 9,
+      "answerValue": "c",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-integridade-transparencia-responsabilizacao-7-1",
+        "cgu-2026-politicas-investigacao-avaliacao-6-2"
+      ]
+    },
+    {
+      "questionId": "cpnu2-2025-b6-tipo1-q056",
+      "paperId": "source-cpnu2-2025-b6-tipo1",
+      "number": 56,
+      "sourcePage": 17,
+      "sourceLineGroups": [
+        {
+          "page": 17,
+          "column": "left",
+          "x": 42.6,
+          "y": 486.76,
+          "text": "Com o intuito de melhorar a articulação entre sua estratégia"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 42.6,
+          "y": 497.8,
+          "text": "institucional e a execução de programas prioritários pelas"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 42.6,
+          "y": 508.72,
+          "text": "unidades regionais, uma empresa pública de infraestrutura"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 42.6,
+          "y": 519.76,
+          "text": "adotou o método Balanced Scorecard (BSC), de Kaplan e Norton,"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 42.6,
+          "y": 530.8,
+          "text": "para desdobramento de objetivos estratégicos e elaboração de"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 42.6,
+          "y": 541.72,
+          "text": "planos de ação. A diretoria determinou que o mapa estratégico"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 42.6,
+          "y": 552.76,
+          "text": "central aprovado pelo conselho fosse desdobrado para cada uma"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 42.6,
+          "y": 563.68,
+          "text": "das unidades regionais."
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 42.6,
+          "y": 574.72,
+          "text": "Nesse contexto, é correto afirmar que:"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 42.6,
+          "y": 585.64,
+          "text": "(A) o método oferece estrutura de gestão que garante os"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 56.76,
+          "y": 596.68,
+          "text": "resultados definidos pelo conselho;"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 42.6,
+          "y": 607.6,
+          "text": "(B) cada unidade regional deve elaborar seu mapa estratégico"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 56.76,
+          "y": 618.64,
+          "text": "considerando apenas os resultados do workshop com sua"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 56.76,
+          "y": 629.68,
+          "text": "equipe;"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 42.6,
+          "y": 640.6,
+          "text": "(C) cada unidade deve elaborar seu mapa estratégico a partir do"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 56.76,
+          "y": 651.67,
+          "text": "mapa central com objetivos, indicadores, metas e iniciativas"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 56.76,
+          "y": 662.59,
+          "text": "estratégicas;"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 42.6,
+          "y": 673.63,
+          "text": "(D) os objetivos estratégicos das perspectivas externas"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 56.76,
+          "y": 684.55,
+          "text": "(financeira e mercado) requerem indicadores, mas as metas"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 56.76,
+          "y": 695.59,
+          "text": "são reservadas para as perspectivas internas (aprendizado e"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 56.76,
+          "y": 706.51,
+          "text": "crescimento e processos internos);"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 42.6,
+          "y": 717.55,
+          "text": "(E) cada unidade deve elaborar seu mapa estratégico a partir do"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 56.76,
+          "y": 728.47,
+          "text": "mapa central com objetivos, indicadores e metas. As"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 56.76,
+          "y": 739.506,
+          "text": "iniciativas estratégicas devem ser definidas ao longo do"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 56.76,
+          "y": 750.546,
+          "text": "período de planejamento, dependendo da condição"
+        },
+        {
+          "page": 17,
+          "column": "left",
+          "x": 56.76,
+          "y": 761.466,
+          "text": "orçamentária."
+        }
+      ],
+      "answerKeyPage": 11,
+      "answerValue": "c",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-politicas-investigacao-avaliacao-2-2"
+      ]
+    },
+    {
+      "questionId": "cpnu2-2025-b6-tipo1-q064",
+      "paperId": "source-cpnu2-2025-b6-tipo1",
+      "number": 64,
+      "sourcePage": 19,
+      "sourceLineGroups": [
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 448.34,
+          "text": "A respeito do risco de captura de um agente regulador por"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 459.4,
+          "text": "agente regulado, há relação proporcional do risco com:"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 470.32,
+          "text": "(A) a presença de mecanismos institucionais de interação entre"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 56.76,
+          "y": 481.36,
+          "text": "regulador e interessados;"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 492.28,
+          "text": "(B) a duração do mandato do corpo diretivo das agências, pois"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 56.76,
+          "y": 503.32,
+          "text": "favorece a criação de vínculos com os regulados;"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 514.24,
+          "text": "(C) o baixo volume de estoque regulatório, já que a produção de"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 56.76,
+          "y": 525.28,
+          "text": "normas indica funcionamento adequado da agência;"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 536.2,
+          "text": "(D) a ausência de sistemas auditáveis de compartilhamento de"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 56.76,
+          "y": 547.24,
+          "text": "dados, pois aumenta-se a assimetria de informações;"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 42.6,
+          "y": 558.16,
+          "text": "(E) a ausência de normas punitivas, visto que a previsão"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 56.76,
+          "y": 569.2,
+          "text": "normativa de sanções é suficiente para coibir desvios de"
+        },
+        {
+          "page": 19,
+          "column": "left",
+          "x": 56.76,
+          "y": 580.24,
+          "text": "conduta."
+        }
+      ],
+      "answerKeyPage": 11,
+      "answerValue": "d",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-estado-democracia-7-2",
+        "cgu-2026-estado-democracia-7-1"
+      ]
+    },
+    {
+      "questionId": "cpnu2-2025-b6-tipo1-q065",
+      "paperId": "source-cpnu2-2025-b6-tipo1",
+      "number": 65,
+      "sourcePage": 19,
+      "sourceLineGroups": [
+        {
+          "page": 19,
+          "column": "right",
+          "x": 311.69,
+          "y": 72.69,
+          "text": "Em um modelo contratual de concessão de serviço público, o"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 311.69,
+          "y": 83.75,
+          "text": "Estado delega a prestação à iniciativa privada, mantendo a"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 311.69,
+          "y": 94.79,
+          "text": "responsabilidade de regulação e fiscalização."
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 311.69,
+          "y": 105.71,
+          "text": "Considerando a perspectiva dos aspectos informacionais, a"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 311.69,
+          "y": 116.75,
+          "text": "alternativa que descreve com maior precisão um risco típico"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 311.69,
+          "y": 127.67,
+          "text": "associado à presença de informações privadas do concessionário"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 311.69,
+          "y": 138.71,
+          "text": "e uma medida eficaz para mitigá-lo é a seguinte:"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 311.69,
+          "y": 149.63,
+          "text": "(A) risco de seleção adversa, mitigado por cláusulas que"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 325.85,
+          "y": 160.67,
+          "text": "permitam renegociação automática em função de flutuações"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 325.85,
+          "y": 171.59,
+          "text": "de demanda;"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 311.69,
+          "y": 182.63,
+          "text": "(B) risco de captura regulatória, mitigado pela redução da"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 325.85,
+          "y": 193.55,
+          "text": "transparência pública dos relatórios da concessionária;"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 311.69,
+          "y": 204.59,
+          "text": "(C) risco de assimetria técnica, mitigado por contratos"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 325.85,
+          "y": 215.63,
+          "text": "incompletos"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 384.98,
+          "y": 215.63,
+          "text": "com"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 414.95,
+          "y": 215.63,
+          "text": "discricionariedade"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 495.671,
+          "y": 215.63,
+          "text": "ampliada"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 543.533,
+          "y": 215.63,
+          "text": "ao"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 325.85,
+          "y": 226.55,
+          "text": "concessionário;"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 311.69,
+          "y": 237.59,
+          "text": "(D) risco moral, mitigado por incentivos explícitos atrelados a"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 325.85,
+          "y": 248.51,
+          "text": "metas verificáveis e monitoramento independente de"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 325.85,
+          "y": 259.55,
+          "text": "desempenho;"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 311.69,
+          "y": 270.5,
+          "text": "(E) risco de falha de mercado, mitigado por transferência total"
+        },
+        {
+          "page": 19,
+          "column": "right",
+          "x": 325.85,
+          "y": 281.54,
+          "text": "das decisões operacionais para o poder concedente."
+        }
+      ],
+      "answerKeyPage": 11,
+      "answerValue": "d",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-estado-democracia-7-1"
+      ]
+    },
+    {
+      "questionId": "cpnu2-2025-b1-tipo1-q086",
+      "paperId": "source-cpnu2-2025-b1-tipo1",
+      "number": 86,
+      "sourcePage": 25,
+      "sourceLineGroups": [
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 283.58,
+          "text": "Observe o seguinte depoimento de um jornal local:"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 294.5,
+          "text": "“Durante sete anos, trabalhei em uma clínica privada da cidade."
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 305.54,
+          "text": "Os últimos três anos foram horríveis; inclusive, já não queria ir"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 316.46,
+          "text": "trabalhar. Me levantar ao acordar era um martírio. Fui vítima de"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 327.5,
+          "text": "gritos e insultos por parte de minha chefe imediata. Meus"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 338.42,
+          "text": "companheiros também passavam frequentemente por isso. Por"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 349.46,
+          "text": "exemplo, se ela (a chefe) tinha qualquer indisposição com alguém"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 360.5,
+          "text": "de sua equipe, ela convocava uma reunião com todos, mas não"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 371.42,
+          "text": "chamava a pessoa com quem teve a discórdia. E nessa reunião,"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 382.46,
+          "text": "falava mal da pessoa, pressionava todos os companheiros para"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 393.38,
+          "text": "que a deixássemos à margem. E, se alguém negava, era uma"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 404.42,
+          "text": "perseguição indireta eterna. Era comum também que pedisse"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 415.34,
+          "text": "para fazermos horas extras na última hora, e havia muito"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 426.38,
+          "text": "maltrato quando alguém se negava. Muitas vezes passei a noite"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 437.3,
+          "text": "trabalhando para evitar situações embaraçosas. Ao solicitar ao"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 448.34,
+          "text": "departamento de Recursos Humanos para mudar de área, a chefe"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 459.4,
+          "text": "do departamento pediu que eu aguardasse, porque certamente"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 470.32,
+          "text": "era passageira a situação”."
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 481.36,
+          "text": "A responsabilidade pelo assédio cabe:"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 492.28,
+          "text": "(A) à chefe imediata (como agressora ativa), apenas;"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 503.32,
+          "text": "(B) à chefe imediata (como agressora ativa) e à chefe de"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 56.76,
+          "y": 514.24,
+          "text": "Recursos Humanos (como sustento);"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 525.28,
+          "text": "(C) à chefe imediata (como agressora ativa) e aos companheiros"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 56.76,
+          "y": 536.2,
+          "text": "da vítima (que sustentam a situação);"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 547.24,
+          "text": "(D) à chefe imediata (como agressora ativa), aos companheiros"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 56.76,
+          "y": 558.16,
+          "text": "da vítima (como apoiadores) e à chefe de Recursos Humanos"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 56.76,
+          "y": 569.2,
+          "text": "(como sustento);"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 42.6,
+          "y": 580.24,
+          "text": "(E) à chefe imediata (como agressora ativa), aos companheiros"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 56.76,
+          "y": 591.16,
+          "text": "da vítima (como seguidores) e à chefe de Recursos Humanos"
+        },
+        {
+          "page": 25,
+          "column": "left",
+          "x": 56.76,
+          "y": 602.2,
+          "text": "(como sustento)."
+        }
+      ],
+      "answerKeyPage": 1,
+      "answerValue": "b",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-governanca-riscos-integridade-5-1",
+        "cgu-2026-integridade-transparencia-responsabilizacao-4-5"
+      ]
+    },
+    {
+      "questionId": "tcesc-2026-direito-tipo1-q043",
+      "paperId": "source-tcesc-2026-direito-tipo1",
+      "number": 43,
+      "sourcePage": 11,
+      "sourceLineGroups": [
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 317.42,
+          "text": "O programa de integridade é um instrumento de compliance que"
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 328.34,
+          "text": "consiste, no âmbito de uma pessoa jurídica, no conjunto de"
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 339.38,
+          "text": "mecanismos e procedimentos internos de integridade, auditoria"
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 350.3,
+          "text": "e incentivo à denúncia de irregularidades e na aplicação efetiva"
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 361.34,
+          "text": "de códigos de ética e de conduta, políticas e diretrizes"
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 372.26,
+          "text": "organizacionais."
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 385.36,
+          "text": "Sobre os programas de integridade, considere as afirmativas a"
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 396.28,
+          "text": "seguir:"
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 409.24,
+          "text": "I. A consulta prévia ao Cadastro de Empresas Punidas (CNEO) é"
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 56.784,
+          "y": 420.28,
+          "text": "uma ação de Due Diligence adotada no setor público."
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 432.28,
+          "text": "II. As políticas de controle adotadas por outras organizações"
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 56.784,
+          "y": 443.2,
+          "text": "podem ser reproduzidas, desde que se apliquem aos mesmos"
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 56.784,
+          "y": 454.24,
+          "text": "processos de trabalho."
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 466.24,
+          "text": "III. Um sistema de punições pode não ser adequado na"
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 56.784,
+          "y": 477.16,
+          "text": "implementação de um programa de integridade e de gestão"
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 56.784,
+          "y": 488.2,
+          "text": "de riscos."
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 501.16,
+          "text": "Está correto o que se afirma em"
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 514.24,
+          "text": "(A) I, apenas."
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 526.24,
+          "text": "(B) II, apenas."
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 538.15,
+          "text": "(C) II e III, apenas."
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 550.15,
+          "text": "(D) I e III, apenas."
+        },
+        {
+          "page": 11,
+          "column": "left",
+          "x": 42.6,
+          "y": 562.15,
+          "text": "(E) I, II e III."
+        }
+      ],
+      "answerKeyPage": 4,
+      "answerValue": "a",
+      "contextIds": [],
+      "syllabusItemIds": [
+        "cgu-2026-integridade-transparencia-responsabilizacao-4-2"
+      ]
+    }
+  ],
+  "contexts": [
+    {
+      "contextId": "closure-anm-lobby",
+      "sourceLineGroups": [
+        {
+          "page": 1,
+          "column": "left",
+          "x": 28.318687,
+          "y": 463.936376,
+          "text": "Acerca do lobby, julgue os itens que se seguem."
+        }
+      ]
+    }
+  ],
+  "sourcePairs": [
+    {
+      "paperId": "source-cpnu2-2025-b1-tipo1",
+      "booklet": "Bloco 1 - Seguridade Social: Saúde, Assistência Social e Previdência Social - TIPO 1",
+      "documents": [
+        {
+          "file": "sources/papers/cpnu2-2025-b1-tipo1.pdf",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/b1101.pdf",
+          "sha256": "71334f040bc744a143b05e79a5a9cd2a577e919f9a5180a751e4d86f372a857f",
+          "repeatSha256": "71334f040bc744a143b05e79a5a9cd2a577e919f9a5180a751e4d86f372a857f",
+          "checkedAt": "2026-10-29T23:33:47.712481+00:00",
+          "repeatCheckedAt": "2026-10-29T23:47:37.984328+00:00",
+          "documentId": "source-cpnu2-2025-b1-tipo1-paper"
+        },
+        {
+          "file": "sources/answer-keys/CPNU2-2025-definitivo-retificado-2111.pdf",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf",
+          "sha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d",
+          "repeatSha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d",
+          "checkedAt": "2026-10-29T23:32:35.231402+00:00",
+          "repeatCheckedAt": "2026-10-29T23:47:37.986543+00:00",
+          "documentId": "source-cpnu2-2025-b1-tipo1-key"
+        }
+      ],
+      "keyVersion": "Definitivo retificado21/11/2025; não usar o preliminar. Tabelas isoladas por bloco/tipo completos.",
+      "annulledItems": [
+        63
+      ],
+      "headerDiscrepancy": {
+        "printedApplication": "05/10/20245",
+        "correctApplication": "2025-10-05",
+        "evidenceFile": "data/reviews/official-closure-evidence/cpnu2-opening.pdf",
+        "decision": "Erro tipográfico no cabeçalho do gabarito preservado. Data de aplicação confirmada no cronograma do edital oficial de2025."
+      }
+    },
+    {
+      "paperId": "source-cpnu2-2025-b5-tipo1",
+      "booklet": "Bloco 5 - Administração - TIPO 1",
+      "documents": [
+        {
+          "file": "sources/papers/cpnu2-2025-b5-tipo1.pdf",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/b5501.pdf",
+          "sha256": "281a09a5104734a2ceb3a0ee939e143ed07ed5032fa4eb1b9e492b963576ee25",
+          "repeatSha256": "281a09a5104734a2ceb3a0ee939e143ed07ed5032fa4eb1b9e492b963576ee25",
+          "checkedAt": "2026-10-29T23:33:47.713289+00:00",
+          "repeatCheckedAt": "2026-10-29T23:47:37.985145+00:00",
+          "documentId": "source-cpnu2-2025-b5-tipo1-paper"
+        },
+        {
+          "file": "sources/answer-keys/CPNU2-2025-definitivo-retificado-2111.pdf",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf",
+          "sha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d",
+          "repeatSha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d",
+          "checkedAt": "2026-10-29T23:32:35.231402+00:00",
+          "repeatCheckedAt": "2026-10-29T23:47:37.986543+00:00",
+          "documentId": "source-cpnu2-2025-b5-tipo1-key"
+        }
+      ],
+      "keyVersion": "Definitivo retificado21/11/2025; não usar o preliminar. Tabelas isoladas por bloco/tipo completos.",
+      "annulledItems": [
+        46
+      ],
+      "headerDiscrepancy": {
+        "printedApplication": "05/10/20245",
+        "correctApplication": "2025-10-05",
+        "evidenceFile": "data/reviews/official-closure-evidence/cpnu2-opening.pdf",
+        "decision": "Erro tipográfico no cabeçalho do gabarito preservado. Data de aplicação confirmada no cronograma do edital oficial de2025."
+      }
+    },
+    {
+      "paperId": "source-cpnu2-2025-b6-tipo1",
+      "booklet": "Bloco 6 - Desenvolvimento Socioeconômico - TIPO 1",
+      "documents": [
+        {
+          "file": "sources/papers/cpnu2-2025-b6-tipo1.pdf",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/b6601.pdf",
+          "sha256": "056ac61709553d2f8c3c2e8ded8cb4affab90bdad3aa817355ba66876cad5cd1",
+          "repeatSha256": "056ac61709553d2f8c3c2e8ded8cb4affab90bdad3aa817355ba66876cad5cd1",
+          "checkedAt": "2026-10-29T23:33:47.713937+00:00",
+          "repeatCheckedAt": "2026-10-29T23:47:37.985906+00:00",
+          "documentId": "source-cpnu2-2025-b6-tipo1-paper"
+        },
+        {
+          "file": "sources/answer-keys/CPNU2-2025-definitivo-retificado-2111.pdf",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cpnu_gabarito_oficial_definitivo_retificado_21.11.2025.pdf",
+          "sha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d",
+          "repeatSha256": "b3b930f94f261ee44a2a8e639a5865b30c40c611b911a410bb44d8beb358b22d",
+          "checkedAt": "2026-10-29T23:32:35.231402+00:00",
+          "repeatCheckedAt": "2026-10-29T23:47:37.986543+00:00",
+          "documentId": "source-cpnu2-2025-b6-tipo1-key"
+        }
+      ],
+      "keyVersion": "Definitivo retificado21/11/2025; não usar o preliminar. Tabelas isoladas por bloco/tipo completos.",
+      "annulledItems": [
+        35
+      ],
+      "headerDiscrepancy": {
+        "printedApplication": "05/10/20245",
+        "correctApplication": "2025-10-05",
+        "evidenceFile": "data/reviews/official-closure-evidence/cpnu2-opening.pdf",
+        "decision": "Erro tipográfico no cabeçalho do gabarito preservado. Data de aplicação confirmada no cronograma do edital oficial de2025."
+      }
+    },
+    {
+      "paperId": "source-tcesc-2026-direito-tipo1",
+      "booklet": "Auditor Fiscal de Controle Externo - Direito - 1",
+      "documents": [
+        {
+          "file": "sources/papers/tcesc-2026-direito-tipo1.pdf",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cns004-auditor-fiscal-de-controle-externo-direito-cns004-tipo-1.pdf",
+          "sha256": "240240478ee31d378854982e508053423d0052cb2a596f5c3440cdc35652022b",
+          "repeatSha256": "240240478ee31d378854982e508053423d0052cb2a596f5c3440cdc35652022b",
+          "checkedAt": "2026-10-29T23:35:51.701169+00:00",
+          "repeatCheckedAt": "2026-10-29T23:47:37.987076+00:00",
+          "documentId": "source-tcesc-2026-direito-tipo1-paper"
+        },
+        {
+          "file": "sources/answer-keys/tcesc-2026-definitivo.pdf",
+          "url": "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tce-sc_0.pdf",
+          "sha256": "c5827260782ce64e64226ff3de3c51ce8a7608ae010c4d04188ce99823eebc8a",
+          "repeatSha256": "c5827260782ce64e64226ff3de3c51ce8a7608ae010c4d04188ce99823eebc8a",
+          "checkedAt": "2026-10-29T23:39:17.029458+00:00",
+          "repeatCheckedAt": "2026-10-29T23:47:37.988187+00:00",
+          "documentId": "source-tcesc-2026-direito-tipo1-key"
+        }
+      ],
+      "keyVersion": "Definitivo, conforme página oficial TCE/SC2026; aplicação24/05/2026. O nome genérico do PDF levou a pista de busca a TCE/PE, mas a capa identifica Santa Catarina. Não alterar a origem real.",
+      "annulledItems": [
+        46
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "section": "roles",
+      "id": "cgu-auditoria",
+      "before": {
+        "id": "cgu-auditoria",
+        "contestId": "cgu-2026",
+        "title": "Auditor Federal de Finanças e Controle — Auditoria",
+        "status": "verified",
+        "referenceDocumentIds": [
+          "cgu-2026-abertura-atualizada",
+          "reference-cgu-in3-2017-consolidada",
+          "reference-cgu-in7-2017",
+          "reference-mcasp-11-2025",
+          "reference-lei-12846-2013",
+          "reference-cns-510-2016",
+          "reference-lei-12813-2013",
+          "reference-decreto-11129-2022",
+          "reference-nbc-tsp-34",
+          "reference-nbc-tg-25-r2",
+          "reference-nbc-tg-01-r4",
+          "reference-lei-6404-1976",
+          "reference-cgu-pn27-2022",
+          "reference-cgu-pn54-2023",
+          "reference-cgu-pn123-2024",
+          "reference-nbc-tg26-r5",
+          "reference-nbc-tg03-r3",
+          "reference-stf-tema-786",
+          "reference-decreto-11529-2023",
+          "reference-decreto-9830-2019"
+        ]
+      },
+      "after": {
+        "id": "cgu-auditoria",
+        "contestId": "cgu-2026",
+        "title": "Auditor Federal de Finanças e Controle — Auditoria",
+        "status": "verified",
+        "referenceDocumentIds": [
+          "cgu-2026-abertura-atualizada",
+          "reference-cgu-in3-2017-consolidada",
+          "reference-cgu-in7-2017",
+          "reference-mcasp-11-2025",
+          "reference-lei-12846-2013",
+          "reference-cns-510-2016",
+          "reference-lei-12813-2013",
+          "reference-decreto-11129-2022",
+          "reference-nbc-tsp-34",
+          "reference-nbc-tg-25-r2",
+          "reference-nbc-tg-01-r4",
+          "reference-lei-6404-1976",
+          "reference-cgu-pn27-2022",
+          "reference-cgu-pn54-2023",
+          "reference-cgu-pn123-2024",
+          "reference-nbc-tg26-r5",
+          "reference-nbc-tg03-r3",
+          "reference-stf-tema-786",
+          "reference-decreto-11529-2023",
+          "reference-decreto-9830-2019",
+          "reference-cgu-codigo-conduta-2009",
+          "reference-uncac-cartilha-2016",
+          "reference-lei-13303-2016",
+          "reference-lei-13608-2018",
+          "reference-lei-13964-2019",
+          "reference-decreto-10153-2019",
+          "reference-lei-13460-2017"
+        ]
+      },
+      "reason": "Acrescentar sete fontes oficiais para conduta, ConvençãoONU, estatais, direitos do usuário e proteção do denunciante; programa e regras intactos."
+    },
+    {
+      "section": "questions",
+      "id": "cgesp-2025-audit-am-q022",
+      "before": {
+        "id": "cgesp-2025-audit-am-q022",
+        "bankId": "concursos",
+        "revision": 1,
+        "type": "multiple_choice",
+        "stem": "Os auditores internos governamentais devem se comportar com cortesia e respeito no trato com pessoas, mesmo em situações de divergência de opinião, abstendo-se de emitir juízo ou adotar práticas que indiquem qualquer tipo de discriminação ou preconceito.\n\nAssinale a opção que indica o princípio fundamental para a prática da atividade de Auditoria Interna Governamental que exige esse comportamento dos auditores internos.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Carisma."
+          },
+          {
+            "id": "b",
+            "text": "Eficiência."
+          },
+          {
+            "id": "c",
+            "text": "Integridade."
+          },
+          {
+            "id": "d",
+            "text": "Zelo profissional."
+          },
+          {
+            "id": "e",
+            "text": "Independência funcional."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-cgesp-2025-audit-am",
+          "number": 22,
+          "locator": "PDF p. 6"
+        },
+        "answerKeyId": "cgesp-2025-audit-am-q022-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-29",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+          "decisionReference": "documentation/expansion-eighth-release.md"
+        }
+      },
+      "after": {
+        "id": "cgesp-2025-audit-am-q022",
+        "bankId": "concursos",
+        "revision": 2,
+        "type": "multiple_choice",
+        "stem": "Os auditores internos governamentais devem se comportar com cortesia e respeito no trato com pessoas, mesmo em situações de divergência de opinião, abstendo-se de emitir juízo ou adotar práticas que indiquem qualquer tipo de discriminação ou preconceito.\n\nAssinale a opção que indica o princípio fundamental para a prática da atividade de Auditoria Interna Governamental que exige esse comportamento dos auditores internos.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Carisma."
+          },
+          {
+            "id": "b",
+            "text": "Eficiência."
+          },
+          {
+            "id": "c",
+            "text": "Integridade."
+          },
+          {
+            "id": "d",
+            "text": "Zelo profissional."
+          },
+          {
+            "id": "e",
+            "text": "Independência funcional."
+          }
+        ],
+        "contextIds": [],
+        "origin": {
+          "kind": "official",
+          "paperId": "source-cgesp-2025-audit-am",
+          "number": 22,
+          "locator": "PDF p. 6"
+        },
+        "answerKeyId": "cgesp-2025-audit-am-q022-key-v1",
+        "review": {
+          "status": "released",
+          "method": "agent_assisted",
+          "reviewer": "Codex",
+          "reviewedAt": "2026-10-29",
+          "sourceCompared": true,
+          "contextCompared": true,
+          "answerKeyCompared": true,
+          "temporalScope": "conceptual",
+          "temporalNote": "Amostra parcial; alcance delimitado no comentário. Texto, contexto e chave definitiva conferidos; não equivale a domínio integral do tópico.",
+          "decisionReference": "documentation/expansion-eighth-release.md"
+        }
+      },
+      "reason": "Vínculo adicional aos valores e conduta próprios da CGU, após conferir a fonte institucional; texto, opções e chave intactos."
+    },
+    {
+      "section": "explanations",
+      "id": "cgesp-2025-audit-am-q022-comment-v1",
+      "before": {
+        "id": "cgesp-2025-audit-am-q022-comment-v1",
+        "questionId": "cgesp-2025-audit-am-q022",
+        "text": "Alternativa C. Cortesia, respeito e abstenção de discriminação integram a integridade na prática de auditoria. O dever permanece diante de divergências de opinião. A IN SFC 3/2017, item 43, prevê esse comportamento no referencial federal. É uma amostra de conduta profissional; não reproduz nem substitui o Código de Ética próprio da CGU.",
+        "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+        "status": "reviewed",
+        "references": [
+          {
+            "documentId": "source-cgesp-2025-audit-am-paper",
+            "locator": "PDF p. 6, questão 22"
+          },
+          {
+            "documentId": "source-cgesp-2025-audit-am-key",
+            "locator": "PDF p. 12, questão 22"
+          },
+          {
+            "documentId": "reference-cgu-in3-2017-consolidada",
+            "locator": "Item43, integridade e comportamento respeitoso"
+          }
+        ]
+      },
+      "after": {
+        "id": "cgesp-2025-audit-am-q022-comment-v2",
+        "questionId": "cgesp-2025-audit-am-q022",
+        "text": "Alternativa C. A cortesia e o respeito, inclusive na divergência, integram a integridade na prática da auditoria (IN SFC 3/2017,item 43). O Código de Conduta Profissional da CGU disponibilizado pela Comissão de Ética também exige civilidade, respeito e igualdade (art.1º,parágrafo único) e veda preconceitos no convívio funcional (art.3º,II eVII), além de exigir respeito aos interlocutores (XIV). É primeira amostra desses valores aplicados ao comportamento profissional na CGU; não cobre todo o código, assédio, consulta ética ou processo de responsabilização.",
+        "author": "Codex — comentário didático assistido por IA; revisão assistida por agente",
+        "status": "reviewed",
+        "references": [
+          {
+            "documentId": "source-cgesp-2025-audit-am-paper",
+            "locator": "PDF p. 6, questão 22"
+          },
+          {
+            "documentId": "source-cgesp-2025-audit-am-key",
+            "locator": "PDF p. 12, questão 22"
+          },
+          {
+            "documentId": "reference-cgu-in3-2017-consolidada",
+            "locator": "Item43, integridade e comportamento respeitoso"
+          },
+          {
+            "documentId": "reference-cgu-codigo-conduta-2009",
+            "locator": "Arts.1º,parágrafo único, e3º,II,VII,XIV"
+          }
+        ]
+      },
+      "reason": "Novo comentário versionado com a referência própria da CGU; não altera o gabarito ou enunciado."
+    }
+  ],
+  "mappingAdditions": [
+    {
+      "questionId": "cgesp-2025-audit-am-q022",
+      "mapping": {
+        "id": "cgesp-2025-audit-am-q022-closure-cgu-conduta",
+        "questionId": "cgesp-2025-audit-am-q022",
+        "syllabusItemId": "cgu-2026-etica-publica-2-2",
+        "status": "confirmed",
+        "justification": "Comportamento respeitoso diante de divergências: componente de aplicação dos valores expressos no Código próprio da CGU, arts.1º e3º; não cobertura integral."
+      }
+    }
+  ],
+  "referenceRechecks": [
+    {
+      "file": "sources/references/CGU-Codigo-Conduta-2009-ed2010.pdf",
+      "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/governanca/comissao-de-etica/arquivos/codigo-de-conduta-cgu.pdf",
+      "sha256": "27f946e3311d61da9cdf2811c98e18f4148a93cc0249de0716e2d73f479c7b5f",
+      "repeatSha256": "27f946e3311d61da9cdf2811c98e18f4148a93cc0249de0716e2d73f479c7b5f",
+      "checkedAt": "2026-10-29T23:30:07.161970+00:00",
+      "repeatCheckedAt": "2026-10-29T23:47:38.622871+00:00",
+      "documentId": "reference-cgu-codigo-conduta-2009",
+      "scope": "Somente dispositivos citados e texto da Convenção; não certificação integral de vigência."
+    },
+    {
+      "file": "sources/references/CGU-UNCAC-2016.pdf",
+      "url": "https://www.gov.br/cgu/pt-br/assuntos/articulacao-internacional-1/convencao-da-onu/arquivos/cartilha-onu-2016.pdf",
+      "sha256": "d61f95370757695119ed8aea860e650d5360ddd4a9304bceef75d87e5c42f195",
+      "repeatSha256": "d61f95370757695119ed8aea860e650d5360ddd4a9304bceef75d87e5c42f195",
+      "checkedAt": "2026-10-29T23:30:07.163099+00:00",
+      "repeatCheckedAt": "2026-10-29T23:47:38.783975+00:00",
+      "documentId": "reference-uncac-cartilha-2016",
+      "scope": "Somente dispositivos citados e texto da Convenção; não certificação integral de vigência."
+    },
+    {
+      "documentId": "reference-lei-13303-2016",
+      "file": "sources/references/lei-13303-2016-senado.html",
+      "url": "https://legis.senado.leg.br/norma/602528/publicacao/43060879",
+      "sha256": "3a5676190a3fbf1714969f4e73e55807ae93c975ded8f2adb1f15af0d289da90",
+      "repeatSha256": "3a5676190a3fbf1714969f4e73e55807ae93c975ded8f2adb1f15af0d289da90",
+      "checkedAt": "2026-10-29T23:53:37.569652+00:00",
+      "repeatCheckedAt": "2026-10-29T23:55:16.351995+00:00",
+      "scope": "Identidade e dispositivos/pontos de leitura selecionados; texto original não é apresentado como consolidação atual. Não representa questão liberada."
+    },
+    {
+      "documentId": "reference-lei-13608-2018",
+      "file": "sources/references/lei-13608-2018-original.html",
+      "url": "https://legis.senado.leg.br/norma/26341985/publicacao/26342105",
+      "sha256": "24a5b91c8be81ef12014006a60f8d1718ef2d501a7876502a2a2548d08d29fe8",
+      "repeatSha256": "24a5b91c8be81ef12014006a60f8d1718ef2d501a7876502a2a2548d08d29fe8",
+      "checkedAt": "2026-10-29T23:52:26.795528+00:00",
+      "repeatCheckedAt": "2026-10-29T23:57:48.767320+00:00",
+      "scope": "Identidade e dispositivos/pontos de leitura selecionados; texto original não é apresentado como consolidação atual. Não representa questão liberada."
+    },
+    {
+      "documentId": "reference-lei-13964-2019",
+      "file": "sources/references/lei-13964-2019-original.html",
+      "url": "https://legis.senado.leg.br/norma/31865675/publicacao/31866001",
+      "sha256": "d616f03c6abbc61b2d4a05e8999be9316d5e052fc6aa56c920a8cee07ae31064",
+      "repeatSha256": "d616f03c6abbc61b2d4a05e8999be9316d5e052fc6aa56c920a8cee07ae31064",
+      "checkedAt": "2026-10-29T23:57:48.768195+00:00",
+      "repeatCheckedAt": "2026-10-29T23:57:51.172120+00:00",
+      "scope": "Identidade e dispositivos/pontos de leitura selecionados; texto original não é apresentado como consolidação atual. Não representa questão liberada."
+    },
+    {
+      "documentId": "reference-decreto-10153-2019",
+      "file": "sources/references/decreto-10153-2019-original.html",
+      "url": "https://legis.senado.leg.br/norma/31787194/publicacao/31787205",
+      "sha256": "76f58baf1ca0ae00823d69cccd83384b82577ef21e4fc550b292fefe95b2c0b4",
+      "repeatSha256": "76f58baf1ca0ae00823d69cccd83384b82577ef21e4fc550b292fefe95b2c0b4",
+      "checkedAt": "2026-10-29T23:52:28.747160+00:00",
+      "repeatCheckedAt": "2026-10-29T23:53:37.571152+00:00",
+      "scope": "Identidade e dispositivos/pontos de leitura selecionados; texto original não é apresentado como consolidação atual. Não representa questão liberada."
+    },
+    {
+      "documentId": "reference-lei-13460-2017",
+      "file": "sources/references/lei-13460-2017-original.html",
+      "url": "https://legis.senado.leg.br/norma/17711251/publicacao/17711260",
+      "sha256": "15e6fec212c95c5f10b0b8aca459ea8ef6392b7dc85c74f499d2f5a6a7ec66d3",
+      "repeatSha256": "15e6fec212c95c5f10b0b8aca459ea8ef6392b7dc85c74f499d2f5a6a7ec66d3",
+      "checkedAt": "2026-10-29T23:52:29.562470+00:00",
+      "repeatCheckedAt": "2026-10-29T23:53:37.572012+00:00",
+      "scope": "Identidade e dispositivos/pontos de leitura selecionados; texto original não é apresentado como consolidação atual. Não representa questão liberada."
+    }
+  ],
+  "researchEvidence": [
+    {
+      "file": "data/reviews/official-closure-evidence/fgv-cpnu2.html",
+      "url": "https://conhecimento.fgv.br/cpnu2",
+      "sha256": "984f45925befeef70b73323683740a3212092e91d2aa23222cf8b173eae4c9a9",
+      "checkedAt": "2026-10-29T23:31:55.319698+00:00"
+    },
+    {
+      "file": "data/reviews/official-closure-evidence/tcesc26-index.html",
+      "url": "https://conhecimento.fgv.br/concursos/tcesc26",
+      "sha256": "7b1db583a8ebed2122b136de9af1577c919ef464d62dca4757750c6a34410e18",
+      "checkedAt": "2026-10-29T23:38:12.891787+00:00"
+    },
+    {
+      "file": "data/reviews/official-closure-evidence/cgu-ethics-portal.html",
+      "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/governanca/comissao-de-etica",
+      "sha256": "d075f3d8e4303085b722fbcce18cd5ffe375679ca31cdef3981b8add651fd5e4",
+      "checkedAt": "2026-10-29T23:30:07.164623+00:00"
+    },
+    {
+      "file": "data/reviews/official-closure-evidence/seplad-auditor-event.json",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/SEPLAD_DF_22_AUDITOR",
+      "sha256": "5d7fcb827a2958f0def9db7b020fc4323ae7a020ad087a61ec04b3996dd2161a",
+      "checkedAt": "2026-10-29T23:30:07.161034+00:00"
+    },
+    {
+      "file": "data/reviews/official-closure-evidence/secont-event.json",
+      "url": "https://apis.cebraspe.org.br/cebraspe/eventos/SECONT_ES_22",
+      "sha256": "c650b2a6c65fd664d00c1c3f8467a1a0362a3fd181affa08d2f579f9ab23dee8",
+      "checkedAt": "2026-10-29T23:35:51.701895+00:00"
+    },
+    {
+      "file": "data/reviews/official-closure-evidence/cpnu2-opening.pdf",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital_concurso-publico-nacional-unificado-2_6aret_29.09.25.pdf",
+      "sha256": "020c232034728fb9c7edc077747d950296d879b463fdefcd8922a880dac3797f",
+      "checkedAt": "2026-10-29T23:48:18.490764+00:00"
+    },
+    {
+      "file": "data/reviews/official-closure-evidence/search-log.json",
+      "sha256": "2c4479963352db299cecc3bca2200c5394851b2071b0ecd4a45fe43fb3d77f69",
+      "scope": "ResultadosHTTP, URLs e hashes das buscas. HTTP200 sem resultados utilizáveis, páginas genéricas e desafios não autenticam uma prova nem demonstram inexistência."
+    },
+    {
+      "file": "data/reviews/official-closure-evidence/lei13303-senado-meta.html",
+      "url": "https://legis.senado.leg.br/norma/602528",
+      "sha256": "01286f93c08f0a11f51aac483997d193c6da675a9230974119ec5e551d61336c",
+      "checkedAt": "2026-10-29T23:52:26.792124+00:00"
+    },
+    {
+      "file": "data/reviews/official-closure-evidence/lei13608-senado-meta.html",
+      "url": "https://legis.senado.leg.br/norma/26341985",
+      "sha256": "42c240ae2a41d34c6856c53d663f48f24e3ae3cc571fe0f9419dab13c19a4d1e",
+      "checkedAt": "2026-10-29T23:52:26.794626+00:00"
+    },
+    {
+      "file": "data/reviews/official-closure-evidence/lei13460-senado-meta.html",
+      "url": "https://legis.senado.leg.br/norma/17711251",
+      "sha256": "531629aee8f5b5e0fe6bfc4b6ed367a8e4f0060132a65966ed022ca200a6d508",
+      "checkedAt": "2026-10-29T23:52:29.117859+00:00"
+    },
+    {
+      "file": "data/reviews/official-closure-evidence/decreto10153-senado-meta.html",
+      "url": "https://legis.senado.leg.br/norma/31787194",
+      "sha256": "bb334abdd12ed45a7f36436e71762d2cf54b7449c11a6601f96455799cea9c5c",
+      "checkedAt": "2026-10-29T23:52:28.699165+00:00"
+    },
+    {
+      "file": "data/reviews/official-closure-evidence/lexml-lei13964.html",
+      "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2019-12-24;13964",
+      "sha256": "42cdb2e54d32ec9e8a043567769834f7ec4b81f4057bf34a80f5e926cb5dbdf7",
+      "checkedAt": "2026-10-29T23:55:16.353738+00:00"
+    }
+  ],
+  "excluded": [
+    {
+      "source": "ABDI2023 técnicos",
+      "reason": "Gabarito definitivo pós-retificação não confirmado; suspensão e cancelamento não tornam o gabarito automaticamente definitivo. Sem alterar a chave ou criar questões."
+    },
+    {
+      "source": "ABDI2008 convênios e princípios",
+      "reason": "As definições e a redação dos regulamentos próprios mudaram; as respostas antigas não foram transpostas por aproximação para o regulamento2026."
+    },
+    {
+      "source": "ABDI planejam.2024–2029 e Ética18–25; Câmara Ato218/2025 e manual2024",
+      "reason": "Fontes oficiais de leitura disponíveis; nenhum par oficial compatível e com chave definitiva foi confirmado nesta busca."
+    },
+    {
+      "source": "CNU2 arquivos bloco-tematico-...-tipo-1.pdf",
+      "reason": "São as provas DISCURSIVAS, apesar do nome semelhante. Apenas b1101/b5501/b6601 foram pareados com os quadros objetivos."
+    },
+    {
+      "source": "CNU2 B1q63/B5q46/B6q35 e TCE/SCq46",
+      "reason": "Anuladas; excluídas do lote."
+    },
+    {
+      "source": "ANM005q113",
+      "reason": "Chave definitivaC; a qualificação jurídica do caso não foi suficientemente resolvida para liberá-lo como questão de conflitos de interesses. Não trocar a chave para ajustar uma interpretação."
+    },
+    {
+      "source": "TCE/SC TAC e regras próprias",
+      "reason": "Condições e procedimentos locais não foram apresentados como PN CGU27. Fonte mantida como pesquisa, sem vínculo artificial."
+    },
+    {
+      "source": "CGU Correição46/78",
+      "reason": "Persistem diferenças entre parâmetros antigos e Decreto11129; manter exclusão sem tratar a chave oficial como anulada."
+    },
+    {
+      "source": "CNU2 maturidade de processos, BSC e dados de usuários",
+      "reason": "Não equivalem automaticamente a maturidade da integridade, carta anual de estatais ou subnotificação. Dados/figuras não foram reduzidos a enunciados incompletos."
+    },
+    {
+      "source": "Texto atualizado Lei13.608 no Senado, publicação34619181",
+      "reason": "HTTP200 com corpo vazio foi rejeitado. Foram retidos o texto original e o art.15 da Lei13.964/2019 como documentos independentes; não se inventou uma consolidação."
+    }
+  ],
+  "humanAcceptance": {
+    "status": "deferred_by_user",
+    "reason": "Teste de uso somente após este fechamento, por determinação do usuário."
+  },
+  "sourcePolicy": {
+    "allowed": "official_only",
+    "authorialQuestionsAllowed": false,
+    "userDecision": "Manter somente questões oficiais e registrar as lacunas que não puderem ser preenchidas.",
+    "emptySubtreesAtStart": 67
+  }
+}

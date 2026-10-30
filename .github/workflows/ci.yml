@@ -40,6 +40,7 @@ jobs:
       - run: uv run python -m tools.completion --check
       - run: uv run python -m tools.continuation --check
       - run: uv run python -m tools.expansion --check
+      - run: uv run python -m tools.official_closure --check
       - run: uv run python -m tools coverage --check
       - run: uv run python -m tools coverage --role abdi-comunicacao-marketing --check
       - run: uv run python -m tools coverage --role cgu-auditoria --check

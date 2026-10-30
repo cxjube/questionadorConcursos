@@ -1,0 +1,20 @@
+'use strict';
+const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),zlib=require('node:zlib'),{webcrypto}=require('node:crypto');
+const root=path.resolve(__dirname,'../..'),plain=x=>JSON.parse(JSON.stringify(x)),now='2026-10-29T23:00:00.000Z',roles=['camara-comunicacao-divulgacao','abdi-comunicacao-marketing','cgu-auditoria'];
+function setup(){const s={window:{},URL,TextEncoder,crypto:webcrypto};vm.createContext(s);for(const f of ['assets/js/study.js','data/catalog.js'])vm.runInContext(fs.readFileSync(path.join(root,'docs',f),'utf8'),s);s.c=s.window.CONCURSOS_CATALOG;s.old=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(root,'data/reviews/pre-official-closure-catalog.json.gz'))));s.old.revision='a'.repeat(64);s.m=JSON.parse(fs.readFileSync(path.join(root,'data/reviews/official-closure.json')));return s;}
+test('official-only closure keeps every native quota and preserves previous755 snapshots',()=>{
+ const s=setup(),p=s.Study.empty();assert.equal(s.c.questions.length,773);assert.deepEqual(roles.map(r=>s.Study.pool(s.c,r,p).length),[421,263,376]);assert.equal(new Set(roles.flatMap(r=>s.Study.pool(s.c,r,p).map(q=>q.id))).size,773);assert.ok(s.c.questions.every(q=>q.origin.kind==='official'));assert.equal(s.m.sourcePolicy.authorialQuestionsAllowed,false);
+ for(const [i,count] of [180,60,170].entries()){
+  const current=s.Study.create(s.c,roles[i],p,'exam',{now,random:()=>.4});assert.equal(current.items.length,count);assert.equal(new Set(current.items.map(i=>i.question.id)).size,count);assert.equal(current.scoringProfile.rule.version,1);
+  for(const b of current.scoringProfile.rule.blocks){assert.equal(current.items.filter(i=>i.examBlockId===b.id).length,b.questionCount);for(const d of b.distribution||[])assert.equal(current.items.filter(i=>i.examBlockId===b.id&&i.examDisciplineId===d.disciplineId).length,d.questionCount);}
+  assert.ok(current.items.every(item=>item.question.type===(i===1?'multiple_choice':'true_false')));
+  for(const mode of ['all','exam']){const old={...p,active:s.Study.create(s.old,roles[i],p,mode,{now,random:()=>.4})};assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup(old),s.c)),plain(old));}
+ }
+ assert.deepEqual(plain(s.Study.examAvailability(s.c,roles[2]).blocks.map(b=>b.questions.length)),[75,95,175]);assert.equal(s.Study.pool(s.c,roles[1],p,'all',{block:'institutional',type:'multiple_choice'}).length,26);
+});
+test('all eighteen new official rows have exact snapshots and the revised conduct item preserves its key',()=>{
+ const s=setup(),p=s.Study.empty();
+ for(const row of s.m.items){const role=s.c.syllabusItems.find(i=>i.id===row.syllabusItemIds[0]).roleId;const item=s.Study.create(s.c,role,p,'all',{paperId:row.paperId,now}).items.find(i=>i.question.id===row.questionId);assert.ok(item);assert.equal(item.key.value,row.answerValue);assert.deepEqual(plain(item.contexts.map(c=>c.id)),row.contextIds);}
+ const qid='cgesp-2025-audit-am-q022',old=s.Study.create(s.old,roles[2],p,'all',{paperId:'source-cgesp-2025-audit-am',now}).items.find(i=>i.question.id===qid),current=s.Study.create(s.c,roles[2],p,'all',{paperId:'source-cgesp-2025-audit-am',now}).items.find(i=>i.question.id===qid);assert.equal(old.question.revision,1);assert.equal(current.question.revision,2);assert.equal(old.key.value,current.key.value);assert.equal(old.question.stem,current.question.stem);assert.match(current.explanations[0].text,/Código de Conduta/);assert.ok(current.explanations[0].references.some(r=>r.documentId==='reference-cgu-codigo-conduta-2009'));assert.deepEqual(plain(s.Study.importBackup(s.Study.exportBackup({...p,active:s.Study.create(s.old,roles[2],p,'all',{paperId:'source-cgesp-2025-audit-am',now})}),s.c).active.items.find(i=>i.question.id===qid)),plain(old));
+ for(const qid of ['cgu-2022-correicao-tarde-tipo1-q046','cgu-2022-correicao-tarde-tipo1-q078','038-anm-005-01-q113','cpnu2-2025-b5-tipo1-q046'])assert.equal(s.c.questions.some(q=>q.id===qid),false);
+});

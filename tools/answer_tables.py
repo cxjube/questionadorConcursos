@@ -104,6 +104,8 @@ def answer_table(text: str, booklet: str) -> dict[int, str]:
     header_pattern = (r'(?m)^[ \t]*((?:(?:Analista|Técnico) (?:Legislativo|Judiciário)[^\n]*TIPO \d+|'
                       r'Especialista Legislativo[^\n]* - \d+ - Turno (?:Manhã|Tarde|Noite)|'
                       r'Auditor Estadual de Controle CGE - [^\n]+ - \d+ - Turno (?:Manhã|Tarde)|'
+                      r'Bloco \d+ - [^\n]+ - TIPO \d+|'
+                      r'Auditor Fiscal de Controle Externo - [^\n]+ - \d+|'
                       r'Auditor Federal de Controle Externo[^\n]* – Tipo \d+|'
                       r'Auditor do Estado - [^\n]+ - TIPO \d+ \((?:Manhã|Tarde)\)))[ \t]*$')
     headers = list(re.finditer(header_pattern, text))
