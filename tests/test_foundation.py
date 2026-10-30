@@ -321,6 +321,22 @@ class FoundationTests(unittest.TestCase):
         self.assertIn('confirmed answer key', result.stderr)
         self.assertEqual(target.read_text(), 'previous validated artifact')
 
+    def test_invalid_logistics_cannot_replace_either_public_artifact(self):
+        """A rejected operational schedule must preserve the last valid public files."""
+        import shutil
+        shutil.copytree(ROOT / 'tools', self.root / 'tools', ignore=shutil.ignore_patterns('__pycache__'))
+        (self.root / 'data').mkdir()
+        (self.root / 'docs/data').mkdir(parents=True)
+        for name in ['catalog.js', 'logistics.js']:
+            (self.root / 'docs/data' / name).write_text('previous validated artifact')
+        (self.root / 'data/catalog.json').write_text(json.dumps(self.catalog))
+        (self.root / 'data/contest-logistics.json').write_text(json.dumps({'version': 1, 'schedules': []}))
+        result = subprocess.run([sys.executable, '-m', 'tools', 'build'], cwd=self.root, capture_output=True, text=True)
+        self.assertEqual(result.returncode, 1)
+        self.assertIn('schedules', result.stderr)
+        for name in ['catalog.js', 'logistics.js']:
+            self.assertEqual((self.root / 'docs/data' / name).read_text(), 'previous validated artifact')
+
     def test_explicit_language_tags_for_accessible_english_content(self):
         self.catalog['questions'][0]['language'] = 'en'
         self.assertEqual(validate(self.catalog,self.root),[])

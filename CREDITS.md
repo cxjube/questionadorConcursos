@@ -2,6 +2,8 @@
 
 O **Questionador Concursos** adapta componentes do [Questionador](https://github.com/mugubr/questionador), de **Miguel Muniz e Rubens Braz**, conforme atribuição encontrada no `pyproject.toml` do projeto original.
 
+Esta adaptação e seus aprimoramentos são identificados no aplicativo em nome de **João Gabriel Calixto**, responsável pelo projeto Questionador Concursos. A atribuição ao projeto de origem permanece preservada no rodapé.
+
 Referência da adaptação: commit `d72ff3b5bbeea114d60e6a5ebe37a3858866a2ae`.
 
 ## Componentes reutilizados

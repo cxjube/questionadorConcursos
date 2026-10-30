@@ -1,0 +1,194 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "schedules"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "schedules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "roleId",
+          "reviewedAt",
+          "timeZone",
+          "reviewedNoticeIds",
+          "registration",
+          "exam",
+          "sources"
+        ],
+        "properties": {
+          "roleId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reviewedAt": {
+            "type": "string",
+            "format": "date"
+          },
+          "timeZone": {
+            "const": "America/Sao_Paulo"
+          },
+          "reviewedNoticeIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "registration": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "start",
+              "end",
+              "paymentDeadline",
+              "feeBRL",
+              "url"
+            ],
+            "properties": {
+              "start": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "end": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "paymentDeadline": {
+                "type": "string",
+                "format": "date"
+              },
+              "feeBRL": {
+                "type": "number",
+                "minimum": 0
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          },
+          "exam": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "date",
+              "provisional",
+              "mode",
+              "objectiveSession",
+              "discursiveSession",
+              "locationAnnouncementDate",
+              "location",
+              "notes"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "provisional": {
+                "type": "boolean"
+              },
+              "mode": {
+                "enum": [
+                  "in_person",
+                  "remote"
+                ]
+              },
+              "objectiveSession": {
+                "type": "string",
+                "minLength": 1
+              },
+              "discursiveSession": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "locationAnnouncementDate": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "location": {
+                "type": "string",
+                "minLength": 1
+              },
+              "notes": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "documentId",
+                "pages",
+                "reference",
+                "quotes"
+              ],
+              "properties": {
+                "documentId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "pages": {
+                  "type": "array",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                },
+                "reference": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "quotes": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

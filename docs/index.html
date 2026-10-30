@@ -12,16 +12,17 @@
         if (theme === 'light' || theme === 'dark') document.documentElement.setAttribute('data-theme', theme);
       } catch (_) { /* Blocked storage must not prevent startup. */ }
     </script>
-    <link rel="stylesheet" href="assets/css/styles.css?v=20">
+    <link rel="stylesheet" href="assets/css/styles.css?v=21">
     <script defer src="assets/js/types.js?v=5"></script>
     <script defer src="assets/js/storage.js?v=4"></script>
     <script defer src="assets/js/theme.js?v=4"></script>
     <script defer src="assets/js/catalog.js?v=4"></script>
     <script defer src="data/catalog.js?v=43"></script>
+    <script defer src="data/logistics.js?v=1"></script>
     <script defer src="assets/js/study.js?v=28"></script>
     <script defer src="assets/js/progress.js?v=4"></script>
     <script defer src="assets/js/study-ui.js?v=30"></script>
-    <script defer src="assets/js/main.js?v=8"></script>
+    <script defer src="assets/js/main.js?v=9"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Ir para o conteúdo</a>
@@ -63,8 +64,11 @@
           <div><label for="contest">Concurso</label><div class="select-control"><select id="contest" aria-describedby="contest-status"><option>Carregando catálogo…</option></select></div></div>
           <div><label for="role">Cargo e área</label><div class="select-control"><select id="role"><option>Aguardando seleção</option></select></div></div>
         </div>
-        <section class="landing-training" aria-labelledby="training-heading">
+        <div class="study-modes">
+        <section class="landing-training mode-card" aria-labelledby="training-heading">
+          <p class="mode-eyebrow">No seu ritmo</p>
           <div class="landing-training-header"><h3 id="training-heading">Treino de questões</h3><p id="study-availability"></p></div>
+          <p class="mode-description">Escolha os assuntos e pratique com a quantidade, o tempo e a pontuação que preferir.</p>
           <p id="study-format-note" class="review-note" hidden></p>
           <p id="study-resume-note" class="review-note" hidden></p>
           <p id="study-selection-summary" class="review-note" hidden></p>
@@ -73,10 +77,14 @@
             <button id="start-study" type="button" class="primary" disabled>Iniciar questões</button>
           </div>
         </section>
-        <section class="landing-exam" aria-labelledby="landing-exam-heading">
-          <div><h3 id="landing-exam-heading">Simulado</h3><p id="exam-summary" class="review-note" hidden></p><p id="exam-availability" class="review-note" hidden></p></div>
-          <button id="prepare-exam" type="button" aria-haspopup="dialog" aria-controls="exam-dialog" aria-describedby="exam-summary exam-availability" disabled>Preparar simulado</button>
+        <section class="landing-exam mode-card" aria-labelledby="landing-exam-heading">
+          <p class="mode-eyebrow">No ritmo da prova</p>
+          <div class="landing-training-header"><h3 id="landing-exam-heading">Simulado</h3><p id="exam-summary" class="review-note" hidden></p></div>
+          <p class="mode-description">Treine com a quantidade, o prazo e os critérios do edital. Confira o gabarito ao finalizar.</p>
+          <p id="exam-availability" class="review-note" hidden></p>
+          <div class="landing-actions"><button id="prepare-exam" type="button" class="primary" aria-haspopup="dialog" aria-controls="exam-dialog" aria-describedby="exam-summary exam-availability" disabled>Preparar simulado</button></div>
         </section>
+        </div>
         <div class="landing-utilities"><button id="landing-history" type="button" class="quiet-button" hidden>Histórico e desempenho</button></div>
         <details class="support-details"><summary>Sobre este objetivo</summary><p id="provider" class="review-note"></p><p id="contest-status"></p></details>
        </div>
@@ -93,7 +101,7 @@
       </section>
       <section id="program-section" class="panel" role="tabpanel" aria-labelledby="program-tab" tabindex="0" hidden>
         <h2 id="program-heading">Conteúdo programático</h2>
-        <p class="selected-contest" data-selected-contest></p>
+        <div class="objective-switch"><label for="program-objective">Objetivo</label><div class="select-control"><select id="program-objective" data-objective-select aria-label="Objetivo do conteúdo programático"></select></div></div>
         <p id="program-summary"></p>
         <label class="reference-toggle"><input id="show-program-references" type="checkbox"> Exibir referências do edital</label>
         <div id="program"></div>
@@ -101,13 +109,15 @@
       </section>
       <section id="rules-section" class="panel" role="tabpanel" aria-labelledby="rules-tab" tabindex="0" hidden>
         <h2 id="rules-heading">Regras das provas objetivas</h2>
-        <p class="selected-contest" data-selected-contest></p>
+        <div class="objective-switch"><label for="rules-objective">Objetivo</label><div class="select-control"><select id="rules-objective" data-objective-select aria-label="Objetivo das regras"></select></div></div>
+        <section id="contest-logistics" class="contest-logistics" aria-labelledby="logistics-heading"></section>
+        <h3 class="scoring-heading">Como funciona a pontuação</h3>
         <div id="rules"></div>
         <p id="rules-caution" class="review-note">Estes são os critérios da prova oficial. O simulado completo verifica os mínimos; o treino personalizado não os aplica. Atingi-los não garante aprovação: também valem os limites de classificação e as demais regras do edital.</p>
       </section>
       <section id="consolidation-section" class="panel" role="tabpanel" aria-labelledby="consolidation-tab" tabindex="0" hidden>
         <h2 id="consolidation-heading">Editais</h2>
-        <p class="selected-contest" data-selected-contest></p>
+        <div class="objective-switch"><label for="notices-objective">Objetivo</label><div class="select-control"><select id="notices-objective" data-objective-select aria-label="Objetivo dos editais"></select></div></div>
         <nav class="notice-watch" aria-labelledby="notice-watch-heading">
           <h3 id="notice-watch-heading">Onde acompanhar novas publicações</h3>
           <p>Consulte os sites oficiais para acompanhar editais, retificações e comunicados. Os links abrem em outra aba.</p>
@@ -140,7 +150,7 @@
           <summary id="role-reference-title">Materiais de referência</summary>
           <p>Leituras para os conteúdos institucionais deste edital. Os links abrem em outra aba.</p>
           <ul id="role-reference-links" class="watch-links"></ul>
-          <p class="review-note">O planejamento original citado no edital e sua versão ajustada estão identificados separadamente. Acompanhe eventuais atualizações no portal da ABDI.</p>
+          <p id="role-reference-note" class="review-note"></p>
         </details>
         <h4>O que mudou e como funciona</h4>
         <div id="consolidation"></div>
@@ -148,7 +158,7 @@
       </section>
       <section id="sources-section" class="panel" role="tabpanel" aria-labelledby="sources-tab" tabindex="0" hidden>
         <h2 id="sources-heading">Provas vinculadas ao objetivo</h2>
-        <p class="selected-contest" data-selected-contest></p>
+        <div class="objective-switch"><label for="papers-objective">Objetivo</label><div class="select-control"><select id="papers-objective" data-objective-select aria-label="Objetivo das provas e gabaritos"></select></div></div>
         <p id="inventory-summary"></p>
         <ul id="inventory" class="notice-list"></ul>
         <details class="support-details"><summary>Como os arquivos entram no estudo?</summary><p>Receber um caderno não libera todas as suas questões. A conferência oficial confirma a identidade dos arquivos; cada questão também precisa de revisão de enunciado, contexto, gabarito e vínculo com o edital.</p></details>
@@ -221,8 +231,9 @@
       </div>
     </dialog>
     <footer class="wrapper footer">
-      <p>Baseado no <a href="https://github.com/mugubr/questionador">Questionador</a>, de Miguel Muniz e Rubens Braz.</p>
+      <p>Adaptado e aprimorado por <strong>João Gabriel Calixto</strong>.</p>
       <p>Seu progresso fica neste navegador. Use o backup para transferi-lo.</p>
+      <p>Baseado no <a href="https://github.com/mugubr/questionador">Questionador</a>, de Miguel Muniz e Rubens Braz.</p>
     </footer>
   </body>
 </html>

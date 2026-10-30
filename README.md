@@ -1,5 +1,7 @@
 # Questionador Concursos
 
+**Experiência de uso — 29/10/2026:** [inscrições, provas e seletores de objetivo](documentation/usability-logistics-release.md). A aba Regras destaca banca, inscrições com link, prazos, taxas e modalidade. A seleção de objetivo é compartilhada entre as abas e lembrada no navegador. Treino e Simulado têm cartões equivalentes, com ações independentes.
+
 **Consolidação oficial encerrada — 29/10/2026:** [entrega, fontes e limites](documentation/official-bank-closure.md). Foram acrescentadas **18 questões oficiais (2 C/E e 16 MC)**. A decisão do usuário foi manter apenas questões oficiais e registrar as lacunas sem par compatível confirmado. Não foram criadas questões autorais.
 
 **Câmara — Comunicação/Divulgação:** **421 questões (391 C/E / 30 MC)**; mapa 192/228 direto, 32 só por descendentes e **3** subárvores vazias. Simulado 180 C/E; conjuntos 177/214.

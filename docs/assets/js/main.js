@@ -61,10 +61,21 @@
       });
     }
     const data = Catalog.parse(/** @type {any} */ (window).CONCURSOS_CATALOG);
+    const logistics = /** @type {any} */ (window).CONCURSOS_LOGISTICS;
     const study = StudyUI.mount(data, message => { element('status').textContent = message; });
     const contestSelect = /** @type {HTMLSelectElement} */ (element('contest'));
     const roleSelect = /** @type {HTMLSelectElement} */ (element('role'));
     options(contestSelect, data.contests);
+    const objectiveSelects = /** @type {NodeListOf<HTMLSelectElement>} */ (document.querySelectorAll('[data-objective-select]'));
+    for (const select of objectiveSelects) {
+      options(select, data.roles.map(role => ({id: role.id, title: data.contests.find(c=>c.id===role.contestId).title + (Catalog.rolesFor(data,role.contestId).length > 1 ? ' — ' + role.title : '')})));
+      select.addEventListener('change', () => {
+        const role = data.roles.find(r=>r.id===select.value);
+        if (!role) return;
+        contestSelect.value = role.contestId;
+        changeContest(role.id);
+      });
+    }
     const watchItems = [...element('official-watch-links').children];
     /** @returns {void} */
     function renderNotices() {
@@ -102,12 +113,15 @@
         list.append(item);
       }
       element('camara-reference-details').hidden = contest.id !== 'camara-2026';
-      for (const label of document.querySelectorAll('[data-selected-contest]')) label.textContent = contest.title;
+      for (const select of objectiveSelects) {select.value = roleSelect.value; select.title = data.roles.find(r=>r.id===roleSelect.value)?.title || '';}
+      const preferences = AppStorage.readJson(AppStorage.KEYS.preferences);
+      AppStorage.writeJson(AppStorage.KEYS.preferences, {...(preferences && typeof preferences === 'object' && !Array.isArray(preferences) ? preferences : {}), lastRoleId: roleSelect.value});
       element('official-watch-links').replaceChildren(...watchItems.filter(item=>item.getAttribute('data-contest-id')===contest.id || item.getAttribute('data-contest-id')==='all'));
       const role = data.roles.find(r=>r.id===roleSelect.value);
       const resources = (role?.referenceDocumentIds || []).map(id=>data.documents.find(d=>d.id===id)).filter(d=>d?.status==='verified' && d.officialUrl?.startsWith('https://'));
       element('role-reference-details').hidden = !resources.length;
       element('role-reference-title').textContent = 'Materiais de referência — ' + contest.title;
+      element('role-reference-note').textContent = contest.id==='abdi-2026' ? 'O planejamento original citado no edital e sua versão ajustada estão identificados separadamente. Acompanhe eventuais atualizações no portal da ABDI.' : 'Confira a edição de cada referência e os dispositivos exigidos pelo edital. Textos originais e alterações estão identificados separadamente.';
       element('role-reference-links').replaceChildren();
       for (const resource of resources) {
         const li = document.createElement('li'), link = document.createElement('a');
@@ -173,6 +187,7 @@
     }
     /** @param {string} roleId @returns {void} */
     function renderRules(roleId) {
+      renderLogistics(roleId);
       const rules = Catalog.rulesFor(data, roleId);
       element('rules-caution').hidden = rules.length === 0;
       element('rules-caution').textContent = rules.some(r=>r.blocks.every(b=>b.questionType==='multiple_choice')) ? 'Critérios da prova oficial. O treino personalizado não aplica esses critérios eliminatórios. O simulado depende de questões suficientes para todas as cotas do edital; as demais etapas da seleção não são avaliadas pelo Questionador.' : 'Estes são os critérios da prova oficial. O simulado completo verifica os mínimos; o treino personalizado não os aplica. Atingi-los não garante aprovação: também valem os limites de classificação e as demais regras do edital.';
@@ -203,6 +218,54 @@
         const source = node('details', ''); source.className = 'support-details';
         source.append(node('summary', 'Referência da regra'), node('p', rule.reference)); target.append(source);
       }
+    }
+    /** @param {string} roleId @returns {void} */
+    function renderLogistics(roleId) {
+      const target = element('contest-logistics');
+      target.replaceChildren();
+      const role = data.roles.find(r=>r.id===roleId);
+      const contest = data.contests.find(c=>c.id===role?.contestId);
+      const heading = node('h3', 'Inscrições e dia da prova'); heading.id = 'logistics-heading';
+      const header = node('div', ''); header.className = 'logistics-header';
+      const board = node('p', 'Banca organizadora: ' + (contest?.provider || 'A confirmar')); board.className = 'board-badge';
+      header.append(heading, board); target.append(header);
+      const schedule = logistics?.schedules.find(row=>row.roleId===roleId);
+      if (!schedule) {target.append(node('p', 'Cronograma ainda não cadastrado. Consulte o edital oficial.')); return;}
+      const day = value => value.slice(0,10).split('-').reverse().join('/');
+      const hour = value => value.slice(11,16).replace(':','h');
+      const link = (text,url) => {const a = node('a',text); a.href=url; a.target='_blank'; a.rel='noopener noreferrer'; return a;};
+      const cards = node('div',''); cards.className='logistics-cards';
+      const registration = node('section',''); registration.className='logistics-card registration-card';
+      registration.append(node('h4','Inscrições pela internet'));
+      const range = node('p',day(schedule.registration.start) + ' a ' + day(schedule.registration.end)); range.className='logistics-value';
+      registration.append(range,node('p','Abrem às ' + hour(schedule.registration.start) + ' · encerram às ' + hour(schedule.registration.end)));
+      registration.append(node('p','Taxa: ' + schedule.registration.feeBRL.toLocaleString('pt-BR',{style:'currency',currency:'BRL'}) + ' · pagamento até ' + day(schedule.registration.paymentDeadline)));
+      registration.append(link('Acessar inscrições no site da banca', schedule.registration.url));
+      const exam = node('section',''); exam.className='logistics-card';
+      exam.append(node('h4','Prova objetiva'));
+      const date = node('p',day(schedule.exam.date)); date.className='logistics-value';
+      const modality = node('p',schedule.exam.mode === 'remote' ? 'On-line · telepresencial' : 'Presencial'); modality.className='modality-badge';
+      exam.append(date,modality,node('p',schedule.exam.objectiveSession));
+      if (schedule.exam.discursiveSession) exam.append(node('p','Discursiva no mesmo dia: ' + schedule.exam.discursiveSession));
+      exam.append(node('p',schedule.exam.location));
+      if (schedule.exam.mode==='remote') exam.append(node('p','Teste de plataforma obrigatório. Confira as orientações abaixo.'));
+      if (schedule.exam.locationAnnouncementDate) exam.append(node('p','Divulgação da consulta aos locais: ' + day(schedule.exam.locationAnnouncementDate)));
+      cards.append(registration,exam); target.append(cards);
+      const preparation = node('details',''); preparation.className='support-details';
+      preparation.append(node('summary',schedule.exam.mode==='remote' ? 'O que preparar para a prova on-line' : 'Local e orientações para comparecer'));
+      const notes = node('ul','');
+      for (const note of schedule.exam.notes) notes.append(node('li',note));
+      preparation.append(notes); target.append(preparation);
+      const caution = node('p','Horário de Brasília. ' + (schedule.exam.provisional ? 'Data da prova prevista no edital, sujeita a alteração. ' : '') + 'Acompanhe os comunicados da banca.'); caution.className='review-note logistics-caution';
+      target.append(caution);
+      const sources = node('details',''); sources.className='support-details'; sources.append(node('summary','Fontes e atualização do cronograma'));
+      sources.append(node('p','Conferido nos editais cadastrados em ' + day(schedule.reviewedAt) + '. Esta página não consulta atualizações em tempo real.'));
+      for (const source of schedule.sources) {
+        const doc = data.documents.find(d=>d.id===source.documentId);
+        if (doc?.officialUrl) sources.append(link('Edital oficial · PDF pp. ' + source.pages.join(', '),doc.officialUrl));
+      }
+      sources.append(node('p','Inclui a conferência das retificações cadastradas na aba Editais. Inscrições, confirmação de local e acesso à prova são feitos na banca.'));
+      target.append(sources);
     }
     /** @param {string} contestId @param {string} roleId @returns {void} */
     function renderConsolidation(contestId, roleId) {
@@ -255,22 +318,26 @@
       }
     }
     /** @returns {void} */
-    function changeContest() {
+    function changeContest(preferredRoleId) {
       const roles = Catalog.rolesFor(data, contestSelect.value);
       options(roleSelect, roles.length ? roles : [{ id: '', title: 'Cargo a confirmar' }]);
       roleSelect.disabled = roles.length === 0;
+      if (roles.some(role=>role.id===preferredRoleId)) roleSelect.value=preferredRoleId;
       renderNotices();
     }
-    contestSelect.addEventListener('change', changeContest);
+    contestSelect.addEventListener('change', () => changeContest());
     roleSelect.addEventListener('change', renderNotices);
     element('show-program-references').addEventListener('change', () => {
       const checked = /** @type {HTMLInputElement} */ (element('show-program-references')).checked;
       for (const reference of document.querySelectorAll('.program-reference')) /** @type {HTMLElement} */ (reference).hidden = !checked;
     });
     const activeRole = data.roles.find(r=>r.id===study.state().active?.roleId);
-    if (activeRole) contestSelect.value = activeRole.contestId;
-    changeContest();
-    if (activeRole && roleSelect.value !== activeRole.id) {roleSelect.value = activeRole.id; renderNotices();}
+    const savedPreferences = /** @type {any} */ (AppStorage.readJson(AppStorage.KEYS.preferences));
+    const savedRole = data.roles.find(r=>r.id===savedPreferences?.lastRoleId);
+    const lastHistoryRole = data.roles.find(r=>r.id===study.state().history.at(-1)?.roleId);
+    const initialRole = savedRole || activeRole || lastHistoryRole;
+    if (initialRole) contestSelect.value = initialRole.contestId;
+    changeContest(initialRole?.id);
     if (!AppStorage.isAvailable()) {
       element('storage-warning').hidden = false;
     }

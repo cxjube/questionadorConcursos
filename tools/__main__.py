@@ -2,7 +2,8 @@
 import argparse
 import sys
 
-from tools.build import render, write_artifact
+from tools.build import render, render_logistics, write_artifact
+from tools.logistics import validate_logistics
 from tools.coverage import CURRENT_REVIEW_PATH, current_artifacts, role_artifacts
 from tools.site import check_site
 from tools.source_audit import audit_sources
@@ -24,6 +25,9 @@ def main(argv: list[str] | None = None) -> int:
     try:
         catalog = read_json(ROOT / 'data/catalog.json')
         errors = validate(catalog)
+        if not errors:
+            logistics = read_json(ROOT / 'data/contest-logistics.json')
+            errors.extend(validate_logistics(logistics, catalog))
         if not errors and args.command == 'coverage':
             if args.role and args.role not in {'abdi-comunicacao-marketing', 'cgu-auditoria'}:
                 parser.error('unsupported coverage role')
@@ -45,6 +49,13 @@ def main(argv: list[str] | None = None) -> int:
         if not errors and args.command == 'check-site':
             errors.extend(check_site(ROOT))
         if not errors and args.command in {'build', 'check-site'}:
+            logistics_content = render_logistics(logistics)
+            logistics_target = ROOT / 'docs/data/logistics.js'
+            if args.check or args.command == 'check-site':
+                if not logistics_target.is_file() or logistics_target.read_text(encoding='utf-8') != logistics_content:
+                    errors.append('published logistics is stale; run python -m tools build')
+            else:
+                write_artifact(logistics_target, logistics_content)
             content = render(catalog)
             target = ROOT / 'docs/data/catalog.js'
             if args.check or args.command == 'check-site':

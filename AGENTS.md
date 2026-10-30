@@ -93,6 +93,8 @@ Preserve pre-official-closure-catalog.json.gz (755) and pre-official-closure-sou
 
 ## Verification
 
+Latest UI delivery: read documentation/usability-logistics-release.md. Sourced operational dates live separately in data/contest-logistics.json, with schema/semantic validation and PDF quote tests; tools build generates docs/data/logistics.js and check-site guards it. Never edit that generated file. Bank catalog, keys, mappings and rule versions remain unchanged (773 official). Câmara closes17Nov2026/18h, exam17Jan2027 presencial; ABDI closes10Nov2026/18h, exam20Dec2026/13h30–17h remotely at home; CGU closes4Nov2026/18h, exam13Dec2026 presencial. All times Brasília; exact Cebraspe times/venues require future individual consultation. Four reference-tab selectors sync with the training goal and store lastRoleId in AppStorage preferences, retaining active sessions unchanged even when browsing another goal. On load valid preference wins, then active role, then last history role, then default. Keep stacked matching practice/exam cards and Personalizar left of Start on desktop. Footer identifies João Gabriel Calixto first, original Questionador/Miguel Muniz/Rubens Braz last. Browser-logistics covers all selectors, persisted goal, session preservation, blocked/invalid preferences and320/1280px light/dark/200%text.
+
 Python >=3.12, Node >=22 and Poppler pdftotext for source-fidelity tests. Install Python tooling with `uv sync --locked`; there are no Node package dependencies. Run:
 
 ```sh

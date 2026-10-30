@@ -7,7 +7,7 @@ PUBLIC_FILES = {
     '.nojekyll', 'index.html', 'assets/css/styles.css', 'assets/js/types.js',
     'assets/js/storage.js', 'assets/js/theme.js', 'assets/js/catalog.js',
     'assets/js/main.js', 'assets/js/study.js', 'assets/js/progress.js',
-    'assets/js/study-ui.js', 'data/catalog.js',
+    'assets/js/study-ui.js', 'data/catalog.js', 'data/logistics.js',
     'assets/img/questionador-logo.png',
 }
 
