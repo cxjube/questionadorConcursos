@@ -50,11 +50,10 @@ const StudyUI = (() => {
     const discipline = element('study-discipline');
     const topic = element('study-topic');
     const quantity = element('study-quantity');
-    const shuffle = element('study-shuffle');
     const paper = element('study-paper'), year = element('study-year'), format = element('study-type');
     const minutes = element('study-minutes'), scoring = element('study-scoring');
     const optionsDialog = element('study-options'), customize = element('customize-study');
-    const optionControls = {block,discipline,topic,quantity,shuffle,paper,year,format,minutes,scoring};
+    const optionControls = {block,discipline,topic,quantity,paper,year,format,minutes,scoring};
     let optionsBefore = null;
     customize.addEventListener('click',()=>{
       if (store.state.active || store.conflict || busy) return;
@@ -106,6 +105,7 @@ const StudyUI = (() => {
       optionsDialog.close(apply ? 'apply' : 'cancel');
     }
     optionsDialog.addEventListener('cancel',event=>{event.preventDefault(); closeOptions();});
+    element('close-study-options').addEventListener('click',()=>closeOptions());
     element('apply-study-options').addEventListener('click',()=>{
       if (!element('apply-study-options').disabled) closeOptions(true);
     });
@@ -125,7 +125,7 @@ const StudyUI = (() => {
       }
     }
     function resetSettings() {
-      quantity.value = ''; shuffle.checked = false; block.value = ''; paper.value = ''; year.value = ''; format.value = ''; minutes.value = ''; scoring.value = 'none';
+      quantity.value = ''; block.value = ''; paper.value = ''; year.value = ''; format.value = ''; minutes.value = ''; scoring.value = 'none';
     }
     const notice = element('progress-warning');
     const noticeText = element('progress-warning-text');
@@ -192,7 +192,7 @@ const StudyUI = (() => {
     }
     function trainingSettings() {
       return {block:block.value || null, disciplineId: discipline.value || null, topicId: topic.value || null,
-        limit: quantity.value === '' ? null : quantity.valueAsNumber, shuffle: shuffle.checked,
+        limit: quantity.value === '' ? null : quantity.valueAsNumber, shuffle: true,
         paperId:paper.value || null, year:year.value ? Number(year.value) : null, type:format.value || null,
         durationMinutes:minutes.value === '' ? null : minutes.valueAsNumber, scoringMode:scoring.value};
     }
@@ -231,6 +231,7 @@ const StudyUI = (() => {
       if ([...discipline.options].some(o => o.value === previousDiscipline && !o.disabled)) discipline.value = previousDiscipline;
       addOption(topic, '', 'Todos os assuntos');
       topic.disabled = !discipline.value;
+      element('study-topic-field').hidden = !discipline.value;
       if (discipline.value) for (const item of syllabus) {
         const row = data.topics.find(t => t.id === item.topicId);
         if (row.disciplineId !== discipline.value) continue;
@@ -270,7 +271,7 @@ const StudyUI = (() => {
       formatNote.textContent = 'Prova oficial: múltipla escolha. Neste treino: ' + eligible.filter(q=>q.type==='multiple_choice').length + ' MC e ' + eligible.filter(q=>q.type==='true_false').length + ' C/E, no formato original.';
       element('study-availability').textContent = total ? total + ' questões disponíveis neste objetivo.' : 'Ainda não há questões publicadas para este objetivo.';
       element('study-filter-status').textContent = invalidTime ? 'Escolha um tempo inteiro entre 1 e 1440 minutos.' : invalidQuantity ? 'Escolha uma quantidade entre 1 e ' + Math.min(500, count) + '.' : count ? (settings.limit || count) + ' de ' + count + ' questões disponíveis para esta seleção.' : 'Nenhuma questão disponível para esta seleção.';
-      const customized = settings.block || settings.disciplineId || settings.topicId || settings.limit !== null || settings.shuffle || settings.paperId || settings.year || settings.type || settings.durationMinutes !== null || settings.scoringMode !== 'none';
+      const customized = settings.block || settings.disciplineId || settings.topicId || settings.limit !== null || settings.paperId || settings.year || settings.type || settings.durationMinutes !== null || settings.scoringMode !== 'none';
       const selectedSummary = element('study-selection-summary');
       selectedSummary.hidden = !customized || resume;
       selectedSummary.textContent = 'Treino personalizado · ' + amount(settings.limit || count,'questão','questões') + (settings.durationMinutes ? ' · ' + settings.durationMinutes + ' min' : '') + (settings.scoringMode !== 'none' ? ' · com pontuação de treino' : '');
@@ -288,7 +289,7 @@ const StudyUI = (() => {
         view = 'active'; openWorkspace(); return;
       }
       try {
-        const session = Study.create(data, selectedRole, store.state, mode, mode === 'all' ? trainingSettings() : {});
+        const session = Study.create(data, selectedRole, store.state, mode, mode === 'all' ? trainingSettings() : mode === 'exam' ? {} : {shuffle:true});
         if (await commit({...store.state, active: session})) {
           view = 'active'; openWorkspace(); announce(store.error ? 'Sessão iniciada apenas nesta página. Exporte um backup antes de fechar.' : 'Sessão iniciada. As marcações são salvas a cada alteração; o histórico será registrado ao finalizar.');
         }
@@ -318,7 +319,6 @@ const StudyUI = (() => {
     discipline.addEventListener('change', () => { topic.value = ''; refreshFilters(); });
     topic.addEventListener('change', refreshStart);
     quantity.addEventListener('input', refreshStart);
-    shuffle.addEventListener('change', refreshStart);
     for (const control of [paper,year,format,scoring]) control.addEventListener('change',refreshStart);
     minutes.addEventListener('input',refreshStart);
     element('reset-study-filters').addEventListener('click', () => {

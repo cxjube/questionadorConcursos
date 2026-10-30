@@ -13,7 +13,7 @@ const progress = page => page.evaluate(key=>JSON.parse(localStorage.getItem(key)
    await page.locator('#customize-study').click();
    await page.locator('#study-discipline').selectOption('comunicacao-social');
    await page.locator('#study-topic').selectOption('comunicacao-social-2');
-   await page.locator('#study-quantity').fill('2');await page.locator('#study-shuffle').check();await page.locator('#apply-study-options').click();
+   await page.locator('#study-quantity').fill('2');await page.locator('#apply-study-options').click();
    await page.locator('#start-study').click();await page.locator('#finish-study').waitFor();
    for (const theme of ['light','dark']) {
     await page.locator('[data-theme-choice="'+theme+'"]').click();
@@ -48,7 +48,7 @@ const progress = page => page.evaluate(key=>JSON.parse(localStorage.getItem(key)
    assert.equal(await page.locator('#study-discipline').inputValue(),'');
    assert.equal(await page.locator('#study-topic').inputValue(),'');
    assert.equal(await page.locator('#study-quantity').inputValue(),'');
-   assert.equal(await page.locator('#study-shuffle').isChecked(),false);
+   assert.equal(await page.locator('#study-shuffle').count(),0);
    assert.equal(await page.evaluate(key=>localStorage.getItem(key),key),stored);
    await page.reload();await page.locator('#start-study:not([disabled])').waitFor();
    assert.deepEqual(await progress(page),finished);

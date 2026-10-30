@@ -245,27 +245,32 @@
       exam.append(node('h4','Prova objetiva'));
       const date = node('p',day(schedule.exam.date)); date.className='logistics-value';
       const modality = node('p',schedule.exam.mode === 'remote' ? 'On-line · telepresencial' : 'Presencial'); modality.className='modality-badge';
-      exam.append(date,modality,node('p',schedule.exam.objectiveSession));
+      const session = node('div',''); session.className='exam-session'; session.append(modality,node('p',schedule.exam.objectiveSession));
+      exam.append(date,session);
       if (schedule.exam.discursiveSession) exam.append(node('p','Discursiva no mesmo dia: ' + schedule.exam.discursiveSession));
-      exam.append(node('p',schedule.exam.location));
-      if (schedule.exam.mode==='remote') exam.append(node('p','Teste de plataforma obrigatório. Confira as orientações abaixo.'));
-      if (schedule.exam.locationAnnouncementDate) exam.append(node('p','Divulgação da consulta aos locais: ' + day(schedule.exam.locationAnnouncementDate)));
+      if (schedule.exam.mode==='remote') {
+        exam.append(node('p',schedule.exam.location),node('p','Teste de plataforma obrigatório. Veja as orientações.'));
+      } else exam.append(link('Consultar local e horários na banca',schedule.registration.url));
       cards.append(registration,exam); target.append(cards);
-      const preparation = node('details',''); preparation.className='support-details';
-      preparation.append(node('summary',schedule.exam.mode==='remote' ? 'O que preparar para a prova on-line' : 'Local e orientações para comparecer'));
+      const footer = node('div',''); footer.className='logistics-footer';
+      const caution = node('p','Horário de Brasília. ' + (schedule.exam.provisional ? 'Datas previstas no edital, sujeitas a alteração. ' : '') + 'Acompanhe a banca.'); caution.className='review-note logistics-caution';
+      footer.append(caution);
+      const preparation = node('details',''); preparation.className='logistics-details';
+      preparation.append(node('summary','Orientações e fontes oficiais'));
+      const body = node('div',''); body.className='logistics-details-body';
+      body.append(node('h4',schedule.exam.mode==='remote' ? 'Preparação para a prova on-line' : 'Local e comparecimento'));
       const notes = node('ul','');
+      if (schedule.exam.mode!=='remote') notes.append(node('li',schedule.exam.location));
+      if (schedule.exam.locationAnnouncementDate) notes.append(node('li','Divulgação da consulta aos locais: ' + day(schedule.exam.locationAnnouncementDate)));
       for (const note of schedule.exam.notes) notes.append(node('li',note));
-      preparation.append(notes); target.append(preparation);
-      const caution = node('p','Horário de Brasília. ' + (schedule.exam.provisional ? 'Data da prova prevista no edital, sujeita a alteração. ' : '') + 'Acompanhe os comunicados da banca.'); caution.className='review-note logistics-caution';
-      target.append(caution);
-      const sources = node('details',''); sources.className='support-details'; sources.append(node('summary','Fontes e atualização do cronograma'));
-      sources.append(node('p','Conferido nos editais cadastrados em ' + day(schedule.reviewedAt) + '. Esta página não consulta atualizações em tempo real.'));
+      body.append(notes,node('h4','Fontes do cronograma'));
+      body.append(node('p','Conferido nos editais cadastrados em ' + day(schedule.reviewedAt) + '. Esta página não consulta atualizações em tempo real.'));
       for (const source of schedule.sources) {
         const doc = data.documents.find(d=>d.id===source.documentId);
-        if (doc?.officialUrl) sources.append(link('Edital oficial · PDF pp. ' + source.pages.join(', '),doc.officialUrl));
+        if (doc?.officialUrl) body.append(link('Edital oficial · PDF pp. ' + source.pages.join(', '),doc.officialUrl));
       }
-      sources.append(node('p','Inclui a conferência das retificações cadastradas na aba Editais. Inscrições, confirmação de local e acesso à prova são feitos na banca.'));
-      target.append(sources);
+      body.append(node('p','Inclui as retificações cadastradas na aba Editais. Inscrições, local e acesso à prova são feitos na banca.'));
+      preparation.append(body); footer.append(preparation); target.append(footer);
     }
     /** @param {string} contestId @param {string} roleId @returns {void} */
     function renderConsolidation(contestId, roleId) {

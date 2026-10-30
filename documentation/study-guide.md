@@ -20,7 +20,7 @@ São questões anteriores relacionadas ao programa, sem garantia de cobertura, d
 
 ## Preparar uma nova sessão
 
-No resultado, o grupo **Próximo treino** fica logo abaixo dos indicadores. **Nova sessão** retorna à seleção do concurso/cargo e limpa bloco, disciplina, assunto, origem, ano, formato, quantidade, sorteio, tempo e pontuação. O resultado anterior permanece no histórico. Você pode configurar o próximo treino com calma: outra sessão só começa ao clicar em **Iniciar questões** ou confirmar **Iniciar simulado**.
+No resultado, o grupo **Próximo treino** fica logo abaixo dos indicadores. **Nova sessão** retorna à seleção do concurso/cargo e limpa bloco, disciplina, assunto, origem, ano, formato, quantidade, tempo e pontuação. O sorteio permanece automático. O resultado anterior permanece no histórico. Você pode configurar o próximo treino com calma: outra sessão só começa ao clicar em **Iniciar questões** ou confirmar **Iniciar simulado**.
 
 **Revisar erros** fica no mesmo grupo quando houver questões compatíveis com erro no último resultado finalizado para o objetivo. Sem erros, uma mensagem substitui o botão. A navegação Anterior/Próxima dentro da correção serve apenas para consultar as questões dessa tentativa.
 
@@ -50,11 +50,11 @@ Após finalizar, todos esses dezesseis itens mostram **Comentário didático**, 
 
 ## Personalizar o treino
 
-Antes de iniciar, clique em **Personalizar treino**, à esquerda de **Iniciar questões**. A janela mantém **Cancelar** e **Aplicar personalização** acessíveis enquanto os filtros rolam. Aplicar conserva as escolhas; Cancelar ou Escape restaura a configuração anterior. Nenhuma sessão começa nessa janela. Escolha o bloco P1/P2 do edital de destino, uma disciplina e, se desejar, um assunto: o recorte inclui seus subtópicos. Os números nas opções indicam questões distintas, sem multiplicar uma questão por seus vínculos. Disciplinas sem itens ficam desabilitadas; assuntos sem itens não aparecem na seleção. Consulte Programa para ver o edital completo.
+Antes de iniciar, clique em **Personalizar treino**, à esquerda de **Iniciar questões**. A janela mantém **Cancelar** e **Aplicar personalização** acessíveis enquanto os filtros rolam. Aplicar conserva as escolhas; Cancelar, o X no canto superior direito ou Escape restauram a configuração anterior. Nenhuma sessão começa nessa janela. Escolha o bloco P1/P2 do edital de destino, uma disciplina e, então, um assunto: esse campo só aparece após a escolha de uma disciplina, e o recorte inclui seus subtópicos. Os números nas opções indicam questões distintas, sem multiplicar uma questão por seus vínculos. Disciplinas sem itens ficam desabilitadas; assuntos sem itens não aparecem na seleção. Consulte Programa para ver o edital completo.
 
 Os filtros **Prova de origem**, **Ano de aplicação** e **Formato** podem ser combinados com disciplina/assunto. A origem é a prova onde a questão foi aplicada, não o concurso para o qual você estuda. Uma combinação sem itens bloqueia o início; altere os filtros ou use **Limpar filtros**. As contagens nas disciplinas/assuntos representam a oferta do banco para aquele recorte; o status abaixo mostra a interseção de todos os filtros.
 
-Preencha **Quantidade de questões** ou deixe vazio para usar todas as disponíveis. Um pedido maior que a oferta bloqueia o início e informa o limite, sem repetir questões. Marque **Sortear questões e ordem** para variar a seleção; sem essa opção, usa-se a ordem do banco. O sorteio nunca altera alternativas, comandos ou textos de apoio. **Limpar filtros** retorna à seleção completa.
+Preencha **Quantidade de questões** ou deixe vazio para usar todas as disponíveis. Um pedido maior que a oferta bloqueia o início e informa o limite, sem repetir questões. O sorteio é automático em cada novo treino: seleciona a quantidade pedida e embaralha a ordem. Se usar todas as disponíveis, embaralha o conjunto inteiro. O sorteio nunca altera alternativas, comandos ou textos de apoio. **Limpar filtros** retorna à seleção completa.
 
 Ao iniciar, as questões e sua ordem ficam salvas. Retomar mantém a mesma sessão, mesmo que você consulte outro objetivo. Os filtros ficam bloqueados enquanto houver sessão em andamento. A seleção original aparece em **Sobre esta sessão** e acompanha o backup; backups anteriores sem esses metadados continuam compatíveis.
 

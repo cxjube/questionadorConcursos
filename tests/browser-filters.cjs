@@ -20,7 +20,7 @@ const key = 'questionador-concursos.progress.v1';
    assert.equal(await page.locator('#start-study').isDisabled(),true);
    assert.equal(await page.locator('#study-quantity').getAttribute('aria-invalid'),'true');
    assert.match(await page.locator('#study-filter-status').innerText(),/entre 1 e 12/);
-   await page.locator('#study-quantity').fill('2');await page.locator('#study-shuffle').check();
+   await page.locator('#study-quantity').fill('2');
    await page.locator('#apply-study-options').click();
    for (const theme of ['light','dark']) {
     await page.locator('[data-theme-choice="'+theme+'"]').click();
