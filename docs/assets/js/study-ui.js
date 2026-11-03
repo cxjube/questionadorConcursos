@@ -138,6 +138,7 @@ const StudyUI = (() => {
       return details;
     }
     function reportError(message) {
+      element('study-feedback').classList.remove('is-success');
       element('study-feedback').hidden = false;
       element('study-feedback').textContent = message;
       announce(message);
@@ -247,6 +248,10 @@ const StudyUI = (() => {
       const settings = trainingSettings();
       const count = Study.pool(data, selectedRole, store.state, 'all', settings).length;
       const resume = Boolean(store.state.active);
+      const landingFinish = element('landing-finish');
+      landingFinish.hidden = !resume;
+      landingFinish.disabled = busy || Boolean(store.conflict);
+      landingFinish.textContent = store.state.active?.mode === 'exam' ? 'Finalizar simulado' : 'Finalizar sessão';
       const exam = Study.examAvailability(data,selectedRole);
       prepareExam.disabled = resume || !exam.ready || Boolean(store.conflict);
       prepareExam.textContent = exam.rule ? 'Preparar simulado' : 'Em preparação';
@@ -265,6 +270,7 @@ const StudyUI = (() => {
       start.disabled = (!resume && (!count || invalid)) || Boolean(store.conflict);
       element('study-filters').disabled = resume || !total;
       customize.disabled = resume || !total || Boolean(store.conflict);
+      customize.hidden = resume;
       element('apply-study-options').disabled = resume || !count || invalid || Boolean(store.conflict);
       const formatNote = element('study-format-note');
       formatNote.hidden = !data.scoringRules.some(r=>r.roleId===selectedRole && r.blocks.every(b=>b.questionType==='multiple_choice'));
@@ -297,6 +303,7 @@ const StudyUI = (() => {
       refreshStart();
     }
     start.addEventListener('click', () => begin());
+    element('landing-finish').addEventListener('click', () => requestFinish('landing'));
     function showSelection(reset = false) {
       if (reset) {
         viewedSession = null; importCandidate = null; view = 'active';
@@ -340,15 +347,18 @@ const StudyUI = (() => {
       const session = store.state.active;
       if (!session || busy || store.conflict) return;
       if (Study.expired(session)) { tick(); return; }
-      finishDestination = destination === 'selection' ? 'selection' : 'results';
+      finishDestination = destination === 'selection' || destination === 'landing' ? destination : 'results';
       const preparing = finishDestination === 'selection';
+      const fromLanding = finishDestination === 'landing';
       const answered = session.answers.filter(a => a.value !== null).length;
       const blanks = session.items.length - answered;
-      element('finish-message').textContent = answered + ' de ' + session.items.length + ' questões com resposta. ' +
+      const objective = data.contests.find(c=>c.id===session.contestId)?.title || session.objective;
+      element('finish-message').textContent = (fromLanding ? 'Sessão: ' + objective + '. ' : '') + answered + ' de ' + session.items.length + ' questões com resposta. ' +
         (blanks ? blanks + (blanks === 1 ? ' ficará em branco. ' : ' ficarão em branco. ') : '') +
-        (preparing ? 'Ao confirmar, esta tentativa será encerrada e você voltará à escolha do objetivo. O resultado ficará no histórico.' : 'Ao confirmar, o gabarito será exibido e você não poderá alterar esta tentativa.');
+        (preparing ? 'Ao confirmar, esta tentativa será encerrada e você voltará à escolha do objetivo. O resultado ficará no histórico.' : fromLanding ? 'Ao confirmar, a sessão será encerrada e o resultado ficará no histórico desse objetivo. Você não poderá alterar esta tentativa.' : 'Ao confirmar, o gabarito será exibido e você não poderá alterar esta tentativa.');
       element('finish-title').textContent = preparing ? 'Encerrar e preparar nova sessão?' : session.mode === 'exam' ? 'Finalizar simulado?' : 'Finalizar sessão?';
-      element('confirm-finish').textContent = preparing ? 'Salvar e escolher objetivo' : 'Finalizar e conferir';
+      element('confirm-finish').textContent = preparing ? 'Salvar e escolher objetivo' : fromLanding ? 'Finalizar e salvar' : 'Finalizar e conferir';
+      element('cancel-finish').textContent = fromLanding ? 'Voltar' : 'Continuar respondendo';
       element('finish-dialog').showModal();
     }
     function sessionInfo(session) {
@@ -777,8 +787,14 @@ const StudyUI = (() => {
       try { finished = Study.finish(store.state); } catch (error) { reportError(error.message); return; }
       if (await commit(finished)) {
         element('finish-dialog').close();
-        if (destination === 'selection') showSelection(true);
+        if (destination === 'selection' || destination === 'landing') showSelection(true);
         else {view = 'results'; viewedSession = id; render(); refreshStart(); content.focus();}
+        if (destination === 'landing') {
+          const session = store.state.history.find(s=>s.id===id);
+          element('study-feedback').hidden = false;
+          element('study-feedback').classList.toggle('is-success', !store.error);
+          element('study-feedback').textContent = 'Sessão finalizada. ' + summary(session) + (store.error ? ' Resultado apenas nesta página; exporte um backup.' : ' Resultado salvo no histórico de ' + (data.contests.find(c=>c.id===session.contestId)?.title || session.objective) + '.');
+        }
         announce(summary(store.state.history.find(s => s.id === id)) + (store.error ? ' Resultado apenas nesta página; exporte um backup.' : ' Resultado salvo neste navegador.') + (destination === 'selection' ? ' Escolha o objetivo do próximo treino.' : ''));
       }
     });

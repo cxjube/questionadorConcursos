@@ -391,6 +391,7 @@ button { overflow-wrap: anywhere; }
 .finish-area { margin-top: var(--space-lg); padding-top: var(--space-md); border-top: 1px solid var(--border); }
 .finish-area .study-actions { justify-content: space-between; }
 .action-feedback { padding: var(--space-sm); border-left: 3px solid var(--warn); background: var(--warn-surface); }
+.action-feedback.is-success { border-left-color: var(--correct); background: var(--correct-surface); }
 .session-list { list-style: none; padding: 0; }
 .session-list li { padding-block: var(--space-md); }
 .session-list p { margin-block: var(--space-2xs); }
@@ -416,6 +417,13 @@ button { overflow-wrap: anywhere; }
 .paper-details a { display: inline-flex; align-items: center; min-height: var(--target); }
 .footer { font-size: var(--text-xs); padding-block: var(--space-sm) var(--space-lg); }
 .footer p { margin-block: var(--space-2xs); }
+.footer-credits { display: flex; flex-wrap: wrap; gap: var(--space-3xs) var(--space-xs); }
+.footer-credits > span { min-width: 0; }
+.footer-links { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-2xs) var(--space-sm); }
+.footer-links > p { flex: 1 1 20rem; min-width: 0; }
+.github-link { display: inline-flex; align-items: center; gap: var(--space-2xs); min-height: var(--target); max-width: 100%; color: var(--text-soft); }
+.github-link svg { width: 1.25rem; height: 1.25rem; flex: 0 0 auto; fill: currentColor; }
+.github-link:hover { color: var(--text); }
 @media (max-width: 34rem) {
   .workspace-header { display: flex; }
   .workspace-tools { gap: var(--space-3xs); }

@@ -6,7 +6,7 @@ const cases=[['camara-comunicacao-divulgacao','camara-2026','17/11/2026','17/01/
  for(const [width,theme] of [[320,'light'],[1280,'light'],[320,'dark'],[1280,'dark']]){
   const context=await browser.newContext({viewport:{width,height:1100},ignoreHTTPSErrors:base.startsWith('https:')});const p=await context.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));
   await p.goto(base);await p.locator('#start-study:not([disabled])').waitFor();await p.locator('[data-theme-choice="'+theme+'"]').click();
-  const footer=await p.locator('footer p').allTextContents();assert.match(footer[0],/João Gabriel Calixto/);assert.match(footer.at(-1),/Baseado no Questionador, de Miguel Muniz e Rubens Braz/);
+  const credits=await p.locator('.footer-credits').innerText();assert.match(credits,/João Calixto/);assert.match(credits,/Baseado no Questionador, de Miguel Muniz e Rubens Braz/);assert.equal(await p.getByRole('link',{name:'Ver o projeto no GitHub'}).getAttribute('href'),'https://github.com/cxjube/questionadorConcursos');
   const cards=await p.locator('.mode-card').evaluateAll(els=>els.map(e=>({width:e.getBoundingClientRect().width,padding:getComputedStyle(e).padding,border:getComputedStyle(e).borderRadius})));assert.deepEqual(cards[0],cards[1]);
   await p.screenshot({path:'/tmp/questionador-ux/landing-'+width+'-'+theme+'.png',fullPage:true});
   await p.locator('#rules-tab').click();

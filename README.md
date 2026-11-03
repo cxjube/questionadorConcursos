@@ -14,6 +14,8 @@ Em **Personalizar treino**, você pode filtrar por disciplina, assunto, prova, a
 
 Cada novo treino sorteia as questões e a ordem. Os simulados também usam sorteio. **Retomar uma sessão mantém a ordem e as respostas já salvas.**
 
+Uma sessão em andamento também pode ser finalizada na tela inicial, com confirmação e resultado salvo no histórico.
+
 ## Concursos disponíveis
 
 | Concurso e área | Questões para treino | Simulado |
