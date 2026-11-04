@@ -419,11 +419,17 @@ button { overflow-wrap: anywhere; }
 .footer p { margin-block: var(--space-2xs); }
 .footer-credits { display: flex; flex-wrap: wrap; gap: var(--space-3xs) var(--space-xs); }
 .footer-credits > span { min-width: 0; }
-.footer-links { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-2xs) var(--space-sm); }
-.footer-links > p { flex: 1 1 20rem; min-width: 0; }
+.footer-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-2xs) var(--space-xs); }
+.footer-top > .footer-credits { flex: 1 1 36rem; min-width: 0; }
 .github-link { display: inline-flex; align-items: center; gap: var(--space-2xs); min-height: var(--target); max-width: 100%; color: var(--text-soft); }
 .github-link svg { width: 1.25rem; height: 1.25rem; flex: 0 0 auto; fill: currentColor; }
 .github-link:hover { color: var(--text); }
+.discard-button { color: var(--incorrect); }
+#finish-dialog .study-actions { justify-content: flex-end; margin-bottom: 0; }
+@media (max-width: 34rem) {
+  #finish-dialog { padding: var(--space-sm); overflow-wrap: anywhere; }
+  #finish-dialog .study-actions > button { width: 100%; min-width: 0; overflow-wrap: anywhere; }
+}
 @media (max-width: 34rem) {
   .workspace-header { display: flex; }
   .workspace-tools { gap: var(--space-3xs); }

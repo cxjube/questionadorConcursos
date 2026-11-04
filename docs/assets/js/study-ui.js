@@ -355,10 +355,11 @@ const StudyUI = (() => {
       const objective = data.contests.find(c=>c.id===session.contestId)?.title || session.objective;
       element('finish-message').textContent = (fromLanding ? 'Sessão: ' + objective + '. ' : '') + answered + ' de ' + session.items.length + ' questões com resposta. ' +
         (blanks ? blanks + (blanks === 1 ? ' ficará em branco. ' : ' ficarão em branco. ') : '') +
-        (preparing ? 'Ao confirmar, esta tentativa será encerrada e você voltará à escolha do objetivo. O resultado ficará no histórico.' : fromLanding ? 'Ao confirmar, a sessão será encerrada e o resultado ficará no histórico desse objetivo. Você não poderá alterar esta tentativa.' : 'Ao confirmar, o gabarito será exibido e você não poderá alterar esta tentativa.');
+        (preparing ? 'Ao confirmar, esta tentativa será encerrada e você voltará à escolha do objetivo. O resultado ficará no histórico.' : fromLanding ? 'Você pode salvar o resultado no histórico ou finalizar sem salvar, descartando as respostas desta sessão. O histórico anterior será mantido.' : 'Ao confirmar, o gabarito será exibido e você não poderá alterar esta tentativa.');
       element('finish-title').textContent = preparing ? 'Encerrar e preparar nova sessão?' : session.mode === 'exam' ? 'Finalizar simulado?' : 'Finalizar sessão?';
       element('confirm-finish').textContent = preparing ? 'Salvar e escolher objetivo' : fromLanding ? 'Finalizar e salvar' : 'Finalizar e conferir';
       element('cancel-finish').textContent = fromLanding ? 'Voltar' : 'Continuar respondendo';
+      element('discard-finish').hidden = !fromLanding;
       element('finish-dialog').showModal();
     }
     function sessionInfo(session) {
@@ -797,6 +798,27 @@ const StudyUI = (() => {
         }
         announce(summary(store.state.history.find(s => s.id === id)) + (store.error ? ' Resultado apenas nesta página; exporte um backup.' : ' Resultado salvo neste navegador.') + (destination === 'selection' ? ' Escolha o objetivo do próximo treino.' : ''));
       }
+    });
+    element('discard-finish').addEventListener('click', async () => {
+      if (finishDestination !== 'landing' || busy || !store.state.active || store.conflict) return;
+      if (Study.expired(store.state.active)) { tick(); return; }
+      const previous = store.state;
+      const discarded = await commit({...previous, active:null});
+      if (!discarded || (store.error && !store.readOnly)) {
+        // A failed persistent write must leave the original draft recoverable.
+        store.state = previous;
+        refreshStart(); warning();
+        const message = 'Não foi possível descartar a sessão. Suas respostas foram mantidas. ' + store.error;
+        element('finish-message').textContent = message; announce(message);
+        return;
+      }
+      element('finish-dialog').close();
+      showSelection(true);
+      const message = store.error ? 'Sessão descartada apenas nesta página. O histórico anterior foi mantido; o armazenamento local continua indisponível.' : 'Sessão descartada. Nenhum resultado foi adicionado ao histórico; os resultados anteriores foram mantidos.';
+      element('study-feedback').hidden = false;
+      element('study-feedback').classList.toggle('is-success', !store.error);
+      element('study-feedback').textContent = message;
+      announce(message);
     });
     element('confirm-clear').addEventListener('click', async () => {
       if (busy || store.conflict) return;

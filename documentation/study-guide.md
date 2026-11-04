@@ -50,7 +50,7 @@ Após finalizar, todos esses dezesseis itens mostram **Comentário didático**, 
 
 ## Finalizar sem abrir a sessão
 
-Na tela de escolha do objetivo, use **Finalizar sessão** ou **Finalizar simulado**, ao lado de Continuar. A confirmação identifica o objetivo da sessão em andamento e informa quantas respostas ficarão em branco. **Voltar** ou Escape mantém o progresso; **Finalizar e salvar** encerra a tentativa, salva o resultado no histórico e mantém a tela inicial aberta. Isso também funciona se você estiver consultando outro objetivo: a sessão encerrada é a que está em andamento, e o resultado pertence ao objetivo dela.
+Na tela de escolha do objetivo, use **Finalizar sessão** ou **Finalizar simulado**, ao lado de Continuar. A confirmação identifica o objetivo da sessão em andamento e informa quantas respostas ficarão em branco. **Voltar** ou Escape mantém o progresso. **Finalizar e salvar** encerra a tentativa e grava o resultado no histórico. **Finalizar sem salvar** descarta apenas a sessão em andamento e suas respostas, sem registrar resultado ou alterar o histórico anterior. As duas opções mantêm a tela inicial aberta. Isso também funciona se você estiver consultando outro objetivo: a sessão encerrada é a que está em andamento, e o resultado pertence ao objetivo dela.
 
 ## Personalizar o treino
 
