@@ -364,7 +364,7 @@ const StudyUI = (() => {
     }
     function sessionInfo(session) {
       const details = disclosure('session-info', 'Sobre esta sessão');
-      details.append(node('p', session.objective), node('p', 'Você pode alterar as marcações até finalizar. O gabarito aparece ao final. As sessões são salvas neste navegador quando o armazenamento está disponível.'));
+      details.append(node('p', session.objective), node('p', session.finishedAt ? 'Esta sessão está finalizada. A revisão preserva as respostas, os gabaritos e as versões registrados nessa tentativa.' : 'Você pode alterar as marcações até finalizar. O gabarito aparece ao final. As sessões são salvas neste navegador quando o armazenamento está disponível.'));
       if (session.selection && session.mode !== 'exam') details.append(node('p', [blockLabel(session.roleId, session.selection.block), session.selection.disciplineLabel || 'Todas as disciplinas', session.selection.topicLabel || 'Todos os assuntos', session.selection.paperLabel || 'Todas as provas', session.selection.year || 'Todos os anos', session.selection.type === 'true_false' ? 'Certo ou Errado' : session.selection.type === 'multiple_choice' ? 'Múltipla escolha' : 'Todos os formatos', session.items.length + ' questões', session.selection.shuffle ? 'Seleção e ordem sorteadas' : 'Ordem do banco'].join(' · ')));
       if (session.timer) details.append(node('p','Tempo limite: ' + session.timer.durationSeconds/60 + ' minutos. O tempo continua fora da página.'));
       if (session.mode === 'exam') {
@@ -375,6 +375,42 @@ const StudyUI = (() => {
       if (!Study.matches(data, session)) details.append(node('p', 'Esta sessão preserva uma versão anterior do banco e seus gabaritos.', 'review-note'));
       return details;
     }
+    function openResultQuestion(session, position) {
+      reviewPosition.set(session.id, position);
+      viewedSession = session.id; view = 'result-question'; render();
+      element('current-question-heading')?.focus({preventScroll:true});
+      element('study-title').scrollIntoView({block:'start'});
+    }
+    function showResultList(session) {
+      viewedSession = session.id; view = 'results'; render();
+      element('result-question-' + (reviewPosition.get(session.id) || 0))?.focus();
+    }
+    function resultQuestionList(session) {
+      const section = node('section',undefined,'result-question-overview');
+      const heading = node('h3','Questões da sessão'); heading.id='result-list-heading';
+      section.setAttribute('aria-labelledby',heading.id);
+      section.append(heading,node('p','A numeração segue a ordem desta sessão. Abra uma questão para conferir a resposta e o comentário.','review-note'));
+      const list = node('ol',undefined,'result-question-list'); list.id='result-questions'; list.setAttribute('role','list');
+      session.items.forEach((item,index)=>{
+        const result = Study.grade(item,Study.choiceOf(session,item.question.id));
+        const row = node('li'); row.dataset.resultIndex=String(index);
+        const status = node('span',labels[result],'result-question-status '+result);
+        const action = button('Ver questão',()=>openResultQuestion(session,index));
+        action.id='result-question-'+index;
+        action.setAttribute('aria-label','Ver questão '+(index+1)+' — '+labels[result]);
+        row.append(node('span','Questão '+(index+1),'result-question-number'),status,action);
+        list.append(row);
+      });
+      section.append(list); return section;
+    }
+    function resultQuestionNavigation(session, position) {
+      const navigation = node('nav',undefined,'result-review-navigation');
+      navigation.setAttribute('aria-label','Revisão das questões finalizadas');
+      const back = button('Voltar para a lista',()=>showResultList(session)); back.id='back-to-results';
+      const next = button('Próxima questão',()=>openResultQuestion(session,position+1),true); next.id='result-next-question';
+      next.disabled = position === session.items.length-1;
+      navigation.append(back,next); return navigation;
+    }
     function questionView(session, position, completed) {
       const item = session.items[position], q = item.question;
       const chosen = Study.choiceOf(session, q.id);
@@ -383,14 +419,14 @@ const StudyUI = (() => {
         for (const block of session.scoringProfile.rule.blocks) {
           const target = session.items.findIndex(i=>i.examBlockId===block.id);
           const action = button(block.label,async()=>{
-            if (completed) {reviewPosition.set(session.id,target); render();}
+            if (completed) {openResultQuestion(session,target); return;}
             else {
               if (!store.state.active || Study.expired(store.state.active)) {await tick(); return;}
               if (await commit({...store.state,active:Study.move(store.state.active,target)})) render();
             }
             element('current-question-heading')?.focus();
           });
-          action.dataset.examBlock = block.id; action.setAttribute('aria-pressed',String(item.examBlockId===block.id)); action.disabled = Boolean(store.conflict); navigation.append(action);
+          action.dataset.examBlock = block.id; action.setAttribute('aria-pressed',String(item.examBlockId===block.id)); action.disabled = !completed && Boolean(store.conflict); navigation.append(action);
         }
         content.append(navigation);
       }
@@ -479,21 +515,22 @@ const StudyUI = (() => {
       }
       const navigation = node('div', undefined, 'question-navigation');
       const navigate = async target => {
-        if (completed) { reviewPosition.set(session.id, target); render(); }
+        if (completed) { openResultQuestion(session,target); return; }
         else {
           if (!store.state.active || Study.expired(store.state.active)) { await tick(); return; }
           await commit({...store.state, active: Study.move(store.state.active, target)}); render();
         }
         element('current-question-heading')?.focus();
       };
-      const previous = button('Anterior', () => navigate(position - 1)); previous.disabled = position === 0 || Boolean(store.conflict);
+      const previous = button('Anterior', () => navigate(position - 1)); previous.disabled = position === 0 || (!completed && Boolean(store.conflict));
       const last = position === session.items.length - 1;
-      const next = !completed && last ? button('Revisar sessão', showReview, true) : button('Próxima', () => navigate(position + 1), !completed);
+      const next = !completed && last ? button('Revisar sessão', showReview, true) : button(completed ? 'Próxima questão' : 'Próxima', () => navigate(position + 1), true);
       previous.id = 'previous-question'; next.id = 'next-question';
-      next.disabled = (completed && last) || Boolean(store.conflict);
+      next.disabled = (completed && last) || (!completed && Boolean(store.conflict));
       navigation.setAttribute('role', 'group'); navigation.setAttribute('aria-label', 'Navegar entre questões');
       navigation.append(previous, next);
       const controls = node('div', undefined, 'question-controls'); controls.append(navigation);
+      if (completed) controls.append(button('Voltar para a lista',()=>showResultList(session)));
       if (!completed) {
         const management = node('div', undefined, 'session-management');
         if (!last) {
@@ -754,26 +791,33 @@ const StudyUI = (() => {
         const clock = node('p','Tempo restante · ' + clockText(Study.remaining(active)),'training-clock');
         clock.id='study-timer'; clock.setAttribute('role','timer'); clock.setAttribute('aria-live','off'); content.append(clock);
       }
-      element('study-title').textContent = view === 'history' ? 'Histórico' : view === 'results' ? 'Resultado' : view === 'review' ? 'Revisar sessão' : active?.mode === 'exam' ? 'Simulado' : 'Treino';
+      element('study-title').textContent = view === 'history' ? 'Histórico' : view === 'results' ? 'Resultado' : view === 'result-question' ? 'Revisão da questão' : view === 'review' ? 'Revisar sessão' : active?.mode === 'exam' ? 'Simulado' : 'Treino';
       if (view === 'history') { renderHistory(); return; }
       if (view === 'review') { renderReview(); return; }
-      const session = view === 'results' ? store.state.history.find(s => s.id === viewedSession) : store.state.active;
+      const session = view === 'results' || view === 'result-question' ? store.state.history.find(s => s.id === viewedSession) : store.state.active;
       if (!session) { view = 'history'; renderHistory(); return; }
       const objective = data.contests.find(c => c.id === session.contestId)?.title || 'Objetivo salvo nesta sessão';
       content.append(node('p', (session.mode === 'exam' ? 'Simulado para ' : 'Treino para ') + objective, 'study-kicker'));
+      if (session.finishedAt && view === 'result-question') {
+        const position = reviewPosition.get(session.id) || 0;
+        content.append(resultQuestionNavigation(session,position));
+        questionView(session,position,true);
+        content.append(sessionInfo(session));
+        return;
+      }
       if (session.finishedAt) {
         if (session.finishReason === 'time_limit') content.append(node('p','Tempo encerrado. Questões sem resposta foram registradas em branco.','review-note'));
         content.append(session.mode === 'exam' ? examResults(session) : resultMetrics(session));
         const explanation = disclosure('score-help', 'Como o resultado é calculado');
         explanation.append(node('p', summary(session)), node('p', session.mode === 'exam' ? examScoringNote(session) + ' A taxa de acerto considera apenas acertos e erros. Esta é uma seleção de treino com regras do edital, não uma reprodução histórica da prova.' : session.scoringProfile ? 'Pontuação de treino: acerto +1; erro ' + session.scoringProfile.incorrect + '; branco e anulação 0. Não é uma nota oficial nem aplica os critérios eliminatórios do edital. A taxa de acerto considera apenas acertos e erros.' : 'Este treino não tem pontuação de concurso. A taxa usa acertos e erros; brancos e anulações ficam separados. Sem respostas válidas, não há percentual.'));
-        content.append(resultActions(session), performanceView([session], session.roleId, 'session-' + session.id), explanation);
+        content.append(resultActions(session), resultQuestionList(session), performanceView([session], session.roleId, 'session-' + session.id), explanation);
       } else {
         const progress = node('div', undefined, 'session-progress');
         const bar = document.createElement('progress'); bar.max = session.items.length; bar.value = session.answers.length; bar.setAttribute('aria-label', 'Questões marcadas');
         const saved = node('span', store.error ? 'Alterações não salvas' : 'Salvo neste navegador', 'save-status'); saved.id = 'session-save-status';
         progress.append(node('span', session.answers.length + '/' + session.items.length + ' marcadas'), bar, saved); content.append(progress);
       }
-      questionView(session, session.finishedAt ? (reviewPosition.get(session.id) || 0) : session.position, Boolean(session.finishedAt));
+      if (!session.finishedAt) questionView(session, session.position, false);
       if (session.finishedAt) {
         const backup = disclosure('result-backup', 'Guardar este progresso'); backup.append(button('Exportar backup', exportProgress));
         content.append(backup);

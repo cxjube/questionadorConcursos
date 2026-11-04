@@ -32,6 +32,7 @@ A cobertura dos editais é parcial: há **57 recortes sem questão compatível c
 
 - **Treino:** filtros, tempo opcional, questões inéditas e revisão de erros ou brancos.
 - **Simulado:** quantidade, duração, pesos e critérios próprios de cada edital.
+- **Resultados:** lista das questões com acertos, erros e brancos; abra cada item para conferir a correção e navegar pela revisão.
 - **Acompanhamento:** histórico, desempenho por disciplina e assunto e evolução por período.
 - **Consulta:** programa, banca, inscrições com link, datas, modalidade das provas, editais e fontes oficiais, sempre conforme o objetivo selecionado.
 - **Interface:** adaptação a celular e computador, navegação por teclado e temas claro, escuro e automático.
