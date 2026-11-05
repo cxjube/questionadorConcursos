@@ -2,7 +2,7 @@
 const {chromium}=require('playwright'),assert=require('node:assert/strict');
 const base=process.env.APP_BASE_URL||'http://127.0.0.1:8000/',key='questionador-concursos.progress.v1';
 const state=p=>p.evaluate(k=>JSON.parse(localStorage.getItem(k)).progress,key);
-async function practice(p){await p.locator('#customize-study').click();await p.locator('#study-type').selectOption('true_false');await p.locator('#study-quantity').fill('3');await p.locator('#apply-study-options').click();await p.locator('#start-study').click();await p.locator('#finish-study').waitFor();}
+async function practice(p){await p.locator('#customize-study').click();await p.locator('#study-type').selectOption('true_false');await p.locator('#study-quantity').fill('3');await p.locator('#apply-study-options').click();await p.locator('#start-study').click();await p.locator('#apply-study-options').click();await p.locator('#finish-study').waitFor();}
 (async()=>{const b=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});try{
  for(const [width,theme] of [[320,'light'],[1280,'light'],[320,'dark'],[1280,'dark']]){
   const c=await b.newContext({viewport:{width,height:1050},ignoreHTTPSErrors:base.startsWith('https:')});const p=await c.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto(base);await p.locator('#start-study:not([disabled])').waitFor();await p.locator('[data-theme-choice="'+theme+'"]').click();

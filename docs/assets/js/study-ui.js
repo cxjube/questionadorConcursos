@@ -55,12 +55,17 @@ const StudyUI = (() => {
     const optionsDialog = element('study-options'), customize = element('customize-study');
     const optionControls = {block,discipline,topic,quantity,paper,year,format,minutes,scoring};
     let optionsBefore = null;
-    customize.addEventListener('click',()=>{
+    let optionsStart = false;
+    let optionsTrigger = customize;
+    function openOptions(startAfter = false) {
       if (store.state.active || store.conflict || busy) return;
+      optionsStart = startAfter; optionsTrigger = startAfter ? start : customize;
       optionsBefore = Object.fromEntries(Object.entries(optionControls).map(([key,control])=>[key,control.type === 'checkbox' ? control.checked : control.value]));
-      optionsDialog.returnValue = ''; optionsDialog.showModal(); block.focus({preventScroll:true});
+      element('apply-study-options').textContent = startAfter ? 'Iniciar treino' : 'Aplicar personalização';
+      optionsDialog.returnValue = ''; optionsDialog.showModal(); quantity.focus({preventScroll:true});
       optionsDialog.scrollTop = 0; optionsDialog.querySelector('.customization-body').scrollTop = 0;
-    });
+    }
+    customize.addEventListener('click',()=>openOptions());
     prepareExam.addEventListener('click',()=>{
       if (store.state.active || store.conflict || busy) return;
       const available = Study.examAvailability(data,selectedRole);
@@ -103,11 +108,18 @@ const StudyUI = (() => {
         refreshFilters(); discipline.value = previous.discipline; refreshFilters(); topic.value = previous.topic; refreshStart();
       }
       optionsDialog.close(apply ? 'apply' : 'cancel');
+      optionsStart = false;
+      optionsTrigger.focus({preventScroll:true});
     }
     optionsDialog.addEventListener('cancel',event=>{event.preventDefault(); closeOptions();});
     element('close-study-options').addEventListener('click',()=>closeOptions());
-    element('apply-study-options').addEventListener('click',()=>{
-      if (!element('apply-study-options').disabled) closeOptions(true);
+    element('apply-study-options').addEventListener('click',async()=>{
+      if (busy || store.state.active || store.conflict) return;
+      refreshStart();
+      if (element('apply-study-options').disabled) return;
+      const startAfter = optionsStart;
+      closeOptions(true);
+      if (startAfter) await begin();
     });
     const clockText = seconds => [Math.floor(seconds/3600), Math.floor(seconds%3600/60), seconds%60].map(n=>String(n).padStart(2,'0')).join(':');
     async function tick() {
@@ -125,7 +137,7 @@ const StudyUI = (() => {
       }
     }
     function resetSettings() {
-      quantity.value = ''; block.value = ''; paper.value = ''; year.value = ''; format.value = ''; minutes.value = ''; scoring.value = 'none';
+      quantity.value = '20'; block.value = ''; paper.value = ''; year.value = ''; format.value = ''; minutes.value = ''; scoring.value = 'none';
     }
     const notice = element('progress-warning');
     const noticeText = element('progress-warning-text');
@@ -261,13 +273,15 @@ const StudyUI = (() => {
       element('exam-availability').hidden = resume || exam.ready;
       element('exam-availability').textContent = exam.reason;
       quantity.max = String(Math.max(1, Math.min(500, count)));
-      const invalidQuantity = count > 0 && (quantity.validity.badInput || settings.limit !== null && (!Number.isInteger(settings.limit) || settings.limit < 1 || settings.limit > Math.min(500, count)));
+      const invalidQuantity = quantity.validity.badInput || quantity.validity.valueMissing || !Number.isInteger(settings.limit) || settings.limit < 1 || settings.limit > Math.min(500, count);
       const invalidTime = minutes.validity.badInput || settings.durationMinutes !== null && (!Number.isInteger(settings.durationMinutes) || settings.durationMinutes < 1 || settings.durationMinutes > 1440);
       const invalid = invalidQuantity || invalidTime;
       quantity.setAttribute('aria-invalid', String(invalidQuantity)); minutes.setAttribute('aria-invalid',String(invalidTime));
       start.textContent = resume ? store.state.active.mode === 'exam' ? 'Continuar simulado' : 'Continuar questões' : 'Iniciar questões';
       element('landing-history').hidden = !store.state.history.some(s=>s.roleId===selectedRole) && store.state.active?.roleId!==selectedRole;
-      start.disabled = (!resume && (!count || invalid)) || Boolean(store.conflict);
+      start.disabled = (!resume && !total) || Boolean(store.conflict);
+      start.setAttribute('aria-haspopup',resume ? 'false' : 'dialog');
+      if (resume) start.removeAttribute('aria-controls'); else start.setAttribute('aria-controls','study-options');
       element('study-filters').disabled = resume || !total;
       customize.disabled = resume || !total || Boolean(store.conflict);
       customize.hidden = resume;
@@ -276,7 +290,7 @@ const StudyUI = (() => {
       formatNote.hidden = !data.scoringRules.some(r=>r.roleId===selectedRole && r.blocks.every(b=>b.questionType==='multiple_choice'));
       formatNote.textContent = 'Prova oficial: múltipla escolha. Neste treino: ' + eligible.filter(q=>q.type==='multiple_choice').length + ' MC e ' + eligible.filter(q=>q.type==='true_false').length + ' C/E, no formato original.';
       element('study-availability').textContent = total ? total + ' questões disponíveis neste objetivo.' : 'Ainda não há questões publicadas para este objetivo.';
-      element('study-filter-status').textContent = invalidTime ? 'Escolha um tempo inteiro entre 1 e 1440 minutos.' : invalidQuantity ? 'Escolha uma quantidade entre 1 e ' + Math.min(500, count) + '.' : count ? (settings.limit || count) + ' de ' + count + ' questões disponíveis para esta seleção.' : 'Nenhuma questão disponível para esta seleção.';
+      element('study-filter-status').textContent = !count ? 'Nenhuma questão disponível para esta seleção. Ajuste os filtros.' : invalidTime ? 'Escolha um tempo inteiro entre 1 e 1440 minutos.' : invalidQuantity ? 'Escolha uma quantidade entre 1 e ' + Math.min(500, count) + '.' : settings.limit + ' de ' + count + ' questões disponíveis para esta seleção.';
       const customized = settings.block || settings.disciplineId || settings.topicId || settings.limit !== null || settings.paperId || settings.year || settings.type || settings.durationMinutes !== null || settings.scoringMode !== 'none';
       const selectedSummary = element('study-selection-summary');
       selectedSummary.hidden = !customized || resume;
@@ -302,7 +316,7 @@ const StudyUI = (() => {
       } catch (error) { reportError(error.message); }
       refreshStart();
     }
-    start.addEventListener('click', () => begin());
+    start.addEventListener('click', () => store.state.active ? begin() : openOptions(true));
     element('landing-finish').addEventListener('click', () => requestFinish('landing'));
     function showSelection(reset = false) {
       if (reset) {

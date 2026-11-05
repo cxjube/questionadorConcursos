@@ -523,7 +523,20 @@ dialog.exam-dialog { width: min(36rem, calc(100% - 2rem)); max-width: min(36rem,
 #study-options .customization-body { padding-bottom: var(--space-xs); }
 #study-options .review-note { font-size: var(--text-xs); }
 #study-options #study-topic-field .review-note { margin: var(--space-3xs) 0 0; }
-#study-options #study-filter-status { margin-block: var(--space-xs); font-size: var(--text-sm); }
+#study-options #study-filter-status { flex: 0 0 auto; margin-block: var(--space-xs); font-size: var(--text-sm); color: var(--text-soft); }
+.training-essentials { padding: var(--space-sm); background: var(--tab-selected); border: 1px solid var(--border); border-radius: var(--radius-sm); }
+#study-options h3 { margin: 0 0 var(--space-xs); font-size: var(--text-md); }
+#study-options .training-fields { margin: 0; gap: var(--space-sm); }
+#study-options .training-fields label { font-size: var(--text-sm); }
+.training-essentials .randomization-note { margin: var(--space-xs) 0 0; color: var(--text-soft); }
+.training-content-filters { padding-block: var(--space-md); }
+.training-content-filters #study-topic-field { grid-column: 1 / -1; }
+.training-extra-options { border-block: 1px solid var(--border); padding-block: var(--space-xs); }
+.training-extra-options summary { cursor: pointer; font-size: var(--text-sm); font-weight: 650; padding-block: var(--space-2xs); }
+.training-extra-options summary span { display: block; font-size: var(--text-xs); font-weight: 400; color: var(--text-soft); margin-top: var(--space-3xs); }
+#study-options .training-extra-options[open] .training-fields { margin-top: var(--space-sm); }
+#study-options #reset-study-filters { margin-top: var(--space-xs); }
+#study-options input[aria-invalid="true"] { border-color: var(--incorrect); }
 
 /* Objective setup separates practice, exam preparation and personal history. */
 .study-modes { display: grid; gap: var(--space-md); margin-block: var(--space-lg) var(--space-sm); }

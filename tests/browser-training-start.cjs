@@ -1,0 +1,131 @@
+'use strict';
+const { chromium } = require('playwright');
+const assert = require('node:assert/strict');
+const base = process.env.APP_BASE_URL || 'http://127.0.0.1:8000/';
+const key = 'questionador-concursos.progress.v1';
+const progress = p => p.evaluate(k => JSON.parse(localStorage.getItem(k))?.progress, key);
+const raw = p => p.evaluate(k => localStorage.getItem(k), key);
+
+(async () => {
+  const browser = await chromium.launch({ executablePath: '/usr/bin/chromium', headless: true, args: ['--no-sandbox'] });
+  try {
+    for (const [width, theme] of [[320, 'light'], [1280, 'light'], [320, 'dark'], [1280, 'dark']]) {
+      const context = await browser.newContext({ viewport: { width, height: 900 } });
+      const p = await context.newPage(), errors = [];
+      p.on('pageerror', e => errors.push(e.message));
+      await p.goto(base);
+      await p.locator('#start-study:not([disabled])').waitFor();
+      await p.locator('[data-theme-choice="' + theme + '"]').click();
+      const initial = await raw(p);
+      await p.locator('#start-study').click();
+      assert.equal(await p.locator('#study-options').evaluate(e => e.matches(':modal')), true);
+      assert.equal(await raw(p), initial, 'Opening configuration must not create progress or start a timer');
+      assert.equal(await p.locator('#study-quantity').inputValue(), '20');
+      assert.equal(await p.locator('#study-quantity').evaluate(e => e === document.activeElement), true);
+      assert.equal(await p.locator('#apply-study-options').innerText(), 'Iniciar treino');
+      assert.equal(await p.locator('.training-extra-options').evaluate(e => e.open), false);
+      const fields = await p.locator('#study-filters select, #study-filters input').evaluateAll(es => es.map(e => e.id));
+      assert.deepEqual(fields.slice(0, 2), ['study-quantity', 'study-type']);
+      assert.equal(await p.locator('#study-topic-field').isVisible(), false);
+      for (const value of ['', '0', '1.5', '501']) {
+        await p.locator('#study-quantity').fill(value);
+        assert.equal(await p.locator('#apply-study-options').isDisabled(), true, value);
+        assert.equal(await raw(p), initial);
+      }
+      await p.locator('#study-quantity').fill('3');
+      await p.locator('#close-study-options').click();
+      assert.equal(await p.locator('#start-study').evaluate(e => e === document.activeElement), true);
+      assert.equal(await p.locator('#study-quantity').inputValue(), '20');
+      assert.equal(await raw(p), initial);
+      await p.locator('#start-study').click();
+      await p.locator('#study-quantity').fill('4');
+      await p.keyboard.press('Escape');
+      assert.equal(await p.locator('#study-quantity').inputValue(), '20');
+      await p.locator('#start-study').click();
+      await p.locator('#study-quantity').fill('4');
+      await p.locator('#study-options [data-close-dialog]').click();
+      assert.equal(await p.locator('#study-quantity').inputValue(), '20');
+      assert.equal(await raw(p), initial);
+      await p.locator('#customize-study').click();
+      await p.locator('#study-quantity').fill('3');
+      await p.locator('#study-type').selectOption('true_false');
+      await p.locator('#apply-study-options').click();
+      assert.equal(await raw(p), initial, 'Applying customization alone does not start a session');
+      assert.equal(await p.locator('#customize-study').evaluate(e => e === document.activeElement), true);
+      await p.locator('#start-study').click();
+      assert.equal(await p.locator('#study-quantity').inputValue(), '3');
+      await p.locator('#study-discipline').selectOption('comunicacao-social');
+      assert.equal(await p.locator('#study-topic-field').isVisible(), true);
+      await p.locator('#study-discipline').selectOption('');
+      assert.equal(await p.locator('#study-topic-field').isVisible(), false);
+      await p.locator('.training-extra-options summary').click();
+      await p.locator('#study-paper').selectOption('source-232funprespexe-cb1-01');
+      await p.locator('#study-year').selectOption('2025');
+      assert.equal(await p.locator('#apply-study-options').isDisabled(), true);
+      assert.match(await p.locator('#study-filter-status').innerText(), /Nenhuma questão/);
+      await p.locator('#study-year').selectOption('2016');
+      await p.locator('#study-minutes').fill('0');
+      assert.equal(await p.locator('#apply-study-options').isDisabled(), true);
+      await p.locator('#study-minutes').fill('30');
+      await p.locator('#study-scoring').selectOption('net');
+      await p.locator('.training-extra-options summary').click();
+      for (const font of ['', '200%']) {
+        await p.evaluate(v => document.documentElement.style.fontSize = v, font);
+        assert.equal(await p.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
+        assert.equal(await p.locator('#study-options').evaluate(e => e.scrollWidth <= e.clientWidth), true);
+        await p.locator('#apply-study-options').scrollIntoViewIfNeeded();
+        assert.equal(await p.locator('#apply-study-options').evaluate(e => {
+          const r = e.getBoundingClientRect(); return r.top >= 0 && r.bottom <= innerHeight;
+        }), true);
+      }
+      await p.evaluate(() => document.documentElement.style.fontSize = '');
+      await p.locator('#study-options .customization-body').evaluate(e => e.scrollTop = 0);
+      await p.screenshot({ path: '/tmp/questionador-training-start/dialog-' + width + '-' + theme + '.png', fullPage: true });
+      await p.locator('#apply-study-options').evaluate(e => { e.click(); e.click(); });
+      await p.locator('#finish-study').waitFor();
+      const session = (await progress(p)).active;
+      assert.equal(session.items.length, 3);
+      assert.equal(session.selection.type, 'true_false');
+      assert.equal(session.selection.paperId, 'source-232funprespexe-cb1-01');
+      assert.equal(session.selection.shuffle, true);
+      assert.equal(session.timer.durationSeconds, 1800);
+      assert.equal(session.scoringProfile.incorrect, -1);
+      await p.reload();
+      await p.locator('#start-study:not([disabled])').click();
+      await p.locator('#finish-study').waitFor();
+      assert.equal(await p.locator('#study-options').isVisible(), false);
+      assert.deepEqual((await progress(p)).active, session, 'Resume preserves answers, draw and timer');
+      await p.locator('#finish-study').click();
+      await p.locator('#confirm-finish').click();
+      await p.locator('#new-session').click();
+      await p.locator('#contest').selectOption('abdi-2026');
+      await p.locator('#start-study').click();
+      assert.equal(await p.locator('#study-quantity').inputValue(), '20');
+      await p.locator('#study-type').selectOption('multiple_choice');
+      await p.locator('#study-quantity').fill('2');
+      await p.locator('#apply-study-options').click();
+      await p.locator('#finish-study').waitFor();
+      const mc = (await progress(p)).active;
+      assert.equal(mc.items.length, 2);
+      assert.equal(mc.items.every(i => i.question.type === 'multiple_choice'), true);
+      // Another tab's saved answer cancels any pending customization safely.
+      await p.locator('#study-objective').click();
+      await p.locator('#landing-finish').click();
+      await p.locator('#discard-finish').click();
+      await p.locator('#start-study').click();
+      const other = await context.newPage();
+      await other.goto(base);
+      await other.locator('#start-study:not([disabled])').click();
+      await other.locator('#apply-study-options').click();
+      await other.locator('#finish-study').waitFor();
+      assert.equal((await progress(other)).active.items.length, 20);
+      await p.locator('#progress-warning').waitFor();
+      assert.equal(await p.locator('#study-options').isVisible(), false);
+      assert.equal(await p.locator('#start-study').isDisabled(), true);
+      assert.equal((await progress(other)).history.length, 1);
+      assert.deepEqual(errors, []);
+      await context.close();
+      console.log('Training setup: explicit start, defaults, CE/MC, validation, cancellation, focus, filters, timer, resume, conflicts and reflow passed:', width, theme);
+    }
+  } finally { await browser.close(); }
+})().catch(e => { console.error(e); process.exitCode = 1; });

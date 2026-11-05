@@ -23,7 +23,7 @@ const state=p=>p.evaluate(k=>JSON.parse(localStorage.getItem(k)).progress,key);
   const orders=[];
   for(let round=0;round<2;round++){
    if(round){await p.locator('#customize-study').click();await p.locator('#study-type').selectOption('true_false');await p.locator('#study-quantity').fill('8');await p.locator('#apply-study-options').click();}
-   await p.locator('#start-study').click();await p.locator('#finish-study').waitFor();const s=(await state(p)).active;assert.equal(s.selection.shuffle,true);assert.equal(s.items.length,8);assert.equal(new Set(s.items.map(i=>i.question.id)).size,8);orders.push(s.items.map(i=>i.question.id));
+   await p.locator('#start-study').click();await p.locator('#apply-study-options').click();await p.locator('#finish-study').waitFor();const s=(await state(p)).active;assert.equal(s.selection.shuffle,true);assert.equal(s.items.length,8);assert.equal(new Set(s.items.map(i=>i.question.id)).size,8);orders.push(s.items.map(i=>i.question.id));
    await p.reload();await p.locator('#start-study:not([disabled])').waitFor();await p.locator('#start-study').click();await p.locator('#finish-study').waitFor();assert.deepEqual((await state(p)).active.items,s.items);
    await p.locator('#finish-study').click();await p.locator('#confirm-finish').click();await p.locator('#new-session').click();
   }
