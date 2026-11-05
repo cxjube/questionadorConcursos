@@ -32,7 +32,12 @@ def validate_logistics(data, catalog, root=ROOT):
         for notice_id in row['reviewedNoticeIds']:
             if notice_id not in notices or role_id not in notices[notice_id]['roleIds']:
                 errors.append('logistics: unknown or unrelated notice ' + notice_id)
-        for source in row['sources']:
+        opportunity = row['opportunity']
+        if (opportunity['reserveVacancies'] is None) == (opportunity['approvedLimit'] is None):
+            errors.append('logistics: use either a separate reserve count or an inclusive approval limit')
+        if opportunity['approvedLimit'] is not None and opportunity['approvedLimit'] < opportunity['immediateVacancies']:
+            errors.append('logistics: inclusive approval limit cannot be smaller than immediate vacancies')
+        for source in row['sources'] + opportunity['sources']:
             doc = documents.get(source['documentId'])
             if not doc or doc['status'] != 'verified' or not any(n['documentId'] == doc['id'] and role_id in n['roleIds'] for n in notices.values()):
                 errors.append('logistics: source must be a verified notice for this role')

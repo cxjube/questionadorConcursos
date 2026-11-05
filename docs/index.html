@@ -12,17 +12,17 @@
         if (theme === 'light' || theme === 'dark') document.documentElement.setAttribute('data-theme', theme);
       } catch (_) { /* Blocked storage must not prevent startup. */ }
     </script>
-    <link rel="stylesheet" href="assets/css/styles.css?v=26">
+    <link rel="stylesheet" href="assets/css/styles.css?v=27">
     <script defer src="assets/js/types.js?v=5"></script>
     <script defer src="assets/js/storage.js?v=4"></script>
     <script defer src="assets/js/theme.js?v=4"></script>
     <script defer src="assets/js/catalog.js?v=4"></script>
     <script defer src="data/catalog.js?v=43"></script>
-    <script defer src="data/logistics.js?v=1"></script>
+    <script defer src="data/logistics.js?v=2"></script>
     <script defer src="assets/js/study.js?v=28"></script>
     <script defer src="assets/js/progress.js?v=4"></script>
     <script defer src="assets/js/study-ui.js?v=35"></script>
-    <script defer src="assets/js/main.js?v=10"></script>
+    <script defer src="assets/js/main.js?v=11"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Ir para o conteúdo</a>
@@ -115,6 +115,7 @@
         <h3 class="scoring-heading">Como funciona a pontuação</h3>
         <div id="rules"></div>
         <p id="rules-caution" class="review-note">Estes são os critérios da prova oficial. O simulado completo verifica os mínimos; o treino personalizado não os aplica. Atingi-los não garante aprovação: também valem os limites de classificação e as demais regras do edital.</p>
+        <section id="contest-opportunity" class="contest-opportunity" aria-labelledby="opportunity-heading"></section>
       </section>
       <section id="consolidation-section" class="panel" role="tabpanel" aria-labelledby="consolidation-tab" tabindex="0" hidden>
         <h2 id="consolidation-heading">Editais</h2>

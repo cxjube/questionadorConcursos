@@ -23,7 +23,8 @@
           "reviewedNoticeIds",
           "registration",
           "exam",
-          "sources"
+          "sources",
+          "opportunity"
         ],
         "properties": {
           "roleId": {
@@ -184,6 +185,59 @@
                     "minLength": 1
                   }
                 }
+              }
+            }
+          },
+          "opportunity": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "immediateVacancies",
+              "reserveVacancies",
+              "approvedLimit",
+              "monthlyGrossBRL",
+              "location",
+              "note",
+              "sources",
+              "reviewedAt"
+            ],
+            "properties": {
+              "immediateVacancies": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "reserveVacancies": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "approvedLimit": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "monthlyGrossBRL": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "location": {
+                "type": "string",
+                "minLength": 1
+              },
+              "note": {
+                "type": "string",
+                "minLength": 1
+              },
+              "reviewedAt": {
+                "type": "string",
+                "format": "date"
+              },
+              "sources": {
+                "$ref": "#/properties/schedules/items/properties/sources"
               }
             }
           }

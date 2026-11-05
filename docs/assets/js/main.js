@@ -188,6 +188,7 @@
     /** @param {string} roleId @returns {void} */
     function renderRules(roleId) {
       renderLogistics(roleId);
+      renderOpportunity(roleId);
       const rules = Catalog.rulesFor(data, roleId);
       element('rules-caution').hidden = rules.length === 0;
       element('rules-caution').textContent = rules.some(r=>r.blocks.every(b=>b.questionType==='multiple_choice')) ? 'Critérios da prova oficial. O treino personalizado não aplica esses critérios eliminatórios. O simulado depende de questões suficientes para todas as cotas do edital; as demais etapas da seleção não são avaliadas pelo Questionador.' : 'Estes são os critérios da prova oficial. O simulado completo verifica os mínimos; o treino personalizado não os aplica. Atingi-los não garante aprovação: também valem os limites de classificação e as demais regras do edital.';
@@ -218,6 +219,36 @@
         const source = node('details', ''); source.className = 'support-details';
         source.append(node('summary', 'Referência da regra'), node('p', rule.reference)); target.append(source);
       }
+    }
+    /** @param {string} roleId @returns {void} */
+    function renderOpportunity(roleId) {
+      const target = element('contest-opportunity'); target.replaceChildren();
+      const info = logistics?.schedules.find(row=>row.roleId===roleId)?.opportunity;
+      target.hidden = !info;
+      if (!info) return;
+      const heading = node('h3','Vagas e remuneração'); heading.id='opportunity-heading';
+      const role = data.roles.find(row=>row.id===roleId);
+      const scope = node('p',role.title + ' · Lotação: ' + info.location); scope.className='review-note';
+      const metrics = node('dl',''); metrics.className='opportunity-metrics';
+      for (const [label,value] of [
+        ['Vagas imediatas',String(info.immediateVacancies)],
+        [info.reserveVacancies !== null ? 'Cadastro de reserva' : 'Limite de aprovados (inclui vagas imediatas)',String(info.reserveVacancies ?? info.approvedLimit)],
+        ['Remuneração inicial bruta',info.monthlyGrossBRL.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})]
+      ]) {
+        const metric = node('div',''); metric.append(node('dt',label),node('dd',value)); metrics.append(metric);
+      }
+      target.append(heading,scope,metrics,node('p',info.note));
+      const caution = node('p','Valor mensal informado no edital, antes dos descontos. Cadastro de reserva e limite de aprovados não garantem nomeação ou contratação.'); caution.className='review-note'; target.append(caution);
+      const sources = node('details',''); sources.className='support-details'; sources.append(node('summary','Fontes das vagas e da remuneração'));
+      for (const source of info.sources) {
+        const document = data.documents.find(row=>row.id===source.documentId);
+        const entry = node('p',source.reference + ' ');
+        const link = node('a','Consultar edital — PDF p. ' + source.pages.join(', '));
+        link.href = document.officialUrl; link.target='_blank'; link.rel='noopener noreferrer';
+        entry.append(link); sources.append(entry);
+      }
+      sources.append(node('p','Conferido nos editais cadastrados em ' + info.reviewedAt.split('-').reverse().join('/') + '. Os valores não são atualizados em tempo real.'));
+      target.append(sources);
     }
     /** @param {string} roleId @returns {void} */
     function renderLogistics(roleId) {

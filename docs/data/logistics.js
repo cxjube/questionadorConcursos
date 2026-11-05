@@ -56,7 +56,32 @@ window.CONCURSOS_LOGISTICS = {
             "nas capitais dos 26 estados da Federação e no"
           ]
         }
-      ]
+      ],
+      "opportunity": {
+        "immediateVacancies": 4,
+        "reserveVacancies": 9,
+        "approvedLimit": null,
+        "monthlyGrossBRL": 32070.88,
+        "location": "Brasília/DF",
+        "note": "Totais do Cargo 1 — Comunicação Social — Divulgação Institucional, somadas as modalidades de concorrência.",
+        "sources": [
+          {
+            "documentId": "camara-2026-edital-01-documento",
+            "pages": [
+              1,
+              2,
+              6
+            ],
+            "reference": "Edital nº 1: itens 1.4, 2.1 e 4.1 — lotação, remuneração e quadro do Cargo 1.",
+            "quotes": [
+              "REMUNERAÇÃO: R$ 32.070,88.",
+              "3 * 1 * * 4 6 1 2 * * 9",
+              "1.4 As vagas destinam-se a lotação exclusiva em Brasília/DF."
+            ]
+          }
+        ],
+        "reviewedAt": "2026-11-05"
+      }
     },
     {
       "roleId": "abdi-comunicacao-marketing",
@@ -110,7 +135,31 @@ window.CONCURSOS_LOGISTICS = {
             "com webcam e microfone em funcionamento"
           ]
         }
-      ]
+      ],
+      "opportunity": {
+        "immediateVacancies": 1,
+        "reserveVacancies": 8,
+        "approvedLimit": null,
+        "monthlyGrossBRL": 16034.7,
+        "location": "Brasília/DF",
+        "note": "Totais do perfil Comunicação e Marketing, somadas as modalidades de concorrência.",
+        "sources": [
+          {
+            "documentId": "abdi-2026-edital-01-documento",
+            "pages": [
+              2,
+              3
+            ],
+            "reference": "Edital nº 01/2026: itens 3.1, 3.3 e 3.4 — perfil Comunicação e Marketing, lotação e remuneração.",
+            "quotes": [
+              "API – Comunicação e Marketing 1 0 0 0 0 1 6 2 0 0 0 8",
+              "A remuneração do cargo de Analista de Produtividade e Inovação é de R$ 16.034,70",
+              "A lotação do cargo de Analista de Produtividade e Inovação, para todos os perfis, é Brasília/DF."
+            ]
+          }
+        ],
+        "reviewedAt": "2026-11-05"
+      }
     },
     {
       "roleId": "cgu-auditoria",
@@ -161,7 +210,31 @@ window.CONCURSOS_LOGISTICS = {
             "serão realizados nas 27 capitais das Unidades da Federação."
           ]
         }
-      ]
+      ],
+      "opportunity": {
+        "immediateVacancies": 20,
+        "reserveVacancies": null,
+        "approvedLimit": 81,
+        "monthlyGrossBRL": 20000,
+        "location": "Órgão Central — Distrito Federal",
+        "note": "Recorte de Auditoria no DF. O edital informa limite de 81 aprovados, incluindo as 20 vagas imediatas, e não uma quantidade separada de cadastro de reserva. Esse limite não representa 81 vagas para nomeação.",
+        "sources": [
+          {
+            "documentId": "cgu-2026-edital-01-documento",
+            "pages": [
+              2,
+              3
+            ],
+            "reference": "Edital nº 1: itens 2.1 e 4.1 — subsídio inicial e linha de Auditoria no Órgão Central/DF. O cabeçalho do quadro inclui as vagas imediatas no limite de aprovados.",
+            "quotes": [
+              "SUBSÍDIO INICIAL: R$ 20.000,00",
+              "(incluídas as vagas imediatas)",
+              "11 1 5 2 1 20 40 5 22 9 5 81"
+            ]
+          }
+        ],
+        "reviewedAt": "2026-11-05"
+      }
     }
   ]
 };

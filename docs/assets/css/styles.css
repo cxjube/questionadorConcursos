@@ -580,6 +580,15 @@ dialog.exam-dialog { width: min(36rem, calc(100% - 2rem)); max-width: min(36rem,
 .logistics-details-body p, .logistics-details-body ul { margin-block: var(--space-xs); }
 .logistics-details-body a { text-underline-offset: 0.2em; }
 .scoring-heading { margin-top: var(--space-md); padding-top: var(--space-md); border-top: 1px solid var(--border); }
+.contest-opportunity { margin-top: var(--space-md); padding-top: var(--space-md); border-top: 1px solid var(--border); }
+.contest-opportunity h3 { margin-top: 0; }
+.contest-opportunity > p { font-size: var(--text-sm); }
+.opportunity-metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-sm); margin-block: var(--space-sm); }
+.opportunity-metrics > div { min-width: 0; padding: var(--space-sm); background: var(--surface-sunken); border-radius: var(--radius-sm); }
+.opportunity-metrics dt { color: var(--text-soft); font-size: var(--text-sm); }
+.opportunity-metrics dd { margin: var(--space-xs) 0 0; font-size: var(--text-lg); font-weight: 750; overflow-wrap: anywhere; }
+.contest-opportunity a { overflow-wrap: anywhere; }
+@media (max-width: 40rem) { .opportunity-metrics { grid-template-columns: minmax(0, 1fr); } }
 @media (max-width: 40rem) {
   .mode-card, .logistics-card { padding: var(--space-sm); }
   .logistics-cards { grid-template-columns: minmax(0, 1fr); }
