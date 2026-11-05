@@ -25,7 +25,8 @@ const raw = p => p.evaluate(k => localStorage.getItem(k), key);
       assert.equal(await p.locator('#apply-study-options').innerText(), 'Iniciar treino');
       assert.equal(await p.locator('.training-extra-options').evaluate(e => e.open), false);
       const fields = await p.locator('#study-filters select, #study-filters input').evaluateAll(es => es.map(e => e.id));
-      assert.deepEqual(fields.slice(0, 2), ['study-quantity', 'study-type']);
+      assert.deepEqual(fields.slice(0, 3), ['study-quantity', 'study-type', 'study-scoring']);
+      assert.equal(await p.locator('.training-essentials #study-scoring').isVisible(), true);
       assert.equal(await p.locator('#study-topic-field').isVisible(), false);
       for (const value of ['', '0', '1.5', '501']) {
         await p.locator('#study-quantity').fill(value);
@@ -33,9 +34,11 @@ const raw = p => p.evaluate(k => localStorage.getItem(k), key);
         assert.equal(await raw(p), initial);
       }
       await p.locator('#study-quantity').fill('3');
+      await p.locator('#study-scoring').selectOption('net');
       await p.locator('#close-study-options').click();
       assert.equal(await p.locator('#start-study').evaluate(e => e === document.activeElement), true);
       assert.equal(await p.locator('#study-quantity').inputValue(), '20');
+      assert.equal(await p.locator('#study-scoring').inputValue(), 'none');
       assert.equal(await raw(p), initial);
       await p.locator('#start-study').click();
       await p.locator('#study-quantity').fill('4');

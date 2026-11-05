@@ -529,6 +529,8 @@ dialog.exam-dialog { width: min(36rem, calc(100% - 2rem)); max-width: min(36rem,
 #study-options .training-fields { margin: 0; gap: var(--space-sm); }
 #study-options .training-fields label { font-size: var(--text-sm); }
 .training-essentials .randomization-note { margin: var(--space-xs) 0 0; color: var(--text-soft); }
+.training-essentials #study-scoring-note { margin: var(--space-xs) 0 0; color: var(--text-soft); }
+@media (min-width: 48rem) { .training-essentials .training-fields { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 .training-content-filters { padding-block: var(--space-md); }
 .training-content-filters #study-topic-field { grid-column: 1 / -1; }
 .training-extra-options { border-block: 1px solid var(--border); padding-block: var(--space-xs); }

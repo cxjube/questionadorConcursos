@@ -12,7 +12,7 @@
         if (theme === 'light' || theme === 'dark') document.documentElement.setAttribute('data-theme', theme);
       } catch (_) { /* Blocked storage must not prevent startup. */ }
     </script>
-    <link rel="stylesheet" href="assets/css/styles.css?v=27">
+    <link rel="stylesheet" href="assets/css/styles.css?v=28">
     <script defer src="assets/js/types.js?v=5"></script>
     <script defer src="assets/js/storage.js?v=4"></script>
     <script defer src="assets/js/theme.js?v=4"></script>
@@ -185,7 +185,9 @@
         <div class="training-fields">
           <div><label for="study-quantity">Número de questões</label><input id="study-quantity" type="number" min="1" step="1" inputmode="numeric" value="20" required aria-describedby="study-filter-status"></div>
           <div><label for="study-type">Formato</label><div class="select-control"><select id="study-type"><option value="">Todos os formatos</option><option value="true_false">Certo ou Errado</option><option value="multiple_choice">Múltipla escolha</option></select></div></div>
+          <div><label for="study-scoring">Pontuação do treino</label><div class="select-control"><select id="study-scoring" aria-describedby="study-scoring-note"><option value="none">Sem pontuação</option><option value="right_only">Acerto +1 · erro 0</option><option value="net">Acerto +1 · erro −1</option></select></div></div>
         </div>
+        <p id="study-scoring-note" class="review-note">Pontuação apenas para treino: brancos e anulações valem zero, sem notas mínimas oficiais.</p>
         <p class="review-note randomization-note">As questões e sua ordem são sorteadas a cada novo treino.</p>
         </section>
         <section class="training-content-filters" aria-labelledby="training-content-title">
@@ -197,16 +199,15 @@
         </div>
         </section>
         <details class="training-extra-options">
-        <summary>Mais opções de treino <span>Tempo, pontuação e prova de origem</span></summary>
+        <summary>Mais opções de treino <span>Tempo e prova de origem</span></summary>
         <div class="training-fields">
           <div><label for="study-paper">Prova de origem</label><div class="select-control"><select id="study-paper"></select></div></div>
           <div><label for="study-year">Ano de aplicação</label><div class="select-control"><select id="study-year"></select></div></div>
         </div>
         <div class="training-fields training-timing">
           <div><label for="study-minutes">Tempo limite (minutos)</label><input id="study-minutes" type="number" min="1" max="1440" step="1" inputmode="numeric" placeholder="Sem limite" aria-describedby="study-timing-note"></div>
-          <div><label for="study-scoring">Pontuação do treino</label><div class="select-control"><select id="study-scoring" aria-describedby="study-timing-note"><option value="none">Sem pontuação</option><option value="right_only">Acerto +1 · erro 0</option><option value="net">Acerto +1 · erro −1</option></select></div></div>
         </div>
-        <p id="study-timing-note" class="review-note">O tempo continua ao sair ou fechar a página. Ao terminar, a sessão é encerrada automaticamente; questões sem resposta ficam em branco. A pontuação escolhida é apenas para treino: brancos e anulações valem zero, sem notas mínimas oficiais.</p>
+        <p id="study-timing-note" class="review-note">O tempo continua ao sair ou fechar a página. Ao terminar, a sessão é encerrada automaticamente; questões sem resposta ficam em branco.</p>
         </details>
         <button id="reset-study-filters" type="button" class="quiet-button">Limpar filtros</button>
       </fieldset>

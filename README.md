@@ -10,7 +10,7 @@ Estude para concursos com questões oficiais, treinos personalizados e simulados
 2. Clique em **Iniciar questões**, escolha a quantidade e o formato e confirme em **Iniciar treino**. Para seguir a composição e as regras do edital, escolha **Preparar simulado**.
 3. Consulte seus resultados em **Histórico e desempenho** e exporte um backup para guardar seu progresso.
 
-O pop-up **Personalizar treino** sugere 20 questões e permite ajustar quantidade, formato, disciplina e assunto antes de começar. **Mais opções de treino** reúne prova de origem, ano, tempo e pontuação. Os assuntos aparecem após selecionar uma disciplina. Fechar ou cancelar não inicia uma sessão.
+O pop-up **Personalizar treino** sugere 20 questões e permite ajustar quantidade, formato, pontuação, disciplina e assunto antes de começar. **Mais opções de treino** reúne prova de origem, ano e tempo. Os assuntos aparecem após selecionar uma disciplina. Fechar ou cancelar não inicia uma sessão.
 
 Cada novo treino sorteia as questões e a ordem. Os simulados também usam sorteio. **Retomar uma sessão mantém a ordem e as respostas já salvas.**
 
